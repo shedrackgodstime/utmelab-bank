@@ -2,6 +2,8 @@
 
 Date: 2026-10-25
 
+Commands in this document that use `scripts/...` run from `utmelab-bank/`.
+
 ## Current state
 
 The bank Turso database is reachable when the agent uses external network

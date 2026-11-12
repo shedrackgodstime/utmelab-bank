@@ -1,7 +1,8 @@
 # Content bank roadmap
 
 This file records the phased plan for `utmelab-bank`. Read it before starting
-new content-bank work. Work on one phase at a time.
+new content-bank work. Work on one phase at a time. Commands that use
+`scripts/...` run from `utmelab-bank/`.
 
 ## Objective
 
