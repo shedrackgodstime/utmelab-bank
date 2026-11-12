@@ -249,22 +249,22 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "verbal",
-          "tier": "warm_up"
+          "tier": "core"
         },
         "exr-69": {
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "Start from 0 and change the leading digit only after the ones place has used every symbol."
           ]
         },
         "exr-82": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "The base 14 digits run 0 to 9, then A, B, C and D."
           ]
@@ -338,7 +338,7 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "The four digits occupy the powers $7^3$, $7^2$, $7^1$ and $7^0$."
           ]
@@ -347,7 +347,7 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "Replace B by 11 before you multiply by the powers of 14."
           ]
@@ -430,16 +430,16 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "Divide 298 by 6, then divide each quotient by 6 until the quotient is 0."
           ]
         },
         "exr-122": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "The remainders include 11, which is written B in base 13."
           ]
@@ -448,7 +448,7 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "Keep dividing by 2 until the quotient reaches 0, then reverse the remainders."
           ]
@@ -524,7 +524,7 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "verbal",
-          "tier": "warm_up"
+          "tier": "core"
         }
       },
       "tags": [
@@ -586,34 +586,34 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "The ones digits add to 4, then the sixes digits add to $12_6$."
           ]
         },
         "exr-35": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Fill the legal sums first, then put 10 one place past the last filled cell."
           ]
         },
         "exr-62": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Base 12 runs 0 to 9, then A and B. The entry after B is 10."
           ]
         },
         "exr-72": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Add the ones column first and carry whenever the sum reaches 12."
           ]
@@ -622,7 +622,7 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "In base 2, $1 + 1 = 10_2$, so carry as soon as a column reaches 2."
           ]
@@ -687,16 +687,16 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "numeric",
-          "tier": "warm_up",
+          "tier": "core",
           "hints": [
             "Borrowing from the sixes place turns the 2 into $12_6$."
           ]
         },
         "exr-104": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Borrow from A to make the middle digit $11_{12}$."
           ]
@@ -705,13 +705,13 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "verbal",
-          "tier": "warm_up"
+          "tier": "core"
         },
         "exr-125": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "verbal",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Work out $9 + 6$ in base 12 before you compare the answer with the written one."
           ]
@@ -794,10 +794,10 @@
           ]
         },
         "exr-69": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Multiply by 4 first, then by 7, and add the two rows in base 12."
           ]
@@ -806,13 +806,13 @@
           "difficulty": 2,
           "marks": 2,
           "kind": "verbal",
-          "tier": "warm_up"
+          "tier": "core"
         },
         "exr-93": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "verbal",
-          "tier": "core",
+          "tier": "stretch",
           "hints": [
             "Work out $8 \\times 7$ in base 12 before you compare the answer with the written one."
           ]

@@ -8115,7 +8115,7 @@
     {
       "id": "ex-sec-1-02",
       "section_id": "sec-1",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "verbal",
       "difficulty": 2,
       "marks": 2,
@@ -8152,7 +8152,7 @@
     {
       "id": "ex-sec-1-03",
       "section_id": "sec-1",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8242,10 +8242,10 @@
     {
       "id": "ex-sec-1-04",
       "section_id": "sec-1",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Write the numbers in base 14 up to 100 14 .",
         "inline": []
@@ -8402,7 +8402,7 @@
     {
       "id": "ex-sec-2-01",
       "section_id": "sec-2",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8448,7 +8448,7 @@
     {
       "id": "ex-sec-2-02",
       "section_id": "sec-2",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8598,7 +8598,7 @@
     {
       "id": "ex-sec-3-01",
       "section_id": "sec-3",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8663,10 +8663,10 @@
     {
       "id": "ex-sec-3-02",
       "section_id": "sec-3",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Convert 45,134 to base 13.",
         "inline": []
@@ -8732,7 +8732,7 @@
     {
       "id": "ex-sec-3-03",
       "section_id": "sec-3",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8871,7 +8871,7 @@
     {
       "id": "ex-sec-4-03",
       "section_id": "sec-4",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "verbal",
       "difficulty": 2,
       "marks": 2,
@@ -8908,7 +8908,7 @@
     {
       "id": "ex-sec-5-01",
       "section_id": "sec-5",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -8990,10 +8990,10 @@
     {
       "id": "ex-sec-5-02",
       "section_id": "sec-5",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Create the addition table for base 7. Create the addition table for base 2.",
         "inline": []
@@ -9036,10 +9036,10 @@
     {
       "id": "ex-sec-5-03",
       "section_id": "sec-5",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Create the addition table for base 12.",
         "inline": []
@@ -9106,10 +9106,10 @@
     {
       "id": "ex-sec-5-04",
       "section_id": "sec-5",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Calculate 3A7 12 + 9BA 12 .",
         "inline": []
@@ -9172,7 +9172,7 @@
     {
       "id": "ex-sec-5-05",
       "section_id": "sec-5",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -9238,7 +9238,7 @@
     {
       "id": "ex-sec-6-01",
       "section_id": "sec-6",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "numeric",
       "difficulty": 2,
       "marks": 2,
@@ -9316,10 +9316,10 @@
     {
       "id": "ex-sec-6-02",
       "section_id": "sec-6",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Calculate A17 12 − 4B3 12.",
         "inline": []
@@ -9402,7 +9402,7 @@
     {
       "id": "ex-sec-6-03",
       "section_id": "sec-6",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "verbal",
       "difficulty": 2,
       "marks": 2,
@@ -9439,10 +9439,10 @@
     {
       "id": "ex-sec-6-04",
       "section_id": "sec-6",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "verbal",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Explain the error in the following calculation, and correct the error: \\[${89}_{12}+{76}_{12}={165}_{12}$\\]",
         "inline": []
@@ -9631,10 +9631,10 @@
     {
       "id": "ex-sec-7-03",
       "section_id": "sec-7",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Calculate $3{A}_{12}×{74}_{12}$ .",
         "inline": []
@@ -9714,7 +9714,7 @@
     {
       "id": "ex-sec-7-04",
       "section_id": "sec-7",
-      "tier": "warm_up",
+      "tier": "core",
       "kind": "verbal",
       "difficulty": 2,
       "marks": 2,
@@ -9752,10 +9752,10 @@
     {
       "id": "ex-sec-7-05",
       "section_id": "sec-7",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "verbal",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "Explain the error in the following calculation. Determine the correct answer: \\[${18}_{12}×{7}_{12}={126}_{12}$\\]",
         "inline": []
