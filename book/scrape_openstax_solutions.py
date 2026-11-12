@@ -2,9 +2,9 @@
 """Re-extract OpenStax exercise solutions with prose and math kept apart.
 
 Usage:
-    python3 scripts/scrape_openstax_solutions.py [module_id ...]
+    python3 book/scrape_openstax_solutions.py [module_id ...]
 
-The concept scraper (scripts/scrape_openstax_cnx.py) joins prose and maths
+The concept scraper (book/scrape_openstax_cnx.py) joins prose and maths
 into one string, which mangles a solution into something like
 "$\\sqrt{12\\cdot 3}Express the product as a single radical
 expression.\\sqrt{36}Simplify.6$". A chapter needs the solution as steps,

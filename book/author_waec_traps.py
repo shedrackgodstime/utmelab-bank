@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write the WAEC traps for the chapters whose WAEC packs report none.
 
-    python3 scripts/author_waec_traps.py
+    python3 book/author_waec_traps.py
 
 A trap is a mistake candidates make, with the correction and the evidence
 behind it. The JAMB traps for the newer Physics chapters were written first;

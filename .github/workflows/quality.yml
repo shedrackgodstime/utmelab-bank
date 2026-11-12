@@ -1,0 +1,82 @@
+# Quality gate for the content repository.
+#
+# Two independent jobs: the bank package and the book/content factory. A
+# change to one does not wait on the other's toolchain.
+
+name: quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/quality.yml"
+      - "utmelab-bank/**"
+      - "book/**"
+      - "data/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/quality.yml"
+      - "utmelab-bank/**"
+      - "book/**"
+      - "data/**"
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  bank:
+    name: Bank gate
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: utmelab-bank
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: utmelab-bank/pyproject.toml
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      - name: Format
+        run: ruff format --check src tests
+
+      - name: Lint
+        run: ruff check src tests
+
+      - name: Types
+        run: mypy src/utmelab_bank
+
+      - name: Tests
+        run: pytest
+
+  content:
+    name: Content gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Validate the chapters and the books
+        run: python3 book/validate_chapters.py
+
+      - name: The chapters match their specs
+        run: |
+          set -euo pipefail
+          for spec in data/chapter-specs/*.json; do
+            python3 book/build_chapter.py "$spec" --check
+          done

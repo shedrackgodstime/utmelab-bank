@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Scrape every College Physics 2e module that the book still needs.
 
-    python3 scripts/scrape_physics_modules.py
+    python3 book/scrape_physics_modules.py
 
 The modules that are already scraped are left alone. The images land in
 data/concepts/images, which is local staging, and the figures are referenced
@@ -29,7 +29,7 @@ def main():
         result = subprocess.run(
             [
                 sys.executable,
-                str(ROOT / "scripts/scrape_openstax_cnx.py"),
+                str(ROOT / "book/scrape_openstax_cnx.py"),
                 REPO,
                 module,
                 f"phy_{module}",

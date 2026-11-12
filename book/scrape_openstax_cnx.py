@@ -2,10 +2,10 @@
 """Convert one OpenStax CNXML module file into our concept block JSON shape.
 
 Usage:
-    python3 scripts/scrape_openstax_cnx.py <repo> <module_id> <concept_id>
+    python3 book/scrape_openstax_cnx.py <repo> <module_id> <concept_id>
 
 Example:
-    python3 scripts/scrape_openstax_cnx.py osbooks-college-algebra-bundle m49363 math_indices_logarithms
+    python3 book/scrape_openstax_cnx.py osbooks-college-algebra-bundle m49363 math_indices_logarithms
 
 Reads https://raw.githubusercontent.com/openstax/<repo>/main/modules/<module>/index.cnxml
 plus media files from <repo>/media/. Emits data/concepts/<concept_id>.json

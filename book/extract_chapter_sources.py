@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract the source material the chapter factory reads, into a tracked place.
 
-    python3 scripts/extract_chapter_sources.py
+    python3 book/extract_chapter_sources.py
 
 The factory reads two things that live outside the repository: the concept
 documents in `data/concepts/`, and the scraped solutions in
@@ -18,10 +18,10 @@ not an exercise.
     data/concepts/*.json                  the concept documents (gitignored)
     data/staging/openstax_clean_solutions.json   the solutions (gitignored)
         │
-        ▼  scripts/extract_chapter_sources.py
+        ▼  book/extract_chapter_sources.py
     data/chapter-sources/<module>.json     the source material, tracked
         │
-        ▼  scripts/build_chapter.py
+        ▼  book/build_chapter.py
     data/chapters/<chapter_id>.json        the built artifact
 """
 from __future__ import annotations

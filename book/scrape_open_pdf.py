@@ -2,7 +2,7 @@
 """Convert one openly licensed PDF chapter or lecture range into a concept file.
 
 Usage:
-    python3 scripts/scrape_open_pdf.py --pdf /tmp/book.pdf \
+    python3 book/scrape_open_pdf.py --pdf /tmp/book.pdf \
         --concept-id eng_phonetics_vowels --title "English Vowels" \
         --subject-area english_language --publisher "Mountain Top University" \
         --book "ENG 204 Introduction to General Phonetics and Phonology II" \

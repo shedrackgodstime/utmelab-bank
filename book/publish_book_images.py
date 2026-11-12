@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Publish the book's figures to the media project, and only the valid ones.
 
-    python3 scripts/publish_book_images.py --dry-run
-    python3 scripts/publish_book_images.py
+    python3 book/publish_book_images.py --dry-run
+    python3 book/publish_book_images.py
 
 The figures live in the media project under their own directory,
 `books/<book_id>/`, addressed by the sha256 of their bytes, the same
 convention the bank uses for its own figures. A figure ships only when it
-passes the checks in `scripts/book_media.py`: real image bytes, a size
+passes the checks in `book/book_media.py`: real image bytes, a size
 ceiling, and a pixel floor. The rest are recorded as rejected, with the
 reason, so the factory leaves them out and the validator can say why.
 

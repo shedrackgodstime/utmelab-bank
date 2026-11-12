@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Secrets and runtime state
+.env
+.env.*
+!.env.example
+var/
+
+# Database and replica artifacts
+*.db
+*.db-info
+*.db-journal
+*.db-changes
+*.db-log
+*.db-shm
+*.db-wal
+*.db-wal-revert
+
+# Authored content kept local, outside git
+data/notes/
+data/notes-snapshots/
+data/notes-replacements/
+data/theory/
+data/concepts/
+data/concepts-archive/
+data/concepts-handwritten-2026-11-09.tar.gz
+data/manual/
+data/staging/
+data/generated-notes/
+
+# Scratch working notes
+tmp/
+*.tmp
+*.temp.md
+NOTES.temp.md
+
+# Editor and OS leftovers
+.DS_Store
+Thumbs.db
+*.swp
+.*.swp
+.*.swo
+.*.un~
+
+# Backups: never commit
+*.bak
+*.orig
+*.rej

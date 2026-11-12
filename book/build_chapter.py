@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build a textbook chapter from a chapter spec.
 
-    python3 scripts/build_chapter.py data/chapter-specs/<chapter_id>.json
-    python3 scripts/build_chapter.py data/chapter-specs/<chapter_id>.json --check
+    python3 book/build_chapter.py data/chapter-specs/<chapter_id>.json
+    python3 book/build_chapter.py data/chapter-specs/<chapter_id>.json --check
 
 A spec carries what a human authors: the objectives, the misconceptions, the
 summary points, the formula sheet, the glossary, the exam links, and any
@@ -204,7 +204,7 @@ def source_blocks(document, module, solutions, manifest):
             published = book_media.published_for(manifest, asset)
             if published is None:
                 raise SystemExit(
-                    f"figure {asset} has not been published: run scripts/publish_book_images.py"
+                    f"figure {asset} has not been published: run book/publish_book_images.py"
                 )
             teaching.append({
                 "id": f"b-{len(teaching) + 1}",

@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """Link the question bank to the chapters, and report the coverage.
 
-    python3 scripts/link_bank.py
+    python3 book/link_bank.py
 
 For every exam link in a chapter spec, this finds the questions in the
 production bank that sit in the linked subtopic, writes their ids into the
 spec, and reports what the exam side of the book actually holds.
 
 The spec keeps the truth, so the chapter can be rebuilt without a database.
+The production credentials come from `utmelab-bank/.env`.
 """
 import json
 import sys
 from pathlib import Path
 
-import requests
+import httpx
 
 ROOT = Path(__file__).resolve().parent.parent
 SPECS = ROOT / "data/chapter-specs"
@@ -24,7 +25,7 @@ NS = {"c": "http://cnx.rice.edu/cnxml"}
 
 def load_env():
     env = {}
-    for line in (ROOT / ".env").read_text().splitlines():
+    for line in (ROOT / "utmelab-bank" / ".env").read_text().splitlines():
         line = line.strip()
         if not line or line.startswith("#") or "=" not in line:
             continue
@@ -34,8 +35,13 @@ def load_env():
 
 
 ENV = load_env()
-URL = ENV.get("TURSO_DB_URL", "")
-TOKEN = ENV.get("TURSO_DB_TOKEN") or ENV.get("TURSO_DB_TOKEN_READONLY", "")
+URL = ENV.get("TURSO_DB_URL") or ENV.get("TURSO_PROD_DATABASE_URL", "")
+TOKEN = (
+    ENV.get("TURSO_DB_TOKEN")
+    or ENV.get("TURSO_DB_TOKEN_READONLY")
+    or ENV.get("TURSO_PROD_AUTH_TOKEN_READONLY")
+    or ENV.get("TURSO_PROD_AUTH_TOKEN", "")
+)
 if URL.startswith("turso://"):
     URL = "https://" + URL[len("turso://"):]
 
@@ -46,7 +52,7 @@ def query(stmt, args=None):
     last = None
     for attempt in range(4):
         try:
-            response = requests.post(
+            response = httpx.post(
                 URL + "/v2/pipeline", json=body, headers={"Authorization": f"Bearer {TOKEN}"}, timeout=60
             )
             response.raise_for_status()

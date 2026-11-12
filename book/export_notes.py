@@ -6,9 +6,10 @@ rollback copy under data/notes-snapshots/ (gitignored) plus a manifest
 with per-note hashes and source counts. Re-run after every bulk import.
 
 Usage:
-    python3 scripts/export_notes.py [--out data/notes-snapshots] [--prefix YYYY-MM-DD-post-import]
+    python3 book/export_notes.py [--out data/notes-snapshots] [--prefix YYYY-MM-DD-post-import]
 
-Reads TURSO_DB_URL / TURSO_DB_TOKEN from .env. Never prints secrets.
+Reads the production database credentials from `utmelab-bank/.env`.
+Never prints secrets.
 """
 import argparse
 import hashlib
@@ -17,6 +18,8 @@ import re
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 
 def load_env(path: Path):
@@ -66,16 +69,20 @@ def query(endpoint: str, token: str, sql: str):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--out", default="data/notes-snapshots")
+    ap.add_argument("--out", default=str(ROOT / "data" / "notes-snapshots"))
     ap.add_argument("--prefix", default=datetime.now(timezone.utc).strftime("%Y-%m-%d-post-import"))
-    ap.add_argument("--env", default=".env")
+    ap.add_argument("--env", default=str(ROOT / "utmelab-bank" / ".env"))
     args = ap.parse_args()
 
     env = load_env(Path(args.env))
-    url = env.get("TURSO_DB_URL", "")
-    token = env.get("TURSO_DB_TOKEN", "")
+    url = env.get("TURSO_DB_URL") or env.get("TURSO_PROD_DATABASE_URL", "")
+    token = (
+        env.get("TURSO_DB_TOKEN")
+        or env.get("TURSO_PROD_AUTH_TOKEN_READONLY")
+        or env.get("TURSO_PROD_AUTH_TOKEN", "")
+    )
     if not url or not token:
-        raise SystemExit("missing TURSO_DB_URL / TURSO_DB_TOKEN in .env")
+        raise SystemExit("missing the production database credentials in utmelab-bank/.env")
     endpoint = pipeline_endpoint(url)
 
     sql = (

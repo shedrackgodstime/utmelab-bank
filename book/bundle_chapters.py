@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bundle the books and the chapters into one file the importer can read.
 
-    python3 scripts/bundle_chapters.py
+    python3 book/bundle_chapters.py
 
 The importer takes {"books": [...], "chapters": [...]}. This gathers the
 book documents and the chapter documents into that shape, so the import is one

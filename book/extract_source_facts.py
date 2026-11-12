@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pull the facts a chapter can inherit from its source.
 
-    python3 scripts/extract_source_facts.py [module_id ...]
+    python3 book/extract_source_facts.py [module_id ...]
 
 For every module it reads the CNXML and writes
 data/staging/source-facts/<module_id>.json holding the source's own learning

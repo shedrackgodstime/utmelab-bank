@@ -7,7 +7,7 @@ tier on every exercise, one section per exercise, the teaching block
 vocabulary, and the writing rules the content contract already sets.
 
 Usage:
-    python3 scripts/validate_chapters.py [data/chapters/*.json]
+    python3 book/validate_chapters.py [data/chapters/*.json]
 """
 import glob
 import json

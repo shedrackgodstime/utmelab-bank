@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assemble the exam packs.
 
-    python3 scripts/build_packs.py
+    python3 book/build_packs.py
 
 A pack is what a candidate opens for one exam, one subject and one topic. It
 holds the chapters that teach the topic, the sections that cover it, the

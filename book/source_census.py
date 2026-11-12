@@ -9,8 +9,8 @@ from pathlib import Path
 
 import httpx
 
-ROOT = Path("/home/kristency/Projects/utmelab-api/utmelab-bank")
-OUT = Path("/home/kristency/Projects/utmelab-api/data/coverage/source-census.json")
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "data/coverage/source-census.json"
 HEADERS = {"User-Agent": "utmelab-bank/2.0 (+https://utmelab.com)", "Accept": "application/json"}
 
 SUBJECTS = {

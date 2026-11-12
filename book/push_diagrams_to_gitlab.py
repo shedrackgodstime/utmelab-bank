@@ -13,6 +13,9 @@ import urllib.parse
 import urllib.request
 import urllib.error
 import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 def load_env(env_path):
     env_vars = {}
@@ -28,7 +31,7 @@ def load_env(env_path):
     return env_vars
 
 def main():
-    bank_env = load_env("utmelab-bank/.env")
+    bank_env = load_env(ROOT / "utmelab-bank" / ".env")
     token = bank_env.get("GITLAB_TOKEN") or os.environ.get("GITLAB_TOKEN")
     project = bank_env.get("GITLAB_MEDIA_REPO", "shedrackgodstime/utmelab-bank")
     host = bank_env.get("GITLAB_HOST", "gitlab.com")
@@ -39,7 +42,7 @@ def main():
 
     encoded_project = urllib.parse.quote(project, safe="")
     api_base = f"https://{host}/api/v4/projects/{encoded_project}/repository/files"
-    diagrams_dir = "data/theory/diagrams"
+    diagrams_dir = ROOT / "data/theory/diagrams"
 
     if not os.path.isdir(diagrams_dir):
         print(f"Error: {diagrams_dir} directory not found.")

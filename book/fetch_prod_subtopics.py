@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Fetch production topics/subtopics for selected exam/subject pairs (read-only).
 
-Run from utmelab-bank/ with turso-serverless installed and prod read-only creds in .env:
-  PYTHONPATH=src python3 /path/to/fetch_prod_subtopics.py --out ../data/prod-catalog-subtopics.json
+Run from the repository root with turso-serverless installed. It reads the
+production read-only credentials from `utmelab-bank/.env` and writes
+`data/prod-catalog-subtopics.json` by default:
+  python3 book/fetch_prod_subtopics.py
 """
 import argparse, json
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 def load_env(path):
     env={}
@@ -26,9 +30,9 @@ PAIRS = [
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument('--out', default='prod-catalog-subtopics.json')
+    ap.add_argument('--out', default=str(ROOT / 'data' / 'prod-catalog-subtopics.json'))
     args=ap.parse_args()
-    env=load_env('.env')
+    env=load_env(ROOT / 'utmelab-bank' / '.env')
     url=env['TURSO_PROD_DATABASE_URL']
     if url.startswith('turso://'): url='libsql://'+url[len('turso://'):]
     token=env.get('TURSO_PROD_AUTH_TOKEN_READONLY') or env['TURSO_PROD_AUTH_TOKEN']

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write the recall checks for the chapters that have none.
 
-    python3 scripts/author_recall_checks.py
+    python3 book/author_recall_checks.py
 
 A recall check is a practice item in an exam's own wording: four options, one
 answer, an explanation that says why, and the section that teaches it. The

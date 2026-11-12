@@ -19,7 +19,7 @@ Checks, per note:
   for mathematics/physics notes (pedagogical completeness)
 - Duplicate note ids rejected
 
-Usage: python3 scripts/validate_notes.py <notes.json> [--placements placements.json]
+Usage: python3 book/validate_notes.py <notes.json> [--placements placements.json]
 Without a placements file, placement validation checks shape only.
 Exit 0 if all notes pass, 1 otherwise.
 """

@@ -2,10 +2,10 @@
 """Scrape one OpenStax section page into our concept block JSON shape.
 
 Usage:
-    python3 scripts/scrape_openstax_section.py <book_slug> <section_slug> <concept_id>
+    python3 book/scrape_openstax_section.py <book_slug> <section_slug> <concept_id>
 
 Example:
-    python3 scripts/scrape_openstax_section.py college-algebra-2e 6-3-logarithmic-functions math_indices_logarithms
+    python3 book/scrape_openstax_section.py college-algebra-2e 6-3-logarithmic-functions math_indices_logarithms
 
 Reads the live OpenStax HTML (authoritative student view), extracts the
 same block types the schema defines, downloads figure assets into
