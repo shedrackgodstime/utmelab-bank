@@ -25,6 +25,7 @@
     }
   ],
   "chapters": [
+    "math_number_bases",
     "math_laws_of_indices_and_surds"
   ],
   "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
@@ -34,6 +35,13 @@
       "title": "College Algebra",
       "url": "https://github.com/openstax/osbooks-college-algebra-bundle",
       "locator": "CNXML modules m51241 and m51242",
+      "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Contemporary Mathematics",
+      "url": "https://github.com/openstax/osbooks-contemporary-mathematics",
+      "locator": "CNXML modules m00054, m00055 and m00056",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
   ]

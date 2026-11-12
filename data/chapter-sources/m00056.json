@@ -1,0 +1,5228 @@
+{
+  "module": "m00056",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-contemporary-mathematics",
+    "section": "m00056",
+    "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00056/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_number_bases_multiplication_CS_Photo_04_05_001.jpg",
+      "caption": {
+        "text": "The processes for multiplication and division are the same for arithmetic in any bases. (credit: modification of work “NCTR Intern Claire Boyle” by Danny Tucker/U.S. Food and Drug Administration, Public Domain)",
+        "inline": []
+      },
+      "alt": "A woman is solving an equation on a white board.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Learning Objectives",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-2",
+      "type": "paragraph",
+      "content": {
+        "text": "After completing this section, you should be able to:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "Just as in Addition and Subtraction in Base Systems , once we decide on a system for counting, we need to establish rules for combining the numbers we’re using. This includes the rules for multiplication and division. We are familiar with those operations in base 10. How do they change if we instead use a different base? A larger base? A smaller one?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-4",
+      "type": "paragraph",
+      "content": {
+        "text": "In this section, we use multiplication and division in bases other than 10 by referencing the processes of base 10, but applied to a new base system.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Multiplication in Bases Other Than 10",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "Multiplication is a way of representing repeated additions, regardless of what base is being used. However, different bases have different addition rules. In order to create the multiplication tables for a base other than 10, we need to rely on addition and the addition table for the base. So let’s look at multiplication in base 6.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-7",
+      "type": "paragraph",
+      "content": {
+        "text": "Multiplication still has the same meaning as it does in base 10, in that $4×6$ is 4 added to itself six times, $4×6=4+4+4+4+4+4$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-8",
+      "type": "paragraph",
+      "content": {
+        "text": "So, let’s apply that to base 6. It should be clear that 0 multiplied by anything, regardless of base, will give 0, and that 1 multiplied by anything, regardless of base, will be the value of “anything.”",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-9",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* So, we start with the table below:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-10",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-11",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Notice $2×2=4$ is there. But we didn’t hit a problematic number there (4 works fine in both base 10 and base 6). But what is $2×3$ ? If we use the repeated addition concept, $2×3=2+2+2=4+2$ . According to the base 6 addition table ( ), $4+2=10$ . So, we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-12",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "10",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "10",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Next, we need to fill in $2×4$ . Using repeated addition, $2×4=2+2+2+2=10+2=12$ (if we use our base 6 addition rules). So, we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-14",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "10",
+          "12",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "10",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "12",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 4:* Finally, $2×5=2+2+2+2+2=12+2=14$ . And so we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-16",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "10",
+          "12",
+          "14"
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "10",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "12",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "14",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-17",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 5:* A similar analysis will give us the remainder of the entries. Here is $4×5$ demonstrated: $4×5=4+4+4+4+4=12+12+4=24+4=32$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-18",
+      "type": "paragraph",
+      "content": {
+        "text": "This is done by using the addition rules from Addition and Subtraction in Base Systems , namely that $4+4=12$ , and then applying the addition processes we’ve always known, but with the base 6 table ( ). In the end, our multiplication table is as follows:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-19",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "10",
+          "12",
+          "14"
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "10",
+          "13",
+          "20",
+          "23"
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "12",
+          "20",
+          "24",
+          "32"
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "14",
+          "23",
+          "32",
+          "41"
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-20",
+      "type": "paragraph",
+      "content": {
+        "text": "Notice anything about that bottom line? Is that similar to what happens in base 10?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "To summarize the creation of a multiplication in a base other than base 10, you need the addition table of the base with which you are working. Create the table, and calculate the entries of the multiplication table by performing repeated addition in that base. The table needs to be drawn only the one time.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-22",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Creating a Multiplication Table for a Base Lower Than 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-23",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Create the multiplication table for base 7.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "*Step 1:* Let’s apply the process demonstrated and outlined above to find the base 7 multiplication table. It should be clear that 0 multiplied by anything, regardless of base, will give 0, and that 1 multiplied by anything, regardless of base, will be the value of “anything.” So, we start with the table below: * 0 1 2 3 4 5 6 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 2 0 2 4 6 3 0 3 6 4 0 4 5 0 5 6 0 6 *Step 2:* Notice $2×2=4$ is there. But we didn’t hit a problematic number there (4 works fine in both base 10 and base 6). The same is true for $2×3$ and $3×2$ , which equal 6. But what is $2×4$ ? If we use the repeated addition concept, $2×4=2+2+2+2=6+2$ . According to the base 7 addition table in the solution for , $6+2=11$ . So, we add that to our table: * 0 1 2 3 4 5 6 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 2 0 2 4 6 *11* 3 0 3 6 4 0 4 *11* 5 0 5 6 0 6 *Step 3:* Next, we need to fill in $2×5$ . Using repeated addition, $2×5=2+2+2+2+2=11+2=13$ if we use our base 7 addition rules. So, we add that to our table: * 0 1 2 3 4 5 6 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 2 0 2 4 6 11 *13* 3 0 3 6 4 0 4 11 5 0 5 *13* 6 0 6 *Step 4:* Finally, $2×6=2+2+2+2+2+2+2=13+2=15$ . And so we add that to our table: * 0 1 2 3 4 5 6 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 2 0 2 4 6 11 13 *15* 3 0 3 6 4 0 4 11 5 0 5 13 6 0 6 *15* *Step 5:* A similar analysis will give us the remainder of the entries. Here is ${4}_{7}×{5}_{7}$ demonstrated: \\[${4}_{7}×{5}_{7}={4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}={11}_{7}+{11}_{7}+{4}_{7}={22}_{7}+{4}_{7}={26}_{7}$\\] This is done by using the addition rules from Addition and Subtraction in Base Systems , namely that ${4}_{7}+{4}_{7}={11}_{7}$ and then applying the addition processes we’ve always known, but with the base 7 table in the solution for . Using those addition rules, the rest of the table is given below: * 0 1 2 3 4 5 6 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 2 0 2 4 6 11 13 15 3 0 3 6 12 15 21 24 4 0 4 11 15 22 26 33 5 0 5 13 21 26 34 42 6 0 6 15 24 33 42 51",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-24",
+      "type": "paragraph",
+      "content": {
+        "text": "Create the multiplication table for base 7.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-25",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* Let’s apply the process demonstrated and outlined above to find the base 7 multiplication table. It should be clear that 0 multiplied by anything, regardless of base, will give 0, and that 1 multiplied by anything, regardless of base, will be the value of “anything.” So, we start with the table below:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-26",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 8 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-27",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Notice $2×2=4$ is there. But we didn’t hit a problematic number there (4 works fine in both base 10 and base 6). The same is true for $2×3$ and $3×2$ , which equal 6. But what is $2×4$ ? If we use the repeated addition concept, $2×4=2+2+2+2=6+2$ . According to the base 7 addition table in the solution for , $6+2=11$ . So, we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-28",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "*11*",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "*11*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 8 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-29",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Next, we need to fill in $2×5$ . Using repeated addition, $2×5=2+2+2+2+2=11+2=13$ if we use our base 7 addition rules. So, we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-30",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "11",
+          "*13*",
+          ""
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "*13*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 8 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-31",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 4:* Finally, $2×6=2+2+2+2+2+2+2=13+2=15$ . And so we add that to our table:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-32",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "11",
+          "13",
+          "*15*"
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "13",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "*15*",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 8 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 5:* A similar analysis will give us the remainder of the entries. Here is ${4}_{7}×{5}_{7}$ demonstrated: \\[${4}_{7}×{5}_{7}={4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}={11}_{7}+{11}_{7}+{4}_{7}={22}_{7}+{4}_{7}={26}_{7}$\\]",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-34",
+      "type": "paragraph",
+      "content": {
+        "text": "This is done by using the addition rules from Addition and Subtraction in Base Systems , namely that ${4}_{7}+{4}_{7}={11}_{7}$ and then applying the addition processes we’ve always known, but with the base 7 table in the solution for . Using those addition rules, the rest of the table is given below:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-35",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "11",
+          "13",
+          "15"
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "12",
+          "15",
+          "21",
+          "24"
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "11",
+          "15",
+          "22",
+          "26",
+          "33"
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "13",
+          "21",
+          "26",
+          "34",
+          "42"
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "15",
+          "24",
+          "33",
+          "42",
+          "51"
+        ]
+      ],
+      "alt": "Table with 8 rows",
+      "level": "core"
+    },
+    {
+      "id": "ex-36",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Creating a Multiplication Table for a Base Higher Than 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-37",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Create the multiplication table for base 12.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Let’s apply the repeated addition to base 12. Here is ${7}_{12}×{9}_{12}$ demonstrated: \\[${7}_{12}×{9}_{12}={7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}={12}_{12}+{12}_{12}+{12}_{12}+{12}_{12}+{7}_{12}={48}_{12}+{7}_{12}={53}_{12}$\\] This is done by using the addition rules from Addition and Subtraction in Base Systems , namely that ${7}_{12}+{7}_{12}={12}_{12}$ and then applying the addition processes we’ve always known, but with the base 12 table in the solution for . Using those addition rules, the rest of the table is given below: * 0 1 2 3 4 5 6 7 8 9 A B 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 3 4 5 6 7 8 9 A B 2 0 2 4 6 8 A 10 12 14 16 18 1A 3 0 3 6 9 10 13 16 19 20 23 26 29 4 0 4 8 10 14 18 20 24 28 30 34 38 5 0 5 A 13 18 21 26 2B 34 39 42 47 6 0 6 10 16 20 26 30 36 40 46 50 56 7 0 7 12 19 24 2B 36 41 48 53 5A 65 8 0 8 14 20 28 34 40 48 54 60 68 74 9 0 9 16 23 30 39 46 53 60 69 76 83 A 0 A 18 26 34 42 50 5A 68 76 84 92 B 0 B 1A 29 38 47 56 65 74 83 92 A1 Base 12 Multiplication Table",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-38",
+      "type": "paragraph",
+      "content": {
+        "text": "Create the multiplication table for base 12.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "Let’s apply the repeated addition to base 12. Here is ${7}_{12}×{9}_{12}$ demonstrated: \\[${7}_{12}×{9}_{12}={7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}={12}_{12}+{12}_{12}+{12}_{12}+{12}_{12}+{7}_{12}={48}_{12}+{7}_{12}={53}_{12}$\\]",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-40",
+      "type": "paragraph",
+      "content": {
+        "text": "This is done by using the addition rules from Addition and Subtraction in Base Systems , namely that ${7}_{12}+{7}_{12}={12}_{12}$ and then applying the addition processes we’ve always known, but with the base 12 table in the solution for . Using those addition rules, the rest of the table is given below:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-41",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B"
+        ],
+        [
+          "2",
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "A",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18",
+          "1A"
+        ],
+        [
+          "3",
+          "0",
+          "3",
+          "6",
+          "9",
+          "10",
+          "13",
+          "16",
+          "19",
+          "20",
+          "23",
+          "26",
+          "29"
+        ],
+        [
+          "4",
+          "0",
+          "4",
+          "8",
+          "10",
+          "14",
+          "18",
+          "20",
+          "24",
+          "28",
+          "30",
+          "34",
+          "38"
+        ],
+        [
+          "5",
+          "0",
+          "5",
+          "A",
+          "13",
+          "18",
+          "21",
+          "26",
+          "2B",
+          "34",
+          "39",
+          "42",
+          "47"
+        ],
+        [
+          "6",
+          "0",
+          "6",
+          "10",
+          "16",
+          "20",
+          "26",
+          "30",
+          "36",
+          "40",
+          "46",
+          "50",
+          "56"
+        ],
+        [
+          "7",
+          "0",
+          "7",
+          "12",
+          "19",
+          "24",
+          "2B",
+          "36",
+          "41",
+          "48",
+          "53",
+          "5A",
+          "65"
+        ],
+        [
+          "8",
+          "0",
+          "8",
+          "14",
+          "20",
+          "28",
+          "34",
+          "40",
+          "48",
+          "54",
+          "60",
+          "68",
+          "74"
+        ],
+        [
+          "9",
+          "0",
+          "9",
+          "16",
+          "23",
+          "30",
+          "39",
+          "46",
+          "53",
+          "60",
+          "69",
+          "76",
+          "83"
+        ],
+        [
+          "A",
+          "0",
+          "A",
+          "18",
+          "26",
+          "34",
+          "42",
+          "50",
+          "5A",
+          "68",
+          "76",
+          "84",
+          "92"
+        ],
+        [
+          "B",
+          "0",
+          "B",
+          "1A",
+          "29",
+          "38",
+          "47",
+          "56",
+          "65",
+          "74",
+          "83",
+          "92",
+          "A1"
+        ]
+      ],
+      "alt": "Table with 13 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-42",
+      "type": "paragraph",
+      "content": {
+        "text": "The multiplication table in base 2 below is as minimal as the addition table in the solution for . Since the product of 1 with anything is itself, the following multiplication table is found.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-43",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "As with the addition table, we can use the multiplication tables and the addition tables to perform multiplication of two numbers in bases other than base 10. The process is the same, with the same carry rules and placeholder rules.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-45",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Multiplying in a Base Lower Than 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-46",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Calculate ${45}_{6}×{24}_{6}$ . Calculate ${101}_{2}×{110}_{2}$ .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "*Step 1:* Use the base 6 multiplication table ( ) and, when necessary, the base 6 addition table ( ). Set up this calculation using columns: 4 5 x 2 4 *Step 2:* Multiply the 1s digits, 5 and 4, using the base 6 multiplication table ( ). There we see the result is 32 6 . So, we enter the 2 and carry the 3. *3* 4 5 x 2 4 *2* *Step 3:* So, now we multiply the 4 and the 4, then add the 3 (just as you would do if multiplying two base 10 numbers!). ${4}_{6}×{4}_{6}={24}_{6}$ (from the base 6 table [ ]), then ${24}_{6}+{3}_{6}={31}_{6}$ . So, we enter the 31. 3 4 5 x 2 4 *3* *1* 2 *Step 4:* Now we move on to the 2 in the “tens” place in the bottom value. We multiply the 2 6 and the 5 6 , and we get 14 6 . So, we enter the 4 and carry the 1. *Step 5:* Next up, we multiply the 2 and the 4, and then add 1. This gives us ${12}_{6}+{1}_{6}={13}_{6}$ . We enter those on that second line. 1 4 5 x 2 4 3 1 2 *1* *3* 4 0 *Step 6:* Now we add down the columns. 1 4 5 x 2 4 *1* 3 1 2 1 3 4 0 2 0 5 2 *Step 7:* The 3 and the 3 add to 10 in base 6, so we enter the 0 and carry the 1. We now have the result: ${45}_{6}×{24}_{6}={2052}_{6}$ . *Step 1:* Use the base 2 multiplication table ( ) and, when necessary, the base 2 addition table in the solution for . Set up this calculation using columns: 1 0 1 x 1 1 0 *Step 2:* Using the pattern established above, and the processes from multiplication from base 10, we find the following: 1 0 1 x 1 1 0 0 0 0 1 0 1 1 0 1 *Step 3:* Adding down the columns results in the following: 1 0 1 x 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 1 0 So, ${101}_{2}×{110}_{2}={11110}_{2}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-47",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* Use the base 6 multiplication table ( ) and, when necessary, the base 6 addition table ( ).",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "Set up this calculation using columns: 4 5 x 2 4",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-49",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "4",
+          "5"
+        ],
+        [
+          "x",
+          "2",
+          "4"
+        ]
+      ],
+      "alt": "Table with 2 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Multiply the 1s digits, 5 and 4, using the base 6 multiplication table ( ). There we see the result is 32 6 . So, we enter the 2 and carry the 3. *3* 4 5 x 2 4 *2*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-51",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "*3*",
+          ""
+        ],
+        [
+          "",
+          "4",
+          "5"
+        ],
+        [
+          "x",
+          "2",
+          "4"
+        ],
+        [
+          "",
+          "",
+          "*2*"
+        ]
+      ],
+      "alt": "Table with 4 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-52",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* So, now we multiply the 4 and the 4, then add the 3 (just as you would do if multiplying two base 10 numbers!). ${4}_{6}×{4}_{6}={24}_{6}$ (from the base 6 table [ ]), then ${24}_{6}+{3}_{6}={31}_{6}$ . So, we enter the 31. 3 4 5 x 2 4 *3* *1* 2",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-53",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "3",
+          ""
+        ],
+        [
+          "",
+          "4",
+          "5"
+        ],
+        [
+          "x",
+          "2",
+          "4"
+        ],
+        [
+          "*3*",
+          "*1*",
+          "2"
+        ]
+      ],
+      "alt": "Table with 4 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-54",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 4:* Now we move on to the 2 in the “tens” place in the bottom value. We multiply the 2 6 and the 5 6 , and we get 14 6 . So, we enter the 4 and carry the 1.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_number_bases_multiplication_CS_figure_04_05_001.png",
+      "caption": {
+        "text": "An equation, 45 times 24. Above the 4 in 45 is the carried 1. Below the equation are 312 and 40. A callout pointing to the 0 in 40 reads, Remember, on line two, you place a 0 in that far right spot, as a placeholder.",
+        "inline": []
+      },
+      "alt": "An equation, 45 times 24. Above the 4 in 45 is the carried 1. Below the equation are 312 and 40. A callout pointing to the 0 in 40 reads, Remember, on line two, you place a 0 in that far right spot, as a placeholder.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 5:* Next up, we multiply the 2 and the 4, and then add 1. This gives us ${12}_{6}+{1}_{6}={13}_{6}$ . We enter those on that second line. 1 4 5 x 2 4 3 1 2 *1* *3* 4 0",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-57",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "1",
+          ""
+        ],
+        [
+          "",
+          "",
+          "4",
+          "5"
+        ],
+        [
+          "",
+          "x",
+          "2",
+          "4"
+        ],
+        [
+          "",
+          "3",
+          "1",
+          "2"
+        ],
+        [
+          "*1*",
+          "*3*",
+          "4",
+          "0"
+        ]
+      ],
+      "alt": "Table with 5 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-58",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 6:* Now we add down the columns. 1 4 5 x 2 4 *1* 3 1 2 1 3 4 0 2 0 5 2",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-59",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "1",
+          ""
+        ],
+        [
+          "",
+          "",
+          "4",
+          "5"
+        ],
+        [
+          "",
+          "x",
+          "2",
+          "4"
+        ],
+        [
+          "*1*",
+          "3",
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "3",
+          "4",
+          "0"
+        ],
+        [
+          "2",
+          "0",
+          "5",
+          "2"
+        ]
+      ],
+      "alt": "Table with 6 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-60",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 7:* The 3 and the 3 add to 10 in base 6, so we enter the 0 and carry the 1. We now have the result:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-61",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "x",
+          "1",
+          "1",
+          "0"
+        ]
+      ],
+      "alt": "Table with 2 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-62",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Using the pattern established above, and the processes from multiplication from base 10, we find the following: 1 0 1 x 1 1 0 0 0 0 1 0 1 1 0 1",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-63",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "x",
+          "",
+          "",
+          "1",
+          "1",
+          "0"
+        ],
+        [
+          "",
+          "",
+          "",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "",
+          "",
+          "1",
+          "0",
+          "1",
+          ""
+        ],
+        [
+          "",
+          "1",
+          "0",
+          "1",
+          "",
+          ""
+        ]
+      ],
+      "alt": "Table with 5 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-64",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Adding down the columns results in the following: 1 0 1 x 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 1 0",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-65",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "x",
+          "",
+          "",
+          "1",
+          "1",
+          "0"
+        ],
+        [
+          "",
+          "",
+          "",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "",
+          "",
+          "1",
+          "0",
+          "1",
+          ""
+        ],
+        [
+          "",
+          "1",
+          "0",
+          "1",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ],
+      "alt": "Table with 6 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-66",
+      "type": "paragraph",
+      "content": {
+        "text": "So, ${101}_{2}×{110}_{2}={11110}_{2}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-67",
+      "type": "paragraph",
+      "content": {
+        "text": "Summarizing the process of multiplying two numbers in different bases, the multiplication table is referenced. Using that table, the multiplication is carried out in the same manner as it is in base 10. The addition rules for the base will also be referenced when carrying a 1 or when adding the results for each digit’s multiplication line.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-68",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Multiplying in a Base Higher Than 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-69",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Calculate $3{A}_{12}×{74}_{12}$ .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "*Step 1:* Use the base 12 multiplication table in the solution for and, when necessary, the base 12 addition table in the solution for . Set up this calculation using columns: 3 A × 7 4 *Step 2:* First, the 4 is multiplied by 3A, resulting in the first line. 3 A × 7 4 *1* *3* *4* *Step 3:* Now we move on to the 7 in the “tens” place in the bottom value. 5 3 A x 7 4 1 3 4 *2* *2* *A* *0* *Step 4:* Now we add down the columns. 3 A x 7 4 1 3 4 2 2 A 0 *2* *4* *1* *4* *Step 5:* The 3 and the A add to 11 in base 12, so we enter the 1 and carry the 1. We now have the result: $3{A}_{12}×{74}_{12}={2414}_{12}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-70",
+      "type": "paragraph",
+      "content": {
+        "text": "Calculate $3{A}_{12}×{74}_{12}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-71",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* Use the base 12 multiplication table in the solution for and, when necessary, the base 12 addition table in the solution for . Set up this calculation using columns:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-72",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "3",
+          "A"
+        ],
+        [
+          "×",
+          "7",
+          "4"
+        ]
+      ],
+      "alt": "Table with 2 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-73",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* First, the 4 is multiplied by 3A, resulting in the first line.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-74",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "3",
+          "A"
+        ],
+        [
+          "×",
+          "7",
+          "4"
+        ],
+        [
+          "*1*",
+          "*3*",
+          "*4*"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-75",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Now we move on to the 7 in the “tens” place in the bottom value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-76",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "5",
+          ""
+        ],
+        [
+          "",
+          "",
+          "3",
+          "A"
+        ],
+        [
+          "",
+          "x",
+          "7",
+          "4"
+        ],
+        [
+          "",
+          "1",
+          "3",
+          "4"
+        ],
+        [
+          "*2*",
+          "*2*",
+          "*A*",
+          "*0*"
+        ]
+      ],
+      "alt": "Table with 5 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-77",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 4:* Now we add down the columns.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-78",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "3",
+          "A"
+        ],
+        [
+          "",
+          "x",
+          "7",
+          "4"
+        ],
+        [
+          "",
+          "1",
+          "3",
+          "4"
+        ],
+        [
+          "2",
+          "2",
+          "A",
+          "0"
+        ],
+        [
+          "*2*",
+          "*4*",
+          "*1*",
+          "*4*"
+        ]
+      ],
+      "alt": "Table with 5 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-79",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 5:* The 3 and the A add to 11 in base 12, so we enter the 1 and carry the 1.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-80",
+      "type": "paragraph",
+      "content": {
+        "text": "We now have the result: $3{A}_{12}×{74}_{12}={2414}_{12}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-81",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Division in Bases Other Than 10",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-82",
+      "type": "paragraph",
+      "content": {
+        "text": "Just as with the other operations, division in a base other than 10, the process of division in a base other than 10 is the same as the process when working in base 10. For instance, $72÷9=8$ because, we know that $9×8=72$ . So, for many division problems, we are simply looking to the multiplication table to identify the appropriate multiplication rule.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-83",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Dividing with a Base Other Than 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-84",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Calculate ${14}_{6}÷{5}_{6}$ . Calculate $5{A}_{12}÷{7}_{12}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Looking at the multiplication table for base 6 ( ), we see that ${5}_{6}×{2}_{6}={14}_{6}$ . Using that, we know that ${14}_{6}÷{5}_{6}={2}_{6}$ . Looking at the multiplication table for base 12 in the solution for , we see that ${7}_{12}×{A}_{12}=5{A}_{12}$ . Using that, we know that $5{A}_{12}÷{7}_{12}={A}_{12}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "sec-85",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Errors in Multiplying and Dividing in Bases Other Than Base 10",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-86",
+      "type": "paragraph",
+      "content": {
+        "text": "The types of errors encountered when multiplying and dividing in bases other than base 10 are the same as when adding and subtracting. They often involve applying base 10 rules or symbols to an arithmetic problem in a base other than base 10. The first type of error is using a symbol that is not in the symbol set for the base.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-87",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Identifying an Illegal Symbol in a Base Other Than Base 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-88",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain the error in the following calculation, and determine the correct answer: \\[${4}_{6}×{2}_{6}={8}_{6}$\\]",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Since the problem is in base 6, the symbol set available is 0, 1, 2, 3, 4, and 5. The 8 in the answer is clearly not a legal symbol for base 6. Looking back to the base 6 multiplication table ( ), we see that ${4}_{6}×{2}_{6}={12}_{6}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-89",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain the error in the following calculation, and determine the correct answer:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-90",
+      "type": "paragraph",
+      "content": {
+        "text": "Since the problem is in base 6, the symbol set available is 0, 1, 2, 3, 4, and 5. The 8 in the answer is clearly not a legal symbol for base 6. Looking back to the base 6 multiplication table ( ), we see that ${4}_{6}×{2}_{6}={12}_{6}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-91",
+      "type": "paragraph",
+      "content": {
+        "text": "The second type of error is using a base 10 rule when the numbers are not in base 10. For instance, in base 17, ${6}_{17}×{9}_{17}={54}_{17}$ would be incorrect, even though in base 10, $6×9=54$ . That rule doesn’t apply in base 17.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-92",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Identifying an Error in Arithmetic in a Base Other Than Base 10",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-93",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain the error in the following calculation. Determine the correct answer: \\[${18}_{12}×{7}_{12}={126}_{12}$\\]",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "If this problem was a base 10 problem, this would be the correct answer. However, in base 12, ${8}_{12}×{7}_{12}$ is not 56, but is instead 48. To correct this error, carefully use the multiplication table for base 12 ( ). If properly used, the correct answer would be ${18}_{12}×{7}_{12}=B{8}_{12}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-94",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain the error in the following calculation. Determine the correct answer:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-95",
+      "type": "paragraph",
+      "content": {
+        "text": "If this problem was a base 10 problem, this would be the correct answer. However, in base 12, ${8}_{12}×{7}_{12}$ is not 56, but is instead 48. To correct this error, carefully use the multiplication table for base 12 ( ). If properly used, the correct answer would be ${18}_{12}×{7}_{12}=B{8}_{12}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-96",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Check Your Understanding",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-97",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-98",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Projects",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-99",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Additive Systems",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-100",
+      "type": "paragraph",
+      "content": {
+        "text": "Go online. Google “additive number systems.”What system comes up?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-101",
+      "type": "paragraph",
+      "content": {
+        "text": "Using Google, identify three more additive systems of numbers.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-102",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Computers and Bases",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-103",
+      "type": "paragraph",
+      "content": {
+        "text": "Use Google to determine what base computers use.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-104",
+      "type": "paragraph",
+      "content": {
+        "text": "Were other bases attempted for use in computers?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-105",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine why the base used in computers is appropriate.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-106",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine how the base used in computers is related to the circuitry in computers.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-107",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine how Boolean logic and the base used in computers are related, and might be identical.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-108",
+      "type": "paragraph",
+      "content": {
+        "text": "There is research into using quibits in computers. Find out what quibits are and how can they improve computing speed.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-109",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Cultures Using Base Systems Other Than 10",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-110",
+      "type": "paragraph",
+      "content": {
+        "text": "Using Google, find three cultures, other than Babylonian or Mayan, that use base systems other than 10.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-111",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "History of Zero",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-112",
+      "type": "paragraph",
+      "content": {
+        "text": "Using any resources available to you, determine the history of 0 in at least three different numbering systems. Address at least when and why such a development occurred and why a 0 is vital to the use of a positional system.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-113",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Numbering Systems from Other Global Regions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-114",
+      "type": "paragraph",
+      "content": {
+        "text": "Using any resources available to you, find at least three numbering systems from sub-Saharan Africa, Australia, China, or the Pacific Islands. Explore if they are positional or additive systems (or combinations!), the terminology of the system, if they used a 0, and what base they employed (if positional).",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-115",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Review",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-116",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Test",
+        "inline": []
+      }
+    }
+  ],
+  "solutions": {
+    "osbooks-contemporary-mathematics:m00056:exr-23": [
+      [
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "Let’s apply the process demonstrated and outlined above to find the base 7 multiplication table. It should be clear that 0 multiplied by anything, regardless of base, will give 0, and that 1 multiplied by anything, regardless of base, will be the value of “anything.” So, we start with the table below:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "Notice"
+        },
+        {
+          "kind": "math",
+          "text": "2×2=4"
+        },
+        {
+          "kind": "text",
+          "text": "is there. But we didn’t hit a problematic number there (4 works fine in both base 10 and base 6). The same is true for"
+        },
+        {
+          "kind": "math",
+          "text": "2×3"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "3×2"
+        },
+        {
+          "kind": "text",
+          "text": ", which equal 6. But what is"
+        },
+        {
+          "kind": "math",
+          "text": "2×4"
+        },
+        {
+          "kind": "text",
+          "text": "? If we use the repeated addition concept,"
+        },
+        {
+          "kind": "math",
+          "text": "2×4=2+2+2+2=6+2"
+        },
+        {
+          "kind": "text",
+          "text": ". According to the base 7 addition table in the solution for"
+        },
+        {
+          "kind": "math",
+          "text": ",6+2=11"
+        },
+        {
+          "kind": "text",
+          "text": ". So, we add that to our table:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "*11*"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*11*"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "Next, we need to fill in"
+        },
+        {
+          "kind": "math",
+          "text": "2×5"
+        },
+        {
+          "kind": "text",
+          "text": ". Using repeated addition,"
+        },
+        {
+          "kind": "math",
+          "text": "2×5=2+2+2+2+2=11+2=13"
+        },
+        {
+          "kind": "text",
+          "text": "if we use our base 7 addition rules. So, we add that to our table:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "*13*"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "*13*"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 4:*"
+        },
+        {
+          "kind": "text",
+          "text": "Finally,"
+        },
+        {
+          "kind": "math",
+          "text": "2×6=2+2+2+2+2+2+2=13+2=15"
+        },
+        {
+          "kind": "text",
+          "text": ". And so we add that to our table:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "*15*"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "*15*"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 5:*"
+        },
+        {
+          "kind": "text",
+          "text": "A similar analysis will give us the remainder of the entries. Here is"
+        },
+        {
+          "kind": "math",
+          "text": "{4}_{7}×{5}_{7}"
+        },
+        {
+          "kind": "text",
+          "text": "demonstrated:"
+        },
+        {
+          "kind": "math",
+          "text": "{4}_{7}×{5}_{7}={4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}+{4}_{7}={11}_{7}+{11}_{7}+{4}_{7}={22}_{7}+{4}_{7}={26}_{7}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "This is done by using the addition rules from"
+        },
+        {
+          "kind": "text",
+          "text": "Addition and Subtraction in Base Systems"
+        },
+        {
+          "kind": "text",
+          "text": ", namely that"
+        },
+        {
+          "kind": "math",
+          "text": "{4}_{7}+{4}_{7}={11}_{7}"
+        },
+        {
+          "kind": "text",
+          "text": "and then applying the addition processes we’ve always known, but with the base 7 table in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": ". Using those addition rules, the rest of the table is given below:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "15"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "12"
+        },
+        {
+          "kind": "text",
+          "text": "15"
+        },
+        {
+          "kind": "text",
+          "text": "21"
+        },
+        {
+          "kind": "text",
+          "text": "24"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "11"
+        },
+        {
+          "kind": "text",
+          "text": "15"
+        },
+        {
+          "kind": "text",
+          "text": "22"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "33"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "21"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "34"
+        },
+        {
+          "kind": "text",
+          "text": "42"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "15"
+        },
+        {
+          "kind": "text",
+          "text": "24"
+        },
+        {
+          "kind": "text",
+          "text": "33"
+        },
+        {
+          "kind": "text",
+          "text": "42"
+        },
+        {
+          "kind": "text",
+          "text": "51"
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-37": [
+      [
+        {
+          "kind": "text",
+          "text": "Let’s apply the repeated addition to base 12. Here is"
+        },
+        {
+          "kind": "math",
+          "text": "{7}_{12}×{9}_{12}"
+        },
+        {
+          "kind": "text",
+          "text": "demonstrated:"
+        },
+        {
+          "kind": "math",
+          "text": "{7}_{12}×{9}_{12}={7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}+{7}_{12}={12}_{12}+{12}_{12}+{12}_{12}+{12}_{12}+{7}_{12}={48}_{12}+{7}_{12}={53}_{12}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "This is done by using the addition rules from"
+        },
+        {
+          "kind": "text",
+          "text": "Addition and Subtraction in Base Systems"
+        },
+        {
+          "kind": "text",
+          "text": ", namely that"
+        },
+        {
+          "kind": "math",
+          "text": "{7}_{12}+{7}_{12}={12}_{12}"
+        },
+        {
+          "kind": "text",
+          "text": "and then applying the addition processes we’ve always known, but with the base 12 table in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": ". Using those addition rules, the rest of the table is given below:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "*"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "10"
+        },
+        {
+          "kind": "text",
+          "text": "12"
+        },
+        {
+          "kind": "text",
+          "text": "14"
+        },
+        {
+          "kind": "text",
+          "text": "16"
+        },
+        {
+          "kind": "text",
+          "text": "18"
+        },
+        {
+          "kind": "text",
+          "text": "1A"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "10"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "16"
+        },
+        {
+          "kind": "text",
+          "text": "19"
+        },
+        {
+          "kind": "text",
+          "text": "20"
+        },
+        {
+          "kind": "text",
+          "text": "23"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "29"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "10"
+        },
+        {
+          "kind": "text",
+          "text": "14"
+        },
+        {
+          "kind": "text",
+          "text": "18"
+        },
+        {
+          "kind": "text",
+          "text": "20"
+        },
+        {
+          "kind": "text",
+          "text": "24"
+        },
+        {
+          "kind": "text",
+          "text": "28"
+        },
+        {
+          "kind": "text",
+          "text": "30"
+        },
+        {
+          "kind": "text",
+          "text": "34"
+        },
+        {
+          "kind": "text",
+          "text": "38"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "13"
+        },
+        {
+          "kind": "text",
+          "text": "18"
+        },
+        {
+          "kind": "text",
+          "text": "21"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "2B"
+        },
+        {
+          "kind": "text",
+          "text": "34"
+        },
+        {
+          "kind": "text",
+          "text": "39"
+        },
+        {
+          "kind": "text",
+          "text": "42"
+        },
+        {
+          "kind": "text",
+          "text": "47"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "10"
+        },
+        {
+          "kind": "text",
+          "text": "16"
+        },
+        {
+          "kind": "text",
+          "text": "20"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "30"
+        },
+        {
+          "kind": "text",
+          "text": "36"
+        },
+        {
+          "kind": "text",
+          "text": "40"
+        },
+        {
+          "kind": "text",
+          "text": "46"
+        },
+        {
+          "kind": "text",
+          "text": "50"
+        },
+        {
+          "kind": "text",
+          "text": "56"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "12"
+        },
+        {
+          "kind": "text",
+          "text": "19"
+        },
+        {
+          "kind": "text",
+          "text": "24"
+        },
+        {
+          "kind": "text",
+          "text": "2B"
+        },
+        {
+          "kind": "text",
+          "text": "36"
+        },
+        {
+          "kind": "text",
+          "text": "41"
+        },
+        {
+          "kind": "text",
+          "text": "48"
+        },
+        {
+          "kind": "text",
+          "text": "53"
+        },
+        {
+          "kind": "text",
+          "text": "5A"
+        },
+        {
+          "kind": "text",
+          "text": "65"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "8"
+        },
+        {
+          "kind": "text",
+          "text": "14"
+        },
+        {
+          "kind": "text",
+          "text": "20"
+        },
+        {
+          "kind": "text",
+          "text": "28"
+        },
+        {
+          "kind": "text",
+          "text": "34"
+        },
+        {
+          "kind": "text",
+          "text": "40"
+        },
+        {
+          "kind": "text",
+          "text": "48"
+        },
+        {
+          "kind": "text",
+          "text": "54"
+        },
+        {
+          "kind": "text",
+          "text": "60"
+        },
+        {
+          "kind": "text",
+          "text": "68"
+        },
+        {
+          "kind": "text",
+          "text": "74"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "16"
+        },
+        {
+          "kind": "text",
+          "text": "23"
+        },
+        {
+          "kind": "text",
+          "text": "30"
+        },
+        {
+          "kind": "text",
+          "text": "39"
+        },
+        {
+          "kind": "text",
+          "text": "46"
+        },
+        {
+          "kind": "text",
+          "text": "53"
+        },
+        {
+          "kind": "text",
+          "text": "60"
+        },
+        {
+          "kind": "text",
+          "text": "69"
+        },
+        {
+          "kind": "text",
+          "text": "76"
+        },
+        {
+          "kind": "text",
+          "text": "83"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "18"
+        },
+        {
+          "kind": "text",
+          "text": "26"
+        },
+        {
+          "kind": "text",
+          "text": "34"
+        },
+        {
+          "kind": "text",
+          "text": "42"
+        },
+        {
+          "kind": "text",
+          "text": "50"
+        },
+        {
+          "kind": "text",
+          "text": "5A"
+        },
+        {
+          "kind": "text",
+          "text": "68"
+        },
+        {
+          "kind": "text",
+          "text": "76"
+        },
+        {
+          "kind": "text",
+          "text": "84"
+        },
+        {
+          "kind": "text",
+          "text": "92"
+        },
+        {
+          "kind": "text",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "1A"
+        },
+        {
+          "kind": "text",
+          "text": "29"
+        },
+        {
+          "kind": "text",
+          "text": "38"
+        },
+        {
+          "kind": "text",
+          "text": "47"
+        },
+        {
+          "kind": "text",
+          "text": "56"
+        },
+        {
+          "kind": "text",
+          "text": "65"
+        },
+        {
+          "kind": "text",
+          "text": "74"
+        },
+        {
+          "kind": "text",
+          "text": "83"
+        },
+        {
+          "kind": "text",
+          "text": "92"
+        },
+        {
+          "kind": "text",
+          "text": "A1"
+        },
+        {
+          "kind": "text",
+          "text": "Base 12 Multiplication Table"
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-46": [
+      [
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "Use the base 6 multiplication table ("
+        },
+        {
+          "kind": "text",
+          "text": ") and, when necessary, the base 6 addition table ("
+        },
+        {
+          "kind": "math",
+          "text": ")."
+        },
+        {
+          "kind": "text",
+          "text": "Set up this calculation using columns:"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "Multiply the 1s digits, 5 and 4, using the base 6 multiplication table ("
+        },
+        {
+          "kind": "text",
+          "text": "). There we see the result is 32"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": ". So, we enter the 2 and carry the 3."
+        },
+        {
+          "kind": "text",
+          "text": "*3*"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*2*"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "So, now we multiply the 4 and the 4, then add the 3 (just as you would do if multiplying two base 10 numbers!)."
+        },
+        {
+          "kind": "math",
+          "text": "{4}_{6}×{4}_{6}={24}_{6}"
+        },
+        {
+          "kind": "text",
+          "text": "(from the base 6 table ["
+        },
+        {
+          "kind": "text",
+          "text": "]), then"
+        },
+        {
+          "kind": "math",
+          "text": "{24}_{6}+{3}_{6}={31}_{6}"
+        },
+        {
+          "kind": "text",
+          "text": ". So, we enter the 31."
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*3*"
+        },
+        {
+          "kind": "text",
+          "text": "*1*"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 4:*"
+        },
+        {
+          "kind": "text",
+          "text": "Now we move on to the 2 in the “tens” place in the bottom value. We multiply the 2"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": "and the 5"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": ", and we get 14"
+        },
+        {
+          "kind": "text",
+          "text": "6"
+        },
+        {
+          "kind": "text",
+          "text": ". So, we enter the 4 and carry the 1."
+        },
+        {
+          "kind": "text",
+          "text": "*Step 5:*"
+        },
+        {
+          "kind": "text",
+          "text": "Next up, we multiply the 2 and the 4, and then add 1. This gives us"
+        },
+        {
+          "kind": "math",
+          "text": "{12}_{6}+{1}_{6}={13}_{6}"
+        },
+        {
+          "kind": "text",
+          "text": ". We enter those on that second line."
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "*1*"
+        },
+        {
+          "kind": "text",
+          "text": "*3*"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 6:*"
+        },
+        {
+          "kind": "text",
+          "text": "Now we add down the columns."
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*1*"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 7:*"
+        },
+        {
+          "kind": "text",
+          "text": "The 3 and the 3 add to 10 in base 6, so we enter the 0 and carry the 1. We now have the result:"
+        },
+        {
+          "kind": "math",
+          "text": "{45}_{6}×{24}_{6}={2052}_{6}."
+        },
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "Use the base 2 multiplication table ("
+        },
+        {
+          "kind": "text",
+          "text": ") and, when necessary, the base 2 addition table in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": ". Set up this calculation using columns:"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "Using the pattern established above, and the processes from multiplication from base 10, we find the following:"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "Adding down the columns results in the following:"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "So,"
+        },
+        {
+          "kind": "math",
+          "text": "{101}_{2}×{110}_{2}={11110}_{2}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-69": [
+      [
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "Use the base 12 multiplication table in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": "and, when necessary, the base 12 addition table in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": ". Set up this calculation using columns:"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "math",
+          "text": "×"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "First, the 4 is multiplied by 3A, resulting in the first line."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "math",
+          "text": "×"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*1*"
+        },
+        {
+          "kind": "text",
+          "text": "*3*"
+        },
+        {
+          "kind": "text",
+          "text": "*4*"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "Now we move on to the 7 in the “tens” place in the bottom value."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "5"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "*2*"
+        },
+        {
+          "kind": "text",
+          "text": "*2*"
+        },
+        {
+          "kind": "text",
+          "text": "*A*"
+        },
+        {
+          "kind": "text",
+          "text": "*0*"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 4:*"
+        },
+        {
+          "kind": "text",
+          "text": "Now we add down the columns."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "3"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        },
+        {
+          "kind": "text",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "*2*"
+        },
+        {
+          "kind": "text",
+          "text": "*4*"
+        },
+        {
+          "kind": "text",
+          "text": "*1*"
+        },
+        {
+          "kind": "text",
+          "text": "*4*"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 5:*"
+        },
+        {
+          "kind": "text",
+          "text": "The 3 and the A add to 11 in base 12, so we enter the 1 and carry the 1."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We now have the result:"
+        },
+        {
+          "kind": "math",
+          "text": "3{A}_{12}×{74}_{12}={2414}_{12}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-84": [
+      [
+        {
+          "kind": "text",
+          "text": "Looking at the multiplication table for base 6 ("
+        },
+        {
+          "kind": "text",
+          "text": "), we see that"
+        },
+        {
+          "kind": "math",
+          "text": "{5}_{6}×{2}_{6}={14}_{6}"
+        },
+        {
+          "kind": "text",
+          "text": ". Using that, we know that"
+        },
+        {
+          "kind": "math",
+          "text": "{14}_{6}÷{5}_{6}={2}_{6}."
+        },
+        {
+          "kind": "text",
+          "text": "Looking at the multiplication table for base 12 in the solution for"
+        },
+        {
+          "kind": "text",
+          "text": ", we see that"
+        },
+        {
+          "kind": "math",
+          "text": "{7}_{12}×{A}_{12}=5{A}_{12}"
+        },
+        {
+          "kind": "text",
+          "text": ". Using that, we know that"
+        },
+        {
+          "kind": "math",
+          "text": "5{A}_{12}÷{7}_{12}={A}_{12}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-88": [
+      [
+        {
+          "kind": "text",
+          "text": "Since the problem is in base 6, the symbol set available is 0, 1, 2, 3, 4, and 5. The 8 in the answer is clearly not a legal symbol for base 6. Looking back to the base 6 multiplication table ("
+        },
+        {
+          "kind": "text",
+          "text": "), we see that"
+        },
+        {
+          "kind": "math",
+          "text": "{4}_{6}×{2}_{6}={12}_{6}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00056:exr-93": [
+      [
+        {
+          "kind": "text",
+          "text": "If this problem was a base 10 problem, this would be the correct answer. However, in base 12,"
+        },
+        {
+          "kind": "math",
+          "text": "{8}_{12}×{7}_{12}"
+        },
+        {
+          "kind": "text",
+          "text": "is not 56, but is instead 48. To correct this error, carefully use the multiplication table for base 12 ("
+        },
+        {
+          "kind": "text",
+          "text": "). If properly used, the correct answer would be"
+        },
+        {
+          "kind": "math",
+          "text": "{18}_{12}×{7}_{12}=B{8}_{12}."
+        }
+      ]
+    ]
+  }
+}

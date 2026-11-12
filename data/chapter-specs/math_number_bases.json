@@ -1,0 +1,1307 @@
+{
+  "chapter_id": "math_number_bases",
+  "schema_version": 2,
+  "updated_at": "2026-11-12",
+  "title": "Number Bases",
+  "book_id": "secondary_mathematics",
+  "part_id": "part-1",
+  "publisher": "OpenStax",
+  "source_title": "Contemporary Mathematics, Number Systems",
+  "source_url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+  "licence": "CC BY-NC-SA 4.0",
+  "learning_objectives": [
+    "Read a numeral in any base by its place values and explain why the base decides the digit set.",
+    "Convert a numeral from another base to base 10 by expanding it in powers of its base.",
+    "Convert a base 10 numeral to another base by repeated division, reading the remainders in reverse order.",
+    "Add and subtract numerals in another base, carrying and borrowing in that base.",
+    "Build and use the addition and multiplication tables of a base.",
+    "Multiply numerals in another base and divide by reversing the multiplication table.",
+    "Detect an illegal digit or a lost digit as evidence of a conversion or arithmetic error."
+  ],
+  "prerequisites": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$N = d_k b^k + d_{k-1} b^{k-1} + \\cdots + d_1 b + d_0$",
+      "caption": {
+        "text": "Place-value expansion",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a base $b \\ge 2$, digits $d_i$ with $0 \\le d_i < b$, and the numeral $d_k d_{k-1} \\ldots d_0$ in base $b$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$n = qb + r, \\quad 0 \\le r < b$",
+      "caption": {
+        "text": "Division step in the repeated-division method",
+        "inline": []
+      },
+      "conditions": {
+        "text": "At each step, divide the current quotient by the base $b$ and keep the remainder $r$. Stop when the quotient is 0.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Conversion of Base 10 into Another Base'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$d \\in \\{0, 1, \\ldots, b-1\\}$",
+      "caption": {
+        "text": "Legal digits of a base",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For bases above 10, the values 10 to 35 are written A to Z.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g-1",
+      "term": {
+        "text": "base",
+        "inline": []
+      },
+      "definition": {
+        "text": "The number of symbols a positional numeral system uses before it adds another place; in base $b$ the place values are powers of $b$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, introduction",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-2",
+      "term": {
+        "text": "place value",
+        "inline": []
+      },
+      "definition": {
+        "text": "The value a digit carries from its position, which in base $b$ is a power of $b$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, introduction",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-3",
+      "term": {
+        "text": "digit",
+        "inline": []
+      },
+      "definition": {
+        "text": "One of the symbols a base uses, from 0 up to one less than the base.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-4",
+      "term": {
+        "text": "repeated division",
+        "inline": []
+      },
+      "definition": {
+        "text": "The method that converts a base 10 number to another base by dividing by the base and reading the remainders in reverse order.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Conversion of Base 10 into Another Base'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-5",
+      "term": {
+        "text": "carrying",
+        "inline": []
+      },
+      "definition": {
+        "text": "Moving one group of the base from a place to the next place on its left when a sum reaches the base.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00055/index.cnxml",
+        "locator": "CNXML module m00055, section 'Addition in Bases Other Than Base 10'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-6",
+      "term": {
+        "text": "borrowing",
+        "inline": []
+      },
+      "definition": {
+        "text": "Taking one group of the base from the next place on the left so that a subtraction can be done.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00055/index.cnxml",
+        "locator": "CNXML module m00055, section 'Subtraction in Bases Other Than Base 10'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-7",
+      "term": {
+        "text": "legal symbol",
+        "inline": []
+      },
+      "definition": {
+        "text": "A digit that belongs to the digit set of the base; a symbol at or above the base signals an error.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+        "locator": "CNXML module m00054, section 'Errors in Converting Between Bases'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Place value and the digits of a base",
+      "slug": "place-value-and-the-digits-of-a-base",
+      "est_minutes": 12,
+      "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases', from the introduction through the counting examples",
+      "module": "m00054",
+      "objectives": [
+        "Explain how place value turns a string of digits into a quantity in any base.",
+        "List the legal digits of a base, using capital letters for values above 9.",
+        "Write the counting sequence of a base up to $100_b$."
+      ],
+      "misconceptions": [
+        {
+          "claim": "$10_b$ means ten in every base.",
+          "correction": "$10_b$ means the base itself: $10_2 = 2$, $10_6 = 6$ and $10_{12} = 12$. The numeral 10 means ten only in base 10.",
+          "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'"
+        },
+        {
+          "claim": "A digit may take any value from 0 to 9 in any base.",
+          "correction": "A base $b$ has exactly $b$ digits, 0 to $b-1$. Base 6 has no 6, 7, 8 or 9, and base 14 continues with A, B, C and D after 9.",
+          "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'"
+        }
+      ],
+      "summary": [
+        "In base $b$, each place is worth a power of $b$: ones, $b$, $b^2$, and so on.",
+        "A base $b$ uses exactly the digits 0 to $b-1$, with A, B, C and so on standing for 10, 11, 12 and so on.",
+        "Counting to $100_b$ means using every digit in the leading place once, then starting a third place."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-42": {
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-46": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-69": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Start from 0 and change the leading digit only after the ones place has used every symbol."
+          ]
+        },
+        "exr-82": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "The base 14 digits run 0 to 9, then A, B, C and D."
+          ]
+        },
+        "exr-103": {
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Base 2 has only two symbols, so the sequence is short."
+          ]
+        }
+      },
+      "tags": [
+        "place-value",
+        "digits",
+        "counting"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "conversion-from-one-base-to-another-including-fractional-par",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-conversion-of-numbers-from-one-base-to-another",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "From another base to base 10",
+      "slug": "from-another-base-to-base-10",
+      "est_minutes": 12,
+      "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases', conversion examples",
+      "module": "m00054",
+      "objectives": [
+        "Expand a numeral in base $b$ as a sum of digits times powers of $b$.",
+        "Evaluate a base $b$ numeral in base 10, including numerals that use letters as digits."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The digits of a base $b$ numeral are added together, then multiplied by the base.",
+          "correction": "Each digit is multiplied by its own power of the base, and the products are added: $3,601_7 = 3(7^3) + 6(7^2) + 0(7) + 1$.",
+          "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'"
+        },
+        {
+          "claim": "A letter digit has no value in arithmetic.",
+          "correction": "In base 14, A = 10, B = 11, C = 12 and D = 13, so $4B7_{14} = 4(14^2) + 11(14) + 7 = 945$.",
+          "locator": "CNXML module m00054, section 'Conversion of Another Base into Base 10 and Other Bases'"
+        }
+      ],
+      "summary": [
+        "Write the numeral with its powers of the base, starting from the rightmost digit as $b^0$.",
+        "Replace each letter by its value before calculating.",
+        "The result is an ordinary base 10 number, so it takes no subscript."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-51": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "The four digits occupy the powers $7^3$, $7^2$, $7^1$ and $7^0$."
+          ]
+        },
+        "exr-56": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Replace B by 11 before you multiply by the powers of 14."
+          ]
+        },
+        "exr-60": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Replace A by 10 before you multiply by the powers of 12."
+          ]
+        },
+        "exr-64": {
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "The powers of 2 run 8, 4, 2 and 1 from left to right in a four-digit numeral."
+          ]
+        }
+      },
+      "tags": [
+        "conversion",
+        "base-ten",
+        "place-value"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "conversion-from-one-base-to-another-including-fractional-par",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-conversion-of-numbers-from-one-base-to-another",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "From base 10 to another base",
+      "slug": "from-base-10-to-another-base",
+      "est_minutes": 12,
+      "locator": "CNXML module m00054, section 'Conversion of Base 10 into Another Base'",
+      "module": "m00054",
+      "objectives": [
+        "Convert a base 10 number to a lower or higher base by repeated division.",
+        "Read the remainders in reverse order and write any value above 9 as a letter."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The remainders are read from top to bottom.",
+          "correction": "The last remainder is the leading digit. For 298, the remainders 4, 1, 2 and 1 give $1214_6$.",
+          "locator": "CNXML module m00054, section 'Conversion of Base 10 into Another Base'"
+        },
+        {
+          "claim": "A remainder of 11 can be written as 11 in base 13.",
+          "correction": "Every digit must be below the base, so 11 is written B in base 13. The conversion of 45,134 ends with the digits 1, 7, 7, 0 and B.",
+          "locator": "CNXML module m00054, section 'Conversion of Base 10 into Another Base'"
+        }
+      ],
+      "summary": [
+        "Divide by the target base, keep the remainder, and continue with the quotient.",
+        "Stop when the quotient is 0.",
+        "Read the remainders from the last one to the first, and write values above 9 as letters."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-112": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Divide 298 by 6, then divide each quotient by 6 until the quotient is 0."
+          ]
+        },
+        "exr-122": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "The remainders include 11, which is written B in base 13."
+          ]
+        },
+        "exr-132": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Keep dividing by 2 until the quotient reaches 0, then reverse the remainders."
+          ]
+        }
+      },
+      "tags": [
+        "repeated-division",
+        "conversion"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "conversion-from-one-base-to-another-including-fractional-par",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-conversion-of-numbers-from-one-base-to-another",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Checking a conversion for errors",
+      "slug": "checking-a-conversion-for-errors",
+      "est_minutes": 8,
+      "locator": "CNXML module m00054, section 'Errors in Converting Between Bases'",
+      "module": "m00054",
+      "objectives": [
+        "Detect an illegal digit in a numeral written in another base.",
+        "Use the number of digits to test whether a conversion could be right."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A numeral is valid as long as the arithmetic looks right.",
+          "correction": "A numeral in base $b$ cannot contain a digit $b$ or larger. $2081_7$ is wrong on sight because 8 is not a base 7 digit.",
+          "locator": "CNXML module m00054, section 'Errors in Converting Between Bases'"
+        },
+        {
+          "claim": "Converting to a smaller base can shorten the numeral.",
+          "correction": "A smaller base needs at least as many digits. A five-digit base 10 number cannot become a four-digit base 5 number.",
+          "locator": "CNXML module m00054, section 'Errors in Converting Between Bases'"
+        }
+      ],
+      "summary": [
+        "Check the digit set first: every digit must be less than the base.",
+        "A remainder at or above the base is an illegal digit.",
+        "Converting to a smaller base cannot reduce the number of digits, and converting to a larger base cannot increase it."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-150": {
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-155": {
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-160": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "verbal",
+          "tier": "warm_up"
+        }
+      },
+      "tags": [
+        "error-checking",
+        "legal-digits",
+        "digit-count"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "conversion-from-one-base-to-another-including-fractional-par",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-conversion-of-numbers-from-one-base-to-another",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "Adding in another base",
+      "slug": "adding-in-another-base",
+      "est_minutes": 14,
+      "locator": "CNXML module m00055, section 'Addition in Bases Other Than Base 10'",
+      "module": "m00055",
+      "objectives": [
+        "Build the addition table of a base.",
+        "Add numerals in another base, carrying a group of the base to the next place."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Addition in another base follows the base 10 addition facts.",
+          "correction": "The facts change with the base. In base 6, $5 + 3 = 12_6$, because five plus three is eight, and eight is one group of six and two ones.",
+          "locator": "CNXML module m00055, section 'Addition in Bases Other Than Base 10'"
+        },
+        {
+          "claim": "A carry is always ten.",
+          "correction": "A carry is one group of the base, so it is written 10 in that base, not ten. In base 2, $1 + 1 = 10_2$.",
+          "locator": "CNXML module m00055, section 'Addition in Bases Other Than Base 10'"
+        }
+      ],
+      "summary": [
+        "Build the addition table first; the diagonal after the filled cells is where the base is written as 10.",
+        "Add column by column from the right, exactly as in base 10.",
+        "When a column reaches the base, write the remainder and carry one to the next place."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-22": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "The ones digits add to 4, then the sixes digits add to $12_6$."
+          ]
+        },
+        "exr-35": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Fill the legal sums first, then put 10 one place past the last filled cell."
+          ]
+        },
+        "exr-62": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Base 12 runs 0 to 9, then A and B. The entry after B is 10."
+          ]
+        },
+        "exr-72": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Add the ones column first and carry whenever the sum reaches 12."
+          ]
+        },
+        "exr-81": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "In base 2, $1 + 1 = 10_2$, so carry as soon as a column reaches 2."
+          ]
+        }
+      },
+      "tags": [
+        "addition",
+        "carrying",
+        "addition-tables"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "operations-in-different-number-bases-from-2-to-10",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-basic-operations-on-number-bases",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-6",
+      "title": "Subtracting in another base",
+      "slug": "subtracting-in-another-base",
+      "est_minutes": 12,
+      "locator": "CNXML module m00055, sections 'Subtraction in Bases Other Than Base 10' and 'Errors When Adding and Subtracting in Bases Other Than Base 10'",
+      "module": "m00055",
+      "objectives": [
+        "Subtract numerals in another base, borrowing one group of the base when needed.",
+        "Explain whether an error in a base arithmetic statement comes from an illegal digit or a base 10 fact."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Borrowing adds ten to the column.",
+          "correction": "Borrowing adds one group of the base. In base 6, borrowing adds 6, so $12_6 - 4_6 = 4_6$.",
+          "locator": "CNXML module m00055, section 'Subtraction in Bases Other Than Base 10'"
+        },
+        {
+          "claim": "In base 12, $9 + 6 = 15_{12}$.",
+          "correction": "Nine plus six is fifteen, which is one group of twelve and three ones, so $9_{12} + 6_{12} = 13_{12}$.",
+          "locator": "CNXML module m00055, section 'Errors When Adding and Subtracting in Bases Other Than Base 10'"
+        }
+      ],
+      "summary": [
+        "Borrow one group of the base from the next place when the top digit is smaller.",
+        "Use the addition table backwards to find each difference.",
+        "Check every digit against the base, and check every sum against the base's addition table."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-92": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "tier": "warm_up",
+          "hints": [
+            "Borrowing from the sixes place turns the 2 into $12_6$."
+          ]
+        },
+        "exr-104": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Borrow from A to make the middle digit $11_{12}$."
+          ]
+        },
+        "exr-120": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-125": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "verbal",
+          "tier": "core",
+          "hints": [
+            "Work out $9 + 6$ in base 12 before you compare the answer with the written one."
+          ]
+        }
+      },
+      "tags": [
+        "subtraction",
+        "borrowing",
+        "error-checking"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "operations-in-different-number-bases-from-2-to-10",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-basic-operations-on-number-bases",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "sec-7",
+      "title": "Multiplying and dividing in another base",
+      "slug": "multiplying-and-dividing-in-another-base",
+      "est_minutes": 15,
+      "locator": "CNXML module m00056, sections 'Multiplication in Bases Other Than 10', 'Division in Bases Other Than 10' and their errors section",
+      "module": "m00056",
+      "objectives": [
+        "Build the multiplication table of a base from its addition table.",
+        "Multiply numerals in another base, carrying in that base and adding the partial products in that base.",
+        "Divide in another base by reversing the multiplication table.",
+        "Recognise an illegal digit or a base 10 product as an error."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A multiplication table is the same in every base.",
+          "correction": "The entries change with the base. In base 6, $4 \\times 5 = 32_6$, not 20.",
+          "locator": "CNXML module m00056, section 'Multiplication in Bases Other Than 10'"
+        },
+        {
+          "claim": "The base 10 product is the answer in any base.",
+          "correction": "In base 12, $8 \\times 7$ is 56 in base 10, which is $48_{12}$: four twelves and eight ones.",
+          "locator": "CNXML module m00056, section 'Errors in Multiplying and Dividing in Bases Other Than Base 10'"
+        }
+      ],
+      "summary": [
+        "Multiplication is repeated addition, so build its table from the addition table.",
+        "Multiply as in base 10, but take every digit and every carry from the base's tables.",
+        "Division asks which factor in the multiplication table gives the dividend.",
+        "A digit at or above the base, or a base 10 fact used unchanged, is an error."
+      ],
+      "blocks": [],
+      "worked": [],
+      "exercise_plan": {
+        "exr-23": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Build the base 7 table by repeated addition, using the base 7 addition table."
+          ]
+        },
+        "exr-37": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "The entry $7 \\times 9$ is $53_{12}$; use it to check your table."
+          ]
+        },
+        "exr-69": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "tier": "core",
+          "hints": [
+            "Multiply by 4 first, then by 7, and add the two rows in base 12."
+          ]
+        },
+        "exr-88": {
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "verbal",
+          "tier": "warm_up"
+        },
+        "exr-93": {
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "verbal",
+          "tier": "core",
+          "hints": [
+            "Work out $8 \\times 7$ in base 12 before you compare the answer with the written one."
+          ]
+        }
+      },
+      "tags": [
+        "multiplication",
+        "division",
+        "multiplication-tables",
+        "error-checking"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "number-bases",
+          "subtopic_slug": "operations-in-different-number-bases-from-2-to-10",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "general-mathematics",
+          "topic_slug": "waec-number-bases",
+          "subtopic_slug": "waec-basic-operations-on-number-bases",
+          "status": "covered",
+          "papers": []
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "Contemporary Mathematics",
+      "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00054/index.cnxml",
+      "locator": "CNXML module m00054, sections on conversion between bases, the Mayan system and errors in conversion",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Contemporary Mathematics",
+      "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00055/index.cnxml",
+      "locator": "CNXML module m00055, sections on addition, subtraction and their errors",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Contemporary Mathematics",
+      "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00056/index.cnxml",
+      "locator": "CNXML module m00056, sections on multiplication, division and their errors",
+      "licence": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "What is the value of $10_6$ in base 10?",
+      "options": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "60"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In base 6 the second place is worth 6, so $10_6 = 1 \\times 6 + 0 = 6$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "Which set gives the digits used in base 9?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0 to 8"
+        },
+        {
+          "id": "b",
+          "text": "0 to 9"
+        },
+        {
+          "id": "c",
+          "text": "1 to 9"
+        },
+        {
+          "id": "d",
+          "text": "0 to 10"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A base 9 system has exactly nine symbols, 0 to 8. The symbol 9 is not legal in base 9.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-1",
+      "stem": "Which list gives the first four numerals after $3_4$ in base 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$10_4, 11_4, 12_4, 13_4$"
+        },
+        {
+          "id": "b",
+          "text": "$4_4, 5_4, 6_4, 7_4$"
+        },
+        {
+          "id": "c",
+          "text": "$10_4, 11_4, 12_4, 20_4$"
+        },
+        {
+          "id": "d",
+          "text": "$0_4, 1_4, 2_4, 3_4$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Base 4 has the digits 0, 1, 2 and 3. Once 3 is used, the next numeral is $10_4$, then $11_4$, $12_4$ and $13_4$. The digit 4 is not legal in base 4.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "Convert $1101_2$ to base 10.",
+      "options": [
+        {
+          "id": "a",
+          "text": "11"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "14"
+        },
+        {
+          "id": "d",
+          "text": "26"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$1101_2 = 1(8) + 1(4) + 0(2) + 1(1) = 13$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-2",
+      "stem": "Convert $2A5_{12}$ to base 10.",
+      "options": [
+        {
+          "id": "a",
+          "text": "413"
+        },
+        {
+          "id": "b",
+          "text": "341"
+        },
+        {
+          "id": "c",
+          "text": "365"
+        },
+        {
+          "id": "d",
+          "text": "431"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In base 12, A = 10, so $2A5_{12} = 2(144) + 10(12) + 5 = 288 + 120 + 5 = 413$.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "Convert 45 to base 2.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$101101_2$"
+        },
+        {
+          "id": "b",
+          "text": "$110101_2$"
+        },
+        {
+          "id": "c",
+          "text": "$101011_2$"
+        },
+        {
+          "id": "d",
+          "text": "$11101_2$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Repeated division by 2 gives remainders 1, 0, 1, 1, 0 and 1. Read in reverse, they give $101101_2$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-3",
+      "stem": "Convert 200 to base 5.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1300_5$"
+        },
+        {
+          "id": "b",
+          "text": "$1030_5$"
+        },
+        {
+          "id": "c",
+          "text": "$3001_5$"
+        },
+        {
+          "id": "d",
+          "text": "$1200_5$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The remainders from dividing 200 by 5 are 0, 0, 3 and 1. Read in reverse, they give $1300_5$.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "A base 10 number is converted to base 8 and the result is $27A_8$. What is wrong with the result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A is not a legal base 8 digit"
+        },
+        {
+          "id": "b",
+          "text": "7 is not a legal base 8 digit"
+        },
+        {
+          "id": "c",
+          "text": "The numeral has too few digits"
+        },
+        {
+          "id": "d",
+          "text": "Nothing is wrong"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Base 8 uses only 0 to 7. The letter A stands for 10, which is at or above the base, so the numeral cannot be valid.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-4",
+      "stem": "A four-digit base 10 number is converted to base 7 and the result has three digits. What does this show?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An error was made"
+        },
+        {
+          "id": "b",
+          "text": "The result is correct because 7 is smaller than 10"
+        },
+        {
+          "id": "c",
+          "text": "The result is correct because 7 is larger than 3"
+        },
+        {
+          "id": "d",
+          "text": "The digit count proves nothing"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A smaller base needs at least as many digits, so a four-digit number cannot become a three-digit number when it is converted to base 7.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "Calculate $46_7 + 25_7$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$104_7$"
+        },
+        {
+          "id": "b",
+          "text": "$71_7$"
+        },
+        {
+          "id": "c",
+          "text": "$101_7$"
+        },
+        {
+          "id": "d",
+          "text": "$74_7$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The ones column gives $6 + 5 = 11 = 14_7$, so write 4 and carry 1. The sevens column gives $1 + 4 + 2 = 7 = 10_7$, so write 0 and carry 1. The answer is $104_7$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-5",
+      "stem": "Calculate $1011_2 + 1101_2$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$11000_2$"
+        },
+        {
+          "id": "b",
+          "text": "$10100_2$"
+        },
+        {
+          "id": "c",
+          "text": "$11100_2$"
+        },
+        {
+          "id": "d",
+          "text": "$10010_2$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$1011_2 = 11$ and $1101_2 = 13$. Their sum is 24, and 24 in base 2 is $11000_2$.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "Calculate $52_6 - 34_6$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$14_6$"
+        },
+        {
+          "id": "b",
+          "text": "$24_6$"
+        },
+        {
+          "id": "c",
+          "text": "$18_6$"
+        },
+        {
+          "id": "d",
+          "text": "$22_6$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Borrow one group of 6 from the fives place, making the ones column $12_6 - 4_6 = 4_6$. The sixes column is then $4_6 - 3_6 = 1_6$, so the answer is $14_6$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-13",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-6",
+      "stem": "What is $9_{12} + 6_{12}$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$13_{12}$"
+        },
+        {
+          "id": "b",
+          "text": "$15_{12}$"
+        },
+        {
+          "id": "c",
+          "text": "$16_{12}$"
+        },
+        {
+          "id": "d",
+          "text": "$10_{12}$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Nine plus six is fifteen, which is one group of twelve and three ones. In base 12 that is written $13_{12}$.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    },
+    {
+      "id": "rc-14",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "Calculate $24_6 \\times 3_6$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$120_6$"
+        },
+        {
+          "id": "b",
+          "text": "$72_6$"
+        },
+        {
+          "id": "c",
+          "text": "$112_6$"
+        },
+        {
+          "id": "d",
+          "text": "$132_6$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$24_6 = 16$ in base 10, and $16 \\times 3 = 48$. Now 48 in base 6 is $120_6$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-15",
+      "exam": "WAEC",
+      "subject": "general-mathematics",
+      "section_id": "sec-7",
+      "stem": "In base 12, what is $8 \\times 7$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$48_{12}$"
+        },
+        {
+          "id": "b",
+          "text": "$56_{12}$"
+        },
+        {
+          "id": "c",
+          "text": "$46_{12}$"
+        },
+        {
+          "id": "d",
+          "text": "$58_{12}$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Eight times seven is 56 in base 10. Since 56 = 4(12) + 8, it is written $48_{12}$.",
+      "difficulty": 2,
+      "source": "authored against the WAEC general-mathematics syllabus"
+    }
+  ]
+}

@@ -1,5 +1,85 @@
 {
   "figures": {
+    "images/math_number_bases_CS_Photo_04_03_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 216835,
+      "extension": ".jpg",
+      "height": 464,
+      "published_path": "books/secondary_mathematics/124f795468da71522754796a0e3279d87a8fdaf291f43be5f2a9a63f531648e4.jpg",
+      "sha256": "124f795468da71522754796a0e3279d87a8fdaf291f43be5f2a9a63f531648e4",
+      "source": "data/concepts/images/math_number_bases_CS_Photo_04_03_001.jpg",
+      "width": 1000
+    },
+    "images/math_number_bases_CS_symbol_04_MTable.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 159589,
+      "extension": ".png",
+      "height": 641,
+      "published_path": "books/secondary_mathematics/5f26675fac8a8dc45efe601fc236b2912e3101e8f953c7e57cd41ba99a206f1d.png",
+      "sha256": "5f26675fac8a8dc45efe601fc236b2912e3101e8f953c7e57cd41ba99a206f1d",
+      "source": "data/concepts/images/math_number_bases_CS_symbol_04_MTable.png",
+      "width": 500
+    },
+    "images/math_number_bases_arithmetic_CS_Photo_04_04_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 297592,
+      "extension": ".jpg",
+      "height": 464,
+      "published_path": "books/secondary_mathematics/50c62ee5afec61afe1567c21e4b4ebe3077882a1e086dcfb18bad692ae23c694.jpg",
+      "sha256": "50c62ee5afec61afe1567c21e4b4ebe3077882a1e086dcfb18bad692ae23c694",
+      "source": "data/concepts/images/math_number_bases_arithmetic_CS_Photo_04_04_001.jpg",
+      "width": 1000
+    },
+    "images/math_number_bases_arithmetic_CS_figure_04_04_001.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 22907,
+      "extension": ".png",
+      "height": 519,
+      "published_path": "books/secondary_mathematics/08dfd87ac4879ae184f4cf0b122a2f6c5d436154e2232806d8152dbd0a6b25a9.png",
+      "sha256": "08dfd87ac4879ae184f4cf0b122a2f6c5d436154e2232806d8152dbd0a6b25a9",
+      "source": "data/concepts/images/math_number_bases_arithmetic_CS_figure_04_04_001.png",
+      "width": 705
+    },
+    "images/math_number_bases_arithmetic_CS_figure_04_04_002.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 30639,
+      "extension": ".png",
+      "height": 553,
+      "published_path": "books/secondary_mathematics/4c40e804c4b405640a5c731dc60c8a69b210cfe1d5085eeee6fe5c6fb1651b13.png",
+      "sha256": "4c40e804c4b405640a5c731dc60c8a69b210cfe1d5085eeee6fe5c6fb1651b13",
+      "source": "data/concepts/images/math_number_bases_arithmetic_CS_figure_04_04_002.png",
+      "width": 1154
+    },
+    "images/math_number_bases_arithmetic_CS_figure_04_04_003.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 25502,
+      "extension": ".png",
+      "height": 539,
+      "published_path": "books/secondary_mathematics/d4784970fe9e58a61c284085a4224aaba11c55b413926fb12a19c9ad34db74d2.png",
+      "sha256": "d4784970fe9e58a61c284085a4224aaba11c55b413926fb12a19c9ad34db74d2",
+      "source": "data/concepts/images/math_number_bases_arithmetic_CS_figure_04_04_003.png",
+      "width": 706
+    },
+    "images/math_number_bases_multiplication_CS_Photo_04_05_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 160216,
+      "extension": ".jpg",
+      "height": 464,
+      "published_path": "books/secondary_mathematics/98985d8f8ee1a21459eb19e2dc7579690e68371f48813a6dd8b7887ff6d4fc0e.jpg",
+      "sha256": "98985d8f8ee1a21459eb19e2dc7579690e68371f48813a6dd8b7887ff6d4fc0e",
+      "source": "data/concepts/images/math_number_bases_multiplication_CS_Photo_04_05_001.jpg",
+      "width": 1000
+    },
+    "images/math_number_bases_multiplication_CS_figure_04_05_001.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 25010,
+      "extension": ".png",
+      "height": 524,
+      "published_path": "books/secondary_mathematics/e8ba631b87ebc5e48c905a245c8cd96697866a9e610c6571a03257b2875dae0f.png",
+      "sha256": "e8ba631b87ebc5e48c905a245c8cd96697866a9e610c6571a03257b2875dae0f",
+      "source": "data/concepts/images/math_number_bases_multiplication_CS_figure_04_05_001.png",
+      "width": 1240
+    },
     "images/math_surds_CNX_CAT_Figure_01_03_001.jpg": {
       "book_id": "secondary_mathematics",
       "bytes": 18082,
