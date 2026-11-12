@@ -13,7 +13,7 @@ It holds two pipelines that share one checkout and one data directory:
   chapter specs, and publishes validated figures to the media project. See
   [`docs/CONTENT-BOOK-SCHEMA.md`](docs/CONTENT-BOOK-SCHEMA.md).
 
-`data/` is the content both pipelines produce: chapters, books, packs, chapter
+`data/` is the shared content directory: chapters, books, packs, chapter
 specs, source extracts, coverage reports, and the published figure manifest.
 The API keeps its own copy in Turso. This repository is the authoring and
 review side.
