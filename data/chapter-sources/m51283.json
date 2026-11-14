@@ -1,0 +1,4723 @@
+{
+  "module": "m51283",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-college-algebra-bundle",
+    "section": "m51283",
+    "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "p-0",
+      "type": "paragraph",
+      "content": {
+        "text": "In this section you will:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-1",
+      "type": "paragraph",
+      "content": {
+        "text": "A golfer swings to hit a ball over a sand trap and onto the green. An airline pilot maneuvers a plane toward a narrow runway. A dress designer creates the latest fashion. What do they all have in common? They all work with angles, and so do all of us at one time or another. Sometimes we need to measure angles exactly with instruments. Other times we estimate them or judge them by eye. Either way, the proper angle can make the difference between success and failure in many undertakings. In this section, we will examine properties of angles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Drawing Angles in Standard Position",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "Properly defining an angle first requires that we define a ray. A ray is a directed line segment. It consists of one point on a line and all points extending in one direction from that point. The first point is called the endpoint of the ray. We can refer to a specific ray by stating its endpoint and any other point on it. The ray in can be named as ray EF, or in symbol form $EF⟶.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_001.jpg",
+      "caption": {
+        "text": "Illustration of Ray EF, with point F and endpoint E.",
+        "inline": []
+      },
+      "alt": "Illustration of Ray EF, with point F and endpoint E.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-5",
+      "type": "paragraph",
+      "content": {
+        "text": "An angle is the union of two rays having a common endpoint. The endpoint is called the vertex of the angle, and the two rays are the sides of the angle. The angle in is formed from $ED⟶$ and $EF⟶$ . Angles can be named using a point on each ray and the vertex, such as angle *DEF* , or in symbol form $∠DEF.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_002.jpg",
+      "caption": {
+        "text": "Illustration of Angle DEF, with vertex E and points D and F.",
+        "inline": []
+      },
+      "alt": "Illustration of Angle DEF, with vertex E and points D and F.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-7",
+      "type": "paragraph",
+      "content": {
+        "text": "Greek letters are often used as variables for the measure of an angle. is a list of Greek letters commonly used to represent angles, and a sample angle is shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-8",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "$θ$",
+          "$φ$ or $ϕ$",
+          "$α$",
+          "$β$",
+          "$γ$"
+        ],
+        [
+          "theta",
+          "phi",
+          "alpha",
+          "beta",
+          "gamma"
+        ]
+      ],
+      "alt": "Table with 2 rows",
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_003.jpg",
+      "caption": {
+        "text": "Angle theta, shown as $∠θ$",
+        "inline": []
+      },
+      "alt": "Illustration of angle theta.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-10",
+      "type": "paragraph",
+      "content": {
+        "text": "Angle creation is a dynamic process. We start with two rays lying on top of one another. We leave one fixed in place, and rotate the other. The fixed ray is the initial side *,* and the rotated ray is the terminal side . In order to identify the different sides, we indicate the rotation with a small arrow close to the vertex as in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_004.jpg",
+      "caption": {
+        "text": "Illustration of an angle with labels for initial side, terminal side, and vertex.",
+        "inline": []
+      },
+      "alt": "Illustration of an angle with labels for initial side, terminal side, and vertex.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-12",
+      "type": "paragraph",
+      "content": {
+        "text": "As we discussed at the beginning of the section, there are many applications for angles, but in order to use them correctly, we must be able to measure them. The measure of an angle is the amount of rotation from the initial side to the terminal side. Probably the most familiar unit of angle measurement is the degree. One degree is $\\frac{1}{360}$ of a circular rotation, so a complete circular rotation contains $360$ degrees. An angle measured in degrees should always include the unit “degrees” after the number, or include the degree symbol $°.$ For example, $90degrees=90°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "To formalize our work, we will begin by drawing angles on an *x* - *y* coordinate plane. Angles can occur in any position on the coordinate plane, but for the purpose of comparison, the convention is to illustrate them in the same position whenever possible. An angle is in standard position if its vertex is located at the origin, and its initial side extends along the positive *x* -axis. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_005.jpg",
+      "caption": {
+        "text": "Graph of an angle in standard position with labels for the initial side and terminal side. The initial side starts on the x-axis and the terminal side is in Quadrant II with a counterclockwise arrow connecting the two.",
+        "inline": []
+      },
+      "alt": "Graph of an angle in standard position with labels for the initial side and terminal side.  The initial side starts on the x-axis and the terminal side is in Quadrant II with a counterclockwise arrow connecting the two.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "If the angle is measured in a counterclockwise direction from the initial side to the terminal side, the angle is said to be a positive angle . If the angle is measured in a clockwise direction, the angle is said to be a negative angle .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-16",
+      "type": "paragraph",
+      "content": {
+        "text": "Drawing an angle in standard position always starts the same way—draw the initial side along the positive *x* -axis. To place the terminal side of the angle, we must calculate the fraction of a full rotation the angle represents. We do that by dividing the angle measure in degrees by $360°.$ For example, to draw a $90°$ angle, we calculate that $\\frac{90°}{360°}=\\frac{1}{4}.$ So, the terminal side will be one-fourth of the way around the circle, moving counterclockwise from the positive *x* -axis. To draw a $360°$ angle, we calculate that $\\frac{360°}{360°}=1.$ So the terminal side will be 1 complete rotation around the circle, moving counterclockwise from the positive *x* -axis. In this case, the initial side and the terminal side overlap. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_006.jpg",
+      "caption": {
+        "text": "Side by side graphs. Graph on the left is a 90 degree angle and graph on the right is a 360 degree angle. Terminal side and initial side are labeled for both graphs.",
+        "inline": []
+      },
+      "alt": "Side by side graphs. Graph on the left is a 90 degree angle and graph on the right is a 360 degree angle. Terminal side and initial side are labeled for both graphs.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-18",
+      "type": "paragraph",
+      "content": {
+        "text": "Since we define an angle in standard position by its terminal side, we have a special type of angle whose terminal side lies on an axis, a *quadrantal angle* . This type of angle can have a measure of 0°, 90°, 180°, 270°, or 360°. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_018.jpg",
+      "caption": {
+        "text": "Quadrantal angles have a terminal side that lies along an axis. Examples are shown.",
+        "inline": []
+      },
+      "alt": "Four side by side graphs. First graph shows angle of 0 degrees. Second graph shows an angle of 90 degrees. Third graph shows an angle of 180 degrees. Fourth graph shows an angle of 270 degrees.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-20",
+      "type": "paragraph",
+      "content": {
+        "text": "An angle is a quadrantal angle if its terminal side lies on an axis, including 0°, 90°, 180°, 270°, or 360°.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle measure in degrees, draw the angle in standard position.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-22",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-23",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Drawing an Angle in Standard Position Measured in Degrees ⓐ Sketch an angle of $30°$ in standard position. ⓑ Sketch an angle of $−135°$ in standard position.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "ⓐ Divide the angle measure by $360°.$ \\[$\\frac{30°}{360°}=\\frac{1}{12}$\\] To rewrite the fraction in a more familiar fraction, we can recognize that \\[$\\frac{1}{12}=\\frac{1}{3}(\\frac{1}{4})$\\] One-twelfth equals one-third of a quarter, so by dividing a quarter rotation into thirds, we can sketch a line at $30°,$ as in . ⓑ Divide the angle measure by $360°.$ \\[$\\frac{−135°}{360°}=-\\frac{3}{8}$\\] In this case, we can recognize that \\[$-\\frac{3}{8}=-\\frac{3}{2}(\\frac{1}{4})$\\] Three-eighths is one and one-half times a quarter, so we place a line by moving clockwise one full quarter and one-half of another quarter, as in .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-24",
+      "type": "paragraph",
+      "content": {
+        "text": "Divide the angle measure by $360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-25",
+      "type": "paragraph",
+      "content": {
+        "text": "To rewrite the fraction in a more familiar fraction, we can recognize that",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-26",
+      "type": "paragraph",
+      "content": {
+        "text": "One-twelfth equals one-third of a quarter, so by dividing a quarter rotation into thirds, we can sketch a line at $30°,$ as in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_007.jpg",
+      "caption": {
+        "text": "Graph of a 30 degree angle on an xy-plane.",
+        "inline": []
+      },
+      "alt": "Graph of a 30 degree angle on an xy-plane.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-28",
+      "type": "paragraph",
+      "content": {
+        "text": "Divide the angle measure by $360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-29",
+      "type": "paragraph",
+      "content": {
+        "text": "In this case, we can recognize that",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "Three-eighths is one and one-half times a quarter, so we place a line by moving clockwise one full quarter and one-half of another quarter, as in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_008.jpg",
+      "caption": {
+        "text": "Graph of a negative 135 degree angle with a clockwise rotation to the terminal side instead of counterclockwise.",
+        "inline": []
+      },
+      "alt": "Graph of a negative 135 degree angle with a clockwise rotation to the terminal side instead of counterclockwise.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-32",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Show an angle of $240°$ on a circle in standard position.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "Show an angle of $240°$ on a circle in standard position.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-34",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Converting Between Degrees and Radians",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-35",
+      "type": "paragraph",
+      "content": {
+        "text": "Dividing a circle into 360 parts is an arbitrary choice, although it creates the familiar degree measurement. We may choose other ways to divide a circle. To find another unit, think of the process of drawing a circle. Imagine that you stop before the circle is completed. The portion that you drew is referred to as an arc. An arc may be a portion of a full circle, a full circle, or more than a full circle, represented by more than one full rotation. The length of the arc around an entire circle is called the circumference of that circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-36",
+      "type": "paragraph",
+      "content": {
+        "text": "The circumference of a circle is $C=2πr.$ If we divide both sides of this equation by $r,$ we create the ratio of the circumference, which is always $2π,$ to the radius, regardless of the length of the radius. So the circumference of any circle is $2π≈6.28$ times the length of the radius. That means that if we took a string as long as the radius and used it to measure consecutive lengths around the circumference, there would be room for six full string-lengths and a little more than a quarter of a seventh, as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_010.jpg",
+      "caption": {
+        "text": "Illustration of a circle showing the number of radians in a circle. A circle with points on it and between two points in counterclockwise rotation is a number which represents how many radians in that arc.",
+        "inline": []
+      },
+      "alt": "Illustration of a circle showing the number of radians in a circle.  A circle with points on it and between two points in counterclockwise rotation is a number which represents how many radians in that arc.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-38",
+      "type": "paragraph",
+      "content": {
+        "text": "This brings us to our new angle measure. One radian is the measure of a central angle of a circle that intercepts an arc equal in length to the radius of that circle. A central angle is an angle formed at the center of a circle by two radii. Because the total circumference equals $2π$ times the radius, a full circular rotation is $2π$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "See . Note that when an angle is described without a specific unit, it refers to radian measure. For example, an angle measure of 3 indicates 3 radians. In fact, radian measure is dimensionless, since it is the quotient of a length (circumference) divided by a length (radius) and the length units cancel.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-11",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_011.jpg",
+      "caption": {
+        "text": "The angle $t$ sweeps out a measure of one radian. Note that the length of the intercepted arc is the same as the length of the radius of the circle.",
+        "inline": []
+      },
+      "alt": "Illustration of a circle with angle t, radius r, and an arc of r. The",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-41",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Relating Arc Lengths to Radius",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-42",
+      "type": "paragraph",
+      "content": {
+        "text": "An arc length $s$ is the length of the curve along the arc. Just as the full circumference of a circle always has a constant ratio to the radius, the arc length produced by any given angle also has a constant relation to the radius, regardless of the length of the radius.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "This ratio, called the radian measure, is the same regardless of the radius of the circle—it depends only on the angle. This property allows us to define a measure of any angle as the ratio of the arc length $s$ to the radius *r* . See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "If $s=r,$ then $θ=\\frac{r}{r}=1 radian.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-12",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_013abc.jpg",
+      "caption": {
+        "text": "(a) In an angle of 1 radian, the arc length $s$ equals the radius $r.$ (b) An angle of 2 radians has an arc length $s=2r.$ (c) A full revolution is $2π,$ or about 6.28 radians.",
+        "inline": []
+      },
+      "alt": "Three side-by-side graphs of circles. First graph has a circle with radius r and arc s, with equivalence between r and s. The second graph shows a circle with radius r and an arc of length 2r. The third graph shows a circle with a full revolution, showing 6.28 radians.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-46",
+      "type": "paragraph",
+      "content": {
+        "text": "To elaborate on this idea, consider two circles, one with radius 2 and the other with radius 3. Recall the circumference of a circle is $C=2πr,$ where $r$ is the radius. The smaller circle then has circumference $2π(2)=4π$ and the larger has circumference $2π(3)=6π.$ Now we draw a $45°$ angle on the two circles, as in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-13",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_012.jpg",
+      "caption": {
+        "text": "A $45°$ angle contains one-eighth of the circumference of a circle, regardless of the radius.",
+        "inline": []
+      },
+      "alt": "Graph of a circle with a 45-degree angle and a label for pi/4 radians.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "Notice what happens if we find the ratio of the arc length divided by the radius of the circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-49",
+      "type": "paragraph",
+      "content": {
+        "text": "Since both ratios are $\\frac{1}{4}π,$ the angle measures of both circles are the same, even though the arc length and radius differ.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "One radian is the measure of the central angle of a circle such that the length of the arc between the initial side and the terminal side is equal to the radius of the circle. A full revolution $(360°)$ equals $2π$ radians. A half revolution $(180°)$ is equivalent to $π$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-51",
+      "type": "paragraph",
+      "content": {
+        "text": "The radian measure of an angle is the ratio of the length of the arc subtended by the angle to the radius of the circle. In other words, if $s$ is the length of an arc of a circle, and $r$ is the radius of the circle, then the central angle containing that arc measures $\\frac{s}{r}$ radians. In a circle of radius 1, the radian measure corresponds to the length of the arc.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-52",
+      "type": "paragraph",
+      "content": {
+        "text": "*A measure of 1 radian looks to be about $60°.$ Is that correct?*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-53",
+      "type": "paragraph",
+      "content": {
+        "text": "*Yes. It is approximately* $57.3°.$ *Because* $2π$ *radians equals* $360°,1$ *radian equals* $\\frac{360°}{2π}≈57.3°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-54",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Radians",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-55",
+      "type": "paragraph",
+      "content": {
+        "text": "Because radian measure is the ratio of two lengths, it is a unitless measure. For example, in , suppose the radius were 2 inches and the distance along the arc were also 2 inches. When we calculate the radian measure of the angle, the “inches” cancel, and we have a result without units. Therefore, it is not necessary to write the label “radians” after a radian measure, and if we see an angle that is not labeled with “degrees” or the degree symbol, we can assume that it is a radian measure.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "Considering the most basic case, the unit circle (a circle with radius 1), we know that 1 rotation equals 360 degrees, $360°.$ We can also track one rotation around a circle by finding the circumference, $C=2πr,$ and for the unit circle $C=2π.$ These two different ways to rotate around a circle give us a way to convert from degrees to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-57",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Identifying Special Angles Measured in Radians",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-58",
+      "type": "paragraph",
+      "content": {
+        "text": "In addition to knowing the measurements in degrees and radians of a quarter revolution, a half revolution, and a full revolution, there are other frequently encountered angles in one revolution of a circle with which we should be familiar. It is common to encounter multiples of 30, 45, 60, and 90 degrees. These values are shown in . Memorizing these angles will be very useful as we study the properties associated with angles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-14",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_016.jpg",
+      "caption": {
+        "text": "Commonly encountered angles measured in degrees",
+        "inline": []
+      },
+      "alt": "A graph of a circle with angles of 0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, and 330 degrees.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-60",
+      "type": "paragraph",
+      "content": {
+        "text": "Now, we can list the corresponding radian values for the common measures of a circle corresponding to those listed in , which are shown in . Be sure you can verify each of these measures.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-15",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_017.jpg",
+      "caption": {
+        "text": "Commonly encountered angles measured in radians",
+        "inline": []
+      },
+      "alt": "A graph of a circle with angles of 0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, and 330 degrees. The graph also shows the equivalent amount of radians for each angle of degrees. For example, 30 degrees is equal to pi/6 radians.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-62",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-63",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding a Radian Measure Find the radian measure of one-third of a full rotation.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "For any circle, the arc length along such a rotation would be one-third of the circumference. We know that \\[$1rotation=2πr$\\] So, \\[$s=\\frac{1}{3}(2πr)=\\frac{2πr}{3}$\\] The radian measure would be the arc length divided by the radius. \\[$radian measure=\\frac{\\frac{2πr}{3}}{r}=\\frac{2πr}{3r}=\\frac{2π}{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-64",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the radian measure of one-third of a full rotation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-65",
+      "type": "paragraph",
+      "content": {
+        "text": "For any circle, the arc length along such a rotation would be one-third of the circumference. We know that",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-66",
+      "type": "paragraph",
+      "content": {
+        "text": "The radian measure would be the arc length divided by the radius.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-67",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the radian measure of three-fourths of a full rotation.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{3π}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-68",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the radian measure of three-fourths of a full rotation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-69",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Converting Between Radians and Degrees",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-70",
+      "type": "paragraph",
+      "content": {
+        "text": "Because degrees and radians both measure angles, we need to be able to convert between them. We can easily do so using a proportion where $θ$ is the measure of the angle in degrees and ${θ}_{R}$ is the measure of the angle in radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-71",
+      "type": "paragraph",
+      "content": {
+        "text": "This proportion shows that the measure of angle $θ$ in degrees divided by 180 equals the measure of angle $θ$ in radians divided by $π.$ Or, phrased another way, degrees is to 180 as radians is to $π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-72",
+      "type": "paragraph",
+      "content": {
+        "text": "To convert between degrees and radians, use the proportion",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-73",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-74",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Converting Radians to Degrees Convert each radian measure to degrees. ⓐ $\\frac{π}{6}$ ⓑ 3",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because we are given radians and we want degrees, we should set up a proportion and solve it. ⓐ We use the proportion, substituting the given information. \\[$\\frac{θ}{180}=\\frac{{θ}_{R}}{π}\\frac{θ}{180}=\\frac{\\frac{π}{6}}{π}θ=\\frac{180}{6}θ=30°$\\] ⓑ We use the proportion, substituting the given information. \\[$\\frac{θ}{180}=\\frac{{θ}_{{}^{R}}}{π}\\frac{θ}{180}=\\frac{3}{π}θ=\\frac{3(180)}{π}θ≈172°$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-75",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert each radian measure to degrees.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-76",
+      "type": "paragraph",
+      "content": {
+        "text": "Because we are given radians and we want degrees, we should set up a proportion and solve it.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-77",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Convert $-\\frac{3π}{4}$ radians to degrees.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$−135°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-78",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert $-\\frac{3π}{4}$ radians to degrees.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-79",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-80",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Converting Degrees to Radians Convert $15$ degrees to radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "In this example, we start with degrees and want radians, so we again set up a proportion, but we substitute the given information into a different part of the proportion. \\[$\\frac{θ}{180}=\\frac{{θ}_{R}}{π}\\frac{15}{180}=\\frac{{θ}_{R}}{π}\\frac{15π}{180}={θ}_{R}\\frac{π}{12}={θ}_{R}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-81",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert $15$ degrees to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-82",
+      "type": "paragraph",
+      "content": {
+        "text": "In this example, we start with degrees and want radians, so we again set up a proportion, but we substitute the given information into a different part of the proportion.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-83",
+      "type": "paragraph",
+      "content": {
+        "text": "Another way to think about this problem is by remembering that $30°=\\frac{π}{6}.$ Because $15°=\\frac{1}{2}(30°),$ we can find that $\\frac{1}{2}(\\frac{π}{6})$ is $\\frac{π}{12}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-84",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Convert $126°$ to radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{7π}{10}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-85",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert $126°$ to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-86",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Coterminal Angles",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-87",
+      "type": "paragraph",
+      "content": {
+        "text": "Converting between degrees and radians can make working with angles easier in some applications. For other applications, we may need another type of conversion. Negative angles and angles greater than a full revolution are more awkward to work with than those in the range of $0°$ to $360°,$ or $0$ to $2π.$ It would be convenient to replace those out-of-range angles with a corresponding angle within the range of a single revolution.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-88",
+      "type": "paragraph",
+      "content": {
+        "text": "It is possible for more than one angle to have the same terminal side. Look at . The angle of $140°$ is a positive angle, measured counterclockwise. The angle of $–220°$ is a negative angle, measured clockwise. But both angles have the same terminal side. If two angles in standard position have the same terminal side, they are coterminal angles . Every angle greater than $360°$ or less than $0°$ is coterminal with an angle between $0°$ and $360°,$ and it is often more convenient to find the coterminal angle within the range of $0°$ to $360°$ than to work with an angle that is outside that range.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-16",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_020.jpg",
+      "caption": {
+        "text": "An angle of $140°$ and an angle of $–220°$ are coterminal angles.",
+        "inline": []
+      },
+      "alt": "A graph showing the equivalence between a 140 degree angle and a negative 220 degree angle.  The 140 degrees angle is a counterclockwise rotation where the 220 degree angle is a clockwise rotation.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-90",
+      "type": "paragraph",
+      "content": {
+        "text": "Any angle has infinitely many coterminal angles because each time we add $360°$ to that angle—or subtract $360°$ from it—the resulting value has a terminal side in the same location. For example, $100°$ and $460°$ are coterminal for this reason, as is $−260°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-91",
+      "type": "paragraph",
+      "content": {
+        "text": "An angle’s reference angle is the measure of the smallest, positive, acute angle $t′$ formed by the terminal side of the angle $t$ and the horizontal axis. Thus positive reference angles have terminal sides that lie in the first quadrant and can be used as models for angles in other quadrants. See for examples of reference angles for angles in different quadrants.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-17",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_019-5d63.jpg",
+      "caption": {
+        "text": "Four side-by-side graphs. First graph shows an angle of t in quadrant 1 in its normal position. Second graph shows an angle of t in quadrant 2 due to a rotation of pi minus t. Third graph shows an angle of t in quadrant 3 due to a rotation of t minus pi. Fourth graph shows an angle of t in quadrant 4 due to a rotation of two pi minus t.",
+        "inline": []
+      },
+      "alt": "Four side-by-side graphs. First graph shows an angle of t in quadrant 1 in its normal position. Second graph shows an angle of t in quadrant 2 due to a rotation of pi minus t. Third graph shows an angle of t in quadrant 3 due to a rotation of t minus pi. Fourth graph shows an angle of t in quadrant 4 due to a rotation of two pi minus t.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-93",
+      "type": "paragraph",
+      "content": {
+        "text": "*Coterminal angles* are two angles in standard position that have the same terminal side.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-94",
+      "type": "paragraph",
+      "content": {
+        "text": "An angle’s reference angle is the size of the smallest acute angle, ${t}^{′},$ formed by the terminal side of the angle $t$ and the horizontal axis.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-95",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle greater than $360°,$ find a coterminal angle between $0°$ and $360°$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-96",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-97",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding an Angle Coterminal with an Angle of Measure Greater Than $360°$ Find the least positive angle $θ$ that is coterminal with an angle measuring $800°,$ where $0°≤θ<360°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "An angle with measure $800°$ is coterminal with an angle with measure $800-360=440°,$ but $440°$ is still greater than $360°,$ so we subtract $360°$ again to find another coterminal angle: $440-360=80°.$ The angle $θ=80°$ is coterminal with $800°.$ To put it another way, $800°$ equals $80°$ plus two full rotations, as shown in .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-98",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the least positive angle $θ$ that is coterminal with an angle measuring $800°,$ where $0°≤θ<360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-99",
+      "type": "paragraph",
+      "content": {
+        "text": "An angle with measure $800°$ is coterminal with an angle with measure $800-360=440°,$ but $440°$ is still greater than $360°,$ so we subtract $360°$ again to find another coterminal angle: $440-360=80°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-100",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle $θ=80°$ is coterminal with $800°.$ To put it another way, $800°$ equals $80°$ plus two full rotations, as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-18",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_021-4177.jpg",
+      "caption": {
+        "text": "A graph showing the equivalence between an 80-degree angle and an 800-degree angle where the 800 degree angle is two full rotations and has the same terminal side position as the 80 degree.",
+        "inline": []
+      },
+      "alt": "A graph showing the equivalence between an 80-degree angle and an 800-degree angle where the 800 degree angle is two full rotations and has the same terminal side position as the 80 degree.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-102",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find an angle $α$ that is coterminal with an angle measuring $870°,$ where $0°≤α<360°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$α=150°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-103",
+      "type": "paragraph",
+      "content": {
+        "text": "Find an angle $α$ that is coterminal with an angle measuring $870°,$ where $0°≤α<360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-104",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle with measure less than $0°,$ find a coterminal angle having a measure between $0°$ and $360°.$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-105",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-106",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding an Angle Coterminal with an Angle Measuring Less Than $0°$ Show the angle with measure $−45°$ on a circle and find a positive coterminal angle $α$ such that $0°≤α<360°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Since $45°$ is half of $90°,$ we can start at the positive horizontal axis and measure clockwise half of a $90°$ angle. Because we can find coterminal angles by adding or subtracting a full rotation of $360°,$ we can find a positive coterminal angle here by adding $360°.$ \\[$−45°+360°=315°$\\] We can then show the angle on a circle, as in .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-107",
+      "type": "paragraph",
+      "content": {
+        "text": "Show the angle with measure $−45°$ on a circle and find a positive coterminal angle $α$ such that $0°≤α<360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-108",
+      "type": "paragraph",
+      "content": {
+        "text": "Since $45°$ is half of $90°,$ we can start at the positive horizontal axis and measure clockwise half of a $90°$ angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-109",
+      "type": "paragraph",
+      "content": {
+        "text": "Because we can find coterminal angles by adding or subtracting a full rotation of $360°,$ we can find a positive coterminal angle here by adding $360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-110",
+      "type": "paragraph",
+      "content": {
+        "text": "We can then show the angle on a circle, as in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-19",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_022-46c6.jpg",
+      "caption": {
+        "text": "A graph showing the equivalence of a 315-degree angle and a negative 45-degree angle. The 315 degree angle is on a counterclockwise rotation while the negative 45 degree angle is on a clockwise rotation.",
+        "inline": []
+      },
+      "alt": "A graph showing the equivalence of a 315-degree angle and a negative 45-degree angle.  The 315 degree angle is on a counterclockwise rotation while the negative 45 degree angle is on a clockwise rotation.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-112",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find an angle $β$ that is coterminal with an angle measuring $−300°$ such that $0°≤β<360°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$β=60°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-113",
+      "type": "paragraph",
+      "content": {
+        "text": "Find an angle $β$ that is coterminal with an angle measuring $−300°$ such that $0°≤β<360°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-114",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Coterminal Angles Measured in Radians",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-115",
+      "type": "paragraph",
+      "content": {
+        "text": "We can find coterminal angles measured in radians in much the same way as we have found them using degrees. In both cases, we find coterminal angles by adding or subtracting one or more full rotations.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-116",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle greater than $2π,$ find a coterminal angle between 0 and $2π.$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-117",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-118",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding Coterminal Angles Using Radians Find an angle $β$ that is coterminal with $\\frac{19π}{4},$ where $0≤β<2π.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "When working in degrees, we found coterminal angles by adding or subtracting 360 degrees, a full rotation. Likewise, in radians, we can find coterminal angles by adding or subtracting full rotations of $2π$ radians: \\[$\\frac{19π}{4}-2π=\\frac{19π}{4}-\\frac{8π}{4}=\\frac{11π}{4}$\\] The angle $\\frac{11π}{4}$ is coterminal, but not less than $2π,$ so we subtract another rotation. \\[$\\frac{11π}{4}-2π=\\frac{11π}{4}-\\frac{8π}{4}=\\frac{3π}{4}$\\] The angle $\\frac{3π}{4}$ is coterminal with $\\frac{19π}{4},$ as shown in .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-119",
+      "type": "paragraph",
+      "content": {
+        "text": "Find an angle $β$ that is coterminal with $\\frac{19π}{4},$ where $0≤β<2π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-120",
+      "type": "paragraph",
+      "content": {
+        "text": "When working in degrees, we found coterminal angles by adding or subtracting 360 degrees, a full rotation. Likewise, in radians, we can find coterminal angles by adding or subtracting full rotations of $2π$ radians:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-121",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle $\\frac{11π}{4}$ is coterminal, but not less than $2π,$ so we subtract another rotation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-122",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle $\\frac{3π}{4}$ is coterminal with $\\frac{19π}{4},$ as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-20",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_023-ae93.jpg",
+      "caption": {
+        "text": "A graph showing a circle and the equivalence between angles of 3pi/4 radians and 19pi/4 radians. The 19pi/4 makes two full rotations before ending in the same place as the 3pi/4.",
+        "inline": []
+      },
+      "alt": "A graph showing a circle and the equivalence between angles of 3pi/4 radians and 19pi/4 radians.  The 19pi/4 makes two full rotations before ending in the same place as the 3pi/4. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-124",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find an angle of measure $θ$ that is coterminal with an angle of measure $-\\frac{17π}{6}$ where $0≤θ<2π.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{7π}{6}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-125",
+      "type": "paragraph",
+      "content": {
+        "text": "Find an angle of measure $θ$ that is coterminal with an angle of measure $-\\frac{17π}{6}$ where $0≤θ<2π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-126",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Determining the Length of an Arc",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-127",
+      "type": "paragraph",
+      "content": {
+        "text": "Recall that the radian measure $θ$ of an angle was defined as the ratio of the arc length $s$ of a circular arc to the radius $r$ of the circle, $θ=\\frac{s}{r}.$ From this relationship, we can find arc length along a circle, given an angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-128",
+      "type": "paragraph",
+      "content": {
+        "text": "In a circle of radius *r* , the length of an arc $s$ subtended by an angle with measure $θ$ in radians, shown in , is",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-21",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_024n.png",
+      "caption": {
+        "text": "Illustration of circle with angle theta, radius r, and arc with length s.",
+        "inline": []
+      },
+      "alt": "Illustration of circle with angle theta, radius r, and arc with length s. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-130",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given a circle of radius $r,$ calculate the length $s$ of the arc intercepted by a given angle of measure $θ.$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-131",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-132",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding the Length of an Arc Assume the orbit of Mercury around the sun is a perfect circle. Mercury is approximately 36 million miles from the sun. ⓐ In one Earth day, Mercury completes 0.0114 of its total revolution. How many miles does it travel in one day? ⓑ Use your answer from part (a) to determine the radian measure for Mercury’s movement in one Earth day.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "ⓐ Let’s begin by finding the circumference of Mercury’s orbit. \\[$C=2πr=2π(36 million miles)≈226 million miles$\\] Since Mercury completes 0.0114 of its total revolution in one Earth day, we can now find the distance traveled. \\[$(0.0114)226million miles = 2.58 million miles$\\] ⓑ Now, we convert to radians. \\[$radian=\\frac{arclength}{radius}=\\frac{2.58 million miles}{36million miles}=0.0717$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-133",
+      "type": "paragraph",
+      "content": {
+        "text": "Assume the orbit of Mercury around the sun is a perfect circle. Mercury is approximately 36 million miles from the sun.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-134",
+      "type": "paragraph",
+      "content": {
+        "text": "Since Mercury completes 0.0114 of its total revolution in one Earth day, we can now find the distance traveled.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-135",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the arc length along a circle of radius 10 units subtended by an angle of $215°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{215π}{18}=37.525units$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-136",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the arc length along a circle of radius 10 units subtended by an angle of $215°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-137",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{215π}{18}=37.525units$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-138",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding the Area of a Sector of a Circle",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-139",
+      "type": "paragraph",
+      "content": {
+        "text": "In addition to arc length, we can also use angles to find the area of a sector of a circle . A sector is a region of a circle bounded by two radii and the intercepted arc, like a slice of pizza or pie. Recall that the area of a circle with radius $r$ can be found using the formula $A=π{r}^{2}.$ If the two radii form an angle of $θ,$ measured in radians, then $\\frac{θ}{2π}$ is the ratio of the angle measure to the measure of a full rotation and is also, therefore, the ratio of the area of the sector to the area of the circle. Thus, the *area of a sector* is the fraction $\\frac{θ}{2π}$ multiplied by the entire area. (Always remember that this formula only applies if $θ$ is in radians.)",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-140",
+      "type": "paragraph",
+      "content": {
+        "text": "The area of a sector of a circle with radius $r$ subtended by an angle $θ,$ measured in radians, is",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-22",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_026n.png",
+      "caption": {
+        "text": "The area of the sector equals half the square of the radius times the central angle measured in radians.",
+        "inline": []
+      },
+      "alt": "Graph showing a circle with angle theta and radius r, and the area of the slice of circle created by the initial side and terminal side of the angle.  The slice is labeled: A equals one half times theta times r squared.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-142",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given a circle of radius $r,$ find the area of a sector defined by a given angle $θ.$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-143",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-144",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding the Area of a Sector An automatic lawn sprinkler sprays a distance of 20 feet while rotating 30 degrees, as shown in . What is the area of the sector of grass the sprinkler waters? The sprinkler sprays 20 ft within an arc of $30°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "First, we need to convert the angle measure into radians. Because 30 degrees is one of our special angles, we already know the equivalent radian measure, but we can also convert: \\[$30degrees=30\\cdot \\frac{π}{180}=\\frac{π}{6}radians$\\] The area of the sector is then \\[$Area=\\frac{1}{2}(\\frac{π}{6}){(20)}^{2}≈104.72$\\] So the area is about $104.72{ft}^{2}.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-145",
+      "type": "paragraph",
+      "content": {
+        "text": "An automatic lawn sprinkler sprays a distance of 20 feet while rotating 30 degrees, as shown in . What is the area of the sector of grass the sprinkler waters?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-23",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_027.jpg",
+      "caption": {
+        "text": "The sprinkler sprays 20 ft within an arc of $30°.$",
+        "inline": []
+      },
+      "alt": "Illustration of a 30-degree angle with a terminal and initial side with length of 20 feet.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-147",
+      "type": "paragraph",
+      "content": {
+        "text": "First, we need to convert the angle measure into radians. Because 30 degrees is one of our special angles, we already know the equivalent radian measure, but we can also convert:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-148",
+      "type": "paragraph",
+      "content": {
+        "text": "The area of the sector is then",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-149",
+      "type": "paragraph",
+      "content": {
+        "text": "So the area is about $104.72{ft}^{2}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-150",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "In central pivot irrigation, which creates the field shapes similar to the image at the beginning of Equations and Inequalities , a large irrigation pipe on wheels rotates around a center point. A farmer has a central pivot system with a radius of 400 meters. If water restrictions only allow her to water 150 thousand square meters a day, what angle should she set the system to cover? Write the answer in radian measure to two decimal places.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1.88",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-151",
+      "type": "paragraph",
+      "content": {
+        "text": "In central pivot irrigation, which creates the field shapes similar to the image at the beginning of Equations and Inequalities , a large irrigation pipe on wheels rotates around a center point. A farmer has a central pivot system with a radius of 400 meters. If water restrictions only allow her to water 150 thousand square meters a day, what angle should she set the system to cover? Write the answer in radian measure to two decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-152",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Use Linear and Angular Speed to Describe Motion on a Circular Path",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-153",
+      "type": "paragraph",
+      "content": {
+        "text": "In addition to finding the area of a sector, we can use angles to describe the speed of a moving object. An object traveling in a circular path has two types of speed. *Linear speed* is speed along a straight path and can be determined by the distance it moves along (its displacement ) in a given time interval. For instance, if a wheel with radius 5 inches rotates once a second, a point on the edge of the wheel moves a distance equal to the circumference, or $10π$ inches, every second. So the linear speed of the point is $10π$ in./s. The equation for linear speed is as follows where $v$ is linear speed, $s$ is displacement, and $t$ is time.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-154",
+      "type": "paragraph",
+      "content": {
+        "text": "Angular speed results from circular motion and can be determined by the angle through which a point rotates in a given time interval. In other words, angular speed is angular rotation per unit time. So, for instance, if a gear makes a full rotation every 4 seconds, we can calculate its angular speed as $\\frac{360degrees}{4seconds}=$ 90 degrees per second. Angular speed can be given in radians per second, rotations per minute, or degrees per hour for example. The equation for angular speed is as follows, where $ω$ (read as omega) is angular speed, $θ$ is the angle traversed, and $t$ is time.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-155",
+      "type": "paragraph",
+      "content": {
+        "text": "Combining the definition of angular speed with the arc length equation, $s=rθ,$ we can find a relationship between angular and linear speeds. The angular speed equation can be solved for $θ,$ giving $θ=ωt.$ Substituting this into the arc length equation gives:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-156",
+      "type": "paragraph",
+      "content": {
+        "text": "Substituting this into the linear speed equation gives:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-157",
+      "type": "paragraph",
+      "content": {
+        "text": "As a point moves along a circle of radius $r,$ its angular speed , $ω,$ is the angular rotation $θ$ per unit time, $t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-158",
+      "type": "paragraph",
+      "content": {
+        "text": "The linear speed , $v,$ of the point can be found as the distance traveled, arc length $s,$ per unit time, $t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-159",
+      "type": "paragraph",
+      "content": {
+        "text": "When the angular speed is measured in radians per unit time, linear speed and angular speed are related by the equation",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-160",
+      "type": "paragraph",
+      "content": {
+        "text": "This equation states that the angular speed in radians, $ω,$ representing the amount of rotation occurring in a unit of time, can be multiplied by the radius $r$ to calculate the total arc length traveled in a unit of time, which is the definition of linear speed.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-161",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the amount of angle rotation and the time elapsed, calculate the angular speed.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-162",
+      "type": "paragraph",
+      "content": {
+        "text": "Water wheels have been used for thousands of years to transfer the power of flowing water to other devices. The image below depicts the design of the the 3rd century Roman water wheel in Hierapolis, a city in what is now Turkey. Water turned the wheel, which in turn rotated a crank connected to two saws used to cut blocks. These design elements were used in water wheel applications throughout the world, and even provided the underlying principle for the steam engine, invented about 1500 years later.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-163",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-164",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding Angular Speed A water wheel, shown in , completes 1 rotation every 5 seconds. Find the angular speed in radians per second.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The wheel completes 1 rotation, or passes through an angle of $2π$ radians in 5 seconds, so the angular speed would be $ω=\\frac{2π}{5}≈1.257$ radians per second.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-165",
+      "type": "paragraph",
+      "content": {
+        "text": "A water wheel, shown in , completes 1 rotation every 5 seconds. Find the angular speed in radians per second.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-24",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_028.jpg",
+      "caption": {
+        "text": "Illustration of a water wheel.",
+        "inline": []
+      },
+      "alt": "Illustration of a water wheel. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-167",
+      "type": "paragraph",
+      "content": {
+        "text": "The wheel completes 1 rotation, or passes through an angle of $2π$ radians in 5 seconds, so the angular speed would be $ω=\\frac{2π}{5}≈1.257$ radians per second.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-168",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A vintage vinyl record is played on a turntable rotating clockwise at a rate of 45 rotations per minute. Find the angular speed in radians per second.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{3π}{2}$ rad/s",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-169",
+      "type": "paragraph",
+      "content": {
+        "text": "A vintage vinyl record is played on a turntable rotating clockwise at a rate of 45 rotations per minute. Find the angular speed in radians per second.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-170",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{3π}{2}$ rad/s",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-171",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the radius of a circle, an angle of rotation, and a length of elapsed time, determine the linear speed.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-172",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-173",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding a Linear Speed A bicycle has wheels 28 inches in diameter. A tachometer determines the wheels are rotating at 180 RPM (revolutions per minute). Find the speed the bicycle is traveling down the road.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Here, we have an angular speed and need to find the corresponding linear speed, since the linear speed of the outside of the tires is the speed at which the bicycle travels down the road. We begin by converting from rotations per minute to radians per minute. It can be helpful to utilize the units to make this conversion: \\[$180\\frac{rotations}{minute}\\cdot \\frac{2πradians}{rotation}=360π\\frac{radians}{minute}$\\] Using the formula from above along with the radius of the wheels, we can find the linear speed: \\[$v=(14 inches)(360π\\frac{radians}{minute})=5040π\\frac{inches}{minute}$\\] Remember that radians are a unitless measure, so it is not necessary to include them. Finally, we may wish to convert this linear speed into a more familiar measurement, like miles per hour. \\[$5040π\\frac{inches}{minute}\\cdot \\frac{1feet}{12inches}\\cdot \\frac{1 mile}{5280feet}\\cdot \\frac{60minutes}{1 hour}≈14.99miles per hour (mph)$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-174",
+      "type": "paragraph",
+      "content": {
+        "text": "A bicycle has wheels 28 inches in diameter. A tachometer determines the wheels are rotating at 180 RPM (revolutions per minute). Find the speed the bicycle is traveling down the road.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-175",
+      "type": "paragraph",
+      "content": {
+        "text": "Here, we have an angular speed and need to find the corresponding linear speed, since the linear speed of the outside of the tires is the speed at which the bicycle travels down the road.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-176",
+      "type": "paragraph",
+      "content": {
+        "text": "We begin by converting from rotations per minute to radians per minute. It can be helpful to utilize the units to make this conversion:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-177",
+      "type": "paragraph",
+      "content": {
+        "text": "Using the formula from above along with the radius of the wheels, we can find the linear speed:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-178",
+      "type": "paragraph",
+      "content": {
+        "text": "Remember that radians are a unitless measure, so it is not necessary to include them.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-179",
+      "type": "paragraph",
+      "content": {
+        "text": "Finally, we may wish to convert this linear speed into a more familiar measurement, like miles per hour.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-180",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A satellite is rotating around Earth at 0.25 radian per hour at an altitude of 242 km above Earth. If the radius of Earth is 6378 kilometers, find the linear speed of the satellite in kilometers per hour.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1655 kilometers per hour",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-181",
+      "type": "paragraph",
+      "content": {
+        "text": "A satellite is rotating around Earth at 0.25 radian per hour at an altitude of 242 km above Earth. If the radius of Earth is 6378 kilometers, find the linear speed of the satellite in kilometers per hour.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-182",
+      "type": "paragraph",
+      "content": {
+        "text": "1655 kilometers per hour",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-183",
+      "type": "paragraph",
+      "content": {
+        "text": "Access these online resources for additional instruction and practice with angles, arc length, and areas of sectors.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-184",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Equations",
+        "inline": []
+      }
+    },
+    {
+      "id": "tbl-185",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "arc length",
+          "$s=rθ$"
+        ],
+        [
+          "area of a sector",
+          "$A=\\frac{1}{2}θ{r}^{2}$"
+        ],
+        [
+          "angular speed",
+          "$ω=\\frac{θ}{t}$"
+        ],
+        [
+          "linear speed",
+          "$v=\\frac{s}{t}$"
+        ],
+        [
+          "linear speed related to angular speed",
+          "$v=rω$"
+        ]
+      ],
+      "alt": "Table with 5 rows",
+      "level": "core"
+    },
+    {
+      "id": "sec-186",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-187",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Section Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-188",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Verbal",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-189",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Draw an angle in standard position. Label the vertex, initial side, and terminal side.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-190",
+      "type": "paragraph",
+      "content": {
+        "text": "Draw an angle in standard position. Label the vertex, initial side, and terminal side.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-191",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain why there are an infinite number of angles that are coterminal to a certain angle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-192",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain why there are an infinite number of angles that are coterminal to a certain angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-193",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State what a positive or negative angle signifies, and explain how to draw each.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Whether the angle is positive or negative determines the direction. A positive angle is drawn in the counterclockwise direction, and a negative angle is drawn in the clockwise direction.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-194",
+      "type": "paragraph",
+      "content": {
+        "text": "State what a positive or negative angle signifies, and explain how to draw each.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-195",
+      "type": "paragraph",
+      "content": {
+        "text": "Whether the angle is positive or negative determines the direction. A positive angle is drawn in the counterclockwise direction, and a negative angle is drawn in the clockwise direction.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-196",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "How does radian measure of an angle compare to the degree measure? Include an explanation of 1 radian in your paragraph.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-197",
+      "type": "paragraph",
+      "content": {
+        "text": "How does radian measure of an angle compare to the degree measure? Include an explanation of 1 radian in your paragraph.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-198",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain the differences between linear speed and angular speed when describing motion along a circular path.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Linear speed is a measurement found by calculating distance of an arc compared to time. Angular speed is a measurement found by calculating the angle of an arc compared to time.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-199",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain the differences between linear speed and angular speed when describing motion along a circular path.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-200",
+      "type": "paragraph",
+      "content": {
+        "text": "Linear speed is a measurement found by calculating distance of an arc compared to time. Angular speed is a measurement found by calculating the angle of an arc compared to time.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-201",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Graphical",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-202",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, draw an angle in standard position with the given measure.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-203",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$30°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-204",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$300°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-205",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−80°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-206",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$135°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-207",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−150°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-208",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{2π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-209",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{7π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-210",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-211",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{π}{2}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-212",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{π}{10}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-213",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$415°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-214",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, draw an angle in standard position with the given measure as well as a coterminal angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-215",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−120°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$240°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-216",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−315°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-217",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{22π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{4π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-218",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-219",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{4π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{2π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-220",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, refer to . Round to two decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-25",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_218-6956.jpg",
+      "caption": {
+        "text": "Graph of a circle with radius of 3 inches and an angle of 140 degrees.",
+        "inline": []
+      },
+      "alt": "Graph of a circle with radius of 3 inches and an angle of 140 degrees.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-222",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the arc length.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-223",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the arc length.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-224",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the area of the sector.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{7π}{2}≈11.00{in}^{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-225",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the area of the sector.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-226",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{7π}{2}≈11.00{in}^{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-227",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, refer to . Round to two decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-26",
+      "type": "figure",
+      "asset_url": "images/math_angles_CNX_Precalc_Figure_05_01_219-14b1.jpg",
+      "caption": {
+        "text": "Graph of a circle with angle of 2pi/5 and a radius of 4.5 cm.",
+        "inline": []
+      },
+      "alt": "Graph of a circle with angle of 2pi/5 and a radius of 4.5 cm.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-229",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the arc length.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-230",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the arc length.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-231",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the area of the sector.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{81π}{20}≈12.72{cm}^{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-232",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the area of the sector.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-233",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{81π}{20}≈12.72{cm}^{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-234",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Algebraic",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-235",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, convert angles in radians to degrees.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-236",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{3π}{4}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-237",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{3π}{4}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-238",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{π}{9}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$20°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-239",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{9}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-240",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{5π}{4}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-241",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{5π}{4}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-242",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{π}{3}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-243",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{3}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-244",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{7π}{3}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-245",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{7π}{3}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-246",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{5π}{12}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$−75°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-247",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{5π}{12}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-248",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{11π}{6}$ radians",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-249",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{11π}{6}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-250",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, convert angles in degrees to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-251",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$90°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{2}$ radians",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-252",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{2}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-253",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$100°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-254",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−540°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$−3π$ radians",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-255",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−120°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-256",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$180°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$π$ radians",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-257",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−315°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-258",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$150°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5π}{6}$ radians",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-259",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{5π}{6}$ radians",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-260",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the given information to find the length of a circular arc. Round to two decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-261",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of radius 12 inches intercepted by a central angle of $\\frac{π}{4}.$ radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-262",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of radius 12 inches intercepted by a central angle of $\\frac{π}{4}.$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-263",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of radius 5.02 miles intercepted by the central angle of $\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5.02π}{3}≈5.26$ miles",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-264",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of radius 5.02 miles intercepted by the central angle of $\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-265",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{5.02π}{3}≈5.26$ miles",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-266",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of diameter 14 meters intercepted by the central angle of $\\frac{5π}{6}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-267",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of diameter 14 meters intercepted by the central angle of $\\frac{5π}{6}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-268",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of radius 10 centimeters intercepted by the central angle of $50°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{25π}{9}≈8.73$ centimeters",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-269",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of radius 10 centimeters intercepted by the central angle of $50°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-270",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{25π}{9}≈8.73$ centimeters",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-271",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of radius 5 inches intercepted by the central angle of $220°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-272",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of radius 5 inches intercepted by the central angle of $220°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-273",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of the arc of a circle of diameter 12 meters intercepted by the central angle is $63°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{21π}{10}≈6.60$ meters",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-274",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of the arc of a circle of diameter 12 meters intercepted by the central angle is $63°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-275",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{21π}{10}≈6.60$ meters",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-276",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the given information to find the area of the sector. Round to four decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-277",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A sector of a circle has a central angle of $45°$ and a radius 6 cm.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-278",
+      "type": "paragraph",
+      "content": {
+        "text": "A sector of a circle has a central angle of $45°$ and a radius 6 cm.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-279",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A sector of a circle has a central angle of $30°$ and a radius of 20 cm.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "104.7198 cm 2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-280",
+      "type": "paragraph",
+      "content": {
+        "text": "A sector of a circle has a central angle of $30°$ and a radius of 20 cm.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-281",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A sector of a circle with diameter 10 feet and an angle of $\\frac{π}{2}$ radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-282",
+      "type": "paragraph",
+      "content": {
+        "text": "A sector of a circle with diameter 10 feet and an angle of $\\frac{π}{2}$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-283",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A sector of a circle with radius of 0.7 inches and an angle of $π$ radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "0.7697 in 2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-284",
+      "type": "paragraph",
+      "content": {
+        "text": "A sector of a circle with radius of 0.7 inches and an angle of $π$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-285",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the angle between $0°$ and $360°$ that is coterminal to the given angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-286",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−40°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-287",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−110°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$250°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-288",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$700°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-289",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$1400°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$320°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-290",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the angle between 0 and $2π$ in radians that is coterminal to the given angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-291",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{π}{9}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-292",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{10π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{4π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-293",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{13π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-294",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{44π}{9}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{8π}{9}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "sec-295",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Real-World Applications",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-296",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A truck with 32-inch diameter wheels is traveling at 60 mi/h. Find the angular speed of the wheels in rad/min. How many revolutions per minute do the wheels make?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-297",
+      "type": "paragraph",
+      "content": {
+        "text": "A truck with 32-inch diameter wheels is traveling at 60 mi/h. Find the angular speed of the wheels in rad/min. How many revolutions per minute do the wheels make?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-298",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A bicycle with 24-inch diameter wheels is traveling at 15 mi/h. Find the angular speed of the wheels in rad/min. How many revolutions per minute do the wheels make?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$1320$ rad/min $210.085$ RPM",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-299",
+      "type": "paragraph",
+      "content": {
+        "text": "A bicycle with 24-inch diameter wheels is traveling at 15 mi/h. Find the angular speed of the wheels in rad/min. How many revolutions per minute do the wheels make?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-300",
+      "type": "paragraph",
+      "content": {
+        "text": "$1320$ rad/min $210.085$ RPM",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-301",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A wheel of radius 8 inches is rotating 15°/s. What is the linear speed $v,$ the angular speed in RPM, and the angular speed in rad/s?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-302",
+      "type": "paragraph",
+      "content": {
+        "text": "A wheel of radius 8 inches is rotating 15°/s. What is the linear speed $v,$ the angular speed in RPM, and the angular speed in rad/s?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-303",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A wheel of radius $14$ inches is rotating $0.5$ rad/s. What is the linear speed $v,$ the angular speed in RPM, and the angular speed in deg/s?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$7$ in./s, 4.77 RPM , $28.65$ deg/s",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-304",
+      "type": "paragraph",
+      "content": {
+        "text": "A wheel of radius $14$ inches is rotating $0.5$ rad/s. What is the linear speed $v,$ the angular speed in RPM, and the angular speed in deg/s?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-305",
+      "type": "paragraph",
+      "content": {
+        "text": "$7$ in./s, 4.77 RPM , $28.65$ deg/s",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-306",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A computer hard drive disc has diameter of 120 millimeters. When playing audio, the angular speed varies to keep the linear speed constant where the disc is being read. When reading along the outer edge of the disc, the angular speed is about 200 RPM (revolutions per minute). Find the linear speed.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-307",
+      "type": "paragraph",
+      "content": {
+        "text": "A computer hard drive disc has diameter of 120 millimeters. When playing audio, the angular speed varies to keep the linear speed constant where the disc is being read. When reading along the outer edge of the disc, the angular speed is about 200 RPM (revolutions per minute). Find the linear speed.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-308",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "When being burned in a writable CD-R drive, the angular speed of a CD is often much faster than when playing audio, but the angular speed still varies to keep the linear speed constant where the disc is being written. When writing along the outer edge of the disc, the angular speed of one drive is about 4800 RPM (revolutions per minute). Find the linear speed if the CD has diameter of 120 millimeters.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$1,809,557.37mm/min=$ $30.16m/s$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-309",
+      "type": "paragraph",
+      "content": {
+        "text": "When being burned in a writable CD-R drive, the angular speed of a CD is often much faster than when playing audio, but the angular speed still varies to keep the linear speed constant where the disc is being written. When writing along the outer edge of the disc, the angular speed of one drive is about 4800 RPM (revolutions per minute). Find the linear speed if the CD has diameter of 120 millimeters.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-310",
+      "type": "paragraph",
+      "content": {
+        "text": "$1,809,557.37mm/min=$ $30.16m/s$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-311",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A person is standing on the equator of Earth (radius 3960 miles). What are their linear and angular speeds?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-312",
+      "type": "paragraph",
+      "content": {
+        "text": "A person is standing on the equator of Earth (radius 3960 miles). What are their linear and angular speeds?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-313",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the distance along an arc on the surface of Earth that subtends a central angle of 5 minutes $(1minute=\\frac{1}{60}degree)$ . The radius of Earth is 3960 miles.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$5.76$ miles",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-314",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the distance along an arc on the surface of Earth that subtends a central angle of 5 minutes $(1minute=\\frac{1}{60}degree)$ . The radius of Earth is 3960 miles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-315",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the distance along an arc on the surface of Earth that subtends a central angle of 7 minutes $(1minute=\\frac{1}{60}degree)$ . The radius of Earth is $3960$ miles.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-316",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the distance along an arc on the surface of Earth that subtends a central angle of 7 minutes $(1minute=\\frac{1}{60}degree)$ . The radius of Earth is $3960$ miles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-317",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Consider a clock with an hour hand and minute hand. What is the measure of the angle the minute hand traces in $20$ minutes?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$120°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-318",
+      "type": "paragraph",
+      "content": {
+        "text": "Consider a clock with an hour hand and minute hand. What is the measure of the angle the minute hand traces in $20$ minutes?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-319",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Extensions",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-320",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Two cities have the same longitude. The latitude of city A is 9 degrees north and the latitude of city B is 30 degrees north. Assume the radius of the earth is 3960 miles. Find the distance between the two cities.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-321",
+      "type": "paragraph",
+      "content": {
+        "text": "Two cities have the same longitude. The latitude of city A is 9 degrees north and the latitude of city B is 30 degrees north. Assume the radius of the earth is 3960 miles. Find the distance between the two cities.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-322",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A city is located at 40 degrees north latitude. Assume the radius of the earth is 3960 miles and the earth rotates once every 24 hours. Find the linear speed of a person who resides in this city.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "794 miles per hour",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-323",
+      "type": "paragraph",
+      "content": {
+        "text": "A city is located at 40 degrees north latitude. Assume the radius of the earth is 3960 miles and the earth rotates once every 24 hours. Find the linear speed of a person who resides in this city.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-324",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A city is located at 75 degrees north latitude. Assume the radius of the earth is 3960 miles and the earth rotates once every 24 hours. Find the linear speed of a person who resides in this city.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-325",
+      "type": "paragraph",
+      "content": {
+        "text": "A city is located at 75 degrees north latitude. Assume the radius of the earth is 3960 miles and the earth rotates once every 24 hours. Find the linear speed of a person who resides in this city.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-326",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the linear speed of the moon if the average distance between the earth and moon is 239,000 miles, assuming the orbit of the moon is circular and requires about 28 days. Express answer in miles per hour.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "2,234 miles per hour",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-327",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the linear speed of the moon if the average distance between the earth and moon is 239,000 miles, assuming the orbit of the moon is circular and requires about 28 days. Express answer in miles per hour.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-328",
+      "type": "paragraph",
+      "content": {
+        "text": "2,234 miles per hour",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-329",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A bicycle has wheels 28 inches in diameter. A tachometer determines that the wheels are rotating at 180 RPM (revolutions per minute). Find the speed the bicycle is travelling down the road.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-330",
+      "type": "paragraph",
+      "content": {
+        "text": "A bicycle has wheels 28 inches in diameter. A tachometer determines that the wheels are rotating at 180 RPM (revolutions per minute). Find the speed the bicycle is travelling down the road.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-331",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A car travels 3 miles. Its tires make 2640 revolutions. What is the radius of a tire in inches?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "11.5 inches",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-332",
+      "type": "paragraph",
+      "content": {
+        "text": "A car travels 3 miles. Its tires make 2640 revolutions. What is the radius of a tire in inches?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-333",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A wheel on a tractor has a 24-inch diameter. How many revolutions does the wheel make if the tractor travels 4 miles?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-334",
+      "type": "paragraph",
+      "content": {
+        "text": "A wheel on a tractor has a 24-inch diameter. How many revolutions does the wheel make if the tractor travels 4 miles?",
+        "inline": []
+      },
+      "level": "core"
+    }
+  ],
+  "solutions": {
+    "osbooks-college-algebra-bundle:m51283:exr-23": [
+      [
+        {
+          "kind": "math",
+          "text": "ⓐ"
+        },
+        {
+          "kind": "text",
+          "text": "Divide the angle measure by"
+        },
+        {
+          "kind": "math",
+          "text": "360°.\\frac{30°}{360°}=\\frac{1}{12}"
+        },
+        {
+          "kind": "text",
+          "text": "To rewrite the fraction in a more familiar fraction, we can recognize that"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{1}{12}=\\frac{1}{3}(\\frac{1}{4})"
+        },
+        {
+          "kind": "text",
+          "text": "One-twelfth equals one-third of a quarter, so by dividing a quarter rotation into thirds, we can sketch a line at"
+        },
+        {
+          "kind": "math",
+          "text": "30°,"
+        },
+        {
+          "kind": "text",
+          "text": "as in"
+        },
+        {
+          "kind": "math",
+          "text": ".ⓑ"
+        },
+        {
+          "kind": "text",
+          "text": "Divide the angle measure by"
+        },
+        {
+          "kind": "math",
+          "text": "360°.\\frac{−135°}{360°}=-\\frac{3}{8}"
+        },
+        {
+          "kind": "text",
+          "text": "In this case, we can recognize that"
+        },
+        {
+          "kind": "math",
+          "text": "-\\frac{3}{8}=-\\frac{3}{2}(\\frac{1}{4})"
+        },
+        {
+          "kind": "text",
+          "text": "Three-eighths is one and one-half times a quarter, so we place a line by moving clockwise one full quarter and one-half of another quarter, as in"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-32": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-63": [
+      [
+        {
+          "kind": "text",
+          "text": "For any circle, the arc length along such a rotation would be one-third of the circumference. We know that"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "1"
+        },
+        {
+          "kind": "text",
+          "text": "rotation"
+        },
+        {
+          "kind": "math",
+          "text": "=2πr"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "So,"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "s=\\frac{1}{3}(2πr)=\\frac{2πr}{3}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The radian measure would be the arc length divided by the radius."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "radian measure"
+        },
+        {
+          "kind": "math",
+          "text": "=\\frac{\\frac{2πr}{3}}{r}=\\frac{2πr}{3r}=\\frac{2π}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-67": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{3π}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-74": [
+      [
+        {
+          "kind": "text",
+          "text": "Because we are given radians and we want degrees, we should set up a proportion and solve it."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "ⓐ"
+        },
+        {
+          "kind": "text",
+          "text": "We use the proportion, substituting the given information."
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{θ}{180}=\\frac{{θ}_{R}}{π}\\frac{θ}{180}=\\frac{\\frac{π}{6}}{π}θ=\\frac{180}{6}θ=30°ⓑ"
+        },
+        {
+          "kind": "text",
+          "text": "We use the proportion, substituting the given information."
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{θ}{180}=\\frac{{θ}_{{}^{R}}}{π}\\frac{θ}{180}=\\frac{3}{π}θ=\\frac{3(180)}{π}θ≈172°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-77": [
+      [
+        {
+          "kind": "math",
+          "text": "−135°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-80": [
+      [
+        {
+          "kind": "text",
+          "text": "In this example, we start with degrees and want radians, so we again set up a proportion, but we substitute the given information into a different part of the proportion."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{θ}{180}=\\frac{{θ}_{R}}{π}\\frac{15}{180}=\\frac{{θ}_{R}}{π}\\frac{15π}{180}={θ}_{R}\\frac{π}{12}={θ}_{R}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-84": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{7π}{10}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-97": [
+      [
+        {
+          "kind": "text",
+          "text": "An angle with measure"
+        },
+        {
+          "kind": "math",
+          "text": "800°"
+        },
+        {
+          "kind": "text",
+          "text": "is coterminal with an angle with measure"
+        },
+        {
+          "kind": "math",
+          "text": "800-360=440°,"
+        },
+        {
+          "kind": "text",
+          "text": "but"
+        },
+        {
+          "kind": "math",
+          "text": "440°"
+        },
+        {
+          "kind": "text",
+          "text": "is still greater than"
+        },
+        {
+          "kind": "math",
+          "text": "360°,"
+        },
+        {
+          "kind": "text",
+          "text": "so we subtract"
+        },
+        {
+          "kind": "math",
+          "text": "360°"
+        },
+        {
+          "kind": "text",
+          "text": "again to find another coterminal angle:"
+        },
+        {
+          "kind": "math",
+          "text": "440-360=80°."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The angle"
+        },
+        {
+          "kind": "math",
+          "text": "θ=80°"
+        },
+        {
+          "kind": "text",
+          "text": "is coterminal with"
+        },
+        {
+          "kind": "math",
+          "text": "800°."
+        },
+        {
+          "kind": "text",
+          "text": "To put it another way,"
+        },
+        {
+          "kind": "math",
+          "text": "800°"
+        },
+        {
+          "kind": "text",
+          "text": "equals"
+        },
+        {
+          "kind": "math",
+          "text": "80°"
+        },
+        {
+          "kind": "text",
+          "text": "plus two full rotations, as shown in"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-102": [
+      [
+        {
+          "kind": "math",
+          "text": "α=150°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-106": [
+      [
+        {
+          "kind": "text",
+          "text": "Since"
+        },
+        {
+          "kind": "math",
+          "text": "45°"
+        },
+        {
+          "kind": "text",
+          "text": "is half of"
+        },
+        {
+          "kind": "math",
+          "text": "90°,"
+        },
+        {
+          "kind": "text",
+          "text": "we can start at the positive horizontal axis and measure clockwise half of a"
+        },
+        {
+          "kind": "math",
+          "text": "90°"
+        },
+        {
+          "kind": "text",
+          "text": "angle."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Because we can find coterminal angles by adding or subtracting a full rotation of"
+        },
+        {
+          "kind": "math",
+          "text": "360°,"
+        },
+        {
+          "kind": "text",
+          "text": "we can find a positive coterminal angle here by adding"
+        },
+        {
+          "kind": "math",
+          "text": "360°."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "−45°+360°=315°"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We can then show the angle on a circle, as in"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-112": [
+      [
+        {
+          "kind": "math",
+          "text": "β=60°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-118": [
+      [
+        {
+          "kind": "text",
+          "text": "When working in degrees, we found coterminal angles by adding or subtracting 360 degrees, a full rotation. Likewise, in radians, we can find coterminal angles by adding or subtracting full rotations of"
+        },
+        {
+          "kind": "math",
+          "text": "2π"
+        },
+        {
+          "kind": "text",
+          "text": "radians:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{19π}{4}-2π=\\frac{19π}{4}-\\frac{8π}{4}=\\frac{11π}{4}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The angle"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{11π}{4}"
+        },
+        {
+          "kind": "text",
+          "text": "is coterminal, but not less than"
+        },
+        {
+          "kind": "math",
+          "text": "2π,"
+        },
+        {
+          "kind": "text",
+          "text": "so we subtract another rotation."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{11π}{4}-2π=\\frac{11π}{4}-\\frac{8π}{4}=\\frac{3π}{4}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The angle"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{3π}{4}"
+        },
+        {
+          "kind": "text",
+          "text": "is coterminal with"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{19π}{4},"
+        },
+        {
+          "kind": "text",
+          "text": "as shown in"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-124": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{7π}{6}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-132": [
+      [
+        {
+          "kind": "math",
+          "text": "ⓐ"
+        },
+        {
+          "kind": "text",
+          "text": "Let’s begin by finding the circumference of Mercury’s orbit."
+        },
+        {
+          "kind": "math",
+          "text": "C=2πr=2π(36 million miles)≈226 million miles"
+        },
+        {
+          "kind": "text",
+          "text": "Since Mercury completes 0.0114 of its total revolution in one Earth day, we can now find the distance traveled."
+        },
+        {
+          "kind": "math",
+          "text": "(0.0114)226million miles = 2.58 million milesⓑ"
+        },
+        {
+          "kind": "text",
+          "text": "Now, we convert to radians."
+        },
+        {
+          "kind": "math",
+          "text": "radian=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "arclength"
+        },
+        {
+          "kind": "math",
+          "text": "}{radius}=\\frac{2.58 million miles}{36"
+        },
+        {
+          "kind": "text",
+          "text": "million miles"
+        },
+        {
+          "kind": "math",
+          "text": "}=0.0717"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-135": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{215π}{18}=37.525units"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-144": [
+      [
+        {
+          "kind": "text",
+          "text": "First, we need to convert the angle measure into radians. Because 30 degrees is one of our special angles, we already know the equivalent radian measure, but we can also convert:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "30"
+        },
+        {
+          "kind": "text",
+          "text": "degrees"
+        },
+        {
+          "kind": "math",
+          "text": "=30\\cdot \\frac{π}{180}=\\frac{π}{6}"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The area of the sector is then"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "Area=\\frac{1}{2}(\\frac{π}{6}){(20)}^{2}≈104.72"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "So the area is about"
+        },
+        {
+          "kind": "math",
+          "text": "104.72{ft}^{2}."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-150": [
+      [
+        {
+          "kind": "text",
+          "text": "1.88"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-164": [
+      [
+        {
+          "kind": "text",
+          "text": "The wheel completes 1 rotation, or passes through an angle of"
+        },
+        {
+          "kind": "math",
+          "text": "2π"
+        },
+        {
+          "kind": "text",
+          "text": "radians in 5 seconds, so the angular speed would be"
+        },
+        {
+          "kind": "math",
+          "text": "ω=\\frac{2π}{5}≈1.257"
+        },
+        {
+          "kind": "text",
+          "text": "radians per second."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-168": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{3π}{2}"
+        },
+        {
+          "kind": "text",
+          "text": "rad/s"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-173": [
+      [
+        {
+          "kind": "text",
+          "text": "Here, we have an angular speed and need to find the corresponding linear speed, since the linear speed of the outside of the tires is the speed at which the bicycle travels down the road."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We begin by converting from rotations per minute to radians per minute. It can be helpful to utilize the units to make this conversion:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "180\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "rotations"
+        },
+        {
+          "kind": "math",
+          "text": "}{minute}\\cdot \\frac{2π"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        },
+        {
+          "kind": "math",
+          "text": "}{"
+        },
+        {
+          "kind": "text",
+          "text": "rotation"
+        },
+        {
+          "kind": "math",
+          "text": "}=360π\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        },
+        {
+          "kind": "math",
+          "text": "}{minute}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Using the formula from above along with the radius of the wheels, we can find the linear speed:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "v=(14 inches)(360π\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        },
+        {
+          "kind": "math",
+          "text": "}{minute})=5040π\\frac{inches}{minute}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Remember that radians are a unitless measure, so it is not necessary to include them."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Finally, we may wish to convert this linear speed into a more familiar measurement, like miles per hour."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "5040π\\frac{inches}{minute}\\cdot \\frac{1feet}{12inches}\\cdot \\frac{1 mile}{5280feet}\\cdot \\frac{60"
+        },
+        {
+          "kind": "text",
+          "text": "minutes"
+        },
+        {
+          "kind": "math",
+          "text": "}{1 hour}≈14.99"
+        },
+        {
+          "kind": "text",
+          "text": "miles per hour (mph)"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-180": [
+      [
+        {
+          "kind": "text",
+          "text": "1655 kilometers per hour"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-189": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-193": [
+      [
+        {
+          "kind": "text",
+          "text": "Whether the angle is positive or negative determines the direction. A positive angle is drawn in the counterclockwise direction, and a negative angle is drawn in the clockwise direction."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-198": [
+      [
+        {
+          "kind": "text",
+          "text": "Linear speed is a measurement found by calculating distance of an arc compared to time. Angular speed is a measurement found by calculating the angle of an arc compared to time."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-204": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-206": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-208": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-210": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-212": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-215": [
+      [
+        {
+          "kind": "math",
+          "text": "240°"
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-217": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{4π}{3}"
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-219": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{2π}{3}"
+        }
+      ],
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-224": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{7π}{2}≈11.00{in}^{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-231": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{81π}{20}≈12.72{cm}^{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-238": [
+      [
+        {
+          "kind": "math",
+          "text": "20°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-242": [
+      [
+        {
+          "kind": "math",
+          "text": "60°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-246": [
+      [
+        {
+          "kind": "math",
+          "text": "−75°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-251": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{2}"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-254": [
+      [
+        {
+          "kind": "math",
+          "text": "−3π"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-256": [
+      [
+        {
+          "kind": "math",
+          "text": "π"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-258": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5π}{6}"
+        },
+        {
+          "kind": "text",
+          "text": "radians"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-263": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5.02π}{3}≈5.26"
+        },
+        {
+          "kind": "text",
+          "text": "miles"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-268": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{25π}{9}≈8.73"
+        },
+        {
+          "kind": "text",
+          "text": "centimeters"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-273": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{21π}{10}≈6.60"
+        },
+        {
+          "kind": "text",
+          "text": "meters"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-279": [
+      [
+        {
+          "kind": "text",
+          "text": "104.7198 cm"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-283": [
+      [
+        {
+          "kind": "text",
+          "text": "0.7697 in"
+        },
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-287": [
+      [
+        {
+          "kind": "math",
+          "text": "250°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-289": [
+      [
+        {
+          "kind": "math",
+          "text": "320°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-292": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{4π}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-294": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{8π}{9}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-298": [
+      [
+        {
+          "kind": "math",
+          "text": "1320"
+        },
+        {
+          "kind": "text",
+          "text": "rad/min"
+        },
+        {
+          "kind": "math",
+          "text": "210.085"
+        },
+        {
+          "kind": "text",
+          "text": "RPM"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-303": [
+      [
+        {
+          "kind": "math",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "in./s, 4.77 RPM ,"
+        },
+        {
+          "kind": "math",
+          "text": "28.65"
+        },
+        {
+          "kind": "text",
+          "text": "deg/s"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-308": [
+      [
+        {
+          "kind": "math",
+          "text": "1,809,557.37mm/min=30.16m/s"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-313": [
+      [
+        {
+          "kind": "math",
+          "text": "5.76"
+        },
+        {
+          "kind": "text",
+          "text": "miles"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-317": [
+      [
+        {
+          "kind": "math",
+          "text": "120°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-322": [
+      [
+        {
+          "kind": "text",
+          "text": "794 miles per hour"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-326": [
+      [
+        {
+          "kind": "text",
+          "text": "2,234 miles per hour"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51283:exr-331": [
+      [
+        {
+          "kind": "text",
+          "text": "11.5 inches"
+        }
+      ]
+    ]
+  }
+}

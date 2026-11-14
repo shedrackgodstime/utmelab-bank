@@ -1,0 +1,4437 @@
+{
+  "module": "m51285",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-college-algebra-bundle",
+    "section": "m51285",
+    "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "p-0",
+      "type": "paragraph",
+      "content": {
+        "text": "In this section you will:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_001.jpg",
+      "caption": {
+        "text": "The Singapore Flyer was the world’s tallest Ferris wheel until being overtaken by the High Roller in Las Vegas and the Ain Dubai in Dubai. (credit: ʺVibin JKʺ/Flickr)",
+        "inline": []
+      },
+      "alt": "Photo of a ferris wheel.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-2",
+      "type": "paragraph",
+      "content": {
+        "text": "Looking for a thrill? Then consider a ride on the Ain Dubai, the world's tallest Ferris wheel. Located in Dubai, the most populous city and the financial and tourism hub of the United Arab Emirates, the wheel soars to 820 feet, about 1.5 tenths of a mile. Described as an observation wheel, riders enjoy spectacular views of the Burj Khalifa (the world's tallest building) and the Palm Jumeirah (a human-made archipelago home to over 10,000 people and 20 resorts) as they travel from the ground to the peak and down again in a repeating pattern. In this section, we will examine this type of revolving motion around a circle. To do so, we need to define the type of circle first, and then place that circle on a coordinate system. Then we can discuss circular motion in terms of the coordinate pairs.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Trigonometric Functions Using the Unit Circle",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-4",
+      "type": "paragraph",
+      "content": {
+        "text": "We have already defined the trigonometric functions in terms of right triangles. In this section, we will redefine them in terms of the unit circle. Recall that a unit circle is a circle centered at the origin with radius 1, as shown in . The angle (in radians) that $t$ intercepts forms an arc of length $s.$ Using the formula $s=rt,$ and knowing that $r=1,$ we see that for a unit circle, $s=t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-5",
+      "type": "paragraph",
+      "content": {
+        "text": "The *x-* and *y-* axes divide the coordinate plane into four quarters called quadrants. We label these quadrants to mimic the direction a positive angle would sweep. The four quadrants are labeled I, II, III, and IV.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "For any angle $t,$ we can label the intersection of the terminal side and the unit circle as by its coordinates, $(x,y).$ The coordinates $x$ and $y$ will be the outputs of the trigonometric functions $f(t)=cost$ and $f(t)=sint,$ respectively. This means $x=cost$ and $y=sint.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_002.jpg",
+      "caption": {
+        "text": "Unit circle where the central angle is $t$ radians",
+        "inline": []
+      },
+      "alt": "Graph of a circle with angle t, radius of 1, and an arc created by the angle with length s. The terminal side of the angle intersects the circle at the point (x,y).",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-8",
+      "type": "paragraph",
+      "content": {
+        "text": "A unit circle has a center at $(0,0)$ and radius $1.$ In a unit circle, the length of the intercepted arc is equal to the radian measure of the central angle $t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-9",
+      "type": "paragraph",
+      "content": {
+        "text": "Let $(x,y)$ be the endpoint on the unit circle of an arc of arc length $s.$ The $(x,y)$ coordinates of this point can be described as functions of the angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-10",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Defining Sine and Cosine Functions from the Unit Circle",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-11",
+      "type": "paragraph",
+      "content": {
+        "text": "The sine function relates a real number $t$ to the *y* -coordinate of the point where the corresponding angle intercepts the unit circle. More precisely, the sine of an angle $t$ equals the *y* -value of the endpoint on the unit circle of an arc of length $t.$ In , the sine is equal to $y.$ Like all functions, the sine function has an input and an output. Its input is the measure of the angle; its output is the *y* -coordinate of the corresponding point on the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-12",
+      "type": "paragraph",
+      "content": {
+        "text": "The cosine function of an angle $t$ equals the *x* -value of the endpoint on the unit circle of an arc of length $t.$ In , the cosine is equal to $x.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_003.jpg",
+      "caption": {
+        "text": "Illustration of an angle t, with terminal side length equal to 1, and an arc created by angle with length t. The terminal side of the angle intersects the circle at the point (x,y), which is equivalent to (cos t, sin t).",
+        "inline": []
+      },
+      "alt": "Illustration of an angle t, with terminal side length equal to 1, and an arc created by angle with length t. The terminal side of the angle intersects the circle at the point (x,y), which is equivalent to (cos t, sin t). ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-14",
+      "type": "paragraph",
+      "content": {
+        "text": "Because it is understood that sine and cosine are functions, we do not always need to write them with parentheses: $sint$ is the same as $sin(t)$ and $cost$ is the same as $cos(t).$ Likewise, ${cos}^{2}t$ is a commonly used shorthand notation for ${(cos(t))}^{2}.$ Be aware that many calculators and computers do not recognize the shorthand notation. When in doubt, use the extra parentheses when entering calculations into a calculator or computer.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "If $t$ is a real number and a point $(x,y)$ on the unit circle corresponds to a central angle $t,$ then",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-16",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given a point *P* $(x,y)$ on the unit circle corresponding to an angle of $t,$ find the sine and cosine.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-17",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-18",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding Function Values for Sine and Cosine Point $P$ is a point on the unit circle corresponding to an angle of $t,$ as shown in . Find $cos(t)$ and $sin(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We know that $cost$ is the *x* -coordinate of the corresponding point on the unit circle and $sint$ is the *y* -coordinate of the corresponding point on the unit circle. So: \\[$x=cost=\\frac{1}{2}y=sint=\\frac{\\sqrt{3}}{2}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-19",
+      "type": "paragraph",
+      "content": {
+        "text": "Point $P$ is a point on the unit circle corresponding to an angle of $t,$ as shown in . Find $cos(t)$ and $sin(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_004.jpg",
+      "caption": {
+        "text": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (1/2, square root of 3 over 2).",
+        "inline": []
+      },
+      "alt": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (1/2, square root of 3 over 2). ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "We know that $cost$ is the *x* -coordinate of the corresponding point on the unit circle and $sint$ is the *y* -coordinate of the corresponding point on the unit circle. So:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-22",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A certain angle $t$ corresponds to a point on the unit circle at $(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$ as shown in . Find $cost$ and $sint.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$cos(t)=-\\frac{\\sqrt{2}}{2},sin(t)=\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-23",
+      "type": "paragraph",
+      "content": {
+        "text": "A certain angle $t$ corresponds to a point on the unit circle at $(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$ as shown in . Find $cost$ and $sint.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_005.jpg",
+      "caption": {
+        "text": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (negative square root of 2 over 2, square root of 2 over 2).",
+        "inline": []
+      },
+      "alt": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (negative square root of 2 over 2, square root of 2 over 2).",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-25",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(t)=-\\frac{\\sqrt{2}}{2},sin(t)=\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-26",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Sines and Cosines of Angles on an Axis",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-27",
+      "type": "paragraph",
+      "content": {
+        "text": "For quadrantral angles, the corresponding point on the unit circle falls on the *x-* or *y* -axis. In that case, we can easily calculate cosine and sine from the values of $x$ and $y.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-28",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-29",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Calculating Sines and Cosines along an Axis Find $cos(90°)$ and $sin(90°).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Moving $90°$ counterclockwise around the unit circle from the positive *x* -axis brings us to the top of the circle, where the $(x,y)$ coordinates are $(0,1),$ as shown in . We can then use our definitions of cosine and sine. \\[$x=cost=cos(90°)=0y=sint=sin(90°)=1$\\] The cosine of $90°$ is 0; the sine of $90°$ is 1.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "Find $cos(90°)$ and $sin(90°).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-31",
+      "type": "paragraph",
+      "content": {
+        "text": "Moving $90°$ counterclockwise around the unit circle from the positive *x* -axis brings us to the top of the circle, where the $(x,y)$ coordinates are $(0,1),$ as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_006.jpg",
+      "caption": {
+        "text": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (0,1).",
+        "inline": []
+      },
+      "alt": "Graph of a circle with angle t, radius of 1, and a terminal side that intersects the circle at the point (0,1). ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "We can then use our definitions of cosine and sine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-34",
+      "type": "paragraph",
+      "content": {
+        "text": "The cosine of $90°$ is 0; the sine of $90°$ is 1.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-35",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find cosine and sine of the angle $π.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$cos(π)=-1,sin(π)=0$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-36",
+      "type": "paragraph",
+      "content": {
+        "text": "Find cosine and sine of the angle $π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-37",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(π)=-1,sin(π)=0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-38",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "The Pythagorean Identity",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "Now that we can define sine and cosine, we will learn how they relate to each other and the unit circle. Recall that the equation for the unit circle is ${x}^{2}+{y}^{2}=1.$ Because $x=cost$ and $y=sint,$ we can substitute for $x$ and $y$ to get ${cos}^{2}t+{sin}^{2}t=1.$ This equation, ${cos}^{2}t+{sin}^{2}t=1,$ is known as the Pythagorean Identity . See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_007.jpg",
+      "caption": {
+        "text": "Graph of an angle t, with a point (x,y) on the unit circle. And equation showing the equivalence of 1, x^2 + y^2, and cos^2 t + sin^2 t.",
+        "inline": []
+      },
+      "alt": "Graph of an angle t, with a point (x,y) on the unit circle. And equation showing the equivalence of 1, x^2 + y^2, and cos^2 t + sin^2 t. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-41",
+      "type": "paragraph",
+      "content": {
+        "text": "We can use the Pythagorean Identity to find the cosine of an angle if we know the sine, or vice versa. However, because the equation yields two solutions, we need additional knowledge of the angle to choose the solution with the correct sign. If we know the quadrant where the angle is, we can easily choose the correct solution.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-42",
+      "type": "paragraph",
+      "content": {
+        "text": "The Pythagorean Identity states that, for any real number $t,$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the sine of some angle $t$ and its quadrant location, find the cosine of $t.$*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-44",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-45",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding a Cosine from a Sine or a Sine from a Cosine If $sin(t)=\\frac{3}{7}$ and $t$ is in the second quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "If we drop a vertical line from the point on the unit circle corresponding to $t,$ we create a right triangle, from which we can see that the Pythagorean Identity is simply one case of the Pythagorean Theorem. See . Substituting the known value for sine into the Pythagorean Identity, \\[${cos}^{2}(t)+{sin}^{2}(t)=1{cos}^{2}(t)+\\frac{9}{49}=1{cos}^{2}(t)=\\frac{40}{49}cos(t)=±\\sqrt{\\frac{40}{49}}=±\\frac{\\sqrt{40}}{7}=±\\frac{2\\sqrt{10}}{7}$\\] Because the angle is in the second quadrant, we know the *x-* value is a negative real number, so the cosine is also negative. \\[$cos(t)=-\\frac{2\\sqrt{10}}{7}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-46",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sin(t)=\\frac{3}{7}$ and $t$ is in the second quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-47",
+      "type": "paragraph",
+      "content": {
+        "text": "If we drop a vertical line from the point on the unit circle corresponding to $t,$ we create a right triangle, from which we can see that the Pythagorean Identity is simply one case of the Pythagorean Theorem. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_008.jpg",
+      "caption": {
+        "text": "Graph of a unit circle with an angle that intersects the circle at a point with the y-coordinate equal to 3/7.",
+        "inline": []
+      },
+      "alt": "Graph of a unit circle with an angle that intersects the circle at a point with the y-coordinate equal to 3/7. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-49",
+      "type": "paragraph",
+      "content": {
+        "text": "Substituting the known value for sine into the Pythagorean Identity,",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "Because the angle is in the second quadrant, we know the *x-* value is a negative real number, so the cosine is also negative.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-51",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cos(t)=\\frac{24}{25}$ and $t$ is in the fourth quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sin(t)=-\\frac{7}{25}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-52",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cos(t)=\\frac{24}{25}$ and $t$ is in the fourth quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-53",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)=-\\frac{7}{25}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-54",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Sines and Cosines of Special Angles",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-55",
+      "type": "paragraph",
+      "content": {
+        "text": "We have already learned some properties of the special angles, such as the conversion from radians to degrees, and we found their sines and cosines using right triangles. We can also calculate sines and cosines of the special angles using the Pythagorean Identity.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-56",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Sines and Cosines of",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-57",
+      "type": "paragraph",
+      "content": {
+        "text": "First, we will look at angles of $45°$ or $\\frac{π}{4},$ as shown in . A $45°-45°-90°$ triangle is an isosceles triangle, so the *x-* and *y* -coordinates of the corresponding point on the circle are the same. Because the *x-* and *y* -values are the same, the sine and cosine values will also be equal.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_009.jpg",
+      "caption": {
+        "text": "Graph of 45 degree angle inscribed within a circle with radius of 1. Equivalence between point (x,y) and (x,x) shown.",
+        "inline": []
+      },
+      "alt": "Graph of 45 degree angle inscribed within a circle with radius of 1. Equivalence between point (x,y) and (x,x) shown. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-59",
+      "type": "paragraph",
+      "content": {
+        "text": "At $t=\\frac{π}{4},$ which is 45 degrees, the radius of the unit circle bisects the first quadrantal angle. This means the radius lies along the line $y=x.$ A unit circle has a radius equal to 1 so the right triangle formed below the line $y=x$ has sides $x$ and $y(y=x),$ and radius = 1. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_018.jpg",
+      "caption": {
+        "text": "Graph of circle with pi/4 angle inscribed and a radius of 1.",
+        "inline": []
+      },
+      "alt": "Graph of circle with pi/4 angle inscribed and a radius of 1. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-61",
+      "type": "paragraph",
+      "content": {
+        "text": "From the Pythagorean Theorem we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-62",
+      "type": "paragraph",
+      "content": {
+        "text": "We can then substitute $y=x.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-63",
+      "type": "paragraph",
+      "content": {
+        "text": "Next we combine like terms.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-64",
+      "type": "paragraph",
+      "content": {
+        "text": "And solving for $x,$ we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-65",
+      "type": "paragraph",
+      "content": {
+        "text": "In quadrant I, $x=\\frac{1}{\\sqrt{2}}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-66",
+      "type": "paragraph",
+      "content": {
+        "text": "At $t=\\frac{π}{4}$ or 45 degrees,",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-67",
+      "type": "paragraph",
+      "content": {
+        "text": "If we then rationalize the denominators, we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-68",
+      "type": "paragraph",
+      "content": {
+        "text": "Therefore, the $(x,y)$ coordinates of a point on a circle of radius $1$ at an angle of $45°$ are $(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-69",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Sines and Cosines of",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-70",
+      "type": "paragraph",
+      "content": {
+        "text": "Next, we will find the cosine and sine at an angle of $30°,$ or $\\frac{π}{6}.$ First, we will draw a triangle inside a circle with one side at an angle of $30°,$ and another at an angle of $−30°,$ as shown in . If the resulting two right triangles are combined into one large triangle, notice that all three angles of this larger triangle will be $60°,$ as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-11",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_010.jpg",
+      "caption": {
+        "text": "Graph of a circle with 30-degree angle and negative 30-degree angle inscribed to form a triangle.",
+        "inline": []
+      },
+      "alt": "Graph of a circle with 30-degree angle and negative 30-degree angle inscribed to form a triangle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "fig-12",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_011.jpg",
+      "caption": {
+        "text": "Image of two 30/60/90 triangles back to back. Label for hypotenuse r and side y.",
+        "inline": []
+      },
+      "alt": "Image of two 30/60/90 triangles back to back. Label for hypotenuse r and side y. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-73",
+      "type": "paragraph",
+      "content": {
+        "text": "Because all the angles are equal, the sides are also equal. The vertical line has length $2y,$ and since the sides are all equal, we can also conclude that $r=2y$ or $y=\\frac{1}{2}r.$ Since $sint=y,$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-74",
+      "type": "paragraph",
+      "content": {
+        "text": "And since $r=1$ in our unit circle,",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-75",
+      "type": "paragraph",
+      "content": {
+        "text": "Using the Pythagorean Identity, we can find the cosine value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-76",
+      "type": "paragraph",
+      "content": {
+        "text": "The $(x,y)$ coordinates for the point on a circle of radius $1$ at an angle of $30°$ are $(\\frac{\\sqrt{3}}{2},\\frac{1}{2}).$ At $t=\\frac{π}{3}(60°),$ the radius of the unit circle, 1, serves as the hypotenuse of a 30-60-90 degree right triangle, $BAD,$ as shown in . Angle $A$ has measure $60°.$ At point $B,$ we draw an angle $ABC$ with measure of $60°.$ We know the angles in a triangle sum to $180°,$ so the measure of angle $C$ is also $60°.$ Now we have an equilateral triangle. Because each side of the equilateral triangle $ABC$ is the same length, and we know one side is the radius of the unit circle, all sides must be of length 1.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-13",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_019.jpg",
+      "caption": {
+        "text": "Graph of circle with an isosceles triangle inscribed that has been divided in half. The resulting triangle has a radius of 1 and a height of y. The two bases for the triangles each have a length of x.",
+        "inline": []
+      },
+      "alt": "Graph of circle with an isosceles triangle inscribed that has been divided in half.  The resulting triangle has a radius of 1 and a height of y.  The two bases for the triangles each have a length of x. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-78",
+      "type": "paragraph",
+      "content": {
+        "text": "The measure of angle $ABD$ is 30°. Angle $ABC$ is double angle $ABD,$ so its measure is 60°. $BD$ is the perpendicular bisector of $AC,$ so it cuts $AC$ in half. This means that $AD$ is $\\frac{1}{2}$ the radius, or $\\frac{1}{2}.$ Notice that $AD$ is the *x* -coordinate of point $B,$ which is at the intersection of the 60° angle and the unit circle. This gives us a triangle $BAD$ with hypotenuse of 1 and side $x$ of length $\\frac{1}{2}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-79",
+      "type": "paragraph",
+      "content": {
+        "text": "From the Pythagorean Theorem, we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-80",
+      "type": "paragraph",
+      "content": {
+        "text": "Substituting $x=\\frac{1}{2},$ we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-81",
+      "type": "paragraph",
+      "content": {
+        "text": "Solving for $y,$ we get",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-82",
+      "type": "paragraph",
+      "content": {
+        "text": "Since $t=\\frac{π}{3}$ has the terminal side in quadrant I where the *y-* coordinate is positive, we choose $y=\\frac{\\sqrt{3}}{2},$ the positive value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-83",
+      "type": "paragraph",
+      "content": {
+        "text": "At $t=\\frac{π}{3}$ (60°), the $(x,y)$ coordinates for the point on a circle of radius $1$ at an angle of $60°$ are $(\\frac{1}{2},\\frac{\\sqrt{3}}{2}),$ so we can find the sine and cosine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-84",
+      "type": "paragraph",
+      "content": {
+        "text": "We have now found the cosine and sine values for all of the most commonly encountered angles in the first quadrant of the unit circle. summarizes these values.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-85",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "*Angle*",
+          "$0$",
+          "$\\frac{π}{6},$ or $30°$",
+          "$\\frac{π}{4},$ or $45°$",
+          "$\\frac{π}{3},$ or $60°$",
+          "$\\frac{π}{2},$ or $90°$"
+        ],
+        [
+          "*Cosine*",
+          "1",
+          "$\\frac{\\sqrt{3}}{2}$",
+          "$\\frac{\\sqrt{2}}{2}$",
+          "$\\frac{1}{2}$",
+          "0"
+        ],
+        [
+          "*Sine*",
+          "0",
+          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{2}}{2}$",
+          "$\\frac{\\sqrt{3}}{2}$",
+          "1"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-86",
+      "type": "paragraph",
+      "content": {
+        "text": "shows the common angles in the first quadrant of the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-14",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_021.jpg",
+      "caption": {
+        "text": "Graph of a quarter circle with angles of 0, 30, 45, 60, and 90 degrees inscribed. Equivalence of angles in radians shown. Points along circle are marked.",
+        "inline": []
+      },
+      "alt": "Graph of a quarter circle with angles of 0, 30, 45, 60, and 90 degrees inscribed. Equivalence of angles in radians shown. Points along circle are marked. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-88",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using a Calculator to Find Sine and Cosine",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-89",
+      "type": "paragraph",
+      "content": {
+        "text": "To find the cosine and sine of angles other than the special angles, we turn to a computer or calculator. *Be aware* : Most calculators can be set into “degree” or “radian” mode, which tells the calculator the units for the input value. When we evaluate $cos(30)$ on our calculator, it will evaluate it as the cosine of 30 degrees if the calculator is in degree mode, or the cosine of 30 radians if the calculator is in radian mode.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-90",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle in radians, use a graphing calculator to find the cosine.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-91",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-92",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using a Graphing Calculator to Find Sine and Cosine Evaluate $cos(\\frac{5π}{3})$ using a graphing calculator or computer.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Enter the following keystrokes: $COS(5×π÷3 ) ENTER$ \\[$cos(\\frac{5π}{3})=0.5$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-93",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluate $cos(\\frac{5π}{3})$ using a graphing calculator or computer.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-94",
+      "type": "paragraph",
+      "content": {
+        "text": "Enter the following keystrokes:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-95",
+      "type": "paragraph",
+      "content": {
+        "text": "We can find the cosine or sine of an angle in degrees directly on a calculator with degree mode. For calculators or software that use only radian mode, we can find the sine of $20°,$ for example, by including the conversion factor to radians as part of the input:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-96",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluate $sin(\\frac{π}{3}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "approximately 0.866025403",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-97",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluate $sin(\\frac{π}{3}).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-98",
+      "type": "paragraph",
+      "content": {
+        "text": "approximately 0.866025403",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-99",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Identifying the Domain and Range of Sine and Cosine Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-100",
+      "type": "paragraph",
+      "content": {
+        "text": "Now that we can find the sine and cosine of an angle, we need to discuss their domains and ranges. What are the domains of the sine and cosine functions? That is, what are the smallest and largest numbers that can be inputs of the functions? Because angles smaller than $0$ and angles larger than $2π$ can still be graphed on the unit circle and have real values of $x,y,$ and $r,$ there is no lower or upper limit to the angles that can be inputs to the sine and cosine functions. The input to the sine and cosine functions is the rotation from the positive *x* -axis, and that may be any real number.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-101",
+      "type": "paragraph",
+      "content": {
+        "text": "What are the ranges of the sine and cosine functions? What are the least and greatest possible values for their output? We can see the answers by examining the unit circle, as shown in . The bounds of the *x* -coordinate are $[−1,1].$ The bounds of the *y* -coordinate are also $[−1,1].$ Therefore, the range of both the sine and cosine functions is $[−1,1].$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-15",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_013.jpg",
+      "caption": {
+        "text": "Graph of unit circle.",
+        "inline": []
+      },
+      "alt": "Graph of unit circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-103",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Reference Angles",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-104",
+      "type": "paragraph",
+      "content": {
+        "text": "We have discussed finding the sine and cosine for angles in the first quadrant, but what if our angle is in another quadrant? For any given angle in the first quadrant, there is an angle in the second quadrant with the same sine value. Because the sine value is the *y* -coordinate on the unit circle, the other angle with the same sine will share the same *y* -value, but have the opposite *x* -value. Therefore, its cosine value will be the opposite of the first angle’s cosine value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-105",
+      "type": "paragraph",
+      "content": {
+        "text": "Likewise, there will be an angle in the fourth quadrant with the same cosine as the original angle. The angle with the same cosine will share the same *x* -value but will have the opposite *y* -value. Therefore, its sine value will be the opposite of the original angle’s sine value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-106",
+      "type": "paragraph",
+      "content": {
+        "text": "As shown in , angle $α$ has the same sine value as angle $t;$ the cosine values are opposites. Angle $β$ has the same cosine value as angle $t;$ the sine values are opposites.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-16",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_014-9d53.jpg",
+      "caption": {
+        "text": "Graph of two side by side circles. First graph has circle with angle t and angle alpha with radius r. Angle t has its terminal side in Quadrant I whereas angle alpha has its terminal side in Quadrant II. Second graph has circle with angle t and angle beta inscribed with radius r. Angle t has its terminal side in Quadrant I whereas angle beta has its terminal side in Quadrant IV.",
+        "inline": []
+      },
+      "alt": "Graph of two side by side circles. First graph has circle with angle t and angle alpha with radius r.  Angle t has its terminal side in Quadrant I whereas angle alpha has its terminal side in Quadrant II. Second graph has circle with angle t and angle beta inscribed with radius r.  Angle t has its terminal side in Quadrant I whereas angle beta has its terminal side in Quadrant IV. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-108",
+      "type": "paragraph",
+      "content": {
+        "text": "Recall that an angle’s reference angle is the acute angle, $t,$ formed by the terminal side of the angle $t$ and the horizontal axis. A reference angle is always an angle between $0$ and $90°,$ or $0$ and $\\frac{π}{2}$ radians. As we can see from , for any angle in quadrants II, III, or IV, there is a reference angle in quadrant I.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-17",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_01_019-5d63.jpg",
+      "caption": {
+        "text": "Four side-by-side graphs. First graph shows an angle of t in quadrant 1 in its normal position. Second graph shows an angle of t in quadrant 2 due to a rotation of pi minus t. Third graph shows an angle of t in quadrant 3 due to a rotation of t minus pi. Fourth graph shows an angle of t in quadrant 4 due to a rotation of two pi minus t.",
+        "inline": []
+      },
+      "alt": "Four side-by-side graphs. First graph shows an angle of t in quadrant 1 in its normal position. Second graph shows an angle of t in quadrant 2 due to a rotation of pi minus t. Third graph shows an angle of t in quadrant 3 due to a rotation of t minus pi. Fourth graph shows an angle of t in quadrant 4 due to a rotation of two pi minus t. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-110",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle between $0$ and $2π,$ find its reference angle.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-111",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-112",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding a Reference Angle Find the reference angle of $225°$ as shown in .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because $225°$ is in the third quadrant, the reference angle is \\[$|(180°-225°)|=|-45°|=45°$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-113",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the reference angle of $225°$ as shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-18",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_016.jpg",
+      "caption": {
+        "text": "Graph of circle with 225-degree angle inscribed.",
+        "inline": []
+      },
+      "alt": "Graph of circle with 225-degree angle inscribed. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-115",
+      "type": "paragraph",
+      "content": {
+        "text": "Because $225°$ is in the third quadrant, the reference angle is",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-116",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the reference angle of $\\frac{5π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-117",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the reference angle of $\\frac{5π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-118",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Reference Angles",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-119",
+      "type": "paragraph",
+      "content": {
+        "text": "Now let’s take a moment to reconsider the Ferris wheel introduced at the beginning of this section. Suppose a rider snaps a photograph while stopped twenty feet above ground level. The rider then rotates three-quarters of the way around the circle. What is the rider’s new elevation? To answer questions such as this one, we need to evaluate the sine or cosine functions at angles that are greater than 90 degrees or at a negative angle. Reference angles make it possible to evaluate trigonometric functions for angles outside the first quadrant. They can also be used to find $(x,y)$ coordinates for those angles. We will use the reference angle of the angle of rotation combined with the quadrant in which the terminal side of the angle lies.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-120",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Reference Angles to Evaluate Trigonometric Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-121",
+      "type": "paragraph",
+      "content": {
+        "text": "We can find the cosine and sine of any angle in any quadrant if we know the cosine or sine of its reference angle. The absolute values of the cosine and sine of an angle are the same as those of the reference angle. The sign depends on the quadrant of the original angle. The cosine will be positive or negative depending on the sign of the *x* -values in that quadrant. The sine will be positive or negative depending on the sign of the *y* -values in that quadrant.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-122",
+      "type": "paragraph",
+      "content": {
+        "text": "Angles have cosines and sines with the same absolute value as their reference angles. The sign (positive or negative) can be determined from the quadrant of the angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-123",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle in standard position, find the reference angle, and the cosine and sine of the original angle.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-124",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-125",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Reference Angles to Find Sine and Cosine ⓐ Using a reference angle, find the exact value of $cos(150°)$ and $sin(150°).$ ⓑ Using the reference angle, find $cos\\frac{5π}{4}$ and $sin\\frac{5π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "ⓐ $150°$ is located in the second quadrant. The angle it makes with the *x* -axis is $180°-150°=30°,$ so the reference angle is $30°.$ This tells us that $150°$ has the same sine and cosine values as $30°,$ except for the sign. \\[$cos(30°)=\\frac{\\sqrt{3}}{2}andsin(30°)=\\frac{1}{2}$\\] Since $150°$ is in the second quadrant, the *x* -coordinate of the point on the circle is negative, so the cosine value is negative. The *y* -coordinate is positive, so the sine value is positive. \\[$cos(150°)=-\\frac{\\sqrt{3}}{2}andsin(150°)=\\frac{1}{2}$\\] ⓑ $\\frac{5π}{4}$ is in the third quadrant. Its reference angle is $\\frac{5π}{4}-π=\\frac{π}{4}.$ The cosine and sine of $\\frac{π}{4}$ are both $\\frac{\\sqrt{2}}{2}.$ In the third quadrant, both $x$ and $y$ are negative, so: \\[$cos\\frac{5π}{4}=-\\frac{\\sqrt{2}}{2}andsin\\frac{5π}{4}=-\\frac{\\sqrt{2}}{2}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-126",
+      "type": "paragraph",
+      "content": {
+        "text": "This tells us that $150°$ has the same sine and cosine values as $30°,$ except for the sign.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-127",
+      "type": "paragraph",
+      "content": {
+        "text": "Since $150°$ is in the second quadrant, the *x* -coordinate of the point on the circle is negative, so the cosine value is negative. The *y* -coordinate is positive, so the sine value is positive.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-128",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "ⓐ Use the reference angle of $315°$ to find $cos(315°)$ and $sin(315°).$ ⓑ Use the reference angle of $-\\frac{π}{6}$ to find $cos(-\\frac{π}{6})$ and $sin(-\\frac{π}{6}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "ⓐ $cos(315°)=\\frac{\\sqrt{2}}{2},sin(315°)=\\frac{-\\sqrt{2}}{2}$ ⓑ $cos(-\\frac{π}{6})=\\frac{\\sqrt{3}}{2},sin(-\\frac{π}{6})=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "sec-129",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Reference Angles to Find Coordinates",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-130",
+      "type": "paragraph",
+      "content": {
+        "text": "Now that we have learned how to find the cosine and sine values for special angles in the first quadrant, we can use symmetry and reference angles to fill in cosine and sine values for the rest of the special angles on the unit circle . They are shown in . Take time to learn the $(x,y)$ coordinates of all of the major angles in the first quadrant.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-19",
+      "type": "figure",
+      "asset_url": "images/math_unit_circle_CNX_Precalc_Figure_05_02_017-506b.jpg",
+      "caption": {
+        "text": "Special angles and coordinates of corresponding points on the unit circle",
+        "inline": []
+      },
+      "alt": "Graph of unit circle with angles in degrees, angles in radians, and points along the circle inscribed. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-132",
+      "type": "paragraph",
+      "content": {
+        "text": "In addition to learning the values for special angles, we can use reference angles to find $(x,y)$ coordinates of any point on the unit circle, using what we know of reference angles along with the identities",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-133",
+      "type": "paragraph",
+      "content": {
+        "text": "First we find the reference angle corresponding to the given angle. Then we take the sine and cosine values of the reference angle, and give them the signs corresponding to the *y* - and *x* -values of the quadrant.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-134",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the angle of a point on a circle and the radius of the circle, find the $(x,y)$ coordinates of the point.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-135",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-136",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using the Unit Circle to Find Coordinates Find the coordinates of the point on the unit circle at an angle of $\\frac{7π}{6}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We know that the angle $\\frac{7π}{6}$ is in the third quadrant. First, let’s find the reference angle by measuring the angle to the *x* -axis. To find the reference angle of an angle whose terminal side is in quadrant III, we find the difference of the angle and $π.$ \\[$\\frac{7π}{6}-π=\\frac{π}{6}$\\] Next, we will find the cosine and sine of the reference angle. \\[$cos(\\frac{π}{6})=\\frac{\\sqrt{3}}{2}sin(\\frac{π}{6})=\\frac{1}{2}$\\] We must determine the appropriate signs for *x* and *y* in the given quadrant. Because our original angle is in the third quadrant, where both $x$ and $y$ are negative, both cosine and sine are negative. \\[$cos(\\frac{7π}{6})=-\\frac{\\sqrt{3}}{2}sin(\\frac{7π}{6})=-\\frac{1}{2}$\\] Now we can calculate the $(x,y)$ coordinates using the identities $x=cosθ$ and $y=sinθ.$ The coordinates of the point are $(-\\frac{\\sqrt{3}}{2},-\\frac{1}{2})$ on the unit circle.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-137",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on the unit circle at an angle of $\\frac{7π}{6}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-138",
+      "type": "paragraph",
+      "content": {
+        "text": "We know that the angle $\\frac{7π}{6}$ is in the third quadrant.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-139",
+      "type": "paragraph",
+      "content": {
+        "text": "First, let’s find the reference angle by measuring the angle to the *x* -axis. To find the reference angle of an angle whose terminal side is in quadrant III, we find the difference of the angle and $π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-140",
+      "type": "paragraph",
+      "content": {
+        "text": "Next, we will find the cosine and sine of the reference angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-141",
+      "type": "paragraph",
+      "content": {
+        "text": "We must determine the appropriate signs for *x* and *y* in the given quadrant. Because our original angle is in the third quadrant, where both $x$ and $y$ are negative, both cosine and sine are negative.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-142",
+      "type": "paragraph",
+      "content": {
+        "text": "Now we can calculate the $(x,y)$ coordinates using the identities $x=cosθ$ and $y=sinθ.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-143",
+      "type": "paragraph",
+      "content": {
+        "text": "The coordinates of the point are $(-\\frac{\\sqrt{3}}{2},-\\frac{1}{2})$ on the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-144",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the coordinates of the point on the unit circle at an angle of $\\frac{5π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$(\\frac{1}{2},-\\frac{\\sqrt{3}}{2})$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-145",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on the unit circle at an angle of $\\frac{5π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-146",
+      "type": "paragraph",
+      "content": {
+        "text": "$(\\frac{1}{2},-\\frac{\\sqrt{3}}{2})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-147",
+      "type": "paragraph",
+      "content": {
+        "text": "Access these online resources for additional instruction and practice with sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-148",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Equations",
+        "inline": []
+      }
+    },
+    {
+      "id": "tbl-149",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "Cosine",
+          "$cost=x$"
+        ],
+        [
+          "Sine",
+          "$sint=y$"
+        ],
+        [
+          "Pythagorean Identity",
+          "${cos}^{2}t+{sin}^{2}t=1$"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "sec-150",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-151",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Section Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-152",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Verbal",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-153",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Describe the unit circle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The unit circle is a circle of radius 1 centered at the origin.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-154",
+      "type": "paragraph",
+      "content": {
+        "text": "Describe the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-155",
+      "type": "paragraph",
+      "content": {
+        "text": "The unit circle is a circle of radius 1 centered at the origin.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-156",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What do the *x-* and *y-* coordinates of the points on the unit circle represent?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-157",
+      "type": "paragraph",
+      "content": {
+        "text": "What do the *x-* and *y-* coordinates of the points on the unit circle represent?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-158",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Discuss the difference between a coterminal angle and a reference angle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Coterminal angles are angles that share the same terminal side. A reference angle is the size of the smallest acute angle, $t,$ formed by the terminal side of the angle $t$ and the horizontal axis.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-159",
+      "type": "paragraph",
+      "content": {
+        "text": "Discuss the difference between a coterminal angle and a reference angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-160",
+      "type": "paragraph",
+      "content": {
+        "text": "Coterminal angles are angles that share the same terminal side. A reference angle is the size of the smallest acute angle, $t,$ formed by the terminal side of the angle $t$ and the horizontal axis.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-161",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain how the cosine of an angle in the second quadrant differs from the cosine of its reference angle in the unit circle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-162",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain how the cosine of an angle in the second quadrant differs from the cosine of its reference angle in the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-163",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain how the sine of an angle in the second quadrant differs from the sine of its reference angle in the unit circle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The sine values are equal.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-164",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain how the sine of an angle in the second quadrant differs from the sine of its reference angle in the unit circle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-165",
+      "type": "paragraph",
+      "content": {
+        "text": "The sine values are equal.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-166",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Algebraic",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-167",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the given sign of the sine and cosine functions to find the quadrant in which the terminal point determined by $t$ lies.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-168",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(t)<0$ and $cos(t)<0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-169",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)<0$ and $cos(t)<0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-170",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(t)>0$ and $cos(t)>0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "I",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-171",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)>0$ and $cos(t)>0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-172",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(t)>0$ and $cos(t)<0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-173",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)>0$ and $cos(t)<0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-174",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(t)<0$ and $cos(t)>0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "IV",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-175",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)<0$ and $cos(t)>0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-176",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the exact value of each trigonometric function.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-177",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{π}{2}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-178",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-179",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-180",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{2}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-181",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-182",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-183",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-184",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-185",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-186",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinπ$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "0",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-187",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{3π}{2}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-188",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cosπ$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "-1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-189",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-190",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-191",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-192",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin0$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "sec-193",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Numeric",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-194",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, state the reference angle for the given angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-195",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$240°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-196",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−170°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-197",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$100°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$80°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-198",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−315°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-199",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$135°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$45°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-200",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-201",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{2π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-202",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-203",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{-11π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-204",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{−7π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-205",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{-π}{8}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{8}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-206",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the reference angle, the quadrant of the terminal side, and the sine and cosine of each angle. If the angle is not one of the angles on the unit circle, use a calculator and round to three decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-207",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$225°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-208",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$300°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°,$ Quadrant IV, $sin(300°)=-\\frac{\\sqrt{3}}{2}$ , $cos(300°)=\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-209",
+      "type": "paragraph",
+      "content": {
+        "text": "$60°,$ Quadrant IV, $sin(300°)=-\\frac{\\sqrt{3}}{2}$ , $cos(300°)=\\frac{1}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-210",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$320°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-211",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$135°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$45°,$ Quadrant II, $sin(135°)=\\frac{\\sqrt{2}}{2}$ , $cos(135°)=-\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-212",
+      "type": "paragraph",
+      "content": {
+        "text": "$45°,$ Quadrant II, $sin(135°)=\\frac{\\sqrt{2}}{2}$ , $cos(135°)=-\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-213",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$210°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-214",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$120°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°,$ Quadrant II, $sin(120°)=\\frac{\\sqrt{3}}{2}$ , $cos(120°)=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-215",
+      "type": "paragraph",
+      "content": {
+        "text": "$60°,$ Quadrant II, $sin(120°)=\\frac{\\sqrt{3}}{2}$ , $cos(120°)=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-216",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$250°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-217",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$150°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$30°,$ Quadrant II, $sin(150°)=\\frac{1}{2}$ , $cos(150°)=-\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-218",
+      "type": "paragraph",
+      "content": {
+        "text": "$30°,$ Quadrant II, $sin(150°)=\\frac{1}{2}$ , $cos(150°)=-\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-219",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-220",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{7π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{6},$ Quadrant III, $sin(\\frac{7π}{6})=-\\frac{1}{2}$ , $cos(\\frac{7π}{6})=-\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-221",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{6},$ Quadrant III, $sin(\\frac{7π}{6})=-\\frac{1}{2}$ , $cos(\\frac{7π}{6})=-\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-222",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-223",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{3π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{4},$ Quadrant II, $sin(\\frac{3π}{4})=\\frac{\\sqrt{2}}{2}$ , $cos(\\frac{3π}{4})=-\\frac{2}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-224",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{4},$ Quadrant II, $sin(\\frac{3π}{4})=\\frac{\\sqrt{2}}{2}$ , $cos(\\frac{3π}{4})=-\\frac{2}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-225",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{4π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-226",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{2π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{3},$ Quadrant II, $sin(\\frac{2π}{3})=\\frac{\\sqrt{3}}{2}$ , $cos(\\frac{2π}{3})=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-227",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{3},$ Quadrant II, $sin(\\frac{2π}{3})=\\frac{\\sqrt{3}}{2}$ , $cos(\\frac{2π}{3})=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-228",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-229",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{7π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{4},$ Quadrant IV, $sin(\\frac{7π}{4})=-\\frac{\\sqrt{2}}{2},cos(\\frac{7π}{4})=\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-230",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{π}{4},$ Quadrant IV, $sin(\\frac{7π}{4})=-\\frac{\\sqrt{2}}{2},cos(\\frac{7π}{4})=\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-231",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the requested value.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-232",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cos(t)=\\frac{1}{7}$ and $t$ is in the fourth quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-233",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cos(t)=\\frac{1}{7}$ and $t$ is in the fourth quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-234",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cos(t)=\\frac{2}{9}$ and $t$ is in the first quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{77}}{9}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-235",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cos(t)=\\frac{2}{9}$ and $t$ is in the first quadrant, find $sin(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-236",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{77}}{9}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-237",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sin(t)=\\frac{3}{8}$ and $t$ is in the second quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-238",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sin(t)=\\frac{3}{8}$ and $t$ is in the second quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-239",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sin(t)=-\\frac{1}{4}$ and $t$ is in the third quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{\\sqrt{15}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-240",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sin(t)=-\\frac{1}{4}$ and $t$ is in the third quadrant, find $cos(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-241",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{\\sqrt{15}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-242",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the coordinates of the point on a circle with radius 15 corresponding to an angle of $220°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-243",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on a circle with radius 15 corresponding to an angle of $220°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-244",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the coordinates of the point on a circle with radius 20 corresponding to an angle of $120°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$(−10,10\\sqrt{3})$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-245",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on a circle with radius 20 corresponding to an angle of $120°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-246",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the coordinates of the point on a circle with radius 8 corresponding to an angle of $\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-247",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on a circle with radius 8 corresponding to an angle of $\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-248",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the coordinates of the point on a circle with radius 16 corresponding to an angle of $\\frac{5π}{9}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$(–2.778,15.757)$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-249",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the coordinates of the point on a circle with radius 16 corresponding to an angle of $\\frac{5π}{9}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-250",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-251",
+      "type": "paragraph",
+      "content": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-252",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$[–1,1]$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-253",
+      "type": "paragraph",
+      "content": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-254",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Graphical",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-255",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the given point on the unit circle to find the value of the sine and cosine of $t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-256",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=\\frac{1}{2},cost=-\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-257",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{\\sqrt{2}}{2},cost=-\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-258",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=\\frac{\\sqrt{3}}{2},cost=-\\frac{1}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-259",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{\\sqrt{2}}{2},cost=\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-260",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-0.596,cost=0.803$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-261",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=\\frac{1}{2},cost=\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-262",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{1}{2},cost=\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-263",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=0.761,cost=-0.649$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-264",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Technology",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-265",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use a graphing calculator to evaluate.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-266",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{5π}{9}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-267",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{5π}{9}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "−0.1736",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-268",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{π}{10}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-269",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{10}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "0.9511",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-270",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin\\frac{3π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-271",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{3π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "−0.7071",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-272",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin98°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-273",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos98°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "−0.1392",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-274",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos310°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-275",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin310°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "−0.7660",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "sec-276",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Extensions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-277",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, evaluate.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-278",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{11π}{3})cos(\\frac{-5π}{6})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-279",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{11π}{3})cos(\\frac{-5π}{6})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-280",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{3π}{4})cos(\\frac{5π}{3})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-281",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{3π}{4})cos(\\frac{5π}{3})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-282",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-283",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(-\\frac{4π}{3})cos(\\frac{π}{2})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-284",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(-\\frac{4π}{3})cos(\\frac{π}{2})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-285",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{-9π}{4})cos(\\frac{-π}{6})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{\\sqrt{6}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-286",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{-9π}{4})cos(\\frac{-π}{6})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-287",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{\\sqrt{6}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-288",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{π}{6})cos(\\frac{-π}{3})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-289",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{π}{6})cos(\\frac{-π}{3})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-290",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{7π}{4})cos(\\frac{-2π}{3})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-291",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{7π}{4})cos(\\frac{-2π}{3})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-292",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-293",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos(\\frac{5π}{6})cos(\\frac{2π}{3})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-294",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(\\frac{5π}{6})cos(\\frac{2π}{3})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-295",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos(\\frac{-π}{3})cos(\\frac{π}{4})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-296",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(\\frac{-π}{3})cos(\\frac{π}{4})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-297",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-298",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(\\frac{-5π}{4})sin(\\frac{11π}{6})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-299",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{-5π}{4})sin(\\frac{11π}{6})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-300",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(π)sin(\\frac{π}{6})$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "0",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-301",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(π)sin(\\frac{π}{6})$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-302",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Real-World Applications",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-303",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use this scenario: A child enters a carousel that takes one minute to revolve once around. The child enters at the point $(0,1),$ that is, on the due north position. Assume the carousel revolves counter clockwise.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-304",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What are the coordinates of the child after 45 seconds?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-305",
+      "type": "paragraph",
+      "content": {
+        "text": "What are the coordinates of the child after 45 seconds?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-306",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What are the coordinates of the child after 90 seconds?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$(0,–1)$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-307",
+      "type": "paragraph",
+      "content": {
+        "text": "What are the coordinates of the child after 90 seconds?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-308",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What are the coordinates of the child after 125 seconds?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-309",
+      "type": "paragraph",
+      "content": {
+        "text": "What are the coordinates of the child after 125 seconds?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-310",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "When will the child have coordinates $(0.707,–0.707)$ if the ride lasts 6 minutes? (There are multiple answers.)",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "37.5 seconds, 97.5 seconds, 157.5 seconds, 217.5 seconds, 277.5 seconds, 337.5 seconds",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-311",
+      "type": "paragraph",
+      "content": {
+        "text": "When will the child have coordinates $(0.707,–0.707)$ if the ride lasts 6 minutes? (There are multiple answers.)",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-312",
+      "type": "paragraph",
+      "content": {
+        "text": "37.5 seconds, 97.5 seconds, 157.5 seconds, 217.5 seconds, 277.5 seconds, 337.5 seconds",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-313",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "When will the child have coordinates $(–0.866,–0.5)$ if the ride lasts 6 minutes?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-314",
+      "type": "paragraph",
+      "content": {
+        "text": "When will the child have coordinates $(–0.866,–0.5)$ if the ride lasts 6 minutes?",
+        "inline": []
+      },
+      "level": "core"
+    }
+  ],
+  "solutions": {
+    "osbooks-college-algebra-bundle:m51285:exr-18": [
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "We know that"
+        },
+        {
+          "kind": "math",
+          "text": "cost"
+        },
+        {
+          "kind": "text",
+          "text": "is the"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-coordinate of the corresponding point on the unit circle and"
+        },
+        {
+          "kind": "math",
+          "text": "sint"
+        },
+        {
+          "kind": "text",
+          "text": "is the"
+        },
+        {
+          "kind": "text",
+          "text": "*y*"
+        },
+        {
+          "kind": "text",
+          "text": "-coordinate of the corresponding point on the unit circle. So:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "x=cost=\\frac{1}{2}y=sint=\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-22": [
+      [
+        {
+          "kind": "math",
+          "text": "cos(t)=-\\frac{\\sqrt{2}}{2},sin(t)=\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-29": [
+      [
+        {
+          "kind": "text",
+          "text": "Moving"
+        },
+        {
+          "kind": "math",
+          "text": "90°"
+        },
+        {
+          "kind": "text",
+          "text": "counterclockwise around the unit circle from the positive"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-axis brings us to the top of the circle, where the"
+        },
+        {
+          "kind": "math",
+          "text": "(x,y)"
+        },
+        {
+          "kind": "text",
+          "text": "coordinates are"
+        },
+        {
+          "kind": "math",
+          "text": "(0,1),"
+        },
+        {
+          "kind": "text",
+          "text": "as shown in"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "We can then use our definitions of cosine and sine."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "x=cost=cos(90°)=0y=sint=sin(90°)=1"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The cosine of"
+        },
+        {
+          "kind": "math",
+          "text": "90°"
+        },
+        {
+          "kind": "text",
+          "text": "is 0; the sine of"
+        },
+        {
+          "kind": "math",
+          "text": "90°"
+        },
+        {
+          "kind": "text",
+          "text": "is 1."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-35": [
+      [
+        {
+          "kind": "math",
+          "text": "cos(π)=-1,sin(π)=0"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-45": [
+      [
+        {
+          "kind": "text",
+          "text": "If we drop a vertical line from the point on the unit circle corresponding to"
+        },
+        {
+          "kind": "math",
+          "text": "t,"
+        },
+        {
+          "kind": "text",
+          "text": "we create a right triangle, from which we can see that the Pythagorean Identity is simply one case of the Pythagorean Theorem. See"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "Substituting the known value for sine into the Pythagorean Identity,"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "{cos}^{2}(t)+{sin}^{2}(t)=1{cos}^{2}(t)+\\frac{9}{49}=1{cos}^{2}(t)=\\frac{40}{49}cos(t)=±\\sqrt{\\frac{40}{49}}=±\\frac{\\sqrt{40}}{7}=±\\frac{2\\sqrt{10}}{7}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Because the angle is in the second quadrant, we know the"
+        },
+        {
+          "kind": "text",
+          "text": "*x-*"
+        },
+        {
+          "kind": "text",
+          "text": "value is a negative real number, so the cosine is also negative."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(t)=-\\frac{2\\sqrt{10}}{7}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-51": [
+      [
+        {
+          "kind": "math",
+          "text": "sin(t)=-\\frac{7}{25}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-92": [
+      [
+        {
+          "kind": "text",
+          "text": "Enter the following keystrokes:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "COS(5×π÷3 ) ENTER"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(\\frac{5π}{3})=0.5"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-96": [
+      [
+        {
+          "kind": "text",
+          "text": "approximately 0.866025403"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-112": [
+      [
+        {
+          "kind": "text",
+          "text": "Because"
+        },
+        {
+          "kind": "math",
+          "text": "225°"
+        },
+        {
+          "kind": "text",
+          "text": "is in the third quadrant, the reference angle is"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "|(180°-225°)|=|-45°|=45°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-116": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-125": [
+      [
+        {
+          "kind": "math",
+          "text": "ⓐ150°"
+        },
+        {
+          "kind": "text",
+          "text": "is located in the second quadrant. The angle it makes with the"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-axis is"
+        },
+        {
+          "kind": "math",
+          "text": "180°-150°=30°,"
+        },
+        {
+          "kind": "text",
+          "text": "so the reference angle is"
+        },
+        {
+          "kind": "math",
+          "text": "30°."
+        },
+        {
+          "kind": "text",
+          "text": "This tells us that"
+        },
+        {
+          "kind": "math",
+          "text": "150°"
+        },
+        {
+          "kind": "text",
+          "text": "has the same sine and cosine values as"
+        },
+        {
+          "kind": "math",
+          "text": "30°,"
+        },
+        {
+          "kind": "text",
+          "text": "except for the sign."
+        },
+        {
+          "kind": "math",
+          "text": "cos(30°)=\\frac{\\sqrt{3}}{2}andsin(30°)=\\frac{1}{2}"
+        },
+        {
+          "kind": "text",
+          "text": "Since"
+        },
+        {
+          "kind": "math",
+          "text": "150°"
+        },
+        {
+          "kind": "text",
+          "text": "is in the second quadrant, the"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-coordinate of the point on the circle is negative, so the cosine value is negative. The"
+        },
+        {
+          "kind": "text",
+          "text": "*y*"
+        },
+        {
+          "kind": "text",
+          "text": "-coordinate is positive, so the sine value is positive."
+        },
+        {
+          "kind": "math",
+          "text": "cos(150°)=-\\frac{\\sqrt{3}}{2}andsin(150°)=\\frac{1}{2}ⓑ\\frac{5π}{4}"
+        },
+        {
+          "kind": "text",
+          "text": "is in the third quadrant. Its reference angle is"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{5π}{4}-π=\\frac{π}{4}."
+        },
+        {
+          "kind": "text",
+          "text": "The cosine and sine of"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{π}{4}"
+        },
+        {
+          "kind": "text",
+          "text": "are both"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{2}."
+        },
+        {
+          "kind": "text",
+          "text": "In the third quadrant, both"
+        },
+        {
+          "kind": "math",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "y"
+        },
+        {
+          "kind": "text",
+          "text": "are negative, so:"
+        },
+        {
+          "kind": "math",
+          "text": "cos\\frac{5π}{4}=-\\frac{\\sqrt{2}}{2}andsin\\frac{5π}{4}=-\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-128": [
+      [
+        {
+          "kind": "math",
+          "text": "ⓐcos(315°)=\\frac{\\sqrt{2}}{2},sin(315°)=\\frac{-\\sqrt{2}}{2}ⓑcos(-\\frac{π}{6})=\\frac{\\sqrt{3}}{2},sin(-\\frac{π}{6})=-\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-136": [
+      [
+        {
+          "kind": "text",
+          "text": "We know that the angle"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{7π}{6}"
+        },
+        {
+          "kind": "text",
+          "text": "is in the third quadrant."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "First, let’s find the reference angle by measuring the angle to the"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-axis. To find the reference angle of an angle whose terminal side is in quadrant III, we find the difference of the angle and"
+        },
+        {
+          "kind": "math",
+          "text": "π."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{7π}{6}-π=\\frac{π}{6}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Next, we will find the cosine and sine of the reference angle."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(\\frac{π}{6})=\\frac{\\sqrt{3}}{2}sin(\\frac{π}{6})=\\frac{1}{2}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We must determine the appropriate signs for"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "text",
+          "text": "*y*"
+        },
+        {
+          "kind": "text",
+          "text": "in the given quadrant. Because our original angle is in the third quadrant, where both"
+        },
+        {
+          "kind": "math",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "y"
+        },
+        {
+          "kind": "text",
+          "text": "are negative, both cosine and sine are negative."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(\\frac{7π}{6})=-\\frac{\\sqrt{3}}{2}sin(\\frac{7π}{6})=-\\frac{1}{2}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Now we can calculate the"
+        },
+        {
+          "kind": "math",
+          "text": "(x,y)"
+        },
+        {
+          "kind": "text",
+          "text": "coordinates using the identities"
+        },
+        {
+          "kind": "math",
+          "text": "x=cosθ"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "y=sinθ."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The coordinates of the point are"
+        },
+        {
+          "kind": "math",
+          "text": "(-\\frac{\\sqrt{3}}{2},-\\frac{1}{2})"
+        },
+        {
+          "kind": "text",
+          "text": "on the unit circle."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-144": [
+      [
+        {
+          "kind": "math",
+          "text": "(\\frac{1}{2},-\\frac{\\sqrt{3}}{2})"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-153": [
+      [
+        {
+          "kind": "text",
+          "text": "The unit circle is a circle of radius 1 centered at the origin."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-158": [
+      [
+        {
+          "kind": "text",
+          "text": "Coterminal angles are angles that share the same terminal side. A reference angle is the size of the smallest acute angle,"
+        },
+        {
+          "kind": "math",
+          "text": "t,"
+        },
+        {
+          "kind": "text",
+          "text": "formed by the terminal side of the angle"
+        },
+        {
+          "kind": "math",
+          "text": "t"
+        },
+        {
+          "kind": "text",
+          "text": "and the horizontal axis."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-163": [
+      [
+        {
+          "kind": "text",
+          "text": "The sine values are equal."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-170": [
+      [
+        {
+          "kind": "text",
+          "text": "I"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-174": [
+      [
+        {
+          "kind": "text",
+          "text": "IV"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-178": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-181": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-183": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-186": [
+      [
+        {
+          "kind": "text",
+          "text": "0"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-188": [
+      [
+        {
+          "kind": "text",
+          "text": "-1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-190": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-195": [
+      [
+        {
+          "kind": "math",
+          "text": "60°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-197": [
+      [
+        {
+          "kind": "math",
+          "text": "80°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-199": [
+      [
+        {
+          "kind": "math",
+          "text": "45°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-201": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-203": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-205": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{8}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-208": [
+      [
+        {
+          "kind": "math",
+          "text": "60°,"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant IV,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(300°)=-\\frac{\\sqrt{3}}{2},cos(300°)=\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-211": [
+      [
+        {
+          "kind": "math",
+          "text": "45°,"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant II,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(135°)=\\frac{\\sqrt{2}}{2},cos(135°)=-\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-214": [
+      [
+        {
+          "kind": "math",
+          "text": "60°,"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant II,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(120°)=\\frac{\\sqrt{3}}{2},cos(120°)=-\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-217": [
+      [
+        {
+          "kind": "math",
+          "text": "30°,"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant II,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(150°)=\\frac{1}{2},cos(150°)=-\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-220": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{6},"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant III,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(\\frac{7π}{6})=-\\frac{1}{2},cos(\\frac{7π}{6})=-\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-223": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{4},"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant II,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(\\frac{3π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{3π}{4})=-\\frac{2}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-226": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{3},"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant II,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(\\frac{2π}{3})=\\frac{\\sqrt{3}}{2},cos(\\frac{2π}{3})=-\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-229": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{4},"
+        },
+        {
+          "kind": "text",
+          "text": "Quadrant IV,"
+        },
+        {
+          "kind": "math",
+          "text": "sin(\\frac{7π}{4})=-\\frac{\\sqrt{2}}{2},cos(\\frac{7π}{4})=\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-234": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{77}}{9}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-239": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{\\sqrt{15}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-244": [
+      [
+        {
+          "kind": "math",
+          "text": "(−10,10\\sqrt{3})"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-248": [
+      [
+        {
+          "kind": "math",
+          "text": "(–2.778,15.757)"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-252": [
+      [
+        {
+          "kind": "math",
+          "text": "[–1,1]"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-267": [
+      [
+        {
+          "kind": "text",
+          "text": "−0.1736"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-269": [
+      [
+        {
+          "kind": "text",
+          "text": "0.9511"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-271": [
+      [
+        {
+          "kind": "text",
+          "text": "−0.7071"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-273": [
+      [
+        {
+          "kind": "text",
+          "text": "−0.1392"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-275": [
+      [
+        {
+          "kind": "text",
+          "text": "−0.7660"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-280": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-285": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{\\sqrt{6}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-290": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-295": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-300": [
+      [
+        {
+          "kind": "text",
+          "text": "0"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-306": [
+      [
+        {
+          "kind": "math",
+          "text": "(0,–1)"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51285:exr-310": [
+      [
+        {
+          "kind": "text",
+          "text": "37.5 seconds, 97.5 seconds, 157.5 seconds, 217.5 seconds, 277.5 seconds, 337.5 seconds"
+        }
+      ]
+    ]
+  }
+}

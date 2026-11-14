@@ -1,0 +1,5532 @@
+{
+  "module": "m51286",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-college-algebra-bundle",
+    "section": "m51286",
+    "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "p-0",
+      "type": "paragraph",
+      "content": {
+        "text": "In this section you will:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-1",
+      "type": "paragraph",
+      "content": {
+        "text": "A wheelchair ramp that meets the standards of the Americans with Disabilities Act must make an angle with the ground whose tangent is $\\frac{1}{12}$ or less, regardless of its length. A tangent represents a ratio, so this means that for every 1 inch of rise, the ramp must have 12 inches of run. Trigonometric functions allow us to specify the shapes and proportions of objects independent of exact dimensions. We have already defined the sine and cosine functions of an angle. Though sine and cosine are the trigonometric functions most often used, there are four others. Together they make up the set of six trigonometric functions. In this section, we will investigate the remaining functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Exact Values of the Trigonometric Functions Secant, Cosecant, Tangent, and Cotangent",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "We can also define the remaining functions in terms of the unit circle with a point $(x,y)$ corresponding to an angle of $t,$ as shown in . As with the sine and cosine, we can use the $(x,y)$ coordinates to find the other functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_001.jpg",
+      "caption": {
+        "text": "This image is a graph of circle with angle of t inscribed and a radius of 1. Point of (x, y) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This image is a graph of circle with angle of t inscribed and a radius of 1. Point of (x, y) is at intersection of terminal side of angle and edge of circle.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-5",
+      "type": "paragraph",
+      "content": {
+        "text": "The first function we will define is the tangent. The tangent of an angle is the ratio of the *y* -value to the *x* -value of the corresponding point on the unit circle. In , the tangent of angle $t$ is equal to $\\frac{y}{x},x≠0.$ Because the *y* -value is equal to the sine of $t,$ and the *x* -value is equal to the cosine of $t,$ the tangent of angle $t$ can also be defined as $\\frac{sint}{cost},cost≠0.$ The tangent function is abbreviated as $tan.$ The remaining three functions can all be expressed as reciprocals of functions we have already defined.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "If $t$ is a real number and $(x,y)$ is a point where the terminal side of an angle of $t$ radians intercepts the unit circle, then",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-7",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-8",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding Trigonometric Functions from a Point on the Unit Circle The point $(-\\frac{\\sqrt{3}}{2},\\frac{1}{2})$ is on the unit circle, as shown in . Find $sint,cost,tant,sect,csct,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because we know the $(x,y)$ coordinates of the point on the unit circle indicated by angle $t,$ we can use those coordinates to find the six functions: \\[$sint=y=\\frac{1}{2}cost=x=-\\frac{\\sqrt{3}}{2}tant=\\frac{y}{x}=\\frac{\\frac{1}{2}}{-\\frac{\\sqrt{3}}{2}}=\\frac{1}{2}(-\\frac{2}{\\sqrt{3}})=-\\frac{1}{\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}sect=\\frac{1}{x}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=-\\frac{2}{\\sqrt{3}}=-\\frac{2\\sqrt{3}}{3}csct=\\frac{1}{y}=\\frac{1}{\\frac{1}{2}}=2cott=\\frac{x}{y}=\\frac{-\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=-\\frac{\\sqrt{3}}{2}(\\frac{2}{1})=-\\sqrt{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-9",
+      "type": "paragraph",
+      "content": {
+        "text": "The point $(-\\frac{\\sqrt{3}}{2},\\frac{1}{2})$ is on the unit circle, as shown in . Find $sint,cost,tant,sect,csct,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_002.jpg",
+      "caption": {
+        "text": "This is an image of a graph of circle with angle of t inscribed and with radius 1. Point of (negative square root of 3 over 2, 1/2) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of circle with angle of t inscribed and with radius 1. Point of (negative square root of 3 over 2, 1/2) is at intersection of terminal side of angle and edge of circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-11",
+      "type": "paragraph",
+      "content": {
+        "text": "Because we know the $(x,y)$ coordinates of the point on the unit circle indicated by angle $t,$ we can use those coordinates to find the six functions:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-12",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The point $(\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$ is on the unit circle, as shown in . Find $sint,cost,tant,sect,csct,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sint=-\\frac{\\sqrt{2}}{2}cost=\\frac{\\sqrt{2}}{2},tant=-1,sect=\\sqrt{2},csct=-\\sqrt{2},cott=-1$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "The point $(\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$ is on the unit circle, as shown in . Find $sint,cost,tant,sect,csct,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_003.jpg",
+      "caption": {
+        "text": "This is an image of a graph of circle with angle of t inscribed with radius 1. Point of (square root of 2 over 2, negative square root of 2 over 2) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of circle with angle of t inscribed with radius 1. Point of (square root of 2 over 2, negative square root of 2 over 2) is at intersection of terminal side of angle and edge of circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{\\sqrt{2}}{2}cost=\\frac{\\sqrt{2}}{2},tant=-1,sect=\\sqrt{2},csct=-\\sqrt{2},cott=-1$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-16",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-17",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding the Trigonometric Functions of an Angle Find $sint,cost,tant,sect,csct,$ and $cott.$ when $t=\\frac{π}{6}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We have previously used the properties of equilateral triangles to demonstrate that $sin\\frac{π}{6}=\\frac{1}{2}$ and $cos\\frac{π}{6}=\\frac{\\sqrt{3}}{2}.$ We can use these values and the definitions of tangent, secant, cosecant, and cotangent as functions of sine and cosine to find the remaining function values. \\[$tan\\frac{π}{6}=\\frac{sin\\frac{π}{6}}{cos\\frac{π}{6}}=\\frac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}sec\\frac{π}{6}=\\frac{1}{cos\\frac{π}{6}}=\\frac{1}{\\frac{\\sqrt{3}}{2}}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}csc\\frac{π}{6}=\\frac{1}{sin\\frac{π}{6}}=\\frac{1}{\\frac{1}{2}}=2cot\\frac{π}{6}=\\frac{cos\\frac{π}{6}}{sin\\frac{π}{6}}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=\\sqrt{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-18",
+      "type": "paragraph",
+      "content": {
+        "text": "Find $sint,cost,tant,sect,csct,$ and $cott.$ when $t=\\frac{π}{6}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-19",
+      "type": "paragraph",
+      "content": {
+        "text": "We have previously used the properties of equilateral triangles to demonstrate that $sin\\frac{π}{6}=\\frac{1}{2}$ and $cos\\frac{π}{6}=\\frac{\\sqrt{3}}{2}.$ We can use these values and the definitions of tangent, secant, cosecant, and cotangent as functions of sine and cosine to find the remaining function values.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-20",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $sint,cost,tant,sect,csct,$ and $cott.$ when $t=\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sin\\frac{π}{3}=\\frac{\\sqrt{3}}{2},cos\\frac{π}{3}=\\frac{1}{2},tan\\frac{π}{3}=\\sqrt{3},sec\\frac{π}{3}=2,csc\\frac{π}{3}=\\frac{2\\sqrt{3}}{3},cot\\frac{π}{3}=\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "Find $sint,cost,tant,sect,csct,$ and $cott.$ when $t=\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-22",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin\\frac{π}{3}=\\frac{\\sqrt{3}}{2},cos\\frac{π}{3}=\\frac{1}{2},tan\\frac{π}{3}=\\sqrt{3},sec\\frac{π}{3}=2,csc\\frac{π}{3}=\\frac{2\\sqrt{3}}{3},cot\\frac{π}{3}=\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-23",
+      "type": "paragraph",
+      "content": {
+        "text": "Because we know the sine and cosine values for the common first-quadrant angles, we can find the other function values for those angles as well by setting $x$ equal to the cosine and $y$ equal to the sine and then using the definitions of tangent, secant, cosecant, and cotangent. The results are shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-24",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "Angle",
+          "$0$",
+          "$\\frac{π}{6},or 30°$",
+          "$\\frac{π}{4},or 45°$",
+          "$\\frac{π}{3},or 60°$",
+          "$\\frac{π}{2},or 90°$"
+        ],
+        [
+          "*Cosine*",
+          "1",
+          "$\\frac{\\sqrt{3}}{2}$",
+          "$\\frac{\\sqrt{2}}{2}$",
+          "$\\frac{1}{2}$",
+          "0"
+        ],
+        [
+          "*Sine*",
+          "0",
+          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{2}}{2}$",
+          "$\\frac{\\sqrt{3}}{2}$",
+          "1"
+        ],
+        [
+          "*Tangent*",
+          "0",
+          "$\\frac{\\sqrt{3}}{3}$",
+          "1",
+          "$\\sqrt{3}$",
+          "Undefined"
+        ],
+        [
+          "*Secant*",
+          "1",
+          "$\\frac{2\\sqrt{3}}{3}$",
+          "$\\sqrt{2}$",
+          "2",
+          "Undefined"
+        ],
+        [
+          "*Cosecant*",
+          "Undefined",
+          "2",
+          "$\\sqrt{2}$",
+          "$\\frac{2\\sqrt{3}}{3}$",
+          "1"
+        ],
+        [
+          "*Cotangent*",
+          "Undefined",
+          "$\\sqrt{3}$",
+          "1",
+          "$\\frac{\\sqrt{3}}{3}$",
+          "0"
+        ]
+      ],
+      "alt": "Table with 7 rows",
+      "level": "core"
+    },
+    {
+      "id": "sec-25",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Reference Angles to Evaluate Tangent, Secant, Cosecant, and Cotangent",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-26",
+      "type": "paragraph",
+      "content": {
+        "text": "We can evaluate trigonometric functions of angles outside the first quadrant using reference angles as we have already done with the sine and cosine functions. The procedure is the same: Find the reference angle formed by the terminal side of the given angle with the horizontal axis. The trigonometric function values for the original angle will be the same as those for the reference angle, except for the positive or negative sign, which is determined by *x* - and *y* -values in the original quadrant. shows which functions are positive in which quadrant.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-27",
+      "type": "paragraph",
+      "content": {
+        "text": "To help remember which of the six trigonometric functions are positive in each quadrant, we can use the mnemonic phrase “A Smart Trig Class.” Each of the four words in the phrase corresponds to one of the four quadrants, starting with quadrant I and rotating counterclockwise. In quadrant I, which is “ *A* ,” **a** ll of the six trigonometric functions are positive. In quadrant II, “ *S* mart,” only **s** ine and its reciprocal function, cosecant, are positive. In quadrant III, “ *T* rig,” only **t** angent and its reciprocal function, cotangent, are positive. Finally, in quadrant IV, “ *C* lass,” only **c** osine and its reciprocal function, secant, are positive.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_004.jpg",
+      "caption": {
+        "text": "The trigonometric functions are each listed in the quadrants in which they are positive.",
+        "inline": []
+      },
+      "alt": "This image is a graph of circle with each quadrant labeled. Under quadrant I, labels for sin t, cos t, tan t, sec t, csc t, and cot t. Under quadrant II, labels for sin t and csc t. Under quadrant III, labels for tan t and cot t. Under quadrant IV, labels for cos t, sec t.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-29",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle not in the first quadrant, use reference angles to find all six trigonometric functions.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-30",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-31",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Reference Angles to Find Trigonometric Functions Use reference angles to find all six trigonometric functions of $-\\frac{5π}{6}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The angle between this angle’s terminal side and the *x* -axis is $\\frac{π}{6},$ so that is the reference angle. Since $-\\frac{5π}{6}$ is in the third quadrant, where both $x$ and $y$ are negative, cosine, sine, secant, and cosecant will be negative, while tangent and cotangent will be positive. $cos(-\\frac{5π}{6})=-\\frac{\\sqrt{3}}{2},sin(-\\frac{5π}{6})=-\\frac{1}{2},tan(-\\frac{5π}{6})=\\frac{\\sqrt{3}}{3},sec(-\\frac{5π}{6})=-\\frac{2\\sqrt{3}}{3},csc(-\\frac{5π}{6})=−2,cot(-\\frac{5π}{6})=\\sqrt{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-32",
+      "type": "paragraph",
+      "content": {
+        "text": "Use reference angles to find all six trigonometric functions of $-\\frac{5π}{6}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle between this angle’s terminal side and the *x* -axis is $\\frac{π}{6},$ so that is the reference angle. Since $-\\frac{5π}{6}$ is in the third quadrant, where both $x$ and $y$ are negative, cosine, sine, secant, and cosecant will be negative, while tangent and cotangent will be positive.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-34",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(-\\frac{5π}{6})=-\\frac{\\sqrt{3}}{2},sin(-\\frac{5π}{6})=-\\frac{1}{2},tan(-\\frac{5π}{6})=\\frac{\\sqrt{3}}{3},sec(-\\frac{5π}{6})=-\\frac{2\\sqrt{3}}{3},csc(-\\frac{5π}{6})=−2,cot(-\\frac{5π}{6})=\\sqrt{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-35",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Use reference angles to find all six trigonometric functions of $-\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sin(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{-7π}{4})=1,sec(\\frac{-7π}{4})=\\sqrt{2},csc(\\frac{-7π}{4})=\\sqrt{2},cot(\\frac{-7π}{4})=1$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-36",
+      "type": "paragraph",
+      "content": {
+        "text": "Use reference angles to find all six trigonometric functions of $-\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-37",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{-7π}{4})=1,sec(\\frac{-7π}{4})=\\sqrt{2},csc(\\frac{-7π}{4})=\\sqrt{2},cot(\\frac{-7π}{4})=1$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-38",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Even and Odd Trigonometric Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "To be able to use our six trigonometric functions freely with both positive and negative angle inputs, we should examine how each function treats a negative input. As it turns out, there is an important difference among the functions in this regard.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-40",
+      "type": "paragraph",
+      "content": {
+        "text": "Consider the function $f(x)={x}^{2},$ shown in . The graph of the function is symmetrical about the *y* -axis. All along the curve, any two points with opposite *x* -values have the same function value. This matches the result of calculation: ${(4)}^{2}={(−4)}^{2},{(−5)}^{2}={(5)}^{2},$ and so on. So $f(x)={x}^{2}$ is an even function, a function such that two inputs that are opposites have the same output. That means $f(-x)=f(x).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_005-4aee.jpg",
+      "caption": {
+        "text": "The function $f(x)={x}^{2}$ is an even function.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of and upward facing parabola with points (-2, 4) and (2, 4) labeled.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-42",
+      "type": "paragraph",
+      "content": {
+        "text": "Now consider the function $f(x)={x}^{3},$ shown in . The graph is not symmetrical about the *y* -axis. All along the graph, any two points with opposite *x* -values also have opposite *y* -values. So $f(x)={x}^{3}$ is an odd function, one such that two inputs that are opposites have outputs that are also opposites. That means $f(-x)=−f(x).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_006-194b.jpg",
+      "caption": {
+        "text": "The function $f(x)={x}^{3}$ is an odd function.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of the function f of x = x to the third power with labels for points (-1, -1) and (1, 1).",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "We can test whether a trigonometric function is even or odd by drawing a unit circle with a positive and a negative angle, as in . The sine of the positive angle is $y.$ The sine of the negative angle is $−y.$ The sine function, then, is an odd function. We can test each of the six trigonometric functions in this fashion. The results are shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_007.jpg",
+      "caption": {
+        "text": "Graph of circle with angle of t and -t inscribed. Point of (x, y) is at intersection of terminal side of angle t and edge of circle. Point of (x, -y) is at intersection of terminal side of angle -t and edge of circle.",
+        "inline": []
+      },
+      "alt": "Graph of circle with angle of t and -t inscribed. Point of (x, y) is at intersection of terminal side of angle t and edge of circle. Point of (x, -y) is at intersection of terminal side of angle -t and edge of circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "tbl-46",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "$sint=ysin(−t)=−ysint≠sin(−t)$",
+          "$cost=xcos(−t)=xcost=cos(−t)$",
+          "$tan(t)=\\frac{y}{x}tan(−t)=-\\frac{y}{x}tant≠tan(−t)$"
+        ],
+        [
+          "$sect=\\frac{1}{x}sec(−t)=\\frac{1}{x}sect=sec(−t)$",
+          "$csct=\\frac{1}{y}csc(−t)=\\frac{1}{−y}csct≠csc(−t)$",
+          "$cott=\\frac{x}{y}cot(−t)=\\frac{x}{-y}cott≠cot(−t)$"
+        ]
+      ],
+      "alt": "Table with 2 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-47",
+      "type": "paragraph",
+      "content": {
+        "text": "An even function is one in which $f(−x)=f(x).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "An odd function is one in which $f(−x)=−f(x).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-49",
+      "type": "paragraph",
+      "content": {
+        "text": "Cosine and secant are even:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "Sine, tangent, cosecant, and cotangent are odd:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-51",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-52",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Even and Odd Properties of Trigonometric Functions If the secant of angle $t$ is 2, what is the secant of $−t?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Secant is an even function. The secant of an angle is the same as the secant of its opposite. So if the secant of angle $t$ is 2, the secant of $−t$ is also 2.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-53",
+      "type": "paragraph",
+      "content": {
+        "text": "If the secant of angle $t$ is 2, what is the secant of $−t?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-54",
+      "type": "paragraph",
+      "content": {
+        "text": "Secant is an even function. The secant of an angle is the same as the secant of its opposite. So if the secant of angle $t$ is 2, the secant of $−t$ is also 2.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-55",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If the cotangent of angle $t$ is $\\sqrt{3},$ what is the cotangent of $−t?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\sqrt{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "If the cotangent of angle $t$ is $\\sqrt{3},$ what is the cotangent of $−t?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-57",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Recognizing and Using Fundamental Identities",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-58",
+      "type": "paragraph",
+      "content": {
+        "text": "We have explored a number of properties of trigonometric functions. Now, we can take the relationships a step further, and derive some fundamental identities. Identities are statements that are true for all values of the input on which they are defined. Usually, identities can be derived from definitions and relationships we already know. For example, the Pythagorean Identity we learned earlier was derived from the Pythagorean Theorem and the definitions of sine and cosine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-59",
+      "type": "paragraph",
+      "content": {
+        "text": "We can derive some useful identities from the six trigonometric functions. The other four trigonometric functions can be related back to the sine and cosine functions using these basic relationships:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-60",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-61",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Identities to Evaluate Trigonometric Functions ⓐ Given $sin(45°)=\\frac{\\sqrt{2}}{2},cos(45°)=\\frac{\\sqrt{2}}{2},$ evaluate $tan(45°).$ ⓑ Given $sin(\\frac{5π}{6})=\\frac{1}{2},cos(\\frac{5π}{6})=-\\frac{\\sqrt{3}}{2},$ evaluate $sec(\\frac{5π}{6}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because we know the sine and cosine values for these angles, we can use identities to evaluate the other functions. ⓐ $tan(45°)=\\frac{sin(45°)}{cos(45°)}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{2}}{2}}=1$ ⓑ $sec(\\frac{5π}{6})=\\frac{1}{cos(\\frac{5π}{6})}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=\\frac{−2\\sqrt{3}}{1}=\\frac{−2}{\\sqrt{3}}=-\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-62",
+      "type": "paragraph",
+      "content": {
+        "text": "Because we know the sine and cosine values for these angles, we can use identities to evaluate the other functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-63",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluate $csc(\\frac{7π}{6}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-2$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-64",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluate $csc(\\frac{7π}{6}).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-65",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-66",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Identities to Simplify Trigonometric Expressions Simplify $\\frac{sect}{tant}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We can simplify this by rewriting both functions in terms of sine and cosine. \\[$\\frac{sect}{tant}=\\frac{\\frac{1}{cost}}{\\frac{sint}{cost}}=\\frac{1}{cost}\\cdot \\frac{cost}{sint}Multiply by the reciprocal.=\\frac{1}{sint}=csctSimplify and use the identity.$\\] By showing that $\\frac{sect}{tant}$ can be simplified to $csct,$ we have, in fact, established a new identity. \\[$\\frac{sect}{tant}=csct$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-67",
+      "type": "paragraph",
+      "content": {
+        "text": "Simplify $\\frac{sect}{tant}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-68",
+      "type": "paragraph",
+      "content": {
+        "text": "We can simplify this by rewriting both functions in terms of sine and cosine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-69",
+      "type": "paragraph",
+      "content": {
+        "text": "By showing that $\\frac{sect}{tant}$ can be simplified to $csct,$ we have, in fact, established a new identity.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-70",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Simplify $(tant)(cost).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sint$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-71",
+      "type": "paragraph",
+      "content": {
+        "text": "Simplify $(tant)(cost).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-72",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Alternate Forms of the Pythagorean Identity",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-73",
+      "type": "paragraph",
+      "content": {
+        "text": "We can use these fundamental identities to derive alternate forms of the Pythagorean Identity, ${cos}^{2}t+{sin}^{2}t=1.$ One form is obtained by dividing both sides by ${cos}^{2}t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-74",
+      "type": "paragraph",
+      "content": {
+        "text": "The other form is obtained by dividing both sides by ${sin}^{2}t.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-75",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-76",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Identities to Relate Trigonometric Functions If $cos(t)=\\frac{12}{13}$ and $t$ is in quadrant IV, as shown in , find the values of the other five trigonometric functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We can find the sine using the Pythagorean Identity, ${cos}^{2}t+{sin}^{2}t=1,$ and the remaining functions by relating them to sine and cosine. \\[${(\\frac{12}{13})}^{2}+{sin}^{2}t=1{sin}^{2}t=1-{(\\frac{12}{13})}^{2}{sin}^{2}t=1-\\frac{144}{169}{sin}^{2}t=\\frac{25}{169}sint=±\\sqrt{\\frac{25}{169}}sint=±\\frac{\\sqrt{25}}{\\sqrt{169}}sint=±\\frac{5}{13}$\\] The sign of the sine depends on the *y* -values in the quadrant where the angle is located. Since the angle is in quadrant IV, where the *y* -values are negative, its sine is negative, $-\\frac{5}{13}.$ The remaining functions can be calculated using identities relating them to sine and cosine. \\[$tant=\\frac{sint}{cost}=\\frac{-\\frac{5}{13}}{\\frac{12}{13}}=-\\frac{5}{12}sect=\\frac{1}{cost}=\\frac{1}{\\frac{12}{13}}=\\frac{13}{12}csct=\\frac{1}{sint}=\\frac{1}{-\\frac{5}{13}}=\\frac{-13}{5}cott=\\frac{1}{tant}=\\frac{1}{-\\frac{5}{12}}=-\\frac{12}{5}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-77",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cos(t)=\\frac{12}{13}$ and $t$ is in quadrant IV, as shown in , find the values of the other five trigonometric functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_008.jpg",
+      "caption": {
+        "text": "This is an image of graph of circle with angle of t inscribed. Point of (12/13, y) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This is an image of graph of circle with angle of t inscribed. Point of (12/13, y) is at intersection of terminal side of angle and edge of circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-79",
+      "type": "paragraph",
+      "content": {
+        "text": "We can find the sine using the Pythagorean Identity, ${cos}^{2}t+{sin}^{2}t=1,$ and the remaining functions by relating them to sine and cosine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-80",
+      "type": "paragraph",
+      "content": {
+        "text": "The sign of the sine depends on the *y* -values in the quadrant where the angle is located. Since the angle is in quadrant IV, where the *y* -values are negative, its sine is negative, $-\\frac{5}{13}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-81",
+      "type": "paragraph",
+      "content": {
+        "text": "The remaining functions can be calculated using identities relating them to sine and cosine.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-82",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sec(t)=-\\frac{17}{8}$ and $0<t<π,$ find the values of the other five functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$cost=-\\frac{8}{17},sint=\\frac{15}{17},tant=-\\frac{15}{8}csct=\\frac{17}{15},cott=-\\frac{8}{15}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-83",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sec(t)=-\\frac{17}{8}$ and $0<t<π,$ find the values of the other five functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-84",
+      "type": "paragraph",
+      "content": {
+        "text": "$cost=-\\frac{8}{17},sint=\\frac{15}{17},tant=-\\frac{15}{8}csct=\\frac{17}{15},cott=-\\frac{8}{15}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-85",
+      "type": "paragraph",
+      "content": {
+        "text": "As we discussed at the beginning of the chapter, a function that repeats its values in regular intervals is known as a periodic function. The trigonometric functions are periodic. For the four trigonometric functions, sine, cosine, cosecant and secant, a revolution of one circle, or $2π,$ will result in the same outputs for these functions. And for tangent and cotangent, only a half a revolution will result in the same outputs.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-86",
+      "type": "paragraph",
+      "content": {
+        "text": "Other functions can also be periodic. For example, the lengths of months repeat every four years. If $x$ represents the length time, measured in years, and $f(x)$ represents the number of days in February, then $f(x+4)=f(x).$ This pattern repeats over and over through time. In other words, every four years (except for multiples of 100), February typically has the same number of days as it did 4 years earlier. The positive number 4 is the smallest positive number that satisfies this condition and is called the period. A *period* is the shortest interval over which a function completes one full cycle—in this example, the period is 4 and represents the time it takes for us to be certain February has the same number of days.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-87",
+      "type": "paragraph",
+      "content": {
+        "text": "The period $P$ of a repeating function $f$ is the number representing the interval such that $f(x+P)=f(x)$ for any value of $x.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-88",
+      "type": "paragraph",
+      "content": {
+        "text": "The period of the cosine, sine, secant, and cosecant functions is $2π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-89",
+      "type": "paragraph",
+      "content": {
+        "text": "The period of the tangent and cotangent functions is $π.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-90",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-91",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding the Values of Trigonometric Functions Find the values of the six trigonometric functions of angle $t$ based on *.*",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "\\[$sint=y=-\\frac{\\sqrt{3}}{2}cost=x=-\\frac{1}{2}tant=\\frac{sint}{cost}=\\frac{-\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}=\\sqrt{3}sect=\\frac{1}{cost}=\\frac{1}{-\\frac{1}{2}}=−2csct=\\frac{1}{sint}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=-\\frac{2\\sqrt{3}}{3}cott=\\frac{1}{tant}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-92",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the values of the six trigonometric functions of angle $t$ based on *.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_009.jpg",
+      "caption": {
+        "text": "This is an image of a graph of circle with angle of t inscribed. Point of (1/2, negative square root of 3 over 2) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of circle with angle of t inscribed. Point of (1/2, negative square root of 3 over 2) is at intersection of terminal side of angle and edge of circle. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-94",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the values of the six trigonometric functions of angle $t$ based on .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sint=-1,cost=0,tant=Undefinedsect=Undefined,csct=-1,cott=0$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-95",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the values of the six trigonometric functions of angle $t$ based on .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_010.jpg",
+      "caption": {
+        "text": "This is an image of a graph of circle with angle of t inscribed. Point of (0, -1) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "This is an image of a graph of circle with angle of t inscribed. Point of (0, -1) is at intersection of terminal side of angle and edge of circle.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-97",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-1,cost=0,tant=Undefinedsect=Undefined,csct=-1,cott=0$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-98",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-99",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding the Value of Trigonometric Functions If $sin(t)=-\\frac{\\sqrt{3}}{2}andcos(t)=\\frac{1}{2},findsec(t),csc(t),tan(t),cot(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "\\[$sect=\\frac{1}{cost}=\\frac{1}{\\frac{1}{2}}=2csct=\\frac{1}{sint}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}-\\frac{2\\sqrt{3}}{3}tant=\\frac{sint}{cost}=\\frac{-\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=-\\sqrt{3}cott=\\frac{1}{tant}=\\frac{1}{-\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-100",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sin(t)=-\\frac{\\sqrt{3}}{2}andcos(t)=\\frac{1}{2},findsec(t),csc(t),tan(t),cot(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-101",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sin(t)=\\frac{\\sqrt{2}}{2}andcos(t)=\\frac{\\sqrt{2}}{2},findsec(t),csc(t),tan(t),andcot(t)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sect=\\sqrt{2},csct=\\sqrt{2},tant=1,cott=1$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-102",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(t)=\\frac{\\sqrt{2}}{2}andcos(t)=\\frac{\\sqrt{2}}{2},findsec(t),csc(t),tan(t),andcot(t)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-103",
+      "type": "paragraph",
+      "content": {
+        "text": "$sect=\\sqrt{2},csct=\\sqrt{2},tant=1,cott=1$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-104",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Evaluating Trigonometric Functions with a Calculator",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-105",
+      "type": "paragraph",
+      "content": {
+        "text": "We have learned how to evaluate the six trigonometric functions for the common first-quadrant angles and to use them as reference angles for angles in other quadrants. To evaluate trigonometric functions of other angles, we use a scientific or graphing calculator or computer software. If the calculator has a degree mode and a radian mode, confirm the correct mode is chosen before making a calculation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-106",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluating a tangent function with a scientific calculator as opposed to a graphing calculator or computer algebra system is like evaluating a sine or cosine: Enter the value and press the TAN key. For the reciprocal functions, there may not be any dedicated keys that say CSC, SEC, or COT. In that case, the function must be evaluated as the reciprocal of a sine, cosine, or tangent.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-107",
+      "type": "paragraph",
+      "content": {
+        "text": "If we need to work with degrees and our calculator or software does not have a degree mode, we can enter the degrees multiplied by the conversion factor $\\frac{π}{180}$ to convert the degrees to radians. To find the secant of $30°,$ we could press",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-108",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle measure in radians, use a scientific calculator to find the cosecant.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-109",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given an angle measure in radians, use a graphing utility/calculator to find the cosecant.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-110",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-111",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluating the Cosecant Using Technology Evaluate the cosecant of $\\frac{5π}{7}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "For a scientific calculator, enter information as follows: \\[$1/(5×π/7)SIN=csc(\\frac{5π}{7})≈1.279$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-112",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluate the cosecant of $\\frac{5π}{7}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-113",
+      "type": "paragraph",
+      "content": {
+        "text": "For a scientific calculator, enter information as follows:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-114",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluate the cotangent of $-\\frac{π}{8}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$≈-2.414$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-115",
+      "type": "paragraph",
+      "content": {
+        "text": "Evaluate the cotangent of $-\\frac{π}{8}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-116",
+      "type": "paragraph",
+      "content": {
+        "text": "Access these online resources for additional instruction and practice with other trigonometric functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-117",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Equations",
+        "inline": []
+      }
+    },
+    {
+      "id": "tbl-118",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "Tangent function",
+          "$tant=\\frac{sint}{cost}$"
+        ],
+        [
+          "Secant function",
+          "$sect=\\frac{1}{cost}$"
+        ],
+        [
+          "Cosecant function",
+          "$csct=\\frac{1}{sint}$"
+        ],
+        [
+          "Cotangent function",
+          "$cott=\\frac{1}{tant}=\\frac{cost}{sint}$"
+        ]
+      ],
+      "alt": "Table with 4 rows",
+      "level": "core"
+    },
+    {
+      "id": "sec-119",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-120",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Section Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-121",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Verbal",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-122",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "On an interval of $[0,2π),$ can the sine and cosine values of a radian measure ever be equal? If so, where?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Yes, when the reference angle is $\\frac{π}{4}$ and the terminal side of the angle is in quadrants I and III. Thus, a $x=\\frac{π}{4},\\frac{5π}{4},$ the sine and cosine values are equal.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-123",
+      "type": "paragraph",
+      "content": {
+        "text": "On an interval of $[0,2π),$ can the sine and cosine values of a radian measure ever be equal? If so, where?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-124",
+      "type": "paragraph",
+      "content": {
+        "text": "Yes, when the reference angle is $\\frac{π}{4}$ and the terminal side of the angle is in quadrants I and III. Thus, a $x=\\frac{π}{4},\\frac{5π}{4},$ the sine and cosine values are equal.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-125",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What would you estimate the cosine of $π$ degrees to be? Explain your reasoning.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-126",
+      "type": "paragraph",
+      "content": {
+        "text": "What would you estimate the cosine of $π$ degrees to be? Explain your reasoning.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-127",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "For any angle in quadrant II, if you knew the sine of the angle, how could you determine the cosine of the angle?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Substitute the sine of the angle in for $y$ in the Pythagorean Theorem ${x}^{2}+{y}^{2}=1.$ Solve for $x$ and take the negative solution.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-128",
+      "type": "paragraph",
+      "content": {
+        "text": "For any angle in quadrant II, if you knew the sine of the angle, how could you determine the cosine of the angle?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-129",
+      "type": "paragraph",
+      "content": {
+        "text": "Substitute the sine of the angle in for $y$ in the Pythagorean Theorem ${x}^{2}+{y}^{2}=1.$ Solve for $x$ and take the negative solution.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-130",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Describe the secant function.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-131",
+      "type": "paragraph",
+      "content": {
+        "text": "Describe the secant function.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-132",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Tangent and cotangent have a period of $π.$ What does this tell us about the output of these functions?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The outputs of tangent and cotangent will repeat every $π$ units.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-133",
+      "type": "paragraph",
+      "content": {
+        "text": "Tangent and cotangent have a period of $π.$ What does this tell us about the output of these functions?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-134",
+      "type": "paragraph",
+      "content": {
+        "text": "The outputs of tangent and cotangent will repeat every $π$ units.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-135",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Algebraic",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-136",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the exact value of each expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-137",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-138",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-139",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-140",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-141",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\sqrt{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-142",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-143",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\sqrt{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-144",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-145",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-146",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-147",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-148",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-149",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-150",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-151",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use reference angles to evaluate the expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-152",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{5π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-153",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{7π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-154",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-155",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{11π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-156",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{13π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\sqrt{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-157",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{7π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-158",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{3π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\sqrt{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-159",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{5π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-160",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{11π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-161",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{8π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-162",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{4π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "-2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-163",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{2π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-164",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{5π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-165",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-166",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan225°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-167",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec300°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-168",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc150°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-169",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot240°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-170",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-171",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan330°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-172",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec120°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-173",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc210°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-174",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot315°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-175",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sint=\\frac{3}{4},$ and $t$ is in quadrant II, find $cost,sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-176",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sint=\\frac{3}{4},$ and $t$ is in quadrant II, find $cost,sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-177",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cost=-\\frac{1}{3},$ and $t$ is in quadrant III, find $sint,sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sint=-\\frac{2\\sqrt{2}}{3}$ , $sect=-3$ , $csct=-\\frac{3\\sqrt{2}}{4}$ , $tant=2\\sqrt{2}$ , $cott=\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-178",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cost=-\\frac{1}{3},$ and $t$ is in quadrant III, find $sint,sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-179",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{2\\sqrt{2}}{3}$ , $sect=-3$ , $csct=-\\frac{3\\sqrt{2}}{4}$ , $tant=2\\sqrt{2}$ , $cott=\\frac{\\sqrt{2}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-180",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tant=\\frac{12}{5}$ , and $0≤t<\\frac{π}{2}$ , find $sint,cost,sect,csct,andcott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-181",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tant=\\frac{12}{5}$ , and $0≤t<\\frac{π}{2}$ , find $sint,cost,sect,csct,andcott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-182",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sint=\\frac{\\sqrt{3}}{2}$ and $cost=\\frac{1}{2},$ find $sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sect=2,$ $csct=\\frac{2\\sqrt{3}}{3},$ $tant=\\sqrt{3},$ $cott=\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-183",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sint=\\frac{\\sqrt{3}}{2}$ and $cost=\\frac{1}{2},$ find $sect,csct,tant,$ and $cott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-184",
+      "type": "paragraph",
+      "content": {
+        "text": "$sect=2,$ $csct=\\frac{2\\sqrt{3}}{3},$ $tant=\\sqrt{3},$ $cott=\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-185",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sin40°≈0.643$ and $cos40°≈0.766,$ find $sec40°,csc40°,tan40°,$ and $cot40°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-186",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sin40°≈0.643$ and $cos40°≈0.766,$ find $sec40°,csc40°,tan40°,$ and $cot40°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-187",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sint=\\frac{\\sqrt{2}}{2},$ what is the $sin(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-188",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sint=\\frac{\\sqrt{2}}{2},$ what is the $sin(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-189",
+      "type": "paragraph",
+      "content": {
+        "text": "$-\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-190",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cost=\\frac{1}{2},$ what is the $cos(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-191",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cost=\\frac{1}{2},$ what is the $cos(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-192",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sect=3.1,$ what is the $sec(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "3.1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-193",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sect=3.1,$ what is the $sec(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-194",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $csct=0.34,$ what is the $csc(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-195",
+      "type": "paragraph",
+      "content": {
+        "text": "If $csct=0.34,$ what is the $csc(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-196",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tant=−1.4,$ what is the $tan(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1.4",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-197",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tant=−1.4,$ what is the $tan(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-198",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cott=9.23,$ what is the $cot(−t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-199",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cott=9.23,$ what is the $cot(−t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-200",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Graphical",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-201",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the angle in the unit circle to find the value of the each of the six trigonometric functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-202",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=\\frac{\\sqrt{2}}{2}$ , $cost=\\frac{\\sqrt{2}}{2}$ , $tant=1$ , $cott=1$ , $sect=\\sqrt{2}$ , $csct=\\sqrt{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-203",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=-\\frac{\\sqrt{3}}{2}$ , $cost=-\\frac{1}{2}$ $tant=\\sqrt{3}$ , $cott=\\frac{\\sqrt{3}}{3}$ , $sect=-2$ , $csct=-\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-204",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Technology",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-205",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use a graphing calculator to evaluate to three decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-206",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{5π}{9}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-207",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{4π}{7}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–0.228",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-208",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{π}{10}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-209",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{5π}{8}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–2.414",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-210",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{3π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-211",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1.414",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-212",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan98°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-213",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot33°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1.540",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-214",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot140°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-215",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec310°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1.556",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "sec-216",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Extensions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-217",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use identities to evaluate the expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-218",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tan(t)≈2.7,$ and $sin(t)≈0.94,$ find $cos(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-219",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tan(t)≈2.7,$ and $sin(t)≈0.94,$ find $cos(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-220",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tan(t)≈1.3,$ and $cos(t)≈0.61,$ find $sin(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sin(t)≈0.79$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-221",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tan(t)≈1.3,$ and $cos(t)≈0.61,$ find $sin(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-222",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $csc(t)≈3.2,$ and $cos(t)≈0.95,$ find $tan(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-223",
+      "type": "paragraph",
+      "content": {
+        "text": "If $csc(t)≈3.2,$ and $cos(t)≈0.95,$ find $tan(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-224",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cot(t)≈0.58,$ and $cos(t)≈0.5,$ find $csc(t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$csct≈1.16$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-225",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cot(t)≈0.58,$ and $cos(t)≈0.5,$ find $csc(t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-226",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Determine whether the function $f(x)=2sinxcosx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-227",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine whether the function $f(x)=2sinxcosx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-228",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Determine whether the function $f(x)=3{sin}^{2}xcosx+secx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "even",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-229",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine whether the function $f(x)=3{sin}^{2}xcosx+secx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-230",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Determine whether the function $f(x)=sinx-2{cos}^{2}x$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-231",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine whether the function $f(x)=sinx-2{cos}^{2}x$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-232",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Determine whether the function $f(x)={csc}^{2}x+secx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "even",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-233",
+      "type": "paragraph",
+      "content": {
+        "text": "Determine whether the function $f(x)={csc}^{2}x+secx$ is even, odd, or neither.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-234",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use identities to simplify the expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-235",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cscttant$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-236",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{sect}{csct}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{sint}{cost}=tant$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-237",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{sint}{cost}=tant$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-238",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Real-World Applications",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-239",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The amount of sunlight in a certain city can be modeled by the function $h=15cos(\\frac{1}{600}d),$ where $h$ represents the hours of sunlight, and $d$ is the day of the year. Use the equation to find how many hours of sunlight there are on February 11, the 42 nd day of the year. State the period of the function.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-240",
+      "type": "paragraph",
+      "content": {
+        "text": "The amount of sunlight in a certain city can be modeled by the function $h=15cos(\\frac{1}{600}d),$ where $h$ represents the hours of sunlight, and $d$ is the day of the year. Use the equation to find how many hours of sunlight there are on February 11, the 42 nd day of the year. State the period of the function.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-241",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The amount of sunlight in a certain city can be modeled by the function $h=16cos(\\frac{1}{500}d),$ where $h$ represents the hours of sunlight, and $d$ is the day of the year. Use the equation to find how many hours of sunlight there are on September 24, the 267th day of the year. State the period of the function.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "13.77 hours, period: $1000π$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-242",
+      "type": "paragraph",
+      "content": {
+        "text": "The amount of sunlight in a certain city can be modeled by the function $h=16cos(\\frac{1}{500}d),$ where $h$ represents the hours of sunlight, and $d$ is the day of the year. Use the equation to find how many hours of sunlight there are on September 24, the 267th day of the year. State the period of the function.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-243",
+      "type": "paragraph",
+      "content": {
+        "text": "13.77 hours, period: $1000π$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-244",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The equation $P=20sin(2πt)+100$ models the blood pressure, $P,$ where $t$ represents time in seconds. (a) Find the blood pressure after 15 seconds. (b) What are the maximum and minimum blood pressures?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-245",
+      "type": "paragraph",
+      "content": {
+        "text": "The equation $P=20sin(2πt)+100$ models the blood pressure, $P,$ where $t$ represents time in seconds. (a) Find the blood pressure after 15 seconds. (b) What are the maximum and minimum blood pressures?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-246",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The height of a piston, $h,$ in inches, can be modeled by the equation $y=3sinx+1,$ where $x$ represents the crank angle. Find the height of the piston when the crank angle is $55°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "3.46 inches",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-247",
+      "type": "paragraph",
+      "content": {
+        "text": "The height of a piston, $h,$ in inches, can be modeled by the equation $y=3sinx+1,$ where $x$ represents the crank angle. Find the height of the piston when the crank angle is $55°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-248",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The height of a piston, $h,$ in inches, can be modeled by the equation $y=2cosx+5,$ where $x$ represents the crank angle. Find the height of the piston when the crank angle is $55°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-249",
+      "type": "paragraph",
+      "content": {
+        "text": "The height of a piston, $h,$ in inches, can be modeled by the equation $y=2cosx+5,$ where $x$ represents the crank angle. Find the height of the piston when the crank angle is $55°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-250",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Review Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-251",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, convert the angle measures to degrees.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-252",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$45°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-253",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{5π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-254",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, convert the angle measures to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-255",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−210°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\frac{7π}{6}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-256",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$180°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-257",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of an arc in a circle of radius 7 meters intercepted by the central angle of $85°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "10.385 meters",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-258",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of an arc in a circle of radius 7 meters intercepted by the central angle of $85°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-259",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the area of the sector of a circle with diameter 32 feet and an angle of $\\frac{3π}{5}$ radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-260",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the area of the sector of a circle with diameter 32 feet and an angle of $\\frac{3π}{5}$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-261",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the angle between $0°$ and $360°$ that is coterminal with the given angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-262",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$420°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-263",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−80°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-264",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the angle between 0 and $2π$ in radians that is coterminal with the given angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-265",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{20π}{11}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{2π}{11}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-266",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{14π}{5}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-267",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, draw the angle provided in standard position on the Cartesian plane.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-268",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$−210°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-269",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$75°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-270",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$\\frac{5π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-271",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$-\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-272",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the linear speed of a point on the equator of the earth if the earth has a radius of 3,960 miles and the earth rotates on its axis every 24 hours. Express answer in miles per hour. Round to the nearest hundredth.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1036.73 miles per hour",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-273",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the linear speed of a point on the equator of the earth if the earth has a radius of 3,960 miles and the earth rotates on its axis every 24 hours. Express answer in miles per hour. Round to the nearest hundredth.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-274",
+      "type": "paragraph",
+      "content": {
+        "text": "1036.73 miles per hour",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-275",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A car wheel with a diameter of 18 inches spins at the rate of 10 revolutions per second. What is the car's speed in miles per hour? Round to the nearest hundredth.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-276",
+      "type": "paragraph",
+      "content": {
+        "text": "A car wheel with a diameter of 18 inches spins at the rate of 10 revolutions per second. What is the car's speed in miles per hour? Round to the nearest hundredth.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-277",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use side lengths to evaluate.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-278",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-279",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-280",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cot\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-281",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-282",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-283",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos(\\frac{π}{2})=sin(___°)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-284",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(\\frac{π}{2})=sin(___°)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-285",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc(18°)=sec(___°)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$72°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-286",
+      "type": "paragraph",
+      "content": {
+        "text": "$csc(18°)=sec(___°)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-287",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use the given information to find the lengths of the other two sides of the right triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-288",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cosB=\\frac{3}{5},a=6$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-289",
+      "type": "paragraph",
+      "content": {
+        "text": "$cosB=\\frac{3}{5},a=6$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-290",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanA=\\frac{5}{9},b=6$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=\\frac{10}{3},c=\\frac{2\\sqrt{106}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-291",
+      "type": "paragraph",
+      "content": {
+        "text": "$tanA=\\frac{5}{9},b=6$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-292",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=\\frac{10}{3},c=\\frac{2\\sqrt{106}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-293",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use to evaluate each trigonometric function.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-11",
+      "type": "figure",
+      "asset_url": "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_04_221.jpg",
+      "caption": {
+        "text": "A right triangle with side lengths of 11 and 6. Corners A and B are also labeled. The angle A is opposite the side labeled 11. The angle B is opposite the side labeled 6.",
+        "inline": []
+      },
+      "alt": "A right triangle with side lengths of 11 and 6. Corners A and B are also labeled.  The angle A is opposite the side labeled 11.  The angle B is opposite the side labeled 6. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-295",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-296",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanB$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{6}{11}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-297",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, solve for the unknown sides of the given triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-298",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=\\frac{5\\sqrt{3}}{2},b=\\frac{5}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-299",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A 15-ft ladder leans against a building so that the angle between the ground and the ladder is $70°.$ How high does the ladder reach up the side of the building? Find the answer to four decimal places.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-300",
+      "type": "paragraph",
+      "content": {
+        "text": "A 15-ft ladder leans against a building so that the angle between the ground and the ladder is $70°.$ How high does the ladder reach up the side of the building? Find the answer to four decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-301",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The angle of elevation to the top of a building in Baltimore is found to be 4 degrees from the ground at a distance of 1 mile from the base of the building. Using this information, find the height of the building. Find the answer to four decimal places.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "369.2136 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-302",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle of elevation to the top of a building in Baltimore is found to be 4 degrees from the ground at a distance of 1 mile from the base of the building. Using this information, find the height of the building. Find the answer to four decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-303",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $sin\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-304",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $sin\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-305",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $cos\\frac{π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-306",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $cos\\frac{π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-307",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-308",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $cosπ.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-309",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $cosπ.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-310",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the reference angle for $300°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$60°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-311",
+      "type": "paragraph",
+      "content": {
+        "text": "State the reference angle for $300°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-312",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the reference angle for $\\frac{3π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-313",
+      "type": "paragraph",
+      "content": {
+        "text": "State the reference angle for $\\frac{3π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-314",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Compute cosine of $330°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-315",
+      "type": "paragraph",
+      "content": {
+        "text": "Compute cosine of $330°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-316",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-317",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Compute sine of $\\frac{5π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-318",
+      "type": "paragraph",
+      "content": {
+        "text": "Compute sine of $\\frac{5π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-319",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "all real numbers",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-320",
+      "type": "paragraph",
+      "content": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-321",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-322",
+      "type": "paragraph",
+      "content": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-323",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the exact value of the given expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-324",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-325",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-326",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-327",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc\\frac{π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-328",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{2\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-329",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{π}{4}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-330",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use reference angles to evaluate the given expression.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-331",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec\\frac{11π}{3}$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-332",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sec315°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-333",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $sec(t)=−2.5,$ what is the $sec(-t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–2.5",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-334",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sec(t)=−2.5,$ what is the $sec(-t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-335",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tan(t)=−0.6,$ what is the $tan(-t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-336",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tan(t)=−0.6,$ what is the $tan(-t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-337",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $tan(t)=\\frac{1}{3},$ find $tan(t-π).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{1}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-338",
+      "type": "paragraph",
+      "content": {
+        "text": "If $tan(t)=\\frac{1}{3},$ find $tan(t-π).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-339",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cos(t)=\\frac{\\sqrt{2}}{2},$ find $sin(t+2π).$ There are two possible solutions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-340",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cos(t)=\\frac{\\sqrt{2}}{2},$ find $sin(t+2π).$ There are two possible solutions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-341",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Which trigonometric functions are even?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "cosine, secant",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-342",
+      "type": "paragraph",
+      "content": {
+        "text": "Which trigonometric functions are even?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-343",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Which trigonometric functions are odd?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-344",
+      "type": "paragraph",
+      "content": {
+        "text": "Which trigonometric functions are odd?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-345",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Practice Test",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-346",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Convert $\\frac{5π}{6}$ radians to degrees.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$150°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-347",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert $\\frac{5π}{6}$ radians to degrees.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-348",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Convert $−620°$ to radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-349",
+      "type": "paragraph",
+      "content": {
+        "text": "Convert $−620°$ to radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-350",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the length of a circular arc with a radius 12 centimeters intercepted by the central angle of $30°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "6.283 centimeters",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-351",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the length of a circular arc with a radius 12 centimeters intercepted by the central angle of $30°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-352",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the area of the sector with radius of 8 feet and an angle of $\\frac{5π}{4}$ radians.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-353",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the area of the sector with radius of 8 feet and an angle of $\\frac{5π}{4}$ radians.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-354",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the angle between $0°$ and $360°$ that is coterminal with $375°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$15°$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-355",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the angle between $0°$ and $360°$ that is coterminal with $375°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-356",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the angle between 0 and $2π$ in radians that is coterminal with $-\\frac{4π}{7}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-357",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the angle between 0 and $2π$ in radians that is coterminal with $-\\frac{4π}{7}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-358",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Draw the angle $315°$ in standard position on the Cartesian plane.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-359",
+      "type": "paragraph",
+      "content": {
+        "text": "Draw the angle $315°$ in standard position on the Cartesian plane.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-360",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Draw the angle $-\\frac{π}{6}$ in standard position on the Cartesian plane.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-361",
+      "type": "paragraph",
+      "content": {
+        "text": "Draw the angle $-\\frac{π}{6}$ in standard position on the Cartesian plane.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-362",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A carnival has a Ferris wheel with a diameter of 80 feet. The time for the Ferris wheel to make one revolution is 75 seconds. What is the linear speed in feet per second of a point on the Ferris wheel? What is the angular speed in radians per second?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "3.351 feet per second, $\\frac{2π}{75}$ radians per second",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-363",
+      "type": "paragraph",
+      "content": {
+        "text": "A carnival has a Ferris wheel with a diameter of 80 feet. The time for the Ferris wheel to make one revolution is 75 seconds. What is the linear speed in feet per second of a point on the Ferris wheel? What is the angular speed in radians per second?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-364",
+      "type": "paragraph",
+      "content": {
+        "text": "3.351 feet per second, $\\frac{2π}{75}$ radians per second",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-365",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the missing sides of the triangle $ABC:sinB=\\frac{3}{4},c=12.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-366",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the missing sides of the triangle $ABC:sinB=\\frac{3}{4},c=12.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-367",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the missing sides of the triangle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=\\frac{9}{2},b=\\frac{9\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-368",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the missing sides of the triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-369",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=\\frac{9}{2},b=\\frac{9\\sqrt{3}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-370",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The angle of elevation to the top of a building in Chicago is found to be 9 degrees from the ground at a distance of 2000 feet from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-371",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle of elevation to the top of a building in Chicago is found to be 9 degrees from the ground at a distance of 2000 feet from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-372",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $sin\\frac{π}{6}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{1}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-373",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $sin\\frac{π}{6}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-374",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Compute sine of $240°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-375",
+      "type": "paragraph",
+      "content": {
+        "text": "Compute sine of $240°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-376",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "real numbers",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-377",
+      "type": "paragraph",
+      "content": {
+        "text": "State the domain of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-378",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-379",
+      "type": "paragraph",
+      "content": {
+        "text": "State the range of the sine and cosine functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-380",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $cot\\frac{π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-381",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $cot\\frac{π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-382",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of $tan\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-383",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of $tan\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-384",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Use reference angles to evaluate $csc\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$-\\sqrt{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-385",
+      "type": "paragraph",
+      "content": {
+        "text": "Use reference angles to evaluate $csc\\frac{7π}{4}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-386",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Use reference angles to evaluate $tan210°.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-387",
+      "type": "paragraph",
+      "content": {
+        "text": "Use reference angles to evaluate $tan210°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-388",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $csct=0.68,$ what is the $csc(-t)?$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "–0.68",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-389",
+      "type": "paragraph",
+      "content": {
+        "text": "If $csct=0.68,$ what is the $csc(-t)?$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-390",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $cost=\\frac{\\sqrt{3}}{2},$ find $cos(t-2π).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-391",
+      "type": "paragraph",
+      "content": {
+        "text": "If $cost=\\frac{\\sqrt{3}}{2},$ find $cos(t-2π).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-392",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the missing angle: $cos(\\frac{π}{6})=sin(___)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-393",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the missing angle: $cos(\\frac{π}{6})=sin(___)$",
+        "inline": []
+      },
+      "level": "core"
+    }
+  ],
+  "solutions": {
+    "osbooks-college-algebra-bundle:m51286:exr-8": [
+      [
+        {
+          "kind": "text",
+          "text": "Because we know the"
+        },
+        {
+          "kind": "math",
+          "text": "(x,y)"
+        },
+        {
+          "kind": "text",
+          "text": "coordinates of the point on the unit circle indicated by angle"
+        },
+        {
+          "kind": "math",
+          "text": "t,"
+        },
+        {
+          "kind": "text",
+          "text": "we can use those coordinates to find the six functions:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "sint=y=\\frac{1}{2}cost=x=-\\frac{\\sqrt{3}}{2}tant=\\frac{y}{x}=\\frac{\\frac{1}{2}}{-\\frac{\\sqrt{3}}{2}}=\\frac{1}{2}(-\\frac{2}{\\sqrt{3}})=-\\frac{1}{\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}sect=\\frac{1}{x}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=-\\frac{2}{\\sqrt{3}}=-\\frac{2\\sqrt{3}}{3}csct=\\frac{1}{y}=\\frac{1}{\\frac{1}{2}}=2cott=\\frac{x}{y}=\\frac{-\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=-\\frac{\\sqrt{3}}{2}(\\frac{2}{1})=-\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-12": [
+      [
+        {
+          "kind": "math",
+          "text": "sint=-\\frac{\\sqrt{2}}{2}cost=\\frac{\\sqrt{2}}{2},tant=-1,sect=\\sqrt{2},csct=-\\sqrt{2},cott=-1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-17": [
+      [
+        {
+          "kind": "text",
+          "text": "We have previously used the properties of equilateral triangles to demonstrate that"
+        },
+        {
+          "kind": "math",
+          "text": "sin\\frac{π}{6}=\\frac{1}{2}"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "cos\\frac{π}{6}=\\frac{\\sqrt{3}}{2}."
+        },
+        {
+          "kind": "text",
+          "text": "We can use these values and the definitions of tangent, secant, cosecant, and cotangent as functions of sine and cosine to find the remaining function values."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "tan\\frac{π}{6}=\\frac{sin\\frac{π}{6}}{cos\\frac{π}{6}}=\\frac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}sec\\frac{π}{6}=\\frac{1}{cos\\frac{π}{6}}=\\frac{1}{\\frac{\\sqrt{3}}{2}}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}csc\\frac{π}{6}=\\frac{1}{sin\\frac{π}{6}}=\\frac{1}{\\frac{1}{2}}=2cot\\frac{π}{6}=\\frac{cos\\frac{π}{6}}{sin\\frac{π}{6}}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-20": [
+      [
+        {
+          "kind": "math",
+          "text": "sin\\frac{π}{3}=\\frac{\\sqrt{3}}{2},cos\\frac{π}{3}=\\frac{1}{2},tan\\frac{π}{3}=\\sqrt{3},sec\\frac{π}{3}=2,csc\\frac{π}{3}=\\frac{2\\sqrt{3}}{3},cot\\frac{π}{3}=\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-31": [
+      [
+        {
+          "kind": "text",
+          "text": "The angle between this angle’s terminal side and the"
+        },
+        {
+          "kind": "text",
+          "text": "*x*"
+        },
+        {
+          "kind": "text",
+          "text": "-axis is"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{π}{6},"
+        },
+        {
+          "kind": "text",
+          "text": "so that is the reference angle. Since"
+        },
+        {
+          "kind": "math",
+          "text": "-\\frac{5π}{6}"
+        },
+        {
+          "kind": "text",
+          "text": "is in the third quadrant, where both"
+        },
+        {
+          "kind": "math",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "y"
+        },
+        {
+          "kind": "text",
+          "text": "are negative, cosine, sine, secant, and cosecant will be negative, while tangent and cotangent will be positive."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(-\\frac{5π}{6})=-\\frac{\\sqrt{3}}{2},sin(-\\frac{5π}{6})=-\\frac{1}{2},tan(-\\frac{5π}{6})=\\frac{\\sqrt{3}}{3},sec(-\\frac{5π}{6})=-\\frac{2\\sqrt{3}}{3},csc(-\\frac{5π}{6})=−2,cot(-\\frac{5π}{6})=\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-35": [
+      [
+        {
+          "kind": "math",
+          "text": "sin(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{-7π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{-7π}{4})=1,sec(\\frac{-7π}{4})=\\sqrt{2},csc(\\frac{-7π}{4})=\\sqrt{2},cot(\\frac{-7π}{4})=1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-52": [
+      [
+        {
+          "kind": "text",
+          "text": "Secant is an even function. The secant of an angle is the same as the secant of its opposite. So if the secant of angle"
+        },
+        {
+          "kind": "math",
+          "text": "t"
+        },
+        {
+          "kind": "text",
+          "text": "is 2, the secant of"
+        },
+        {
+          "kind": "math",
+          "text": "−t"
+        },
+        {
+          "kind": "text",
+          "text": "is also 2."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-55": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-61": [
+      [
+        {
+          "kind": "text",
+          "text": "Because we know the sine and cosine values for these angles, we can use identities to evaluate the other functions."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "ⓐtan(45°)=\\frac{sin(45°)}{cos(45°)}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{2}}{2}}=1ⓑsec(\\frac{5π}{6})=\\frac{1}{cos(\\frac{5π}{6})}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=\\frac{−2\\sqrt{3}}{1}=\\frac{−2}{\\sqrt{3}}=-\\frac{2\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-63": [
+      [
+        {
+          "kind": "math",
+          "text": "-2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-66": [
+      [
+        {
+          "kind": "text",
+          "text": "We can simplify this by rewriting both functions in terms of sine and cosine."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{sect}{tant}=\\frac{\\frac{1}{cost}}{\\frac{sint}{cost}}=\\frac{1}{cost}\\cdot \\frac{cost}{sint}"
+        },
+        {
+          "kind": "text",
+          "text": "Multiply by the reciprocal"
+        },
+        {
+          "kind": "math",
+          "text": ".=\\frac{1}{sint}=csct"
+        },
+        {
+          "kind": "text",
+          "text": "Simplify and use the identity"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "By showing that"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{sect}{tant}"
+        },
+        {
+          "kind": "text",
+          "text": "can be simplified to"
+        },
+        {
+          "kind": "math",
+          "text": "csct,"
+        },
+        {
+          "kind": "text",
+          "text": "we have, in fact, established a new identity."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{sect}{tant}=csct"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-70": [
+      [
+        {
+          "kind": "math",
+          "text": "sint"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-76": [
+      [
+        {
+          "kind": "text",
+          "text": "We can find the sine using the Pythagorean Identity,"
+        },
+        {
+          "kind": "math",
+          "text": "{cos}^{2}t+{sin}^{2}t=1,"
+        },
+        {
+          "kind": "text",
+          "text": "and the remaining functions by relating them to sine and cosine."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "{(\\frac{12}{13})}^{2}+{sin}^{2}t=1{sin}^{2}t=1-{(\\frac{12}{13})}^{2}{sin}^{2}t=1-\\frac{144}{169}{sin}^{2}t=\\frac{25}{169}sint=±\\sqrt{\\frac{25}{169}}sint=±\\frac{\\sqrt{25}}{\\sqrt{169}}sint=±\\frac{5}{13}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The sign of the sine depends on the"
+        },
+        {
+          "kind": "text",
+          "text": "*y*"
+        },
+        {
+          "kind": "text",
+          "text": "-values in the quadrant where the angle is located. Since the angle is in quadrant IV, where the"
+        },
+        {
+          "kind": "text",
+          "text": "*y*"
+        },
+        {
+          "kind": "text",
+          "text": "-values are negative, its sine is negative,"
+        },
+        {
+          "kind": "math",
+          "text": "-\\frac{5}{13}."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The remaining functions can be calculated using identities relating them to sine and cosine."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "tant=\\frac{sint}{cost}=\\frac{-\\frac{5}{13}}{\\frac{12}{13}}=-\\frac{5}{12}sect=\\frac{1}{cost}=\\frac{1}{\\frac{12}{13}}=\\frac{13}{12}csct=\\frac{1}{sint}=\\frac{1}{-\\frac{5}{13}}=\\frac{-13}{5}cott=\\frac{1}{tant}=\\frac{1}{-\\frac{5}{12}}=-\\frac{12}{5}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-82": [
+      [
+        {
+          "kind": "math",
+          "text": "cost=-\\frac{8}{17},sint=\\frac{15}{17},tant=-\\frac{15}{8}csct=\\frac{17}{15},cott=-\\frac{8}{15}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-91": [
+      [
+        {
+          "kind": "math",
+          "text": "sint=y=-\\frac{\\sqrt{3}}{2}cost=x=-\\frac{1}{2}tant=\\frac{sint}{cost}=\\frac{-\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}=\\sqrt{3}sect=\\frac{1}{cost}=\\frac{1}{-\\frac{1}{2}}=−2csct=\\frac{1}{sint}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}=-\\frac{2\\sqrt{3}}{3}cott=\\frac{1}{tant}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-94": [
+      [
+        {
+          "kind": "math",
+          "text": "sint=-1,cost=0,tant="
+        },
+        {
+          "kind": "text",
+          "text": "Undefined"
+        },
+        {
+          "kind": "math",
+          "text": "sect="
+        },
+        {
+          "kind": "text",
+          "text": "Undefined,"
+        },
+        {
+          "kind": "math",
+          "text": "csct=-1,cott=0"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-99": [
+      [
+        {
+          "kind": "math",
+          "text": "sect=\\frac{1}{cost}=\\frac{1}{\\frac{1}{2}}=2csct=\\frac{1}{sint}=\\frac{1}{-\\frac{\\sqrt{3}}{2}}-\\frac{2\\sqrt{3}}{3}tant=\\frac{sint}{cost}=\\frac{-\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=-\\sqrt{3}cott=\\frac{1}{tant}=\\frac{1}{-\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-101": [
+      [
+        {
+          "kind": "math",
+          "text": "sect=\\sqrt{2},csct=\\sqrt{2},tant=1,cott=1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-111": [
+      [
+        {
+          "kind": "text",
+          "text": "For a scientific calculator, enter information as follows:"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "1/(5×π/7)SIN=csc(\\frac{5π}{7})≈1.279"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-114": [
+      [
+        {
+          "kind": "math",
+          "text": "≈-2.414"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-122": [
+      [
+        {
+          "kind": "text",
+          "text": "Yes, when the reference angle is"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{π}{4}"
+        },
+        {
+          "kind": "text",
+          "text": "and the terminal side of the angle is in quadrants I and III.  Thus, a"
+        },
+        {
+          "kind": "math",
+          "text": "x=\\frac{π}{4},\\frac{5π}{4},"
+        },
+        {
+          "kind": "text",
+          "text": "the sine and cosine values are equal."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-127": [
+      [
+        {
+          "kind": "text",
+          "text": "Substitute the sine of the angle in for"
+        },
+        {
+          "kind": "math",
+          "text": "y"
+        },
+        {
+          "kind": "text",
+          "text": "in the Pythagorean Theorem"
+        },
+        {
+          "kind": "math",
+          "text": "{x}^{2}+{y}^{2}=1."
+        },
+        {
+          "kind": "text",
+          "text": "Solve for"
+        },
+        {
+          "kind": "math",
+          "text": "x"
+        },
+        {
+          "kind": "text",
+          "text": "and take the negative solution."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-132": [
+      [
+        {
+          "kind": "text",
+          "text": "The outputs of tangent and cotangent will repeat every"
+        },
+        {
+          "kind": "math",
+          "text": "π"
+        },
+        {
+          "kind": "text",
+          "text": "units."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-138": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{2\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-141": [
+      [
+        {
+          "kind": "math",
+          "text": "\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-143": [
+      [
+        {
+          "kind": "math",
+          "text": "\\sqrt{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-145": [
+      [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-147": [
+      [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-149": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-153": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{2\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-156": [
+      [
+        {
+          "kind": "math",
+          "text": "\\sqrt{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-158": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\sqrt{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-160": [
+      [
+        {
+          "kind": "text",
+          "text": "–1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-162": [
+      [
+        {
+          "kind": "text",
+          "text": "-2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-164": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-167": [
+      [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-169": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-172": [
+      [
+        {
+          "kind": "text",
+          "text": "–2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-174": [
+      [
+        {
+          "kind": "text",
+          "text": "–1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-177": [
+      [
+        {
+          "kind": "math",
+          "text": "sint=-\\frac{2\\sqrt{2}}{3},sect=-3,csct=-\\frac{3\\sqrt{2}}{4},tant=2\\sqrt{2},cott=\\frac{\\sqrt{2}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-182": [
+      [
+        {
+          "kind": "math",
+          "text": "sect=2,csct=\\frac{2\\sqrt{3}}{3},tant=\\sqrt{3},cott=\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-187": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-192": [
+      [
+        {
+          "kind": "text",
+          "text": "3.1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-196": [
+      [
+        {
+          "kind": "text",
+          "text": "1.4"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-207": [
+      [
+        {
+          "kind": "text",
+          "text": "–0.228"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-209": [
+      [
+        {
+          "kind": "text",
+          "text": "–2.414"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-211": [
+      [
+        {
+          "kind": "text",
+          "text": "1.414"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-213": [
+      [
+        {
+          "kind": "text",
+          "text": "1.540"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-215": [
+      [
+        {
+          "kind": "text",
+          "text": "1.556"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-220": [
+      [
+        {
+          "kind": "math",
+          "text": "sin(t)≈0.79"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-224": [
+      [
+        {
+          "kind": "math",
+          "text": "csct≈1.16"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-228": [
+      [
+        {
+          "kind": "text",
+          "text": "even"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-232": [
+      [
+        {
+          "kind": "text",
+          "text": "even"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-236": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{sint}{cost}=tant"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-241": [
+      [
+        {
+          "kind": "text",
+          "text": "13.77 hours, period:"
+        },
+        {
+          "kind": "math",
+          "text": "1000π"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-246": [
+      [
+        {
+          "kind": "text",
+          "text": "3.46 inches"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-252": [
+      [
+        {
+          "kind": "math",
+          "text": "45°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-255": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\frac{7π}{6}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-257": [
+      [
+        {
+          "kind": "text",
+          "text": "10.385 meters"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-262": [
+      [
+        {
+          "kind": "math",
+          "text": "60°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-265": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{2π}{11}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-268": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-270": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-272": [
+      [
+        {
+          "kind": "text",
+          "text": "1036.73 miles per hour"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-278": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-281": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-285": [
+      [
+        {
+          "kind": "math",
+          "text": "72°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-290": [
+      [
+        {
+          "kind": "math",
+          "text": "a=\\frac{10}{3},c=\\frac{2\\sqrt{106}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-296": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{6}{11}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-301": [
+      [
+        {
+          "kind": "text",
+          "text": "369.2136 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-305": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{2}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-310": [
+      [
+        {
+          "kind": "math",
+          "text": "60°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-314": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-319": [
+      [
+        {
+          "kind": "text",
+          "text": "all real numbers"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-324": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-327": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{2\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-331": [
+      [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-333": [
+      [
+        {
+          "kind": "text",
+          "text": "–2.5"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-337": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{1}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-341": [
+      [
+        {
+          "kind": "text",
+          "text": "cosine, secant"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-346": [
+      [
+        {
+          "kind": "math",
+          "text": "150°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-350": [
+      [
+        {
+          "kind": "text",
+          "text": "6.283 centimeters"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-354": [
+      [
+        {
+          "kind": "math",
+          "text": "15°"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-358": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-362": [
+      [
+        {
+          "kind": "text",
+          "text": "3.351 feet per second,"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{2π}{75}"
+        },
+        {
+          "kind": "text",
+          "text": "radians per second"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-367": [
+      [
+        {
+          "kind": "math",
+          "text": "a=\\frac{9}{2},b=\\frac{9\\sqrt{3}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-372": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{1}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-376": [
+      [
+        {
+          "kind": "text",
+          "text": "real numbers"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-380": [
+      [
+        {
+          "kind": "text",
+          "text": "1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-384": [
+      [
+        {
+          "kind": "math",
+          "text": "-\\sqrt{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-388": [
+      [
+        {
+          "kind": "text",
+          "text": "–0.68"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51286:exr-392": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{3}"
+        }
+      ]
+    ]
+  }
+}

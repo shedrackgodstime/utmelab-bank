@@ -1,5 +1,265 @@
 {
   "figures": {
+    "images/math_angles_CNX_Precalc_Figure_05_01_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38377,
+      "extension": ".jpg",
+      "height": 173,
+      "published_path": "books/secondary_mathematics/a227f961d29b5fb922d1533fcbf12a22a8fea453aa1a3aa786b40e572d6db03a.jpg",
+      "sha256": "a227f961d29b5fb922d1533fcbf12a22a8fea453aa1a3aa786b40e572d6db03a",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_001.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 46872,
+      "extension": ".jpg",
+      "height": 246,
+      "published_path": "books/secondary_mathematics/cfc370944a07276e0113c54c39f12231f0f0591df7937a8732d36b88b4cef23b.jpg",
+      "sha256": "cfc370944a07276e0113c54c39f12231f0f0591df7937a8732d36b88b4cef23b",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_002.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_003.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 34230,
+      "extension": ".jpg",
+      "height": 230,
+      "published_path": "books/secondary_mathematics/af0094c773fa42c330d378fa0b2dfc7ed88c809675a3bf5a840cd1fdcc4f5db4.jpg",
+      "sha256": "af0094c773fa42c330d378fa0b2dfc7ed88c809675a3bf5a840cd1fdcc4f5db4",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_003.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_004.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 48145,
+      "extension": ".jpg",
+      "height": 247,
+      "published_path": "books/secondary_mathematics/26ae15e8f210cb56cc0a5a55a751a7781df52ef9cd0a633eb17b6125f4458e7e.jpg",
+      "sha256": "26ae15e8f210cb56cc0a5a55a751a7781df52ef9cd0a633eb17b6125f4458e7e",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_004.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_005.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 77499,
+      "extension": ".jpg",
+      "height": 417,
+      "published_path": "books/secondary_mathematics/6cc0434f1ef38a4d54dac1e2dd9d24d9c1c06cf4ceee9acc92d70dcf438208b4.jpg",
+      "sha256": "6cc0434f1ef38a4d54dac1e2dd9d24d9c1c06cf4ceee9acc92d70dcf438208b4",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_005.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_006.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 96330,
+      "extension": ".jpg",
+      "height": 365,
+      "published_path": "books/secondary_mathematics/e3d6a78ee5a677d8bc089e95884bfc015fd24264ff40861f2fe9dbf1ac78638d.jpg",
+      "sha256": "e3d6a78ee5a677d8bc089e95884bfc015fd24264ff40861f2fe9dbf1ac78638d",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_006.jpg",
+      "width": 731
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_007.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 67917,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/ae9b255ee578332be54b133f4b2150f9f8c173242ae04d052992ea4aaf559207.jpg",
+      "sha256": "ae9b255ee578332be54b133f4b2150f9f8c173242ae04d052992ea4aaf559207",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_007.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_008.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 66569,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/0c080f99f254fb4fb127d7ef01af8c30bc2f3d6c9adbe10396dc503ccdd993fa.jpg",
+      "sha256": "0c080f99f254fb4fb127d7ef01af8c30bc2f3d6c9adbe10396dc503ccdd993fa",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_008.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_010.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 75052,
+      "extension": ".jpg",
+      "height": 340,
+      "published_path": "books/secondary_mathematics/4c205f2a4e635b097aff876442c69628c31eea22ac94c62c01eee9336c4eff59.jpg",
+      "sha256": "4c205f2a4e635b097aff876442c69628c31eea22ac94c62c01eee9336c4eff59",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_010.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_011.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 71497,
+      "extension": ".jpg",
+      "height": 323,
+      "published_path": "books/secondary_mathematics/279ebc464eb4ee22b1e4b7fcbac1fa5b4b1f6216b416c03169173ce384323948.jpg",
+      "sha256": "279ebc464eb4ee22b1e4b7fcbac1fa5b4b1f6216b416c03169173ce384323948",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_011.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_012.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 99110,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/10712320c2e88b5372b52392493bf3e943ccb1cb17a00975adbd874ea0d25a87.jpg",
+      "sha256": "10712320c2e88b5372b52392493bf3e943ccb1cb17a00975adbd874ea0d25a87",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_012.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_013abc.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 169928,
+      "extension": ".jpg",
+      "height": 348,
+      "published_path": "books/secondary_mathematics/9a8182cf7531e7cc837d33f88d65564e999e981f3711ec63f2719f414a8acb30.jpg",
+      "sha256": "9a8182cf7531e7cc837d33f88d65564e999e981f3711ec63f2719f414a8acb30",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_013abc.jpg",
+      "width": 975
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_016.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 102036,
+      "extension": ".jpg",
+      "height": 406,
+      "published_path": "books/secondary_mathematics/4b59950115bab16bc1f136e8118b4d68285c4a612f64565cfd572beab61c6dd0.jpg",
+      "sha256": "4b59950115bab16bc1f136e8118b4d68285c4a612f64565cfd572beab61c6dd0",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_016.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_017.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 168653,
+      "extension": ".jpg",
+      "height": 485,
+      "published_path": "books/secondary_mathematics/c04c2772bdf2a61cddcb3acd592e5746afa012c119743e224c09eea3ec502b57.jpg",
+      "sha256": "c04c2772bdf2a61cddcb3acd592e5746afa012c119743e224c09eea3ec502b57",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_017.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_018.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 69319,
+      "extension": ".jpg",
+      "height": 237,
+      "published_path": "books/secondary_mathematics/8957c34fc55598bbd99bdf67008c4a0ba8a119151264db26c9998a8faa5c21dd.jpg",
+      "sha256": "8957c34fc55598bbd99bdf67008c4a0ba8a119151264db26c9998a8faa5c21dd",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_018.jpg",
+      "width": 975
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_019-5d63.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 127375,
+      "extension": ".jpg",
+      "height": 331,
+      "published_path": "books/secondary_mathematics/610c3ebb26930a2a3dcd410b4cfc30dbb279310b9686cc4e5d3085c976f65bf2.jpg",
+      "sha256": "610c3ebb26930a2a3dcd410b4cfc30dbb279310b9686cc4e5d3085c976f65bf2",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_019-5d63.jpg",
+      "width": 975
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_020.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 71824,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/70f89baf18c26d49a3ec8286cc3eeed32fdf9c4aaa94f487f96281a44dfe8662.jpg",
+      "sha256": "70f89baf18c26d49a3ec8286cc3eeed32fdf9c4aaa94f487f96281a44dfe8662",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_020.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_021-4177.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 42011,
+      "extension": ".jpg",
+      "height": 390,
+      "published_path": "books/secondary_mathematics/e4f27bcd6328f78d9bcb8ee837fcbc93d489af5247d8dbfa89297c3451373c1f.jpg",
+      "sha256": "e4f27bcd6328f78d9bcb8ee837fcbc93d489af5247d8dbfa89297c3451373c1f",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_021-4177.jpg",
+      "width": 390
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_022-46c6.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 33212,
+      "extension": ".jpg",
+      "height": 341,
+      "published_path": "books/secondary_mathematics/b9a5ae966d78fdb93d1eab5ba8f2dc5e04f08f201c2036df0b7192e0d9f220a7.jpg",
+      "sha256": "b9a5ae966d78fdb93d1eab5ba8f2dc5e04f08f201c2036df0b7192e0d9f220a7",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_022-46c6.jpg",
+      "width": 329
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_023-ae93.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 65524,
+      "extension": ".jpg",
+      "height": 418,
+      "published_path": "books/secondary_mathematics/3845241bb4047f42ced36253f268a41f6535d02f355d70649ed71a6eb32f755a.jpg",
+      "sha256": "3845241bb4047f42ced36253f268a41f6535d02f355d70649ed71a6eb32f755a",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_023-ae93.jpg",
+      "width": 406
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_024n.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 8649,
+      "extension": ".png",
+      "height": 323,
+      "published_path": "books/secondary_mathematics/2ff25e873e61670057ae120bbecb9028c7f1167641be5d0e7898b3b408580f45.png",
+      "sha256": "2ff25e873e61670057ae120bbecb9028c7f1167641be5d0e7898b3b408580f45",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_024n.png",
+      "width": 488
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_026n.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 9695,
+      "extension": ".png",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/21f7ad7071cf1e024b53853a7603dc6aa7205337f988946bea015bb1a32ab31c.png",
+      "sha256": "21f7ad7071cf1e024b53853a7603dc6aa7205337f988946bea015bb1a32ab31c",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_026n.png",
+      "width": 488
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_027.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 54945,
+      "extension": ".jpg",
+      "height": 169,
+      "published_path": "books/secondary_mathematics/4f6accb3d50035b0e8cfdaa876837e560d7793762fe5ff1ec18ffab50c2b82ea.jpg",
+      "sha256": "4f6accb3d50035b0e8cfdaa876837e560d7793762fe5ff1ec18ffab50c2b82ea",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_027.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_028.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 171408,
+      "extension": ".jpg",
+      "height": 467,
+      "published_path": "books/secondary_mathematics/93b039a2fccfbb9c859ece08ab0c856d0f2e9e32aed8b2fcf1516faf38126c77.jpg",
+      "sha256": "93b039a2fccfbb9c859ece08ab0c856d0f2e9e32aed8b2fcf1516faf38126c77",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_028.jpg",
+      "width": 487
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_218-6956.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 56229,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/f8183338a1265b84eb0663f6a4f11797e1968b58223c502277cc27ba92819d75.jpg",
+      "sha256": "f8183338a1265b84eb0663f6a4f11797e1968b58223c502277cc27ba92819d75",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_218-6956.jpg",
+      "width": 323
+    },
+    "images/math_angles_CNX_Precalc_Figure_05_01_219-14b1.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 49095,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/594a8a896a64cfaefb3803345705df1a3ca08073cf6556ef35a0dc2657a465a0.jpg",
+      "sha256": "594a8a896a64cfaefb3803345705df1a3ca08073cf6556ef35a0dc2657a465a0",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_219-14b1.jpg",
+      "width": 323
+    },
     "images/math_number_bases_CS_Photo_04_03_001.jpg": {
       "book_id": "secondary_mathematics",
       "bytes": 216835,
@@ -79,6 +339,266 @@
       "sha256": "e8ba631b87ebc5e48c905a245c8cd96697866a9e610c6571a03257b2875dae0f",
       "source": "data/concepts/images/math_number_bases_multiplication_CS_figure_04_05_001.png",
       "width": 1240
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 37075,
+      "extension": ".jpg",
+      "height": 198,
+      "published_path": "books/secondary_mathematics/740d85a6be7f6afeaab5ee62fa78a5dc939f2a48ba7fe0afc5f4e983943508e8.jpg",
+      "sha256": "740d85a6be7f6afeaab5ee62fa78a5dc939f2a48ba7fe0afc5f4e983943508e8",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_001.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 46942,
+      "extension": ".jpg",
+      "height": 216,
+      "published_path": "books/secondary_mathematics/b1bc501980f0462a8928d75c272d323574731eb439ec512345d39120a745e84c.jpg",
+      "sha256": "b1bc501980f0462a8928d75c272d323574731eb439ec512345d39120a745e84c",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_002.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_003.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 57056,
+      "extension": ".jpg",
+      "height": 347,
+      "published_path": "books/secondary_mathematics/8a3d241d970d9b64c9a654c5e6666f3e59e0db68252f6ee60ac25225fba713fd.jpg",
+      "sha256": "8a3d241d970d9b64c9a654c5e6666f3e59e0db68252f6ee60ac25225fba713fd",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_003.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_004.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 59449,
+      "extension": ".jpg",
+      "height": 363,
+      "published_path": "books/secondary_mathematics/622c9387d9931ff96c766755017428b90a9a636994b02fd88b223daafdc49cd2.jpg",
+      "sha256": "622c9387d9931ff96c766755017428b90a9a636994b02fd88b223daafdc49cd2",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_004.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_005-4aee.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 67706,
+      "extension": ".jpg",
+      "height": 294,
+      "published_path": "books/secondary_mathematics/765d43e8dec8e2157e6d557c1d6d791d15c64efae11782e67bc59015b8a6426e.jpg",
+      "sha256": "765d43e8dec8e2157e6d557c1d6d791d15c64efae11782e67bc59015b8a6426e",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_005-4aee.jpg",
+      "width": 358
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_006-194b.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 73516,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_mathematics/b056fc0e8f0a0623a2b89759f09c444c474d9198fae53f6250c2ffa39adb03b0.jpg",
+      "sha256": "b056fc0e8f0a0623a2b89759f09c444c474d9198fae53f6250c2ffa39adb03b0",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_006-194b.jpg",
+      "width": 358
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_007.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 74762,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/377d07446a755bccf3dd47651b2977cd6588fede0305d30d61f8add14526969a.jpg",
+      "sha256": "377d07446a755bccf3dd47651b2977cd6588fede0305d30d61f8add14526969a",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_007.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_008.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 75728,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/3495fff812885ce2a7f86d974e9eaadb110d5e4b3df1c3e66660c6b2b4f83346.jpg",
+      "sha256": "3495fff812885ce2a7f86d974e9eaadb110d5e4b3df1c3e66660c6b2b4f83346",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_008.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_009.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 79949,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/482580ff0740e84d3ca98c24ebabf4d8d4564fe9677d807f47caddbe46f44cbe.jpg",
+      "sha256": "482580ff0740e84d3ca98c24ebabf4d8d4564fe9677d807f47caddbe46f44cbe",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_009.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_010.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 75520,
+      "extension": ".jpg",
+      "height": 406,
+      "published_path": "books/secondary_mathematics/841bb60c5544b0f2743706148d8357f8869ba06209298327b76d029848bd4808.jpg",
+      "sha256": "841bb60c5544b0f2743706148d8357f8869ba06209298327b76d029848bd4808",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_03_010.jpg",
+      "width": 487
+    },
+    "images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_04_221.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38721,
+      "extension": ".jpg",
+      "height": 171,
+      "published_path": "books/secondary_mathematics/61c1c44247bc9ad032d63379af6f196162a0b0f54a783498d3469661c6523bc7.jpg",
+      "sha256": "61c1c44247bc9ad032d63379af6f196162a0b0f54a783498d3469661c6523bc7",
+      "source": "data/concepts/images/math_other_trigonometric_functions_CNX_Precalc_Figure_05_04_221.jpg",
+      "width": 278
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 60162,
+      "extension": ".jpg",
+      "height": 208,
+      "published_path": "books/secondary_mathematics/36cd88bf9becf874d9771f4d97dd0f8efda48ef1b7c4d6d9a21e1eeb1b652385.jpg",
+      "sha256": "36cd88bf9becf874d9771f4d97dd0f8efda48ef1b7c4d6d9a21e1eeb1b652385",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_001.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38403,
+      "extension": ".jpg",
+      "height": 137,
+      "published_path": "books/secondary_mathematics/c10aaf44ec0ff00f0d549d7e5696bffdb7638c8e473dcaf50cdaa198b5d0f96d.jpg",
+      "sha256": "c10aaf44ec0ff00f0d549d7e5696bffdb7638c8e473dcaf50cdaa198b5d0f96d",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_002.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_003.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 37634,
+      "extension": ".jpg",
+      "height": 188,
+      "published_path": "books/secondary_mathematics/eb54c1ceeee68d65a0145191ad91eab3cfa7009dc7d6299058aa13da4f54d062.jpg",
+      "sha256": "eb54c1ceeee68d65a0145191ad91eab3cfa7009dc7d6299058aa13da4f54d062",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_003.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_004.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 40845,
+      "extension": ".jpg",
+      "height": 180,
+      "published_path": "books/secondary_mathematics/04aef29b2fa3bc651caec1c596e49178d83c166e27d597134ba79ab641c0dc62.jpg",
+      "sha256": "04aef29b2fa3bc651caec1c596e49178d83c166e27d597134ba79ab641c0dc62",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_004.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_005.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 52949,
+      "extension": ".jpg",
+      "height": 181,
+      "published_path": "books/secondary_mathematics/4ec0a01286a2d66576904e2314010494279291f43e4ec716f120c0e57c8d2a2b.jpg",
+      "sha256": "4ec0a01286a2d66576904e2314010494279291f43e4ec716f120c0e57c8d2a2b",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_005.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_006.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38988,
+      "extension": ".jpg",
+      "height": 162,
+      "published_path": "books/secondary_mathematics/88f47bb9e3f3ce44d6c300b9c05616a5804cfbbd58db045da7f4bc367769602a.jpg",
+      "sha256": "88f47bb9e3f3ce44d6c300b9c05616a5804cfbbd58db045da7f4bc367769602a",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_006.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_007.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 39780,
+      "extension": ".jpg",
+      "height": 204,
+      "published_path": "books/secondary_mathematics/d7a01daea2f89d29b467d0de650f8330cc18073a9af95fdd1c20497f222921a8.jpg",
+      "sha256": "d7a01daea2f89d29b467d0de650f8330cc18073a9af95fdd1c20497f222921a8",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_007.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_008.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 100946,
+      "extension": ".jpg",
+      "height": 371,
+      "published_path": "books/secondary_mathematics/2ca137a720cf2a34f2c63a8e9e482d53e38cce3a920b3df7ac528f28ba17b909.jpg",
+      "sha256": "2ca137a720cf2a34f2c63a8e9e482d53e38cce3a920b3df7ac528f28ba17b909",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_008.jpg",
+      "width": 975
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_009.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 75662,
+      "extension": ".jpg",
+      "height": 371,
+      "published_path": "books/secondary_mathematics/fec379835591e1d189d1baa12a9e060c20dfbbf87cc675629bf4cc995a535eb3.jpg",
+      "sha256": "fec379835591e1d189d1baa12a9e060c20dfbbf87cc675629bf4cc995a535eb3",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_009.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_010.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 47823,
+      "extension": ".jpg",
+      "height": 304,
+      "published_path": "books/secondary_mathematics/18a25c751165de1bd4607a7aacde38b4c0682523993d610489b14923c9a64963.jpg",
+      "sha256": "18a25c751165de1bd4607a7aacde38b4c0682523993d610489b14923c9a64963",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_010.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_011.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 47089,
+      "extension": ".jpg",
+      "height": 250,
+      "published_path": "books/secondary_mathematics/3380ba937f495f8e2f130cece0e32ed61f5b802bbd33803822baff74dfe9ebb5.jpg",
+      "sha256": "3380ba937f495f8e2f130cece0e32ed61f5b802bbd33803822baff74dfe9ebb5",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_011.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_012.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 59139,
+      "extension": ".jpg",
+      "height": 242,
+      "published_path": "books/secondary_mathematics/f9b3c6bb4035e22880b2a1d0527b2ec2836901c02f8cf97a42b6908ec2f0dc40.jpg",
+      "sha256": "f9b3c6bb4035e22880b2a1d0527b2ec2836901c02f8cf97a42b6908ec2f0dc40",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_012.jpg",
+      "width": 487
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_013.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 87302,
+      "extension": ".jpg",
+      "height": 244,
+      "published_path": "books/secondary_mathematics/e35547968df169145fa541ac6080922c48ceb29ff5807f86c3c385ba34e75792.jpg",
+      "sha256": "e35547968df169145fa541ac6080922c48ceb29ff5807f86c3c385ba34e75792",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_013.jpg",
+      "width": 464
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_203-fe74.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 42089,
+      "extension": ".jpg",
+      "height": 202,
+      "published_path": "books/secondary_mathematics/7f42531d96f6e49e9d1f0714319189d6adc0922a3dabb81fee322643bbcee933.jpg",
+      "sha256": "7f42531d96f6e49e9d1f0714319189d6adc0922a3dabb81fee322643bbcee933",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_203-fe74.jpg",
+      "width": 445
+    },
+    "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_204-3f79.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 33670,
+      "extension": ".jpg",
+      "height": 361,
+      "published_path": "books/secondary_mathematics/a7f073b579d2d99b40d8f697e12b1f98f903336c544a9c5bfa8f08ec8e39f5fa.jpg",
+      "sha256": "a7f073b579d2d99b40d8f697e12b1f98f903336c544a9c5bfa8f08ec8e39f5fa",
+      "source": "data/concepts/images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_204-3f79.jpg",
+      "width": 297
     },
     "images/math_sets_basic_CS_Photo_01_01_002.jpg": {
       "book_id": "secondary_mathematics",
@@ -459,6 +979,196 @@
       "sha256": "2a27079e9a5cbe1851ebead18178d20f9618b8c0ed3c8cfe373a3adf7e083e6d",
       "source": "data/concepts/images/math_surds_CNX_CAT_Figure_01_03_001.jpg",
       "width": 219
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_01_019-5d63.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 127375,
+      "extension": ".jpg",
+      "height": 331,
+      "published_path": "books/secondary_mathematics/610c3ebb26930a2a3dcd410b4cfc30dbb279310b9686cc4e5d3085c976f65bf2.jpg",
+      "sha256": "610c3ebb26930a2a3dcd410b4cfc30dbb279310b9686cc4e5d3085c976f65bf2",
+      "source": "data/concepts/images/math_angles_CNX_Precalc_Figure_05_01_019-5d63.jpg",
+      "width": 975
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 171721,
+      "extension": ".jpg",
+      "height": 325,
+      "published_path": "books/secondary_mathematics/e8087fb797267d4a67a48096203edcdf94dea6c253ab9c553349b85d25de6aad.jpg",
+      "sha256": "e8087fb797267d4a67a48096203edcdf94dea6c253ab9c553349b85d25de6aad",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_001.jpg",
+      "width": 488
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 83382,
+      "extension": ".jpg",
+      "height": 385,
+      "published_path": "books/secondary_mathematics/0e68f8e12a6aa598cf98fabc18258470cc8e160a1261c67864ec603e3a150fe4.jpg",
+      "sha256": "0e68f8e12a6aa598cf98fabc18258470cc8e160a1261c67864ec603e3a150fe4",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_002.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_003.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 69710,
+      "extension": ".jpg",
+      "height": 226,
+      "published_path": "books/secondary_mathematics/af57acc2227cb4a88fabbf05673a45909422fa72834f58f2b08a2fd3bf295010.jpg",
+      "sha256": "af57acc2227cb4a88fabbf05673a45909422fa72834f58f2b08a2fd3bf295010",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_003.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_004.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 83653,
+      "extension": ".jpg",
+      "height": 385,
+      "published_path": "books/secondary_mathematics/75b32c41e5adf2cf32071dd4fe65ff290e19c13b19cdfc78179319726661c64d.jpg",
+      "sha256": "75b32c41e5adf2cf32071dd4fe65ff290e19c13b19cdfc78179319726661c64d",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_004.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_005.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 77352,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/89dc2c93390fc6e8b161a1735ea65370c42490ab26bdb0ccb1776f054bb6c5d9.jpg",
+      "sha256": "89dc2c93390fc6e8b161a1735ea65370c42490ab26bdb0ccb1776f054bb6c5d9",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_005.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_006.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 68521,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/a5307f52b4fdbfefd22ed8a527373a5b54ba0c8b15c51339282d7de9bb7f5c27.jpg",
+      "sha256": "a5307f52b4fdbfefd22ed8a527373a5b54ba0c8b15c51339282d7de9bb7f5c27",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_006.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_007.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 66927,
+      "extension": ".jpg",
+      "height": 210,
+      "published_path": "books/secondary_mathematics/996f1af8589585093571321492a122311aaced0ed77403773db3cd9a971803a8.jpg",
+      "sha256": "996f1af8589585093571321492a122311aaced0ed77403773db3cd9a971803a8",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_007.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_008.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 73449,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/6f51b6d414ac48bc5d2f1404df3366eb6d0fba4f4b32111fce9c4ac7b65aeada.jpg",
+      "sha256": "6f51b6d414ac48bc5d2f1404df3366eb6d0fba4f4b32111fce9c4ac7b65aeada",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_008.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_009.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 64650,
+      "extension": ".jpg",
+      "height": 210,
+      "published_path": "books/secondary_mathematics/e5123aac18a785985cb2601bf47d79449d3aa3453a7fbfe31216e3d0939304ce.jpg",
+      "sha256": "e5123aac18a785985cb2601bf47d79449d3aa3453a7fbfe31216e3d0939304ce",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_009.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_010.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 73515,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/f332d1e3b5b85e96ffa1f5ba98f4c262733044876680de06fcfe8fea557ccf0c.jpg",
+      "sha256": "f332d1e3b5b85e96ffa1f5ba98f4c262733044876680de06fcfe8fea557ccf0c",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_010.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_011.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 49683,
+      "extension": ".jpg",
+      "height": 202,
+      "published_path": "books/secondary_mathematics/9c186b2484d8c2302682819e17c821513ff2c49e567341c0abff85904c03b193.jpg",
+      "sha256": "9c186b2484d8c2302682819e17c821513ff2c49e567341c0abff85904c03b193",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_011.jpg",
+      "width": 490
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_013.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 62127,
+      "extension": ".jpg",
+      "height": 369,
+      "published_path": "books/secondary_mathematics/e6fb1cd0178ca45e632666d9b90fdbe4fd8cb50226349ac0af62517d5ef0cd0f.jpg",
+      "sha256": "e6fb1cd0178ca45e632666d9b90fdbe4fd8cb50226349ac0af62517d5ef0cd0f",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_013.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_014-9d53.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 80599,
+      "extension": ".jpg",
+      "height": 390,
+      "published_path": "books/secondary_mathematics/4ef8a06e5a2b9ecd9fe092a3a55757a96f22ef64f52f62c2736d0a3fab7cfec6.jpg",
+      "sha256": "4ef8a06e5a2b9ecd9fe092a3a55757a96f22ef64f52f62c2736d0a3fab7cfec6",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_014-9d53.jpg",
+      "width": 806
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_016.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 81385,
+      "extension": ".jpg",
+      "height": 383,
+      "published_path": "books/secondary_mathematics/72eb322d8005c09d0eb13769f572a7073180e6d1bd6052d88477bc44ce52d5e8.jpg",
+      "sha256": "72eb322d8005c09d0eb13769f572a7073180e6d1bd6052d88477bc44ce52d5e8",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_016.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_017-506b.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 159145,
+      "extension": ".jpg",
+      "height": 603,
+      "published_path": "books/secondary_mathematics/203061048a692f4678d9d5edb38bdd0cddbce964b78c9a87f6fdcb31f965a8d2.jpg",
+      "sha256": "203061048a692f4678d9d5edb38bdd0cddbce964b78c9a87f6fdcb31f965a8d2",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_017-506b.jpg",
+      "width": 850
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_018.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 95012,
+      "extension": ".jpg",
+      "height": 366,
+      "published_path": "books/secondary_mathematics/dbd99211463d041db7048063c06e4a1a8cbee763d6afba9bb07cc1e6f9e8f04e.jpg",
+      "sha256": "dbd99211463d041db7048063c06e4a1a8cbee763d6afba9bb07cc1e6f9e8f04e",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_018.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_019.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 104397,
+      "extension": ".jpg",
+      "height": 368,
+      "published_path": "books/secondary_mathematics/fc51694e893550ef1b4fdbf6b781ceef62f7f60b73ec236c4a1a36429957b3b9.jpg",
+      "sha256": "fc51694e893550ef1b4fdbf6b781ceef62f7f60b73ec236c4a1a36429957b3b9",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_019.jpg",
+      "width": 487
+    },
+    "images/math_unit_circle_CNX_Precalc_Figure_05_02_021.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 101170,
+      "extension": ".jpg",
+      "height": 550,
+      "published_path": "books/secondary_mathematics/26d9b96d1392032f730b51097888abb9bea6cdff7297fba4186e1173d16f8199.jpg",
+      "sha256": "26d9b96d1392032f730b51097888abb9bea6cdff7297fba4186e1173d16f8199",
+      "source": "data/concepts/images/math_unit_circle_CNX_Precalc_Figure_05_02_021.jpg",
+      "width": 598
     },
     "images/phy_m42033_Figure_02_01Sol_01.jpg": {
       "book_id": "secondary_physics",

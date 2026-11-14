@@ -242,14 +242,40 @@ TAIL_HEADINGS = {
 }
 
 
+def apply_prose_fixes(text, fixes, used):
+    """Repair the source's own prose where the scraper lost an inline element.
+
+    A source paragraph that pointed at a figure or a table by an embedded
+    reference loses the reference, so the sentence reads "shown in ." A spec
+    may name the exact fragment and the wording that replaces it. Every fix
+    must match, so a stale repair cannot sit in the spec unnoticed.
+    """
+    for fix in fixes:
+        find = fix["find"]
+        if find in text:
+            text = text.replace(find, fix["replace"])
+            used.add(find)
+    return text
+
+
+def tidy_prose(text):
+    """Drop the spaces the scraper leaves before a comma or a full stop."""
+    return re.sub(r"[ \t]+([,.])", r"\1", text)
+
+
 def source_blocks(document, module, solutions, manifest, caption_overrides=None,
-                  keep_headings=None, drops=None):
+                  keep_headings=None, drops=None, heading_drops=None,
+                  prose_fixes=None, prose_tidy=False, used_fixes=None):
     """Teaching blocks, worked examples and exercises, from the source.
 
     `keep_headings` limits a section to the named source sections. A module
     often carries more than one teaching section, and a book section should
     not repeat the whole module for each slice it needs, so the spec may name
     the headings it wants and the rest of the module is skipped.
+
+    `heading_drops` suppresses a heading the source split or truncated, while
+    its blocks stay inside the heading above it. `prose_fixes` repairs the
+    sentences the scraper broke when it lost an inline reference.
     """
     blocks = document["blocks"]
     source = document.get("source_attribution") or {}
@@ -283,6 +309,10 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None,
         }
 
     caption_overrides = caption_overrides or {}
+    drops = drops or ()
+    heading_drops = heading_drops or ()
+    prose_fixes = prose_fixes or []
+    used_fixes = used_fixes if used_fixes is not None else set()
     for block in blocks:
         kind = block.get("type")
         if kind in ("heading", "example", "exercise"):
@@ -293,10 +323,15 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None,
         if kind == "heading":
             title = block["text"]["text"].strip()
             grouping = title
-            current_heading = title.strip().lower()
             if title.lower() in TAIL_HEADINGS:
+                current_heading = title.strip().lower()
                 in_tail = True
                 continue
+            if title in heading_drops:
+                # The source split or truncated this heading. Its blocks stay
+                # under the heading above it, so the reading order is kept.
+                continue
+            current_heading = title.strip().lower()
             if title in {"Learning Objectives"}:
                 continue
             if in_tail:
@@ -317,6 +352,12 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None,
                 continue
             if " ".join(text.split()).lower() in PLACEHOLDER_PARAGRAPHS:
                 continue
+            text = apply_prose_fixes(text, prose_fixes, used_fixes)
+            if prose_tidy:
+                text = tidy_prose(text)
+            # A few of the repairs can only be recognised once the scraper's
+            # stray spaces are gone, so run the fixes again on the tidy text.
+            text = apply_prose_fixes(text, prose_fixes, used_fixes)
             if text in seen_text:
                 continue
             seen_text.add(text)
@@ -436,6 +477,7 @@ def build(spec):
     sections = []
     exercises = []
     number = 0
+    used_fixes: set[str] = set()
 
     for index, section_spec in enumerate(spec["sections"], start=1):
         section_id = section_spec["id"]
@@ -461,6 +503,10 @@ def build(spec):
                 section_spec.get("figure_captions", {}),
                 section_spec.get("source_sections"),
                 section_spec.get("figure_drops"),
+                section_spec.get("heading_drops"),
+                section_spec.get("prose_fixes"),
+                section_spec.get("prose_tidy", False),
+                used_fixes,
             )
 
         teaching = list(source_teaching)
@@ -518,7 +564,17 @@ def build(spec):
             marks = override.get("marks", max(1, min(5, difficulty)))
             kind = override.get("kind", source_exercise["kind"])
             fix_stem = fix.get("stem")
-            if fix_stem is None:
+            strip = fix.get("stem_strip")
+            if strip:
+                # The scraper glues the source's teaching title onto the
+                # prompt of the exercise that follows it. The title is not
+                # part of the question, so the fix names it and it goes.
+                if not source_exercise["stem"]["text"].startswith(strip):
+                    raise SystemExit(
+                        f"{section_id}:{source_exercise['block_id']} stem does not start with {strip!r}"
+                    )
+                rendered_stem = rt(source_exercise["stem"]["text"][len(strip):].strip())
+            elif fix_stem is None:
                 rendered_stem = source_exercise["stem"]
             elif isinstance(fix_stem, str):
                 rendered_stem = rt(fix_stem)
@@ -787,6 +843,18 @@ def build(spec):
     for key in ("no_formula_reason", "no_exam_link_reason", "no_trap_reason"):
         if spec.get(key):
             chapter[key] = spec[key]
+
+    declared = [
+        fix["find"]
+        for section_spec in spec["sections"]
+        for fix in section_spec.get("prose_fixes", [])
+    ]
+    unused = [find for find in declared if find not in used_fixes]
+    if unused:
+        raise SystemExit(
+            "prose_fixes did not match the source:\n"
+            + "\n".join(f"    {find!r}" for find in unused)
+        )
     return chapter
 
 

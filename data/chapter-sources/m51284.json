@@ -1,0 +1,2761 @@
+{
+  "module": "m51284",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-college-algebra-bundle",
+    "section": "m51284",
+    "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "p-0",
+      "type": "paragraph",
+      "content": {
+        "text": "In this section you will:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-1",
+      "type": "paragraph",
+      "content": {
+        "text": "Mt. Everest, which straddles the border between China and Nepal, is the tallest mountain in the world. Measuring its height is no easy task. In fact, the actual measurement has been a source of controversy for hundreds of years. The measurement process involves the use of triangles and a branch of mathematics known as trigonometry. In this section, we will define a new group of functions known as trigonometric functions, and find out how they can be used to measure heights, such as those of the tallest mountains.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Right Triangles to Evaluate Trigonometric Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "shows a right triangle with a vertical side of length $y$ and a horizontal side has length $x.$ Notice that the triangle is inscribed in a circle of radius 1. Such a circle, with a center at the origin and a radius of 1, is known as a unit circle .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_001.jpg",
+      "caption": {
+        "text": "Graph of quarter circle with radius of 1. Inscribed triangle with an angle of t. Point of (x,y) is at intersection of terminal side of angle and edge of circle.",
+        "inline": []
+      },
+      "alt": "Graph of quarter circle with radius of 1. Inscribed triangle with an angle of t. Point of (x,y) is at intersection of terminal side of angle and edge of circle.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-5",
+      "type": "paragraph",
+      "content": {
+        "text": "We can define the trigonometric functions in terms an angle *t* and the lengths of the sides of the triangle. The adjacent side is the side closest to the angle, *x* . (Adjacent means “next to.”) The opposite side is the side across from the angle, *y* . The hypotenuse is the side of the triangle opposite the right angle, 1. These sides are labeled in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_002.jpg",
+      "caption": {
+        "text": "The sides of a right triangle in relation to angle $t$",
+        "inline": []
+      },
+      "alt": "A right triangle with hypotenuse, opposite, and adjacent sides labeled.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-7",
+      "type": "paragraph",
+      "content": {
+        "text": "Given a right triangle with an acute angle of $t,$ the first three trigonometric functions are listed.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-8",
+      "type": "paragraph",
+      "content": {
+        "text": "A common mnemonic for remembering these relationships is SohCahToa, formed from the first letters of “ **S** ine is **o** pposite over **h** ypotenuse, **C** osine is **a** djacent over **h** ypotenuse, **T** angent is **o** pposite over **a** djacent.”",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-9",
+      "type": "paragraph",
+      "content": {
+        "text": "For the triangle shown in , we have the following.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-10",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the side lengths of a right triangle and one of the acute angles, find the sine, cosine, and tangent of that angle.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-11",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-12",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluating a Trigonometric Function of a Right Triangle Given the triangle shown in , find the value of $cosα.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The side adjacent to the angle is 15, and the hypotenuse of the triangle is 17. \\[$cos(α)=\\frac{adjacent}{hypotenuse}=\\frac{15}{17}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "Given the triangle shown in , find the value of $cosα.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_003.jpg",
+      "caption": {
+        "text": "A right triangle with side lengths of 8, 15, and 17. Angle alpha also labeled which is opposite to the side labeled 8.",
+        "inline": []
+      },
+      "alt": "A right triangle with side lengths of 8, 15, and 17. Angle alpha also labeled which is opposite to the side labeled 8.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "The side adjacent to the angle is 15, and the hypotenuse of the triangle is 17.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-16",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Given the triangle shown in , find the value of $sint.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{7}{25}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-17",
+      "type": "paragraph",
+      "content": {
+        "text": "Given the triangle shown in , find the value of $sint.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_004.jpg",
+      "caption": {
+        "text": "A right triangle with sides of 7, 24, and 25. Also labeled is angle t which is opposite the side labeled 7.",
+        "inline": []
+      },
+      "alt": "A right triangle with sides of 7, 24, and 25. Also labeled is angle t which is opposite the side labeled 7.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-19",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Reciprocal Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-20",
+      "type": "paragraph",
+      "content": {
+        "text": "In addition to sine, cosine, and tangent, there are three more functions. These too are defined in terms of the sides of the triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "Take another look at these definitions. These functions are the reciprocals of the first three functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-22",
+      "type": "paragraph",
+      "content": {
+        "text": "When working with right triangles, keep in mind that the same rules apply regardless of the orientation of the triangle. In fact, we can evaluate the six trigonometric functions of either of the two acute angles in the triangle in . The side opposite one acute angle is the side adjacent to the other acute angle, and vice versa.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_005.jpg",
+      "caption": {
+        "text": "The side adjacent to one angle is opposite the other angle.",
+        "inline": []
+      },
+      "alt": "Right triangle with angles alpha and beta. Sides are labeled hypotenuse, adjacent to alpha/opposite to beta, and adjacent to beta/opposite alpha.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-24",
+      "type": "paragraph",
+      "content": {
+        "text": "Many problems ask for all six trigonometric functions for a given angle in a triangle. A possible strategy to use is to find the sine, cosine, and tangent of the angles first. Then, find the other trigonometric functions easily using the reciprocals.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-25",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the side lengths of a right triangle, evaluate the six trigonometric functions of one of the acute angles.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-26",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-27",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluating Trigonometric Functions of Angles Not in Standard Position Using the triangle shown in , evaluate $sinα,cosα,tanα,secα,cscα,andcotα.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "\\[$sinα=\\frac{oppositeα}{hypotenuse}=\\frac{4}{5}cosα=\\frac{adjacent toα}{hypotenuse}=\\frac{3}{5}tanα=\\frac{oppositeα}{adjacent toα}=\\frac{4}{3}secα=\\frac{hypotenuse}{adjacent toα}=\\frac{5}{3}cscα=\\frac{hypotenuse}{oppositeα}=\\frac{5}{4}cotα=\\frac{adjacent toα}{oppositeα}=\\frac{3}{4}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-28",
+      "type": "paragraph",
+      "content": {
+        "text": "Using the triangle shown in , evaluate $sinα,cosα,tanα,secα,cscα,andcotα.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_006.jpg",
+      "caption": {
+        "text": "Right triangle with sides of 3, 4, and 5. Angle alpha is also labeled which is opposite the side labeled 4.",
+        "inline": []
+      },
+      "alt": "Right triangle with sides of 3, 4, and 5. Angle alpha is also labeled which is opposite the side labeled 4.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "Another approach would have been to find sine, cosine, and tangent first. Then find their reciprocals to determine the other functions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-31",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using the triangle shown in ,evaluate $sint,cost,tant,sect,csct,andcott.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sint=\\frac{33}{65},cost=\\frac{56}{65},tant=\\frac{33}{56},sect=\\frac{65}{56},csct=\\frac{65}{33},cott=\\frac{56}{33}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-32",
+      "type": "paragraph",
+      "content": {
+        "text": "Using the triangle shown in ,evaluate $sint,cost,tant,sect,csct,andcott.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_007.jpg",
+      "caption": {
+        "text": "Right triangle with sides 33, 56, and 65. Angle t is also labeled which is opposite to the side labeled 33.",
+        "inline": []
+      },
+      "alt": "Right triangle with sides 33, 56, and 65. Angle t is also labeled which is opposite to the side labeled 33. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-34",
+      "type": "paragraph",
+      "content": {
+        "text": "$sint=\\frac{33}{65},cost=\\frac{56}{65},tant=\\frac{33}{56},sect=\\frac{65}{56},csct=\\frac{65}{33},cott=\\frac{56}{33}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-35",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Finding Trigonometric Functions of Special Angles Using Side Lengths",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-36",
+      "type": "paragraph",
+      "content": {
+        "text": "It is helpful to evaluate the trigonometric functions as they relate to the special angles—multiples of $30°,60°,$ and $45°.$ Remember, however, that when dealing with right triangles, we are limited to angles between $0°and 90°.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-37",
+      "type": "paragraph",
+      "content": {
+        "text": "Suppose we have a $30°,60°,90°$ triangle, which can also be described as a $\\frac{π}{6},\\frac{π}{3},\\frac{π}{2}$ triangle. The sides have lengths in the relation $s,\\sqrt{3}s,2s.$ The sides of a $45°,45°,90°$ triangle, which can also be described as a $\\frac{π}{4},\\frac{π}{4},\\frac{π}{2}$ triangle, have lengths in the relation $s,s,\\sqrt{2}s.$ These relations are shown in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_008.jpg",
+      "caption": {
+        "text": "Side lengths of special triangles",
+        "inline": []
+      },
+      "alt": "Two side-by-side graphs of circles with inscribed angles. First circle has angle of pi/3 inscribed, radius of 2s, base of length s and height of length . Second circle has angle of pi/4 inscribed with radius , base of length s and height of length s.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "We can then use the ratios of the side lengths to evaluate trigonometric functions of special angles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-40",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given trigonometric functions of a special angle, evaluate using side lengths.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-41",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-42",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Evaluating Trigonometric Functions of Special Angles Using Side Lengths Find the exact value of the trigonometric functions of $\\frac{π}{3},$ using side lengths.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "\\[$sin(\\frac{π}{3})=\\frac{opp}{hyp}=\\frac{\\sqrt{3s}}{2s}=\\frac{\\sqrt{3}}{2}cos(\\frac{π}{3})=\\frac{adj}{hyp}=\\frac{s}{2s}=\\frac{1}{2}tan(\\frac{π}{3})=\\frac{opp}{adj}=\\frac{\\sqrt{3}s}{s}=\\sqrt{3}sec(\\frac{π}{3})=\\frac{hyp}{adj}=\\frac{2s}{s}=2csc(\\frac{π}{3})=\\frac{hyp}{opp}=\\frac{2s}{\\sqrt{3}s}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}cot(\\frac{π}{3})=\\frac{adj}{opp}=\\frac{s}{\\sqrt{3}s}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of the trigonometric functions of $\\frac{π}{3},$ using side lengths.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-44",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find the exact value of the trigonometric functions of $\\frac{π}{4},$ using side lengths.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$sin(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{π}{4})=1,sec(\\frac{π}{4})=\\sqrt{2},csc(\\frac{π}{4})=\\sqrt{2},cot(\\frac{π}{4})=1$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-45",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the exact value of the trigonometric functions of $\\frac{π}{4},$ using side lengths.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-46",
+      "type": "paragraph",
+      "content": {
+        "text": "$sin(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{π}{4})=1,sec(\\frac{π}{4})=\\sqrt{2},csc(\\frac{π}{4})=\\sqrt{2},cot(\\frac{π}{4})=1$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-47",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Equal Cofunction of Complements",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "If we look more closely at the relationship between the sine and cosine of the special angles, we notice a pattern. In a right triangle with angles of $\\frac{π}{6}$ and $\\frac{π}{3},$ we see that the sine of $\\frac{π}{3},$ namely $\\frac{\\sqrt{3}}{2},$ is also the cosine of $\\frac{π}{6},$ while the sine of $\\frac{π}{6},$ namely $\\frac{1}{2},$ is also the cosine of $\\frac{π}{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_009.jpg",
+      "caption": {
+        "text": "The sine of $\\frac{π}{3}$ equals the cosine of $\\frac{π}{6}$ and vice versa.",
+        "inline": []
+      },
+      "alt": "A graph of circle with angle pi/3 inscribed with a radius of 2s, a base with length s and a height of.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "This result should not be surprising because, as we see from , the side opposite the angle of $\\frac{π}{3}$ is also the side adjacent to $\\frac{π}{6},$ so $sin(\\frac{π}{3})$ and $cos(\\frac{π}{6})$ are exactly the same ratio of the same two sides, $\\sqrt{3}s$ and $2s.$ Similarly, $cos(\\frac{π}{3})$ and $sin(\\frac{π}{6})$ are also the same ratio using the same two sides, $s$ and $2s.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-51",
+      "type": "paragraph",
+      "content": {
+        "text": "The interrelationship between the sines and cosines of $\\frac{π}{6}$ and $\\frac{π}{3}$ also holds for the two acute angles in any right triangle, since in every case, the ratio of the same two sides would constitute the sine of one angle and the cosine of the other. Since the three angles of a triangle add to $π,$ and the right angle is $\\frac{π}{2},$ the remaining two angles must also add up to $\\frac{π}{2}.$ That means that a right triangle can be formed with any two angles that add to $\\frac{π}{2}$ —in other words, any two complementary angles. So we may state a *cofunction identity* : If any two angles are complementary, the sine of one is the cosine of the other, and vice versa. This identity is illustrated in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_010.jpg",
+      "caption": {
+        "text": "Cofunction identity of sine and cosine of complementary angles",
+        "inline": []
+      },
+      "alt": "Right triangle with angles alpha and beta. Equivalence between sin alpha and cos beta. Equivalence between sin beta and cos alpha.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-53",
+      "type": "paragraph",
+      "content": {
+        "text": "Using this identity, we can state without calculating, for instance, that the sine of $\\frac{π}{12}$ equals the cosine of $\\frac{5π}{12},$ and that the sine of $\\frac{5π}{12}$ equals the cosine of $\\frac{π}{12}.$ We can also state that if, for a given angle $t,cost=\\frac{5}{13},$ then $sin(\\frac{π}{2}-t)=\\frac{5}{13}$ as well.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-54",
+      "type": "paragraph",
+      "content": {
+        "text": "The cofunction identities in radians are listed in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "tbl-55",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "$cost=sin(\\frac{π}{2}-t)$",
+          "$sint=cos(\\frac{π}{2}-t)$"
+        ],
+        [
+          "$tant=cot(\\frac{π}{2}-t)$",
+          "$cott=tan(\\frac{π}{2}-t)$"
+        ],
+        [
+          "$sect=csc(\\frac{π}{2}-t)$",
+          "$csct=sec(\\frac{π}{2}-t)$"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given the sine and cosine of an angle, find the sine or cosine of its complement.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-57",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-58",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using Cofunction Identities If $sint=\\frac{5}{12},$ find $cos(\\frac{π}{2}-t).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "According to the cofunction identities for sine and cosine, we have the following. \\[$sint=cos(\\frac{π}{2}-t)$\\] So \\[$cos(\\frac{π}{2}-t)=\\frac{5}{12}$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-59",
+      "type": "paragraph",
+      "content": {
+        "text": "If $sint=\\frac{5}{12},$ find $cos(\\frac{π}{2}-t).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-60",
+      "type": "paragraph",
+      "content": {
+        "text": "According to the cofunction identities for sine and cosine, we have the following.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-61",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $csc(\\frac{π}{6})=2,$ find $sec(\\frac{π}{3}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "2",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-62",
+      "type": "paragraph",
+      "content": {
+        "text": "If $csc(\\frac{π}{6})=2,$ find $sec(\\frac{π}{3}).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-63",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Trigonometric Functions",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-64",
+      "type": "paragraph",
+      "content": {
+        "text": "In previous examples, we evaluated the sine and cosine in triangles where we knew all three sides. But the real power of right-triangle trigonometry emerges when we look at triangles in which we know an angle but do not know all the sides.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-65",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given a right triangle, the length of one side, and the measure of one acute angle, find the remaining sides.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-66",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-67",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Finding Missing Side Lengths Using Trigonometric Ratios Find the unknown sides of the triangle in .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We know the angle and the opposite side, so we can use the tangent to find the adjacent side. \\[$tan(30°)=\\frac{7}{a}$\\] We rearrange to solve for $a.$ \\[$a=\\frac{7}{tan(30°)}≈12.1$\\] We can use the sine to find the hypotenuse. \\[$sin(30°)=\\frac{7}{c}$\\] Again, we rearrange to solve for $c.$ \\[$c=\\frac{7}{sin(30°)}=14$\\]",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-68",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the unknown sides of the triangle in .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-11",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_011.jpg",
+      "caption": {
+        "text": "A right triangle with sides a, c, and 7. Angle of 30 degrees is also labeled which is opposite the side labeled 7.",
+        "inline": []
+      },
+      "alt": "A right triangle with sides a, c, and 7. Angle of 30 degrees is also labeled which is opposite the side labeled 7. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-70",
+      "type": "paragraph",
+      "content": {
+        "text": "We know the angle and the opposite side, so we can use the tangent to find the adjacent side.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-71",
+      "type": "paragraph",
+      "content": {
+        "text": "We rearrange to solve for $a.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-72",
+      "type": "paragraph",
+      "content": {
+        "text": "We can use the sine to find the hypotenuse.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-73",
+      "type": "paragraph",
+      "content": {
+        "text": "Again, we rearrange to solve for $c.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-74",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A right triangle has one angle of $\\frac{π}{3}$ and a hypotenuse of 20. Find the unknown sides and angle of the triangle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$adjacent=10;opposite=10\\sqrt{3};$ missing angle is $\\frac{π}{6}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-75",
+      "type": "paragraph",
+      "content": {
+        "text": "A right triangle has one angle of $\\frac{π}{3}$ and a hypotenuse of 20. Find the unknown sides and angle of the triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-76",
+      "type": "paragraph",
+      "content": {
+        "text": "$adjacent=10;opposite=10\\sqrt{3};$ missing angle is $\\frac{π}{6}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-77",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Using Right Triangle Trigonometry to Solve Applied Problems",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-78",
+      "type": "paragraph",
+      "content": {
+        "text": "Right-triangle trigonometry has many practical applications. For example, the ability to compute the lengths of sides of a triangle makes it possible to find the height of a tall object without climbing to the top or having to extend a tape measure along its height. We do so by measuring a distance from the base of the object to a point on the ground some distance away, where we can look up to the top of the tall object at an angle. The angle of elevation of an object above an observer relative to the observer is the angle between the horizontal and the line from the object to the observer's eye. The right triangle this position creates has sides that represent the unknown height, the measured distance from the base, and the angled line of sight from the ground to the top of the object. Knowing the measured distance to the base of the object and the angle of the line of sight, we can use trigonometric functions to calculate the unknown height.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-79",
+      "type": "paragraph",
+      "content": {
+        "text": "Similarly, we can form a triangle from the top of a tall object by looking downward. The angle of depression of an object below an observer relative to the observer is the angle between the horizontal and the line from the object to the observer's eye. See .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-12",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_013.jpg",
+      "caption": {
+        "text": "Diagram of a radio tower with line segments extending from the top and base of the tower to a point on the ground some distance away. The two lines and the tower form a right triangle. The angle near the top of the tower is the angle of depression. The angle on the ground at a distance from the tower is the angle of elevation.",
+        "inline": []
+      },
+      "alt": "Diagram of a radio tower with line segments extending from the top and base of the tower to a point on the ground some distance away. The two lines and the tower form a right triangle. The angle near the top of the tower is the angle of depression. The angle on the ground at a distance from the tower is the angle of elevation.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-81",
+      "type": "paragraph",
+      "content": {
+        "text": "*Given a tall object, measure its height indirectly.*",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-82",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Example",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-83",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Measuring a Distance Indirectly To find the height of a tree, a person walks to a point 30 feet from the base of the tree. She measures an angle of $57°$ between a line of sight to the top of the tree and the ground, as shown in . Find the height of the tree.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "We know that the angle of elevation is $57°$ and the adjacent side is 30 ft long. The opposite side is the unknown height. The trigonometric function relating the side opposite to an angle and the side adjacent to the angle is the tangent. So we will state our information in terms of the tangent of $57°,$ letting $h$ be the unknown height. \\[$tanθ=\\frac{opposite}{adjacent}tan(57°)=\\frac{h}{30}Solve forh.h=30tan(57°)Multiply.h≈46.2Use a calculator.$\\] The tree is approximately 46 feet tall.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-84",
+      "type": "paragraph",
+      "content": {
+        "text": "To find the height of a tree, a person walks to a point 30 feet from the base of the tree. She measures an angle of $57°$ between a line of sight to the top of the tree and the ground, as shown in . Find the height of the tree.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-13",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_012.jpg",
+      "caption": {
+        "text": "A tree with angle of 57 degrees from vantage point. Vantage point is 30 feet from tree.",
+        "inline": []
+      },
+      "alt": "A tree with angle of 57 degrees from vantage point. Vantage point is 30 feet from tree.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-86",
+      "type": "paragraph",
+      "content": {
+        "text": "We know that the angle of elevation is $57°$ and the adjacent side is 30 ft long. The opposite side is the unknown height.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-87",
+      "type": "paragraph",
+      "content": {
+        "text": "The trigonometric function relating the side opposite to an angle and the side adjacent to the angle is the tangent. So we will state our information in terms of the tangent of $57°,$ letting $h$ be the unknown height.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-88",
+      "type": "paragraph",
+      "content": {
+        "text": "The tree is approximately 46 feet tall.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-89",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "How long a ladder is needed to reach a windowsill 50 feet above the ground if the ladder rests against the building making an angle of $\\frac{5π}{12}$ with the ground? Round to the nearest foot.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "About 52 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-90",
+      "type": "paragraph",
+      "content": {
+        "text": "How long a ladder is needed to reach a windowsill 50 feet above the ground if the ladder rests against the building making an angle of $\\frac{5π}{12}$ with the ground? Round to the nearest foot.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-91",
+      "type": "paragraph",
+      "content": {
+        "text": "Access these online resources for additional instruction and practice with right triangle trigonometry.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-92",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Equations",
+        "inline": []
+      }
+    },
+    {
+      "id": "tbl-93",
+      "type": "table",
+      "title": {
+        "text": "Table",
+        "inline": []
+      },
+      "rows": [
+        [
+          "Trigonometric Functions",
+          "$Sinesint=\\frac{opposite}{hypotenuse}Cosinecost=\\frac{adjacent}{hypotenuse}Tangenttant=\\frac{opposite}{adjacent}Secantsect=\\frac{hypotenuse}{adjacent}Cosecantcsct=\\frac{hypotenuse}{opposite}Cotangentcott=\\frac{adjacent}{opposite}$"
+        ],
+        [
+          "Reciprocal Trigonometric Functions",
+          "$sint=\\frac{1}{csct}csct=\\frac{1}{sint}cost=\\frac{1}{sect}sect=\\frac{1}{cost}tant=\\frac{1}{cott}cott=\\frac{1}{tant}$"
+        ],
+        [
+          "Cofunction Identities",
+          "$cost=sin(\\frac{π}{2}-t)sint=cos(\\frac{π}{2}-t)tant=cot(\\frac{π}{2}-t)cott=tan(\\frac{π}{2}-t)sect=csc(\\frac{π}{2}-t)$"
+        ]
+      ],
+      "alt": "Table with 3 rows",
+      "level": "core"
+    },
+    {
+      "id": "sec-94",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-95",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Section Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-96",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Verbal",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-97",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "For the given right triangle, label the adjacent side, opposite side, and hypotenuse for the indicated angle.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-98",
+      "type": "paragraph",
+      "content": {
+        "text": "For the given right triangle, label the adjacent side, opposite side, and hypotenuse for the indicated angle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-99",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "When a right triangle with a hypotenuse of 1 is placed in a circle of radius 1, which sides of the triangle correspond to the *x* - and *y* -coordinates?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-100",
+      "type": "paragraph",
+      "content": {
+        "text": "When a right triangle with a hypotenuse of 1 is placed in a circle of radius 1, which sides of the triangle correspond to the *x* - and *y* -coordinates?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-101",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The tangent of an angle compares which sides of the right triangle?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The tangent of an angle is the ratio of the opposite side to the adjacent side.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-102",
+      "type": "paragraph",
+      "content": {
+        "text": "The tangent of an angle compares which sides of the right triangle?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-103",
+      "type": "paragraph",
+      "content": {
+        "text": "The tangent of an angle is the ratio of the opposite side to the adjacent side.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-104",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "What is the relationship between the two acute angles in a right triangle?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-105",
+      "type": "paragraph",
+      "content": {
+        "text": "What is the relationship between the two acute angles in a right triangle?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-106",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Explain the cofunction identity.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "For example, the sine of an angle is equal to the cosine of its complement; the cosine of an angle is equal to the sine of its complement.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-107",
+      "type": "paragraph",
+      "content": {
+        "text": "Explain the cofunction identity.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-108",
+      "type": "paragraph",
+      "content": {
+        "text": "For example, the sine of an angle is equal to the cosine of its complement; the cosine of an angle is equal to the sine of its complement.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-109",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Algebraic",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-110",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use cofunctions of complementary angles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-111",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos(34°)=sin(___°)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-112",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(34°)=sin(___°)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-113",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cos(\\frac{π}{3})=sin(___)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{6}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-114",
+      "type": "paragraph",
+      "content": {
+        "text": "$cos(\\frac{π}{3})=sin(___)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-115",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$csc(21°)=sec(___°)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-116",
+      "type": "paragraph",
+      "content": {
+        "text": "$csc(21°)=sec(___°)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-117",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tan(\\frac{π}{4})=cot(___)$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{π}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-118",
+      "type": "paragraph",
+      "content": {
+        "text": "$tan(\\frac{π}{4})=cot(___)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-119",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, find the lengths of the missing sides if side $a$ is opposite angle $A,$ side $b$ is opposite angle $B,$ and side $c$ is the hypotenuse.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-120",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cosB=\\frac{4}{5},a=10$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-121",
+      "type": "paragraph",
+      "content": {
+        "text": "$cosB=\\frac{4}{5},a=10$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-122",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinB=\\frac{1}{2},a=20$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$b=\\frac{20\\sqrt{3}}{3},c=\\frac{40\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-123",
+      "type": "paragraph",
+      "content": {
+        "text": "$sinB=\\frac{1}{2},a=20$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-124",
+      "type": "paragraph",
+      "content": {
+        "text": "$b=\\frac{20\\sqrt{3}}{3},c=\\frac{40\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-125",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanA=\\frac{5}{12},b=6$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-126",
+      "type": "paragraph",
+      "content": {
+        "text": "$tanA=\\frac{5}{12},b=6$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-127",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanA=100,b=100$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=10,000,c=10,000.5$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-128",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=10,000,c=10,000.5$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-129",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinB=\\frac{1}{\\sqrt{3}},a=2$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-130",
+      "type": "paragraph",
+      "content": {
+        "text": "$sinB=\\frac{1}{\\sqrt{3}},a=2$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-131",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$a=5,∡A=60°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$b=\\frac{5\\sqrt{3}}{3},c=\\frac{10\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-132",
+      "type": "paragraph",
+      "content": {
+        "text": "$b=\\frac{5\\sqrt{3}}{3},c=\\frac{10\\sqrt{3}}{3}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-133",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$c=12,∡A=45°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "sec-134",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Graphical",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-135",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use to evaluate each trigonometric function of angle $A.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-14",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_203-fe74.jpg",
+      "caption": {
+        "text": "A right triangle with sides 4 and 10 and angle of A labeled which is opposite the side labeled 10.",
+        "inline": []
+      },
+      "alt": "A right triangle with sides 4 and 10 and angle of A labeled which is opposite the side labeled 10.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-137",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5\\sqrt{29}}{29}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-138",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{5\\sqrt{29}}{29}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-139",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cosA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-140",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-141",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cscA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-142",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$secA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{29}}{2}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-143",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{29}}{2}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-144",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cotA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-145",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use to evaluate each trigonometric function of angle $A.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-15",
+      "type": "figure",
+      "asset_url": "images/math_right_triangle_trigonometry_CNX_Precalc_Figure_05_04_204-3f79.jpg",
+      "caption": {
+        "text": "A right triangle with sides of 10 and 8 and angle of A labeled which is opposite the side labeled 10.",
+        "inline": []
+      },
+      "alt": "A right triangle with sides of 10 and 8 and angle of A labeled which is opposite the side labeled 10.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-147",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$sinA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5\\sqrt{41}}{41}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-148",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{5\\sqrt{41}}{41}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-149",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cosA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-150",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$tanA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{5}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-151",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cscA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-152",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$secA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$\\frac{\\sqrt{41}}{4}$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-153",
+      "type": "paragraph",
+      "content": {
+        "text": "$\\frac{\\sqrt{41}}{4}$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-154",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$cotA$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-155",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, solve for the unknown sides of the given triangle.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-156",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Technology",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-157",
+      "type": "paragraph",
+      "content": {
+        "text": "For the following exercises, use a calculator to find the length of each side to four decimal places.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-158",
+      "type": "paragraph",
+      "content": {
+        "text": "$b=9.9970,c=12.2041$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-159",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=2.0838,b=11.8177$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-160",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$b=15,∡B=15°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=55.9808,c=57.9555$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-161",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=55.9808,c=57.9555$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-162",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$c=200,∡B=5°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-163",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$c=50,∡B=21°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=46.6790,b=17.9184$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-164",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=46.6790,b=17.9184$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-165",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$a=30,∡A=27°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-166",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$b=3.5,∡A=78°$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$a=16.4662,c=16.8341$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-167",
+      "type": "paragraph",
+      "content": {
+        "text": "$a=16.4662,c=16.8341$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-168",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Extensions",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-169",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $x.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-170",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $x.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "188.3159",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-171",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $x.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "exr-172",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $x.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "200.6737",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "exr-173",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A radio tower is located 400 feet from a building. From a window in the building, a person determines that the angle of elevation to the top of the tower is $36°,$ and that the angle of depression to the bottom of the tower is $23°.$ How tall is the tower?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-174",
+      "type": "paragraph",
+      "content": {
+        "text": "A radio tower is located 400 feet from a building. From a window in the building, a person determines that the angle of elevation to the top of the tower is $36°,$ and that the angle of depression to the bottom of the tower is $23°.$ How tall is the tower?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-175",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A radio tower is located 325 feet from a building. From a window in the building, a person determines that the angle of elevation to the top of the tower is $43°,$ and that the angle of depression to the bottom of the tower is $31°.$ How tall is the tower?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "498.3471 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-176",
+      "type": "paragraph",
+      "content": {
+        "text": "A radio tower is located 325 feet from a building. From a window in the building, a person determines that the angle of elevation to the top of the tower is $43°,$ and that the angle of depression to the bottom of the tower is $31°.$ How tall is the tower?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-177",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A 200-foot tall monument is located in the distance. From a window in a building, a person determines that the angle of elevation to the top of the monument is $15°,$ and that the angle of depression to the bottom of the monument is $2°.$ How far is the person from the monument?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-178",
+      "type": "paragraph",
+      "content": {
+        "text": "A 200-foot tall monument is located in the distance. From a window in a building, a person determines that the angle of elevation to the top of the monument is $15°,$ and that the angle of depression to the bottom of the monument is $2°.$ How far is the person from the monument?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-179",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A 400-foot tall monument is located in the distance. From a window in a building, a person determines that the angle of elevation to the top of the monument is $18°,$ and that the angle of depression to the bottom of the monument is $3°.$ How far is the person from the monument?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "1060.09 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-180",
+      "type": "paragraph",
+      "content": {
+        "text": "A 400-foot tall monument is located in the distance. From a window in a building, a person determines that the angle of elevation to the top of the monument is $18°,$ and that the angle of depression to the bottom of the monument is $3°.$ How far is the person from the monument?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-181",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "There is an antenna on the top of a building. From a location 300 feet from the base of the building, the angle of elevation to the top of the building is measured to be $40°.$ From the same location, the angle of elevation to the top of the antenna is measured to be $43°.$ Find the height of the antenna.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-182",
+      "type": "paragraph",
+      "content": {
+        "text": "There is an antenna on the top of a building. From a location 300 feet from the base of the building, the angle of elevation to the top of the building is measured to be $40°.$ From the same location, the angle of elevation to the top of the antenna is measured to be $43°.$ Find the height of the antenna.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-183",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "There is lightning rod on the top of a building. From a location 500 feet from the base of the building, the angle of elevation to the top of the building is measured to be $36°.$ From the same location, the angle of elevation to the top of the lightning rod is measured to be $38°.$ Find the height of the lightning rod.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "27.372 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-184",
+      "type": "paragraph",
+      "content": {
+        "text": "There is lightning rod on the top of a building. From a location 500 feet from the base of the building, the angle of elevation to the top of the building is measured to be $36°.$ From the same location, the angle of elevation to the top of the lightning rod is measured to be $38°.$ Find the height of the lightning rod.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-185",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Real-World Applications",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-186",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A 33-ft ladder leans against a building so that the angle between the ground and the ladder is $80°.$ How high does the ladder reach up the side of the building?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-187",
+      "type": "paragraph",
+      "content": {
+        "text": "A 33-ft ladder leans against a building so that the angle between the ground and the ladder is $80°.$ How high does the ladder reach up the side of the building?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-188",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A 23-ft ladder leans against a building so that the angle between the ground and the ladder is $80°.$ How high does the ladder reach up the side of the building?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "22.6506 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-189",
+      "type": "paragraph",
+      "content": {
+        "text": "A 23-ft ladder leans against a building so that the angle between the ground and the ladder is $80°.$ How high does the ladder reach up the side of the building?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-190",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The angle of elevation to the top of a building in Charlotte is found to be 9 degrees from the ground at a distance of 1 mile from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-191",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle of elevation to the top of a building in Charlotte is found to be 9 degrees from the ground at a distance of 1 mile from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-192",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The angle of elevation to the top of a building in Seattle is found to be 2 degrees from the ground at a distance of 2 miles from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "368.7633 ft",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-193",
+      "type": "paragraph",
+      "content": {
+        "text": "The angle of elevation to the top of a building in Seattle is found to be 2 degrees from the ground at a distance of 2 miles from the base of the building. Using this information, find the height of the building.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-194",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Assuming that a 370-foot tall giant redwood grows vertically, if I walk a certain distance from the tree and measure the angle of elevation to the top of the tree to be $60°,$ how far from the base of the tree am I?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-195",
+      "type": "paragraph",
+      "content": {
+        "text": "Assuming that a 370-foot tall giant redwood grows vertically, if I walk a certain distance from the tree and measure the angle of elevation to the top of the tree to be $60°,$ how far from the base of the tree am I?",
+        "inline": []
+      },
+      "level": "core"
+    }
+  ],
+  "solutions": {
+    "osbooks-college-algebra-bundle:m51284:exr-12": [
+      [
+        {
+          "kind": "text",
+          "text": "The side adjacent to the angle is 15, and the hypotenuse of the triangle is 17."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(α)=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent"
+        },
+        {
+          "kind": "math",
+          "text": "}{"
+        },
+        {
+          "kind": "text",
+          "text": "hypotenuse"
+        },
+        {
+          "kind": "math",
+          "text": "}=\\frac{15}{17}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-16": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{7}{25}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-27": [
+      [
+        {
+          "kind": "math",
+          "text": "sinα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "α}{"
+        },
+        {
+          "kind": "text",
+          "text": "hypotenuse"
+        },
+        {
+          "kind": "math",
+          "text": "}=\\frac{4}{5}cosα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent to"
+        },
+        {
+          "kind": "math",
+          "text": "α}{"
+        },
+        {
+          "kind": "text",
+          "text": "hypotenuse"
+        },
+        {
+          "kind": "math",
+          "text": "}=\\frac{3}{5}tanα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "α}{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent to"
+        },
+        {
+          "kind": "math",
+          "text": "α}=\\frac{4}{3}secα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "hypotenuse"
+        },
+        {
+          "kind": "math",
+          "text": "}{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent to"
+        },
+        {
+          "kind": "math",
+          "text": "α}=\\frac{5}{3}cscα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "hypotenuse"
+        },
+        {
+          "kind": "math",
+          "text": "}{"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "α}=\\frac{5}{4}cotα=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent to"
+        },
+        {
+          "kind": "math",
+          "text": "α}{"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "α}=\\frac{3}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-31": [
+      [
+        {
+          "kind": "math",
+          "text": "sint=\\frac{33}{65},cost=\\frac{56}{65},tant=\\frac{33}{56},sect=\\frac{65}{56},csct=\\frac{65}{33},cott=\\frac{56}{33}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-42": [
+      [
+        {
+          "kind": "math",
+          "text": "sin(\\frac{π}{3})=\\frac{opp}{hyp}=\\frac{\\sqrt{3s}}{2s}=\\frac{\\sqrt{3}}{2}cos(\\frac{π}{3})=\\frac{adj}{hyp}=\\frac{s}{2s}=\\frac{1}{2}tan(\\frac{π}{3})=\\frac{opp}{adj}=\\frac{\\sqrt{3}s}{s}=\\sqrt{3}sec(\\frac{π}{3})=\\frac{hyp}{adj}=\\frac{2s}{s}=2csc(\\frac{π}{3})=\\frac{hyp}{opp}=\\frac{2s}{\\sqrt{3}s}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}cot(\\frac{π}{3})=\\frac{adj}{opp}=\\frac{s}{\\sqrt{3}s}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-44": [
+      [
+        {
+          "kind": "math",
+          "text": "sin(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},cos(\\frac{π}{4})=\\frac{\\sqrt{2}}{2},tan(\\frac{π}{4})=1,sec(\\frac{π}{4})=\\sqrt{2},csc(\\frac{π}{4})=\\sqrt{2},cot(\\frac{π}{4})=1"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-58": [
+      [
+        {
+          "kind": "text",
+          "text": "According to the cofunction identities for sine and cosine, we have the following."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "sint=cos(\\frac{π}{2}-t)"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "So"
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "cos(\\frac{π}{2}-t)=\\frac{5}{12}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-61": [
+      [
+        {
+          "kind": "text",
+          "text": "2"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-67": [
+      [
+        {
+          "kind": "text",
+          "text": "We know the angle and the opposite side, so we can use the tangent to find the adjacent side."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "tan(30°)=\\frac{7}{a}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We rearrange to solve for"
+        },
+        {
+          "kind": "math",
+          "text": "a."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "a=\\frac{7}{tan(30°)}≈12.1"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "We can use the sine to find the hypotenuse."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "sin(30°)=\\frac{7}{c}"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Again, we rearrange to solve for"
+        },
+        {
+          "kind": "math",
+          "text": "c."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "c=\\frac{7}{sin(30°)}=14"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-74": [
+      [
+        {
+          "kind": "text",
+          "text": "adjacent"
+        },
+        {
+          "kind": "math",
+          "text": "=10;"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "=10\\sqrt{3};"
+        },
+        {
+          "kind": "text",
+          "text": "missing angle is"
+        },
+        {
+          "kind": "math",
+          "text": "\\frac{π}{6}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-83": [
+      [
+        {
+          "kind": "text",
+          "text": "We know that the angle of elevation is"
+        },
+        {
+          "kind": "math",
+          "text": "57°"
+        },
+        {
+          "kind": "text",
+          "text": "and the adjacent side is 30 ft long. The opposite side is the unknown height."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The trigonometric function relating the side opposite to an angle and the side adjacent to the angle is the tangent. So we will state our information in terms of the tangent of"
+        },
+        {
+          "kind": "math",
+          "text": "57°,"
+        },
+        {
+          "kind": "text",
+          "text": "letting"
+        },
+        {
+          "kind": "math",
+          "text": "h"
+        },
+        {
+          "kind": "text",
+          "text": "be the unknown height."
+        }
+      ],
+      [
+        {
+          "kind": "math",
+          "text": "tanθ=\\frac{"
+        },
+        {
+          "kind": "text",
+          "text": "opposite"
+        },
+        {
+          "kind": "math",
+          "text": "}{"
+        },
+        {
+          "kind": "text",
+          "text": "adjacent"
+        },
+        {
+          "kind": "math",
+          "text": "}tan(57°)=\\frac{h}{30}"
+        },
+        {
+          "kind": "text",
+          "text": "Solve for"
+        },
+        {
+          "kind": "math",
+          "text": "h.h=30tan(57°)"
+        },
+        {
+          "kind": "text",
+          "text": "Multiply"
+        },
+        {
+          "kind": "math",
+          "text": ".h≈46.2"
+        },
+        {
+          "kind": "text",
+          "text": "Use a calculator"
+        },
+        {
+          "kind": "math",
+          "text": "."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "The tree is approximately 46 feet tall."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-89": [
+      [
+        {
+          "kind": "text",
+          "text": "About 52 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-97": [
+      []
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-101": [
+      [
+        {
+          "kind": "text",
+          "text": "The tangent of an angle is the ratio of the opposite side to the adjacent side."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-106": [
+      [
+        {
+          "kind": "text",
+          "text": "For example, the sine of an angle is equal to the cosine of its complement; the cosine of an angle is equal to the sine of its complement."
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-113": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{6}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-117": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{π}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-122": [
+      [
+        {
+          "kind": "math",
+          "text": "b=\\frac{20\\sqrt{3}}{3},c=\\frac{40\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-127": [
+      [
+        {
+          "kind": "math",
+          "text": "a=10,000,c=10,000.5"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-131": [
+      [
+        {
+          "kind": "math",
+          "text": "b=\\frac{5\\sqrt{3}}{3},c=\\frac{10\\sqrt{3}}{3}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-137": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5\\sqrt{29}}{29}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-140": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-142": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{29}}{2}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-147": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5\\sqrt{41}}{41}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-150": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{5}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-152": [
+      [
+        {
+          "kind": "math",
+          "text": "\\frac{\\sqrt{41}}{4}"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-160": [
+      [
+        {
+          "kind": "math",
+          "text": "a=55.9808,c=57.9555"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-163": [
+      [
+        {
+          "kind": "math",
+          "text": "a=46.6790,b=17.9184"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-166": [
+      [
+        {
+          "kind": "math",
+          "text": "a=16.4662,c=16.8341"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-170": [
+      [
+        {
+          "kind": "text",
+          "text": "188.3159"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-172": [
+      [
+        {
+          "kind": "text",
+          "text": "200.6737"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-175": [
+      [
+        {
+          "kind": "text",
+          "text": "498.3471 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-179": [
+      [
+        {
+          "kind": "text",
+          "text": "1060.09 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-183": [
+      [
+        {
+          "kind": "text",
+          "text": "27.372 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-188": [
+      [
+        {
+          "kind": "text",
+          "text": "22.6506 ft"
+        }
+      ]
+    ],
+    "osbooks-college-algebra-bundle:m51284:exr-192": [
+      [
+        {
+          "kind": "text",
+          "text": "368.7633 ft"
+        }
+      ]
+    ]
+  }
+}

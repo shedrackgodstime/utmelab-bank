@@ -1,0 +1,3782 @@
+{
+  "chapter_id": "math_trigonometry",
+  "schema_version": 2,
+  "updated_at": "2026-11-14",
+  "title": "Trigonometry",
+  "book_id": "secondary_mathematics",
+  "part_id": "part-2",
+  "publisher": "OpenStax",
+  "source_title": "Precalculus 2e",
+  "source_url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+  "licence": "CC BY-NC-SA 4.0",
+  "authored_source_title": "Secondary Mathematics",
+  "learning_objectives": [
+    "Draw angles in standard position and convert between degrees and radians.",
+    "Find coterminal and reference angles in both units.",
+    "Use radian measure to compute arc length, sector area, and linear and angular speed.",
+    "Define and evaluate the six trigonometric ratios of an acute angle in a right triangle.",
+    "Solve right triangles and apply them to angles of elevation and depression.",
+    "Evaluate sine and cosine from the unit circle and use the Pythagorean identity.",
+    "Evaluate all six trigonometric functions with reference angles, and use the even, odd and fundamental identities."
+  ],
+  "prerequisites": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$180°=\\pi$ radians",
+      "caption": {
+        "text": "Degree and radian relation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The same half turn measured in the two units.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Relating Arc Lengths to Radius'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$s=r\\theta$",
+      "caption": {
+        "text": "Arc length",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$\\theta$ must be in radians and $r$ is the radius.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Determining the Length of an Arc'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$A=\\frac{1}{2}r^2\\theta$",
+      "caption": {
+        "text": "Area of a sector",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$\\theta$ must be in radians and $r$ is the radius.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Finding the Area of a Sector of a Circle'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\omega=\\frac{\\theta}{t}$",
+      "caption": {
+        "text": "Angular speed",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$\\theta$ is the angle turned in time $t$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$v=r\\omega$",
+      "caption": {
+        "text": "Linear speed on a circular path",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$\\omega$ must be in radians per unit time.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\sin t=\\frac{\\text{opposite}}{\\text{hypotenuse}},\\ \\cos t=\\frac{\\text{adjacent}}{\\text{hypotenuse}},\\ \\tan t=\\frac{\\text{opposite}}{\\text{adjacent}}$",
+      "caption": {
+        "text": "Right-triangle ratios",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an acute angle $t$ in a right triangle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+        "locator": "CNXML module m51284, section 'Using Right Triangles to Evaluate Trigonometric Functions'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\csc t=\\frac{1}{\\sin t},\\ \\sec t=\\frac{1}{\\cos t},\\ \\cot t=\\frac{1}{\\tan t}$",
+      "caption": {
+        "text": "Reciprocal identities",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Wherever the denominator is not zero.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\tan t=\\frac{\\sin t}{\\cos t},\\ \\cot t=\\frac{\\cos t}{\\sin t}$",
+      "caption": {
+        "text": "Quotient identities",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Wherever the denominator is not zero.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$\\sin^2 t+\\cos^2 t=1$",
+      "caption": {
+        "text": "Pythagorean identity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For every real angle $t$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+        "locator": "CNXML module m51285, section 'The Pythagorean Identity'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-10",
+      "expression": "$1+\\tan^2 t=\\sec^2 t,\\ 1+\\cot^2 t=\\csc^2 t$",
+      "caption": {
+        "text": "Alternate forms of the Pythagorean identity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Wherever the functions are defined.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Alternate Forms of the Pythagorean Identity'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-11",
+      "expression": "$\\sin\\left(\\frac{\\pi}{2}-t\\right)=\\cos t,\\ \\tan\\left(\\frac{\\pi}{2}-t\\right)=\\cot t$",
+      "caption": {
+        "text": "Cofunction identities",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For complementary angles.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+        "locator": "CNXML module m51284, section 'Using Equal Cofunction of Complements'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g-1",
+      "term": {
+        "text": "angle",
+        "inline": []
+      },
+      "definition": {
+        "text": "The union of two rays that share an endpoint, measured as the rotation from the initial side to the terminal side.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-2",
+      "term": {
+        "text": "standard position",
+        "inline": []
+      },
+      "definition": {
+        "text": "An angle whose vertex is at the origin and whose initial side lies on the positive $x$-axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-3",
+      "term": {
+        "text": "initial side",
+        "inline": []
+      },
+      "definition": {
+        "text": "The fixed ray of an angle in standard position, lying on the positive $x$-axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-4",
+      "term": {
+        "text": "terminal side",
+        "inline": []
+      },
+      "definition": {
+        "text": "The ray of an angle that rotates away from the initial side.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-5",
+      "term": {
+        "text": "quadrantal angle",
+        "inline": []
+      },
+      "definition": {
+        "text": "An angle whose terminal side lies on one of the coordinate axes, such as 0°, 90°, 180°, 270° or 360°.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-6",
+      "term": {
+        "text": "degree",
+        "inline": []
+      },
+      "definition": {
+        "text": "One three hundred and sixtieth of a full rotation.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-7",
+      "term": {
+        "text": "radian",
+        "inline": []
+      },
+      "definition": {
+        "text": "The measure of a central angle that intercepts an arc equal in length to the radius; a full turn is $2\\pi$ radians.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Relating Arc Lengths to Radius'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-8",
+      "term": {
+        "text": "coterminal angles",
+        "inline": []
+      },
+      "definition": {
+        "text": "Two angles in standard position that share the same terminal side; they differ by a whole number of turns.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Finding Coterminal Angles'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-9",
+      "term": {
+        "text": "reference angle",
+        "inline": []
+      },
+      "definition": {
+        "text": "The smallest positive acute angle between the terminal side of an angle and the horizontal axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+        "locator": "CNXML module m51285, section 'Finding Reference Angles'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-10",
+      "term": {
+        "text": "arc length",
+        "inline": []
+      },
+      "definition": {
+        "text": "The length of the curve along a circular arc, given by $s=r\\theta$ when $\\theta$ is in radians.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Determining the Length of an Arc'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-11",
+      "term": {
+        "text": "sector",
+        "inline": []
+      },
+      "definition": {
+        "text": "The region of a circle bounded by two radii and the arc between them.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Finding the Area of a Sector of a Circle'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-12",
+      "term": {
+        "text": "angular speed",
+        "inline": []
+      },
+      "definition": {
+        "text": "The angle turned per unit time, $\\omega=\\frac{\\theta}{t}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-13",
+      "term": {
+        "text": "linear speed",
+        "inline": []
+      },
+      "definition": {
+        "text": "The distance travelled along a path per unit time; on a circle it is $v=r\\omega$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+        "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-14",
+      "term": {
+        "text": "sine",
+        "inline": []
+      },
+      "definition": {
+        "text": "For an acute angle in a right triangle, the opposite side over the hypotenuse; on the unit circle, the $y$-coordinate.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+        "locator": "CNXML module m51284, section 'Using Right Triangles to Evaluate Trigonometric Functions'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-15",
+      "term": {
+        "text": "cosine",
+        "inline": []
+      },
+      "definition": {
+        "text": "For an acute angle in a right triangle, the adjacent side over the hypotenuse; on the unit circle, the $x$-coordinate.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+        "locator": "CNXML module m51284, section 'Using Right Triangles to Evaluate Trigonometric Functions'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-16",
+      "term": {
+        "text": "tangent",
+        "inline": []
+      },
+      "definition": {
+        "text": "The ratio of the opposite side to the adjacent side in a right triangle, or $\\frac{\\sin t}{\\cos t}$ on the unit circle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Finding Exact Values of the Trigonometric Functions Secant, Cosecant, Tangent, and Cotangent'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-17",
+      "term": {
+        "text": "secant",
+        "inline": []
+      },
+      "definition": {
+        "text": "The reciprocal of cosine, $\\sec t=\\frac{1}{\\cos t}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-18",
+      "term": {
+        "text": "cosecant",
+        "inline": []
+      },
+      "definition": {
+        "text": "The reciprocal of sine, $\\csc t=\\frac{1}{\\sin t}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-19",
+      "term": {
+        "text": "cotangent",
+        "inline": []
+      },
+      "definition": {
+        "text": "The reciprocal of tangent, $\\cot t=\\frac{\\cos t}{\\sin t}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-20",
+      "term": {
+        "text": "unit circle",
+        "inline": []
+      },
+      "definition": {
+        "text": "The circle of radius 1 centred at the origin; a point at angle $t$ on it has coordinates $(\\cos t,\\sin t)$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+        "locator": "CNXML module m51285, section 'Finding Trigonometric Functions Using the Unit Circle'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-21",
+      "term": {
+        "text": "Pythagorean identity",
+        "inline": []
+      },
+      "definition": {
+        "text": "The identity $\\sin^2 t+\\cos^2 t=1$, read from the equation of the unit circle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+        "locator": "CNXML module m51285, section 'The Pythagorean Identity'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-22",
+      "term": {
+        "text": "even function",
+        "inline": []
+      },
+      "definition": {
+        "text": "A function for which $f(-t)=f(t)$; cosine and secant are even.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Using Even and Odd Trigonometric Functions'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-23",
+      "term": {
+        "text": "odd function",
+        "inline": []
+      },
+      "definition": {
+        "text": "A function for which $f(-t)=-f(t)$; sine, tangent, cosecant and cotangent are odd.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Using Even and Odd Trigonometric Functions'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-24",
+      "term": {
+        "text": "identity",
+        "inline": []
+      },
+      "definition": {
+        "text": "An equation that is true for every value of the variable for which both sides are defined.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-25",
+      "term": {
+        "text": "period",
+        "inline": []
+      },
+      "definition": {
+        "text": "The smallest positive interval after which a repeating function returns to the same values.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra and Trigonometry",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+        "locator": "CNXML module m51286, section 'Alternate Forms of the Pythagorean Identity'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Angles in standard position",
+      "slug": "angles-in-standard-position",
+      "est_minutes": 14,
+      "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'",
+      "module": "m51283",
+      "objectives": [
+        "Identify the initial side, terminal side and vertex of an angle, and describe an angle as a rotation.",
+        "Draw a positive or negative angle in standard position and name the quadrant that holds its terminal side.",
+        "Recognise quadrantal angles and state their measures."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A negative angle is smaller than zero and therefore cannot be drawn.",
+          "correction": "The sign records the direction of the rotation, not its size. An angle of $-135°$ is a rotation of 135° in the clockwise direction.",
+          "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'"
+        },
+        {
+          "claim": "An angle in standard position may start from any ray.",
+          "correction": "Standard position fixes the vertex at the origin and the initial side on the positive $x$-axis. Only the terminal side moves.",
+          "locator": "CNXML module m51283, section 'Drawing Angles in Standard Position'"
+        }
+      ],
+      "summary": [
+        "An angle in standard position has its vertex at the origin and its initial side on the positive $x$-axis.",
+        "A counterclockwise rotation is positive; a clockwise rotation is negative.",
+        "Quadrantal angles have terminal sides on an axis: 0°, 90°, 180°, 270° and 360°."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "An angle is a rotation, not a shape. Fix the initial side on the positive $x$-axis, turn the terminal side through the given measure, and the drawing follows from the fraction of a full turn: $90°$ is a quarter turn, $180°$ a half turn, and $270°$ three quarters. The sign tells the direction of the turn, so a negative angle is drawn clockwise while its size stays positive. Examination questions usually ask for the quadrant or for a sketch, and both come from counting quarters rather than from measuring with a protractor.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "angles",
+        "standard-position",
+        "quadrants"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-angles-from-0o-to-360o",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Drawing Angles in Standard Position",
+        "Verbal"
+      ],
+      "exercise_plan": {
+        "exr-23": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Divide the measure by 360° to see what fraction of a full turn the angle represents."
+          ]
+        },
+        "exr-193": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "hints": [
+            "Think of the arrow near the vertex: which way is it turning?"
+          ]
+        }
+      },
+      "authored_exercises": [
+        {
+          "stem": "Sketch an angle of $210°$ in standard position and state the quadrant in which its terminal side lies.",
+          "kind": "application",
+          "answer": "The terminal side lies in the third quadrant.",
+          "answer_kind": "expression",
+          "difficulty": 2,
+          "marks": 2,
+          "tier": "core",
+          "solution": [
+            "Starting from the positive $x$-axis, rotate counterclockwise through $180°$ to reach the negative $x$-axis.",
+            "Rotate a further $30°$. The terminal side lies between $180°$ and $270°$, so it is in the third quadrant."
+          ],
+          "hints": [
+            "Compare the measure with 180° and 270°."
+          ],
+          "tags": [
+            "angles",
+            "standard-position",
+            "quadrants"
+          ]
+        },
+        {
+          "stem": "An angle in standard position has measure $-150°$. Describe its rotation and name the quadrant of its terminal side.",
+          "kind": "application",
+          "answer": "A clockwise rotation of 150°; the terminal side lies in the third quadrant.",
+          "answer_kind": "expression",
+          "difficulty": 1,
+          "marks": 1,
+          "tier": "warm_up",
+          "solution": [
+            "The negative sign means the rotation is clockwise from the positive $x$-axis.",
+            "A clockwise turn of $150°$ passes the negative $y$-axis at $90°$ and stops before $180°$, so the terminal side is in the third quadrant."
+          ],
+          "hints": [
+            "A negative angle turns clockwise.",
+            "Third-quadrant angles lie between 180° and 270° counterclockwise, or between 90° and 180° clockwise."
+          ],
+          "tags": [
+            "angles",
+            "standard-position",
+            "negative-angles"
+          ]
+        }
+      ],
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "angle. is a list of Greek letters commonly used to represent angles, and a sample angle is shown in .",
+          "replace": "angle. Letters of the Greek alphabet are commonly used to represent angles, and a sample angle is shown in the figure below."
+        },
+        {
+          "find": "See .",
+          "replace": "See the figure below."
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        },
+        {
+          "find": "as in.",
+          "replace": "as in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "Radian measure and degree conversion",
+      "slug": "radian-measure-and-degree-conversion",
+      "est_minutes": 13,
+      "locator": "CNXML module m51283, sections 'Converting Between Degrees and Radians' and 'Identifying Special Angles Measured in Radians'",
+      "module": "m51283",
+      "objectives": [
+        "Define the radian as the ratio of an arc length to the radius, and explain why it has no unit.",
+        "Convert between degrees and radians using $180°=\\pi$ radians.",
+        "Recognise the common angles in both units."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A radian is a length, measured in centimetres or inches.",
+          "correction": "A radian is the ratio of two lengths, arc divided by radius, so the units cancel and the measure is dimensionless.",
+          "locator": "CNXML module m51283, section 'Using Radians'"
+        },
+        {
+          "claim": "$1$ radian equals $180°$.",
+          "correction": "Half a turn is $\\pi$ radians, which is $180°$, so one radian is about $57.3°$.",
+          "locator": "CNXML module m51283, section 'Relating Arc Lengths to Radius'"
+        }
+      ],
+      "summary": [
+        "A full turn is $360°$ or $2\\pi$ radians; a half turn is $180°$ or $\\pi$ radians.",
+        "Multiply degrees by $\\frac{\\pi}{180}$ to get radians, and radians by $\\frac{180}{\\pi}$ to get degrees.",
+        "The special angles are $30°=\\frac{\\pi}{6}$, $45°=\\frac{\\pi}{4}$, $60°=\\frac{\\pi}{3}$ and $90°=\\frac{\\pi}{2}$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Degrees and radians answer the same question with different units. A radian is the angle whose intercepted arc equals the radius, so a full turn is $2\\pi$ radians and a half turn is $\\pi$ radians. Convert by keeping the proportion $\\frac{\\theta}{180°}=\\frac{\\theta_R}{\\pi}$: multiply degrees by $\\frac{\\pi}{180}$ to reach radians, and radians by $\\frac{180}{\\pi}$ to reach degrees. The special angles recur in every later section, so learn them as pairs rather than converting each time.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "radians",
+        "degrees",
+        "conversion",
+        "special-angles"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-use-of-tables-of-trigonometric-ratios-45o-and-60o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Converting Between Degrees and Radians",
+        "Identifying Special Angles Measured in Radians",
+        "Algebraic"
+      ],
+      "exercise_plan": {
+        "exr-63": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Find the arc length as a fraction of the circumference, then divide by the radius."
+          ]
+        },
+        "exr-74": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Set the radian measure over $\\pi$ equal to the degree measure over 180."
+          ]
+        },
+        "exr-84": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Multiply the degree measure by $\\frac{\\pi}{180}$ and simplify the fraction."
+          ]
+        },
+        "exr-238": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Multiply by $\\frac{180}{\\pi}$; the $\\pi$ cancels."
+          ]
+        },
+        "exr-251": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "90° is one quarter of a full turn."
+          ]
+        },
+        "exr-254": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "The sign stays with the angle; a full turn is $2\\pi$ radians, so a half turn is $\\pi$."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "listed in , which are shown in .",
+          "replace": "listed above, which are shown in the figure below."
+        },
+        {
+          "find": "See .",
+          "replace": "See the figure below."
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "Coterminal angles",
+      "slug": "coterminal-angles",
+      "est_minutes": 13,
+      "locator": "CNXML module m51283, sections 'Finding Coterminal Angles' and 'Finding Coterminal Angles Measured in Radians'",
+      "module": "m51283",
+      "objectives": [
+        "Find an angle coterminal with a given angle by adding or subtracting full turns.",
+        "Find the least positive coterminal angle in degrees and in radians."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Coterminal angles are equal angles.",
+          "correction": "They share a terminal side but have different measures. $140°$ and $-220°$ are coterminal, not equal.",
+          "locator": "CNXML module m51283, section 'Finding Coterminal Angles'"
+        },
+        {
+          "claim": "To find a coterminal angle you add $180°$.",
+          "correction": "A coterminal angle differs by a full turn: $360°$ in degrees or $2\\pi$ radians. Half a turn lands on the opposite side of the circle.",
+          "locator": "CNXML module m51283, section 'Finding Coterminal Angles Measured in Radians'"
+        }
+      ],
+      "summary": [
+        "Coterminal angles differ by whole turns: $\\theta+360°k$ or $\\theta+2\\pi k$ for an integer $k$.",
+        "Choose $k$ so that the result lies in $0°\\le\\theta<360°$ or $0\\le\\theta<2\\pi$.",
+        "Every angle has infinitely many coterminal angles."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Every angle has infinitely many coterminal partners, because adding or subtracting a full turn returns the terminal side to the same place. In degrees add or subtract $360°$; in radians add or subtract $2\\pi$. Examination questions usually ask for the least positive partner, which means choosing the number of turns that lands the angle in $0°\\le\\theta<360°$ or $0\\le\\theta<2\\pi$. A coterminal angle is not equal to the original, only indistinguishable on the circle.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "coterminal",
+        "angles",
+        "radians"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-angles-from-0o-to-360o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-3-trigonometric-functions-and-equations",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Finding Coterminal Angles",
+        "Finding Coterminal Angles Measured in Radians",
+        "Algebraic"
+      ],
+      "exercise_plan": {
+        "exr-97": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Subtract 360° repeatedly until the result is below 360°."
+          ]
+        },
+        "exr-102": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "870° is more than two full turns."
+          ]
+        },
+        "exr-112": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Add 360° to a negative angle to move it into the required range."
+          ]
+        },
+        "exr-118": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Subtract $2\\pi$, written with denominator 4, and check whether the result is below $2\\pi$."
+          ]
+        },
+        "exr-124": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Add $2\\pi$, written with denominator 6."
+          ]
+        },
+        "exr-289": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "1400° is almost four full turns; subtract 360° three times."
+          ]
+        }
+      },
+      "figure_drops": [
+        "images/math_angles_CNX_Precalc_Figure_05_01_019-5d63.jpg"
+      ],
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "Look at .",
+          "replace": "Look at the figure below."
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Arc length and sector area",
+      "slug": "arc-length-and-sector-area",
+      "est_minutes": 14,
+      "locator": "CNXML module m51283, sections 'Relating Arc Lengths to Radius', 'Using Radians', 'Determining the Length of an Arc' and 'Finding the Area of a Sector of a Circle'",
+      "module": "m51283",
+      "objectives": [
+        "Use $s=r\\theta$ to find an arc length when the angle is in radians.",
+        "Use $A=\\frac{1}{2}r^2\\theta$ to find the area of a sector.",
+        "Convert a degree measure to radians before applying either formula."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The formulas $s=r\\theta$ and $A=\\frac{1}{2}r^2\\theta$ accept an angle in degrees.",
+          "correction": "Both formulas need $\\theta$ in radians. Convert first, or the answer is wrong by a factor of $\\frac{\\pi}{180}$.",
+          "locator": "CNXML module m51283, section 'Finding the Area of a Sector of a Circle'"
+        },
+        {
+          "claim": "The area of a sector is $\\pi r^2\\theta$.",
+          "correction": "The sector is the fraction $\\frac{\\theta}{2\\pi}$ of the circle, so $A=\\frac{\\theta}{2\\pi}\\pi r^2=\\frac{1}{2}r^2\\theta$.",
+          "locator": "CNXML module m51283, section 'Finding the Area of a Sector of a Circle'"
+        }
+      ],
+      "summary": [
+        "Arc length is $s=r\\theta$ when $\\theta$ is in radians.",
+        "Sector area is $A=\\frac{1}{2}r^2\\theta$ when $\\theta$ is in radians.",
+        "A sector is the fraction $\\frac{\\theta}{2\\pi}$ of the whole circle."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Arc length and sector area are the two circular measures that follow directly from radian measure. When $\\theta$ is in radians, an arc cuts a length $s=r\\theta$ and a sector encloses an area $A=\\frac{1}{2}r^2\\theta$. The sector formula is the fraction $\\frac{\\theta}{2\\pi}$ of the whole circle area, so it also explains why the angle must be in radians. If a question gives degrees, convert first; that one step prevents most errors.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "arc-length",
+        "sector-area",
+        "radians"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "mensuration",
+          "subtopic_slug": "lengths-of-arcs-and-chords-of-a-circle",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "mensuration",
+          "subtopic_slug": "perimeters-and-areas-of-sectors-and-segments-of-circles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Relating Arc Lengths to Radius",
+        "Using Radians",
+        "Determining the Length of an Arc",
+        "Finding the Area of a Sector of a Circle",
+        "Algebraic"
+      ],
+      "exercise_plan": {
+        "exr-132": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Find the circumference first, then take 0.0114 of it.",
+            "Divide the arc length by the radius for the radian measure."
+          ]
+        },
+        "exr-135": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Convert 215° to radians before multiplying by the radius."
+          ]
+        },
+        "exr-144": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "30° is $\\frac{\\pi}{6}$ radians.",
+            "Substitute $r=20$ and $\\theta=\\frac{\\pi}{6}$ into the sector formula."
+          ]
+        },
+        "exr-150": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Solve $A=\\frac{1}{2}r^2\\theta$ for $\\theta$.",
+            "Divide 150 000 by half the square of 400."
+          ]
+        },
+        "exr-263": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "The angle is already in radians."
+          ]
+        },
+        "exr-268": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Convert 50° to radians first."
+          ]
+        },
+        "exr-279": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Use $A=\\frac{1}{2}r^2\\theta$ with $\\theta=\\frac{\\pi}{6}$."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "For example, in , suppose",
+          "replace": "For example, suppose"
+        },
+        {
+          "find": "shown in , is",
+          "replace": "shown in the figure below, is"
+        },
+        {
+          "find": "See .",
+          "replace": "See the figure below."
+        },
+        {
+          "find": "as in.",
+          "replace": "as in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "Linear and angular speed",
+      "slug": "linear-and-angular-speed",
+      "est_minutes": 13,
+      "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'",
+      "module": "m51283",
+      "objectives": [
+        "Distinguish linear speed from angular speed on a circular path.",
+        "Compute angular speed as $\\omega=\\frac{\\theta}{t}$ and linear speed as $v=r\\omega$.",
+        "Convert between revolutions per minute and radians per unit time."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Every point on a rotating wheel has the same linear speed.",
+          "correction": "Every point has the same angular speed, but $v=r\\omega$ grows with the radius, so a point on the rim moves faster than a point near the centre.",
+          "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'"
+        },
+        {
+          "claim": "You can substitute revolutions per minute directly into $v=r\\omega$.",
+          "correction": "$v=r\\omega$ requires $\\omega$ in radians per unit time. Convert revolutions per minute to radians per minute by multiplying by $2\\pi$.",
+          "locator": "CNXML module m51283, section 'Use Linear and Angular Speed to Describe Motion on a Circular Path'"
+        }
+      ],
+      "summary": [
+        "Angular speed is $\\omega=\\frac{\\theta}{t}$; linear speed is $v=\\frac{s}{t}$.",
+        "The two are linked by $v=r\\omega$ when $\\omega$ is in radians per unit time.",
+        "One revolution is $2\\pi$ radians, so revolutions per minute convert by $2\\pi$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Two speeds describe motion on a circle. Angular speed $\\omega=\\frac{\\theta}{t}$ measures how fast the angle turns, while linear speed $v=\\frac{s}{t}$ measures how fast a point travels along the arc. They meet in $v=r\\omega$, which holds only when $\\omega$ is in radians per unit time. On the same wheel every point has the same angular speed, but a point farther from the centre has the greater linear speed because it travels a longer arc in the same time.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "angular-speed",
+        "linear-speed",
+        "circular-motion"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "mensuration",
+          "subtopic_slug": "lengths-of-arcs-and-chords-of-a-circle",
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "mensuration",
+          "subtopic_slug": "perimeters-and-areas-of-sectors-and-segments-of-circles",
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-3-trigonometric-functions-and-equations",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Use Linear and Angular Speed to Describe Motion on a Circular Path",
+        "Real-World Applications"
+      ],
+      "exercise_plan": {
+        "exr-164": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "One rotation is $2\\pi$ radians.",
+            "Divide the angle turned by the time."
+          ]
+        },
+        "exr-168": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Convert minutes to seconds and revolutions to radians."
+          ]
+        },
+        "exr-173": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The radius is half the diameter.",
+            "Convert 180 revolutions per minute to radians per minute before using $v=r\\omega$."
+          ]
+        },
+        "exr-303": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Use $v=r\\omega$ for the linear speed.",
+            "Convert radians per second to revolutions per minute and to degrees per second separately."
+          ]
+        },
+        "exr-313": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "Convert 5 minutes to degrees, then to radians.",
+            "Use $s=r\\theta$."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": []
+    },
+    {
+      "id": "sec-6",
+      "title": "Right-triangle trigonometric ratios",
+      "slug": "right-triangle-trigonometric-ratios",
+      "est_minutes": 15,
+      "locator": "CNXML module m51284, sections 'Using Right Triangles to Evaluate Trigonometric Functions', 'Reciprocal Functions', 'Finding Trigonometric Functions of Special Angles Using Side Lengths' and 'Using Equal Cofunction of Complements'",
+      "module": "m51284",
+      "objectives": [
+        "Define the six trigonometric ratios of an acute angle in a right triangle.",
+        "Evaluate the six functions from the side lengths of a triangle.",
+        "Use the special triangles to find exact values, and apply the cofunction identities."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The sine of an angle is the adjacent side over the hypotenuse.",
+          "correction": "Sine is opposite over hypotenuse. The adjacent side over the hypotenuse is cosine.",
+          "locator": "CNXML module m51284, section 'Using Right Triangles to Evaluate Trigonometric Functions'"
+        },
+        {
+          "claim": "The cofunction identity applies only to sine and cosine.",
+          "correction": "Every function pairs with its cofunction at complementary angles: sine with cosine, tangent with cotangent, and secant with cosecant.",
+          "locator": "CNXML module m51284, section 'Using Equal Cofunction of Complements'"
+        }
+      ],
+      "summary": [
+        "SohCahToa: sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, tangent is opposite over adjacent.",
+        "Secant, cosecant and cotangent are the reciprocals of cosine, sine and tangent.",
+        "$\\sin\\left(\\frac{\\pi}{2}-t\\right)=\\cos t$, and the same pattern pairs every function with its cofunction."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Right-triangle trigonometry names six ratios of the sides, and every one of them depends on which acute angle is chosen. The three primary ratios are sine, cosine and tangent, remembered as SohCahToa; the other three are their reciprocals. Because the two acute angles of a right triangle are complementary, the sine of one is the cosine of the other, which is the cofunction identity. The special triangles supply exact values without a calculator.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "right-triangle",
+        "ratios",
+        "cofunctions",
+        "special-angles"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-acute-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Using Right Triangles to Evaluate Trigonometric Functions",
+        "Reciprocal Functions",
+        "Finding Trigonometric Functions of Special Angles Using Side Lengths",
+        "Using Equal Cofunction of Complements"
+      ],
+      "exercise_plan": {
+        "exr-12": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Cosine is the side adjacent to the angle over the hypotenuse."
+          ]
+        },
+        "exr-27": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "For angle $\\alpha$, the side of length 4 is opposite and the side of length 3 is adjacent.",
+            "Find sine, cosine and tangent first, then take reciprocals."
+          ]
+        },
+        "exr-31": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The side opposite $t$ has length 33 and the hypotenuse has length 65."
+          ]
+        },
+        "exr-42": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "In a 30°-60°-90° triangle the sides are $s$, $s\\sqrt{3}$ and $2s$."
+          ]
+        },
+        "exr-44": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "In a 45°-45°-90° triangle the legs are equal and the hypotenuse is $s\\sqrt{2}$."
+          ]
+        },
+        "exr-58": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "algebraic",
+          "hints": [
+            "Use $\\sin t=\\cos\\left(\\frac{\\pi}{2}-t\\right)$."
+          ]
+        },
+        "exr-61": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "algebraic",
+          "hints": [
+            "$\\frac{\\pi}{6}$ and $\\frac{\\pi}{3}$ are complementary.",
+            "Cosecant and secant are cofunctions."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "For the triangle shown in , we have the following.",
+          "replace": "For the triangle above, we have the following."
+        },
+        {
+          "find": "shows a right triangle",
+          "replace": "The figure below shows a right triangle"
+        },
+        {
+          "find": "in the triangle in .",
+          "replace": "in the triangle below."
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-7",
+      "title": "Solving right triangles and applied problems",
+      "slug": "solving-right-triangles-and-applied-problems",
+      "est_minutes": 15,
+      "locator": "CNXML module m51284, sections 'Using Trigonometric Functions' and 'Using Right Triangle Trigonometry to Solve Applied Problems'",
+      "module": "m51284",
+      "objectives": [
+        "Choose the trigonometric ratio that connects a known angle, a known side and the side to be found.",
+        "Solve a right triangle for missing sides and angles.",
+        "Solve height and distance problems using angles of elevation and depression."
+      ],
+      "misconceptions": [
+        {
+          "claim": "An angle of elevation is measured from the vertical.",
+          "correction": "Angles of elevation and depression are measured from the horizontal. The line of sight is compared with a horizontal line through the observer.",
+          "locator": "CNXML module m51284, section 'Using Right Triangle Trigonometry to Solve Applied Problems'"
+        },
+        {
+          "claim": "If the known side is adjacent to the angle, use sine.",
+          "correction": "Sine uses the opposite side. When the known side is adjacent and the unknown is opposite, use tangent; when the unknown is the hypotenuse, use cosine.",
+          "locator": "CNXML module m51284, section 'Using Trigonometric Functions'"
+        }
+      ],
+      "summary": [
+        "Label the sketch first, then choose the ratio that names the known angle, the known side and the unknown.",
+        "Use an inverse trigonometric function when the unknown is an angle.",
+        "Angles of elevation and depression are both measured from the horizontal."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Most right-triangle problems are solved by labelling the sketch before reaching for a ratio. Mark the known angle, the known side and the side you want, then choose the ratio that mentions exactly those three quantities. If the unknown is an angle, apply the inverse function at the end. Angles of elevation and depression are both measured from the horizontal, which is why a line of sight upward and a line of sight downward to the same object produce equal angles when the two horizontal lines are parallel. Round only at the final step.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "right-triangle",
+        "elevation",
+        "depression",
+        "applications"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "angles-of-elevation-and-depression",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-angles-of-elevation-and-depression",
+          "subtopic_slug": "waec-calculating-angles-of-elevation-and-depression",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-angles-of-elevation-and-depression",
+          "subtopic_slug": "waec-application-to-heights-and-distances",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Using Trigonometric Functions",
+        "Using Right Triangle Trigonometry to Solve Applied Problems",
+        "Extensions",
+        "Real-World Applications"
+      ],
+      "exercise_plan": {
+        "exr-67": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The known side of length 7 is opposite the 30° angle.",
+            "Use tangent for the adjacent side and sine for the hypotenuse."
+          ]
+        },
+        "exr-74": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "The missing angle is $\\frac{\\pi}{2}-\\frac{\\pi}{3}$."
+          ]
+        },
+        "exr-83": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The 30 ft side is adjacent to the 57° angle and the tree is the opposite side."
+          ]
+        },
+        "exr-89": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The windowsill is opposite the angle and the ladder is the hypotenuse.",
+            "Use sine and rearrange."
+          ]
+        },
+        "exr-175": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "The tower height is the sum of the parts above and below the observer's horizontal line.",
+            "Use tangent twice with the same adjacent distance of 325 ft."
+          ]
+        },
+        "exr-188": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The 23 ft ladder is the hypotenuse and the height is opposite the 80° angle."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "See .",
+          "replace": "See the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-8",
+      "title": "Sine and cosine on the unit circle",
+      "slug": "sine-and-cosine-on-the-unit-circle",
+      "est_minutes": 15,
+      "locator": "CNXML module m51285, sections 'Finding Trigonometric Functions Using the Unit Circle', 'Defining Sine and Cosine Functions from the Unit Circle', 'Finding Sines and Cosines of Angles on an Axis' and 'The Pythagorean Identity'",
+      "module": "m51285",
+      "objectives": [
+        "Define $\\cos t$ and $\\sin t$ as the coordinates of a point on the unit circle.",
+        "Evaluate sine and cosine at quadrantal angles.",
+        "Use the Pythagorean identity to find one function from the other, with the sign set by the quadrant."
+      ],
+      "misconceptions": [
+        {
+          "claim": "On the unit circle, the sine of an angle is its $x$-coordinate.",
+          "correction": "Cosine is the $x$-coordinate and sine is the $y$-coordinate: the point is $(\\cos t,\\sin t)$.",
+          "locator": "CNXML module m51285, section 'Defining Sine and Cosine Functions from the Unit Circle'"
+        },
+        {
+          "claim": "The Pythagorean identity gives a single value for the missing function.",
+          "correction": "It gives two values, one positive and one negative. The quadrant of the angle decides which one is correct.",
+          "locator": "CNXML module m51285, section 'The Pythagorean Identity'"
+        }
+      ],
+      "summary": [
+        "A point at angle $t$ on the unit circle has coordinates $(\\cos t,\\sin t)$.",
+        "At quadrantal angles the coordinates are read directly from the axes.",
+        "$\\cos^2 t+\\sin^2 t=1$, and the quadrant fixes the sign of the function being found."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "The unit circle turns trigonometry into coordinates. A point at angle $t$ on the circle of radius 1 has coordinates $(\\cos t,\\sin t)$, so cosine reads the horizontal displacement and sine the vertical one. Substituting these coordinates into $x^2+y^2=1$ gives the Pythagorean identity $\\cos^2 t+\\sin^2 t=1$. The identity fixes the size of one function given the other, and the quadrant supplies the sign.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "unit-circle",
+        "sine",
+        "cosine",
+        "pythagorean-identity"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-angles-from-0o-to-360o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Finding Trigonometric Functions Using the Unit Circle",
+        "Defining Sine and Cosine Functions from the Unit Circle",
+        "Finding Sines and Cosines of Angles on an Axis",
+        "The Pythagorean Identity"
+      ],
+      "exercise_plan": {
+        "exr-18": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Cosine is the $x$-coordinate and sine is the $y$-coordinate."
+          ]
+        },
+        "exr-22": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Read the coordinates of the point in order."
+          ]
+        },
+        "exr-29": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "The point at 90° is $(0,1)$."
+          ]
+        },
+        "exr-45": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Substitute $\\sin t=\\frac{3}{7}$ into $\\cos^2 t+\\sin^2 t=1$.",
+            "In quadrant II the cosine is negative."
+          ]
+        },
+        "exr-51": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "In quadrant IV the sine is negative."
+          ]
+        },
+        "exr-234": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "In quadrant I both sine and cosine are positive."
+          ]
+        },
+        "exr-239": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "In quadrant III the cosine is negative."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        },
+        {
+          "find": "See.",
+          "replace": "See the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-9",
+      "title": "Special angles, calculator values, domain and range",
+      "slug": "special-angles-calculator-domain-and-range",
+      "est_minutes": 14,
+      "locator": "CNXML module m51285, sections 'Finding Sines and Cosines of Special Angles', 'Using a Calculator to Find Sine and Cosine' and 'Identifying the Domain and Range of Sine and Cosine Functions'",
+      "module": "m51285",
+      "objectives": [
+        "State the exact sine and cosine of $30°$, $45°$ and $60°$.",
+        "Evaluate sine and cosine on a calculator in the correct degree or radian mode.",
+        "State the domain and range of the sine and cosine functions."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A calculator gives the same answer whether it is in degree mode or radian mode.",
+          "correction": "The mode changes the meaning of the input. $\\sin 30$ is $\\frac{1}{2}$ in degree mode but about $-0.988$ in radian mode.",
+          "locator": "CNXML module m51285, section 'Using a Calculator to Find Sine and Cosine'"
+        },
+        {
+          "claim": "The domain of sine and cosine is $0°$ to $360°$.",
+          "correction": "Any real angle can be drawn on the unit circle, so the domain is all real numbers. The range is $[-1,1]$.",
+          "locator": "CNXML module m51285, section 'Identifying the Domain and Range of Sine and Cosine Functions'"
+        }
+      ],
+      "summary": [
+        "The exact values at $30°$, $45°$ and $60°$ are $\\frac{1}{2}$, $\\frac{\\sqrt{2}}{2}$ and $\\frac{\\sqrt{3}}{2}$, arranged by angle.",
+        "Check the calculator mode before evaluating a trigonometric function.",
+        "The domain of sine and cosine is all real numbers; the range is $[-1,1]$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "The first-quadrant special angles give exact sine and cosine values that are worth memorising: $\\frac{1}{2}$ and $\\frac{\\sqrt{3}}{2}$ at $30°$ and $60°$, and $\\frac{\\sqrt{2}}{2}$ at $45°$. Every other angle is handled with a calculator or with a reference angle. A calculator must be in the mode that matches the input, degree or radian, because the same keystrokes mean different things in the two modes. Sine and cosine accept every real angle as input and return values between $-1$ and $1$.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "special-angles",
+        "calculator",
+        "domain",
+        "range"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-use-of-tables-of-trigonometric-ratios-45o-and-60o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Finding Sines and Cosines of Special Angles",
+        "Finding Sines and Cosines of",
+        "Using a Calculator to Find Sine and Cosine",
+        "Identifying the Domain and Range of Sine and Cosine Functions",
+        "Algebraic",
+        "Numeric"
+      ],
+      "exercise_plan": {
+        "exr-92": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "The input is in radians, so set the calculator to radian mode."
+          ]
+        },
+        "exr-96": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "The input is in radians."
+          ]
+        },
+        "exr-252": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "hints": [
+            "The unit circle has $x$ and $y$ values between $-1$ and $1$."
+          ]
+        },
+        "exr-178": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "$\\frac{\\pi}{3}$ is $60°$."
+          ]
+        },
+        "exr-183": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "$\\frac{\\pi}{4}$ is $45°$."
+          ]
+        },
+        "exr-186": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "The point at $\\pi$ is $(-1,0)$."
+          ]
+        },
+        "exr-190": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "$\\frac{\\pi}{6}$ is $30°$."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "shows the common angles",
+          "replace": "The figure below shows the common angles"
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        },
+        {
+          "find": "See.",
+          "replace": "See the figure below."
+        }
+      ],
+      "heading_drops": [
+        "Finding Sines and Cosines of"
+      ]
+    },
+    {
+      "id": "sec-10",
+      "title": "Reference angles and coordinates",
+      "slug": "reference-angles-and-coordinates",
+      "est_minutes": 15,
+      "locator": "CNXML module m51285, sections 'Finding Reference Angles', 'Using Reference Angles to Evaluate Trigonometric Functions' and 'Using Reference Angles to Find Coordinates'",
+      "module": "m51285",
+      "objectives": [
+        "Find the reference angle of an angle in any quadrant.",
+        "Evaluate sine and cosine with the reference angle and the sign of the quadrant.",
+        "Find the coordinates of a point on a circle of any radius from its angle."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The reference angle of an angle in quadrant III is the angle itself.",
+          "correction": "The reference angle is the acute angle to the horizontal axis. For quadrant III subtract $180°$ (or $\\pi$) from the angle.",
+          "locator": "CNXML module m51285, section 'Finding Reference Angles'"
+        },
+        {
+          "claim": "The reference angle also decides the sign of the trigonometric value.",
+          "correction": "The reference angle gives the size only. The sign comes from the quadrant of the original angle.",
+          "locator": "CNXML module m51285, section 'Using Reference Angles to Evaluate Trigonometric Functions'"
+        }
+      ],
+      "summary": [
+        "Quadrant II: $180°-\\theta$; quadrant III: $\\theta-180°$; quadrant IV: $360°-\\theta$.",
+        "In radians the same rules use $\\pi$ and $2\\pi$.",
+        "The coordinates of a point at angle $\\theta$ on a circle of radius $r$ are $(r\\cos\\theta,r\\sin\\theta)$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "A reference angle is the acute angle between the terminal side and the horizontal axis. It carries the size of the trigonometric value, while the quadrant carries the sign. In quadrant II subtract the angle from $180°$, in quadrant III subtract $180°$ from the angle, and in quadrant IV subtract the angle from $360°$; the radian versions use $\\pi$ and $2\\pi$. The same method gives the coordinates of any point on a circle of radius $r$ through $(r\\cos\\theta,r\\sin\\theta)$.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "reference-angles",
+        "coordinates",
+        "quadrants"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-angles-from-0o-to-360o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-3-trigonometric-functions-and-equations",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Finding Reference Angles",
+        "Using Reference Angles",
+        "Using Reference Angles to Evaluate Trigonometric Functions",
+        "Using Reference Angles to Find Coordinates",
+        "Numeric"
+      ],
+      "exercise_plan": {
+        "exr-112": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "225° is in quadrant III, so subtract 180°."
+          ]
+        },
+        "exr-116": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "$\\frac{5\\pi}{3}$ is in quadrant IV, so subtract it from $2\\pi$."
+          ]
+        },
+        "exr-125": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Find the reference angle first.",
+            "In quadrant II cosine is negative and sine is positive; in quadrant III both are negative."
+          ]
+        },
+        "exr-128": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "$315°$ is in quadrant IV; $-\\frac{\\pi}{6}$ is coterminal with $\\frac{11\\pi}{6}$."
+          ]
+        },
+        "exr-136": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The reference angle of $\\frac{7\\pi}{6}$ is $\\frac{\\pi}{6}$.",
+            "Both coordinates are negative in quadrant III."
+          ]
+        },
+        "exr-144": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "$\\frac{5\\pi}{3}$ is in quadrant IV, where cosine is positive and sine is negative."
+          ]
+        },
+        "exr-244": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Use $(r\\cos\\theta,r\\sin\\theta)$ with $r=20$."
+          ]
+        },
+        "exr-248": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "Use $(r\\cos\\theta,r\\sin\\theta)$ with $r=16$ and $\\theta=\\frac{5\\pi}{9}$."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "As shown in , angle",
+          "replace": "As shown in the figure below, angle"
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-11",
+      "title": "The other four trigonometric functions",
+      "slug": "the-other-four-trigonometric-functions",
+      "est_minutes": 15,
+      "locator": "CNXML module m51286, sections 'Finding Exact Values of the Trigonometric Functions Secant, Cosecant, Tangent, and Cotangent', 'Using Reference Angles to Evaluate Tangent, Secant, Cosecant, and Cotangent' and 'Evaluating Trigonometric Functions with a Calculator'",
+      "module": "m51286",
+      "objectives": [
+        "Define tangent, secant, cosecant and cotangent from the coordinates of a point on the unit circle.",
+        "Evaluate all six functions using reference angles and the quadrant signs.",
+        "Evaluate the reciprocal functions on a calculator."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Tangent is the $x$-coordinate divided by the $y$-coordinate.",
+          "correction": "Tangent is $\\frac{y}{x}$, which is also $\\frac{\\sin t}{\\cos t}$. Cotangent is the reciprocal, $\\frac{x}{y}$.",
+          "locator": "CNXML module m51286, section 'Finding Exact Values of the Trigonometric Functions Secant, Cosecant, Tangent, and Cotangent'"
+        },
+        {
+          "claim": "Secant is the reciprocal of sine.",
+          "correction": "Secant is the reciprocal of cosine; cosecant is the reciprocal of sine.",
+          "locator": "CNXML module m51286, section 'Recognizing and Using Fundamental Identities'"
+        }
+      ],
+      "summary": [
+        "Tangent is $\\frac{y}{x}$, secant is $\\frac{1}{x}$, cosecant is $\\frac{1}{y}$ and cotangent is $\\frac{x}{y}$.",
+        "The quadrant signs follow ASTC: all six positive in quadrant I, sine and cosecant in II, tangent and cotangent in III, cosine and secant in IV.",
+        "A calculator without cosecant, secant or cotangent keys evaluates them as reciprocals."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Tangent, secant, cosecant and cotangent complete the set of six functions. On the unit circle, tangent is $\\frac{y}{x}$ and the other three are reciprocals of cosine, sine and tangent respectively. Their signs follow the same quadrant rule: all six are positive in quadrant I, only sine and cosecant in quadrant II, only tangent and cotangent in quadrant III, and only cosine and secant in quadrant IV. A calculator without cosecant, secant or cotangent keys evaluates them as reciprocals.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "tangent",
+        "secant",
+        "cosecant",
+        "cotangent",
+        "reference-angles"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-acute-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-1-trigonometric-ratios-and-rules",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Finding Exact Values of the Trigonometric Functions Secant, Cosecant, Tangent, and Cotangent",
+        "Using Reference Angles to Evaluate Tangent, Secant, Cosecant, and Cotangent",
+        "Evaluating Trigonometric Functions with a Calculator",
+        "Technology"
+      ],
+      "exercise_plan": {
+        "exr-8": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Read $x$ and $y$ from the point, then form the ratios."
+          ]
+        },
+        "exr-12": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "$y=-\\frac{\\sqrt{2}}{2}$ and $x=\\frac{\\sqrt{2}}{2}$."
+          ]
+        },
+        "exr-17": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Use $\\sin\\frac{\\pi}{6}=\\frac{1}{2}$ and $\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$."
+          ]
+        },
+        "exr-20": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "Use the special-angle values and take reciprocals."
+          ]
+        },
+        "exr-31": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "The reference angle is $\\frac{\\pi}{6}$.",
+            "$-\\frac{5\\pi}{6}$ is in quadrant III, where tangent and cotangent are positive."
+          ]
+        },
+        "exr-35": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "$-\\frac{7\\pi}{4}$ is coterminal with $\\frac{\\pi}{4}$."
+          ]
+        },
+        "exr-111": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Cosecant is the reciprocal of sine."
+          ]
+        },
+        "exr-114": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Cotangent is the reciprocal of tangent."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    },
+    {
+      "id": "sec-12",
+      "title": "Even, odd and fundamental identities",
+      "slug": "even-odd-and-fundamental-identities",
+      "est_minutes": 15,
+      "locator": "CNXML module m51286, sections 'Using Even and Odd Trigonometric Functions', 'Recognizing and Using Fundamental Identities' and 'Alternate Forms of the Pythagorean Identity'",
+      "module": "m51286",
+      "objectives": [
+        "Classify the six trigonometric functions as even or odd and use the symmetry to evaluate negative angles.",
+        "Simplify trigonometric expressions by rewriting them in terms of sine and cosine.",
+        "Use the alternate forms of the Pythagorean identity."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Cosine is an odd function because the cosine of a negative angle is negative.",
+          "correction": "Cosine is even: $\\cos(-t)=\\cos t$. Sine is the odd one, $\\sin(-t)=-\\sin t$.",
+          "locator": "CNXML module m51286, section 'Using Even and Odd Trigonometric Functions'"
+        },
+        {
+          "claim": "$1+\\tan^2 t=\\csc^2 t$.",
+          "correction": "Divide $\\sin^2 t+\\cos^2 t=1$ by $\\cos^2 t$ to get $1+\\tan^2 t=\\sec^2 t$. The cosecant form comes from dividing by $\\sin^2 t$.",
+          "locator": "CNXML module m51286, section 'Alternate Forms of the Pythagorean Identity'"
+        }
+      ],
+      "summary": [
+        "Cosine and secant are even; sine, tangent, cosecant and cotangent are odd.",
+        "Rewriting a function as sine or cosine simplifies most expressions.",
+        "$1+\\tan^2 t=\\sec^2 t$ and $1+\\cot^2 t=\\csc^2 t$.",
+        "Sine, cosine, secant and cosecant have period $2\\pi$; tangent and cotangent have period $\\pi$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Identities are equations that hold for every angle where both sides are defined, and they are the tools that turn a complicated expression into a simple one. Cosine and secant are even, so they ignore the sign of the angle; sine, tangent, cosecant and cotangent are odd, so they change sign. Dividing the Pythagorean identity by $\\cos^2 t$ or $\\sin^2 t$ produces the two alternate forms, $1+\\tan^2 t=\\sec^2 t$ and $1+\\cot^2 t=\\csc^2 t$. The period is $2\\pi$ for sine, cosine, secant and cosecant, and $\\pi$ for tangent and cotangent.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "identities",
+        "even",
+        "odd",
+        "pythagorean-identity"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "trigonometry",
+          "subtopic_slug": "trigonometrical-ratios-of-angles",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sine-cosine-and-tangent",
+          "subtopic_slug": "waec-sine-cosine-and-tangent-of-angles-from-0o-to-360o",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-13-trigonometry",
+          "subtopic_slug": "waec-further-mathematics-13-3-trigonometric-functions-and-equations",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Using Even and Odd Trigonometric Functions",
+        "Recognizing and Using Fundamental Identities",
+        "Alternate Forms of the Pythagorean Identity",
+        "Algebraic"
+      ],
+      "exercise_plan": {
+        "exr-52": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "verbal",
+          "hints": [
+            "Secant is even, so it ignores the sign of the angle."
+          ]
+        },
+        "exr-55": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Cotangent is odd."
+          ]
+        },
+        "exr-63": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "$\\csc t=\\frac{1}{\\sin t}$ and $\\frac{7\\pi}{6}$ is in quadrant III."
+          ]
+        },
+        "exr-66": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "algebraic",
+          "hints": [
+            "Write $\\sec t$ as $\\frac{1}{\\cos t}$ and $\\tan t$ as $\\frac{\\sin t}{\\cos t}$."
+          ]
+        },
+        "exr-76": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Find $\\sin t$ from the Pythagorean identity.",
+            "In quadrant IV the sine is negative."
+          ]
+        },
+        "exr-177": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Use $\\sin^2 t+\\cos^2 t=1$ and the quadrant III signs."
+          ]
+        },
+        "exr-187": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Sine is odd."
+          ]
+        }
+      },
+      "prose_tidy": true,
+      "prose_fixes": [
+        {
+          "find": "as in .",
+          "replace": "as in the figure below."
+        },
+        {
+          "find": "shown in .",
+          "replace": "shown in the figure below."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "Precalculus 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51283/index.cnxml",
+      "locator": "CNXML module m51283",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Precalculus 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51284/index.cnxml",
+      "locator": "CNXML module m51284",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Precalculus 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51285/index.cnxml",
+      "locator": "CNXML module m51285",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "Precalculus 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51286/index.cnxml",
+      "locator": "CNXML module m51286",
+      "licence": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "An angle is in standard position when its vertex is at the origin and its initial side lies on the",
+      "options": [
+        {
+          "id": "a",
+          "text": "negative $x$-axis"
+        },
+        {
+          "id": "b",
+          "text": "positive $y$-axis"
+        },
+        {
+          "id": "c",
+          "text": "negative $y$-axis"
+        },
+        {
+          "id": "d",
+          "text": "positive $x$-axis"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Standard position fixes the initial side on the positive $x$-axis; only the terminal side rotates.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "The angle $-135°$ is produced by rotating the terminal side",
+      "options": [
+        {
+          "id": "a",
+          "text": "225° clockwise"
+        },
+        {
+          "id": "b",
+          "text": "135° clockwise"
+        },
+        {
+          "id": "c",
+          "text": "45° counterclockwise"
+        },
+        {
+          "id": "d",
+          "text": "135° counterclockwise"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The negative sign means clockwise, and the size is 135°.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "The terminal side of a $270°$ angle lies on the",
+      "options": [
+        {
+          "id": "a",
+          "text": "negative $x$-axis"
+        },
+        {
+          "id": "b",
+          "text": "positive $y$-axis"
+        },
+        {
+          "id": "c",
+          "text": "positive $x$-axis"
+        },
+        {
+          "id": "d",
+          "text": "negative $y$-axis"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Three quarters of a counterclockwise turn ends on the negative $y$-axis.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "$180°$ is equal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{2}$ radians"
+        },
+        {
+          "id": "b",
+          "text": "$360$ radians"
+        },
+        {
+          "id": "c",
+          "text": "$\\pi$ radians"
+        },
+        {
+          "id": "d",
+          "text": "$2\\pi$ radians"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A half turn is $\\pi$ radians, so $180°=\\pi$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "One radian is approximately",
+      "options": [
+        {
+          "id": "a",
+          "text": "$57.3°$"
+        },
+        {
+          "id": "b",
+          "text": "$360°$"
+        },
+        {
+          "id": "c",
+          "text": "$180°$"
+        },
+        {
+          "id": "d",
+          "text": "$6.28°$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$1$ radian is $\\frac{180}{\\pi}°\\approx57.3°$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "$\\frac{\\pi}{3}$ radians is equal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "$60°$"
+        },
+        {
+          "id": "b",
+          "text": "$90°$"
+        },
+        {
+          "id": "c",
+          "text": "$30°$"
+        },
+        {
+          "id": "d",
+          "text": "$45°$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$\\frac{\\pi}{3}$ is one sixth of a full turn, which is $60°$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "The least positive angle coterminal with $800°$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$260°$"
+        },
+        {
+          "id": "b",
+          "text": "$80°$"
+        },
+        {
+          "id": "c",
+          "text": "$160°$"
+        },
+        {
+          "id": "d",
+          "text": "$440°$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$800°-2(360°)=80°$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "The least positive angle coterminal with $-300°$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$240°$"
+        },
+        {
+          "id": "b",
+          "text": "$300°$"
+        },
+        {
+          "id": "c",
+          "text": "$60°$"
+        },
+        {
+          "id": "d",
+          "text": "$120°$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "$-300°+360°=60°$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "The least positive angle coterminal with $\\frac{19\\pi}{4}$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{3\\pi}{4}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{11\\pi}{4}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{7\\pi}{4}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Subtract $2\\pi$ twice: $\\frac{19\\pi}{4}-\\frac{16\\pi}{4}=\\frac{3\\pi}{4}$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "The arc length formula $s=r\\theta$ requires $\\theta$ to be measured in",
+      "options": [
+        {
+          "id": "a",
+          "text": "radians"
+        },
+        {
+          "id": "b",
+          "text": "any unit"
+        },
+        {
+          "id": "c",
+          "text": "revolutions"
+        },
+        {
+          "id": "d",
+          "text": "degrees"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The formula comes from $\\theta=\\frac{s}{r}$, where $\\theta$ is in radians.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "A sector of radius 4 and central angle $\\frac{\\pi}{2}$ has area",
+      "options": [
+        {
+          "id": "a",
+          "text": "$4\\pi$ square units"
+        },
+        {
+          "id": "b",
+          "text": "$8\\pi$ square units"
+        },
+        {
+          "id": "c",
+          "text": "$16\\pi$ square units"
+        },
+        {
+          "id": "d",
+          "text": "$2\\pi$ square units"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$A=\\frac{1}{2}(4)^2\\frac{\\pi}{2}=4\\pi$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "An arc of a circle of radius 10 subtended by $\\frac{\\pi}{3}$ has length",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{10\\pi}{3}$"
+        },
+        {
+          "id": "c",
+          "text": "$10\\pi$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{5\\pi}{3}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$s=r\\theta=10\\cdot\\frac{\\pi}{3}=\\frac{10\\pi}{3}$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-13",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "In the relation $v=r\\omega$, the angular speed $\\omega$ must be in",
+      "options": [
+        {
+          "id": "a",
+          "text": "any angular unit"
+        },
+        {
+          "id": "b",
+          "text": "revolutions per unit time"
+        },
+        {
+          "id": "c",
+          "text": "radians per unit time"
+        },
+        {
+          "id": "d",
+          "text": "degrees per unit time"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The relation comes from $s=r\\theta$, which needs radians.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-14",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "A wheel turning at 45 revolutions per minute has angular speed",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{45\\pi}{2}$ rad/s"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{3\\pi}{2}$ rad/s"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{3\\pi}{4}$ rad/s"
+        },
+        {
+          "id": "d",
+          "text": "$90\\pi$ rad/s"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$45$ rpm is $45(2\\pi)$ rad/min, and dividing by 60 gives $\\frac{3\\pi}{2}$ rad/s.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-15",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "On a rotating wheel, a point farther from the centre has",
+      "options": [
+        {
+          "id": "a",
+          "text": "a greater angular speed and the same linear speed"
+        },
+        {
+          "id": "b",
+          "text": "the same angular speed and a greater linear speed"
+        },
+        {
+          "id": "c",
+          "text": "both speeds equal"
+        },
+        {
+          "id": "d",
+          "text": "both speeds greater"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Every point turns through the same angle, but the farther point travels a longer arc.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-16",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "The sine of an acute angle is",
+      "options": [
+        {
+          "id": "a",
+          "text": "opposite over adjacent"
+        },
+        {
+          "id": "b",
+          "text": "opposite over hypotenuse"
+        },
+        {
+          "id": "c",
+          "text": "adjacent over hypotenuse"
+        },
+        {
+          "id": "d",
+          "text": "hypotenuse over opposite"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Sine is opposite over hypotenuse, the Soh of SohCahToa.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-17",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "The secant of an acute angle is",
+      "options": [
+        {
+          "id": "a",
+          "text": "hypotenuse over adjacent"
+        },
+        {
+          "id": "b",
+          "text": "hypotenuse over opposite"
+        },
+        {
+          "id": "c",
+          "text": "opposite over adjacent"
+        },
+        {
+          "id": "d",
+          "text": "adjacent over hypotenuse"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Secant is the reciprocal of cosine, so it is hypotenuse over adjacent.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-18",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "$\\sin\\left(\\frac{\\pi}{2}-t\\right)$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\csc t$"
+        },
+        {
+          "id": "b",
+          "text": "$\\tan t$"
+        },
+        {
+          "id": "c",
+          "text": "$\\cos t$"
+        },
+        {
+          "id": "d",
+          "text": "$\\sin t$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The cofunction identity pairs sine with cosine at complementary angles.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-19",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "An angle of elevation is measured from the",
+      "options": [
+        {
+          "id": "a",
+          "text": "line of sight"
+        },
+        {
+          "id": "b",
+          "text": "vertical"
+        },
+        {
+          "id": "c",
+          "text": "ground only"
+        },
+        {
+          "id": "d",
+          "text": "horizontal"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Elevation and depression compare the line of sight with the horizontal.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-20",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "To find a height from a horizontal distance and an angle of elevation, use",
+      "options": [
+        {
+          "id": "a",
+          "text": "tangent"
+        },
+        {
+          "id": "b",
+          "text": "sine"
+        },
+        {
+          "id": "c",
+          "text": "cosine"
+        },
+        {
+          "id": "d",
+          "text": "secant"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The height is opposite the angle and the distance is adjacent, so tangent connects them.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-21",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "A ladder makes $60°$ with the ground at a point 5 m from a wall. Its top reaches about",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2.89$ m"
+        },
+        {
+          "id": "b",
+          "text": "$8.66$ m"
+        },
+        {
+          "id": "c",
+          "text": "$5.77$ m"
+        },
+        {
+          "id": "d",
+          "text": "$10$ m"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$h=5\\tan60°=5\\sqrt{3}\\approx8.66$ m.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-22",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "On the unit circle, $\\cos t$ is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "$x$-coordinate"
+        },
+        {
+          "id": "b",
+          "text": "$y$-coordinate"
+        },
+        {
+          "id": "c",
+          "text": "arc length"
+        },
+        {
+          "id": "d",
+          "text": "slope of the terminal side"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The point at angle $t$ is $(\\cos t,\\sin t)$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-23",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "$\\sin 90°$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$"
+        },
+        {
+          "id": "b",
+          "text": "$1$"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "$-1$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The point at $90°$ is $(0,1)$, so the sine is the $y$-coordinate, 1.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-24",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "The Pythagorean identity states that",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sin^2 t-\\cos^2 t=1$"
+        },
+        {
+          "id": "b",
+          "text": "$\\sin^2 t+\\cos^2 t=1$"
+        },
+        {
+          "id": "c",
+          "text": "$\\sin t+\\cos t=1$"
+        },
+        {
+          "id": "d",
+          "text": "$\\sin t=1+\\cos t$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Substitute $x=\\cos t$ and $y=\\sin t$ into $x^2+y^2=1$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-25",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-9",
+      "stem": "$\\sin 30°$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The special-angle table gives $\\sin30°=\\frac{1}{2}$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-26",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-9",
+      "stem": "$\\cos 45°$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "id": "d",
+          "text": "$1$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "At $45°$ the sine and cosine are equal, and both are $\\frac{\\sqrt{2}}{2}$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-27",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-9",
+      "stem": "The domain of the sine and cosine functions is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$ to $2\\pi$"
+        },
+        {
+          "id": "b",
+          "text": "all real numbers"
+        },
+        {
+          "id": "c",
+          "text": "$0°$ to $360°$"
+        },
+        {
+          "id": "d",
+          "text": "$[-1,1]$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Any real angle can be drawn on the unit circle; the range is $[-1,1]$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-28",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-10",
+      "stem": "The reference angle of $225°$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$225°$"
+        },
+        {
+          "id": "b",
+          "text": "$45°$"
+        },
+        {
+          "id": "c",
+          "text": "$135°$"
+        },
+        {
+          "id": "d",
+          "text": "$315°$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "In quadrant III subtract $180°$: $225°-180°=45°$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-29",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-10",
+      "stem": "The reference angle of $\\frac{5\\pi}{3}$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{2\\pi}{3}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{5\\pi}{6}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "answer": "d",
+      "explanation": "In quadrant IV subtract from $2\\pi$: $2\\pi-\\frac{5\\pi}{3}=\\frac{\\pi}{3}$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-30",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-10",
+      "stem": "$\\cos 150°$ is negative because",
+      "options": [
+        {
+          "id": "a",
+          "text": "cosine is an odd function"
+        },
+        {
+          "id": "b",
+          "text": "the $y$-coordinate is negative in quadrant II"
+        },
+        {
+          "id": "c",
+          "text": "the $x$-coordinate is negative in quadrant II"
+        },
+        {
+          "id": "d",
+          "text": "the reference angle is negative"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Cosine reads the $x$-coordinate, which is negative in quadrant II.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-31",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-11",
+      "stem": "$\\tan t$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{\\sin t}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\cos t}{\\sin t}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\sin t}{\\cos t}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{\\cos t}$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Tangent is $\\frac{y}{x}$, which is sine over cosine.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-32",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-11",
+      "stem": "$\\sec t$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\cos t$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{\\cos t}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{\\sin t}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{\\tan t}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Secant is the reciprocal of cosine.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-33",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-11",
+      "stem": "In quadrant II, the tangent function is",
+      "options": [
+        {
+          "id": "a",
+          "text": "zero"
+        },
+        {
+          "id": "b",
+          "text": "positive"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "negative"
+        }
+      ],
+      "answer": "d",
+      "explanation": "In quadrant II $x$ is negative and $y$ is positive, so $\\frac{y}{x}$ is negative.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-34",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-12",
+      "stem": "$\\cos(-t)=\\cos t$ because cosine is",
+      "options": [
+        {
+          "id": "a",
+          "text": "even"
+        },
+        {
+          "id": "b",
+          "text": "one-to-one"
+        },
+        {
+          "id": "c",
+          "text": "periodic"
+        },
+        {
+          "id": "d",
+          "text": "odd"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An even function satisfies $f(-t)=f(t)$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-35",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-12",
+      "stem": "$\\sin(-t)$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sin t$"
+        },
+        {
+          "id": "b",
+          "text": "$\\cos t$"
+        },
+        {
+          "id": "c",
+          "text": "$-\\sin t$"
+        },
+        {
+          "id": "d",
+          "text": "$-\\cos t$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Sine is odd, so $\\sin(-t)=-\\sin t$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-36",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-12",
+      "stem": "$1+\\tan^2 t$ equals",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\cot^2 t$"
+        },
+        {
+          "id": "b",
+          "text": "$\\sec^2 t$"
+        },
+        {
+          "id": "c",
+          "text": "$1$"
+        },
+        {
+          "id": "d",
+          "text": "$\\csc^2 t$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Divide $\\sin^2 t+\\cos^2 t=1$ by $\\cos^2 t$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    }
+  ],
+  "exercise_fixes": {
+    "sec-2:exr-238": {
+      "stem": "Convert $\\frac{\\pi}{9}$ radians to degrees."
+    },
+    "sec-2:exr-251": {
+      "stem": "Convert $90°$ to radians, leaving the answer in terms of $\\pi$."
+    },
+    "sec-2:exr-254": {
+      "stem": "Convert $-540°$ to radians, leaving the answer in terms of $\\pi$."
+    },
+    "sec-3:exr-289": {
+      "stem": "Find the least positive angle that is coterminal with $1400°$, where $0°\\le\\theta<360°$."
+    },
+    "sec-4:exr-144": {
+      "stem": "An automatic lawn sprinkler sprays a distance of 20 feet while rotating 30 degrees. What is the area of the sector of grass the sprinkler waters?"
+    },
+    "sec-4:exr-150": {
+      "stem": "A central pivot irrigation system has a radius of 400 metres. Water restrictions allow the farmer to water 150 000 square metres a day. What angle should she set the system to cover? Write the answer in radians to two decimal places.",
+      "answer": "$1.88$ radians"
+    },
+    "sec-4:exr-279": {
+      "stem": "Find the area of a sector of a circle with central angle $30°$ and radius 20 cm.",
+      "answer": "$\\frac{100\\pi}{3}\\approx104.72\\ \\text{cm}^2$"
+    },
+    "sec-5:exr-164": {
+      "stem": "A water wheel completes 1 rotation every 5 seconds. Find the angular speed in radians per second."
+    },
+    "sec-5:exr-173": {
+      "stem": "A bicycle has wheels 28 inches in diameter. A tachometer determines the wheels are rotating at 180 RPM (revolutions per minute). Find the speed the bicycle is travelling down the road."
+    },
+    "sec-6:exr-12": {
+      "stem": "In a right triangle, the side adjacent to angle $\\alpha$ has length 15 and the hypotenuse has length 17. Find $\\cos\\alpha$."
+    },
+    "sec-6:exr-27": {
+      "stem": "A right triangle has sides 3, 4 and 5, with angle $\\alpha$ opposite the side of length 4. Evaluate $\\sin\\alpha$, $\\cos\\alpha$, $\\tan\\alpha$, $\\sec\\alpha$, $\\csc\\alpha$ and $\\cot\\alpha$.",
+      "answer": "$\\sin\\alpha=\\frac{4}{5}$, $\\cos\\alpha=\\frac{3}{5}$, $\\tan\\alpha=\\frac{4}{3}$, $\\sec\\alpha=\\frac{5}{3}$, $\\csc\\alpha=\\frac{5}{4}$, $\\cot\\alpha=\\frac{3}{4}$"
+    },
+    "sec-6:exr-31": {
+      "stem": "A right triangle has sides 33, 56 and 65, with angle $t$ opposite the side of length 33. Evaluate $\\sin t$, $\\cos t$, $\\tan t$, $\\sec t$, $\\csc t$ and $\\cot t$.",
+      "answer": "$\\sin t=\\frac{33}{65}$, $\\cos t=\\frac{56}{65}$, $\\tan t=\\frac{33}{56}$, $\\sec t=\\frac{65}{56}$, $\\csc t=\\frac{65}{33}$, $\\cot t=\\frac{56}{33}$"
+    },
+    "sec-6:exr-42": {
+      "stem": "Find the exact values of the six trigonometric functions of $\\frac{\\pi}{3}$ using the side lengths of a 30°, 60° and 90° triangle.",
+      "answer": "$\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$, $\\cos\\frac{\\pi}{3}=\\frac{1}{2}$, $\\tan\\frac{\\pi}{3}=\\sqrt{3}$, $\\sec\\frac{\\pi}{3}=2$, $\\csc\\frac{\\pi}{3}=\\frac{2\\sqrt{3}}{3}$, $\\cot\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{3}$"
+    },
+    "sec-6:exr-44": {
+      "stem": "Find the exact values of the six trigonometric functions of $\\frac{\\pi}{4}$ using the side lengths of a 45°, 45° and 90° triangle.",
+      "answer": "$\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}$, $\\cos\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}$, $\\tan\\frac{\\pi}{4}=1$, $\\sec\\frac{\\pi}{4}=\\sqrt{2}$, $\\csc\\frac{\\pi}{4}=\\sqrt{2}$, $\\cot\\frac{\\pi}{4}=1$"
+    },
+    "sec-7:exr-67": {
+      "stem": "A right triangle has an angle of $30°$, an opposite side of length 7, and unknown adjacent side $a$ and hypotenuse $c$. Find $a$ and $c$."
+    },
+    "sec-7:exr-83": {
+      "stem": "To find the height of a tree, a person walks to a point 30 feet from the base. She measures an angle of $57°$ between a line of sight to the top of the tree and the ground. Find the height of the tree."
+    },
+    "sec-8:exr-18": {
+      "stem": "Point $P$ on the unit circle corresponding to an angle $t$ has coordinates $\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. Find $\\cos t$ and $\\sin t$."
+    },
+    "sec-8:exr-22": {
+      "stem": "A certain angle $t$ corresponds to the point $\\left(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right)$ on the unit circle. Find $\\cos t$ and $\\sin t$.",
+      "answer": "$\\cos t=-\\frac{\\sqrt{2}}{2}$, $\\sin t=\\frac{\\sqrt{2}}{2}$"
+    },
+    "sec-9:exr-178": {
+      "stem": "Find the exact value of $\\sin\\frac{\\pi}{3}$."
+    },
+    "sec-9:exr-183": {
+      "stem": "Find the exact value of $\\cos\\frac{\\pi}{4}$."
+    },
+    "sec-9:exr-186": {
+      "stem": "Find the exact value of $\\sin\\pi$."
+    },
+    "sec-9:exr-190": {
+      "stem": "Find the exact value of $\\cos\\frac{\\pi}{6}$."
+    },
+    "sec-10:exr-112": {
+      "stem": "Find the reference angle of $225°$."
+    },
+    "sec-11:exr-8": {
+      "stem": "The point $\\left(-\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)$ is on the unit circle. Find $\\sin t$, $\\cos t$, $\\tan t$, $\\sec t$, $\\csc t$ and $\\cot t$.",
+      "answer": "$\\sin t=\\frac{1}{2}$, $\\cos t=-\\frac{\\sqrt{3}}{2}$, $\\tan t=-\\frac{\\sqrt{3}}{3}$, $\\sec t=-\\frac{2\\sqrt{3}}{3}$, $\\csc t=2$, $\\cot t=-\\sqrt{3}$"
+    },
+    "sec-11:exr-12": {
+      "stem": "The point $\\left(\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2}\\right)$ is on the unit circle. Find $\\sin t$, $\\cos t$, $\\tan t$, $\\sec t$, $\\csc t$ and $\\cot t$.",
+      "answer": "$\\sin t=-\\frac{\\sqrt{2}}{2}$, $\\cos t=\\frac{\\sqrt{2}}{2}$, $\\tan t=-1$, $\\sec t=\\sqrt{2}$, $\\csc t=-\\sqrt{2}$, $\\cot t=-1$"
+    },
+    "sec-12:exr-76": {
+      "stem": "If $\\cos t=\\frac{12}{13}$ and $t$ is in quadrant IV, find the values of the other five trigonometric functions."
+    },
+    "sec-1:exr-23": {
+      "stem_strip": "Drawing an Angle in Standard Position Measured in Degrees"
+    },
+    "sec-2:exr-63": {
+      "stem_strip": "Finding a Radian Measure"
+    },
+    "sec-3:exr-97": {
+      "stem_strip": "Finding an Angle Coterminal with an Angle of Measure Greater Than $360°$"
+    },
+    "sec-3:exr-118": {
+      "stem_strip": "Finding Coterminal Angles Using Radians"
+    },
+    "sec-4:exr-132": {
+      "stem_strip": "Finding the Length of an Arc"
+    },
+    "sec-6:exr-58": {
+      "stem_strip": "Using Cofunction Identities"
+    },
+    "sec-8:exr-29": {
+      "stem_strip": "Calculating Sines and Cosines along an Axis"
+    },
+    "sec-8:exr-45": {
+      "stem_strip": "Finding a Cosine from a Sine or a Sine from a Cosine"
+    },
+    "sec-9:exr-92": {
+      "stem_strip": "Using a Graphing Calculator to Find Sine and Cosine"
+    },
+    "sec-10:exr-125": {
+      "stem_strip": "Using Reference Angles to Find Sine and Cosine"
+    },
+    "sec-10:exr-136": {
+      "stem_strip": "Using the Unit Circle to Find Coordinates"
+    },
+    "sec-11:exr-17": {
+      "stem_strip": "Finding the Trigonometric Functions of an Angle",
+      "answer": "$\\sin\\frac{\\pi}{6}=\\frac{1}{2}$, $\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$, $\\tan\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{3}$, $\\sec\\frac{\\pi}{6}=\\frac{2\\sqrt{3}}{3}$, $\\csc\\frac{\\pi}{6}=2$, $\\cot\\frac{\\pi}{6}=\\sqrt{3}$"
+    },
+    "sec-11:exr-31": {
+      "stem_strip": "Using Reference Angles to Find Trigonometric Functions",
+      "answer": "$\\cos\\left(-\\frac{5\\pi}{6}\\right)=-\\frac{\\sqrt{3}}{2}$, $\\sin\\left(-\\frac{5\\pi}{6}\\right)=-\\frac{1}{2}$, $\\tan\\left(-\\frac{5\\pi}{6}\\right)=\\frac{\\sqrt{3}}{3}$, $\\sec\\left(-\\frac{5\\pi}{6}\\right)=-\\frac{2\\sqrt{3}}{3}$, $\\csc\\left(-\\frac{5\\pi}{6}\\right)=-2$, $\\cot\\left(-\\frac{5\\pi}{6}\\right)=\\sqrt{3}$"
+    },
+    "sec-12:exr-52": {
+      "stem_strip": "Using Even and Odd Properties of Trigonometric Functions",
+      "answer": "2"
+    },
+    "sec-12:exr-66": {
+      "stem_strip": "Using Identities to Simplify Trigonometric Expressions"
+    },
+    "sec-5:exr-303": {
+      "answer": "$7$ in./s, $4.77$ RPM, $28.65$ deg/s"
+    },
+    "sec-7:exr-74": {
+      "answer": "adjacent $=10$, opposite $=10\\sqrt{3}$, missing angle $=\\frac{\\pi}{6}$"
+    },
+    "sec-10:exr-144": {
+      "answer": "$\\left(\\frac{1}{2},-\\frac{\\sqrt{3}}{2}\\right)$"
+    },
+    "sec-11:exr-20": {
+      "answer": "$\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$, $\\cos\\frac{\\pi}{3}=\\frac{1}{2}$, $\\tan\\frac{\\pi}{3}=\\sqrt{3}$, $\\sec\\frac{\\pi}{3}=2$, $\\csc\\frac{\\pi}{3}=\\frac{2\\sqrt{3}}{3}$, $\\cot\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{3}$"
+    },
+    "sec-11:exr-35": {
+      "answer": "$\\sin\\left(-\\frac{7\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}$, $\\cos\\left(-\\frac{7\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}$, $\\tan\\left(-\\frac{7\\pi}{4}\\right)=1$, $\\sec\\left(-\\frac{7\\pi}{4}\\right)=\\sqrt{2}$, $\\csc\\left(-\\frac{7\\pi}{4}\\right)=\\sqrt{2}$, $\\cot\\left(-\\frac{7\\pi}{4}\\right)=1$"
+    },
+    "sec-12:exr-177": {
+      "answer": "$\\sin t=-\\frac{2\\sqrt{2}}{3}$, $\\sec t=-3$, $\\csc t=-\\frac{3\\sqrt{2}}{4}$, $\\tan t=2\\sqrt{2}$, $\\cot t=\\frac{\\sqrt{2}}{4}$"
+    },
+    "sec-4:exr-135": {
+      "answer": "$37.5$ units"
+    },
+    "sec-5:exr-313": {
+      "stem": "Find the distance along an arc on the surface of Earth that subtends a central angle of 5 minutes, where 1 minute $=\\frac{1}{60}$ degree. The radius of Earth is 3960 miles."
+    },
+    "sec-11:exr-111": {
+      "stem_strip": "Evaluating the Cosecant Using Technology"
+    }
+  },
+  "order": 4
+}
