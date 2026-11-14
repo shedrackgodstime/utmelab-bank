@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Motion Along a Straight Line",
   "book_id": "secondary_physics",
-  "part_id": "part-1",
+  "part_id": "part-2",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -15,7 +15,9 @@
     "Use the equations of constant acceleration to solve problems about motion in a straight line.",
     "Read a motion from a position time graph and from a velocity time graph."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_nature_of_science"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -51,12 +53,20 @@
       "est_minutes": 16,
       "locator": "CNXML module m42033",
       "objectives": [
-        "Define position and displacement on a coordinate system, and tell displacement from distance."
+        "Define position and displacement on a coordinate system, and tell displacement from distance.",
+        "Use the sign of displacement to state its direction on a chosen axis."
       ],
       "misconceptions": [
         {
           "claim": "Distance and displacement are the same quantity.",
           "correction": "Distance is the length of the path and is never negative. Displacement is the straight line from the start to the end, and it carries a direction."
+        },
+        {
+          "claim": "Distance travelled and displacement are the same quantity.",
+          "correction": "Distance is the length of the path, 10 m here. Displacement is the change in position, 2 m east.",
+          "locator": "candidate trap trap-1, demoted pending paper evidence",
+          "source_trap": "phy_motion_along_a_straight_line:trap-1",
+          "signal": "Our own question offers the distance as an option."
         }
       ],
       "summary": [
@@ -75,15 +85,15 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "measurements-and-units",
-          "subtopic_slug": "measurement-position-distance-and-displacement-coordinates-a",
-          "status": "covered",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-position-distance-and-displacement",
-          "subtopic_slug": "waec-measurement-of-distance-displacement",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -96,7 +106,8 @@
       "est_minutes": 14,
       "locator": "CNXML module m42124",
       "objectives": [
-        "Tell a scalar from a vector, and place a point on a one dimensional coordinate system."
+        "Tell a scalar from a vector, and place a point on a one dimensional coordinate system.",
+        "Use a number line with an origin and a positive direction to assign signs to position and displacement."
       ],
       "misconceptions": [
         {
@@ -115,7 +126,99 @@
         "coordinate-system"
       ],
       "worked_from": "exr-9",
-      "exam_links": []
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "scalars-and-vectors",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-scalars-and-vectors",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Which of these is a vector: distance, displacement, speed or time? Explain your choice.",
+          "answer": "Displacement is the vector. It has magnitude and direction; the other three have magnitude only.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A vector must have both magnitude and direction.",
+            "Displacement is the change in position, so it carries a direction.",
+            "Distance, speed and time are scalars: they have magnitude only."
+          ],
+          "tags": [
+            "vector",
+            "scalar",
+            "displacement"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A point lies 4 m to the left of the origin on a number line. Taking right as positive, what is its coordinate?",
+          "answer": "-4 m",
+          "answer_kind": "expression",
+          "solution": [
+            "The origin is 0 and the positive direction is to the right.",
+            "A point 4 m to the left has coordinate -4 m."
+          ],
+          "tags": [
+            "coordinate",
+            "sign convention"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A student walks 3 m east and then 4 m west. Taking east as positive, find the distance travelled and the displacement.",
+          "answer": "distance 7 m; displacement -1 m",
+          "answer_kind": "expression",
+          "solution": [
+            "Distance is the total path length: 3 m + 4 m = 7 m.",
+            "Displacement is final position minus initial position: 3 m - 4 m = -1 m.",
+            "The negative sign means the displacement points west."
+          ],
+          "tags": [
+            "distance",
+            "displacement",
+            "sign convention"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What does the sign of a position tell you on a one-dimensional coordinate system?",
+          "answer": "It tells you which side of the origin the point lies on, given the chosen positive direction.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Choose an origin and a positive direction.",
+            "A positive coordinate is on the positive side of the origin.",
+            "A negative coordinate is on the opposite side."
+          ],
+          "tags": [
+            "position",
+            "coordinate"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -124,12 +227,20 @@
       "est_minutes": 22,
       "locator": "CNXML module m42096",
       "objectives": [
-        "Define average velocity and average speed, and compute them from a motion diagram."
+        "Define average velocity and average speed, and compute them from a motion diagram.",
+        "Distinguish average speed, average velocity and instantaneous speed."
       ],
       "misconceptions": [
         {
           "claim": "Average velocity tells you how fast the object is moving right now.",
           "correction": "Average velocity covers the whole journey. The speed at a moment is the instantaneous speed."
+        },
+        {
+          "claim": "Average velocity tells you how fast an object is moving at this moment.",
+          "correction": "It covers the whole journey. The speed at a moment is the instantaneous speed.",
+          "locator": "candidate trap trap-2, demoted pending paper evidence",
+          "source_trap": "phy_motion_along_a_straight_line:trap-2",
+          "signal": "Our own question offers the instantaneous reading as an option."
         }
       ],
       "summary": [
@@ -148,8 +259,8 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "linear-motion-speed-velocity-acceleration-equations-of-unifo",
-          "status": "covered",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": [
             {
               "question_id": "q_claim_2025_physics_74658",
@@ -162,7 +273,15 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-speed-and-velocity",
-          "subtopic_slug": "waec-concept-of-velocity-as-change-of-displacement-with-time-2",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-time",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -175,7 +294,8 @@
       "est_minutes": 24,
       "locator": "CNXML module m42100",
       "objectives": [
-        "Define acceleration as the rate of change of velocity and read it from a velocity time graph."
+        "Define acceleration as the rate of change of velocity and read it from a velocity time graph.",
+        "Compute acceleration from a change in velocity and interpret its sign."
       ],
       "misconceptions": [
         {
@@ -194,10 +314,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-rectilinear-acceleration",
-          "subtopic_slug": "waec-uniform-non-uniform-acceleration-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -211,12 +339,20 @@
       "est_minutes": 26,
       "locator": "CNXML module m42099",
       "objectives": [
-        "Use the equations of constant acceleration, and choose which one fits the question."
+        "Use the equations of constant acceleration, and choose which one fits the question.",
+        "Solve for any one of displacement, velocity, acceleration or time when the other three are known."
       ],
       "misconceptions": [
         {
           "claim": "The constant acceleration equations work for any motion.",
           "correction": "They hold only while the acceleration stays constant. If the acceleration changes, the equations do not apply."
+        },
+        {
+          "claim": "The equations of constant acceleration hold for any motion.",
+          "correction": "They hold only while the acceleration stays constant.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_motion_along_a_straight_line:trap-4",
+          "signal": "Our own question offers the answer for a changing acceleration as an option."
         }
       ],
       "summary": [
@@ -233,7 +369,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "linear-motion-speed-velocity-acceleration-equations-of-unifo",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -247,7 +383,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-rectilinear-acceleration",
-          "subtopic_slug": "waec-equations-of-motion-with-constant-motion-under-gravity-as-a",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -261,7 +397,8 @@
       "est_minutes": 10,
       "locator": "CNXML module m42125",
       "objectives": [
-        "Set up a kinematics problem: draw it, list what is known, choose the equation, solve, and check."
+        "Set up a kinematics problem: draw it, list what is known, choose the equation, solve, and check.",
+        "Apply one sign convention consistently and check that an answer is physically reasonable."
       ],
       "misconceptions": [
         {
@@ -278,7 +415,81 @@
         "problem-solving"
       ],
       "no_worked_example_reason": "The source carries no worked example for this section, and it holds no solved exercise to promote, so the practice is left to the exercises themselves.",
-      "exam_links": []
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-rectilinear-acceleration",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "List the first three steps in solving a one-dimensional kinematics problem.",
+          "answer": "Draw the situation, list the known and unknown quantities, then choose an equation that connects them.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Draw a sketch and mark the positive direction.",
+            "List the knowns and the quantity you want.",
+            "Choose the equation that contains those quantities and no others."
+          ],
+          "tags": [
+            "problem solving",
+            "kinematics"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A car starts from rest and accelerates at 2 m/s² for 5 s. Find its final velocity.",
+          "answer": "10 m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "List the knowns: u = 0, a = 2 m/s², t = 5 s.",
+            "The equation without displacement is v = u + at.",
+            "v = 0 + (2)(5) = 10 m/s."
+          ],
+          "tags": [
+            "constant acceleration",
+            "velocity"
+          ]
+        },
+        {
+          "tier": "stretch",
+          "kind": "numeric",
+          "difficulty": 4,
+          "marks": 4,
+          "stem": "A train slows from 30 m/s to 10 m/s over a distance of 200 m. Find its acceleration.",
+          "answer": "-2 m/s²",
+          "answer_kind": "expression",
+          "solution": [
+            "List the knowns: u = 30 m/s, v = 10 m/s, s = 200 m.",
+            "The equation without time is v² = u² + 2as.",
+            "a = (v² - u²)/(2s) = (100 - 900)/(400) = -2 m/s².",
+            "The negative sign means the acceleration opposes the motion."
+          ],
+          "tags": [
+            "constant acceleration",
+            "deceleration"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-8",
@@ -287,7 +498,8 @@
       "est_minutes": 22,
       "locator": "CNXML module m42102",
       "objectives": [
-        "Model free fall as constant acceleration and read the motion off a motion diagram."
+        "Model free fall as constant acceleration and read the motion off a motion diagram.",
+        "Explain why air resistance makes a real fall depart from free fall."
       ],
       "misconceptions": [
         {
@@ -307,10 +519,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-rectilinear-acceleration",
-          "subtopic_slug": "waec-equations-of-motion-with-constant-motion-under-gravity-as-a",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -324,7 +544,8 @@
       "est_minutes": 26,
       "locator": "CNXML module m42103",
       "objectives": [
-        "Read a position time graph and a velocity time graph, and use their slopes and areas."
+        "Read a position time graph and a velocity time graph, and use their slopes and areas.",
+        "Relate the area under a velocity-time graph to displacement and the area under an acceleration-time graph to velocity."
       ],
       "misconceptions": [
         {
@@ -344,10 +565,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-rectilinear-acceleration",
-          "subtopic_slug": "waec-velocity-time-graph-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -363,7 +592,28 @@
           ]
         }
       ],
-      "worked_from": "exr-51"
+      "worked_from": "exr-51",
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A cyclist rides along a straight road at a constant 6.0 m/s for 40 s, then slows uniformly to rest over the next 20 s. (a) Sketch the velocity-time graph for the ride. (b) Use the area under the graph to find the total distance travelled. (c) Use the slope of the graph to find the cyclist's acceleration during the final 20 s.",
+          "answer": "(a) A horizontal line at 6.0 m/s from t = 0 to 40 s, then a straight line falling to zero at t = 60 s. (b) The area is the rectangle 6.0 × 40 = 240 m plus the triangle ½ × 6.0 × 20 = 60 m, so the distance is 300 m. (c) The slope is (0 - 6.0)/20 = -0.30 m/s².",
+          "answer_kind": "explanation",
+          "solution": [
+            "From t = 0 to 40 s the velocity is constant at 6.0 m/s; from t = 40 s to 60 s it falls uniformly to 0.",
+            "Distance = area under the graph = 6.0 × 40 + ½ × 6.0 × 20 = 240 + 60 = 300 m.",
+            "Acceleration = slope = (0 - 6.0)/20 = -0.30 m/s²."
+          ],
+          "tags": [
+            "velocity-time graph",
+            "slope",
+            "area"
+          ]
+        }
+      ]
     }
   ],
   "formula_sheet": [
@@ -949,93 +1199,129 @@
       "explanation": "The displacement is the change in position, and the body ends where it started, so it is zero. The distance travelled is 8 m.",
       "difficulty": 2,
       "source": "authored against the WAEC physics syllabus"
-    }
-  ],
-  "exam_traps": [
+    },
     {
-      "id": "trap-1",
+      "id": "rc-13",
       "exam": "JAMB",
       "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Distance travelled and displacement are the same quantity.",
-      "correction": "Distance is the length of the path, 10 m here. Displacement is the change in position, 2 m east.",
-      "signal": "Our own question offers the distance as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-8",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
+      "section_id": "sec-3",
+      "stem": "Which of the following is a vector quantity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "distance"
+        },
+        {
+          "id": "b",
+          "text": "speed"
+        },
+        {
+          "id": "c",
+          "text": "displacement"
+        },
+        {
+          "id": "d",
+          "text": "time"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Displacement has both magnitude and direction. Distance, speed and time have magnitude only.",
+      "difficulty": 2,
+      "source": "authored against the JAMB and WAEC physics syllabuses"
     },
     {
-      "id": "trap-2",
-      "exam": "WAEC",
+      "id": "rc-14",
+      "exam": "JAMB",
       "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Average velocity tells you how fast an object is moving at this moment.",
-      "correction": "It covers the whole journey. The speed at a moment is the instantaneous speed.",
-      "signal": "Our own question offers the instantaneous reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-9",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
+      "section_id": "sec-7",
+      "stem": "A car moves east and slows down. Taking east as positive, what is the sign of its acceleration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "positive"
+        },
+        {
+          "id": "b",
+          "text": "negative"
+        },
+        {
+          "id": "c",
+          "text": "zero"
+        },
+        {
+          "id": "d",
+          "text": "it cannot be determined"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The car is moving east but its velocity is decreasing, so the acceleration points west, which is negative in this convention.",
+      "difficulty": 2,
+      "source": "authored against the JAMB and WAEC physics syllabuses"
     },
     {
-      "id": "trap-3",
-      "exam": "WAEC",
+      "id": "rc-15",
+      "exam": "JAMB",
       "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "An object with zero acceleration must be at rest.",
-      "correction": "Zero acceleration means the velocity is not changing. The object may be moving at a constant velocity.",
-      "signal": "Our own question offers the stationary reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-10",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-6",
-      "misconception": "The equations of constant acceleration hold for any motion.",
-      "correction": "They hold only while the acceleration stays constant.",
-      "signal": "Our own question offers the answer for a changing acceleration as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-11",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-5",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Distance travelled and displacement are the same quantity.",
-      "correction": "The distance here is 8 m, the length of the path. The displacement is zero, because the body ends where it started.",
-      "signal": "Our own question offers the distance as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-12",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
+      "section_id": "sec-8",
+      "stem": "Two balls, one heavy and one light, are dropped from the same height. Air resistance is negligible. Which reaches the ground first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the heavy ball"
+        },
+        {
+          "id": "b",
+          "text": "the light ball"
+        },
+        {
+          "id": "c",
+          "text": "they reach together"
+        },
+        {
+          "id": "d",
+          "text": "it depends on their shape"
+        }
+      ],
+      "answer": "c",
+      "explanation": "With air resistance negligible, both fall with the same acceleration g, so they take the same time.",
+      "difficulty": 2,
+      "source": "authored against the JAMB and WAEC physics syllabuses"
     }
-  ]
+  ],
+  "exam_traps": [],
+  "order": 2,
+  "exercise_fixes": {
+    "sec-9:exr-78": {
+      "drop": true
+    },
+    "sec-9:exr-97": {
+      "drop": true
+    },
+    "sec-2:exr-39": {
+      "stem": "An object moves along the $x$-axis from $x=0\\ \\mathrm{m}$ to $x=7.0\\ \\mathrm{m}$. (a) What distance does it travel? (b) What is the magnitude of its displacement? (c) What is its displacement?",
+      "solution": [
+        "(a) The path is 7.0 m long, so the distance traveled is $7\\ \\mathrm{m}$.",
+        "(b) The displacement is $\\Delta x=7.0-0=+7.0\\ \\mathrm{m}$, so its magnitude is $7\\ \\mathrm{m}$.",
+        "(c) The displacement is $+7\\ \\mathrm{m}$, with the positive direction along the $x$-axis."
+      ]
+    },
+    "sec-2:exr-43": {
+      "stem": "An object starts at $x=2.0\\ \\mathrm{m}$, moves to $x=10.0\\ \\mathrm{m}$, then back to $x=8.0\\ \\mathrm{m}$, and finally to $x=11.0\\ \\mathrm{m}$. (a) What distance does it travel? (b) What is the magnitude of its displacement? (c) What is its displacement?",
+      "answer": "(a) $13\\ \\mathrm{m}$ (b) $9\\ \\mathrm{m}$ (c) $+9\\ \\mathrm{m}$",
+      "solution": [
+        "(a) Add the lengths of the three legs: $8\\ \\mathrm{m}+2\\ \\mathrm{m}+3\\ \\mathrm{m}=13\\ \\mathrm{m}$.",
+        "(b) The displacement is final position minus initial position: $11\\ \\mathrm{m}-2\\ \\mathrm{m}=+9\\ \\mathrm{m}$, so its magnitude is $9\\ \\mathrm{m}$.",
+        "(c) The displacement is $+9\\ \\mathrm{m}$, in the positive $x$-direction."
+      ]
+    },
+    "sec-9:exr-84": {
+      "stem": "An object moves along a straight line. Its position was measured at the times shown: $t=0,\\ 10.0,\\ 20.0,\\ 30.0,\\ 40.0\\ \\mathrm{s}$ and $x=0,\\ 2.1,\\ 4.4,\\ 6.9,\\ 9.6\\ \\mathrm{m}$. (a) Estimate the slope of the position-time graph at $t=10.0\\ \\mathrm{s}$ and at $t=30.0\\ \\mathrm{s}$ to find the velocity at those times. (b) Use your answers to estimate the acceleration at $t=20\\ \\mathrm{s}$. Assume all values are known to two significant figures.",
+      "answer": "(a) $0.22\\ \\mathrm{m/s}$ at $t=10.0\\ \\mathrm{s}$ and $0.26\\ \\mathrm{m/s}$ at $t=30.0\\ \\mathrm{s}$ (b) $2.0\\times10^{-3}\\ \\mathrm{m/s^{2}}$",
+      "solution": [
+        "(a) Use a central difference around $t=10.0\\ \\mathrm{s}$: $v\\approx(x_{20}-x_{0})/(20.0-0)=(4.4-0)/20.0=0.22\\ \\mathrm{m/s}$.",
+        "Around $t=30.0\\ \\mathrm{s}$: $v\\approx(x_{40}-x_{20})/(40.0-20.0)=(9.6-4.4)/20.0=0.26\\ \\mathrm{m/s}$.",
+        "(b) The acceleration is the change in velocity divided by the elapsed time: $a\\approx(0.26-0.22)/(30.0-10.0)=2.0\\times10^{-3}\\ \\mathrm{m/s^{2}}$."
+      ]
+    }
+  }
 }

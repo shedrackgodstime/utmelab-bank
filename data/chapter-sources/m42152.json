@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "*Power* —the word conjures up many images: a professional football player muscling aside his opponent, a dragster roaring away from the starting line, a volcano blowing its lava into the atmosphere, or a rocket blasting off, as in .",
+        "text": "*Power* —the word conjures up many images: a professional football player muscling aside his opponent, a dragster roaring away from the starting line, a volcano blowing its lava into the atmosphere, or a rocket blasting off, as in the figure.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "These images of power have in common the rapid performance of work, consistent with the scientific definition of power ( $P$ ) as the rate at which work is done.",
+        "text": "These images of power have in common the rapid performance of work, consistent with the scientific definition of power ($P$) as the rate at which work is done.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Power is the rate at which work is done.",
+        "text": "Power is the rate at which work is done. $P=\\frac{W}{t}$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The SI unit for power is the watt ( $W$ ), where 1 watt equals 1 joule/second $(1 W=1 J/s).$",
+        "text": "The SI unit for power is the watt ($W$), where 1 watt equals 1 joule/second $(1 W=1 J/s).$",
         "inline": []
       },
       "level": "core"
@@ -122,7 +122,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of stairs in 3.50 s, starting from rest but having a final speed of 2.00 m/s? (See .)",
+        "text": "What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of stairs in 3.50 s, starting from rest but having a final speed of 2.00 m/s? (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "The work going into mechanical energy is $W= KE + PE$ . At the bottom of the stairs, we take both $KE$ and ${PE}_{g}$ as initially zero; thus, $W={KE}_{f}+{PE}_{g}=\\frac{1}{2}{{mv}_{f}}^{2}+mgh$ , where $h$ is the vertical height of the stairs. Because all terms are given, we can calculate $W$ and then divide it by time to get power.",
+        "text": "The work going into mechanical energy is $W= KE + PE$. At the bottom of the stairs, we take both $KE$ and ${PE}_{g}$ as initially zero; thus, $W={KE}_{f}+{PE}_{g}=\\frac{1}{2}{{mv}_{f}}^{2}+mgh$, where $h$ is the vertical height of the stairs. Because all terms are given, we can calculate $W$ and then divide it by time to get power.",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the expression for $W$ into the definition of power given in the previous equation, $P=W/t$ yields",
+        "text": "Substituting the expression for $W$ into the definition of power given in the previous equation, $P=W/t$ yields $P=\\frac{W}{t}=\\frac{\\frac{1}{2}{{mv}_{f}}^{2}+mgh}{t}.$",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values yields",
+        "text": "Entering known values yields $P = \\frac{0.5(60.0 kg){(2.00 m/s)}^{2}+(60.0 kg)({9.80 m/s}^{2})(3.00 m)}{3.50 s} = \\frac{120 J+1764 J}{3.50 s} = 538 W.$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "It is impressive that this woman’s useful power output is slightly less than 1 horsepower $(1 hp=746 W)$ ! People can generate more than a horsepower with their leg muscles for short periods of time by rapidly converting available blood sugar and oxygen into work output. (A horse can put out 1 hp for hours on end.) Once oxygen is depleted, power output decreases and the person begins to breathe rapidly to obtain oxygen to metabolize more food—this is known as the *aerobic* stage of exercise. If the woman climbed the stairs slowly, then her power output would be much less, although the amount of work done would be the same.",
+        "text": "It is impressive that this woman’s useful power output is slightly less than 1 horsepower $(1 hp=746 W)$! People can generate more than a horsepower with their leg muscles for short periods of time by rapidly converting available blood sugar and oxygen into work output. (A horse can put out 1 hp for hours on end.) Once oxygen is depleted, power output decreases and the person begins to breathe rapidly to obtain oxygen to metabolize more food—this is known as the *aerobic* stage of exercise. If the woman climbed the stairs slowly, then her power output would be much less, although the amount of work done would be the same.",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Examples of power are limited only by the imagination, because there are as many types as there are forms of work and energy. (See for some examples.) Sunlight reaching Earth’s surface carries a maximum power of about 1.3 kilowatts per square meter $({kW/m}^{2}).$ A tiny fraction of this is retained by Earth over the long term. Our consumption rate of fossil fuels is far greater than the rate at which they are stored, so it is inevitable that they will be depleted. Power implies that energy is transferred, perhaps changing form. It is never possible to change one form completely into another without losing some of it as thermal energy. For example, a 60-W incandescent bulb converts only 5 W of electrical power to light, with 55 W dissipating into thermal energy. Furthermore, the typical electric power plant converts only 35 to 40% of its fuel into electricity. The remainder becomes a huge amount of thermal energy that must be dispersed as heat transfer, as rapidly as it is created. A coal-fired power plant may produce 1000 megawatts; 1 megawatt (MW) is ${10}^{6}W$ of electric power. But the power plant consumes chemical energy at a rate of about 2500 MW, creating heat transfer to the surroundings at a rate of 1500 MW. (See .)",
+        "text": "Examples of power are limited only by the imagination, because there are as many types as there are forms of work and energy. (See the table for some examples.) Sunlight reaching Earth’s surface carries a maximum power of about 1.3 kilowatts per square meter $({kW/m}^{2}).$ A tiny fraction of this is retained by Earth over the long term. Our consumption rate of fossil fuels is far greater than the rate at which they are stored, so it is inevitable that they will be depleted. Power implies that energy is transferred, perhaps changing form. It is never possible to change one form completely into another without losing some of it as thermal energy. For example, a 60-W incandescent bulb converts only 5 W of electrical power to light, with 55 W dissipating into thermal energy. Furthermore, the typical electric power plant converts only 35 to 40% of its fuel into electricity. The remainder becomes a huge amount of thermal energy that must be dispersed as heat transfer, as rapidly as it is created. A coal-fired power plant may produce 1000 megawatts; 1 megawatt (MW) is ${10}^{6} W$ of electric power. But the power plant consumes chemical energy at a rate of about 2500 MW, creating heat transfer to the surroundings at a rate of 1500 MW. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -331,7 +331,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "We usually have to pay for the energy we use. It is interesting and easy to estimate the cost of energy for an electrical appliance if its power consumption rate and time used are known. The higher the power consumption rate and the longer the appliance is used, the greater the cost of that appliance. The power consumption rate is $P=W/t=E/t$ , where $E$ is the energy supplied by the electricity company. So the energy consumed over a time $t$ is",
+        "text": "We usually have to pay for the energy we use. It is interesting and easy to estimate the cost of energy for an electrical appliance if its power consumption rate and time used are known. The higher the power consumption rate and the longer the appliance is used, the greater the cost of that appliance. The power consumption rate is $P=W/t=E/t$, where $E$ is the energy supplied by the electricity company. So the energy consumed over a time $t$ is $E=Pt.$",
         "inline": []
       },
       "level": "core"
@@ -364,7 +364,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "What is the cost of running a 0.200-kW computer 6.00 h per day for 30.0 d if the cost of electricity is $0.120 per $kW\\cdot h$ ?",
+        "text": "What is the cost of running a 0.200-kW computer 6.00 h per day for 30.0 d if the cost of electricity is \\$0.120 per $kW\\cdot h$?",
         "inline": []
       },
       "level": "core"
@@ -373,7 +373,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Cost is based on energy consumed; thus, we must find $E$ from $E=Pt$ and then calculate the cost. Because electrical energy is expressed in $kW\\cdot h$ , at the start of a problem such as this it is convenient to convert the units into $kW$ and hours.",
+        "text": "Cost is based on energy consumed; thus, we must find $E$ from $E=Pt$ and then calculate the cost. Because electrical energy is expressed in $kW\\cdot h$, at the start of a problem such as this it is convenient to convert the units into $kW$ and hours.",
         "inline": []
       },
       "level": "core"
@@ -382,7 +382,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The energy consumed in $kW\\cdot h$ is",
+        "text": "The energy consumed in $kW\\cdot h$ is $E = Pt=(0.200 kW)(6.00 h/d)(30.0 d) = 36.0 kW\\cdot h,$",
         "inline": []
       },
       "level": "core"
@@ -391,7 +391,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "and the cost is simply given by",
+        "text": "and the cost is simply given by $cost=(36.0 kW\\cdot h)(0.120 per kW\\cdot h)=4.32 per month.$",
         "inline": []
       },
       "level": "core"
@@ -418,7 +418,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Modern civilization depends on energy, but current levels of energy consumption and production are not sustainable. The likelihood of a link between global warming and fossil fuel use (with its concomitant production of carbon dioxide), has made reduction in energy use as well as a shift to non-fossil fuels of the utmost importance. Even though energy in an isolated system is a conserved quantity, the final result of most energy transformations is waste heat transfer to the environment, which is no longer useful for doing work. As we will discuss in more detail in Thermodynamics , the potential for energy to produce useful work has been “degraded” in the energy transformation.",
+        "text": "Modern civilization depends on energy, but current levels of energy consumption and production are not sustainable. The likelihood of a link between global warming and fossil fuel use (with its concomitant production of carbon dioxide), has made reduction in energy use as well as a shift to non-fossil fuels of the utmost importance. Even though energy in an isolated system is a conserved quantity, the final result of most energy transformations is waste heat transfer to the environment, which is no longer useful for doing work. As we will discuss in more detail in Thermodynamics, the potential for energy to produce useful work has been “degraded” in the energy transformation.",
         "inline": []
       },
       "level": "core"
@@ -555,7 +555,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from : (a) By what factor does its power output increase? (b) How many times brighter than our entire Milky Way galaxy is the supernova? (c) Based on your answers, discuss whether it should be possible to observe supernovas in distant galaxies. Note that there are on the order of ${10}^{11}$ observable galaxies, the average brightness of which is somewhat less than our own galaxy.",
+        "text": "Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from the table: (a) By what factor does its power output increase? (b) How many times brighter than our entire Milky Way galaxy is the supernova? (c) Based on your answers, discuss whether it should be possible to observe supernovas in distant galaxies. Note that there are on the order of ${10}^{11}$ observable galaxies, the average brightness of which is somewhat less than our own galaxy.",
         "inline": []
       },
       "level": "core",
@@ -600,7 +600,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the cost of operating a 3.00-W electric clock for a year if the cost of electricity is $0.0900 per $kW\\cdot h$ ?",
+        "text": "What is the cost of operating a 3.00-W electric clock for a year if the cost of electricity is \\$0.0900 per $kW\\cdot h$?",
         "inline": []
       },
       "level": "core",
@@ -621,7 +621,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A large household air conditioner may consume 15.0 kW of power. What is the cost of operating this air conditioner 3.00 h per day for 30.0 d if the cost of electricity is $0.110 per $kW\\cdot h$ ?",
+        "text": "A large household air conditioner may consume 15.0 kW of power. What is the cost of operating this air conditioner 3.00 h per day for 30.0 d if the cost of electricity is \\$0.110 per $kW\\cdot h$?",
         "inline": []
       },
       "level": "core",
@@ -666,7 +666,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the average useful power output of a person who does $6.00×{10}^{6}J$ of useful work in 8.00 h? (b) Working at this rate, how long will it take this person to lift 2000 kg of bricks 1.50 m to a platform? (Work done to lift his body can be omitted because it is not considered useful output here.)",
+        "text": "(a) What is the average useful power output of a person who does $6.00×{10}^{6} J$ of useful work in 8.00 h? (b) Working at this rate, how long will it take this person to lift 2000 kg of bricks 1.50 m to a platform? (Work done to lift his body can be omitted because it is not considered useful output here.)",
         "inline": []
       },
       "level": "core",
@@ -735,7 +735,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Find the useful power output of an elevator motor that lifts a 2500-kg load a height of 35.0 m in 12.0 s, if it also increases the speed from rest to 4.00 m/s. Note that the total mass of the counterbalanced system is 10,000 kg—so that only 2500 kg is raised in height, but the full 10,000 kg is accelerated. (b) What does it cost, if electricity is $0.0900 per $kW\\cdot h$ ?",
+        "text": "(a) Find the useful power output of an elevator motor that lifts a 2500-kg load a height of 35.0 m in 12.0 s, if it also increases the speed from rest to 4.00 m/s. Note that the total mass of the counterbalanced system is 10,000 kg—so that only 2500 kg is raised in height, but the full 10,000 kg is accelerated. (b) What does it cost, if electricity is \\$0.0900 per $kW\\cdot h$?",
         "inline": []
       },
       "level": "core",
@@ -756,7 +756,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the available energy content, in joules, of a battery that operates a 2.00-W electric clock for 18 months? (b) How long can a battery that can supply $8.00×{10}^{4}J$ run a pocket calculator that consumes energy at the rate of $1.00×{10}^{-3}W$ ?",
+        "text": "(a) What is the available energy content, in joules, of a battery that operates a 2.00-W electric clock for 18 months? (b) How long can a battery that can supply $8.00×{10}^{4} J$ run a pocket calculator that consumes energy at the rate of $1.00×{10}^{-3} W$?",
         "inline": []
       },
       "level": "core",
@@ -810,7 +810,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the power output needed for a 950-kg car to climb a $2.00º$ slope at a constant 30.0 m/s while encountering wind resistance and friction totaling 600 N. Explicitly show how you follow the steps in the Problem-Solving Strategies for Energy .",
+        "text": "Calculate the power output needed for a 950-kg car to climb a $2.00º$ slope at a constant 30.0 m/s while encountering wind resistance and friction totaling 600 N. Explicitly show how you follow the steps in the Problem-Solving Strategies for Energy.",
         "inline": []
       },
       "level": "core",
@@ -906,7 +906,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the power per square meter reaching Earth’s upper atmosphere from the Sun. (Take the power output of the Sun to be $4.00×{10}^{26}W.)$ (b) Part of this is absorbed and reflected by the atmosphere, so that a maximum of $1.{30 kW/m}^{2}$ reaches Earth’s surface. Calculate the area in ${km}^{2}$ of solar energy collectors needed to replace an electric power plant that generates 750 MW if the collectors convert an average of 2.00% of the maximum power into electricity. (This small conversion efficiency is due to the devices themselves, and the fact that the sun is directly overhead only briefly.) With the same assumptions, what area would be needed to meet the United States’ energy needs $(1.05×{10}^{20}J)?$ Australia’s energy needs $(5.4×{10}^{18}J)?$ China’s energy needs $(6.3×{10}^{19}J)?$ (These energy consumption values are from 2006.)",
+        "text": "(a) Calculate the power per square meter reaching Earth’s upper atmosphere from the Sun. (Take the power output of the Sun to be $4.00\\times {10}^{26} W.)$ (b) Part of this is absorbed and reflected by the atmosphere, so that a maximum of $1.{30 kW/m}^{2}$ reaches Earth’s surface. Calculate the area in ${km}^{2}$ of solar energy collectors needed to replace an electric power plant that generates 750 MW if the collectors convert an average of 2.00% of the maximum power into electricity. (This small conversion efficiency is due to the devices themselves, and the fact that the sun is directly overhead only briefly.) With the same assumptions, what area would be needed to meet the United States’ energy needs $(1.05\\times {10}^{20} J)?$ Australia’s energy needs $(5.4\\times {10}^{18} J)?$ China’s energy needs $(6.3\\times {10}^{19} J)?$ (These energy consumption values are from 2006.)",
         "inline": []
       },
       "level": "core",

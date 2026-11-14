@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Rather than contradicting our experience, Newton’s first law of motion states that there must be a *cause* (which is a net external force) *for there to be any change in velocity (either a change in magnitude or direction)* . We will define *net external force* in the next section. An object sliding across a table or floor slows down due to the net force of friction acting on the object. If friction disappeared, would the object still slow down?",
+        "text": "Rather than contradicting our experience, Newton’s first law of motion states that there must be a *cause* (which is a net external force) *for there to be any change in velocity (either a change in magnitude or direction)*. We will define *net external force* in the next section. An object sliding across a table or floor slows down due to the net force of friction acting on the object. If friction disappeared, would the object still slow down?",
         "inline": []
       },
       "level": "core"
@@ -94,7 +94,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The property of a body to remain at rest or to remain in motion with constant velocity is called inertia . Newton’s first law is often called the law of inertia . As we know from experience, some objects have more inertia than others. It is obviously more difficult to change the motion of a large boulder than that of a basketball, for example. The inertia of an object is measured by its mass . Roughly speaking, mass is a measure of the amount of “stuff” (or matter) in something. The quantity or amount of matter in an object is determined by the numbers of atoms and molecules of various types it contains. Unlike weight, mass does not vary with location. The mass of an object is the same on Earth, in orbit, or on the surface of the Moon. In practice, it is very difficult to count and identify all of the atoms and molecules in an object, so masses are not often determined in this manner. Operationally, the masses of objects are determined by comparison with the standard kilogram.",
+        "text": "The property of a body to remain at rest or to remain in motion with constant velocity is called inertia. Newton’s first law is often called the law of inertia. As we know from experience, some objects have more inertia than others. It is obviously more difficult to change the motion of a large boulder than that of a basketball, for example. The inertia of an object is measured by its mass. Roughly speaking, mass is a measure of the amount of “stuff” (or matter) in something. The quantity or amount of matter in an object is determined by the numbers of atoms and molecules of various types it contains. Unlike weight, mass does not vary with location. The mass of an object is the same on Earth, in orbit, or on the surface of the Moon. In practice, it is very difficult to count and identify all of the atoms and molecules in an object, so masses are not often determined in this manner. Operationally, the masses of objects are determined by comparison with the standard kilogram.",
         "inline": []
       },
       "level": "core"

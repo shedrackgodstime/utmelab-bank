@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "We now move from consideration of forces that affect the motion of an object (such as friction and drag) to those that affect an object’s shape. If a bulldozer pushes a car into a wall, the car will not move but it will noticeably change shape. A change in shape due to the application of a force is a deformation . Even very small forces are known to cause some deformation. For small deformations, two important characteristics are observed. First, the object returns to its original shape when the force is removed—that is, the deformation is elastic for small deformations. Second, the size of the deformation is proportional to the force—that is, for small deformations, Hooke’s law is obeyed. In equation form, Hooke’s law is given by",
+        "text": "We now move from consideration of forces that affect the motion of an object (such as friction and drag) to those that affect an object’s shape. If a bulldozer pushes a car into a wall, the car will not move but it will noticeably change shape. A change in shape due to the application of a force is a deformation. Even very small forces are known to cause some deformation. For small deformations, two important characteristics are observed. First, the object returns to its original shape when the force is removed—that is, the deformation is elastic for small deformations. Second, the size of the deformation is proportional to the force—that is, for small deformations, Hooke’s law is obeyed. In equation form, Hooke’s law is given by $F=kΔL,$",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔL$ is the amount of deformation (the change in length, for example) produced by the force $F$ , and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force. Note that this force is a function of the deformation $ΔL$ —it is not constant as a kinetic friction force is. Rearranging this to",
+        "text": "where $ΔL$ is the amount of deformation (the change in length, for example) produced by the force $F$, and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force. Note that this force is a function of the deformation $ΔL$ —it is not constant as a kinetic friction force is. Rearranging this to $ΔL=\\frac{F}{k}$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "makes it clear that the deformation is proportional to the applied force. shows the Hooke’s law relationship between the extension $ΔL$ of a spring or of a human bone. For metals or springs, the straight line region in which Hooke’s law pertains is much larger. Bones are brittle and the elastic region is small and the fracture abrupt. Eventually a large enough stress to the material will cause it to break or fracture. Tensile strength is the breaking stress that will cause permanent deformation or fracture of a material.",
+        "text": "makes it clear that the deformation is proportional to the applied force. The figure shows the Hooke’s law relationship between the extension $ΔL$ of a spring or of a human bone. For metals or springs, the straight line region in which Hooke’s law pertains is much larger. Bones are brittle and the elastic region is small and the fracture abrupt. Eventually a large enough stress to the material will cause it to break or fracture. Tensile strength is the breaking stress that will cause permanent deformation or fracture of a material.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔL$ is the amount of deformation (the change in length, for example) produced by the force $F$ , and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force.",
+        "text": "where $ΔL$ is the amount of deformation (the change in length, for example) produced by the force $F$, and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force. $ΔL=\\frac{F}{k}$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The proportionality constant $k$ depends upon a number of factors for the material. For example, a guitar string made of nylon stretches when it is tightened, and the elongation $ΔL$ is proportional to the force applied (at least for small deformations). Thicker nylon strings and ones made of steel stretch less for the same applied force, implying they have a larger $k$ (see ). Finally, all three strings return to their normal lengths when the force is removed, provided the deformation is small. Most materials will behave in this manner if the deformation is less than about 0.1% or about 1 part in ${10}^{3}$ .",
+        "text": "The proportionality constant $k$ depends upon a number of factors for the material. For example, a guitar string made of nylon stretches when it is tightened, and the elongation $ΔL$ is proportional to the force applied (at least for small deformations). Thicker nylon strings and ones made of steel stretch less for the same applied force, implying they have a larger $k$ (see the figure). Finally, all three strings return to their normal lengths when the force is removed, provided the deformation is small. Most materials will behave in this manner if the deformation is less than about 0.1% or about 1 part in ${10}^{3}$.",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "A change in length $ΔL$ is produced when a force is applied to a wire or rod parallel to its length ${L}_{0}$ , either stretching it (a tension) or compressing it. (See .)",
+        "text": "A change in length $ΔL$ is produced when a force is applied to a wire or rod parallel to its length ${L}_{0}$, either stretching it (a tension) or compressing it. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -151,7 +151,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Experiments have shown that the change in length ( $ΔL$ ) depends on only a few variables. As already noted, $ΔL$ is proportional to the force $F$ and depends on the substance from which the object is made. Additionally, the change in length is proportional to the original length ${L}_{0}$ and inversely proportional to the cross-sectional area of the wire or rod. For example, a long guitar string will stretch more than a short one, and a thick string will stretch less than a thin one. We can combine all these factors into one equation for $ΔL$ :",
+        "text": "Experiments have shown that the change in length ($ΔL$) depends on only a few variables. As already noted, $ΔL$ is proportional to the force $F$ and depends on the substance from which the object is made. Additionally, the change in length is proportional to the original length ${L}_{0}$ and inversely proportional to the cross-sectional area of the wire or rod. For example, a long guitar string will stretch more than a short one, and a thick string will stretch less than a thin one. We can combine all these factors into one equation for $ΔL$: $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔL$ is the change in length, $F$ the applied force, $Y$ is a factor, called the elastic modulus or Young’s modulus, that depends on the substance, $A$ is the cross-sectional area, and ${L}_{0}$ is the original length. lists values of *$Y$* for several materials—those with a large $Y$ are said to have a large tensile stiffness because they deform less for a given tension or compression.",
+        "text": "where $ΔL$ is the change in length, $F$ the applied force, $Y$ is a factor, called the elastic modulus or Young’s modulus, that depends on the substance, $A$ is the cross-sectional area, and ${L}_{0}$ is the original length. The table lists values of *$Y$* for several materials—those with a large $Y$ are said to have a large tensile stiffness because they deform less for a given tension or compression.",
         "inline": []
       },
       "level": "core"
@@ -340,7 +340,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Young’s moduli are not listed for liquids and gases in because they cannot be stretched or compressed in only one direction. Note that there is an assumption that the object does not accelerate, so that there are actually two applied forces of magnitude $F$ acting in opposite directions. For example, the strings in are being pulled down by a force of magnitude $w$ and held up by the ceiling, which also exerts a force of magnitude $w$ .",
+        "text": "Young’s moduli are not listed for liquids and gases in the table because they cannot be stretched or compressed in only one direction. Note that there is an assumption that the object does not accelerate, so that there are actually two applied forces of magnitude $F$ acting in opposite directions. For example, the strings in the figure are being pulled down by a force of magnitude $w$ and held up by the ceiling, which also exerts a force of magnitude $w$.",
         "inline": []
       },
       "level": "core"
@@ -364,7 +364,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Suspension cables are used to carry gondolas at ski resorts. (See ) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $3.0×{10}^{6}N$ .",
+        "text": "Suspension cables are used to carry gondolas at ski resorts. (See the figure) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $3.0\\times {10}^{6} N$.",
         "inline": []
       },
       "level": "core"
@@ -386,7 +386,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "The force is equal to the maximum tension, or $F=3.0×{10}^{6}N$ . The cross-sectional area is ${πr}^{2}=2.46×{10}^{-3}{m}^{2}$ . The equation $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0}$ can be used to find the change in length.",
+        "text": "The force is equal to the maximum tension, or $F=3.0\\times {10}^{6} N$. The cross-sectional area is ${πr}^{2}=2.46\\times {10}^{-3} {m}^{2}$. The equation $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0}$ can be used to find the change in length.",
         "inline": []
       },
       "level": "core"
@@ -395,7 +395,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "All quantities are known. Thus,",
+        "text": "All quantities are known. Thus, $Δ L = (\\frac{1}{210\\times {10}^{9} {N/m}^{2}}) (\\frac{3.0\\times {10}^{6} N}{2.46\\times {10}^{–3} {m}^{2}}) (3020 m) = 18 m.$",
         "inline": []
       },
       "level": "core"
@@ -422,7 +422,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Another biological example of Hooke’s law occurs in tendons. Functionally, the tendon (the tissue connecting muscle to bone) must stretch easily at first when a force is applied, but offer a much greater restoring force for a greater strain. shows a stress-strain relationship for a human tendon. Some tendons have a high collagen content so there is relatively little strain, or length change; others, like support tendons (as in the leg) can change length up to 10%. Note that this stress-strain curve is nonlinear, since the slope of the line changes in different regions. In the first part of the stretch called the toe region, the fibers in the tendon begin to align in the direction of the stress—this is called *uncrimping* . In the linear region, the fibrils will be stretched, and in the failure region individual fibers begin to break. A simple model of this relationship can be illustrated by springs in parallel: different springs are activated at different lengths of stretch. Examples of this are given in the problems at end of this chapter. Ligaments (tissue connecting bone to bone) behave in a similar way.",
+        "text": "Another biological example of Hooke’s law occurs in tendons. Functionally, the tendon (the tissue connecting muscle to bone) must stretch easily at first when a force is applied, but offer a much greater restoring force for a greater strain. The figure shows a stress-strain relationship for a human tendon. Some tendons have a high collagen content so there is relatively little strain, or length change; others, like support tendons (as in the leg) can change length up to 10%. Note that this stress-strain curve is nonlinear, since the slope of the line changes in different regions. In the first part of the stretch called the toe region, the fibers in the tendon begin to align in the direction of the stress—this is called *uncrimping*. In the linear region, the fibrils will be stretched, and in the failure region individual fibers begin to break. A simple model of this relationship can be illustrated by springs in parallel: different springs are activated at different lengths of stretch. Examples of this are given in the problems at end of this chapter. Ligaments (tissue connecting bone to bone) behave in a similar way.",
         "inline": []
       },
       "level": "core"
@@ -477,7 +477,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The force is equal to the weight supported, or",
+        "text": "The force is equal to the weight supported, or $F=mg=(62.0 kg)(9.80 m{/s}^{2})=607.6 N,$",
         "inline": []
       },
       "level": "core"
@@ -486,7 +486,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "and the cross-sectional area is ${πr}^{2}=1.257×{10}^{-3}{m}^{2}$ . The equation $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0}$ can be used to find the change in length.",
+        "text": "and the cross-sectional area is ${πr}^{2}=1.257\\times {10}^{-3} {m}^{2}$. The equation $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0}$ can be used to find the change in length.",
         "inline": []
       },
       "level": "core"
@@ -495,7 +495,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "All quantities except $ΔL$ are known. Note that the compression value for Young’s modulus for bone must be used here. Thus,",
+        "text": "All quantities except $ΔL$ are known. Note that the compression value for Young’s modulus for bone must be used here. Thus, $Δ L = (\\frac{1}{9\\times {10}^{9} {N/m}^{2}}) (\\frac{607.6 N}{1.257\\times {10}^{-3} {m}^{2}}) (0. 400 m) = 2 \\times {10}^{−5} m.$",
         "inline": []
       },
       "level": "core"
@@ -504,7 +504,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "This small change in length seems reasonable, consistent with our experience that bones are rigid. In fact, even the rather large forces encountered during strenuous physical activity do not compress or bend bones by large amounts. Although bone is rigid compared with fat or muscle, several of the substances listed in have larger values of Young’s modulus $Y$ . In other words, they are more rigid.",
+        "text": "This small change in length seems reasonable, consistent with our experience that bones are rigid. In fact, even the rather large forces encountered during strenuous physical activity do not compress or bend bones by large amounts. Although bone is rigid compared with fat or muscle, several of the substances listed in the table have larger values of Young’s modulus $Y$. In other words, they are more rigid.",
         "inline": []
       },
       "level": "core"
@@ -513,7 +513,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "The equation for change in length is traditionally rearranged and written in the following form:",
+        "text": "The equation for change in length is traditionally rearranged and written in the following form: $\\frac{F}{A}=Y\\frac{ΔL}{{L}_{0}}.$",
         "inline": []
       },
       "level": "core"
@@ -522,7 +522,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of force to area, *$\\frac{F}{A}$* , is defined as stress (measured in ${N/m}^{2}$ ), and the ratio of the change in length to length, $\\frac{ΔL}{{L}_{0}}$ , is defined as strain (a unitless quantity). In other words,",
+        "text": "The ratio of force to area, *$\\frac{F}{A}$*, is defined as stress (measured in ${N/m}^{2}$), and the ratio of the change in length to length, $\\frac{ΔL}{{L}_{0}}$, is defined as strain (a unitless quantity). In other words, $stress=Y\\times strain.$",
         "inline": []
       },
       "level": "core"
@@ -531,7 +531,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "In this form, the equation is analogous to Hooke’s law, with stress analogous to force and strain analogous to deformation. If we again rearrange this equation to the form",
+        "text": "In this form, the equation is analogous to Hooke’s law, with stress analogous to force and strain analogous to deformation. If we again rearrange this equation to the form $F=YA\\frac{ΔL}{{L}_{0}},$",
         "inline": []
       },
       "level": "core"
@@ -540,7 +540,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "we see that it is the same as Hooke’s law with a proportionality constant",
+        "text": "we see that it is the same as Hooke’s law with a proportionality constant $k=\\frac{YA}{{L}_{0}}.$",
         "inline": []
       },
       "level": "core"
@@ -558,7 +558,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of force to area, *$\\frac{F}{A}$* , is defined as stress measured in N/m 2 .",
+        "text": "The ratio of force to area, *$\\frac{F}{A}$*, is defined as stress measured in N/m 2.",
         "inline": []
       },
       "level": "core"
@@ -567,7 +567,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of the change in length to length, $\\frac{ΔL}{{L}_{0}}$ , is defined as strain (a unitless quantity). In other words,",
+        "text": "The ratio of the change in length to length, $\\frac{ΔL}{{L}_{0}}$, is defined as strain (a unitless quantity). In other words, $stress=Y\\times strain.$",
         "inline": []
       },
       "level": "core"
@@ -585,7 +585,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "illustrates what is meant by a sideways stress or a *shearing force* . Here the deformation is called $Δx$ and it is perpendicular to ${L}_{0}$ , rather than parallel as with tension and compression. Shear deformation behaves similarly to tension and compression and can be described with similar equations. The expression for shear deformation is",
+        "text": "The figure illustrates what is meant by a sideways stress or a *shearing force*. Here the deformation is called $Δx$ and it is perpendicular to ${L}_{0}$, rather than parallel as with tension and compression. Shear deformation behaves similarly to tension and compression and can be described with similar equations. The expression for shear deformation is $Δx=\\frac{1}{S}\\frac{F}{A}{L}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -594,7 +594,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "where $S$ is the shear modulus (see ) and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$ . Again, to keep the object from accelerating, there are actually two equal and opposite forces $F$ applied across opposite faces, as illustrated in . The equation is logical—for example, it is easier to bend a long thin pencil (small $A$ ) than a short thick one, and both are more easily bent than similar steel rods (large $S$ ).",
+        "text": "where $S$ is the shear modulus (see the table) and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$. Again, to keep the object from accelerating, there are actually two equal and opposite forces $F$ applied across opposite faces, as illustrated in the figure. The equation is logical—for example, it is easier to bend a long thin pencil (small $A$) than a short thick one, and both are more easily bent than similar steel rods (large $S$).",
         "inline": []
       },
       "level": "core"
@@ -603,7 +603,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "where $S$ is the shear modulus and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$ .",
+        "text": "where $S$ is the shear modulus and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$.",
         "inline": []
       },
       "level": "core"
@@ -625,7 +625,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "Examination of the shear moduli in reveals some telling patterns. For example, shear moduli are less than Young’s moduli for most materials. Bone is a remarkable exception. Its shear modulus is not only greater than its Young’s modulus, but it is as large as that of steel. This is why bones are so rigid.",
+        "text": "Examination of the shear moduli in the table reveals some telling patterns. For example, shear moduli are less than Young’s moduli for most materials. Bone is a remarkable exception. Its shear modulus is not only greater than its Young’s modulus, but it is as large as that of steel. This is why bones are so rigid.",
         "inline": []
       },
       "level": "core"
@@ -667,7 +667,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "Find the mass of the picture hanging from a steel nail as shown in , given that the nail bends only $1.80 µm$ . (Assume the shear modulus is known to two significant figures.)",
+        "text": "Find the mass of the picture hanging from a steel nail as shown in the figure, given that the nail bends only $1.80 µm$. (Assume the shear modulus is known to two significant figures.)",
         "inline": []
       },
       "level": "core"
@@ -689,7 +689,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "The force $F$ on the nail (neglecting the nail’s own weight) is the weight of the picture $w$ . If we can find $w$ , then the mass of the picture is just $\\frac{w}{g}$ . The equation $Δx=\\frac{1}{S}\\frac{F}{A}{L}_{0}$ can be solved for $F$ .",
+        "text": "The force $F$ on the nail (neglecting the nail’s own weight) is the weight of the picture $w$. If we can find $w$, then the mass of the picture is just $\\frac{w}{g}$. The equation $Δx=\\frac{1}{S}\\frac{F}{A}{L}_{0}$ can be solved for $F$.",
         "inline": []
       },
       "level": "core"
@@ -698,7 +698,7 @@
       "id": "p-54",
       "type": "paragraph",
       "content": {
-        "text": "Solving the equation $Δx=\\frac{1}{S}\\frac{F}{A}{L}_{0}$ for $F$ , we see that all other quantities can be found:",
+        "text": "Solving the equation $Δx=\\frac{1}{S}\\frac{F}{A}{L}_{0}$ for $F$, we see that all other quantities can be found: $F=\\frac{SA}{{L}_{0}}Δx.$",
         "inline": []
       },
       "level": "core"
@@ -707,7 +707,7 @@
       "id": "p-55",
       "type": "paragraph",
       "content": {
-        "text": "*S* is found in and is $S=80×{10}^{9}{N/m}^{2}$ . The radius $r$ is 0.750 mm (as seen in the figure), so the cross-sectional area is",
+        "text": "*S* is found in the table and is $S=80\\times {10}^{9} {N/m}^{2}$. The radius $r$ is 0.750 mm (as seen in the figure), so the cross-sectional area is $A={πr}^{2}=1.77\\times {10}^{-6} {m}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -716,7 +716,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "The value for ${L}_{0}$ is also shown in the figure. Thus,",
+        "text": "The value for ${L}_{0}$ is also shown in the figure. Thus, $F=\\frac{(80\\times {10}^{9} {N/m}^{2})(1.77\\times {10}^{-6} {m}^{2})}{(5.00\\times {10}^{-3} m)}(1.80\\times {10}^{-6} m)=51 N.$",
         "inline": []
       },
       "level": "core"
@@ -725,7 +725,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "This 51 N force is the weight $w$ of the picture, so the picture’s mass is",
+        "text": "This 51 N force is the weight $w$ of the picture, so the picture’s mass is $m=\\frac{w}{g}=\\frac{F}{g}=5.2 kg.$",
         "inline": []
       },
       "level": "core"
@@ -752,7 +752,7 @@
       "id": "p-60",
       "type": "paragraph",
       "content": {
-        "text": "An object will be compressed in all directions if inward forces are applied evenly on all its surfaces as in . It is relatively easy to compress gases and extremely difficult to compress liquids and solids. For example, air in a wine bottle is compressed when it is corked. But if you try corking a brim-full bottle, you cannot compress the wine—some must be removed if the cork is to be inserted. The reason for these different compressibilities is that atoms and molecules are separated by large empty spaces in gases but packed close together in liquids and solids. To compress a gas, you must force its atoms and molecules closer together. To compress liquids and solids, you must actually compress their atoms and molecules, and very strong electromagnetic forces in them oppose this compression.",
+        "text": "An object will be compressed in all directions if inward forces are applied evenly on all its surfaces as in the figure. It is relatively easy to compress gases and extremely difficult to compress liquids and solids. For example, air in a wine bottle is compressed when it is corked. But if you try corking a brim-full bottle, you cannot compress the wine—some must be removed if the cork is to be inserted. The reason for these different compressibilities is that atoms and molecules are separated by large empty spaces in gases but packed close together in liquids and solids. To compress a gas, you must force its atoms and molecules closer together. To compress liquids and solids, you must actually compress their atoms and molecules, and very strong electromagnetic forces in them oppose this compression.",
         "inline": []
       },
       "level": "core"
@@ -774,7 +774,7 @@
       "id": "p-62",
       "type": "paragraph",
       "content": {
-        "text": "We can describe the compression or volume deformation of an object with an equation. First, we note that a force “applied evenly” is defined to have the same stress, or ratio of force to area $\\frac{F}{A}$ on all surfaces. The deformation produced is a change in volume $ΔV$ , which is found to behave very similarly to the shear, tension, and compression previously discussed. (This is not surprising, since a compression of the entire object is equivalent to compressing each of its three dimensions.) The relationship of the change in volume to other physical quantities is given by",
+        "text": "We can describe the compression or volume deformation of an object with an equation. First, we note that a force “applied evenly” is defined to have the same stress, or ratio of force to area $\\frac{F}{A}$ on all surfaces. The deformation produced is a change in volume $ΔV$, which is found to behave very similarly to the shear, tension, and compression previously discussed. (This is not surprising, since a compression of the entire object is equivalent to compressing each of its three dimensions.) The relationship of the change in volume to other physical quantities is given by $ΔV=\\frac{1}{B}\\frac{F}{A}{V}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -783,7 +783,7 @@
       "id": "p-63",
       "type": "paragraph",
       "content": {
-        "text": "where $B$ is the bulk modulus (see ), ${V}_{0}$ is the original volume, and *$\\frac{F}{A}$* is the force per unit area applied uniformly inward on all surfaces. Note that no bulk moduli are given for gases.",
+        "text": "where $B$ is the bulk modulus (see the table), ${V}_{0}$ is the original volume, and *$\\frac{F}{A}$* is the force per unit area applied uniformly inward on all surfaces. Note that no bulk moduli are given for gases.",
         "inline": []
       },
       "level": "core"
@@ -816,7 +816,7 @@
       "id": "p-66",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the fractional decrease in volume ( $\\frac{ΔV}{{V}_{0}}$ ) for seawater at 5.00 km depth, where the force per unit area is $5.00×{10}^{7}N/{m}^{2}$ .",
+        "text": "Calculate the fractional decrease in volume ($\\frac{ΔV}{{V}_{0}}$) for seawater at 5.00 km depth, where the force per unit area is $5.00\\times {10}^{7} N/{m}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -834,7 +834,7 @@
       "id": "p-68",
       "type": "paragraph",
       "content": {
-        "text": "Solving for the unknown $\\frac{ΔV}{{V}_{0}}$ gives",
+        "text": "Solving for the unknown $\\frac{ΔV}{{V}_{0}}$ gives $\\frac{ΔV}{{V}_{0}}=\\frac{1}{B}\\frac{F}{A}.$",
         "inline": []
       },
       "level": "core"
@@ -843,7 +843,7 @@
       "id": "p-69",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values with the value for the bulk modulus $B$ from ,",
+        "text": "Substituting known values with the value for the bulk modulus $B$ from the table, $\\frac{ΔV}{{V}_{0}} = \\frac{5.00\\times {10}^{7} {N/m}^{2}}{2.2\\times {10}^{9} {N/m}^{2}} = 0.023=2.3%.$",
         "inline": []
       },
       "level": "core"
@@ -897,7 +897,7 @@
       "id": "p-75",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔL$ is the amount of deformation (the change in length), $F$ is the applied force, and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force. The relationship between the deformation and the applied force can also be written as",
+        "text": "where $ΔL$ is the amount of deformation (the change in length), $F$ is the applied force, and $k$ is a proportionality constant that depends on the shape and composition of the object and the direction of the force. The relationship between the deformation and the applied force can also be written as $ΔL=\\frac{1}{Y}\\frac{F}{A}{L}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -906,7 +906,7 @@
       "id": "p-76",
       "type": "paragraph",
       "content": {
-        "text": "where *$Y$* is *Young’s modulus* , which depends on the substance, *$A$* is the cross-sectional area, and ${L}_{0}$ is the original length.",
+        "text": "where *$Y$* is *Young’s modulus*, which depends on the substance, *$A$* is the cross-sectional area, and ${L}_{0}$ is the original length.",
         "inline": []
       },
       "level": "core"
@@ -915,7 +915,7 @@
       "id": "p-77",
       "type": "paragraph",
       "content": {
-        "text": "where $S$ is the shear modulus and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$ .",
+        "text": "where $S$ is the shear modulus and $F$ is the force applied perpendicular to ${L}_{0}$ and parallel to the cross-sectional area $A$.",
         "inline": []
       },
       "level": "core"
@@ -1165,7 +1165,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) The “lead” in pencils is a graphite composition with a Young’s modulus of about $1×{10}^{9}N/{m}^{2}$ . Calculate the change in length of the lead in an automatic pencil if you tap it straight into the pencil with a force of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long. (b) Is the answer reasonable? That is, does it seem to be consistent with what you have observed when using pencils?",
+        "text": "(a) The “lead” in pencils is a graphite composition with a Young’s modulus of about $1\\times {10}^{9} N/{m}^{2}$. Calculate the change in length of the lead in an automatic pencil if you tap it straight into the pencil with a force of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long. (b) Is the answer reasonable? That is, does it seem to be consistent with what you have observed when using pencils?",
         "inline": []
       },
       "level": "core",
@@ -1342,7 +1342,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A disk between vertebrae in the spine is subjected to a shearing force of 600 N. Find its shear deformation, taking it to have the shear modulus of $1×{10}^{9}N/{m}^{2}$ . The disk is equivalent to a solid cylinder 0.700 cm high and 4.00 cm in diameter.",
+        "text": "A disk between vertebrae in the spine is subjected to a shearing force of 600 N. Find its shear deformation, taking it to have the shear modulus of $1\\times {10}^{9} N/{m}^{2}$. The disk is equivalent to a solid cylinder 0.700 cm high and 4.00 cm in diameter.",
         "inline": []
       },
       "level": "core",
@@ -1405,7 +1405,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "To consider the effect of wires hung on poles, we take data from , in which tensions in wires supporting a traffic light were calculated. The left wire made an angle $30.0º$ below the horizontal with the top of its pole and carried a tension of 108 N. The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm diameter solid cylinder. (a) How far is it bent to the side? (b) By how much is it compressed?",
+        "text": "To consider the effect of wires hung on poles, we take data from the example, in which tensions in wires supporting a traffic light were calculated. The left wire made an angle $30.0º$ below the horizontal with the top of its pole and carried a tension of 108 N. The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm diameter solid cylinder. (a) How far is it bent to the side? (b) By how much is it compressed?",
         "inline": []
       },
       "level": "core",
@@ -1426,7 +1426,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A farmer making grape juice fills a glass bottle to the brim and caps it tightly. The juice expands more than the glass when it warms up, in such a way that the volume increases by 0.2% (that is, $ΔV/{V}_{0}=2×{10}^{-3}$ ) relative to the space available. Calculate the magnitude of the normal force exerted by the juice per square centimeter if its bulk modulus is $1.8×{10}^{9}{N/m}^{2}$ , assuming the bottle does not break. In view of your answer, do you think the bottle will survive?",
+        "text": "A farmer making grape juice fills a glass bottle to the brim and caps it tightly. The juice expands more than the glass when it warms up, in such a way that the volume increases by 0.2% (that is, $ΔV/{V}_{0}=2\\times {10}^{-3}$) relative to the space available. Calculate the magnitude of the normal force exerted by the juice per square centimeter if its bulk modulus is $1.8\\times {10}^{9} {N/m}^{2}$, assuming the bottle does not break. In view of your answer, do you think the bottle will survive?",
         "inline": []
       },
       "level": "core",
@@ -1459,7 +1459,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) When water freezes, its volume increases by 9.05% (that is, $ΔV/{V}_{0}=9.05×{10}^{-2}$ ). What force per unit area is water capable of exerting on a container when it freezes? (It is acceptable to use the bulk modulus of water in this problem.) (b) Is it surprising that such forces can fracture engine blocks, boulders, and the like?",
+        "text": "(a) When water freezes, its volume increases by 9.05% (that is, $ΔV/{V}_{0}=9.05\\times {10}^{-2}$). What force per unit area is water capable of exerting on a container when it freezes? (It is acceptable to use the bulk modulus of water in this problem.) (b) Is it surprising that such forces can fracture engine blocks, boulders, and the like?",
         "inline": []
       },
       "level": "core",
@@ -1480,7 +1480,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "This problem returns to the tightrope walker studied in , who created a tension of $3.94×{10}^{3}N$ in a wire making an angle $5.0º$ below the horizontal with each supporting pole. Calculate how much this tension stretches the steel wire if it was originally 15 m long and 0.50 cm in diameter.",
+        "text": "This problem returns to the tightrope walker studied in the example, who created a tension of $3.94\\times {10}^{3} N$ in a wire making an angle $5.0º$ below the horizontal with each supporting pole. Calculate how much this tension stretches the steel wire if it was originally 15 m long and 0.50 cm in diameter.",
         "inline": []
       },
       "level": "core",
@@ -1538,7 +1538,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking Two spherical beads of the same mass fall at a constant speed due to a drag force. Bead A takes twice as long to fall the same distance as bead B. (a) Which of these beads has the larger radius? (b) Based on experimental data, an equation that fits the data is suggested for radius of a bead, *r* , which may not be correct: $r=Kt-\\frac{1}{2}$ , where *K* is a constant with appropriate units and *t* is the time it takes for a bead to reach a determined distance. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Beads of different radii are selected and the time it takes to fall a set distance is recorded. Graph the radius of these beads as a function of the time it takes to fall a determined distance.",
+        "text": "Critical Thinking Two spherical beads of the same mass fall at a constant speed due to a drag force. Bead A takes twice as long to fall the same distance as bead B. (a) Which of these beads has the larger radius? (b) Based on experimental data, an equation that fits the data is suggested for radius of a bead, *r*, which may not be correct: $r=Kt-\\frac{1}{2}$, where *K* is a constant with appropriate units and *t* is the time it takes for a bead to reach a determined distance. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Beads of different radii are selected and the time it takes to fall a set distance is recorded. Graph the radius of these beads as a function of the time it takes to fall a determined distance.",
         "inline": []
       },
       "level": "core",

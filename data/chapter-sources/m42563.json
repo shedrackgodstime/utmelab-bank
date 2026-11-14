@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "A photon is a quantum of EM radiation. Its energy is given by $E=hf$ and is related to the frequency $f$ and wavelength $λ$ of the radiation by",
+        "text": "A photon is a quantum of EM radiation. Its energy is given by $E=hf$ and is related to the frequency $f$ and wavelength $λ$ of the radiation by $E=hf=\\frac{hc}{λ}(energy of a photon),$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "where $E$ is the energy of a single photon and $c$ is the speed of light. When working with small systems, energy in eV is often useful. Note that Planck’s constant in these units is",
+        "text": "where $E$ is the energy of a single photon and $c$ is the speed of light. When working with small systems, energy in eV is often useful. Note that Planck’s constant in these units is $h=4.14\\times {10}^{–15} eV\\cdot s.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Since many wavelengths are stated in nanometers (nm), it is also useful to know that",
+        "text": "Since many wavelengths are stated in nanometers (nm), it is also useful to know that $hc=1240 eV\\cdot nm.$",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "All EM radiation is composed of photons. shows various divisions of the EM spectrum plotted against wavelength, frequency, and photon energy. Previously in this book, photon characteristics were alluded to in the discussion of some of the characteristics of UV, x rays, and $γ$ rays, the first of which start with frequencies just above violet in the visible spectrum. It was noted that these types of EM radiation have characteristics much different than visible light. We can now see that such properties arise because photon energy is larger at high frequencies.",
+        "text": "All EM radiation is composed of photons. The figure shows various divisions of the EM spectrum plotted against wavelength, frequency, and photon energy. Previously in this book, photon characteristics were alluded to in the discussion of some of the characteristics of UV, x rays, and $γ$ rays, the first of which start with frequencies just above violet in the visible spectrum. It was noted that these types of EM radiation have characteristics much different than visible light. We can now see that such properties arise because photon energy is larger at high frequencies.",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Photons act as individual quanta and interact with individual electrons, atoms, molecules, and so on. The energy a photon carries is, thus, crucial to the effects it has. lists representative submicroscopic energies in eV. When we compare photon energies from the EM spectrum in with energies in the table, we can see how effects vary with the type of EM radiation.",
+        "text": "Photons act as individual quanta and interact with individual electrons, atoms, molecules, and so on. The energy a photon carries is, thus, crucial to the effects it has. The table lists representative submicroscopic energies in eV. When we compare photon energies from the EM spectrum in the figure with energies in the table, we can see how effects vary with the type of EM radiation.",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Gamma rays , a form of nuclear and cosmic EM radiation, can have the highest frequencies and, hence, the highest photon energies in the EM spectrum. For example, a $γ$ -ray photon with $f{= 10}^{21}Hz$ has an energy $E=hf=6.63×{10}^{–13}J=4.14 MeV.$ This is sufficient energy to ionize thousands of atoms and molecules, since only 10 to 1000 eV are needed per ionization. In fact, $γ$ rays are one type of ionizing radiation , as are x rays and UV, because they produce ionization in materials that absorb them. Because so much ionization can be produced, a single $γ$ -ray photon can cause significant damage to biological tissue, killing cells or damaging their ability to properly reproduce. When cell reproduction is disrupted, the result can be cancer, one of the known effects of exposure to ionizing radiation. Since cancer cells are rapidly reproducing, they are exceptionally sensitive to the disruption produced by ionizing radiation. This means that ionizing radiation has positive uses in cancer treatment as well as risks in producing cancer.",
+        "text": "Gamma rays, a form of nuclear and cosmic EM radiation, can have the highest frequencies and, hence, the highest photon energies in the EM spectrum. For example, a $γ$ -ray photon with $f{= 10}^{21} Hz$ has an energy $E=hf=6.63\\times {10}^{–13} J=4.14 MeV.$ This is sufficient energy to ionize thousands of atoms and molecules, since only 10 to 1000 eV are needed per ionization. In fact, $γ$ rays are one type of ionizing radiation, as are x rays and UV, because they produce ionization in materials that absorb them. Because so much ionization can be produced, a single $γ$ -ray photon can cause significant damage to biological tissue, killing cells or damaging their ability to properly reproduce. When cell reproduction is disrupted, the result can be cancer, one of the known effects of exposure to ionizing radiation. Since cancer cells are rapidly reproducing, they are exceptionally sensitive to the disruption produced by ionizing radiation. This means that ionizing radiation has positive uses in cancer treatment as well as risks in producing cancer.",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "High photon energy also enables $γ$ rays to penetrate materials, since a collision with a single atom or molecule is unlikely to absorb all the $γ$ ray’s energy. This can make $γ$ rays useful as a probe, and they are sometimes used in medical imaging. x rays , as you can see in , overlap with the low-frequency end of the $γ$ ray range. Since x rays have energies of keV and up, individual x-ray photons also can produce large amounts of ionization. At lower photon energies, x rays are not as penetrating as $γ$ rays and are slightly less hazardous. X rays are ideal for medical imaging, their most common use, and a fact that was recognized immediately upon their discovery in 1895 by the German physicist W. C. Roentgen (1845–1923). (See .) Within one year of their discovery, x rays (for a time called Roentgen rays) were used for medical diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of x rays.",
+        "text": "High photon energy also enables $γ$ rays to penetrate materials, since a collision with a single atom or molecule is unlikely to absorb all the $γ$ ray’s energy. This can make $γ$ rays useful as a probe, and they are sometimes used in medical imaging. x rays, as you can see in the figure, overlap with the low-frequency end of the $γ$ ray range. Since x rays have energies of keV and up, individual x-ray photons also can produce large amounts of ionization. At lower photon energies, x rays are not as penetrating as $γ$ rays and are slightly less hazardous. X rays are ideal for medical imaging, their most common use, and a fact that was recognized immediately upon their discovery in 1895 by the German physicist W. C. Roentgen (1845–1923). (See the figure.) Within one year of their discovery, x rays (for a time called Roentgen rays) were used for medical diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of x rays.",
         "inline": []
       },
       "level": "core"
@@ -178,7 +178,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Once again, we find that conservation of energy allows us to consider the initial and final forms that energy takes, without having to make detailed calculations of the intermediate steps. is solved by considering only the initial and final forms of energy.",
+        "text": "Once again, we find that conservation of energy allows us to consider the initial and final forms that energy takes, without having to make detailed calculations of the intermediate steps. The example is solved by considering only the initial and final forms of energy.",
         "inline": []
       },
       "level": "core"
@@ -200,7 +200,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "While $γ$ rays originate in nuclear decay, x rays are produced by the process shown in . Electrons ejected by thermal agitation from a hot filament in a vacuum tube are accelerated through a high voltage, gaining kinetic energy from the electrical potential energy. When they strike the anode, the electrons convert their kinetic energy to a variety of forms, including thermal energy. But since an accelerated charge radiates EM waves, and since the electrons act individually, photons are also produced. Some of these x-ray photons obtain the kinetic energy of the electron. The accelerated electrons originate at the cathode, so such a tube is called a cathode ray tube (CRT), and various versions of them are found in older TV and computer screens as well as in x-ray machines.",
+        "text": "While $γ$ rays originate in nuclear decay, x rays are produced by the process shown in the figure. Electrons ejected by thermal agitation from a hot filament in a vacuum tube are accelerated through a high voltage, gaining kinetic energy from the electrical potential energy. When they strike the anode, the electrons convert their kinetic energy to a variety of forms, including thermal energy. But since an accelerated charge radiates EM waves, and since the electrons act individually, photons are also produced. Some of these x-ray photons obtain the kinetic energy of the electron. The accelerated electrons originate at the cathode, so such a tube is called a cathode ray tube (CRT), and various versions of them are found in older TV and computer screens as well as in x-ray machines.",
         "inline": []
       },
       "level": "core"
@@ -224,7 +224,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Find the maximum energy in eV of an x-ray photon produced by electrons accelerated through a potential difference of 50.0 kV in a CRT like the one in .",
+        "text": "Find the maximum energy in eV of an x-ray photon produced by electrons accelerated through a potential difference of 50.0 kV in a CRT like the one in the figure.",
         "inline": []
       },
       "level": "core"
@@ -233,7 +233,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Electrons can give all of their kinetic energy to a single photon when they strike the anode of a CRT. (This is something like the photoelectric effect in reverse.) The kinetic energy of the electron comes from electrical potential energy. Thus we can simply equate the maximum photon energy to the electrical potential energy—that is, $hf=qV.$ (We do not have to calculate each step from beginning to end if we know that all of the starting energy $qV$ is converted to the final form $hf.$ )",
+        "text": "Electrons can give all of their kinetic energy to a single photon when they strike the anode of a CRT. (This is something like the photoelectric effect in reverse.) The kinetic energy of the electron comes from electrical potential energy. Thus we can simply equate the maximum photon energy to the electrical potential energy—that is, $hf=qV.$ (We do not have to calculate each step from beginning to end if we know that all of the starting energy $qV$ is converted to the final form $hf.$)",
         "inline": []
       },
       "level": "core"
@@ -242,7 +242,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The maximum photon energy is $hf=qV$ , where $q$ is the charge of the electron and $V$ is the accelerating voltage. Thus,",
+        "text": "The maximum photon energy is $hf=qV$, where $q$ is the charge of the electron and $V$ is the accelerating voltage. Thus, $hf=(1.60\\times {10}^{–19} C)(50.0\\times {10}^{3} V).$",
         "inline": []
       },
       "level": "core"
@@ -251,7 +251,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "From the definition of the electron volt, we know $1 eV=1.60×{10}^{–19}J$ , where $1 J=1 C\\cdot V.$ Gathering factors and converting energy to eV yields",
+        "text": "From the definition of the electron volt, we know $1 eV=1.60\\times {10}^{–19} J$, where $1 J=1 C\\cdot V.$ Gathering factors and converting energy to eV yields $hf=(50.0\\times {10}^{3})(1.60\\times {10}^{–19} C\\cdot V)(\\frac{1 eV}{1.60\\times {10}^{–19} C\\cdot V})=(50.0\\times {10}^{3})(1 eV)=50.0 keV.$",
         "inline": []
       },
       "level": "core"
@@ -282,7 +282,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "shows the spectrum of x rays obtained from an x-ray tube. There are two distinct features to the spectrum. First, the smooth distribution results from electrons being decelerated in the anode material. A curve like this is obtained by detecting many photons, and it is apparent that the maximum energy is unlikely. This decelerating process produces radiation that is called bremsstrahlung (German for *braking radiation* ). The second feature is the existence of sharp peaks in the spectrum; these are called characteristic x rays , since they are characteristic of the anode material. Characteristic x rays come from atomic excitations unique to a given type of anode material. They are akin to lines in atomic spectra, implying the energy levels of atoms are quantized. Phenomena such as discrete atomic spectra and characteristic x rays are explored further in Atomic Physics .",
+        "text": "The figure shows the spectrum of x rays obtained from an x-ray tube. There are two distinct features to the spectrum. First, the smooth distribution results from electrons being decelerated in the anode material. A curve like this is obtained by detecting many photons, and it is apparent that the maximum energy is unlikely. This decelerating process produces radiation that is called bremsstrahlung (German for *braking radiation*). The second feature is the existence of sharp peaks in the spectrum; these are called characteristic x rays, since they are characteristic of the anode material. Characteristic x rays come from atomic excitations unique to a given type of anode material. They are akin to lines in atomic spectra, implying the energy levels of atoms are quantized. Phenomena such as discrete atomic spectra and characteristic x rays are explored further in Atomic Physics.",
         "inline": []
       },
       "level": "core"
@@ -324,7 +324,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Using the equation $E=hf$ and appropriate constants, we can find the photon energy and compare it with energy information in .",
+        "text": "Using the equation $E=hf$ and appropriate constants, we can find the photon energy and compare it with energy information in the table.",
         "inline": []
       },
       "level": "core"
@@ -333,7 +333,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The energy of a photon is given by",
+        "text": "The energy of a photon is given by $E=hf=\\frac{hc}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Using $hc=1240 eV\\cdot nm,$ we find that",
+        "text": "Using $hc=1240 eV\\cdot nm,$ we find that $E=\\frac{hc}{λ}=\\frac{1240 eV\\cdot nm}{100 nm}=12.4 eV.$",
         "inline": []
       },
       "level": "core"
@@ -351,7 +351,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "According to , this photon energy might be able to ionize an atom or molecule, and it is about what is needed to break up a tightly bound molecule, since they are bound by approximately 10 eV. This photon energy could destroy about a dozen weakly bound molecules. Because of its high photon energy, UV disrupts atoms and molecules it interacts with. One good consequence is that all but the longest-wavelength UV is strongly absorbed and is easily blocked by sunglasses. In fact, most of the Sun’s UV is absorbed by a thin layer of ozone in the upper atmosphere, protecting sensitive organisms on Earth. Damage to our ozone layer by the addition of such chemicals as CFC’s has reduced this protection for us.",
+        "text": "According to the table, this photon energy might be able to ionize an atom or molecule, and it is about what is needed to break up a tightly bound molecule, since they are bound by approximately 10 eV. This photon energy could destroy about a dozen weakly bound molecules. Because of its high photon energy, UV disrupts atoms and molecules it interacts with. One good consequence is that all but the longest-wavelength UV is strongly absorbed and is easily blocked by sunglasses. In fact, most of the Sun’s UV is absorbed by a thin layer of ozone in the upper atmosphere, protecting sensitive organisms on Earth. Damage to our ozone layer by the addition of such chemicals as CFC’s has reduced this protection for us.",
         "inline": []
       },
       "level": "core"
@@ -378,7 +378,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "There are some noticeable differences in the characteristics of light between the two ends of the visible spectrum that are due to photon energies. Red light has insufficient photon energy to expose most black-and-white film, and it is thus used to illuminate darkrooms where such film is developed. Since violet light has a higher photon energy, dyes that absorb violet tend to fade more quickly than those that do not. (See .) Take a look at some faded color posters in a storefront some time, and you will notice that the blues and violets are the last to fade. This is because other dyes, such as red and green dyes, absorb blue and violet photons, the higher energies of which break up their weakly bound molecules. (Complex molecules such as those in dyes and DNA tend to be weakly bound.) Blue and violet dyes reflect those colors and, therefore, do not absorb these more energetic photons, thus suffering less molecular damage.",
+        "text": "There are some noticeable differences in the characteristics of light between the two ends of the visible spectrum that are due to photon energies. Red light has insufficient photon energy to expose most black-and-white film, and it is thus used to illuminate darkrooms where such film is developed. Since violet light has a higher photon energy, dyes that absorb violet tend to fade more quickly than those that do not. (See the figure.) Take a look at some faded color posters in a storefront some time, and you will notice that the blues and violets are the last to fade. This is because other dyes, such as red and green dyes, absorb blue and violet photons, the higher energies of which break up their weakly bound molecules. (Complex molecules such as those in dyes and DNA tend to be weakly bound.) Blue and violet dyes reflect those colors and, therefore, do not absorb these more energetic photons, thus suffering less molecular damage.",
         "inline": []
       },
       "level": "core"
@@ -442,7 +442,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "The power in visible light production is 10.0% of 100 W, or 10.0 J/s. The energy of the average visible photon is found by substituting the given average wavelength into the formula",
+        "text": "The power in visible light production is 10.0% of 100 W, or 10.0 J/s. The energy of the average visible photon is found by substituting the given average wavelength into the formula $E=\\frac{hc}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -451,7 +451,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "The number of visible photons per second is thus",
+        "text": "The number of visible photons per second is thus $photon/s=\\frac{10.0 J/s}{3.43\\times {10}^{–19} J/photon}=2.92\\times {10}^{19} photon/s.$",
         "inline": []
       },
       "level": "core"
@@ -478,7 +478,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "Infrared radiation (IR) has even lower photon energies than visible light and cannot significantly alter atoms and molecules. IR can be absorbed and emitted by atoms and molecules, particularly between closely spaced states. IR is extremely strongly absorbed by water, for example, because water molecules have many states separated by energies on the order of ${10}^{–5}eV$ to ${10}^{–2}eV,$ well within the IR and microwave energy ranges. This is why in the IR range, skin is almost jet black, with an emissivity near 1—there are many states in water molecules in the skin that can absorb a large range of IR photon energies. Not all molecules have this property. Air, for example, is nearly transparent to many IR frequencies.",
+        "text": "Infrared radiation (IR) has even lower photon energies than visible light and cannot significantly alter atoms and molecules. IR can be absorbed and emitted by atoms and molecules, particularly between closely spaced states. IR is extremely strongly absorbed by water, for example, because water molecules have many states separated by energies on the order of ${10}^{–5} eV$ to ${10}^{–2} eV,$ well within the IR and microwave energy ranges. This is why in the IR range, skin is almost jet black, with an emissivity near 1—there are many states in water molecules in the skin that can absorb a large range of IR photon energies. Not all molecules have this property. Air, for example, is nearly transparent to many IR frequencies.",
         "inline": []
       },
       "level": "core"
@@ -487,7 +487,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Microwaves are the highest frequencies that can be produced by electronic circuits, although they are also produced naturally. Thus microwaves are similar to IR but do not extend to as high frequencies. There are states in water and other molecules that have the same frequency and energy as microwaves, typically about ${10}^{–5}eV.$ This is one reason why food absorbs microwaves more strongly than many other materials, making microwave ovens an efficient way of putting energy directly into food.",
+        "text": "Microwaves are the highest frequencies that can be produced by electronic circuits, although they are also produced naturally. Thus microwaves are similar to IR but do not extend to as high frequencies. There are states in water and other molecules that have the same frequency and energy as microwaves, typically about ${10}^{–5} eV.$ This is one reason why food absorbs microwaves more strongly than many other materials, making microwave ovens an efficient way of putting energy directly into food.",
         "inline": []
       },
       "level": "core"
@@ -566,7 +566,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In the intensity versus frequency curve for x rays ( ), the intensity is mostly a smooth curve associated with *bremsstrahlung* (“breaking radiation”). However, there are two spikes (characteristic x rays) that exhibit high-intensity output. Explain how the smooth curve can be described by classical electrodynamics, whereas the peaks require a quantum mechanical interpretation. (Recall that the acceleration or deceleration of electric charges causes the emission of electromagnetic radiation.)",
+        "text": "In the intensity versus frequency curve for x rays (the figure), the intensity is mostly a smooth curve associated with *bremsstrahlung* (“breaking radiation”). However, there are two spikes (characteristic x rays) that exhibit high-intensity output. Explain how the smooth curve can be described by classical electrodynamics, whereas the peaks require a quantum mechanical interpretation. (Recall that the acceleration or deceleration of electric charges causes the emission of electromagnetic radiation.)",
         "inline": []
       },
       "level": "core",
@@ -926,7 +926,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the energy in eV of an IR photon of frequency $2.00×{10}^{13}Hz.$ (b) How many of these photons would need to be absorbed simultaneously by a tightly bound molecule to break it apart? (c) What is the energy in eV of a $γ$ ray of frequency $3.00×{10}^{20}Hz?$ (d) How many tightly bound molecules could a single such $γ$ ray break apart?",
+        "text": "(a) Calculate the energy in eV of an IR photon of frequency $2.00\\times {10}^{13} Hz.$ (b) How many of these photons would need to be absorbed simultaneously by a tightly bound molecule to break it apart? (c) What is the energy in eV of a $γ$ ray of frequency $3.00\\times {10}^{20} Hz?$ (d) How many tightly bound molecules could a single such $γ$ ray break apart?",
         "inline": []
       },
       "level": "core",
@@ -950,7 +950,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Prove that, to three-digit accuracy, $h=4.14×{10}^{-15}eV\\cdot s,$ as stated in the text.",
+        "text": "Prove that, to three-digit accuracy, $h=4.14\\times {10}^{-15} eV\\cdot s,$ as stated in the text.",
         "inline": []
       },
       "level": "core",

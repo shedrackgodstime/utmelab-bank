@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Superconductivity was discovered accidentally in 1911 by the Dutch physicist H. Kamerlingh Onnes (1853–1926) when he used liquid helium to cool mercury. Onnes had been the first person to liquefy helium a few years earlier and was surprised to observe the resistivity of a mediocre conductor like mercury drop to zero at a temperature of 4.2 K. We define the temperature at which and below which a material becomes a superconductor to be its critical temperature , denoted by ${T}_{c}$ . (See .) Progress in understanding how and why a material became a superconductor was relatively slow, with the first workable theory coming in 1957. Certain other elements were also found to become superconductors, but all had ${T}_{c}$ s less than 10 K, which are expensive to maintain. Although Onnes received a Nobel prize in 1913, it was primarily for his work with liquid helium.",
+        "text": "Superconductivity was discovered accidentally in 1911 by the Dutch physicist H. Kamerlingh Onnes (1853–1926) when he used liquid helium to cool mercury. Onnes had been the first person to liquefy helium a few years earlier and was surprised to observe the resistivity of a mediocre conductor like mercury drop to zero at a temperature of 4.2 K. We define the temperature at which and below which a material becomes a superconductor to be its critical temperature, denoted by ${T}_{c}$. (See the figure.) Progress in understanding how and why a material became a superconductor was relatively slow, with the first workable theory coming in 1957. Certain other elements were also found to become superconductors, but all had ${T}_{c}$ s less than 10 K, which are expensive to maintain. Although Onnes received a Nobel prize in 1913, it was primarily for his work with liquid helium.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "In 1986, a breakthrough was announced—a ceramic compound was found to have an unprecedented ${T}_{c}$ of 35 K. It looked as if much higher critical temperatures could be possible, and by early 1988 another ceramic (this of thallium, calcium, barium, copper, and oxygen) had been found to have ${T}_{c}=125 K$ (see .) The economic potential of perfect conductors saving electric energy is immense for ${T}_{c}$ s above 77 K, since that is the temperature of liquid nitrogen. Although liquid helium has a boiling point of 4 K and can be used to make materials superconducting, it costs about $5 per liter. Liquid nitrogen boils at 77 K, but only costs about $0.30 per liter. There was general euphoria at the discovery of these complex ceramic superconductors, but this soon subsided with the sobering difficulty of forming them into usable wires. The first commercial use of a high temperature superconductor is in an electronic filter for cellular phones. High-temperature superconductors are used in experimental apparatus, and they are actively being researched, particularly in thin film applications.",
+        "text": "In 1986, a breakthrough was announced—a ceramic compound was found to have an unprecedented ${T}_{c}$ of 35 K. It looked as if much higher critical temperatures could be possible, and by early 1988 another ceramic (this of thallium, calcium, barium, copper, and oxygen) had been found to have ${T}_{c}=125 K$ (see the figure.) The economic potential of perfect conductors saving electric energy is immense for ${T}_{c}$ s above 77 K, since that is the temperature of liquid nitrogen. Although liquid helium has a boiling point of 4 K and can be used to make materials superconducting, it costs about \\$5 per liter. Liquid nitrogen boils at 77 K, but only costs about \\$0.30 per liter. There was general euphoria at the discovery of these complex ceramic superconductors, but this soon subsided with the sobering difficulty of forming them into usable wires. The first commercial use of a high temperature superconductor is in an electronic filter for cellular phones. High-temperature superconductors are used in experimental apparatus, and they are actively being researched, particularly in thin film applications.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The search is on for even higher ${T}_{c}$ superconductors, many of complex and exotic copper oxide ceramics, sometimes including strontium, mercury, or yttrium as well as barium, calcium, and other elements. Room temperature (about 293 K) would be ideal, but any temperature close to room temperature is relatively cheap to produce and maintain. There are persistent reports of ${T}_{c}$ s over 200 K and some in the vicinity of 270 K. Unfortunately, these observations are not routinely reproducible, with samples losing their superconducting nature once heated and recooled (cycled) a few times (see .) They are now called USOs or unidentified superconducting objects, out of frustration and the refusal of some samples to show high ${T}_{c}$ even though produced in the same manner as others. Reproducibility is crucial to discovery, and researchers are justifiably reluctant to claim the breakthrough they all seek. Time will tell whether USOs are real or an experimental quirk.",
+        "text": "The search is on for even higher ${T}_{c}$ superconductors, many of complex and exotic copper oxide ceramics, sometimes including strontium, mercury, or yttrium as well as barium, calcium, and other elements. Room temperature (about 293 K) would be ideal, but any temperature close to room temperature is relatively cheap to produce and maintain. There are persistent reports of ${T}_{c}$ s over 200 K and some in the vicinity of 270 K. Unfortunately, these observations are not routinely reproducible, with samples losing their superconducting nature once heated and recooled (cycled) a few times (see the figure.) They are now called USOs or unidentified superconducting objects, out of frustration and the refusal of some samples to show high ${T}_{c}$ even though produced in the same manner as others. Reproducibility is crucial to discovery, and researchers are justifiably reluctant to claim the breakthrough they all seek. Time will tell whether USOs are real or an experimental quirk.",
         "inline": []
       },
       "level": "core"
@@ -134,7 +134,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is critical temperature ${T}_{c}$ ? Do all materials have a critical temperature? Explain why or why not.",
+        "text": "What is critical temperature ${T}_{c}$? Do all materials have a critical temperature? Explain why or why not.",
         "inline": []
       },
       "level": "core",
@@ -206,7 +206,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A section of superconducting wire carries a current of 100 A and requires 1.00 L of liquid nitrogen per hour to keep it below its critical temperature. For it to be economically advantageous to use a superconducting wire, the cost of cooling the wire must be less than the cost of energy lost to heat in the wire. Assume that the cost of liquid nitrogen is $0.30 per liter, and that electric energy costs $0.10 per kW·h. What is the resistance of a normal wire that costs as much in wasted electric energy as the cost of liquid nitrogen for the superconductor?",
+        "text": "A section of superconducting wire carries a current of 100 A and requires 1.00 L of liquid nitrogen per hour to keep it below its critical temperature. For it to be economically advantageous to use a superconducting wire, the cost of cooling the wire must be less than the cost of energy lost to heat in the wire. Assume that the cost of liquid nitrogen is \\$0.30 per liter, and that electric energy costs \\$0.10 per kW·h. What is the resistance of a normal wire that costs as much in wasted electric energy as the cost of liquid nitrogen for the superconductor?",
         "inline": []
       },
       "level": "core",
@@ -230,7 +230,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking Assume two galaxies are $2.00×{10}^{2}Mly$ apart. (a) How fast are they separating due to space expansion? (b) Now suppose a third galaxy is located $2.00×{10}^{2}Mly$ along a line that is a perpendicular bisector of the line segment between the first two galaxies. How fast is this galaxy separating from either of the other two galaxies? (c) Why would the third galaxy appear to be receding from both of the initially mentioned galaxies at the same rate? (d) How would the apparent motion be detected?",
+        "text": "Critical Thinking Assume two galaxies are $2.00\\times {10}^{2}Mly$ apart. (a) How fast are they separating due to space expansion? (b) Now suppose a third galaxy is located $2.00\\times {10}^{2}Mly$ along a line that is a perpendicular bisector of the line segment between the first two galaxies. How fast is this galaxy separating from either of the other two galaxies? (c) Why would the third galaxy appear to be receding from both of the initially mentioned galaxies at the same rate? (d) How would the apparent motion be detected?",
         "inline": []
       },
       "level": "core",

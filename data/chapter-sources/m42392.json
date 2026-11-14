@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Faraday’s experiments showed that the emf induced by a change in magnetic flux depends on only a few factors. First, emf is directly proportional to the change in flux $ΔΦ$ . Second, emf is greatest when the change in time $Δt$ is smallest—that is, emf is inversely proportional to $Δt$ . Finally, if a coil has $N$ turns, an emf will be produced that is $N$ times greater than for a single coil, so that emf is directly proportional to $N$ . The equation for the emf induced by a change in magnetic flux is",
+        "text": "Faraday’s experiments showed that the emf induced by a change in magnetic flux depends on only a few factors. First, emf is directly proportional to the change in flux $ΔΦ$. Second, emf is greatest when the change in time $Δt$ is smallest—that is, emf is inversely proportional to $Δt$. Finally, if a coil has $N$ turns, an emf will be produced that is $N$ times greater than for a single coil, so that emf is directly proportional to $N$. The equation for the emf induced by a change in magnetic flux is $emf=-N\\frac{ΔΦ}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "This relationship is known as Faraday’s law of induction . The units for emf are volts, as is usual.",
+        "text": "This relationship is known as Faraday’s law of induction. The units for emf are volts, as is usual.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The minus sign in Faraday’s law of induction is very important. The minus means that *the emf creates a current I and magnetic field B that oppose the change in flux $ΔΦ$ —this is known as Lenz’s law* . The direction (given by the minus sign) of the emf is so important that it is called Lenz’s law after the Russian Heinrich Lenz (1804–1865), who, like Faraday and Henry, independently investigated aspects of induction. Faraday was aware of the direction, but Lenz stated it so clearly that he is credited for its discovery. (See .)",
+        "text": "The minus sign in Faraday’s law of induction is very important. The minus means that *the emf creates a current I and magnetic field B that oppose the change in flux $ΔΦ$ —this is known as Lenz’s law*. The direction (given by the minus sign) of the emf is so important that it is called Lenz’s law after the Russian Heinrich Lenz (1804–1865), who, like Faraday and Henry, independently investigated aspects of induction. Faraday was aware of the direction, but Lenz stated it so clearly that he is credited for its discovery. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "For practice, apply these steps to the situations shown in and to others that are part of the following text material.",
+        "text": "For practice, apply these steps to the situations shown in the figure and to others that are part of the following text material.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "There are many applications of Faraday’s Law of induction, as we will explore in this chapter and others. At this juncture, let us mention several that have to do with data storage and magnetic fields. A very important application has to do with audio and video *recording tapes* . A plastic tape, coated with iron oxide, moves past a recording head. This recording head is basically a round iron ring about which is wrapped a coil of wire—an electromagnet ( ). A signal in the form of a varying input current from a microphone or camera goes to the recording head. These signals (which are a function of the signal amplitude and frequency) produce varying magnetic fields at the recording head. As the tape moves past the recording head, the magnetic field orientations of the iron oxide molecules on the tape are changed thus recording the signal. In the playback mode, the magnetized tape is run past another head, similar in structure to the recording head. The different magnetic field orientations of the iron oxide molecules on the tape induces an emf in the coil of wire in the playback head. This signal then is sent to a loudspeaker or video player.",
+        "text": "There are many applications of Faraday’s Law of induction, as we will explore in this chapter and others. At this juncture, let us mention several that have to do with data storage and magnetic fields. A very important application has to do with audio and video *recording tapes*. A plastic tape, coated with iron oxide, moves past a recording head. This recording head is basically a round iron ring about which is wrapped a coil of wire—an electromagnet (the figure). A signal in the form of a varying input current from a microphone or camera goes to the recording head. These signals (which are a function of the signal amplitude and frequency) produce varying magnetic fields at the recording head. As the tape moves past the recording head, the magnetic field orientations of the iron oxide molecules on the tape are changed thus recording the signal. In the playback mode, the magnetized tape is run past another head, similar in structure to the recording head. The different magnetic field orientations of the iron oxide molecules on the tape induces an emf in the coil of wire in the playback head. This signal then is sent to a loudspeaker or video player.",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Similar principles apply to computer hard drives, except at a much faster rate. Here recordings are on a coated, spinning disk. Read heads historically were made to work on the principle of induction. However, the input information is carried in digital rather than analog form – a series of 0’s or 1’s are written upon the spinning hard drive. Today, most hard drive readout devices do not work on the principle of induction, but use a technique known as *giant magnetoresistance* . (The discovery that weak changes in a magnetic field in a thin film of iron and chromium could bring about much larger changes in electrical resistance was one of the first large successes of nanotechnology.) Another application of induction is found on the magnetic stripe on the back of your personal credit card as used at the grocery store or the ATM machine. This works on the same principle as the audio or video tape mentioned in the last paragraph in which a head reads personal information from your card.",
+        "text": "Similar principles apply to computer hard drives, except at a much faster rate. Here recordings are on a coated, spinning disk. Read heads historically were made to work on the principle of induction. However, the input information is carried in digital rather than analog form – a series of 0’s or 1’s are written upon the spinning hard drive. Today, most hard drive readout devices do not work on the principle of induction, but use a technique known as *giant magnetoresistance*. (The discovery that weak changes in a magnetic field in a thin film of iron and chromium could bring about much larger changes in electrical resistance was one of the first large successes of nanotechnology.) Another application of induction is found on the magnetic stripe on the back of your personal credit card as used at the grocery store or the ATM machine. This works on the same principle as the audio or video tape mentioned in the last paragraph in which a head reads personal information from your card.",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Another contemporary area of research in which electromagnetic induction is being successfully implemented (and with substantial potential) is transcranial magnetic simulation. A host of disorders, including depression and hallucinations can be traced to irregular localized electrical activity in the brain. In *transcranial magnetic stimulation* , a rapidly varying and very localized magnetic field is placed close to certain sites identified in the brain. Weak electric currents are induced in the identified sites and can result in recovery of electrical functioning in the brain tissue.",
+        "text": "Another contemporary area of research in which electromagnetic induction is being successfully implemented (and with substantial potential) is transcranial magnetic simulation. A host of disorders, including depression and hallucinations can be traced to irregular localized electrical activity in the brain. In *transcranial magnetic stimulation*, a rapidly varying and very localized magnetic field is placed close to certain sites identified in the brain. Weak electric currents are induced in the identified sites and can result in recovery of electrical functioning in the brain tissue.",
         "inline": []
       },
       "level": "core"
@@ -202,7 +202,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the magnitude of the induced emf when the magnet in (a) is thrust into the coil, given the following information: the single loop coil has a radius of 6.00 cm and the average value of $Bcosθ$ (this is given, since the bar magnet’s field is complex) increases from 0.0500 T to 0.250 T in 0.100 s.",
+        "text": "Calculate the magnitude of the induced emf when the magnet in the figure (a) is thrust into the coil, given the following information: the single loop coil has a radius of 6.00 cm and the average value of $B cos θ$ (this is given, since the bar magnet’s field is complex) increases from 0.0500 T to 0.250 T in 0.100 s.",
         "inline": []
       },
       "level": "core"
@@ -211,7 +211,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "To find the *magnitude* of emf, we use Faraday’s law of induction as stated by $emf=-N\\frac{ΔΦ}{Δt}$ , but without the minus sign that indicates direction:",
+        "text": "To find the *magnitude* of emf, we use Faraday’s law of induction as stated by $emf=-N\\frac{ΔΦ}{Δt}$, but without the minus sign that indicates direction: $emf=N\\frac{ΔΦ}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "We are given that $N=1$ and $Δt=0.100s$ , but we must determine the change in flux $ΔΦ$ before we can find emf. Since the area of the loop is fixed, we see that",
+        "text": "We are given that $N=1$ and $Δt=0.100 s$, but we must determine the change in flux $ΔΦ$ before we can find emf. Since the area of the loop is fixed, we see that $ΔΦ=Δ(BA cos θ)=AΔ(B cos θ).$",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Now $Δ(Bcosθ)=0.200 T$ , since it was given that $Bcosθ$ changes from 0.0500 to 0.250 T. The area of the loop is $A={πr}^{2}=(3.14...)(0.060 m{)}^{2}=1.13×{10}^{-2}{m}^{2}$ . Thus,",
+        "text": "Now $Δ(B cos θ)=0.200 T$, since it was given that $B cos θ$ changes from 0.0500 to 0.250 T. The area of the loop is $A={πr}^{2}=(3.14...)(0.060 m{)}^{2}=1.13\\times {10}^{-2} {m}^{2}$. Thus, $ΔΦ=(1.13\\times {10}^{-2} {m}^{2})(0.200 T).$",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Entering the determined values into the expression for emf gives",
+        "text": "Entering the determined values into the expression for emf gives $Emf=N\\frac{ΔΦ}{Δt}=\\frac{(1.13\\times {10}^{-2} {m}^{2})(0.200 T)}{0.100 s}=22.6 mV.$",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -283,7 +283,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "when flux changes by $ΔΦ$ in a time $Δt$ .",
+        "text": "when flux changes by $ΔΦ$ in a time $Δt$.",
         "inline": []
       },
       "level": "core"
@@ -399,7 +399,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to (b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction? Explicitly show how you follow the steps in the Problem-Solving Strategy for Lenz’s Law .",
+        "text": "Referring to the figure (a), what is the direction of the current induced in coil 2: (a) If the current in coil 1 increases? (b) If the current in coil 1 decreases? (c) If the current in coil 1 is constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for Lenz's Law.",
         "inline": []
       },
       "level": "core",
@@ -420,7 +420,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to , what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?",
+        "text": "Referring to the figure, what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?",
         "inline": []
       },
       "level": "core",
@@ -505,7 +505,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify that the units of $ΔΦ$ / $Δt$ are volts. That is, show that $1T\\cdot {m}^{2}/s=1 V$ .",
+        "text": "Verify that the units of $ΔΦ$ / $Δt$ are volts. That is, show that $1 T\\cdot {m}^{2}/s=1 V$.",
         "inline": []
       },
       "level": "core",
@@ -526,7 +526,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field that is directed into the page. The coil originally has an area of $0.250{m}^{2}$ . It is stretched to have no area in 0.100 s. What is the direction and magnitude of the induced emf if the uniform magnetic field has a strength of 1.50 T?",
+        "text": "Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field that is directed into the page. The coil originally has an area of $0.250 {m}^{2}$. It is stretched to have no area in 0.100 s. What is the direction and magnitude of the induced emf if the uniform magnetic field has a strength of 1.50 T?",
         "inline": []
       },
       "level": "core",
@@ -580,7 +580,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Referring to the situation in the previous problem: (a) What current is induced in the ring if its resistance is 0.0100 $Ω$ ? (b) What average power is dissipated? (c) What magnetic field is induced at the center of the ring? (d) What is the direction of the induced magnetic field relative to the MRI’s field?",
+        "text": "Integrated Concepts Referring to the situation in the previous problem: (a) What current is induced in the ring if its resistance is 0.0100 $Ω$? (b) What average power is dissipated? (c) What magnetic field is induced at the center of the ring? (d) What is the direction of the induced magnetic field relative to the MRI’s field?",
         "inline": []
       },
       "level": "core",
@@ -601,7 +601,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s $5.00×{10}^{-5}T$ magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?",
+        "text": "An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s $5.00\\times {10}^{-5} T$ magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?",
         "inline": []
       },
       "level": "core",
@@ -646,7 +646,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Approximately how does the emf induced in the loop in (b) depend on the distance of the center of the loop from the wire?",
+        "text": "Integrated Concepts Approximately how does the emf induced in the loop in the figure (b) depend on the distance of the center of the loop from the wire?",
         "inline": []
       },
       "level": "core",
@@ -679,7 +679,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) A lightning bolt produces a rapidly varying magnetic field. If the bolt strikes the earth vertically and acts like a current in a long straight wire, it will induce a voltage in a loop aligned like that in (b). What voltage is induced in a 1.00 m diameter loop 50.0 m from a $2.00×{10}^{6}A$ lightning strike, if the current falls to zero in $25.0 μs$ ? (b) Discuss circumstances under which such a voltage would produce noticeable consequences.",
+        "text": "Integrated Concepts (a) A lightning bolt produces a rapidly varying magnetic field. If the bolt strikes the earth vertically and acts like a current in a long straight wire, it will induce a voltage in a loop aligned like that in the figure (b). What voltage is induced in a 1.00 m diameter loop 50.0 m from a $2.00\\times {10}^{6} A$ lightning strike, if the current falls to zero in $25.0 μs$?\n(b) Discuss circumstances under which such a voltage would produce noticeable consequences.",
         "inline": []
       },
       "level": "core",

@@ -122,7 +122,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_temperature_and_gas_laws",
+    "phy_heat_transfer"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -141,24 +144,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-heat-energy",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -192,7 +178,7 @@
           "subject": "physics",
           "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -200,11 +186,30 @@
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-39"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A gas absorbs 200 J of heat and does 50 J of work. Find the change in its internal energy.",
+          "answer": "150 J",
+          "answer_kind": "expression",
+          "solution": [
+            "Use the first law: ΔE_int = Q − W.",
+            "Q = 200 J and W = 50 J.",
+            "ΔE_int = 200 − 50 = 150 J."
+          ],
+          "tags": [
+            "first law",
+            "internal energy"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -217,7 +222,18 @@
         "Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.",
         "Calculate total work done in a cyclical thermodynamic process."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An isothermal process has no heat transfer.",
+          "correction": "For an ideal gas at constant temperature, the internal energy does not change, so Q = W. Heat can enter or leave while the gas does or has work done on it.",
+          "signal": "Isothermal means constant temperature, not zero heat."
+        },
+        {
+          "claim": "The temperature cannot change in an adiabatic process.",
+          "correction": "Adiabatic means no heat transfer, not constant temperature. Work done by or on the gas changes its internal energy and therefore its temperature.",
+          "signal": "A bicycle pump warms up because the compression is nearly adiabatic."
+        }
+      ],
       "summary": [
         "One of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.",
         "There are several simple processes, used by heat engines, that flow from the first law of thermodynamics. Among them are the isobaric, isochoric, isothermal and adiabatic processes.",
@@ -231,7 +247,7 @@
           "subject": "physics",
           "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -239,11 +255,10 @@
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-41"
+      ]
     },
     {
       "id": "sec-4",
@@ -273,7 +288,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "quantity-of-heat",
+          "topic_slug": "heat-transfer",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -283,11 +298,30 @@
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-51"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A heat engine absorbs 500 J from a hot reservoir and does 150 J of useful work. Find its efficiency.",
+          "answer": "30%",
+          "answer_kind": "expression",
+          "solution": [
+            "Efficiency is useful work divided by heat absorbed.",
+            "e = 150/500 = 0.30.",
+            "As a percentage, e = 30%."
+          ],
+          "tags": [
+            "efficiency",
+            "heat engine"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -300,7 +334,18 @@
         "Calculate maximum theoretical efficiency of a nuclear reactor.",
         "Explain how dissipative processes affect the ideal Carnot engine."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A Carnot engine can be made 100% efficient.",
+          "correction": "Its efficiency is 1 − T_c/T_h. That reaches 100% only if the cold reservoir is at absolute zero, which is unattainable.",
+          "signal": "Real engines are always less efficient than the Carnot limit."
+        },
+        {
+          "claim": "The efficiency of a Carnot engine depends on the working substance.",
+          "correction": "The maximum efficiency depends only on the absolute temperatures of the hot and cold reservoirs, not on the substance.",
+          "signal": "That universality is what makes the Carnot result so powerful."
+        }
+      ],
       "summary": [
         "The Carnot cycle is a theoretical cycle that is the most efficient cyclical process possible. Any engine using the Carnot cycle, which uses only reversible processes (adiabatic and isothermal), is known as a Carnot engine.",
         "Any engine that uses the Carnot cycle enjoys the maximum theoretical efficiency.",
@@ -312,9 +357,9 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "quantity-of-heat",
+          "topic_slug": "heat-transfer",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -322,11 +367,10 @@
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-32"
+      ]
     },
     {
       "id": "sec-6",
@@ -340,7 +384,18 @@
         "Explain the differences between heat pumps and refrigerators.",
         "Calculate a heat pump’s coefficient of performance."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A heat pump creates energy.",
+          "correction": "It does not create energy. It uses work to move heat from a colder place to a hotter place, delivering more heat than the work input.",
+          "signal": "The first law is still obeyed: Q_h = Q_c + W."
+        },
+        {
+          "claim": "A refrigerator and a heat pump are unrelated machines.",
+          "correction": "They use the same cycle. A refrigerator’s purpose is to remove heat from the cold space; a heat pump’s purpose is to deliver heat to the hot space. Their coefficients of performance are defined differently.",
+          "signal": "The same device can be described either way."
+        }
+      ],
       "summary": [
         "An artifact of the second law of thermodynamics is the ability to heat an interior space using a heat pump. Heat pumps compress cold ambient air and, in so doing, heat it to room temperature without violation of conservation principles.",
         "To calculate the heat pump’s coefficient of performance, use the equation COPhp=QhW.",
@@ -352,9 +407,9 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "quantity-of-heat",
+          "topic_slug": "change-of-state",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -362,11 +417,10 @@
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-44"
+      ]
     },
     {
       "id": "sec-7",
@@ -379,7 +433,18 @@
         "Explain the expected fate of the universe in entropic terms.",
         "Calculate the increasing disorder of a system."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Entropy always increases in every process.",
+          "correction": "The total entropy of an isolated system never decreases. A reversible process has zero total entropy change, and a system’s entropy can fall if work is done on it and heat is removed.",
+          "signal": "The second law is about the total, not every part."
+        },
+        {
+          "claim": "Entropy is just another name for heat.",
+          "correction": "Entropy measures how spread out the energy is at a given temperature. Heat is energy in transit.",
+          "signal": "They have different units: entropy is J/K."
+        }
+      ],
       "summary": [
         "Entropy is the loss of energy available to do work.",
         "Another form of the second law of thermodynamics states that the total entropy of a system either increases or remains constant; it never decreases.",
@@ -387,25 +452,28 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-heat-energy",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What happens to the total entropy of the universe in a reversible process?",
+          "answer": "It stays constant.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A reversible process has no net increase in entropy.",
+            "The entropy change of the system and surroundings cancel.",
+            "The total entropy change is zero."
+          ],
+          "tags": [
+            "entropy",
+            "reversible process"
+          ]
         }
       ],
-      "worked_from": "exr-74"
+      "no_exam_link_reason": "Entropy is not named in either syllabus."
     },
     {
       "id": "sec-8",
@@ -417,35 +485,177 @@
         "Identify probabilities in entropy.",
         "Analyze statistical probabilities in entropic systems."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The second law forbids any system from becoming more ordered.",
+          "correction": "Small systems can become more ordered by chance or by work done on them. The second law says the total entropy of an isolated system tends to increase; it is statistical, not an absolute ban on local order.",
+          "signal": "Life creates local order by using energy from its surroundings."
+        }
+      ],
       "summary": [
         "Disorder is far more likely than order, which can be seen statistically.",
         "The entropy of a system in a given state (a macrostate) can be written as S=klnW, where k=1.38×10–23J/K is Boltzmann’s constant, and lnW is the natural logarithm of the number of microstates W corresponding to the given macrostate."
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-heat-energy",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-29"
+      "exam_links": [],
+      "no_exam_link_reason": "The statistical interpretation of entropy is not named in either syllabus."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\Delta E_{\\mathrm{int}} = Q - W$",
+      "caption": {
+        "text": "First law of thermodynamics",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Q is the net heat into the system and W is the net work done by the system.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42232/index.cnxml",
+        "locator": "CNXML module m42232, section “The First Law of Thermodynamics”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$W = P\\Delta V$",
+      "caption": {
+        "text": "Work done at constant pressure",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an isobaric process.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42233/index.cnxml",
+        "locator": "CNXML module m42233, section “The First Law and Some Simple Processes”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$e = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$",
+      "caption": {
+        "text": "Efficiency of a heat engine",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Q_h is the heat absorbed from the hot reservoir and Q_c the heat rejected.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42234/index.cnxml",
+        "locator": "CNXML module m42234, section “Heat Engines and Their Efficiency”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$e_{\\mathrm{Carnot}} = 1 - \\frac{T_c}{T_h}$",
+      "caption": {
+        "text": "Carnot efficiency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The maximum efficiency between reservoirs at absolute temperatures T_h and T_c.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42235/index.cnxml",
+        "locator": "CNXML module m42235, section “Carnot’s Perfect Heat Engine”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$\\mathrm{COP}_{\\mathrm{hp}} = \\frac{Q_h}{W}$",
+      "caption": {
+        "text": "Coefficient of performance of a heat pump",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The heat delivered to the hot reservoir divided by the work input.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42236/index.cnxml",
+        "locator": "CNXML module m42236, section “Heat Pumps and Refrigerators”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\mathrm{COP}_{\\mathrm{ref}} = \\frac{Q_c}{W}$",
+      "caption": {
+        "text": "Coefficient of performance of a refrigerator",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The heat removed from the cold reservoir divided by the work input.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42236/index.cnxml",
+        "locator": "CNXML module m42236, section “Heat Pumps and Refrigerators”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\Delta S = \\frac{Q}{T}$",
+      "caption": {
+        "text": "Entropy change in a reversible process",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a reversible transfer of heat Q at absolute temperature T.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42237/index.cnxml",
+        "locator": "CNXML module m42237, section “Entropy and the Second Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$S = k\\ln W$",
+      "caption": {
+        "text": "Statistical entropy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "k is Boltzmann’s constant and W is the number of microstates.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42238/index.cnxml",
+        "locator": "CNXML module m42238, section “Statistical Interpretation of Entropy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -881,42 +1091,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Heat added to a gas always raises its temperature.",
-      "correction": "It can raise the temperature, do work as it expands, or both. The first law says where it goes.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Heat always flows from a hot body to a cold one.",
-      "correction": "It flows that way on its own, but a refrigerator moves it the other way by doing work on it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1054,6 +1229,93 @@
       "explanation": "The second law states that the total entropy of an isolated system cannot decrease. It does not affect the conservation of energy, which is the first law.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": "An ideal gas undergoes an isothermal process. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No heat enters or leaves the gas."
+        },
+        {
+          "id": "b",
+          "text": "The internal energy stays constant and Q = W."
+        },
+        {
+          "id": "c",
+          "text": "The pressure stays constant."
+        },
+        {
+          "id": "d",
+          "text": "The volume stays constant."
+        }
+      ],
+      "answer": "b",
+      "explanation": "For an ideal gas, internal energy depends on temperature. At constant temperature ΔE_int = 0, so the first law gives Q = W.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "A heat pump delivers 3000 J of heat to a room for 1000 J of work input. Find its coefficient of performance.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.33"
+        },
+        {
+          "id": "b",
+          "text": "1.0"
+        },
+        {
+          "id": "c",
+          "text": "2.0"
+        },
+        {
+          "id": "d",
+          "text": "3.0"
+        }
+      ],
+      "answer": "d",
+      "explanation": "COP_hp = Q_h/W = 3000/1000 = 3.0.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "In the statistical formula S = k ln W, what does W represent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the work done by the system"
+        },
+        {
+          "id": "b",
+          "text": "the number of microstates corresponding to the macrostate"
+        },
+        {
+          "id": "c",
+          "text": "the weight of the gas"
+        },
+        {
+          "id": "d",
+          "text": "the thermal energy of the system"
+        }
+      ],
+      "answer": "b",
+      "explanation": "W is the number of microscopic arrangements that give the same macroscopic state. More microstates means greater entropy.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1064,5 +1326,127 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Thermodynamics', modules m42231, m42232, m42233, m42234, m42235, m42236, m42237, m42238",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 15,
+  "exercise_fixes": {
+    "sec-3:exr-45": {
+      "drop": true
+    },
+    "sec-3:exr-50": {
+      "drop": true
+    },
+    "sec-3:exr-85": {
+      "drop": true
+    },
+    "sec-2:exr-43": {
+      "stem": "A system has 300 J of work done on it, and has a heat transfer of -320 J. Compared to before these processes, the internal energy is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 J less"
+        },
+        {
+          "id": "b",
+          "text": "20 J more"
+        },
+        {
+          "id": "c",
+          "text": "620 J more"
+        },
+        {
+          "id": "d",
+          "text": "620 J less"
+        }
+      ]
+    },
+    "sec-2:exr-47": {
+      "stem": "A potato cannon has the fuel combusted, generating a lot of heat and pressure, which launch a potato. The combustion process _____ the internal energy, while launching the potato _____ the internal energy of the potato cannon.",
+      "options": [
+        {
+          "id": "a",
+          "text": "increases; increases"
+        },
+        {
+          "id": "b",
+          "text": "increases; decreases"
+        },
+        {
+          "id": "c",
+          "text": "decreases; increases"
+        },
+        {
+          "id": "d",
+          "text": "decreases; decreases"
+        }
+      ]
+    },
+    "sec-8:exr-38": {
+      "stem": "If you toss 100 fair coins each second, verify that you can expect to get 100 heads or 100 tails once in about $2\\times10^{22}$ years. Calculate the time to two-digit accuracy.",
+      "solution": [
+        "The probability of 100 heads is $(1/2)^{100}$, and the probability of 100 tails is the same. The probability of either outcome is $2/2^{100}=1/2^{99}$.",
+        "At one toss per second, the expected wait is $2^{99}\\ \\mathrm{s}=6.34\\times10^{29}\\ \\mathrm{s}$.",
+        "Convert to years: $(6.34\\times10^{29}\\ \\mathrm{s})/(3.16\\times10^{7}\\ \\mathrm{s/y})=2.0\\times10^{22}\\ \\mathrm{y}$."
+      ]
+    },
+    "sec-8:exr-43": {
+      "stem": "(a) If tossing 100 coins, how many ways (microstates) are there to get the three most likely macrostates of 49 heads and 51 tails, 50 heads and 50 tails, and 51 heads and 49 tails? (b) What percent of the total possibilities is this?",
+      "solution": [
+        "(a) The number of ways is $\\binom{100}{49}+\\binom{100}{50}+\\binom{100}{51}\\approx9.9\\times10^{28}+1.01\\times10^{29}+9.9\\times10^{28}=3.0\\times10^{29}$.",
+        "(b) The total number of outcomes is $2^{100}=1.27\\times10^{30}$, so the percentage is $(3.0\\times10^{29})/(1.27\\times10^{30})=24\\%$."
+      ]
+    },
+    "sec-8:exr-55": {
+      "stem": "(a) Construct a table showing the macrostates and all of the individual microstates for tossing 6 coins. (b) How many macrostates are there? (c) What is the total number of microstates? (d) What percent chance is there of tossing 5 heads and 1 tail? (e) How much more likely are you to toss 3 heads and 3 tails than 5 heads and 1 tail? (Take the ratio of the number of microstates to find out.)",
+      "solution": [
+        "(a) The macrostates are 0, 1, 2, 3, 4, 5, or 6 heads. Their microstate counts are 1, 6, 15, 20, 15, 6, 1.",
+        "(b) There are 7 macrostates.",
+        "(c) The total is $2^{6}=64$ microstates.",
+        "(d) 5 heads and 1 tail has 6 microstates, so the probability is $6/64=9.38\\%$.",
+        "(e) 3 heads and 3 tails has 20 microstates, while 5 heads and 1 tail has 6, so it is $20/6=3.33$ times more likely."
+      ]
+    },
+    "sec-3:exr-41": {
+      "drop": true
+    },
+    "sec-7:exr-74": {
+      "drop": true
+    },
+    "sec-6:exr-62": {
+      "answer": "(a) $1.44×{10}^{7}J$ (b) 40 cents (c) This cost seems quite realistic; it says that running an air conditioner all day would cost 9.59 dollars (if it ran continuously).",
+      "solution": [
+        "(a) $1.44×{10}^{7}J$",
+        "(b) 40 cents",
+        "(c) This cost seems quite realistic; it says that running an air conditioner all day would cost 9.59 dollars (if it ran continuously)."
+      ]
+    }
+  },
+  "worked_fixes": {
+    "sec-5:we-ex-14": {
+      "answer": "about 48%",
+      "steps": [
+        "For a heat engine, the maximum theoretical efficiency is the Carnot efficiency $η=1-T_{c}/T_{h}$ .",
+        "The temperatures must be in kelvins: $T_{h}=300+273=573K$ and $T_{c}=27+273=300K$ .",
+        "$η=1-300/573=0.476$, or about 48%."
+      ]
+    },
+    "sec-6:we-ex-14": {
+      "statement": "The Best Coefficient of Performance for a Heat Pump",
+      "answer": "about 5.30",
+      "steps": [
+        "A reversed Carnot engine gives the best possible heat pump. Its coefficient of performance is $COP_{hp}=T_{h}/(T_{h}-T_{c})$ .",
+        "The temperatures are $T_{h}=318K$ and $T_{c}=258K$ .",
+        "$COP_{hp}=318/(318-258)=5.30$ .",
+        "The heat pump delivers 5.30 J of heat for every 1 J of electrical work, with 4.30 J coming from the cold outdoor air."
+      ]
+    },
+    "sec-7:we-ex-14": {
+      "answer": "+9.33 J/K",
+      "steps": [
+        "For the hot reservoir: $ΔS_{h}=-Q/T_{h}=-4000/600=-6.67J/K$ .",
+        "For the cold reservoir: $ΔS_{c}=+Q/T_{c}=+4000/250=+16.0J/K$ .",
+        "$ΔS_{tot}=-6.67+16.0=+9.33J/K$ .",
+        "The total entropy increases, as it must in an irreversible process."
+      ]
+    }
+  }
 }

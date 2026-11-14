@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Plutonium was recognized as easier to fission with neutrons and, hence, a superior fission material very early in the Manhattan Project. Plutonium availability was uncertain, and so a uranium bomb was developed simultaneously. shows a gun-type bomb, which takes two subcritical uranium masses and blows them together. To get an appreciable yield, the critical mass must be held together by the explosive charges inside the cannon barrel for a few microseconds. Since the buildup of the uranium chain reaction is relatively slow, the device to hold the critical mass together can be relatively simple. Owing to the fact that the rate of spontaneous fission is low, a neutron source is triggered at the same time the critical mass is assembled.",
+        "text": "Plutonium was recognized as easier to fission with neutrons and, hence, a superior fission material very early in the Manhattan Project. Plutonium availability was uncertain, and so a uranium bomb was developed simultaneously. The figure shows a gun-type bomb, which takes two subcritical uranium masses and blows them together. To get an appreciable yield, the critical mass must be held together by the explosive charges inside the cannon barrel for a few microseconds. Since the buildup of the uranium chain reaction is relatively slow, the device to hold the critical mass together can be relatively simple. Owing to the fact that the rate of spontaneous fission is low, a neutron source is triggered at the same time the critical mass is assembled.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Plutonium’s special properties necessitated a more sophisticated critical mass assembly, shown schematically in . A spherical mass of plutonium is surrounded by shape charges (high explosives that release most of their blast in one direction) that implode the plutonium, crushing it into a smaller volume to form a critical mass. The implosion technique is faster and more effective, because it compresses three-dimensionally rather than one-dimensionally as in the gun-type bomb. Again, a neutron source must be triggered at just the correct time to initiate the chain reaction.",
+        "text": "Plutonium’s special properties necessitated a more sophisticated critical mass assembly, shown schematically in the figure. A spherical mass of plutonium is surrounded by shape charges (high explosives that release most of their blast in one direction) that implode the plutonium, crushing it into a smaller volume to form a critical mass. The implosion technique is faster and more effective, because it compresses three-dimensionally rather than one-dimensionally as in the gun-type bomb. Again, a neutron source must be triggered at just the correct time to initiate the chain reaction.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted in the isolated Alamogordo Desert about 200 miles south of Los Alamos (see ). A new age had begun. The yield of this device was about 10 kilotons (kT), the equivalent of 5000 of the largest conventional bombs.",
+        "text": "Owing to its complexity, the plutonium bomb needed to be tested before there could be any attempt to use it. On July 16, 1945, the test named Trinity was conducted in the isolated Alamogordo Desert about 200 miles south of Los Alamos (see the figure). A new age had begun. The yield of this device was about 10 kilotons (kT), the equivalent of 5000 of the largest conventional bombs.",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Although Germany surrendered on May 7, 1945, Japan had been steadfastly refusing to surrender for many months, forcing large casualties. Invasion plans by the Allies estimated a million casualties of their own and untold losses of Japanese lives. The bomb was viewed as a way to end the war. The first was a uranium bomb dropped on Hiroshima on August 6. Its yield of about 15 kT destroyed the city and killed an estimated 80,000 people, with 100,000 more being seriously injured (see ). The second was a plutonium bomb dropped on Nagasaki only three days later, on August 9. Its 20 kT yield killed at least 50,000 people, something less than Hiroshima because of the hilly terrain and the fact that it was a few kilometers off target. The Japanese were told that one bomb a week would be dropped until they surrendered unconditionally, which they did on August 14. In actuality, the United States had only enough plutonium for one more and as yet unassembled bomb.",
+        "text": "Although Germany surrendered on May 7, 1945, Japan had been steadfastly refusing to surrender for many months, forcing large casualties. Invasion plans by the Allies estimated a million casualties of their own and untold losses of Japanese lives. The bomb was viewed as a way to end the war. The first was a uranium bomb dropped on Hiroshima on August 6. Its yield of about 15 kT destroyed the city and killed an estimated 80,000 people, with 100,000 more being seriously injured (see the figure). The second was a plutonium bomb dropped on Nagasaki only three days later, on August 9. Its 20 kT yield killed at least 50,000 people, something less than Hiroshima because of the hilly terrain and the fact that it was a few kilometers off target. The Japanese were told that one bomb a week would be dropped until they surrendered unconditionally, which they did on August 14. In actuality, the United States had only enough plutonium for one more and as yet unassembled bomb.",
         "inline": []
       },
       "level": "core"
@@ -164,7 +164,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "shows a simple diagram of how a thermonuclear bomb is constructed. A fission bomb is exploded next to fusion fuel in the solid form of lithium deuteride. Before the shock wave blows it apart, $γ$ rays heat and compress the fuel, and neutrons create tritium through the reaction $n{+}^{6}Li{→}^{3}H{+}^{4}He$ . Additional fusion and fission fuels are enclosed in a dense shell of ${}^{238}U$ . The shell reflects some of the neutrons back into the fuel to enhance its fusion, but at high internal temperatures fast neutrons are created that also cause the plentiful and inexpensive ${}^{238}U$ to fission, part of what allows thermonuclear bombs to be so large.",
+        "text": "The figure shows a simple diagram of how a thermonuclear bomb is constructed. A fission bomb is exploded next to fusion fuel in the solid form of lithium deuteride. Before the shock wave blows it apart, $γ$ rays heat and compress the fuel, and neutrons create tritium through the reaction $n{+}^{6}Li{\\to }^{3}H{+}^{4}He$. Additional fusion and fission fuels are enclosed in a dense shell of ${}^{238}U$. The shell reflects some of the neutrons back into the fuel to enhance its fusion, but at high internal temperatures fast neutrons are created that also cause the plentiful and inexpensive ${}^{238}U$ to fission, part of what allows thermonuclear bombs to be so large.",
         "inline": []
       },
       "level": "core"
@@ -186,7 +186,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The energy yield and the types of energy produced by nuclear bombs can be varied. Energy yields in current arsenals range from about 0.1 kT to 20 MT, although the USSR once detonated a 67 MT device. Nuclear bombs differ from conventional explosives in more than size. shows the approximate fraction of energy output in various forms for conventional explosives and for two types of nuclear bombs. Nuclear bombs put a much larger fraction of their output into thermal energy than do conventional bombs, which tend to concentrate the energy in blast. Another difference is the immediate and residual radiation energy from nuclear weapons. This can be adjusted to put more energy into radiation (the so-called neutron bomb) so that the bomb can be used to irradiate advancing troops without killing friendly troops with blast and heat.",
+        "text": "The energy yield and the types of energy produced by nuclear bombs can be varied. Energy yields in current arsenals range from about 0.1 kT to 20 MT, although the USSR once detonated a 67 MT device. Nuclear bombs differ from conventional explosives in more than size. The figure shows the approximate fraction of energy output in various forms for conventional explosives and for two types of nuclear bombs. Nuclear bombs put a much larger fraction of their output into thermal energy than do conventional bombs, which tend to concentrate the energy in blast. Another difference is the immediate and residual radiation energy from nuclear weapons. This can be adjusted to put more energy into radiation (the so-called neutron bomb) so that the bomb can be used to irradiate advancing troops without killing friendly troops with blast and heat.",
         "inline": []
       },
       "level": "core"
@@ -287,7 +287,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How does the lithium deuteride in the thermonuclear bomb shown in supply tritium $({}^{3}H)$ as well as deuterium $({}^{2}H)$ ?",
+        "text": "How does the lithium deuteride in the thermonuclear bomb shown in the figure supply tritium $({}^{3}H)$ as well as deuterium $({}^{2}H)$?",
         "inline": []
       },
       "level": "core",
@@ -308,7 +308,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Fallout from nuclear weapons tests in the atmosphere is mainly ${}^{90}Sr$ and ${}^{137}Cs$ , which have 28.6- and 32.2-y half-lives, respectively. Atmospheric tests were terminated in most countries in 1963, although China only did so in 1980. It has been found that environmental activities of these two isotopes are decreasing faster than their half-lives. Why might this be?",
+        "text": "Fallout from nuclear weapons tests in the atmosphere is mainly ${}^{90}Sr$ and ${}^{137}Cs$, which have 28.6- and 32.2-y half-lives, respectively. Atmospheric tests were terminated in most countries in 1963, although China only did so in 1980. It has been found that environmental activities of these two isotopes are decreasing faster than their half-lives. Why might this be?",
         "inline": []
       },
       "level": "core",
@@ -383,7 +383,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Fusion bombs use neutrons from their fission trigger to create tritium fuel in the reaction $n{+}^{6}Li{→}^{3}H{+}^{4}He$ . What is the energy released by this reaction in MeV?",
+        "text": "Fusion bombs use neutrons from their fission trigger to create tritium fuel in the reaction $n{+}^{6}Li{\\to }^{3}H{+}^{4}He$. What is the energy released by this reaction in MeV?",
         "inline": []
       },
       "level": "core",
@@ -407,7 +407,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "It is estimated that the total explosive yield of all the nuclear bombs in existence currently is about 4,000 MT. (a) Convert this amount of energy to kilowatt-hours, noting that $1 kW\\cdot h=3.60×{10}^{6}J$ . (b) What would the monetary value of this energy be if it could be converted to electricity costing 10 cents per kW·h?",
+        "text": "It is estimated that the total explosive yield of all the nuclear bombs in existence currently is about 4,000 MT. (a) Convert this amount of energy to kilowatt-hours, noting that $1 kW\\cdot h=3.60\\times {10}^{6} J$. (b) What would the monetary value of this energy be if it could be converted to electricity costing 10 cents per kW·h?",
         "inline": []
       },
       "level": "core",
@@ -488,7 +488,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How many ${}^{239}Pu$ nuclei must fission to produce a 20.0-kT yield, assuming 200 MeV per fission? (b) What is the mass of this much ${}^{239}Pu$ ?",
+        "text": "(a) How many ${}^{239}Pu$ nuclei must fission to produce a 20.0-kT yield, assuming 200 MeV per fission? (b) What is the mass of this much ${}^{239}Pu$?",
         "inline": []
       },
       "level": "core",
@@ -608,7 +608,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "It is estimated that weapons tests in the atmosphere have deposited approximately 9 MCi of ${}^{90}Sr$ on the surface of the earth. Find the mass of this amount of ${}^{90}Sr$ .",
+        "text": "It is estimated that weapons tests in the atmosphere have deposited approximately 9 MCi of ${}^{90}Sr$ on the surface of the earth. Find the mass of this amount of ${}^{90}Sr$.",
         "inline": []
       },
       "level": "core",
@@ -722,7 +722,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking A spherical target in a body is being targeted with ${β}^{+}$ radiation. The target is centered at $(0.00,2.00,3.00)$ on a grid that is in centimeters. The target has a radius of 0.500 centimeters. (a) What two points on the *x* -axis are at the extremes of where the positrons annihilate the electrons? (b) What two points on the *y* -axis are at the extremes of where the positrons annihilate the electrons? (c) What can be said about the directions of the pair of gamma rays that result from the annihilations? (d) Can the use of ${β}^{+}$ give information in three dimensions?",
+        "text": "Critical Thinking A spherical target in a body is being targeted with ${β}^{+}$ radiation. The target is centered at $(0.00, 2.00, 3.00)$ on a grid that is in centimeters. The target has a radius of 0.500 centimeters. (a) What two points on the *x* -axis are at the extremes of where the positrons annihilate the electrons? (b) What two points on the *y* -axis are at the extremes of where the positrons annihilate the electrons? (c) What can be said about the directions of the pair of gamma rays that result from the annihilations? (d) Can the use of ${β}^{+}$ give information in three dimensions?",
         "inline": []
       },
       "level": "core",

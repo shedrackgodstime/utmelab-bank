@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "When you pluck a guitar string, the resulting sound has a steady tone and lasts a long time. Each successive vibration of the string takes the same time as the previous one. We define periodic motion to be a motion that repeats itself at regular time intervals, such as exhibited by the guitar string or by an object on a spring moving up and down. The time to complete one oscillation remains constant and is called the period $T$ . Its units are usually seconds, but may be any convenient unit of time. The word period refers to the time for some event whether repetitive or not; but we shall be primarily interested in periodic motion, which is by definition repetitive. A concept closely related to period is the frequency of an event. For example, if you get a paycheck twice a month, the frequency of payment is two per month and the period between checks is half a month. Frequency $f$ is defined to be the number of events per unit time. For periodic motion, frequency is the number of oscillations per unit time. The relationship between frequency and period is",
+        "text": "When you pluck a guitar string, the resulting sound has a steady tone and lasts a long time. Each successive vibration of the string takes the same time as the previous one. We define periodic motion to be a motion that repeats itself at regular time intervals, such as exhibited by the guitar string or by an object on a spring moving up and down. The time to complete one oscillation remains constant and is called the period $T$. Its units are usually seconds, but may be any convenient unit of time. The word period refers to the time for some event whether repetitive or not; but we shall be primarily interested in periodic motion, which is by definition repetitive. A concept closely related to period is the frequency of an event. For example, if you get a paycheck twice a month, the frequency of payment is two per month and the period between checks is half a month. Frequency $f$ is defined to be the number of events per unit time. For periodic motion, frequency is the number of oscillations per unit time. The relationship between frequency and period is $f=\\frac{1}{T}.$",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The SI unit for frequency is the *cycle per second* , which is defined to be a *hertz* (Hz):",
+        "text": "The SI unit for frequency is the *cycle per second*, which is defined to be a *hertz* (Hz): $1 Hz=1\\frac{cycle}{s}or 1 Hz=\\frac{1}{s}$",
         "inline": []
       },
       "level": "core"
@@ -95,7 +95,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Both questions (a) and (b) can be answered using the relationship between period and frequency. In question (a), the period *$T$* is given and we are asked to find frequency $f$ . In question (b), the frequency $f$ is given and we are asked to find the period *$T$* .",
+        "text": "Both questions (a) and (b) can be answered using the relationship between period and frequency. In question (a), the period *$T$* is given and we are asked to find frequency $f$. In question (b), the frequency $f$ is given and we are asked to find the period *$T$*.",
         "inline": []
       },
       "level": "core"
@@ -113,7 +113,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The time for one complete oscillation is the period *$T$* :",
+        "text": "The time for one complete oscillation is the period *$T$*: $f=\\frac{1}{T}.$",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the period of $60.0Hz$ electrical power?",
+        "text": "What is the period of $60.0 Hz$ electrical power?",
         "inline": []
       },
       "level": "core",
@@ -291,7 +291,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the frequency of a tuning fork that takes $2.50×{10}^{-3}s$ to complete one oscillation.",
+        "text": "Find the frequency of a tuning fork that takes $2.50\\times {10}^{-3} s$ to complete one oscillation.",
         "inline": []
       },
       "level": "core",
@@ -315,7 +315,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A stroboscope is set to flash every $8.00×{10}^{-5}s$ . What is the frequency of the flashes?",
+        "text": "A stroboscope is set to flash every $8.00\\times {10}^{-5} s$. What is the frequency of the flashes?",
         "inline": []
       },
       "level": "core",

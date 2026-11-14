@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "First, what do we mean by a change in motion? The answer is that a change in motion is equivalent to a change in velocity. A change in velocity means, by definition, that there is an acceleration . Newton’s first law says that a net external force causes a change in motion; thus, we see that a *net external force causes acceleration* .",
+        "text": "First, what do we mean by a change in motion? The answer is that a change in motion is equivalent to a change in velocity. A change in velocity means, by definition, that there is an acceleration. Newton’s first law says that a net external force causes a change in motion; thus, we see that a *net external force causes acceleration*.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) *You must define the boundaries of the system before you can determine which forces are external* . Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
+        "text": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in the figure (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at the figure (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) *You must define the boundaries of the system before you can determine which forces are external*. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in . In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight $w$ and the support of the ground $N$ , and the horizontal force $f$ represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. (b) shows how vectors representing the external forces add together to produce a net force, ${F}_{net}$ .",
+        "text": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in the figure. In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight $w$ and the support of the ground $N$, and the horizontal force $f$ represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. The figure (b) shows how vectors representing the external forces add together to produce a net force, ${F}_{net}$.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "where the symbol $∝$ means “proportional to,” and ${F}_{net}$ is the net external force . (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics .) This proportionality states what we have said in words— *acceleration is directly proportional to the net external force* . Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
+        "text": "where the symbol $∝$ means “proportional to,” and ${F}_{net}$ is the net external force. (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics.) This proportionality states what we have said in words— *acceleration is directly proportional to the net external force*. Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in , the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
+        "text": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in the figure, the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
         "inline": []
       },
       "level": "core"
@@ -201,7 +201,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "${F}_{net}=ma$ is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of $1{m/s}^{2}$ . That is, since ${F}_{net}=ma$ ,",
+        "text": "${F}_{net}=ma$ is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of $1{m/s}^{2}$. That is, since ${F}_{net}=ma$,",
         "inline": []
       },
       "level": "core"
@@ -237,7 +237,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight $w$ . Weight can be denoted as a vector $w$ because it has a direction; *down* is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as $w$ *.* Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration $g$ . Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
+        "text": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight $w$. Weight can be denoted as a vector $w$ because it has a direction; *down* is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as $w$ *.* Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration $g$. Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
         "inline": []
       },
       "level": "core"
@@ -246,7 +246,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Consider an object with mass $m$ falling downward toward Earth. It experiences only the downward force of gravity, which has magnitude $w$ . Newton’s second law states that the magnitude of the net external force on an object is ${F}_{net}=ma$ .",
+        "text": "Consider an object with mass $m$ falling downward toward Earth. It experiences only the downward force of gravity, which has magnitude $w$. Newton’s second law states that the magnitude of the net external force on an object is ${F}_{net}=ma$.",
         "inline": []
       },
       "level": "core"
@@ -255,7 +255,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Since the object experiences only the downward force of gravity, ${F}_{net}=w$ . We know that the magnitude of the acceleration of an object due to gravity is $g$ , or $a=g$ . Substituting these into Newton’s second law gives",
+        "text": "Since the object experiences only the downward force of gravity, ${F}_{net}=w$. We know that the magnitude of the acceleration of an object due to gravity is $g$, or $a=g$. Substituting these into Newton’s second law gives",
         "inline": []
       },
       "level": "core"
@@ -264,7 +264,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "This is the equation for *weight* —the gravitational force on a mass $m$ :",
+        "text": "This is the equation for *weight* —the gravitational force on a mass $m$: $w=mg.$",
         "inline": []
       },
       "level": "core"
@@ -273,7 +273,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Since $g=9.80{m/s}^{2}$ on Earth, the weight of a 1.0 kg object on Earth is 9.8 N, as we see:",
+        "text": "Since $g=9.80 {m/s}^{2}$ on Earth, the weight of a 1.0 kg object on Earth is 9.8 N, as we see:",
         "inline": []
       },
       "level": "core"
@@ -291,7 +291,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Recall that when writing the second law equations, the components of the weight, $mg$ , can take positive, negative, or zero values, depending on orientation of the coordinate system. Be sure to take this into consideration when solving problems with weight.",
+        "text": "Recall that when writing the second law equations, the components of the weight, $mg$, can take positive, negative, or zero values, depending on orientation of the coordinate system. Be sure to take this into consideration when solving problems with weight.",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "When the net external force on an object is its weight, we say that it is in free-fall . That is, the only force acting on the object is the force of gravity. In the real world, when objects fall downward toward Earth, they are never truly in free-fall because there is always some upward force from the air acting on the object.",
+        "text": "When the net external force on an object is its weight, we say that it is in free-fall. That is, the only force acting on the object is the force of gravity. In the real world, when objects fall downward toward Earth, they are never truly in free-fall because there is always some upward force from the air acting on the object.",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The acceleration due to gravity $g$ varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only $1.625{m/s}^{2}$ . A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
+        "text": "The acceleration due to gravity $g$ varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only $1.625 {m/s}^{2}$. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "The broadest definition of weight in this sense is that *the weight of an object is the gravitational force on it from the nearest large body* , such as Earth, the Moon, the Sun, and so on. This is the most common and useful definition of weight in physics. It differs dramatically, however, from the definition of weight used by NASA and the popular media in relation to space travel and exploration. When they speak of “weightlessness” and “microgravity,” they are really referring to the phenomenon we call “free-fall” in physics. We shall use the above definition of weight, and we will make careful distinctions between free-fall and actual weightlessness.",
+        "text": "The broadest definition of weight in this sense is that *the weight of an object is the gravitational force on it from the nearest large body*, such as Earth, the Moon, the Sun, and so on. This is the most common and useful definition of weight in physics. It differs dramatically, however, from the definition of weight used by NASA and the popular media in relation to space travel and exploration. When they speak of “weightlessness” and “microgravity,” they are really referring to the phenomenon we call “free-fall” in physics. We shall use the above definition of weight, and we will make careful distinctions between free-fall and actual weightlessness.",
         "inline": []
       },
       "level": "core"
@@ -336,7 +336,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ( $m$ ) multiplied by the acceleration due to gravity ( $g$ ). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
+        "text": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ($m$) multiplied by the acceleration due to gravity ($g$). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
         "inline": []
       },
       "level": "core"
@@ -345,7 +345,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Assuming the mass of an object is kept intact, it will remain the same, regardless of its location. However, because weight depends on the acceleration due to gravity, the weight of an object *can change* when the object enters into a region with stronger or weaker gravity. For example, the acceleration due to gravity on the Moon is $1.625{m/s}^{2}$ (which is much less than the acceleration due to gravity on Earth, $9.80{m/s}^{2}$ ). If you measured your weight on Earth and then measured your weight on the Moon, you would find that you “weigh” much less, even though you do not look any skinnier. This is because the force of gravity is weaker on the Moon. In fact, when people say that they are “losing weight,” they really mean that they are losing “mass” (which in turn causes them to weigh less).",
+        "text": "Assuming the mass of an object is kept intact, it will remain the same, regardless of its location. However, because weight depends on the acceleration due to gravity, the weight of an object *can change* when the object enters into a region with stronger or weaker gravity. For example, the acceleration due to gravity on the Moon is $1.625 {m/s}^{2}$ (which is much less than the acceleration due to gravity on Earth, $9.80 {m/s}^{2}$). If you measured your weight on Earth and then measured your weight on the Moon, you would find that you “weigh” much less, even though you do not look any skinnier. This is because the force of gravity is weaker on the Moon. In fact, when people say that they are “losing weight,” they really mean that they are losing “mass” (which in turn causes them to weigh less).",
         "inline": []
       },
       "level": "core"
@@ -400,7 +400,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "Since ${F}_{net}$ and $m$ are given, the acceleration can be calculated directly from Newton’s second law as stated in ${F}_{net}=ma$ .",
+        "text": "Since ${F}_{net}$ and $m$ are given, the acceleration can be calculated directly from Newton’s second law as stated in ${F}_{net}=ma$.",
         "inline": []
       },
       "level": "core"
@@ -409,7 +409,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "The magnitude of the acceleration $a$ is $a=\\frac{{F}_{net}}{m}$ . Entering known values gives",
+        "text": "The magnitude of the acceleration $a$ is $a=\\frac{{F}_{net}}{m}$. Entering known values gives",
         "inline": []
       },
       "level": "core"
@@ -469,7 +469,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $T$ , for the four-rocket propulsion system shown in . The sled’s initial acceleration is $49{m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
+        "text": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $T$, for the four-rocket propulsion system shown in the figure. The sled’s initial acceleration is $49 {m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
         "inline": []
       },
       "level": "core"
@@ -509,7 +509,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "where ${F}_{net}$ is the net force along the horizontal direction. We can see from that the engine thrusts add, while friction opposes the thrust. In equation form, the net external force is",
+        "text": "where ${F}_{net}$ is the net force along the horizontal direction. We can see from the figure that the engine thrusts add, while friction opposes the thrust. In equation form, the net external force is",
         "inline": []
       },
       "level": "core"
@@ -545,7 +545,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "Using a little algebra, we solve for the total thrust 4 *T* :",
+        "text": "Using a little algebra, we solve for the total thrust 4 *T*:",
         "inline": []
       },
       "level": "core"
@@ -608,7 +608,7 @@
       "id": "p-63",
       "type": "paragraph",
       "content": {
-        "text": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 $g$ 's. (Recall that $g$ , the acceleration due to gravity, is $9.{80 m/s}^{2}$ . When we say that an acceleration is 45 $g$ 's, it is $45×9.{80 m/s}^{2}$ , which is approximately ${440 m/s}^{2}$ .) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
+        "text": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 $g$ 's. (Recall that $g$, the acceleration due to gravity, is $9.{80 m/s}^{2}$. When we say that an acceleration is 45 $g$ 's, it is $45×9.{80 m/s}^{2}$, which is approximately ${440 m/s}^{2}$.) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
         "inline": []
       },
       "level": "core"
@@ -834,7 +834,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The gravitational force on the basketball in is ignored. When gravity *is* taken into account, what is the direction of the net external force on the basketball—above horizontal, below horizontal, or still horizontal?",
+        "text": "The gravitational force on the basketball in the figure is ignored. When gravity *is* taken into account, what is the direction of the net external force on the basketball—above horizontal, below horizontal, or still horizontal?",
         "inline": []
       },
       "level": "core",
@@ -873,7 +873,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A 63.0-kg sprinter starts a race with an acceleration of $4.20 m{/s}^{2}$ . What is the net external force on him?",
+        "text": "A 63.0-kg sprinter starts a race with an acceleration of $4.20 m{/s}^{2}$. What is the net external force on him?",
         "inline": []
       },
       "level": "core",
@@ -942,7 +942,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Since astronauts in orbit are apparently weightless, a clever method of measuring their masses is needed to monitor their mass gains or losses to adjust diets. One way to do this is to exert a known force on an astronaut and measure the acceleration produced. Suppose a net external force of 50.0 N is exerted and the astronaut’s acceleration is measured to be $0.{893 m/s}^{2}$ . (a) Calculate her mass. (b) By exerting a force on the astronaut, the vehicle in which they orbit experiences an equal and opposite force. Discuss how this would affect the measurement of the astronaut’s acceleration. Propose a method in which recoil of the vehicle is avoided.",
+        "text": "Since astronauts in orbit are apparently weightless, a clever method of measuring their masses is needed to monitor their mass gains or losses to adjust diets. One way to do this is to exert a known force on an astronaut and measure the acceleration produced. Suppose a net external force of 50.0 N is exerted and the astronaut’s acceleration is measured to be $0.{893 m/s}^{2}$. (a) Calculate her mass. (b) By exerting a force on the astronaut, the vehicle in which they orbit experiences an equal and opposite force. Discuss how this would affect the measurement of the astronaut’s acceleration. Propose a method in which recoil of the vehicle is avoided.",
         "inline": []
       },
       "level": "core",
@@ -963,7 +963,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In , the net external force on the 24-kg mower is stated to be 51 N. If the force of friction opposing the motion is 24 N, what force $F$ (in newtons) is the person exerting on the mower? Suppose the mower is moving at 1.5 m/s when the force $F$ is removed. How far will the mower go before stopping?",
+        "text": "In the figure, the net external force on the 24-kg mower is stated to be 51 N. If the force of friction opposing the motion is 24 N, what force $F$ (in newtons) is the person exerting on the mower? Suppose the mower is moving at 1.5 m/s when the force $F$ is removed. How far will the mower go before stopping?",
         "inline": []
       },
       "level": "core",
@@ -984,7 +984,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The same rocket sled drawn in is decelerated at a rate of $1{96 m/s}^{2}$ . What force is necessary to produce this deceleration? Assume that the rockets are off. The mass of the system is 2100 kg.",
+        "text": "The same rocket sled drawn in the figure is decelerated at a rate of $1{96 m/s}^{2}$. What force is necessary to produce this deceleration? Assume that the rockets are off. The mass of the system is 2100 kg.",
         "inline": []
       },
       "level": "core",
@@ -1018,7 +1018,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) If the rocket sled shown in starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust T is $2.59×{10}^{4}$ N, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?",
+        "text": "(a) If the rocket sled shown in the figure starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust T is $2.59\\times {10}^{4}$ N, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?",
         "inline": []
       },
       "level": "core",
@@ -1136,7 +1136,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A powerful motorcycle can produce an acceleration of $3.50{m/s}^{2}$ while traveling at 90.0 km/h. At that speed the forces resisting motion, including friction and air resistance, total 400 N. (Air resistance is analogous to air friction. It always opposes the motion of an object.) What is the magnitude of the force the motorcycle exerts backward on the ground to produce its acceleration if the mass of the motorcycle with rider is 245 kg?",
+        "text": "A powerful motorcycle can produce an acceleration of $3.50 {m/s}^{2}$ while traveling at 90.0 km/h. At that speed the forces resisting motion, including friction and air resistance, total 400 N. (Air resistance is analogous to air friction. It always opposes the motion of an object.) What is the magnitude of the force the motorcycle exerts backward on the ground to produce its acceleration if the mass of the motorcycle with rider is 245 kg?",
         "inline": []
       },
       "level": "core",
@@ -1157,7 +1157,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The rocket sled shown in accelerates at a rate of $49.0{m/s}^{2}$ . Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body.",
+        "text": "The rocket sled shown in the figure accelerates at a rate of $49.0 {m/s}^{2}$. Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body.",
         "inline": []
       },
       "level": "core",
@@ -1212,7 +1212,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat the previous problem for the situation in which the rocket sled decelerates at a rate of $2{01 m/s}^{2}$ . In this problem, the forces are exerted by the seat and restraining belts.",
+        "text": "Repeat the previous problem for the situation in which the rocket sled decelerates at a rate of $2{01 m/s}^{2}$. In this problem, the forces are exerted by the seat and restraining belts.",
         "inline": []
       },
       "level": "core",

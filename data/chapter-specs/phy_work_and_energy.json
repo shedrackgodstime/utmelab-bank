@@ -15,7 +15,9 @@
     "Explain what a conservative force is and how potential energy is defined from it.",
     "Apply conservation of energy, and calculate power."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_forces_and_newtons_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -50,12 +52,20 @@
       "est_minutes": 14,
       "locator": "CNXML module m42146",
       "objectives": [
-        "Compute the work done by a constant force as force times the displacement along the force."
+        "Compute the work done by a constant force as force times the displacement along the force.",
+        "Calculate the work done by a force that acts at an angle to the displacement."
       ],
       "misconceptions": [
         {
           "claim": "Work is force times the distance the object travelled.",
           "correction": "It is force times the component of the displacement along the force. A push at right angles to the motion does no work at all."
+        },
+        {
+          "claim": "The work done by a force is the force times the distance travelled.",
+          "correction": "It is the component of the force along the displacement, so W = F d cos(theta). A force at right angles to the motion does no work.",
+          "locator": "candidate trap trap-1, demoted pending paper evidence",
+          "source_trap": "phy_work_and_energy:trap-1",
+          "signal": "Our own question offers the force times the distance as an option."
         }
       ],
       "summary": [
@@ -72,7 +82,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "work-energy-and-power",
-          "subtopic_slug": "definitions-of-work-energy-and-power-and-their-forms",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -91,12 +101,11 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-work-energy-and-power",
-          "subtopic_slug": "waec-work-done-in-a-gravitational-field-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-23"
+      ]
     },
     {
       "id": "sec-3",
@@ -105,12 +114,20 @@
       "est_minutes": 14,
       "locator": "CNXML module m42147",
       "objectives": [
-        "Use the work-energy theorem to relate the work done on a body to its change in kinetic energy."
+        "Use the work-energy theorem to relate the work done on a body to its change in kinetic energy.",
+        "Calculate kinetic energy and apply the work-energy theorem to find a change in speed."
       ],
       "misconceptions": [
         {
           "claim": "Kinetic energy depends on how heavy the body is.",
           "correction": "It depends on the mass and on the square of the speed, so a body twice as fast has four times the kinetic energy."
+        },
+        {
+          "claim": "The kinetic energy of a body is half its mass times its speed.",
+          "correction": "The speed enters as a square, so K = 1/2 m v^2. Doubling the speed multiplies the kinetic energy by four.",
+          "locator": "candidate trap trap-2, demoted pending paper evidence",
+          "source_trap": "phy_work_and_energy:trap-2",
+          "signal": "Our own question offers the value with the speed unsquared."
         }
       ],
       "summary": [
@@ -124,10 +141,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "work-energy-and-power",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-work-energy-and-power",
-          "subtopic_slug": "waec-kinetic-energy-k-e",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -141,12 +166,20 @@
       "est_minutes": 14,
       "locator": "CNXML module m42148",
       "objectives": [
-        "Compute the change in gravitational potential energy as the change in height times the weight."
+        "Compute the change in gravitational potential energy as the change in height times the weight.",
+        "Calculate changes in gravitational potential energy using a chosen zero level."
       ],
       "misconceptions": [
         {
           "claim": "Potential energy depends on where the object is and on nothing else.",
           "correction": "It depends on the height and on the weight of the body, so a heavier body at the same height has more of it."
+        },
+        {
+          "claim": "The gain in gravitational potential energy is the mass times the height.",
+          "correction": "It is the weight times the height, so U = mgh. The weight of the body matters, not only its mass.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_work_and_energy:trap-3",
+          "signal": "Our own question offers the value with the mass alone."
         }
       ],
       "summary": [
@@ -160,15 +193,22 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "work-energy-and-power",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-work-energy-and-power",
-          "subtopic_slug": "waec-potential-energy-p-e",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-42"
+      ]
     },
     {
       "id": "sec-5",
@@ -177,12 +217,20 @@
       "est_minutes": 14,
       "locator": "CNXML module m42149",
       "objectives": [
-        "Explain what makes a force conservative and how potential energy is defined from it."
+        "Explain what makes a force conservative and how potential energy is defined from it.",
+        "Distinguish conservative from nonconservative forces by the work they do around a closed path."
       ],
       "misconceptions": [
         {
           "claim": "A conservative force does no work around a closed path.",
           "correction": "It does zero net work around any closed path, so the work depends only on the endpoints, and a potential energy can be defined."
+        },
+        {
+          "claim": "A conservative force does positive work around a closed path, because the path is longer.",
+          "correction": "It does zero net work around any closed path, which is what makes a potential energy possible.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_work_and_energy:trap-4",
+          "signal": "Our own question offers a positive net work as an option."
         }
       ],
       "summary": [
@@ -196,11 +244,19 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "work-energy-and-power",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-work-energy-and-power",
-          "subtopic_slug": "waec-types-of-mechanical-energy-2",
-          "status": "covered",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": [
             {
               "question_id": "q_waec_2025_physics_76337",
@@ -209,8 +265,7 @@
             }
           ]
         }
-      ],
-      "worked_from": "exr-35"
+      ]
     },
     {
       "id": "sec-6",
@@ -219,7 +274,8 @@
       "est_minutes": 10,
       "locator": "CNXML module m42150",
       "objectives": [
-        "Explain why a nonconservative force changes the mechanical energy of a system."
+        "Explain why a nonconservative force changes the mechanical energy of a system.",
+        "Calculate the energy dissipated by friction and the final mechanical energy."
       ],
       "misconceptions": [
         {
@@ -236,8 +292,80 @@
         "nonconservative-forces",
         "friction"
       ],
-      "exam_links": [],
-      "worked_from": "exr-40"
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "work-energy-and-power",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-work-energy-and-power",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A constant friction force of 20 N acts on a box that slides 3 m. How much energy is dissipated by friction?",
+          "answer": "60 J",
+          "answer_kind": "expression",
+          "solution": [
+            "Friction acts opposite to the motion, so the work it does is negative.",
+            "The energy dissipated is the magnitude: 20 × 3.",
+            "The energy dissipated is 60 J."
+          ],
+          "tags": [
+            "friction",
+            "energy dissipation"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Does friction create energy or transfer it? Explain briefly.",
+          "answer": "It transfers mechanical energy into thermal energy; it does not create energy.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Friction does negative work on the moving body.",
+            "The lost mechanical energy appears as thermal energy in the surfaces.",
+            "Total energy is conserved."
+          ],
+          "tags": [
+            "friction",
+            "conservation of energy"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A 2 kg block slows from 6 m/s to 4 m/s while sliding on a rough floor. Find the work done by friction.",
+          "answer": "-20 J",
+          "answer_kind": "expression",
+          "solution": [
+            "Initial kinetic energy: 1/2 × 2 × 6² = 36 J.",
+            "Final kinetic energy: 1/2 × 2 × 4² = 16 J.",
+            "Change in kinetic energy = 16 - 36 = -20 J, so friction does -20 J of work."
+          ],
+          "tags": [
+            "work-energy theorem",
+            "friction"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -246,12 +374,20 @@
       "est_minutes": 16,
       "locator": "CNXML module m42151",
       "objectives": [
-        "Apply conservation of energy to problems that Newton's laws make hard."
+        "Apply conservation of energy to problems that Newton's laws make hard.",
+        "Use conservation of total energy, including thermal energy, to solve motion problems."
       ],
       "misconceptions": [
         {
           "claim": "Energy is conserved only when there is no friction.",
           "correction": "Total energy is always conserved. What friction changes is how much of it is mechanical."
+        },
+        {
+          "claim": "Friction destroys energy.",
+          "correction": "Friction does not destroy energy. It turns mechanical energy into thermal energy, so the total energy is unchanged.",
+          "locator": "candidate trap trap-5, demoted pending paper evidence",
+          "source_trap": "phy_work_and_energy:trap-5",
+          "signal": "Our own question offers the destroyed energy as an option."
         }
       ],
       "summary": [
@@ -267,7 +403,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "work-energy-and-power",
-          "subtopic_slug": "conservation-of-energy-and-qualitative-transformations-betwe",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -281,7 +417,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-work-energy-and-power",
-          "subtopic_slug": "waec-conservation-of-mechanical-energy-doing-work",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -290,9 +426,17 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-energy",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
-      "worked_from": "exr-33"
+      "no_worked_example_reason": "The source section on Conservation of Energy has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-8",
@@ -301,7 +445,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42152",
       "objectives": [
-        "Define power as the rate of doing work and relate it to energy and to force times speed."
+        "Define power as the rate of doing work and relate it to energy and to force times speed.",
+        "Calculate power from work and time, and from force and speed."
       ],
       "misconceptions": [
         {
@@ -322,12 +467,39 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "work-energy-and-power",
-          "subtopic_slug": "energy-and-society-renewable-and-non-renewable-sources-energ",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-work-energy-and-power",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-44"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A motor does 600 J of work in 3 s. Find its power.",
+          "answer": "200 W",
+          "answer_kind": "expression",
+          "solution": [
+            "Power is work divided by time.",
+            "P = 600/3.",
+            "P = 200 W."
+          ],
+          "tags": [
+            "power",
+            "work"
+          ]
+        }
+      ]
     }
   ],
   "formula_sheet": [
@@ -558,91 +730,6 @@
   ],
   "exam_traps": [
     {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The work done by a force is the force times the distance travelled.",
-      "correction": "It is the component of the force along the displacement, so W = F d cos(theta). A force at right angles to the motion does no work.",
-      "signal": "Our own question offers the force times the distance as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The kinetic energy of a body is half its mass times its speed.",
-      "correction": "The speed enters as a square, so K = 1/2 m v^2. Doubling the speed multiplies the kinetic energy by four.",
-      "signal": "Our own question offers the value with the speed unsquared.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The gain in gravitational potential energy is the mass times the height.",
-      "correction": "It is the weight times the height, so U = mgh. The weight of the body matters, not only its mass.",
-      "signal": "Our own question offers the value with the mass alone.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "A conservative force does positive work around a closed path, because the path is longer.",
-      "correction": "It does zero net work around any closed path, which is what makes a potential energy possible.",
-      "signal": "Our own question offers a positive net work as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-4",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-5",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-7",
-      "misconception": "Friction destroys energy.",
-      "correction": "Friction does not destroy energy. It turns mechanical energy into thermal energy, so the total energy is unchanged.",
-      "signal": "Our own question offers the destroyed energy as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
       "id": "trap-6",
       "exam": "JAMB",
       "subject": "physics",
@@ -658,7 +745,7 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74366"
       },
-      "frequency": "recurring"
+      "frequency": "occasional"
     }
   ],
   "exam_recall_checks": [
@@ -835,6 +922,35 @@
       "explanation": "Power is work done per second, so P = 600/4 = 150 W.",
       "difficulty": 1,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "A box slides to rest under friction. What happens to its kinetic energy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is destroyed."
+        },
+        {
+          "id": "b",
+          "text": "It becomes thermal energy."
+        },
+        {
+          "id": "c",
+          "text": "It becomes gravitational potential energy."
+        },
+        {
+          "id": "d",
+          "text": "It is returned to the pusher."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Friction does negative work on the box, removing kinetic energy. That energy is transferred to the surfaces as thermal energy, so total energy is conserved.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -845,5 +961,69 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Work, Energy, and Energy Resources', modules m42145, m42146, m42147, m42148, m42149, m42150, m42151, m42152",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 7,
+  "exercise_fixes": {
+    "sec-3:exr-101": {
+      "drop": true
+    },
+    "sec-6:exr-46": {
+      "drop": true
+    },
+    "sec-7:exr-67": {
+      "drop": true
+    },
+    "sec-7:exr-75": {
+      "drop": true
+    },
+    "sec-2:exr-28": {
+      "stem": "You compress a spring by *x* , and then release it. Next you compress the spring by 2 *x* . How much more work did you do the second time than the first?"
+    },
+    "sec-2:exr-32": {
+      "stem": "A crane is lifting construction materials from the ground to an elevation of 60 m. Over the first 10 m, the motor linearly increases the force it exerts from 0 to 10 kN. It exerts that constant force for the next 40 m, and then winds down to 0 N again over the last 10 m. What is the total work done on the construction materials?"
+    },
+    "sec-2:exr-55": {
+      "stem": "Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a ramp that makes an angle of $20.0º$ with the horizontal. He exerts a force of 500 N on the crate parallel to the ramp and moves at a constant speed. Be certain to include the work he does on the crate *and* on his body to get up the ramp."
+    },
+    "sec-4:exr-56": {
+      "stem": "A hydroelectric power facility converts the gravitational potential energy of water behind a dam to electric energy. (a) What is the gravitational potential energy relative to the generators of a lake of volume $50.0 k{m}^{3}$ ( $mass=5.00×{10}^{13}kg)$ , given that the lake has an average height of 40.0 m above the generators? (b) Compare this with the energy stored in a 9-megaton fusion bomb."
+    },
+    "sec-4:exr-67": {
+      "stem": "A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track. Show that the final speed of the toy car is 0.687 m/s if its initial speed is 2.00 m/s and it coasts up the frictionless slope, gaining 0.180 m in altitude."
+    },
+    "sec-7:exr-37": {
+      "stem": "A child has two red wagons, with the rear one tied to the front by a stretchy rope (a spring). If the child pulls on the front wagon, the ____ increases.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kinetic energy of the wagons"
+        },
+        {
+          "id": "b",
+          "text": "potential energy stored in the spring"
+        },
+        {
+          "id": "c",
+          "text": "both the kinetic energy of the wagons and the potential energy stored in the spring"
+        },
+        {
+          "id": "d",
+          "text": "not enough information"
+        }
+      ]
+    },
+    "sec-7:exr-41": {
+      "stem": "Which of the following are closed systems? Select two answers."
+    },
+    "sec-2:exr-23": {
+      "drop": true
+    },
+    "sec-8:exr-53": {
+      "answer": "149 dollars",
+      "solution": [
+        "The energy used is $E=Pt=(15.0\\ \\mathrm{kW})(3.00\\ \\mathrm{h/day})(30.0\\ \\mathrm{days})=1.35\\times10^{3}\\ \\mathrm{kWh}$.",
+        "At 0.110 dollars per kWh, the cost is $(1.35\\times10^{3})(0.110)=149$ dollars."
+      ]
+    }
+  }
 }

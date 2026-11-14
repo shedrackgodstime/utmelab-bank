@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Electric Charge and Electric Field",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -142,7 +142,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_forces_and_newtons_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -161,24 +163,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electrostatics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electric-field",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -196,6 +181,13 @@
         {
           "claim": "Two charges of the same sign attract.",
           "correction": "They repel. Like charges repel and unlike charges attract."
+        },
+        {
+          "claim": "Rubbing an isolated body leaves it with a net charge.",
+          "correction": "Charge is conserved. Rubbing moves charge from one part of the body to another, so the total charge of an isolated body stays zero even though its parts are now charged.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_electric_charge_and_field:trap-3",
+          "signal": "Our own question asks what the total charge of an isolated body is."
         }
       ],
       "summary": [
@@ -223,7 +215,7 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-35"
+      "no_worked_example_reason": "The source section on Static Electricity and Charge: Conservation of Charge has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -237,7 +229,18 @@
         "Explain what happens to an electric force as you move farther from the source.",
         "Define polarization."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A conductor can never hold a net charge because charge moves freely in it.",
+          "correction": "A conductor can hold a net charge if it is insulated from ground. The charge spreads over the surface and stays there in equilibrium.",
+          "signal": "Free movement lets charge redistribute; it does not make the charge disappear."
+        },
+        {
+          "claim": "Insulators cannot be charged.",
+          "correction": "Insulators can be charged by friction or contact. The charge stays near where it was deposited because it cannot flow freely.",
+          "signal": "A rubbed plastic rod is a charged insulator."
+        }
+      ],
       "summary": [
         "Polarization is the separation of positive and negative charges in a neutral object.",
         "A conductor is a substance that allows charge to flow freely through its atomic structure.",
@@ -259,7 +262,7 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -280,6 +283,13 @@
         {
           "claim": "The electric field at a point depends on the charge there.",
           "correction": "The field at a point is set by the charges around it. A test charge placed there feels the field, it does not make it."
+        },
+        {
+          "claim": "The electrostatic force between two charges is inversely proportional to the distance between them.",
+          "correction": "It is inversely proportional to the square of the distance, so doubling the separation makes the force a quarter as large.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_electric_charge_and_field:trap-4",
+          "signal": "Our own question offers the inverse-distance law as an option."
         }
       ],
       "summary": [
@@ -306,8 +316,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-20"
+      ]
     },
     {
       "id": "sec-5",
@@ -320,7 +329,18 @@
         "Calculate the force exerted on a test charge by an electric field.",
         "Explain the relationship between electrical force (F) on a test charge and electrical field strength (E)."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The electric field is the same thing as the electric force.",
+          "correction": "The field is force per unit charge. The force on a charge also depends on the size of that charge.",
+          "signal": "Field has units of N/C, force has units of N."
+        },
+        {
+          "claim": "The electric field inside a conductor in electrostatic equilibrium is strong.",
+          "correction": "It is zero. Free charges move until the field inside cancels, and any excess charge resides on the surface.",
+          "signal": "A conductor shields its interior from static fields."
+        }
+      ],
       "summary": [
         "The electrostatic force field surrounding a charged object extends out into space in all directions.",
         "The electrostatic force exerted by a point charge on a test charge at a distance r depends on the charge of both charges, as well as the distance between the two.",
@@ -345,8 +365,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-26"
+      ]
     },
     {
       "id": "sec-6",
@@ -359,7 +378,18 @@
         "Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge",
         "Draw the electric field lines between two points of the same charge; between two points of opposite charge."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Electric field lines can cross one another.",
+          "correction": "They cannot cross. At any point the field has one direction, so only one line can pass through that point.",
+          "signal": "Crossing lines would mean two field directions at one point."
+        },
+        {
+          "claim": "The electric field is only a drawing convention with no physical meaning.",
+          "correction": "Field lines are a visualization, but the field itself is physical: it stores energy and exerts forces on charges.",
+          "signal": "The lines are a map of a real vector field."
+        }
+      ],
       "summary": [
         "Drawings of electric field lines are useful visual tools. The properties of electric field lines for any charge distribution are that:",
         "Field lines must begin on positive charges and terminate on negative charges, or at infinity in the hypothetical case of isolated charges.",
@@ -385,7 +415,66 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-29"
+      "figure_captions": {
+        "images/phy_m42312_image022.jpg": "Four charges of equal magnitude arranged on a square, used to compare the electric forces at points X and Z."
+      },
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "At a point in an electric field, in which direction does the electric field vector point?",
+          "answer": "In the direction of the force on a positive test charge placed at that point.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The field is defined using a positive test charge.",
+            "The force on that charge gives the field direction.",
+            "A negative charge feels a force opposite to the field."
+          ],
+          "tags": [
+            "electric field",
+            "direction"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Can two electric field lines cross each other? Explain.",
+          "answer": "No. At any point the field has only one direction, so only one line can pass through it.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A field line follows the direction of the field.",
+            "If two lines crossed, the field would have two directions at one point.",
+            "That is impossible for a well-defined field."
+          ],
+          "tags": [
+            "field lines",
+            "electric field"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A charge of +3.0 µC and a charge of −2.0 µC sit 0.50 m apart on a line. Point A lies on that line between them, 0.20 m from the +3.0 µC charge. Find the magnitude and direction of the net electric field at A.",
+          "answer": "8.7 × 10⁵ N/C directed from the positive charge toward the negative charge",
+          "answer_kind": "expression",
+          "solution": [
+            "E(+3.0 µC) = kq/r² = 8.99 × 10⁹ × 3.0 × 10⁻⁶ / (0.20)² = 6.7 × 10⁵ N/C, pointing away from the positive charge (toward A's far side).",
+            "E(−2.0 µC) = kq/r² = 8.99 × 10⁹ × 2.0 × 10⁻⁶ / (0.30)² = 2.0 × 10⁵ N/C, pointing toward the negative charge.",
+            "Both fields point the same way along the line, so E = 6.7 × 10⁵ + 2.0 × 10⁵ = 8.7 × 10⁵ N/C, from the positive charge toward the negative charge."
+          ],
+          "tags": [
+            "electric field",
+            "superposition",
+            "point charges"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -397,7 +486,18 @@
         "Describe how a water molecule is polar.",
         "Explain electrostatic screening by a water molecule within a living cell."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Water is a nonpolar molecule.",
+          "correction": "Water is polar. Its bent shape and the electronegativity of oxygen give it a separation of charge, so it has a dipole moment.",
+          "signal": "The oxygen end is slightly negative and the hydrogen ends slightly positive."
+        },
+        {
+          "claim": "Electric forces play no important role in living cells.",
+          "correction": "They govern ion movement, membrane potentials, the behaviour of DNA and many protein interactions.",
+          "signal": "Biology is full of charged and polar molecules."
+        }
+      ],
       "summary": [
         "Many molecules in living organisms, such as DNA, carry a charge.",
         "An uneven distribution of the positive and negative charges within a polar molecule produces a dipole.",
@@ -405,25 +505,65 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electrostatics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why is a water molecule polar?",
+          "answer": "Its bent shape and the electronegativity of oxygen create a separation of charge, giving a dipole moment.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Oxygen attracts electrons more strongly than hydrogen.",
+            "The bent shape stops the bond dipoles from cancelling.",
+            "One end is slightly negative and the other slightly positive."
+          ],
+          "tags": [
+            "polar molecule",
+            "water"
+          ]
         },
         {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electric-field",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is electrostatic screening?",
+          "answer": "The reduction of an electric field at a point by the presence of nearby charges that rearrange.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Charges in a material move in response to a field.",
+            "Their own fields oppose the applied field.",
+            "The net field at a point is therefore reduced."
+          ],
+          "tags": [
+            "screening",
+            "electric field"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Name one way electric forces matter in biology.",
+          "answer": "They help hold DNA together, drive ion movement across membranes, or shape protein interactions.",
+          "answer_kind": "explanation",
+          "solution": [
+            "DNA carries negative phosphate groups.",
+            "Ion channels and membrane potentials depend on electric forces.",
+            "Proteins fold partly through charged interactions."
+          ],
+          "tags": [
+            "biology",
+            "electric force"
+          ]
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_exam_link_reason": "Electric forces in biology are an applied extension and are not named in either syllabus."
     },
     {
       "id": "sec-8",
@@ -440,7 +580,18 @@
         "Describe how a lightning rod works.",
         "Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Excess charge on a conductor sits throughout its volume.",
+          "correction": "In electrostatic equilibrium, excess charge resides on the surface. The field inside the conductor is zero.",
+          "signal": "Like charges repel and push each other to the surface."
+        },
+        {
+          "claim": "A metal car protects its occupants because the metal is too heavy for electricity to move.",
+          "correction": "The metal body is a conducting shell. It redistributes charge so the field inside is nearly zero, acting as a Faraday cage.",
+          "signal": "The protection comes from conduction, not weight."
+        }
+      ],
       "summary": [
         "A conductor allows free charges to move about within it.",
         "The electrical forces around a conductor will cause free charges to move around inside the conductor until static equilibrium is reached.",
@@ -454,7 +605,7 @@
           "subject": "physics",
           "topic_slug": "electrostatics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -462,11 +613,54 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-31"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A solid metal sphere carries a net positive charge. (a) Where does the excess charge reside? (b) What is the electric field inside the metal? (c) Explain why the field just outside the surface must be perpendicular to the surface. (d) The sphere has a sharp point. What does this imply about the charge density and the field near the point?",
+          "answer": "(a) On the outer surface. (b) Zero. (c) A tangential component would push free charges along the surface, so equilibrium requires the field to be perpendicular. (d) Charge concentrates at the point, so the field is strongest there.",
+          "answer_kind": "explanation",
+          "solution": [
+            "In a conductor at electrostatic equilibrium, excess charge resides on the outer surface.",
+            "The field inside the metal is zero; otherwise free electrons would move.",
+            "Just outside, any tangential field component would move surface charges, so the field must be normal to the surface.",
+            "Charge density is greatest where the radius of curvature is smallest, so the field is strongest at a sharp point. This is why lightning rods are pointed."
+          ],
+          "tags": [
+            "conductors",
+            "electrostatic equilibrium",
+            "charge distribution"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Two point charges lie on the x-axis: $+4.0µC$ at $x=0$ and $-1.0µC$ at $x=0.30m$. Find all points on the x-axis where the net electric field is zero.",
+          "answer": "$x=0.20m$ (between the charges) and $x=0.60m$ (0.30 m beyond the negative charge)",
+          "answer_kind": "expression",
+          "solution": [
+            "Between the charges, the field from the positive charge points right and the field from the negative charge points left, so they can cancel.",
+            "Set the magnitudes equal: $k(4.0×10^{-6})/x^{2}=k(1.0×10^{-6})/(0.30-x)^{2}$. Taking square roots, $2/x=1/(0.30-x)$, so $0.60-2x=x$ and $x=0.20m$ .",
+            "Beyond the negative charge, at $x>0.30m$, the two fields again point in opposite directions: $k(4.0×10^{-6})/x^{2}=k(1.0×10^{-6})/(x-0.30)^{2}$. Taking square roots, $2/x=1/(x-0.30)$, so $2x-0.60=x$ and $x=0.60m$ .",
+            "Check: at $x=0.20m$ the distances are 0.20 m and 0.10 m, giving fields in the ratio $4/0.20^{2}:1/0.10^{2}=100:100$. At $x=0.60m$ the ratio is $4/0.60^{2}:1/0.30^{2}=11.1:11.1$. Both cancel.",
+            "There is no zero on the far left: for $x<0$ the required distances would make the negative charge closer than the positive one while both fields oppose, which cannot balance for these magnitudes."
+          ],
+          "tags": [
+            "electric field",
+            "point charges",
+            "superposition"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Conductors and Electric Fields in Static Equilibrium has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-9",
@@ -475,9 +669,21 @@
       "est_minutes": 12,
       "locator": "CNXML module m42329",
       "objectives": [
-        "Name several real-world applications of the study of electrostatics."
+        "Name several real-world applications of the study of electrostatics.",
+        "Explain how electrostatic principles are used in devices such as photocopiers, printers and air filters."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Electrostatics has no practical applications outside the laboratory.",
+          "correction": "It is used in photocopiers, laser and ink-jet printers, electrostatic air filters and paint sprayers.",
+          "signal": "Many everyday machines rely on controlled static charge."
+        },
+        {
+          "claim": "A Van de Graaff generator creates electric charge from nothing.",
+          "correction": "It transfers charge from a moving belt to a conducting dome, where it accumulates. Charge is conserved; the machine separates and concentrates it.",
+          "signal": "The belt carries charge, it does not manufacture it."
+        }
+      ],
       "summary": [
         "Electrostatics is the study of electric fields in static equilibrium.",
         "In addition to research using equipment such as a Van de Graaff generator, many practical applications of electrostatics exist, including photocopiers, laser printers, ink-jet printers and electrostatic air filters."
@@ -498,14 +704,110 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
       "worked_from": "exr-49"
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$F = k\\frac{|q_1q_2|}{r^2}$",
+      "caption": {
+        "text": "Coulomb’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The magnitude of the force between two point charges separated by distance r; k ≈ 8.99 × 10⁹ N m²/C².",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42308/index.cnxml",
+        "locator": "CNXML module m42308, section “Coulomb’s Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$\\vec{E} = \\frac{\\vec{F}}{q}$",
+      "caption": {
+        "text": "Electric field",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The force per unit positive test charge at a point.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42310/index.cnxml",
+        "locator": "CNXML module m42310, section “Electric Field”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$E = k\\frac{|Q|}{r^2}$",
+      "caption": {
+        "text": "Field of a point charge",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The magnitude of the field at distance r from a point charge Q.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42310/index.cnxml",
+        "locator": "CNXML module m42310, section “Electric Field”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$F = qE$",
+      "caption": {
+        "text": "Force on a charge in an electric field",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a charge q placed in an electric field E.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42310/index.cnxml",
+        "locator": "CNXML module m42310, section “Electric Field”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$p = qd$",
+      "caption": {
+        "text": "Electric dipole moment",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For two charges of magnitude q separated by distance d.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42315/index.cnxml",
+        "locator": "CNXML module m42315, section “Electric Forces in Biology”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1211,76 +1513,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Two charges of the same sign attract.",
-      "correction": "They repel. Like charges repel and unlike charges attract.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The electric field at a point depends on the charge there.",
-      "correction": "The field at a point is set by the charges around it. A test charge placed there feels the field, it does not make it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Rubbing an isolated body leaves it with a net charge.",
-      "correction": "Charge is conserved. Rubbing moves charge from one part of the body to another, so the total charge of an isolated body stays zero even though its parts are now charged.",
-      "signal": "Our own question asks what the total charge of an isolated body is.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The electrostatic force between two charges is inversely proportional to the distance between them.",
-      "correction": "It is inversely proportional to the square of the distance, so doubling the separation makes the force a quarter as large.",
-      "signal": "Our own question offers the inverse-distance law as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1426,6 +1659,93 @@
       "explanation": "Free charges in a conductor move until they cancel the internal field, so the field inside is zero. The field is not zero at the surface, just inside it is.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "Two positive point charges are placed near each other. What happens to their electric field lines?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They cross at the midpoint."
+        },
+        {
+          "id": "b",
+          "text": "They bend away from each other and do not connect."
+        },
+        {
+          "id": "c",
+          "text": "They join and continue as one line."
+        },
+        {
+          "id": "d",
+          "text": "They form closed circles around both charges."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Field lines start on positive charges and point away. Between two positive charges they repel and bend away; they never connect or cross.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "Water molecules are polar mainly because",
+      "options": [
+        {
+          "id": "a",
+          "text": "they are very small"
+        },
+        {
+          "id": "b",
+          "text": "their bent shape and the electronegativity of oxygen separate charge"
+        },
+        {
+          "id": "c",
+          "text": "they contain no electrons"
+        },
+        {
+          "id": "d",
+          "text": "they are always ionised"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Oxygen pulls electron density toward itself, and the bent shape prevents the bond dipoles from cancelling. The result is a molecular dipole.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-9",
+      "stem": "Which of these is an application of electrostatics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a photocopier"
+        },
+        {
+          "id": "b",
+          "text": "a bicycle pump"
+        },
+        {
+          "id": "c",
+          "text": "a water wheel"
+        },
+        {
+          "id": "d",
+          "text": "a compass needle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Photocopiers use charged surfaces and toner particles attracted by electrostatic forces. The other devices rely on different principles.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1436,5 +1756,92 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Electric Charge and Electric Field', modules m42299, m42300, m42306, m42308, m42310, m42312, m42315, m42317, m42329",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 18,
+  "exercise_fixes": {
+    "sec-6:exr-35": {
+      "drop": true
+    },
+    "sec-8:exr-108": {
+      "drop": true
+    },
+    "sec-8:exr-114": {
+      "drop": true
+    },
+    "sec-8:exr-120": {
+      "drop": true
+    },
+    "sec-3:exr-39": {
+      "stem": "Two metal balls are suspended in contact with each other and a negatively charged rod is brought close to them. (a) What will be the charges on each ball? (b) Explain how the balls get these charges. (c) What will happen to the charge on the second ball (the one farther from the rod) if it is momentarily grounded while the rod is still there? (d) If, instead of grounding, the second ball is moved away and then the rod is removed from the first ball, will the two balls have induced charges? If yes, what will be the charges? If no, why not?"
+    },
+    "sec-5:exr-31": {
+      "stem": "What is the direction of the electric field of a negative charge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "inward, toward the negative charge"
+        },
+        {
+          "id": "b",
+          "text": "outward, away from the negative charge"
+        },
+        {
+          "id": "c",
+          "text": "inward near other positive charges and outward near other negative charges"
+        },
+        {
+          "id": "d",
+          "text": "outward near other positive charges and inward near other negative charges"
+        }
+      ]
+    },
+    "sec-2:exr-52": {
+      "stem": "An object initially has a charge of 1 C. (a) It gains $6.88×10^{18}$ electrons. What is its net charge? (b) The electrons came from a neutral object. What is the charge on that object? (c) Compare the total charge of the two objects before and after the transfer, and state the law involved. (d) An identical third object is then touched to the first object, and the resulting charge on the third object is 0.4 C. What was the third object's initial charge?",
+      "answer": "(a) −0.10 C (b) +1.10 C (c) Before: 1 C + 0 = 1 C; after: −0.10 C + 1.10 C = 1.00 C, so total charge is conserved. (d) 0.90 C.",
+      "solution": [
+        "(a) $6.88×10^{18}$ electrons carry $6.88×10^{18}×1.60×10^{-19}=1.10C$ of negative charge, so the object's charge becomes $1.00-1.10=-0.10C$ .",
+        "(b) The neutral object lost those electrons, so it is left with $+1.10C$ .",
+        "(c) The total before is $1C+0=1C$; the total after is $-0.10C+1.10C=1.00C$. Charge is conserved.",
+        "(d) The identical objects share the first object's charge equally: $q_{3,final}=(q_{1}+q_{3,initial})/2=0.4C$, so $q_{3,initial}=0.9C$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); part (c) is corrected because the total charge is conserved at 1 C, not shared equally"
+    },
+    "sec-4:exr-29": {
+      "answer": "(a) $3.60×10^{10}N$ (b) $8.99×10^{9}N$, one quarter of the original force.",
+      "solution": [
+        "(a) $F=k\\frac{|q_{1}q_{2}|}{r^{2}}=(8.99×10^{9})\\frac{(1)(1)}{(0.5)^{2}}=3.60×10^{10}N$ .",
+        "(b) At 1 m the force is $(8.99×10^{9})\\frac{(1)(1)}{(1)^{2}}=8.99×10^{9}N$, one quarter of the original value."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer field was only the unit letter N"
+    },
+    "sec-4:exr-60": {
+      "solution": [
+        "$F=k\\frac{|q_{1}q_{2}|}{r^{2}}=ma$, so $a=\\frac{kq^{2}}{mr^{2}}=\\frac{(9.00×10^{9})(1.60×10^{-19}C)^{2}}{(1.67×10^{-27}kg)(2.00×10^{-9}m)^{2}}=3.45×10^{16}m/s^{2}$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source wrote the squared charge with a length unit (m) instead of coulombs"
+    },
+    "sec-5:exr-53": {
+      "answer": "$8.75×10^{-4}N$ due east",
+      "solution": [
+        "$F=qE=(3.50×10^{-6}C)(250N/C)=8.75×10^{-4}N$ .",
+        "A positive charge feels a force in the direction of the field, so the force is due east."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the direction and unit were missing from the source answer"
+    },
+    "sec-9:exr-63": {
+      "answer": "$q_{2}=9q_{1}$"
+    },
+    "sec-8:exr-96": {
+      "drop": true
+    },
+    "sec-8:exr-102": {
+      "drop": true
+    },
+    "sec-6:exr-29": {
+      "drop": true
+    },
+    "sec-8:exr-31": {
+      "stem": "An isolated positively charged spherical conductor sits in empty space. Consider three points outside the sphere: point A just outside the surface, point B at twice the radius from the centre, and point C at three times the radius from the centre. Where is the electric field weakest?"
+    }
+  }
 }

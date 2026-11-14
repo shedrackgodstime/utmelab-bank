@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "A moving object in a viscous fluid is equivalent to a stationary object in a flowing fluid stream. (For example, when you ride a bicycle at 10 m/s in still air, you feel the air in your face exactly as if you were stationary in a 10-m/s wind.) Flow of the stationary fluid around a moving object may be laminar, turbulent, or a combination of the two. Just as with flow in tubes, it is possible to predict when a moving object creates turbulence. We use another form of the Reynolds number ${N}_{R}^{′}$ , defined for an object moving in a fluid to be",
+        "text": "A moving object in a viscous fluid is equivalent to a stationary object in a flowing fluid stream. (For example, when you ride a bicycle at 10 m/s in still air, you feel the air in your face exactly as if you were stationary in a 10-m/s wind.) Flow of the stationary fluid around a moving object may be laminar, turbulent, or a combination of the two. Just as with flow in tubes, it is possible to predict when a moving object creates turbulence. We use another form of the Reynolds number ${N}_{R}^{′}$, defined for an object moving in a fluid to be ${N}_{R}^{′}=\\frac{ρvL}{η}(object in fluid),$",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "where $L$ is a characteristic length of the object (a sphere’s diameter, for example), $ρ$ the fluid density, $η$ its viscosity, and $v$ the object’s speed in the fluid. If ${N}_{R}^{′}$ is less than about 1, flow around the object can be laminar, particularly if the object has a smooth shape. The transition to turbulent flow occurs for ${N}_{R}^{′}$ between 1 and about 10, depending on surface roughness and so on. Depending on the surface, there can be a *turbulent wake* behind the object with some laminar flow over its surface. For an ${N}_{R}^{′}$ between 10 and ${10}^{6}$ , the flow may be either laminar or turbulent and may oscillate between the two. For ${N}_{R}^{′}$ greater than about ${10}^{6}$ , the flow is entirely turbulent, even at the surface of the object. (See .) Laminar flow occurs mostly when the objects in the fluid are small, such as raindrops, pollen, and blood cells in plasma.",
+        "text": "where $L$ is a characteristic length of the object (a sphere’s diameter, for example), $ρ$ the fluid density, $η$ its viscosity, and $v$ the object’s speed in the fluid. If ${N}_{R}^{′}$ is less than about 1, flow around the object can be laminar, particularly if the object has a smooth shape. The transition to turbulent flow occurs for ${N}_{R}^{′}$ between 1 and about 10, depending on surface roughness and so on. Depending on the surface, there can be a *turbulent wake* behind the object with some laminar flow over its surface. For an ${N}_{R}^{′}$ between 10 and ${10}^{6}$, the flow may be either laminar or turbulent and may oscillate between the two. For ${N}_{R}^{′}$ greater than about ${10}^{6}$, the flow is entirely turbulent, even at the surface of the object. (See the figure.) Laminar flow occurs mostly when the objects in the fluid are small, such as raindrops, pollen, and blood cells in plasma.",
         "inline": []
       },
       "level": "core"
@@ -73,7 +73,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "We can use ${N}_{R}^{′}=\\frac{ρvL}{η}$ to calculate ${N}_{R}^{′}$ , since all values in it are either given or can be found in tables of density and viscosity.",
+        "text": "We can use ${N}_{R}^{′}=\\frac{ρvL}{η}$ to calculate ${N}_{R}^{′}$, since all values in it are either given or can be found in tables of density and viscosity.",
         "inline": []
       },
       "level": "core"
@@ -82,7 +82,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Substituting values into the equation for ${N}_{R}^{′}$ yields",
+        "text": "Substituting values into the equation for ${N}_{R}^{′}$ yields ${N}_{R}^{′} = \\frac{ρvL}{η} = \\frac{(1.29 {kg/m}^{3})(40.0 m/s)(0.0740 m)}{1.81\\times {10}^{-5} 1.00 Pa\\cdot s} = 2.11 \\times {10}^{5}.$",
         "inline": []
       },
       "level": "core"
@@ -100,7 +100,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "One of the consequences of viscosity is a resistance force called viscous drag ${F}_{V}$ that is exerted on a moving object. This force typically depends on the object’s speed (in contrast with simple friction). Experiments have shown that for laminar flow ( ${N}_{R}^{′}$ less than about one) viscous drag is proportional to speed, whereas for ${N}_{R}^{′}$ between about 10 and ${10}^{6}$ , viscous drag is proportional to speed squared. (This relationship is a strong dependence and is pertinent to bicycle racing, where even a small headwind causes significantly increased drag on the racer. Cyclists take turns being the leader in the pack for this reason.) For ${N}_{R}^{′}$ greater than ${10}^{6}$ , drag increases dramatically and behaves with greater complexity. For laminar flow around a sphere, ${F}_{V}$ is proportional to fluid viscosity $η$ , the object’s characteristic size $L$ , and its speed $v$ . All of which makes sense—the more viscous the fluid and the larger the object, the more drag we expect. Recall Stoke’s law ${F}_{S}=6πrηv$ . For the special case of a small sphere of radius $R$ moving slowly in a fluid of viscosity $η$ , the drag force ${F}_{S}$ is given by",
+        "text": "One of the consequences of viscosity is a resistance force called viscous drag ${F}_{V}$ that is exerted on a moving object. This force typically depends on the object’s speed (in contrast with simple friction). Experiments have shown that for laminar flow (${N}_{R}^{′}$ less than about one) viscous drag is proportional to speed, whereas for ${N}_{R}^{′}$ between about 10 and ${10}^{6}$, viscous drag is proportional to speed squared. (This relationship is a strong dependence and is pertinent to bicycle racing, where even a small headwind causes significantly increased drag on the racer. Cyclists take turns being the leader in the pack for this reason.) For ${N}_{R}^{′}$ greater than ${10}^{6}$, drag increases dramatically and behaves with greater complexity. For laminar flow around a sphere, ${F}_{V}$ is proportional to fluid viscosity $η$, the object’s characteristic size $L$, and its speed $v$. All of which makes sense—the more viscous the fluid and the larger the object, the more drag we expect. Recall Stoke’s law ${F}_{S}=6πrηv$. For the special case of a small sphere of radius $R$ moving slowly in a fluid of viscosity $η$, the drag force ${F}_{S}$ is given by ${F}_{S}=6πRηv.$",
         "inline": []
       },
       "level": "core"
@@ -122,7 +122,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "An interesting consequence of the increase in ${F}_{V}$ with speed is that an object falling through a fluid will not continue to accelerate indefinitely (as it would if we neglect air resistance, for example). Instead, viscous drag increases, slowing acceleration, until a critical speed, called the terminal speed , is reached and the acceleration of the object becomes zero. Once this happens, the object continues to fall at constant speed (the terminal speed). This is the case for particles of sand falling in the ocean, cells falling in a centrifuge, and sky divers falling through the air. shows some of the factors that affect terminal speed. There is a viscous drag on the object that depends on the viscosity of the fluid and the size of the object. But there is also a buoyant force that depends on the density of the object relative to the fluid. Terminal speed will be greatest for low-viscosity fluids and objects with high densities and small sizes. Thus a skydiver falls more slowly with outspread limbs than when they are in a pike position—head first with hands at their side and legs together.",
+        "text": "An interesting consequence of the increase in ${F}_{V}$ with speed is that an object falling through a fluid will not continue to accelerate indefinitely (as it would if we neglect air resistance, for example). Instead, viscous drag increases, slowing acceleration, until a critical speed, called the terminal speed, is reached and the acceleration of the object becomes zero. Once this happens, the object continues to fall at constant speed (the terminal speed). This is the case for particles of sand falling in the ocean, cells falling in a centrifuge, and sky divers falling through the air. The figure shows some of the factors that affect terminal speed. There is a viscous drag on the object that depends on the viscosity of the fluid and the size of the object. But there is also a buoyant force that depends on the density of the object relative to the fluid. Terminal speed will be greatest for low-viscosity fluids and objects with high densities and small sizes. Thus a skydiver falls more slowly with outspread limbs than when they are in a pike position—head first with hands at their side and legs together.",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "By measuring the terminal speed of a slowly moving sphere in a viscous fluid, one can find the viscosity of that fluid (at that temperature). It can be difficult to find small ball bearings around the house, but a small marble will do. Gather two or three fluids (syrup, motor oil, honey, olive oil, etc.) and a thick, tall clear glass or vase. Drop the marble into the center of the fluid and time its fall (after letting it drop a little to reach its terminal speed). Compare your values for the terminal speed and see if they are inversely proportional to the viscosities as listed in . Does it make a difference if the marble is dropped near the side of the glass?",
+        "text": "By measuring the terminal speed of a slowly moving sphere in a viscous fluid, one can find the viscosity of that fluid (at that temperature). It can be difficult to find small ball bearings around the house, but a small marble will do. Gather two or three fluids (syrup, motor oil, honey, olive oil, etc.) and a thick, tall clear glass or vase. Drop the marble into the center of the fluid and time its fall (after letting it drop a little to reach its terminal speed). Compare your values for the terminal speed and see if they are inversely proportional to the viscosities as listed in the table. Does it make a difference if the marble is dropped near the side of the glass?",
         "inline": []
       },
       "level": "core"

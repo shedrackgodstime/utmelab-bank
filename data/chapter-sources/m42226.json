@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "We examine these methods in some detail in the three following modules. Each method has unique and interesting characteristics, but all three do have one thing in common: they transfer heat solely because of a temperature difference .",
+        "text": "We examine these methods in some detail in the three following modules. Each method has unique and interesting characteristics, but all three do have one thing in common: they transfer heat solely because of a temperature difference the figure.",
         "inline": []
       },
       "level": "core"
@@ -174,7 +174,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows a cut-away drawing of a thermos bottle (also known as a Dewar flask), which is a device designed specifically to slow down all forms of heat transfer. Explain the functions of the various parts, such as the vacuum, the silvering of the walls, the thin-walled long glass neck, the rubber support, the air layer, and the stopper.",
+        "text": "The figure shows a cut-away drawing of a thermos bottle (also known as a Dewar flask), which is a device designed specifically to slow down all forms of heat transfer. Explain the functions of the various parts, such as the vacuum, the silvering of the walls, the thin-walled long glass neck, the rubber support, the air layer, and the stopper.",
         "inline": []
       },
       "level": "core",

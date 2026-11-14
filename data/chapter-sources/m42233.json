@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "One of the most important things we can do with heat transfer is to use it to do work for us. Such a device is called a heat engine . Car engines and steam turbines that generate electricity are examples of heat engines. shows schematically how the first law of thermodynamics applies to the typical heat engine.",
+        "text": "One of the most important things we can do with heat transfer is to use it to do work for us. Such a device is called a heat engine. Car engines and steam turbines that generate electricity are examples of heat engines. The figure shows schematically how the first law of thermodynamics applies to the typical heat engine.",
         "inline": []
       },
       "level": "core"
@@ -88,7 +88,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "A process by which a gas does work on a piston at constant pressure is called an isobaric process . Since the pressure is constant, the force exerted is constant and the work done is given as",
+        "text": "A process by which a gas does work on a piston at constant pressure is called an isobaric process. Since the pressure is constant, the force exerted is constant and the work done is given as $PΔV.$",
         "inline": []
       },
       "level": "core"
@@ -110,7 +110,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "See the symbols as shown in . Now $F=PA$ , and so",
+        "text": "See the symbols as shown in the figure. Now $F=PA$, and so $W=PAd.$",
         "inline": []
       },
       "level": "core"
@@ -119,7 +119,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Because the volume of a cylinder is its cross-sectional area $A$ times its length $d$ , we see that $Ad=ΔV$ , the change in volume; thus,",
+        "text": "Because the volume of a cylinder is its cross-sectional area $A$ times its length $d$, we see that $Ad=ΔV$, the change in volume; thus, $W=PΔV(isobaric process).$",
         "inline": []
       },
       "level": "core"
@@ -137,7 +137,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "(Note that the pressure involved in this work that we’ve called $P$ is the pressure of the gas *inside* the tank. If we call the pressure outside the tank ${P}_{ext}$ , an expanding gas would be working *against* the external pressure; the work done would therefore be $W=-{P}_{ext}ΔV$ (isobaric process). Many texts use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics. This definition reverses the sign conventions for work, and results in a statement of the first law that becomes $Δ{E}_{int}=Q+W$ .)",
+        "text": "(Note that the pressure involved in this work that we’ve called $P$ is the pressure of the gas *inside* the tank. If we call the pressure outside the tank ${P}_{ext}$, an expanding gas would be working *against* the external pressure; the work done would therefore be $W=-{P}_{ext}ΔV$ (isobaric process). Many texts use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics. This definition reverses the sign conventions for work, and results in a statement of the first law that becomes $Δ{E}_{int}=Q+W$.)",
         "inline": []
       },
       "level": "core"
@@ -146,7 +146,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "It is not surprising that $W=PΔV$ , since we have already noted in our treatment of fluids that pressure is a type of potential energy per unit volume and that pressure in fact has units of energy divided by volume. We also noted in our discussion of the ideal gas law that $PV$ has units of energy. In this case, some of the energy associated with pressure becomes work.",
+        "text": "It is not surprising that $W=PΔV$, since we have already noted in our treatment of fluids that pressure is a type of potential energy per unit volume and that pressure in fact has units of energy divided by volume. We also noted in our discussion of the ideal gas law that $PV$ has units of energy. In this case, some of the energy associated with pressure becomes work.",
         "inline": []
       },
       "level": "core"
@@ -155,7 +155,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "shows a graph of pressure versus volume (that is, a $PV$ diagram for an isobaric process. You can see in the figure that the work done is the area under the graph. This property of $PV$ diagrams is very useful and broadly applicable: *the work done on or by a system in going from one state to another equals the area under the curve on a $PV$ diagram* .",
+        "text": "The figure shows a graph of pressure versus volume (that is, a $PV$ diagram for an isobaric process. You can see in the figure that the work done is the area under the graph. This property of $PV$ diagrams is very useful and broadly applicable: *the work done on or by a system in going from one state to another equals the area under the curve on a $PV$ diagram*.",
         "inline": []
       },
       "level": "core"
@@ -190,7 +190,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We can see where this leads by considering (a), which shows a more general process in which both pressure and volume change. The area under the curve is closely approximated by dividing it into strips, each having an average constant pressure ${P}_{i(ave)}$ . The work done is ${W}_{i}={P}_{i(ave)}Δ{V}_{i}$ for each strip, and the total work done is the sum of the ${W}_{i}$ . Thus the total work done is the total area under the curve. If the path is reversed, as in (b), then work is done on the system. The area under the curve in that case is negative, because $ΔV$ is negative.",
+        "text": "We can see where this leads by considering the figure (a), which shows a more general process in which both pressure and volume change. The area under the curve is closely approximated by dividing it into strips, each having an average constant pressure ${P}_{i(ave)}$. The work done is ${W}_{i}={P}_{i(ave)}Δ{V}_{i}$ for each strip, and the total work done is the sum of the ${W}_{i}$. Thus the total work done is the total area under the curve. If the path is reversed, as in the figure (b), then work is done on the system. The area under the curve in that case is negative, because $ΔV$ is negative.",
         "inline": []
       },
       "level": "core"
@@ -199,7 +199,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "$PV$ diagrams clearly illustrate that *the work done depends on the path taken and not just the endpoints* . This path dependence is seen in (a), where more work is done in going from A to C by the path via point B than by the path via point D. The vertical paths, where volume is constant, are called isochoric processes. Since volume is constant, $ΔV=0$ , and no work is done in an isochoric process. Now, if the system follows the cyclical path ABCDA, as in (b), then the total work done is the area inside the loop. The negative area below path CD subtracts, leaving only the area inside the rectangle. In fact, the work done in any cyclical process (one that returns to its starting point) is the area inside the loop it forms on a $PV$ diagram, as (c) illustrates for a general cyclical process. Note that the loop must be traversed in the clockwise direction for work to be positive—that is, for there to be a net work output.",
+        "text": "$PV$ diagrams clearly illustrate that *the work done depends on the path taken and not just the endpoints*. This path dependence is seen in the figure (a), where more work is done in going from A to C by the path via point B than by the path via point D. The vertical paths, where volume is constant, are called isochoric processes. Since volume is constant, $ΔV=0$, and no work is done in an isochoric process. Now, if the system follows the cyclical path ABCDA, as in the figure (b), then the total work done is the area inside the loop. The negative area below path CD subtracts, leaving only the area inside the rectangle. In fact, the work done in any cyclical process (one that returns to its starting point) is the area inside the loop it forms on a $PV$ diagram, as the figure (c) illustrates for a general cyclical process. Note that the loop must be traversed in the clockwise direction for work to be positive—that is, for there to be a net work output.",
         "inline": []
       },
       "level": "core"
@@ -236,7 +236,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the total work done in the cyclical process ABCDA shown in (b) by the following two methods to verify that work equals the area inside the closed loop on the $PV$ diagram. (Take the data in the figure to be precise to three significant figures.) (a) Calculate the work done along each segment of the path and add these values to get the total work. (b) Calculate the area inside the rectangle ABCDA.",
+        "text": "Calculate the total work done in the cyclical process ABCDA shown in the figure (b) by the following two methods to verify that work equals the area inside the closed loop on the $PV$ diagram. (Take the data in the figure to be precise to three significant figures.) (a) Calculate the work done along each segment of the path and add these values to get the total work. (b) Calculate the area inside the rectangle ABCDA.",
         "inline": []
       },
       "level": "core"
@@ -245,7 +245,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "To find the work along any path on a $PV$ diagram, you use the fact that work is pressure times change in volume, or $W=PΔV$ . So in part (a), this value is calculated for each leg of the path around the closed loop.",
+        "text": "To find the work along any path on a $PV$ diagram, you use the fact that work is pressure times change in volume, or $W=PΔV$. So in part (a), this value is calculated for each leg of the path around the closed loop.",
         "inline": []
       },
       "level": "core"
@@ -254,7 +254,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The work along path AB is",
+        "text": "The work along path AB is ${W}_{AB} = {P}_{AB}Δ{V}_{AB} = (1.50×{10}^{6} {N/m}^{2})(5.00×{10}^{–4} {m}^{3})=750 J.$",
         "inline": []
       },
       "level": "core"
@@ -263,7 +263,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Since the path BC is isochoric, $Δ{V}_{BC}=0$ , and so ${W}_{BC}=0$ . The work along path CD is negative, since $Δ{V}_{CD}$ is negative (the volume decreases). The work is",
+        "text": "Since the path BC is isochoric, $Δ{V}_{BC}=0$, and so ${W}_{BC}=0$. The work along path CD is negative, since $Δ{V}_{CD}$ is negative (the volume decreases). The work is ${W}_{CD} = {P}_{CD}Δ{V}_{CD} = (2.00×{10}^{5} {N/m}^{2})(–5.00×{10}^{–4} {m}^{3}) = –100 J.$",
         "inline": []
       },
       "level": "core"
@@ -272,7 +272,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Again, since the path DA is isochoric, $Δ{V}_{DA}=0$ , and so ${W}_{DA}=0$ . Now the total work is",
+        "text": "Again, since the path DA is isochoric, $Δ{V}_{DA}=0$, and so ${W}_{DA}=0$. Now the total work is $W = {W}_{AB}+{W}_{BC}+{W}_{CD}+{W}_{DA} = 750 J+0+(-100J)+0=650 J.$",
         "inline": []
       },
       "level": "core"
@@ -281,7 +281,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The area inside the rectangle is its height times its width, or",
+        "text": "The area inside the rectangle is its height times its width, or $area = ({P}_{AB}-{P}_{CD})ΔV = [(1.50×{10}^{6} {N/m}^{2})-(2.00×{10}^{5} {N/m}^{2})](5.00×{10}^{-4} {m}^{3}) = 650 J.$",
         "inline": []
       },
       "level": "core"
@@ -290,7 +290,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The result, as anticipated, is that the area inside the closed loop equals the work done. The area is often easier to calculate than is the work done along each path. It is also convenient to visualize the area inside different curves on $PV$ diagrams in order to see which processes might produce the most work. Recall that work can be done to the system, or by the system, depending on the sign of $W$ . A positive $W$ is work that is done by the system on the outside environment; a negative $W$ represents work done by the environment on the system.",
+        "text": "The result, as anticipated, is that the area inside the closed loop equals the work done. The area is often easier to calculate than is the work done along each path. It is also convenient to visualize the area inside different curves on $PV$ diagrams in order to see which processes might produce the most work. Recall that work can be done to the system, or by the system, depending on the sign of $W$. A positive $W$ is work that is done by the system on the outside environment; a negative $W$ represents work done by the environment on the system.",
         "inline": []
       },
       "level": "core"
@@ -299,7 +299,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "(a) shows two other important processes on a $PV$ diagram. For comparison, both are shown starting from the same point A. The upper curve ending at point B is an isothermal process—that is, one in which temperature is kept constant. If the gas behaves like an ideal gas, as is often the case, and if no phase change occurs, then $PV=nRT$ . Since $T$ is constant, $PV$ is a constant for an isothermal process. We ordinarily expect the temperature of a gas to decrease as it expands, and so we correctly suspect that heat transfer must occur from the surroundings to the gas to keep the temperature constant during an isothermal expansion. To show this more rigorously for the special case of a monatomic ideal gas, we note that the average kinetic energy of an atom in such a gas is given by",
+        "text": "The figure (a) shows two other important processes on a $PV$ diagram. For comparison, both are shown starting from the same point A. The upper curve ending at point B is an isothermal process—that is, one in which temperature is kept constant. If the gas behaves like an ideal gas, as is often the case, and if no phase change occurs, then $PV=nRT$. Since $T$ is constant, $PV$ is a constant for an isothermal process. We ordinarily expect the temperature of a gas to decrease as it expands, and so we correctly suspect that heat transfer must occur from the surroundings to the gas to keep the temperature constant during an isothermal expansion. To show this more rigorously for the special case of a monatomic ideal gas, we note that the average kinetic energy of an atom in such a gas is given by $\\frac{1}{2}m{v¯}^{2}=\\frac{3}{2}kT.$",
         "inline": []
       },
       "level": "core"
@@ -308,7 +308,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The kinetic energy of the atoms in a monatomic ideal gas is its only form of internal energy, and so its total internal energy ${E}_{int}$ is",
+        "text": "The kinetic energy of the atoms in a monatomic ideal gas is its only form of internal energy, and so its total internal energy ${E}_{int}$ is ${E}_{int}=N\\frac{1}{2}m{v¯}^{2}=\\frac{3}{2}NkT,(monatomic ideal gas),$",
         "inline": []
       },
       "level": "core"
@@ -317,7 +317,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "where $N$ is the number of atoms in the gas. This relationship means that the internal energy of an ideal monatomic gas is constant during an isothermal process—that is, $Δ{E}_{int}=0$ . If the internal energy does not change, then the net heat transfer into the gas must equal the net work done by the gas. That is, because $Δ{E}_{int}=Q-W=0$ here, $Q=W$ . We must have just enough heat transfer to replace the work done. An isothermal process is inherently slow, because heat transfer occurs continuously to keep the gas temperature constant at all times and must be allowed to spread through the gas so that there are no hot or cold regions.",
+        "text": "where $N$ is the number of atoms in the gas. This relationship means that the internal energy of an ideal monatomic gas is constant during an isothermal process—that is, $Δ{E}_{int}=0$. If the internal energy does not change, then the net heat transfer into the gas must equal the net work done by the gas. That is, because $Δ{E}_{int}=Q-W=0$ here, $Q=W$. We must have just enough heat transfer to replace the work done. An isothermal process is inherently slow, because heat transfer occurs continuously to keep the gas temperature constant at all times and must be allowed to spread through the gas so that there are no hot or cold regions.",
         "inline": []
       },
       "level": "core"
@@ -335,7 +335,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Also shown in (a) is a curve AC for an adiabatic process, defined to be one in which there is no heat transfer—that is, $Q=0$ . Processes that are nearly adiabatic can be achieved either by using very effective insulation or by performing the process so fast that there is little time for heat transfer. Temperature must decrease during an adiabatic expansion process, since work is done at the expense of internal energy:",
+        "text": "Also shown in the figure (a) is a curve AC for an adiabatic process, defined to be one in which there is no heat transfer—that is, $Q=0$. Processes that are nearly adiabatic can be achieved either by using very effective insulation or by performing the process so fast that there is little time for heat transfer. Temperature must decrease during an adiabatic expansion process, since work is done at the expense of internal energy: ${E}_{int}=\\frac{3}{2}NkT.$",
         "inline": []
       },
       "level": "core"
@@ -344,7 +344,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "(You might have noted that a gas released into atmospheric pressure from a pressurized cylinder is substantially colder than the gas in the cylinder.) In fact, because $Q=0,Δ{E}_{int}=-W$ for an adiabatic process. Lower temperature results in lower pressure along the way, so that curve AC is lower than curve AB, and less work is done. If the path ABCA could be followed by cooling the gas from B to C at constant volume (isochorically), (b), there would be a net work output.",
+        "text": "(You might have noted that a gas released into atmospheric pressure from a pressurized cylinder is substantially colder than the gas in the cylinder.) In fact, because $Q=0,Δ{E}_{int}=-W$ for an adiabatic process. Lower temperature results in lower pressure along the way, so that curve AC is lower than curve AB, and less work is done. If the path ABCA could be followed by cooling the gas from B to C at constant volume (isochorically), the figure (b), there would be a net work output.",
         "inline": []
       },
       "level": "core"
@@ -375,7 +375,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Both isothermal and adiabatic processes such as shown in are reversible in principle. A reversible process is one in which both the system and its environment can return to exactly the states they were in by following the reverse path. The reverse isothermal and adiabatic paths are BA and CA, respectively. Real macroscopic processes are never exactly reversible. In the previous examples, our system is a gas (like that in ), and its environment is the piston, cylinder, and the rest of the universe. If there are any energy-dissipating mechanisms, such as friction or turbulence, then heat transfer to the environment occurs for either direction of the piston. So, for example, if the path BA is followed and there is friction, then the gas will be returned to its original state but the environment will not—it will have been heated in both directions. Reversibility requires the direction of heat transfer to reverse for the reverse path. Since dissipative mechanisms cannot be completely eliminated, real processes cannot be reversible.",
+        "text": "Both isothermal and adiabatic processes such as shown in the figure are reversible in principle. A reversible process is one in which both the system and its environment can return to exactly the states they were in by following the reverse path. The reverse isothermal and adiabatic paths are BA and CA, respectively. Real macroscopic processes are never exactly reversible. In the previous examples, our system is a gas (like that in the figure), and its environment is the piston, cylinder, and the rest of the universe. If there are any energy-dissipating mechanisms, such as friction or turbulence, then heat transfer to the environment occurs for either direction of the piston. So, for example, if the path BA is followed and there is friction, then the gas will be returned to its original state but the environment will not—it will have been heated in both directions. Reversibility requires the direction of heat transfer to reverse for the reverse path. Since dissipative mechanisms cannot be completely eliminated, real processes cannot be reversible.",
         "inline": []
       },
       "level": "core"
@@ -384,7 +384,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "There must be reasons that real macroscopic processes cannot be reversible. We can imagine them going in reverse. For example, heat transfer occurs spontaneously from hot to cold and never spontaneously the reverse. Yet it would not violate the first law of thermodynamics for this to happen. In fact, all spontaneous processes, such as bubbles bursting, never go in reverse. There is a second thermodynamic law that forbids them from going in reverse. When we study this law, we will learn something about nature and also find that such a law limits the efficiency of heat engines. We will find that heat engines with the greatest possible theoretical efficiency would have to use reversible processes, and even they cannot convert all heat transfer into doing work. summarizes the simpler thermodynamic processes and their definitions.",
+        "text": "There must be reasons that real macroscopic processes cannot be reversible. We can imagine them going in reverse. For example, heat transfer occurs spontaneously from hot to cold and never spontaneously the reverse. Yet it would not violate the first law of thermodynamics for this to happen. In fact, all spontaneous processes, such as bubbles bursting, never go in reverse. There is a second thermodynamic law that forbids them from going in reverse. When we study this law, we will learn something about nature and also find that such a law limits the efficiency of heat engines. We will find that heat engines with the greatest possible theoretical efficiency would have to use reversible processes, and even they cannot convert all heat transfer into doing work. The table summarizes the simpler thermodynamic processes and their definitions.",
         "inline": []
       },
       "level": "core"
@@ -421,7 +421,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Watch different types of molecules form a solid, liquid, or gas in this simulation . Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.",
+        "text": "Watch different types of molecules form a solid, liquid, or gas in this simulation. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.",
         "inline": []
       },
       "level": "core"
@@ -440,7 +440,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In , how much work is done by the system in process AB? 4.5 × 10 3 J; 6.0 × 10 3 J; 6.9 × 10 3 J; 7.8 × 10 3 J",
+        "text": "In the figure, how much work is done by the system in process AB? 4.5 × 10 3 J; 6.0 × 10 3 J; 6.9 × 10 3 J; 7.8 × 10 3 J",
         "inline": []
       },
       "level": "core",
@@ -464,7 +464,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Consider process CD in . Does this represent work done by or on the system, and how much?",
+        "text": "Consider process CD in the figure. Does this represent work done by or on the system, and how much?",
         "inline": []
       },
       "level": "core",
@@ -485,7 +485,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A thermodynamic process begins at 1.2 × 10 6 N/m 2 and 5 L. The state then changes to 1.2 × 10 6 N/m 2 and 2 L. Next it becomes 2.2 × 10 6 N/m 2 and 2 L. The next change is 2.2 × 10 6 N/m 2 and 5 L. Finally, the system ends at 1.0 × 10 6 N/m 2 and 5 L. On , this process is best described by EFCDB; DEFCD; CFABC; CFABD",
+        "text": "A thermodynamic process begins at 1.2 × 10 6 N/m 2 and 5 L. The state then changes to 1.2 × 10 6 N/m 2 and 2 L. Next it becomes 2.2 × 10 6 N/m 2 and 2 L. The next change is 2.2 × 10 6 N/m 2 and 5 L. Finally, the system ends at 1.0 × 10 6 N/m 2 and 5 L. On the figure, this process is best described by EFCDB; DEFCD; CFABC; CFABD",
         "inline": []
       },
       "level": "core",
@@ -539,7 +539,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In , which of the following cycles has the greatest net work output? ABDA; BCDB; (a) and (b) are equal; ADCBA",
+        "text": "In the figure, which of the following cycles has the greatest net work output? ABDA; BCDB; (a) and (b) are equal; ADCBA",
         "inline": []
       },
       "level": "core",
@@ -563,7 +563,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Look at , and assign values to the three pressures and two volumes given in the graph. Then calculate the net work for the cycle ABCFEDCFA using those values. How does this work compare to the heat output or input of the system? Which value(s) would you change to maximize the net work per cycle?",
+        "text": "Look at the figure, and assign values to the three pressures and two volumes given in the graph. Then calculate the net work for the cycle ABCFEDCFA using those values. How does this work compare to the heat output or input of the system? Which value(s) would you change to maximize the net work per cycle?",
         "inline": []
       },
       "level": "core",
@@ -720,7 +720,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Which cyclical process represented by the two closed loops, ABCFA and ABDEA, on the $PV$ diagram in the figure below produces the greatest *net* work? Is that process also the one with the smallest work input required to return it to point A? Explain your responses. The two cyclical processes shown on this $PV$ diagram start with and return the system to the conditions at point A, but they follow different paths and produce different amounts of work.",
+        "text": "Which cyclical process represented by the two closed loops, ABCFA and ABDEA, on the $PV$ diagram in the figure below produces the greatest *net* work? Is that process also the one with the smallest work input required to return it to point A? Explain your responses.",
         "inline": []
       },
       "level": "core",
@@ -805,7 +805,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A car tire contains $0.0380{m}^{3}$ of nitrogen at a gauge pressure of $2.20×{10}^{5}{N/m}^{2}$ (about 32 psi). How much more internal energy does this gas have than the same volume has at zero gauge pressure (which is equivalent to normal atmospheric pressure)? (Use ${E}_{int}=\\frac{5}{2}NkT$ for the internal energy of nitrogen, a diatomic gas.)",
+        "text": "A car tire contains $0.0380{m}^{3}$ of nitrogen at a gauge pressure of $2.20×{10}^{5} {N/m}^{2}$ (about 32 psi). How much more internal energy does this gas have than the same volume has at zero gauge pressure (which is equivalent to normal atmospheric pressure)? (Use ${E}_{int}=\\frac{5}{2}NkT$ for the internal energy of nitrogen, a diatomic gas.)",
         "inline": []
       },
       "level": "core",
@@ -850,7 +850,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge pressure of $1.75×{10}^{6}{N/m}^{2}$ (about 250 psi) to a piston with a 0.200-m radius. (a) By calculating $PΔV$ , find the work done by the steam when the piston moves 0.800 m. Note that this is the net work output, since gauge pressure is used. (b) Now find the amount of work by calculating the force exerted times the distance traveled. Is the answer the same as in part (a)?",
+        "text": "Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge pressure of $1.75×{10}^{6} {N/m}^{2}$ (about 250 psi) to a piston with a 0.200-m radius. (a) By calculating $PΔV$, find the work done by the steam when the piston moves 0.800 m. Note that this is the net work output, since gauge pressure is used. (b) Now find the amount of work by calculating the force exerted times the distance traveled. Is the answer the same as in part (a)?",
         "inline": []
       },
       "level": "core",
@@ -892,7 +892,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is $2.40×{10}^{5}{N/m}^{2}$ (about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?",
+        "text": "A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is $2.40×{10}^{5} {N/m}^{2}$ (about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?",
         "inline": []
       },
       "level": "core",
@@ -950,7 +950,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in the Problem-Solving Strategies for Thermodynamics .",
+        "text": "What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in the Problem-Solving Strategies for Thermodynamics.",
         "inline": []
       },
       "level": "core",

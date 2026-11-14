@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Electric power causes undesired heating effects whenever electric energy is converted to thermal energy at a rate faster than it can be safely dissipated. A classic example of this is the short circuit , a low-resistance path between terminals of a voltage source. An example of a short circuit is shown in . Insulation on wires leading to an appliance has worn through, allowing the two wires to come into contact. Such an undesired contact with a high voltage is called a *short* . Since the resistance of the short, $r$ , is very small, the power dissipated in the short, $P={V}^{2}/r$ , is very large. For example, if $V$ is 120 V and $r$ is $0.100Ω$ , then the power is 144 kW, *much* greater than that used by a typical household appliance. Thermal energy delivered at this rate will very quickly raise the temperature of surrounding materials, melting or perhaps igniting them.",
+        "text": "Electric power causes undesired heating effects whenever electric energy is converted to thermal energy at a rate faster than it can be safely dissipated. A classic example of this is the short circuit, a low-resistance path between terminals of a voltage source. An example of a short circuit is shown in the figure. Insulation on wires leading to an appliance has worn through, allowing the two wires to come into contact. Such an undesired contact with a high voltage is called a *short*. Since the resistance of the short, $r$, is very small, the power dissipated in the short, $P={V}^{2}/r$, is very large. For example, if $V$ is 120 V and $r$ is $0.100 Ω$, then the power is 144 kW, *much* greater than that used by a typical household appliance. Thermal energy delivered at this rate will very quickly raise the temperature of surrounding materials, melting or perhaps igniting them.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "One particularly insidious aspect of a short circuit is that its resistance may actually be decreased due to the increase in temperature. This can happen if the short creates ionization. These charged atoms and molecules are free to move and, thus, lower the resistance $r$ . Since $P={V}^{2}/r$ , the power dissipated in the short rises, possibly causing more ionization, more power, and so on. High voltages, such as the 480-V AC used in some industrial applications, lend themselves to this hazard, because higher voltages create higher initial power production in a short.",
+        "text": "One particularly insidious aspect of a short circuit is that its resistance may actually be decreased due to the increase in temperature. This can happen if the short creates ionization. These charged atoms and molecules are free to move and, thus, lower the resistance $r$. Since $P={V}^{2}/r$, the power dissipated in the short rises, possibly causing more ionization, more power, and so on. High voltages, such as the 480-V AC used in some industrial applications, lend themselves to this hazard, because higher voltages create higher initial power production in a short.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Another serious, but less dramatic, thermal hazard occurs when wires supplying power to a user are overloaded with too great a current. As discussed in the previous section, the power dissipated in the supply wires is $P={I}^{2}{R}_{w}$ , where ${R}_{w}$ is the resistance of the wires and $I$ the current flowing through them. If either $I$ or ${R}_{w}$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have ${R}_{w}=2.00Ω$ rather than the $0.100Ω$ it should be. If 10.0 A of current passes through the cord, then $P={I}^{2}{R}_{w}=200 W$ is dissipated in the cord—much more than is safe. Similarly, if a wire with a $0.100-Ω$ resistance is meant to carry a few amps, but is instead carrying 100 A, it will severely overheat. The power dissipated in the wire will in that case be $P=1000 W$ . Fuses and circuit breakers are used to limit excessive currents. (See and .) Each device opens the circuit automatically when a sustained current exceeds safe limits.",
+        "text": "Another serious, but less dramatic, thermal hazard occurs when wires supplying power to a user are overloaded with too great a current. As discussed in the previous section, the power dissipated in the supply wires is $P={I}^{2}{R}_{w}$, where ${R}_{w}$ is the resistance of the wires and $I$ the current flowing through them. If either $I$ or ${R}_{w}$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have ${R}_{w}=2.00 Ω$ rather than the $0.100 Ω$ it should be. If 10.0 A of current passes through the cord, then $P={I}^{2}{R}_{w}=200 W$ is dissipated in the cord—much more than is safe. Similarly, if a wire with a $0.100 - Ω$ resistance is meant to carry a few amps, but is instead carrying 100 A, it will severely overheat. The power dissipated in the wire will in that case be $P=1000 W$. Fuses and circuit breakers are used to limit excessive currents. (See the figure and the figure.) Each device opens the circuit automatically when a sustained current exceeds safe limits.",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "gives the effects of electrical shocks as a function of current for a typical accidental shock. The effects are for a shock that passes through the trunk of the body, has a duration of 1 s, and is caused by 60-Hz power.",
+        "text": "The table gives the effects of electrical shocks as a function of current for a typical accidental shock. The effects are for a shock that passes through the trunk of the body, has a duration of 1 s, and is caused by 60-Hz power.",
         "inline": []
       },
       "level": "core"
@@ -217,7 +217,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Very small currents pass harmlessly and unfelt through the body. This happens to you regularly without your knowledge. The threshold of sensation is only 1 mA and, although unpleasant, shocks are apparently harmless for currents less than 5 mA. A great number of safety rules take the 5-mA value for the maximum allowed shock. At 10 to 20 mA and above, the current can stimulate sustained muscular contractions much as regular nerve impulses do. People sometimes say they were knocked across the room by a shock, but what really happened was that certain muscles contracted, propelling them in a manner not of their own choosing. (See (a).) More frightening, and potentially more dangerous, is the “can’t let go” effect illustrated in (b). The muscles that close the fingers are stronger than those that open them, so the hand closes involuntarily on the wire shocking it. This can prolong the shock indefinitely. It can also be a danger to a person trying to rescue the victim, because the rescuer’s hand may close about the victim’s wrist. Usually the best way to help the victim is to give the fist a hard knock/blow/jar with an insulator or to throw an insulator at the fist. Modern electric fences, used in animal enclosures, are now pulsed on and off to allow people who touch them to get free, rendering them less lethal than in the past.",
+        "text": "Very small currents pass harmlessly and unfelt through the body. This happens to you regularly without your knowledge. The threshold of sensation is only 1 mA and, although unpleasant, shocks are apparently harmless for currents less than 5 mA. A great number of safety rules take the 5-mA value for the maximum allowed shock. At 10 to 20 mA and above, the current can stimulate sustained muscular contractions much as regular nerve impulses do. People sometimes say they were knocked across the room by a shock, but what really happened was that certain muscles contracted, propelling them in a manner not of their own choosing. (See the figure (a).) More frightening, and potentially more dangerous, is the “can’t let go” effect illustrated in the figure (b). The muscles that close the fingers are stronger than those that open them, so the hand closes involuntarily on the wire shocking it. This can prolong the shock indefinitely. It can also be a danger to a person trying to rescue the victim, because the rescuer’s hand may close about the victim’s wrist. Usually the best way to help the victim is to give the fist a hard knock/blow/jar with an insulator or to throw an insulator at the fist. Modern electric fences, used in animal enclosures, are now pulsed on and off to allow people who touch them to get free, rendering them less lethal than in the past.",
         "inline": []
       },
       "level": "core"
@@ -244,7 +244,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Current is the major factor determining shock severity (given that other conditions such as path, duration, and frequency are fixed, such as in the table and preceding discussion). A larger voltage is more hazardous, but since $I=V/R$ , the severity of the shock depends on the combination of voltage and resistance. For example, a person with dry skin has a resistance of about $200kΩ$ . If he comes into contact with 120-V AC, a current $I=(120 V)/(200 kΩ)= 0.6 mA$ passes harmlessly through him. The same person soaking wet may have a resistance of $10.0kΩ$ and the same 120 V will produce a current of 12 mA—above the “can’t let go” threshold and potentially dangerous.",
+        "text": "Current is the major factor determining shock severity (given that other conditions such as path, duration, and frequency are fixed, such as in the table and preceding discussion). A larger voltage is more hazardous, but since $I=V/R$, the severity of the shock depends on the combination of voltage and resistance. For example, a person with dry skin has a resistance of about $200 kΩ$. If he comes into contact with 120-V AC, a current $I=(120 V)/(200 kΩ)= 0.6 mA$ passes harmlessly through him. The same person soaking wet may have a resistance of $10.0 kΩ$ and the same 120 V will produce a current of 12 mA—above the “can’t let go” threshold and potentially dangerous.",
         "inline": []
       },
       "level": "core"
@@ -253,7 +253,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered microshock sensitive . In this condition, currents about 1/1000 those listed in produce similar effects. During open-heart surgery, currents as small as $20 μA$ can be used to still the heart. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect.",
+        "text": "Most of the body’s resistance is in its dry skin. When wet, salts go into ion form, lowering the resistance significantly. The interior of the body has a much lower resistance than dry skin because of all the ionic solutions and fluids it contains. If skin resistance is bypassed, such as by an intravenous infusion, a catheter, or exposed pacemaker leads, a person is rendered microshock sensitive. In this condition, currents about 1/1000 those listed in the table produce similar effects. During open-heart surgery, currents as small as $20 μA$ can be used to still the heart. Stringent electrical safety requirements in hospitals, particularly in surgery and intensive care, are related to the doubly disadvantaged microshock-sensitive patient. The break in the skin has reduced his resistance, and so the same voltage causes a greater current, and a much smaller current has a greater effect.",
         "inline": []
       },
       "level": "core"
@@ -275,7 +275,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC ( $f=0$ ), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See .) Electrical safety devices and techniques are discussed in detail in Electrical Safety: Systems and Devices .",
+        "text": "Factors other than current that affect the severity of a shock are its path, duration, and AC frequency. Path has obvious consequences. For example, the heart is unaffected by an electric shock through the brain, such as may be used to treat manic depression. And it is a general truth that the longer the duration of a shock, the greater its effects. The figure presents a graph that illustrates the effects of frequency on a shock. The curves show the minimum current for two different effects, as a function of frequency. The lower the current needed, the more sensitive the body is at that frequency. Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz frequencies in common use. The body is slightly less sensitive for DC ($f=0$), mildly confirming Edison’s claims that AC presents a greater hazard. At higher and higher frequencies, the body becomes progressively less sensitive to any effects that involve nerves. This is related to the maximum rates at which nerves can fire or be stimulated. At very high frequencies, electrical current travels only on the surface of a person. Thus a wart can be burned off with very high frequency current without causing the heart to stop. (Do not try this at home with 60-Hz AC!) Some of the spectacular demonstrations of electricity, in which high-voltage arcs are passed through the air and over people’s bodies, employ high frequencies and low currents. (See the figure.) Electrical safety devices and techniques are discussed in detail in Electrical Safety: Systems and Devices.",
         "inline": []
       },
       "level": "core"
@@ -577,7 +577,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How much power is dissipated in a short circuit of 220-V AC through a resistance of $0.250Ω$ ? (b) What current flows?",
+        "text": "(a) How much power is dissipated in a short circuit of 220-V AC through a resistance of $0.250 Ω$? (b) What current flows?",
         "inline": []
       },
       "level": "core",
@@ -601,7 +601,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What voltage is involved in a 1.44-kW short circuit through a $0.100-Ω$ resistance?",
+        "text": "What voltage is involved in a 1.44-kW short circuit through a $0.100 - Ω$ resistance?",
         "inline": []
       },
       "level": "core",
@@ -622,7 +622,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of $300 kΩ$ ; (b) if she is standing barefoot on wet grass and has a resistance of only $4500Ω$ .",
+        "text": "Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of $300 kΩ$; (b) if she is standing barefoot on wet grass and has a resistance of only $4500 Ω$.",
         "inline": []
       },
       "level": "core",
@@ -664,7 +664,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of $4000Ω$ . What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?",
+        "text": "While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of $4000 Ω$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?",
         "inline": []
       },
       "level": "core",
@@ -709,7 +709,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) During surgery, a current as small as $20.0 μA$ applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is $300Ω$ , what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?",
+        "text": "(a) During surgery, a current as small as $20.0 μA$ applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is $300 Ω$, what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?",
         "inline": []
       },
       "level": "core",
@@ -775,7 +775,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A short circuit in a 120-V appliance cord has a $0.500-Ω$ resistance. Calculate the temperature rise of the 2.00 g of surrounding materials, assuming their specific heat capacity is $0.200cal/g⋅ºC$ and that it takes 0.0500 s for a circuit breaker to interrupt the current. Is this likely to be damaging?",
+        "text": "Integrated Concepts A short circuit in a 120-V appliance cord has a $0.500-Ω$ resistance. Calculate the temperature rise of the 2.00 g of surrounding materials, assuming their specific heat capacity is $0.200 cal/g⋅ºC$ and that it takes 0.0500 s for a circuit breaker to interrupt the current. Is this likely to be damaging?",
         "inline": []
       },
       "level": "core",

@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Wave Optics",
   "book_id": "secondary_physics",
-  "part_id": "part-5",
+  "part_id": "part-6",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -87,7 +87,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_geometric_optics",
+    "phy_oscillations_and_waves"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -106,24 +109,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -167,7 +153,27 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-15"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What evidence shows that light behaves as a wave?",
+          "answer": "Interference and diffraction patterns, which can only be explained by the superposition of waves.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Waves superpose and can reinforce or cancel.",
+            "Young’s double slit produces alternating bright and dark fringes.",
+            "Diffraction around obstacles also shows the wave nature of light."
+          ],
+          "tags": [
+            "wave nature",
+            "interference"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on The Wave Aspect of Light: Interference has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -180,7 +186,15 @@
         "Discuss Huygens’s principle.",
         "Explain the bending of light."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Huygens' principle says that light travels in straight lines through a medium.",
+          "correction": "It says every point on a wavefront acts as a source of secondary wavelets, and the later wavefront is their envelope. That is what lets light bend round an obstacle, which is diffraction.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_wave_optics:trap-4",
+          "signal": "Our own question offers the reflector as an option."
+        }
+      ],
       "summary": [
         "An accurate technique for determining how and where waves propagate is given by Huygens’s principle: Every point on a wavefront is a source of wavelets that spread out in the forward direction at the same speed as the wave itself. The new wavefront is a line tangent to all of the wavelets.",
         "Diffraction is the bending of a wave around the edges of an opening or other obstacle."
@@ -205,7 +219,63 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-17"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "State Huygens’s principle.",
+          "answer": "Every point on a wavefront acts as a source of secondary spherical wavelets, and the new wavefront is the envelope of those wavelets.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A wavefront is a surface of constant phase.",
+            "Each point on it emits a secondary wavelet.",
+            "The common tangent to the wavelets gives the next wavefront."
+          ],
+          "tags": [
+            "huygens principle",
+            "wavefront"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Use Huygens’s principle to explain why light bends when it enters glass.",
+          "answer": "The part of the wavefront that enters the glass first slows down, so the wavefront turns and the ray bends toward the normal.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Light travels more slowly in glass than in air.",
+            "One side of the wavefront reaches the glass first and slows.",
+            "The wavefront pivots, which changes the direction of the ray."
+          ],
+          "tags": [
+            "refraction",
+            "huygens principle"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Why does light spread around the edge of an obstacle instead of casting a perfectly sharp shadow?",
+          "answer": "Because of diffraction: the wavefronts bend around the edge, so some light reaches into the geometrical shadow.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Huygens’s wavelets at the edge spread into the region behind the obstacle.",
+            "The effect is noticeable when the obstacle is comparable in size to the wavelength.",
+            "For everyday objects the bending is tiny, so the shadow looks sharp."
+          ],
+          "tags": [
+            "diffraction",
+            "shadow"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Huygens's Principle: Diffraction has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-4",
@@ -221,6 +291,13 @@
         {
           "claim": "Two beams of light crossing produce a bright spot where they cross.",
           "correction": "They pass through each other. The bright fringes of an interference pattern come from the two beams overlapping, not from them colliding."
+        },
+        {
+          "claim": "The fringe spacing in Young's double slit experiment is inversely proportional to the wavelength.",
+          "correction": "It is directly proportional to the wavelength and inversely proportional to the slit separation, since the spacing is $\\frac{\\lambda L}{d}$. A longer wavelength gives wider fringes.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_wave_optics:trap-3",
+          "signal": "Our own question offers the inverse reading as an option."
         }
       ],
       "summary": [
@@ -247,8 +324,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-33"
+      ]
     },
     {
       "id": "sec-5",
@@ -260,7 +336,16 @@
         "Discuss the pattern obtained from diffraction grating.",
         "Explain diffraction grating effects."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A diffraction grating produces a single bright fringe on the screen.",
+          "correction": "A grating produces a central maximum and several orders of bright fringes on each side, at angles given by d sinθ = mλ."
+        },
+        {
+          "claim": "Increasing the number of slits in a grating makes each bright fringe broader.",
+          "correction": "More slits make the bright fringes narrower and sharper, because the waves from many slits cancel more completely between the maxima."
+        }
+      ],
       "summary": [
         "A diffraction grating is a large collection of evenly spaced parallel slits that produces an interference pattern similar to but sharper than that of a double slit.",
         "There is constructive interference for a diffraction grating when dsinθ=mλ(form=0,1,–1,2,–2,…), where d is the distance between slits in the grating, λ is the wavelength of light, and m is the order of the maximum."
@@ -273,7 +358,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -284,8 +369,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-25"
+      ]
     },
     {
       "id": "sec-6",
@@ -294,9 +378,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42515",
       "objectives": [
-        "Discuss the single slit diffraction pattern."
+        "Discuss the single slit diffraction pattern.",
+        "Describe the intensity pattern formed by a single slit and calculate the angles of its minima."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The central maximum of a single-slit diffraction pattern is narrow and dim.",
+          "correction": "The central maximum is the broadest and brightest part of the pattern, twice as wide as the secondary maxima."
+        }
+      ],
       "summary": [
         "A single slit produces an interference pattern characterized by a broad central maximum with narrower and dimmer maxima to the sides.",
         "There is destructive interference for a single slit when Dsinθ=mλ, (form=1,–1, 2,–2,3,…), where D is the slit width, λ is the light’s wavelength, θ is the angle relative to the original direction of the light, and m is the order of the minimum. Note that there is no m=0 minimum."
@@ -309,7 +399,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -320,8 +410,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-19"
+      ]
     },
     {
       "id": "sec-7",
@@ -330,9 +419,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42517",
       "objectives": [
-        "Discuss the Rayleigh criterion."
+        "Discuss the Rayleigh criterion.",
+        "Apply the Rayleigh criterion to find the minimum resolvable angle for a circular aperture."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A larger telescope aperture makes the resolution worse.",
+          "correction": "A larger aperture gives better resolution. The minimum resolvable angle is θ = 1.22λ/D, so a larger D gives a smaller angle."
+        }
+      ],
       "summary": [
         "Diffraction limits resolution.",
         "For a circular aperture, lens, or mirror, the Rayleigh criterion states that two images are just resolvable when the center of the diffraction pattern of one is directly over the first minimum of the diffraction pattern of the other.",
@@ -346,7 +441,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -354,11 +449,10 @@
           "subject": "physics",
           "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-35"
+      ]
     },
     {
       "id": "sec-8",
@@ -367,9 +461,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42519",
       "objectives": [
-        "Discuss the rainbow formation by thin films."
+        "Discuss the rainbow formation by thin films.",
+        "Explain the phase change on reflection and calculate the film thickness for constructive or destructive interference."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The colours in a soap film come from pigments dissolved in the soap.",
+          "correction": "They come from interference between light reflected from the front and back surfaces of the film. The path difference depends on thickness and wavelength."
+        }
+      ],
       "summary": [
         "Thin film interference occurs between the light reflected from the top and bottom surfaces of a film. In addition to the path length difference, there can be a phase change.",
         "When light reflects from a medium having an index of refraction greater than that of the medium in which it is traveling, a 180º phase change (or a λ/2 shift) occurs."
@@ -382,7 +482,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -390,11 +490,10 @@
           "subject": "physics",
           "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-47"
+      ]
     },
     {
       "id": "sec-9",
@@ -406,7 +505,16 @@
         "Discuss the meaning of polarization.",
         "Discuss the property of optical activity of certain materials."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Polarization shows that light is a longitudinal wave.",
+          "correction": "Polarization shows that light is transverse: its electric field oscillates perpendicular to the direction of travel and can be restricted to one plane."
+        },
+        {
+          "claim": "Unpolarized light passing through a polarizing filter loses half its energy and becomes brighter.",
+          "correction": "The transmitted intensity is half the incident intensity for an ideal filter, so the light becomes dimmer, not brighter."
+        }
+      ],
       "summary": [
         "Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave.",
         "EM waves are transverse waves that may be polarized.",
@@ -420,7 +528,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -428,11 +536,10 @@
           "subject": "physics",
           "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-56"
+      ]
     },
     {
       "id": "sec-10",
@@ -441,9 +548,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42290",
       "objectives": [
-        "Discuss the different types of microscopes."
+        "Discuss the different types of microscopes.",
+        "Explain how the wave nature of light limits the resolution of a microscope and how that limit is overcome."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An electron microscope uses electrons because they are brighter than light.",
+          "correction": "It uses electrons because their de Broglie wavelength is much shorter than visible light, so the diffraction limit is much smaller and the resolution is much better."
+        }
+      ],
       "summary": [
         "To improve microscope images, various techniques utilizing the wave characteristics of light have been developed. Many of these enhance contrast with interference effects.",
         "Discuss the wave character of light.",
@@ -451,28 +564,240 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why can an electron microscope resolve smaller details than an optical microscope?",
+          "answer": "Electrons have a much shorter de Broglie wavelength than visible light, so the diffraction limit is much smaller.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The resolution limit is roughly proportional to the wavelength used.",
+            "Visible light has wavelengths of hundreds of nanometres.",
+            "Electrons can have wavelengths far below a nanometre."
+          ],
+          "tags": [
+            "electron microscope",
+            "resolution"
+          ]
         },
         {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What does numerical aperture measure in a microscope?",
+          "answer": "The light-gathering ability of the objective and the smallest detail it can resolve.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Numerical aperture depends on the refractive index and the acceptance angle.",
+            "A larger numerical aperture collects more light.",
+            "It also gives a smaller diffraction-limited spot."
+          ],
+          "tags": [
+            "numerical aperture",
+            "microscope"
+          ]
+        },
+        {
+          "tier": "stretch",
+          "kind": "numeric",
+          "difficulty": 4,
+          "marks": 4,
+          "stem": "A microscope uses light of wavelength 500 nm with a numerical aperture of 1.0. Estimate the smallest resolvable distance.",
+          "answer": "about 250 nm",
+          "answer_kind": "expression",
+          "solution": [
+            "The diffraction limit is about d = λ/(2NA).",
+            "d ≈ 500 nm/(2 × 1.0).",
+            "d ≈ 250 nm."
+          ],
+          "tags": [
+            "resolution",
+            "numerical aperture"
+          ]
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_exam_link_reason": "Microscopy enhanced by wave optics is an extension beyond both syllabi."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\lambda_n = \\frac{\\lambda}{n}$",
+      "caption": {
+        "text": "Wavelength in a medium",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The frequency stays the same; the speed and wavelength fall by the factor n.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42501/index.cnxml",
+        "locator": "CNXML module m42501, section “The Wave Aspect of Light”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$d\\sin\\theta = m\\lambda$",
+      "caption": {
+        "text": "Double-slit constructive interference",
+        "inline": []
+      },
+      "conditions": {
+        "text": "m = 0, ±1, ±2, … and d is the slit separation.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42508/index.cnxml",
+        "locator": "CNXML module m42508, section “Young’s Double Slit Experiment”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$\\Delta y = \\frac{\\lambda L}{d}$",
+      "caption": {
+        "text": "Fringe spacing in a double-slit pattern",
+        "inline": []
+      },
+      "conditions": {
+        "text": "L is the distance to the screen and d the slit separation, for small angles.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42508/index.cnxml",
+        "locator": "CNXML module m42508, section “Young’s Double Slit Experiment”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$d\\sin\\theta = m\\lambda$",
+      "caption": {
+        "text": "Diffraction grating maxima",
+        "inline": []
+      },
+      "conditions": {
+        "text": "m is the order and d the distance between adjacent slits.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42512/index.cnxml",
+        "locator": "CNXML module m42512, section “Multiple Slit Diffraction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$D\\sin\\theta = m\\lambda$",
+      "caption": {
+        "text": "Single-slit minima",
+        "inline": []
+      },
+      "conditions": {
+        "text": "m = ±1, ±2, …; the central maximum lies between the m = +1 and m = −1 minima.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42515/index.cnxml",
+        "locator": "CNXML module m42515, section “Single Slit Diffraction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\theta = 1.22\\frac{\\lambda}{D}$",
+      "caption": {
+        "text": "Rayleigh criterion",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The minimum resolvable angle for a circular aperture of diameter D.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42517/index.cnxml",
+        "locator": "CNXML module m42517, section “Limits of Resolution”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$2t = m\\frac{\\lambda}{n}$",
+      "caption": {
+        "text": "Thin-film constructive interference",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a film of thickness t and index n, when the reflections have the same phase change.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42519/index.cnxml",
+        "locator": "CNXML module m42519, section “Thin Film Interference”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$I = I_0\\cos^2\\theta$",
+      "caption": {
+        "text": "Malus’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The intensity transmitted by an analyser at angle θ to the plane of polarization.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42522/index.cnxml",
+        "locator": "CNXML module m42522, section “Polarization”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$\\tan\\theta_B = \\frac{n_2}{n_1}$",
+      "caption": {
+        "text": "Brewster’s angle",
+        "inline": []
+      },
+      "conditions": {
+        "text": "At this angle the reflected light is completely polarized perpendicular to the plane of incidence.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42522/index.cnxml",
+        "locator": "CNXML module m42522, section “Polarization”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1034,76 +1359,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Light always travels in straight lines.",
-      "correction": "Light is a wave and it spreads. It travels straight only when the object is far enough away that the spreading does not matter.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Two beams of light crossing produce a bright spot where they cross.",
-      "correction": "They pass through each other. The bright fringes of an interference pattern come from the two beams overlapping, not from them colliding.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The fringe spacing in Young's double slit experiment is inversely proportional to the wavelength.",
-      "correction": "It is directly proportional to the wavelength and inversely proportional to the slit separation, since the spacing is $\\frac{\\lambda L}{d}$. A longer wavelength gives wider fringes.",
-      "signal": "Our own question offers the inverse reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "Huygens' principle says that light travels in straight lines through a medium.",
-      "correction": "It says every point on a wavefront acts as a source of secondary wavelets, and the later wavefront is their envelope. That is what lets light bend round an obstacle, which is diffraction.",
-      "signal": "Our own question offers the reflector as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1249,6 +1505,122 @@
       "explanation": "Malus's law gives $I = I_0\\cos^2\\theta$, so at 90 degrees the intensity is zero and the light is extinguished.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "When light passes from air into glass, which quantity does not change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "its speed"
+        },
+        {
+          "id": "b",
+          "text": "its wavelength"
+        },
+        {
+          "id": "c",
+          "text": "its frequency"
+        },
+        {
+          "id": "d",
+          "text": "its direction"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The frequency is set by the source and stays the same. The speed and wavelength decrease in the denser medium, and the ray bends.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "A diffraction grating has 500 lines per millimetre. Find the grating spacing.",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.0 × 10⁻⁶ m"
+        },
+        {
+          "id": "b",
+          "text": "5.0 × 10⁻⁶ m"
+        },
+        {
+          "id": "c",
+          "text": "2.0 × 10⁻³ m"
+        },
+        {
+          "id": "d",
+          "text": "5.0 × 10⁻³ m"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The spacing is d = 1/(number of lines per metre). There are 500 lines in 1 mm, so d = 1 mm/500 = 2.0 × 10⁻⁶ m.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "The central maximum of a single-slit diffraction pattern is",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrower than the secondary maxima"
+        },
+        {
+          "id": "b",
+          "text": "twice as wide as the secondary maxima"
+        },
+        {
+          "id": "c",
+          "text": "the same width as the secondary maxima"
+        },
+        {
+          "id": "d",
+          "text": "absent"
+        }
+      ],
+      "answer": "b",
+      "explanation": "For a single slit the central maximum extends between the first minima on either side, so its width is twice that of each secondary maximum.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-10",
+      "stem": "The resolving power of a microscope is limited mainly by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the wavelength of the illumination used"
+        },
+        {
+          "id": "b",
+          "text": "the mass of the microscope"
+        },
+        {
+          "id": "c",
+          "text": "the colour of the bench"
+        },
+        {
+          "id": "d",
+          "text": "the number of lenses only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Diffraction sets a limit of about λ/(2NA). Shorter wavelengths allow smaller objects to be resolved, which is why electron microscopes can resolve much finer detail.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1259,5 +1631,117 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Wave Optics', modules m42496, m42501, m42505, m42508, m42512, m42515, m42517, m42519, m42522, m42290",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 27,
+  "exercise_fixes": {
+    "sec-4:exr-94": {
+      "stem": "In a double-slit experiment, fringes 7.50 mm apart are observed on a screen 2.00 m from double slits separated by 0.120 mm. Find the wavelength of the light.",
+      "answer": "450 nm",
+      "solution": [
+        "Fringe spacing is $Δy=xλ/d$, so $λ=dΔy/x$ .",
+        "$λ=(0.120×10^{-3})(7.50×10^{-3})/2.00=4.50×10^{-7}m=450nm$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem told the student to use an earlier problem's result"
+    },
+    "sec-5:exr-88": {
+      "stem": "The two-slit analysis in this section also applies to diffraction gratings with lines separated by a distance $d$ . The distance between adjacent fringes is $Δy=xλ/d$ , assuming the slit separation $d$ is large compared with $λ$ . What is the distance between fringes produced by a diffraction grating having 125 lines per centimeter for 600-nm light, if the screen is 1.50 m away?"
+    },
+    "sec-4:exr-73": {
+      "stem": "In a double-slit experiment the slits are 0.0500 mm apart and the light has wavelength 450 nm. At what angle is the fourth-order maximum?",
+      "answer": "2.06°",
+      "solution": [
+        "For constructive interference, $d\\sinθ=mλ$ with $m=4$.",
+        "$\\sinθ=4(450×10^{-9})/(0.0500×10^{-3})=0.0360$, so $θ=2.06°$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem referred to another problem for the data"
+    },
+    "sec-5:exr-58": {
+      "stem": "A diffraction grating has 5000 lines per centimetre. (a) Find the first-order angles for light of wavelengths 410, 434, 486, and 656 nm. (b) Find the second-order angles for the same wavelengths. (c) Discuss how the angles change when the line spacing is changed.",
+      "answer": "(a) 11.8°, 12.5°, 14.1°, 19.2° (b) 24.2°, 25.7°, 29.1°, 41.0° (c) Increasing the line density decreases the spacing and increases every angle; the pattern scales so that a higher order at one spacing can match a lower order at another.",
+      "solution": [
+        "$d=1/(5000cm^{-1})=2.00×10^{-6}m$ and $d\\sinθ=mλ$ .",
+        "(a) For $m=1$: 410 nm gives 11.8°, 434 nm gives 12.5°, 486 nm gives 14.1°, and 656 nm gives 19.2°.",
+        "(b) For $m=2$: the angles are 24.2°, 25.7°, 29.1°, and 41.0°.",
+        "(c) Since $\\sinθ=mλ/d$, reducing $d$ by a factor $x$ multiplies each sine by $x$, so the same set of angles appears at correspondingly lower orders."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the four wavelengths from the earlier problem are written into the stem"
+    },
+    "sec-5:exr-82": {
+      "answer": "(a) The longest first-order wavelength is 333 nm, which is ultraviolet and not visible. (b) 333 nm (c) $6.58×10^{3}$ lines/cm",
+      "solution": [
+        "(a) For 30,000 lines/cm, $d=1/(3.00×10^{4}cm^{-1})=3.33×10^{-7}m$. The longest first-order wavelength is $λ_{max}=d=333nm$, which is ultraviolet.",
+        "(b) 333 nm, in the ultraviolet.",
+        "(c) A complete second-order visible spectrum requires $\\sinθ=2λ/d≤1$ for the longest visible wavelength. Taking $λ_{max}=760nm$ gives $d≥2(760×10^{-9})=1.52×10^{-6}m$, so the maximum line density is $1/d=6.58×10^{3}$ lines/cm."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer for (c) gave a length in cm instead of a line density"
+    },
+    "sec-6:exr-55": {
+      "answer": "23.6° (first minimum) and 53.1° (second minimum)",
+      "solution": [
+        "Diffraction minima occur at $a\\sinθ=mλ$ with $a=50.0m$ and $λ=20.0m$ .",
+        "First minimum: $\\sinθ=20.0/50.0=0.400$, so $θ=23.6°$ .",
+        "Second minimum: $\\sinθ=2(20.0)/50.0=0.800$, so $θ=53.1°$ .",
+        "The first minimum gives the best protection; the second is an additional quiet direction."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer listed only the second minimum"
+    },
+    "sec-8:exr-84": {
+      "stem": "Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of magnesium fluoride, index of refraction 1.38, that would be non-reflective for this wavelength?",
+      "answer": "380 nm",
+      "solution": [
+        "For destructive interference in a thin film with one phase reversal, $2nt=(m+\\frac{1}{2})λ$ .",
+        "The thinnest coating uses $m=0$: $t=λ/(4n)=700/(4×1.38)=127nm$ .",
+        "The second thinnest uses $m=1$: $t=3λ/(4n)=3(700)/(4×1.38)=380nm$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the refractive index from the section's table is written into the question"
+    },
+    "sec-8:exr-92": {
+      "stem": "Two 7.50-cm-long glass slides are illuminated by pure 589-nm wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on some debris at the other end, forming a wedge of air. How thick is the debris, if the dark bands are 1.00 mm apart?",
+      "answer": "$2.21×10^{-5}m$",
+      "solution": [
+        "For an air wedge with a phase reversal at the lower glass surface, dark bands occur at $2t=mλ$ .",
+        "The wedge angle is $θ=t_{max}/L$, and adjacent dark bands are separated by $Δx=λ/(2θ)$ .",
+        "Thus $t_{max}=λL/(2Δx)=(589×10^{-9})(0.0750)/(2×1.00×10^{-3})=2.21×10^{-5}m$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer used the bright-fringe spacing formula and was too large by a factor of two"
+    },
+    "sec-9:exr-93": {
+      "answer": "$I+I'=I_{0}$",
+      "solution": [
+        "The first filter transmits $I=I_{0}\\\\cos^{2}θ$ .",
+        "The second filter is at $90.0°-θ$ to the first, so $I'=I_{0}\\\\cos^{2}(90.0°-θ)=I_{0}\\\\sin^{2}θ$ .",
+        "Adding: $I+I'=I_{0}(\\\\cos^{2}θ+\\\\sin^{2}θ)=I_{0}$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source solution consisted of the final symbol only, so the proof is written out"
+    },
+    "sec-9:exr-110": {
+      "answer": "Both the electric and magnetic fields are reduced to 0.707 of their original values.",
+      "solution": [
+        "Intensity is proportional to the square of the field amplitude: $I∝E^{2}$ and $I∝B^{2}$ .",
+        "If $I_{2}=0.500I_{1}$, then $E_{2}/E_{1}=B_{2}/B_{1}=\\sqrt{0.500}=0.707$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer mentioned only the magnetic field"
+    },
+    "sec-9:exr-119": {
+      "stem": "Critical Thinking A semiconductor laser emits light at 400.0 nm. The light passes through a grating with 10,000 lines etched over a space of 10.00 mm, so the line spacing is $1.00×10^{-6}m$. (a) What is the first-order diffraction angle? (b) What is the second-order diffraction angle? (c) The laser is replaced and the first-order angle becomes 23.9°. What wavelength does the new laser produce? (d) If a new grating with twice the line spacing replaces the first, what is the new first-order angle for 400.0-nm light? (e) Would the magnitude of the diffraction angle differ going left from going right?",
+      "answer": "(a) 23.6° (b) 53.1° (c) 405 nm (d) 11.5° (e) No",
+      "solution": [
+        "(a) $\\sinθ=λ/d=400.0×10^{-9}/1.00×10^{-6}=0.400$, so $θ=23.6°$ .",
+        "(b) $\\sinθ=2λ/d=0.800$, so $θ=53.1°$ .",
+        "(c) $λ=d\\sinθ=(1.00×10^{-6})\\sin23.9°=4.05×10^{-7}m=405nm$ .",
+        "(d) With $d'=2.00×10^{-6}m$, $\\sinθ=400.0×10^{-9}/2.00×10^{-6}=0.200$, so $θ=11.5°$ .",
+        "(e) No; the grating is symmetric, so the left and right angles have equal magnitude."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem's line count was inconsistent with its answers, which assume $10^{4}$ lines over 10.00 mm"
+    },
+    "sec-8:exr-96": {
+      "drop": true
+    },
+    "sec-4:exr-86": {
+      "stem": "A double slit is located a distance $x$ from a screen, and the distance from the center of the screen to a point on the pattern is $y$. When the distance $d$ between the slits is relatively large, there will be numerous bright spots, called fringes. Show that, for small angles (where $\\sin\\theta\\approx\\theta$, with $\\theta$ in radians), the distance between fringes is given by $\\Delta y=x\\lambda/d$."
+    },
+    "sec-7:exr-44": {
+      "stem": "The 300-m-diameter Arecibo radio telescope detects radio waves with a 4.00 cm average wavelength. (a) What is the angle between two just-resolvable point sources for this telescope? (b) How close together could these point sources be at the 2 million light-year distance of the Andromeda galaxy?"
+    }
+  }
 }

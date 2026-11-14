@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Which weighs more, a ton of feathers or a ton of bricks? This old riddle plays with the distinction between mass and density. A ton is a ton, of course; but bricks have much greater density than feathers, and so we are tempted to think of them as heavier. (See .)",
+        "text": "Which weighs more, a ton of feathers or a ton of bricks? This old riddle plays with the distinction between mass and density. A ton is a ton, of course; but bricks have much greater density than feathers, and so we are tempted to think of them as heavier. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Density , as you will see, is an important characteristic of substances. It is crucial, for example, in determining whether an object sinks or floats in a fluid. Density is the mass per unit volume of a substance or object. In equation form, density is defined as",
+        "text": "Density, as you will see, is an important characteristic of substances. It is crucial, for example, in determining whether an object sinks or floats in a fluid. Density is the mass per unit volume of a substance or object. In equation form, density is defined as $ρ=\\frac{m}{V},$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Density is mass per unit volume.",
+        "text": "Density is mass per unit volume. $ρ=\\frac{m}{V},$",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "In the riddle regarding the feathers and bricks, the masses are the same, but the volume occupied by the feathers is much greater, since their density is much lower. The SI unit of density is ${kg/m}^{3}$ , representative values are given in . The metric system was originally devised so that water would have a density of $1{g/cm}^{3}$ , equivalent to ${10}^{3}{kg/m}^{3}$ . Thus the basic mass unit, the kilogram, was first devised to be the mass of 1000 mL of water, which has a volume of 1000 cm 3 .",
+        "text": "In the riddle regarding the feathers and bricks, the masses are the same, but the volume occupied by the feathers is much greater, since their density is much lower. The SI unit of density is ${kg/m}^{3}$, representative values are given in the table. The metric system was originally devised so that water would have a density of $1 {g/cm}^{3}$, equivalent to ${10}^{3} {kg/m}^{3}$. Thus the basic mass unit, the kilogram, was first devised to be the mass of 1000 mL of water, which has a volume of 1000 cm 3.",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "As you can see by examining , the density of an object may help identify its composition. The density of gold, for example, is about 2.5 times the density of iron, which is about 2.5 times the density of aluminum. Density also reveals something about the phase of the matter and its substructure. Notice that the densities of liquids and solids are roughly comparable, consistent with the fact that their atoms are in close contact. The densities of gases are much less than those of liquids and solids, because the atoms in gases are separated by large amounts of empty space.",
+        "text": "As you can see by examining the table, the density of an object may help identify its composition. The density of gold, for example, is about 2.5 times the density of iron, which is about 2.5 times the density of aluminum. Density also reveals something about the phase of the matter and its substructure. Notice that the densities of liquids and solids are roughly comparable, consistent with the fact that their atoms are in close contact. The densities of gases are much less than those of liquids and solids, because the atoms in gases are separated by large amounts of empty space.",
         "inline": []
       },
       "level": "core"
@@ -303,7 +303,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "A reservoir has a surface area of $50.0{km}^{2}$ and an average depth of 40.0 m. What mass of water is held behind the dam? (See for a view of a large reservoir—the Three Gorges Dam site on the Yangtze River in central China.)",
+        "text": "A reservoir has a surface area of $50.0 {km}^{2}$ and an average depth of 40.0 m. What mass of water is held behind the dam? (See the figure for a view of a large reservoir—the Three Gorges Dam site on the Yangtze River in central China.)",
         "inline": []
       },
       "level": "core"
@@ -312,7 +312,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "We can calculate the volume $V$ of the reservoir from its dimensions, and find the density of water $ρ$ in . Then the mass $m$ can be found from the definition of density",
+        "text": "We can calculate the volume $V$ of the reservoir from its dimensions, and find the density of water $ρ$ in the table. Then the mass $m$ can be found from the definition of density $ρ=\\frac{m}{V}.$",
         "inline": []
       },
       "level": "core"
@@ -321,7 +321,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Solving equation $ρ=m/V$ for $m$ gives $m=ρV$ .",
+        "text": "Solving equation $ρ=m/V$ for $m$ gives $m=ρV$.",
         "inline": []
       },
       "level": "core"
@@ -330,7 +330,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The volume $V$ of the reservoir is its surface area $A$ times its average depth $h$ :",
+        "text": "The volume $V$ of the reservoir is its surface area $A$ times its average depth $h$: $V = Ah=(50.0 {km}^{2})(40.0 m) = [(50.0 k{m}^{2}){(\\frac{{10}^{3} m}{1 km})}^{2}](40.0 m)=2.00\\times {10}^{9} {m}^{3}$",
         "inline": []
       },
       "level": "core"
@@ -339,7 +339,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The density of water $ρ$ from is $1.000×{10}^{3}{kg/m}^{3}$ . Substituting $V$ and $ρ$ into the expression for mass gives",
+        "text": "The density of water $ρ$ from the table is $1.000\\times {10}^{3} {kg/m}^{3}$. Substituting $V$ and $ρ$ into the expression for mass gives $m = (1.00\\times {10}^{3} {kg/m}^{3})(2.00\\times {10}^{9} {m}^{3}) = 2.00\\times {10}^{12} kg.$",
         "inline": []
       },
       "level": "core"
@@ -348,7 +348,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "A large reservoir contains a very large mass of water. In this example, the weight of the water in the reservoir is $mg=1.96×{10}^{13}N$ , where $g$ is the acceleration due to the Earth’s gravity (about $9.80{m/s}^{2}$ ). It is reasonable to ask whether the dam must supply a force equal to this tremendous weight. The answer is no. As we shall see in the following sections, the force the dam must supply can be much smaller than the weight of the water it holds back.",
+        "text": "A large reservoir contains a very large mass of water. In this example, the weight of the water in the reservoir is $mg=1.96\\times {10}^{13} N$, where $g$ is the acceleration due to the Earth’s gravity (about $9.80 {m/s}^{2}$). It is reasonable to ask whether the dam must supply a force equal to this tremendous weight. The answer is no. As we shall see in the following sections, the force the dam must supply can be much smaller than the weight of the water it holds back.",
         "inline": []
       },
       "level": "core"
@@ -404,7 +404,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A piece of aluminum foil has a known surface density of 15 g/cm 2 . If a 100-gram hollow cube were constructed using this foil, determine the approximate side length of this cube. 1.05 cm; 1.10 cm; 2.6 cm; 6.67 cm; 15 cm",
+        "text": "A piece of aluminum foil has a known surface density of 15 g/cm 2. If a 100-gram hollow cube were constructed using this foil, determine the approximate side length of this cube. 1.05 cm; 1.10 cm; 2.6 cm; 6.67 cm; 15 cm",
         "inline": []
       },
       "level": "core",
@@ -425,7 +425,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A cube of polystyrene measuring 10 cm per side lies partially submerged in a large container of water. If 90% of the polystyrene floats above the surface of the water, what is the density of the polystyrene? (Note: The density of water is 1000 kg/m 3 .); A 0.5 kg mass is placed on the block of polystyrene. What percentage of the block now remains above water?; The water is poured out of the container and replaced with ethyl alcohol (density = 790 kg/m 3 ). Will the block be able to remain partially submerged in this new fluid? Explain.; Will the block be able to remain partially submerged in this new fluid with the 0.5 kg mass placed on top? Explain.; Without using a container of water, explain how you could determine the density of the polystyrene mentioned above if the material instead were spherical.",
+        "text": "A cube of polystyrene measuring 10 cm per side lies partially submerged in a large container of water. If 90% of the polystyrene floats above the surface of the water, what is the density of the polystyrene? (Note: The density of water is 1000 kg/m 3.); A 0.5 kg mass is placed on the block of polystyrene. What percentage of the block now remains above water?; The water is poured out of the container and replaced with ethyl alcohol (density = 790 kg/m 3). Will the block be able to remain partially submerged in this new fluid? Explain.; Will the block be able to remain partially submerged in this new fluid with the 0.5 kg mass placed on top? Explain.; Without using a container of water, explain how you could determine the density of the polystyrene mentioned above if the material instead were spherical.",
         "inline": []
       },
       "level": "core",
@@ -590,7 +590,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows a glass of ice water filled to the brim. Will the water overflow when the ice melts? Explain your answer.",
+        "text": "The figure shows a glass of ice water filled to the brim. Will the water overflow when the ice melts? Explain your answer.",
         "inline": []
       },
       "level": "core",
@@ -711,7 +711,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A straightforward method of finding the density of an object is to measure its mass and then measure its volume by submerging it in a graduated cylinder. What is the density of a 240-g rock that displaces $89.0{cm}^{3}$ of water? (Note that the accuracy and practical applications of this technique are more limited than a variety of others that are based on Archimedes’ principle.)",
+        "text": "A straightforward method of finding the density of an object is to measure its mass and then measure its volume by submerging it in a graduated cylinder. What is the density of a 240-g rock that displaces $89.0 {cm}^{3}$ of water? (Note that the accuracy and practical applications of this technique are more limited than a variety of others that are based on Archimedes’ principle.)",
         "inline": []
       },
       "level": "core",
@@ -867,7 +867,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There is relatively little empty space between atoms in solids and liquids, so that the average density of an atom is about the same as matter on a macroscopic scale—approximately ${10}^{3}{kg/m}^{3}$ . The nucleus of an atom has a radius about ${10}^{-5}$ that of the atom and contains nearly all the mass of the entire atom. (a) What is the approximate density of a nucleus? (b) One remnant of a supernova, called a neutron star, can have the density of a nucleus. What would be the radius of a neutron star with a mass 10 times that of our Sun (the radius of the Sun is $7×{10}^{8}m$ )?",
+        "text": "There is relatively little empty space between atoms in solids and liquids, so that the average density of an atom is about the same as matter on a macroscopic scale—approximately ${10}^{3} {kg/m}^{3}$. The nucleus of an atom has a radius about ${10}^{-5}$ that of the atom and contains nearly all the mass of the entire atom. (a) What is the approximate density of a nucleus? (b) One remnant of a supernova, called a neutron star, can have the density of a nucleus. What would be the radius of a neutron star with a mass 10 times that of our Sun (the radius of the Sun is $7\\times {10}^{8} m$)?",
         "inline": []
       },
       "level": "core",

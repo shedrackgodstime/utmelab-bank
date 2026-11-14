@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "In Work, Energy, and Energy Resources , we defined work as force times distance and learned that work done on an object changes its kinetic energy. We also saw in Temperature, Kinetic Theory, and the Gas Laws that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat : Heat is the spontaneous transfer of energy due to a temperature difference.",
+        "text": "In Work, Energy, and Energy Resources, we defined work as force times distance and learned that work done on an object changes its kinetic energy. We also saw in Temperature, Kinetic Theory, and the Gas Laws that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference.",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "As noted in Temperature, Kinetic Theory, and the Gas Laws , heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
+        "text": "As noted in Temperature, Kinetic Theory, and the Gas Laws, heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Owing to the fact that heat is a form of energy, it has the SI unit of *joule* (J). The *calorie* (cal) is a common unit of energy, defined as the energy needed to change the temperature of 1.00 g of water by $1.00ºC$ —specifically, between $14.5ºC$ and $15.5ºC$ , since there is a slight temperature dependence. Perhaps the most common unit of heat is the kilocalorie (kcal), which is the energy needed to change the temperature of 1.00 kg of water by $1.00ºC$ . Since mass is most often specified in kilograms, kilocalorie is commonly used. Food calories (given the notation Cal, and sometimes called “big calorie”) are actually kilocalories ( $1kilocalorie=1000 calories$ ), a fact not easily determined from package labeling.",
+        "text": "Owing to the fact that heat is a form of energy, it has the SI unit of *joule* (J). The *calorie* (cal) is a common unit of energy, defined as the energy needed to change the temperature of 1.00 g of water by $1.00ºC$ —specifically, between $14.5ºC$ and $15.5ºC$, since there is a slight temperature dependence. Perhaps the most common unit of heat is the kilocalorie (kcal), which is the energy needed to change the temperature of 1.00 kg of water by $1.00ºC$. Since mass is most often specified in kilograms, kilocalorie is commonly used. Food calories (given the notation Cal, and sometimes called “big calorie”) are actually kilocalories ($1 kilocalorie = 1000 calories$), a fact not easily determined from package labeling.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "It is also possible to change the temperature of a substance by doing work. Work can transfer energy into or out of a system. This realization helped establish the fact that heat is a form of energy. James Prescott Joule (1818–1889) performed many experiments to establish the mechanical equivalent of heat — *the work needed to produce the same effects as heat transfer* . In terms of the units used for these two terms, the best modern value for this equivalence is",
+        "text": "It is also possible to change the temperature of a substance by doing work. Work can transfer energy into or out of a system. This realization helped establish the fact that heat is a form of energy. James Prescott Joule (1818–1889) performed many experiments to establish the mechanical equivalent of heat — *the work needed to produce the same effects as heat transfer*. In terms of the units used for these two terms, the best modern value for this equivalence is $1.000 kcal=4186 J.$",
         "inline": []
       },
       "level": "core"

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Classical electrostatics has an important role to play in modern molecular biology. Large molecules such as proteins, nucleic acids, and so on—so important to life—are usually electrically charged. DNA itself is highly charged; it is the electrostatic force that not only holds the molecule together but gives the molecule structure and strength. is a schematic of the DNA double helix.",
+        "text": "Classical electrostatics has an important role to play in modern molecular biology. Large molecules such as proteins, nucleic acids, and so on—so important to life—are usually electrically charged. DNA itself is highly charged; it is the electrostatic force that not only holds the molecule together but gives the molecule structure and strength. The figure is a schematic of the DNA double helix.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The four nucleotide bases are given the symbols A (adenine), C (cytosine), G (guanine), and T (thymine). The order of the four bases varies in each strand, but the pairing between bases is always the same. C and G are always paired and A and T are always paired, which helps to preserve the order of bases in cell division (mitosis) so as to pass on the correct genetic information. Since the Coulomb force drops with distance ( $F∝1/{r}^{2}$ ), the distances between the base pairs must be small enough that the electrostatic force is sufficient to hold them together.",
+        "text": "The four nucleotide bases are given the symbols A (adenine), C (cytosine), G (guanine), and T (thymine). The order of the four bases varies in each strand, but the pairing between bases is always the same. C and G are always paired and A and T are always paired, which helps to preserve the order of bases in cell division (mitosis) so as to pass on the correct genetic information. Since the Coulomb force drops with distance ($F∝1/{r}^{2}$), the distances between the base pairs must be small enough that the electrostatic force is sufficient to hold them together.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "DNA is a highly charged molecule, with about *$2{q}_{e}$* (fundamental charge) per $0.3×{10}^{-9}$ m. The distance separating the two strands that make up the DNA structure is about 1 nm, while the distance separating the individual atoms within each base is about 0.3 nm.",
+        "text": "DNA is a highly charged molecule, with about *$2{q}_{e}$* (fundamental charge) per $0.3\\times {10}^{-9}$ m. The distance separating the two strands that make up the DNA structure is about 1 nm, while the distance separating the individual atoms within each base is about 0.3 nm.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The best example of this charge screening is the water molecule, represented as ${H}_{2}O$ . Water is a strongly polar molecule . Its 10 electrons (8 from the oxygen atom and 2 from the two hydrogen atoms) tend to remain closer to the oxygen nucleus than the hydrogen nuclei. This creates two centers of equal and opposite charges—what is called a dipole , as illustrated in . The magnitude of the dipole is called the dipole moment.",
+        "text": "The best example of this charge screening is the water molecule, represented as ${H}_{2}O$. Water is a strongly polar molecule. Its 10 electrons (8 from the oxygen atom and 2 from the two hydrogen atoms) tend to remain closer to the oxygen nucleus than the hydrogen nuclei. This creates two centers of equal and opposite charges—what is called a dipole, as illustrated in the figure. The magnitude of the dipole is called the dipole moment.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "These two centers of charge will terminate some of the electric field lines coming from a free charge, as on a DNA molecule. This results in a reduction in the strength of the Coulomb interaction . One might say that screening makes the Coulomb force a short range force rather than long range.",
+        "text": "These two centers of charge will terminate some of the electric field lines coming from a free charge, as on a DNA molecule. This results in a reduction in the strength of the Coulomb interaction. One might say that screening makes the Coulomb force a short range force rather than long range.",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Other ions of importance in biology that can reduce or screen Coulomb interactions are ${Na}^{+},$ and ${K}^{+},$ and ${Cl}^{–}$ . These ions are located both inside and outside of living cells. The movement of these ions through cell membranes is crucial to the motion of nerve impulses through nerve axons.",
+        "text": "Other ions of importance in biology that can reduce or screen Coulomb interactions are ${Na}^{+},$ and ${K}^{+},$ and ${Cl}^{–}$. These ions are located both inside and outside of living cells. The movement of these ions through cell membranes is crucial to the motion of nerve impulses through nerve axons.",
         "inline": []
       },
       "level": "core"
@@ -211,7 +211,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of $-2.5×{10}^{-6}$ C/m 2 on its inner surface and $+2.5×{10}^{-6}$ C/m 2 on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?",
+        "text": "A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of $-2.5\\times {10}^{-6}$ C/m 2 on its inner surface and $+2.5\\times {10}^{-6}$ C/m 2 on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?",
         "inline": []
       },
       "level": "core",

@@ -174,12 +174,16 @@ def module_books() -> dict[str, str]:
     return books
 
 
-def collect(book_filter: str | None):
+def collect(book_filter: str | None, module_filter: set[str] | None = None):
     """Every figure the source extracts use, with the book it belongs to.
 
     The same figure is often used by several chapters and several sections,
     so the work is keyed by the published path. Two chapters that share a
     figure share the bytes and share the path.
+
+    A module filter limits the run to named source modules. That keeps a
+    single new chapter from re-checking a thousand figures that are already
+    in the manifest.
     """
     books = module_books()
     wanted: dict[str, dict] = {}
@@ -195,6 +199,8 @@ def collect(book_filter: str | None):
         if book_id is None:
             continue
         if book_filter and book_id != book_filter:
+            continue
+        if module_filter and module not in module_filter:
             continue
         for block in document.get("blocks", []):
             if block.get("type") != "figure":
@@ -249,10 +255,16 @@ def main() -> int:
         "--dry-run", action="store_true", help="report what would ship, and change nothing"
     )
     parser.add_argument("--book", help="only this book")
+    parser.add_argument(
+        "--module",
+        action="append",
+        help="only this source module; repeat to publish several",
+    )
     args = parser.parse_args()
 
     host, project, token, branch = gitlab_settings()
-    wanted, rejected, order, assets = collect(args.book)
+    module_filter = set(args.module) if args.module else None
+    wanted, rejected, order, assets = collect(args.book, module_filter)
 
     total_bytes = sum(len(item["data"]) for item in wanted.values())
     print(f"valid figures:   {len(wanted)}")

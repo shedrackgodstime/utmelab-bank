@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "We can represent electric potentials (voltages) pictorially, just as we drew pictures to illustrate electric fields. Of course, the two are related. Consider , which shows an isolated positive point charge and its electric field lines. Electric field lines radiate out from a positive charge and terminate on negative charges. While we use blue arrows to represent the magnitude and direction of the electric field, we use green lines to represent places where the electric potential is constant. These are called equipotential lines in two dimensions, or *equipotential surfaces* in three dimensions. The term *equipotential* is also used as a noun, referring to an equipotential line or surface. The potential for a point charge is the same anywhere on an imaginary sphere of radius $r$ surrounding the charge. This is true since the potential for a point charge is given by $V=kQ/r$ and, thus, has the same value at any point that is a given distance $r$ from the charge. An equipotential sphere is a circle in the two-dimensional view of . Since the electric field lines point radially away from the charge, they are perpendicular to the equipotential lines.",
+        "text": "We can represent electric potentials (voltages) pictorially, just as we drew pictures to illustrate electric fields. Of course, the two are related. Consider the figure, which shows an isolated positive point charge and its electric field lines. Electric field lines radiate out from a positive charge and terminate on negative charges. While we use blue arrows to represent the magnitude and direction of the electric field, we use green lines to represent places where the electric potential is constant. These are called equipotential lines in two dimensions, or *equipotential surfaces* in three dimensions. The term *equipotential* is also used as a noun, referring to an equipotential line or surface. The potential for a point charge is the same anywhere on an imaginary sphere of radius $r$ surrounding the charge. This is true since the potential for a point charge is given by $V=kQ/r$ and, thus, has the same value at any point that is a given distance $r$ from the charge. An equipotential sphere is a circle in the two-dimensional view of the figure. Since the electric field lines point radially away from the charge, they are perpendicular to the equipotential lines.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "It is important to note that *equipotential lines are always perpendicular to electric field lines* . No work is required to move a charge along an equipotential, since $ΔV=0$ . Thus the work is",
+        "text": "It is important to note that *equipotential lines are always perpendicular to electric field lines*. No work is required to move a charge along an equipotential, since $ΔV=0$. Thus the work is $W= –ΔPE= -qΔV=0.$",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Work is zero if force is perpendicular to motion. Force is in the same direction as $E$ , so that motion along an equipotential must be perpendicular to $E$ . More precisely, work is related to the electric field by",
+        "text": "Work is zero if force is perpendicular to motion. Force is in the same direction as $E$, so that motion along an equipotential must be perpendicular to $E$. More precisely, work is related to the electric field by $W=Fd cos θ=qEd cos θ=0.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Note that in the above equation, $E$ and $F$ symbolize the magnitudes of the electric field strength and force, respectively. Neither *$q$* nor *$E$* nor $d$ is zero, and so $cosθ$ must be 0, meaning $θ$ must be $90º$ . In other words, motion along an equipotential is perpendicular to $E$ .",
+        "text": "Note that in the above equation, $E$ and $F$ symbolize the magnitudes of the electric field strength and force, respectively. Neither *$q$* nor *$E$* nor $d$ is zero, and so $cos θ$ must be 0, meaning $θ$ must be $90º$. In other words, motion along an equipotential is perpendicular to $E$.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "One of the rules for static electric fields and conductors is that the electric field must be perpendicular to the surface of any conductor. This implies that a *conductor is an equipotential surface in static situations* . There can be no voltage difference across the surface of a conductor, or charges will flow. One of the uses of this fact is that a conductor can be fixed at zero volts by connecting it to the earth with a good conductor—a process called grounding . Grounding can be a useful safety tool. For example, grounding the metal case of an electrical appliance ensures that it is at zero volts relative to the earth.",
+        "text": "One of the rules for static electric fields and conductors is that the electric field must be perpendicular to the surface of any conductor. This implies that a *conductor is an equipotential surface in static situations*. There can be no voltage difference across the surface of a conductor, or charges will flow. One of the uses of this fact is that a conductor can be fixed at zero volts by connecting it to the earth with a good conductor—a process called grounding. Grounding can be a useful safety tool. For example, grounding the metal case of an electrical appliance ensures that it is at zero volts relative to the earth.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Because a conductor is an equipotential, it can replace any equipotential surface. For example, in a charged spherical conductor can replace the point charge, and the electric field and potential surfaces outside of it will be unchanged, confirming the contention that a spherical charge distribution is equivalent to a point charge at its center.",
+        "text": "Because a conductor is an equipotential, it can replace any equipotential surface. For example, in the figure a charged spherical conductor can replace the point charge, and the electric field and potential surfaces outside of it will be unchanged, confirming the contention that a spherical charge distribution is equivalent to a point charge at its center.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "shows the electric field and equipotential lines for two equal and opposite charges. Given the electric field lines, the equipotential lines can be drawn simply by making them perpendicular to the electric field lines. Conversely, given the equipotential lines, as in (a), the electric field lines can be drawn by making them perpendicular to the equipotentials, as in (b).",
+        "text": "The figure shows the electric field and equipotential lines for two equal and opposite charges. Given the electric field lines, the equipotential lines can be drawn simply by making them perpendicular to the electric field lines. Conversely, given the equipotential lines, as in the figure (a), the electric field lines can be drawn by making them perpendicular to the equipotentials, as in the figure (b).",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "One of the most important cases is that of the familiar parallel conducting plates shown in . Between the plates, the equipotentials are evenly spaced and parallel. The same field could be maintained by placing conducting plates at the equipotential lines at the potentials shown.",
+        "text": "One of the most important cases is that of the familiar parallel conducting plates shown in the figure. Between the plates, the equipotentials are evenly spaced and parallel. The same field could be maintained by placing conducting plates at the equipotential lines at the potentials shown.",
         "inline": []
       },
       "level": "core"
@@ -164,7 +164,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "An important application of electric fields and equipotential lines involves the heart. The heart relies on electrical signals to maintain its rhythm. The movement of electrical signals causes the chambers of the heart to contract and relax. When a person has a heart attack, the movement of these electrical signals may be disturbed. An artificial pacemaker and a defibrillator can be used to initiate the rhythm of electrical signals. The equipotential lines around the heart, the thoracic region, and the axis of the heart are useful ways of monitoring the structure and functions of the heart. An electrocardiogram (ECG) measures the small electric signals being generated during the activity of the heart. More about the relationship between electric fields and the heart is discussed in Energy Stored in Capacitors .",
+        "text": "An important application of electric fields and equipotential lines involves the heart. The heart relies on electrical signals to maintain its rhythm. The movement of electrical signals causes the chambers of the heart to contract and relax. When a person has a heart attack, the movement of these electrical signals may be disturbed. An artificial pacemaker and a defibrillator can be used to initiate the rhythm of electrical signals. The equipotential lines around the heart, the thoracic region, and the axis of the heart are useful ways of monitoring the structure and functions of the heart. An electrocardiogram (ECG) measures the small electric signals being generated during the activity of the heart. More about the relationship between electric fields and the heart is discussed in Energy Stored in Capacitors.",
         "inline": []
       },
       "level": "core"
@@ -173,7 +173,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more in this simulation . It's colorful, it's dynamic, it's free.",
+        "text": "Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more in this simulation. It's colorful, it's dynamic, it's free.",
         "inline": []
       },
       "level": "core"
@@ -192,7 +192,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How would be different with two positive charges replacing the two negative charges? The equipotential lines would have positive values.; It would actually resemble .; no change; not enough information",
+        "text": "How would the figure be different with two positive charges replacing the two negative charges? The equipotential lines would have positive values.; It would actually resemble the figure.; no change; not enough information",
         "inline": []
       },
       "level": "core",
@@ -216,7 +216,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ *V* , draw the equipotential lines for this system.",
+        "text": "Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ *V*, draw the equipotential lines for this system.",
         "inline": []
       },
       "level": "core",
@@ -261,7 +261,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Between and , which more closely resembles the gravitational field between two equal masses, and why?",
+        "text": "Between the figure and the figure, which more closely resembles the gravitational field between two equal masses, and why?",
         "inline": []
       },
       "level": "core",
@@ -306,7 +306,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ *V* , sketch the path of both a positively charged object placed between the near ends, and a negatively charged object placed near the open ends.",
+        "text": "Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ *V*, sketch the path of both a positively charged object placed between the near ends, and a negatively charged object placed near the open ends.",
         "inline": []
       },
       "level": "core",
@@ -417,7 +417,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Sketch the equipotential lines near a point charge + *$q$* . Indicate the direction of increasing potential. (b) Do the same for a point charge $-3q$ .",
+        "text": "(a) Sketch the equipotential lines near a point charge + *$q$*. Indicate the direction of increasing potential. (b) Do the same for a point charge $-3 q$.",
         "inline": []
       },
       "level": "core",
@@ -472,7 +472,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows the electric field lines near two charges ${q}_{1}$ and ${q}_{2}$ , the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.",
+        "text": "The figure shows the electric field lines near two charges ${q}_{1}$ and ${q}_{2}$, the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.",
         "inline": []
       },
       "level": "core",
@@ -527,7 +527,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. See for a similar situation. Indicate the direction of increasing potential.",
+        "text": "Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. See the figure for a similar situation. Indicate the direction of increasing potential.",
         "inline": []
       },
       "level": "core",
@@ -548,7 +548,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Sketch the equipotential lines in the vicinity of the negatively charged conductor in . How will these equipotentials look a long distance from the object? A negatively charged conductor.",
+        "text": "Sketch the equipotential lines in the vicinity of the negatively charged conductor in the figure. How will these equipotentials look a long distance from the object?",
         "inline": []
       },
       "level": "core",
@@ -582,7 +582,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Sketch the equipotential lines surrounding the two conducting plates shown in , given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?",
+        "text": "Sketch the equipotential lines surrounding the two conducting plates shown in the figure, given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?",
         "inline": []
       },
       "level": "core",

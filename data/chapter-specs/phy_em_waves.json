@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Electromagnetic Waves",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -62,7 +62,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_electric_charge_and_field",
+    "phy_magnetism"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -81,24 +84,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electromagnetic-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -108,7 +94,9 @@
       "est_minutes": 12,
       "locator": "CNXML module m42437",
       "objectives": [
-        "Restate Maxwell’s equations."
+        "Restate Maxwell’s equations.",
+        "Explain how Maxwell’s equations predict that a changing electric field produces a magnetic field and vice versa.",
+        "Describe how Hertz confirmed the existence of electromagnetic waves."
       ],
       "misconceptions": [
         {
@@ -125,23 +113,89 @@
       "facts_inherited": true,
       "exam_links": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What did Maxwell predict about a changing electric field?",
+          "answer": "That it produces a magnetic field, just as a changing magnetic field produces an electric field.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Faraday had shown that a changing magnetic field induces an electric field.",
+            "Maxwell added the symmetrical term: a changing electric field produces a magnetic field.",
+            "Together these effects allow an electromagnetic wave to sustain itself."
+          ],
+          "tags": [
+            "maxwell equations",
+            "changing fields"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Who produced and detected the first electromagnetic waves, and how?",
+          "answer": "Hertz, using an oscillating electric spark to generate the waves and a loop with a small gap to detect them.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A spark discharge produced rapidly changing currents.",
+            "Those changing currents radiated electromagnetic waves.",
+            "A nearby loop picked up the waves and produced a tiny spark across its gap."
+          ],
+          "tags": [
+            "hertz",
+            "electromagnetic waves"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Find the speed of an electromagnetic wave if μ₀ = 4π × 10⁻⁷ T m/A and ε₀ = 8.85 × 10⁻¹² C²/(N m²).",
+          "answer": "about 3.0 × 10⁸ m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "Use c = 1/√(μ₀ε₀).",
+            "μ₀ε₀ = (4π × 10⁻⁷)(8.85 × 10⁻¹²) ≈ 1.11 × 10⁻¹⁷.",
+            "c = 1/√(1.11 × 10⁻¹⁷) ≈ 3.0 × 10⁸ m/s."
+          ],
+          "tags": [
+            "speed of light",
+            "maxwell"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why did the agreement between Maxwell’s predicted speed and the measured speed of light matter?",
+          "answer": "It showed that light itself is an electromagnetic wave.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Maxwell’s equations predicted a wave speed from electric and magnetic constants.",
+            "The predicted value matched the measured speed of light.",
+            "That strongly suggested light is an electromagnetic wave."
+          ],
+          "tags": [
+            "speed of light",
+            "electromagnetic wave"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -154,7 +208,16 @@
         "Explain the mathematical relationship between the magnetic field strength and the electrical field strength.",
         "Calculate the maximum strength of the magnetic field in an electromagnetic wave, given the maximum electric field strength."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Electromagnetic waves need a material medium in order to travel.",
+          "correction": "Electromagnetic waves are oscillating electric and magnetic fields that propagate through a vacuum. They do not need a medium; that is why light from the Sun reaches the Earth through space."
+        },
+        {
+          "claim": "In an electromagnetic wave the electric and magnetic fields oscillate along the direction of travel.",
+          "correction": "The fields oscillate perpendicular to each other and perpendicular to the direction of travel, so the wave is transverse."
+        }
+      ],
       "summary": [
         "Electromagnetic waves are created by oscillating charges (which radiate whenever accelerated) and have the same frequency as the oscillation.",
         "Since the electric and magnetic fields in most electromagnetic waves are perpendicular to the direction in which the wave moves, it is ordinarily a transverse wave.",
@@ -164,14 +227,6 @@
       "facts_inherited": true,
       "exam_links": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
@@ -180,7 +235,27 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-40"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In an electromagnetic wave, what is the angle between the electric field and the magnetic field?",
+          "answer": "90 degrees.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The two fields are perpendicular to each other.",
+            "They are also both perpendicular to the direction of travel.",
+            "This makes the wave transverse."
+          ],
+          "tags": [
+            "electric field",
+            "magnetic field",
+            "transverse wave"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -198,6 +273,13 @@
         {
           "claim": "All electromagnetic waves travel at the same speed in a vacuum.",
           "correction": "They do, at about three hundred million metres per second, but their frequency and wavelength differ."
+        },
+        {
+          "claim": "The electromagnetic spectrum is arranged in order of increasing wavelength.",
+          "correction": "It runs from radio waves to gamma rays, so the frequency increases as the wavelength decreases. The speed of every one of them in vacuum is the same.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_em_waves:trap-3",
+          "signal": "Our own question offers the wavelength ordering as an option."
         }
       ],
       "summary": [
@@ -209,23 +291,22 @@
       "facts_inherited": true,
       "exam_links": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "dispersion-of-light-and-colours",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
-      ],
-      "worked_from": "exr-142"
+      ]
     },
     {
       "id": "sec-5",
@@ -237,7 +318,15 @@
         "Explain how the energy and amplitude of an electromagnetic wave are related.",
         "Given its power output and the heating area, calculate the intensity of a microwave oven’s electromagnetic field, as well as its peak electric and magnetic field strengths"
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The energy of an electromagnetic wave depends on how bright it is.",
+          "correction": "The energy of a photon is set by its frequency, $E = hf$. Brightness tells you how many photons arrive, not how much energy each one carries.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_em_waves:trap-4",
+          "signal": "Our own question offers the brightness reading as an option."
+        }
+      ],
       "summary": [
         "The energy carried by any wave is proportional to its amplitude squared. For electromagnetic waves, this means intensity can be expressed as Iave=cε0E022,where Iave is the average intensity in W/m2, and E0 is the maximum electric field strength of a continuous sinusoidal wave.",
         "This can also be expressed in terms of the maximum magnetic field strength B0 as I ave = cB 0 2 2μ 0 and in terms of both electric and magnetic fields as Iave=E0B02μ0.",
@@ -247,26 +336,151 @@
       "facts_inherited": true,
       "exam_links": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-29"
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$c = f\\lambda$",
+      "caption": {
+        "text": "Speed of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a wave of frequency f and wavelength λ in a vacuum or air.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42444/index.cnxml",
+        "locator": "CNXML module m42444, section “The Electromagnetic Spectrum”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$",
+      "caption": {
+        "text": "Speed of light from Maxwell’s equations",
+        "inline": []
+      },
+      "conditions": {
+        "text": "μ₀ is the permeability and ε₀ the permittivity of free space.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42437/index.cnxml",
+        "locator": "CNXML module m42437, section “Maxwell’s Equations”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$E = cB$",
+      "caption": {
+        "text": "Field amplitudes in an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The electric and magnetic field amplitudes are related by the speed of light.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42440/index.cnxml",
+        "locator": "CNXML module m42440, section “Production of Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$I = \\frac{P}{A}$",
+      "caption": {
+        "text": "Intensity of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Power crossing unit area perpendicular to the direction of travel.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$I = \\frac{1}{2}c\\varepsilon_0 E_0^2$",
+      "caption": {
+        "text": "Intensity and electric field amplitude",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a sinusoidal electromagnetic wave in a vacuum, with peak field E₀.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$u = \\frac{1}{2}\\varepsilon_0 E_0^2$",
+      "caption": {
+        "text": "Average energy density of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The energy stored per unit volume, averaged over a cycle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$P_{\\mathrm{rad}} = \\frac{I}{c}$",
+      "caption": {
+        "text": "Radiation pressure for a perfectly absorbing surface",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The pressure exerted by an electromagnetic wave that is completely absorbed.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -954,76 +1168,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Electromagnetic waves need a medium to travel through.",
-      "correction": "They do not. They are a changing electric and magnetic field that travel through empty space.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "All electromagnetic waves travel at the same speed in a vacuum.",
-      "correction": "They do, at about three hundred million metres per second, but their frequency and wavelength differ.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The electromagnetic spectrum is arranged in order of increasing wavelength.",
-      "correction": "It runs from radio waves to gamma rays, so the frequency increases as the wavelength decreases. The speed of every one of them in vacuum is the same.",
-      "signal": "Our own question offers the wavelength ordering as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The energy of an electromagnetic wave depends on how bright it is.",
-      "correction": "The energy of a photon is set by its frequency, $E = hf$. Brightness tells you how many photons arrive, not how much energy each one carries.",
-      "signal": "Our own question offers the brightness reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1140,6 +1285,64 @@
       "explanation": "The fields are mutually perpendicular and both perpendicular to the direction of propagation.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "Maxwell’s equations predict that an electromagnetic wave travels in a vacuum at a speed given by",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/√(μ₀ε₀)"
+        },
+        {
+          "id": "b",
+          "text": "μ₀ε₀"
+        },
+        {
+          "id": "c",
+          "text": "√(μ₀/ε₀)"
+        },
+        {
+          "id": "d",
+          "text": "1/(μ₀ε₀)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Maxwell’s equations give c = 1/√(μ₀ε₀), which is the speed of light in a vacuum.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": "An electromagnetic wave has an electric field amplitude of 300 V/m. Find the magnetic field amplitude. Take c = 3.0 × 10⁸ m/s.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.0 × 10⁻⁶ T"
+        },
+        {
+          "id": "b",
+          "text": "3.0 × 10⁻⁶ T"
+        },
+        {
+          "id": "c",
+          "text": "9.0 × 10¹⁰ T"
+        },
+        {
+          "id": "d",
+          "text": "1.0 × 10⁻³ T"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In an electromagnetic wave E = cB, so B = E/c = 300/(3.0 × 10⁸) = 1.0 × 10⁻⁶ T.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
     }
   ],
   "sources": [
@@ -1150,5 +1353,31 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Electromagnetic Waves', modules m42434, m42437, m42440, m42444, m42446",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 24,
+  "exercise_fixes": {
+    "sec-5:exr-37": {
+      "answer": "$20.7W/m^{2}$"
+    },
+    "sec-3:exr-48": {
+      "stem": "A sinusoidal electromagnetic wave has period $T=3.0×10^{-9}s$ and peak electric field $E_{0}=5.0×10^{5}N/C$. At $t=0$ the electric field has its maximum value. Which of the following is the correct equation for the wave at the antenna?",
+      "answer": "(d)",
+      "solution": [
+        "At $t=0$ the field is a maximum, so the wave is a cosine. Its angular frequency is $2π/T$, giving $E=(5.0×10^{5}N/C)\\cos(2πt/T)$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the stem is rewritten so the waveform is described instead of shown in a figure"
+    },
+    "sec-3:exr-52": {
+      "stem": "In Hertz's spark-gap experiment, a spark in the transmitting loop sends a pulse to a receiving loop. How do the sparks induced in the receiving loop compare with the spark in the transmitting loop?",
+      "answer": "(d)",
+      "solution": [
+        "(d). The receiving loop captures only part of the energy radiated by the transmitting loop, so the induced spark is weaker.",
+        "How much weaker depends on the tuning: when the loops resonate at the same frequency, the transfer is most efficient."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the one-letter answer is expanded into the reasoning the question asks for"
+    },
+    "sec-4:exr-142": {
+      "drop": true
+    }
+  }
 }

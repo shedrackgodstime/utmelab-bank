@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "What is the mechanism by which one magnet exerts a force on another? The answer is related to the fact that all magnetism is caused by current, the flow of charge. *Magnetic fields exert forces on moving charges* , and so they exert forces on other magnets, all of which have moving charges.",
+        "text": "What is the mechanism by which one magnet exerts a force on another? The answer is related to the fact that all magnetism is caused by current, the flow of charge. *Magnetic fields exert forces on moving charges*, and so they exert forces on other magnets, all of which have moving charges.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The magnetic force on a moving charge is one of the most fundamental known. Magnetic force is as important as the electrostatic or Coulomb force. Yet the magnetic force is more complex, in both the number of factors that affects it and in its direction, than the relatively simple Coulomb force. The magnitude of the magnetic force $F$ on a charge $q$ moving at a speed $v$ in a magnetic field of strength $B$ is given by",
+        "text": "The magnetic force on a moving charge is one of the most fundamental known. Magnetic force is as important as the electrostatic or Coulomb force. Yet the magnetic force is more complex, in both the number of factors that affects it and in its direction, than the relatively simple Coulomb force. The magnitude of the magnetic force $F$ on a charge $q$ moving at a speed $v$ in a magnetic field of strength $B$ is given by $F=qvB sin θ,$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "where $θ$ is the angle between the directions of $v$ and $B.$ This force is often called the Lorentz force . In fact, this is how we define the magnetic field strength $B$ —in terms of the force on a charged particle moving in a magnetic field. The SI unit for magnetic field strength $B$ is called the tesla (T) after the eccentric but brilliant inventor Nikola Tesla (1856–1943). To determine how the tesla relates to other SI units, we solve $F=qvBsinθ$ for $B$ .",
+        "text": "where $θ$ is the angle between the directions of $v$ and $B.$ This force is often called the Lorentz force. In fact, this is how we define the magnetic field strength $B$ —in terms of the force on a charged particle moving in a magnetic field. The SI unit for magnetic field strength $B$ is called the tesla (T) after the eccentric but brilliant inventor Nikola Tesla (1856–1943). To determine how the tesla relates to other SI units, we solve $F=qvB sin θ$ for $B$. $B=\\frac{F}{qv sin θ}$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Because $sinθ$ is unitless, the tesla is",
+        "text": "Because $sin θ$ is unitless, the tesla is $1 T=\\frac{1 N}{C\\cdot m/s}=\\frac{1 N}{A\\cdot m}$",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Another smaller unit, called the gauss (G), where $1 G={10}^{-4}T$ , is sometimes used. The strongest permanent magnets have fields near 2 T; superconducting electromagnets may attain 10 T or more. The Earth’s magnetic field on its surface is only about $5×{10}^{-5}T$ , or 0.5 G.",
+        "text": "Another smaller unit, called the gauss (G), where $1 G={10}^{-4} T$, is sometimes used. The strongest permanent magnets have fields near 2 T; superconducting electromagnets may attain 10 T or more. The Earth’s magnetic field on its surface is only about $5\\times {10}^{-5} T$, or 0.5 G.",
         "inline": []
       },
       "level": "core"
@@ -94,7 +94,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The *direction* of the magnetic force $F$ is perpendicular to the plane formed by $v$ and $B$ , as determined by the right hand rule 1 (or RHR-1), which is illustrated in . RHR-1 states that, to determine the direction of the magnetic force on a positive moving charge, you point the thumb of the right hand in the direction of $v$ , the fingers in the direction of $B$ , and a perpendicular to the palm points in the direction of $F$ . One way to remember this is that there is one velocity, and so the thumb represents it. There are many field lines, and so the fingers represent them. The force is in the direction you would push with your palm. The force on a negative charge is in exactly the opposite direction to that on a positive charge.",
+        "text": "The *direction* of the magnetic force $F$ is perpendicular to the plane formed by $v$ and $B$, as determined by the right hand rule 1 (or RHR-1), which is illustrated in the figure. RHR-1 states that, to determine the direction of the magnetic force on a positive moving charge, you point the thumb of the right hand in the direction of $v$, the fingers in the direction of $B$, and a perpendicular to the palm points in the direction of $F$. One way to remember this is that there is one velocity, and so the thumb represents it. There are many field lines, and so the fingers represent them. The force is in the direction you would push with your palm. The force on a negative charge is in exactly the opposite direction to that on a positive charge.",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "With the exception of compasses, you seldom see or personally experience forces due to the Earth’s small magnetic field. To illustrate this, suppose that in a physics lab you rub a glass rod with silk, placing a 20-nC positive charge on it. Calculate the force on the rod due to the Earth’s magnetic field, if you throw it with a horizontal velocity of 10 m/s due west in a place where the Earth’s field is due north parallel to the ground. (The direction of the force is determined with right hand rule 1 as shown in .)",
+        "text": "With the exception of compasses, you seldom see or personally experience forces due to the Earth’s small magnetic field. To illustrate this, suppose that in a physics lab you rub a glass rod with silk, placing a 20-nC positive charge on it. Calculate the force on the rod due to the Earth’s magnetic field, if you throw it with a horizontal velocity of 10 m/s due west in a place where the Earth’s field is due north parallel to the ground. (The direction of the force is determined with right hand rule 1 as shown in the figure.)",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "We are given the charge, its velocity, and the magnetic field strength and direction. We can thus use the equation $F=qvBsinθ$ to find the force.",
+        "text": "We are given the charge, its velocity, and the magnetic field strength and direction. We can thus use the equation $F=qvB sin θ$ to find the force.",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The magnetic force is",
+        "text": "The magnetic force is $F=qvB sin θ.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We see that $sinθ=1$ , since the angle between the velocity and the direction of the field is $90º$ . Entering the other given quantities yields",
+        "text": "We see that $sin θ=1$, since the angle between the velocity and the direction of the field is $90º$. Entering the other given quantities yields $F = (20\\times {10}^{–9} C)(10 m/s)(5\\times {10}^{–5} T) = 1\\times {10}^{–11} (C\\cdot m/s)(\\frac{N}{C\\cdot m/s})=1\\times {10}^{–11} N.$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "This force is completely negligible on any macroscopic object, consistent with experience. (It is calculated to only one digit, since the Earth’s field varies with location and is given to only one digit.) The Earth’s magnetic field, however, does produce very important effects, particularly on submicroscopic particles. Some of these are explored in Force on a Moving Charge in a Magnetic Field: Examples and Applications .",
+        "text": "This force is completely negligible on any macroscopic object, consistent with experience. (It is calculated to only one digit, since the Earth’s field varies with location and is given to only one digit.) The Earth’s magnetic field, however, does produce very important effects, particularly on submicroscopic particles. Some of these are explored in Force on a Moving Charge in a Magnetic Field: Examples and Applications.",
         "inline": []
       },
       "level": "core"
@@ -232,7 +232,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A proton moves with a speed of 240 m/s in the + *x* -direction into a region of a 4.5-T uniform magnetic field directed 62° above the + *x* -direction in the *x* , *y* -plane. Calculate the magnitude of the magnetic force on the proton.",
+        "text": "A proton moves with a speed of 240 m/s in the + *x* -direction into a region of a 4.5-T uniform magnetic field directed 62° above the + *x* -direction in the *x*, *y* -plane. Calculate the magnitude of the magnetic force on the proton.",
         "inline": []
       },
       "level": "core",
@@ -301,7 +301,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in ?",
+        "text": "What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in the figure?",
         "inline": []
       },
       "level": "core",
@@ -359,7 +359,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in , assuming it moves perpendicular to $B?$",
+        "text": "What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in the figure, assuming it moves perpendicular to $B?$",
         "inline": []
       },
       "level": "core",
@@ -417,7 +417,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming $B$ is perpendicular to $v$ ?",
+        "text": "What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming $B$ is perpendicular to $v$?",
         "inline": []
       },
       "level": "core",
@@ -508,7 +508,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Aircraft sometimes acquire small static charges. Suppose a supersonic jet has a $0.500-μC$ charge and flies due west at a speed of 660 m/s over the Earth’s magnetic south pole (near Earth's geographic north pole), where the $8.00×{10}^{-5}-T$ magnetic field points straight down. What are the direction and the magnitude of the magnetic force on the plane? (b) Discuss whether the value obtained in part (a) implies this is a significant or negligible effect.",
+        "text": "(a) Aircraft sometimes acquire small static charges. Suppose a supersonic jet has a $0.500-μC$ charge and flies due west at a speed of 660 m/s over the Earth’s magnetic south pole (near Earth's geographic north pole), where the $8.00\\times {10}^{-5}-T$ magnetic field points straight down. What are the direction and the magnitude of the magnetic force on the plane? (b) Discuss whether the value obtained in part (a) implies this is a significant or negligible effect.",
         "inline": []
       },
       "level": "core",
@@ -529,7 +529,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A cosmic ray proton moving toward the Earth at $5.00×{10}^{7}m/s$ experiences a magnetic force of $1.70×{10}^{-16}N$ . What is the strength of the magnetic field if there is a $45º$ angle between it and the proton’s velocity? (b) Is the value obtained in part (a) consistent with the known strength of the Earth’s magnetic field on its surface? Discuss.",
+        "text": "(a) A cosmic ray proton moving toward the Earth at $5.00\\times {10}^{7} m/s$ experiences a magnetic force of $1.70\\times {10}^{-16} N$. What is the strength of the magnetic field if there is a $45º$ angle between it and the proton’s velocity? (b) Is the value obtained in part (a) consistent with the known strength of the Earth’s magnetic field on its surface? Discuss.",
         "inline": []
       },
       "level": "core",
@@ -571,7 +571,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An electron moving at $4.00×{10}^{3}m/s$ in a 1.25-T magnetic field experiences a magnetic force of $1.40×{10}^{-16}N$ . What angle does the velocity of the electron make with the magnetic field? There are two answers.",
+        "text": "An electron moving at $4.00\\times {10}^{3} m/s$ in a 1.25-T magnetic field experiences a magnetic force of $1.40\\times {10}^{-16} N$. What angle does the velocity of the electron make with the magnetic field? There are two answers.",
         "inline": []
       },
       "level": "core",
@@ -592,7 +592,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A physicist performing a sensitive measurement wants to limit the magnetic force on a moving charge in her equipment to less than $1.00×{10}^{-12}N$ . What is the greatest the charge can be if it moves at a maximum speed of 30.0 m/s in the Earth’s field? (b) Discuss whether it would be difficult to limit the charge to less than the value found in (a) by comparing it with typical static electricity and noting that static is often absent.",
+        "text": "(a) A physicist performing a sensitive measurement wants to limit the magnetic force on a moving charge in her equipment to less than $1.00\\times {10}^{-12} N$. What is the greatest the charge can be if it moves at a maximum speed of 30.0 m/s in the Earth’s field? (b) Discuss whether it would be difficult to limit the charge to less than the value found in (a) by comparing it with typical static electricity and noting that static is often absent.",
         "inline": []
       },
       "level": "core",

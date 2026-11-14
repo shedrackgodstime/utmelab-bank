@@ -1,0 +1,597 @@
+{
+  "module": "m42121",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-college-physics-bundle",
+    "section": "m42121",
+    "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "sec-0",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Learning Objectives",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-1",
+      "type": "paragraph",
+      "content": {
+        "text": "By the end of this section, you will be able to:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-2",
+      "type": "paragraph",
+      "content": {
+        "text": "On many occasions, physicists, other scientists, and engineers need to make approximations or “guesstimates” for a particular quantity. What is the distance to a certain destination? What is the approximate density of a given item? About how large a current will there be in a circuit? Many approximate numbers are based on formulae in which the input quantities are known only to a limited accuracy. As you develop problem-solving skills (that can be applied to a variety of fields through a study of physics), you will also develop skills at approximating. You will develop these skills through thinking more quantitatively, and by being willing to take risks. As with any endeavor, experience helps, as well as familiarity with units. These approximations allow us to rule out certain scenarios or unrealistic numbers. Approximations also allow us to challenge others and guide us in our approaches to our scientific world. Let us do two examples to illustrate this concept.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-3",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Approximate the Height of a Building",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "p-4",
+      "type": "paragraph",
+      "content": {
+        "text": "Can you approximate the height of one of the buildings on your campus, or in your neighborhood? Let us make an approximation based upon the height of a person. In this example, we will calculate the height of a 39-story building.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-5",
+      "type": "paragraph",
+      "content": {
+        "text": "Think about the average height of an adult male. We can approximate the height of the building by scaling up from the height of a person.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "Based on information in the example, we know there are 39 stories in the building. If we use the fact that the height of one story is approximately equal to about the length of two adult humans (each human is about 2-m tall), then we can estimate the total height of the building to be $\\frac{2 m}{1 person}\\times \\frac{2 person}{1 story}\\times 39 stories = 156 m.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-7",
+      "type": "paragraph",
+      "content": {
+        "text": "You can use known quantities to determine an approximate measurement of unknown quantities. If your hand measures 10 cm across, how many hand lengths equal the width of your desk? What other measurements can you approximate besides length?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-8",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Approximating Vast Numbers: a Trillion Dollars",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/phy_m42121_Figure_01_04_01.jpg",
+      "caption": {
+        "text": "A bank stack contains one-hundred $100 bills, and is worth $10,000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)",
+        "inline": []
+      },
+      "alt": "A bank stack containing one hundred hundred-dollar bills.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-10",
+      "type": "paragraph",
+      "content": {
+        "text": "The U.S. federal debt in 2021 was a little more than \\$28 trillion. Most of us do not have any concept of how much even one trillion actually is. Suppose that you were given a trillion dollars in \\$100 bills. If you made 100-bill stacks and used them to evenly cover a football field (between the end zones), make an approximation of how high the money pile would become. (We will use feet/inches rather than meters here because football fields are measured in yards.) One of your friends says 3 in., while another says 10 ft. What do you think?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-11",
+      "type": "paragraph",
+      "content": {
+        "text": "When you imagine the situation, you probably envision thousands of small stacks of 100 wrapped \\$100 bills, such as you might see in movies or at a bank. Since this is an easy-to-approximate quantity, let us start there. We can find the volume of a stack of 100 bills, find out how many stacks make up one trillion dollars, and then set this volume equal to the area of the football field multiplied by the unknown height.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-12",
+      "type": "paragraph",
+      "content": {
+        "text": "(1) Calculate the volume of a stack of 100 bills. The dimensions of a single bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in. thick. So the total volume of a stack of 100 bills is: $volume of stack=length\\times width\\times height,; volume of stack=6 in.\\times 3 in.\\times 0.5 in.,; volume of stack=9 in{.}^{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "(2) Calculate the number of stacks. Note that a trillion dollars is equal to $1\\times {10}^{12},$ and a stack of one-hundred $100$ bills is equal to $10,000,$ or $1\\times {10}^{4}$. The number of stacks you will have is: $1\\times {10}^{12}(a trillion dollars)/ 1\\times {10}^{4} per stack=1\\times {10}^{8} stacks.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-14",
+      "type": "paragraph",
+      "content": {
+        "text": "(3) Calculate the area of a football field in square inches. The area of a football field is $100 yd\\times 50 yd,$ which gives $5,{000 yd}^{2}.$ Because we are working in inches, we need to convert square yards to square inches: $Area={5,000 yd}^{2}\\times \\frac{3 ft}{1 yd}\\times \\frac{3 ft}{1 yd}\\times \\frac{12 in.}{1 ft}\\times \\frac{12 in.}{1 ft}=6,480,000 in{.}^{2},; Area\\approx 6\\times {10}^{6} in {.}^{2}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-15",
+      "type": "paragraph",
+      "content": {
+        "text": "This conversion gives us $6\\times {10}^{6} in{.}^{2}$ for the area of the field. (Note that we are using only one significant figure in these calculations.)",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-16",
+      "type": "paragraph",
+      "content": {
+        "text": "(4) Calculate the total volume of the bills. The volume of all the $100$ -bill stacks is $9 in{.}^{3}/stack\\times {10}^{8}stacks=9\\times {10}^{8} in{.}^{3}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-17",
+      "type": "paragraph",
+      "content": {
+        "text": "(5) Calculate the height. To determine the height of the bills, use the equation: $volume of bills = area of field \\times height of money:; Height of money = \\frac{volume of bills}{area of field},; Height of money = \\frac{9\\times {10}^{8}in{.}^{3}}{6\\times {10}^{6}{in.}^{2}} = 1.33 \\times {10}^{2} in.,; Height of money \\approx 1 \\times {10}^{2} in. = 100 in.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-18",
+      "type": "paragraph",
+      "content": {
+        "text": "The height of the money will be about 100 in. high. Converting this value to feet gives $100 in.\\times \\frac{1 ft}{12 in.}=8.33 ft\\approx 8 ft.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-19",
+      "type": "paragraph",
+      "content": {
+        "text": "The final approximate value is much higher than the early estimate of 3 in., but the other early estimate of 10 ft (120 in.) was roughly correct. How did the approximation measure up to your first guess? What can this exercise tell you in terms of rough “guesstimates” versus carefully calculated approximations?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-20",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approximation.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "An average male is about two meters tall. It would take approximately 15 males laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of $420{m}^{2}$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approximation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-22",
+      "type": "paragraph",
+      "content": {
+        "text": "An average male is about two meters tall. It would take approximately 15 males laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of $420{m}^{2}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-23",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Summary",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-24",
+      "type": "paragraph",
+      "content": {
+        "text": "Scientists often approximate the values of quantities to perform calculations and analyze systems.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-25",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Problems & Exercises",
+        "inline": []
+      }
+    },
+    {
+      "id": "exr-26",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "How many heartbeats are there in a lifetime?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Sample answer: $2×{10}^{9}$ heartbeats",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-27",
+      "type": "paragraph",
+      "content": {
+        "text": "How many heartbeats are there in a lifetime?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-28",
+      "type": "paragraph",
+      "content": {
+        "text": "Sample answer: $2×{10}^{9}$ heartbeats",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-29",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-31",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "How many times longer than the mean life of an extremely unstable atomic nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of ${10}^{-22}s$.)",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Sample answer: $2×{10}^{31}$ if an average human lifetime is taken to be about 70 years.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-32",
+      "type": "paragraph",
+      "content": {
+        "text": "How many times longer than the mean life of an extremely unstable atomic nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of ${10}^{-22}s$ .)",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "Sample answer: $2×{10}^{31}$ if an average human lifetime is taken to be about 70 years.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-34",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten times the mass of a hydrogen atom. (Hint: The mass of a hydrogen atom is on the order of ${10}^{-27}kg$ and the mass of a bacterium is on the order of ${10}^{-15}kg.$)",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-35",
+      "type": "paragraph",
+      "content": {
+        "text": "Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten times the mass of a hydrogen atom. (Hint: The mass of a hydrogen atom is on the order of ${10}^{-27}kg$ and the mass of a bacterium is on the order of ${10}^{-15}kg.$ )",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/phy_m42121_Figure_01_04_02-c399.jpg",
+      "caption": {
+        "text": "This color-enhanced photo shows *Salmonella typhimurium* (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)",
+        "inline": []
+      },
+      "alt": "A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "exr-37",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Sample answer: 50 atoms",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-38",
+      "type": "paragraph",
+      "content": {
+        "text": "Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "Sample answer: 50 atoms",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-40",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "(a) What fraction of Earth’s diameter is the greatest ocean depth? (b) The greatest mountain height?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-41",
+      "type": "paragraph",
+      "content": {
+        "text": "(a) What fraction of Earth’s diameter is the greatest ocean depth? (b) The greatest mountain height?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-42",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "(a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium. (b) Making the same assumption, how many cells are there in a human?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Sample answers: (a) ${10}^{12}$ cells/hummingbird (b) ${10}^{16}$ cells/human",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "(a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium. (b) Making the same assumption, how many cells are there in a human?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "(a) ${10}^{12}$ cells/hummingbird",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-45",
+      "type": "paragraph",
+      "content": {
+        "text": "(b) ${10}^{16}$ cells/human",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "exr-46",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": null,
+      "solution_provenance": "no solution element in CNXML"
+    },
+    {
+      "id": "p-47",
+      "type": "paragraph",
+      "content": {
+        "text": "Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?",
+        "inline": []
+      },
+      "level": "core"
+    }
+  ],
+  "solutions": {
+    "osbooks-college-physics-bundle:m42121:exr-20": [
+      [
+        {
+          "kind": "text",
+          "text": "An average male is about two meters tall. It would take approximately 15 males laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of"
+        },
+        {
+          "kind": "math",
+          "text": "420{m}^{2}."
+        }
+      ]
+    ],
+    "osbooks-college-physics-bundle:m42121:exr-26": [
+      [
+        {
+          "kind": "text",
+          "text": "Sample answer:"
+        },
+        {
+          "kind": "math",
+          "text": "2×{10}^{9}"
+        },
+        {
+          "kind": "text",
+          "text": "heartbeats"
+        }
+      ]
+    ],
+    "osbooks-college-physics-bundle:m42121:exr-31": [
+      [
+        {
+          "kind": "text",
+          "text": "Sample answer:"
+        },
+        {
+          "kind": "math",
+          "text": "2×{10}^{31}"
+        },
+        {
+          "kind": "text",
+          "text": "if an average human lifetime is taken to be about 70 years."
+        }
+      ]
+    ],
+    "osbooks-college-physics-bundle:m42121:exr-37": [
+      [
+        {
+          "kind": "text",
+          "text": "Sample answer: 50 atoms"
+        }
+      ]
+    ],
+    "osbooks-college-physics-bundle:m42121:exr-42": [
+      [
+        {
+          "kind": "text",
+          "text": "Sample answers:"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "(a)"
+        },
+        {
+          "kind": "math",
+          "text": "{10}^{12}"
+        },
+        {
+          "kind": "text",
+          "text": "cells/hummingbird"
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "(b)"
+        },
+        {
+          "kind": "math",
+          "text": "{10}^{16}"
+        },
+        {
+          "kind": "text",
+          "text": "cells/human"
+        }
+      ]
+    ]
+  }
+}

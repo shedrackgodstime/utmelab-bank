@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Children blow soap bubbles and play in the spray of a sprinkler on a hot summer day. (See .) An underwater spider keeps his air supply in a shiny bubble he carries wrapped around him. A technician draws blood into a small-diameter tube just by touching it to a drop on a pricked finger. A premature infant struggles to inflate her lungs. What is the common thread? All these activities are dominated by the attractive forces between atoms and molecules in liquids—both within a liquid and between the liquid and its surroundings.",
+        "text": "Children blow soap bubbles and play in the spray of a sprinkler on a hot summer day. (See the figure.) An underwater spider keeps his air supply in a shiny bubble he carries wrapped around him. A technician draws blood into a small-diameter tube just by touching it to a drop on a pricked finger. A premature infant struggles to inflate her lungs. What is the common thread? All these activities are dominated by the attractive forces between atoms and molecules in liquids—both within a liquid and between the liquid and its surroundings.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Attractive forces between molecules of the same type are called cohesive forces . Liquids can, for example, be held in open containers because cohesive forces hold the molecules together. Attractive forces between molecules of different types are called adhesive forces . Such forces cause liquid drops to cling to window panes, for example. In this section we examine effects directly attributable to cohesive and adhesive forces in liquids.",
+        "text": "Attractive forces between molecules of the same type are called cohesive forces. Liquids can, for example, be held in open containers because cohesive forces hold the molecules together. Attractive forces between molecules of different types are called adhesive forces. Such forces cause liquid drops to cling to window panes, for example. In this section we examine effects directly attributable to cohesive and adhesive forces in liquids.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Cohesive forces between molecules cause the surface of a liquid to contract to the smallest possible surface area. This general effect is called surface tension . Molecules on the surface are pulled inward by cohesive forces, reducing the surface area. Molecules inside the liquid experience zero net force, since they have neighbors on all sides.",
+        "text": "Cohesive forces between molecules cause the surface of a liquid to contract to the smallest possible surface area. This general effect is called surface tension. Molecules on the surface are pulled inward by cohesive forces, reducing the surface area. Molecules inside the liquid experience zero net force, since they have neighbors on all sides.",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The model of a liquid surface acting like a stretched elastic sheet can effectively explain surface tension effects. For example, some insects can walk on water (as opposed to floating in it) as we would walk on a trampoline—they dent the surface as shown in (a). (b) shows another example, where a needle rests on a water surface. The iron needle cannot, and does not, float, because its density is greater than that of water. Rather, its weight is supported by forces in the stretched surface that try to make the surface smaller or flatter. If the needle were placed point down on the surface, its weight acting on a smaller area would break the surface, and it would sink.",
+        "text": "The model of a liquid surface acting like a stretched elastic sheet can effectively explain surface tension effects. For example, some insects can walk on water (as opposed to floating in it) as we would walk on a trampoline—they dent the surface as shown in the figure (a). The figure (b) shows another example, where a needle rests on a water surface. The iron needle cannot, and does not, float, because its density is greater than that of water. Rather, its weight is supported by forces in the stretched surface that try to make the surface smaller or flatter. If the needle were placed point down on the surface, its weight acting on a smaller area would break the surface, and it would sink.",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Surface tension is proportional to the strength of the cohesive force, which varies with the type of liquid. Surface tension $γ$ is defined to be the force *F* per unit length $L$ exerted by a stretched liquid membrane:",
+        "text": "Surface tension is proportional to the strength of the cohesive force, which varies with the type of liquid. Surface tension $γ$ is defined to be the force *F* per unit length $L$ exerted by a stretched liquid membrane: $γ=\\frac{F}{L}.$",
         "inline": []
       },
       "level": "core"
@@ -165,7 +165,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "lists values of $γ$ for some liquids. For the insect of (a), its weight $w$ is supported by the upward components of the surface tension force: $w=γLsinθ$ , where $L$ is the circumference of the insect’s foot in contact with the water. shows one way to measure surface tension. The liquid film exerts a force on the movable wire in an attempt to reduce its surface area. The magnitude of this force depends on the surface tension of the liquid and can be measured accurately.",
+        "text": "The table lists values of $γ$ for some liquids. For the insect of the figure (a), its weight $w$ is supported by the upward components of the surface tension force: $w=γL sin θ$, where $L$ is the circumference of the insect’s foot in contact with the water. The figure shows one way to measure surface tension. The liquid film exerts a force on the movable wire in an attempt to reduce its surface area. The magnitude of this force depends on the surface tension of the liquid and can be measured accurately.",
         "inline": []
       },
       "level": "core"
@@ -174,7 +174,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Surface tension is the reason why liquids form bubbles and droplets. The inward surface tension force causes bubbles to be approximately spherical and raises the pressure of the gas trapped inside relative to atmospheric pressure outside. It can be shown that the gauge pressure $P$ inside a spherical bubble is given by",
+        "text": "Surface tension is the reason why liquids form bubbles and droplets. The inward surface tension force causes bubbles to be approximately spherical and raises the pressure of the gas trapped inside relative to atmospheric pressure outside. It can be shown that the gauge pressure $P$ inside a spherical bubble is given by $P=\\frac{4γ}{r},$",
         "inline": []
       },
       "level": "core"
@@ -183,7 +183,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "where $r$ is the radius of the bubble. Thus the pressure inside a bubble is greatest when the bubble is the smallest. Another bit of evidence for this is illustrated in . When air is allowed to flow between two balloons of unequal size, the smaller balloon tends to collapse, filling the larger balloon.",
+        "text": "where $r$ is the radius of the bubble. Thus the pressure inside a bubble is greatest when the bubble is the smallest. Another bit of evidence for this is illustrated in the figure. When air is allowed to flow between two balloons of unequal size, the smaller balloon tends to collapse, filling the larger balloon.",
         "inline": []
       },
       "level": "core"
@@ -305,7 +305,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the gauge pressure inside a soap bubble $2.00×{10}^{-4}m$ in radius using the surface tension for soapy water in . Convert this pressure to mm Hg.",
+        "text": "Calculate the gauge pressure inside a soap bubble $2.00\\times {10}^{-4} m$ in radius using the surface tension for soapy water in the table. Convert this pressure to mm Hg.",
         "inline": []
       },
       "level": "core"
@@ -314,7 +314,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The radius is given and the surface tension can be found in , and so $P$ can be found directly from the equation $P=\\frac{4γ}{r}$ .",
+        "text": "The radius is given and the surface tension can be found in the table, and so $P$ can be found directly from the equation $P=\\frac{4γ}{r}$.",
         "inline": []
       },
       "level": "core"
@@ -323,7 +323,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Substituting $r$ and $γ$ into the equation $P=\\frac{4γ}{r}$ , we obtain",
+        "text": "Substituting $r$ and $γ$ into the equation $P=\\frac{4γ}{r}$, we obtain $P=\\frac{4γ}{r}=\\frac{4(0.037 N/m)}{2.00\\times {10}^{-4} m}=740 {N/m}^{2}=740 Pa.$",
         "inline": []
       },
       "level": "core"
@@ -332,7 +332,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "We use a conversion factor to get this into units of mm Hg:",
+        "text": "We use a conversion factor to get this into units of mm Hg: $P=(740 {N/m}^{2})\\frac{1.00 mm Hg}{133 {N/m}^{2}}=5.56 mm Hg.$",
         "inline": []
       },
       "level": "core"
@@ -350,7 +350,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Our lungs contain hundreds of millions of mucus-lined sacs called *alveoli* , which are very similar in size, and about 0.1 mm in diameter. (See .) You can exhale without muscle action by allowing surface tension to contract these sacs. Medical patients whose breathing is aided by a positive pressure respirator have air blown into the lungs, but are generally allowed to exhale on their own. Even if there is paralysis, surface tension in the alveoli will expel air from the lungs. Since pressure increases as the radii of the alveoli decrease, an occasional deep cleansing breath is needed to fully reinflate the alveoli. Respirators are programmed to do this and we find it natural, as do our companion dogs and cats, to take a cleansing breath before settling into a nap.",
+        "text": "Our lungs contain hundreds of millions of mucus-lined sacs called *alveoli*, which are very similar in size, and about 0.1 mm in diameter. (See the figure.) You can exhale without muscle action by allowing surface tension to contract these sacs. Medical patients whose breathing is aided by a positive pressure respirator have air blown into the lungs, but are generally allowed to exhale on their own. Even if there is paralysis, surface tension in the alveoli will expel air from the lungs. Since pressure increases as the radii of the alveoli decrease, an occasional deep cleansing breath is needed to fully reinflate the alveoli. Respirators are programmed to do this and we find it natural, as do our companion dogs and cats, to take a cleansing breath before settling into a nap.",
         "inline": []
       },
       "level": "core"
@@ -372,7 +372,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The tension in the walls of the alveoli results from the membrane tissue and a liquid on the walls of the alveoli containing a long lipoprotein that acts as a surfactant (a surface-tension reducing substance). The need for the surfactant results from the tendency of small alveoli to collapse and the air to fill into the larger alveoli making them even larger (as demonstrated in ). During inhalation, the lipoprotein molecules are pulled apart and the wall tension increases as the radius increases (increased surface tension). During exhalation, the molecules slide back together and the surface tension decreases, helping to prevent a collapse of the alveoli. The surfactant therefore serves to change the wall tension so that small alveoli don’t collapse and large alveoli are prevented from expanding too much. This tension change is a unique property of these surfactants, and is not shared by detergents (which simply lower surface tension). (See .)",
+        "text": "The tension in the walls of the alveoli results from the membrane tissue and a liquid on the walls of the alveoli containing a long lipoprotein that acts as a surfactant (a surface-tension reducing substance). The need for the surfactant results from the tendency of small alveoli to collapse and the air to fill into the larger alveoli making them even larger (as demonstrated in the figure). During inhalation, the lipoprotein molecules are pulled apart and the wall tension increases as the radius increases (increased surface tension). During exhalation, the molecules slide back together and the surface tension decreases, helping to prevent a collapse of the alveoli. The surfactant therefore serves to change the wall tension so that small alveoli don’t collapse and large alveoli are prevented from expanding too much. This tension change is a unique property of these surfactants, and is not shared by detergents (which simply lower surface tension). (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -421,7 +421,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Why is it that water beads up on a waxed car but does not on bare paint? The answer is that the adhesive forces between water and wax are much smaller than those between water and paint. Competition between the forces of adhesion and cohesion are important in the macroscopic behavior of liquids. An important factor in studying the roles of these two forces is the angle $θ$ between the tangent to the liquid surface and the surface. (See .) The contact angle $θ$ is directly related to the relative strength of the cohesive and adhesive forces. The larger the strength of the cohesive force relative to the adhesive force, the larger $θ$ is, and the more the liquid tends to form a droplet. The smaller $θ$ is, the smaller the relative strength, so that the adhesive force is able to flatten the drop. lists contact angles for several combinations of liquids and solids.",
+        "text": "Why is it that water beads up on a waxed car but does not on bare paint? The answer is that the adhesive forces between water and wax are much smaller than those between water and paint. Competition between the forces of adhesion and cohesion are important in the macroscopic behavior of liquids. An important factor in studying the roles of these two forces is the angle $θ$ between the tangent to the liquid surface and the surface. (See the figure.) The contact angle $θ$ is directly related to the relative strength of the cohesive and adhesive forces. The larger the strength of the cohesive force relative to the adhesive force, the larger $θ$ is, and the more the liquid tends to form a droplet. The smaller $θ$ is, the smaller the relative strength, so that the adhesive force is able to flatten the drop. The table lists contact angles for several combinations of liquids and solids.",
         "inline": []
       },
       "level": "core"
@@ -452,7 +452,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action —the tendency of a fluid to be raised or suppressed in a narrow tube, or *capillary tube* . This action causes blood to be drawn into a small-diameter tube when the tube touches a drop.",
+        "text": "One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action —the tendency of a fluid to be raised or suppressed in a narrow tube, or *capillary tube*. This action causes blood to be drawn into a small-diameter tube when the tube touches a drop.",
         "inline": []
       },
       "level": "core"
@@ -470,7 +470,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "If a capillary tube is placed vertically into a liquid, as shown in , capillary action will raise or suppress the liquid inside the tube depending on the combination of substances. The actual effect depends on the relative strength of the cohesive and adhesive forces and, thus, the contact angle $θ$ given in the table. If $θ$ is less than $90º$ , then the fluid will be raised; if $θ$ is greater than $90º$ , it will be suppressed. Mercury, for example, has a very large surface tension and a large contact angle with glass. When placed in a tube, the surface of a column of mercury curves downward, somewhat like a drop. The curved surface of a fluid in a tube is called a *meniscus* . The tendency of surface tension is always to reduce the surface area. Surface tension thus flattens the curved liquid surface in a capillary tube. This results in a downward force in mercury and an upward force in water, as seen in .",
+        "text": "If a capillary tube is placed vertically into a liquid, as shown in the figure, capillary action will raise or suppress the liquid inside the tube depending on the combination of substances. The actual effect depends on the relative strength of the cohesive and adhesive forces and, thus, the contact angle $θ$ given in the table. If $θ$ is less than $90º$, then the fluid will be raised; if $θ$ is greater than $90º$, it will be suppressed. Mercury, for example, has a very large surface tension and a large contact angle with glass. When placed in a tube, the surface of a column of mercury curves downward, somewhat like a drop. The curved surface of a fluid in a tube is called a *meniscus*. The tendency of surface tension is always to reduce the surface area. Surface tension thus flattens the curved liquid surface in a capillary tube. This results in a downward force in mercury and an upward force in water, as seen in the figure.",
         "inline": []
       },
       "level": "core"
@@ -545,7 +545,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "Capillary action can move liquids horizontally over very large distances, but the height to which it can raise or suppress a liquid in a tube is limited by its weight. It can be shown that this height $h$ is given by",
+        "text": "Capillary action can move liquids horizontally over very large distances, but the height to which it can raise or suppress a liquid in a tube is limited by its weight. It can be shown that this height $h$ is given by $h=\\frac{2γ cos θ}{ρgr}.$",
         "inline": []
       },
       "level": "core"
@@ -554,7 +554,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "If we look at the different factors in this expression, we might see how it makes good sense. The height is directly proportional to the surface tension $γ$ , which is its direct cause. Furthermore, the height is inversely proportional to tube radius—the smaller the radius $r$ , the higher the fluid can be raised, since a smaller tube holds less mass. The height is also inversely proportional to fluid density $ρ$ , since a larger density means a greater mass in the same volume. (See .)",
+        "text": "If we look at the different factors in this expression, we might see how it makes good sense. The height is directly proportional to the surface tension $γ$, which is its direct cause. Furthermore, the height is inversely proportional to tube radius—the smaller the radius $r$, the higher the fluid can be raised, since a smaller tube holds less mass. The height is also inversely proportional to fluid density $ρ$, since a larger density means a greater mass in the same volume. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -591,7 +591,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "Can capillary action be solely responsible for sap rising in trees? To answer this question, calculate the radius of a capillary tube that would raise sap 100 m to the top of a giant redwood, assuming that sap’s density is $1050 kg{/m}^{3}$ , its contact angle is zero, and its surface tension is the same as that of water at $20.0º C$ .",
+        "text": "Can capillary action be solely responsible for sap rising in trees? To answer this question, calculate the radius of a capillary tube that would raise sap 100 m to the top of a giant redwood, assuming that sap’s density is $1050 kg{/m}^{3}$, its contact angle is zero, and its surface tension is the same as that of water at $20.0º C$.",
         "inline": []
       },
       "level": "core"
@@ -600,7 +600,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "The height to which a liquid will rise as a result of capillary action is given by $h=\\frac{2γcosθ}{ρgr}$ , and every quantity is known except for $r$ .",
+        "text": "The height to which a liquid will rise as a result of capillary action is given by $h=\\frac{2γ cos θ}{ρgr}$, and every quantity is known except for $r$.",
         "inline": []
       },
       "level": "core"
@@ -609,7 +609,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $r$ and substituting known values produces",
+        "text": "Solving for $r$ and substituting known values produces $r = \\frac{2γ cos θ}{ρgh}=\\frac{2(0.0728 N/m)cos(0º)}{(1050 {kg/m}^{3})(9.80 {m/s}^{2})(100 m)} = 1.41\\times {10}^{-7} m.$",
         "inline": []
       },
       "level": "core"
@@ -618,7 +618,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "This result is unreasonable. Sap in trees moves through the *xylem* , which forms tubes with radii as small as $2.5×{10}^{-5}m$ . This value is about 180 times as large as the radius found necessary here to raise sap $100 m$ . This means that capillary action alone cannot be solely responsible for sap getting to the tops of trees.",
+        "text": "This result is unreasonable. Sap in trees moves through the *xylem*, which forms tubes with radii as small as $2.5\\times {10}^{-5} m$. This value is about 180 times as large as the radius found necessary here to raise sap $100 m$. This means that capillary action alone cannot be solely responsible for sap getting to the tops of trees.",
         "inline": []
       },
       "level": "core"
@@ -627,7 +627,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "How *does* sap get to the tops of tall trees? (Recall that a column of water can only rise to a height of 10 m when there is a vacuum at the top—see .) The question has not been completely resolved, but it appears that it is pulled up like a chain held together by cohesive forces. As each molecule of sap enters a leaf and evaporates (a process called transpiration), the entire chain is pulled up a notch. So a negative pressure created by water evaporation must be present to pull the sap up through the xylem vessels. In most situations, *fluids can push but can exert only negligible pull* , because the cohesive forces seem to be too small to hold the molecules tightly together. But in this case, the cohesive force of water molecules provides a very strong pull. shows one device for studying negative pressure. Some experiments have demonstrated that negative pressures sufficient to pull sap to the tops of the tallest trees *can* be achieved.",
+        "text": "How *does* sap get to the tops of tall trees? (Recall that a column of water can only rise to a height of 10 m when there is a vacuum at the top—see the example.) The question has not been completely resolved, but it appears that it is pulled up like a chain held together by cohesive forces. As each molecule of sap enters a leaf and evaporates (a process called transpiration), the entire chain is pulled up a notch. So a negative pressure created by water evaporation must be present to pull the sap up through the xylem vessels. In most situations, *fluids can push but can exert only negligible pull*, because the cohesive forces seem to be too small to hold the molecules tightly together. But in this case, the cohesive force of water molecules provides a very strong pull. The figure shows one device for studying negative pressure. Some experiments have demonstrated that negative pressures sufficient to pull sap to the tops of the tallest trees *can* be achieved.",
         "inline": []
       },
       "level": "core"
@@ -845,7 +845,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the pressure inside an alveolus having a radius of $2.50×{10}^{-4}m$ if the surface tension of the fluid-lined wall is the same as for soapy water? You may assume the pressure is the same as that created by a spherical bubble.",
+        "text": "What is the pressure inside an alveolus having a radius of $2.50\\times {10}^{-4} m$ if the surface tension of the fluid-lined wall is the same as for soapy water? You may assume the pressure is the same as that created by a spherical bubble.",
         "inline": []
       },
       "level": "core",
@@ -869,7 +869,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) The pressure inside an alveolus with a $2.00×{10}^{-4}$ -m radius is $1.40×{10}^{3}Pa$ , due to its fluid-lined walls. Assuming the alveolus acts like a spherical bubble, what is the surface tension of the fluid? (b) Identify the likely fluid. (You may need to extrapolate between values in .)",
+        "text": "(a) The pressure inside an alveolus with a $2.00\\times {10}^{-4}$ -m radius is $1.40\\times {10}^{3} Pa$, due to its fluid-lined walls. Assuming the alveolus acts like a spherical bubble, what is the surface tension of the fluid? (b) Identify the likely fluid. (You may need to extrapolate between values in the table.)",
         "inline": []
       },
       "level": "core",
@@ -923,7 +923,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the force on the slide wire in if it is 3.50 cm long and the fluid is ethyl alcohol.",
+        "text": "Calculate the force on the slide wire in the figure if it is 3.50 cm long and the fluid is ethyl alcohol.",
         "inline": []
       },
       "level": "core",
@@ -944,7 +944,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) shows the effect of tube radius on the height to which capillary action can raise a fluid. (a) Calculate the height $h$ for water in a glass tube with a radius of 0.900 cm—a rather large tube like the one on the left. (b) What is the radius of the glass tube on the right if it raises water to 4.00 cm?",
+        "text": "The figure (a) shows the effect of tube radius on the height to which capillary action can raise a fluid. (a) Calculate the height $h$ for water in a glass tube with a radius of 0.900 cm—a rather large tube like the one on the left. (b) What is the radius of the glass tube on the right if it raises water to 4.00 cm?",
         "inline": []
       },
       "level": "core",
@@ -986,7 +986,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "We stated in that a xylem tube is of radius $2.50×{10}^{-5}m$ . Verify that such a tube raises sap less than a meter by finding $h$ for it, making the same assumptions that sap’s density is $1050{kg/m}^{3}$ , its contact angle is zero, and its surface tension is the same as that of water at $20.0º C$ .",
+        "text": "We stated in the example that a xylem tube is of radius $2.50\\times {10}^{-5} m$. Verify that such a tube raises sap less than a meter by finding $h$ for it, making the same assumptions that sap’s density is $1050 {kg/m}^{3}$, its contact angle is zero, and its surface tension is the same as that of water at $20.0º C$.",
         "inline": []
       },
       "level": "core",
@@ -1007,7 +1007,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What fluid is in the device shown in if the force is $3.16×{10}^{-3}N$ and the length of the wire is 2.50 cm? Calculate the surface tension $γ$ and find a likely match from .",
+        "text": "What fluid is in the device shown in the figure if the force is $3.16\\times {10}^{-3} N$ and the length of the wire is 2.50 cm? Calculate the surface tension $γ$ and find a likely match from the table.",
         "inline": []
       },
       "level": "core",

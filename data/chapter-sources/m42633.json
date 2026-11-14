@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Some nuclides are stable, apparently living forever. Unstable nuclides decay (that is, they are radioactive), eventually producing a stable nuclide after many decays. We call the original nuclide the parent and its decay products the daughters . Some radioactive nuclides decay in a single step to a stable nucleus. For example, ${}^{60}Co$ is unstable and decays directly to ${}^{60}Ni$ , which is stable. Others, such as ${}^{238}U$ , decay to another unstable nuclide, resulting in a decay series in which each subsequent nuclide decays until a stable nuclide is finally produced. The decay series that starts from ${}^{238}U$ is of particular interest, since it produces the radioactive isotopes ${}^{226}Ra$ and ${}^{210}Po$ , which the Curies first discovered (see ). Radon gas is also produced ( ${}^{222}Rn$ in the series), an increasingly recognized naturally occurring hazard. Since radon is a noble gas, it emanates from materials, such as soil, containing even trace amounts of ${}^{238}U$ and can be inhaled. The decay of radon and its daughters produces internal damage. The ${}^{238}U$ decay series ends with ${}^{206}Pb$ , a stable isotope of lead.",
+        "text": "Some nuclides are stable, apparently living forever. Unstable nuclides decay (that is, they are radioactive), eventually producing a stable nuclide after many decays. We call the original nuclide the parent and its decay products the daughters. Some radioactive nuclides decay in a single step to a stable nucleus. For example, ${}^{60}Co$ is unstable and decays directly to ${}^{60}Ni$, which is stable. Others, such as ${}^{238}U$, decay to another unstable nuclide, resulting in a decay series in which each subsequent nuclide decays until a stable nuclide is finally produced. The decay series that starts from ${}^{238}U$ is of particular interest, since it produces the radioactive isotopes ${}^{226}Ra$ and ${}^{210}Po$, which the Curies first discovered (see the figure). Radon gas is also produced (${}^{222}Rn$ in the series), an increasingly recognized naturally occurring hazard. Since radon is a noble gas, it emanates from materials, such as soil, containing even trace amounts of ${}^{238}U$ and can be inhaled. The decay of radon and its daughters produces internal damage. The ${}^{238}U$ decay series ends with ${}^{206}Pb$, a stable isotope of lead.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Note that the daughters of $α$ decay shown in always have two fewer protons and two fewer neutrons than the parent. This seems reasonable, since we know that $α$ decay is the emission of a ${}^{4}He$ nucleus, which has two protons and two neutrons. The daughters of $β$ decay have one less neutron and one more proton than their parent. Beta decay is a little more subtle, as we shall see. No $γ$ decays are shown in the figure, because they do not produce a daughter that differs from the parent.",
+        "text": "Note that the daughters of $α$ decay shown in the figure always have two fewer protons and two fewer neutrons than the parent. This seems reasonable, since we know that $α$ decay is the emission of a ${}^{4}He$ nucleus, which has two protons and two neutrons. The daughters of $β$ decay have one less neutron and one more proton than their parent. Beta decay is a little more subtle, as we shall see. No $γ$ decays are shown in the figure, because they do not produce a daughter that differs from the parent.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "In alpha decay , a ${}^{4}He$ nucleus simply breaks away from the parent nucleus, leaving a daughter with two fewer protons and two fewer neutrons than the parent (see ). One example of $α$ decay is shown in for ${}^{238}U$ . Another nuclide that undergoes $α$ decay is ${}^{239}Pu$ . The decay equations for these two nuclides are",
+        "text": "In alpha decay, a ${}^{4}He$ nucleus simply breaks away from the parent nucleus, leaving a daughter with two fewer protons and two fewer neutrons than the parent (see the figure). One example of $α$ decay is shown in the figure for ${}^{238}U$. Another nuclide that undergoes $α$ decay is ${}^{239}Pu$. The decay equations for these two nuclides are ${}^{238}U\\to {}^{234}Th+{}^{4}He$",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "If you examine the periodic table of the elements, you will find that Th has $Z=90$ , two fewer than U, which has $Z=92$ . Similarly, in the second decay equation , we see that U has two fewer protons than Pu, which has $Z=94$ . The general rule for $α$ decay is best written in the format ${}_{Z}^{A}{X}_{N}$ . If a certain nuclide is known to $α$ decay (generally this information must be looked up in a table of isotopes, such as in Appendix B ), its $α$ decay equation is",
+        "text": "If you examine the periodic table of the elements, you will find that Th has $Z=90$, two fewer than U, which has $Z=92$. Similarly, in the second decay equation, we see that U has two fewer protons than Pu, which has $Z=94$. The general rule for $α$ decay is best written in the format ${}_{Z}^{A}{X}_{N}$. If a certain nuclide is known to $α$ decay (generally this information must be looked up in a table of isotopes, such as in Appendix B), its $α$ decay equation is ${}_{Z}^{A}{X}_{N}\\to {}_{Z-2}^{A-4}{Y}_{N-2}+{}_{2}^{4}{He}_{2} (α decay)$",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "It is instructive to examine conservation laws related to $α$ decay. You can see from the equation ${}_{Z}^{A}{X}_{N}→{}_{Z-2}^{A-4}{Y}_{N-2}+{}_{2}^{4}{He}_{2}$ that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the $α$ particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. As discussed in Atomic Physics , the general relationship is",
+        "text": "It is instructive to examine conservation laws related to $α$ decay. You can see from the equation ${}_{Z}^{A}{X}_{N}\\to {}_{Z-2}^{A-4}{Y}_{N-2}+{}_{2}^{4}{He}_{2}$ that total charge is conserved. Linear and angular momentum are conserved, too. Although conserved angular momentum is not of great consequence in this type of decay, conservation of linear momentum has interesting consequences. If the nucleus is at rest when it decays, its momentum is zero. In that case, the fragments must fly in opposite directions with equal-magnitude momenta so that total momentum remains zero. This results in the $α$ particle carrying away most of the energy, as a bullet from a heavy rifle carries away most of the energy of the powder burned to shoot it. Total mass–energy is also conserved: the energy produced in the decay comes from conversion of a fraction of the original mass. As discussed in Atomic Physics, the general relationship is $E =(Δm){c}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Here, $E$ is the nuclear reaction energy (the reaction can be nuclear decay or any other reaction), and $Δm$ is the difference in mass between initial and final products. When the final products have less total mass, $Δm$ is positive, and the reaction releases energy (is exothermic). When the products have greater total mass, the reaction is endothermic ( $Δm$ is negative) and must be induced with an energy input. For $α$ decay to be spontaneous, the decay products must have smaller mass than the parent.",
+        "text": "Here, $E$ is the nuclear reaction energy (the reaction can be nuclear decay or any other reaction), and $Δm$ is the difference in mass between initial and final products. When the final products have less total mass, $Δm$ is positive, and the reaction releases energy (is exothermic). When the products have greater total mass, the reaction is endothermic ($Δm$ is negative) and must be induced with an energy input. For $α$ decay to be spontaneous, the decay products must have smaller mass than the parent.",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Find the energy emitted in the $α$ decay of ${}^{239}Pu$ .",
+        "text": "Find the energy emitted in the $α$ decay of ${}^{239}Pu$.",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Nuclear reaction energy, such as released in *α* decay, can be found using the equation $E=(Δm){c}^{2}$ . We must first find $Δm$ , the difference in mass between the parent nucleus and the products of the decay. This is easily done using masses given in Appendix A .",
+        "text": "Nuclear reaction energy, such as released in *α* decay, can be found using the equation $E=(Δm){c}^{2}$. We must first find $Δm$, the difference in mass between the parent nucleus and the products of the decay. This is easily done using masses given in Appendix A.",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The decay equation was given earlier for ${}^{239}Pu$ ; it is",
+        "text": "The decay equation was given earlier for ${}^{239}Pu$; it is ${}^{239}Pu\\to {}^{235}U+{}^{4}He.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Thus the pertinent masses are those of ${}^{239}Pu$ , ${}^{235}U$ , and the $α$ particle or ${}^{4}He$ , all of which are listed in Appendix A . The initial mass was $m{(}^{239}Pu)=239.052157 u$ . The final mass is the sum $m{(}^{235}U)+m{(}^{4}He)= 235.043924 u + 4.002602 u = 239.046526 u$ . Thus,",
+        "text": "Thus the pertinent masses are those of ${}^{239}Pu$, ${}^{235}U$, and the $α$ particle or ${}^{4}He$, all of which are listed in Appendix A. The initial mass was $m{(}^{239}Pu)=239.052157 u$. The final mass is the sum $m{(}^{235}U)+m{(}^{4}He)= 235.043924 u + 4.002602 u = 239.046526 u$. Thus, $Δ m = m {(}^{239} Pu)-[ m {(}^{235} U)+m ({}^{4} He) ] = 239.052157 u-239.046526 u = 0.005631 u.$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Now we can find $E$ by entering $Δm$ into the equation:",
+        "text": "Now we can find $E$ by entering $Δm$ into the equation: $E=(Δm){c}^{2}=(0.005631 u){c}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "We know $1 u=931.5 MeV/{c}^{2}$ , and so",
+        "text": "We know $1 u=931.5 MeV/{c}^{2}$, and so $E=(0.005631)(931.5 MeV/{c}^{2})({c}^{2})=5.25 MeV.$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The energy released in this $α$ decay is in the $MeV$ range, about ${10}^{6}$ times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the $α$ particle (or ${}^{4}He$ nucleus), which moves away at high speed. The energy carried away by the recoil of the ${}^{235}U$ nucleus is much smaller in order to conserve momentum. The ${}^{235}U$ nucleus can be left in an excited state to later emit photons ( $γ$ rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in Binding Energy . Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after $α$ decay, and so their masses subtract out when finding $Δm$ . In this case, there are 94 electrons before and after the decay.",
+        "text": "The energy released in this $α$ decay is in the $MeV$ range, about ${10}^{6}$ times as great as typical chemical reaction energies, consistent with many previous discussions. Most of this energy becomes kinetic energy of the $α$ particle (or ${}^{4}He$ nucleus), which moves away at high speed. The energy carried away by the recoil of the ${}^{235}U$ nucleus is much smaller in order to conserve momentum. The ${}^{235}U$ nucleus can be left in an excited state to later emit photons ($γ$ rays). This decay is spontaneous and releases energy, because the products have less mass than the parent nucleus. The question of why the products have less mass will be discussed in Binding Energy. Note that the masses given in Appendix A are atomic masses of neutral atoms, including their electrons. The mass of the electrons is the same before and after $α$ decay, and so their masses subtract out when finding $Δm$. In this case, there are 94 electrons before and after the decay.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "There are actually *three* types of beta decay . The first discovered was “ordinary” beta decay and is called ${β}^{-}$ decay or electron emission. The symbol ${β}^{-}$ represents *an electron emitted in nuclear beta decay* . Cobalt-60 is a nuclide that ${β}^{-}$ decays in the following manner:",
+        "text": "There are actually *three* types of beta decay. The first discovered was “ordinary” beta decay and is called ${β}^{-}$ decay or electron emission. The symbol ${β}^{-}$ represents *an electron emitted in nuclear beta decay*. Cobalt-60 is a nuclide that ${β}^{-}$ decays in the following manner: ${}^{60}Co\\to {}^{60}Ni+{β}^{-}+neutrino.$",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see ). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
+        "text": "The neutrino is a particle emitted in beta decay that was unanticipated and is of fundamental importance. The neutrino was not even proposed in theory until more than 20 years after beta decay was known to involve electron emissions. Neutrinos are so difficult to detect that the first direct evidence of them was not obtained until 1953. Neutrinos are nearly massless, have no charge, and do not interact with nucleons via the strong nuclear force. Traveling approximately at the speed of light, they have little time to affect any nucleus they encounter. This is, owing to the fact that they have no charge (and they are not EM waves), they do not interact through the EM force. They do interact via the relatively weak and very short range weak nuclear force. Consequently, neutrinos escape almost any detector and penetrate almost any shielding. However, neutrinos do carry energy, angular momentum (they are fermions with half-integral spin), and linear momentum away from a beta decay. When accurate measurements of beta decay were made, it became apparent that energy, angular momentum, and linear momentum were not accounted for by the daughter nucleus and electron alone. Either a previously unsuspected particle was carrying them away, or three conservation laws were being violated. Wolfgang Pauli made a formal proposal for the existence of neutrinos in 1930. The Italian-born American physicist Enrico Fermi (1901–1954) gave neutrinos their name, meaning little neutral ones, when he developed a sophisticated theory of beta decay (see the figure). Part of Fermi’s theory was the identification of the weak nuclear force as being distinct from the strong nuclear force and in fact responsible for beta decay. Chinese-born physicist Chien-Shiung Wu, who had developed a number of processes critical to the Manhattan Project and related research, set out to investigate Fermi’s theory and some experiments whose failures had cast the theory in doubt. She first identified a number of flaws in her contemporaries’ methods and materials, and then designed an experimental method that would avoid the same errors. Wu verified Fermi’s theory and went on to establish the core principles of beta decay, which would become critical to further work in nuclear physics.",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "The neutrino also reveals a new conservation law. There are various families of particles, one of which is the electron family. We propose that the number of members of the electron family is constant in any process or any closed system. In our example of beta decay, there are no members of the electron family present before the decay, but after, there is an electron and a neutrino. So electrons are given an electron family number of $+1$ . The neutrino in ${β}^{-}$ decay is an electron’s antineutrino , given the symbol ${ν¯}_{e}$ , where $ν$ is the Greek letter nu, and the subscript *e* means this neutrino is related to the electron. The bar indicates this is a particle of antimatter . (All particles have antimatter counterparts that are nearly identical except that they have the opposite charge. Antimatter is almost entirely absent on Earth, but it is found in nuclear decay and other nuclear and particle reactions as well as in outer space.) The electron’s antineutrino ${ν¯}_{e}$ , being antimatter, has an electron family number of $–1$ . The total is zero, before and after the decay. The new conservation law, obeyed in all circumstances, states that the *total electron family number is constant* . An electron cannot be created without also creating an antimatter family member. This law is analogous to the conservation of charge in a situation where total charge is originally zero, and equal amounts of positive and negative charge must be created in a reaction to keep the total zero.",
+        "text": "The neutrino also reveals a new conservation law. There are various families of particles, one of which is the electron family. We propose that the number of members of the electron family is constant in any process or any closed system. In our example of beta decay, there are no members of the electron family present before the decay, but after, there is an electron and a neutrino. So electrons are given an electron family number of $+1$. The neutrino in ${β}^{-}$ decay is an electron’s antineutrino, given the symbol ${ν¯}_{e}$, where $ν$ is the Greek letter nu, and the subscript *e* means this neutrino is related to the electron. The bar indicates this is a particle of antimatter. (All particles have antimatter counterparts that are nearly identical except that they have the opposite charge. Antimatter is almost entirely absent on Earth, but it is found in nuclear decay and other nuclear and particle reactions as well as in outer space.) The electron’s antineutrino ${ν¯}_{e}$, being antimatter, has an electron family number of $–1$. The total is zero, before and after the decay. The new conservation law, obeyed in all circumstances, states that the *total electron family number is constant*. An electron cannot be created without also creating an antimatter family member. This law is analogous to the conservation of charge in a situation where total charge is originally zero, and equal amounts of positive and negative charge must be created in a reaction to keep the total zero.",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to ${β}^{-}$ decay, then its ${β}^{-}$ decay equation is",
+        "text": "If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to ${β}^{-}$ decay, then its ${β}^{-}$ decay equation is $ZA{X}_{N}\\to Z+1A{Y}_{N-1}+{β}^{-}+{ν-}_{e} ({β}^{-} decay),$",
         "inline": []
       },
       "level": "core"
@@ -274,7 +274,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "where Y is the nuclide having one more proton than X (see ). So if you know that a certain nuclide ${β}^{-}$ decays, you can find the daughter nucleus by first looking up $Z$ for the parent and then determining which element has atomic number $Z+1$ . In the example of the ${β}^{-}$ decay of ${}^{60}Co$ given earlier, we see that $Z=27$ for Co and $Z=28$ is Ni. It is as if one of the neutrons in the parent nucleus decays into a proton, electron, and neutrino. In fact, neutrons outside of nuclei do just that—they live only an average of a few minutes and ${β}^{-}$ decay in the following manner:",
+        "text": "where Y is the nuclide having one more proton than X (see the figure). So if you know that a certain nuclide ${β}^{-}$ decays, you can find the daughter nucleus by first looking up $Z$ for the parent and then determining which element has atomic number $Z+1$. In the example of the ${β}^{-}$ decay of ${}^{60}Co$ given earlier, we see that $Z=27$ for Co and $Z=28$ is Ni. It is as if one of the neutrons in the parent nucleus decays into a proton, electron, and neutrino. In fact, neutrons outside of nuclei do just that—they live only an average of a few minutes and ${β}^{-}$ decay in the following manner: $n\\to p+{β}^{-}+{ν-}_{e}.$",
         "inline": []
       },
       "level": "core"
@@ -296,7 +296,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "We see that charge is conserved in ${β}^{-}$ decay, since the total charge is $Z$ before and after the decay. For example, in ${}^{60}Co$ decay, total charge is 27 before decay, since cobalt has $Z=27$ . After decay, the daughter nucleus is Ni, which has $Z=28$ , and there is an electron, so that the total charge is also $28 + (–1)$ or 27. Angular momentum is conserved, but not obviously (you have to examine the spins and angular momenta of the final products in detail to verify this). Linear momentum is also conserved, again imparting most of the decay energy to the electron and the antineutrino, since they are of low and zero mass, respectively. Another new conservation law is obeyed here and elsewhere in nature. *The total number of nucleons $A$ is conserved* . In ${}^{60}Co$ decay, for example, there are 60 nucleons before and after the decay. Note that total $A$ is also conserved in $α$ decay. Also note that the total number of protons changes, as does the total number of neutrons, so that total $Z$ and total $N$ are *not* conserved in ${β}^{-}$ decay, as they are in $α$ decay. Energy released in ${β}^{-}$ decay can be calculated given the masses of the parent and products.",
+        "text": "We see that charge is conserved in ${β}^{-}$ decay, since the total charge is $Z$ before and after the decay. For example, in ${}^{60}Co$ decay, total charge is 27 before decay, since cobalt has $Z=27$. After decay, the daughter nucleus is Ni, which has $Z=28$, and there is an electron, so that the total charge is also $28 + (–1)$ or 27. Angular momentum is conserved, but not obviously (you have to examine the spins and angular momenta of the final products in detail to verify this). Linear momentum is also conserved, again imparting most of the decay energy to the electron and the antineutrino, since they are of low and zero mass, respectively. Another new conservation law is obeyed here and elsewhere in nature. *The total number of nucleons $A$ is conserved*. In ${}^{60}Co$ decay, for example, there are 60 nucleons before and after the decay. Note that total $A$ is also conserved in $α$ decay. Also note that the total number of protons changes, as does the total number of neutrons, so that total $Z$ and total $N$ are *not* conserved in ${β}^{-}$ decay, as they are in $α$ decay. Energy released in ${β}^{-}$ decay can be calculated given the masses of the parent and products.",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Find the energy emitted in the ${β}^{-}$ decay of ${}^{60}Co$ .",
+        "text": "Find the energy emitted in the ${β}^{-}$ decay of ${}^{60}Co$.",
         "inline": []
       },
       "level": "core"
@@ -338,7 +338,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "As in the preceding example, we must first find $Δm$ , the difference in mass between the parent nucleus and the products of the decay, using masses given in Appendix A . Then the emitted energy is calculated as before, using $E=(Δm){c}^{2}$ . The initial mass is just that of the parent nucleus, and the final mass is that of the daughter nucleus and the electron created in the decay. The neutrino is massless, or nearly so. However, since the masses given in Appendix A are for neutral atoms, the daughter nucleus has one more electron than the parent, and so the extra electron mass that corresponds to the ${β}^{-}$ is included in the atomic mass of Ni. Thus,",
+        "text": "As in the preceding example, we must first find $Δm$, the difference in mass between the parent nucleus and the products of the decay, using masses given in Appendix A. Then the emitted energy is calculated as before, using $E=(Δm){c}^{2}$. The initial mass is just that of the parent nucleus, and the final mass is that of the daughter nucleus and the electron created in the decay. The neutrino is massless, or nearly so. However, since the masses given in Appendix A are for neutral atoms, the daughter nucleus has one more electron than the parent, and so the extra electron mass that corresponds to the ${β}^{-}$ is included in the atomic mass of Ni. Thus, $Δm=m({}^{60}Co)-m({}^{60}Ni).$",
         "inline": []
       },
       "level": "core"
@@ -347,7 +347,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "The ${β}^{-}$ decay equation for ${}^{60}Co$ is",
+        "text": "The ${β}^{-}$ decay equation for ${}^{60}Co$ is ${}_{27}^{60}{Co}_{33}\\to {}_{28}^{60}{Ni}_{32}+{β}^{-}+{ν¯}_{e}.$",
         "inline": []
       },
       "level": "core"
@@ -356,7 +356,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Entering the masses found in Appendix A gives",
+        "text": "Entering the masses found in Appendix A gives $Δm=59.933820 u-59.930789 u=0.003031 u.$",
         "inline": []
       },
       "level": "core"
@@ -365,7 +365,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Using $1 u=931.5 MeV/{c}^{2}$ , we obtain",
+        "text": "Using $1 u=931.5 MeV/{c}^{2}$, we obtain $E=(0.003031)(931.5 MeV/{c}^{2})({c}^{2})=2.82 MeV.$",
         "inline": []
       },
       "level": "core"
@@ -383,7 +383,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Perhaps the most difficult thing about this example is convincing yourself that the ${β}^{-}$ mass is included in the atomic mass of ${}^{60}Ni$ . Beyond that are other implications. Again the decay energy is in the MeV range. This energy is shared by all of the products of the decay. In many ${}^{60}Co$ decays, the daughter nucleus ${}^{60}Ni$ is left in an excited state and emits photons ( $γ$ rays). Most of the remaining energy goes to the electron and neutrino, since the recoil kinetic energy of the daughter nucleus is small. One final note: the electron emitted in ${β}^{-}$ decay is created in the nucleus at the time of decay.",
+        "text": "Perhaps the most difficult thing about this example is convincing yourself that the ${β}^{-}$ mass is included in the atomic mass of ${}^{60}Ni$. Beyond that are other implications. Again the decay energy is in the MeV range. This energy is shared by all of the products of the decay. In many ${}^{60}Co$ decays, the daughter nucleus ${}^{60}Ni$ is left in an excited state and emits photons ($γ$ rays). Most of the remaining energy goes to the electron and neutrino, since the recoil kinetic energy of the daughter nucleus is small. One final note: the electron emitted in ${β}^{-}$ decay is created in the nucleus at the time of decay.",
         "inline": []
       },
       "level": "core"
@@ -414,7 +414,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "The antielectron is often represented by the symbol ${e}^{+}$ , but in beta decay it is written as ${β}^{+}$ to indicate the antielectron was emitted in a nuclear decay. Antielectrons are the antimatter counterpart to electrons, being nearly identical, having the same mass, spin, and so on, but having a positive charge and an electron family number of $–1$ . When a positron encounters an electron, there is a mutual annihilation in which all the mass of the antielectron-electron pair is converted into pure photon energy. (The reaction, ${e}^{+}+{e}^{-}→γ+γ$ , conserves electron family number as well as all other conserved quantities.) If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to ${β}^{+}$ decay, then its ${β}^{+}$ decay equation is",
+        "text": "The antielectron is often represented by the symbol ${e}^{+}$, but in beta decay it is written as ${β}^{+}$ to indicate the antielectron was emitted in a nuclear decay. Antielectrons are the antimatter counterpart to electrons, being nearly identical, having the same mass, spin, and so on, but having a positive charge and an electron family number of $–1$. When a positron encounters an electron, there is a mutual annihilation in which all the mass of the antielectron-electron pair is converted into pure photon energy. (The reaction, ${e}^{+}+{e}^{-}\\to γ+γ$, conserves electron family number as well as all other conserved quantities.) If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to ${β}^{+}$ decay, then its ${β}^{+}$ decay equation is ${}_{Z}^{A}{X}_{N}\\to Z-1A{Y}_{N+1}+{β}^{+}+{ν}_{e} ({β}^{+} decay),$",
         "inline": []
       },
       "level": "core"
@@ -423,7 +423,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "where Y is the nuclide having one less proton than X (to conserve charge) and ${ν}_{e}$ is the symbol for the electron’s neutrino , which has an electron family number of $+1$ . Since an antimatter member of the electron family (the ${β}^{+}$ ) is created in the decay, a matter member of the family (here the ${ν}_{e}$ ) must also be created. Given, for example, that ${}^{22}Na$ ${β}^{+}$ decays, you can write its full decay equation by first finding that $Z=11$ for ${}^{22}Na$ , so that the daughter nuclide will have $Z=10$ , the atomic number for neon. Thus the ${β}^{+}$ decay equation for ${}^{22}Na$ is",
+        "text": "where Y is the nuclide having one less proton than X (to conserve charge) and ${ν}_{e}$ is the symbol for the electron’s neutrino, which has an electron family number of $+1$. Since an antimatter member of the electron family (the ${β}^{+}$) is created in the decay, a matter member of the family (here the ${ν}_{e}$) must also be created. Given, for example, that ${}^{22}Na$ ${β}^{+}$ decays, you can write its full decay equation by first finding that $Z=11$ for ${}^{22}Na$, so that the daughter nuclide will have $Z=10$, the atomic number for neon. Thus the ${β}^{+}$ decay equation for ${}^{22}Na$ is ${}_{11}^{22}{Na}_{11}\\to {}_{10}^{22}{Ne}_{12}+{β}^{+}+{ν}_{e}.$",
         "inline": []
       },
       "level": "core"
@@ -432,7 +432,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "In ${β}^{+}$ decay, it is as if one of the protons in the parent nucleus decays into a neutron, a positron, and a neutrino. Protons do not do this outside of the nucleus, and so the decay is due to the complexities of the nuclear force. Note again that the total number of nucleons is constant in this and any other reaction. To find the energy emitted in ${β}^{+}$ decay, you must again count the number of electrons in the neutral atoms, since atomic masses are used. The daughter has one less electron than the parent, and one electron mass is created in the decay. Thus, in ${β}^{+}$ decay,",
+        "text": "In ${β}^{+}$ decay, it is as if one of the protons in the parent nucleus decays into a neutron, a positron, and a neutrino. Protons do not do this outside of the nucleus, and so the decay is due to the complexities of the nuclear force. Note again that the total number of nucleons is constant in this and any other reaction. To find the energy emitted in ${β}^{+}$ decay, you must again count the number of electrons in the neutral atoms, since atomic masses are used. The daughter has one less electron than the parent, and one electron mass is created in the decay. Thus, in ${β}^{+}$ decay, $Δm=m(parent)-[m(daughter)+{2m}_{e}],$",
         "inline": []
       },
       "level": "core"
@@ -450,7 +450,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Electron capture is the third type of beta decay. Here, a nucleus captures an inner-shell electron and undergoes a nuclear reaction that has the same effect as ${β}^{+}$ decay. Electron capture is sometimes denoted by the letters EC. We know that electrons cannot reside in the nucleus, but this is a nuclear reaction that consumes the electron and occurs spontaneously only when the products have less mass than the parent plus the electron. If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to undergo electron capture, then its electron capture equation is",
+        "text": "Electron capture is the third type of beta decay. Here, a nucleus captures an inner-shell electron and undergoes a nuclear reaction that has the same effect as ${β}^{+}$ decay. Electron capture is sometimes denoted by the letters EC. We know that electrons cannot reside in the nucleus, but this is a nuclear reaction that consumes the electron and occurs spontaneously only when the products have less mass than the parent plus the electron. If a nuclide ${}_{Z}^{A}{X}_{N}$ is known to undergo electron capture, then its electron capture equation is ${}_{Z}^{A}{X}_{N}+{e}^{-}\\to Z-1A{Y}_{N+1}+{ν}_{e}(electron capture, or EC).$",
         "inline": []
       },
       "level": "core"
@@ -486,7 +486,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Gamma decay is the simplest form of nuclear decay—it is the emission of energetic photons by nuclei left in an excited state by some earlier process. Protons and neutrons in an excited nucleus are in higher orbitals, and they fall to lower levels by photon emission (analogous to electrons in excited atoms). Nuclear excited states have lifetimes typically of only about ${10}^{-14}$ s, an indication of the great strength of the forces pulling the nucleons to lower states. The $γ$ decay equation is simply",
+        "text": "Gamma decay is the simplest form of nuclear decay—it is the emission of energetic photons by nuclei left in an excited state by some earlier process. Protons and neutrons in an excited nucleus are in higher orbitals, and they fall to lower levels by photon emission (analogous to electrons in excited atoms). Nuclear excited states have lifetimes typically of only about ${10}^{-14}$ s, an indication of the great strength of the forces pulling the nucleons to lower states. The $γ$ decay equation is simply ${}_{Z}^{A}{X}_{N}^{*}\\to ZA{X}_{N}+{γ}_{1}+{γ}_{2}+⋯ (γ decay)$",
         "inline": []
       },
       "level": "core"
@@ -495,7 +495,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "where the asterisk indicates the nucleus is in an excited state. There may be one or more $γ$ s emitted, depending on how the nuclide de-excites. In radioactive decay, $γ$ emission is common and is preceded by $γ$ or $β$ decay. For example, when ${}^{60}Co$ ${β}^{-}$ decays, it most often leaves the daughter nucleus in an excited state, written ${}^{60}Ni*$ . Then the nickel nucleus quickly $γ$ decays by the emission of two penetrating $γ$ s:",
+        "text": "where the asterisk indicates the nucleus is in an excited state. There may be one or more $γ$ s emitted, depending on how the nuclide de-excites. In radioactive decay, $γ$ emission is common and is preceded by $γ$ or $β$ decay. For example, when ${}^{60}Co$ ${β}^{-}$ decays, it most often leaves the daughter nucleus in an excited state, written ${}^{60}Ni*$. Then the nickel nucleus quickly $γ$ decays by the emission of two penetrating $γ$ s: ${}^{60}Ni*\\to {}^{60}Ni+{γ}_{1}+{γ}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -504,7 +504,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "These are called cobalt $γ$ rays, although they come from nickel—they are used for cancer therapy, for example. It is again constructive to verify the conservation laws for gamma decay. Finally, since $γ$ decay does not change the nuclide to another species, it is not prominently featured in charts of decay series, such as that in .",
+        "text": "These are called cobalt $γ$ rays, although they come from nickel—they are used for cancer therapy, for example. It is again constructive to verify the conservation laws for gamma decay. Finally, since $γ$ decay does not change the nuclide to another species, it is not prominently featured in charts of decay series, such as that in the figure.",
         "inline": []
       },
       "level": "core"
@@ -513,7 +513,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "There are other types of nuclear decay, but they occur less commonly than $α$ , $β$ , and $γ$ decay. Spontaneous fission is the most important of the other forms of nuclear decay because of its applications in nuclear power and weapons. It is covered in the next chapter.",
+        "text": "There are other types of nuclear decay, but they occur less commonly than $α$, $β$, and $γ$ decay. Spontaneous fission is the most important of the other forms of nuclear decay because of its applications in nuclear power and weapons. It is covered in the next chapter.",
         "inline": []
       },
       "level": "core"
@@ -586,7 +586,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "For β decay, the nucleus releases a negative charge. In order for charge to be conserved overall, the nucleus must gain a positive charge, increasing its atomic number by 1, resulting in ${}_{96}^{241}Cm.$ A ${}_{6}^{14}C$ nucleus undergoes a decay process, and the resulting nucleus is ${}_{7}^{14}N$ . What is the value of the charge released by the original nucleus? +1; 0; -1; -2",
+        "text": "For β decay, the nucleus releases a negative charge. In order for charge to be conserved overall, the nucleus must gain a positive charge, increasing its atomic number by 1, resulting in ${}_{96}^{241}Cm.$ A ${}_{6}^{14}C$ nucleus undergoes a decay process, and the resulting nucleus is ${}_{7}^{14}N$. What is the value of the charge released by the original nucleus? +1; 0; -1; -2",
         "inline": []
       },
       "level": "core",
@@ -649,7 +649,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Identify the missing particle based upon conservation principles: $N714+H24e→X+O817$ $H12$; $H11$; $C612$; $C612$; $B48e$",
+        "text": "Identify the missing particle based upon conservation principles: $N714+H24e\\to X+O817$ $H12$; $H11$; $C612$; $C612$; $B48e$",
         "inline": []
       },
       "level": "core",
@@ -670,7 +670,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Are the following reactions possible? For each, explain why or why not. $U92238→R88234a+H24e$; $R88223a→P82209b+C614$; $C614→N714+{e}^{-}+{v¯}_{e}$; $M1224g→N1123a+{e}^{+}+{v}_{e}$",
+        "text": "Are the following reactions possible? For each, explain why or why not. $U92238\\to R88234a+H24e$; $R88223a\\to P82209b+C614$; $C614\\to N714+{e}^{-}+{v¯}_{e}$; $M1224g\\to N1123a+{e}^{+}+{v}_{e}$",
         "inline": []
       },
       "level": "core",
@@ -804,7 +804,7 @@
       "id": "p-80",
       "type": "paragraph",
       "content": {
-        "text": "In the following eight problems, write the complete decay equation for the given nuclide in the complete ${}_{Z}^{A}{X}_{N}$ notation. Refer to the periodic table for values of $Z$ .",
+        "text": "In the following eight problems, write the complete decay equation for the given nuclide in the complete ${}_{Z}^{A}{X}_{N}$ notation. Refer to the periodic table for values of $Z$.",
         "inline": []
       },
       "level": "core"
@@ -838,7 +838,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "${β}^{-}$ decay of ${}^{40}K$ , a naturally occurring rare isotope of potassium responsible for some of our exposure to background radiation.",
+        "text": "${β}^{-}$ decay of ${}^{40}K$, a naturally occurring rare isotope of potassium responsible for some of our exposure to background radiation.",
         "inline": []
       },
       "level": "core",
@@ -859,7 +859,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "${β}^{+}$ decay of ${}^{50}Mn$ .",
+        "text": "${β}^{+}$ decay of ${}^{50}Mn$.",
         "inline": []
       },
       "level": "core",
@@ -883,7 +883,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "${β}^{+}$ decay of ${}^{52}Fe$ .",
+        "text": "${β}^{+}$ decay of ${}^{52}Fe$.",
         "inline": []
       },
       "level": "core",
@@ -904,7 +904,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Electron capture by ${}^{7}Be$ .",
+        "text": "Electron capture by ${}^{7}Be$.",
         "inline": []
       },
       "level": "core",
@@ -928,7 +928,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Electron capture by ${}^{106}In$ .",
+        "text": "Electron capture by ${}^{106}In$.",
         "inline": []
       },
       "level": "core",
@@ -949,7 +949,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "$α$ decay of ${}^{210}Po$ , the isotope of polonium in the decay series of ${}^{238}U$ that was discovered by the Curies. A favorite isotope in physics labs, since it has a short half-life and decays to a stable nuclide.",
+        "text": "$α$ decay of ${}^{210}Po$, the isotope of polonium in the decay series of ${}^{238}U$ that was discovered by the Curies. A favorite isotope in physics labs, since it has a short half-life and decays to a stable nuclide.",
         "inline": []
       },
       "level": "core",
@@ -973,7 +973,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "$α$ decay of ${}^{226}Ra$ , another isotope in the decay series of ${}^{238}U$ , first recognized as a new element by the Curies. Poses special problems because its daughter is a radioactive noble gas.",
+        "text": "$α$ decay of ${}^{226}Ra$, another isotope in the decay series of ${}^{238}U$, first recognized as a new element by the Curies. Poses special problems because its daughter is a radioactive noble gas.",
         "inline": []
       },
       "level": "core",
@@ -993,7 +993,7 @@
       "id": "p-97",
       "type": "paragraph",
       "content": {
-        "text": "In the following four problems, identify the parent nuclide and write the complete decay equation in the ${}_{Z}^{A}{X}_{N}$ notation. Refer to the periodic table for values of $Z$ .",
+        "text": "In the following four problems, identify the parent nuclide and write the complete decay equation in the ${}_{Z}^{A}{X}_{N}$ notation. Refer to the periodic table for values of $Z$.",
         "inline": []
       },
       "level": "core"
@@ -1003,7 +1003,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "${β}^{-}$ decay producing ${}^{137}Ba$ . The parent nuclide is a major waste product of reactors and has chemistry similar to potassium and sodium, resulting in its concentration in your cells if ingested.",
+        "text": "${β}^{-}$ decay producing ${}^{137}Ba$. The parent nuclide is a major waste product of reactors and has chemistry similar to potassium and sodium, resulting in its concentration in your cells if ingested.",
         "inline": []
       },
       "level": "core",
@@ -1027,7 +1027,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "${β}^{-}$ decay producing ${}^{90}Y$ . The parent nuclide is a major waste product of reactors and has chemistry similar to calcium, so that it is concentrated in bones if ingested ( ${}^{90}Y$ is also radioactive.)",
+        "text": "${β}^{-}$ decay producing ${}^{90}Y$. The parent nuclide is a major waste product of reactors and has chemistry similar to calcium, so that it is concentrated in bones if ingested (${}^{90}Y$ is also radioactive.)",
         "inline": []
       },
       "level": "core",
@@ -1048,7 +1048,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "$α$ decay producing ${}^{228}Ra$ . The parent nuclide is nearly 100% of the natural element and is found in gas lantern mantles and in metal alloys used in jets ( ${}^{228}Ra$ is also radioactive).",
+        "text": "$α$ decay producing ${}^{228}Ra$. The parent nuclide is nearly 100% of the natural element and is found in gas lantern mantles and in metal alloys used in jets (${}^{228}Ra$ is also radioactive).",
         "inline": []
       },
       "level": "core",
@@ -1072,7 +1072,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "$α$ decay producing ${}^{208}Pb$ . The parent nuclide is in the decay series produced by ${}^{232}Th$ , the only naturally occurring isotope of thorium.",
+        "text": "$α$ decay producing ${}^{208}Pb$. The parent nuclide is in the decay series produced by ${}^{232}Th$, the only naturally occurring isotope of thorium.",
         "inline": []
       },
       "level": "core",
@@ -1093,7 +1093,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "When an electron and positron annihilate, both their masses are destroyed, creating two equal energy photons to preserve momentum. (a) Confirm that the annihilation equation ${e}^{+}+{e}^{-}→γ+γ$ conserves charge, electron family number, and total number of nucleons. To do this, identify the values of each before and after the annihilation. (b) Find the energy of each $γ$ ray, assuming the electron and positron are initially nearly at rest. (c) Explain why the two $γ$ rays travel in exactly opposite directions if the center of mass of the electron-positron system is initially at rest.",
+        "text": "When an electron and positron annihilate, both their masses are destroyed, creating two equal energy photons to preserve momentum. (a) Confirm that the annihilation equation ${e}^{+}+{e}^{-}\\to γ+γ$ conserves charge, electron family number, and total number of nucleons. To do this, identify the values of each before and after the annihilation. (b) Find the energy of each $γ$ ray, assuming the electron and positron are initially nearly at rest. (c) Explain why the two $γ$ rays travel in exactly opposite directions if the center of mass of the electron-positron system is initially at rest.",
         "inline": []
       },
       "level": "core",
@@ -1135,7 +1135,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for $α$ decay given in the equation ${}_{Z}^{A}{X}_{N}→{}_{Z-2}^{A-4}{Y}_{N-2}+{}_{2}^{4}{He}_{2}$ . To do this, identify the values of each before and after the decay.",
+        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for $α$ decay given in the equation ${}_{Z}^{A}{X}_{N}\\to {}_{Z-2}^{A-4}{Y}_{N-2}+{}_{2}^{4}{He}_{2}$. To do this, identify the values of each before and after the decay.",
         "inline": []
       },
       "level": "core",
@@ -1156,7 +1156,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for ${β}^{-}$ decay given in the equation ${}_{Z}^{A}{X}_{N}→{}_{Z+1}^{A}{Y}_{N-1}+{β}^{-}+{ν¯}_{e}$ . To do this, identify the values of each before and after the decay.",
+        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for ${β}^{-}$ decay given in the equation ${}_{Z}^{A}{X}_{N}\\to {}_{Z+1}^{A}{Y}_{N-1}+{β}^{-}+{ν¯}_{e}$. To do this, identify the values of each before and after the decay.",
         "inline": []
       },
       "level": "core",
@@ -1180,7 +1180,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for ${β}^{-}$ decay given in the equation ${}_{Z}^{A}{X}_{N}→{}_{Z-1}^{A}{Y}_{N-1}+{β}^{-}+{ν}_{e}$ . To do this, identify the values of each before and after the decay.",
+        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for ${β}^{-}$ decay given in the equation ${}_{Z}^{A}{X}_{N}\\to {}_{Z-1}^{A}{Y}_{N-1}+{β}^{-}+{ν}_{e}$. To do this, identify the values of each before and after the decay.",
         "inline": []
       },
       "level": "core",
@@ -1201,7 +1201,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for electron capture given in the equation ${}_{Z}^{A}{X}_{N}+{e}^{-}→{}_{Z-1}^{A}{Y}_{N+1}+{ν}_{e}$ . To do this, identify the values of each before and after the capture.",
+        "text": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for electron capture given in the equation ${}_{Z}^{A}{X}_{N}+{e}^{-}\\to {}_{Z-1}^{A}{Y}_{N+1}+{ν}_{e}$. To do this, identify the values of each before and after the capture.",
         "inline": []
       },
       "level": "core",
@@ -1225,7 +1225,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A rare decay mode has been observed in which ${}^{222}Ra$ emits a ${}^{14}C$ nucleus. (a) The decay equation is ${}^{222}Ra{→}^{A}{X+}^{14}C$ . Identify the nuclide ${}^{A}X$ . (b) Find the energy emitted in the decay. The mass of ${}^{222}Ra$ is 222.015353 u.",
+        "text": "A rare decay mode has been observed in which ${}^{222}Ra$ emits a ${}^{14}C$ nucleus. (a) The decay equation is ${}^{222}Ra{\\to }^{A}{X+}^{14}C$. Identify the nuclide ${}^{A}X$. (b) Find the energy emitted in the decay. The mass of ${}^{222}Ra$ is 222.015353 u.",
         "inline": []
       },
       "level": "core",
@@ -1246,7 +1246,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Write the complete $α$ decay equation for ${}^{226}Ra$ . (b) Find the energy released in the decay.",
+        "text": "(a) Write the complete $α$ decay equation for ${}^{226}Ra$. (b) Find the energy released in the decay.",
         "inline": []
       },
       "level": "core",
@@ -1288,7 +1288,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Write the complete $α$ decay equation for ${}^{249}Cf$ . (b) Find the energy released in the decay.",
+        "text": "(a) Write the complete $α$ decay equation for ${}^{249}Cf$. (b) Find the energy released in the decay.",
         "inline": []
       },
       "level": "core",
@@ -1351,7 +1351,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Write the complete ${β}^{-}$ decay equation for ${}^{90}Sr$ , a major waste product of nuclear reactors. (b) Find the energy released in the decay.",
+        "text": "(a) Write the complete ${β}^{-}$ decay equation for ${}^{90}Sr$, a major waste product of nuclear reactors. (b) Find the energy released in the decay.",
         "inline": []
       },
       "level": "core",
@@ -1372,7 +1372,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the energy released in the ${β}^{+}$ decay of ${}^{22}Na$ , the equation for which is given in the text. The masses of ${}^{22}Na$ and ${}^{22}Ne$ are 21.994434 and 21.991383 u, respectively.",
+        "text": "Calculate the energy released in the ${β}^{+}$ decay of ${}^{22}Na$, the equation for which is given in the text. The masses of ${}^{22}Na$ and ${}^{22}Ne$ are 21.994434 and 21.991383 u, respectively.",
         "inline": []
       },
       "level": "core",
@@ -1396,7 +1396,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Write the complete ${β}^{+}$ decay equation for ${}^{11}C$ . (b) Calculate the energy released in the decay. The masses of ${}^{11}C$ and ${}^{11}B$ are 11.011433 and 11.009305 u, respectively.",
+        "text": "(a) Write the complete ${β}^{+}$ decay equation for ${}^{11}C$. (b) Calculate the energy released in the decay. The masses of ${}^{11}C$ and ${}^{11}B$ are 11.011433 and 11.009305 u, respectively.",
         "inline": []
       },
       "level": "core",
@@ -1426,7 +1426,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the energy released in the $α$ decay of ${}^{238}U$ . (b) What fraction of the mass of a single ${}^{238}U$ is destroyed in the decay? The mass of ${}^{234}Th$ is 234.043593 u. (c) Although the fractional mass loss is large for a single nucleus, it is difficult to observe for an entire macroscopic sample of uranium. Why is this?",
+        "text": "(a) Calculate the energy released in the $α$ decay of ${}^{238}U$. (b) What fraction of the mass of a single ${}^{238}U$ is destroyed in the decay? The mass of ${}^{234}Th$ is 234.043593 u. (c) Although the fractional mass loss is large for a single nucleus, it is difficult to observe for an entire macroscopic sample of uranium. Why is this?",
         "inline": []
       },
       "level": "core",
@@ -1516,7 +1516,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Write the complete reaction equation for electron capture by ${}^{15}O$ . (b) Calculate the energy released.",
+        "text": "(a) Write the complete reaction equation for electron capture by ${}^{15}O$. (b) Calculate the energy released.",
         "inline": []
       },
       "level": "core",

@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Fluid Statics",
   "book_id": "secondary_physics",
-  "part_id": "part-2",
+  "part_id": "part-3",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -147,7 +147,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_statics_and_torque"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -166,32 +168,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-fluid-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -228,23 +205,72 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-fluid-at-rest",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Which of these is a fluid: water or a steel block? Explain briefly.",
+          "answer": "Water. It yields to a shearing force and takes the shape of its container; a steel block does not.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A fluid yields to shear and takes the shape of its container.",
+            "Water flows, so it is a fluid.",
+            "A solid steel block keeps its shape and resists shear."
+          ],
+          "tags": [
+            "fluid",
+            "phases of matter"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the defining property of a fluid?",
+          "answer": "It yields to a shearing force and takes the shape of its container.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Solids resist shear and keep a fixed shape.",
+            "Fluids cannot resist shear at rest, so they flow.",
+            "This property is shared by liquids and gases."
+          ],
+          "tags": [
+            "fluid",
+            "shear"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Explain why a gas is a fluid but a crystal is not.",
+          "answer": "A gas flows and yields to shear; a crystal has a fixed shape and resists shear.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Fluids are defined by their response to shear.",
+            "Gas molecules move freely and the gas takes the container’s shape.",
+            "A crystal’s particles are locked in a lattice, so it resists shear and keeps its shape."
+          ],
+          "tags": [
+            "fluid",
+            "solid",
+            "gas"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -279,14 +305,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-fluid-at-rest",
@@ -294,8 +312,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-21"
+      ]
     },
     {
       "id": "sec-4",
@@ -308,7 +325,13 @@
         "Explain the relationship between pressure and force.",
         "Calculate force given pressure and area."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Pressure and force are the same thing.",
+          "correction": "Pressure is force per unit area. The same force spread over a larger area gives a smaller pressure, and a small area gives a large pressure.",
+          "signal": "Pressure and force have different units, so they cannot be the same quantity."
+        }
+      ],
       "summary": [
         "Pressure is the force per unit perpendicular area over which the force is applied. In equation form, pressure is defined as P = F A .",
         "The SI unit of pressure is pascal and 1 Pa=1N/m2."
@@ -316,14 +339,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -341,7 +356,46 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-45"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A force of 20 N acts perpendicularly on an area of 0.5 m². Find the pressure.",
+          "answer": "40 Pa",
+          "answer_kind": "expression",
+          "solution": [
+            "Pressure is force per unit area.",
+            "P = 20/0.5.",
+            "P = 40 Pa."
+          ],
+          "tags": [
+            "pressure",
+            "force",
+            "area"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A person of weight 600 N stands on one heel of area 1.0 cm². Find the pressure on the floor.",
+          "answer": "6.0 × 10^6 Pa",
+          "answer_kind": "expression",
+          "solution": [
+            "Convert the area: 1.0 cm² = 1.0 × 10^-4 m².",
+            "P = F/A = 600/(1.0 × 10^-4).",
+            "P = 6.0 × 10^6 Pa."
+          ],
+          "tags": [
+            "pressure",
+            "area",
+            "unit conversion"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -354,7 +408,15 @@
         "Explain the variation of pressure with depth in a fluid.",
         "Calculate density given pressure and altitude."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The pressure at depth $h$ in a fluid is $\\rho g h$ below atmospheric pressure.",
+          "correction": "The gauge pressure at depth $h$ is $\\rho gh$, and the absolute pressure is that plus atmospheric. The pressure rises with depth, so a deeper point is at a higher pressure, not a lower one.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_fluid_statics:trap-3",
+          "signal": "Our own question offers the pressure below atmospheric as an option."
+        }
+      ],
       "summary": [
         "Pressure is the weight of the fluid mg divided by the area A supporting it (the area of the bottom of the container): P=mgA.",
         "Pressure due to the weight of a liquid is given by P=hρg,where P is the pressure, h is the height of the liquid, ρ is the density of the liquid, and g is the acceleration due to gravity."
@@ -362,14 +424,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -386,8 +440,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-57"
+      ]
     },
     {
       "id": "sec-6",
@@ -401,7 +454,13 @@
         "Understand applications of Pascal’s principle.",
         "Derive relationships between forces in a hydraulic system."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A hydraulic press multiplies energy as well as force.",
+          "correction": "An ideal hydraulic press multiplies force, but the larger piston moves a smaller distance. The work done on the small piston equals the work done by the large one.",
+          "signal": "A machine can trade force for distance, not create energy."
+        }
+      ],
       "summary": [
         "Pressure is force per unit area.",
         "A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container.",
@@ -410,14 +469,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -435,7 +486,26 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-28"
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "In a hydraulic press the small piston has area 0.01 m² and the large piston has area 0.5 m². A force of 100 N acts on the small piston. Find the force on the large piston.",
+          "answer": "5000 N",
+          "answer_kind": "expression",
+          "solution": [
+            "Pascal’s principle gives F₁/A₁ = F₂/A₂.",
+            "F₂ = F₁ × A₂/A₁ = 100 × 0.5/0.01.",
+            "F₂ = 5000 N."
+          ],
+          "tags": [
+            "pascal principle",
+            "hydraulic press"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -447,7 +517,15 @@
         "Define gauge pressure and absolute pressure.",
         "Understand the working of aneroid and open-tube barometers."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Gauge pressure is the total pressure in the fluid.",
+          "correction": "Gauge pressure is the pressure in excess of atmospheric, so a gauge reading of zero means the pressure is atmospheric. The absolute pressure is the gauge pressure plus atmospheric.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_fluid_statics:trap-4",
+          "signal": "Our own question offers the total pressure as an option."
+        }
+      ],
       "summary": [
         "Gauge pressure is the pressure relative to atmospheric pressure.",
         "Absolute pressure is the sum of gauge pressure and atmospheric pressure.",
@@ -456,14 +534,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -495,7 +565,13 @@
         "Understand why objects float or sink.",
         "Understand the relationship between density and Archimedes’ principle."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An object floats because it is lighter than the fluid.",
+          "correction": "It floats when its density is less than the fluid’s. Then the buoyant force on the fully submerged object exceeds its weight, so it rises and floats with part of its volume above the surface.",
+          "signal": "A very heavy steel ship floats because its overall density is low."
+        }
+      ],
       "summary": [
         "Buoyant force is the net upward force on any object in any fluid. If the buoyant force is greater than the object’s weight, the object will rise to the surface and float. If the buoyant force is less than the object’s weight, the object will sink. If the buoyant force equals the object’s weight, the object will remain suspended at that depth. The buoyant force is always present whether the object floats, sinks, or is suspended in a fluid.",
         "Archimedes’ principle states that the buoyant force on an object equals the weight of the fluid it displaces.",
@@ -513,14 +589,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-fluid-at-rest",
@@ -528,8 +596,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-74"
+      ]
     },
     {
       "id": "sec-9",
@@ -542,7 +609,13 @@
         "Define surface tension.",
         "Understand capillary action."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Surface tension pushes a liquid surface upward.",
+          "correction": "Surface tension acts along the surface and tends to reduce its area. Capillary rise happens when adhesion to the tube wall and surface tension together pull liquid up the tube.",
+          "signal": "Surface tension is a tension, not an upward pressure."
+        }
+      ],
       "summary": [
         "Attractive forces between molecules of the same type are called cohesive forces.",
         "Attractive forces between molecules of different types are called adhesive forces.",
@@ -554,29 +627,12 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-fluid-at-rest",
+          "topic_slug": "structure-of-matter-and-kinetic-theory",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-73"
+      ]
     },
     {
       "id": "sec-10",
@@ -589,7 +645,13 @@
         "Explain systolic and diastolic blood pressures.",
         "Describe pressures in the eye, lungs, spinal column, bladder, and skeletal system."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Blood pressure is the same in every part of the body.",
+          "correction": "Blood pressure changes with height and with the vessel. It is usually measured on the upper arm at heart level so that the reading is comparable.",
+          "signal": "A standing person’s ankle pressure is higher than the pressure at the heart."
+        }
+      ],
       "summary": [
         "Measuring blood pressure is among the most common of all medical examinations.",
         "The pressures in various parts of the body can be measured and often provide valuable medical indicators.",
@@ -597,36 +659,164 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "pressure",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-fluid-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-43"
+      "exam_links": [],
+      "no_exam_link_reason": "Pressures in the body are an applied extension and are not named in either syllabus."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\rho = \\frac{m}{V}$",
+      "caption": {
+        "text": "Density",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Mass per unit volume.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42187/index.cnxml",
+        "locator": "CNXML module m42187, section “Density”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$P = \\frac{F}{A}$",
+      "caption": {
+        "text": "Pressure",
+        "inline": []
+      },
+      "conditions": {
+        "text": "F is the perpendicular force on area A.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42189/index.cnxml",
+        "locator": "CNXML module m42189, section “Pressure”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$P = P_0 + \\rho g h$",
+      "caption": {
+        "text": "Pressure at depth",
+        "inline": []
+      },
+      "conditions": {
+        "text": "P₀ is the pressure at the surface and h is the depth below it.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42192/index.cnxml",
+        "locator": "CNXML module m42192, section “Variation of Pressure with Depth”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$",
+      "caption": {
+        "text": "Hydraulic press",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an enclosed fluid with negligible height difference.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42193/index.cnxml",
+        "locator": "CNXML module m42193, section “Pascal’s Principle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$P_{\\mathrm{gauge}} = P_{\\mathrm{abs}} - P_{\\mathrm{atm}}$",
+      "caption": {
+        "text": "Gauge pressure",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The pressure above atmospheric pressure.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42195/index.cnxml",
+        "locator": "CNXML module m42195, section “Gauge Pressure”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$F_b = \\rho_{\\mathrm{fluid}} V_{\\mathrm{displaced}} g$",
+      "caption": {
+        "text": "Buoyant force",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Archimedes’ principle: the buoyant force equals the weight of the displaced fluid.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42196/index.cnxml",
+        "locator": "CNXML module m42196, section “Archimedes’ Principle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\mathrm{specific\\ gravity} = \\frac{\\rho}{\\rho_{\\mathrm{water}}}$",
+      "caption": {
+        "text": "Specific gravity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The ratio of a substance’s density to the density of water.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42196/index.cnxml",
+        "locator": "CNXML module m42196, section “Archimedes’ Principle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$h = \\frac{2\\gamma\\cos\\theta}{\\rho g r}$",
+      "caption": {
+        "text": "Capillary rise",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a narrow tube of radius r, with contact angle θ and surface tension γ.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42197/index.cnxml",
+        "locator": "CNXML module m42197, section “Cohesion and Adhesion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -972,76 +1162,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The pressure in a liquid is the same at every depth.",
-      "correction": "It grows with depth, so the pressure at the bottom of a container is greater than at the top.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "An object floats or sinks according to whether it is lighter or heavier than the same volume of water.",
-      "correction": "It floats or sinks according to its density compared with the fluid, not its weight compared with the fluid.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-3",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The pressure at depth $h$ in a fluid is $\\rho g h$ below atmospheric pressure.",
-      "correction": "The gauge pressure at depth $h$ is $\\rho gh$, and the absolute pressure is that plus atmospheric. The pressure rises with depth, so a deeper point is at a higher pressure, not a lower one.",
-      "signal": "Our own question offers the pressure below atmospheric as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-7",
-      "misconception": "Gauge pressure is the total pressure in the fluid.",
-      "correction": "Gauge pressure is the pressure in excess of atmospheric, so a gauge reading of zero means the pressure is atmospheric. The absolute pressure is the gauge pressure plus atmospheric.",
-      "signal": "Our own question offers the total pressure as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1187,6 +1308,122 @@
       "explanation": "By Archimedes' principle a floating body displaces its own weight of water, so the upthrust equals its weight.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "Which property makes a substance a fluid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has a fixed shape."
+        },
+        {
+          "id": "b",
+          "text": "It yields to a shearing force."
+        },
+        {
+          "id": "c",
+          "text": "It is always a liquid."
+        },
+        {
+          "id": "d",
+          "text": "It has a high density."
+        }
+      ],
+      "answer": "b",
+      "explanation": "A fluid yields to shear and takes the shape of its container. Gases and liquids are both fluids.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A force of 30 N acts perpendicularly on an area of 0.3 m². Find the pressure.",
+      "options": [
+        {
+          "id": "a",
+          "text": "9 Pa"
+        },
+        {
+          "id": "b",
+          "text": "30 Pa"
+        },
+        {
+          "id": "c",
+          "text": "100 Pa"
+        },
+        {
+          "id": "d",
+          "text": "300 Pa"
+        }
+      ],
+      "answer": "c",
+      "explanation": "P = F/A = 30/0.3 = 100 Pa.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-9",
+      "stem": "Water rises in a narrow glass tube mainly because of",
+      "options": [
+        {
+          "id": "a",
+          "text": "adhesion between water and glass, together with surface tension"
+        },
+        {
+          "id": "b",
+          "text": "the weight of the water"
+        },
+        {
+          "id": "c",
+          "text": "atmospheric pressure alone"
+        },
+        {
+          "id": "d",
+          "text": "the high density of water"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Water wets glass, so adhesion pulls it up the wall while surface tension supports the curved surface. The rise stops when the weight of the column balances these forces.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-10",
+      "stem": "Systolic blood pressure is the pressure measured when the heart",
+      "options": [
+        {
+          "id": "a",
+          "text": "is relaxed between beats"
+        },
+        {
+          "id": "b",
+          "text": "contracts and pushes blood out"
+        },
+        {
+          "id": "c",
+          "text": "is at rest for a long time"
+        },
+        {
+          "id": "d",
+          "text": "has no blood in it"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Systole is the contraction phase, when the heart pushes blood into the arteries and the pressure is highest. Diastole is the relaxed phase.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1197,5 +1434,88 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Fluid Statics', modules m42185, m42186, m42187, m42189, m42192, m42193, m42195, m42196, m42197, m42199",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 11,
+  "exercise_fixes": {
+    "sec-10:exr-85": {
+      "drop": true
+    },
+    "sec-8:exr-87": {
+      "stem": "Archimedes’ principle can be used to calculate the density of a fluid as well as that of a solid. Suppose a chunk of iron with a mass of 390.0 g in air is found to have an apparent mass of 350.5 g when completely submerged in an unknown liquid. (a) What mass of fluid does the iron displace? (b) What is the volume of iron, using its density of 7.8 g/cm³? (c) Calculate the fluid’s density.",
+      "answer": "(a) 39.5 g (b) $50{cm}^{3}$ (c) $0.79{g/cm}^{3}$",
+      "solution": [
+        "(a) 39.5 g",
+        "(b) $50{cm}^{3}$",
+        "(c) $0.79{g/cm}^{3}$"
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); adjusted because the density table needed to identify the fluid is not part of this section"
+    },
+    "sec-10:exr-59": {
+      "stem": "Pressure in the spinal fluid is measured with a water manometer attached at the tap. If the pressure in the spinal fluid is 10.0 mm Hg: (a) What is the reading of the water manometer in cm water? (b) What is the reading if the person sits up, placing the top of the fluid 60 cm above the tap? The fluid density is 1.05 g/mL.",
+      "answer": "(a) 13.6 cm water (b) 76.6 cm water",
+      "solution": [
+        "(a) 1 mm Hg supports 13.6 mm of water, so 10.0 mm Hg reads $h=10.0×13.6=136mm=13.6cm$ of water.",
+        "(b) Sitting up adds the weight of the 60-cm column of spinal fluid above the tap: $ΔP=ρgh=1050×9.8×0.600=6.17×{10}^{3}Pa$ , which is 63 cm of water. The reading becomes $13.6+63.0=76.6cm$ of water."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer for (a) carried a unit error (13.6 m water) that is corrected here"
+    },
+    "sec-9:exr-88": {
+      "stem": "In the sliding-wire device shown in this section, the force is $3.16×{10}^{-3}N$ and the length of the wire is 2.50 cm. Calculate the surface tension $γ$ of the fluid.",
+      "answer": "$6.32×{10}^{-2}N/m$",
+      "solution": [
+        "The film has two surfaces, so the force balances $F=γ(2L)$ .",
+        "$γ=F/(2L)=3.16×{10}^{-3}N/(2×0.0250m)=6.32×{10}^{-2}N/m$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); adjusted because the surface-tension table needed to identify the fluid is not part of this section"
+    },
+    "sec-9:exr-77": {
+      "stem": "What is the gauge pressure in millimetres of mercury inside a soap bubble 0.100 m in diameter? Take the surface tension of soapy water as 0.0370 N/m.",
+      "answer": "$2.22×10^{-2}$ mm Hg (2.96 Pa)",
+      "solution": [
+        "For a soap bubble with two surfaces, $P=4γ/r$ with $r=0.0500m$ .",
+        "$P=4(0.0370)/(0.0500)=2.96N/m^{2}$ .",
+        "$2.96/133.322=2.22×10^{-2}$ mm Hg."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the arithmetic is made explicit and rounded consistently with the answer"
+    },
+    "sec-9:exr-82": {
+      "stem": "Water rises in a glass tube by capillary action. Take the surface tension of water as 0.0728 N/m, its density as 1000 kg/m³, and the contact angle as 0°. (a) Calculate the height $h$ for water in a glass tube with a radius of 0.900 cm. (b) What is the radius of a glass tube that raises water to 4.00 cm?"
+    },
+    "sec-9:exr-93": {
+      "stem": "Calculate the gauge pressures inside 2.00-cm-radius bubbles of water, ethyl alcohol, and soapy water. Take the surface tensions as 0.0728 N/m for water, 0.0223 N/m for ethyl alcohol, and 0.0370 N/m for soapy water. Which liquid forms the most stable bubbles, neglecting any effects of evaporation?",
+      "answer": "Water: $14.6N/m^{2}$; alcohol: $4.46N/m^{2}$; soapy water: $7.40N/m^{2}$. Soapy water forms the most stable bubbles because its surfactants stabilize the film; alcohol has the lowest excess pressure, but pure liquids do not form stable bubbles.",
+      "solution": [
+        "For a bubble with two surfaces, $P=4γ/r$ with $r=2.00×10^{-2}m$ .",
+        "Water: $P=4(0.0728)/(2.00×10^{-2})=14.6N/m^{2}$ .",
+        "Alcohol: $P=4(0.0223)/(2.00×10^{-2})=4.46N/m^{2}$ .",
+        "Soapy water: $P=4(0.0370)/(2.00×10^{-2})=7.40N/m^{2}$ .",
+        "Soapy water is the best bubble former: its surfactant molecules stabilize the thin film. A low excess pressure alone does not make a stable bubble."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the stability comment is corrected because surfactant action, not low pressure, stabilizes a soap film"
+    },
+    "sec-9:exr-99": {
+      "stem": "Calculate the contact angle $θ$ for olive oil if capillary action raises it to a height of 7.07 cm in a glass tube with a radius of 0.100 mm. Take the surface tension of olive oil as 0.032 N/m and its density as 920 kg/m³. Is this value consistent with that for most organic liquids?",
+      "answer": "$5.1º$, which is close to $0º$, the value for most organic liquids."
+    },
+    "sec-9:exr-104": {
+      "stem": "Calculate the ratio of the heights to which water and mercury are raised by capillary action in the same glass tube. Take the surface tension of water as 0.0728 N/m, that of mercury as 0.465 N/m, the density of water as 1000 kg/m³, the density of mercury as 13600 kg/m³, the contact angle of water on glass as 0°, and the contact angle of mercury on glass as 140°.",
+      "answer": "-2.78; the ratio is negative because water is raised while mercury is depressed."
+    },
+    "sec-8:exr-112": {
+      "stem": "A cylinder of cross-sectional area $A$ is submerged in a fluid of density $\\rho_{\\mathrm{fl}}$, with its top at depth $h_{1}$ and its bottom at depth $h_{2}$. The pressure on the bottom is $P_{2}$ and the pressure on the top is $P_{1}$. Prove that the buoyant force on the cylinder equals the weight of the fluid it displaces (Archimedes' principle). You may assume that the buoyant force is $F_{2}-F_{1}$ and that the ends of the cylinder have equal areas $A$. Note that the volume of the cylinder (and of the fluid it displaces) equals $(h_{2}-h_{1})A$."
+    }
+  },
+  "worked_fixes": {
+    "sec-6:we-ex-14": {
+      "statement": "A force of 100 N is applied to a brake pedal, and a lever increases it to 500 N at the pedal cylinder. The pedal cylinder has a diameter of 0.500 cm, and each of the four wheel cylinders has a diameter of 2.50 cm. Calculate the pressure in the fluid and the force created at each wheel cylinder.",
+      "steps": [
+        "The pedal-cylinder area is $A_{1}=\\pi(d_{1}/2)^{2}=\\pi(0.00250\\ \\mathrm{m})^{2}=1.96\\times10^{-5}\\ \\mathrm{m^{2}}$.",
+        "Each wheel-cylinder area is $A_{2}=\\pi(d_{2}/2)^{2}=\\pi(0.0125\\ \\mathrm{m})^{2}=4.91\\times10^{-4}\\ \\mathrm{m^{2}}$.",
+        "By Pascal's principle, $P=F_{1}/A_{1}=500\\ \\mathrm{N}/1.96\\times10^{-5}\\ \\mathrm{m^{2}}=2.55\\times10^{7}\\ \\mathrm{Pa}$, or 251 atm.",
+        "The force at each wheel cylinder is $F_{2}=PA_{2}=(2.55\\times10^{7}\\ \\mathrm{Pa})(4.91\\times10^{-4}\\ \\mathrm{m^{2}})=1.25\\times10^{4}\\ \\mathrm{N}$.",
+        "Each of the four wheel cylinders exerts $1.25\\times10^{4}\\ \\mathrm{N}$, so the total output force is $5.0\\times10^{4}\\ \\mathrm{N}$. The output moves through a smaller distance than the input, so the work done is not increased."
+      ],
+      "answer": "$P=2.55\\times10^{7}\\ \\mathrm{Pa}$ (251 atm); $F=1.25\\times10^{4}\\ \\mathrm{N}$ at each wheel cylinder"
+    }
+  }
 }

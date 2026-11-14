@@ -26,7 +26,7 @@
       "id": "p-1",
       "type": "paragraph",
       "content": {
-        "text": "The image of American politician and scientist Benjamin Franklin (1706–1790) flying a kite in a thunderstorm is familiar to many schoolchildren. (See .) In this experiment, Franklin demonstrated a connection between lightning and static electricity . Sparks were drawn from a key hung on a kite string during an electrical storm. These sparks were like those produced by static electricity, such as the spark that jumps from your finger to a metal doorknob after you walk across a wool carpet. What Franklin demonstrated in his dangerous experiment was a connection between phenomena on two different scales: one the grand power of an electrical storm, the other an effect of more human proportions. Connections like this one reveal the underlying unity of the laws of nature, an aspect we humans find particularly appealing.",
+        "text": "The image of American politician and scientist Benjamin Franklin (1706–1790) flying a kite in a thunderstorm is familiar to many schoolchildren. (See the figure.) In this experiment, Franklin demonstrated a connection between lightning and static electricity. Sparks were drawn from a key hung on a kite string during an electrical storm. These sparks were like those produced by static electricity, such as the spark that jumps from your finger to a metal doorknob after you walk across a wool carpet. What Franklin demonstrated in his dangerous experiment was a connection between phenomena on two different scales: one the grand power of an electrical storm, the other an effect of more human proportions. Connections like this one reveal the underlying unity of the laws of nature, an aspect we humans find particularly appealing.",
         "inline": []
       },
       "level": "core"
@@ -75,7 +75,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Atomic and molecular interactions, such as the forces of friction, cohesion, and adhesion, are now known to be manifestations of the electromagnetic force . Static electricity is just one aspect of the electromagnetic force, which also includes moving electricity and magnetism.",
+        "text": "Atomic and molecular interactions, such as the forces of friction, cohesion, and adhesion, are now known to be manifestations of the electromagnetic force. Static electricity is just one aspect of the electromagnetic force, which also includes moving electricity and magnetism.",
         "inline": []
       },
       "level": "core"

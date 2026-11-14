@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Particle-wave duality —the fact that all particles have wave properties—is one of the cornerstones of quantum mechanics. We first came across it in the treatment of photons, those particles of EM radiation that exhibit both particle and wave properties, but not at the same time. Later it was noted that particles of matter have wave properties as well. The dual properties of particles and waves are found for all particles, whether massless like photons, or having a mass like electrons. (See .)",
+        "text": "Particle-wave duality —the fact that all particles have wave properties—is one of the cornerstones of quantum mechanics. We first came across it in the treatment of photons, those particles of EM radiation that exhibit both particle and wave properties, but not at the same time. Later it was noted that particles of matter have wave properties as well. The dual properties of particles and waves are found for all particles, whether massless like photons, or having a mass like electrons. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "There are many submicroscopic particles in nature. Most have mass and are expected to act as particles, or the smallest units of matter. All these masses have wave properties, with wavelengths given by the de Broglie relationship $λ=h/p$ . So, too, do combinations of these particles, such as nuclei, atoms, and molecules. As a combination of masses becomes large, particularly if it is large enough to be called macroscopic, its wave nature becomes difficult to observe. This is consistent with our common experience with matter.",
+        "text": "There are many submicroscopic particles in nature. Most have mass and are expected to act as particles, or the smallest units of matter. All these masses have wave properties, with wavelengths given by the de Broglie relationship $λ=h/p$. So, too, do combinations of these particles, such as nuclei, atoms, and molecules. As a combination of masses becomes large, particularly if it is large enough to be called macroscopic, its wave nature becomes difficult to observe. This is consistent with our common experience with matter.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Some particles in nature are massless. We have only treated the photon so far, but all massless entities travel at the speed of light, have a wavelength, and exhibit particle and wave behaviors. They have momentum given by a rearrangement of the de Broglie relationship, $p=h/λ$ . In large combinations of these massless particles (such large combinations are common only for photons or EM waves), there is mostly wave behavior upon detection, and the particle nature becomes difficult to observe. This is also consistent with experience. (See .)",
+        "text": "Some particles in nature are massless. We have only treated the photon so far, but all massless entities travel at the speed of light, have a wavelength, and exhibit particle and wave behaviors. They have momentum given by a rearrangement of the de Broglie relationship, $p=h/λ$. In large combinations of these massless particles (such large combinations are common only for photons or EM waves), there is mostly wave behavior upon detection, and the particle nature becomes difficult to observe. This is also consistent with experience. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "The problem set for this section involves concepts from this chapter and several others. Physics is most interesting when applied to general situations involving more than a narrow set of physical principles. For example, photons have momentum, hence the relevance of Linear Momentum and Collisions . The following topics are involved in some or all of the problems in this section:",
+        "text": "The problem set for this section involves concepts from this chapter and several others. Physics is most interesting when applied to general situations involving more than a narrow set of physical principles. For example, photons have momentum, hence the relevance of Linear Momentum and Collisions. The following topics are involved in some or all of the problems in this section:",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "illustrates how these strategies are applied to an integrated-concept problem.",
+        "text": "The example illustrates how these strategies are applied to an integrated-concept problem.",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "To solve an *integrated-concept problem* , such as those following this example, we must first identify the physical principles involved and identify the chapters in which they are found. Part (a) of this example asks for the *momentum of a photon* , a topic of the present chapter. Part (b) considers *recoil following a collision* , a topic of Linear Momentum and Collisions .",
+        "text": "To solve an *integrated-concept problem*, such as those following this example, we must first identify the physical principles involved and identify the chapters in which they are found. Part (a) of this example asks for the *momentum of a photon*, a topic of the present chapter. Part (b) considers *recoil following a collision*, a topic of Linear Momentum and Collisions.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The momentum of a photon is related to its wavelength by the equation:",
+        "text": "The momentum of a photon is related to its wavelength by the equation: $p=\\frac{h}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Entering the known value for Planck’s constant $h$ and given the wavelength $λ$ , we obtain",
+        "text": "Entering the known value for Planck’s constant $h$ and given the wavelength $λ$, we obtain $p = \\frac{6.63×{10}^{-34} J\\cdot s}{550×{10}^{–9} m} = 1.21×{10}^{-27} kg\\cdot m/s.$",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Conservation of momentum in the absorption of this photon by a grain of dust can be analyzed using the equation:",
+        "text": "Conservation of momentum in the absorption of this photon by a grain of dust can be analyzed using the equation: ${p}_{1}+{p}_{2}={p′}_{1}+{p′}_{2}({F}_{net}=0).$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "The net external force is zero, since the dust is in outer space. Let 1 represent the photon and 2 the dust particle. Before the collision, the dust is at rest (relative to some observer); after the collision, there is no photon (it is absorbed). So conservation of momentum can be written",
+        "text": "The net external force is zero, since the dust is in outer space. Let 1 represent the photon and 2 the dust particle. Before the collision, the dust is at rest (relative to some observer); after the collision, there is no photon (it is absorbed). So conservation of momentum can be written ${p}_{1}={p′}_{2}=mv,$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "where ${p}_{1}$ is the photon momentum before the collision and ${p′}_{2}$ is the dust momentum after the collision. The mass and recoil velocity of the dust are $m$ and $v$ , respectively. Solving this for $v$ , the requested quantity, yields",
+        "text": "where ${p}_{1}$ is the photon momentum before the collision and ${p′}_{2}$ is the dust momentum after the collision. The mass and recoil velocity of the dust are $m$ and $v$, respectively. Solving this for $v$, the requested quantity, yields $v=\\frac{p}{m},$",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "where $p$ is the photon momentum found in part (a). Entering known values (noting that a microgram is ${10}^{-9}kg$ ) gives",
+        "text": "where $p$ is the photon momentum found in part (a). Entering known values (noting that a microgram is ${10}^{-9} kg$) gives $v = \\frac{1.21×{10}^{-27} kg\\cdot m/s}{1.00×{10}^{-9} kg} = 1.21×{10}^{–18} m/s.$",
         "inline": []
       },
       "level": "core"
@@ -400,7 +400,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts The 54.0-eV electron in has a 0.167-nm wavelength. If such electrons are passed through a double slit and have their first maximum at an angle of $25.0º$ , what is the slit separation $d$ ?",
+        "text": "Integrated Concepts The 54.0-eV electron in the example has a 0.167-nm wavelength. If such electrons are passed through a double slit and have their first maximum at an angle of $25.0º$, what is the slit separation $d$?",
         "inline": []
       },
       "level": "core",
@@ -445,7 +445,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A certain heat lamp emits 200 W of mostly IR radiation averaging 1500 nm in wavelength. (a) What is the average photon energy in joules? (b) How many of these photons are required to increase the temperature of a person’s shoulder by $2.0ºC$ , assuming the affected mass is 4.0 kg with a specific heat of $0.83 kcal/kg\\cdot ºC$ . Also assume no other significant heat transfer. (c) How long does this take?",
+        "text": "Integrated Concepts A certain heat lamp emits 200 W of mostly IR radiation averaging 1500 nm in wavelength. (a) What is the average photon energy in joules? (b) How many of these photons are required to increase the temperature of a person’s shoulder by $2.0ºC$, assuming the affected mass is 4.0 kg with a specific heat of $0.83 kcal/kg\\cdot ºC$. Also assume no other significant heat transfer. (c) How long does this take?",
         "inline": []
       },
       "level": "core",
@@ -478,7 +478,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts On its high power setting, a microwave oven produces 900 W of 2560 MHz microwaves. (a) How many photons per second is this? (b) How many photons are required to increase the temperature of a 0.500-kg mass of pasta by $45.0ºC$ , assuming a specific heat of $0.900 kcal/kg\\cdot ºC$ ? Neglect all other heat transfer. (c) How long must the microwave operator wait for their pasta to be ready?",
+        "text": "Integrated Concepts On its high power setting, a microwave oven produces 900 W of 2560 MHz microwaves. (a) How many photons per second is this? (b) How many photons are required to increase the temperature of a 0.500-kg mass of pasta by $45.0ºC$, assuming a specific heat of $0.900 kcal/kg\\cdot ºC$? Neglect all other heat transfer. (c) How long must the microwave operator wait for their pasta to be ready?",
         "inline": []
       },
       "level": "core",
@@ -499,7 +499,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) Calculate the amount of microwave energy in joules needed to raise the temperature of 1.00 kg of soup from $20.0ºC$ to $100ºC$ . (b) What is the total momentum of all the microwave photons it takes to do this? (c) Calculate the velocity of a 1.00-kg mass with the same momentum. (d) What is the kinetic energy of this mass?",
+        "text": "Integrated Concepts (a) Calculate the amount of microwave energy in joules needed to raise the temperature of 1.00 kg of soup from $20.0ºC$ to $100ºC$. (b) What is the total momentum of all the microwave photons it takes to do this? (c) Calculate the velocity of a 1.00-kg mass with the same momentum. (d) What is the kinetic energy of this mass?",
         "inline": []
       },
       "level": "core",
@@ -757,7 +757,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts One problem with x rays is that they are not sensed. Calculate the temperature increase of a researcher exposed in a few seconds to a nearly fatal accidental dose of x rays under the following conditions. The energy of the x-ray photons is 200 keV, and $4.00×{10}^{13}$ of them are absorbed per kilogram of tissue, the specific heat of which is $0.830 kcal/kg\\cdot ºC$ . (Note that medical diagnostic x-ray machines *cannot* produce an intensity this great.)",
+        "text": "Integrated Concepts One problem with x rays is that they are not sensed. Calculate the temperature increase of a researcher exposed in a few seconds to a nearly fatal accidental dose of x rays under the following conditions. The energy of the x-ray photons is 200 keV, and $4.00\\times {10}^{13}$ of them are absorbed per kilogram of tissue, the specific heat of which is $0.830 kcal/kg\\cdot ºC$. (Note that medical diagnostic x-ray machines *cannot* produce an intensity this great.)",
         "inline": []
       },
       "level": "core",
@@ -802,7 +802,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts The momentum of light is exactly reversed when reflected straight back from a mirror, assuming negligible recoil of the mirror. Thus the change in momentum is twice the photon momentum. Suppose light of intensity $1.{00 kW/m}^{2}$ reflects from a mirror of area $2.{00 m}^{2}$ . (a) Calculate the energy reflected in 1.00 s. (b) What is the momentum imparted to the mirror? (c) Using the most general form of Newton’s second law, what is the force on the mirror? (d) Does the assumption of no mirror recoil seem reasonable?",
+        "text": "Integrated Concepts The momentum of light is exactly reversed when reflected straight back from a mirror, assuming negligible recoil of the mirror. Thus the change in momentum is twice the photon momentum. Suppose light of intensity $1.{00 kW/m}^{2}$ reflects from a mirror of area $2.{00 m}^{2}$. (a) Calculate the energy reflected in 1.00 s. (b) What is the momentum imparted to the mirror? (c) Using the most general form of Newton’s second law, what is the force on the mirror? (d) Does the assumption of no mirror recoil seem reasonable?",
         "inline": []
       },
       "level": "core",
@@ -844,7 +844,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Sunlight above the Earth’s atmosphere has an intensity of $1.30{kW/m}^{2}$ . If this is reflected straight back from a mirror that has only a small recoil, the light’s momentum is exactly reversed, giving the mirror twice the incident momentum. (a) Calculate the force per square meter of mirror. (b) Very low mass mirrors can be constructed in the near weightlessness of space, and attached to a spaceship to sail it. Once done, the average mass per square meter of the spaceship is 0.100 kg. Find the acceleration of the spaceship if all other forces are balanced. (c) How fast is it moving 24 hours later?",
+        "text": "Integrated Concepts Sunlight above the Earth’s atmosphere has an intensity of $1.30 {kW/m}^{2}$. If this is reflected straight back from a mirror that has only a small recoil, the light’s momentum is exactly reversed, giving the mirror twice the incident momentum. (a) Calculate the force per square meter of mirror. (b) Very low mass mirrors can be constructed in the near weightlessness of space, and attached to a spaceship to sail it. Once done, the average mass per square meter of the spaceship is 0.100 kg. Find the acceleration of the spaceship if all other forces are balanced. (c) How fast is it moving 24 hours later?",
         "inline": []
       },
       "level": "core",
@@ -865,7 +865,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking A photon of light with a wavelength of 550.0 nm is involved in a collision with an electron. Use $6.63×{10}^{−34}{m}^{2}kg/s$ for Planck’s constant. (a) How much momentum does the photon have before the collision? (b) If the wavelength of the photon leaving the collision is 650.0 nm, how much momentum does the photon have? (c) Does the momentum have to be conserved in every direction? (d) Does a longer wavelength imply more or less momentum than a shorter wavelength?",
+        "text": "Critical Thinking A photon of light with a wavelength of 550.0 nm is involved in a collision with an electron. Use $6.63\\times {10}^{−34}{m}^{2} kg/s$ for Planck’s constant. (a) How much momentum does the photon have before the collision? (b) If the wavelength of the photon leaving the collision is 650.0 nm, how much momentum does the photon have? (c) Does the momentum have to be conserved in every direction? (d) Does a longer wavelength imply more or less momentum than a shorter wavelength?",
         "inline": []
       },
       "level": "core",

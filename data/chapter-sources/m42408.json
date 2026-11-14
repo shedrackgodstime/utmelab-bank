@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Electric generators induce an emf by rotating a coil in a magnetic field, as briefly discussed in Induced Emf and Magnetic Flux . We will now explore generators in more detail. Consider the following example.",
+        "text": "Electric generators induce an emf by rotating a coil in a magnetic field, as briefly discussed in Induced Emf and Magnetic Flux. We will now explore generators in more detail. Consider the following example.",
         "inline": []
       },
       "level": "core"
@@ -55,7 +55,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The generator coil shown in is rotated through one-fourth of a revolution (from $θ=0º$ to $θ=90º$ ) in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?",
+        "text": "The generator coil shown in the figure is rotated through one-fourth of a revolution (from $θ=0º$ to $θ=90º$) in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?",
         "inline": []
       },
       "level": "core"
@@ -77,7 +77,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "We use Faraday’s law of induction to find the average emf induced over a time $Δt$ :",
+        "text": "We use Faraday’s law of induction to find the average emf induced over a time $Δt$: $emf=-N\\frac{ΔΦ}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -86,7 +86,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "We know that $N=200$ and $Δt=15.0ms$ , and so we must determine the change in flux $ΔΦ$ to find emf.",
+        "text": "We know that $N=200$ and $Δt=15.0 ms$, and so we must determine the change in flux $ΔΦ$ to find emf.",
         "inline": []
       },
       "level": "core"
@@ -95,7 +95,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Since the area of the loop and the magnetic field strength are constant, we see that",
+        "text": "Since the area of the loop and the magnetic field strength are constant, we see that $ΔΦ=Δ(BA cos θ)=ABΔ(cos θ).$",
         "inline": []
       },
       "level": "core"
@@ -104,7 +104,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Now, $Δ(cosθ)=-1.0$ , since it was given that $θ$ goes from $0º$ to $90º$ . Thus $ΔΦ=-AB$ , and",
+        "text": "Now, $Δ(cos θ)=-1.0$, since it was given that $θ$ goes from $0º$ to $90º$. Thus $ΔΦ=-AB$, and $emf=N\\frac{AB}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -113,7 +113,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The area of the loop is $A={πr}^{2}=(3.14...)(0.0500m{)}^{2}=7.85×{10}^{-3}{m}^{2}$ . Entering this value gives",
+        "text": "The area of the loop is $A={πr}^{2}=(3.14...)(0.0500 m{)}^{2}=7.85\\times {10}^{-3} {m}^{2}$. Entering this value gives $emf=200\\frac{(7.85\\times {10}^{-3} {m}^{2})(1.25 T)}{15.0\\times {10}^{-3} s}=131 V.$",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The emf calculated in is the average over one-fourth of a revolution. What is the emf at any given instant? It varies with the angle between the magnetic field and a perpendicular to the coil. We can get an expression for emf as a function of time by considering the motional emf on a rotating rectangular coil of width $w$ and height $ℓ$ in a uniform magnetic field, as illustrated in .",
+        "text": "The emf calculated in the example is the average over one-fourth of a revolution. What is the emf at any given instant? It varies with the angle between the magnetic field and a perpendicular to the coil. We can get an expression for emf as a function of time by considering the motional emf on a rotating rectangular coil of width $w$ and height $ℓ$ in a uniform magnetic field, as illustrated in the figure.",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Charges in the wires of the loop experience the magnetic force, because they are moving in a magnetic field. Charges in the vertical wires experience forces parallel to the wire, causing currents. But those in the top and bottom segments feel a force perpendicular to the wire, which does not cause a current. We can thus find the induced emf by considering only the side wires. Motional emf is given to be $emf=Bℓv$ , where the velocity *v* is perpendicular to the magnetic field $B$ . Here the velocity is at an angle $θ$ with $B$ , so that its component perpendicular to $B$ is $vsinθ$ (see ). Thus in this case the emf induced on each side is $emf=Bℓvsinθ$ , and they are in the same direction. The total emf around the loop is then",
+        "text": "Charges in the wires of the loop experience the magnetic force, because they are moving in a magnetic field. Charges in the vertical wires experience forces parallel to the wire, causing currents. But those in the top and bottom segments feel a force perpendicular to the wire, which does not cause a current. We can thus find the induced emf by considering only the side wires. Motional emf is given to be $emf=Bℓv$, where the velocity *v* is perpendicular to the magnetic field $B$. Here the velocity is at an angle $θ$ with $B$, so that its component perpendicular to $B$ is $v sin θ$ (see the figure). Thus in this case the emf induced on each side is $emf=Bℓv sin θ$, and they are in the same direction. The total emf around the loop is then $emf=2Bℓv sin θ.$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "This expression is valid, but it does not give emf as a function of time. To find the time dependence of emf, we assume the coil rotates at a constant angular velocity $ω$ . The angle $θ$ is related to angular velocity by *$θ=ωt$* , so that",
+        "text": "This expression is valid, but it does not give emf as a function of time. To find the time dependence of emf, we assume the coil rotates at a constant angular velocity $ω$. The angle $θ$ is related to angular velocity by *$θ=ωt$*, so that $emf=2Bℓv sin ωt.$",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Now, linear velocity $v$ is related to angular velocity $ω$ by $v=rω$ . Here $r=w/2$ , so that *$v=(w/2)ω$* , and",
+        "text": "Now, linear velocity $v$ is related to angular velocity $ω$ by $v=rω$. Here $r=w/2$, so that *$v=(w/2)ω$*, and $emf=2Bℓ\\frac{w}{2}ω sin ωt=(ℓw)Bω sin ωt.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Noting that the area of the loop is $A=ℓw$ , and allowing for $N$ loops, we find that",
+        "text": "Noting that the area of the loop is $A=ℓw$, and allowing for $N$ loops, we find that $emf=NABω sin ωt$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "is the emf induced in a generator coil of $N$ turns and area $A$ rotating at a constant angular velocity $ω$ in a uniform magnetic field $B$ . This can also be expressed as",
+        "text": "is the emf induced in a generator coil of $N$ turns and area $A$ rotating at a constant angular velocity $ω$ in a uniform magnetic field $B$. This can also be expressed as $emf={emf}_{0} sin ωt,$",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "is the maximum (peak) emf . Note that the frequency of the oscillation is *$f=ω/2π$* , and the period is $T=1/f=2π/ω$ *.* shows a graph of emf as a function of time, and it now seems reasonable that AC voltage is sinusoidal.",
+        "text": "is the maximum (peak) emf. Note that the frequency of the oscillation is *$f=ω/2π$*, and the period is $T=1/f=2π/ω$ *.* the figure shows a graph of emf as a function of time, and it now seems reasonable that AC voltage is sinusoidal.",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The fact that the peak emf, ${emf}_{0}=NABω$ , makes good sense. The greater the number of coils, the larger their area, and the stronger the field, the greater the output voltage. It is interesting that the faster the generator is spun (greater $ω$ ), the greater the emf. This is noticeable on bicycle generators—at least the cheaper varieties. One of the authors as a juvenile found it amusing to ride his bicycle fast enough to burn out his lights, until he had to ride home lightless one dark night.",
+        "text": "The fact that the peak emf, ${emf}_{0}=NABω$, makes good sense. The greater the number of coils, the larger their area, and the stronger the field, the greater the output voltage. It is interesting that the faster the generator is spun (greater $ω$), the greater the emf. This is noticeable on bicycle generators—at least the cheaper varieties. One of the authors as a juvenile found it amusing to ride his bicycle fast enough to burn out his lights, until he had to ride home lightless one dark night.",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "shows a scheme by which a generator can be made to produce pulsed DC. More elaborate arrangements of multiple coils and split rings can produce smoother DC, although electronic rather than mechanical means are usually used to make ripple-free DC.",
+        "text": "The figure shows a scheme by which a generator can be made to produce pulsed DC. More elaborate arrangements of multiple coils and split rings can produce smoother DC, although electronic rather than mechanical means are usually used to make ripple-free DC.",
         "inline": []
       },
       "level": "core"
@@ -266,7 +266,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the maximum emf, ${emf}_{0}$ , of the generator that was the subject of .",
+        "text": "Calculate the maximum emf, ${emf}_{0}$, of the generator that was the subject of the example.",
         "inline": []
       },
       "level": "core"
@@ -275,7 +275,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Once $ω$ , the angular velocity, is determined, ${emf}_{0}=NABω$ can be used to find ${emf}_{0}$ . All other quantities are known.",
+        "text": "Once $ω$, the angular velocity, is determined, ${emf}_{0}=NABω$ can be used to find ${emf}_{0}$. All other quantities are known.",
         "inline": []
       },
       "level": "core"
@@ -284,7 +284,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Angular velocity is defined to be the change in angle per unit time:",
+        "text": "Angular velocity is defined to be the change in angle per unit time: $ω=\\frac{Δθ}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "One-fourth of a revolution is $π/2$ radians, and the time is 0.0150 s; thus,",
+        "text": "One-fourth of a revolution is $π/2$ radians, and the time is 0.0150 s; thus, $ω = \\frac{π/2 rad}{0.0150 s} = 104.7 rad/s.$",
         "inline": []
       },
       "level": "core"
@@ -302,7 +302,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "104.7 rad/s is exactly 1000 rpm. We substitute this value for $ω$ and the information from the previous example into ${emf}_{0}=NABω$ , yielding",
+        "text": "104.7 rad/s is exactly 1000 rpm. We substitute this value for $ω$ and the information from the previous example into ${emf}_{0}=NABω$, yielding ${emf}_{0} = NABω = 200(7.85\\times {10}^{-3} {m}^{2})(1.25 T)(104.7 rad/s) = 206 V.$",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "In real life, electric generators look a lot different than the figures in this section, but the principles are the same. The source of mechanical energy that turns the coil can be falling water (hydropower), steam produced by the burning of fossil fuels, or the kinetic energy of wind. shows a cutaway view of a steam turbine; steam moves over the blades connected to the shaft, which rotates the coil within the generator.",
+        "text": "In real life, electric generators look a lot different than the figures in this section, but the principles are the same. The source of mechanical energy that turns the coil can be falling water (hydropower), steam produced by the burning of fossil fuels, or the kinetic energy of wind. The figure shows a cutaway view of a steam turbine; steam moves over the blades connected to the shaft, which rotates the coil within the generator.",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Generators illustrated in this section look very much like the motors illustrated previously. This is not coincidental. In fact, a motor becomes a generator when its shaft rotates. Certain early automobiles used their starter motor as a generator. In Back Emf , we shall further explore the action of a motor as a generator.",
+        "text": "Generators illustrated in this section look very much like the motors illustrated previously. This is not coincidental. In fact, a motor becomes a generator when its shaft rotates. Certain early automobiles used their starter motor as a generator. In Back Emf, we shall further explore the action of a motor as a generator.",
         "inline": []
       },
       "level": "core"
@@ -424,7 +424,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Using RHR-1, show that the emfs in the sides of the generator loop in are in the same sense and thus add.",
+        "text": "Using RHR-1, show that the emfs in the sides of the generator loop in the figure are in the same sense and thus add.",
         "inline": []
       },
       "level": "core",
@@ -520,7 +520,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the peak emf generated by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s $5.00×{10}^{-5}T$ magnetic field, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?",
+        "text": "What is the peak emf generated by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s $5.00\\times {10}^{-5} T$ magnetic field, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?",
         "inline": []
       },
       "level": "core",
@@ -544,7 +544,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the peak emf generated by the rotating coil in ? Assume all the conditions (coil size, rotation rate, and magnetic field) are the same as in",
+        "text": "What is the peak emf generated by the rotating coil in the exercise? Assume all the conditions (coil size, rotation rate, and magnetic field) are the same as in the exercise",
         "inline": []
       },
       "level": "core",
@@ -643,7 +643,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that if a coil rotates at an angular velocity $ω$ , the period of its AC output is $2π/ω$ .",
+        "text": "Show that if a coil rotates at an angular velocity $ω$, the period of its AC output is $2π/ω$.",
         "inline": []
       },
       "level": "core",
@@ -688,7 +688,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) If the emf of a coil rotating in a magnetic field is zero at $t=0$ , and increases to its first peak at $t=0.100ms$ , what is the angular velocity of the coil? (b) At what time will its next maximum occur? (c) What is the period of the output? (d) When is the output first one-fourth of its maximum? (e) When is it next one-fourth of its maximum?",
+        "text": "(a) If the emf of a coil rotating in a magnetic field is zero at $t=0$, and increases to its first peak at $t=0.100 ms$, what is the angular velocity of the coil? (b) At what time will its next maximum occur? (c) What is the period of the output? (d) When is the output first one-fourth of its maximum? (e) When is it next one-fourth of its maximum?",
         "inline": []
       },
       "level": "core",
@@ -709,7 +709,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results A 500-turn coil with a $0.250{m}^{2}$ area is spun in the Earth’s $5.00×{10}^{-5}T$ field, producing a 12.0 kV maximum emf. (a) At what angular velocity must the coil be spun? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
+        "text": "Unreasonable Results A 500-turn coil with a $0.250 {m}^{2}$ area is spun in the Earth’s $5.00\\times {10}^{-5} T$ field, producing a 12.0 kV maximum emf. (a) At what angular velocity must the coil be spun? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
         "inline": []
       },
       "level": "core",

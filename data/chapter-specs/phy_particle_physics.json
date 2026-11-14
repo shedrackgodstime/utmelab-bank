@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Particle Physics",
   "book_id": "secondary_physics",
-  "part_id": "part-6",
+  "part_id": "part-7",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -142,7 +142,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_atomic_physics",
+    "phy_special_relativity"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -161,16 +164,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -205,11 +199,67 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-23"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the Yukawa particle, and which force does it mediate?",
+          "answer": "The pion, a meson that mediates the strong nuclear force between nucleons.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Yukawa proposed a particle to carry the strong force.",
+            "Its mass was estimated from the range of the force and the uncertainty principle.",
+            "The pion was later discovered and matched the prediction."
+          ],
+          "tags": [
+            "yukawa particle",
+            "pion"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why does the strong force have a very short range?",
+          "answer": "Its carrier, the pion, has a nonzero mass, so the uncertainty principle limits how far a virtual pion can travel.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A virtual particle can exist only for a short time.",
+            "The energy-time uncertainty relation limits that time.",
+            "A massive carrier therefore gives a short range."
+          ],
+          "tags": [
+            "range of force",
+            "virtual particle"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Estimate the range of the strong force if the pion mass is 140 MeV/c². Take ħc ≈ 197 MeV fm.",
+          "answer": "about 1.4 fm",
+          "answer_kind": "expression",
+          "solution": [
+            "The range is roughly $r≈\\hbar/(mc)=\\hbar c/(mc^{2})$ .",
+            "$r≈197MeV\\cdot fm/140MeV=1.4fm$ .",
+            "The strong force therefore has a range of order 1 fm."
+          ],
+          "tags": [
+            "pion",
+            "range",
+            "uncertainty principle"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -223,7 +273,16 @@
         "Define QED.",
         "Describe the Feynman diagram for the exchange of a between a proton and a neutron."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Gravity is the strongest of the four fundamental forces.",
+          "correction": "Gravity is the weakest. The strong nuclear force is strongest at short range, then electromagnetism, then the weak force, and gravity is far weaker than all three."
+        },
+        {
+          "claim": "The electromagnetic force acts only between charges that are at rest.",
+          "correction": "It acts between charges whether they are at rest or moving. Moving charges also produce magnetic effects, which are part of the same electromagnetic interaction."
+        }
+      ],
       "summary": [
         "Define Yukawa particle.",
         "State the Heisenberg uncertainty principle.",
@@ -237,11 +296,11 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-15"
+      "no_worked_example_reason": "The source section on The Four Basic Forces has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-4",
@@ -268,17 +327,9 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-23"
+      "exam_links": [],
+      "worked_from": "exr-23",
+      "no_exam_link_reason": "Particle accelerators are beyond the JAMB and WAEC syllabi."
     },
     {
       "id": "sec-5",
@@ -291,7 +342,16 @@
         "Outline the differences between hadrons and leptons.",
         "State the differences between mesons and baryons."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Hadrons are fundamental particles.",
+          "correction": "Hadrons are composite. Baryons are made of three quarks and mesons of a quark and an antiquark. Leptons, such as the electron, are the fundamental particles in this classification."
+        },
+        {
+          "claim": "Mesons are a type of baryon.",
+          "correction": "Mesons and baryons are both hadrons, but they are different. Mesons contain a quark and an antiquark, while baryons contain three quarks."
+        }
+      ],
       "summary": [
         "Define Yukawa particle.",
         "State the Heisenberg uncertainty principle.",
@@ -305,11 +365,30 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-34"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the difference between a hadron and a lepton?",
+          "answer": "Hadrons feel the strong force and are composite; leptons do not feel the strong force and are fundamental.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Hadrons include protons, neutrons and pions.",
+            "They are made of quarks and interact through the strong force.",
+            "Leptons include electrons and neutrinos and are not made of quarks."
+          ],
+          "tags": [
+            "hadron",
+            "lepton"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -324,7 +403,12 @@
         "Outline the quark composition of hadrons.",
         "Determine quantum numbers from quark composition."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A quark can be isolated and observed on its own.",
+          "correction": "Quarks are confined. The strong force grows with separation, so pulling quarks apart creates new quark-antiquark pairs instead of freeing a single quark."
+        }
+      ],
       "summary": [
         "Define Yukawa particle.",
         "State the Heisenberg uncertainty principle.",
@@ -338,11 +422,13 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-43"
+      "figure_captions": {
+        "images/phy_m42678_Figure_34_05_02.jpg": "A particle interaction diagram showing the decay paths of K mesons, hyperons and a proton, with the charged tracks curving in the detector’s magnetic field."
+      }
     },
     {
       "id": "sec-7",
@@ -357,7 +443,12 @@
         "Describe the principle of quantum chromodynamics.",
         "Define the standard model."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Grand unified theories have been confirmed by experiment.",
+          "correction": "GUTs are theoretical extensions that unify the strong, weak and electromagnetic forces. They predict proton decay, which has not been observed, so they remain unconfirmed."
+        }
+      ],
       "summary": [
         "Define Yukawa particle.",
         "State the Heisenberg uncertainty principle.",
@@ -365,20 +456,127 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-30"
+      "exam_links": [],
+      "worked_from": "exr-30",
+      "no_exam_link_reason": "Grand unified theories are beyond the JAMB and WAEC syllabi."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$E = mc^2$",
+      "caption": {
+        "text": "Mass-energy equivalence",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A mass m corresponds to an energy E; particle accelerators convert kinetic energy into new particle mass.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42718/index.cnxml",
+        "locator": "CNXML module m42718, section “Accelerators Create Matter from Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$\\Delta E\\,\\Delta t \\geq \\frac{\\hbar}{2}$",
+      "caption": {
+        "text": "Energy-time uncertainty",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A virtual particle of energy ΔE can exist for a time Δt of order ħ/(2ΔE).",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42669/index.cnxml",
+        "locator": "CNXML module m42669, section “The Yukawa Particle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$r \\approx \\frac{\\hbar}{mc}$",
+      "caption": {
+        "text": "Range of a force carried by a massive particle",
+        "inline": []
+      },
+      "conditions": {
+        "text": "m is the mass of the exchange particle; the range falls as the mass rises.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42669/index.cnxml",
+        "locator": "CNXML module m42669, section “The Yukawa Particle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$f = \\frac{qB}{2\\pi m}$",
+      "caption": {
+        "text": "Cyclotron frequency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The frequency is independent of the particle’s speed in the non-relativistic limit.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42718/index.cnxml",
+        "locator": "CNXML module m42718, section “Accelerators Create Matter from Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$r = \\frac{mv}{qB}$",
+      "caption": {
+        "text": "Radius of a particle’s path in a magnetic field",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For motion perpendicular to a uniform magnetic field.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42718/index.cnxml",
+        "locator": "CNXML module m42718, section “Accelerators Create Matter from Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$E^2 = (pc)^2 + (mc^2)^2$",
+      "caption": {
+        "text": "Relativistic energy-momentum relation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Used to find the energy of a particle from its momentum and mass.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42674/index.cnxml",
+        "locator": "CNXML module m42674, section “Particles, Patterns, and Conservation Laws”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1174,42 +1372,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The standard model explains every particle there is.",
-      "correction": "It explains the particles we have found so far. Gravity is not in it, and the matter and antimatter imbalance is not explained either.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Particles and antiparticles are the same thing with the opposite charge.",
-      "correction": "They have the same mass and opposite charge, and when they meet they annihilate into photons.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1297,6 +1460,93 @@
       "explanation": "The product of the uncertainties in position and momentum has a lower bound set by the reduced Planck constant.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A cyclotron accelerates particles by",
+      "options": [
+        {
+          "id": "a",
+          "text": "repeated small pushes from an alternating electric field while a magnetic field bends their path"
+        },
+        {
+          "id": "b",
+          "text": "a single large voltage applied once"
+        },
+        {
+          "id": "c",
+          "text": "heating the particles in a furnace"
+        },
+        {
+          "id": "d",
+          "text": "using gravity to speed them up"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The magnetic field keeps the particles on circular paths, and the alternating voltage across the gap accelerates them each time they cross it.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "Which of the following is a lepton?",
+      "options": [
+        {
+          "id": "a",
+          "text": "proton"
+        },
+        {
+          "id": "b",
+          "text": "neutron"
+        },
+        {
+          "id": "c",
+          "text": "electron"
+        },
+        {
+          "id": "d",
+          "text": "pion"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The electron is a lepton. Protons and neutrons are baryons, and pions are mesons, so all three are hadrons.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "The exchange particle of the strong force between quarks is the",
+      "options": [
+        {
+          "id": "a",
+          "text": "photon"
+        },
+        {
+          "id": "b",
+          "text": "gluon"
+        },
+        {
+          "id": "c",
+          "text": "W boson"
+        },
+        {
+          "id": "d",
+          "text": "graviton"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Gluons carry the strong force between quarks. Photons carry electromagnetism, W and Z bosons carry the weak force, and the graviton is the hypothetical carrier of gravity.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1307,5 +1557,102 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Particle Physics', modules m42667, m42669, m42671, m42718, m42674, m42678, m42680",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 33,
+  "exercise_fixes": {
+    "sec-6:exr-142": {
+      "drop": true
+    },
+    "sec-3:exr-19": {
+      "stem": "Consider four forces: the gravitational force between the Earth and the Sun; the electrostatic force between the Earth and the Sun; the gravitational force between the proton and the electron in a hydrogen atom; and the electrostatic force between the proton and the electron in a hydrogen atom. What is the proper ordering of the magnitude of these forces, from greatest to least?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gravity, Earth-Sun; electrostatic, Earth-Sun; gravity, hydrogen; electrostatic, hydrogen"
+        },
+        {
+          "id": "b",
+          "text": "electrostatic, Earth-Sun; gravity, Earth-Sun; electrostatic, hydrogen; gravity, hydrogen"
+        },
+        {
+          "id": "c",
+          "text": "gravity, Earth-Sun; gravity, hydrogen; electrostatic, hydrogen; electrostatic, Earth-Sun"
+        },
+        {
+          "id": "d",
+          "text": "gravity, Earth-Sun; electrostatic, hydrogen; gravity, hydrogen; electrostatic, Earth-Sun"
+        }
+      ]
+    },
+    "sec-3:exr-27": {
+      "stem": "An atomic nucleus consists of positively charged protons and neutral neutrons, so the electrostatic repulsion should destroy it by making the protons fly apart. Why does this not happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The strong force is about 100 times stronger than electromagnetism."
+        },
+        {
+          "id": "b",
+          "text": "The weak force generates massive particles that hold the nucleus together."
+        },
+        {
+          "id": "c",
+          "text": "Electromagnetism is sometimes attractive between protons."
+        },
+        {
+          "id": "d",
+          "text": "Gravity is always attractive."
+        }
+      ]
+    },
+    "sec-6:exr-97": {
+      "answer": "a) ${Δ}^{++}(uuu)$ , so $B=\\frac{1}{3}+\\frac{1}{3}+\\frac{1}{3}=1$ b) The $d̄$ antiquark of the ${π}^{+}$ and a $d$ quark from the proton annihilate into a gluon, leaving the three $u$ quarks that form the ${Δ}^{++}$ .",
+      "solution": [
+        "a) The ${Δ}^{++}$ is uuu, so $B=\\frac{1}{3}+\\frac{1}{3}+\\frac{1}{3}=1$ .",
+        "b) In the diagram the $d̄$ from the ${π}^{+}$ annihilates a $d$ quark of the proton into a gluon; the remaining $uuu$ forms the ${Δ}^{++}$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); part (b) of the source answer was a bare letter with no text, restored here from the reaction's quark bookkeeping"
+    },
+    "sec-6:exr-159": {
+      "stem": "(a) What particle has the quark composition $ūūd̄$ ? (b) What should its decay mode be?",
+      "answer": "a) The antiproton, $ūūd̄$ b) $p̄→{π}^{0}+{e}^{-}$",
+      "solution": [
+        "a) Three antiquarks with charges $-2/3,-2/3,+1/3$ give total charge $-1$ and baryon number $-1$: the antiproton.",
+        "b) It is the charge-conjugate of the conjectured proton decay $p→{π}^{0}+{e}^{+}$ , so $p̄→{π}^{0}+{e}^{-}$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source wrote the antiproton as 'p-', rendered here with a proper bar"
+    },
+    "sec-6:exr-124": {
+      "answer": "No. Charge is conserved (-1 = -1), and muon lepton number is conserved (1 = 1), but electron lepton number is not: 0 before and +2 after.",
+      "solution": [
+        "Charge: $-1=(-1)+0+0$, conserved.",
+        "Muon lepton number: $1=0+0+1$, conserved.",
+        "Electron lepton number: $0=(+1)+(+1)+0=+2$, not conserved.",
+        "The decay is therefore forbidden."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer field was the digit 1"
+    },
+    "sec-6:exr-106": {
+      "answer": "(a) $+1$ (b) $B=1=1+0$, $Z=-1=0+(-1)$, all lepton numbers are 0 before and after (c) $(sss)→(uds)+(ūs)$",
+      "solution": [
+        "(a) The ${Ω}^{-}$ has strangeness $-3$ and charge $-1$; the final state has $S=-1+(-1)=-2$ and charge $0+(-1)=-1$.",
+        "(b) Baryon number: $1=1+0$. Charge: $-1=0+(-1)$. All lepton numbers are zero on both sides.",
+        "(c) $(sss)→(uds)+(ūs)$."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source solution had a double equals sign and wrote the antistrange quark as u-s"
+    },
+    "sec-4:exr-33": {
+      "stem": "A $\\pi^{+}$ and a $\\pi^{-}$ are moving toward each other extremely slowly. When they collide, two $\\pi^{0}$ are produced. How fast are they going? Ignore relativistic effects.",
+      "solution": [
+        "The charged pions annihilate into two neutral pions. The small mass difference becomes kinetic energy, shared equally by the two products.",
+        "The mass difference is about $2(139.6)-2(135.0)=9.2\\ \\mathrm{MeV}$, so each $\\pi^{0}$ gets about 4.6 MeV. This corresponds to a speed of about $7.8\\times10^{7}\\ \\mathrm{m/s}$."
+      ]
+    },
+    "sec-4:exr-28": {
+      "drop": true
+    },
+    "sec-5:exr-34": {
+      "drop": true
+    }
+  }
 }

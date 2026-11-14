@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Geometric Optics",
   "book_id": "secondary_physics",
-  "part_id": "part-5",
+  "part_id": "part-6",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -77,7 +77,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_oscillations_and_waves",
+    "phy_em_waves"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -96,32 +99,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-light-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -131,7 +109,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42452",
       "objectives": [
-        "List the ways by which light travels from a source to another location."
+        "List the ways by which light travels from a source to another location.",
+        "Explain the ray model of light and when it is a good approximation."
       ],
       "misconceptions": [
         {
@@ -150,15 +129,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
+          "topic_slug": "light-energy",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -172,7 +143,46 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-9"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is a light ray?",
+          "answer": "A straight line drawn in the direction in which light energy travels.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Light spreads out from a source.",
+            "In the ray model we represent its direction of travel by a line.",
+            "The line is perpendicular to the wavefronts."
+          ],
+          "tags": [
+            "ray model",
+            "light"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Name two ways light can travel from a source to a place where it is seen.",
+          "answer": "Directly through a vacuum or air, or after reflection and refraction by surfaces along the way.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Light can travel straight from the source to the eye.",
+            "It can also reflect from a mirror or diffuse surface.",
+            "It can refract through glass, water or the lens of the eye."
+          ],
+          "tags": [
+            "light paths",
+            "reflection",
+            "refraction"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on The Ray Aspect of Light has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -181,9 +191,19 @@
       "est_minutes": 12,
       "locator": "CNXML module m42456",
       "objectives": [
-        "Explain reflection of light from polished and rough surfaces."
+        "Explain reflection of light from polished and rough surfaces.",
+        "State the law of reflection and apply it to plane and curved mirrors.",
+        "Distinguish specular reflection from diffuse reflection."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The law of reflection says the angle of reflection equals the angle of incidence, both measured from the surface.",
+          "correction": "Both angles are measured from the normal, the line perpendicular to the surface at the point of incidence. Measuring from the surface gives a different pair of numbers, though the two are complementary.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_geometric_optics:trap-3",
+          "signal": "Our own question asks which angle the reflection angle equals."
+        }
+      ],
       "summary": [
         "The angle of reflection equals the angle of incidence.",
         "A mirror has a smooth surface and reflects light at specific angles.",
@@ -201,14 +221,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-light-waves",
@@ -217,7 +229,63 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-15"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "State the law of reflection.",
+          "answer": "The angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal all lie in the same plane.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Angles are measured from the normal, not the surface.",
+            "The reflected ray leaves on the opposite side of the normal.",
+            "Both rays and the normal lie in one plane."
+          ],
+          "tags": [
+            "law of reflection",
+            "normal"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why can you see your face in a mirror but not in a sheet of white paper?",
+          "answer": "The mirror reflects light specularly in one direction, while the paper reflects diffusely in many directions.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A smooth surface reflects a parallel beam as a parallel beam.",
+            "A rough surface scatters the light in many directions.",
+            "Only the specular reflection preserves the image."
+          ],
+          "tags": [
+            "specular reflection",
+            "diffuse reflection"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A ray strikes a plane mirror at 35° to the normal. What is the angle between the incident ray and the reflected ray?",
+          "answer": "70°",
+          "answer_kind": "expression",
+          "solution": [
+            "The angle of reflection equals the angle of incidence, 35°.",
+            "The incident and reflected rays lie on opposite sides of the normal.",
+            "The angle between them is 35° + 35° = 70°."
+          ],
+          "tags": [
+            "law of reflection",
+            "angles"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on The Law of Reflection has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-4",
@@ -226,12 +294,20 @@
       "est_minutes": 12,
       "locator": "CNXML module m42459",
       "objectives": [
-        "Determine the index of refraction, given the speed of light in a medium."
+        "Determine the index of refraction, given the speed of light in a medium.",
+        "State Snell’s law and calculate the angle of refraction at a boundary."
       ],
       "misconceptions": [
         {
           "claim": "A converging lens forms an image at the same place whatever the object distance.",
           "correction": "The image distance changes with the object distance, and the lens equation gives it."
+        },
+        {
+          "claim": "Snell's law relates the angles of incidence and refraction to the wavelengths in the two media.",
+          "correction": "It relates them to the speeds of light, through the refractive indices. The wavelengths change as the speed changes, and the frequency does not, which is the point of the law.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_geometric_optics:trap-4",
+          "signal": "Our own question offers the wavelength reading as an option."
         }
       ],
       "summary": [
@@ -245,14 +321,6 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
           "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
           "subtopic_slug": null,
           "status": "covered",
@@ -266,8 +334,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-42"
+      ]
     },
     {
       "id": "sec-5",
@@ -280,7 +347,16 @@
         "Describe the workings and uses of fiber optics.",
         "Analyze the reason for the sparkle of diamonds."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Total internal reflection can occur when light travels from air into glass.",
+          "correction": "It can occur only when light travels from a denser medium into a less dense one and the angle of incidence exceeds the critical angle. Going from air to glass bends the ray toward the normal instead."
+        },
+        {
+          "claim": "An optical fibre keeps light inside because its cladding is opaque.",
+          "correction": "The core has a higher refractive index than the cladding. Light striking the boundary above the critical angle undergoes total internal reflection, so it stays in the core."
+        }
+      ],
       "summary": [
         "The incident angle that produces an angle of refraction of 90º is called critical angle.",
         "Total internal reflection is a phenomenon that occurs at the boundary between two mediums, such that if the incident angle in the first medium is greater than the critical angle, then all the light is reflected back into that medium.",
@@ -292,14 +368,6 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
           "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
           "subtopic_slug": null,
           "status": "covered",
@@ -312,9 +380,55 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fibre-optics",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
-      "worked_from": "exr-57"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the critical angle?",
+          "answer": "The angle of incidence in the denser medium for which the angle of refraction is 90°.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Light bends away from the normal when it enters a less dense medium.",
+            "At the critical angle the refracted ray grazes the boundary.",
+            "Beyond it, total internal reflection occurs."
+          ],
+          "tags": [
+            "critical angle",
+            "total internal reflection"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A diver shines a flashlight beam upward from beneath the water surface. The index of refraction of water is 1.33 and that of air is 1.00. (a) Calculate the critical angle for the water-air boundary. (b) Can the light escape into the air if the beam strikes the surface at 60° from the normal? Explain.",
+          "answer": "(a) 48.8° (b) No: 60° exceeds the critical angle, so the light is totally internally reflected back into the water",
+          "answer_kind": "expression",
+          "solution": [
+            "Snell's law at the critical angle: n_water sin θc = n_air sin 90°, so sin θc = 1.00/1.33 = 0.752.",
+            "θc = sin⁻¹(0.752) = 48.8°.",
+            "The angle of incidence 60° is larger than 48.8°, so Snell's law gives no refracted ray: the light is totally internally reflected and cannot escape."
+          ],
+          "tags": [
+            "total internal reflection",
+            "critical angle",
+            "Snell's law"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -323,9 +437,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42466",
       "objectives": [
-        "Explain the phenomenon of dispersion and discuss its advantages and disadvantages."
+        "Explain the phenomenon of dispersion and discuss its advantages and disadvantages.",
+        "Explain how dispersion separates white light into colours, and how a rainbow forms."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A prism bends all colours of white light by the same angle.",
+          "correction": "The refractive index depends on wavelength. Violet light is refracted more than red light, so the colours leave the prism at different angles and the light is dispersed."
+        }
+      ],
       "summary": [
         "The spreading of white light into its full spectrum of wavelengths is called dispersion.",
         "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors.",
@@ -337,15 +457,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
+          "topic_slug": "dispersion-of-light-and-colours",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -359,7 +471,29 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-20"
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A narrow beam of white light in air strikes one face of a 60.0° crown-glass prism at 45.0° incidence. Crown glass has n = 1.512 for red light and n = 1.530 for violet light. (a) Use Snell's law at both surfaces to calculate the deviation of each colour. (b) Which colour is deviated more, and why does the white light spread into a spectrum?",
+          "answer": "(a) The red ray deviates by 38.5° and the violet ray by 40.3° (b) Violet, because its larger index bends it more at both surfaces; the spread of deviations fans the colours out into a spectrum",
+          "answer_kind": "expression",
+          "solution": [
+            "First surface, red: sin r = sin 45.0°/1.512, r = 27.9°. Second surface: incidence = 60.0° - 27.9° = 32.1°, sin i' = 1.512 × sin 32.1°, i' = 53.5°.",
+            "Deviation, red: δ = 45.0° + 53.5° - 60.0° = 38.5°.",
+            "Violet: sin r = sin 45.0°/1.530, r = 27.5°; incidence 32.5°, sin i' = 1.530 × sin 32.5°, i' = 55.3°; δ = 45.0° + 55.3° - 60.0° = 40.3°.",
+            "Violet is deviated about 1.8° more than red, so the colours leave the prism at slightly different angles and form a spectrum."
+          ],
+          "tags": [
+            "dispersion",
+            "prism",
+            "index of refraction"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Dispersion: The Rainbow and Prisms has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-7",
@@ -372,7 +506,12 @@
         "Illustrate the formation of images using the technique of ray tracing.",
         "Determine power of a lens given the focal length."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A convex lens always forms a real image.",
+          "correction": "When the object is closer than the focal length, a convex lens forms a virtual, upright, magnified image. A real image forms only when the object is beyond the focal point."
+        }
+      ],
       "summary": [
         "Light rays entering a converging lens parallel to its axis cross one another at a single point on the opposite side.",
         "For a converging lens, the focal point is the point at which converging light rays cross; for a diverging lens, the focal point is the point from which diverging light rays appear to originate.",
@@ -381,14 +520,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "reflection-of-light-at-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -405,8 +536,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-100"
+      ]
     },
     {
       "id": "sec-8",
@@ -419,7 +549,12 @@
         "Explain with ray diagrams the formation of an image using spherical mirrors.",
         "Determine focal length and magnification given radius of curvature, distance of object and image."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A plane mirror reverses left and right.",
+          "correction": "A plane mirror reverses front and back. The image is as far behind the mirror as the object is in front, and it has the same size and orientation."
+        }
+      ],
       "summary": [
         "The characteristics of an image formed by a flat mirror are: (a) The image and object are the same distance from the mirror, (b) The image is a virtual image, and (c) The image is situated behind the mirror.",
         "Image length is half the radius of curvature. f=R2",
@@ -437,14 +572,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "refraction-of-light-through-plane-and-curved-surfaces",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-light-waves",
@@ -452,11 +579,163 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-55"
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$n = \\frac{c}{v}$",
+      "caption": {
+        "text": "Refractive index",
+        "inline": []
+      },
+      "conditions": {
+        "text": "c is the speed of light in a vacuum and v is its speed in the medium.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42459/index.cnxml",
+        "locator": "CNXML module m42459, section “The Law of Refraction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$",
+      "caption": {
+        "text": "Snell’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Angles are measured from the normal at the boundary.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42459/index.cnxml",
+        "locator": "CNXML module m42459, section “The Law of Refraction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$\\sin\\theta_c = \\frac{n_2}{n_1}$",
+      "caption": {
+        "text": "Critical angle",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For light going from a medium of index n₁ into one of index n₂, with n₁ > n₂.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42462/index.cnxml",
+        "locator": "CNXML module m42462, section “Total Internal Reflection”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$P = \\frac{1}{f}$",
+      "caption": {
+        "text": "Power of a lens",
+        "inline": []
+      },
+      "conditions": {
+        "text": "f is the focal length in metres; the power is in dioptres.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42470/index.cnxml",
+        "locator": "CNXML module m42470, section “Image Formation by Lenses”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}$",
+      "caption": {
+        "text": "Thin lens equation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "d_o is the object distance and d_i the image distance, both measured from the lens.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42470/index.cnxml",
+        "locator": "CNXML module m42470, section “Image Formation by Lenses”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$m = \\frac{h_i}{h_o} = -\\frac{d_i}{d_o}$",
+      "caption": {
+        "text": "Magnification",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A negative magnification means the image is inverted.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42470/index.cnxml",
+        "locator": "CNXML module m42470, section “Image Formation by Lenses”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$f = \\frac{R}{2}$",
+      "caption": {
+        "text": "Focal length of a spherical mirror",
+        "inline": []
+      },
+      "conditions": {
+        "text": "R is the radius of curvature; the approximation holds for rays close to the axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42474/index.cnxml",
+        "locator": "CNXML module m42474, section “Image Formation by Mirrors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}$",
+      "caption": {
+        "text": "Mirror equation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The same form as the thin lens equation, with distances measured from the mirror.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42474/index.cnxml",
+        "locator": "CNXML module m42474, section “Image Formation by Mirrors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -856,76 +1135,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A ray bends towards the normal when it enters glass from air.",
-      "correction": "It bends away from the normal, because the speed of light is lower in glass.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "A converging lens forms an image at the same place whatever the object distance.",
-      "correction": "The image distance changes with the object distance, and the lens equation gives it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The law of reflection says the angle of reflection equals the angle of incidence, both measured from the surface.",
-      "correction": "Both angles are measured from the normal, the line perpendicular to the surface at the point of incidence. Measuring from the surface gives a different pair of numbers, though the two are complementary.",
-      "signal": "Our own question asks which angle the reflection angle equals.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Snell's law relates the angles of incidence and refraction to the wavelengths in the two media.",
-      "correction": "It relates them to the speeds of light, through the refractive indices. The wavelengths change as the speed changes, and the frequency does not, which is the point of the law.",
-      "signal": "Our own question offers the wavelength reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1071,6 +1281,64 @@
       "explanation": "A convex mirror always gives a virtual, upright and diminished image behind the mirror, which is why it is used as a rear view mirror.",
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "The ray model of light is useful because it",
+      "options": [
+        {
+          "id": "a",
+          "text": "describes light as a stream of particles"
+        },
+        {
+          "id": "b",
+          "text": "represents the direction of energy travel by straight lines"
+        },
+        {
+          "id": "c",
+          "text": "explains the colour of light"
+        },
+        {
+          "id": "d",
+          "text": "shows that light needs a medium"
+        }
+      ],
+      "answer": "b",
+      "explanation": "In the ray model, a ray is a line drawn in the direction the light energy travels. It is a good approximation when the objects the light meets are much larger than its wavelength.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "White light passes through a glass prism and spreads into a spectrum. The main cause is that",
+      "options": [
+        {
+          "id": "a",
+          "text": "different colours travel at different speeds in glass"
+        },
+        {
+          "id": "b",
+          "text": "the prism absorbs some colours completely"
+        },
+        {
+          "id": "c",
+          "text": "glass reflects only red light"
+        },
+        {
+          "id": "d",
+          "text": "the prism adds colour to the light"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The refractive index of glass varies with wavelength, so each colour is refracted through a slightly different angle. This is dispersion.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1081,5 +1349,154 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Geometric Optics', modules m42449, m42452, m42456, m42459, m42462, m42466, m42470, m42474",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 25,
+  "exercise_fixes": {
+    "sec-5:exr-65": {
+      "drop": true
+    },
+    "sec-6:exr-33": {
+      "drop": true
+    },
+    "sec-2:exr-15": {
+      "stem": "Suppose a man stands in front of a mirror. His eyes are 1.65 m above the floor, and the top of his head is 0.13 m higher. Find the height above the floor of the top and bottom of the smallest mirror in which he can see both the top of his head and his feet. How is this distance related to the man’s height?"
+    },
+    "sec-7:exr-148": {
+      "stem": "A book held 7.50 cm from a 10.0 cm focal length magnifying glass has a magnification of 4.00. (a) Find the magnification for the book when it is held 8.50 cm from the magnifier. (b) Do the same for when it is held 9.50 cm from the magnifier. (c) Comment on the trend in m as the object distance increases as in these two calculations."
+    },
+    "sec-4:exr-85": {
+      "stem": "What is the speed of light in water? In glycerine? Take the index of refraction of water as 1.333 and that of glycerine as 1.473.",
+      "answer": "$2.25×10^{8}m/s$ in water and $2.04×10^{8}m/s$ in glycerine",
+      "solution": [
+        "$v=c/n$ .",
+        "Water: $v=(3.00×10^{8})/1.333=2.25×10^{8}m/s$ .",
+        "Glycerine: $v=(3.00×10^{8})/1.473=2.04×10^{8}m/s$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer gave only the glycerine speed"
+    },
+    "sec-8:exr-110": {
+      "answer": "$h_{i}=h_{o}$"
+    },
+    "sec-4:exr-46": {
+      "drop": true
+    },
+    "sec-4:exr-91": {
+      "stem": "Calculate the index of refraction for a medium in which the speed of light is $2.012\\times10^{8}\\ \\mathrm{m/s}$, and identify the most likely substance using these values: water 1.333, ethanol 1.361, fused quartz 1.458, polystyrene 1.490, crown glass 1.52, flint glass 1.66, diamond 2.419.",
+      "answer": "1.490, polystyrene",
+      "solution": [
+        "The index of refraction is $n=c/v=(3.00\\times10^{8}\\ \\mathrm{m/s})/(2.012\\times10^{8}\\ \\mathrm{m/s})=1.491$.",
+        "The closest tabulated value is 1.490, so the medium is polystyrene."
+      ]
+    },
+    "sec-2:exr-9": {
+      "drop": true
+    }
+  },
+  "worked_fixes": {
+    "sec-4:we-ex-16": {
+      "statement": "Speed of Light in Matter",
+      "answer": "$1.56×10^{8}m/s$",
+      "steps": [
+        "The index of refraction is $n=c/v$, so $v=c/n$ .",
+        "For zircon, $n=1.923$, so $v=(3.00×10^{8})/1.923=1.56×10^{8}m/s$ .",
+        "This is slightly more than half the speed of light in vacuum, and still very fast by everyday standards.",
+        "Diamond has a larger index of refraction than zircon, so light travels even more slowly in diamond; this is why zircon sparkles less than diamond."
+      ]
+    },
+    "sec-4:we-ex-29": {
+      "statement": "Determine the Index of Refraction from Refraction Data",
+      "answer": "1.33",
+      "steps": [
+        "Medium 1 is air with $n_{1}=1.00$; the incident angle is $θ_{1}=30.0°$ and the angle of refraction is $θ_{2}=22.0°$ .",
+        "Snell's law gives $n_{1}\\\\sinθ_{1}=n_{2}\\\\sinθ_{2}$ .",
+        "$n_{2}=n_{1}\\\\frac{\\\\sinθ_{1}}{\\\\sinθ_{2}}=(1.00)\\\\frac{\\\\sin30.0°}{\\\\sin22.0°}=1.33$ .",
+        "This is the index of refraction of water."
+      ]
+    },
+    "sec-4:we-ex-35": {
+      "statement": "A Larger Change in Direction",
+      "answer": "11.9°",
+      "steps": [
+        "Light goes from air ($n_{1}=1.00$) into diamond ($n_{2}=2.419$) at $θ_{1}=30.0°$ .",
+        "Snell's law gives $n_{1}\\\\sinθ_{1}=n_{2}\\\\sinθ_{2}$ .",
+        "$\\\\sinθ_{2}=\\\\frac{n_{1}\\\\sinθ_{1}}{n_{2}}=\\\\frac{(1.00)\\\\sin30.0°}{2.419}=0.2067$ .",
+        "$θ_{2}=11.9°$, much smaller than the $22.0°$ obtained for water at the same incident angle."
+      ]
+    },
+    "sec-5:we-ex-10": {
+      "statement": "How Big is the Critical Angle Here?",
+      "answer": "42.2°",
+      "steps": [
+        "For light in polystyrene ($n_{1}=1.49$) surrounded by air ($n_{2}=1.00$), the critical angle is given by $\\\\sinθ_{c}=n_{2}/n_{1}$ .",
+        "$\\\\sinθ_{c}=1.00/1.49=0.671$ .",
+        "$θ_{c}=42.2°$ .",
+        "Any ray inside the plastic striking the surface at more than $42.2°$ is totally internally reflected."
+      ]
+    },
+    "sec-7:we-ex-12": {
+      "statement": "What is the Power of a Common Magnifying Glass?",
+      "answer": "f = 8.00 cm, P = 12.5 D",
+      "steps": [
+        "The Sun is so far away that its rays are parallel when they reach the lens, so the lens focuses them at its focal point.",
+        "The distance from the lens to the bright spot is the focal length: $f=8.00cm=0.0800m$ .",
+        "The power of a lens is $P=1/f$ .",
+        "$P=1/0.0800=12.5D$ ."
+      ]
+    },
+    "sec-7:we-ex-41": {
+      "statement": "Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens Equations",
+      "answer": "$d_{i}=1.50m$, $m=-2.00$ (a real, inverted image twice the object's size)",
+      "steps": [
+        "The object is $d_{o}=0.750m$ from a convex lens of focal length $f=0.500m$ .",
+        "The thin lens equation gives $1/d_{i}=1/f-1/d_{o}=1/0.500-1/0.750$ .",
+        "$1/d_{i}=2.00-1.333=0.667m^{-1}$, so $d_{i}=1.50m$ .",
+        "The magnification is $m=-d_{i}/d_{o}=-1.50/0.750=-2.00$ .",
+        "The image is real (positive $d_{i}$), inverted (negative $m$), and twice the size of the object, in agreement with the ray-tracing construction."
+      ]
+    },
+    "sec-7:we-ex-63": {
+      "statement": "Image Produced by a Magnifying Glass",
+      "answer": "$d_{i}=-30.0cm$, $m=+4.00$",
+      "steps": [
+        "The object is $d_{o}=7.50cm$ from a convex lens of focal length $f=10.0cm$, so it lies inside the focal point.",
+        "$1/d_{i}=1/f-1/d_{o}=1/10.0-1/7.50=0.100-0.1333=-0.0333cm^{-1}$ .",
+        "$d_{i}=-30.0cm$; the negative sign means the image is virtual and on the same side as the object.",
+        "$m=-d_{i}/d_{o}=-(-30.0)/7.50=+4.00$ .",
+        "The image is upright and four times the size of the object."
+      ]
+    },
+    "sec-7:we-ex-75": {
+      "statement": "Image Produced by a Concave Lens",
+      "answer": "$d_{i}=-4.29cm$, $m=+0.571$",
+      "steps": [
+        "The object is $d_{o}=7.50cm$ from a concave lens of focal length $f=-10.0cm$ .",
+        "$1/d_{i}=1/f-1/d_{o}=-0.100-0.1333=-0.2333cm^{-1}$ .",
+        "$d_{i}=-4.29cm$; the image is virtual and on the same side as the object.",
+        "$m=-d_{i}/d_{o}=-(-4.29)/7.50=+0.571$ .",
+        "The image is upright and a little over half the object's size."
+      ]
+    },
+    "sec-8:we-ex-15": {
+      "statement": "A Concave Reflector",
+      "answer": "$d_{o}=27.3cm$",
+      "steps": [
+        "The mirror has radius of curvature $R=50.0cm$, so its focal length is $f=R/2=25.0cm=0.250m$ .",
+        "The image is real and $d_{i}=3.00m$ from the mirror.",
+        "The mirror equation gives $1/d_{o}=1/f-1/d_{i}=1/0.250-1/3.00$ .",
+        "$1/d_{o}=4.00-0.333=3.667m^{-1}$, so $d_{o}=0.273m=27.3cm$ .",
+        "The coils sit only slightly beyond the focal point, and the image is far away, as in a slide projector."
+      ]
+    },
+    "sec-8:we-ex-40": {
+      "statement": "Image in a Convex Mirror",
+      "answer": "radius of curvature about 0.79 cm (focal length about -0.40 cm)",
+      "steps": [
+        "The cornea acts as a convex mirror. The object is $d_{o}=12.0cm$ away and the magnification is $m=0.0320$ .",
+        "For a mirror, $m=-d_{i}/d_{o}$, so $d_{i}=-m d_{o}=-(0.0320)(12.0)=-0.384cm$ .",
+        "The mirror equation gives $1/f=1/d_{o}+1/d_{i}=1/12.0+1/(-0.384)$ .",
+        "$1/f=0.0833-2.604=-2.521cm^{-1}$, so $f=-0.397cm$ .",
+        "The radius of curvature is $R=2f=-0.793cm$; its magnitude is about 0.79 cm."
+      ]
+    }
+  }
 }

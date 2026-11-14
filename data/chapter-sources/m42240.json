@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Newton’s first law implies that an object oscillating back and forth is experiencing forces. Without force, the object would move in a straight line at a constant speed rather than oscillate. Consider, for example, plucking a plastic ruler to the left as shown in . The deformation of the ruler creates a force in the opposite direction, known as a restoring force . Once released, the restoring force causes the ruler to move back toward its stable equilibrium position, where the net force on it is zero. However, by the time the ruler gets there, it gains momentum and continues to move to the right, producing the opposite deformation. It is then forced to the left, back through equilibrium, and the process is repeated until dissipative forces dampen the motion. These forces remove mechanical energy from the system, gradually reducing the motion until the ruler comes to rest.",
+        "text": "Newton’s first law implies that an object oscillating back and forth is experiencing forces. Without force, the object would move in a straight line at a constant speed rather than oscillate. Consider, for example, plucking a plastic ruler to the left as shown in the figure. The deformation of the ruler creates a force in the opposite direction, known as a restoring force. Once released, the restoring force causes the ruler to move back toward its stable equilibrium position, where the net force on it is zero. However, by the time the ruler gets there, it gains momentum and continues to move to the right, producing the opposite deformation. It is then forced to the left, back through equilibrium, and the process is repeated until dissipative forces dampen the motion. These forces remove mechanical energy from the system, gradually reducing the motion until the ruler comes to rest.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The simplest oscillations occur when the restoring force is directly proportional to displacement. When stress and strain were covered in Newton’s Third Law of Motion , the name was given to this relationship between force and displacement was Hooke’s law:",
+        "text": "The simplest oscillations occur when the restoring force is directly proportional to displacement. When stress and strain were covered in Newton’s Third Law of Motion, the name was given to this relationship between force and displacement was Hooke’s law: $F=-kx.$",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Here, *$F$* is the restoring force, *$x$* is the displacement from equilibrium or deformation , and $k$ is a constant related to the difficulty in deforming the system. The minus sign indicates the restoring force is in the direction opposite to the displacement.",
+        "text": "Here, *$F$* is the restoring force, *$x$* is the displacement from equilibrium or deformation, and $k$ is a constant related to the difficulty in deforming the system. The minus sign indicates the restoring force is in the direction opposite to the displacement.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The force constant *$k$* is related to the rigidity (or stiffness) of a system—the larger the force constant, the greater the restoring force, and the stiffer the system. The units of *$k$* are newtons per meter (N/m). For example, *$k$* is directly related to Young’s modulus when we stretch a string. shows a graph of the absolute value of the restoring force versus the displacement for a system that can be described by Hooke’s law—a simple spring in this case. The slope of the graph equals the force constant *$k$* in newtons per meter. A common physics laboratory exercise is to measure restoring forces created by springs, determine if they follow Hooke’s law, and calculate their force constants if they do.",
+        "text": "The force constant *$k$* is related to the rigidity (or stiffness) of a system—the larger the force constant, the greater the restoring force, and the stiffer the system. The units of *$k$* are newtons per meter (N/m). For example, *$k$* is directly related to Young’s modulus when we stretch a string. The figure shows a graph of the absolute value of the restoring force versus the displacement for a system that can be described by Hooke’s law—a simple spring in this case. The slope of the graph equals the force constant *$k$* in newtons per meter. A common physics laboratory exercise is to measure restoring forces created by springs, determine if they follow Hooke’s law, and calculate their force constants if they do.",
         "inline": []
       },
       "level": "core"
@@ -152,7 +152,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Consider the car to be in its equilibrium position $x=0$ before the person gets in. The car then settles down 1.20 cm, which means it is displaced to a position $x=-1.20×{10}^{-2}m$ . At that point, the springs supply a restoring force $F$ equal to the person’s weight $w=mg=(80.0kg)(9.80{m/s}^{2})=784N$ . We take this force to be *$F$* in Hooke’s law. Knowing *$F$* and *$x$* , we can then solve the force constant *$k$* .",
+        "text": "Consider the car to be in its equilibrium position $x=0$ before the person gets in. The car then settles down 1.20 cm, which means it is displaced to a position $x=-1.20\\times {10}^{-2} m$. At that point, the springs supply a restoring force $F$ equal to the person’s weight $w=mg=(80.0 kg)(9.80 {m/s}^{2})=784 N$. We take this force to be *$F$* in Hooke’s law. Knowing *$F$* and *$x$*, we can then solve the force constant *$k$*.",
         "inline": []
       },
       "level": "core"
@@ -161,7 +161,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Substitute known values and solve $k$ :",
+        "text": "Substitute known values and solve $k$: $k = -\\frac{784 N}{-1.20\\times {10}^{-2} m} = 6. 53\\times {10}^{4} N/m.$",
         "inline": []
       },
       "level": "core"
@@ -188,7 +188,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "In order to produce a deformation, work must be done. That is, a force must be exerted through a distance, whether you pluck a guitar string or compress a car spring. If the only result is deformation, and no work goes into thermal, sound, or kinetic energy, then all the work is initially stored in the deformed object as some form of potential energy. The potential energy stored in a spring is ${PE}_{s}=\\frac{1}{2}{kx}^{2}$ . Here, we generalize the idea to elastic potential energy for a deformation of any system that can be described by Hooke’s law. Hence,",
+        "text": "In order to produce a deformation, work must be done. That is, a force must be exerted through a distance, whether you pluck a guitar string or compress a car spring. If the only result is deformation, and no work goes into thermal, sound, or kinetic energy, then all the work is initially stored in the deformed object as some form of potential energy. The potential energy stored in a spring is ${PE}_{s}=\\frac{1}{2}{kx}^{2}$. Here, we generalize the idea to elastic potential energy for a deformation of any system that can be described by Hooke’s law. Hence, ${PE}_{el}=\\frac{1}{2}{kx}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -197,7 +197,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "where ${PE}_{el}$ is the elastic potential energy stored in any deformed system that obeys Hooke’s law and has a displacement *$x$* from equilibrium and a force constant $k$ .",
+        "text": "where ${PE}_{el}$ is the elastic potential energy stored in any deformed system that obeys Hooke’s law and has a displacement *$x$* from equilibrium and a force constant $k$.",
         "inline": []
       },
       "level": "core"
@@ -206,7 +206,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "It is possible to find the work done in deforming a system in order to find the energy stored. This work is performed by an applied force ${F}_{app}$ . The applied force is exactly opposite to the restoring force (action-reaction), and so ${F}_{app}=kx$ . shows a graph of the applied force versus deformation $x$ for a system that can be described by Hooke’s law. Work done on the system is force multiplied by distance, which equals the area under the curve or $(1/2){kx}^{2}$ (Method A in the figure). Another way to determine the work is to note that the force increases linearly from 0 to *$kx$* , so that the average force is $(1/2)kx$ , the distance moved is $x$ , and thus $W={F}_{app}d=[(1/2)kx](x)=(1/2){kx}^{2}$ (Method B in the figure).",
+        "text": "It is possible to find the work done in deforming a system in order to find the energy stored. This work is performed by an applied force ${F}_{app}$. The applied force is exactly opposite to the restoring force (action-reaction), and so ${F}_{app}=kx$. The figure shows a graph of the applied force versus deformation $x$ for a system that can be described by Hooke’s law. Work done on the system is force multiplied by distance, which equals the area under the curve or $(1/2){kx}^{2}$ (Method A in the figure). Another way to determine the work is to note that the force increases linearly from 0 to *$kx$*, so that the average force is $(1/2)kx$, the distance moved is $x$, and thus $W={F}_{app}d=[(1/2)kx](x)=(1/2){kx}^{2}$ (Method B in the figure).",
         "inline": []
       },
       "level": "core"
@@ -274,7 +274,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values for $k$ and $x$ yields",
+        "text": "Entering the given values for $k$ and $x$ yields ${PE}_{el} = \\frac{1}{2} {kx}^{2}=\\frac{1}{2} (50.0 N/m) {(0.150 m)}^{2}=0. 563 N\\cdot m = 0. 563 J$",
         "inline": []
       },
       "level": "core"
@@ -401,7 +401,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A spring has a spring constant of 80 N∙m −1 . What is the force required to (a) compress the spring by 5 cm and (b) expand the spring by 15 cm?",
+        "text": "A spring has a spring constant of 80 N∙m −1. What is the force required to (a) compress the spring by 5 cm and (b) expand the spring by 15 cm?",
         "inline": []
       },
       "level": "core",
@@ -422,7 +422,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In the formula $F=-kx$ , what does the minus sign indicate? It indicates that the restoring force is in the direction of the displacement.; It indicates that the restoring force is in the direction opposite the displacement.; It indicates that mechanical energy in the system decreases when a system undergoes oscillation.; None of the above",
+        "text": "In the formula $F=-kx$, what does the minus sign indicate? It indicates that the restoring force is in the direction of the displacement.; It indicates that the restoring force is in the direction opposite the displacement.; It indicates that mechanical energy in the system decreases when a system undergoes oscillation.; None of the above",
         "inline": []
       },
       "level": "core",
@@ -629,7 +629,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) The springs of a pickup truck act like a single spring with a force constant of $1.30×{10}^{5}N/m$ . By how much will the truck be depressed by its maximum load of 1000 kg? (b) If the pickup truck has four identical springs, what is the force constant of each?",
+        "text": "(a) The springs of a pickup truck act like a single spring with a force constant of $1.30\\times {10}^{5} N/m$. By how much will the truck be depressed by its maximum load of 1000 kg? (b) If the pickup truck has four identical springs, what is the force constant of each?",
         "inline": []
       },
       "level": "core",

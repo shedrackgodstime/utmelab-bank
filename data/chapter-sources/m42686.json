@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Look at the sky on some clear night when you are away from city lights. There you will see thousands of individual stars and a faint glowing background of millions more. The Milky Way, as it has been called since ancient times, is an arm of our galaxy of stars—the word *galaxy* coming from the Greek word *galaxias* , meaning milky. We know a great deal about our Milky Way galaxy and of the billions of other galaxies beyond its fringes. But they still provoke wonder and awe (see ). And there are still many questions to be answered. Most remarkable when we view the universe on the large scale is that once again explanations of its character and evolution are tied to the very small scale. Particle physics and the questions being asked about the very small scales may also have their answers in the very large scales.",
+        "text": "Look at the sky on some clear night when you are away from city lights. There you will see thousands of individual stars and a faint glowing background of millions more. The Milky Way, as it has been called since ancient times, is an arm of our galaxy of stars—the word *galaxy* coming from the Greek word *galaxias*, meaning milky. We know a great deal about our Milky Way galaxy and of the billions of other galaxies beyond its fringes. But they still provoke wonder and awe (see the figure). And there are still many questions to be answered. Most remarkable when we view the universe on the large scale is that once again explanations of its character and evolution are tied to the very small scale. Particle physics and the questions being asked about the very small scales may also have their answers in the very large scales.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Cosmology is the study of the character and evolution of the universe. What are the major characteristics of the universe as we know them today? First, there are approximately ${10}^{11}$ galaxies in the observable part of the universe. An average galaxy contains more than ${10}^{11}$ stars, with our Milky Way galaxy being larger than average, both in its number of stars and its dimensions. Ours is a spiral-shaped galaxy with a diameter of about 100,000 light years and a thickness of about 2000 light years in the arms with a central bulge about 10,000 light years across. The Sun lies about 30,000 light years from the center near the galactic plane. There are significant clouds of gas, and there is a halo of less-dense regions of stars surrounding the main body. (See .) Evidence strongly suggests the existence of a large amount of additional matter in galaxies that does not produce light—the mysterious dark matter we shall later discuss.",
+        "text": "Cosmology is the study of the character and evolution of the universe. What are the major characteristics of the universe as we know them today? First, there are approximately ${10}^{11}$ galaxies in the observable part of the universe. An average galaxy contains more than ${10}^{11}$ stars, with our Milky Way galaxy being larger than average, both in its number of stars and its dimensions. Ours is a spiral-shaped galaxy with a diameter of about 100,000 light years and a thickness of about 2000 light years in the arms with a central bulge about 10,000 light years across. The Sun lies about 30,000 light years from the center near the galactic plane. There are significant clouds of gas, and there is a halo of less-dense regions of stars surrounding the main body. (See the figure.) Evidence strongly suggests the existence of a large amount of additional matter in galaxies that does not produce light—the mysterious dark matter we shall later discuss.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Distances are great even within our galaxy and are measured in light years (the distance traveled by light in one year). The average distance between galaxies is on the order of a million light years, but it varies greatly with galaxies forming clusters such as shown in . The Magellanic Clouds, for example, are small galaxies close to our own, some 160,000 light years from Earth. The Andromeda galaxy is a large spiral galaxy like ours and lies 2 million light years away. It is just visible to the naked eye as an extended glow in the Andromeda constellation. Andromeda is the closest large galaxy in our local group, and we can see some individual stars in it with our larger telescopes. The most distant known galaxy is 14 billion light years from Earth—a truly incredible distance. (See .)",
+        "text": "Distances are great even within our galaxy and are measured in light years (the distance traveled by light in one year). The average distance between galaxies is on the order of a million light years, but it varies greatly with galaxies forming clusters such as shown in the figure. The Magellanic Clouds, for example, are small galaxies close to our own, some 160,000 light years from Earth. The Andromeda galaxy is a large spiral galaxy like ours and lies 2 million light years away. It is just visible to the naked eye as an extended glow in the Andromeda constellation. Andromeda is the closest large galaxy in our local group, and we can see some individual stars in it with our larger telescopes. The most distant known galaxy is 14 billion light years from Earth—a truly incredible distance. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -115,7 +115,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Perhaps the most important characteristic of the universe is that all galaxies except those in our local cluster seem to be moving away from us at speeds proportional to their distance from our galaxy. It looks as if a gigantic explosion, universally called the Big Bang , threw matter out some billions of years ago. This amazing conclusion is based on the pioneering work of Edwin Hubble (1889–1953), the American astronomer. In the 1920s, Hubble first demonstrated conclusively that other galaxies, many previously called nebulae or clouds of stars, were outside our own. He then found that all but the closest galaxies have a red shift in their hydrogen spectra that is proportional to their distance. The explanation is that there is a cosmological red shift due to the expansion of space itself. The photon wavelength is stretched in transit from the source to the observer. Double the distance, and the red shift is doubled. While this cosmological red shift is often called a Doppler shift, it is not—space itself is expanding. There is no center of expansion in the universe. All observers see themselves as stationary; the other objects in space appear to be moving away from them. Hubble was directly responsible for discovering that the universe was much larger than had previously been imagined and that it had this amazing characteristic of rapid expansion.",
+        "text": "Perhaps the most important characteristic of the universe is that all galaxies except those in our local cluster seem to be moving away from us at speeds proportional to their distance from our galaxy. It looks as if a gigantic explosion, universally called the Big Bang, threw matter out some billions of years ago. This amazing conclusion is based on the pioneering work of Edwin Hubble (1889–1953), the American astronomer. In the 1920s, Hubble first demonstrated conclusively that other galaxies, many previously called nebulae or clouds of stars, were outside our own. He then found that all but the closest galaxies have a red shift in their hydrogen spectra that is proportional to their distance. The explanation is that there is a cosmological red shift due to the expansion of space itself. The photon wavelength is stretched in transit from the source to the observer. Double the distance, and the red shift is doubled. While this cosmological red shift is often called a Doppler shift, it is not—space itself is expanding. There is no center of expansion in the universe. All observers see themselves as stationary; the other objects in space appear to be moving away from them. Hubble was directly responsible for discovering that the universe was much larger than had previously been imagined and that it had this amazing characteristic of rapid expansion.",
         "inline": []
       },
       "level": "core"
@@ -124,7 +124,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Universal expansion on the scale of galactic clusters (that is, galaxies at smaller distances are not uniformly receding from one another) is an integral part of modern cosmology. For galaxies farther away than about 50 Mly (50 million light years), the expansion is uniform with variations due to local motions of galaxies within clusters. A representative recession velocity $v$ can be obtained from the simple formula",
+        "text": "Universal expansion on the scale of galactic clusters (that is, galaxies at smaller distances are not uniformly receding from one another) is an integral part of modern cosmology. For galaxies farther away than about 50 Mly (50 million light years), the expansion is uniform with variations due to local motions of galaxies within clusters. A representative recession velocity $v$ can be obtained from the simple formula $v={H}_{0}d,$",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where $d$ is the distance to the galaxy and ${H}_{0}$ is the Hubble constant . The Hubble constant is a central concept in cosmology. Its value is determined by taking the slope of a graph of velocity versus distance, obtained from red shift measurements, such as shown in . We shall use an approximate value of ${H}_{0}=20 (km/s)/Mly.$ Thus, $v={H}_{0}d$ is an average behavior for all but the closest galaxies. For example, a galaxy 100 Mly away (as determined by its size and brightness) typically moves away from us at a speed of $v=(20 (km/s)/Mly)(100 Mly)=2000 km/s.$ There can be variations in this speed due to so-called local motions or interactions with neighboring galaxies. Conversely, if a galaxy is found to be moving away from us at speed of 100,000 km/s based on its red shift, it is at a distance",
+        "text": "where $d$ is the distance to the galaxy and ${H}_{0}$ is the Hubble constant. The Hubble constant is a central concept in cosmology. Its value is determined by taking the slope of a graph of velocity versus distance, obtained from red shift measurements, such as shown in the figure. We shall use an approximate value of ${H}_{0}=20 (km/s)/Mly.$ Thus, $v={H}_{0}d$ is an average behavior for all but the closest galaxies. For example, a galaxy 100 Mly away (as determined by its size and brightness) typically moves away from us at a speed of $v=(20 (km/s)/Mly)(100 Mly)=2000 km/s.$ There can be variations in this speed due to so-called local motions or interactions with neighboring galaxies. Conversely, if a galaxy is found to be moving away from us at speed of 100,000 km/s based on its red shift, it is at a distance",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "$d=v/{H}_{0}=(10,000km/s)/(20 (km/s)/Mly)=5000Mly=5Gly$ or $5×{10}^{9}ly$ . This last calculation is approximate, because it assumes the expansion rate was the same 5 billion years ago as now. A similar calculation in Hubble’s measurement changed the notion that the universe is in a steady state.",
+        "text": "$d=v/{H}_{0}=(10,000km/s)/(20 (km/s)/Mly)=5000Mly=5Gly$ or $5\\times {10}^{9}ly$. This last calculation is approximate, because it assumes the expansion rate was the same 5 billion years ago as now. A similar calculation in Hubble’s measurement changed the notion that the universe is in a steady state.",
         "inline": []
       },
       "level": "core"
@@ -164,7 +164,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "One of the most intriguing developments recently has been the discovery that the expansion of the universe may be *faster now* than in the past, rather than slowing due to gravity as expected. Various groups have been looking, in particular, at supernovas in moderately distant galaxies (less than 1 Gly) to get improved distance measurements. Those distances are larger than expected for the observed galactic red shifts, implying the expansion was slower when that light was emitted. This has cosmological consequences that are discussed in Dark Matter and Closure . The first results, published in 1999, are only the beginning of emerging data, with astronomy now entering a data-rich era.",
+        "text": "One of the most intriguing developments recently has been the discovery that the expansion of the universe may be *faster now* than in the past, rather than slowing due to gravity as expected. Various groups have been looking, in particular, at supernovas in moderately distant galaxies (less than 1 Gly) to get improved distance measurements. Those distances are larger than expected for the observed galactic red shifts, implying the expansion was slower when that light was emitted. This has cosmological consequences that are discussed in Dark Matter and Closure. The first results, published in 1999, are only the beginning of emerging data, with astronomy now entering a data-rich era.",
         "inline": []
       },
       "level": "core"
@@ -173,7 +173,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "shows how the recession of galaxies looks like the remnants of a gigantic explosion, the famous Big Bang. Extrapolating backward in time, the Big Bang would have occurred between 13 and 15 billion years ago when all matter would have been at a point. Questions instantly arise. What caused the explosion? What happened before the Big Bang? Was there a before, or did time start then? Will the universe expand forever, or will gravity reverse it into a Big Crunch? And is there other evidence of the Big Bang besides the well-documented red shifts?",
+        "text": "The figure shows how the recession of galaxies looks like the remnants of a gigantic explosion, the famous Big Bang. Extrapolating backward in time, the Big Bang would have occurred between 13 and 15 billion years ago when all matter would have been at a point. Questions instantly arise. What caused the explosion? What happened before the Big Bang? Was there a before, or did time start then? Will the universe expand forever, or will gravity reverse it into a Big Crunch? And is there other evidence of the Big Bang besides the well-documented red shifts?",
         "inline": []
       },
       "level": "core"
@@ -195,7 +195,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The Russian-born American physicist George Gamow (1904–1968) was among the first to note that, if there was a Big Bang, the remnants of the primordial fireball should still be evident and should be blackbody radiation. Since the radiation from this fireball has been traveling to us since shortly after the Big Bang, its wavelengths should be greatly stretched. It will look as if the fireball has cooled in the billions of years since the Big Bang. Gamow and collaborators predicted in the late 1940s that there should be blackbody radiation from the explosion filling space with a characteristic temperature of about 7 K. Such blackbody radiation would have its peak intensity in the microwave part of the spectrum. (See .) In 1964, Arno Penzias and Robert Wilson, two American scientists working with Bell Telephone Laboratories on a low-noise radio antenna, detected the radiation and eventually recognized it for what it is.",
+        "text": "The Russian-born American physicist George Gamow (1904–1968) was among the first to note that, if there was a Big Bang, the remnants of the primordial fireball should still be evident and should be blackbody radiation. Since the radiation from this fireball has been traveling to us since shortly after the Big Bang, its wavelengths should be greatly stretched. It will look as if the fireball has cooled in the billions of years since the Big Bang. Gamow and collaborators predicted in the late 1940s that there should be blackbody radiation from the explosion filling space with a characteristic temperature of about 7 K. Such blackbody radiation would have its peak intensity in the microwave part of the spectrum. (See the figure.) In 1964, Arno Penzias and Robert Wilson, two American scientists working with Bell Telephone Laboratories on a low-noise radio antenna, detected the radiation and eventually recognized it for what it is.",
         "inline": []
       },
       "level": "core"
@@ -204,7 +204,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "(b) shows the spectrum of this microwave radiation that permeates space and is of cosmic origin. It is the most perfect blackbody spectrum known, and the temperature of the fireball remnant is determined from it to be $2.725±0.002K$ . The detection of what is now called the cosmic microwave background (CMBR) was so important (generally considered as important as Hubble’s detection that the galactic red shift is proportional to distance) that virtually every scientist has accepted the expansion of the universe as fact. Penzias and Wilson shared the 1978 Nobel Prize in Physics for their discovery.",
+        "text": "The figure (b) shows the spectrum of this microwave radiation that permeates space and is of cosmic origin. It is the most perfect blackbody spectrum known, and the temperature of the fireball remnant is determined from it to be $2.725±0.002K$. The detection of what is now called the cosmic microwave background (CMBR) was so important (generally considered as important as Hubble’s detection that the galactic red shift is proportional to distance) that virtually every scientist has accepted the expansion of the universe as fact. Penzias and Wilson shared the 1978 Nobel Prize in Physics for their discovery.",
         "inline": []
       },
       "level": "core"
@@ -262,7 +262,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "A satellite called the Cosmic Background Explorer (COBE) carried an instrument that made very sensitive and accurate measurements of the CMBR. In April of 1992, there was extraordinary publicity of COBE’s first results—there were small fluctuations in the CMBR. Further measurements were carried out by experiments including NASA’s Wilkinson Microwave Anisotropy Probe (WMAP), which launched in 2001. Data from WMAP provided a much more detailed picture of the CMBR fluctuations. (See .) These amount to temperature fluctuations of only $200μk$ out of 2.7 K, better than one part in 1000. The WMAP experiment will be followed up by the European Space Agency’s Planck Surveyor, which launched in 2009.",
+        "text": "A satellite called the Cosmic Background Explorer (COBE) carried an instrument that made very sensitive and accurate measurements of the CMBR. In April of 1992, there was extraordinary publicity of COBE’s first results—there were small fluctuations in the CMBR. Further measurements were carried out by experiments including NASA’s Wilkinson Microwave Anisotropy Probe (WMAP), which launched in 2001. Data from WMAP provided a much more detailed picture of the CMBR fluctuations. (See the figure.) These amount to temperature fluctuations of only $200 μk$ out of 2.7 K, better than one part in 1000. The WMAP experiment will be followed up by the European Space Agency’s Planck Surveyor, which launched in 2009.",
         "inline": []
       },
       "level": "core"
@@ -284,7 +284,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Let us now examine the various stages of the overall evolution of the universe from the Big Bang to the present, illustrated in . Note that scientific notation is used to encompass the many orders of magnitude in time, energy, temperature, and size of the universe. Going back in time, the two lines approach but do not cross (there is no zero on an exponential scale). Rather, they extend indefinitely in ever-smaller time intervals to some infinitesimal point.",
+        "text": "Let us now examine the various stages of the overall evolution of the universe from the Big Bang to the present, illustrated in the figure. Note that scientific notation is used to encompass the many orders of magnitude in time, energy, temperature, and size of the universe. Going back in time, the two lines approach but do not cross (there is no zero on an exponential scale). Rather, they extend indefinitely in ever-smaller time intervals to some infinitesimal point.",
         "inline": []
       },
       "level": "core"
@@ -306,7 +306,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Going back in time is equivalent to what would happen if expansion stopped and gravity pulled all the galaxies together, compressing and heating all matter. At a time long ago, the temperature and density were too high for stars and galaxies to exist. Before then, there was a time when the temperature was too great for atoms to exist. And farther back yet, there was a time when the temperature and density were so great that nuclei could not exist. Even farther back in time, the temperature was so high that average kinetic energy was great enough to create short-lived particles, and the density was high enough to make this likely. When we extrapolate back to the point of ${W}^{±}$ and ${Z}^{0}$ production (thermal energies reaching 1 TeV, or a temperature of about ${10}^{15}K$ ), we reach the limits of what we know directly about particle physics. This is at a time about ${10}^{-12}s$ after the Big Bang. While ${10}^{-12}s$ may seem to be negligibly close to the instant of creation, it is not. There are important stages before this time that are tied to the unification of forces. At those stages, the universe was at extremely high energies and average particle separations were smaller than we can achieve with accelerators. What happened in the early stages before ${10}^{-12}s$ is crucial to all later stages and is possibly discerned by observing present conditions in the universe. One of these is the smoothness of the CMBR.",
+        "text": "Going back in time is equivalent to what would happen if expansion stopped and gravity pulled all the galaxies together, compressing and heating all matter. At a time long ago, the temperature and density were too high for stars and galaxies to exist. Before then, there was a time when the temperature was too great for atoms to exist. And farther back yet, there was a time when the temperature and density were so great that nuclei could not exist. Even farther back in time, the temperature was so high that average kinetic energy was great enough to create short-lived particles, and the density was high enough to make this likely. When we extrapolate back to the point of ${W}^{±}$ and ${Z}^{0}$ production (thermal energies reaching 1 TeV, or a temperature of about ${10}^{15} K$), we reach the limits of what we know directly about particle physics. This is at a time about ${10}^{-12} s$ after the Big Bang. While ${10}^{-12} s$ may seem to be negligibly close to the instant of creation, it is not. There are important stages before this time that are tied to the unification of forces. At those stages, the universe was at extremely high energies and average particle separations were smaller than we can achieve with accelerators. What happened in the early stages before ${10}^{-12} s$ is crucial to all later stages and is possibly discerned by observing present conditions in the universe. One of these is the smoothness of the CMBR.",
         "inline": []
       },
       "level": "core"
@@ -315,7 +315,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Names are given to early stages representing key conditions. The stage before ${10}^{-11}s$ back to ${10}^{-34}s$ is called the electroweak epoch , because the electromagnetic and weak forces become identical for energies above about 100 GeV. As discussed earlier, theorists expect that the strong force becomes identical to and thus unified with the electroweak force at energies of about ${10}^{14}GeV$ . The average particle energy would be this great at ${10}^{-34}s$ after the Big Bang, if there are no surprises in the unknown physics at energies above about 1 TeV. At the immense energy of ${10}^{14}GeV$ (corresponding to a temperature of about ${10}^{26}K$ ), the ${W}^{±}$ and ${Z}^{0}$ carrier particles would be transformed into massless gauge bosons to accomplish the unification. Before ${10}^{-34}s$ back to about ${10}^{-43}s$ , we have Grand Unification in the GUT epoch , in which all forces except gravity are identical. At ${10}^{-43}s$ , the average energy reaches the immense ${10}^{19}GeV$ needed to unify gravity with the other forces in TOE, the Theory of Everything. Before that time is the TOE epoch , but we have almost no idea as to the nature of the universe then, since we have no workable theory of quantum gravity. We call the hypothetical unified force superforce .",
+        "text": "Names are given to early stages representing key conditions. The stage before ${10}^{-11} s$ back to ${10}^{-34} s$ is called the electroweak epoch, because the electromagnetic and weak forces become identical for energies above about 100 GeV. As discussed earlier, theorists expect that the strong force becomes identical to and thus unified with the electroweak force at energies of about ${10}^{14} GeV$. The average particle energy would be this great at ${10}^{-34} s$ after the Big Bang, if there are no surprises in the unknown physics at energies above about 1 TeV. At the immense energy of ${10}^{14} GeV$ (corresponding to a temperature of about ${10}^{26} K$), the ${W}^{±}$ and ${Z}^{0}$ carrier particles would be transformed into massless gauge bosons to accomplish the unification. Before ${10}^{-34} s$ back to about ${10}^{-43} s$, we have Grand Unification in the GUT epoch, in which all forces except gravity are identical. At ${10}^{-43} s$, the average energy reaches the immense ${10}^{19} GeV$ needed to unify gravity with the other forces in TOE, the Theory of Everything. Before that time is the TOE epoch, but we have almost no idea as to the nature of the universe then, since we have no workable theory of quantum gravity. We call the hypothetical unified force superforce.",
         "inline": []
       },
       "level": "core"
@@ -324,7 +324,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Now let us imagine starting at TOE and moving forward in time to see what type of universe is created from various events along the way. As temperatures and average energies decrease with expansion, the universe reaches the stage where average particle separations are large enough to see differences between the strong and electroweak forces (at about ${10}^{-35}s$ ). After this time, the forces become distinct in almost all interactions—they are no longer unified or symmetric. This transition from GUT to electroweak is an example of spontaneous symmetry breaking , in which conditions spontaneously evolved to a point where the forces were no longer unified, breaking that symmetry. This is analogous to a phase transition in the universe, and a clever proposal by American physicist Alan Guth in the early 1980s ties it to the smoothness of the CMBR. Guth proposed that spontaneous symmetry breaking (like a phase transition during cooling of normal matter) released an immense amount of energy that caused the universe to expand extremely rapidly for the brief time from ${10}^{-35}s$ to about ${10}^{-32}s$ . This expansion may have been by an incredible factor of ${10}^{50}$ or more in the size of the universe and is thus called the inflationary scenario . One result of this inflation is that it would stretch the wrinkles in the universe nearly flat, leaving an extremely smooth CMBR. While speculative, there is as yet no other plausible explanation for the smoothness of the CMBR. Unless the CMBR is not really cosmic but local in origin, the distances between regions of similar temperatures are too great for any coordination to have caused them, since any coordination mechanism must travel at the speed of light. Again, particle physics and cosmology are intimately entwined. There is little hope that we may be able to test the inflationary scenario directly, since it occurs at energies near ${10}^{14}GeV$ , vastly greater than the limits of modern accelerators. But the idea is so attractive that it is incorporated into most cosmological theories.",
+        "text": "Now let us imagine starting at TOE and moving forward in time to see what type of universe is created from various events along the way. As temperatures and average energies decrease with expansion, the universe reaches the stage where average particle separations are large enough to see differences between the strong and electroweak forces (at about ${10}^{-35} s$). After this time, the forces become distinct in almost all interactions—they are no longer unified or symmetric. This transition from GUT to electroweak is an example of spontaneous symmetry breaking, in which conditions spontaneously evolved to a point where the forces were no longer unified, breaking that symmetry. This is analogous to a phase transition in the universe, and a clever proposal by American physicist Alan Guth in the early 1980s ties it to the smoothness of the CMBR. Guth proposed that spontaneous symmetry breaking (like a phase transition during cooling of normal matter) released an immense amount of energy that caused the universe to expand extremely rapidly for the brief time from ${10}^{-35} s$ to about ${10}^{-32} s$. This expansion may have been by an incredible factor of ${10}^{50}$ or more in the size of the universe and is thus called the inflationary scenario. One result of this inflation is that it would stretch the wrinkles in the universe nearly flat, leaving an extremely smooth CMBR. While speculative, there is as yet no other plausible explanation for the smoothness of the CMBR. Unless the CMBR is not really cosmic but local in origin, the distances between regions of similar temperatures are too great for any coordination to have caused them, since any coordination mechanism must travel at the speed of light. Again, particle physics and cosmology are intimately entwined. There is little hope that we may be able to test the inflationary scenario directly, since it occurs at energies near ${10}^{14} GeV$, vastly greater than the limits of modern accelerators. But the idea is so attractive that it is incorporated into most cosmological theories.",
         "inline": []
       },
       "level": "core"
@@ -333,7 +333,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Characteristics of the present universe may help us determine the validity of this intriguing idea. Additionally, the recent indications that the universe’s expansion rate may be *increasing* (see Dark Matter and Closure ) could even imply that we are *in* another inflationary epoch.",
+        "text": "Characteristics of the present universe may help us determine the validity of this intriguing idea. Additionally, the recent indications that the universe’s expansion rate may be *increasing* (see Dark Matter and Closure) could even imply that we are *in* another inflationary epoch.",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "It is important to note that, if conditions such as those found in the early universe could be created in the laboratory, we would see the unification of forces directly today. The forces have not changed in time, but the average energy and separation of particles in the universe have. As discussed in The Four Basic Forces , the four basic forces in nature are distinct under most circumstances found today. The early universe and its remnants provide evidence from times when they were unified under most circumstances.",
+        "text": "It is important to note that, if conditions such as those found in the early universe could be created in the laboratory, we would see the unification of forces directly today. The forces have not changed in time, but the average energy and separation of particles in the universe have. As discussed in The Four Basic Forces, the four basic forces in nature are distinct under most circumstances found today. The early universe and its remnants provide evidence from times when they were unified under most circumstances.",
         "inline": []
       },
       "level": "core"
@@ -589,7 +589,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If the smallest meaningful time interval is greater than zero, will the lines in ever meet?",
+        "text": "If the smallest meaningful time interval is greater than zero, will the lines in the figure ever meet?",
         "inline": []
       },
       "level": "core",
@@ -664,7 +664,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Estimate the mass of the luminous matter in the known universe, given there are ${10}^{11}$ galaxies, each containing ${10}^{11}$ stars of average mass 1.5 times that of our Sun. (b) How many protons (the most abundant nuclide) are there in this mass? (c) Estimate the total number of particles in the observable universe by multiplying the answer to (b) by two, since there is an electron for each proton, and then by ${10}^{9}$ , since there are far more particles (such as photons and neutrinos) in space than in luminous matter.",
+        "text": "(a) Estimate the mass of the luminous matter in the known universe, given there are ${10}^{11}$ galaxies, each containing ${10}^{11}$ stars of average mass 1.5 times that of our Sun. (b) How many protons (the most abundant nuclide) are there in this mass? (c) Estimate the total number of particles in the observable universe by multiplying the answer to (b) by two, since there is an electron for each proton, and then by ${10}^{9}$, since there are far more particles (such as photons and neutrinos) in space than in luminous matter.",
         "inline": []
       },
       "level": "core",
@@ -754,7 +754,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the approximate speed relative to us of a galaxy near the edge of the known universe, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we have observed galaxies moving away from us at greater than $0.9c$ .",
+        "text": "(a) What is the approximate speed relative to us of a galaxy near the edge of the known universe, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we have observed galaxies moving away from us at greater than $0.9c$.",
         "inline": []
       },
       "level": "core",
@@ -787,7 +787,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the approximate age of the universe from the average value of the Hubble constant, ${H}_{0}=20km/s\\cdot Mly$ . To do this, calculate the time it would take to travel 1 Mly at a constant expansion rate of 20 km/s. (b) If deceleration is taken into account, would the actual age of the universe be greater or less than that found here? Explain.",
+        "text": "(a) Calculate the approximate age of the universe from the average value of the Hubble constant, ${H}_{0}=20km/s\\cdot Mly$. To do this, calculate the time it would take to travel 1 Mly at a constant expansion rate of 20 km/s. (b) If deceleration is taken into account, would the actual age of the universe be greater or less than that found here? Explain.",
         "inline": []
       },
       "level": "core",
@@ -808,7 +808,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Assuming a circular orbit for the Sun about the center of the Milky Way galaxy, calculate its orbital speed using the following information: The mass of the galaxy is equivalent to a single mass $1.5×{10}^{11}$ times that of the Sun (or $3×{10}^{41}kg$ ), located 30,000 ly away.",
+        "text": "Assuming a circular orbit for the Sun about the center of the Milky Way galaxy, calculate its orbital speed using the following information: The mass of the galaxy is equivalent to a single mass $1.5\\times {10}^{11}$ times that of the Sun (or $3\\times {10}^{41} kg$), located 30,000 ly away.",
         "inline": []
       },
       "level": "core",
@@ -907,7 +907,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The average particle energy needed to observe unification of forces is estimated to be ${10}^{19}GeV$ . (a) What is the rest mass in kilograms of a particle that has a rest mass of ${10}^{19}GeV/{c}^{2}$ ? (b) How many times the mass of a hydrogen atom is this?",
+        "text": "The average particle energy needed to observe unification of forces is estimated to be ${10}^{19} GeV$. (a) What is the rest mass in kilograms of a particle that has a rest mass of ${10}^{19} GeV/{c}^{2}$? (b) How many times the mass of a hydrogen atom is this?",
         "inline": []
       },
       "level": "core",
@@ -952,7 +952,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What Hubble constant corresponds to an approximate age of the universe of ${10}^{10}$ y? To get an approximate value, assume the expansion rate is constant and calculate the speed at which two galaxies must move apart to be separated by 1 Mly (present average galactic separation) in a time of ${10}^{10}$ y. (b) Similarly, what Hubble constant corresponds to a universe approximately $2×{10}^{10}$ -y old?",
+        "text": "(a) What Hubble constant corresponds to an approximate age of the universe of ${10}^{10}$ y? To get an approximate value, assume the expansion rate is constant and calculate the speed at which two galaxies must move apart to be separated by 1 Mly (present average galactic separation) in a time of ${10}^{10}$ y. (b) Similarly, what Hubble constant corresponds to a universe approximately $2\\times {10}^{10}$ -y old?",
         "inline": []
       },
       "level": "core",
@@ -1015,7 +1015,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The core of a star collapses during a supernova, forming a neutron star. Angular momentum of the core is conserved, and so the neutron star spins rapidly. If the initial core radius is $5.0×{10}^{5}km$ and it collapses to 10.0 km, find the neutron star’s angular velocity in revolutions per second, given the core’s angular velocity was originally 1 revolution per 30.0 days.",
+        "text": "The core of a star collapses during a supernova, forming a neutron star. Angular momentum of the core is conserved, and so the neutron star spins rapidly. If the initial core radius is $5.0\\times {10}^{5} km$ and it collapses to 10.0 km, find the neutron star’s angular velocity in revolutions per second, given the core’s angular velocity was originally 1 revolution per 30.0 days.",
         "inline": []
       },
       "level": "core",
@@ -1060,7 +1060,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Distances to the nearest stars (up to 500 ly away) can be measured by a technique called parallax, as shown in . What are the angles ${θ}_{1}$ and ${θ}_{2}$ relative to the plane of the Earth’s orbit for a star 4.0 ly directly above the Sun?",
+        "text": "Distances to the nearest stars (up to 500 ly away) can be measured by a technique called parallax, as shown in the figure. What are the angles ${θ}_{1}$ and ${θ}_{2}$ relative to the plane of the Earth’s orbit for a star 4.0 ly directly above the Sun?",
         "inline": []
       },
       "level": "core",
@@ -1093,7 +1093,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Use the Heisenberg uncertainty principle to calculate the uncertainty in energy for a corresponding time interval of ${10}^{-43}s$ . (b) Compare this energy with the ${10}^{19}GeV$ unification-of-forces energy and discuss why they are similar.",
+        "text": "(a) Use the Heisenberg uncertainty principle to calculate the uncertainty in energy for a corresponding time interval of ${10}^{-43} s$. (b) Compare this energy with the ${10}^{19} GeV$ unification-of-forces energy and discuss why they are similar.",
         "inline": []
       },
       "level": "core",

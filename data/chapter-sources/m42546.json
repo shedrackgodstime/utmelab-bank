@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Total energy $E$ is defined to be",
+        "text": "Total energy $E$ is defined to be $E={γmc}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "where $m$ is mass, $c$ is the speed of light, $γ=\\frac{1}{\\sqrt{1-\\frac{{v}^{2}}{{c}^{2}}}}$ , and $v$ is the velocity of the mass relative to an observer. There are many aspects of the total energy $E$ that we will discuss—among them are how kinetic and potential energies are included in $E$ , and how $E$ is related to relativistic momentum. But first, note that at rest, total energy is not zero. Rather, when $v=0$ , we have $γ=1$ , and an object has rest energy.",
+        "text": "where $m$ is mass, $c$ is the speed of light, $γ=\\frac{1}{\\sqrt{1-\\frac{{v}^{2}}{{c}^{2}}}}$, and $v$ is the velocity of the mass relative to an observer. There are many aspects of the total energy $E$ that we will discuss—among them are how kinetic and potential energies are included in $E$, and how $E$ is related to relativistic momentum. But first, note that at rest, total energy is not zero. Rather, when $v=0$, we have $γ=1$, and an object has rest energy.",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Noting that $1kg\\cdot {m}^{2}{/s}^{2}=1 J$ , we see the rest mass energy is",
+        "text": "Noting that $1 kg\\cdot {m}^{2}{/s}^{2}=1 J$, we see the rest mass energy is ${E}_{0}=9.00\\times {10}^{13} J.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "This is an enormous amount of energy for a 1.00-g mass. We do not notice this energy, because it is generally not available. Rest energy is large because the speed of light $c$ is a large number and ${c}^{2}$ is a very large number, so that ${mc}^{2}$ is huge for any macroscopic mass. The $9.00×{10}^{13}J$ rest mass energy for 1.00 g is about twice the energy released by the Hiroshima atomic bomb and about 10,000 times the kinetic energy of a large aircraft carrier. If a way can be found to convert rest mass energy into some other form (and all forms of energy can be converted into one another), then huge amounts of energy can be obtained from the destruction of mass.",
+        "text": "This is an enormous amount of energy for a 1.00-g mass. We do not notice this energy, because it is generally not available. Rest energy is large because the speed of light $c$ is a large number and ${c}^{2}$ is a very large number, so that ${mc}^{2}$ is huge for any macroscopic mass. The $9.00\\times {10}^{13} J$ rest mass energy for 1.00 g is about twice the energy released by the Hiroshima atomic bomb and about 10,000 times the kinetic energy of a large aircraft carrier. If a way can be found to convert rest mass energy into some other form (and all forms of energy can be converted into one another), then huge amounts of energy can be obtained from the destruction of mass.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Today, the practical applications of *the conversion of mass into another form of energy* , such as in nuclear weapons and nuclear power plants, are well known. But examples also existed when Einstein first proposed the correct form of relativistic energy, and he did describe some of them. Nuclear radiation had been discovered in the previous decade, and it had been a mystery as to where its energy originated. The explanation was that, in certain nuclear processes, a small amount of mass is destroyed and energy is released and carried by nuclear radiation. But the amount of mass destroyed is so small that it is difficult to detect that any is missing. Although Einstein proposed this as the source of energy in the radioactive salts then being studied, it was many years before there was broad recognition that mass could be and, in fact, commonly is converted to energy. (See .)",
+        "text": "Today, the practical applications of *the conversion of mass into another form of energy*, such as in nuclear weapons and nuclear power plants, are well known. But examples also existed when Einstein first proposed the correct form of relativistic energy, and he did describe some of them. Nuclear radiation had been discovered in the previous decade, and it had been a mystery as to where its energy originated. The explanation was that, in certain nuclear processes, a small amount of mass is destroyed and energy is released and carried by nuclear radiation. But the amount of mass destroyed is so small that it is difficult to detect that any is missing. Although Einstein proposed this as the source of energy in the radioactive salts then being studied, it was many years before there was broad recognition that mass could be and, in fact, commonly is converted to energy. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -231,7 +231,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "In part (a), we first must find the energy stored in the battery, which equals what the battery can supply in the form of electrical potential energy. Since ${PE}_{elec}=qV$ , we have to calculate the charge $q$ in $600A·h$ , which is the product of the current $I$ and the time $t$ . We then multiply the result by 12.0 V. We can then calculate the battery’s increase in mass using $ΔE={PE}_{elec}=(Δm){c}^{2}$ . Part (b) is a simple ratio converted to a percentage.",
+        "text": "In part (a), we first must find the energy stored in the battery, which equals what the battery can supply in the form of electrical potential energy. Since ${PE}_{elec}=qV$, we have to calculate the charge $q$ in $600 A·h$, which is the product of the current $I$ and the time $t$. We then multiply the result by 12.0 V. We can then calculate the battery’s increase in mass using $ΔE={PE}_{elec}=(Δm){c}^{2}$. Part (b) is a simple ratio converted to a percentage.",
         "inline": []
       },
       "level": "core"
@@ -240,7 +240,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Write amperes A as coulombs per second (C/s), and convert hours to seconds.",
+        "text": "Write amperes A as coulombs per second (C/s), and convert hours to seconds. $Δ m = \\frac{(600 C/s\\cdot h(\\frac{3600 s}{1 h})(12.0 J/C)}{(3.00\\times {10}^{8} m/s{)}^{2}} = \\frac{(2.16\\times {10}^{6} C)(12.0 J/C)}{(3.00\\times {10}^{8} m/s{)}^{2}}$",
         "inline": []
       },
       "level": "core"
@@ -249,7 +249,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Using the conversion $1kg\\cdot {m}^{2}{/s}^{2}=1J$ , we can write the mass as",
+        "text": "Using the conversion $1 kg\\cdot {m}^{2}{/s}^{2}=1 J$, we can write the mass as",
         "inline": []
       },
       "level": "core"
@@ -267,7 +267,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Both the actual increase in mass and the percent increase are very small, since energy is divided by ${c}^{2}$ , a very large number. We would have to be able to measure the mass of the battery to a precision of a billionth of a percent, or 1 part in ${10}^{11}$ , to notice this increase. It is no wonder that the mass variation is not readily observed. In fact, this change in mass is so small that we may question how you could verify it is real. The answer is found in nuclear processes in which the percentage of mass destroyed is large enough to be measured. The mass of the fuel of a nuclear reactor, for example, is measurably smaller when its energy has been used. In that case, stored energy has been released (converted mostly to heat and electricity) and the rest mass has decreased. This is also the case when you use the energy stored in a battery, except that the stored energy is much greater in nuclear processes, making the change in mass measurable in practice as well as in theory.",
+        "text": "Both the actual increase in mass and the percent increase are very small, since energy is divided by ${c}^{2}$, a very large number. We would have to be able to measure the mass of the battery to a precision of a billionth of a percent, or 1 part in ${10}^{11}$, to notice this increase. It is no wonder that the mass variation is not readily observed. In fact, this change in mass is so small that we may question how you could verify it is real. The answer is found in nuclear processes in which the percentage of mass destroyed is large enough to be measured. The mass of the fuel of a nuclear reactor, for example, is measurably smaller when its energy has been used. In that case, stored energy has been released (converted mostly to heat and electricity) and the rest mass has decreased. This is also the case when you use the energy stored in a battery, except that the stored energy is much greater in nuclear processes, making the change in mass measurable in practice as well as in theory.",
         "inline": []
       },
       "level": "core"
@@ -285,7 +285,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Kinetic energy is energy of motion. Classically, kinetic energy has the familiar expression $\\frac{1}{2}{mv}^{2}$ . The relativistic expression for kinetic energy is obtained from the work-energy theorem. This theorem states that the net work on a system goes into kinetic energy. If our system starts from rest, then the work-energy theorem is",
+        "text": "Kinetic energy is energy of motion. Classically, kinetic energy has the familiar expression $\\frac{1}{2}{mv}^{2}$. The relativistic expression for kinetic energy is obtained from the work-energy theorem. This theorem states that the net work on a system goes into kinetic energy. If our system starts from rest, then the work-energy theorem is ${W}_{net}=KE.$",
         "inline": []
       },
       "level": "core"
@@ -294,7 +294,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Relativistically, at rest we have rest energy ${E}_{0}={mc}^{2}$ . The work increases this to the total energy $E={γmc}^{2}$ . Thus,",
+        "text": "Relativistically, at rest we have rest energy ${E}_{0}={mc}^{2}$. The work increases this to the total energy $E={γmc}^{2}$. Thus, ${W}_{net}=E-{E}_{0}=γ{mc}^{2}-{mc}^{2}=(γ-1){mc}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -303,7 +303,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Relativistically, we have ${W}_{net}={KE}_{rel}$ .",
+        "text": "Relativistically, we have ${W}_{net}={KE}_{rel}$.",
         "inline": []
       },
       "level": "core"
@@ -312,7 +312,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Relativistic kinetic energy is",
+        "text": "Relativistic kinetic energy is ${KE}_{rel}=(γ-1){mc}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -321,7 +321,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "When motionless, we have $v=0$ and",
+        "text": "When motionless, we have $v=0$ and $γ=\\frac{1}{\\sqrt{1-\\frac{{v}^{2}}{{c}^{2}}}}=1,$",
         "inline": []
       },
       "level": "core"
@@ -330,7 +330,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "so that ${KE}_{rel}=0$ at rest, as expected. But the expression for relativistic kinetic energy (such as total energy and rest energy) does not look much like the classical $\\frac{1}{2}{mv}^{2}$ . To show that the classical expression for kinetic energy is obtained at low velocities, we note that the binomial expansion for $γ$ at low velocities gives",
+        "text": "so that ${KE}_{rel}=0$ at rest, as expected. But the expression for relativistic kinetic energy (such as total energy and rest energy) does not look much like the classical $\\frac{1}{2}{mv}^{2}$. To show that the classical expression for kinetic energy is obtained at low velocities, we note that the binomial expansion for $γ$ at low velocities gives $γ=1+\\frac{1}{2}\\frac{{v}^{2}}{{c}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -339,7 +339,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "A binomial expansion is a way of expressing an algebraic quantity as a sum of an infinite series of terms. In some cases, as in the limit of small velocity here, most terms are very small. Thus the expression derived for $γ$ here is not exact, but it is a very accurate approximation. Thus, at low velocities,",
+        "text": "A binomial expansion is a way of expressing an algebraic quantity as a sum of an infinite series of terms. In some cases, as in the limit of small velocity here, most terms are very small. Thus the expression derived for $γ$ here is not exact, but it is a very accurate approximation. Thus, at low velocities, $γ-1=\\frac{1}{2}\\frac{{v}^{2}}{{c}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -348,7 +348,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Entering this into the expression for relativistic kinetic energy gives",
+        "text": "Entering this into the expression for relativistic kinetic energy gives ${KE}_{rel}=[\\frac{1}{2}\\frac{{v}^{2}}{{c}^{2}}]{mc}^{2}=\\frac{1}{2}{mv}^{2}={KE}_{class}.$",
         "inline": []
       },
       "level": "core"
@@ -357,7 +357,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "So, in fact, relativistic kinetic energy does become the same as classical kinetic energy when $v<<c$ .",
+        "text": "So, in fact, relativistic kinetic energy does become the same as classical kinetic energy when $v<<c$.",
         "inline": []
       },
       "level": "core"
@@ -366,7 +366,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "It is even more interesting to investigate what happens to kinetic energy when the velocity of an object approaches the speed of light. We know that $γ$ becomes infinite as $v$ approaches $c$ , so that KE rel also becomes infinite as the velocity approaches the speed of light. (See .) An infinite amount of work (and, hence, an infinite amount of energy input) is required to accelerate a mass to the speed of light.",
+        "text": "It is even more interesting to investigate what happens to kinetic energy when the velocity of an object approaches the speed of light. We know that $γ$ becomes infinite as $v$ approaches $c$, so that KE rel also becomes infinite as the velocity approaches the speed of light. (See the figure.) An infinite amount of work (and, hence, an infinite amount of energy input) is required to accelerate a mass to the speed of light.",
         "inline": []
       },
       "level": "core"
@@ -384,7 +384,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "So the speed of light is the ultimate speed limit for any particle having mass. All of this is consistent with the fact that velocities less than $c$ always add to less than $c$ . Both the relativistic form for kinetic energy and the ultimate speed limit being $c$ have been confirmed in detail in numerous experiments. No matter how much energy is put into accelerating a mass, its velocity can only approach—not reach—the speed of light.",
+        "text": "So the speed of light is the ultimate speed limit for any particle having mass. All of this is consistent with the fact that velocities less than $c$ always add to less than $c$. Both the relativistic form for kinetic energy and the ultimate speed limit being $c$ have been confirmed in detail in numerous experiments. No matter how much energy is put into accelerating a mass, its velocity can only approach—not reach—the speed of light.",
         "inline": []
       },
       "level": "core"
@@ -421,7 +421,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "An electron has a velocity $v=0.990c$ . (a) Calculate the kinetic energy in MeV of the electron. (b) Compare this with the classical value for kinetic energy at this velocity. (The mass of an electron is $9.11×{10}^{-31}kg$ .)",
+        "text": "An electron has a velocity $v=0.990c$. (a) Calculate the kinetic energy in MeV of the electron. (b) Compare this with the classical value for kinetic energy at this velocity. (The mass of an electron is $9.11\\times {10}^{-31} kg$.)",
         "inline": []
       },
       "level": "core"
@@ -430,7 +430,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "The expression for relativistic kinetic energy is always correct, but for (a) it must be used since the velocity is highly relativistic (close to $c$ ). First, we will calculate the relativistic factor $γ$ , and then use it to determine the relativistic kinetic energy. For (b), we will calculate the classical kinetic energy (which would be close to the relativistic value if $v$ were less than a few percent of $c$ ) and see that it is not the same.",
+        "text": "The expression for relativistic kinetic energy is always correct, but for (a) it must be used since the velocity is highly relativistic (close to $c$). First, we will calculate the relativistic factor $γ$, and then use it to determine the relativistic kinetic energy. For (b), we will calculate the classical kinetic energy (which would be close to the relativistic value if $v$ were less than a few percent of $c$) and see that it is not the same.",
         "inline": []
       },
       "level": "core"
@@ -439,7 +439,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "First calculate $γ$ . We will carry extra digits because this is an intermediate calculation.",
+        "text": "First calculate $γ$. We will carry extra digits because this is an intermediate calculation. $γ = \\frac{1}{\\sqrt{1-\\frac{{v}^{2}}{{c}^{2}}}} = \\frac{1}{\\sqrt{1-\\frac{(0.990c{)}^{2}}{{c}^{2}}}} = \\frac{1}{\\sqrt{1-(0.990{)}^{2}}} = 7.0888$",
         "inline": []
       },
       "level": "core"
@@ -448,7 +448,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Next, we use this value to calculate the kinetic energy.",
+        "text": "Next, we use this value to calculate the kinetic energy. ${KE}_{rel} = (γ-1){mc}^{2} = (7.0888-1)(9.11\\times {10}^{-31} kg)(3.00\\times {10}^{8} m/s{)}^{2} = 4.99\\times {10}^{–13} J$",
         "inline": []
       },
       "level": "core"
@@ -457,7 +457,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "As might be expected, since the velocity is 99.0% of the speed of light, the classical kinetic energy is significantly off from the correct relativistic value. Note also that the classical value is much smaller than the relativistic value. In fact, ${KE}_{rel}{/KE}_{class}=12.4$ here. This is some indication of how difficult it is to get a mass moving close to the speed of light. Much more energy is required than predicted classically. Some people interpret this extra energy as going into increasing the mass of the system, but, as discussed in Relativistic Momentum , this cannot be verified unambiguously. What is certain is that ever-increasing amounts of energy are needed to get the velocity of a mass a little closer to that of light. An energy of 3 MeV is a very small amount for an electron, and it can be achieved with present-day particle accelerators. SLAC, for example, can accelerate electrons to over $50×{10}^{9}eV=50,000 MeV$ .",
+        "text": "As might be expected, since the velocity is 99.0% of the speed of light, the classical kinetic energy is significantly off from the correct relativistic value. Note also that the classical value is much smaller than the relativistic value. In fact, ${KE}_{rel}{/KE}_{class}=12.4$ here. This is some indication of how difficult it is to get a mass moving close to the speed of light. Much more energy is required than predicted classically. Some people interpret this extra energy as going into increasing the mass of the system, but, as discussed in Relativistic Momentum, this cannot be verified unambiguously. What is certain is that ever-increasing amounts of energy are needed to get the velocity of a mass a little closer to that of light. An energy of 3 MeV is a very small amount for an electron, and it can be achieved with present-day particle accelerators. SLAC, for example, can accelerate electrons to over $50\\times {10}^{9} eV=50,000 MeV$.",
         "inline": []
       },
       "level": "core"
@@ -466,7 +466,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "Is there any point in getting $v$ a little closer to c than 99.0% or 99.9%? The answer is yes. We learn a great deal by doing this. The energy that goes into a high-velocity mass can be converted to any other form, including into entirely new masses. (See .) Most of what we know about the substructure of matter and the collection of exotic short-lived particles in nature has been learned this way. Particles are accelerated to extremely relativistic energies and made to collide with other particles, producing totally new species of particles. Patterns in the characteristics of these previously unknown particles hint at a basic substructure for all matter. These particles and some of their characteristics will be covered in Particle Physics .",
+        "text": "Is there any point in getting $v$ a little closer to c than 99.0% or 99.9%? The answer is yes. We learn a great deal by doing this. The energy that goes into a high-velocity mass can be converted to any other form, including into entirely new masses. (See the figure.) Most of what we know about the substructure of matter and the collection of exotic short-lived particles in nature has been learned this way. Particles are accelerated to extremely relativistic energies and made to collide with other particles, producing totally new species of particles. Patterns in the characteristics of these previously unknown particles hint at a basic substructure for all matter. These particles and some of their characteristics will be covered in Particle Physics.",
         "inline": []
       },
       "level": "core"
@@ -497,7 +497,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "We know classically that kinetic energy and momentum are related to each other, since",
+        "text": "We know classically that kinetic energy and momentum are related to each other, since ${KE}_{class}=\\frac{{p}^{2}}{2m}=\\frac{(mv{)}^{2}}{2m}=\\frac{1}{2}{mv}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -506,7 +506,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "Relativistically, we can obtain a relationship between energy and momentum by algebraically manipulating their definitions. This produces",
+        "text": "Relativistically, we can obtain a relationship between energy and momentum by algebraically manipulating their definitions. This produces ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -515,7 +515,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "where $E$ is the relativistic total energy and $p$ is the relativistic momentum. This relationship between relativistic energy and relativistic momentum is more complicated than the classical, but we can gain some interesting new insights by examining it. First, total energy is related to momentum and rest mass. At rest, momentum is zero, and the equation gives the total energy to be the rest energy ${mc}^{2}$ (so this equation is consistent with the discussion of rest energy above). However, as the mass is accelerated, its momentum $p$ increases, thus increasing the total energy. At sufficiently high velocities, the rest energy term $({mc}^{2}{)}^{2}$ becomes negligible compared with the momentum term $(pc{)}^{2}$ ; thus, $E=pc$ at extremely relativistic velocities.",
+        "text": "where $E$ is the relativistic total energy and $p$ is the relativistic momentum. This relationship between relativistic energy and relativistic momentum is more complicated than the classical, but we can gain some interesting new insights by examining it. First, total energy is related to momentum and rest mass. At rest, momentum is zero, and the equation gives the total energy to be the rest energy ${mc}^{2}$ (so this equation is consistent with the discussion of rest energy above). However, as the mass is accelerated, its momentum $p$ increases, thus increasing the total energy. At sufficiently high velocities, the rest energy term $({mc}^{2}{)}^{2}$ becomes negligible compared with the momentum term $(pc{)}^{2}$; thus, $E=pc$ at extremely relativistic velocities.",
         "inline": []
       },
       "level": "core"
@@ -524,7 +524,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "If we consider momentum $p$ to be distinct from mass, we can determine the implications of the equation ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2},$ for a particle that has no mass. If we take $m$ to be zero in this equation, then $E=pc$ , or $p=E/c$ . Massless particles have this momentum. There are several massless particles found in nature, including photons (these are quanta of electromagnetic radiation). Another implication is that a massless particle must travel at speed $c$ and only at speed $c$ . While it is beyond the scope of this text to examine the relationship in the equation ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2},$ in detail, we can see that the relationship has important implications in special relativity.",
+        "text": "If we consider momentum $p$ to be distinct from mass, we can determine the implications of the equation ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2},$ for a particle that has no mass. If we take $m$ to be zero in this equation, then $E=pc$, or $p=E/c$. Massless particles have this momentum. There are several massless particles found in nature, including photons (these are quanta of electromagnetic radiation). Another implication is that a massless particle must travel at speed $c$ and only at speed $c$. While it is beyond the scope of this text to examine the relationship in the equation ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2},$ in detail, we can see that the relationship has important implications in special relativity.",
         "inline": []
       },
       "level": "core"
@@ -534,7 +534,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A photon decays into an electron-positron pair. What is the kinetic energy of the electron if its speed is $0.992c$ ?",
+        "text": "A photon decays into an electron-positron pair. What is the kinetic energy of the electron if its speed is $0.992c$?",
         "inline": []
       },
       "level": "core",
@@ -588,7 +588,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that relativistic kinetic energy becomes the same as classical kinetic energy when $v=c$ .",
+        "text": "Show that relativistic kinetic energy becomes the same as classical kinetic energy when $v=c$.",
         "inline": []
       },
       "level": "core",
@@ -807,7 +807,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "We know that the velocity of an object with mass has an upper limit of $c$ . Is there an upper limit on its momentum? Its energy? Explain.",
+        "text": "We know that the velocity of an object with mass has an upper limit of $c$. Is there an upper limit on its momentum? Its energy? Explain.",
         "inline": []
       },
       "level": "core",
@@ -828,7 +828,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Given the fact that light travels at $c$ , can it have mass? Explain.",
+        "text": "Given the fact that light travels at $c$, can it have mass? Explain.",
         "inline": []
       },
       "level": "core",
@@ -879,7 +879,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the rest energy of an electron, given its mass is $9.11×{10}^{-31}kg$ ? Give your answer in joules and MeV.",
+        "text": "What is the rest energy of an electron, given its mass is $9.11\\times {10}^{-31} kg$? Give your answer in joules and MeV.",
         "inline": []
       },
       "level": "core",
@@ -903,7 +903,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the rest energy in joules and MeV of a proton, given its mass is $1.67×{10}^{-27}kg$ .",
+        "text": "Find the rest energy in joules and MeV of a proton, given its mass is $1.67\\times {10}^{-27} kg$.",
         "inline": []
       },
       "level": "core",
@@ -948,7 +948,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The Big Bang that began the universe is estimated to have released ${10}^{68}J$ of energy. How many stars could half this energy create, assuming the average star’s mass is $4.00×{10}^{30}kg$ ?",
+        "text": "The Big Bang that began the universe is estimated to have released ${10}^{68} J$ of energy. How many stars could half this energy create, assuming the average star’s mass is $4.00\\times {10}^{30} kg$?",
         "inline": []
       },
       "level": "core",
@@ -969,7 +969,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A supernova explosion of a $2.00×{10}^{31}kg$ star produces $1.00×{10}^{44}J$ of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio $Δm/m$ of mass destroyed to the original mass of the star?",
+        "text": "A supernova explosion of a $2.00\\times {10}^{31} kg$ star produces $1.00\\times {10}^{44} J$ of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio $Δm/m$ of mass destroyed to the original mass of the star?",
         "inline": []
       },
       "level": "core",
@@ -1011,7 +1011,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Using data from , calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass, $Δm/m$ ?",
+        "text": "(a) Using data from the table, calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass, $Δm/m$?",
         "inline": []
       },
       "level": "core",
@@ -1032,7 +1032,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Using data from , calculate the amount of mass converted to energy by the fusion of 1.00 kg of hydrogen. (b) What is the ratio of mass destroyed to the original mass, $Δm/m$ ? (c) How does this compare with $Δm/m$ for the fission of 1.00 kg of uranium?",
+        "text": "(a) Using data from the table, calculate the amount of mass converted to energy by the fusion of 1.00 kg of hydrogen. (b) What is the ratio of mass destroyed to the original mass, $Δm/m$? (c) How does this compare with $Δm/m$ for the fission of 1.00 kg of uranium?",
         "inline": []
       },
       "level": "core",
@@ -1065,7 +1065,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There is approximately ${10}^{34}J$ of energy available from fusion of hydrogen in the world’s oceans. (a) If ${10}^{33}J$ of this energy were utilized, what would be the decrease in mass of the oceans? Assume that 0.08% of the mass of a water molecule is converted to energy during the fusion of hydrogen. (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.",
+        "text": "There is approximately ${10}^{34} J$ of energy available from fusion of hydrogen in the world’s oceans.\n(a) If ${10}^{33} J$ of this energy were utilized, what would be the decrease in mass of the oceans? Assume that 0.08% of the mass of a water molecule is converted to energy during the fusion of hydrogen.\n(b) How great a volume of water does this correspond to?\n(c) Comment on whether this is a significant fraction of the total mass of the oceans.",
         "inline": []
       },
       "level": "core",
@@ -1155,7 +1155,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of $6.80×{10}^{-27}kg$ and is given 5.00 MeV of kinetic energy, what is its velocity?",
+        "text": "Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of $6.80\\times {10}^{-27} kg$ and is given 5.00 MeV of kinetic energy, what is its velocity?",
         "inline": []
       },
       "level": "core",
@@ -1230,7 +1230,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the kinetic energy in MeV of a $π$ -meson that lives $1.40×{10}^{-16}s$ as measured in the laboratory, and $0.840×{10}^{-16}s$ when at rest relative to an observer, given that its rest energy is 135 MeV?",
+        "text": "What is the kinetic energy in MeV of a $π$ -meson that lives $1.40\\times {10}^{-16} s$ as measured in the laboratory, and $0.840\\times {10}^{-16} s$ when at rest relative to an observer, given that its rest energy is 135 MeV?",
         "inline": []
       },
       "level": "core",
@@ -1275,7 +1275,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Show that $(pc{)}^{2}/({mc}^{2}{)}^{2}={γ}^{2}-1$ . This means that at large velocities $pc>>{mc}^{2}$ . (b) Is $E≈pc$ when $γ=30.0$ , as for the astronaut discussed in the twin paradox?",
+        "text": "(a) Show that $(pc{)}^{2}/({mc}^{2}{)}^{2}={γ}^{2}-1$. This means that at large velocities $pc>>{mc}^{2}$. (b) Is $E\\approx pc$ when $γ=30.0$, as for the astronaut discussed in the twin paradox?",
         "inline": []
       },
       "level": "core",
@@ -1308,7 +1308,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "One cosmic ray neutron has a velocity of $0.250c$ relative to the Earth. (a) What is the neutron’s total energy in MeV? (b) Find its momentum. (c) Is $E≈pc$ in this situation? Discuss in terms of the equation given in part (a) of the previous problem.",
+        "text": "One cosmic ray neutron has a velocity of $0.250c$ relative to the Earth. (a) What is the neutron’s total energy in MeV? (b) Find its momentum. (c) Is $E\\approx pc$ in this situation? Discuss in terms of the equation given in part (a) of the previous problem.",
         "inline": []
       },
       "level": "core",
@@ -1353,7 +1353,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the effective accelerating potential for electrons at the Stanford Linear Accelerator, if $γ=1.00×{10}^{5}$ for them? (b) What is their total energy (nearly the same as kinetic in this case) in GeV?",
+        "text": "(a) What is the effective accelerating potential for electrons at the Stanford Linear Accelerator, if $γ=1.00\\times {10}^{5}$ for them? (b) What is their total energy (nearly the same as kinetic in this case) in GeV?",
         "inline": []
       },
       "level": "core",
@@ -1374,7 +1374,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Using data from , find the mass destroyed when the energy in a barrel of crude oil is released. (b) Given these barrels contain 200 liters and assuming the density of crude oil is $750 kg{/m}^{3}$ , what is the ratio of mass destroyed to original mass, $Δm/m$ ?",
+        "text": "(a) Using data from the table, find the mass destroyed when the energy in a barrel of crude oil is released. (b) Given these barrels contain 200 liters and assuming the density of crude oil is $750 kg{/m}^{3}$, what is the ratio of mass destroyed to original mass, $Δm/m$?",
         "inline": []
       },
       "level": "core",
@@ -1464,7 +1464,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A nuclear power plant converts energy from nuclear fission into electricity with an efficiency of 35.0%. How much mass is destroyed in one year to produce a continuous 1000 MW of electric power? (b) Do you think it would be possible to observe this mass loss if the total mass of the fuel is ${10}^{4}kg$ ?",
+        "text": "(a) A nuclear power plant converts energy from nuclear fission into electricity with an efficiency of 35.0%. How much mass is destroyed in one year to produce a continuous 1000 MW of electric power? (b) Do you think it would be possible to observe this mass loss if the total mass of the fuel is ${10}^{4} kg$?",
         "inline": []
       },
       "level": "core",
@@ -1497,7 +1497,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket’s mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of $1.00×{10}^{5}kg$ (100 tons), what total yield nuclear explosion in tons of TNT is needed?",
+        "text": "Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket’s mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of $1.00\\times {10}^{5} kg$ (100 tons), what total yield nuclear explosion in tons of TNT is needed?",
         "inline": []
       },
       "level": "core",
@@ -1518,7 +1518,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The Sun produces energy at a rate of $4.00×{10}^{26}$ W by the fusion of hydrogen. (a) How many kilograms of hydrogen undergo fusion each second? (b) If the Sun is 90.0% hydrogen and half of this can undergo fusion before the Sun changes character, how long could it produce energy at its current rate? (c) How many kilograms of mass is the Sun losing per second? (d) What fraction of its mass will it have lost in the time found in part (b)?",
+        "text": "The Sun produces energy at a rate of $4.00\\times {10}^{26}$ W by the fusion of hydrogen. (a) How many kilograms of hydrogen undergo fusion each second? (b) If the Sun is 90.0% hydrogen and half of this can undergo fusion before the Sun changes character, how long could it produce energy at its current rate? (c) How many kilograms of mass is the Sun losing per second? (d) What fraction of its mass will it have lost in the time found in part (b)?",
         "inline": []
       },
       "level": "core",
@@ -1569,7 +1569,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results A proton has a mass of $1.67×{10}^{-27}kg$ . A physicist measures the proton’s total energy to be 50.0 MeV. (a) What is the proton’s kinetic energy? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results A proton has a mass of $1.67\\times {10}^{-27} kg$. A physicist measures the proton’s total energy to be 50.0 MeV. (a) What is the proton’s kinetic energy? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",

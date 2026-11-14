@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Matter most commonly exists as a solid, liquid, gas, or plasma; these states are known as the common *phases of matter* . Solids have a definite shape and a specific volume, liquids have a definite volume but their shape changes depending on the container in which they are held, gases have neither a definite shape nor a specific volume as their molecules move to fill the container in which they are held, and plasmas also have neither definite shape nor volume. (See .) Liquids, gases, and plasmas are considered to be fluids because they yield to shearing forces, whereas solids resist them. Note that the extent to which fluids yield to shearing forces (and hence flow easily and quickly) depends on a quantity called the viscosity which is discussed in detail in Viscosity and Laminar Flow; Poiseuille’s Law . We can understand the phases of matter and what constitutes a fluid by considering the forces between atoms that make up matter in the three phases.",
+        "text": "Matter most commonly exists as a solid, liquid, gas, or plasma; these states are known as the common *phases of matter*. Solids have a definite shape and a specific volume, liquids have a definite volume but their shape changes depending on the container in which they are held, gases have neither a definite shape nor a specific volume as their molecules move to fill the container in which they are held, and plasmas also have neither definite shape nor volume. (See the figure.) Liquids, gases, and plasmas are considered to be fluids because they yield to shearing forces, whereas solids resist them. Note that the extent to which fluids yield to shearing forces (and hence flow easily and quickly) depends on a quantity called the viscosity which is discussed in detail in Viscosity and Laminar Flow; Poiseuille’s Law. We can understand the phases of matter and what constitutes a fluid by considering the forces between atoms that make up matter in the three phases.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Atomic and molecular characteristics explain and underlie the macroscopic characteristics of solids and fluids. This submicroscopic explanation is one theme of this text and is highlighted in the Things Great and Small features in Conservation of Momentum . See, for example, microscopic description of collisions and momentum or microscopic description of pressure in a gas. This present section is devoted entirely to the submicroscopic explanation of solids and liquids.",
+        "text": "Atomic and molecular characteristics explain and underlie the macroscopic characteristics of solids and fluids. This submicroscopic explanation is one theme of this text and is highlighted in the Things Great and Small features in Conservation of Momentum. See, for example, microscopic description of collisions and momentum or microscopic description of pressure in a gas. This present section is devoted entirely to the submicroscopic explanation of solids and liquids.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Atoms in *gases* and charged particles in *plasmas* are separated by distances that are large compared with the size of the particles. The forces between the particles are therefore very weak, except when they collide with one another. Gases and plasmas thus not only flow (and are therefore considered to be fluids) but they are relatively easy to compress because there is much space and little force between the particles. When placed in an open container gases, unlike liquids, will escape. The major distinction is that gases are easily compressed, whereas liquids are not. Plasmas are difficult to contain because they have so much energy. When discussing how substances flow, we shall generally refer to both gases and liquids simply as fluids , and make a distinction between them only when they behave differently.",
+        "text": "Atoms in *gases* and charged particles in *plasmas* are separated by distances that are large compared with the size of the particles. The forces between the particles are therefore very weak, except when they collide with one another. Gases and plasmas thus not only flow (and are therefore considered to be fluids) but they are relatively easy to compress because there is much space and little force between the particles. When placed in an open container gases, unlike liquids, will escape. The major distinction is that gases are easily compressed, whereas liquids are not. Plasmas are difficult to contain because they have so much energy. When discussing how substances flow, we shall generally refer to both gases and liquids simply as fluids, and make a distinction between them only when they behave differently.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases in this simulation .",
+        "text": "Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases in this simulation.",
         "inline": []
       },
       "level": "core"

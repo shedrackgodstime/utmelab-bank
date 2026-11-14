@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "De Broglie took both relativity and quantum mechanics into account to develop the proposal that *all particles have a wavelength* , given by",
+        "text": "De Broglie took both relativity and quantum mechanics into account to develop the proposal that *all particles have a wavelength*, given by $λ=\\frac{h}{p}(matter and photons),$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "where $h$ is Planck’s constant and $p$ is momentum. This is defined to be the de Broglie wavelength . (Note that we already have this for photons, from the equation $p=h/λ$ .) The hallmark of a wave is interference. If matter is a wave, then it must exhibit constructive and destructive interference. Why isn’t this ordinarily observed? The answer is that in order to see significant interference effects, a wave must interact with an object about the same size as its wavelength. Since $h$ is very small, $λ$ is also small, especially for macroscopic objects. A 3-kg bowling ball moving at 10 m/s, for example, has \\[$λ=h/p=(6.63×{10}^{–34}J·s)/[(3 kg)(10 m/s)]=2×{10}^{–35}m.$\\] This means that to see its wave characteristics, the bowling ball would have to interact with something about ${10}^{–35}m$ in size—far smaller than anything known. When waves interact with objects much larger than their wavelength, they show negligible interference effects and move in straight lines (such as light rays in geometric optics). To get easily observed interference effects from particles of matter, the longest wavelength and hence smallest mass possible would be useful. Therefore, this effect was first observed with electrons.",
+        "text": "where $h$ is Planck’s constant and $p$ is momentum. This is defined to be the de Broglie wavelength. (Note that we already have this for photons, from the equation $p=h/λ$.) The hallmark of a wave is interference. If matter is a wave, then it must exhibit constructive and destructive interference. Why isn’t this ordinarily observed? The answer is that in order to see significant interference effects, a wave must interact with an object about the same size as its wavelength. Since $h$ is very small, $λ$ is also small, especially for macroscopic objects. A 3-kg bowling ball moving at 10 m/s, for example, has $λ=h/p=(6.63\\times {10}^{–34} J·s)/[(3 kg)(10 m/s)]=2\\times {10}^{–35} m.$ This means that to see its wave characteristics, the bowling ball would have to interact with something about ${10}^{–35} m$ in size—far smaller than anything known. When waves interact with objects much larger than their wavelength, they show negligible interference effects and move in straight lines (such as light rays in geometric optics). To get easily observed interference effects from particles of matter, the longest wavelength and hence smallest mass possible would be useful. Therefore, this effect was first observed with electrons.",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "American physicists Clinton J. Davisson and Lester H. Germer in 1925 and, independently, British physicist G. P. Thomson (son of J. J. Thomson, discoverer of the electron) in 1926 scattered electrons from crystals and found diffraction patterns. These patterns are exactly consistent with interference of electrons having the de Broglie wavelength and are somewhat analogous to light interacting with a diffraction grating. (See .)",
+        "text": "American physicists Clinton J. Davisson and Lester H. Germer in 1925 and, independently, British physicist G. P. Thomson (son of J. J. Thomson, discoverer of the electron) in 1926 scattered electrons from crystals and found diffraction patterns. These patterns are exactly consistent with interference of electrons having the de Broglie wavelength and are somewhat analogous to light interacting with a diffraction grating. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the nonrelativistic formula for momentum ( $p=mv$ ) into the de Broglie wavelength gives",
+        "text": "Substituting the nonrelativistic formula for momentum ($p=mv$) into the de Broglie wavelength gives $λ=\\frac{h}{p}=\\frac{h}{mv}.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $v$ gives",
+        "text": "Solving for $v$ gives $v=\\frac{h}{mλ}.$",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values yields",
+        "text": "Substituting known values yields $v=\\frac{6.63\\times {10}^{–34} J\\cdot s}{(9.11\\times {10}^{–31} kg)(0.167\\times {10}^{–9} m)}=4.36\\times {10}^{6} m/s.$",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "While fast compared with a car, this electron’s speed is not highly relativistic, and so we can comfortably use the classical formula to find the electron’s kinetic energy and convert it to eV as requested.",
+        "text": "While fast compared with a car, this electron’s speed is not highly relativistic, and so we can comfortably use the classical formula to find the electron’s kinetic energy and convert it to eV as requested. $KE = \\frac{1}{2} {mv}^{2} = \\frac{1}{2} (9.11 \\times {10}^{–31} kg) (4.36 \\times {10}^{6} m/s {)}^{2} = (86.4 \\times {10}^{–18} J) (\\frac{1 eV}{1.602\\times {10}^{–19} J}) = 54.0 eV$",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "One consequence or use of the wave nature of matter is found in the electron microscope. As we have discussed, there is a limit to the detail observed with any probe having a wavelength. Resolution, or observable detail, is limited to about one wavelength. Since a potential of only 54 V can produce electrons with sub-nanometer wavelengths, it is easy to get electrons with much smaller wavelengths than those of visible light (hundreds of nanometers). Electron microscopes can, thus, be constructed to detect much smaller details than optical microscopes. (See .)",
+        "text": "One consequence or use of the wave nature of matter is found in the electron microscope. As we have discussed, there is a limit to the detail observed with any probe having a wavelength. Resolution, or observable detail, is limited to about one wavelength. Since a potential of only 54 V can produce electrons with sub-nanometer wavelengths, it is easy to get electrons with much smaller wavelengths than those of visible light (hundreds of nanometers). Electron microscopes can, thus, be constructed to detect much smaller details than optical microscopes. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -203,7 +203,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "There are basically two types of electron microscopes. The transmission electron microscope (TEM) accelerates electrons that are emitted from a hot filament (the cathode). The beam is broadened and then passes through the sample. A magnetic lens focuses the beam image onto a fluorescent screen, a photographic plate, or (most probably) a CCD (light sensitive camera), from which it is transferred to a computer. The TEM is similar to the optical microscope, but it requires a thin sample examined in a vacuum. However it can resolve details as small as 0.1 nm ( ${10}^{-10}m$ ), providing magnifications of 100 million times the size of the original object. The TEM has allowed us to see individual atoms and structure of cell nuclei.",
+        "text": "There are basically two types of electron microscopes. The transmission electron microscope (TEM) accelerates electrons that are emitted from a hot filament (the cathode). The beam is broadened and then passes through the sample. A magnetic lens focuses the beam image onto a fluorescent screen, a photographic plate, or (most probably) a CCD (light sensitive camera), from which it is transferred to a computer. The TEM is similar to the optical microscope, but it requires a thin sample examined in a vacuum. However it can resolve details as small as 0.1 nm (${10}^{-10} m$), providing magnifications of 100 million times the size of the original object. The TEM has allowed us to see individual atoms and structure of cell nuclei.",
         "inline": []
       },
       "level": "core"
@@ -212,7 +212,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The scanning electron microscope (SEM) provides images by using secondary electrons produced by the primary beam interacting with the surface of the sample (see ). The SEM also uses magnetic lenses to focus the beam onto the sample. However, it moves the beam around electrically to “scan” the sample in the *x* and *y* directions. A CCD detector is used to process the data for each electron position, producing images like the one at the beginning of this chapter. The SEM has the advantage of not requiring a thin sample and of providing a 3-D view. However, its resolution is about ten times less than a TEM.",
+        "text": "The scanning electron microscope (SEM) provides images by using secondary electrons produced by the primary beam interacting with the surface of the sample (see the figure). The SEM also uses magnetic lenses to focus the beam onto the sample. However, it moves the beam around electrically to “scan” the sample in the *x* and *y* directions. A CCD detector is used to process the data for each electron position, producing images like the one at the beginning of this chapter. The SEM has the advantage of not requiring a thin sample and of providing a 3-D view. However, its resolution is about ten times less than a TEM.",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in .",
+        "text": "The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in the figure.",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Atoms are spaced at regular intervals in a crystal as parallel planes, as shown in the bottom part of . The spacings between these planes act like the openings in a diffraction grating. At certain incident angles, the paths of electrons scattering from successive planes differ by one wavelength and, thus, interfere constructively. At other angles, the path length differences are not an integral wavelength, and there is partial to total destructive interference. This type of scattering from a large crystal with well-defined lattice planes can produce dramatic interference patterns. It is called *Bragg reflection* , for the father-and-son team who first explored and analyzed it in some detail. The expanded view also shows the path-length differences and indicates how these depend on incident angle $θ$ in a manner similar to the diffraction patterns for x rays reflecting from a crystal.",
+        "text": "Atoms are spaced at regular intervals in a crystal as parallel planes, as shown in the bottom part of the figure. The spacings between these planes act like the openings in a diffraction grating. At certain incident angles, the paths of electrons scattering from successive planes differ by one wavelength and, thus, interfere constructively. At other angles, the path length differences are not an integral wavelength, and there is partial to total destructive interference. This type of scattering from a large crystal with well-defined lattice planes can produce dramatic interference patterns. It is called *Bragg reflection*, for the father-and-son team who first explored and analyzed it in some detail. The expanded view also shows the path-length differences and indicates how these depend on incident angle $θ$ in a manner similar to the diffraction patterns for x rays reflecting from a crystal.",
         "inline": []
       },
       "level": "core"
@@ -274,7 +274,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Let us take the spacing between parallel planes of atoms in the crystal to be $d$ . As mentioned, if the path length difference (PLD) for the electrons is a whole number of wavelengths, there will be constructive interference—that is, $PLD=nλ(n=1,2,3,…)$ . Because $AB=BC=dsinθ,$ we have constructive interference when $nλ=2dsinθ.$ This relationship is called the *Bragg equation* and applies not only to electrons but also to x rays.",
+        "text": "Let us take the spacing between parallel planes of atoms in the crystal to be $d$. As mentioned, if the path length difference (PLD) for the electrons is a whole number of wavelengths, there will be constructive interference—that is, $PLD=nλ(n=1, 2, 3,…)$. Because $AB=BC=d sin θ,$ we have constructive interference when $nλ=2d sin θ.$ This relationship is called the *Bragg equation* and applies not only to electrons but also to x rays.",
         "inline": []
       },
       "level": "core"
@@ -347,7 +347,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In a Davisson-Germer type of experiment, a crystal with a parallel-plane separation ( *d* ) of 9.1 × 10 –2 nm produces constructive interference with an electron beam at an angle of *θ* = 50°. Which of the following is the maximum de Broglie wavelength for these electrons? 0.07nm; 0.09 nm; 0.14 nm; 0.21 nm",
+        "text": "In a Davisson-Germer type of experiment, a crystal with a parallel-plane separation (*d*) of 9.1 × 10 –2 nm produces constructive interference with an electron beam at an angle of *θ* = 50°. Which of the following is the maximum de Broglie wavelength for these electrons? 0.07nm; 0.09 nm; 0.14 nm; 0.21 nm",
         "inline": []
       },
       "level": "core",
@@ -371,7 +371,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In a Davisson-Germer experiment, electrons with a speed of 6.5 × 10 6 m/s exhibit third-order ( *n* = 3) constructive interference for a crystal with unknown plane separation, *d* . Given an angle of incidence of *θ* = 45°, compute the value for *d* . Compare the de Broglie wavelength to electromagnetic radiation with the same wavelength. (Recall that the mass of the electron is 9.11 × 10 –31 kg.)",
+        "text": "In a Davisson-Germer experiment, electrons with a speed of 6.5 × 10 6 m/s exhibit third-order (*n* = 3) constructive interference for a crystal with unknown plane separation, *d*. Given an angle of incidence of *θ* = 45°, compute the value for *d*. Compare the de Broglie wavelength to electromagnetic radiation with the same wavelength. (Recall that the mass of the electron is 9.11 × 10 –31 kg.)",
         "inline": []
       },
       "level": "core",
@@ -527,7 +527,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer = ${10}^{-15}m.$ )",
+        "text": "At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer = ${10}^{-15} m.$)",
         "inline": []
       },
       "level": "core",

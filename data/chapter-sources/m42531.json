@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See .) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous. Since in B’s frame, A is moving to the right, B will measure the light from the right bulb and arrive at observer A before the light from the left bulb arrives at observer A.",
+        "text": "Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See the figure.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that in B’s frame, both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus, observer B measures the flashes to be simultaneous. Since in B’s frame, A is moving to the right, B will measure the light from the right bulb and arrive at observer A before the light from the left bulb arrives at observer A.",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb. Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. *Simultaneity is not absolute.* . Note, however, that both A and B agree on the order of the flashes arriving at A’s location.",
+        "text": "Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb. Since in her frame, the flashes are not emitted at the same time, they also do not arrive at the same time. Here, a relative velocity between observers affects whether two events are observed to be simultaneous. *Simultaneity is not absolute.*. Note, however, that both A and B agree on the order of the flashes arriving at A’s location.",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Suppose, for example, an astronaut measures the time it takes for light to cross her ship, bounce off a mirror, and return. (See .) How does the elapsed time the astronaut measures compare with the elapsed time measured for the same event by a person on the Earth? Asking this question (another thought experiment) produces a profound result. We find that the elapsed time for a process depends on who is measuring it. In this case, the time measured by the astronaut is smaller than the time measured by the Earth-bound observer. The passage of time is different for the observers because the distance the light travels in the astronaut’s frame is smaller than in the Earth-bound frame. Light travels at the same speed in each frame, and so it will take longer to travel the greater distance in the Earth-bound frame.",
+        "text": "Suppose, for example, an astronaut measures the time it takes for light to cross her ship, bounce off a mirror, and return. (See the figure.) How does the elapsed time the astronaut measures compare with the elapsed time measured for the same event by a person on the Earth? Asking this question (another thought experiment) produces a profound result. We find that the elapsed time for a process depends on who is measuring it. In this case, the time measured by the astronaut is smaller than the time measured by the Earth-bound observer. The passage of time is different for the observers because the distance the light travels in the astronaut’s frame is smaller than in the Earth-bound frame. Light travels at the same speed in each frame, and so it will take longer to travel the greater distance in the Earth-bound frame.",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "To quantitatively verify that time depends on the observer, consider the paths followed by light as seen by each observer. (See (c).) The astronaut sees the light travel straight across and back for a total distance of $2D$ , twice the width of her ship. The Earth-bound observer sees the light travel a total distance $2s$ . Since the ship is moving at speed $v$ to the right relative to the Earth, light moving to the right hits the mirror in this frame. Light travels at a speed $c$ in both frames, and because time is the distance divided by speed, the time measured by the astronaut is",
+        "text": "To quantitatively verify that time depends on the observer, consider the paths followed by light as seen by each observer. (See the figure (c).) The astronaut sees the light travel straight across and back for a total distance of $2D$, twice the width of her ship. The Earth-bound observer sees the light travel a total distance $2s$. Since the ship is moving at speed $v$ to the right relative to the Earth, light moving to the right hits the mirror in this frame. Light travels at a speed $c$ in both frames, and because time is the distance divided by speed, the time measured by the astronaut is $Δ{t}_{0}=\\frac{2D}{c}.$",
         "inline": []
       },
       "level": "core"
@@ -196,7 +196,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "In the case of the astronaut observe the reflecting light, the astronaut measures proper time. The time measured by the Earth-bound observer is",
+        "text": "In the case of the astronaut observe the reflecting light, the astronaut measures proper time. The time measured by the Earth-bound observer is $Δt=\\frac{2s}{c}.$",
         "inline": []
       },
       "level": "core"
@@ -205,7 +205,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "To find the relationship between $Δ{t}_{0}$ and $Δt$ , consider the triangles formed by $D$ and $s$ . (See (c).) The third side of these similar triangles is $L$ , the distance the astronaut moves as the light goes across her ship. In the frame of the Earth-bound observer,",
+        "text": "To find the relationship between $Δ{t}_{0}$ and $Δt$, consider the triangles formed by $D$ and $s$. (See the figure (c).) The third side of these similar triangles is $L$, the distance the astronaut moves as the light goes across her ship. In the frame of the Earth-bound observer, $L=\\frac{vΔt}{2}.$",
         "inline": []
       },
       "level": "core"
@@ -214,7 +214,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Using the Pythagorean Theorem, the distance $s$ is found to be",
+        "text": "Using the Pythagorean Theorem, the distance $s$ is found to be $s=\\sqrt{{D}^{2}+{(\\frac{vΔt}{2})}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -223,7 +223,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Substituting $s$ into the expression for the time interval $Δt$ gives",
+        "text": "Substituting $s$ into the expression for the time interval $Δt$ gives $Δt=\\frac{2s}{c}=\\frac{2\\sqrt{{D}^{2}+{(\\frac{vΔt}{2})}^{2}}}{c}.$",
         "inline": []
       },
       "level": "core"
@@ -232,7 +232,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "We square this equation, which yields",
+        "text": "We square this equation, which yields $(Δt{)}^{2}=\\frac{4({D}^{2}+\\frac{{v}^{2}(Δt{)}^{2}}{4})}{{c}^{2}}=\\frac{{4D}^{2}}{{c}^{2}}+\\frac{{v}^{2}}{{c}^{2}}(Δt{)}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -241,7 +241,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Note that if we square the first expression we had for $Δ{t}_{0}$ , we get $(Δ{t}_{0}{)}^{2}=\\frac{{4D}^{2}}{{c}^{2}}$ . This term appears in the preceding equation, giving us a means to relate the two time intervals. Thus,",
+        "text": "Note that if we square the first expression we had for $Δ{t}_{0}$, we get $(Δ{t}_{0}{)}^{2}=\\frac{{4D}^{2}}{{c}^{2}}$. This term appears in the preceding equation, giving us a means to relate the two time intervals. Thus, $(Δt{)}^{2}=(Δ{t}_{0}{)}^{2}+\\frac{{v}^{2}}{{c}^{2}}(Δt{)}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -250,7 +250,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Gathering terms, we solve for $Δt$ :",
+        "text": "Gathering terms, we solve for $Δt$: $(Δt{)}^{2}(1-\\frac{{v}^{2}}{{c}^{2}})=(Δ{t}_{0}{)}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -259,7 +259,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Taking the square root yields an important relationship between elapsed times:",
+        "text": "Taking the square root yields an important relationship between elapsed times: $Δt=\\frac{Δ{t}_{0}}{\\sqrt{1-\\frac{{v}^{2}}{{c}^{2}}}}={γΔt}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -268,7 +268,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "This equation for $Δt$ is truly remarkable. First, as contended, elapsed time is not the same for different observers moving relative to one another, even though both are in inertial frames. Proper time $Δ{t}_{0}$ measured by an observer, like the astronaut moving with the apparatus, is smaller than time measured by other observers. Since those other observers measure a longer time $Δt$ , the effect is called time dilation. The Earth-bound observer sees time dilate (get longer) for a system moving relative to the Earth. Alternatively, according to the Earth-bound observer, time slows in the moving frame, since less time passes there. All clocks moving relative to an observer, including biological clocks such as aging, are observed to run slow compared with a clock stationary relative to the observer.",
+        "text": "This equation for $Δt$ is truly remarkable. First, as contended, elapsed time is not the same for different observers moving relative to one another, even though both are in inertial frames. Proper time $Δ{t}_{0}$ measured by an observer, like the astronaut moving with the apparatus, is smaller than time measured by other observers. Since those other observers measure a longer time $Δt$, the effect is called time dilation. The Earth-bound observer sees time dilate (get longer) for a system moving relative to the Earth. Alternatively, according to the Earth-bound observer, time slows in the moving frame, since less time passes there. All clocks moving relative to an observer, including biological clocks such as aging, are observed to run slow compared with a clock stationary relative to the observer.",
         "inline": []
       },
       "level": "core"
@@ -277,7 +277,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Note that if the relative velocity is much less than the speed of light ( $v<<c$ ), then $\\frac{{v}^{2}}{{c}^{2}}$ is extremely small, and the elapsed times $Δt$ and $Δ{t}_{0}$ are nearly equal. At low velocities, modern relativity approaches classical physics—our everyday experiences have very small relativistic effects.",
+        "text": "Note that if the relative velocity is much less than the speed of light ($v<<c$), then $\\frac{{v}^{2}}{{c}^{2}}$ is extremely small, and the elapsed times $Δt$ and $Δ{t}_{0}$ are nearly equal. At low velocities, modern relativity approaches classical physics—our everyday experiences have very small relativistic effects.",
         "inline": []
       },
       "level": "core"
@@ -286,7 +286,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The equation $Δt={γΔt}_{0}$ also implies that relative velocity cannot exceed the speed of light. As $v$ approaches $c$ , $Δt$ approaches infinity. This would imply that time in the astronaut’s frame stops at the speed of light. If $v$ exceeded $c$ , then we would be taking the square root of a negative number, producing an imaginary value for $Δt$ .",
+        "text": "The equation $Δt={γΔt}_{0}$ also implies that relative velocity cannot exceed the speed of light. As $v$ approaches $c$, $Δt$ approaches infinity. This would imply that time in the astronaut’s frame stops at the speed of light. If $v$ exceeded $c$, then we would be taking the square root of a negative number, producing an imaginary value for $Δt$.",
         "inline": []
       },
       "level": "core"
@@ -295,7 +295,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "There is considerable experimental evidence that the equation $Δt={γΔt}_{0}$ is correct. One example is found in cosmic ray particles that continuously rain down on the Earth from deep space. Some collisions of these particles with nuclei in the upper atmosphere result in short-lived particles called muons. The half-life (amount of time for half of a material to decay) of a muon is $1.52μs$ when it is at rest relative to the observer who measures the half-life. This is the proper time $Δ{t}_{0}$ . Muons produced by cosmic ray particles have a range of velocities, with some moving near the speed of light. It has been found that the muon’s half-life as measured by an Earth-bound observer ( $Δt$ ) varies with velocity exactly as predicted by the equation $Δt={γΔt}_{0}$ . The faster the muon moves, the longer it lives. We on the Earth see the muon’s half-life time dilated—as viewed from our frame, the muon decays more slowly than it does when at rest relative to us.",
+        "text": "There is considerable experimental evidence that the equation $Δt={γΔt}_{0}$ is correct. One example is found in cosmic ray particles that continuously rain down on the Earth from deep space. Some collisions of these particles with nuclei in the upper atmosphere result in short-lived particles called muons. The half-life (amount of time for half of a material to decay) of a muon is $1.52 μs$ when it is at rest relative to the observer who measures the half-life. This is the proper time $Δ{t}_{0}$. Muons produced by cosmic ray particles have a range of velocities, with some moving near the speed of light. It has been found that the muon’s half-life as measured by an Earth-bound observer ($Δt$) varies with velocity exactly as predicted by the equation $Δt={γΔt}_{0}$. The faster the muon moves, the longer it lives. We on the Earth see the muon’s half-life time dilated—as viewed from our frame, the muon decays more slowly than it does when at rest relative to us.",
         "inline": []
       },
       "level": "core"
@@ -319,7 +319,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere produces a muon that has a velocity $v=0.950c$ . The muon then travels at constant velocity and lives $1.52μs$ as measured in the muon’s frame of reference. (You can imagine this as the muon’s internal clock.) How long does the muon live as measured by an Earth-bound observer? (See .)",
+        "text": "Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere produces a muon that has a velocity $v=0.950c$. The muon then travels at constant velocity and lives $1.52 μs$ as measured in the muon’s frame of reference. (You can imagine this as the muon’s internal clock.) How long does the muon live as measured by an Earth-bound observer? (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -341,7 +341,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "A clock moving with the system being measured observes the proper time, so the time we are given is $Δ{t}_{0}=1.52μs$ . The Earth-bound observer measures $Δt$ as given by the equation $Δt={γΔt}_{0}$ . Since we know the velocity, the calculation is straightforward.",
+        "text": "A clock moving with the system being measured observes the proper time, so the time we are given is $Δ{t}_{0}=1.52 μs$. The Earth-bound observer measures $Δt$ as given by the equation $Δt={γΔt}_{0}$. Since we know the velocity, the calculation is straightforward.",
         "inline": []
       },
       "level": "core"
@@ -350,7 +350,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "1) Identify the knowns. $v=0.950c$ , $Δ{t}_{0}=1.52μs$",
+        "text": "1) Identify the knowns. $v=0.950c$, $Δ{t}_{0}=1.52 μs$",
         "inline": []
       },
       "level": "core"
@@ -386,7 +386,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Use the calculated value of $γ$ to determine $Δt$ .",
+        "text": "Use the calculated value of $γ$ to determine $Δt$. $Δ t = {γΔt}_{0} = (3.20)(1.52 μs) = 4.87 μs$",
         "inline": []
       },
       "level": "core"
@@ -395,7 +395,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "One implication of this example is that since $γ=3.20$ at $95.0%$ of the speed of light ( $v=0.950c$ ), the relativistic effects are significant. The two time intervals differ by this factor of 3.20, where classically they would be the same. Something moving at $0.950c$ is said to be highly relativistic.",
+        "text": "One implication of this example is that since $γ=3.20$ at $95.0%$ of the speed of light ($v=0.950c$), the relativistic effects are significant. The two time intervals differ by this factor of 3.20, where classically they would be the same. Something moving at $0.950c$ is said to be highly relativistic.",
         "inline": []
       },
       "level": "core"
@@ -431,7 +431,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "An intriguing consequence of time dilation is that a space traveler moving at a high velocity relative to the Earth would age less than her Earth-bound twin. Imagine the astronaut moving at such a velocity that $γ=30.0$ , as in . A trip that takes 2.00 years in her frame would take 60.0 years in her Earth-bound twin’s frame. Suppose the astronaut traveled 1.00 year to another star system. She briefly explored the area, and then traveled 1.00 year back. If the astronaut was 40 years old when she left, she would be 42 upon her return. Everything on the Earth, however, would have aged 60.0 years. Her twin, if still alive, would be 100 years old.",
+        "text": "An intriguing consequence of time dilation is that a space traveler moving at a high velocity relative to the Earth would age less than her Earth-bound twin. Imagine the astronaut moving at such a velocity that $γ=30.0$, as in the figure. A trip that takes 2.00 years in her frame would take 60.0 years in her Earth-bound twin’s frame. Suppose the astronaut traveled 1.00 year to another star system. She briefly explored the area, and then traveled 1.00 year back. If the astronaut was 40 years old when she left, she would be 42 upon her return. Everything on the Earth, however, would have aged 60.0 years. Her twin, if still alive, would be 100 years old.",
         "inline": []
       },
       "level": "core"
@@ -440,7 +440,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "The situation would seem different to the astronaut. Because motion is relative, the spaceship would seem to be stationary and the Earth would appear to move. (This is the sensation you have when flying in a jet.) If the astronaut looks out the window of the spaceship, she will see time slow down on the Earth by a factor of $γ=30.0$ . To her, the Earth-bound sister will have aged only 2/30 (1/15) of a year, while she aged 2.00 years. The two sisters cannot both be correct.",
+        "text": "The situation would seem different to the astronaut. Because motion is relative, the spaceship would seem to be stationary and the Earth would appear to move. (This is the sensation you have when flying in a jet.) If the astronaut looks out the window of the spaceship, she will see time slow down on the Earth by a factor of $γ=30.0$. To her, the Earth-bound sister will have aged only 2/30 (1/15) of a year, while she aged 2.00 years. The two sisters cannot both be correct.",
         "inline": []
       },
       "level": "core"
@@ -481,7 +481,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "1. What is $γ$ if $v=0.650c$ ? 2. A particle travels at $1.90×{10}^{8}m/s$ and lives $2.10×{10}^{-8}s$ when at rest relative to an observer. How long does the particle live as viewed in the laboratory?",
+        "text": "1. What is $γ$ if $v=0.650c$? 2. A particle travels at $1.90\\times {10}^{8} m/s$ and lives $2.10\\times {10}^{-8} s$ when at rest relative to an observer. How long does the particle live as viewed in the laboratory?",
         "inline": []
       },
       "level": "core",
@@ -622,7 +622,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is $γ$ if $v=0.250c$ ? (b) If $v=0.500c$ ?",
+        "text": "(a) What is $γ$ if $v=0.250c$? (b) If $v=0.500c$?",
         "inline": []
       },
       "level": "core",
@@ -646,7 +646,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is $γ$ if $v=0.100c$ ? (b) If $v=0.900c$ ?",
+        "text": "(a) What is $γ$ if $v=0.100c$? (b) If $v=0.900c$?",
         "inline": []
       },
       "level": "core",
@@ -667,7 +667,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Particles called $π$ -mesons are produced by accelerator beams. If these particles travel at $2.70×{10}^{8}m/s$ and live $2.60×{10}^{-8}s$ when at rest relative to an observer, how long do they live as viewed in the laboratory?",
+        "text": "Particles called $π$ -mesons are produced by accelerator beams. If these particles travel at $2.70\\times {10}^{8} m/s$ and live $2.60\\times {10}^{-8} s$ when at rest relative to an observer, how long do they live as viewed in the laboratory?",
         "inline": []
       },
       "level": "core",
@@ -691,7 +691,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at $0.980c$ , and it lives $1.24×{10}^{-8}s$ when at rest relative to an observer. How long does it live as you observe it?",
+        "text": "Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at $0.980c$, and it lives $1.24\\times {10}^{-8} s$ when at rest relative to an observer. How long does it live as you observe it?",
         "inline": []
       },
       "level": "core",
@@ -712,7 +712,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A neutral $π$ -meson is a particle that can be created by accelerator beams. If one such particle lives $1.40×{10}^{-16}s$ as measured in the laboratory, and $0.840×{10}^{-16}s$ when at rest relative to an observer, what is its velocity relative to the laboratory?",
+        "text": "A neutral $π$ -meson is a particle that can be created by accelerator beams. If one such particle lives $1.40\\times {10}^{-16} s$ as measured in the laboratory, and $0.840\\times {10}^{-16} s$ when at rest relative to an observer, what is its velocity relative to the laboratory?",
         "inline": []
       },
       "level": "core",
@@ -757,7 +757,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If relativistic effects are to be less than 1%, then $γ$ must be less than 1.01. At what relative velocity is $γ=1.01$ ?",
+        "text": "If relativistic effects are to be less than 1%, then $γ$ must be less than 1.01. At what relative velocity is $γ=1.01$?",
         "inline": []
       },
       "level": "core",
@@ -781,7 +781,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If relativistic effects are to be less than 3%, then $γ$ must be less than 1.03. At what relative velocity is $γ=1.03$ ?",
+        "text": "If relativistic effects are to be less than 3%, then $γ$ must be less than 1.03. At what relative velocity is $γ=1.03$?",
         "inline": []
       },
       "level": "core",
@@ -802,7 +802,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) At what relative velocity is $γ=1.50$ ? (b) At what relative velocity is $γ=100$ ?",
+        "text": "(a) At what relative velocity is $γ=1.50$? (b) At what relative velocity is $γ=100$?",
         "inline": []
       },
       "level": "core",
@@ -835,7 +835,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) At what relative velocity is $γ=2.00$ ? (b) At what relative velocity is $γ=10.0$ ?",
+        "text": "(a) At what relative velocity is $γ=2.00$? (b) At what relative velocity is $γ=10.0$?",
         "inline": []
       },
       "level": "core",

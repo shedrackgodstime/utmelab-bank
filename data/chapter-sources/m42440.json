@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "We can get a good understanding of electromagnetic waves (EM) by considering how they are produced. Whenever a current varies, associated electric and magnetic fields vary, moving out from the source like waves. Perhaps the easiest situation to visualize is a varying current in a long straight wire, produced by an AC generator at its center, as illustrated in .",
+        "text": "We can get a good understanding of electromagnetic waves (EM) by considering how they are produced. Whenever a current varies, associated electric and magnetic fields vary, moving out from the source like waves. Perhaps the easiest situation to visualize is a varying current in a long straight wire, produced by an AC generator at its center, as illustrated in the figure.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The electric field ( $E$ ) shown surrounding the wire is produced by the charge distribution on the wire. Both the $E$ and the charge distribution vary as the current changes. The changing field propagates outward at the speed of light.",
+        "text": "The electric field ($E$) shown surrounding the wire is produced by the charge distribution on the wire. Both the $E$ and the charge distribution vary as the current changes. The changing field propagates outward at the speed of light.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "There is an associated magnetic field ( $B$ ) which propagates outward as well (see ). The electric and magnetic fields are closely related and propagate as an electromagnetic wave. This is what happens in broadcast antennae such as those in radio and TV stations.",
+        "text": "There is an associated magnetic field ($B$) which propagates outward as well (see the figure). The electric and magnetic fields are closely related and propagate as an electromagnetic wave. This is what happens in broadcast antennae such as those in radio and TV stations.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Closer examination of the one complete cycle shown in reveals the periodic nature of the generator-driven charges oscillating up and down in the antenna and the electric field produced. At time $t=0$ , there is the maximum separation of charge, with negative charges at the top and positive charges at the bottom, producing the maximum magnitude of the electric field (or $E$ -field) in the upward direction. One-fourth of a cycle later, there is no charge separation and the field next to the antenna is zero, while the maximum $E$ -field has moved away at speed $c$ .",
+        "text": "Closer examination of the one complete cycle shown in the figure reveals the periodic nature of the generator-driven charges oscillating up and down in the antenna and the electric field produced. At time $t=0$, there is the maximum separation of charge, with negative charges at the top and positive charges at the bottom, producing the maximum magnitude of the electric field (or $E$ -field) in the upward direction. One-fourth of a cycle later, there is no charge separation and the field next to the antenna is zero, while the maximum $E$ -field has moved away at speed $c$.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Following Ampere’s law, current in the antenna produces a magnetic field, as shown in . The relationship between $E$ and $B$ is shown at one instant in (a). As the current varies, the magnetic field varies in magnitude and direction.",
+        "text": "Following Ampere’s law, current in the antenna produces a magnetic field, as shown in the figure. The relationship between $E$ and $B$ is shown at one instant in the figure (a). As the current varies, the magnetic field varies in magnitude and direction.",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "The magnetic field lines also propagate away from the antenna at the speed of light, forming the other part of the electromagnetic wave, as seen in (b). The magnetic part of the wave has the same period and wavelength as the electric part, since they are both produced by the same movement and separation of charges in the antenna.",
+        "text": "The magnetic field lines also propagate away from the antenna at the speed of light, forming the other part of the electromagnetic wave, as seen in the figure (b). The magnetic part of the wave has the same period and wavelength as the electric part, since they are both produced by the same movement and separation of charges in the antenna.",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "The electric and magnetic waves are shown together at one instant in time in . The electric and magnetic fields produced by a long straight wire antenna are exactly in phase. Note that they are perpendicular to one another and to the direction of propagation, making this a transverse wave .",
+        "text": "The electric and magnetic waves are shown together at one instant in time in the figure. The electric and magnetic fields produced by a long straight wire antenna are exactly in phase. Note that they are perpendicular to one another and to the direction of propagation, making this a transverse wave.",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Electromagnetic waves generally propagate out from a source in all directions, sometimes forming a complex radiation pattern. A linear antenna like this one will not radiate parallel to its length, for example. The wave is shown in one direction from the antenna in to illustrate its basic characteristics.",
+        "text": "Electromagnetic waves generally propagate out from a source in all directions, sometimes forming a complex radiation pattern. A linear antenna like this one will not radiate parallel to its length, for example. The wave is shown in one direction from the antenna in the figure to illustrate its basic characteristics.",
         "inline": []
       },
       "level": "core"
@@ -178,7 +178,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave , driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna.",
+        "text": "Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave, driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna.",
         "inline": []
       },
       "level": "core"
@@ -241,7 +241,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Since current is directly proportional to voltage (Ohm’s law) and voltage is directly proportional to $E$ -field strength, the two should be directly proportional. It can be shown that the magnitudes of the fields do have a constant ratio, equal to the speed of light. That is,",
+        "text": "Since current is directly proportional to voltage (Ohm’s law) and voltage is directly proportional to $E$ -field strength, the two should be directly proportional. It can be shown that the magnitudes of the fields do have a constant ratio, equal to the speed of light. That is, $\\frac{E}{B}=c$",
         "inline": []
       },
       "level": "core"
@@ -259,7 +259,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "An electromagnetic wave traveling in a medium, with index of refraction *n* , will propagate at a lower speed,",
+        "text": "An electromagnetic wave traveling in a medium, with index of refraction *n*, will propagate at a lower speed, $v=\\frac{c}{n}.$",
         "inline": []
       },
       "level": "core"
@@ -268,7 +268,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of the field strengths will be similarly reduced, such that in the medium,",
+        "text": "The ratio of the field strengths will be similarly reduced, such that in the medium, $\\frac{E}{B}=\\frac{c}{n}.$",
         "inline": []
       },
       "level": "core"
@@ -292,7 +292,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$ ?",
+        "text": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$?",
         "inline": []
       },
       "level": "core"
@@ -301,7 +301,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "To find the $B$ -field strength, we rearrange the above equation to solve for $B$ , yielding",
+        "text": "To find the $B$ -field strength, we rearrange the above equation to solve for $B$, yielding $B=\\frac{E}{c}.$",
         "inline": []
       },
       "level": "core"
@@ -310,7 +310,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "We are given $E$ , and $c$ is the speed of light. Entering these into the expression for $B$ yields",
+        "text": "We are given $E$, and $c$ is the speed of light. Entering these into the expression for $B$ yields $B=\\frac{1000 V/m}{3.00\\times {10}^{8} m/s}=3.33\\times {10}^{-6} T,$",
         "inline": []
       },
       "level": "core"
@@ -373,7 +373,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -482,7 +482,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Given the waveform in (d), if $T=3.0×{10}^{-9}s$ and $E=5.0×{10}^{5}N / C$ , which of the following is the correct equation for the wave at the antenna? $(5.0×{10}^{5}N / C)sin(2π(3.0×{10}^{-9}s)t)$; $(5.0×{10}^{5}N / C)sin(\\frac{2πt}{(3.0×{10}^{-9}s)})$; $(5.0×{10}^{5}N / C)cos(2π(3.0×{10}^{-9}s)t)$; $(5.0×{10}^{5}N / C)cos(\\frac{2πt}{(3.0×{10}^{-9}s)})$",
+        "text": "Given the waveform in the figure (d), if $T=3.0\\times {10}^{-9}s$ and $E=5.0\\times {10}^{5}N / C$, which of the following is the correct equation for the wave at the antenna? $(5.0\\times {10}^{5}N / C)sin (2π(3.0\\times {10}^{-9}s)t)$; $(5.0\\times {10}^{5}N / C)sin (\\frac{2πt}{(3.0\\times {10}^{-9}s)})$; $(5.0\\times {10}^{5}N / C)cos (2π(3.0\\times {10}^{-9}s)t)$; $(5.0\\times {10}^{5}N / C)cos (\\frac{2πt}{(3.0\\times {10}^{-9}s)})$",
         "inline": []
       },
       "level": "core",
@@ -506,7 +506,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Given the waveform in (d), if $f=2.0$ GHz and $E=6.0×{10}^{5}N/C$ , what is the correct equation for the magnetic field wave at the antenna?",
+        "text": "Given the waveform in the figure (d), if $f=2.0$ GHz and $E=6.0\\times {10}^{5}N/C$, what is the correct equation for the magnetic field wave at the antenna?",
         "inline": []
       },
       "level": "core",
@@ -527,7 +527,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In Heinrich Hertz’s spark gap experiment ( ), how will the induced sparks in Loop 2 compare to those created in Loop 1? Stronger; Weaker; Need to know the tuner settings to tell; Weaker, but how much depends on the tuner settings.",
+        "text": "In Heinrich Hertz’s spark gap experiment (the figure), how will the induced sparks in Loop 2 compare to those created in Loop 1? Stronger; Weaker; Need to know the tuner settings to tell; Weaker, but how much depends on the tuner settings.",
         "inline": []
       },
       "level": "core",
@@ -580,7 +580,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "which implies that the magnetic field $B$ is very weak relative to the electric field $E$ .",
+        "text": "which implies that the magnetic field $B$ is very weak relative to the electric field $E$.",
         "inline": []
       },
       "level": "core"
@@ -599,7 +599,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The direction of the electric field shown in each part of is that produced by the charge distribution in the wire. Justify the direction shown in each part, using the Coulomb force law and the definition of $E=F/q$ , where $q$ is a positive test charge.",
+        "text": "The direction of the electric field shown in each part of the figure is that produced by the charge distribution in the wire. Justify the direction shown in each part, using the Coulomb force law and the definition of $E=F/q$, where $q$ is a positive test charge.",
         "inline": []
       },
       "level": "core",
@@ -620,7 +620,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Is the direction of the magnetic field shown in (a) consistent with the right-hand rule for current (RHR-2) in the direction shown in the figure?",
+        "text": "Is the direction of the magnetic field shown in the figure (a) consistent with the right-hand rule for current (RHR-2) in the direction shown in the figure?",
         "inline": []
       },
       "level": "core",
@@ -641,7 +641,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Why is the direction of the current shown in each part of opposite to the electric field produced by the wire’s charge separation?",
+        "text": "Why is the direction of the current shown in each part of the figure opposite to the electric field produced by the wire’s charge separation?",
         "inline": []
       },
       "level": "core",
@@ -857,7 +857,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $5.00×{10}^{-4}T$ (about 10 times the Earth’s)?",
+        "text": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $5.00\\times {10}^{-4} T$ (about 10 times the Earth’s)?",
         "inline": []
       },
       "level": "core",
@@ -881,7 +881,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The maximum magnetic field strength of an electromagnetic field is $5×{10}^{-6}T$ . Calculate the maximum electric field strength if the wave is traveling in a medium in which the speed of the wave is $0.75c$ .",
+        "text": "The maximum magnetic field strength of an electromagnetic field is $5\\times {10}^{-6} T$. Calculate the maximum electric field strength if the wave is traveling in a medium in which the speed of the wave is $0.75c$.",
         "inline": []
       },
       "level": "core",
@@ -902,7 +902,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the units obtained for magnetic field strength $B$ in (using the equation $B=\\frac{E}{c}$ ) are in fact teslas (T).",
+        "text": "Verify the units obtained for magnetic field strength $B$ in the example (using the equation $B=\\frac{E}{c}$) are in fact teslas (T).",
         "inline": []
       },
       "level": "core",

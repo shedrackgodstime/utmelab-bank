@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See . But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner Galileo Galilei had contended that falling bodies and planetary motions had the same cause. Some of Newton’s contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph—it had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose a mechanism that caused them to follow these paths and not others. Other prominent scientists and mathematicians of the time, particularly those outside of England, were reluctant to accept Newton's principles. It took the work of another prominent philosopher, writer, and scientist, Émilie du Châtelet, to establish the Newtonian gravitation as the accurate and overarching law. Du Châtelet, who had earlier laid the foundation for the understanding of conservation of energy as well as the principle that light had no mass, translated and augmented Newton's key work. She also utilized calculus to explain gravity, which helped lead to its acceptance.",
+        "text": "Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See the figure. But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner Galileo Galilei had contended that falling bodies and planetary motions had the same cause. Some of Newton’s contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph—it had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose a mechanism that caused them to follow these paths and not others. Other prominent scientists and mathematicians of the time, particularly those outside of England, were reluctant to accept Newton's principles. It took the work of another prominent philosopher, writer, and scientist, Émilie du Châtelet, to establish the Newtonian gravitation as the accurate and overarching law. Du Châtelet, who had earlier laid the foundation for the understanding of conservation of energy as well as the principle that light had no mass, translated and augmented Newton's key work. She also utilized calculus to explain gravity, which helped lead to its acceptance.",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The bodies we are dealing with tend to be large. To simplify the situation we assume that the body acts as if its entire mass is concentrated at one specific point called the center of mass (CM). The concept of center of mass applies both to a single, extended object and to a system of objects that may be moving relative to each other. The center of mass is the average location of the mass if we divide the object (or system) into pieces of equal mass. The center of mass of a system of objects will respond to external forces as if all of the mass of the system were concentrated there. For two bodies having masses $m$ and $M$ with a distance $r$ between their centers of mass, the equation for Newton’s universal law of gravitation is",
+        "text": "The bodies we are dealing with tend to be large. To simplify the situation we assume that the body acts as if its entire mass is concentrated at one specific point called the center of mass (CM). The concept of center of mass applies both to a single, extended object and to a system of objects that may be moving relative to each other. The center of mass is the average location of the mass if we divide the object (or system) into pieces of equal mass. The center of mass of a system of objects will respond to external forces as if all of the mass of the system were concentrated there. For two bodies having masses $m$ and $M$ with a distance $r$ between their centers of mass, the equation for Newton’s universal law of gravitation is $F=G\\frac{mM}{{r}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where $F$ is the magnitude of the gravitational force and $G$ is a proportionality factor called the gravitational constant . $G$ is a universal gravitational constant—that is, it is thought to be the same everywhere in the universe. It has been measured experimentally to be",
+        "text": "where $F$ is the magnitude of the gravitational force and $G$ is a proportionality factor called the gravitational constant. $G$ is a universal gravitational constant—that is, it is thought to be the same everywhere in the universe. It has been measured experimentally to be $G=6.674\\times {10}^{-11}\\frac{N\\cdot {m}^{2}}{{kg}^{2}}$",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "in SI units. Note that the units of $G$ are such that a force in newtons is obtained from $F=G\\frac{mM}{{r}^{2}}$ , when considering masses in kilograms and distance in meters. For example, two 1.000 kg masses separated by 1.000 m will experience a gravitational attraction of $6.674×{10}^{-11}N$ . This is an extraordinarily small force. The small magnitude of the gravitational force is consistent with everyday experience. We are unaware that even large objects like mountains exert gravitational forces on us. In fact, our body weight is the force of attraction of the *entire Earth* on us with a mass of $6×{10}^{24}kg$ .",
+        "text": "in SI units. Note that the units of $G$ are such that a force in newtons is obtained from $F=G\\frac{mM}{{r}^{2}}$, when considering masses in kilograms and distance in meters. For example, two 1.000 kg masses separated by 1.000 m will experience a gravitational attraction of $6.674\\times {10}^{-11} N$. This is an extraordinarily small force. The small magnitude of the gravitational force is consistent with everyday experience. We are unaware that even large objects like mountains exert gravitational forces on us. In fact, our body weight is the force of attraction of the *entire Earth* on us with a mass of $6\\times {10}^{24} kg$.",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Recall that the acceleration due to gravity $g$ is about $9.80 m{/s}^{2}$ on Earth. We can now determine why this is so. The weight of an object *mg* is the gravitational force between it and Earth. Substituting *mg* for $F$ in Newton’s universal law of gravitation gives",
+        "text": "Recall that the acceleration due to gravity $g$ is about $9.80 m{/s}^{2}$ on Earth. We can now determine why this is so. The weight of an object *mg* is the gravitational force between it and Earth. Substituting *mg* for $F$ in Newton’s universal law of gravitation gives $mg=G\\frac{mM}{{r}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where $m$ is the mass of the object, $M$ is the mass of Earth, and $r$ is the distance to the center of Earth (the distance between the centers of mass of the object and Earth). See . The mass $m$ of the object cancels, leaving an equation for $g$ :",
+        "text": "where $m$ is the mass of the object, $M$ is the mass of Earth, and $r$ is the distance to the center of Earth (the distance between the centers of mass of the object and Earth). See the figure. The mass $m$ of the object cancels, leaving an equation for $g$: $g=G\\frac{M}{{r}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values for Earth’s mass and radius (to three significant figures),",
+        "text": "Substituting known values for Earth’s mass and radius (to three significant figures), $g=(6.67\\times {10}^{-11}\\frac{N\\cdot {m}^{2}}{{kg}^{2}})\\times \\frac{5.98\\times {10}^{24} kg}{(6.38\\times {10}^{6} m{)}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "and we obtain a value for the acceleration of a falling body:",
+        "text": "and we obtain a value for the acceleration of a falling body: $g=9.80 {m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "This is the expected value *and is independent of the body’s mass* . Newton’s law of gravitation takes Galileo’s observation that all masses fall with the same acceleration a step further, explaining the observation in terms of a force that causes objects to fall—in fact, in terms of a universally existing force of attraction between masses.",
+        "text": "This is the expected value *and is independent of the body’s mass*. Newton’s law of gravitation takes Galileo’s observation that all masses fall with the same acceleration a step further, explaining the observation in terms of a force that causes objects to fall—in fact, in terms of a universally existing force of attraction between masses.",
         "inline": []
       },
       "level": "core"
@@ -187,7 +187,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Attempts are still being made to understand the gravitational force. As we shall see in Particle Physics , modern physics is exploring the connections of gravity to other forces, space, and time. General relativity alters our view of gravitation, leading us to think of gravitation as bending space and time.",
+        "text": "Attempts are still being made to understand the gravitational force. As we shall see in Particle Physics, modern physics is exploring the connections of gravity to other forces, space, and time. General relativity alters our view of gravitation, leading us to think of gravitation as bending space and time.",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "This calculation is the same as the one finding the acceleration due to gravity at Earth’s surface, except that $r$ is the distance from the center of Earth to the center of the Moon. The radius of the Moon’s nearly circular orbit is $3.84×{10}^{8}m$ .",
+        "text": "This calculation is the same as the one finding the acceleration due to gravity at Earth’s surface, except that $r$ is the distance from the center of Earth to the center of the Moon. The radius of the Moon’s nearly circular orbit is $3.84\\times {10}^{8} m$.",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values into the expression for $g$ found above, remembering that $M$ is the mass of Earth not the Moon, yields",
+        "text": "Substituting known values into the expression for $g$ found above, remembering that $M$ is the mass of Earth not the Moon, yields $g = G\\frac{M}{{r}^{2}}=(6.67\\times {10}^{-11}\\frac{N\\cdot {m}^{2}}{{kg}^{2}})\\times \\frac{5.98\\times {10}^{24} kg}{(3.84\\times {10}^{8} m{)}^{2}} = 2.70\\times {10}^{-3} {m/s.}^{2}$",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Centripetal acceleration can be calculated using either form of",
+        "text": "Centripetal acceleration can be calculated using either form of ${a}_{c}=\\frac{{v}^{2}}{r}; {a}_{c}={rω}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "We choose to use the second form:",
+        "text": "We choose to use the second form: ${a}_{c}={rω}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -283,7 +283,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Given that the period (the time it takes to make one complete rotation) of the Moon’s orbit is 27.3 days, (d) and using",
+        "text": "Given that the period (the time it takes to make one complete rotation) of the Moon’s orbit is 27.3 days, (d) and using $1 d\\times 24\\frac{hr}{d}\\times 60\\frac{min}{hr}\\times 60\\frac{s}{min}=86,400 s$",
         "inline": []
       },
       "level": "core"
@@ -292,7 +292,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The centripetal acceleration is",
+        "text": "The centripetal acceleration is ${a}_{c} = {rω}^{2}=(3.84\\times {10}^{8} m)(2.66\\times {10}^{-6} rad/s{)}^{2} = 2.72\\times {10}^{-3} {m/s.}^{2}$",
         "inline": []
       },
       "level": "core"
@@ -319,7 +319,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Why does Earth not remain stationary as the Moon orbits it? This is because, as expected from Newton’s third law, if Earth exerts a force on the Moon, then the Moon should exert an equal and opposite force on Earth (see ). We do not sense the Moon’s effect on Earth’s motion, because the Moon’s gravity moves our bodies right along with Earth but there are other signs on Earth that clearly show the effect of the Moon’s gravitational force as discussed in Satellites and Kepler's Laws: An Argument for Simplicity .",
+        "text": "Why does Earth not remain stationary as the Moon orbits it? This is because, as expected from Newton’s third law, if Earth exerts a force on the Moon, then the Moon should exert an equal and opposite force on Earth (see the figure). We do not sense the Moon’s effect on Earth’s motion, because the Moon’s gravity moves our bodies right along with Earth but there are other signs on Earth that clearly show the effect of the Moon’s gravitational force as discussed in Satellites and Kepler's Laws: An Argument for Simplicity.",
         "inline": []
       },
       "level": "core"
@@ -350,7 +350,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Ocean tides are one very observable result of the Moon’s gravity acting on Earth. is a simplified drawing of the Moon’s position relative to the tides. Because water easily flows on Earth’s surface, a high tide is created on the side of Earth nearest to the Moon, where the Moon’s gravitational pull is strongest. Why is there also a high tide on the opposite side of Earth? The answer is that Earth is pulled toward the Moon more than the water on the far side, because Earth is closer to the Moon. So the water on the side of Earth closest to the Moon is pulled away from Earth, and Earth is pulled away from water on the far side. As Earth rotates, the tidal bulge (an effect of the tidal forces between an orbiting natural satellite and the primary planet that it orbits) keeps its orientation with the Moon. Thus there are two tides per day (the actual tidal period is about 12 hours and 25.2 minutes), because the Moon moves in its orbit each day as well).",
+        "text": "Ocean tides are one very observable result of the Moon’s gravity acting on Earth. The figure is a simplified drawing of the Moon’s position relative to the tides. Because water easily flows on Earth’s surface, a high tide is created on the side of Earth nearest to the Moon, where the Moon’s gravitational pull is strongest. Why is there also a high tide on the opposite side of Earth? The answer is that Earth is pulled toward the Moon more than the water on the far side, because Earth is closer to the Moon. So the water on the side of Earth closest to the Moon is pulled away from Earth, and Earth is pulled away from water on the far side. As Earth rotates, the tidal bulge (an effect of the tidal forces between an orbiting natural satellite and the primary planet that it orbits) keeps its orientation with the Moon. Thus there are two tides per day (the actual tidal period is about 12 hours and 25.2 minutes), because the Moon moves in its orbit each day as well).",
         "inline": []
       },
       "level": "core"
@@ -394,7 +394,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Tides are not unique to Earth but occur in many astronomical systems. The most extreme tides occur where the gravitational force is the strongest and varies most rapidly, such as near black holes (see ). A few likely candidates for black holes have been observed in our galaxy. These have masses greater than the Sun but have diameters only a few kilometers across. The tidal forces near them are so great that they can actually tear matter from a companion star.",
+        "text": "Tides are not unique to Earth but occur in many astronomical systems. The most extreme tides occur where the gravitational force is the strongest and varies most rapidly, such as near black holes (see the figure). A few likely candidates for black holes have been observed in our galaxy. These have masses greater than the Sun but have diameters only a few kilometers across. The tidal forces near them are so great that they can actually tear matter from a companion star.",
         "inline": []
       },
       "level": "core"
@@ -483,7 +483,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "As previously noted, the universal gravitational constant $G$ is determined experimentally. This definition was first done accurately by Henry Cavendish (1731–1810), an English scientist, in 1798, more than 100 years after Newton published his universal law of gravitation. The measurement of $G$ is very basic and important because it determines the strength of one of the four forces in nature. Cavendish’s experiment was very difficult because he measured the tiny gravitational attraction between two ordinary-sized masses (tens of kilograms at most), using apparatus like that in . Remarkably, his value for $G$ differs by less than 1% from the best modern value.",
+        "text": "As previously noted, the universal gravitational constant $G$ is determined experimentally. This definition was first done accurately by Henry Cavendish (1731–1810), an English scientist, in 1798, more than 100 years after Newton published his universal law of gravitation. The measurement of $G$ is very basic and important because it determines the strength of one of the four forces in nature. Cavendish’s experiment was very difficult because he measured the tiny gravitational attraction between two ordinary-sized masses (tens of kilograms at most), using apparatus like that in the figure. Remarkably, his value for $G$ differs by less than 1% from the best modern value.",
         "inline": []
       },
       "level": "core"
@@ -492,7 +492,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "One important consequence of knowing $G$ was that an accurate value for Earth’s mass could finally be obtained. This was done by measuring the acceleration due to gravity as accurately as possible and then calculating the mass of Earth $M$ from the relationship Newton’s universal law of gravitation gives",
+        "text": "One important consequence of knowing $G$ was that an accurate value for Earth’s mass could finally be obtained. This was done by measuring the acceleration due to gravity as accurately as possible and then calculating the mass of Earth $M$ from the relationship Newton’s universal law of gravitation gives $mg=G\\frac{mM}{{r}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -501,7 +501,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "where $m$ is the mass of the object, $M$ is the mass of Earth, and $r$ is the distance to the center of Earth (the distance between the centers of mass of the object and Earth). See . The mass $m$ of the object cancels, leaving an equation for $g$ :",
+        "text": "where $m$ is the mass of the object, $M$ is the mass of Earth, and $r$ is the distance to the center of Earth (the distance between the centers of mass of the object and Earth). See the figure. The mass $m$ of the object cancels, leaving an equation for $g$: $g=G\\frac{M}{{r}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -510,7 +510,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging to solve for $M$ yields",
+        "text": "Rearranging to solve for $M$ yields $M=\\frac{{gr}^{2}}{G}.$",
         "inline": []
       },
       "level": "core"
@@ -519,7 +519,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "So $M$ can be calculated because all quantities on the right, including the radius of Earth $r$ , are known from direct measurements. We shall see in Satellites and Kepler's Laws: An Argument for Simplicity that knowing $G$ also allows for the determination of astronomical masses. Interestingly, of all the fundamental constants in physics, $G$ is by far the least well determined.",
+        "text": "So $M$ can be calculated because all quantities on the right, including the radius of Earth $r$, are known from direct measurements. We shall see in Satellites and Kepler's Laws: An Argument for Simplicity that knowing $G$ also allows for the determination of astronomical masses. Interestingly, of all the fundamental constants in physics, $G$ is by far the least well determined.",
         "inline": []
       },
       "level": "core"
@@ -614,7 +614,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In the formula $g=\\frac{GM}{{r}^{2}}$ , what does *G* represent? The acceleration due to gravity; A gravitational constant that is the same everywhere in the universe; A gravitational constant that is inversely proportional to the radius; The factor by which you multiply the inertial mass to obtain the gravitational mass",
+        "text": "In the formula $g=\\frac{GM}{{r}^{2}}$, what does *G* represent? The acceleration due to gravity; A gravitational constant that is the same everywhere in the universe; A gravitational constant that is inversely proportional to the radius; The factor by which you multiply the inertial mass to obtain the gravitational mass",
         "inline": []
       },
       "level": "core",
@@ -638,7 +638,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Saturn's moon Titan has a radius of 2.58 × 10 6 m and a measured gravitational field of 1.35 m/s 2 . What is its mass?",
+        "text": "Saturn's moon Titan has a radius of 2.58 × 10 6 m and a measured gravitational field of 1.35 m/s 2. What is its mass?",
         "inline": []
       },
       "level": "core",
@@ -683,7 +683,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "4. Earth is 1.5 × 10 11 m from the Sun. Mercury is 5.7 × 10 10 m from the Sun. How does the gravitational field of the Sun on Mercury ( *g SM* ) compare to the gravitational field of the Sun on Earth ( *g SE* )?",
+        "text": "4. Earth is 1.5 × 10 11 m from the Sun. Mercury is 5.7 × 10 10 m from the Sun. How does the gravitational field of the Sun on Mercury (*g SM*) compare to the gravitational field of the Sun on Earth (*g SE*)?",
         "inline": []
       },
       "level": "core",
@@ -712,7 +712,7 @@
       "id": "p-70",
       "type": "paragraph",
       "content": {
-        "text": "where F is the magnitude of the gravitational force. $G$ is the gravitational constant, given by $G=6.674×{10}^{–11}N\\cdot {m}^{2}{/kg}^{2}$ .",
+        "text": "where F is the magnitude of the gravitational force. $G$ is the gravitational constant, given by $G=6.674\\times {10}^{–11} N\\cdot {m}^{2}{/kg}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -752,7 +752,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $9.80 m{/s}^{2}$ . Who do you agree with and why?",
+        "text": "Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $9.80 m{/s}^{2}$. Who do you agree with and why?",
         "inline": []
       },
       "level": "core",
@@ -824,7 +824,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Earth is not a perfect sphere. Its radius as well as the value of *g* vary with latitude. (a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $9.807 m{/s}^{2}$ and the radius of the Earth at the pole is 6356.8 km. (b) Compare this with the accepted value of $5.972×{10}^{24}kg$ .",
+        "text": "Earth is not a perfect sphere. Its radius as well as the value of *g* vary with latitude. (a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $9.807 m{/s}^{2}$ and the radius of the Earth at the pole is 6356.8 km. (b) Compare this with the accepted value of $5.972\\times {10}^{24} kg$.",
         "inline": []
       },
       "level": "core",
@@ -914,7 +914,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the acceleration due to gravity on the surface of the Moon? (b) On the surface of Mars? The mass of Mars is $6.418×{10}^{23}kg$ and its radius is $3.38×{10}^{6}m$ .",
+        "text": "(a) What is the acceleration due to gravity on the surface of the Moon? (b) On the surface of Mars? The mass of Mars is $6.418\\times {10}^{23} kg$ and its radius is $3.38\\times {10}^{6} m$.",
         "inline": []
       },
       "level": "core",
@@ -1067,7 +1067,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the magnitude of the gravitational force exerted on a 4.20 kg baby by a 100 kg father 0.200 m away at birth (he is assisting, so he is close to the child). (b) Calculate the magnitude of the force on the baby due to Jupiter if it is at its closest distance to Earth, some $6.29×{10}^{11}m$ away. How does the force of Jupiter on the baby compare to the force of the father on the baby? Other objects in the room and the hospital building also exert similar gravitational forces. (Of course, there could be an unknown force acting, but scientists first need to be convinced that there is even an effect, much less that an unknown force causes it.)",
+        "text": "(a) Calculate the magnitude of the gravitational force exerted on a 4.20 kg baby by a 100 kg father 0.200 m away at birth (he is assisting, so he is close to the child). (b) Calculate the magnitude of the force on the baby due to Jupiter if it is at its closest distance to Earth, some $6.29\\times {10}^{11} m$ away. How does the force of Jupiter on the baby compare to the force of the father on the baby? Other objects in the room and the hospital building also exert similar gravitational forces. (Of course, there could be an unknown force acting, but scientists first need to be convinced that there is even an effect, much less that an unknown force causes it.)",
         "inline": []
       },
       "level": "core",
@@ -1118,7 +1118,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune’s orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune’s orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune: (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they are $4.50×{10}^{12}m$ apart, as they are at present. The mass of Pluto is $1.4×{10}^{22}kg$ . (b) Calculate the acceleration due to gravity at Neptune due to Uranus, presently about $2.50×{10}^{12}m$ apart, and compare it with that due to Pluto. The mass of Uranus is $8.62×{10}^{25}kg$ .",
+        "text": "The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune’s orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune’s orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune: (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they are $4.50\\times {10}^{12} m$ apart, as they are at present. The mass of Pluto is $1.4\\times {10}^{22} kg$. (b) Calculate the acceleration due to gravity at Neptune due to Uranus, presently about $2.50\\times {10}^{12} m$ apart, and compare it with that due to Pluto. The mass of Uranus is $8.62\\times {10}^{25} kg$.",
         "inline": []
       },
       "level": "core",
@@ -1157,7 +1157,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) The Sun orbits the Milky Way galaxy once each $2.{60 x 10}^{8}y$ , with a roughly circular orbit averaging $3.{00 x 10}^{4}$ light years in radius. (A light year is the distance traveled by light in 1 y.) Calculate the centripetal acceleration of the Sun in its galactic orbit. Does your result support the contention that a nearly inertial frame of reference can be located at the Sun? (b) Calculate the average speed of the Sun in its galactic orbit. Does the answer surprise you?",
+        "text": "(a) The Sun orbits the Milky Way galaxy once each $2.{60 x 10}^{8} y$, with a roughly circular orbit averaging $3.{00 x 10}^{4}$ light years in radius. (A light year is the distance traveled by light in 1 y.) Calculate the centripetal acceleration of the Sun in its galactic orbit. Does your result support the contention that a nearly inertial frame of reference can be located at the Sun? (b) Calculate the average speed of the Sun in its galactic orbit. Does the answer surprise you?",
         "inline": []
       },
       "level": "core",

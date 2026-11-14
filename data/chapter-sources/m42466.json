@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "We see about six colors in a rainbow—red, orange, yellow, green, blue, and violet; sometimes indigo is listed, too. Those colors are associated with different wavelengths of light, as shown in . When our eye receives pure-wavelength light, we tend to see only one of the six colors, depending on wavelength. The thousands of other hues we can sense in other situations are our eye’s response to various mixtures of wavelengths. White light, in particular, is a fairly uniform mixture of all visible wavelengths. Sunlight, considered to be white, actually appears to be a bit yellow because of its mixture of wavelengths, but it does contain all visible wavelengths. The sequence of colors in rainbows is the same sequence as the colors plotted versus wavelength in . What this implies is that white light is spread out according to wavelength in a rainbow. Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength. Dispersion, as a general phenomenon, can occur for any type of wave and always involves wavelength-dependent processes.",
+        "text": "We see about six colors in a rainbow—red, orange, yellow, green, blue, and violet; sometimes indigo is listed, too. Those colors are associated with different wavelengths of light, as shown in the figure. When our eye receives pure-wavelength light, we tend to see only one of the six colors, depending on wavelength. The thousands of other hues we can sense in other situations are our eye’s response to various mixtures of wavelengths. White light, in particular, is a fairly uniform mixture of all visible wavelengths. Sunlight, considered to be white, actually appears to be a bit yellow because of its mixture of wavelengths, but it does contain all visible wavelengths. The sequence of colors in rainbows is the same sequence as the colors plotted versus wavelength in the figure. What this implies is that white light is spread out according to wavelength in a rainbow. Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength. Dispersion, as a general phenomenon, can occur for any type of wave and always involves wavelength-dependent processes.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction, as we saw in The Law of Refraction . We know that the index of refraction $n$ depends on the medium. But for a given medium, $n$ also depends on wavelength. (See . Note that, for a given medium, $n$ increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in (b), and the light is dispersed into the same sequence of wavelengths as seen in and .",
+        "text": "Refraction is responsible for dispersion in rainbows and many other situations. The angle of refraction depends on the index of refraction, as we saw in The Law of Refraction. We know that the index of refraction $n$ depends on the medium. But for a given medium, $n$ also depends on wavelength. (See the table. Note that, for a given medium, $n$ increases as wavelength decreases and is greatest for violet light. Thus violet light is bent more than red light, as shown for a prism in the figure (b), and the light is dispersed into the same sequence of wavelengths as seen in the figure and the figure.",
         "inline": []
       },
       "level": "core"
@@ -190,7 +190,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Rainbows are produced by a combination of refraction and reflection. You may have noticed that you see a rainbow only when you look away from the sun. Light enters a drop of water and is reflected from the back of the drop, as shown in . The light is refracted both as it enters and as it leaves the drop. Since the index of refraction of water varies with wavelength, the light is dispersed, and a rainbow is observed, as shown in (a). (There is no dispersion caused by reflection at the back surface, since the law of reflection does not depend on wavelength.) The actual rainbow of colors seen by an observer depends on the myriad of rays being refracted and reflected toward the observer’s eyes from numerous drops of water. The effect is most spectacular when the background is dark, as in stormy weather, but can also be observed in waterfalls and lawn sprinklers. The arc of a rainbow comes from the need to be looking at a specific angle relative to the direction of the sun, as illustrated in (b). (If there are two reflections of light within the water drop, another “secondary” rainbow is produced. This rare event produces an arc that lies above the primary rainbow arc—see (c).)",
+        "text": "Rainbows are produced by a combination of refraction and reflection. You may have noticed that you see a rainbow only when you look away from the sun. Light enters a drop of water and is reflected from the back of the drop, as shown in the figure. The light is refracted both as it enters and as it leaves the drop. Since the index of refraction of water varies with wavelength, the light is dispersed, and a rainbow is observed, as shown in the figure (a). (There is no dispersion caused by reflection at the back surface, since the law of reflection does not depend on wavelength.) The actual rainbow of colors seen by an observer depends on the myriad of rays being refracted and reflected toward the observer’s eyes from numerous drops of water. The effect is most spectacular when the background is dark, as in stormy weather, but can also be observed in waterfalls and lawn sprinklers. The arc of a rainbow comes from the need to be looking at a specific angle relative to the direction of the sun, as illustrated in the figure (b). (If there are two reflections of light within the water drop, another “secondary” rainbow is produced. This rare event produces an arc that lies above the primary rainbow arc—see the figure (c).)",
         "inline": []
       },
       "level": "core"
@@ -262,7 +262,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the ratio of the speed of red light to violet light in diamond, based on ? (b) What is this ratio in polystyrene? (c) Which is more dispersive?",
+        "text": "(a) What is the ratio of the speed of red light to violet light in diamond, based on the table? (b) What is this ratio in polystyrene? (c) Which is more dispersive?",
         "inline": []
       },
       "level": "core",
@@ -283,7 +283,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A beam of white light goes from air into water at an incident angle of $75.0º$ . At what angles are the red (660 nm) and violet (410 nm) parts of the light refracted?",
+        "text": "A beam of white light goes from air into water at an incident angle of $75.0º$. At what angles are the red (660 nm) and violet (410 nm) parts of the light refracted?",
         "inline": []
       },
       "level": "core",
@@ -382,7 +382,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A ray of 610 nm light goes from air into fused quartz at an incident angle of $55.0º$ . At what incident angle must 470 nm light enter flint glass to have the same angle of refraction?",
+        "text": "A ray of 610 nm light goes from air into fused quartz at an incident angle of $55.0º$. At what incident angle must 470 nm light enter flint glass to have the same angle of refraction?",
         "inline": []
       },
       "level": "core",

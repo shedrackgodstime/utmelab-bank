@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "helps illustrate how a flat mirror forms an image. Two rays are shown emerging from the same point, striking the mirror, and being reflected into the observer’s eye. The rays can diverge slightly, and both still get into the eye. If the rays are extrapolated backward, they seem to originate from a common point behind the mirror, locating the image. (The paths of the reflected rays into the eye are the same as if they had come directly from that point behind the mirror.) Using the law of reflection—the angle of reflection equals the angle of incidence—we can see that the image and object are the same distance from the mirror. This is a virtual image, since it cannot be projected—the rays only appear to originate from a common point behind the mirror. Obviously, if you walk behind the mirror, you cannot see the image, since the rays do not go there. But in front of the mirror, the rays behave exactly as if they had come from behind the mirror, so that is where the image is situated.",
+        "text": "The figure helps illustrate how a flat mirror forms an image. Two rays are shown emerging from the same point, striking the mirror, and being reflected into the observer’s eye. The rays can diverge slightly, and both still get into the eye. If the rays are extrapolated backward, they seem to originate from a common point behind the mirror, locating the image. (The paths of the reflected rays into the eye are the same as if they had come directly from that point behind the mirror.) Using the law of reflection—the angle of reflection equals the angle of incidence—we can see that the image and object are the same distance from the mirror. This is a virtual image, since it cannot be projected—the rays only appear to originate from a common point behind the mirror. Obviously, if you walk behind the mirror, you cannot see the image, since the rays do not go there. But in front of the mirror, the rays behave exactly as if they had come from behind the mirror, so that is where the image is situated.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Now let us consider the focal length of a mirror—for example, the concave spherical mirrors in . Rays of light that strike the surface follow the law of reflection. For a mirror that is large compared with its radius of curvature, as in (a), we see that the reflected rays do not cross at the same point, and the mirror does not have a well-defined focal point. If the mirror had the shape of a parabola, the rays would all cross at a single point, and the mirror would have a well-defined focal point. But parabolic mirrors are much more expensive to make than spherical mirrors. The solution is to use a mirror that is small compared with its radius of curvature, as shown in (b). (This is the mirror equivalent of the thin lens approximation.) To a very good approximation, this mirror has a well-defined focal point at F that is the focal distance $f$ from the center of the mirror. The focal length $f$ of a concave mirror is positive, since it is a converging mirror.",
+        "text": "Now let us consider the focal length of a mirror—for example, the concave spherical mirrors in the figure. Rays of light that strike the surface follow the law of reflection. For a mirror that is large compared with its radius of curvature, as in the figure (a), we see that the reflected rays do not cross at the same point, and the mirror does not have a well-defined focal point. If the mirror had the shape of a parabola, the rays would all cross at a single point, and the mirror would have a well-defined focal point. But parabolic mirrors are much more expensive to make than spherical mirrors. The solution is to use a mirror that is small compared with its radius of curvature, as shown in the figure (b). (This is the mirror equivalent of the thin lens approximation.) To a very good approximation, this mirror has a well-defined focal point at F that is the focal distance $f$ from the center of the mirror. The focal length $f$ of a concave mirror is positive, since it is a converging mirror.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Just as for lenses, the shorter the focal length, the more powerful the mirror; thus, $P=1/f$ for a mirror, too. A more strongly curved mirror has a shorter focal length and a greater power. Using the law of reflection and some simple trigonometry, it can be shown that the focal length is half the radius of curvature, or",
+        "text": "Just as for lenses, the shorter the focal length, the more powerful the mirror; thus, $P=1/f$ for a mirror, too. A more strongly curved mirror has a shorter focal length and a greater power. Using the law of reflection and some simple trigonometry, it can be shown that the focal length is half the radius of curvature, or $f=\\frac{R}{2},$",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The convex mirror shown in also has a focal point. Parallel rays of light reflected from the mirror seem to originate from the point F at the focal distance $f$ behind the mirror. The focal length and power of a convex mirror are negative, since it is a diverging mirror.",
+        "text": "The convex mirror shown in the figure also has a focal point. Parallel rays of light reflected from the mirror seem to originate from the point F at the focal distance $f$ behind the mirror. The focal length and power of a convex mirror are negative, since it is a diverging mirror.",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Consider the situation shown in , concave spherical mirror reflection, in which an object is placed farther from a concave (converging) mirror than its focal length. That is, $f$ is positive and ${d}_{o}$ > $f$ , so that we may expect an image similar to the case 1 real image formed by a converging lens. Ray tracing in shows that the rays from a common point on the object all cross at a point on the same side of the mirror as the object. Thus a real image can be projected onto a screen placed at this location. The image distance is positive, and the image is inverted, so its magnification is negative. This is a *case 1 image for mirrors* . It differs from the case 1 image for lenses only in that the image is on the same side of the mirror as the object. It is otherwise identical.",
+        "text": "Consider the situation shown in the figure, concave spherical mirror reflection, in which an object is placed farther from a concave (converging) mirror than its focal length. That is, $f$ is positive and ${d}_{o}$ > $f$, so that we may expect an image similar to the case 1 real image formed by a converging lens. Ray tracing in the figure shows that the rays from a common point on the object all cross at a point on the same side of the mirror as the object. Thus a real image can be projected onto a screen placed at this location. The image distance is positive, and the image is inverted, so its magnification is negative. This is a *case 1 image for mirrors*. It differs from the case 1 image for lenses only in that the image is on the same side of the mirror as the object. It is otherwise identical.",
         "inline": []
       },
       "level": "core"
@@ -197,7 +197,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "We are given that the concave mirror projects a real image of the coils at an image distance ${d}_{i}=3.00 m$ . The coils are the object, and we are asked to find their location—that is, to find the object distance ${d}_{o}$ . We are also given the radius of curvature of the mirror, so that its focal length is $f=R/2=25.0 cm$ (positive since the mirror is concave or converging). Assuming the mirror is small compared with its radius of curvature, we can use the thin lens equations, to solve this problem.",
+        "text": "We are given that the concave mirror projects a real image of the coils at an image distance ${d}_{i}=3.00 m$. The coils are the object, and we are asked to find their location—that is, to find the object distance ${d}_{o}$. We are also given the radius of curvature of the mirror, so that its focal length is $f=R/2=25.0 cm$ (positive since the mirror is concave or converging). Assuming the mirror is small compared with its radius of curvature, we can use the thin lens equations, to solve this problem.",
         "inline": []
       },
       "level": "core"
@@ -206,7 +206,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Since ${d}_{i}$ and $f$ are known, thin lens equation can be used to find ${d}_{o}$ :",
+        "text": "Since ${d}_{i}$ and $f$ are known, thin lens equation can be used to find ${d}_{o}$: $\\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}=\\frac{1}{f}.$",
         "inline": []
       },
       "level": "core"
@@ -215,7 +215,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging to isolate ${d}_{o}$ gives",
+        "text": "Rearranging to isolate ${d}_{o}$ gives $\\frac{1}{{d}_{o}}=\\frac{1}{f}-\\frac{1}{{d}_{i}}.$",
         "inline": []
       },
       "level": "core"
@@ -224,7 +224,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Entering known quantities gives a value for $1/{d}_{o}$ :",
+        "text": "Entering known quantities gives a value for $1/{d}_{o}$: $\\frac{1}{{d}_{o}}=\\frac{1}{0.250 m}-\\frac{1}{3.00 m}=\\frac{3.667}{m}.$",
         "inline": []
       },
       "level": "core"
@@ -233,7 +233,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "This must be inverted to find ${d}_{o}$ :",
+        "text": "This must be inverted to find ${d}_{o}$: ${d}_{o}=\\frac{1 m}{3.667}=27.3 cm.$",
         "inline": []
       },
       "level": "core"
@@ -242,7 +242,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Note that the object (the filament) is farther from the mirror than the mirror’s focal length. This is a case 1 image ( ${d}_{o}>f$ and $f$ positive), consistent with the fact that a real image is formed. You will get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. Generally, this is not desirable, since it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.",
+        "text": "Note that the object (the filament) is farther from the mirror than the mirror’s focal length. This is a case 1 image (${d}_{o}>f$ and $f$ positive), consistent with the fact that a real image is formed. You will get the most concentrated thermal energy directly in front of the mirror and 3.00 m away from it. Generally, this is not desirable, since it could cause burns. Usually, you want the rays to emerge parallel, and this is accomplished by having the filament at the focal point of the mirror.",
         "inline": []
       },
       "level": "core"
@@ -275,7 +275,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "One of the solar technologies used today for generating electricity is a device (called a parabolic trough or concentrating collector) that concentrates the sunlight onto a blackened pipe that contains a fluid. This heated fluid is pumped to a heat exchanger, where its heat energy is transferred to another system that is used to generate steam—and so generate electricity through a conventional steam cycle. shows such a working system in southern California. Concave mirrors are used to concentrate the sunlight onto the pipe. The mirror has the approximate shape of a section of a cylinder. For the problem, assume that the mirror is exactly one-quarter of a full cylinder.",
+        "text": "One of the solar technologies used today for generating electricity is a device (called a parabolic trough or concentrating collector) that concentrates the sunlight onto a blackened pipe that contains a fluid. This heated fluid is pumped to a heat exchanger, where its heat energy is transferred to another system that is used to generate steam—and so generate electricity through a conventional steam cycle. The figure shows such a working system in southern California. Concave mirrors are used to concentrate the sunlight onto the pipe. The mirror has the approximate shape of a section of a cylinder. For the problem, assume that the mirror is exactly one-quarter of a full cylinder.",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "To a good approximation for a concave or semi-spherical surface, the point where the parallel rays from the sun converge will be at the focal point, so $R=2f=80.0 cm$ .",
+        "text": "To a good approximation for a concave or semi-spherical surface, the point where the parallel rays from the sun converge will be at the focal point, so $R=2f=80.0 cm$.",
         "inline": []
       },
       "level": "core"
@@ -302,7 +302,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The insolation is $900 W{/m}^{2}$ . We must find the cross-sectional area $A$ of the concave mirror, since the power delivered is $900 W{/m}^{2}×A$ . The mirror in this case is a quarter-section of a cylinder, so the area for a length $L$ of the mirror is $A=\\frac{1}{4}(2πR)L$ . The area for a length of 1.00 m is then",
+        "text": "The insolation is $900 W{/m}^{2}$. We must find the cross-sectional area $A$ of the concave mirror, since the power delivered is $900 W{/m}^{2}\\times A$. The mirror in this case is a quarter-section of a cylinder, so the area for a length $L$ of the mirror is $A=\\frac{1}{4}(2πR)L$. The area for a length of 1.00 m is then $A=\\frac{π}{2}R(1.00 m)=\\frac{(3.14)}{2}(0.800 m)(1.00 m)=1.26 {m}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -311,7 +311,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The insolation on the 1.00-m length of pipe is then",
+        "text": "The insolation on the 1.00-m length of pipe is then $(9.00\\times {10}^{2}\\frac{W}{{m}^{2}})(1.26 {m}^{2})=1130 W.$",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The increase in temperature is given by $Q=mcΔT$ . The mass $m$ of the mineral oil in the one-meter section of pipe is",
+        "text": "The increase in temperature is given by $Q=mcΔT$. The mass $m$ of the mineral oil in the one-meter section of pipe is $m = ρ V = ρπ {(\\frac{d}{2})}^{2} (1.00 m) = (8.00 \\times {10}^{2} {kg/m}^{3}) (3.14) {(0.0100 m)}^{2} (1.00 m) = 0.251 kg.$",
         "inline": []
       },
       "level": "core"
@@ -329,7 +329,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Therefore, the increase in temperature in one minute is",
+        "text": "Therefore, the increase in temperature in one minute is $Δ T = Q / m c = \\frac{(1130 W)(60.0 s)}{(0.251 kg)(1670 J·kg/ºC)} = 162ºC.$",
         "inline": []
       },
       "level": "core"
@@ -338,7 +338,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "An array of such pipes in the California desert can provide a thermal output of 250 MW on a sunny day, with fluids reaching temperatures as high as $400ºC$ . We are considering only one meter of pipe here, and ignoring heat losses along the pipe.",
+        "text": "An array of such pipes in the California desert can provide a thermal output of 250 MW on a sunny day, with fluids reaching temperatures as high as $400ºC$. We are considering only one meter of pipe here, and ignoring heat losses along the pipe.",
         "inline": []
       },
       "level": "core"
@@ -360,7 +360,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "What happens if an object is closer to a concave mirror than its focal length? This is analogous to a case 2 image for lenses ( ${d}_{o}<f$ and $f$ positive), which is a magnifier. In fact, this is how makeup mirrors act as magnifiers. (a) uses ray tracing to locate the image of an object placed close to a concave mirror. Rays from a common point on the object are reflected in such a manner that they appear to be coming from behind the mirror, meaning that the image is virtual and cannot be projected. As with a magnifying glass, the image is upright and larger than the object. This is a *case 2 image for mirrors* and is exactly analogous to that for lenses.",
+        "text": "What happens if an object is closer to a concave mirror than its focal length? This is analogous to a case 2 image for lenses (${d}_{o}<f$ and $f$ positive), which is a magnifier. In fact, this is how makeup mirrors act as magnifiers. The figure (a) uses ray tracing to locate the image of an object placed close to a concave mirror. Rays from a common point on the object are reflected in such a manner that they appear to be coming from behind the mirror, meaning that the image is virtual and cannot be projected. As with a magnifying glass, the image is upright and larger than the object. This is a *case 2 image for mirrors* and is exactly analogous to that for lenses.",
         "inline": []
       },
       "level": "core"
@@ -391,7 +391,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "A convex mirror is a diverging mirror ( $f$ is negative) and forms only one type of image. It is a *case 3* image—one that is upright and smaller than the object, just as for diverging lenses. (a) uses ray tracing to illustrate the location and size of the case 3 image for mirrors. Since the image is behind the mirror, it cannot be projected and is thus a virtual image. It is also seen to be smaller than the object.",
+        "text": "A convex mirror is a diverging mirror ($f$ is negative) and forms only one type of image. It is a *case 3* image—one that is upright and smaller than the object, just as for diverging lenses. The figure (a) uses ray tracing to illustrate the location and size of the case 3 image for mirrors. Since the image is behind the mirror, it cannot be projected and is thus a virtual image. It is also seen to be smaller than the object.",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "If we can find the focal length of the convex mirror formed by the cornea, we can find its radius of curvature (the radius of curvature is twice the focal length of a spherical mirror). We are given that the object distance is ${d}_{o}=12.0 cm$ and that $m=0.0320$ . We first solve for the image distance ${d}_{i}$ , and then for $f$ .",
+        "text": "If we can find the focal length of the convex mirror formed by the cornea, we can find its radius of curvature (the radius of curvature is twice the focal length of a spherical mirror). We are given that the object distance is ${d}_{o}=12.0 cm$ and that $m=0.0320$. We first solve for the image distance ${d}_{i}$, and then for $f$.",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "$m={–d}_{i}/{d}_{o}$ . Solving this expression for ${d}_{i}$ gives",
+        "text": "$m={–d}_{i}/{d}_{o}$. Solving this expression for ${d}_{i}$ gives ${d}_{i}=-{md}_{o}.$",
         "inline": []
       },
       "level": "core"
@@ -455,7 +455,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values yields",
+        "text": "Entering known values yields ${d}_{i}=-(0.0320)(12.0 cm)=–0.384 cm.$ $\\frac{1}{f}=\\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}$",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values,",
+        "text": "Substituting known values, $\\frac{1}{f}=\\frac{1}{12.0 cm}+\\frac{1}{-0.384 cm}=\\frac{-2.52}{cm}.$",
         "inline": []
       },
       "level": "core"
@@ -473,7 +473,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "This must be inverted to find $f$ :",
+        "text": "This must be inverted to find $f$: $f=\\frac{cm}{-2.52}=–0.400 cm.$",
         "inline": []
       },
       "level": "core"
@@ -482,7 +482,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The radius of curvature is twice the focal length, so that",
+        "text": "The radius of curvature is twice the focal length, so that $R=2∣f∣=–0.800 cm.$",
         "inline": []
       },
       "level": "core"
@@ -500,7 +500,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "The three types of images formed by mirrors (cases 1, 2, and 3) are exactly analogous to those formed by lenses, as summarized in the table at the end of Image Formation by Lenses . It is easiest to concentrate on only three types of images—then remember that concave mirrors act like convex lenses, whereas convex mirrors act like concave lenses.",
+        "text": "The three types of images formed by mirrors (cases 1, 2, and 3) are exactly analogous to those formed by lenses, as summarized in the table at the end of Image Formation by Lenses. It is easiest to concentrate on only three types of images—then remember that concave mirrors act like convex lenses, whereas convex mirrors act like concave lenses.",
         "inline": []
       },
       "level": "core"
@@ -536,7 +536,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "Step 2. Refer to the Problem-Solving Strategies for Lenses . The same strategies are valid for mirrors as for lenses with one qualification—use the ray tracing rules for mirrors listed earlier in this section.",
+        "text": "Step 2. Refer to the Problem-Solving Strategies for Lenses. The same strategies are valid for mirrors as for lenses with one qualification—use the ray tracing rules for mirrors listed earlier in this section.",
         "inline": []
       },
       "level": "core"
@@ -726,7 +726,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At what distance is an image *always* located—at ${d}_{o}$ , ${d}_{i}$ , or $f$ ?",
+        "text": "At what distance is an image *always* located—at ${d}_{o}$, ${d}_{i}$, or $f$?",
         "inline": []
       },
       "level": "core",
@@ -1024,7 +1024,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the magnification of the heater element in . Note that its large magnitude helps spread out the reflected energy.",
+        "text": "Find the magnification of the heater element in the example. Note that its large magnitude helps spread out the reflected energy.",
         "inline": []
       },
       "level": "core",
@@ -1045,7 +1045,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Explicitly show how you follow the steps in the Problem-Solving Strategy for Mirrors .",
+        "text": "What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away? Explicitly show how you follow the steps in the Problem-Solving Strategy for Mirrors.",
         "inline": []
       },
       "level": "core",
@@ -1069,7 +1069,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? Explicitly show how you follow the steps in the Problem-Solving Strategy for Mirrors .",
+        "text": "A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature? Explicitly show how you follow the steps in the Problem-Solving Strategy for Mirrors.",
         "inline": []
       },
       "level": "core",
@@ -1123,7 +1123,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated ${d}_{i}={–d}_{o}$ , since this is a negative image distance (it is a virtual image). (a) What is the focal length of a flat mirror? (b) What is its power?",
+        "text": "Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated ${d}_{i}={–d}_{o}$, since this is a negative image distance (it is a virtual image). (a) What is the focal length of a flat mirror? (b) What is its power?",
         "inline": []
       },
       "level": "core",
@@ -1144,7 +1144,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that for a flat mirror ${h}_{i}={h}_{o}$ , knowing that the image is a distance behind the mirror equal in magnitude to the distance of the object from the mirror.",
+        "text": "Show that for a flat mirror ${h}_{i}={h}_{o}$, knowing that the image is a distance behind the mirror equal in magnitude to the distance of the object from the mirror.",
         "inline": []
       },
       "level": "core",
@@ -1168,7 +1168,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Use the law of reflection to prove that the focal length of a mirror is half its radius of curvature. That is, prove that $f=R/2$ . Note this is true for a spherical mirror only if its diameter is small compared with its radius of curvature.",
+        "text": "Use the law of reflection to prove that the focal length of a mirror is half its radius of curvature. That is, prove that $f=R/2$. Note this is true for a spherical mirror only if its diameter is small compared with its radius of curvature.",
         "inline": []
       },
       "level": "core",
@@ -1189,7 +1189,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to the electric room heater considered in the first example in this section, calculate the intensity of IR radiation in ${W/m}^{2}$ projected by the concave mirror on a person 3.00 m away. Assume that the heating element radiates 1500 W and has an area of $100{cm}^{2}$ , and that half of the radiated power is reflected and focused by the mirror.",
+        "text": "Referring to the electric room heater considered in the first example in this section, calculate the intensity of IR radiation in ${W/m}^{2}$ projected by the concave mirror on a person 3.00 m away. Assume that the heating element radiates 1500 W and has an area of $100 {cm}^{2}$, and that half of the radiated power is reflected and focused by the mirror.",
         "inline": []
       },
       "level": "core",

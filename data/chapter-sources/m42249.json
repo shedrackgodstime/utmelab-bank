@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Most waves do not look very simple. They look more like the waves in than like the simple water wave considered in Waves . (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
+        "text": "Most waves do not look very simple. They look more like the waves in the figure than like the simple water wave considered in Waves. (Simple waves may be created by a simple harmonic oscillation, and thus have a sinusoidal shape). Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "When two or more waves arrive at the same point, they superimpose themselves on one another. More specifically, the disturbances of waves are superimposed when they come together—a phenomenon called superposition . Each disturbance corresponds to a force, and forces add. If the disturbances are along the same line, then the resulting wave is a simple addition of the disturbances of the individual waves—that is, their amplitudes add. and illustrate superposition in two special cases, both of which produce simple results.",
+        "text": "When two or more waves arrive at the same point, they superimpose themselves on one another. More specifically, the disturbances of waves are superimposed when they come together—a phenomenon called superposition. Each disturbance corresponds to a force, and forces add. If the disturbances are along the same line, then the resulting wave is a simple addition of the disturbances of the individual waves—that is, their amplitudes add. The figure and the figure illustrate superposition in two special cases, both of which produce simple results.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. This superposition produces pure constructive interference . Because the disturbances add, pure constructive interference produces a wave that has twice the amplitude of the individual waves, but has the same wavelength.",
+        "text": "The figure shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. This superposition produces pure constructive interference. Because the disturbances add, pure constructive interference produces a wave that has twice the amplitude of the individual waves, but has the same wavelength.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "shows two identical waves that arrive exactly out of phase—that is, precisely aligned crest to trough—producing pure destructive interference . Because the disturbances are in the opposite direction for this superposition, the resulting amplitude is zero for pure destructive interference—the waves completely cancel.",
+        "text": "The figure shows two identical waves that arrive exactly out of phase—that is, precisely aligned crest to trough—producing pure destructive interference. Because the disturbances are in the opposite direction for this superposition, the resulting amplitude is zero for pure destructive interference—the waves completely cancel.",
         "inline": []
       },
       "level": "core"
@@ -115,7 +115,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "An example of the superposition of two dissimilar waves is shown in . Here again, the disturbances add and subtract, producing a more complicated looking wave.",
+        "text": "An example of the superposition of two dissimilar waves is shown in the figure. Here again, the disturbances add and subtract, producing a more complicated looking wave.",
         "inline": []
       },
       "level": "core"
@@ -146,7 +146,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Sometimes waves do not seem to move; rather, they just vibrate in place. Unmoving waves can be seen on the surface of a glass of milk in a refrigerator, for example. Vibrations from the refrigerator motor create waves on the milk that oscillate up and down but do not seem to move across the surface. These waves are formed by the superposition of two or more moving waves, such as illustrated in for two identical waves moving in opposite directions. The waves move through each other with their disturbances adding as they go by. If the two waves have the same amplitude and wavelength, then they alternate between constructive and destructive interference. The resultant looks like a wave standing in place and, thus, is called a standing wave . Waves on the glass of milk are one example of standing waves. There are other standing waves, such as on guitar strings and in organ pipes. With the glass of milk, the two waves that produce standing waves may come from reflections from the side of the glass.",
+        "text": "Sometimes waves do not seem to move; rather, they just vibrate in place. Unmoving waves can be seen on the surface of a glass of milk in a refrigerator, for example. Vibrations from the refrigerator motor create waves on the milk that oscillate up and down but do not seem to move across the surface. These waves are formed by the superposition of two or more moving waves, such as illustrated in the figure for two identical waves moving in opposite directions. The waves move through each other with their disturbances adding as they go by. If the two waves have the same amplitude and wavelength, then they alternate between constructive and destructive interference. The resultant looks like a wave standing in place and, thus, is called a standing wave. Waves on the glass of milk are one example of standing waves. There are other standing waves, such as on guitar strings and in organ pipes. With the glass of milk, the two waves that produce standing waves may come from reflections from the side of the glass.",
         "inline": []
       },
       "level": "core"
@@ -177,7 +177,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Standing waves are also found on the strings of musical instruments and are due to reflections of waves from the ends of the string. and show three standing waves that can be created on a string that is fixed at both ends. Nodes are the points where the string does not move; more generally, nodes are where the wave disturbance is zero in a standing wave. The fixed ends of strings must be nodes, too, because the string cannot move there. The word antinode is used to denote the location of maximum amplitude in standing waves. Standing waves on strings have a frequency that is related to the propagation speed ${v}_{w}$ of the disturbance on the string. The wavelength $λ$ is determined by the distance between the points where the string is fixed in place.",
+        "text": "Standing waves are also found on the strings of musical instruments and are due to reflections of waves from the ends of the string. The figure and the figure show three standing waves that can be created on a string that is fixed at both ends. Nodes are the points where the string does not move; more generally, nodes are where the wave disturbance is zero in a standing wave. The fixed ends of strings must be nodes, too, because the string cannot move there. The word antinode is used to denote the location of maximum amplitude in standing waves. Standing waves on strings have a frequency that is related to the propagation speed ${v}_{w}$ of the disturbance on the string. The wavelength $λ$ is determined by the distance between the points where the string is fixed in place.",
         "inline": []
       },
       "level": "core"
@@ -186,7 +186,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The lowest frequency, called the fundamental frequency , is thus for the longest wavelength, which is seen to be ${λ}_{1}=2L$ . Therefore, the fundamental frequency is ${f}_{1}={v}_{w}/{λ}_{1}={v}_{w}/2L$ . In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in , the first harmonic can easily be calculated since ${λ}_{2}=L$ . Thus, ${f}_{2}={v}_{w}/{λ}_{2}={v}_{w}/L={2f}_{1}$ . Similarly, ${f}_{3}={3f}_{1}$ , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater ${v}_{w}$ is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
+        "text": "The lowest frequency, called the fundamental frequency, is thus for the longest wavelength, which is seen to be ${λ}_{1}=2L$. Therefore, the fundamental frequency is ${f}_{1}={v}_{w}/{λ}_{1}={v}_{w}/2L$. In this case, the overtones or harmonics are multiples of the fundamental frequency. As seen in the figure, the first harmonic can easily be calculated since ${λ}_{2}=L$. Thus, ${f}_{2}={v}_{w}/{λ}_{2}={v}_{w}/L={2f}_{1}$. Similarly, ${f}_{3}={3f}_{1}$, and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater ${v}_{w}$ is and the higher the frequencies. This observation is familiar to anyone who has ever observed a string instrument being tuned. We will see in later chapters that standing waves are crucial to many resonance phenomena, such as in sounding boxes on string instruments.",
         "inline": []
       },
       "level": "core"
@@ -230,7 +230,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Striking two adjacent keys on a piano produces a warbling combination usually considered to be unpleasant. The superposition of two waves of similar but not identical frequencies is the culprit. Another example is often noticeable in jet aircraft, particularly the two-engine variety, while taxiing. The combined sound of the engines goes up and down in loudness. This varying loudness happens because the sound waves have similar but not identical frequencies. The discordant warbling of the piano and the fluctuating loudness of the jet engine noise are both due to alternately constructive and destructive interference as the two waves go in and out of phase. illustrates this graphically.",
+        "text": "Striking two adjacent keys on a piano produces a warbling combination usually considered to be unpleasant. The superposition of two waves of similar but not identical frequencies is the culprit. Another example is often noticeable in jet aircraft, particularly the two-engine variety, while taxiing. The combined sound of the engines goes up and down in loudness. This varying loudness happens because the sound waves have similar but not identical frequencies. The discordant warbling of the piano and the fluctuating loudness of the jet engine noise are both due to alternately constructive and destructive interference as the two waves go in and out of phase. The figure illustrates this graphically.",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or *beats* , with a frequency called the beat frequency . We can determine the beat frequency by adding two waves together mathematically. Note that a wave can be represented at one point in space as",
+        "text": "The wave resulting from the superposition of two similar-frequency waves has a frequency that is the average of the two. This wave fluctuates in amplitude, or *beats*, with a frequency called the beat frequency. We can determine the beat frequency by adding two waves together mathematically. Note that a wave can be represented at one point in space as $x=X cos(\\frac{2π t}{T})=X cos(2π ft),$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "where $f=1/T$ is the frequency of the wave. Adding two waves that have different frequencies but identical amplitudes produces a resultant",
+        "text": "where $f=1/T$ is the frequency of the wave. Adding two waves that have different frequencies but identical amplitudes produces a resultant $x={x}_{1}+{x}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Using a trigonometric identity, it can be shown that",
+        "text": "Using a trigonometric identity, it can be shown that $x=2X cos(π {f}_{B}t)cos(2π {f}_{ave}t),$",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "is the beat frequency, and ${f}_{ave}$ is the average of ${f}_{1}$ and ${f}_{2}$ . These results mean that the resultant wave has twice the amplitude and the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency ${f}_{B}$ . The first cosine term in the expression effectively causes the amplitude to go up and down. The second cosine term is the wave with frequency ${f}_{ave}$ . This result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
+        "text": "is the beat frequency, and ${f}_{ave}$ is the average of ${f}_{1}$ and ${f}_{2}$. These results mean that the resultant wave has twice the amplitude and the average frequency of the two superimposed waves, but it also fluctuates in overall amplitude at the beat frequency ${f}_{B}$. The first cosine term in the expression effectively causes the amplitude to go up and down. The second cosine term is the wave with frequency ${f}_{ave}$. This result is valid for all types of waves. However, if it is a sound wave, providing the two frequencies are similar, then what we hear is an average frequency that gets louder and softer (or warbles) at the beat frequency.",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a $256Hz$ frequency and two beats per second are heard, then the other frequency is either $254$ or $258Hz$ . Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.",
+        "text": "Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a $256 Hz$ frequency and two beats per second are heard, then the other frequency is either $254$ or $258 Hz$. Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.",
         "inline": []
       },
       "level": "core"
@@ -566,7 +566,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two sine waves travel in the same direction in a medium. The amplitude of each wave is *A* , and the phase difference between the two is 180°. What is the resultant amplitude? 2 *A*; 3 *A*; 0; 9 *A*",
+        "text": "Two sine waves travel in the same direction in a medium. The amplitude of each wave is *A*, and the phase difference between the two is 180°. What is the resultant amplitude? 2 *A*; 3 *A*; 0; 9 *A*",
         "inline": []
       },
       "level": "core",

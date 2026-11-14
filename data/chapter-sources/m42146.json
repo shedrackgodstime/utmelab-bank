@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Formally, the work done on a system by a constant force is defined to be *the product of the component of the force in the direction of motion times the distance through which the force acts* . For one-way motion in one dimension, this is expressed in equation form as",
+        "text": "Formally, the work done on a system by a constant force is defined to be *the product of the component of the force in the direction of motion times the distance through which the force acts*. For one-way motion in one dimension, this is expressed in equation form as $W= ∣F∣(cos θ)∣d∣,$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "where $W$ is work, $d$ is the displacement of the system, and $θ$ is the angle between the force vector $F$ and the displacement vector $d$ , as in . We can also write this as",
+        "text": "where $W$ is work, $d$ is the displacement of the system, and $θ$ is the angle between the force vector $F$ and the displacement vector $d$, as in the figure. We can also write this as $W=Fd cos θ.$",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The work done on a system by a constant force is *the product of the component of the force in the direction of motion times the distance through which the force acts* . For one-way motion in one dimension, this is expressed in equation form as",
+        "text": "The work done on a system by a constant force is *the product of the component of the force in the direction of motion times the distance through which the force acts*. For one-way motion in one dimension, this is expressed in equation form as $W=Fd cos θ,$",
         "inline": []
       },
       "level": "core"
@@ -94,7 +94,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where $W$ is work, $F$ is the magnitude of the force on the system, $d$ is the magnitude of the displacement of the system, and $θ$ is the angle between the force vector $F$ and the displacement vector $d$ .",
+        "text": "where $W$ is work, $F$ is the magnitude of the force on the system, $d$ is the magnitude of the displacement of the system, and $θ$ is the angle between the force vector $F$ and the displacement vector $d$.",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "To examine what the definition of work means, let us consider the other situations shown in . The person holding the briefcase in (b) does no work, for example. Here $d=0$ , so $W=0$ . Why is it you get tired just holding a load? The answer is that your muscles are doing work against one another, *but they are doing no work on the system of interest* (the “briefcase-Earth system”—see Gravitational Potential Energy for more details). There must be displacement for work to be done, and there must be a component of the force in the direction of the motion. For example, the person carrying the briefcase on level ground in (c) does no work on it, because the force is perpendicular to the motion. That is, $cos90º =0$ , and so $W=0$ .",
+        "text": "To examine what the definition of work means, let us consider the other situations shown in the figure. The person holding the briefcase in the figure (b) does no work, for example. Here $d=0$, so $W=0$. Why is it you get tired just holding a load? The answer is that your muscles are doing work against one another, *but they are doing no work on the system of interest* (the “briefcase-Earth system”—see Gravitational Potential Energy for more details). There must be displacement for work to be done, and there must be a component of the force in the direction of the motion. For example, the person carrying the briefcase on level ground in the figure (c) does no work on it, because the force is perpendicular to the motion. That is, $cos 90º = 0$, and so $W=0$.",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "In contrast, when a force exerted on the system has a component in the direction of motion, such as in (d), work *is* done—energy is transferred to the briefcase. Finally, in (e), energy is transferred from the briefcase to a generator. There are two good ways to interpret this energy transfer. One interpretation is that the briefcase’s weight does work on the generator, giving it energy. The other interpretation is that the generator does negative work on the briefcase, thus removing energy from it. The drawing shows the latter, with the force from the generator upward on the briefcase, and the displacement downward. This makes $θ=180º$ , and $cos 180º=–1$ ; therefore, $W$ is negative.",
+        "text": "In contrast, when a force exerted on the system has a component in the direction of motion, such as in the figure (d), work *is* done—energy is transferred to the briefcase. Finally, in the figure (e), energy is transferred from the briefcase to a generator. There are two good ways to interpret this energy transfer. One interpretation is that the briefcase’s weight does work on the generator, giving it energy. The other interpretation is that the generator does negative work on the briefcase, thus removing energy from it. The drawing shows the latter, with the force from the generator upward on the briefcase, and the displacement downward. This makes $θ=180º$, and $cos 180º=–1$; therefore, $W$ is negative.",
         "inline": []
       },
       "level": "core"
@@ -143,7 +143,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Work and energy have the same units. From the definition of work, we see that those units are force times distance. Thus, in SI units, work and energy are measured in newton-meters . A newton-meter is given the special name joule (J), and $1J=1N\\cdot m=1kg\\cdot {m}^{2}{/s}^{2}$ . One joule is not a large amount of energy; it would lift a small 100-gram apple a distance of about 1 meter.",
+        "text": "Work and energy have the same units. From the definition of work, we see that those units are force times distance. Thus, in SI units, work and energy are measured in newton-meters. A newton-meter is given the special name joule (J), and $1 J=1 N\\cdot m=1 kg\\cdot {m}^{2}{/s}^{2}$. One joule is not a large amount of energy; it would lift a small 100-gram apple a distance of about 1 meter.",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "How much work is done on the lawn mower by the person in (a) if he exerts a constant force of $75.0N$ at an angle $35º$ below the horizontal and pushes the mower $25.0m$ on level ground? Convert the amount of work from joules to kilocalories and compare it with this person’s average daily intake of $10,000kJ$ (about $2400kcal$ ) of food energy. One *calorie* (1 cal) of heat is the amount required to warm 1 g of water by $1ºC$ , and is equivalent to $4.186J$ , while one *food calorie* (1 kcal) is equivalent to $4186J$ .",
+        "text": "How much work is done on the lawn mower by the person in the figure (a) if he exerts a constant force of $75.0 N$ at an angle $35º$ below the horizontal and pushes the mower $25.0 m$ on level ground? Convert the amount of work from joules to kilocalories and compare it with this person’s average daily intake of $10,000 kJ$ (about $2400 kcal$) of food energy. One *calorie* (1 cal) of heat is the amount required to warm 1 g of water by $1ºC$, and is equivalent to $4.186 J$, while one *food calorie* (1 kcal) is equivalent to $4186 J$.",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We can solve this problem by substituting the given values into the definition of work done on a system, stated in the equation $W=Fdcosθ$ . The force, angle, and displacement are given, so that only the work $W$ is unknown.",
+        "text": "We can solve this problem by substituting the given values into the definition of work done on a system, stated in the equation $W=Fd cos θ$. The force, angle, and displacement are given, so that only the work $W$ is unknown.",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The equation for the work is",
+        "text": "The equation for the work is $W=Fd cos θ.$",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the known values gives",
+        "text": "Substituting the known values gives $W = (75.0 N)(25.0 m) cos (35.0º) = 1536 J=1.54\\times {10}^{3} J.$",
         "inline": []
       },
       "level": "core"
@@ -203,7 +203,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Converting the work in joules to kilocalories yields $W=(1536J)(1kcal/4186J)=0.367kcal$ . The ratio of the work done to the daily consumption is",
+        "text": "Converting the work in joules to kilocalories yields $W=(1536 J)(1 kcal/4186 J)=0.367 kcal$. The ratio of the work done to the daily consumption is $\\frac{W}{2400 kcal}=1.53\\times {10}^{-4}.$",
         "inline": []
       },
       "level": "core"
@@ -231,7 +231,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Given about how much force does the rocket engine exert on the 3.0-kg payload? Distance traveled with rocket engine firing (m) Payload final velocity (m/s) 500 310 490 300 1020 450 505 312 150 N; 300 N; 450 N; 600 N",
+        "text": "Given the table about how much force does the rocket engine exert on the 3.0-kg payload? Distance traveled with rocket engine firing (m) Payload final velocity (m/s) 500 310 490 300 1020 450 505 312 150 N; 300 N; 450 N; 600 N",
         "inline": []
       },
       "level": "core",
@@ -308,7 +308,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Look at (c). You compress a spring by *x* , and then release it. Next you compress the spring by 2 *x* . How much more work did you do the second time than the first? Half as much; The same; Twice as much; Four times as much",
+        "text": "Look at the figure (c). You compress a spring by *x*, and then release it. Next you compress the spring by 2 *x*. How much more work did you do the second time than the first? Half as much; The same; Twice as much; Four times as much",
         "inline": []
       },
       "level": "core",
@@ -576,7 +576,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline. Only 30% of the gasoline goes into useful work by the force that keeps the car moving at constant speed despite friction. (See for the energy content of gasoline.) (a) What is the magnitude of the force exerted to keep the car moving at constant speed? (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?",
+        "text": "Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline. Only 30% of the gasoline goes into useful work by the force that keeps the car moving at constant speed despite friction. (See the table for the energy content of gasoline.) (a) What is the magnitude of the force exerted to keep the car moving at constant speed? (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?",
         "inline": []
       },
       "level": "core",
@@ -597,7 +597,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a ramp that makes an angle of $20.0º$ with the horizontal. (See .) He exerts a force of 500 N on the crate parallel to the ramp and moves at a constant speed. Be certain to include the work he does on the crate *and* on his body to get up the ramp. A man pushes a crate up a ramp.",
+        "text": "Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a ramp that makes an angle of $20.0º$ with the horizontal. (See the figure.) He exerts a force of 500 N on the crate parallel to the ramp and moves at a constant speed. Be certain to include the work he does on the crate *and* on his body to get up the ramp.",
         "inline": []
       },
       "level": "core",
@@ -634,7 +634,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How much work is done by the boy pulling his sister 30.0 m in a wagon as shown in ? Assume no friction acts on the wagon. The boy does work on the system of the wagon and the child when he pulls them as shown.",
+        "text": "How much work is done by the boy pulling his sister 30.0 m in a wagon as shown in the figure? Assume no friction acts on the wagon.",
         "inline": []
       },
       "level": "core",
@@ -692,7 +692,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose the ski patrol lowers a rescue sled and victim, having a total mass of 90.0 kg, down a $60.0º$ slope at constant speed, as shown in . The coefficient of friction between the sled and the snow is 0.100. (a) How much work is done by friction as the sled moves 30.0 m along the hill? (b) How much work is done by the rope on the sled in this distance? (c) What is the work done by the gravitational force on the sled? (d) What is the total work done? A rescue sled and victim are lowered down a steep slope.",
+        "text": "Suppose the ski patrol lowers a rescue sled and victim, having a total mass of 90.0 kg, down a $60.0º$ slope at constant speed, as shown in the figure. The coefficient of friction between the sled and the snow is 0.100. (a) How much work is done by friction as the sled moves 30.0 m along the hill? (b) How much work is done by the rope on the sled in this distance? (c) What is the work done by the gravitational force on the sled? (d) What is the total work done?",
         "inline": []
       },
       "level": "core",

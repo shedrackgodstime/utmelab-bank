@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "On a cold winter morning, a wooden bench feels warmer than a metal bench. Both benches are in thermal equilibrium with the outside air, and are thus the same temperature. They *feel* different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in Conduction ). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.",
+        "text": "On a cold winter morning, a wooden bench feels warmer than a metal bench. Both benches are in thermal equilibrium with the outside air, and are thus the same temperature. They *feel* different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in Conduction). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Any physical property that depends on temperature, and whose response to temperature is reproducible, can be used as the basis of a thermometer. Because many physical properties depend on temperature, the variety of thermometers is remarkable. For example, volume increases with temperature for most substances. This property is the basis for the common alcohol thermometer, the old mercury thermometer, and the bimetallic strip ( ). Other properties used to measure temperature include electrical resistance and color, as shown in , and the emission of infrared radiation, as shown in .",
+        "text": "Any physical property that depends on temperature, and whose response to temperature is reproducible, can be used as the basis of a thermometer. Because many physical properties depend on temperature, the variety of thermometers is remarkable. For example, volume increases with temperature for most substances. This property is the basis for the common alcohol thermometer, the old mercury thermometer, and the bimetallic strip (the figure). Other properties used to measure temperature include electrical resistance and color, as shown in the figure, and the emission of infrared radiation, as shown in the figure.",
         "inline": []
       },
       "level": "core"
@@ -137,7 +137,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The Celsius scale (which replaced the slightly different **centigrade** scale) has the freezing point of water at $0ºC$ and the boiling point at $100ºC$ . Its unit is the degree Celsius $(ºC)$ . On the Fahrenheit scale (still the most frequently used in the United States), the freezing point of water is at $32ºF$ and the boiling point is at $212ºF$ . The unit of temperature on this scale is the degree Fahrenheit $(ºF)$ . Note that a temperature difference of one degree Celsius is greater than a temperature difference of one degree Fahrenheit. Only 100 Celsius degrees span the same range as 180 Fahrenheit degrees, thus one degree on the Celsius scale is 1.8 times larger than one degree on the Fahrenheit scale $180/100=9/5.$",
+        "text": "The Celsius scale (which replaced the slightly different **centigrade** scale) has the freezing point of water at $0ºC$ and the boiling point at $100ºC$. Its unit is the degree Celsius $(ºC)$. On the Fahrenheit scale (still the most frequently used in the United States), the freezing point of water is at $32ºF$ and the boiling point is at $212ºF$. The unit of temperature on this scale is the degree Fahrenheit $(ºF)$. Note that a temperature difference of one degree Celsius is greater than a temperature difference of one degree Fahrenheit. Only 100 Celsius degrees span the same range as 180 Fahrenheit degrees, thus one degree on the Celsius scale is 1.8 times larger than one degree on the Fahrenheit scale $180/100=9/5.$",
         "inline": []
       },
       "level": "core"
@@ -146,7 +146,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "The Kelvin scale is the temperature scale that is commonly used in science. It is an *absolute temperature* scale defined to have 0 K at the lowest possible temperature, called absolute zero . The official temperature unit on this scale is the *kelvin* , which is abbreviated K, and is not accompanied by a degree sign. The freezing and boiling points of water are 273.15 K and 373.15 K, respectively. Thus, the magnitude of temperature differences is the same in units of kelvins and degrees Celsius. Unlike other temperature scales, the Kelvin scale is an absolute scale. It is used extensively in scientific work because a number of physical quantities, such as the volume of an ideal gas, are directly related to absolute temperature. The kelvin is the SI unit used in scientific work.",
+        "text": "The Kelvin scale is the temperature scale that is commonly used in science. It is an *absolute temperature* scale defined to have 0 K at the lowest possible temperature, called absolute zero. The official temperature unit on this scale is the *kelvin*, which is abbreviated K, and is not accompanied by a degree sign. The freezing and boiling points of water are 273.15 K and 373.15 K, respectively. Thus, the magnitude of temperature differences is the same in units of kelvins and degrees Celsius. Unlike other temperature scales, the Kelvin scale is an absolute scale. It is used extensively in scientific work because a number of physical quantities, such as the volume of an ideal gas, are directly related to absolute temperature. The kelvin is the SI unit used in scientific work.",
         "inline": []
       },
       "level": "core"
@@ -168,7 +168,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The relationships between the three common temperature scales is shown in . Temperatures on these scales can be converted using the equations in .",
+        "text": "The relationships between the three common temperature scales is shown in the figure. Temperatures on these scales can be converted using the equations in the table.",
         "inline": []
       },
       "level": "core"
@@ -248,7 +248,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "“Room temperature” is generally defined to be $25ºC$ . (a) What is room temperature in $ºF$ ? (b) What is it in K?",
+        "text": "“Room temperature” is generally defined to be $25ºC$. (a) What is room temperature in $ºF$? (b) What is it in K?",
         "inline": []
       },
       "level": "core"
@@ -266,7 +266,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "1. Choose the right equation. To convert from $ºC$ to $ºF$ , use the equation",
+        "text": "1. Choose the right equation. To convert from $ºC$ to $ºF$, use the equation ${T}_{ºF}=\\frac{9}{5}{T}_{ºC}+32.$",
         "inline": []
       },
       "level": "core"
@@ -275,7 +275,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "2. Plug the known value into the equation and solve:",
+        "text": "2. Plug the known value into the equation and solve: ${T}_{ºF}=\\frac{9}{5}25ºC+32=77ºF.$",
         "inline": []
       },
       "level": "core"
@@ -284,7 +284,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "1. Choose the right equation. To convert from $ºC$ to K, use the equation",
+        "text": "1. Choose the right equation. To convert from $ºC$ to K, use the equation ${T}_{K}={T}_{ºC}+273.15.$",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "2. Plug the known value into the equation and solve:",
+        "text": "2. Plug the known value into the equation and solve: ${T}_{K}=25ºC+273.15=298 K.$",
         "inline": []
       },
       "level": "core"
@@ -317,7 +317,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The Reaumur scale is a temperature scale that was used widely in Europe in the 18th and 19th centuries. On the Reaumur temperature scale, the freezing point of water is $0ºR$ and the boiling temperature is $80ºR$ . If “room temperature” is $25ºC$ on the Celsius scale, what is it on the Reaumur scale?",
+        "text": "The Reaumur scale is a temperature scale that was used widely in Europe in the 18th and 19th centuries. On the Reaumur temperature scale, the freezing point of water is $0ºR$ and the boiling temperature is $80ºR$. If “room temperature” is $25ºC$ on the Celsius scale, what is it on the Reaumur scale?",
         "inline": []
       },
       "level": "core"
@@ -326,7 +326,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "To answer this question, we must compare the Reaumur scale to the Celsius scale. The difference between the freezing point and boiling point of water on the Reaumur scale is $80ºR$ . On the Celsius scale it is $100ºC$ . Therefore $100ºC=80ºR$ . Both scales start at $0º$ for freezing, so we can derive a simple formula to convert between temperatures on the two scales.",
+        "text": "To answer this question, we must compare the Reaumur scale to the Celsius scale. The difference between the freezing point and boiling point of water on the Reaumur scale is $80ºR$. On the Celsius scale it is $100ºC$. Therefore $100ºC=80ºR$. Both scales start at $0º$ for freezing, so we can derive a simple formula to convert between temperatures on the two scales.",
         "inline": []
       },
       "level": "core"
@@ -335,7 +335,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "1. Derive a formula to convert from one scale to the other:",
+        "text": "1. Derive a formula to convert from one scale to the other: ${T}_{ºR}=\\frac{0.8ºR}{ºC} \\times {T}_{ºC}.$",
         "inline": []
       },
       "level": "core"
@@ -344,7 +344,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "2. Plug the known value into the equation and solve:",
+        "text": "2. Plug the known value into the equation and solve: ${T}_{ºR}=\\frac{0.8ºR}{ºC} \\times 25ºC=20ºR.$",
         "inline": []
       },
       "level": "core"
@@ -362,7 +362,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "shows the wide range of temperatures found in the universe. Human beings have been known to survive with body temperatures within a small range, from $24ºC$ to $44ºC$ $(75ºF$ to $111ºF$ ). The average normal body temperature is usually given as $37.0ºC$ ( $98.6ºF$ ), and variations in this temperature can indicate a medical condition: a fever, an infection, a tumor, or circulatory problems (see ).",
+        "text": "The figure shows the wide range of temperatures found in the universe. Human beings have been known to survive with body temperatures within a small range, from $24ºC$ to $44ºC$ $(75ºF$ to $111ºF$). The average normal body temperature is usually given as $37.0ºC$ ($98.6ºF$), and variations in this temperature can indicate a medical condition: a fever, an infection, a tumor, or circulatory problems (see the figure).",
         "inline": []
       },
       "level": "core"
@@ -384,7 +384,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "The lowest temperatures ever recorded have been measured during laboratory experiments: $4.5×{10}^{–10}K$ at the Massachusetts Institute of Technology (USA), and $1.0×{10}^{–10}K$ at Helsinki University of Technology (Finland). In comparison, the coldest recorded place on Earth’s surface is Vostok, Antarctica at 183 K $(–89ºC)$ , and the coldest place (outside the lab) known in the universe is the Boomerang Nebula, with a temperature of 1 K.",
+        "text": "The lowest temperatures ever recorded have been measured during laboratory experiments: $4.5\\times {10}^{–10} K$ at the Massachusetts Institute of Technology (USA), and $1.0\\times {10}^{–10} K$ at Helsinki University of Technology (Finland). In comparison, the coldest recorded place on Earth’s surface is Vostok, Antarctica at 183 K $(–89ºC)$, and the coldest place (outside the lab) known in the universe is the Boomerang Nebula, with a temperature of 1 K.",
         "inline": []
       },
       "level": "core"
@@ -406,7 +406,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "What is absolute zero? The concept of absolute zero arises from the behavior of gases. shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, $–273.15ºC$ . This extrapolation suggests that there is a lowest temperature. Other thermodynamic relationships lead to the same conclusion. This lowest temperature is called *absolute zero* . At absolute zero, molecular motion is at the minimum energy possible. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is $–273.15ºC$ or 0 K.",
+        "text": "What is absolute zero? The concept of absolute zero arises from the behavior of gases. The figure shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature, $–273.15ºC$. This extrapolation suggests that there is a lowest temperature. Other thermodynamic relationships lead to the same conclusion. This lowest temperature is called *absolute zero*. At absolute zero, molecular motion is at the minimum energy possible. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is $–273.15ºC$ or 0 K.",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Thermometers actually take their *own* temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in *thermal contact* (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium , and no further heat flow or changes in temperature will occur. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers *does* represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
+        "text": "Thermometers actually take their *own* temperature, not the temperature of the object they are measuring. This raises the question of how we can be certain that a thermometer measures the temperature of the object with which it is in contact. It is based on the fact that any two systems placed in *thermal contact* (meaning heat transfer can occur between them) but isolated from the rest of the environment, will reach the same temperature. That is, heat will flow from the hotter object to the cooler one until they have exactly the same temperature. The objects are then in thermal equilibrium, and no further heat flow or changes in temperature will occur. Thus, if enough time is allowed for this transfer of heat to run its course, the temperature a thermometer registers *does* represent the system with which it is in thermal equilibrium. Thermal equilibrium is established when two bodies are in contact with each other and can freely exchange energy. A single object is said to be in internal thermal equilibrium when no heat is flowing within the object and therefore its temperature is uniform.",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Furthermore, experimentation has shown that if two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system C, then A is also in thermal equilibrium with C. This conclusion may seem obvious, because all three have the same temperature, but it is basic to thermodynamics. It is called the zeroth law of thermodynamics .",
+        "text": "Furthermore, experimentation has shown that if two systems, A and B, are in thermal equilibrium with each another, and B is in thermal equilibrium with a third system C, then A is also in thermal equilibrium with C. This conclusion may seem obvious, because all three have the same temperature, but it is basic to thermodynamics. It is called the zeroth law of thermodynamics.",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the *zeroth law* because it comes logically before the first and second laws (discussed in Thermodynamics ). Suppose, for example, a cold metal block and a hot metal block are both placed on a metal plate at room temperature. Eventually the cold block and the plate will be in thermal equilibrium. In addition, the hot block and the plate will be in thermal equilibrium. By the zeroth law, we can conclude that the cold block and the hot block are also in thermal equilibrium. Similarly, two thermometers placed in thermal contact, one with one block and the second with the other block, will also be in thermal equilibrium and therefore read the same temperature. This establishes temperature as a meaningful concept.",
+        "text": "This law was postulated in the 1930s, after the first and second laws of thermodynamics had been developed and named. It is called the *zeroth law* because it comes logically before the first and second laws (discussed in Thermodynamics). Suppose, for example, a cold metal block and a hot metal block are both placed on a metal plate at room temperature. Eventually the cold block and the plate will be in thermal equilibrium. In addition, the hot block and the plate will be in thermal equilibrium. By the zeroth law, we can conclude that the cold block and the hot block are also in thermal equilibrium. Similarly, two thermometers placed in thermal contact, one with one block and the second with the other block, will also be in thermal equilibrium and therefore read the same temperature. This establishes temperature as a meaningful concept.",
         "inline": []
       },
       "level": "core"

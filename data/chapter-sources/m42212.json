@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "There is something fishy about the ice cube from your freezer—how did it pick up those food odors? How does soaking a sprained ankle in Epsom salt reduce swelling? The answer to these questions are related to atomic and molecular transport phenomena—another mode of fluid motion. Atoms and molecules are in constant motion at any temperature. In fluids they move about randomly even in the absence of macroscopic flow. This motion is called a random walk and is illustrated in . Diffusion is the movement of substances due to random thermal molecular motion. Fluids, like fish fumes or odors entering ice cubes, can even diffuse through solids.",
+        "text": "There is something fishy about the ice cube from your freezer—how did it pick up those food odors? How does soaking a sprained ankle in Epsom salt reduce swelling? The answer to these questions are related to atomic and molecular transport phenomena—another mode of fluid motion. Atoms and molecules are in constant motion at any temperature. In fluids they move about randomly even in the absence of macroscopic flow. This motion is called a random walk and is illustrated in the figure. Diffusion is the movement of substances due to random thermal molecular motion. Fluids, like fish fumes or odors entering ice cubes, can even diffuse through solids.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Diffusion is a slow process over macroscopic distances. The densities of common materials are great enough that molecules cannot travel very far before having a collision that can scatter them in any direction, including straight backward. It can be shown that the average distance ${x}_{rms}$ that a molecule travels is proportional to the square root of time:",
+        "text": "Diffusion is a slow process over macroscopic distances. The densities of common materials are great enough that molecules cannot travel very far before having a collision that can scatter them in any direction, including straight backward. It can be shown that the average distance ${x}_{rms}$ that a molecule travels is proportional to the square root of time: ${x}_{rms}=\\sqrt{2Dt},$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "where ${x}_{rms}$ stands for the *root-mean-square distance* and is the statistical average for the process. The quantity $D$ is the diffusion constant for the particular molecule in a specific medium. lists representative values of $D$ for various substances, in units of ${m}^{2}/s$ .",
+        "text": "where ${x}_{rms}$ stands for the *root-mean-square distance* and is the statistical average for the process. The quantity $D$ is the diffusion constant for the particular molecule in a specific medium. The table lists representative values of $D$ for various substances, in units of ${m}^{2}/s$.",
         "inline": []
       },
       "level": "core"
@@ -127,7 +127,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Note that $D$ gets progressively smaller for more massive molecules. This decrease is because the average molecular speed at a given temperature is inversely proportional to molecular mass. Thus the more massive molecules diffuse more slowly. Another interesting point is that $D$ for oxygen in air is much greater than $D$ for oxygen in water. In water, an oxygen molecule makes many more collisions in its random walk and is slowed considerably. In water, an oxygen molecule moves only about $40μm$ in 1 s. (Each molecule actually collides about ${10}^{10}$ times per second!). Finally, note that diffusion constants increase with temperature, because average molecular speed increases with temperature. This is because the average kinetic energy of molecules, $\\frac{1}{2}{mv}^{2}$ , is proportional to absolute temperature.",
+        "text": "Note that $D$ gets progressively smaller for more massive molecules. This decrease is because the average molecular speed at a given temperature is inversely proportional to molecular mass. Thus the more massive molecules diffuse more slowly. Another interesting point is that $D$ for oxygen in air is much greater than $D$ for oxygen in water. In water, an oxygen molecule makes many more collisions in its random walk and is slowed considerably. In water, an oxygen molecule moves only about $40 μm$ in 1 s. (Each molecule actually collides about ${10}^{10}$ times per second!). Finally, note that diffusion constants increase with temperature, because average molecular speed increases with temperature. This is because the average kinetic energy of molecules, $\\frac{1}{2}{mv}^{2}$, is proportional to absolute temperature.",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "We can use ${x}_{rms}=\\sqrt{2Dt}$ , the expression for the average distance moved in time $t$ , and solve it for $t$ . All other quantities are known.",
+        "text": "We can use ${x}_{rms}=\\sqrt{2Dt}$, the expression for the average distance moved in time $t$, and solve it for $t$. All other quantities are known.",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $t$ and substituting known values yields",
+        "text": "Solving for $t$ and substituting known values yields $t = \\frac{{x}_{rms}^{2}}{2D} = \\frac{(0.010 m{)}^{2}}{2(6.7\\times {10}^{-10} {m}^{2}/s)} = 7. 5\\times {10}^{4} s=21 h.$",
         "inline": []
       },
       "level": "core"
@@ -205,7 +205,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "If you very carefully place a drop of food coloring in a still glass of water, it will slowly diffuse into the colorless surroundings until its concentration is the same everywhere. This type of diffusion is called free diffusion, because there are no barriers inhibiting it. Let us examine its direction and rate. Molecular motion is random in direction, and so simple chance dictates that more molecules will move out of a region of high concentration than into it. The net rate of diffusion is higher initially than after the process is partially completed. (See .)",
+        "text": "If you very carefully place a drop of food coloring in a still glass of water, it will slowly diffuse into the colorless surroundings until its concentration is the same everywhere. This type of diffusion is called free diffusion, because there are no barriers inhibiting it. Let us examine its direction and rate. Molecular motion is random in direction, and so simple chance dictates that more molecules will move out of a region of high concentration than into it. The net rate of diffusion is higher initially than after the process is partially completed. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -227,7 +227,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The net rate of diffusion is proportional to the concentration difference. Many more molecules will leave a region of high concentration than will enter it from a region of low concentration. In fact, if the concentrations were the same, there would be *no* net movement. The net rate of diffusion is also proportional to the diffusion constant $D$ , which is determined experimentally. The farther a molecule can diffuse in a given time, the more likely it is to leave the region of high concentration. Many of the factors that affect the rate are hidden in the diffusion constant $D$ . For example, temperature and cohesive and adhesive forces all affect values of $D$ .",
+        "text": "The net rate of diffusion is proportional to the concentration difference. Many more molecules will leave a region of high concentration than will enter it from a region of low concentration. In fact, if the concentrations were the same, there would be *no* net movement. The net rate of diffusion is also proportional to the diffusion constant $D$, which is determined experimentally. The farther a molecule can diffuse in a given time, the more likely it is to leave the region of high concentration. Many of the factors that affect the rate are hidden in the diffusion constant $D$. For example, temperature and cohesive and adhesive forces all affect values of $D$.",
         "inline": []
       },
       "level": "core"
@@ -254,7 +254,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Some of the most interesting examples of diffusion occur through barriers that affect the rates of diffusion. For example, when you soak a swollen ankle in Epsom salt, water diffuses through your skin. Many substances regularly move through cell membranes; oxygen moves in, carbon dioxide moves out, nutrients go in, and wastes go out, for example. Because membranes are thin structures (typically $6.5×{10}^{-9}$ to $10×{10}^{-9}$ m across) diffusion rates through them can be high. Diffusion through membranes is an important method of transport.",
+        "text": "Some of the most interesting examples of diffusion occur through barriers that affect the rates of diffusion. For example, when you soak a swollen ankle in Epsom salt, water diffuses through your skin. Many substances regularly move through cell membranes; oxygen moves in, carbon dioxide moves out, nutrients go in, and wastes go out, for example. Because membranes are thin structures (typically $6.5\\times {10}^{-9}$ to $10\\times {10}^{-9}$ m across) diffusion rates through them can be high. Diffusion through membranes is an important method of transport.",
         "inline": []
       },
       "level": "core"
@@ -263,7 +263,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Membranes are generally selectively permeable, or semipermeable . (See .) One type of semipermeable membrane has small pores that allow only small molecules to pass through. In other types of membranes, the molecules may actually dissolve in the membrane or react with molecules in the membrane while moving across. Membrane function, in fact, is the subject of much current research, involving not only physiology but also chemistry and physics.",
+        "text": "Membranes are generally selectively permeable, or semipermeable. (See the figure.) One type of semipermeable membrane has small pores that allow only small molecules to pass through. In other types of membranes, the molecules may actually dissolve in the membrane or react with molecules in the membrane while moving across. Membrane function, in fact, is the subject of much current research, involving not only physiology but also chemistry and physics.",
         "inline": []
       },
       "level": "core"
@@ -294,7 +294,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Osmosis can create a substantial pressure. Consider what happens if osmosis continues for some time, as illustrated in . Water moves by osmosis from the left into the region on the right, where it is less concentrated, causing the solution on the right to rise. This movement will continue until the pressure $ρgh$ created by the extra height of fluid on the right is large enough to stop further osmosis. This pressure is called a *back pressure* . The back pressure $ρgh$ that stops osmosis is also called the relative osmotic pressure if neither solution is pure water, and it is called the osmotic pressure if one solution is pure water. Osmotic pressure can be large, depending on the size of the concentration difference. For example, if pure water and sea water are separated by a semipermeable membrane that passes no salt, osmotic pressure will be 25.9 atm. This value means that water will diffuse through the membrane until the salt water surface rises 268 m above the pure-water surface! One example of pressure created by osmosis is turgor in plants (many wilt when too dry). Turgor describes the condition of a plant in which the fluid in a cell exerts a pressure against the cell wall. This pressure gives the plant support. Dialysis can similarly cause substantial pressures.",
+        "text": "Osmosis can create a substantial pressure. Consider what happens if osmosis continues for some time, as illustrated in the figure. Water moves by osmosis from the left into the region on the right, where it is less concentrated, causing the solution on the right to rise. This movement will continue until the pressure $ρgh$ created by the extra height of fluid on the right is large enough to stop further osmosis. This pressure is called a *back pressure*. The back pressure $ρgh$ that stops osmosis is also called the relative osmotic pressure if neither solution is pure water, and it is called the osmotic pressure if one solution is pure water. Osmotic pressure can be large, depending on the size of the concentration difference. For example, if pure water and sea water are separated by a semipermeable membrane that passes no salt, osmotic pressure will be 25.9 atm. This value means that water will diffuse through the membrane until the salt water surface rises 268 m above the pure-water surface! One example of pressure created by osmosis is turgor in plants (many wilt when too dry). Turgor describes the condition of a plant in which the fluid in a cell exerts a pressure against the cell wall. This pressure gives the plant support. Dialysis can similarly cause substantial pressures.",
         "inline": []
       },
       "level": "core"
@@ -316,7 +316,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Reverse osmosis and reverse dialysis (also called filtration) are processes that occur when back pressure is sufficient to reverse the normal direction of substances through membranes. Back pressure can be created naturally as on the right side of . (A piston can also create this pressure.) Reverse osmosis can be used to desalinate water by simply forcing it through a membrane that will not pass salt. Similarly, reverse dialysis can be used to filter out any substance that a given membrane will not pass.",
+        "text": "Reverse osmosis and reverse dialysis (also called filtration) are processes that occur when back pressure is sufficient to reverse the normal direction of substances through membranes. Back pressure can be created naturally as on the right side of the figure. (A piston can also create this pressure.) Reverse osmosis can be used to desalinate water by simply forcing it through a membrane that will not pass salt. Similarly, reverse dialysis can be used to filter out any substance that a given membrane will not pass.",
         "inline": []
       },
       "level": "core"
@@ -325,7 +325,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "One further example of the movement of substances through membranes deserves mention. We sometimes find that substances pass in the direction opposite to what we expect. Cypress tree roots, for example, extract pure water from salt water, although osmosis would move it in the opposite direction. This is not reverse osmosis, because there is no back pressure to cause it. What is happening is called active transport , a process in which a living membrane expends energy to move substances across it. Many living membranes move water and other substances by active transport. The kidneys, for example, not only use osmosis and dialysis—they also employ significant active transport to move substances into and out of blood. In fact, it is estimated that at least 25% of the body’s energy is expended on active transport of substances at the cellular level. The study of active transport carries us into the realms of microbiology, biophysics, and biochemistry and it is a fascinating application of the laws of nature to living structures.",
+        "text": "One further example of the movement of substances through membranes deserves mention. We sometimes find that substances pass in the direction opposite to what we expect. Cypress tree roots, for example, extract pure water from salt water, although osmosis would move it in the opposite direction. This is not reverse osmosis, because there is no back pressure to cause it. What is happening is called active transport, a process in which a living membrane expends energy to move substances across it. Many living membranes move water and other substances by active transport. The kidneys, for example, not only use osmosis and dialysis—they also employ significant active transport to move substances into and out of blood. In fact, it is estimated that at least 25% of the body’s energy is expended on active transport of substances at the cellular level. The study of active transport carries us into the realms of microbiology, biophysics, and biochemistry and it is a fascinating application of the laws of nature to living structures.",
         "inline": []
       },
       "level": "core"
@@ -343,7 +343,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "where $D$ is the diffusion constant, representative values of which are found in .",
+        "text": "where $D$ is the diffusion constant, representative values of which are found in the table.",
         "inline": []
       },
       "level": "core"
@@ -413,7 +413,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "You can smell perfume very shortly after opening the bottle. To show that it is not reaching your nose by diffusion, calculate the average distance a perfume molecule moves in one second in air, given its diffusion constant $D$ to be $1.00×{10}^{–6}{m}^{2}/s$ .",
+        "text": "You can smell perfume very shortly after opening the bottle. To show that it is not reaching your nose by diffusion, calculate the average distance a perfume molecule moves in one second in air, given its diffusion constant $D$ to be $1.00\\times {10}^{–6} {m}^{2}/s$.",
         "inline": []
       },
       "level": "core",
@@ -482,7 +482,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Find the average time required for an oxygen molecule to diffuse through a 0.200-mm-thick tear layer on the cornea. (b) How much time is required to diffuse $0.500{cm}^{3}$ of oxygen to the cornea if its surface area is $1.00{cm}^{2}$ ?",
+        "text": "(a) Find the average time required for an oxygen molecule to diffuse through a 0.200-mm-thick tear layer on the cornea. (b) How much time is required to diffuse $0.500 {cm}^{3}$ of oxygen to the cornea if its surface area is $1.00 {cm}^{2}$?",
         "inline": []
       },
       "level": "core",

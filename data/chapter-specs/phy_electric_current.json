@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Electric Current, Resistance, and Ohm's Law",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -112,7 +112,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_electric_potential"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -131,24 +133,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "current-electricity",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -187,13 +172,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-49"
+      ]
     },
     {
       "id": "sec-3",
@@ -207,7 +191,15 @@
         "Explain what an ohmic material is.",
         "Describe a simple circuit."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The potential difference across a resistor of $10\\,\\Omega$ carrying $2\\,\\text{A}$ is $5\\,\\text{V}$.",
+          "correction": "Ohm's law gives $V = IR = 2 \\times 10 = 20\\,\\text{V}$. The resistance and the current multiply; the answer is not the current divided by the resistance.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_electric_current:trap-3",
+          "signal": "Our own question offers the halved reading as an option."
+        }
+      ],
       "summary": [
         "A simple circuit is one in which there is a single voltage source and a single resistance.",
         "One statement of Ohm’s law gives the relationship between current I , voltage V , and resistance R in a simple circuit to be I=VR.",
@@ -225,15 +217,22 @@
           "papers": []
         },
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "electric-cells",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-24"
+      ]
     },
     {
       "id": "sec-4",
@@ -271,13 +270,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-34"
+      ]
     },
     {
       "id": "sec-5",
@@ -289,7 +287,15 @@
         "Calculate the power dissipated by a resistor and power supplied by a power supply.",
         "Calculate the cost of electricity under various circumstances."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The SI unit of electrical power is the joule.",
+          "correction": "Power is measured in watts, one joule per second. The joule is the unit of energy, and power is the rate at which energy is used.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_electric_current:trap-4",
+          "signal": "Our own question asks for the unit of power."
+        }
+      ],
       "summary": [
         "Electric power P is the rate (in watts) that energy is supplied by a source or dissipated by a device.",
         "Three expressions for electrical power are P=IV,P=V2R, and P=I2R.",
@@ -301,7 +307,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "current-electricity",
+          "topic_slug": "electrical-energy-and-power",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -309,13 +315,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-43"
+      ]
     },
     {
       "id": "sec-6",
@@ -328,7 +333,18 @@
         "Calculate rms voltage, current, and average power.",
         "Explain why AC current is used for power transmission."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "AC and DC are the same because both can light a bulb.",
+          "correction": "DC flows in one direction with a steady voltage. AC reverses direction periodically. RMS values are used to compare their heating effects.",
+          "signal": "Direction and time variation are the difference."
+        },
+        {
+          "claim": "The peak voltage of an AC supply is the value to use in power calculations.",
+          "correction": "Power calculations use the RMS voltage, V_rms = V₀/√2. The peak is the maximum instantaneous value.",
+          "signal": "A 240 V AC mains supply has a peak of about 339 V."
+        }
+      ],
       "summary": [
         "Direct current (DC) is the flow of electric current in only one direction. It refers to systems where the source voltage is constant.",
         "The voltage source of an alternating current (AC) system puts out V=V0sin 2πft, where V is the voltage at time t, V0 is the peak voltage, and f is the frequency in hertz.",
@@ -340,9 +356,9 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "current-electricity",
+          "topic_slug": "simple-a-c-circuits",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -350,11 +366,30 @@
           "subject": "physics",
           "topic_slug": "waec-simple-a-c-circuits",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-50"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the main difference between direct current and alternating current?",
+          "answer": "Direct current flows in one direction; alternating current reverses direction periodically.",
+          "answer_kind": "explanation",
+          "solution": [
+            "DC has a steady direction.",
+            "AC changes direction, usually sinusoidally.",
+            "Mains electricity is AC; a battery gives DC."
+          ],
+          "tags": [
+            "direct current",
+            "alternating current"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -366,7 +401,18 @@
         "Define thermal hazard, shock hazard, and short circuit.",
         "Explain what effects various levels of current have on the human body."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Voltage alone decides how dangerous an electric shock is.",
+          "correction": "The current through the body, its path, the duration and the frequency matter. Voltage drives the current, but body resistance changes with conditions.",
+          "signal": "Wet skin can make a low voltage dangerous."
+        },
+        {
+          "claim": "A low-voltage source can never give a dangerous shock.",
+          "correction": "If the body’s resistance is low enough, even a low voltage can drive a dangerous current. The path through the body also matters.",
+          "signal": "Treat every source with respect."
+        }
+      ],
       "summary": [
         "The two types of electric hazards are thermal (excessive power) and shock (current through a person).",
         "Shock severity is determined by current, path, duration, and AC frequency.",
@@ -378,21 +424,13 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "current-electricity",
+          "topic_slug": "electrical-energy-and-power",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-52"
+      "no_worked_example_reason": "The source section on Electric Hazards and the Human Body has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-8",
@@ -405,7 +443,18 @@
         "Explain the effects myelin sheaths have on signal propagation.",
         "Explain what the features of an ECG signal indicate."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Nerve signals are ordinary electric currents flowing in wires.",
+          "correction": "Nerve signals are action potentials produced by ions crossing the cell membrane. They are electrochemical waves, not electron flow in metal.",
+          "signal": "The signal travels along the neuron, not through a wire."
+        },
+        {
+          "claim": "An ECG measures the mechanical beating of the heart.",
+          "correction": "An ECG records the electrical activity of the heart as detected at the body surface. Mechanical contraction follows the electrical signal.",
+          "signal": "The trace shows electrical events, not muscle movement directly."
+        }
+      ],
       "summary": [
         "Electric potentials in neurons and other cells are created by ionic concentration differences across semipermeable membranes.",
         "Stimuli change the permeability and create action potentials that propagate along neurons.",
@@ -413,28 +462,203 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "current-electricity",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is an action potential?",
+          "answer": "An electrical signal produced by ions moving across a nerve cell membrane.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Ion concentrations differ across the membrane.",
+            "A stimulus changes the membrane’s permeability.",
+            "The resulting potential difference travels along the neuron."
+          ],
+          "tags": [
+            "action potential",
+            "neuron"
+          ]
         },
         {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What does an ECG measure?",
+          "answer": "The electrical activity of the heart, detected at the body surface.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The heart generates electrical signals.",
+            "These signals spread through the body.",
+            "Electrodes on the skin record them as an ECG."
+          ],
+          "tags": [
+            "ecg",
+            "heart"
+          ]
         }
       ],
-      "worked_from": "exr-38"
+      "no_exam_link_reason": "Nerve conduction and electrocardiography are applied biology and are not named in either syllabus.",
+      "no_worked_example_reason": "The source section on Nerve Conduction–Electrocardiograms has no worked example; the teaching text derives the key results and the practice set applies them."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$I = \\frac{\\Delta Q}{\\Delta t}$",
+      "caption": {
+        "text": "Electric current",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The rate at which charge passes a point.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42341/index.cnxml",
+        "locator": "CNXML module m42341, section “Current”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$V = IR$",
+      "caption": {
+        "text": "Ohm’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an ohmic conductor at constant temperature.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42344/index.cnxml",
+        "locator": "CNXML module m42344, section “Ohm’s Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$R = \\frac{\\rho L}{A}$",
+      "caption": {
+        "text": "Resistance of a wire",
+        "inline": []
+      },
+      "conditions": {
+        "text": "ρ is the resistivity, L the length and A the cross-sectional area.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42346/index.cnxml",
+        "locator": "CNXML module m42346, section “Resistance and Resistivity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$P = IV = I^2R = \\frac{V^2}{R}$",
+      "caption": {
+        "text": "Electrical power",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The rate at which a device uses or dissipates electrical energy.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42714/index.cnxml",
+        "locator": "CNXML module m42714, section “Electric Power and Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$E = Pt$",
+      "caption": {
+        "text": "Electrical energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The energy used by a device of power P in time t.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42714/index.cnxml",
+        "locator": "CNXML module m42714, section “Electric Power and Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}}$",
+      "caption": {
+        "text": "RMS voltage",
+        "inline": []
+      },
+      "conditions": {
+        "text": "V₀ is the peak voltage of a sinusoidal AC supply.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42348/index.cnxml",
+        "locator": "CNXML module m42348, section “Alternating Current versus Direct Current”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}}$",
+      "caption": {
+        "text": "RMS current",
+        "inline": []
+      },
+      "conditions": {
+        "text": "I₀ is the peak current of a sinusoidal AC supply.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42348/index.cnxml",
+        "locator": "CNXML module m42348, section “Alternating Current versus Direct Current”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$P_{\\mathrm{avg}} = I_{\\mathrm{rms}}V_{\\mathrm{rms}}$",
+      "caption": {
+        "text": "Average AC power",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a resistive load with sinusoidal voltage and current.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42348/index.cnxml",
+        "locator": "CNXML module m42348, section “Alternating Current versus Direct Current”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -888,76 +1112,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Current flows through a thicker wire faster.",
-      "correction": "Current is the rate of flow of charge. A thicker wire is a smaller resistance, so more charge passes each second.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The resistance of a wire depends on its length.",
-      "correction": "It depends on the length, the cross section, and the material, and it rises with temperature for most metals.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The potential difference across a resistor of $10\\,\\Omega$ carrying $2\\,\\text{A}$ is $5\\,\\text{V}$.",
-      "correction": "Ohm's law gives $V = IR = 2 \\times 10 = 20\\,\\text{V}$. The resistance and the current multiply; the answer is not the current divided by the resistance.",
-      "signal": "Our own question offers the halved reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The SI unit of electrical power is the joule.",
-      "correction": "Power is measured in watts, one joule per second. The joule is the unit of energy, and power is the rate at which energy is used.",
-      "signal": "Our own question asks for the unit of power.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1103,6 +1258,64 @@
       "explanation": "A transformer works only on alternating current, so AC can be raised to a high voltage for transmission and lowered again for use.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "The severity of an electric shock to a person depends mainly on",
+      "options": [
+        {
+          "id": "a",
+          "text": "the voltage of the source alone"
+        },
+        {
+          "id": "b",
+          "text": "the current through the body, its path and duration"
+        },
+        {
+          "id": "c",
+          "text": "the colour of the wires"
+        },
+        {
+          "id": "d",
+          "text": "the resistance of the floor only"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Current, path, duration and frequency determine the physiological effect. Voltage matters because it drives the current, but body resistance also matters.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "An electrocardiogram (ECG) records",
+      "options": [
+        {
+          "id": "a",
+          "text": "the electrical activity of the heart"
+        },
+        {
+          "id": "b",
+          "text": "the mechanical force of the heart"
+        },
+        {
+          "id": "c",
+          "text": "the sound of the heart valves"
+        },
+        {
+          "id": "d",
+          "text": "the blood pressure in the arteries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The ECG detects the electrical signals that spread through the heart and reach the body surface. It is not a direct measure of mechanical force or pressure.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1113,5 +1326,71 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Electric Current, Resistance, and Ohm's Law', modules m42339, m42341, m42344, m42346, m42714, m42348, m42350, m42352",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 20,
+  "exercise_fixes": {
+    "sec-2:exr-84": {
+      "stem": "(a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10,000-V potential . What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power: $P={I}^{2}R$ .)"
+    },
+    "sec-2:exr-111": {
+      "stem": "SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerator (closed in 2009), has a 20.0-A circulating beam of electrons that are moving at nearly the speed of light. How many electrons are in the beam?"
+    },
+    "sec-5:exr-75": {
+      "stem": "An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost of running it for one year if electricity costs $12.0 cents/kW\\cdot h$ ?",
+      "answer": "438 dollars per year",
+      "solution": [
+        "The heater uses $E=Pt=(5.00\\ \\mathrm{kW})(2.00\\ \\mathrm{h/day})(365\\ \\mathrm{days})=3.65\\times10^{3}\\ \\mathrm{kWh}$ per year.",
+        "At 12.0 cents per kWh, the cost is $(3.65\\times10^{3})(0.120)=438$ dollars per year."
+      ]
+    },
+    "sec-5:exr-107": {
+      "stem": "Integrated Concepts (a) Assuming 95.0% efficiency for the conversion of electrical power by the motor, what current must the 12.0-V batteries of a 750-kg electric car be able to supply: (a) To accelerate from rest to 25.0 m/s in 1.00 min? (b) To climb a $2.00×{10}^{2}-m$ -high hill in 2.00 min at a constant 25.0-m/s speed while exerting $5.00×{10}^{2}N$ of force to overcome air resistance and friction? (c) To travel at a constant 25.0-m/s speed, exerting a $5.00×{10}^{2}N$ force to overcome air resistance and friction?"
+    },
+    "sec-4:exr-40": {
+      "stem": "The resistances of two wires having the same lengths and cross-sectional areas are 3 Ω and 11 Ω. If the resistivity of the 3 Ω wire is $2.65×10^{-8}Ω\\cdot m$, find the resistivity of the 11 Ω wire.",
+      "answer": "$9.72×10^{-8}Ω\\cdot m$",
+      "solution": [
+        "For wires of equal length and area, $R∝ρ$, so $ρ_{2}=ρ_{1}(R_{2}/R_{1})$ .",
+        "$ρ_{2}=(2.65×10^{-8})(11/3)=9.72×10^{-8}Ω\\cdot m$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem called the second wire 'the 1 Ω wire'"
+    },
+    "sec-8:exr-42": {
+      "stem": "Critical Thinking A copper wire of length 1.25 m is in a circuit. A current of 2.50 A flows through the wire. (a) Initially, the circuit is at $20.0°C$ . If there is an energy loss of 3.25 mJ in the first second caused by the wire as soon as the circuit is turned on, what is the radius of the wire? (b) After the wire heats by 3.000°C, how much energy is dissipated by the circuit per second? Neglect thermal expansion. Assume the current is maintained. (c) At what temperature will the energy dissipation be 1.00% higher than it was at the beginning of the experiment?",
+      "answer": "(a) 3.63 mm (b) 3.3 mJ each second (c) about 22.6°C",
+      "solution": [
+        "(a) $P=3.25×10^{-3}W$ and $P=I^{2}R$, so $R=P/I^{2}=3.25×10^{-3}/(2.50)^{2}=5.20×10^{-4}Ω$ . Then $R=ρL/A=ρL/(πr^{2})$, giving $r=\\sqrt{ρL/(πR)}=\\sqrt{(1.72×10^{-8})(1.25)/(π×5.20×10^{-4})}=3.63×10^{-3}m$ .",
+        "(b) For copper $α=3.9×10^{-3}/°C$, so $R'=R[1+α(3.000)]=5.26×10^{-4}Ω$ and $P'=I^{2}R'=(2.50)^{2}(5.26×10^{-4})=3.29×10^{-3}W≈3.3mJ/s$ .",
+        "(c) A 1.00% increase in power needs a 1.00% increase in resistance: $ΔT=0.0100/α=0.0100/(3.9×10^{-3})=2.56°C$, so $T=20.0+2.56≈22.6°C$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem said MJ instead of mJ, and the source solution mislabelled millijoules as joules"
+    },
+    "sec-5:exr-80": {
+      "stem": "A 60-W incandescent bulb costs 25 cents and lasts 1000 h. A compact fluorescent lamp (CFL) gives the same light output using 15 W, costs 1.50 dollars, and lasts 10,000 h. Electricity costs 10 cents/kWh. What is the maximum cost of the CFL for the total cost (capital plus operation) over 1000 h of use to equal that of the incandescent bulb?",
+      "answer": "47.50 dollars",
+      "solution": [
+        "Incandescent over 1000 h: energy $=60\\ \\mathrm{W}\\times1000\\ \\mathrm{h}=60\\ \\mathrm{kWh}$, costing 6.00 dollars, plus 0.25 dollars for the bulb, for a total of 6.25 dollars.",
+        "CFL over 1000 h: energy $=15\\ \\mathrm{W}\\times1000\\ \\mathrm{h}=15\\ \\mathrm{kWh}$, costing 1.50 dollars. Its capital cost is spread over 10,000 h, so only one tenth counts in 1000 h: $C/10$.",
+        "$C/10+1.50=6.25$, so $C=47.50$ dollars."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer gave the incandescent total cost, not the maximum CFL cost the question asks for"
+    },
+    "sec-5:exr-88": {
+      "answer": "3.94 billion dollars per year",
+      "solution": [
+        "Each television uses $E=Pt=(150\\ \\mathrm{W})(6\\ \\mathrm{h/day})(365\\ \\mathrm{days})=3.29\\times10^{5}\\ \\mathrm{Wh}=329\\ \\mathrm{kWh}$ per year.",
+        "For 100 million televisions: $E=(10^{8})(329)=3.29\\times10^{10}\\ \\mathrm{kWh}$ per year.",
+        "At 12.0 cents per kWh, the cost is $(3.29\\times10^{10})(0.120)=3.94\\times10^{9}$ dollars per year, or about 3.94 billion dollars."
+      ]
+    },
+    "sec-2:exr-90": {
+      "stem": "(a) A defibrillator passes 12.0 A of current through the torso of a person for 0.0100 s. How much charge moves? (b) How many electrons pass through the wires connected to the patient?"
+    },
+    "sec-8:exr-38": {
+      "stem": "An ECG trace shows that the time between successive R waves is 0.750 s. Assuming a constant time between beats, determine the heart rate in beats per minute.",
+      "solution": [
+        "The heart rate is the number of beats per minute. With one beat every 0.750 s, there are $60.0/0.750=80$ beats per minute."
+      ]
+    }
+  }
 }

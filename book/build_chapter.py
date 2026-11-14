@@ -78,6 +78,56 @@ def classify(prompt):
     return "algebraic"
 
 
+CHOICE_ANSWER = re.compile(r"^(?:\([a-e]\)(?:\s*,\s*)?)+$", re.I)
+CHOICE_MARKER = re.compile(r"(?:^|[\s(])([a-e])\)\s", re.I)
+
+
+def split_choices(prompt):
+    """Split a flattened multiple choice prompt into its stem and options.
+
+    The scraper flattens the options into one line: the stem, then the
+    options separated by semicolons, the first option glued to the stem. The
+    answer is a letter, which refers to the options by position. Returns
+    (stem, options) or None when the prompt is not a clean set of choices.
+    """
+    text = " ".join(prompt.split())
+    # Some prompts label their options inline: "(a) ... (b) ... (c) ...".
+    markers = list(CHOICE_MARKER.finditer(text))
+    if len(markers) >= 3:
+        letters = [marker.group(1).lower() for marker in markers]
+        if letters == list("abcde")[: len(letters)]:
+            stem = text[: markers[0].start()].strip()
+            options = []
+            for index, marker in enumerate(markers):
+                end = (
+                    markers[index + 1].start()
+                    if index + 1 < len(markers)
+                    else len(text)
+                )
+                option = text[marker.end() : end].strip()
+                if option.endswith("."):
+                    option = option[:-1].strip()
+                options.append(option)
+            if stem and all(options) and len(set(options)) == len(options):
+                return stem, options
+    # The usual shape: "Question? option one; option two; option three."
+    question = text.rfind("?")
+    if question != -1:
+        stem = text[: question + 1].strip()
+        tail = text[question + 1 :].strip()
+        options = []
+        for option in tail.split(";"):
+            option = option.strip()
+            if not option:
+                continue
+            if option.endswith("."):
+                option = option[:-1].strip()
+            options.append(option)
+        if len(options) >= 2 and len(set(options)) == len(options):
+            return stem, options
+    return None
+
+
 def answer_from(parts, kind):
     """The answer as the source states it, never a newly written one."""
     rendered = render_parts([p for paragraph in parts for p in paragraph])
@@ -153,7 +203,46 @@ def tier_for_grouping(grouping):
     return GROUP_TIERS.get((grouping or "").strip().lower(), "core")
 
 
-def source_blocks(document, module, solutions, manifest):
+# Placeholder prose the scraper leaves behind for an embedded widget. It is
+# not teaching and it must not reach a reader.
+PLACEHOLDER_PARAGRAPHS = {
+    "click to view content",
+    "click to view content .",
+    "click to view content.",
+}
+
+# Headings that start the back matter of a source module. Once one appears,
+# the blocks that follow are summary bullets, questions or exercises, not
+# teaching. The exercises are still collected; their prose is not.
+TAIL_HEADINGS = {
+    "section summary",
+    "summary",
+    "key concepts",
+    "key equations",
+    "key terms",
+    "conceptual questions",
+    "conceptual question",
+    "problems & exercises",
+    "problems & exercise",
+    "problem exercises",
+    "problem exercise",
+    "problems exercises",
+    "problems-exercises",
+    "test prep for ap courses",
+    "section exercises",
+    "multiple choice",
+    "short answer",
+    "chapter review",
+    "chapter test",
+    "projects",
+    "videos",
+    "references",
+    "glossary",
+    "further reading",
+}
+
+
+def source_blocks(document, module, solutions, manifest, caption_overrides=None):
     """Teaching blocks, worked examples and exercises, from the source."""
     blocks = document["blocks"]
     source = document.get("source_attribution") or {}
@@ -163,6 +252,9 @@ def source_blocks(document, module, solutions, manifest):
     exercises = []
     pending = None
     grouping = None
+    in_tail = False
+    skip_exercise_prose = False
+    seen_text: set[str] = set()
     skipped: list[tuple[str, str]] = []
 
     def provenance(locator):
@@ -174,26 +266,45 @@ def source_blocks(document, module, solutions, manifest):
             "licence": source.get("licence") or "",
         }
 
+    caption_overrides = caption_overrides or {}
     for block in blocks:
         kind = block.get("type")
+        if kind in ("heading", "example", "exercise"):
+            skip_exercise_prose = False
         if pending is not None and kind in ("heading", "example", "figure"):
             worked.append(pending)
             pending = None
         if kind == "heading":
             title = block["text"]["text"].strip()
             grouping = title
-            if title in {"Learning Objectives", "Section Summary", "Conceptual Questions", "Test Prep for AP Courses"}:
+            if title.lower() in TAIL_HEADINGS:
+                in_tail = True
+                continue
+            if title in {"Learning Objectives"}:
+                continue
+            if in_tail:
                 continue
             teaching.append({"id": f"b-{len(teaching) + 1}", "type": "heading", "text": rt(title)})
         elif kind == "paragraph":
+            if in_tail:
+                continue
             text = block["content"]["text"].strip()
             if text.startswith("By the end of this section, you will be able to"):
                 continue
             if pending is not None:
                 pending["solution"].append(text)
                 continue
+            if skip_exercise_prose:
+                continue
+            if " ".join(text.split()).lower() in PLACEHOLDER_PARAGRAPHS:
+                continue
+            if text in seen_text:
+                continue
+            seen_text.add(text)
             teaching.append({"id": f"b-{len(teaching) + 1}", "type": "paragraph", "content": rt(text)})
         elif kind == "figure":
+            if in_tail or skip_exercise_prose:
+                continue
             asset = block.get("asset_url") or ""
             reason = book_media.was_rejected(manifest, asset)
             if reason:
@@ -206,15 +317,20 @@ def source_blocks(document, module, solutions, manifest):
                 raise SystemExit(
                     f"figure {asset} has not been published: run book/publish_book_images.py"
                 )
+            caption = block.get("caption") or {}
+            if not str(caption.get("text") or "").strip():
+                caption = rt(caption_overrides.get(asset, ""))
             teaching.append({
                 "id": f"b-{len(teaching) + 1}",
                 "type": "figure",
                 "asset_url": published,
-                "caption": block.get("caption") or rt(""),
+                "caption": caption,
                 "alt": block.get("alt") or "",
                 "licence": source.get("licence") or "",
             })
         elif kind == "example":
+            if in_tail:
+                continue
             pending = {
                 "id": f"we-{block['id']}",
                 "statement": rt((block.get("title") or {}).get("text", "")),
@@ -222,6 +338,7 @@ def source_blocks(document, module, solutions, manifest):
                 "provenance": provenance(f"CNXML module {module}, worked example"),
             }
         elif kind == "exercise":
+            skip_exercise_prose = True
             key = f"{book}:{module}:{block['id']}"
             paragraphs = solutions.get(key)
             if not paragraphs:
@@ -229,6 +346,18 @@ def source_blocks(document, module, solutions, manifest):
             prompt = (block.get("prompt") or {}).get("text", "").strip()
             if not prompt:
                 continue
+            solution_text = render_parts(
+                [p for paragraph in paragraphs for p in paragraph]
+            )
+            options = []
+            if CHOICE_ANSWER.fullmatch(solution_text.strip()):
+                choices = split_choices(prompt)
+                if choices is not None:
+                    prompt, choices = choices
+                    options = [
+                        {"id": chr(ord("a") + index), "text": text}
+                        for index, text in enumerate(choices)
+                    ]
             kind_label = classify(prompt)
             if kind_label == "application" or len(paragraphs) > 2:
                 answer, answer_kind = render_parts(
@@ -247,6 +376,7 @@ def source_blocks(document, module, solutions, manifest):
                 "block_id": block["id"],
                 "kind": kind_label,
                 "stem": rt(prompt),
+                "options": options,
                 "answer": rt(answer),
                 "answer_kind": answer_kind,
                 "solution": steps,
@@ -299,7 +429,13 @@ def build(spec):
                 source_worked,
                 source_exercises,
                 skipped,
-            ) = source_blocks(document, module, solutions, manifest)
+            ) = source_blocks(
+                document,
+                module,
+                solutions,
+                manifest,
+                section_spec.get("figure_captions", {}),
+            )
 
         teaching = list(source_teaching)
         for position, block in enumerate(section_spec.get("blocks", []), start=len(teaching) + 1):
@@ -313,8 +449,16 @@ def build(spec):
 
         plan = section_spec.get("exercise_plan", {})
         promoted = section_spec.get("worked_from")
+        fixes = spec.get("exercise_fixes", {})
         section_exercises = []
         for source_exercise in source_exercises:
+            # Fixes are keyed per section, because source block ids repeat
+            # across the modules of a chapter.
+            fix = fixes.get(f"{section_id}:{source_exercise['block_id']}", {})
+            if fix.get("drop"):
+                # The source exercise leans on a figure we do not ship, so it
+                # cannot be solved from the section. It does not ship either.
+                continue
             if not source_exercise["solution"]:
                 # The source has the exercise but nothing readable for the
                 # solution. An exercise without a solution is not an
@@ -347,6 +491,21 @@ def build(spec):
             difficulty = override.get("difficulty", default_difficulty)
             marks = override.get("marks", max(1, min(5, difficulty)))
             kind = override.get("kind", source_exercise["kind"])
+            fix_stem = fix.get("stem")
+            if fix_stem is None:
+                rendered_stem = source_exercise["stem"]
+            elif isinstance(fix_stem, str):
+                rendered_stem = rt(fix_stem)
+            else:
+                rendered_stem = fix_stem
+            fix_solution = fix.get("solution")
+            if fix_solution is not None and fix_solution and isinstance(fix_solution[0], str):
+                # A fix may supply plain solution sentences; shape them like
+                # the source solution steps.
+                fix_solution = [
+                    {"step_number": index + 1, "expression": step}
+                    for index, step in enumerate(fix_solution)
+                ]
             exercise = {
                 "id": exercise_id,
                 "section_id": section_id,
@@ -354,14 +513,16 @@ def build(spec):
                 "kind": kind,
                 "difficulty": difficulty,
                 "marks": marks,
-                "stem": source_exercise["stem"],
-                "options": override.get("options", []),
-                "answer": source_exercise["answer"],
-                "answer_kind": source_exercise["answer_kind"],
-                "solution": source_exercise["solution"],
+                "stem": rendered_stem,
+                "options": fix.get("options", source_exercise.get("options", [])),
+                "answer": rt(fix["answer"]) if fix.get("answer") else source_exercise["answer"],
+                "answer_kind": fix.get("answer_kind", source_exercise["answer_kind"]),
+                "solution": fix_solution or source_exercise["solution"],
                 "tags": section_spec.get("tags") or [slugify(section_spec["title"])],
                 "provenance": source_exercise["provenance"],
-                "solution_provenance": source_exercise["solution_provenance"],
+                "solution_provenance": fix.get(
+                    "solution_provenance", source_exercise["solution_provenance"]
+                ),
             }
             hints = override.get("hints")
             if hints:
@@ -370,6 +531,82 @@ def build(spec):
                     for index, hint in enumerate(hints)
                 ]
             section_exercises.append(exercise)
+
+        # Exercises we write ourselves. They are used when the source has no
+        # readable solution, when a section needs a warm-up, or when a
+        # section has fewer than three exercises. The prompt and the solution
+        # are ours, so the provenance says so.
+        for authored in section_spec.get("authored_exercises", []):
+            number += 1
+            exercise_id = f"ex-{section_id}-{len(section_exercises) + 1:02d}"
+            tier = authored.get("tier", "core")
+            default_difficulty = {"warm_up": 1, "core": 3, "stretch": 4}.get(tier, 3)
+            difficulty = authored.get("difficulty", default_difficulty)
+            steps = []
+            for step_number, expression in enumerate(authored.get("solution", []), start=1):
+                steps.append({"step_number": step_number, "expression": expression})
+            exercise = {
+                "id": exercise_id,
+                "section_id": section_id,
+                "tier": tier,
+                "kind": authored.get("kind", "numeric"),
+                "difficulty": difficulty,
+                "marks": authored.get("marks", max(1, min(5, difficulty))),
+                "stem": rt(authored["stem"]),
+                "options": authored.get("options", []),
+                "answer": rt(authored["answer"]),
+                "answer_kind": authored.get("answer_kind", "expression"),
+                "solution": steps,
+                "tags": authored.get("tags") or section_spec.get("tags") or [slugify(section_spec["title"])],
+                "provenance": {
+                    "publisher": "UTME-Lab",
+                    "title": "Secondary Physics",
+                    "url": (
+                        "https://api.utmelab.com/api/v1/chapters/"
+                        f"{spec['chapter_id']}/sections/{section_id}"
+                    ),
+                    "locator": f"authored exercise for {section_id}",
+                    "licence": spec.get("licence", ""),
+                },
+                "solution_provenance": authored.get(
+                    "solution_provenance",
+                    "authored by UTME-Lab and checked against the section's teaching text",
+                ),
+            }
+            hints = authored.get("hints")
+            if hints:
+                exercise["hints"] = [
+                    {"hint_number": index + 1, "text": rt(hint)}
+                    for index, hint in enumerate(hints)
+                ]
+            section_exercises.append(exercise)
+
+        # Worked example fixes are keyed per section, because source block ids
+        # repeat across the modules of a chapter. They apply after promotion,
+        # so a fixed exercise that becomes the section's worked example is
+        # fixed too. They can drop an example, or replace its statement, steps
+        # and answer.
+        worked_fixes = spec.get("worked_fixes", {})
+        fixed_worked = []
+        for item in worked:
+            fix = worked_fixes.get(f"{section_id}:{item['id']}", {})
+            if fix.get("drop"):
+                continue
+            item = dict(item)
+            statement = fix.get("statement")
+            if statement is not None:
+                item["statement"] = rt(statement)
+            steps = fix.get("steps")
+            if steps is not None:
+                item["steps"] = [
+                    {"step_number": number, "expression": step}
+                    for number, step in enumerate(steps, start=1)
+                ]
+            answer = fix.get("answer")
+            if answer is not None:
+                item["answer"] = rt(answer)
+            fixed_worked.append(item)
+        worked = fixed_worked
 
         section_exam_links = [
             dict(link) for link in section_spec.get("exam_links", [])
@@ -392,6 +629,7 @@ def build(spec):
                     "id": f"mis-{position}",
                     "claim": rt(item["claim"]),
                     "correction": rt(item["correction"]),
+                    **({"signal": rt(item["signal"])} if item.get("signal") else {}),
                     "provenance": {
                         "publisher": spec.get("publisher", "OpenStax"),
                         "title": spec.get("source_title", spec.get("title")),
@@ -415,6 +653,10 @@ def build(spec):
         })
         if section_spec.get("no_worked_example_reason"):
             sections[-1]["no_worked_example_reason"] = section_spec["no_worked_example_reason"]
+        if section_spec.get("no_exercise_reason"):
+            sections[-1]["no_exercise_reason"] = section_spec["no_exercise_reason"]
+        if section_spec.get("no_exam_link_reason"):
+            sections[-1]["no_exam_link_reason"] = section_spec["no_exam_link_reason"]
         exercises.extend(section_exercises)
 
     # The chapter holds the union of its sections' exam links, so a reader of
@@ -449,8 +691,18 @@ def build(spec):
             "status": trap.get("status", "proven"),
             "frequency": trap.get("frequency", "occasional"),
             "provenance": {
-                "publisher": "OpenStax",
-                "title": "College Physics 2e",
+                "publisher": (
+                    "West African Examinations Council (WAEC)"
+                    if trap["exam"] == "WAEC"
+                    else "Joint Admissions and Matriculation Board (JAMB)"
+                    if trap["exam"] == "JAMB"
+                    else trap["exam"]
+                ),
+                "title": (
+                    f"{trap['exam']} Physics {trap['paper_evidence']['year']}"
+                    if trap["paper_evidence"].get("year")
+                    else f"{trap['exam']} Physics past paper"
+                ),
                 "url": trap["paper_evidence"].get("url") or (
                     "https://api.utmelab.com/api/v1/chapters/"
                     f"{spec['chapter_id']}/sections/{trap['section_id']}"
@@ -460,7 +712,10 @@ def build(spec):
                     if trap["paper_evidence"].get("question_id")
                     else f"our practice question {trap['paper_evidence'].get('check_id')}"
                 ),
-                "licence": spec.get("licence", ""),
+                "licence": (
+                    "Past-paper question quoted for evidence; rights remain with the "
+                    "examination board."
+                ),
             },
         })
 
@@ -486,6 +741,7 @@ def build(spec):
         "title": spec["title"],
         "book_id": spec["book_id"],
         "part_id": spec.get("part_id"),
+        "order": spec.get("order"),
         "facts_inherited": bool(spec.get("facts_inherited")),
         "learning_objectives": [
             objective if isinstance(objective, dict)
@@ -502,6 +758,9 @@ def build(spec):
         "exam_recall_checks": recall,
         "sources": spec.get("sources", []),
     }
+    for key in ("no_formula_reason", "no_exam_link_reason", "no_trap_reason"):
+        if spec.get(key):
+            chapter[key] = spec[key]
     return chapter
 
 

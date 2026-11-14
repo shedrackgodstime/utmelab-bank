@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, electric current $I$ is defined to be",
+        "text": "Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, electric current $I$ is defined to be $I=\\frac{ΔQ}{Δt},$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔQ$ is the amount of charge passing through a given area in time $Δt$ . (As in previous chapters, initial time is often taken to be zero, in which case $Δt=t$ .) (See .) The SI unit for current is the ampere (A), named for the French physicist André-Marie Ampère (1775–1836). Since $I=ΔQ/Δt$ , we see that an ampere is one coulomb per second:",
+        "text": "where $ΔQ$ is the amount of charge passing through a given area in time $Δt$. (As in previous chapters, initial time is often taken to be zero, in which case $Δt=t$.) (See the figure.) The SI unit for current is the ampere (A), named for the French physicist André-Marie Ampère (1775–1836). Since $I=ΔQ/Δt$, we see that an ampere is one coulomb per second: $1 A=1 C/s$",
         "inline": []
       },
       "level": "core"
@@ -113,7 +113,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values for charge and time into the definition of current gives",
+        "text": "Entering the given values for charge and time into the definition of current gives $I = \\frac{ΔQ}{Δt}=\\frac{720 C}{4.00 s}=180 C/s = 180 A.$",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Solving the relationship $I=ΔQ/Δt$ for time $Δt$ , and entering the known values for charge and current gives",
+        "text": "Solving the relationship $I=ΔQ/Δt$ for time $Δt$, and entering the known values for charge and current gives $Δ t = \\frac{ΔQ}{I}=\\frac{1.00 C}{0.300×{10}^{-3} C/s} = 3.33×{10}^{3} s.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "shows a simple circuit and the standard schematic representation of a battery, conducting path, and load (a resistor). Schematics are very useful in visualizing the main features of a circuit. A single schematic can represent a wide variety of situations. The schematic in (b), for example, can represent anything from a truck battery connected to a headlight lighting the street in front of the truck to a small battery connected to a penlight lighting a keyhole in a door. Such schematics are useful because the analysis is the same for a wide variety of situations. We need to understand a few schematics to apply the concepts and analysis to many more situations.",
+        "text": "The figure shows a simple circuit and the standard schematic representation of a battery, conducting path, and load (a resistor). Schematics are very useful in visualizing the main features of a circuit. A single schematic can represent a wide variety of situations. The schematic in the figure (b), for example, can represent anything from a truck battery connected to a headlight lighting the street in front of the truck to a small battery connected to a penlight lighting a keyhole in a door. Such schematics are useful because the analysis is the same for a wide variety of situations. We need to understand a few schematics to apply the concepts and analysis to many more situations.",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Note that the direction of current flow in is from positive to negative. *The direction of conventional current is the direction that positive charge would flow* . Depending on the situation, positive charges, negative charges, or both may move. In metal wires, for example, current is carried by electrons—that is, negative charges move. In ionic solutions, such as salt water, both positive and negative charges move. This is also true in nerve cells. A Van de Graaff generator used for nuclear research can produce a current of pure positive charges, such as protons. illustrates the movement of charged particles that compose a current. The fact that conventional current is taken to be in the direction that positive charge would flow can be traced back to American politician and scientist Benjamin Franklin in the 1700s. He named the type of charge associated with electrons negative, long before they were known to carry current in so many situations. Franklin, in fact, was totally unaware of the small-scale structure of electricity.",
+        "text": "Note that the direction of current flow in the figure is from positive to negative. *The direction of conventional current is the direction that positive charge would flow*. Depending on the situation, positive charges, negative charges, or both may move. In metal wires, for example, current is carried by electrons—that is, negative charges move. In ionic solutions, such as salt water, both positive and negative charges move. This is also true in nerve cells. A Van de Graaff generator used for nuclear research can produce a current of pure positive charges, such as protons. The figure illustrates the movement of charged particles that compose a current. The fact that conventional current is taken to be in the direction that positive charge would flow can be traced back to American politician and scientist Benjamin Franklin in the 1700s. He named the type of charge associated with electrons negative, long before they were known to carry current in so many situations. Franklin, in fact, was totally unaware of the small-scale structure of electricity.",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "It is important to realize that there is an electric field in conductors responsible for producing the current, as illustrated in . Unlike static electricity, where a conductor in equilibrium cannot have an electric field in it, conductors carrying a current have an electric field and are not in static equilibrium. An electric field is needed to supply energy to move the charges.",
+        "text": "It is important to realize that there is an electric field in conductors responsible for producing the current, as illustrated in the figure. Unlike static electricity, where a conductor in equilibrium cannot have an electric field in it, conductors carrying a current have an electric field and are not in static equilibrium. An electric field is needed to supply energy to move the charges.",
         "inline": []
       },
       "level": "core"
@@ -235,7 +235,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "If the 0.300-mA current through the calculator mentioned in the example is carried by electrons, how many electrons per second pass through it?",
+        "text": "If the 0.300-mA current through the calculator mentioned in the the example example is carried by electrons, how many electrons per second pass through it?",
         "inline": []
       },
       "level": "core"
@@ -244,7 +244,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The current calculated in the previous example was defined for the flow of positive charge. For electrons, the magnitude is the same, but the sign is opposite, ${I}_{electrons}=-0.300×{10}^{−3}C/s$ .Since each electron $({e}^{-})$ has a charge of $–1.60×{10}^{-19}C$ , we can convert the current in coulombs per second to electrons per second.",
+        "text": "The current calculated in the previous example was defined for the flow of positive charge. For electrons, the magnitude is the same, but the sign is opposite, ${I}_{electrons}=-0.300\\times {10}^{−3 }C/s$.Since each electron $({e}^{-})$ has a charge of $–1.60\\times {10}^{-19} C$, we can convert the current in coulombs per second to electrons per second.",
         "inline": []
       },
       "level": "core"
@@ -253,7 +253,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Starting with the definition of current, we have",
+        "text": "Starting with the definition of current, we have ${I}_{electrons}=\\frac{Δ{Q}_{electrons}}{Δt}=\\frac{–0.300\\times {10}^{-3} C}{s}.$",
         "inline": []
       },
       "level": "core"
@@ -262,7 +262,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "We divide this by the charge per electron, so that",
+        "text": "We divide this by the charge per electron, so that $\\frac{{e}^{–}}{s} = \\frac{–0.300×{10}^{-3} C}{s}×\\frac{1 {e}^{–}}{–1.60×{10}^{-19} C} = 1.88×{10}^{15} \\frac{{e}^{–}}{s}.$",
         "inline": []
       },
       "level": "core"
@@ -289,7 +289,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Electrical signals are known to move very rapidly. Telephone conversations carried by currents in wires cover large distances without noticeable delays. Lights come on as soon as a switch is flicked. Most electrical signals carried by currents travel at speeds on the order of ${10}^{8}m/s$ , a significant fraction of the speed of light. Interestingly, the individual charges that make up the current move *much* more slowly on average, typically drifting at speeds on the order of ${10}^{-4}m/s$ . How do we reconcile these two speeds, and what does it tell us about standard conductors?",
+        "text": "Electrical signals are known to move very rapidly. Telephone conversations carried by currents in wires cover large distances without noticeable delays. Lights come on as soon as a switch is flicked. Most electrical signals carried by currents travel at speeds on the order of ${10}^{8} m/s$, a significant fraction of the speed of light. Interestingly, the individual charges that make up the current move *much* more slowly on average, typically drifting at speeds on the order of ${10}^{-4} m/s$. How do we reconcile these two speeds, and what does it tell us about standard conductors?",
         "inline": []
       },
       "level": "core"
@@ -298,7 +298,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The high speed of electrical signals results from the fact that the force between charges acts rapidly at a distance. Thus, when a free charge is forced into a wire, as in , the incoming charge pushes other charges ahead of it, which in turn push on charges farther down the line. The density of charge in a system cannot easily be increased, and so the signal is passed on rapidly. The resulting electrical shock wave moves through the system at nearly the speed of light. To be precise, this rapidly moving signal or shock wave is a rapidly propagating change in electric field.",
+        "text": "The high speed of electrical signals results from the fact that the force between charges acts rapidly at a distance. Thus, when a free charge is forced into a wire, as in the figure, the incoming charge pushes other charges ahead of it, which in turn push on charges farther down the line. The density of charge in a system cannot easily be increased, and so the signal is passed on rapidly. The resulting electrical shock wave moves through the system at nearly the speed of light. To be precise, this rapidly moving signal or shock wave is a rapidly propagating change in electric field.",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Good conductors have large numbers of free charges in them. In metals, the free charges are free electrons. shows how free electrons move through an ordinary conductor. The distance that an individual electron can move between collisions with atoms or other electrons is quite small. The electron paths thus appear nearly random, like the motion of atoms in a gas. But there is an electric field in the conductor that causes the electrons to drift in the direction shown (opposite to the field, since they are negative). The drift velocity ${v}_{d}$ is the average velocity of the free charges. Drift velocity is quite small, since there are so many free charges. If we have an estimate of the density of free electrons in a conductor, we can calculate the drift velocity for a given current. The larger the density, the lower the velocity required for a given current.",
+        "text": "Good conductors have large numbers of free charges in them. In metals, the free charges are free electrons. The figure shows how free electrons move through an ordinary conductor. The distance that an individual electron can move between collisions with atoms or other electrons is quite small. The electron paths thus appear nearly random, like the motion of atoms in a gas. But there is an electric field in the conductor that causes the electrons to drift in the direction shown (opposite to the field, since they are negative). The drift velocity ${v}_{d}$ is the average velocity of the free charges. Drift velocity is quite small, since there are so many free charges. If we have an estimate of the density of free electrons in a conductor, we can calculate the drift velocity for a given current. The larger the density, the lower the velocity required for a given current.",
         "inline": []
       },
       "level": "core"
@@ -369,7 +369,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "We can obtain an expression for the relationship between current and drift velocity by considering the number of free charges in a segment of wire, as illustrated in . *The number of free charges per unit volume* is given the symbol $n$ and depends on the material. The shaded segment has a volume $Ax$ , so that the number of free charges in it is $nAx$ . The charge $ΔQ$ in this segment is thus $qnAx$ , where $q$ is the amount of charge on each carrier. (Recall that for electrons, $q$ is $-1.60×{10}^{-19}C$ .) Current is charge moved per unit time; thus, if all the original charges move out of this segment in time $Δt$ , the current is",
+        "text": "We can obtain an expression for the relationship between current and drift velocity by considering the number of free charges in a segment of wire, as illustrated in the figure. *The number of free charges per unit volume* is given the symbol $n$ and depends on the material. The shaded segment has a volume $Ax$, so that the number of free charges in it is $nAx$. The charge $ΔQ$ in this segment is thus $qnAx$, where $q$ is the amount of charge on each carrier. (Recall that for electrons, $q$ is $-1.60\\times {10}^{-19} C$.) Current is charge moved per unit time; thus, if all the original charges move out of this segment in time $Δt$, the current is $I=\\frac{ΔQ}{Δt}=\\frac{qnAx}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -378,7 +378,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Note that $x/Δt$ is the magnitude of the drift velocity, ${v}_{d}$ , since the charges move an average distance $x$ in a time $Δt$ . Rearranging terms gives",
+        "text": "Note that $x/Δt$ is the magnitude of the drift velocity, ${v}_{d}$, since the charges move an average distance $x$ in a time $Δt$. Rearranging terms gives $I={nqAv}_{d},$",
         "inline": []
       },
       "level": "core"
@@ -387,7 +387,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "where $I$ is the current through a wire of cross-sectional area $A$ made of a material with a free charge density $n$ . The carriers of the current each have charge $q$ and move with a drift velocity of magnitude ${v}_{d}$ .",
+        "text": "where $I$ is the current through a wire of cross-sectional area $A$ made of a material with a free charge density $n$. The carriers of the current each have charge $q$ and move with a drift velocity of magnitude ${v}_{d}$.",
         "inline": []
       },
       "level": "core"
@@ -433,7 +433,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a diameter of 2.053 mm) carrying a 20.0-A current, given that there is one free electron per copper atom. (Household wiring often contains 12-gauge copper wire, and the maximum current allowed in such wire is usually 20 A.) The density of copper is $8.80×{10}^{3}{kg/m}^{3}$ .",
+        "text": "Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a diameter of 2.053 mm) carrying a 20.0-A current, given that there is one free electron per copper atom. (Household wiring often contains 12-gauge copper wire, and the maximum current allowed in such wire is usually 20 A.) The density of copper is $8.80\\times {10}^{3} {kg/m}^{3}$.",
         "inline": []
       },
       "level": "core"
@@ -442,7 +442,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "We can calculate the drift velocity using the equation $I={nqAv}_{d}$ . The current $I=20.0 A$ is given, and $q=-1.60×{10}^{-19}C$ is the charge of an electron. We can calculate the area of a cross-section of the wire using the formula $A=π{r}^{2},$ where $r$ is one-half the given diameter, 2.053 mm. We are given the density of copper, $8.80×{10}^{3}{kg/m}^{3},$ and the periodic table shows that the atomic mass of copper is 63.54 g/mol. We can use these two quantities along with Avogadro’s number, $6.02×{10}^{23}atoms/mol,$ to determine $n,$ the number of free electrons per cubic meter.",
+        "text": "We can calculate the drift velocity using the equation $I={nqAv}_{d}$. The current $I=20.0 A$ is given, and $q= -1.60\\times {10}^{-19}C$ is the charge of an electron. We can calculate the area of a cross-section of the wire using the formula $A=π{r}^{2},$ where $r$ is one-half the given diameter, 2.053 mm. We are given the density of copper, $8.80\\times {10}^{3} {kg/m}^{3},$ and the periodic table shows that the atomic mass of copper is 63.54 g/mol. We can use these two quantities along with Avogadro’s number, $6.02\\times {10}^{23} atoms/mol,$ to determine $n,$ the number of free electrons per cubic meter.",
         "inline": []
       },
       "level": "core"
@@ -451,7 +451,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "First, calculate the density of free electrons in copper. There is one free electron per copper atom. Therefore, is the same as the number of copper atoms per ${m}^{3}$ . We can now find $n$ as follows:",
+        "text": "First, calculate the density of free electrons in copper. There is one free electron per copper atom. Therefore, is the same as the number of copper atoms per ${m}^{3}$. We can now find $n$ as follows: $n = \\frac{1 {e}^{-}}{atom}\\times \\frac{6.02\\times {10}^{23} atoms}{mol}\\times \\frac{1 mol}{63.54 g}\\times \\frac{1000 g}{kg}\\times \\frac{8.80\\times {10}^{3} kg}{{1 m}^{3}} = 8.342\\times {10}^{28} {e}^{-}{/m}^{3}.$",
         "inline": []
       },
       "level": "core"
@@ -460,7 +460,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "The cross-sectional area of the wire is",
+        "text": "The cross-sectional area of the wire is $A = π {r}^{2} = π {(\\frac{2.053\\times {10}^{−3} m}{2})}^{2} = 3.310\\times {10}^{–6} {m}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -469,7 +469,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging $I=nqA{v}_{d}$ to isolate drift velocity gives",
+        "text": "Rearranging $I=nqA{v}_{d}$ to isolate drift velocity gives ${v}_{d}=\\frac{I}{nqA} =\\frac{20.0 A}{(8.342\\times {10}^{28}{/m}^{3})(–1.60\\times {10}^{–19} C)(3.310\\times {10}^{–6} {m}^{2})} =–4.53\\times {10}^{–4} m/s.$",
         "inline": []
       },
       "level": "core"
@@ -478,7 +478,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The minus sign indicates that the negative charges are moving in the direction opposite to conventional current. The small value for drift velocity (on the order of ${10}^{-4}m/s$ ) confirms that the signal moves on the order of ${10}^{12}$ times faster (about ${10}^{8}m/s$ ) than the charges that carry it.",
+        "text": "The minus sign indicates that the negative charges are moving in the direction opposite to conventional current. The small value for drift velocity (on the order of ${10}^{-4} m/s$) confirms that the signal moves on the order of ${10}^{12}$ times faster (about ${10}^{8} m/s$) than the charges that carry it.",
         "inline": []
       },
       "level": "core"
@@ -626,7 +626,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Car batteries are rated in ampere-hours ( $A\\cdot h$ ). To what physical quantity do ampere-hours correspond (voltage, charge, . . .), and what relationship do ampere-hours have to energy content?",
+        "text": "Car batteries are rated in ampere-hours ($A\\cdot h$). To what physical quantity do ampere-hours correspond (voltage, charge,...), and what relationship do ampere-hours have to energy content?",
         "inline": []
       },
       "level": "core",
@@ -647,7 +647,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation ${v}_{d}=\\frac{I}{nqA}$ , by considering how the density of charge carriers $n$ relates to whether or not a material is a good conductor.",
+        "text": "If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation ${v}_{d}=\\frac{I}{nqA}$, by considering how the density of charge carriers $n$ relates to whether or not a material is a good conductor.",
         "inline": []
       },
       "level": "core",
@@ -785,7 +785,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the current when a typical static charge of $0.250μC$ moves from your finger to a metal doorknob in $1.00μs$ ?",
+        "text": "What is the current when a typical static charge of $0.250 μC$ moves from your finger to a metal doorknob in $1.00 μs$?",
         "inline": []
       },
       "level": "core",
@@ -809,7 +809,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the current when 2.00 nC jumps between your comb and hair over a $0.500 -μs$ time interval.",
+        "text": "Find the current when 2.00 nC jumps between your comb and hair over a $0.500 - μs$ time interval.",
         "inline": []
       },
       "level": "core",
@@ -875,7 +875,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10,000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power: $P={I}^{2}R$ .) The capacitor in a defibrillation unit drives a current through the heart of a patient.",
+        "text": "(a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10,000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power: $P={I}^{2}R$.)",
         "inline": []
       },
       "level": "core",
@@ -996,7 +996,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The batteries of a submerged non-nuclear submarine supply 1000 A at full speed ahead. How long does it take to move Avogadro’s number ( $6.02×{10}^{23}$ ) of electrons at this rate?",
+        "text": "The batteries of a submerged non-nuclear submarine supply 1000 A at full speed ahead. How long does it take to move Avogadro’s number ($6.02×{10}^{23}$) of electrons at this rate?",
         "inline": []
       },
       "level": "core",
@@ -1092,7 +1092,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat the above example on , but for a wire made of silver and given there is one free electron per silver atom.",
+        "text": "Repeat the above example on the example, but for a wire made of silver and given there is one free electron per silver atom.",
         "inline": []
       },
       "level": "core",
@@ -1113,7 +1113,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Using the results of the above example on , find the drift velocity in a copper wire of twice the diameter and carrying 20.0 A.",
+        "text": "Using the results of the above example on the example, find the drift velocity in a copper wire of twice the diameter and carrying 20.0 A.",
         "inline": []
       },
       "level": "core",
@@ -1146,7 +1146,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows when the drift velocity is 1.00 mm/s? (See above example on for useful information.)",
+        "text": "A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows when the drift velocity is 1.00 mm/s? (See above example on the example for useful information.)",
         "inline": []
       },
       "level": "core",

@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The expansion of alcohol in a thermometer is one of many commonly encountered examples of thermal expansion , the change in size or volume of a given mass with temperature. Hot air rises because air expands when its temperature increases, which causes the hot air’s density to be smaller than the density of surrounding air. As a result, the buoyant (upward) force on a given mass of air increases when the air is heated, resulting in a net upward force on that air mass. The same happens in all liquids and gases, driving natural heat transfer upwards in homes, oceans, and weather systems. Solids also undergo thermal expansion. Railroad tracks and bridges, for example, have expansion joints to allow them to freely expand and contract with temperature changes.",
+        "text": "The expansion of alcohol in a thermometer is one of many commonly encountered examples of thermal expansion, the change in size or volume of a given mass with temperature. Hot air rises because air expands when its temperature increases, which causes the hot air’s density to be smaller than the density of surrounding air. As a result, the buoyant (upward) force on a given mass of air increases when the air is heated, resulting in a net upward force on that air mass. The same happens in all liquids and gases, driving natural heat transfer upwards in homes, oceans, and weather systems. Solids also undergo thermal expansion. Railroad tracks and bridges, for example, have expansion joints to allow them to freely expand and contract with temperature changes.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "What is the underlying cause of thermal expansion? As is discussed in Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature , an increase in temperature implies an increase in the kinetic energy of the individual atoms. In a solid, unlike in a gas, the atoms or molecules are closely packed together, but their kinetic energy (in the form of small, rapid vibrations) pushes neighboring atoms or molecules apart from each other. This neighbor-to-neighbor pushing results in a slightly greater distance, on average, between neighbors, and adds up to a larger size for the whole body. For most substances under ordinary conditions, there is no preferred direction, and an increase in temperature will increase the solid’s size by a certain fraction in each dimension.",
+        "text": "What is the underlying cause of thermal expansion? As is discussed in Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature, an increase in temperature implies an increase in the kinetic energy of the individual atoms. In a solid, unlike in a gas, the atoms or molecules are closely packed together, but their kinetic energy (in the form of small, rapid vibrations) pushes neighboring atoms or molecules apart from each other. This neighbor-to-neighbor pushing results in a slightly greater distance, on average, between neighbors, and adds up to a larger size for the whole body. For most substances under ordinary conditions, there is no preferred direction, and an increase in temperature will increase the solid’s size by a certain fraction in each dimension.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The change in length $ΔL$ is proportional to length $L$ . The dependence of thermal expansion on temperature, substance, and length is summarized in the equation",
+        "text": "The change in length $ΔL$ is proportional to length $L$. The dependence of thermal expansion on temperature, substance, and length is summarized in the equation $ΔL=αLΔT,$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔL$ is the change in length $L$ , $ΔT$ is the change in temperature, and *$α$* is the coefficient of linear expansion , which varies slightly with temperature.",
+        "text": "where $ΔL$ is the change in length $L$, $ΔT$ is the change in temperature, and *$α$* is the coefficient of linear expansion, which varies slightly with temperature.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "lists representative values of the coefficient of linear expansion, which may have units of $1/ºC$ or 1/K. Because the size of a kelvin and a degree Celsius are the same, both *$α$* and $ΔT$ can be expressed in units of kelvins or degrees Celsius. The equation $ΔL=αLΔT$ is accurate for small changes in temperature and can be used for large changes in temperature if an average value of *$α$* is used.",
+        "text": "The table lists representative values of the coefficient of linear expansion, which may have units of $1/ºC$ or 1/K. Because the size of a kelvin and a degree Celsius are the same, both *$α$* and $ΔT$ can be expressed in units of kelvins or degrees Celsius. The equation $ΔL=αLΔT$ is accurate for small changes in temperature and can be used for large changes in temperature if an average value of *$α$* is used.",
         "inline": []
       },
       "level": "core"
@@ -239,7 +239,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The main span of San Francisco’s Golden Gate Bridge is 1275 m long at its coldest. The bridge is exposed to temperatures ranging from $–15ºC$ to $40ºC$ . What is its change in length between these temperatures? Assume that the bridge is made entirely of steel.",
+        "text": "The main span of San Francisco’s Golden Gate Bridge is 1275 m long at its coldest. The bridge is exposed to temperatures ranging from $–15ºC$ to $40ºC$. What is its change in length between these temperatures? Assume that the bridge is made entirely of steel.",
         "inline": []
       },
       "level": "core"
@@ -248,7 +248,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Use the equation for linear thermal expansion $ΔL=αLΔT$ to calculate the change in length , $ΔL$ . Use the coefficient of linear expansion, $α$ , for steel from , and note that the change in temperature, $ΔT$ , is $55ºC$ .",
+        "text": "Use the equation for linear thermal expansion $ΔL=αLΔT$ to calculate the change in length, $ΔL$. Use the coefficient of linear expansion, $α$, for steel from the table, and note that the change in temperature, $ΔT$, is $55ºC$.",
         "inline": []
       },
       "level": "core"
@@ -257,7 +257,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Plug all of the known values into the equation to solve for $ΔL$ .",
+        "text": "Plug all of the known values into the equation to solve for $ΔL$. $ΔL=αLΔT=(\\frac{12\\times {10}^{-6}}{ºC})(1275 m)(55ºC)=0.84 m.$",
         "inline": []
       },
       "level": "core"
@@ -284,7 +284,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Objects expand in all dimensions, as illustrated in . That is, their areas and volumes, as well as their lengths, increase with temperature. Holes also get larger with temperature. If you cut a hole in a metal plate, the remaining material will expand exactly as it would if the plug was still in place. The plug would get bigger, and so the hole must get bigger too. (Think of the ring of neighboring atoms or molecules on the wall of the hole as pushing each other farther apart as temperature increases. Obviously, the ring of neighbors must get slightly larger, so the hole gets slightly larger).",
+        "text": "Objects expand in all dimensions, as illustrated in the figure. That is, their areas and volumes, as well as their lengths, increase with temperature. Holes also get larger with temperature. If you cut a hole in a metal plate, the remaining material will expand exactly as it would if the plug was still in place. The plug would get bigger, and so the hole must get bigger too. (Think of the ring of neighboring atoms or molecules on the wall of the hole as pushing each other farther apart as temperature increases. Obviously, the ring of neighbors must get slightly larger, so the hole gets slightly larger).",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "For small temperature changes, the change in area $ΔA$ is given by",
+        "text": "For small temperature changes, the change in area $ΔA$ is given by $ΔA=2αAΔT,$",
         "inline": []
       },
       "level": "core"
@@ -302,7 +302,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "where $ΔA$ is the change in area $A$ , $ΔT$ is the change in temperature, and $α$ is the coefficient of linear expansion, which varies slightly with temperature.",
+        "text": "where $ΔA$ is the change in area $A$, $ΔT$ is the change in temperature, and $α$ is the coefficient of linear expansion, which varies slightly with temperature.",
         "inline": []
       },
       "level": "core"
@@ -324,7 +324,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The change in volume $ΔV$ is very nearly $ΔV=3αVΔT$ . This equation is usually written as",
+        "text": "The change in volume $ΔV$ is very nearly $ΔV=3αVΔT$. This equation is usually written as $ΔV=βVΔT,$",
         "inline": []
       },
       "level": "core"
@@ -333,7 +333,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "where *$β$* is the coefficient of volume expansion and $β≈3α$ . Note that the values of *$β$* in are almost exactly equal to $3α$ .",
+        "text": "where *$β$* is the coefficient of volume expansion and $β\\approx 3α$. Note that the values of *$β$* in the table are almost exactly equal to $3α$.",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "In general, objects will expand with increasing temperature. Water is the most important exception to this rule. Water expands with increasing temperature (its density *decreases* ) when it is at temperatures greater than $4ºC(40ºF)$ . However, it expands with *decreasing* temperature when it is between $+4ºC$ and $0ºC$ $(40ºF$ to $32ºF)$ . Water is densest at $+4ºC$ . (See .) Perhaps the most striking effect of this phenomenon is the freezing of water in a pond. When water near the surface cools down to $4ºC$ it is denser than the remaining water and thus will sink to the bottom. This “turnover” results in a layer of warmer water near the surface, which is then cooled. Eventually the pond has a uniform temperature of $4ºC$ . If the temperature in the surface layer drops below $4ºC$ , the water is less dense than the water below, and thus stays near the top. As a result, the pond surface can completely freeze over. The ice on top of liquid water provides an insulating layer from winter’s harsh exterior air temperatures. Fish and other aquatic life can survive in $4ºC$ water beneath ice, due to this unusual characteristic of water. It also produces circulation of water in the pond that is necessary for a healthy ecosystem of the body of water.",
+        "text": "In general, objects will expand with increasing temperature. Water is the most important exception to this rule. Water expands with increasing temperature (its density *decreases*) when it is at temperatures greater than $4ºC(40ºF)$. However, it expands with *decreasing* temperature when it is between $+4ºC$ and $0ºC$ $(40ºF$ to $32ºF)$. Water is densest at $+4ºC$. (See the figure.) Perhaps the most striking effect of this phenomenon is the freezing of water in a pond. When water near the surface cools down to $4ºC$ it is denser than the remaining water and thus will sink to the bottom. This “turnover” results in a layer of warmer water near the surface, which is then cooled. Eventually the pond has a uniform temperature of $4ºC$. If the temperature in the surface layer drops below $4ºC$, the water is less dense than the water below, and thus stays near the top. As a result, the pond surface can completely freeze over. The ice on top of liquid water provides an insulating layer from winter’s harsh exterior air temperatures. Fish and other aquatic life can survive in $4ºC$ water beneath ice, due to this unusual characteristic of water. It also produces circulation of water in the pond that is necessary for a healthy ecosystem of the body of water.",
         "inline": []
       },
       "level": "core"
@@ -419,7 +419,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Suppose your 60.0-L (15.9-gal) steel gasoline tank is full of gas, so both the tank and the gasoline have a temperature of $15.0ºC$ . How much gasoline has spilled by the time they warm to $35.0ºC$ ?",
+        "text": "Suppose your 60.0-L (15.9-gal) steel gasoline tank is full of gas, so both the tank and the gasoline have a temperature of $15.0ºC$. How much gasoline has spilled by the time they warm to $35.0ºC$?",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "1. Use the equation for volume expansion to calculate the increase in volume of the steel tank:",
+        "text": "1. Use the equation for volume expansion to calculate the increase in volume of the steel tank: ${ΔV}_{s}={β}_{s}{V}_{s}ΔT.$",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "2. The increase in volume of the gasoline is given by this equation:",
+        "text": "2. The increase in volume of the gasoline is given by this equation: ${ΔV}_{gas}={β}_{gas}{V}_{gas}ΔT.$",
         "inline": []
       },
       "level": "core"
@@ -455,7 +455,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "3. Find the difference in volume to determine the amount spilled as",
+        "text": "3. Find the difference in volume to determine the amount spilled as ${V}_{spill}={ΔV}_{gas}-{ΔV}_{s}.$",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Alternatively, we can combine these three equations into a single equation. (Note that the original volumes are equal.)",
+        "text": "Alternatively, we can combine these three equations into a single equation. (Note that the original volumes are equal.) ${V}_{spill} = ({β}_{gas}-{β}_{s}) VΔT = [(950-35)\\times {10}^{-6}/ºC] (60.0 L) (20.0ºC) = 1. 10 L.$",
         "inline": []
       },
       "level": "core"
@@ -473,7 +473,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "This amount is significant, particularly for a 60.0-L tank. The effect is so striking because the gasoline and steel expand quickly. The rate of change in thermal properties is discussed in Heat and Heat Transfer Methods .",
+        "text": "This amount is significant, particularly for a 60.0-L tank. The effect is so striking because the gasoline and steel expand quickly. The rate of change in thermal properties is discussed in Heat and Heat Transfer Methods.",
         "inline": []
       },
       "level": "core"
@@ -524,7 +524,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "What pressure would be created in the gasoline tank considered in , if the gasoline increases in temperature from $15.0ºC$ to $35.0ºC$ without being allowed to expand? Assume that the bulk modulus $B$ for gasoline is $1.00×{10}^{9}{N/m}^{2}$ . (For more on bulk modulus, see Elasticity: Stress and Strain .)",
+        "text": "What pressure would be created in the gasoline tank considered in the example, if the gasoline increases in temperature from $15.0ºC$ to $35.0ºC$ without being allowed to expand? Assume that the bulk modulus $B$ for gasoline is $1.00\\times {10}^{9} {N/m}^{2}$. (For more on bulk modulus, see Elasticity: Stress and Strain.)",
         "inline": []
       },
       "level": "core"
@@ -533,7 +533,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "To solve this problem, we must use the following equation, which relates a change in volume $ΔV$ to pressure:",
+        "text": "To solve this problem, we must use the following equation, which relates a change in volume $ΔV$ to pressure: $ΔV=\\frac{1}{B}\\frac{F}{A}{V}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -542,7 +542,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "where *$F/A$* is pressure, ${V}_{0}$ is the original volume, and $B$ is the bulk modulus of the material involved. We will use the amount spilled in as the change in volume, $ΔV$ . To estimate the pressure when the gas is heated at a constant volume, we can calculate the change in volume that would occur if the gas were allowed to expand at a fixed pressure, and then calculate the additional pressure needed to reduce the volume to its original level.",
+        "text": "where *$F/A$* is pressure, ${V}_{0}$ is the original volume, and $B$ is the bulk modulus of the material involved. We will use the amount spilled in the example as the change in volume, $ΔV$. To estimate the pressure when the gas is heated at a constant volume, we can calculate the change in volume that would occur if the gas were allowed to expand at a fixed pressure, and then calculate the additional pressure needed to reduce the volume to its original level.",
         "inline": []
       },
       "level": "core"
@@ -551,7 +551,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "1. Rearrange the equation for calculating pressure:",
+        "text": "1. Rearrange the equation for calculating pressure: $P=\\frac{F}{A}=\\frac{ΔV}{{V}_{0}}B.$",
         "inline": []
       },
       "level": "core"
@@ -560,7 +560,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "2. Insert the known values. The bulk modulus for gasoline is $B=1.00×{10}^{9}{N/m}^{2}$ . In the previous example, the change in volume $ΔV=1.10L$ is the amount that would spill. Here, ${V}_{0}=60.0L$ is the original volume of the gasoline. Substituting these values into the equation, we obtain",
+        "text": "2. Insert the known values. The bulk modulus for gasoline is $B=1.00×{10}^{9} {N/m}^{2}$. In the previous example, the change in volume $ΔV=1.10 L$ is the amount that would spill. Here, ${V}_{0}=60.0 L$ is the original volume of the gasoline. Substituting these values into the equation, we obtain $P=\\frac{1.10 L}{60.0 L}(1.00\\times {10}^{9} Pa)=1.83\\times {10}^{7} Pa.$",
         "inline": []
       },
       "level": "core"
@@ -569,7 +569,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "This pressure is about $2500{lb/in}^{2}$ , *much* more than a gasoline tank can handle.",
+        "text": "This pressure is about $2500 {lb/in}^{2}$, *much* more than a gasoline tank can handle.",
         "inline": []
       },
       "level": "core"
@@ -578,7 +578,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "Forces and pressures created by thermal stress are typically as great as that in the example above. Railroad tracks and roadways can buckle on hot days if they lack sufficient expansion joints. (See .) Power lines sag more in the summer than in the winter, and will snap in cold weather if there is insufficient slack. Cracks open and close in plaster walls as a house warms and cools. Glass cooking pans will crack if cooled rapidly or unevenly, because of differential contraction and the stresses it creates. (Pyrex® is less susceptible because of its small coefficient of thermal expansion.) Nuclear reactor pressure vessels are threatened by overly rapid cooling, and although none have failed, several have been cooled faster than considered desirable. Biological cells are ruptured when foods are frozen, detracting from their taste. Repeated thawing and freezing accentuate the damage. Even the oceans can be affected. A significant portion of the rise in sea level that is resulting from global warming is due to the thermal expansion of sea water.",
+        "text": "Forces and pressures created by thermal stress are typically as great as that in the example above. Railroad tracks and roadways can buckle on hot days if they lack sufficient expansion joints. (See the figure.) Power lines sag more in the summer than in the winter, and will snap in cold weather if there is insufficient slack. Cracks open and close in plaster walls as a house warms and cools. Glass cooking pans will crack if cooled rapidly or unevenly, because of differential contraction and the stresses it creates. (Pyrex® is less susceptible because of its small coefficient of thermal expansion.) Nuclear reactor pressure vessels are threatened by overly rapid cooling, and although none have failed, several have been cooled faster than considered desirable. Biological cells are ruptured when foods are frozen, detracting from their taste. Repeated thawing and freezing accentuate the damage. Even the oceans can be affected. A significant portion of the rise in sea level that is resulting from global warming is due to the thermal expansion of sea water.",
         "inline": []
       },
       "level": "core"
@@ -619,7 +619,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two blocks, A and B, are made of the same material. Block A has dimensions $l×w×h=L×2L×L$ and Block B has dimensions $2L×2L×2L$ . If the temperature changes, what is (a) the change in ratio of the volumes ( *V* B / *V* A ) of the two blocks, (b) the change in the ratio of the cross-sectional areas ${l}_{B}×{w}_{B}/{l}_{A}×{w}_{A}$ , and (c) the change in the ratio of the heights (hB/hA) ${h}_{B}/{h}_{A}$ of the two blocks?",
+        "text": "Two blocks, A and B, are made of the same material. Block A has dimensions $l\\times w\\times h=L\\times 2L\\times L$ and Block B has dimensions $2L\\times 2L\\times 2L$. If the temperature changes, what is (a) the change in ratio of the volumes (*V* B / *V* A) of the two blocks, (b) the change in the ratio of the cross-sectional areas ${l}_{B}\\times {w}_{B}/{l}_{A}\\times {w}_{A}$, and (c) the change in the ratio of the heights (hB/hA) ${h}_{B}/{h}_{A}$ of the two blocks?",
         "inline": []
       },
       "level": "core",
@@ -815,7 +815,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The height of the Washington Monument is measured to be 170 m on a day when the temperature is $35.0ºC$ . What will its height be on a day when the temperature falls to $–10.0ºC$ ? Although the monument is made of limestone, assume that its thermal coefficient of expansion is the same as marble’s.",
+        "text": "The height of the Washington Monument is measured to be 170 m on a day when the temperature is $35.0ºC$. What will its height be on a day when the temperature falls to $–10.0ºC$? Although the monument is made of limestone, assume that its thermal coefficient of expansion is the same as marble’s.",
         "inline": []
       },
       "level": "core",
@@ -839,7 +839,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How much taller does the Eiffel Tower become at the end of a day when the temperature has increased by $15ºC$ ? Its original height is 321 m and you can assume it is made of steel.",
+        "text": "How much taller does the Eiffel Tower become at the end of a day when the temperature has increased by $15ºC$? Its original height is 321 m and you can assume it is made of steel.",
         "inline": []
       },
       "level": "core",
@@ -860,7 +860,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the change in length of a 3.00-cm-long column of mercury if its temperature changes from $37.0ºC$ to $40.0ºC$ , assuming the mercury is unconstrained?",
+        "text": "What is the change in length of a 3.00-cm-long column of mercury if its temperature changes from $37.0ºC$ to $40.0ºC$, assuming the mercury is unconstrained?",
         "inline": []
       },
       "level": "core",
@@ -905,7 +905,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "You are looking to purchase a small piece of land in Hong Kong. The price is “only” $60,000 per square meter! The land title says the dimensions are $20m×30 m.$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was $20ºC$ above normal?",
+        "text": "You are looking to purchase a small piece of land in Hong Kong. The price is “only” \\$60,000 per square meter! The land title says the dimensions are $20 m \\times 30 m.$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was $20ºC$ above normal?",
         "inline": []
       },
       "level": "core",
@@ -959,7 +959,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that 60.0 L of gasoline originally at $15.0ºC$ will expand to 61.1 L when it warms to $35.0ºC,$ as claimed in .",
+        "text": "Show that 60.0 L of gasoline originally at $15.0ºC$ will expand to 61.1 L when it warms to $35.0ºC,$ as claimed in the example.",
         "inline": []
       },
       "level": "core",
@@ -983,7 +983,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Suppose a meter stick made of steel and one made of invar (an alloy of iron and nickel) are the same length at $0ºC$ . What is their difference in length at $22.0ºC$ ? (b) Repeat the calculation for two 30.0-m-long surveyor’s tapes.",
+        "text": "(a) Suppose a meter stick made of steel and one made of invar (an alloy of iron and nickel) are the same length at $0ºC$. What is their difference in length at $22.0ºC$? (b) Repeat the calculation for two 30.0-m-long surveyor’s tapes.",
         "inline": []
       },
       "level": "core",
@@ -1004,7 +1004,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) If a 500-mL glass beaker is filled to the brim with ethyl alcohol at a temperature of $5.00ºC,$ how much will overflow when its temperature reaches $22.0ºC$ ? (b) How much less water would overflow under the same conditions?",
+        "text": "(a) If a 500-mL glass beaker is filled to the brim with ethyl alcohol at a temperature of $5.00ºC,$ how much will overflow when its temperature reaches $22.0ºC$? (b) How much less water would overflow under the same conditions?",
         "inline": []
       },
       "level": "core",
@@ -1028,7 +1028,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Most automobiles have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when at $10.0ºC.$ What volume of radiator fluid will overflow when the radiator and fluid reach their $95.0ºC$ operating temperature, given that the fluid’s volume coefficient of expansion is $β=400×{10}^{-6}/ºC$ ? Note that this coefficient is approximate, because most car radiators have operating temperatures of greater than $95.0ºC.$",
+        "text": "Most automobiles have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when at $10.0ºC.$ What volume of radiator fluid will overflow when the radiator and fluid reach their $95.0ºC$ operating temperature, given that the fluid’s volume coefficient of expansion is $β=400×{10}^{-6}/ºC$? Note that this coefficient is approximate, because most car radiators have operating temperatures of greater than $95.0ºC.$",
         "inline": []
       },
       "level": "core",
@@ -1049,7 +1049,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A physicist makes a cup of instant coffee and notices that, as the coffee cools, its level drops 3.00 mm in the glass cup. Show that this decrease cannot be due to thermal contraction by calculating the decrease in level if the $350{cm}^{3}$ of coffee is in a 7.00-cm-diameter cup and decreases in temperature from $95.0ºC$ to $45.0ºC.$ (Most of the drop in level is actually due to escaping bubbles of air.)",
+        "text": "A physicist makes a cup of instant coffee and notices that, as the coffee cools, its level drops 3.00 mm in the glass cup. Show that this decrease cannot be due to thermal contraction by calculating the decrease in level if the $350 {cm}^{3}$ of coffee is in a 7.00-cm-diameter cup and decreases in temperature from $95.0ºC$ to $45.0ºC.$ (Most of the drop in level is actually due to escaping bubbles of air.)",
         "inline": []
       },
       "level": "core",
@@ -1073,7 +1073,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) The density of water at $0ºC$ is very nearly $1000{kg/m}^{3}$ (it is actually $999.{84 kg/m}^{3}$ ), whereas the density of ice at $0ºC$ is $9{17 kg/m}^{3}$ . Calculate the pressure necessary to keep ice from expanding when it freezes, neglecting the effect such a large pressure would have on the freezing temperature. (This problem gives you only an indication of how large the forces associated with freezing water might be.) (b) What are the implications of this result for biological cells that are frozen?",
+        "text": "(a) The density of water at $0ºC$ is very nearly $1000 {kg/m}^{3}$ (it is actually $999.{84 kg/m}^{3}$), whereas the density of ice at $0ºC$ is $9{17 kg/m}^{3}$. Calculate the pressure necessary to keep ice from expanding when it freezes, neglecting the effect such a large pressure would have on the freezing temperature. (This problem gives you only an indication of how large the forces associated with freezing water might be.) (b) What are the implications of this result for biological cells that are frozen?",
         "inline": []
       },
       "level": "core",
@@ -1094,7 +1094,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that $β≈3α,$ by calculating the change in volume $ΔV$ of a cube with sides of length $L.$",
+        "text": "Show that $β\\approx 3α,$ by calculating the change in volume $ΔV$ of a cube with sides of length $L.$",
         "inline": []
       },
       "level": "core",

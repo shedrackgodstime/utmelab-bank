@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Sound, like all waves, travels at a certain speed and has the properties of frequency and wavelength. You can observe direct evidence of the speed of sound while watching a fireworks display. The flash of an explosion is seen well before its sound is heard, implying both that sound travels at a finite speed and that it is much slower than light. You can also directly sense the frequency of a sound. Perception of frequency is called pitch . The wavelength of sound is not directly sensed, but indirect evidence is found in the correlation of the size of musical instruments with their pitch. Small instruments, such as a piccolo, typically make high-pitch sounds, while large instruments, such as a tuba, typically make low-pitch sounds. High pitch means small wavelength, and the size of a musical instrument is directly related to the wavelengths of sound it produces. So a small instrument creates short-wavelength sounds. Similar arguments hold that a large instrument creates long-wavelength sounds.",
+        "text": "Sound, like all waves, travels at a certain speed and has the properties of frequency and wavelength. You can observe direct evidence of the speed of sound while watching a fireworks display. The flash of an explosion is seen well before its sound is heard, implying both that sound travels at a finite speed and that it is much slower than light. You can also directly sense the frequency of a sound. Perception of frequency is called pitch. The wavelength of sound is not directly sensed, but indirect evidence is found in the correlation of the size of musical instruments with their pitch. Small instruments, such as a piccolo, typically make high-pitch sounds, while large instruments, such as a tuba, typically make low-pitch sounds. High pitch means small wavelength, and the size of a musical instrument is directly related to the wavelengths of sound it produces. So a small instrument creates short-wavelength sounds. Similar arguments hold that a large instrument creates long-wavelength sounds.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The relationship of the speed of sound, its frequency, and wavelength is the same as for all waves:",
+        "text": "The relationship of the speed of sound, its frequency, and wavelength is the same as for all waves: ${v}_{w}=fλ,$",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "where ${v}_{w}$ is the speed of sound, $f$ is its frequency, and *$λ$* is its wavelength. The wavelength of a sound is the distance between adjacent identical parts of a wave—for example, between adjacent compressions as illustrated in . The frequency is the same as that of the source and is the number of waves that pass a point per unit time.",
+        "text": "where ${v}_{w}$ is the speed of sound, $f$ is its frequency, and *$λ$* is its wavelength. The wavelength of a sound is the distance between adjacent identical parts of a wave—for example, between adjacent compressions as illustrated in the figure. The frequency is the same as that of the source and is the number of waves that pass a point per unit time.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
+        "text": "The table makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.",
         "inline": []
       },
       "level": "core"
@@ -195,7 +195,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The speed of sound is affected by temperature in a given medium. For air at sea level, the speed of sound is given by",
+        "text": "The speed of sound is affected by temperature in a given medium. For air at sea level, the speed of sound is given by ${v}_{w}=(331 m/s)\\sqrt{\\frac{T}{273 K}},$",
         "inline": []
       },
       "level": "core"
@@ -204,7 +204,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "where the temperature (denoted as $T$ ) is in units of kelvin. The speed of sound in gases is related to the average speed of particles in the gas, ${v}_{rms}$ , and that",
+        "text": "where the temperature (denoted as $T$) is in units of kelvin. The speed of sound in gases is related to the average speed of particles in the gas, ${v}_{rms}$, and that ${v}_{rms}=\\sqrt{\\frac{3kT}{m}},$",
         "inline": []
       },
       "level": "core"
@@ -213,7 +213,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where $k$ is the Boltzmann constant ( $1.38×{10}^{−23}J/K$ ) and $m$ is the mass of each (identical) particle in the gas. So, it is reasonable that the speed of sound in air and other gases should depend on the square root of temperature. While not negligible, this is not a strong dependence. At $0ºC$ , the speed of sound is 331 m/s, whereas at $20.0ºC$ it is 343 m/s, less than a 4% increase. shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
+        "text": "where $k$ is the Boltzmann constant ($1.38\\times {10}^{−23} J/K$) and $m$ is the mass of each (identical) particle in the gas. So, it is reasonable that the speed of sound in air and other gases should depend on the square root of temperature. While not negligible, this is not a strong dependence. At $0ºC$, the speed of sound is 331 m/s, whereas at $20.0ºC$ it is 343 m/s, less than a 4% increase. The figure shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.",
         "inline": []
       },
       "level": "core"
@@ -235,7 +235,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "One of the more important properties of sound is that its speed is nearly independent of frequency. This independence is certainly true in open air for sounds in the audible range of 20 to 20,000 Hz. If this independence were not true, you would certainly notice it for music played by a marching band in a football stadium, for example. Suppose that high-frequency sounds traveled faster—then the farther you were from the band, the more the sound from the low-pitch instruments would lag that from the high-pitch ones. But the music from all instruments arrives in cadence independent of distance, and so all frequencies must travel at nearly the same speed. Recall that",
+        "text": "One of the more important properties of sound is that its speed is nearly independent of frequency. This independence is certainly true in open air for sounds in the audible range of 20 to 20,000 Hz. If this independence were not true, you would certainly notice it for music played by a marching band in a football stadium, for example. Suppose that high-frequency sounds traveled faster—then the farther you were from the band, the more the sound from the low-pitch instruments would lag that from the high-pitch ones. But the music from all instruments arrives in cadence independent of distance, and so all frequencies must travel at nearly the same speed. Recall that ${v}_{w}=fλ.$",
         "inline": []
       },
       "level": "core"
@@ -244,7 +244,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "In a given medium under fixed conditions, ${v}_{w}$ is constant, so that there is a relationship between $f$ and *$λ$* ; the higher the frequency, the smaller the wavelength. See and consider the following example.",
+        "text": "In a given medium under fixed conditions, ${v}_{w}$ is constant, so that there is a relationship between $f$ and *$λ$*; the higher the frequency, the smaller the wavelength. See the figure and consider the following example.",
         "inline": []
       },
       "level": "core"
@@ -290,7 +290,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "To find wavelength from frequency, we can use ${v}_{w}=fλ$ .",
+        "text": "To find wavelength from frequency, we can use ${v}_{w}=fλ$.",
         "inline": []
       },
       "level": "core"
@@ -308,7 +308,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The speed of sound can change when sound travels from one medium to another. However, the frequency usually remains the same because it is like a driven oscillation and has the frequency of the original source. If ${v}_{w}$ changes and $f$ remains the same, then the wavelength $λ$ must change. That is, because ${v}_{w}=fλ$ , the higher the speed of a sound, the greater its wavelength for a given frequency.",
+        "text": "The speed of sound can change when sound travels from one medium to another. However, the frequency usually remains the same because it is like a driven oscillation and has the frequency of the original source. If ${v}_{w}$ changes and $f$ remains the same, then the wavelength $λ$ must change. That is, because ${v}_{w}=fλ$, the higher the speed of a sound, the greater its wavelength for a given frequency.",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The relationship of the speed of sound ${v}_{w}$ , its frequency $f$ , and its wavelength *$λ$* is given by",
+        "text": "The relationship of the speed of sound ${v}_{w}$, its frequency $f$, and its wavelength *$λ$* is given by ${v}_{w}=fλ,$",
         "inline": []
       },
       "level": "core"
@@ -482,7 +482,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "In air, the speed of sound is related to air temperature *$T$* by",
+        "text": "In air, the speed of sound is related to air temperature *$T$* by ${v}_{w}=(331 m/s)\\sqrt{\\frac{T}{273 K}}.$",
         "inline": []
       },
       "level": "core"
@@ -630,7 +630,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the speed of sound in a medium where a 100-kHz frequency produces a 5.96-cm wavelength? (b) Which substance in is this likely to be?",
+        "text": "(a) What is the speed of sound in a medium where a 100-kHz frequency produces a 5.96-cm wavelength? (b) Which substance in the table is this likely to be?",
         "inline": []
       },
       "level": "core",
@@ -675,7 +675,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Air temperature in the Sahara Desert can reach $56.0ºC$ (about $134ºF$ ). What is the speed of sound in air at that temperature?",
+        "text": "Air temperature in the Sahara Desert can reach $56.0ºC$ (about $134ºF$). What is the speed of sound in air at that temperature?",
         "inline": []
       },
       "level": "core",
@@ -696,7 +696,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Dolphins make sounds in air and water. What is the ratio of the wavelength of a sound in air to its wavelength in seawater? Assume air temperature is $20.0ºC$ .",
+        "text": "Dolphins make sounds in air and water. What is the ratio of the wavelength of a sound in air to its wavelength in seawater? Assume air temperature is $20.0ºC$.",
         "inline": []
       },
       "level": "core",
@@ -804,7 +804,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See .) (a) Calculate the echo times for temperatures of $5.00ºC$ and $35.0ºC$ . (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)",
+        "text": "Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See the figure.) (a) Calculate the echo times for temperatures of $5.00ºC$ and $35.0ºC$. (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)",
         "inline": []
       },
       "level": "core",

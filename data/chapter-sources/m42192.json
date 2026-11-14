@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Consider the container in . Its bottom supports the weight of the fluid in it. Let us calculate the pressure exerted on the bottom by the weight of the fluid. That pressure is the weight of the fluid $mg$ divided by the area $A$ supporting it (the area of the bottom of the container):",
+        "text": "Consider the container in the figure. Its bottom supports the weight of the fluid in it. Let us calculate the pressure exerted on the bottom by the weight of the fluid. That pressure is the weight of the fluid $mg$ divided by the area $A$ supporting it (the area of the bottom of the container): $P=\\frac{mg}{A}.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "We can find the mass of the fluid from its volume and density:",
+        "text": "We can find the mass of the fluid from its volume and density: $m=ρV.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The volume of the fluid $V$ is related to the dimensions of the container. It is",
+        "text": "The volume of the fluid $V$ is related to the dimensions of the container. It is $V=Ah,$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "where $A$ is the cross-sectional area and $h$ is the depth. Combining the last two equations gives",
+        "text": "where $A$ is the cross-sectional area and $h$ is the depth. Combining the last two equations gives $m=ρAh.$",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "If we enter this into the expression for pressure, we obtain",
+        "text": "If we enter this into the expression for pressure, we obtain $P=\\frac{(ρAh)g}{A}.$",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The area cancels, and rearranging the variables yields",
+        "text": "The area cancels, and rearranging the variables yields $P=hρg.$",
         "inline": []
       },
       "level": "core"
@@ -94,7 +94,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "This value is the *pressure due to the weight of a fluid* . The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation $P=hρg$ represents the pressure due to the weight of any fluid of *average density* $ρ$ at any depth $h$ below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered. illustrates this situation.",
+        "text": "This value is the *pressure due to the weight of a fluid*. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation $P=hρg$ represents the pressure due to the weight of any fluid of *average density* $ρ$ at any depth $h$ below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered. The example illustrates this situation.",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "In , we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See .) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be $1.96×{10}^{13}N$ ).",
+        "text": "In the example, we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See the figure.) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be $1.96\\times {10}^{13} N$).",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "The average pressure due to the weight of a fluid is",
+        "text": "The average pressure due to the weight of a fluid is $P¯=h¯ρg.$",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Entering the density of water from and taking $h¯$ to be the average depth of 40.0 m, we obtain",
+        "text": "Entering the density of water from the table and taking $h¯$ to be the average depth of 40.0 m, we obtain $P¯ = (40.0 m)({10}^{3} \\frac{kg}{{m}^{3}})(9.80 \\frac{m}{{s}^{2}}) = 3.92\\times {10}^{5} \\frac{N}{{m}^{2}}=392 kPa.$",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The force exerted on the dam by the water is the average pressure times the area of contact:",
+        "text": "The force exerted on the dam by the water is the average pressure times the area of contact: $F=P¯A.$",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We have already found the value for $P¯$ . The area of the dam is $A=80.0 m×500 m=4.00×{10}^{4}{m}^{2}$ , so that",
+        "text": "We have already found the value for $P¯$. The area of the dam is $A=80.0 m\\times 500 m=4.00\\times {10}^{4} {m}^{2}$, so that $F = (3.92\\times {10}^{5} {N/m}^{2})(4.00\\times {10}^{4} {m}^{2}) = 1.57\\times {10}^{10} N.$",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Although this force seems large, it is small compared with the $1.96×{10}^{13}N$ weight of the water in the reservoir—in fact, it is only $0.0800%$ of the weight. Note that the pressure found in part (a) is completely independent of the width and length of the lake—it depends only on its average depth at the dam. Thus the force depends only on the water’s average depth and the dimensions of the dam, *not* on the horizontal extent of the reservoir. In the diagram, the thickness of the dam increases with depth to balance the increasing force due to the increasing pressure.",
+        "text": "Although this force seems large, it is small compared with the $1.96\\times {10}^{13} N$ weight of the water in the reservoir—in fact, it is only $0.0800%$ of the weight. Note that the pressure found in part (a) is completely independent of the width and length of the lake—it depends only on its average depth at the dam. Thus the force depends only on the water’s average depth and the dimensions of the dam, *not* on the horizontal extent of the reservoir. In the diagram, the thickness of the dam increases with depth to balance the increasing force due to the increasing pressure.",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "*Atmospheric pressure* is another example of pressure due to the weight of a fluid, in this case due to the weight of *air* above a given height. The atmospheric pressure at the Earth’s surface varies a little due to the large-scale flow of the atmosphere induced by the Earth’s rotation (this creates weather “highs” and “lows”). However, the average pressure at sea level is given by the *standard atmospheric pressure* ${P}_{atm}$ , measured to be",
+        "text": "*Atmospheric pressure* is another example of pressure due to the weight of a fluid, in this case due to the weight of *air* above a given height. The atmospheric pressure at the Earth’s surface varies a little due to the large-scale flow of the atmosphere induced by the Earth’s rotation (this creates weather “highs” and “lows”). However, the average pressure at sea level is given by the *standard atmospheric pressure* ${P}_{atm}$, measured to be $1 atmosphere (atm)={P}_{atm}=1.01\\times {10}^{5} {N/m}^{2}=101 kPa.$",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "This relationship means that, on average, at sea level, a column of air above $1.00{m}^{2}$ of the Earth’s surface has a weight of $1.01×{10}^{5}N$ , equivalent to $1 atm$ . (See .)",
+        "text": "This relationship means that, on average, at sea level, a column of air above $1.00 {m}^{2}$ of the Earth’s surface has a weight of $1.01\\times {10}^{5} N$, equivalent to $1 atm$. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -253,7 +253,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in .",
+        "text": "Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in the table.",
         "inline": []
       },
       "level": "core"
@@ -262,7 +262,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "If we solve $P=hρg$ for density, we see that",
+        "text": "If we solve $P=hρg$ for density, we see that $ρ¯=\\frac{P}{hg}.$",
         "inline": []
       },
       "level": "core"
@@ -271,7 +271,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "We then take $P$ to be atmospheric pressure, $h$ is given, and $g$ is known, and so we can use this to calculate $ρ¯$ .",
+        "text": "We then take $P$ to be atmospheric pressure, $h$ is given, and $g$ is known, and so we can use this to calculate $ρ¯$.",
         "inline": []
       },
       "level": "core"
@@ -280,7 +280,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values into the expression for $ρ¯$ yields",
+        "text": "Entering known values into the expression for $ρ¯$ yields $ρ¯=\\frac{1.01\\times {10}^{5} {N/m}^{2}}{(120\\times {10}^{3} m)(9.80 {m/s}^{2})}=8.59\\times {10}^{-2} {kg/m}^{3}.$",
         "inline": []
       },
       "level": "core"
@@ -289,7 +289,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "This result is the average density of air between the Earth’s surface and the top of the Earth’s atmosphere, which essentially ends at 120 km. The density of air at sea level is given in as $1.29{kg/m}^{3}$ —about 15 times its average value. Because air is so compressible, its density has its highest value near the Earth’s surface and declines rapidly with altitude.",
+        "text": "This result is the average density of air between the Earth’s surface and the top of the Earth’s atmosphere, which essentially ends at 120 km. The density of air at sea level is given in the table as $1.29 {kg/m}^{3}$ —about 15 times its average value. Because air is so compressible, its density has its highest value near the Earth’s surface and declines rapidly with altitude.",
         "inline": []
       },
       "level": "core"
@@ -322,7 +322,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "We begin by solving the equation $P=hρg$ for depth $h$ :",
+        "text": "We begin by solving the equation $P=hρg$ for depth $h$: $h=\\frac{P}{ρg}.$",
         "inline": []
       },
       "level": "core"
@@ -340,7 +340,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Entering the known values into the expression for $h$ gives",
+        "text": "Entering the known values into the expression for $h$ gives $h=\\frac{1.01\\times {10}^{5} {N/m}^{2}}{(1.00\\times {10}^{3} {kg/m}^{3})(9.80 {m/s}^{2})}=10.3 m.$",
         "inline": []
       },
       "level": "core"
@@ -630,7 +630,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify that the SI unit of $hρg$ is ${N/m}^{2}$ .",
+        "text": "Verify that the SI unit of $hρg$ is ${N/m}^{2}$.",
         "inline": []
       },
       "level": "core",
@@ -654,7 +654,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Water towers store water above the level of consumers for times of heavy use, eliminating the need for high-speed pumps. How high above a user must the water level be to create a gauge pressure of $3.00×{10}^{5}{N/m}^{2}$ ?",
+        "text": "Water towers store water above the level of consumers for times of heavy use, eliminating the need for high-speed pumps. How high above a user must the water level be to create a gauge pressure of $3.00\\times {10}^{5} {N/m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -762,7 +762,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the average pressure exerted on the palm of a shot-putter’s hand by the shot if the area of contact is $50.0{cm}^{2}$ and he exerts a force of 800 N on it. Express the pressure in ${N/m}^{2}$ and compare it with the $1.00×{10}^{6}Pa$ pressures sometimes encountered in the skeletal system.",
+        "text": "Calculate the average pressure exerted on the palm of a shot-putter’s hand by the shot if the area of contact is $50.0 {cm}^{2}$ and he exerts a force of 800 N on it. Express the pressure in ${N/m}^{2}$ and compare it with the $1.00\\times {10}^{6} Pa$ pressures sometimes encountered in the skeletal system.",
         "inline": []
       },
       "level": "core",
@@ -783,7 +783,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The left side of the heart creates a pressure of 120 mm Hg by exerting a force directly on the blood over an effective area of $15.0{cm}^{2}.$ What force does it exert to accomplish this?",
+        "text": "The left side of the heart creates a pressure of 120 mm Hg by exerting a force directly on the blood over an effective area of $15.0 {cm}^{2}.$ What force does it exert to accomplish this?",
         "inline": []
       },
       "level": "core",
@@ -807,7 +807,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that the total force on a rectangular dam due to the water behind it increases with the *square* of the water depth. In particular, show that this force is given by $F=ρ{gh}^{2}L/2$ , where $ρ$ is the density of water, $h$ is its depth at the dam, and $L$ is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See .)",
+        "text": "Show that the total force on a rectangular dam due to the water behind it increases with the *square* of the water depth. In particular, show that this force is given by $F=ρ{gh}^{2}L/2$, where $ρ$ is the density of water, $h$ is its depth at the dam, and $L$ is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See the figure.)",
         "inline": []
       },
       "level": "core",

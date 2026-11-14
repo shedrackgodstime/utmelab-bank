@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "What happens to the work done on a system? Energy is transferred into the system, but in what form? Does it remain in the system or move on? The answers depend on the situation. For example, if the lawn mower in (a) is pushed just hard enough to keep it going at a constant speed, then energy put into the mower by the person is removed continuously by friction, and eventually leaves the system in the form of heat transfer. In contrast, work done on the briefcase by the person carrying it up stairs in (d) is stored in the briefcase-Earth system and can be recovered at any time, as shown in (e). In fact, the building of the pyramids in ancient Egypt is an example of storing energy in a system by doing work on the system. Some of the energy imparted to the stone blocks in lifting them during construction of the pyramids remains in the stone-Earth system and has the potential to do work.",
+        "text": "What happens to the work done on a system? Energy is transferred into the system, but in what form? Does it remain in the system or move on? The answers depend on the situation. For example, if the lawn mower in the figure (a) is pushed just hard enough to keep it going at a constant speed, then energy put into the mower by the person is removed continuously by friction, and eventually leaves the system in the form of heat transfer. In contrast, work done on the briefcase by the person carrying it up stairs in the figure (d) is stored in the briefcase-Earth system and can be recovered at any time, as shown in the figure (e). In fact, the building of the pyramids in ancient Egypt is an example of storing energy in a system by doing work on the system. Some of the energy imparted to the stone blocks in lifting them during construction of the pyramids remains in the stone-Earth system and has the potential to do work.",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work on an object. The net work can be written in terms of the net force on an object. ${F}_{net}$ . In equation form, this is ${W}_{net}={F}_{net}dcosθ$ where $θ$ is the angle between the force vector and the displacement vector.",
+        "text": "Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work on an object. The net work can be written in terms of the net force on an object. ${F}_{net}$. In equation form, this is ${W}_{net}={F}_{net}d cos θ$ where $θ$ is the angle between the force vector and the displacement vector.",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "(a) shows a graph of force versus displacement for the component of the force in the direction of the displacement—that is, an $Fcosθ$ vs. $d$ graph. In this case, $Fcosθ$ is constant. You can see that the area under the graph is $Fdcosθ$ , or the work done. (b) shows a more general process where the force varies. The area under the curve is divided into strips, each having an average force $(Fcosθ{)}_{i(ave)}$ . The work done is $(Fcosθ{)}_{i(ave)}{d}_{i}$ for each strip, and the total work done is the sum of the ${W}_{i}$ . Thus the total work done is the total area under the curve, a useful property to which we shall refer later.",
+        "text": "The figure (a) shows a graph of force versus displacement for the component of the force in the direction of the displacement—that is, an $F cos θ$ vs. $d$ graph. In this case, $F cos θ$ is constant. You can see that the area under the graph is $Fd cos θ$, or the work done. The figure (b) shows a more general process where the force varies. The area under the curve is divided into strips, each having an average force $(F cos θ{)}_{i(ave)}$. The work done is $(F cos θ{)}_{i(ave)}{d}_{i}$ for each strip, and the total work done is the sum of the ${W}_{i}$. Thus the total work done is the total area under the curve, a useful property to which we shall refer later.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Net work will be simpler to examine if we consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity. Such a situation occurs for the package on the roller belt conveyor system shown in .",
+        "text": "Net work will be simpler to examine if we consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity. Such a situation occurs for the package on the roller belt conveyor system shown in the figure.",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work. Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force arises solely from the horizontal applied force ${F}_{app}$ and the horizontal friction force $f$ . Thus, as expected, the net force is parallel to the displacement, so that $θ=0º$ and $cosθ=1$ , and the net work is given by",
+        "text": "The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work. Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force arises solely from the horizontal applied force ${F}_{app}$ and the horizontal friction force $f$. Thus, as expected, the net force is parallel to the displacement, so that $θ=0º$ and $cos θ=1$, and the net work is given by ${W}_{net}={F}_{net}d.$",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "The effect of the net force ${F}_{net}$ is to accelerate the package from ${v}_{0}$ to $v$ . The kinetic energy of the package increases, indicating that the net work done on the system is positive. (See .) By using Newton’s second law, and doing some algebra, we can reach an interesting conclusion. Substituting ${F}_{net}=ma$ from Newton’s second law gives",
+        "text": "The effect of the net force ${F}_{net}$ is to accelerate the package from ${v}_{0}$ to $v$. The kinetic energy of the package increases, indicating that the net work done on the system is positive. (See the example.) By using Newton’s second law, and doing some algebra, we can reach an interesting conclusion. Substituting ${F}_{net}=ma$ from Newton’s second law gives ${W}_{net}=mad.$",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "To get a relationship between net work and the speed given to a system by the net force acting on it, we take $d=x-{x}_{0}$ and use the equation studied in Motion Equations for Constant Acceleration in One Dimension for the change in speed over a distance $d$ if the acceleration has the constant value $a$ ; namely, ${v}^{2}={{v}_{0}}^{2}+2ad$ (note that $a$ appears in the expression for the net work). Solving for acceleration gives $a=\\frac{{v}^{2}-{{v}_{0}}^{2}}{2d}$ . When $a$ is substituted into the preceding expression for ${W}_{net}$ , we obtain",
+        "text": "To get a relationship between net work and the speed given to a system by the net force acting on it, we take $d=x-{x}_{0}$ and use the equation studied in Motion Equations for Constant Acceleration in One Dimension for the change in speed over a distance $d$ if the acceleration has the constant value $a$; namely, ${v}^{2}={{v}_{0}}^{2}+2ad$ (note that $a$ appears in the expression for the net work). Solving for acceleration gives $a=\\frac{{v}^{2}-{{v}_{0}}^{2}}{2d}$. When $a$ is substituted into the preceding expression for ${W}_{net}$, we obtain ${W}_{net}=m(\\frac{{v}^{2}-{{v}_{0}}^{2}}{2d})d.$",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The $d$ cancels, and we rearrange this to obtain",
+        "text": "The $d$ cancels, and we rearrange this to obtain $Wnet=\\frac{1}{2}{mv}^{2}-\\frac{1}{2}{mv}_{0}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -165,7 +165,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "This expression is called the work-energy theorem , and it actually applies *in general* (even for forces that vary in direction and magnitude), although we have derived it for the special case of a constant force parallel to the displacement. The theorem implies that the net work on a system equals the change in the quantity $\\frac{1}{2}{mv}^{2}$ . This quantity is our first example of a form of energy.",
+        "text": "This expression is called the work-energy theorem, and it actually applies *in general* (even for forces that vary in direction and magnitude), although we have derived it for the special case of a constant force parallel to the displacement. The theorem implies that the net work on a system equals the change in the quantity $\\frac{1}{2}{mv}^{2}$. This quantity is our first example of a form of energy.",
         "inline": []
       },
       "level": "core"
@@ -174,7 +174,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The net work on a system equals the change in the quantity $\\frac{1}{2}{mv}^{2}$ .",
+        "text": "The net work on a system equals the change in the quantity $\\frac{1}{2}{mv}^{2}$. ${W}_{net}=\\frac{1}{2}{mv}^{2}-\\frac{1}{2}{mv}_{0}^{2}$",
         "inline": []
       },
       "level": "core"
@@ -183,7 +183,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The quantity $\\frac{1}{2}{mv}^{2}$ in the work-energy theorem is defined to be the translational kinetic energy (KE) of a mass $m$ moving at a speed $v$ . ( *Translational* kinetic energy is distinct from *rotational* kinetic energy, which is considered later.) In equation form, the translational kinetic energy,",
+        "text": "The quantity $\\frac{1}{2}{mv}^{2}$ in the work-energy theorem is defined to be the translational kinetic energy (KE) of a mass $m$ moving at a speed $v$. (*Translational* kinetic energy is distinct from *rotational* kinetic energy, which is considered later.) In equation form, the translational kinetic energy, $KE=\\frac{1}{2}{mv}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -201,7 +201,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "We are aware that it takes energy to get an object, like a car or the package in , up to speed, but it may be a bit surprising that kinetic energy is proportional to speed squared. This proportionality means, for example, that a car traveling at 100 km/h has four times the kinetic energy it has at 50 km/h, helping to explain why high-speed collisions are so devastating. We will now consider a series of examples to illustrate various aspects of work and energy.",
+        "text": "We are aware that it takes energy to get an object, like a car or the package in the figure, up to speed, but it may be a bit surprising that kinetic energy is proportional to speed squared. This proportionality means, for example, that a car traveling at 100 km/h has four times the kinetic energy it has at 50 km/h, helping to explain why high-speed collisions are so devastating. We will now consider a series of examples to illustrate various aspects of work and energy.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Suppose a 30.0-kg package on the roller belt conveyor system in is moving at 0.500 m/s. What is its kinetic energy?",
+        "text": "Suppose a 30.0-kg package on the roller belt conveyor system in the figure is moving at 0.500 m/s. What is its kinetic energy?",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Because the mass $m$ and speed $v$ are given, the kinetic energy can be calculated from its definition as given in the equation $KE=\\frac{1}{2}{mv}^{2}$ .",
+        "text": "Because the mass $m$ and speed $v$ are given, the kinetic energy can be calculated from its definition as given in the equation $KE=\\frac{1}{2}{mv}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The kinetic energy is given by",
+        "text": "The kinetic energy is given by $KE=\\frac{1}{2}{mv}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values gives",
+        "text": "Entering known values gives $KE=0.5(30.0 kg)(0.500 m/s{)}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -285,7 +285,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Suppose that you push on the 30.0-kg package in with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.",
+        "text": "Suppose that you push on the 30.0-kg package in the figure with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.",
         "inline": []
       },
       "level": "core"
@@ -312,7 +312,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "This is a motion in one dimension problem, because the downward force (from the weight of the package) and the normal force have equal magnitude and opposite direction, so that they cancel in calculating the net force, while the applied force, friction, and the displacement are all horizontal. (See .) As expected, the net work is the net force times distance.",
+        "text": "This is a motion in one dimension problem, because the downward force (from the weight of the package) and the normal force have equal magnitude and opposite direction, so that they cancel in calculating the net force, while the applied force, friction, and the displacement are all horizontal. (See the figure.) As expected, the net work is the net force times distance.",
         "inline": []
       },
       "level": "core"
@@ -321,7 +321,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The net force is the push force minus friction, or ${F}_{net}= 120 N – 5.00 N = 115 N$ . Thus the net work is",
+        "text": "The net force is the push force minus friction, or ${F}_{net}= 120 N – 5.00 N = 115 N$. Thus the net work is ${W}_{net} = {F}_{net}d=(115 N)(0.800 m) = 92.0 N \\cdot m = 92.0 J.$",
         "inline": []
       },
       "level": "core"
@@ -357,7 +357,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The applied force does work.",
+        "text": "The applied force does work. ${W}_{app} = {F}_{app}d cos(0º)={F}_{app}d = (120 N)(0.800 m) = 96.0 J$",
         "inline": []
       },
       "level": "core"
@@ -366,7 +366,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "The friction force and displacement are in opposite directions, so that $θ=180º$ , and the work done by friction is",
+        "text": "The friction force and displacement are in opposite directions, so that $θ=180º$, and the work done by friction is ${W}_{fr} = {F}_{fr}d cos(180º)=-{F}_{fr}d = -(5.00 N)(0.800 m) = -4.00 J.$",
         "inline": []
       },
       "level": "core"
@@ -375,7 +375,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,",
+        "text": "So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively, ${W}_{gr} = 0,; {W}_{N} = 0,; {W}_{app} = 96.0 J,; {W}_{fr} = -4.00 J.$",
         "inline": []
       },
       "level": "core"
@@ -384,7 +384,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "The total work done as the sum of the work done by each force is then seen to be",
+        "text": "The total work done as the sum of the work done by each force is then seen to be ${W}_{total}={W}_{gr}+{W}_{N}+{W}_{app}+{W}_{fr}=92.0 J.$",
         "inline": []
       },
       "level": "core"
@@ -417,7 +417,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "Find the speed of the package in at the end of the push, using work and energy concepts.",
+        "text": "Find the speed of the package in the figure at the end of the push, using work and energy concepts.",
         "inline": []
       },
       "level": "core"
@@ -426,7 +426,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "Here the work-energy theorem can be used, because we have just calculated the net work, ${W}_{net}$ , and the initial kinetic energy, $\\frac{1}{2}{m{v}_{0}}^{2}$ . These calculations allow us to find the final kinetic energy, $\\frac{1}{2}{mv}^{2}$ , and thus the final speed $v$ .",
+        "text": "Here the work-energy theorem can be used, because we have just calculated the net work, ${W}_{net}$, and the initial kinetic energy, $\\frac{1}{2}{m{v}_{0}}^{2}$. These calculations allow us to find the final kinetic energy, $\\frac{1}{2}{mv}^{2}$, and thus the final speed $v$.",
         "inline": []
       },
       "level": "core"
@@ -435,7 +435,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "The work-energy theorem in equation form is",
+        "text": "The work-energy theorem in equation form is ${W}_{net}=\\frac{1}{2}{mv}^{2}-\\frac{1}{2}{m{v}_{0}}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -444,7 +444,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $\\frac{1}{2}{mv}^{2}$ gives",
+        "text": "Solving for $\\frac{1}{2}{mv}^{2}$ gives $\\frac{1}{2}{mv}^{2}={W}_{net}+\\frac{1}{2}{m{v}_{0}}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -453,7 +453,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "Solving for the final speed as requested and entering known values gives",
+        "text": "Solving for the final speed as requested and entering known values gives $v = \\sqrt{\\frac{2(95.75 J)}{m}}=\\sqrt{\\frac{191.5 kg\\cdot {m}^{2}{/s}^{2}}{30.0 kg}} = 2.53 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -486,7 +486,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "How far does the package in coast after the push, assuming friction remains constant? Use work and energy considerations.",
+        "text": "How far does the package in the figure coast after the push, assuming friction remains constant? Use work and energy considerations.",
         "inline": []
       },
       "level": "core"
@@ -504,7 +504,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "The normal force and force of gravity cancel in calculating the net force. The horizontal friction force is then the net force, and it acts opposite to the displacement, so $θ=180º$ . To reduce the kinetic energy of the package to zero, the work ${W}_{fr}$ by friction must be minus the kinetic energy that the package started with plus what the package accumulated due to the pushing. Thus ${W}_{fr}=-95.75 J$ . Furthermore, ${W}_{fr}=fd′cosθ= –fd′$ , where $d′$ is the distance it takes to stop. Thus,",
+        "text": "The normal force and force of gravity cancel in calculating the net force. The horizontal friction force is then the net force, and it acts opposite to the displacement, so $θ=180º$. To reduce the kinetic energy of the package to zero, the work ${W}_{fr}$ by friction must be minus the kinetic energy that the package started with plus what the package accumulated due to the pushing. Thus ${W}_{fr}=-95.75 J$. Furthermore, ${W}_{fr}=fd′ cos θ = –fd′$, where $d′$ is the distance it takes to stop. Thus, $d′=-\\frac{{W}_{fr}}{f}=-\\frac{-95.75 J}{5.00 N},$",
         "inline": []
       },
       "level": "core"
@@ -904,7 +904,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The person in does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?",
+        "text": "The person in the figure does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?",
         "inline": []
       },
       "level": "core",
@@ -959,7 +959,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "When solving for speed in , we kept only the positive root. Why?",
+        "text": "When solving for speed in the example, we kept only the positive root. Why?",
         "inline": []
       },
       "level": "core",
@@ -1034,7 +1034,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Confirm the value given for the kinetic energy of an aircraft carrier in . You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).",
+        "text": "Confirm the value given for the kinetic energy of an aircraft carrier in the table. You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).",
         "inline": []
       },
       "level": "core",

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Projectile motion is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity. The object is called a projectile , and its path is called its trajectory . The motion of falling objects, as covered in Problem-Solving Basics for One-Dimensional Kinematics , is a simple one-dimensional type of projectile motion in which there is no horizontal movement. In this section, we consider two-dimensional projectile motion, such as that of a football or other object for which air resistance *is negligible* .",
+        "text": "Projectile motion is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity. The object is called a projectile, and its path is called its trajectory. The motion of falling objects, as covered in Problem-Solving Basics for One-Dimensional Kinematics, is a simple one-dimensional type of projectile motion in which there is no horizontal movement. In this section, we consider two-dimensional projectile motion, such as that of a football or other object for which air resistance *is negligible*.",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The most important fact to remember here is that *motions along perpendicular axes are independent* and thus can be analyzed separately. This fact was discussed in Kinematics in Two Dimensions: An Introduction , where vertical and horizontal motions were seen to be independent. The key to analyzing two-dimensional projectile motion is to break it into two motions, one along the horizontal axis and the other along the vertical. (This choice of axes is the most sensible, because acceleration due to gravity is vertical—thus, there will be no acceleration along the horizontal axis when air resistance is negligible.) As is customary, we call the horizontal axis the *x* -axis and the vertical axis the *y* -axis. illustrates the notation for displacement, where $s$ is defined to be the total displacement and $x$ and $y$ are its components along the horizontal and vertical axes, respectively. The magnitudes of these vectors are *s* , *x* , and *y* . (Note that in the last section we used the notation $A$ to represent a vector with components ${A}_{x}$ and ${A}_{y}$ . If we continued this format, we would call displacement $s$ with components ${s}_{x}$ and ${s}_{y}$ . However, to simplify the notation, we will simply represent the component vectors as $x$ and $y$ .)",
+        "text": "The most important fact to remember here is that *motions along perpendicular axes are independent* and thus can be analyzed separately. This fact was discussed in Kinematics in Two Dimensions: An Introduction, where vertical and horizontal motions were seen to be independent. The key to analyzing two-dimensional projectile motion is to break it into two motions, one along the horizontal axis and the other along the vertical. (This choice of axes is the most sensible, because acceleration due to gravity is vertical—thus, there will be no acceleration along the horizontal axis when air resistance is negligible.) As is customary, we call the horizontal axis the *x* -axis and the vertical axis the *y* -axis. The figure illustrates the notation for displacement, where $s$ is defined to be the total displacement and $x$ and $y$ are its components along the horizontal and vertical axes, respectively. The magnitudes of these vectors are *s*, *x*, and *y*. (Note that in the last section we used the notation $A$ to represent a vector with components ${A}_{x}$ and ${A}_{y}$. If we continued this format, we would call displacement $s$ with components ${s}_{x}$ and ${s}_{y}$. However, to simplify the notation, we will simply represent the component vectors as $x$ and $y$.)",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Of course, to describe motion we must deal with velocity and acceleration, as well as with displacement. We must find their components along the *x* - and *y* -axes, too. We will assume all forces except gravity (such as air resistance and friction, for example) are negligible. The components of acceleration are then very simple: ${a}_{y}=-g=-9.80 m{/s}^{2}$ . (Note that this definition assumes that the upwards direction is defined as the positive direction. If you arrange the coordinate system instead such that the downwards direction is positive, then acceleration due to gravity takes a positive value.) Because gravity is vertical, ${a}_{x}=0$ . Both accelerations are constant, so the kinematic equations can be used.",
+        "text": "Of course, to describe motion we must deal with velocity and acceleration, as well as with displacement. We must find their components along the *x* - and *y* -axes, too. We will assume all forces except gravity (such as air resistance and friction, for example) are negligible. The components of acceleration are then very simple: ${a}_{y}=-g=-9.80 m{/s}^{2}$. (Note that this definition assumes that the upwards direction is defined as the positive direction. If you arrange the coordinate system instead such that the downwards direction is positive, then acceleration due to gravity takes a positive value.) Because gravity is vertical, ${a}_{x}=0$. Both accelerations are constant, so the kinematic equations can be used.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "**Step 1.** *Resolve or break the motion into horizontal and vertical components along the x- and y-axes.* These axes are perpendicular, so ${A}_{x}=Acosθ$ and ${A}_{y}=Asinθ$ are used. The magnitude of the components of displacement $s$ along these axes are $x$ and $y.$ The magnitudes of the components of the velocity $v$ are ${v}_{x}=vcosθ$ and ${v}_{y}=vsinθ,$ where $v$ is the magnitude of the velocity and $θ$ is its direction, as shown in . Initial values are denoted with a subscript 0, as usual.",
+        "text": "**Step 1.** *Resolve or break the motion into horizontal and vertical components along the x- and y-axes.* These axes are perpendicular, so ${A}_{x}=A cos θ$ and ${A}_{y}=A sin θ$ are used. The magnitude of the components of displacement $s$ along these axes are $x$ and $y.$ The magnitudes of the components of the velocity $v$ are ${v}_{x}=v cos θ$ and ${v}_{y}=v sin θ,$ where $v$ is the magnitude of the velocity and $θ$ is its direction, as shown in the figure. Initial values are denoted with a subscript 0, as usual.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "**Step 2.** *Treat the motion as two independent one-dimensional motions, one horizontal and the other vertical.* The kinematic equations for horizontal and vertical motion take the following forms:",
+        "text": "**Step 2.** *Treat the motion as two independent one-dimensional motions, one horizontal and the other vertical.* The kinematic equations for horizontal and vertical motion take the following forms: $Horizontal Motion({a}_{x}=0)$ $x={x}_{0}+{v}_{x}t$ ${v}_{x}={v}_{0x}={v}_{x}=velocity is a constant.$ $Vertical Motion; (assuming positive is up; {a}_{y}=-g=-9.80 {m/s}^{2})$ $y={y}_{0}+\\frac{1}{2}({v}_{0y}+{v}_{y})t$ ${v}_{y}={v}_{0y}-gt$ $y={y}_{0}+{v}_{0y}t-\\frac{1}{2}{gt}^{2}$ ${v}_{y}^{2}={v}_{0y}^{2}-2g(y-{y}_{0}).$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "**Step 3.** *Solve for the unknowns in the two separate motions—one horizontal and one vertical.* Note that the only common variable between the motions is time $t$ . The problem solving procedures here are the same as for one-dimensional kinematics and are illustrated in the solved examples below.",
+        "text": "**Step 3.** *Solve for the unknowns in the two separate motions—one horizontal and one vertical.* Note that the only common variable between the motions is time $t$. The problem solving procedures here are the same as for one-dimensional kinematics and are illustrated in the solved examples below.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "**Step 4.** *Recombine the two motions to find the total displacement* $s$ *and velocity* $v$ . Because the *x* - and *y* -motions are perpendicular, we determine these vectors by using the techniques outlined in the Vector Addition and Subtraction: Analytical Methods and employing $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ and $θ={tan}^{-1}({A}_{y}/{A}_{x})$ in the following form, where $θ$ is the direction of the displacement $s$ and ${θ}_{v}$ is the direction of the velocity $v$ :",
+        "text": "**Step 4.** *Recombine the two motions to find the total displacement* $s$ *and velocity* $v$. Because the *x* - and *y* -motions are perpendicular, we determine these vectors by using the techniques outlined in the Vector Addition and Subtraction: Analytical Methods and employing $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ and $θ={tan}^{-1}({A}_{y}/{A}_{x})$ in the following form, where $θ$ is the direction of the displacement $s$ and ${θ}_{v}$ is the direction of the velocity $v$:",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Total displacement and velocity",
+        "text": "Total displacement and velocity $s=\\sqrt{{x}^{2}+{y}^{2}}$ $θ={tan}^{-1}(y/x)$ $v=\\sqrt{{v}_{x}^{2}+{v}_{y}^{2}}$ ${θ}_{v}={tan}^{-1}({v}_{y}/{v}_{x}).$",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "During a fireworks display, a shell is shot into the air with an initial speed of 70.0 m/s at an angle of $75.0º$ above the horizontal, as illustrated in . The fuse is timed to ignite the shell just as it reaches its highest point above the ground. (a) Calculate the height at which the shell explodes. (b) How much time passed between the launch of the shell and the explosion? (c) What is the horizontal displacement of the shell when it explodes?",
+        "text": "During a fireworks display, a shell is shot into the air with an initial speed of 70.0 m/s at an angle of $75.0º$ above the horizontal, as illustrated in the figure. The fuse is timed to ignite the shell just as it reaches its highest point above the ground. (a) Calculate the height at which the shell explodes. (b) How much time passed between the launch of the shell and the explosion? (c) What is the horizontal displacement of the shell when it explodes?",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Because air resistance is negligible for the unexploded shell, the analysis method outlined above can be used. The motion can be broken into horizontal and vertical motions in which ${a}_{x}=0$ and ${a}_{y}=-g$ . We can then define ${x}_{0}$ and ${y}_{0}$ to be zero and solve for the desired quantities.",
+        "text": "Because air resistance is negligible for the unexploded shell, the analysis method outlined above can be used. The motion can be broken into horizontal and vertical motions in which ${a}_{x}=0$ and ${a}_{y}=-g$. We can then define ${x}_{0}$ and ${y}_{0}$ to be zero and solve for the desired quantities.",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "By “height” we mean the altitude or vertical position $y$ above the starting point. The highest point in any trajectory, called the apex, is reached when ${v}_{y}=0$ . Since we know the initial and final velocities as well as the initial position, we use the following equation to find $y$ :",
+        "text": "By “height” we mean the altitude or vertical position $y$ above the starting point. The highest point in any trajectory, called the apex, is reached when ${v}_{y}=0$. Since we know the initial and final velocities as well as the initial position, we use the following equation to find $y$: ${v}_{y}^{2}={v}_{0y}^{2}-2g(y-{y}_{0}).$",
         "inline": []
       },
       "level": "core"
@@ -193,7 +193,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Because ${y}_{0}$ and ${v}_{y}$ are both zero, the equation simplifies to",
+        "text": "Because ${y}_{0}$ and ${v}_{y}$ are both zero, the equation simplifies to $0={v}_{0y}^{2}-2gy.$",
         "inline": []
       },
       "level": "core"
@@ -202,7 +202,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $y$ gives",
+        "text": "Solving for $y$ gives $y=\\frac{{v}_{0y}^{2}}{2g}.$",
         "inline": []
       },
       "level": "core"
@@ -211,7 +211,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Now we must find ${v}_{0y}$ , the component of the initial velocity in the *y* -direction. It is given by ${v}_{0y}={v}_{0}sinθ$ , where ${v}_{0y}$ is the initial velocity of 70.0 m/s, and ${θ}_{0}=75.0º$ is the initial angle. Thus,",
+        "text": "Now we must find ${v}_{0y}$, the component of the initial velocity in the *y* -direction. It is given by ${v}_{0y}={v}_{0} sin θ$, where ${v}_{0y}$ is the initial velocity of 70.0 m/s, and ${θ}_{0}=75.0º$ is the initial angle. Thus, ${v}_{0y}={v}_{0} sin {θ}_{0}=(70.0 m/s)(sin 75º)=67.6 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "As in many physics problems, there is more than one way to solve for the time to the highest point. In this case, the easiest method is to use $y={y}_{0}+\\frac{1}{2}({v}_{0y}+{v}_{y})t$ . Because ${y}_{0}$ is zero, this equation reduces to simply",
+        "text": "As in many physics problems, there is more than one way to solve for the time to the highest point. In this case, the easiest method is to use $y={y}_{0}+\\frac{1}{2}({v}_{0y}+{v}_{y})t$. Because ${y}_{0}$ is zero, this equation reduces to simply $y=\\frac{1}{2}({v}_{0y}+{v}_{y})t.$",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Note that the final vertical velocity, ${v}_{y}$ , at the highest point is zero. Thus,",
+        "text": "Note that the final vertical velocity, ${v}_{y}$, at the highest point is zero. Thus, $t = \\frac{2y}{({v}_{0y}+{v}_{y})}=\\frac{2(233 m)}{(67.6 m/s)} = 6.90 s.$",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "This time is also reasonable for large fireworks. When you are able to see the launch of fireworks, you will notice several seconds pass before the shell explodes. (Another way of finding the time is by using $y={y}_{0}+{v}_{0y}t-\\frac{1}{2}{gt}^{2}$ , and solving the quadratic equation for $t$ .)",
+        "text": "This time is also reasonable for large fireworks. When you are able to see the launch of fireworks, you will notice several seconds pass before the shell explodes. (Another way of finding the time is by using $y={y}_{0}+{v}_{0y}t-\\frac{1}{2}{gt}^{2}$, and solving the quadratic equation for $t$.)",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Because air resistance is negligible, ${a}_{x}=0$ and the horizontal velocity is constant, as discussed above. The horizontal displacement is horizontal velocity multiplied by time as given by $x={x}_{0}+{v}_{x}t$ , where ${x}_{0}$ is equal to zero:",
+        "text": "Because air resistance is negligible, ${a}_{x}=0$ and the horizontal velocity is constant, as discussed above. The horizontal displacement is horizontal velocity multiplied by time as given by $x={x}_{0}+{v}_{x}t$, where ${x}_{0}$ is equal to zero: $x={v}_{x}t,$",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "where ${v}_{x}$ is the *x* -component of the velocity, which is given by ${v}_{x}={v}_{0}cos{θ}_{0}.$ Now,",
+        "text": "where ${v}_{x}$ is the *x* -component of the velocity, which is given by ${v}_{x}={v}_{0} cos {θ}_{0}.$ Now, ${v}_{x}={v}_{0} cos {θ}_{0}=(70.0 m/s)(cos 75.0º)=18.1 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -274,7 +274,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The time $t$ for both motions is the same, and so $x$ is",
+        "text": "The time $t$ for both motions is the same, and so $x$ is $x=(18.1 m/s)(6.90 s)=125 m.$",
         "inline": []
       },
       "level": "core"
@@ -292,7 +292,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "In solving part (a) of the preceding example, the expression we found for $y$ is valid for any projectile motion where air resistance is negligible. Call the maximum height $y=h$ ; then,",
+        "text": "In solving part (a) of the preceding example, the expression we found for $y$ is valid for any projectile motion where air resistance is negligible. Call the maximum height $y=h$; then, $h=\\frac{{v}_{0y}^{2}}{2g}.$",
         "inline": []
       },
       "level": "core"
@@ -310,7 +310,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "It is important to set up a coordinate system when analyzing projectile motion. One part of defining the coordinate system is to define an origin for the $x$ and $y$ positions. Often, it is convenient to choose the initial position of the object as the origin such that ${x}_{0}=0$ and ${y}_{0}=0$ . It is also important to define the positive and negative directions in the $x$ and $y$ directions. Typically, we define the positive vertical direction as upwards, and the positive horizontal direction is usually the direction of the object’s motion. When this is the case, the vertical acceleration, ${a}_{y}=-g$ , takes a negative value (since it is directed downwards towards the Earth). However, it is occasionally useful to define the coordinates differently. For example, if you are analyzing the motion of a ball thrown downwards from the top of a cliff, it may make sense to define the positive direction downwards since the motion of the ball is solely in the downwards direction. If this is the case, ${a}_{y}=g$ takes a positive value.",
+        "text": "It is important to set up a coordinate system when analyzing projectile motion. One part of defining the coordinate system is to define an origin for the $x$ and $y$ positions. Often, it is convenient to choose the initial position of the object as the origin such that ${x}_{0}=0$ and ${y}_{0}=0$. It is also important to define the positive and negative directions in the $x$ and $y$ directions. Typically, we define the positive vertical direction as upwards, and the positive horizontal direction is usually the direction of the object’s motion. When this is the case, the vertical acceleration, ${a}_{y}=-g$, takes a negative value (since it is directed downwards towards the Earth). However, it is occasionally useful to define the coordinates differently. For example, if you are analyzing the motion of a ball thrown downwards from the top of a cliff, it may make sense to define the positive direction downwards since the motion of the ball is solely in the downwards direction. If this is the case, ${a}_{y}=g$ takes a positive value.",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Kilauea in Hawaii is the world’s most continuously active volcano. Very active volcanoes characteristically eject red-hot rocks and lava rather than smoke and ash. Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and at an angle $35.0º$ above the horizontal, as shown in . The rock strikes the side of the volcano at an altitude 20.0 m lower than its starting point. (a) Calculate the time it takes the rock to follow this path. (b) What are the magnitude and direction of the rock’s velocity at impact?",
+        "text": "Kilauea in Hawaii is the world’s most continuously active volcano. Very active volcanoes characteristically eject red-hot rocks and lava rather than smoke and ash. Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and at an angle $35.0º$ above the horizontal, as shown in the figure. The rock strikes the side of the volcano at an altitude 20.0 m lower than its starting point. (a) Calculate the time it takes the rock to follow this path. (b) What are the magnitude and direction of the rock’s velocity at impact?",
         "inline": []
       },
       "level": "core"
@@ -365,7 +365,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "While the rock is in the air, it rises and then falls to a final position 20.0 m lower than its starting altitude. We can find the time for this by using",
+        "text": "While the rock is in the air, it rises and then falls to a final position 20.0 m lower than its starting altitude. We can find the time for this by using $y={y}_{0}+{v}_{0y}t-\\frac{1}{2}{gt}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -374,7 +374,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "If we take the initial position ${y}_{0}$ to be zero, then the final position is $y=-20.0 m.$ Now the initial vertical velocity is the vertical component of the initial velocity, found from ${v}_{0y}={v}_{0}sin{θ}_{0}$ = ( $25.0 m/s$ )( $sin 35.0º$ ) = $14.3 m/s$ . Substituting known values yields",
+        "text": "If we take the initial position ${y}_{0}$ to be zero, then the final position is $y=-20.0 m.$ Now the initial vertical velocity is the vertical component of the initial velocity, found from ${v}_{0y}={v}_{0} sin {θ}_{0}$ = ($25.0 m/s$)($sin 35.0º$) = $14.3 m/s$. Substituting known values yields $-20.0 m=(14.3 m/s)t-(4.90 m/s{}^{2}){t}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -383,7 +383,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging terms gives a quadratic equation in $t$ :",
+        "text": "Rearranging terms gives a quadratic equation in $t$: $(4.90 m/s{}^{2}){t}^{2}-(14.3 m/s)t-(20.0 m)=0.$",
         "inline": []
       },
       "level": "core"
@@ -392,7 +392,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "This expression is a quadratic equation of the form ${at}^{2}+bt+c=0$ , where the constants are $a=4.90$ , $b=-14.3$ , and $c=-20.0.$ Its solutions are given by the quadratic formula:",
+        "text": "This expression is a quadratic equation of the form ${at}^{2}+bt+c=0$, where the constants are $a=4.90$, $b=-14.3$, and $c=-20.0.$ Its solutions are given by the quadratic formula: $t=\\frac{-b±\\sqrt{{b}^{2}-4ac}}{2a}.$",
         "inline": []
       },
       "level": "core"
@@ -401,7 +401,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "This equation yields two solutions: $t=3.96$ and $t=-1.03$ . (It is left as an exercise for the reader to verify these solutions.) The time is $t=3.96s$ or $-1.03s$ . The negative value of time implies an event before the start of motion, and so we discard it. Thus,",
+        "text": "This equation yields two solutions: $t=3.96$ and $t=-1.03$. (It is left as an exercise for the reader to verify these solutions.) The time is $t=3.96 s$ or $-1.03 s$. The negative value of time implies an event before the start of motion, and so we discard it. Thus, $t=3.96 s.$",
         "inline": []
       },
       "level": "core"
@@ -419,7 +419,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "From the information now in hand, we can find the final horizontal and vertical velocities ${v}_{x}$ and ${v}_{y}$ and combine them to find the total velocity $v$ and the angle ${θ}_{0}$ it makes with the horizontal. Of course, ${v}_{x}$ is constant so we can solve for it at any horizontal location. In this case, we chose the starting point since we know both the initial velocity and initial angle. Therefore:",
+        "text": "From the information now in hand, we can find the final horizontal and vertical velocities ${v}_{x}$ and ${v}_{y}$ and combine them to find the total velocity $v$ and the angle ${θ}_{0}$ it makes with the horizontal. Of course, ${v}_{x}$ is constant so we can solve for it at any horizontal location. In this case, we chose the starting point since we know both the initial velocity and initial angle. Therefore: ${v}_{x}={v}_{0} cos {θ}_{0}=(25.0 m/s)(cos 35º)=20.5 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -428,7 +428,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "The final vertical velocity is given by the following equation:",
+        "text": "The final vertical velocity is given by the following equation: ${v}_{y}={v}_{0y}-gt,$",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "where ${v}_{0y}$ was found in part (a) to be $14.3 m/s$ . Thus,",
+        "text": "where ${v}_{0y}$ was found in part (a) to be $14.3 m/s$. Thus, ${v}_{y}=14.3 m/s-(9.80 m/s{}^{2})(3.96 s)$",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "To find the magnitude of the final velocity $v$ we combine its perpendicular components, using the following equation:",
+        "text": "To find the magnitude of the final velocity $v$ we combine its perpendicular components, using the following equation: $v=\\sqrt{{v}_{x}^{2}+{v}_{y}^{2}}=\\sqrt{(20.5 m/s{)}^{2}+(-24.5 m/s{)}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -455,7 +455,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "The direction ${θ}_{v}$ is found from the equation:",
+        "text": "The direction ${θ}_{v}$ is found from the equation: ${θ}_{v}={tan}^{-1}({v}_{y}/{v}_{x})$",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The negative angle means that the velocity is $50.1º$ below the horizontal. This result is consistent with the fact that the final vertical velocity is negative and hence downward—as you would expect because the final altitude is 20.0 m lower than the initial altitude. (See .)",
+        "text": "The negative angle means that the velocity is $50.1º$ below the horizontal. This result is consistent with the fact that the final vertical velocity is negative and hence downward—as you would expect because the final altitude is 20.0 m lower than the initial altitude. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -495,7 +495,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "How does the initial velocity of a projectile affect its range? Obviously, the greater the initial speed ${v}_{0}$ , the greater the range, as shown in (a). The initial angle ${θ}_{0}$ also has a dramatic effect on the range, as illustrated in (b). For a fixed initial speed, such as might be produced by a cannon, the maximum range is obtained with ${θ}_{0}=45º$ . This is true only for conditions neglecting air resistance. If air resistance is considered, the maximum angle is approximately $38º$ . Interestingly, for every initial angle except $45º$ , there are two angles that give the same range—the sum of those angles is $90º$ . The range also depends on the value of the acceleration of gravity $g$ . The lunar astronaut Alan Shepard was able to drive a golf ball a great distance on the Moon because gravity is weaker there. The range $R$ of a projectile on *level ground* for which air resistance is negligible is given by",
+        "text": "How does the initial velocity of a projectile affect its range? Obviously, the greater the initial speed ${v}_{0}$, the greater the range, as shown in the figure (a). The initial angle ${θ}_{0}$ also has a dramatic effect on the range, as illustrated in the figure (b). For a fixed initial speed, such as might be produced by a cannon, the maximum range is obtained with ${θ}_{0}=45º$. This is true only for conditions neglecting air resistance. If air resistance is considered, the maximum angle is approximately $38º$. Interestingly, for every initial angle except $45º$, there are two angles that give the same range—the sum of those angles is $90º$. The range also depends on the value of the acceleration of gravity $g$. The lunar astronaut Alan Shepard was able to drive a golf ball a great distance on the Moon because gravity is weaker there. The range $R$ of a projectile on *level ground* for which air resistance is negligible is given by $R=\\frac{{v}_{0}^{2} sin {2θ}_{0}}{g},$",
         "inline": []
       },
       "level": "core"
@@ -513,7 +513,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "When we speak of the range of a projectile on level ground, we assume that $R$ is very small compared with the circumference of the Earth. If, however, the range is large, the Earth curves away below the projectile and acceleration of gravity changes direction along the path. The range is larger than predicted by the range equation given above because the projectile has farther to fall than it would on level ground. (See .) If the initial speed is great enough, the projectile goes into orbit. This possibility was recognized centuries before it could be accomplished. When an object is in orbit, the Earth curves away from underneath the object at the same rate as it falls. The object thus falls continuously but never hits the surface. These and other aspects of orbital motion, such as the rotation of the Earth, will be covered analytically and in greater depth later in this text.",
+        "text": "When we speak of the range of a projectile on level ground, we assume that $R$ is very small compared with the circumference of the Earth. If, however, the range is large, the Earth curves away below the projectile and acceleration of gravity changes direction along the path. The range is larger than predicted by the range equation given above because the projectile has farther to fall than it would on level ground. (See the figure.) If the initial speed is great enough, the projectile goes into orbit. This possibility was recognized centuries before it could be accomplished. When an object is in orbit, the Earth curves away from underneath the object at the same rate as it falls. The object thus falls continuously but never hits the surface. These and other aspects of orbital motion, such as the rotation of the Earth, will be covered analytically and in greater depth later in this text.",
         "inline": []
       },
       "level": "core"
@@ -522,7 +522,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "Once again we see that thinking about one topic, such as the range of a projectile, can lead us to others, such as the Earth orbits. In Addition of Velocities , we will examine the addition of velocities, which is another important aspect of two-dimensional kinematics and will also yield insights beyond the immediate topic.",
+        "text": "Once again we see that thinking about one topic, such as the range of a projectile, can lead us to others, such as the Earth orbits. In Addition of Velocities, we will examine the addition of velocities, which is another important aspect of two-dimensional kinematics and will also yield insights beyond the immediate topic.",
         "inline": []
       },
       "level": "core"
@@ -602,7 +602,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Answer the following questions for projectile motion on level ground assuming negligible air resistance (the initial angle being neither $0º$ nor $90º$ ): (a) Is the velocity ever zero? (b) When is the velocity a minimum? A maximum? (c) Can the velocity ever be the same as the initial velocity at a time other than at $t=0$ ? (d) Can the speed ever be the same as the initial speed at a time other than at $t=0$ ?",
+        "text": "Answer the following questions for projectile motion on level ground assuming negligible air resistance (the initial angle being neither $0º$ nor $90º$): (a) Is the velocity ever zero? (b) When is the velocity a minimum? A maximum? (c) Can the velocity ever be the same as the initial velocity at a time other than at $t=0$? (d) Can the speed ever be the same as the initial speed at a time other than at $t=0$?",
         "inline": []
       },
       "level": "core",
@@ -623,7 +623,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Answer the following questions for projectile motion on level ground assuming negligible air resistance (the initial angle being neither $0º$ nor $90º$ ): (a) Is the acceleration ever zero? (b) Is the acceleration ever in the same direction as a component of velocity? (c) Is the acceleration ever opposite in direction to a component of velocity?",
+        "text": "Answer the following questions for projectile motion on level ground assuming negligible air resistance (the initial angle being neither $0º$ nor $90º$): (a) Is the acceleration ever zero? (b) Is the acceleration ever in the same direction as a component of velocity? (c) Is the acceleration ever opposite in direction to a component of velocity?",
         "inline": []
       },
       "level": "core",
@@ -791,7 +791,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A daredevil is attempting to jump his motorcycle over a line of buses parked end to end by driving up a $32º$ ramp at a speed of $40.0 m/s(144 km/h)$ . How many buses can he clear if the top of the takeoff ramp is at the same height as the bus tops and the buses are 20.0 m long? (b) Discuss what your answer implies about the margin of error in this act—that is, consider how much greater the range is than the horizontal distance he must travel to miss the end of the last bus. (Neglect air resistance.)",
+        "text": "(a) A daredevil is attempting to jump his motorcycle over a line of buses parked end to end by driving up a $32º$ ramp at a speed of $40.0 m/s(144 km/h)$. How many buses can he clear if the top of the takeoff ramp is at the same height as the bus tops and the buses are 20.0 m long? (b) Discuss what your answer implies about the margin of error in this act—that is, consider how much greater the range is than the horizontal distance he must travel to miss the end of the last bus. (Neglect air resistance.)",
         "inline": []
       },
       "level": "core",
@@ -866,7 +866,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the ranges for the projectiles in (a) for $θ=45º$ and the given initial velocities.",
+        "text": "Verify the ranges for the projectiles in the figure (a) for $θ=45º$ and the given initial velocities.",
         "inline": []
       },
       "level": "core",
@@ -908,7 +908,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the ranges shown for the projectiles in (b) for an initial velocity of 50 m/s at the given initial angles.",
+        "text": "Verify the ranges shown for the projectiles in the figure (b) for an initial velocity of 50 m/s at the given initial angles.",
         "inline": []
       },
       "level": "core",
@@ -929,7 +929,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The cannon on a battleship can fire a shell a maximum distance of 32.0 km. (a) Calculate the initial velocity of the shell. (b) What maximum height does it reach? (At its highest, the shell is above 60% of the atmosphere—but air resistance is not really negligible as assumed to make this problem easier.) (c) The ocean is not flat, because the Earth is curved. Assume that the radius of the Earth is $6.37×{10}^{3}km$ . How many meters lower will its surface be 32.0 km from the ship along a horizontal line parallel to the surface at the ship? Does your answer imply that error introduced by the assumption of a flat Earth in projectile motion is significant here?",
+        "text": "The cannon on a battleship can fire a shell a maximum distance of 32.0 km. (a) Calculate the initial velocity of the shell. (b) What maximum height does it reach? (At its highest, the shell is above 60% of the atmosphere—but air resistance is not really negligible as assumed to make this problem easier.) (c) The ocean is not flat, because the Earth is curved. Assume that the radius of the Earth is $6.37\\times {10}^{3} km$. How many meters lower will its surface be 32.0 km from the ship along a horizontal line parallel to the surface at the ship? Does your answer imply that error introduced by the assumption of a flat Earth in projectile motion is significant here?",
         "inline": []
       },
       "level": "core",
@@ -971,7 +971,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An arrow is shot from a height of 1.5 m toward a cliff of height $H$ . It is shot with a velocity of 30 m/s at an angle of $60º$ above the horizontal. It lands on the top edge of the cliff 4.0 s later. (a) What is the height of the cliff? (b) What is the maximum height reached by the arrow along its trajectory? (c) What is the arrow’s impact speed just before hitting the cliff?",
+        "text": "An arrow is shot from a height of 1.5 m toward a cliff of height $H$. It is shot with a velocity of 30 m/s at an angle of $60º$ above the horizontal. It lands on the top edge of the cliff 4.0 s later. (a) What is the height of the cliff? (b) What is the maximum height reached by the arrow along its trajectory? (c) What is the arrow’s impact speed just before hitting the cliff?",
         "inline": []
       },
       "level": "core",
@@ -992,7 +992,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In the standing broad jump, one squats and then pushes off with the legs to see how far one can jump. Suppose the extension of the legs from the crouch position is 0.600 m and the acceleration achieved from this position is 1.25 times the acceleration due to gravity, $g$ . How far can they jump? State your assumptions. (Increased range can be achieved by swinging the arms in the direction of the jump.)",
+        "text": "In the standing broad jump, one squats and then pushes off with the legs to see how far one can jump. Suppose the extension of the legs from the crouch position is 0.600 m and the acceleration achieved from this position is 1.25 times the acceleration due to gravity, $g$. How far can they jump? State your assumptions. (Increased range can be achieved by swinging the arms in the direction of the jump.)",
         "inline": []
       },
       "level": "core",
@@ -1340,7 +1340,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Prove that the trajectory of a projectile is parabolic, having the form $y=ax+{bx}^{2}$ . To obtain this expression, solve the equation $x={v}_{0x}t$ for $t$ and substitute it into the expression for $y={v}_{0y}t-(1/2){gt}^{2}$ (These equations describe the $x$ and $y$ positions of a projectile that starts at the origin.) You should obtain an equation of the form $y=ax+{bx}^{2}$ where $a$ and $b$ are constants.",
+        "text": "Prove that the trajectory of a projectile is parabolic, having the form $y=ax+{bx}^{2}$. To obtain this expression, solve the equation $x={v}_{0x}t$ for $t$ and substitute it into the expression for $y={v}_{0y}t-(1/2){gt}^{2}$ (These equations describe the $x$ and $y$ positions of a projectile that starts at the origin.) You should obtain an equation of the form $y=ax+{bx}^{2}$ where $a$ and $b$ are constants.",
         "inline": []
       },
       "level": "core",
@@ -1361,7 +1361,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Derive $R=\\frac{{v}_{0}^{2}sin{2θ}_{0}}{g}$ for the range of a projectile on level ground by finding the time $t$ at which $y$ becomes zero and substituting this value of $t$ into the expression for $x-{x}_{0}$ , noting that $R=x-{x}_{0}$",
+        "text": "Derive $R=\\frac{{v}_{0}^{2} sin {2θ}_{0}}{g}$ for the range of a projectile on level ground by finding the time $t$ at which $y$ becomes zero and substituting this value of $t$ into the expression for $x-{x}_{0}$, noting that $R=x-{x}_{0}$",
         "inline": []
       },
       "level": "core",

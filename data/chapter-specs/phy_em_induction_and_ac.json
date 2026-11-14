@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Electromagnetic Induction, AC Circuits, and Electrical Technologies",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -137,7 +137,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_magnetism",
+    "phy_electric_current"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -156,24 +159,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -217,7 +203,65 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-13"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A magnet is pushed into a coil and then held still inside it. When is an emf induced?",
+          "answer": "Only while the magnet is moving.",
+          "answer_kind": "explanation",
+          "solution": [
+            "An emf is induced when the magnetic flux through the coil changes.",
+            "While the magnet moves, the flux changes.",
+            "When it is held still, the flux is constant, so the induced emf is zero."
+          ],
+          "tags": [
+            "magnetic flux",
+            "induced emf"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A coil of area 0.05 m² is perpendicular to a uniform magnetic field of 2 T. Find the flux through it.",
+          "answer": "0.1 Wb",
+          "answer_kind": "expression",
+          "solution": [
+            "The field is perpendicular to the coil, so Φ = BA.",
+            "Φ = 2 × 0.05.",
+            "Φ = 0.1 Wb."
+          ],
+          "tags": [
+            "magnetic flux",
+            "area"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A circular coil of 200 turns and radius 5.00 cm lies perpendicular to a uniform magnetic field that increases steadily from 0.100 T to 0.700 T in 0.200 s. (a) Find the change in flux through one turn. (b) Find the average emf induced in the coil. (c) If the coil's resistance is $12.0Ω$, find the average induced current.",
+          "answer": "(a) $4.71×10^{-3}Wb$ (b) 4.71 V (c) 0.393 A",
+          "answer_kind": "expression",
+          "solution": [
+            "The area is $A=πr^{2}=π(0.0500)^{2}=7.85×10^{-3}m^{2}$ .",
+            "(a) $ΔΦ=ΔB\\cdot A=(0.700-0.100)(7.85×10^{-3})=4.71×10^{-3}Wb$ .",
+            "(b) Faraday's law: $|emf|=NΔΦ/Δt=200(4.71×10^{-3})/0.200=4.71V$ .",
+            "(c) $I=|emf|/R=4.71/12.0=0.393A$ ."
+          ],
+          "tags": [
+            "Faraday's law",
+            "magnetic flux",
+            "induced emf"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Induced Emf and Magnetic Flux has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -229,7 +273,22 @@
         "Calculate emf, current, and magnetic fields using Faraday’s Law.",
         "Explain the physical results of Lenz’s Law"
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Faraday's law says the induced emf is proportional to the magnetic flux itself.",
+          "correction": "It is proportional to the rate of change of the flux, so a steady flux induces nothing at all. The minus sign in Lenz's law is what says the induced current opposes the change.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_em_induction_and_ac:trap-3",
+          "signal": "Our own question offers the flux itself as an option."
+        },
+        {
+          "claim": "The induced current flows so as to reinforce the magnetic field that caused it.",
+          "correction": "It opposes the change that produced it, which is how the conservation of energy shows up in induction. A current that reinforced the field would give away energy for nothing.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_em_induction_and_ac:trap-4",
+          "signal": "Our own question offers the reinforcing direction as an option."
+        }
+      ],
       "summary": [
         "Faraday’s law of induction states that the emfinduced by a change in magnetic flux is emf = − N Δ Φ Δt when flux changes by ΔΦ in a time Δt.",
         "If emf is induced in a coil, N is its number of turns.",
@@ -255,7 +314,28 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-35"
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A bar magnet is held above a horizontal aluminum ring with its north pole pointing down, and the magnet is pushed downward toward the ring. (a) As seen from above, what is the direction of the induced current in the ring? (b) What is the direction when the magnet is pulled away? (c) Explain both answers with Lenz's law. (d) If the ring is cut, what happens to the induced current and to the opposing force on the magnet?",
+          "answer": "(a) Counterclockwise (b) Clockwise (c) The induced current opposes the change in flux: it produces an upward field while the downward flux grows, and a downward field while the downward flux shrinks. (d) With the ring cut, no current flows and there is no opposing magnetic force.",
+          "answer_kind": "explanation",
+          "solution": [
+            "With the north pole approaching from above, the downward magnetic flux through the ring increases.",
+            "By Lenz's law the induced current must create an upward magnetic field to oppose that increase. Seen from above, an upward field requires a counterclockwise current.",
+            "When the magnet is pulled away, the downward flux decreases, so the induced current must create a downward field. Seen from above, that requires a clockwise current.",
+            "A cut ring is an open circuit, so no induced current can flow. Without the current there is no magnetic force opposing the magnet's motion."
+          ],
+          "tags": [
+            "Lenz's law",
+            "induced current",
+            "eddy currents"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -264,7 +344,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42400",
       "objectives": [
-        "Calculate emf, force, magnetic field, and work due to the motion of an object in a magnetic field."
+        "Calculate emf, force, magnetic field, and work due to the motion of an object in a magnetic field.",
+        "Use the motional emf equation to find the emf, current and force on a conductor moving in a magnetic field."
       ],
       "misconceptions": [
         {
@@ -297,7 +378,27 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-35"
+      "worked_from": "exr-35",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A rod 0.2 m long moves at 2 m/s perpendicular to a 0.5 T field. Find the emf induced across it.",
+          "answer": "0.2 V",
+          "answer_kind": "expression",
+          "solution": [
+            "Motional emf is ε = Blv.",
+            "ε = 0.5 × 0.2 × 2.",
+            "ε = 0.2 V."
+          ],
+          "tags": [
+            "motional emf",
+            "magnetic field"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -309,7 +410,12 @@
         "Explain the magnitude and direction of an induced eddy current, and the effect this will have on the object it is induced in.",
         "Describe several applications of magnetic damping."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Eddy currents are harmless because they stay inside the metal.",
+          "correction": "Eddy currents dissipate energy as heat. They are useful in induction braking and induction cooking, but they are a loss in transformer cores, which is why cores are laminated."
+        }
+      ],
       "summary": [
         "Current loops induced in moving conductors are called eddy currents.",
         "They can create significant drag, called magnetic damping."
@@ -334,7 +440,64 @@
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What are eddy currents?",
+          "answer": "Circulating induced currents set up in the body of a conductor when the magnetic flux through it changes.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A changing magnetic flux induces an emf in the conductor.",
+            "In a bulk conductor the induced current can circulate in closed loops.",
+            "These circulating currents are called eddy currents."
+          ],
+          "tags": [
+            "eddy current",
+            "induction"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why are transformer cores made of thin laminated sheets?",
+          "answer": "Lamination raises the resistance of the eddy-current paths, reducing the currents and the energy lost as heat.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A changing flux induces eddy currents in the core.",
+            "Thin sheets separated by insulation break up the large loops.",
+            "The smaller eddy currents dissipate less energy."
+          ],
+          "tags": [
+            "eddy current",
+            "transformer core"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A copper plate swings between the poles of a strong magnet and comes to rest quickly. Explain what stops it.",
+          "answer": "Eddy currents are induced in the moving plate, and their magnetic fields oppose the motion, producing magnetic damping.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The moving plate experiences a changing magnetic flux.",
+            "Eddy currents are induced in the copper.",
+            "By Lenz’s law their field opposes the motion, so the plate is damped without contact."
+          ],
+          "tags": [
+            "eddy current",
+            "magnetic damping",
+            "lenz law"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -346,7 +509,12 @@
         "Calculate the emf induced in a generator.",
         "Calculate the peak emf which can be induced in a particular generator system."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A generator creates electrical energy from nothing.",
+          "correction": "A generator converts mechanical energy into electrical energy. The work done in turning the coil against the magnetic force is the source of the electrical energy."
+        }
+      ],
       "summary": [
         "An electric generator rotates a coil in a magnetic field, inducing an emfgiven as a function of time by emf=NABωsinωt, where A is the area of an N-turn coil rotated at a constant angular velocity ω in a uniform magnetic field B.",
         "The peak emf emf0 of a generator is emf0=NABω."
@@ -370,8 +538,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-35"
+      ]
     },
     {
       "id": "sec-7",
@@ -380,9 +547,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42411",
       "objectives": [
-        "Explain what back emf is and how it is induced."
+        "Explain what back emf is and how it is induced.",
+        "Explain why a motor draws a large current when it starts and a small current when it runs at full speed."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A motor with no load draws its largest current when it is spinning fastest.",
+          "correction": "The back emf grows with speed and opposes the supply emf. At full speed the net emf and current are small; at start-up there is no back emf, so the current is largest."
+        }
+      ],
       "summary": [
         "Any rotating coil will have an induced emf—in motors, this is called back emf, since it opposes the emf input to the motor.",
         "Calculate the flux of a uniform magnetic field through a loop of arbitrary orientation.",
@@ -396,7 +569,7 @@
           "subject": "physics",
           "topic_slug": "electromagnetic-induction",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -404,11 +577,31 @@
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-11"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is back emf in a motor?",
+          "answer": "The emf induced in the rotating coil of a motor, which opposes the supply emf.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The motor coil rotates in a magnetic field.",
+            "That rotation induces an emf in the coil.",
+            "The induced emf opposes the supply, so it is called back emf."
+          ],
+          "tags": [
+            "back emf",
+            "motor"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Back Emf has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-8",
@@ -420,7 +613,12 @@
         "Explain how a transformer works.",
         "Calculate voltage, current, and/or number of turns given the other quantities."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A transformer can increase the power delivered to a load.",
+          "correction": "A transformer changes voltage and current but not power. For an ideal transformer the output power equals the input power, so a step-up in voltage is matched by a step-down in current."
+        }
+      ],
       "summary": [
         "Transformers use induction to transform voltages from one value to another.",
         "For a transformer, the voltages across the primary and secondary coils are related by VsVp=NsNp, where Vp and Vs are the voltages across primary and secondary coils having Np and Ns turns.",
@@ -445,8 +643,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-36"
+      ]
     },
     {
       "id": "sec-9",
@@ -455,9 +652,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42416",
       "objectives": [
-        "Explain how various modern safety features in electric circuits work, with an emphasis on how induction is employed."
+        "Explain how various modern safety features in electric circuits work, with an emphasis on how induction is employed.",
+        "Explain how ground-fault circuit interrupters and fuses use induction or heating to protect a circuit."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A fuse protects a person from electric shock by limiting the current through their body.",
+          "correction": "A fuse protects the wiring and equipment from excessive current; it is too slow to protect a person from a shock. A GFCI or RCD detects leakage current and trips quickly for personal protection."
+        }
+      ],
       "summary": [
         "Electrical safety systems and devices are employed to prevent thermal and shock hazards.",
         "Circuit breakers and fuses interrupt excessive currents to prevent thermal hazards.",
@@ -469,9 +672,9 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
+          "topic_slug": "electrical-energy-and-power",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -479,11 +682,49 @@
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-21"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What does a fuse do when too much current flows?",
+          "answer": "The excess current melts the fuse wire and breaks the circuit.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A fuse contains a thin wire with a low melting point.",
+            "A current above its rating heats the wire until it melts.",
+            "The circuit is broken, so the current stops."
+          ],
+          "tags": [
+            "fuse",
+            "electrical safety"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why is a circuit breaker preferable to a fuse in a modern home?",
+          "answer": "It can be reset after it trips, while a fuse must be replaced.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Both break the circuit when the current is too large.",
+            "A fuse wire melts and is destroyed.",
+            "A circuit breaker trips a switch that can simply be reset."
+          ],
+          "tags": [
+            "circuit breaker",
+            "fuse"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Electrical Safety: Systems and Devices has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-10",
@@ -496,7 +737,12 @@
         "Calculate the energy stored in an inductor.",
         "Calculate the emf generated in an inductor."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An inductor stores energy in its resistance.",
+          "correction": "An inductor stores energy in the magnetic field around it, U = ½LI². Resistance dissipates energy as heat; it does not store it."
+        }
+      ],
       "summary": [
         "Inductance is the property of a device that tells how effectively it induces an emf in another device.",
         "Mutual inductance is the effect of two devices in inducing emfs in each other.",
@@ -521,8 +767,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-48"
+      ]
     },
     {
       "id": "sec-11",
@@ -535,7 +780,12 @@
         "Calculate the characteristic time of an RL circuit.",
         "Sketch the current in an RL circuit over time."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The current in an RL circuit jumps instantly to its final value when the switch is closed.",
+          "correction": "The inductor opposes the change in current, so the current rises exponentially with time constant τ = L/R. It approaches the final value gradually."
+        }
+      ],
       "summary": [
         "When a series connection of a resistor and an inductor—an RL circuit—is connected to a voltage source, the time variation of the current is I=I0(1−e−t/τ) (turning on). where I0=V/R is the final current.",
         "The characteristic time constant τ is τ=LR , where L is the inductance and R is the resistance.",
@@ -549,7 +799,7 @@
           "subject": "physics",
           "topic_slug": "electromagnetic-induction",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -557,11 +807,10 @@
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-22"
+      ]
     },
     {
       "id": "sec-12",
@@ -574,7 +823,12 @@
         "Calculate inductive and capacitive reactance.",
         "Calculate current and/or voltage in simple inductive, capacitive, and resistive circuits."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Inductive and capacitive reactance both increase with frequency.",
+          "correction": "Inductive reactance rises with frequency, X_L = 2πfL, while capacitive reactance falls, X_C = 1/(2πfC)."
+        }
+      ],
       "summary": [
         "For inductors in AC circuits, we find that when a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a 90º phase angle.",
         "The opposition of an inductor to a change in current is expressed as a type of AC resistance.",
@@ -586,7 +840,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
+          "topic_slug": "simple-a-c-circuits",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -594,13 +848,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-simple-a-c-circuits",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-57"
+      ]
     },
     {
       "id": "sec-13",
@@ -613,7 +866,12 @@
         "Draw the circuit diagram for an RLC series circuit.",
         "Explain the significance of the resonant frequency."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "At resonance the impedance of a series RLC circuit is maximum.",
+          "correction": "At resonance X_L = X_C, so they cancel and the impedance is minimum and equal to R. The current is then maximum."
+        }
+      ],
       "summary": [
         "The AC analogy to resistance is impedance Z , the combined effect of resistors, inductors, and capacitors, defined by the AC version of Ohm’s law: I 0 = V 0 Z or I rms = V rms Z , where I0 is the peak current and V0 is the peak source voltage.",
         "Impedance has units of ohms and is given by Z=R2+(XL−XC)2.",
@@ -625,7 +883,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
+          "topic_slug": "simple-a-c-circuits",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -633,7 +891,7 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-simple-a-c-circuits",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -642,7 +900,255 @@
       "worked_from": "exr-69"
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\Phi = BA\\cos\\theta$",
+      "caption": {
+        "text": "Magnetic flux",
+        "inline": []
+      },
+      "conditions": {
+        "text": "B is the flux density, A the area, and θ the angle between the field and the normal to the area.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42390/index.cnxml",
+        "locator": "CNXML module m42390, section “Induced Emf and Magnetic Flux”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$\\varepsilon = -N\\frac{\\Delta\\Phi}{\\Delta t}$",
+      "caption": {
+        "text": "Faraday’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The induced emf equals the negative rate of change of magnetic flux through N turns.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42392/index.cnxml",
+        "locator": "CNXML module m42392, section “Faraday’s Law of Induction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$\\varepsilon = Blv$",
+      "caption": {
+        "text": "Motional emf",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a conductor of length l moving at speed v perpendicular to a uniform field B.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42400/index.cnxml",
+        "locator": "CNXML module m42400, section “Motional Emf”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\varepsilon_0 = NAB\\omega$",
+      "caption": {
+        "text": "Peak emf of a generator",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a coil of N turns and area A rotating at angular speed ω in a field B.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42408/index.cnxml",
+        "locator": "CNXML module m42408, section “Electric Generators”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$",
+      "caption": {
+        "text": "Transformer voltage ratio",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an ideal transformer, with primary and secondary voltages and turns.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42414/index.cnxml",
+        "locator": "CNXML module m42414, section “Transformers”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\varepsilon = -L\\frac{\\Delta I}{\\Delta t}$",
+      "caption": {
+        "text": "Induced emf in an inductor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "L is the self-inductance and ΔI/Δt the rate of change of current.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42420/index.cnxml",
+        "locator": "CNXML module m42420, section “Inductance”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$U = \\frac{1}{2}LI^2$",
+      "caption": {
+        "text": "Energy stored in an inductor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The energy is stored in the magnetic field of the inductor.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42420/index.cnxml",
+        "locator": "CNXML module m42420, section “Inductance”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\tau = \\frac{L}{R}$",
+      "caption": {
+        "text": "Time constant of an RL circuit",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The current reaches about 63% of its final value in one time constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42425/index.cnxml",
+        "locator": "CNXML module m42425, section “RL Circuits”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$X_L = 2\\pi fL$",
+      "caption": {
+        "text": "Inductive reactance",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The opposition of an inductor to alternating current at frequency f.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42427/index.cnxml",
+        "locator": "CNXML module m42427, section “Reactance, Inductive and Capacitive”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-10",
+      "expression": "$X_C = \\frac{1}{2\\pi fC}$",
+      "caption": {
+        "text": "Capacitive reactance",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The opposition of a capacitor to alternating current at frequency f.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42427/index.cnxml",
+        "locator": "CNXML module m42427, section “Reactance, Inductive and Capacitive”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-11",
+      "expression": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$",
+      "caption": {
+        "text": "Impedance of a series RLC circuit",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The total opposition to current in a series RLC circuit.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42431/index.cnxml",
+        "locator": "CNXML module m42431, section “RLC Series AC Circuits”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-12",
+      "expression": "$f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$",
+      "caption": {
+        "text": "Resonant frequency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The frequency at which X_L = X_C in a series RLC circuit.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42431/index.cnxml",
+        "locator": "CNXML module m42431, section “RLC Series AC Circuits”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-13",
+      "expression": "$P_{\\mathrm{avg}} = I_{\\mathrm{rms}}V_{\\mathrm{rms}}\\cos\\varphi$",
+      "caption": {
+        "text": "Average AC power",
+        "inline": []
+      },
+      "conditions": {
+        "text": "φ is the phase angle between voltage and current.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42431/index.cnxml",
+        "locator": "CNXML module m42431, section “RLC Series AC Circuits”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1204,76 +1710,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A generator and a motor are the same device.",
-      "correction": "A generator turns motion into current, and a motor turns current into motion. The same coil can do either, depending on what drives it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Transformers work on direct current.",
-      "correction": "They work on alternating current, because a changing current is what gives a changing flux and therefore an induced voltage.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "Faraday's law says the induced emf is proportional to the magnetic flux itself.",
-      "correction": "It is proportional to the rate of change of the flux, so a steady flux induces nothing at all. The minus sign in Lenz's law is what says the induced current opposes the change.",
-      "signal": "Our own question offers the flux itself as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The induced current flows so as to reinforce the magnetic field that caused it.",
-      "correction": "It opposes the change that produced it, which is how the conservation of energy shows up in induction. A current that reinforced the field would give away energy for nothing.",
-      "signal": "Our own question offers the reinforcing direction as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1419,6 +1856,267 @@
       "explanation": "The capacitive reactance is $X_C = \\frac{1}{2\\pi f C}$, so it falls as the frequency rises. The inductive reactance $X_L = 2\\pi f L$ rises.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "A coil of area 0.2 m² lies perpendicular to a magnetic field of flux density 0.5 T. Find the magnetic flux through the coil.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.01 Wb"
+        },
+        {
+          "id": "b",
+          "text": "0.1 Wb"
+        },
+        {
+          "id": "c",
+          "text": "0.4 Wb"
+        },
+        {
+          "id": "d",
+          "text": "2.5 Wb"
+        }
+      ],
+      "answer": "b",
+      "explanation": "For a field perpendicular to the coil, Φ = BA = 0.5 × 0.2 = 0.1 Wb.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A metal rod 0.5 m long moves at 4 m/s perpendicular to a magnetic field of flux density 0.2 T. Find the emf induced across the rod.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.1 V"
+        },
+        {
+          "id": "b",
+          "text": "0.4 V"
+        },
+        {
+          "id": "c",
+          "text": "4.0 V"
+        },
+        {
+          "id": "d",
+          "text": "40 V"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Motional emf is ε = Blv = 0.2 × 0.5 × 4 = 0.4 V.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "Eddy currents in a transformer core are reduced by",
+      "options": [
+        {
+          "id": "a",
+          "text": "laminating the core"
+        },
+        {
+          "id": "b",
+          "text": "increasing the core thickness"
+        },
+        {
+          "id": "c",
+          "text": "using a solid iron block"
+        },
+        {
+          "id": "d",
+          "text": "winding fewer turns"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Lamination breaks up the conducting path, which raises the resistance and reduces the eddy currents and the heating they cause.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "The peak emf of a generator is 100 V. What is its rms emf?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 V"
+        },
+        {
+          "id": "b",
+          "text": "70.7 V"
+        },
+        {
+          "id": "c",
+          "text": "100 V"
+        },
+        {
+          "id": "d",
+          "text": "141 V"
+        }
+      ],
+      "answer": "b",
+      "explanation": "For a sinusoidal emf, V_rms = V₀/√2 = 100/1.414 ≈ 70.7 V.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "Why does a motor draw a large current at the instant it is switched on?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The back emf is zero because the motor is not yet turning."
+        },
+        {
+          "id": "b",
+          "text": "The supply voltage is higher at start-up."
+        },
+        {
+          "id": "c",
+          "text": "The resistance of the windings is zero."
+        },
+        {
+          "id": "d",
+          "text": "The magnetic field is stronger at rest."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The back emf is proportional to the speed of the coil. At start-up the speed is zero, so the back emf is zero and the current is limited only by the winding resistance.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-9",
+      "stem": "A ground-fault circuit interrupter (GFCI) protects a person by",
+      "options": [
+        {
+          "id": "a",
+          "text": "detecting a difference between the currents in the live and neutral wires"
+        },
+        {
+          "id": "b",
+          "text": "increasing the supply voltage"
+        },
+        {
+          "id": "c",
+          "text": "storing charge in a capacitor"
+        },
+        {
+          "id": "d",
+          "text": "converting AC to DC"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A GFCI compares the current going out and returning. A difference means current is leaking to earth, so it trips the circuit quickly.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-10",
+      "stem": "An inductor of inductance 0.2 H carries a current of 3 A. Find the energy stored in its magnetic field.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.3 J"
+        },
+        {
+          "id": "b",
+          "text": "0.6 J"
+        },
+        {
+          "id": "c",
+          "text": "0.9 J"
+        },
+        {
+          "id": "d",
+          "text": "1.8 J"
+        }
+      ],
+      "answer": "c",
+      "explanation": "U = ½LI² = ½ × 0.2 × 3² = 0.9 J.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-13",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-11",
+      "stem": "An RL circuit has R = 10 Ω and L = 2 H. Find its time constant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.2 s"
+        },
+        {
+          "id": "b",
+          "text": "2 s"
+        },
+        {
+          "id": "c",
+          "text": "5 s"
+        },
+        {
+          "id": "d",
+          "text": "20 s"
+        }
+      ],
+      "answer": "a",
+      "explanation": "τ = L/R = 2/10 = 0.2 s.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-14",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-13",
+      "stem": "A series RLC circuit is at resonance. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The impedance equals the resistance."
+        },
+        {
+          "id": "b",
+          "text": "The impedance is infinite."
+        },
+        {
+          "id": "c",
+          "text": "The current is zero."
+        },
+        {
+          "id": "d",
+          "text": "The phase angle is 90°."
+        }
+      ],
+      "answer": "a",
+      "explanation": "At resonance the inductive and capacitive reactances cancel, so Z = R and the current is maximum and in phase with the voltage.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
     }
   ],
   "sources": [
@@ -1429,5 +2127,87 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Electromagnetic Induction, AC Circuits, and Electrical Technologies', modules m42389, m42390, m42392, m42400, m42404, m42408, m42411, m42414, m42416, m42420, m42425, m42427, m42431",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 23,
+  "exercise_fixes": {
+    "sec-8:exr-45": {
+      "stem": "A plug-in transformer supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?"
+    },
+    "sec-9:exr-34": {
+      "stem": "Integrated Concepts A short circuit to the grounded metal case of an appliance occurs. The person touching the case is wet and only has a $3.00 kΩ$ resistance to earth/ground. (a) What is the voltage on the case if 5.00 mA flows through the person? (b) What is the current in the short circuit if the resistance of the earth/ground wire is $0.200 Ω$ ? (c) Will this trigger the 20.0 A circuit breaker supplying the appliance?"
+    },
+    "sec-4:exr-52": {
+      "answer": "(a) 6.41 N (b) $1.80×10^{8}J$ (c) 0.231 m/s (d) Over a week the velocity change is about 39 m/s, roughly 0.5% of 7.80 km/s; the orbit would slowly spiral inward, so the shuttle would need extra fuel to maintain altitude.",
+      "solution": [
+        "(a) The electrical power is $P=VI=(5.00×10^{3})(10.0)=5.00×10^{4}W$. The magnetic drag force is $F=P/v=5.00×10^{4}/7.80×10^{3}=6.41N$ .",
+        "(b) In 1.00 h, $E=Fvt=(6.41)(7.80×10^{3})(3600)=1.80×10^{8}J$ .",
+        "(c) $Δv=E/(mv)=(1.80×10^{8})/[(1.00×10^{5})(7.80×10^{3})]=0.231m/s$ .",
+        "(d) In 168 h, $Δv≈168(0.231)=38.8m/s$, which is about 0.50% of 7.80 km/s. The continuing drag removes orbital energy and the orbit spirals inward unless the shuttle supplies thrust."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source values 10.0 N, 2.81×10⁸ J, 0.36 m/s and 60 m/s did not follow from the stated 5.00 kV and 10.0 A"
+    },
+    "sec-11:exr-30": {
+      "answer": "$1.00×10^{-15}s$ to 100 s",
+      "solution": [
+        "The time constant is $τ=L/R$ .",
+        "Smallest: $τ_{min}=L_{min}/R_{max}=1.00×10^{-9}/1.00×10^{6}=1.00×10^{-15}s$ .",
+        "Largest: $τ_{max}=L_{max}/R_{min}=10.0/0.100=100s$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer gave only the lower end of the range"
+    },
+    "sec-13:exr-98": {
+      "stem": "An RLC series circuit has a $1.00kΩ$ resistor, a $150µH$ inductor, and a 25.0 nF capacitor. The source has an rms voltage of 400 V. (a) Find the power factor at $f=7.50kHz$ . (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit's resonant frequency.",
+      "answer": "(a) 0.765 (b) 40.1°, with the current leading the voltage (c) 94 W (d) 160 W",
+      "solution": [
+        "(a) $X_{L}=2πfL=2π(7.50×10^{3})(150×10^{-6})=7.07Ω$ and $X_{C}=1/(2πfC)=1/[2π(7.50×10^{3})(25.0×10^{-9})]=849Ω$ . $Z=\\sqrt{R^{2}+(X_{C}-X_{L})^{2}}=\\sqrt{1000^{2}+842^{2}}=1310Ω$ . Power factor $=R/Z=1000/1310=0.765$ .",
+        "(b) $φ=\\cos^{-1}(0.765)=40.1°$. Since $X_{C}>X_{L}$, the current leads the voltage.",
+        "(c) $P_{avg}=V_{rms}^{2}R/Z^{2}=(400)^{2}(1000)/(1310)^{2}=93.6W≈94W$ .",
+        "(d) At resonance $X_{L}=X_{C}$, so $Z=R$ and $P_{avg}=V_{rms}^{2}/R=(400)^{2}/1000=160W$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem said 7.50 Hz while its answers belonged to a kHz-range frequency, and the values here are recomputed for 7.50 kHz with the stated components"
+    },
+    "sec-13:exr-104": {
+      "answer": "(a) 32 V (b) 16 V for two loops (each 0.50 m on a side) (c) 0 (d) Only the total area enclosed matters; for the same area, shape does not matter.",
+      "solution": [
+        "(a) A single square loop from 4.000 m of wire is 1.000 m on a side, so $A=1.000m^{2}$. In a quarter cycle at 400 Hz, $Δt=1/(4×400)=6.25×10^{-4}s$ and the flux changes from $BA$ to zero. Thus $|emf|_{avg}=BA/Δt=(0.02000)(1.000)/(6.25×10^{-4})=32V$ .",
+        "(b) Two loops use 2.000 m of wire each and are 0.500 m on a side, so each encloses $0.2500m^{2}$ and the two together enclose $0.5000m^{2}$. Then $|emf|_{avg}=(0.02000)(0.5000)/(6.25×10^{-4})=16V$ .",
+        "(c) In a figure eight the two loops enclose equal areas with opposite orientations, so their emfs cancel: the average emf is zero.",
+        "(d) The emf depends on the rate of change of the total flux, which depends on the total area. For a fixed area and rotation rate, the shape does not matter."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answers were too small by a factor of 10⁵ and part (b) overlooked that two loops from the same wire have half the side length"
+    },
+    "sec-2:exr-30": {
+      "drop": true
+    },
+    "sec-3:exr-41": {
+      "drop": true
+    },
+    "sec-3:exr-62": {
+      "drop": true
+    },
+    "sec-13:exr-102": {
+      "drop": true
+    },
+    "sec-4:exr-40": {
+      "stem": "At what speed must a sliding rod move to produce an emf of 1.00 V in a 1.50 T field, given the rod's length is 30.0 cm?",
+      "solution": [
+        "For a rod moving perpendicular to a uniform field, $\\mathcal{E}=BLv$.",
+        "Solve for the speed: $v=\\mathcal{E}/(BL)=(1.00\\ \\mathrm{V})/[(1.50\\ \\mathrm{T})(0.300\\ \\mathrm{m})]=2.22\\ \\mathrm{m/s}$."
+      ]
+    },
+    "sec-12:exr-77": {
+      "stem": "A capacitor connected in parallel with a signal line filters high-frequency signals by shorting them to earth/ground. (a) What capacitance is needed to produce a reactance of $10.0\\ \\mathrm{m\\Omega}$ for a 5.00 kHz signal? (b) What would its reactance be at 3.00 Hz? (c) Discuss the implications of your answers to (a) and (b).",
+      "solution": [
+        "(a) $X_{C}=1/(2\\pi fC)$, so $C=1/(2\\pi fX_{C})=1/[2\\pi(5.00\\times10^{3}\\ \\mathrm{Hz})(0.0100\\ \\Omega)]=3.18\\times10^{-3}\\ \\mathrm{F}=3.18\\ \\mathrm{mF}$.",
+        "(b) At 3.00 Hz, $X_{C}=1/[2\\pi(3.00\\ \\mathrm{Hz})(3.18\\times10^{-3}\\ \\mathrm{F})]=16.7\\ \\Omega$.",
+        "(c) At 5 kHz the capacitor is nearly a short circuit, so it diverts high-frequency noise to ground. At 3 Hz it is a 16.7 $\\Omega$ path, so it does not short the low-frequency signal. The required capacitance is very large, which shows why practical filters use smaller capacitors at higher frequencies."
+      ]
+    },
+    "sec-2:exr-13": {
+      "drop": true
+    },
+    "sec-6:exr-35": {
+      "drop": true
+    }
+  }
 }

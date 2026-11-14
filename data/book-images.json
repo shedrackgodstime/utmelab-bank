@@ -750,6 +750,196 @@
       "source": "data/concepts/images/phy_m42086_OSX_CPhysics2e_06_03_P22_img.jpg",
       "width": 616
     },
+    "images/phy_m42091_Figure_01_02_01a.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 92600,
+      "extension": ".jpg",
+      "height": 303,
+      "published_path": "books/secondary_physics/b45cf2f4a325f131aa1e29cb105b5726216a8bfc1054d5a23cb98990b7b5d01c.jpg",
+      "sha256": "b45cf2f4a325f131aa1e29cb105b5726216a8bfc1054d5a23cb98990b7b5d01c",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_01a.jpg",
+      "width": 350
+    },
+    "images/phy_m42091_Figure_01_02_01b.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 28426,
+      "extension": ".jpg",
+      "height": 225,
+      "published_path": "books/secondary_physics/c2331a458cb22fff37e33a072f64f594ce3e3d97ec1f64a6c4cfc4aff95b0c97.jpg",
+      "sha256": "c2331a458cb22fff37e33a072f64f594ce3e3d97ec1f64a6c4cfc4aff95b0c97",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_01b.jpg",
+      "width": 400
+    },
+    "images/phy_m42091_Figure_01_02_02a.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 121630,
+      "extension": ".jpg",
+      "height": 415,
+      "published_path": "books/secondary_physics/e724dbcfbfd2709ec3782d59ab6334e3ea0c5f3954393df28b5d907733b953d1.jpg",
+      "sha256": "e724dbcfbfd2709ec3782d59ab6334e3ea0c5f3954393df28b5d907733b953d1",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_02a.jpg",
+      "width": 415
+    },
+    "images/phy_m42091_Figure_01_02_03a.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 51559,
+      "extension": ".jpg",
+      "height": 114,
+      "published_path": "books/secondary_physics/c7fa88c50de2f255711ab243ae947ecf5c4ee358827a49284974bf0457d05ee7.jpg",
+      "sha256": "c7fa88c50de2f255711ab243ae947ecf5c4ee358827a49284974bf0457d05ee7",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_03a.jpg",
+      "width": 525
+    },
+    "images/phy_m42091_Figure_01_02_04a.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 71274,
+      "extension": ".jpg",
+      "height": 214,
+      "published_path": "books/secondary_physics/f397b894be057dca094261cb426e04947b1327b3a98868a322ef2f7596c71482.jpg",
+      "sha256": "f397b894be057dca094261cb426e04947b1327b3a98868a322ef2f7596c71482",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_04a.jpg",
+      "width": 325
+    },
+    "images/phy_m42091_Figure_01_02_05a.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 78916,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/47af18887a7a34f716e36e27d44750c182da7c5158c80d9ba2091b4c5e3bcad2.jpg",
+      "sha256": "47af18887a7a34f716e36e27d44750c182da7c5158c80d9ba2091b4c5e3bcad2",
+      "source": "data/concepts/images/phy_m42091_Figure_01_02_05a.jpg",
+      "width": 375
+    },
+    "images/phy_m42092_Figure_01_01_01_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 90878,
+      "extension": ".jpg",
+      "height": 228,
+      "published_path": "books/secondary_physics/87e3e0465361933d8a569785ec89901e1350defe2f6ab98b8003b93dd82bf0e0.jpg",
+      "sha256": "87e3e0465361933d8a569785ec89901e1350defe2f6ab98b8003b93dd82bf0e0",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_01_aa.jpg",
+      "width": 400
+    },
+    "images/phy_m42092_Figure_01_01_03_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 105606,
+      "extension": ".jpg",
+      "height": 275,
+      "published_path": "books/secondary_physics/0d1c1a42554fe026e0772195dc8c0424156ec9a1235e932bfa197cdf92ac89df.jpg",
+      "sha256": "0d1c1a42554fe026e0772195dc8c0424156ec9a1235e932bfa197cdf92ac89df",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_03_aa.jpg",
+      "width": 413
+    },
+    "images/phy_m42092_Figure_01_01_04_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 51917,
+      "extension": ".jpg",
+      "height": 380,
+      "published_path": "books/secondary_physics/17ae89475557b6b973e2d98bcdc1901c05a6dd3c305946a58d51dad206e07403.jpg",
+      "sha256": "17ae89475557b6b973e2d98bcdc1901c05a6dd3c305946a58d51dad206e07403",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_04_aa.jpg",
+      "width": 315
+    },
+    "images/phy_m42092_Figure_01_01_05_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 97747,
+      "extension": ".jpg",
+      "height": 250,
+      "published_path": "books/secondary_physics/433d53596b1cb0a52151ce2f3accc7882342c89032a90f5bbe96c26fc1aba058.jpg",
+      "sha256": "433d53596b1cb0a52151ce2f3accc7882342c89032a90f5bbe96c26fc1aba058",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_05_aa.jpg",
+      "width": 375
+    },
+    "images/phy_m42092_Figure_01_01_06_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 255778,
+      "extension": ".jpg",
+      "height": 412,
+      "published_path": "books/secondary_physics/f7d05bc94ab23ec6c6c7c970b53da966e342d0e2d3341d7042b0998569132795.jpg",
+      "sha256": "f7d05bc94ab23ec6c6c7c970b53da966e342d0e2d3341d7042b0998569132795",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_06_aa.jpg",
+      "width": 1000
+    },
+    "images/phy_m42092_Figure_01_01_07_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 49056,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/9a49f0b64f9d72682e5e13b43326959b0784089f2cf4cdf5aa46bccb9bf6b3c9.jpg",
+      "sha256": "9a49f0b64f9d72682e5e13b43326959b0784089f2cf4cdf5aa46bccb9bf6b3c9",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_07_aa.jpg",
+      "width": 256
+    },
+    "images/phy_m42092_Figure_01_01_08_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 53742,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/678bf42b361402ec274a2b24c82b2c9ce306aa9530ff76964da358ecd2eefd68.jpg",
+      "sha256": "678bf42b361402ec274a2b24c82b2c9ce306aa9530ff76964da358ecd2eefd68",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_08_aa.jpg",
+      "width": 290
+    },
+    "images/phy_m42092_Figure_01_01_09_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 46398,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/764c822dfe0117b888203cd0aefc5a263403e810a94a8ea0d27b7d4eea8c3679.jpg",
+      "sha256": "764c822dfe0117b888203cd0aefc5a263403e810a94a8ea0d27b7d4eea8c3679",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_09_aa.jpg",
+      "width": 334
+    },
+    "images/phy_m42092_Figure_01_01_10_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 117441,
+      "extension": ".jpg",
+      "height": 400,
+      "published_path": "books/secondary_physics/c548cc17b3ed42c1ad7b9af0d2d6e6d1ce27ea0524c7bac4b260bab00f0aab7c.jpg",
+      "sha256": "c548cc17b3ed42c1ad7b9af0d2d6e6d1ce27ea0524c7bac4b260bab00f0aab7c",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_10_aa.jpg",
+      "width": 299
+    },
+    "images/phy_m42092_Figure_01_01_12_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 88576,
+      "extension": ".jpg",
+      "height": 405,
+      "published_path": "books/secondary_physics/35246c2332321aa16073f2624f1a6450de8cc455e1fc32878aa400d12951a1e9.jpg",
+      "sha256": "35246c2332321aa16073f2624f1a6450de8cc455e1fc32878aa400d12951a1e9",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_12_aa.jpg",
+      "width": 337
+    },
+    "images/phy_m42092_Figure_01_01_13_aa.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 139823,
+      "extension": ".jpg",
+      "height": 382,
+      "published_path": "books/secondary_physics/5c2e5334ffcf7763c800d3213393d8170ce03a3c1dabe05062f97aabe8828ae7.jpg",
+      "sha256": "5c2e5334ffcf7763c800d3213393d8170ce03a3c1dabe05062f97aabe8828ae7",
+      "source": "data/concepts/images/phy_m42092_Figure_01_01_13_aa.jpg",
+      "width": 398
+    },
+    "images/phy_m42092_OSX_CP2e_Figure_01_01_02.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 263084,
+      "extension": ".jpg",
+      "height": 632,
+      "published_path": "books/secondary_physics/82d8bb1cd9b8189894a5a616d2c98f2ff6cb333efcd7e973fab05403ee80baf1.jpg",
+      "sha256": "82d8bb1cd9b8189894a5a616d2c98f2ff6cb333efcd7e973fab05403ee80baf1",
+      "source": "data/concepts/images/phy_m42092_OSX_CP2e_Figure_01_01_02.jpg",
+      "width": 1300
+    },
+    "images/phy_m42092_OSX_CP2e_Figure_01_01_11.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 310817,
+      "extension": ".jpg",
+      "height": 686,
+      "published_path": "books/secondary_physics/f6f4593e342fe029dd85f687f9901fc69372f16745312a9572443766d6cdea1c.jpg",
+      "sha256": "f6f4593e342fe029dd85f687f9901fc69372f16745312a9572443766d6cdea1c",
+      "source": "data/concepts/images/phy_m42092_OSX_CP2e_Figure_01_01_11.jpg",
+      "width": 650
+    },
     "images/phy_m42096_Figure_02_02_01.jpg": {
       "book_id": "secondary_physics",
       "bytes": 100493,
@@ -1389,6 +1579,76 @@
       "sha256": "8f4bcb2f0f0ac4daa24b662582ce54c5c4db656256cf6057004c1dd26daaa2e0",
       "source": "data/concepts/images/phy_m42104_Figure_03_01_04a.jpg",
       "width": 319
+    },
+    "images/phy_m42119_OSX_CP2e_Figure_01_00_01.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 492241,
+      "extension": ".jpg",
+      "height": 800,
+      "published_path": "books/secondary_physics/61af777a417531fabab05afdfbb753318763cd046500deb677d70ede3fa2d7e8.jpg",
+      "sha256": "61af777a417531fabab05afdfbb753318763cd046500deb677d70ede3fa2d7e8",
+      "source": "data/concepts/images/phy_m42119_OSX_CP2e_Figure_01_00_01.jpg",
+      "width": 1500
+    },
+    "images/phy_m42120_Figure_01_03_01.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 68932,
+      "extension": ".jpg",
+      "height": 183,
+      "published_path": "books/secondary_physics/1b9f1a9fd057fe9eb93e442fd1c121038887253ca814771720946d5c44b52702.jpg",
+      "sha256": "1b9f1a9fd057fe9eb93e442fd1c121038887253ca814771720946d5c44b52702",
+      "source": "data/concepts/images/phy_m42120_Figure_01_03_01.jpg",
+      "width": 325
+    },
+    "images/phy_m42120_Figure_01_03_02.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 128858,
+      "extension": ".jpg",
+      "height": 354,
+      "published_path": "books/secondary_physics/96cbf394bd0bf4d763ae406edfce21b35d748eff3d8ae23436ba83f9aadeb90b.jpg",
+      "sha256": "96cbf394bd0bf4d763ae406edfce21b35d748eff3d8ae23436ba83f9aadeb90b",
+      "source": "data/concepts/images/phy_m42120_Figure_01_03_02.jpg",
+      "width": 400
+    },
+    "images/phy_m42120_Figure_01_03_03.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 139628,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/c1c726858479ed3d35c34b80c73a1971852ea9d0a579aa60acd862f729e64dac.jpg",
+      "sha256": "c1c726858479ed3d35c34b80c73a1971852ea9d0a579aa60acd862f729e64dac",
+      "source": "data/concepts/images/phy_m42120_Figure_01_03_03.jpg",
+      "width": 375
+    },
+    "images/phy_m42120_Figure_01_03_04.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 139602,
+      "extension": ".jpg",
+      "height": 375,
+      "published_path": "books/secondary_physics/f235efed0a85d9076488538700745036cd722705cee1e6daee6ea9fe83b2d34c.jpg",
+      "sha256": "f235efed0a85d9076488538700745036cd722705cee1e6daee6ea9fe83b2d34c",
+      "source": "data/concepts/images/phy_m42120_Figure_01_03_04.jpg",
+      "width": 375
+    },
+    "images/phy_m42121_Figure_01_04_01.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 108738,
+      "extension": ".jpg",
+      "height": 253,
+      "published_path": "books/secondary_physics/5a2a66216a25019676bc9dbc5bb9e7b98e5d8aeded7b686f954513ebb8870529.jpg",
+      "sha256": "5a2a66216a25019676bc9dbc5bb9e7b98e5d8aeded7b686f954513ebb8870529",
+      "source": "data/concepts/images/phy_m42121_Figure_01_04_01.jpg",
+      "width": 375
+    },
+    "images/phy_m42121_Figure_01_04_02-c399.jpg": {
+      "book_id": "secondary_physics",
+      "bytes": 154113,
+      "extension": ".jpg",
+      "height": 284,
+      "published_path": "books/secondary_physics/8c112bfc8f373163a11dcf24ff8b9a6142f4e25bd93f1f74fe79a35ffac038cf.jpg",
+      "sha256": "8c112bfc8f373163a11dcf24ff8b9a6142f4e25bd93f1f74fe79a35ffac038cf",
+      "source": "data/concepts/images/phy_m42121_Figure_01_04_02-c399.jpg",
+      "width": 338
     },
     "images/phy_m42122_Figure_02_00_01_D.jpg": {
       "book_id": "secondary_physics",

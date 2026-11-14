@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The Scotsman James Clerk Maxwell (1831–1879) is regarded as the greatest theoretical physicist of the 19th century. (See .) Although he died young, Maxwell not only formulated a complete electromagnetic theory, represented by Maxwell’s equations , he also developed the kinetic theory of gases and made significant contributions to the understanding of color vision and the nature of Saturn’s rings.",
+        "text": "The Scotsman James Clerk Maxwell (1831–1879) is regarded as the greatest theoretical physicist of the 19th century. (See the figure.) Although he died young, Maxwell not only formulated a complete electromagnetic theory, represented by Maxwell’s equations, he also developed the kinetic theory of gases and made significant contributions to the understanding of color vision and the nature of Saturn’s rings.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The waves predicted by Maxwell would consist of oscillating electric and magnetic fields—defined to be an electromagnetic wave (EM wave). Electromagnetic waves would be capable of exerting forces on charges great distances from their source, and they might thus be detectable. Maxwell calculated that electromagnetic waves would propagate at a speed given by the equation",
+        "text": "The waves predicted by Maxwell would consist of oscillating electric and magnetic fields—defined to be an electromagnetic wave (EM wave). Electromagnetic waves would be capable of exerting forces on charges great distances from their source, and they might thus be detectable. Maxwell calculated that electromagnetic waves would propagate at a speed given by the equation $c=\\frac{1}{\\sqrt{{μ}_{0}{ε}_{0}}}.$",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "When the values for ${μ}_{0}$ and ${ε}_{0}$ are entered into the equation for $c$ , we find that",
+        "text": "When the values for ${μ}_{0}$ and ${ε}_{0}$ are entered into the equation for $c$, we find that $c=\\frac{1}{\\sqrt{(8.85\\times {10}^{-12} \\frac{{C}^{2}}{N\\cdot {m}^{2}})(4π×{10}^{-7} \\frac{T\\cdot m}{A})}}=3.00\\times {10}^{8} m/s,$",
         "inline": []
       },
       "level": "core"
@@ -152,7 +152,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Hertz used an AC $RLC$ (resistor-inductor-capacitor) circuit that resonates at a known frequency ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ and connected it to a loop of wire as shown in . High voltages induced across the gap in the loop produced sparks that were visible evidence of the current in the circuit and that helped generate electromagnetic waves.",
+        "text": "Hertz used an AC $RLC$ (resistor-inductor-capacitor) circuit that resonates at a known frequency ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ and connected it to a loop of wire as shown in the figure. High voltages induced across the gap in the loop produced sparks that were visible evidence of the current in the circuit and that helped generate electromagnetic waves.",
         "inline": []
       },
       "level": "core"
@@ -183,7 +183,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Hertz also studied the reflection, refraction, and interference patterns of the electromagnetic waves he generated, verifying their wave character. He was able to determine wavelength from the interference patterns, and knowing their frequency, he could calculate the propagation speed using the equation $υ=fλ$ (velocity—or speed—equals frequency times wavelength). Hertz was thus able to prove that electromagnetic waves travel at the speed of light. The SI unit for frequency, the hertz ( $1 Hz=1 cycle/s$ ), is named in his honor.",
+        "text": "Hertz also studied the reflection, refraction, and interference patterns of the electromagnetic waves he generated, verifying their wave character. He was able to determine wavelength from the interference patterns, and knowing their frequency, he could calculate the propagation speed using the equation $υ=fλ$ (velocity—or speed—equals frequency times wavelength). Hertz was thus able to prove that electromagnetic waves travel at the speed of light. The SI unit for frequency, the hertz ($1 Hz=1 cycle/s$), is named in his honor.",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify that the correct value for the speed of light $c$ is obtained when numerical values for the permeability and permittivity of free space ( ${μ}_{0}$ and ${ε}_{0}$ ) are entered into the equation $c=\\frac{1}{\\sqrt{{μ}_{0}{ε}_{0}}}$ .",
+        "text": "Verify that the correct value for the speed of light $c$ is obtained when numerical values for the permeability and permittivity of free space (${μ}_{0}$ and ${ε}_{0}$) are entered into the equation $c=\\frac{1}{\\sqrt{{μ}_{0}{ε}_{0}}}$.",
         "inline": []
       },
       "level": "core",

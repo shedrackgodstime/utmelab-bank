@@ -14,7 +14,10 @@
     "Relate impulse to the change in momentum.",
     "Apply conservation of momentum to collisions, and tell elastic from inelastic."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_forces_and_newtons_laws",
+    "phy_work_and_energy"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -50,12 +53,20 @@
       "est_minutes": 14,
       "locator": "CNXML module m42156",
       "objectives": [
-        "Compute the linear momentum of a body and give it a direction."
+        "Compute the linear momentum of a body and give it a direction.",
+        "Relate the net force on a body to the rate of change of its momentum."
       ],
       "misconceptions": [
         {
           "claim": "The momentum of a body depends only on its speed.",
           "correction": "It depends on the mass as well: p = mv, so doubling the mass doubles the momentum."
+        },
+        {
+          "claim": "The momentum of a body is its mass added to its speed.",
+          "correction": "Momentum is the product of the mass and the velocity, and it is a vector.",
+          "locator": "candidate trap trap-1, demoted pending paper evidence",
+          "source_trap": "phy_linear_momentum_and_collisions:trap-1",
+          "signal": "Our own question offers the sum of the mass and the speed as an option."
         }
       ],
       "summary": [
@@ -71,7 +82,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -90,7 +101,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -101,7 +112,27 @@
           ]
         }
       ],
-      "worked_from": "exr-35"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A 2 kg ball moves at 3 m/s. Find its linear momentum.",
+          "answer": "6 kg m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "Momentum is p = mv.",
+            "p = 2 × 3.",
+            "p = 6 kg m/s in the direction of motion."
+          ],
+          "tags": [
+            "momentum",
+            "mass",
+            "velocity"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -110,12 +141,20 @@
       "est_minutes": 12,
       "locator": "CNXML module m42159",
       "objectives": [
-        "Relate impulse to the change in momentum, and compute both for a collision."
+        "Relate impulse to the change in momentum, and compute both for a collision.",
+        "Calculate impulse from force and contact time, and use it to find a change in velocity."
       ],
       "misconceptions": [
         {
           "claim": "Impulse is the force applied.",
           "correction": "Impulse is the force applied over the time it acts, so it is the change in momentum."
+        },
+        {
+          "claim": "Impulse is the force divided by the time it acts.",
+          "correction": "Impulse is the force multiplied by the time, and it equals the change in momentum.",
+          "locator": "candidate trap trap-2, demoted pending paper evidence",
+          "source_trap": "phy_linear_momentum_and_collisions:trap-2",
+          "signal": "Our own question offers the force divided by the time as an option."
         }
       ],
       "summary": [
@@ -128,10 +167,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -141,8 +188,7 @@
             }
           ]
         }
-      ],
-      "worked_from": "exr-28"
+      ]
     },
     {
       "id": "sec-4",
@@ -151,12 +197,20 @@
       "est_minutes": 16,
       "locator": "CNXML module m42162",
       "objectives": [
-        "Apply conservation of momentum to a collision in which no external force acts."
+        "Apply conservation of momentum to a collision in which no external force acts.",
+        "Solve a collision or explosion problem using conservation of momentum."
       ],
       "misconceptions": [
         {
           "claim": "Momentum is conserved in every collision.",
           "correction": "It is conserved when the net external force on the system is zero, which is nearly true for a short collision."
+        },
+        {
+          "claim": "Momentum is conserved only in a collision where the bodies bounce apart.",
+          "correction": "Momentum is conserved in every collision where the net external force is negligible, whether or not the bodies bounce.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_linear_momentum_and_collisions:trap-3",
+          "signal": "Our own question offers the conservation of momentum only for a rebound."
         }
       ],
       "summary": [
@@ -169,10 +223,18 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -183,7 +245,7 @@
           ]
         }
       ],
-      "worked_from": "exr-30"
+      "no_worked_example_reason": "The source section on Conservation of Momentum has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-5",
@@ -192,12 +254,20 @@
       "est_minutes": 16,
       "locator": "CNXML module m42163",
       "objectives": [
-        "Solve a one dimensional elastic collision and show that kinetic energy is conserved as well."
+        "Solve a one dimensional elastic collision and show that kinetic energy is conserved as well.",
+        "Apply both momentum and kinetic-energy conservation to a one-dimensional elastic collision."
       ],
       "misconceptions": [
         {
           "claim": "In an elastic collision the bodies bounce apart with no change in speed.",
           "correction": "They exchange speed, so the speeds of the two bodies change while the total kinetic energy stays the same."
+        },
+        {
+          "claim": "In an elastic collision only the momentum is conserved.",
+          "correction": "In an elastic collision the total kinetic energy is conserved as well, and the bodies exchange speed.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_linear_momentum_and_collisions:trap-4",
+          "signal": "Our own question offers the conservation of the momentum alone as an option."
         }
       ],
       "summary": [
@@ -210,15 +280,22 @@
       ],
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-third-law-action-and-reaction-energy-mechanical-and-heat",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-25"
+      ]
     },
     {
       "id": "sec-6",
@@ -227,7 +304,8 @@
       "est_minutes": 14,
       "locator": "CNXML module m42164",
       "objectives": [
-        "Solve a one dimensional inelastic collision, where the bodies stick together or lose energy."
+        "Solve a one dimensional inelastic collision, where the bodies stick together or lose energy.",
+        "Find the common final velocity in a completely inelastic collision."
       ],
       "misconceptions": [
         {
@@ -243,8 +321,44 @@
       "tags": [
         "inelastic-collisions"
       ],
-      "exam_links": [],
-      "worked_from": "exr-36"
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A 1 kg cart moving at 4 m/s collides and sticks to a stationary 3 kg cart. Find their common velocity.",
+          "answer": "1 m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "Total momentum before: 1 × 4 + 3 × 0 = 4 kg m/s.",
+            "Total mass after: 1 + 3 = 4 kg.",
+            "4 = 4v, so v = 1 m/s in the original direction."
+          ],
+          "tags": [
+            "inelastic collision",
+            "conservation of momentum"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -253,7 +367,8 @@
       "est_minutes": 16,
       "locator": "CNXML module m42165",
       "objectives": [
-        "Solve a two dimensional collision using the components of momentum."
+        "Solve a two dimensional collision using the components of momentum.",
+        "Resolve momenta into components and solve a two-dimensional collision."
       ],
       "misconceptions": [
         {
@@ -269,8 +384,44 @@
       "tags": [
         "two-dimensional-collisions"
       ],
-      "exam_links": [],
-      "worked_from": "exr-36"
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A ball has momentum components 3 kg m/s east and 4 kg m/s north. Find the magnitude of its total momentum.",
+          "answer": "5 kg m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "The components are perpendicular.",
+            "Use Pythagoras: p = √(3² + 4²).",
+            "p = √25 = 5 kg m/s."
+          ],
+          "tags": [
+            "momentum components",
+            "vector magnitude"
+          ]
+        }
+      ]
     }
   ],
   "formula_sheet": [
@@ -406,76 +557,7 @@
       }
     }
   ],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The momentum of a body is its mass added to its speed.",
-      "correction": "Momentum is the product of the mass and the velocity, and it is a vector.",
-      "signal": "Our own question offers the sum of the mass and the speed as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "Impulse is the force divided by the time it acts.",
-      "correction": "Impulse is the force multiplied by the time, and it equals the change in momentum.",
-      "signal": "Our own question offers the force divided by the time as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Momentum is conserved only in a collision where the bodies bounce apart.",
-      "correction": "Momentum is conserved in every collision where the net external force is negligible, whether or not the bodies bounce.",
-      "signal": "Our own question offers the conservation of momentum only for a rebound.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "In an elastic collision only the momentum is conserved.",
-      "correction": "In an elastic collision the total kinetic energy is conserved as well, and the bodies exchange speed.",
-      "signal": "Our own question offers the conservation of the momentum alone as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-4",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -592,6 +674,64 @@
       "explanation": "An elastic collision conserves the total momentum and the total kinetic energy. The bodies exchange speed.",
       "difficulty": 2,
       "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "Two identical carts, one moving at 3 m/s and the other at rest, stick together in a collision. What is their common velocity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0 m/s"
+        },
+        {
+          "id": "b",
+          "text": "1.5 m/s"
+        },
+        {
+          "id": "c",
+          "text": "3 m/s"
+        },
+        {
+          "id": "d",
+          "text": "6 m/s"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Momentum before: m × 3 + m × 0 = 3m. After the collision the total mass is 2m, so 2m × v = 3m and v = 1.5 m/s.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "In a two-dimensional collision with no external force, which quantities are conserved separately?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The x and y components of momentum"
+        },
+        {
+          "id": "b",
+          "text": "The x and y components of kinetic energy"
+        },
+        {
+          "id": "c",
+          "text": "Only the total speed"
+        },
+        {
+          "id": "d",
+          "text": "Only the total kinetic energy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Momentum is a vector, so its x and y components are each conserved when the net external force is zero. Kinetic energy is conserved only in an elastic collision.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -602,5 +742,43 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Linear Momentum and Collisions', modules m42155, m42156, m42159, m42162, m42163, m42164, m42165",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 8,
+  "exercise_fixes": {
+    "sec-3:exr-51": {
+      "drop": true
+    },
+    "sec-5:exr-59": {
+      "drop": true
+    },
+    "sec-3:exr-36": {
+      "stem": "A 2.5-kg block slides across a frictionless table toward a horizontal spring. As the block bounces off the spring, a probe measures the velocity of the block (initially negative, moving away from the probe) over time as follows: at 0 s it is -12.0 m/s, at 0.10 s it is -10.0 m/s, at 0.20 s it is -6.0 m/s, at 0.30 s it is 0 m/s, at 0.40 s it is 6.0 m/s, at 0.50 s it is 10.0 m/s and at 0.60 s it is 12.0 m/s. What is the average force exerted on the block by the spring over the entire 0.60-s time interval of the collision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 N"
+        },
+        {
+          "id": "b",
+          "text": "60 N"
+        },
+        {
+          "id": "c",
+          "text": "100 N"
+        },
+        {
+          "id": "d",
+          "text": "120 N"
+        }
+      ],
+      "answer": "(c)",
+      "solution": [
+        "The average force is the rate of change of momentum: $F=mΔv/Δt=2.5kg×24m/s/0.60s=100N$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer was a mangled formula fragment and is restored as the letter with its calculation"
+    },
+    "sec-6:exr-40": {
+      "answer": "(c) decrease by 161 J"
+    }
+  }
 }

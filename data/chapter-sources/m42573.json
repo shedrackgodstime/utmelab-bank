@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "We have long known that EM radiation is a wave, capable of interference and diffraction. We now see that light can be modeled as photons, which are massless particles. This may seem contradictory, since we ordinarily deal with large objects that never act like both wave and particle. An ocean wave, for example, looks nothing like a rock. To understand small-scale phenomena, we make analogies with the large-scale phenomena we observe directly. When we say something behaves like a wave, we mean it shows interference effects analogous to those seen in overlapping water waves. (See .) Two examples of waves are sound and EM radiation. When we say something behaves like a particle, we mean that it interacts as a discrete unit with no interference effects. Examples of particles include electrons, atoms, and photons of EM radiation. How do we talk about a phenomenon that acts like both a particle and a wave?",
+        "text": "We have long known that EM radiation is a wave, capable of interference and diffraction. We now see that light can be modeled as photons, which are massless particles. This may seem contradictory, since we ordinarily deal with large objects that never act like both wave and particle. An ocean wave, for example, looks nothing like a rock. To understand small-scale phenomena, we make analogies with the large-scale phenomena we observe directly. When we say something behaves like a wave, we mean it shows interference effects analogous to those seen in overlapping water waves. (See the figure.) Two examples of waves are sound and EM radiation. When we say something behaves like a particle, we mean that it interacts as a discrete unit with no interference effects. Examples of particles include electrons, atoms, and photons of EM radiation. How do we talk about a phenomenon that acts like both a particle and a wave?",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "There is no doubt that EM radiation interferes and has the properties of wavelength and frequency. There is also no doubt that it behaves as particles—photons with discrete energy. We call this twofold nature the particle-wave duality , meaning that EM radiation has both particle and wave properties. This so-called duality is simply a term for properties of the photon analogous to phenomena we can observe directly, on a macroscopic scale. If this term seems strange, it is because we do not ordinarily observe details on the quantum level directly, and our observations yield either particle *or* wavelike properties, but never both simultaneously.",
+        "text": "There is no doubt that EM radiation interferes and has the properties of wavelength and frequency. There is also no doubt that it behaves as particles—photons with discrete energy. We call this twofold nature the particle-wave duality, meaning that EM radiation has both particle and wave properties. This so-called duality is simply a term for properties of the photon analogous to phenomena we can observe directly, on a macroscopic scale. If this term seems strange, it is because we do not ordinarily observe details on the quantum level directly, and our observations yield either particle *or* wavelike properties, but never both simultaneously.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -99,7 +99,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The ground state of a certain type of atom has energy of – *E* 0 . What is the wavelength of a photon with enough energy to ionize the atom when it is in the ground state, so that the ejected electron has kinetic energy equal to 2 *E* 0 ? $λ=\\frac{hc}{3{E}_{0}}$; $λ=\\frac{hc}{2{E}_{0}}$; $λ=\\frac{hc}{{E}_{0}}$; $λ=\\frac{2hc}{{E}_{0}}$",
+        "text": "The ground state of a certain type of atom has energy of – *E* 0. What is the wavelength of a photon with enough energy to ionize the atom when it is in the ground state, so that the ejected electron has kinetic energy equal to 2 *E* 0? $λ=\\frac{hc}{3{E}_{0}}$; $λ=\\frac{hc}{2{E}_{0}}$; $λ=\\frac{hc}{{E}_{0}}$; $λ=\\frac{2hc}{{E}_{0}}$",
         "inline": []
       },
       "level": "core",

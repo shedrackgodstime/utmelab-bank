@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Some substances, such as metals and salty water, allow charges to move through them with relative ease. Some of the electrons in metals and similar conductors are not bound to individual atoms or sites in the material. These free electrons can move through the material much as air moves through loose sand. Any substance that has free electrons and allows charge to move relatively freely through it is called a conductor . The moving electrons may collide with fixed atoms and molecules, losing some energy, but they can move in a conductor. Superconductors allow the movement of charge without any loss of energy. Salty water and other similar conducting materials contain free ions that can move through them. An ion is an atom or molecule having a positive or negative (nonzero) total charge. In other words, the total number of electrons is not equal to the total number of protons.",
+        "text": "Some substances, such as metals and salty water, allow charges to move through them with relative ease. Some of the electrons in metals and similar conductors are not bound to individual atoms or sites in the material. These free electrons can move through the material much as air moves through loose sand. Any substance that has free electrons and allows charge to move relatively freely through it is called a conductor. The moving electrons may collide with fixed atoms and molecules, losing some energy, but they can move in a conductor. Superconductors allow the movement of charge without any loss of energy. Salty water and other similar conducting materials contain free ions that can move through them. An ion is an atom or molecule having a positive or negative (nonzero) total charge. In other words, the total number of electrons is not equal to the total number of protons.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Other substances, such as glass, do not allow charges to move through them. These are called insulators . Electrons and ions in insulators are bound in the structure and cannot move easily—as much as ${10}^{23}$ times more slowly than in conductors. Pure water and dry table salt are insulators, for example, whereas molten salt and salty water are conductors.",
+        "text": "Other substances, such as glass, do not allow charges to move through them. These are called insulators. Electrons and ions in insulators are bound in the structure and cannot move easily—as much as ${10}^{23}$ times more slowly than in conductors. Pure water and dry table salt are insulators, for example, whereas molten salt and salty water are conductors.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "shows an electroscope being charged by touching it with a positively charged glass rod. Because the glass rod is an insulator, it must actually touch the electroscope to transfer charge to or from it. (Note that the extra positive charges reside on the surface of the glass rod as a result of rubbing it with silk before starting the experiment.) Since only electrons move in metals, we see that they are attracted to the top of the electroscope. There, some are transferred to the positive rod by touch, leaving the electroscope with a net positive charge.",
+        "text": "The figure shows an electroscope being charged by touching it with a positively charged glass rod. Because the glass rod is an insulator, it must actually touch the electroscope to transfer charge to or from it. (Note that the extra positive charges reside on the surface of the glass rod as a result of rubbing it with silk before starting the experiment.) Since only electrons move in metals, we see that they are attracted to the top of the electroscope. There, some are transferred to the positive rod by touch, leaving the electroscope with a net positive charge.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "It is not necessary to transfer excess charge directly to an object in order to charge it. shows a method of induction wherein a charge is created in a nearby object, without direct contact. Here we see two neutral metal spheres in contact with one another but insulated from the rest of the world. A positively charged rod is brought near one of them, attracting negative charge to that side, leaving the other sphere positively charged.",
+        "text": "It is not necessary to transfer excess charge directly to an object in order to charge it. The figure shows a method of induction wherein a charge is created in a nearby object, without direct contact. Here we see two neutral metal spheres in contact with one another but insulated from the rest of the world. A positively charged rod is brought near one of them, attracting negative charge to that side, leaving the other sphere positively charged.",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Another method of charging by induction is shown in . The neutral metal sphere is polarized when a charged rod is brought near it. The sphere is then grounded, meaning that a conducting wire is run from the sphere to the ground. Since the earth is large and most ground is a good conductor, it can supply or accept excess charge easily. In this case, electrons are attracted to the sphere through a wire called the ground wire, because it supplies a conducting path to the ground. The ground connection is broken before the charged rod is removed, leaving the sphere with an excess charge opposite to that of the rod. Again, an opposite charge is achieved when charging by induction and the charged rod loses none of its excess charge.",
+        "text": "Another method of charging by induction is shown in the figure. The neutral metal sphere is polarized when a charged rod is brought near it. The sphere is then grounded, meaning that a conducting wire is run from the sphere to the ground. Since the earth is large and most ground is a good conductor, it can supply or accept excess charge easily. In this case, electrons are attracted to the sphere through a wire called the ground wire, because it supplies a conducting path to the ground. The ground connection is broken before the charged rod is removed, leaving the sphere with an excess charge opposite to that of the rod. Again, an opposite charge is achieved when charging by induction and the charged rod loses none of its excess charge.",
         "inline": []
       },
       "level": "core"
@@ -177,7 +177,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Neutral objects can be attracted to any charged object. The pieces of straw attracted to polished amber are neutral, for example. If you run a plastic comb through your hair, the charged comb can pick up neutral pieces of paper. shows how the polarization of atoms and molecules in neutral objects results in their attraction to a charged object.",
+        "text": "Neutral objects can be attracted to any charged object. The pieces of straw attracted to polished amber are neutral, for example. If you run a plastic comb through your hair, the charged comb can pick up neutral pieces of paper. The figure shows how the polarization of atoms and molecules in neutral objects results in their attraction to a charged object.",
         "inline": []
       },
       "level": "core"
@@ -281,7 +281,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Balloon and sphere. When the balloon is brought closer to the sphere, there will be a redistribution of charges. What is this phenomenon called? electrostatic repulsion; conduction; polarization; none of the above",
+        "text": "When the balloon is brought closer to the sphere, there will be a redistribution of charges. What is this phenomenon called? electrostatic repulsion; conduction; polarization; none of the above",
         "inline": []
       },
       "level": "core",
@@ -429,7 +429,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Rod and metal balls. As shown in the figure above, two metal balls are suspended and a negatively charged rod is brought close to them. If the two balls are in contact with each other what will be the charges on each ball?; Explain how the balls get these charges.; What will happen to the charge on the second ball (i.e., the ball further away from the rod) if it is momentarily grounded while the rod is still there?; If (instead of grounding) the second ball is moved away and then the rod is removed from the first ball, will the two balls have induced charges? If yes, what will be the charges? If no, why not?",
+        "text": "As shown in the figure above, two metal balls are suspended and a negatively charged rod is brought close to them. If the two balls are in contact with each other what will be the charges on each ball?; Explain how the balls get these charges.; What will happen to the charge on the second ball (i.e., the ball further away from the rod) if it is momentarily grounded while the rod is still there?; If (instead of grounding) the second ball is moved away and then the rod is removed from the first ball, will the two balls have induced charges? If yes, what will be the charges? If no, why not?",
         "inline": []
       },
       "level": "core",
@@ -658,7 +658,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a speck of dust in an electrostatic precipitator has $1.0000×{10}^{12}$ protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?",
+        "text": "Suppose a speck of dust in an electrostatic precipitator has $1.0000\\times {10}^{12}$ protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?",
         "inline": []
       },
       "level": "core",
@@ -682,7 +682,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An amoeba has $1.00×{10}^{16}$ protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?",
+        "text": "An amoeba has $1.00\\times {10}^{16}$ protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?",
         "inline": []
       },
       "level": "core",
@@ -703,7 +703,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A 50.0 g ball of copper has a net charge of $2.00µC$ . What fraction of the copper’s electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)",
+        "text": "A 50.0 g ball of copper has a net charge of $2.00 µC$. What fraction of the copper’s electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)",
         "inline": []
       },
       "level": "core",

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "When a free positive charge *$q$* is accelerated by an electric field, such as shown in , it is given kinetic energy. The process is analogous to an object being accelerated by a gravitational field. It is as if the charge is going down an electrical hill where its electric potential energy is converted to kinetic energy. Let us explore the work done on a charge *$q$* by the electric field in this process, so that we may develop a definition of electric potential energy.",
+        "text": "When a free positive charge *$q$* is accelerated by an electric field, such as shown in the figure, it is given kinetic energy. The process is analogous to an object being accelerated by a gravitational field. It is as if the charge is going down an electrical hill where its electric potential energy is converted to kinetic energy. Let us explore the work done on a charge *$q$* by the electric field in this process, so that we may develop a definition of electric potential energy.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "We use the letters PE to denote electric potential energy, which has units of joules (J). The change in potential energy, $ΔPE$ , is crucial, since the work done by a conservative force is the negative of the change in potential energy; that is, $W=–ΔPE$ . For example, work $W$ done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative $ΔPE$ . There must be a minus sign in front of $ΔPE$ to make $W$ positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.",
+        "text": "We use the letters PE to denote electric potential energy, which has units of joules (J). The change in potential energy, $ΔPE$, is crucial, since the work done by a conservative force is the negative of the change in potential energy; that is, $W=–ΔPE$. For example, work $W$ done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative $ΔPE$. There must be a minus sign in front of $ΔPE$ to make $W$ positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "$W=–ΔPE$ . For example, work $W$ done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative $ΔPE.$ There must be a minus sign in front of $ΔPE$ to make $W$ positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.",
+        "text": "$W=–ΔPE$. For example, work $W$ done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative $ΔPE.$ There must be a minus sign in front of $ΔPE$ to make $W$ positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Calculating the work directly is generally difficult, since $W=Fdcosθ$ and the direction and magnitude of $F$ can be complex for multiple charges, for odd-shaped objects, and along arbitrary paths. But we do know that, since $F=qE$ , the work, and hence $ΔPE$ , is proportional to the test charge $q.$ To have a physical quantity that is independent of test charge, we define electric potential $V$ (or simply potential, since electric is understood) to be the potential energy per unit charge:",
+        "text": "Calculating the work directly is generally difficult, since $W=Fd cos θ$ and the direction and magnitude of $F$ can be complex for multiple charges, for odd-shaped objects, and along arbitrary paths. But we do know that, since $F=qE$, the work, and hence $ΔPE$, is proportional to the test charge $q.$ To have a physical quantity that is independent of test charge, we define electric potential $V$ (or simply potential, since electric is understood) to be the potential energy per unit charge: $V=\\frac{PE}{q}.$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "This is the electric potential energy per unit charge.",
+        "text": "This is the electric potential energy per unit charge. $V=\\frac{PE}{q}$",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Since PE is proportional to *$q$* , the dependence on *$q$* cancels. Thus $V$ does not depend on *$q$* . The change in potential energy $ΔPE$ is crucial, and so we are concerned with the difference in potential or potential difference $ΔV$ between two points, where",
+        "text": "Since PE is proportional to *$q$*, the dependence on *$q$* cancels. Thus $V$ does not depend on *$q$*. The change in potential energy $ΔPE$ is crucial, and so we are concerned with the difference in potential or potential difference $ΔV$ between two points, where $ΔV={V}_{B}-{V}_{A}=\\frac{ΔPE}{q}.$",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The potential difference between points A and B, ${V}_{B}-{V}_{A}$ , is thus defined to be the change in potential energy of a charge *$q$* moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.",
+        "text": "The potential difference between points A and B, ${V}_{B} - {V}_{A}$, is thus defined to be the change in potential energy of a charge *$q$* moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta. $1 V = 1 \\frac{J}{C}$",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The potential difference between points A and B, ${V}_{B}-{V}_{A}$ , is defined to be the change in potential energy of a charge *$q$* moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.",
+        "text": "The potential difference between points A and B, ${V}_{B}-{V}_{A}$, is defined to be the change in potential energy of a charge *$q$* moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta. $1 V = 1 \\frac{J}{C}$",
         "inline": []
       },
       "level": "core"
@@ -143,7 +143,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "In summary, the relationship between potential difference (or voltage) and electrical potential energy is given by",
+        "text": "In summary, the relationship between potential difference (or voltage) and electrical potential energy is given by $ΔV=\\frac{ΔPE}{q} and ΔPE = qΔV.$",
         "inline": []
       },
       "level": "core"
@@ -152,7 +152,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The relationship between potential difference (or voltage) and electrical potential energy is given by",
+        "text": "The relationship between potential difference (or voltage) and electrical potential energy is given by $ΔV=\\frac{ΔPE}{q} and ΔPE = qΔV.$",
         "inline": []
       },
       "level": "core"
@@ -170,7 +170,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Voltage is not the same as energy. Voltage is the energy per unit charge. Thus a motorcycle battery and a car battery can both have the same voltage (more precisely, the same potential difference between battery terminals), yet one stores much more energy than the other since $ΔPE =qΔV$ . The car battery can move more charge than the motorcycle battery, although both are 12 V batteries.",
+        "text": "Voltage is not the same as energy. Voltage is the energy per unit charge. Thus a motorcycle battery and a car battery can both have the same voltage (more precisely, the same potential difference between battery terminals), yet one stores much more energy than the other since $ΔPE = qΔV$. The car battery can move more charge than the motorcycle battery, although both are 12 V batteries.",
         "inline": []
       },
       "level": "core"
@@ -203,7 +203,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "To say we have a 12.0 V battery means that its terminals have a 12.0 V potential difference. When such a battery moves charge, it puts the charge through a potential difference of 12.0 V, and the charge is given a change in potential energy equal to $ΔPE =qΔV$ .",
+        "text": "To say we have a 12.0 V battery means that its terminals have a 12.0 V potential difference. When such a battery moves charge, it puts the charge through a potential difference of 12.0 V, and the charge is given a change in potential energy equal to $ΔPE = qΔV$.",
         "inline": []
       },
       "level": "core"
@@ -221,7 +221,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "For the motorcycle battery, $q=5000 C$ and $ΔV=12.0 V$ . The total energy delivered by the motorcycle battery is",
+        "text": "For the motorcycle battery, $q=5000 C$ and $ΔV=12.0 V$. The total energy delivered by the motorcycle battery is ${ΔPE}_{cycle} = (5000 C) (12.0 V) = (5000 C) (12.0 J/C) = 6.00 × {10}^{4} J.$",
         "inline": []
       },
       "level": "core"
@@ -230,7 +230,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Similarly, for the car battery, $q=60,000C$ and",
+        "text": "Similarly, for the car battery, $q=60,000 C$ and ${ΔPE}_{car} = (60,000 C) (12.0 V) = 7.20 × {10}^{5} J.$",
         "inline": []
       },
       "level": "core"
@@ -248,7 +248,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Note that the energies calculated in the previous example are absolute values. The change in potential energy for the battery is negative, since it loses energy. These batteries, like many electrical systems, actually move negative charge—electrons in particular. The batteries repel electrons from their negative terminals (A) through whatever circuitry is involved and attract them to their positive terminals (B) as shown in . The change in potential is $ΔV={V}_{B}{–V}_{A}=+12 V$ and the charge $q$ is negative, so that $ΔPE=qΔV$ is negative, meaning the potential energy of the battery has decreased when *$q$* has moved from A to B.",
+        "text": "Note that the energies calculated in the previous example are absolute values. The change in potential energy for the battery is negative, since it loses energy. These batteries, like many electrical systems, actually move negative charge—electrons in particular. The batteries repel electrons from their negative terminals (A) through whatever circuitry is involved and attract them to their positive terminals (B) as shown in the figure. The change in potential is $ΔV={V}_{B}{–V}_{A}=+12 V$ and the charge $q$ is negative, so that $ΔPE=qΔV$ is negative, meaning the potential energy of the battery has decreased when *$q$* has moved from A to B.",
         "inline": []
       },
       "level": "core"
@@ -294,7 +294,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "To find the number of electrons, we must first find the charge that moved in 1.00 s. The charge moved is related to voltage and energy through the equation $ΔPE=qΔV$ . A 30.0 W lamp uses 30.0 joules per second. Since the battery loses energy, we have $ΔPE=–30.0 J$ and, since the electrons are going from the negative terminal to the positive, we see that $ΔV=+12.0 V$ .",
+        "text": "To find the number of electrons, we must first find the charge that moved in 1.00 s. The charge moved is related to voltage and energy through the equation $ΔPE=qΔV$. A 30.0 W lamp uses 30.0 joules per second. Since the battery loses energy, we have $ΔPE=–30.0 J$ and, since the electrons are going from the negative terminal to the positive, we see that $ΔV=+12.0 V$.",
         "inline": []
       },
       "level": "core"
@@ -303,7 +303,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "To find the charge *$q$* moved, we solve the equation $ΔPE=qΔV$ :",
+        "text": "To find the charge *$q$* moved, we solve the equation $ΔPE=qΔV$: $q=\\frac{ΔPE}{ΔV}.$",
         "inline": []
       },
       "level": "core"
@@ -312,7 +312,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Entering the values for $ΔPE$ and $ΔV$ , we get",
+        "text": "Entering the values for $ΔPE$ and $ΔV$, we get $q=\\frac{–30.0 J}{+12.0 V}=\\frac{–30.0 J}{+12.0 J/C}=–2.50 C.$",
         "inline": []
       },
       "level": "core"
@@ -321,7 +321,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The number of electrons ${n}_{e}$ is the total charge divided by the charge per electron. That is,",
+        "text": "The number of electrons ${n}_{e}$ is the total charge divided by the charge per electron. That is, ${n}_{e}=\\frac{–2.50 C}{–1.60×{10}^{–19} {C/e}^{-}}=1.56×{10}^{19} electrons.$",
         "inline": []
       },
       "level": "core"
@@ -348,7 +348,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful x rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by $ΔPE=qΔV,$ we can think of the joule as a coulomb-volt.",
+        "text": "The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful x rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. The figure shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by $ΔPE=qΔV,$ we can think of the joule as a coulomb-volt.",
         "inline": []
       },
       "level": "core"
@@ -370,7 +370,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form,",
+        "text": "On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form, $1 eV = (1.60\\times {10}^{–19} C)(1 V)=(1.60×{10}^{–19} C)(1 J/C) = 1.60\\times {10}^{–19} J.$",
         "inline": []
       },
       "level": "core"
@@ -379,7 +379,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V *.* In equation form,",
+        "text": "On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V *.* In equation form, $1 eV = (1.60\\times {10}^{–19} C)(1 V)=(1.60×{10}^{–19} C)(1 J/C) = 1.60\\times {10}^{–19} J.$",
         "inline": []
       },
       "level": "core"
@@ -406,7 +406,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "The electron volt is commonly employed in submicroscopic processes—chemical valence energies and molecular and nuclear binding energies are among the quantities often expressed in electron volts. For example, about 5 eV of energy is required to break up certain organic molecules. If a proton is accelerated from rest through a potential difference of 30 kV, it is given an energy of 30 keV (30,000 eV) and it can break up as many as 6000 of these molecules ( $30,000 eV÷5 eV per molecule=6000 molecules$ ). Nuclear decay energies are on the order of 1 MeV (1,000,000 eV) per event and can, thus, produce significant biological damage.",
+        "text": "The electron volt is commonly employed in submicroscopic processes—chemical valence energies and molecular and nuclear binding energies are among the quantities often expressed in electron volts. For example, about 5 eV of energy is required to break up certain organic molecules. If a proton is accelerated from rest through a potential difference of 30 kV, it is given an energy of 30 keV (30,000 eV) and it can break up as many as 6000 of these molecules ($30,000 eV\\div 5 eV per molecule=6000 molecules$). Nuclear decay energies are on the order of 1 MeV (1,000,000 eV) per event and can, thus, produce significant biological damage.",
         "inline": []
       },
       "level": "core"
@@ -433,7 +433,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "Mechanical energy is the sum of the kinetic energy and potential energy of a system; that is, $KE+PE = constant$ . A loss of PE of a charged particle becomes an increase in its KE. Here PE is the electric potential energy. Conservation of energy is stated in equation form as",
+        "text": "Mechanical energy is the sum of the kinetic energy and potential energy of a system; that is, $KE+PE = constant$. A loss of PE of a charged particle becomes an increase in its KE. Here PE is the electric potential energy. Conservation of energy is stated in equation form as $KE+PE = constant$",
         "inline": []
       },
       "level": "core"
@@ -475,7 +475,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "We have a system with only conservative forces. Assuming the electron is accelerated in a vacuum, and neglecting the gravitational force (we will check on this assumption later), all of the electrical potential energy is converted into kinetic energy. We can identify the initial and final forms of energy to be ${KE}_{i}=0,{KE}_{f}=½{mv}^{2},{PE}_{i}=qV{,and PE}_{f}=0.$",
+        "text": "We have a system with only conservative forces. Assuming the electron is accelerated in a vacuum, and neglecting the gravitational force (we will check on this assumption later), all of the electrical potential energy is converted into kinetic energy. We can identify the initial and final forms of energy to be ${KE}_{i}=0, {KE}_{f}=½{mv}^{2}, {PE}_{i}=qV{, and PE}_{f}=0.$",
         "inline": []
       },
       "level": "core"
@@ -484,7 +484,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Conservation of energy states that",
+        "text": "Conservation of energy states that ${KE}_{i}+{PE}_{i}{= KE}_{f}+{PE}_{f}.$",
         "inline": []
       },
       "level": "core"
@@ -493,7 +493,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "Entering the forms identified above, we obtain",
+        "text": "Entering the forms identified above, we obtain $qV=\\frac{{mv}^{2}}{2}.$",
         "inline": []
       },
       "level": "core"
@@ -502,7 +502,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "We solve this for $v$ *:*",
+        "text": "We solve this for $v$ *:* $v=\\sqrt{\\frac{2qV}{m}}.$",
         "inline": []
       },
       "level": "core"
@@ -511,7 +511,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "Entering values for $q,V,andm$ gives",
+        "text": "Entering values for $q, V, and m$ gives $v = \\sqrt{\\frac{2(–1.60×{10}^{–19} C)(–100 J/C)}{9.11\\times {10}^{–31} kg}} = 5.93 \\times {10}^{6} m/s.$",
         "inline": []
       },
       "level": "core"
@@ -520,7 +520,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "Note that both the charge and the initial voltage are negative, as in . From the discussions in Electric Charge and Electric Field , we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example.",
+        "text": "Note that both the charge and the initial voltage are negative, as in the figure. From the discussions in Electric Charge and Electric Field, we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example.",
         "inline": []
       },
       "level": "core"
@@ -1031,7 +1031,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be $1.67×{10}^{-27}kg.$",
+        "text": "Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be $1.67×{10}^{-27} kg.$",
         "inline": []
       },
       "level": "core",
@@ -1076,7 +1076,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A bare helium nucleus has two positive charges and a mass of $6.64×{10}^{–27}kg.$ (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?",
+        "text": "A bare helium nucleus has two positive charges and a mass of $6.64×{10}^{–27} kg.$ (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?",
         "inline": []
       },
       "level": "core",
@@ -1121,7 +1121,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts The temperature near the center of the Sun is thought to be 15 million degrees Celsius $(1.5×{10}^{7}ºC)$ . Through what voltage must a singly charged ion be accelerated to have the same energy as the average kinetic energy of ions at this temperature?",
+        "text": "Integrated Concepts The temperature near the center of the Sun is thought to be 15 million degrees Celsius $(1.5×{10}^{7} ºC)$. Through what voltage must a singly charged ion be accelerated to have the same energy as the average kinetic energy of ions at this temperature?",
         "inline": []
       },
       "level": "core",
@@ -1175,7 +1175,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A lightning bolt strikes a tree, moving 20.0 C of charge through a potential difference of $1.00×{10}^{2}MV$ . (a) What energy was dissipated? (b) What mass of water could be raised from $15ºC$ to the boiling point and then boiled by this energy? (c) Discuss the damage that could be caused to the tree by the expansion of the boiling steam.",
+        "text": "Integrated Concepts A lightning bolt strikes a tree, moving 20.0 C of charge through a potential difference of $1.00\\times {10}^{2} MV$. (a) What energy was dissipated? (b) What mass of water could be raised from $15ºC$ to the boiling point and then boiled by this energy? (c) Discuss the damage that could be caused to the tree by the expansion of the boiling steam.",
         "inline": []
       },
       "level": "core",
@@ -1196,7 +1196,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, $2.50×{10}^{2}g$ of baby formula, and $2.00×{10}^{2}g$ of aluminum from $20.0ºC$ to $90.0ºC$ . (a) How much charge is moved by the battery? (b) How many electrons per second flow if it takes 5.00 min to warm the formula? (Hint: Assume that the specific heat of baby formula is about the same as the specific heat of water.)",
+        "text": "Integrated Concepts A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, $2.50\\times {10}^{2} g$ of baby formula, and $2.00\\times {10}^{2} g$ of aluminum from $20.0ºC$ to $90.0ºC$. (a) How much charge is moved by the battery? (b) How many electrons per second flow if it takes 5.00 min to warm the formula? (Hint: Assume that the specific heat of baby formula is about the same as the specific heat of water.)",
         "inline": []
       },
       "level": "core",
@@ -1238,7 +1238,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A battery-operated car utilizes a 12.0 V system. Find the charge the batteries must be able to move in order to accelerate the 750 kg car from rest to 25.0 m/s, make it climb a $2.00×{10}^{2}m$ high hill, and then cause it to travel at a constant 25.0 m/s by exerting a $5.00×{10}^{2}N$ force for an hour.",
+        "text": "Integrated Concepts A battery-operated car utilizes a 12.0 V system. Find the charge the batteries must be able to move in order to accelerate the 750 kg car from rest to 25.0 m/s, make it climb a $2.00\\times {10}^{2} m$ high hill, and then cause it to travel at a constant 25.0 m/s by exerting a $5.00\\times {10}^{2} N$ force for an hour.",
         "inline": []
       },
       "level": "core",
@@ -1262,7 +1262,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Fusion probability is greatly enhanced when appropriate nuclei are brought close together, but mutual Coulomb repulsion must be overcome. This can be done using the kinetic energy of high-temperature gas ions or by accelerating the nuclei toward one another. (a) Calculate the potential energy of two singly charged nuclei separated by $1.00×{10}^{–12}m$ by finding the voltage of one at that distance and multiplying by the charge of the other. (b) At what temperature will atoms of a gas have an average kinetic energy equal to this needed electrical potential energy?",
+        "text": "Integrated Concepts Fusion probability is greatly enhanced when appropriate nuclei are brought close together, but mutual Coulomb repulsion must be overcome. This can be done using the kinetic energy of high-temperature gas ions or by accelerating the nuclei toward one another. (a) Calculate the potential energy of two singly charged nuclei separated by $1.00×{10}^{–12} m$ by finding the voltage of one at that distance and multiplying by the charge of the other. (b) At what temperature will atoms of a gas have an average kinetic energy equal to this needed electrical potential energy?",
         "inline": []
       },
       "level": "core",

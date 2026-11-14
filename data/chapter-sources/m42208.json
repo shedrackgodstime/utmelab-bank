@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "shows water gushing from a large tube through a dam. What is its speed as it emerges? Interestingly, if resistance is negligible, the speed is just what it would be if the water fell a distance $h$ from the surface of the reservoir; the water’s speed is independent of the size of the opening. Let us check this out. Bernoulli’s equation must be used since the depth is not constant. We consider water flowing from the surface (point 1) to the tube’s outlet (point 2). Bernoulli’s equation as stated in previously is",
+        "text": "The figure shows water gushing from a large tube through a dam. What is its speed as it emerges? Interestingly, if resistance is negligible, the speed is just what it would be if the water fell a distance $h$ from the surface of the reservoir; the water’s speed is independent of the size of the opening. Let us check this out. Bernoulli’s equation must be used since the depth is not constant. We consider water flowing from the surface (point 1) to the tube’s outlet (point 2). Bernoulli’s equation as stated in previously is ${P}_{1}+\\frac{1}{2}{ρv}_{1}^{2}+ρ{gh}_{1}={P}_{2}+\\frac{1}{2}{ρv}_{2}^{2}+ρ{gh}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Both ${P}_{1}$ and ${P}_{2}$ equal atmospheric pressure ( ${P}_{1}$ is atmospheric pressure because it is the pressure at the top of the reservoir. ${P}_{2}$ must be atmospheric pressure, since the emerging water is surrounded by the atmosphere and cannot have a pressure different from atmospheric pressure.) and subtract out of the equation, leaving",
+        "text": "Both ${P}_{1}$ and ${P}_{2}$ equal atmospheric pressure (${P}_{1}$ is atmospheric pressure because it is the pressure at the top of the reservoir. ${P}_{2}$ must be atmospheric pressure, since the emerging water is surrounded by the atmosphere and cannot have a pressure different from atmospheric pressure.) and subtract out of the equation, leaving $\\frac{1}{2}{ρv}_{1}^{2}+ρ{gh}_{1}=\\frac{1}{2}{ρv}_{2}^{2}+ρ{gh}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Solving this equation for ${v}_{2}^{2}$ , noting that the density $ρ$ cancels (because the fluid is incompressible), yields",
+        "text": "Solving this equation for ${v}_{2}^{2}$, noting that the density $ρ$ cancels (because the fluid is incompressible), yields ${v}_{2}^{2}={v}_{1}^{2}+2g({h}_{1}-{h}_{2}).$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "We let $h={h}_{1}-{h}_{2}$ ; the equation then becomes",
+        "text": "We let $h={h}_{1}-{h}_{2}$; the equation then becomes ${v}_{2}^{2}={v}_{1}^{2}+2gh$",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "where $h$ is the height dropped by the water. This is simply a kinematic equation for any object falling a distance $h$ with negligible resistance. In fluids, this last equation is called *Torricelli’s theorem* . Note that the result is independent of the velocity’s direction, just as we found when applying conservation of energy to falling objects.",
+        "text": "where $h$ is the height dropped by the water. This is simply a kinematic equation for any object falling a distance $h$ with negligible resistance. In fluids, this last equation is called *Torricelli’s theorem*. Note that the result is independent of the velocity’s direction, just as we found when applying conservation of energy to falling objects.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "All preceding applications of Bernoulli’s equation involved simplifying conditions, such as constant height or constant pressure. The next example is a more general application of Bernoulli’s equation in which pressure, velocity, and height all change. (See .)",
+        "text": "All preceding applications of Bernoulli’s equation involved simplifying conditions, such as constant height or constant pressure. The next example is a more general application of Bernoulli’s equation in which pressure, velocity, and height all change. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Fire hoses used in major structure fires have inside diameters of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of $1.62×{10}^{6}{N/m}^{2}$ . The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Assuming negligible resistance, what is the initial water pressure at the base of the hose?",
+        "text": "Fire hoses used in major structure fires have inside diameters of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of $1.62\\times {10}^{6} {N/m}^{2}$. The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Assuming negligible resistance, what is the initial water pressure at the base of the hose?",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Bernoulli’s equation states",
+        "text": "Bernoulli’s equation states ${P}_{1}+\\frac{1}{2}{ρv}_{1}^{2}+ρ{gh}_{1}={P}_{2}+\\frac{1}{2}{ρv}_{2}^{2}+ρ{gh}_{2},$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "where the subscripts 1 and 2 refer to the initial conditions at ground level and the final conditions inside the nozzle, respectively. We must first find the speeds ${v}_{1}$ and ${v}_{2}$ . Since $Q={A}_{1}{v}_{1}$ , we get",
+        "text": "where the subscripts 1 and 2 refer to the initial conditions at ground level and the final conditions inside the nozzle, respectively. We must first find the speeds ${v}_{1}$ and ${v}_{2}$. Since $Q={A}_{1}{v}_{1}$, we get ${v}_{1}=\\frac{Q}{{A}_{1}}=\\frac{40.0\\times {10}^{-3} {m}^{3}/s}{π(3.20\\times {10}^{-2} m{)}^{2}}=12.434 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "(This rather large speed is helpful in reaching the fire.) Now, taking ${h}_{1}$ to be zero, we solve Bernoulli’s equation for ${P}_{2}$ :",
+        "text": "(This rather large speed is helpful in reaching the fire.) Now, taking ${h}_{1}$ to be zero, we solve Bernoulli’s equation for ${P}_{2}$: ${P}_{2}={P}_{1}+\\frac{1}{2}ρ({v}_{1}^{2}-{v}_{2}^{2})-ρ{gh}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "In the proposed solution, ${P}_{2}=0$ , so",
+        "text": "In the proposed solution, ${P}_{2}=0$, so ${P}_{1}-{P}_{2}={P}_{1} = \\frac{1}{2} (1000 {kg/m}^{3}) [ (12.434 m/s {)}^{2} - (56.588 m/s {)}^{2} ] - (1000 {kg/m}^{3}) (9.80 {m/s}^{2}) (10.0 m); \\approx 1.62 \\times {10}^{6} {N/m}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Power is the *rate* at which work is done or energy in any form is used or supplied. To see the relationship of power to fluid flow, consider Bernoulli’s equation:",
+        "text": "Power is the *rate* at which work is done or energy in any form is used or supplied. To see the relationship of power to fluid flow, consider Bernoulli’s equation: $P+\\frac{1}{2}{ρv}^{2}+ρgh=constant.$",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "All three terms have units of energy per unit volume, as discussed in the previous section. Now, considering units, if we multiply energy per unit volume by flow rate (volume per unit time), we get units of power. That is, $(E/V)(V/t)=E/t$ . This means that if we multiply Bernoulli’s equation by flow rate *$Q$* , we get power. In equation form, this is",
+        "text": "All three terms have units of energy per unit volume, as discussed in the previous section. Now, considering units, if we multiply energy per unit volume by flow rate (volume per unit time), we get units of power. That is, $(E/V)(V/t)=E/t$. This means that if we multiply Bernoulli’s equation by flow rate *$Q$*, we get power. In equation form, this is $(P+\\frac{1}{2}{ρv}^{2}+ρgh)Q=power.$",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Each term has a clear physical meaning. For example, *$PQ$* is the power supplied to a fluid, perhaps by a pump, to give it its pressure *$P$* . Similarly, $\\frac{1}{2}{ρv}^{2}Q$ is the power supplied to a fluid to give it its kinetic energy. And $ρghQ$ is the power going to gravitational potential energy.",
+        "text": "Each term has a clear physical meaning. For example, *$PQ$* is the power supplied to a fluid, perhaps by a pump, to give it its pressure *$P$*. Similarly, $\\frac{1}{2}{ρv}^{2}Q$ is the power supplied to a fluid to give it its kinetic energy. And $ρghQ$ is the power going to gravitational potential energy.",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Power is defined as the rate of energy transferred, or *$E/t$* . Fluid flow involves several types of power. Each type of power is identified with a specific type of energy being expended or changed in form.",
+        "text": "Power is defined as the rate of energy transferred, or *$E/t$*. Fluid flow involves several types of power. Each type of power is identified with a specific type of energy being expended or changed in form.",
         "inline": []
       },
       "level": "core"
@@ -258,7 +258,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Suppose the fire hose in the previous example is fed by a pump that receives water through a hose with a 6.40-cm diameter coming from a hydrant with a pressure of $0.700×{10}^{6}{N/m}^{2}$ . What power does the pump supply to the water?",
+        "text": "Suppose the fire hose in the previous example is fed by a pump that receives water through a hose with a 6.40-cm diameter coming from a hydrant with a pressure of $0.700\\times {10}^{6} {N/m}^{2}$. What power does the pump supply to the water?",
         "inline": []
       },
       "level": "core"
@@ -267,7 +267,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Here we must consider energy forms as well as how they relate to fluid flow. Since the input and output hoses have the same diameters and are at the same height, the pump does not change the speed of the water nor its height, and so the water’s kinetic energy and gravitational potential energy are unchanged. That means the pump only supplies power to increase water pressure by $0.92×{10}^{6}{N/m}^{2}$ (from $0.700×{10}^{6}{N/m}^{2}$ to $1.62×{10}^{6}{N/m}^{2}$ ).",
+        "text": "Here we must consider energy forms as well as how they relate to fluid flow. Since the input and output hoses have the same diameters and are at the same height, the pump does not change the speed of the water nor its height, and so the water’s kinetic energy and gravitational potential energy are unchanged. That means the pump only supplies power to increase water pressure by $0.92\\times {10}^{6} {N/m}^{2}$ (from $0.700\\times {10}^{6} {N/m}^{2}$ to $1.62\\times {10}^{6} {N/m}^{2}$).",
         "inline": []
       },
       "level": "core"
@@ -276,7 +276,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "As discussed above, the power associated with pressure is",
+        "text": "As discussed above, the power associated with pressure is $power = PQ = (0.920\\times {10}^{6} {N/m}^{2}) (40.0\\times {10}^{-3} {m}^{3}/s). = 3. 68\\times {10}^{4} W=36. 8 kW.$",
         "inline": []
       },
       "level": "core"
@@ -454,7 +454,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The old rubber boot shown in has two leaks. To what maximum height can the water squirt from Leak 1? How does the velocity of water emerging from Leak 2 differ from that of leak 1? Explain your responses in terms of energy. Water emerges from two leaks in an old boot.",
+        "text": "The old rubber boot shown in the figure has two leaks. To what maximum height can the water squirt from Leak 1? How does the velocity of water emerging from Leak 2 differ from that of leak 1? Explain your responses in terms of energy.",
         "inline": []
       },
       "level": "core",
@@ -518,7 +518,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Hoover Dam on the Colorado River is the highest dam in the United States at 221 m, with a maximum output of 1300 MW. The dam generates electricity with water taken from a depth of 150 m and an average flow rate of $650{m}^{3}/s$ . (a) Calculate the power in this flow. (b) What is the ratio of this power to the facility’s average of 680 MW?",
+        "text": "Hoover Dam on the Colorado River is the highest dam in the United States at 221 m, with a maximum output of 1300 MW. The dam generates electricity with water taken from a depth of 150 m and an average flow rate of $650 {m}^{3}/s$. (a) Calculate the power in this flow. (b) What is the ratio of this power to the facility’s average of 680 MW?",
         "inline": []
       },
       "level": "core",
@@ -551,7 +551,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A frequently quoted rule of thumb in aircraft design is that wings should produce about 1000 N of lift per square meter of wing. (The fact that a wing has a top and bottom surface does not double its area.) (a) At takeoff, an aircraft travels at 60.0 m/s, so that the air speed relative to the bottom of the wing is 60.0 m/s. Given the sea level density of air to be $1.29{kg/m}^{3}$ , how fast must it move over the upper surface to create the ideal lift? (b) How fast must air move over the upper surface at a cruising speed of 245 m/s and at an altitude where air density is one-fourth that at sea level? (Note that this is not all of the aircraft’s lift—some comes from the body of the plane, some from engine thrust, and so on. Furthermore, Bernoulli’s principle gives an approximate answer because flow over the wing creates turbulence.)",
+        "text": "A frequently quoted rule of thumb in aircraft design is that wings should produce about 1000 N of lift per square meter of wing. (The fact that a wing has a top and bottom surface does not double its area.) (a) At takeoff, an aircraft travels at 60.0 m/s, so that the air speed relative to the bottom of the wing is 60.0 m/s. Given the sea level density of air to be $1.29 {kg/m}^{3}$, how fast must it move over the upper surface to create the ideal lift? (b) How fast must air move over the upper surface at a cruising speed of 245 m/s and at an altitude where air density is one-fourth that at sea level? (Note that this is not all of the aircraft’s lift—some comes from the body of the plane, some from engine thrust, and so on. Furthermore, Bernoulli’s principle gives an approximate answer because flow over the wing creates turbulence.)",
         "inline": []
       },
       "level": "core",
@@ -572,7 +572,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The left ventricle of a resting adult’s heart pumps blood at a flow rate of $83.0{cm}^{3}/s$ , increasing its pressure by 110 mm Hg, its speed from zero to 30.0 cm/s, and its height by 5.00 cm. (All numbers are averaged over the entire heartbeat.) Calculate the total power output of the left ventricle. Note that most of the power is used to increase blood pressure.",
+        "text": "The left ventricle of a resting adult’s heart pumps blood at a flow rate of $83.0 {cm}^{3}/s$, increasing its pressure by 110 mm Hg, its speed from zero to 30.0 cm/s, and its height by 5.00 cm. (All numbers are averaged over the entire heartbeat.) Calculate the total power output of the left ventricle. Note that most of the power is used to increase blood pressure.",
         "inline": []
       },
       "level": "core",
@@ -596,7 +596,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A sump pump (used to drain water from the basement of houses built below the water table) is draining a flooded basement at the rate of 0.750 L/s, with an output pressure of $3.00×{10}^{5}{N/m}^{2}$ . (a) The water enters a hose with a 3.00-cm inside diameter and rises 2.50 m above the pump. What is its pressure at this point? (b) The hose goes over the foundation wall, losing 0.500 m in height, and widens to 4.00 cm in diameter. What is the pressure now? You may neglect frictional losses in both parts of the problem.",
+        "text": "A sump pump (used to drain water from the basement of houses built below the water table) is draining a flooded basement at the rate of 0.750 L/s, with an output pressure of $3.00\\times {10}^{5} {N/m}^{2}$. (a) The water enters a hose with a 3.00-cm inside diameter and rises 2.50 m above the pump. What is its pressure at this point? (b) The hose goes over the foundation wall, losing 0.500 m in height, and widens to 4.00 cm in diameter. What is the pressure now? You may neglect frictional losses in both parts of the problem.",
         "inline": []
       },
       "level": "core",

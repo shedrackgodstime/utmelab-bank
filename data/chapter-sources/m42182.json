@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "By now the pattern is clear—every rotational phenomenon has a direct translational analog. It seems quite reasonable, then, to define angular momentum $L$ as",
+        "text": "By now the pattern is clear—every rotational phenomenon has a direct translational analog. It seems quite reasonable, then, to define angular momentum $L$ as $L=Iω.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "This equation is an analog to the definition of linear momentum as $p=mv$ . Units for linear momentum are $kg\\cdot m/s$ while units for angular momentum are $kg\\cdot {m}^{2}/s$ . As we would expect, an object that has a large moment of inertia $I$ , such as Earth, has a very large angular momentum. An object that has a large angular velocity $ω$ , such as a centrifuge, also has a rather large angular momentum.",
+        "text": "This equation is an analog to the definition of linear momentum as $p=mv$. Units for linear momentum are $kg\\cdot m/s$ while units for angular momentum are $kg\\cdot {m}^{2}/s$. As we would expect, an object that has a large moment of inertia $I$, such as Earth, has a very large angular momentum. An object that has a large angular velocity $ω$, such as a centrifuge, also has a rather large angular momentum.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Angular momentum is completely analogous to linear momentum, first presented in Uniform Circular Motion and Gravitation . It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.",
+        "text": "Angular momentum is completely analogous to linear momentum, first presented in Uniform Circular Motion and Gravitation. It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.",
         "inline": []
       },
       "level": "core"
@@ -82,7 +82,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "No information is given in the statement of the problem; so we must look up pertinent data before we can calculate $L=Iω$ . First, according to , the formula for the moment of inertia of a sphere is",
+        "text": "No information is given in the statement of the problem; so we must look up pertinent data before we can calculate $L=Iω$. First, according to the figure, the formula for the moment of inertia of a sphere is $I=\\frac{2{MR}^{2}}{5}$",
         "inline": []
       },
       "level": "core"
@@ -91,7 +91,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Earth’s mass $M$ is $5.979×{10}^{24}kg$ and its radius $R$ is $6.376×{10}^{6}m$ . The Earth’s angular velocity $ω$ is, of course, exactly one revolution per day, but we must covert $ω$ to radians per second to do the calculation in SI units.",
+        "text": "Earth’s mass $M$ is $5.979\\times {10}^{24} kg$ and its radius $R$ is $6.376\\times {10}^{6} m$. The Earth’s angular velocity $ω$ is, of course, exactly one revolution per day, but we must covert $ω$ to radians per second to do the calculation in SI units.",
         "inline": []
       },
       "level": "core"
@@ -100,7 +100,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Substituting $2π$ rad for rev and approximating 1 day as 24 hours or $8.64×{10}^{4}s$ gives",
+        "text": "Substituting $2π$ rad for rev and approximating 1 day as 24 hours or $8.64\\times {10}^{4} s$ gives $L = 0.4(5.979\\times {10}^{24} kg){(6.376\\times {10}^{6} m)}^{2}(\\frac{1 rev}{d}) = 9.72\\times {10}^{37} kg\\cdot {m}^{2}\\cdot rev/d.$",
         "inline": []
       },
       "level": "core"
@@ -109,7 +109,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Substituting $2π$ rad for $1$ rev and $8.64×{10}^{4}s$ for 1 day gives",
+        "text": "Substituting $2π$ rad for $1$ rev and $8.64\\times {10}^{4} s$ for 1 day gives $L = (9.72\\times {10}^{37} kg\\cdot {m}^{2})(\\frac{2π rad/rev}{8.64\\times {10}^{4} s/d})(1 rev/d) = 7.07\\times {10}^{33} kg\\cdot {m}^{2}/s.$",
         "inline": []
       },
       "level": "core"
@@ -127,7 +127,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "When you push a merry-go-round, spin a bike wheel, or open a door, you exert a torque. If the torque you exert is greater than opposing torques, then the rotation accelerates, and angular momentum increases. The greater the net torque, the more rapid the increase in $L$ . The relationship between torque and angular momentum is",
+        "text": "When you push a merry-go-round, spin a bike wheel, or open a door, you exert a torque. If the torque you exert is greater than opposing torques, then the rotation accelerates, and angular momentum increases. The greater the net torque, the more rapid the increase in $L$. The relationship between torque and angular momentum is $net τ=\\frac{ΔL}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -136,7 +136,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "This expression is exactly analogous to the relationship between force and linear momentum, $F=Δp/Δt$ . The equation $netτ=\\frac{ΔL}{Δt}$ is very fundamental and broadly applicable. It is, in fact, the rotational form of Newton’s second law.",
+        "text": "This expression is exactly analogous to the relationship between force and linear momentum, $F=Δp/Δt$. The equation $net τ=\\frac{ΔL}{Δt}$ is very fundamental and broadly applicable. It is, in fact, the rotational form of Newton’s second law.",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "shows a rotating food tray, often called a lazy Susan, being turned by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
+        "text": "The figure shows a rotating food tray, often called a lazy Susan, being turned by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s. (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible? (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?",
         "inline": []
       },
       "level": "core"
@@ -182,7 +182,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We can find the angular momentum by solving $netτ=\\frac{ΔL}{Δt}$ for $ΔL$ , and using the given information to calculate the torque. The final angular momentum equals the change in angular momentum, because the lazy Susan starts from rest. That is, $ΔL=L$ . To find the final velocity, we must calculate $ω$ from the definition of $L$ in $L=Iω$ .",
+        "text": "We can find the angular momentum by solving $net τ=\\frac{ΔL}{Δt}$ for $ΔL$, and using the given information to calculate the torque. The final angular momentum equals the change in angular momentum, because the lazy Susan starts from rest. That is, $ΔL=L$. To find the final velocity, we must calculate $ω$ from the definition of $L$ in $L=Iω$.",
         "inline": []
       },
       "level": "core"
@@ -191,7 +191,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Solving $netτ=\\frac{ΔL}{Δt}$ for $ΔL$ gives",
+        "text": "Solving $net τ=\\frac{ΔL}{Δt}$ for $ΔL$ gives $ΔL=(net τ)Δt.$",
         "inline": []
       },
       "level": "core"
@@ -200,7 +200,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Because the force is perpendicular to $r$ , we see that $netτ=rF$ , so that",
+        "text": "Because the force is perpendicular to $r$, we see that $net τ=rF$, so that $L = rFΔt=(0.260 m)(2.50 N)(0.150 s) = 9.75\\times {10}^{-2} kg\\cdot {m}^{2}/s.$",
         "inline": []
       },
       "level": "core"
@@ -209,7 +209,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The final angular velocity can be calculated from the definition of angular momentum,",
+        "text": "The final angular velocity can be calculated from the definition of angular momentum, $L=Iω.$",
         "inline": []
       },
       "level": "core"
@@ -218,7 +218,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $ω$ and substituting the formula for the moment of inertia of a disk into the resulting equation gives",
+        "text": "Solving for $ω$ and substituting the formula for the moment of inertia of a disk into the resulting equation gives $ω=\\frac{L}{I}=\\frac{L}{\\frac{1}{2}{MR}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -227,7 +227,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "And substituting known values into the preceding equation yields",
+        "text": "And substituting known values into the preceding equation yields $ω=\\frac{9.75\\times {10}^{-2} kg\\cdot {m}^{2}/s}{(0.500)(4.00 kg)(0.260 m){}^{2}}=0.721 rad/s.$",
         "inline": []
       },
       "level": "core"
@@ -260,7 +260,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "The person whose leg is shown in kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm. Given the moment of inertia of the lower leg is $1.25 kg\\cdot {m}^{2}$ , (a) find the angular acceleration of the leg. (b) Neglecting the gravitational force, what is the rotational kinetic energy of the leg after it has rotated through $57.3º$ (1.00 rad)?",
+        "text": "The person whose leg is shown in the figure kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm. Given the moment of inertia of the lower leg is $1.25 kg\\cdot {m}^{2}$, (a) find the angular acceleration of the leg. (b) Neglecting the gravitational force, what is the rotational kinetic energy of the leg after it has rotated through $57.3º$ (1.00 rad)?",
         "inline": []
       },
       "level": "core"
@@ -282,7 +282,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The angular acceleration can be found using the rotational analog to Newton’s second law, or $α=netτ/I$ . The moment of inertia $I$ is given and the torque can be found easily from the given force and perpendicular lever arm. Once the angular acceleration $α$ is known, the final angular velocity and rotational kinetic energy can be calculated.",
+        "text": "The angular acceleration can be found using the rotational analog to Newton’s second law, or $α=net τ/I$. The moment of inertia $I$ is given and the torque can be found easily from the given force and perpendicular lever arm. Once the angular acceleration $α$ is known, the final angular velocity and rotational kinetic energy can be calculated.",
         "inline": []
       },
       "level": "core"
@@ -291,7 +291,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "From the rotational analog to Newton’s second law, the angular acceleration $α$ is",
+        "text": "From the rotational analog to Newton’s second law, the angular acceleration $α$ is $α=\\frac{net τ}{I}.$",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Because the force and the perpendicular lever arm are given and the leg is vertical so that its weight does not create a torque, the net torque is thus",
+        "text": "Because the force and the perpendicular lever arm are given and the leg is vertical so that its weight does not create a torque, the net torque is thus $net τ = {r}_{⊥}F = (0.0220 m)(2000 N) = 44.0 N\\cdot m.$",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Substituting this value for the torque and the given value for the moment of inertia into the expression for $α$ gives",
+        "text": "Substituting this value for the torque and the given value for the moment of inertia into the expression for $α$ gives $α=\\frac{44.0 N\\cdot m}{1.25 kg\\cdot {m}^{2}}=35.2 {rad/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The final angular velocity can be calculated from the kinematic expression",
+        "text": "The final angular velocity can be calculated from the kinematic expression ${ω}^{2}={{ω}_{0}}^{2}+2αθ$",
         "inline": []
       },
       "level": "core"
@@ -327,7 +327,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "because the initial angular velocity is zero. The kinetic energy of rotation is",
+        "text": "because the initial angular velocity is zero. The kinetic energy of rotation is ${KE}_{rot}=\\frac{1}{2}{Iω}^{2}$",
         "inline": []
       },
       "level": "core"
@@ -336,7 +336,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "so it is most convenient to use the value of ${ω}^{2}$ just found and the given value for the moment of inertia. The kinetic energy is then",
+        "text": "so it is most convenient to use the value of ${ω}^{2}$ just found and the given value for the moment of inertia. The kinetic energy is then ${KE}_{rot} = 0.5(1.25 kg\\cdot {m}^{2})(70.4 {rad}^{2}/{s}^{2}) = 44.0 J.$",
         "inline": []
       },
       "level": "core"
@@ -372,7 +372,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "We can now understand why Earth keeps on spinning. As we saw in the previous example, $ΔL=(netτ)Δt$ . This equation means that, to change angular momentum, a torque must act over some period of time. Because Earth has a large angular momentum, a large torque acting over a long time is needed to change its rate of spin. So what external torques are there? Tidal friction exerts torque that is slowing Earth’s rotation, but tens of millions of years must pass before the change is very significant. Recent research indicates the length of the day was 18 h some 900 million years ago. Only the tides exert significant retarding torques on Earth, and so it will continue to spin, although ever more slowly, for many billions of years.",
+        "text": "We can now understand why Earth keeps on spinning. As we saw in the previous example, $ΔL=(net τ)Δt$. This equation means that, to change angular momentum, a torque must act over some period of time. Because Earth has a large angular momentum, a large torque acting over a long time is needed to change its rate of spin. So what external torques are there? Tidal friction exerts torque that is slowing Earth’s rotation, but tens of millions of years must pass before the change is very significant. Recent research indicates the length of the day was 18 h some 900 million years ago. Only the tides exert significant retarding torques on Earth, and so it will continue to spin, although ever more slowly, for many billions of years.",
         "inline": []
       },
       "level": "core"
@@ -381,7 +381,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "What we have here is, in fact, another conservation law. If the net torque is *zero* , then angular momentum is constant or *conserved* . We can see this rigorously by considering $netτ=\\frac{ΔL}{Δt}$ for the situation in which the net torque is zero. In that case,",
+        "text": "What we have here is, in fact, another conservation law. If the net torque is *zero*, then angular momentum is constant or *conserved*. We can see this rigorously by considering $net τ=\\frac{ΔL}{Δt}$ for the situation in which the net torque is zero. In that case, $netτ=0$",
         "inline": []
       },
       "level": "core"
@@ -390,7 +390,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "If the change in angular momentum $ΔL$ is zero, then the angular momentum is constant; thus,",
+        "text": "If the change in angular momentum $ΔL$ is zero, then the angular momentum is constant; thus, $L=constant (net τ=0)$",
         "inline": []
       },
       "level": "core"
@@ -399,7 +399,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "These expressions are the law of conservation of angular momentum . Conservation laws are as scarce as they are important.",
+        "text": "These expressions are the law of conservation of angular momentum. Conservation laws are as scarce as they are important.",
         "inline": []
       },
       "level": "core"
@@ -408,7 +408,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "An example of conservation of angular momentum is seen in , in which an ice skater is executing a spin. The net torque on her is very close to zero, because there is relatively little friction between her skates and the ice and because the friction is exerted very close to the pivot point. (Both $F$ and $r$ are small, and so $τ$ is negligibly small.) Consequently, she can spin for quite some time. She can do something else, too. She can increase her rate of spin by pulling her arms and legs in. Why does pulling her arms and legs in increase her rate of spin? The answer is that her angular momentum is constant, so that",
+        "text": "An example of conservation of angular momentum is seen in the figure, in which an ice skater is executing a spin. The net torque on her is very close to zero, because there is relatively little friction between her skates and the ice and because the friction is exerted very close to the pivot point. (Both $F$ and $r$ are small, and so $τ$ is negligibly small.) Consequently, she can spin for quite some time. She can do something else, too. She can increase her rate of spin by pulling her arms and legs in. Why does pulling her arms and legs in increase her rate of spin? The answer is that her angular momentum is constant, so that $L=L′.$",
         "inline": []
       },
       "level": "core"
@@ -417,7 +417,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "Expressing this equation in terms of the moment of inertia,",
+        "text": "Expressing this equation in terms of the moment of inertia, $Iω=I′ω′,$",
         "inline": []
       },
       "level": "core"
@@ -472,7 +472,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "Suppose an ice skater, such as the one in , is spinning at 0.800 rev/ s with her arms extended. She has a moment of inertia of $2.34kg\\cdot {m}^{2}$ with her arms extended and of $0.363kg\\cdot {m}^{2}$ with her arms close to her body. (These moments of inertia are based on reasonable assumptions about a 60.0-kg skater.) (a) What is her angular velocity in revolutions per second after she pulls in her arms? (b) What is her rotational kinetic energy before and after she does this?",
+        "text": "Suppose an ice skater, such as the one in the figure, is spinning at 0.800 rev/ s with her arms extended. She has a moment of inertia of $2.34 kg\\cdot {m}^{2}$ with her arms extended and of $0.363 kg\\cdot {m}^{2}$ with her arms close to her body. (These moments of inertia are based on reasonable assumptions about a 60.0-kg skater.) (a) What is her angular velocity in revolutions per second after she pulls in her arms? (b) What is her rotational kinetic energy before and after she does this?",
         "inline": []
       },
       "level": "core"
@@ -481,7 +481,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "In the first part of the problem, we are looking for the skater’s angular velocity $ω′$ after she has pulled in her arms. To find this quantity, we use the conservation of angular momentum and note that the moments of inertia and initial angular velocity are given. To find the initial and final kinetic energies, we use the definition of rotational kinetic energy given by",
+        "text": "In the first part of the problem, we are looking for the skater’s angular velocity $ω′$ after she has pulled in her arms. To find this quantity, we use the conservation of angular momentum and note that the moments of inertia and initial angular velocity are given. To find the initial and final kinetic energies, we use the definition of rotational kinetic energy given by ${KE}_{rot}=\\frac{1}{2}{Iω}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -490,7 +490,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Because torque is negligible (as discussed above), the conservation of angular momentum given in $Iω=I′ω′$ is applicable. Thus,",
+        "text": "Because torque is negligible (as discussed above), the conservation of angular momentum given in $Iω=I′ω′$ is applicable. Thus, $L=L′$",
         "inline": []
       },
       "level": "core"
@@ -499,7 +499,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $ω′$ and substituting known values into the resulting equation gives",
+        "text": "Solving for $ω′$ and substituting known values into the resulting equation gives $ω ′ = \\frac{I}{I′}ω=(\\frac{2.34 kg\\cdot {m}^{2}}{0.363 kg\\cdot {m}^{2}})(0.800 rev/s) = 5.16 rev/s.$",
         "inline": []
       },
       "level": "core"
@@ -508,7 +508,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "Rotational kinetic energy is given by",
+        "text": "Rotational kinetic energy is given by ${KE}_{rot}=\\frac{1}{2}{Iω}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -517,7 +517,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s:",
+        "text": "The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s: ${KE}_{rot} = (0.5)(2.34 kg\\cdot {m}^{2}){((0.800 rev/s)(2π rad/rev))}^{2} = 29.6 J.$",
         "inline": []
       },
       "level": "core"
@@ -526,7 +526,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "The final rotational kinetic energy is",
+        "text": "The final rotational kinetic energy is ${KE}_{rot}′=\\frac{1}{2}I′{ω′}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -535,7 +535,7 @@
       "id": "p-54",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values into this equation gives",
+        "text": "Substituting known values into this equation gives $K {E}_{rot} ′ = (0.5)(0.363 kg\\cdot {m}^{2}){[(5.16 rev/s)(2π rad/rev)]}^{2} = 191 J.$",
         "inline": []
       },
       "level": "core"
@@ -553,7 +553,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "There are several other examples of objects that increase their rate of spin because something reduced their moment of inertia. Tornadoes are one example. Storm systems that create tornadoes are slowly rotating. When the radius of rotation narrows, even in a local region, angular velocity increases, sometimes to the furious level of a tornado. Earth is another example. Our planet was born from a huge cloud of gas and dust, the rotation of which came from turbulence in an even larger cloud. Gravitational forces caused the cloud to contract, and the rotation rate increased as a result. (See .)",
+        "text": "There are several other examples of objects that increase their rate of spin because something reduced their moment of inertia. Tornadoes are one example. Storm systems that create tornadoes are slowly rotating. When the radius of rotation narrows, even in a local region, angular velocity increases, sometimes to the furious level of a tornado. Earth is another example. Our planet was born from a huge cloud of gas and dust, the rotation of which came from turbulence in an even larger cloud. Gravitational forces caused the cloud to contract, and the rotation rate increased as a result. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -833,7 +833,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Consider system A, consisting of two disks of radius *R* , with both rotating clockwise. Now consider system B, consisting of one disk of radius *R* rotating counterclockwise and another disk of radius 2 *R* rotating clockwise. All of the disks have the same mass, and all have the same magnitude of angular velocity. Which system has the greatest angular momentum? A; B; They're equal.; Not enough information",
+        "text": "Consider system A, consisting of two disks of radius *R*, with both rotating clockwise. Now consider system B, consisting of one disk of radius *R* rotating counterclockwise and another disk of radius 2 *R* rotating clockwise. All of the disks have the same mass, and all have the same magnitude of angular velocity. Which system has the greatest angular momentum? A; B; They're equal.; Not enough information",
         "inline": []
       },
       "level": "core",
@@ -926,7 +926,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a child walks from the outer edge of a rotating merry-go round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer. A child may jump off a merry-go-round in a variety of directions.",
+        "text": "Suppose a child walks from the outer edge of a rotating merry-go round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer.",
         "inline": []
       },
       "level": "core",
@@ -960,7 +960,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a child gets off a rotating merry-go-round. Does the angular velocity of the merry-go-round increase, decrease, or remain the same if: (a) He jumps off radially? (b) He jumps backward to land motionless? (c) He jumps straight up and hangs onto an overhead tree branch? (d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to ).",
+        "text": "Suppose a child gets off a rotating merry-go-round. Does the angular velocity of the merry-go-round increase, decrease, or remain the same if: (a) He jumps off radially? (b) He jumps backward to land motionless? (c) He jumps straight up and hangs onto an overhead tree branch? (d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to the figure).",
         "inline": []
       },
       "level": "core",
@@ -1128,7 +1128,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down. Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momenta. The diver spins rapidly when curled up and slows when she extends her limbs before entering the water.",
+        "text": "Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down. Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momenta.",
         "inline": []
       },
       "level": "core",
@@ -1403,7 +1403,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the angular momentum of an ice skater spinning at 6.00 rev/s given his moment of inertia is $0.400kg\\cdot {m}^{2}$ . (b) He reduces his rate of spin (his angular velocity) by extending his arms and increasing his moment of inertia. Find the value of his moment of inertia if his angular velocity decreases to 1.25 rev/s. (c) Suppose instead he keeps his arms in and allows friction of the ice to slow him to 3.00 rev/s. What average torque was exerted if this takes 15.0 s?",
+        "text": "(a) Calculate the angular momentum of an ice skater spinning at 6.00 rev/s given his moment of inertia is $0.400 kg\\cdot {m}^{2}$. (b) He reduces his rate of spin (his angular velocity) by extending his arms and increasing his moment of inertia. Find the value of his moment of inertia if his angular velocity decreases to 1.25 rev/s. (c) Suppose instead he keeps his arms in and allows friction of the ice to slow him to 3.00 rev/s. What average torque was exerted if this takes 15.0 s?",
         "inline": []
       },
       "level": "core",

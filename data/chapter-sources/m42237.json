@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "There is yet another way of expressing the second law of thermodynamics. This version relates to a concept called entropy . By examining it, we shall see that the directions associated with the second law—heat transfer from hot to cold, for example—are related to the tendency in nature for systems to become disordered and for less energy to be available for use as work. The entropy of a system can in fact be shown to be a measure of its disorder and of the unavailability of energy to do work.",
+        "text": "There is yet another way of expressing the second law of thermodynamics. This version relates to a concept called entropy. By examining it, we shall see that the directions associated with the second law—heat transfer from hot to cold, for example—are related to the tendency in nature for systems to become disordered and for less energy to be available for use as work. The entropy of a system can in fact be shown to be a measure of its disorder and of the unavailability of energy to do work.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "We can see how entropy is defined by recalling our discussion of the Carnot engine. We noted that for a Carnot cycle, and hence for any reversible processes, ${Q}_{c}/{Q}_{h}={T}_{c}/{T}_{h}$ . Rearranging terms yields",
+        "text": "We can see how entropy is defined by recalling our discussion of the Carnot engine. We noted that for a Carnot cycle, and hence for any reversible processes, ${Q}_{c}/{Q}_{h}={T}_{c}/{T}_{h}$. Rearranging terms yields $\\frac{{Q}_{c}}{{T}_{c}}=\\frac{{Q}_{h}}{{T}_{h}}$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "for any reversible process. ${Q}_{c}$ and ${Q}_{h}$ are absolute values of the heat transfer at temperatures ${T}_{c}$ and ${T}_{h}$ , respectively. This ratio of $Q/T$ is defined to be the change in entropy $ΔS$ for a reversible process,",
+        "text": "for any reversible process. ${Q}_{c}$ and ${Q}_{h}$ are absolute values of the heat transfer at temperatures ${T}_{c}$ and ${T}_{h}$, respectively. This ratio of $Q/T$ is defined to be the change in entropy $ΔS$ for a reversible process, $ΔS={(\\frac{Q}{T})}_{rev},$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "where $Q$ is the heat transfer, which is positive for heat transfer into and negative for heat transfer out of, and $T$ is the absolute temperature at which the reversible process takes place. The SI unit for entropy is joules per kelvin (J/K). If temperature changes during the process, then it is usually a good approximation (for small changes in temperature) to take $T$ to be the average temperature, avoiding the need to use integral calculus to find $ΔS$ .",
+        "text": "where $Q$ is the heat transfer, which is positive for heat transfer into and negative for heat transfer out of, and $T$ is the absolute temperature at which the reversible process takes place. The SI unit for entropy is joules per kelvin (J/K). If temperature changes during the process, then it is usually a good approximation (for small changes in temperature) to take $T$ to be the average temperature, avoiding the need to use integral calculus to find $ΔS$.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The definition of $ΔS$ is strictly valid only for reversible processes, such as used in a Carnot engine. However, we can find $ΔS$ precisely even for real, irreversible processes. The reason is that the entropy $s$ of a system, like internal energy ${E}_{int}$ , depends only on the state of the system and not how it reached that condition. Entropy is a property of state. Thus the change in entropy $ΔS$ of a system between state 1 and state 2 is the same no matter how the change occurs. We just need to find or imagine a reversible process that takes us from state 1 to state 2 and calculate $ΔS$ for that process. That will be the change in entropy for any process going from state 1 to state 2. (See .)",
+        "text": "The definition of $ΔS$ is strictly valid only for reversible processes, such as used in a Carnot engine. However, we can find $ΔS$ precisely even for real, irreversible processes. The reason is that the entropy $s$ of a system, like internal energy ${E}_{int}$, depends only on the state of the system and not how it reached that condition. Entropy is a property of state. Thus the change in entropy $ΔS$ of a system between state 1 and state 2 is the same no matter how the change occurs. We just need to find or imagine a reversible process that takes us from state 1 to state 2 and calculate $ΔS$ for that process. That will be the change in entropy for any process going from state 1 to state 2. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Now let us take a look at the change in entropy of a Carnot engine and its heat reservoirs for one full cycle. The hot reservoir has a loss of entropy $Δ{S}_{h}=-{Q}_{h}/{T}_{h}$ , because heat transfer occurs out of it (remember that when heat transfers out, then $Q$ has a negative sign). The cold reservoir has a gain of entropy $Δ{S}_{c}={Q}_{c}/{T}_{c}$ , because heat transfer occurs into it. (We assume the reservoirs are sufficiently large that their temperatures are constant.) So the total change in entropy is",
+        "text": "Now let us take a look at the change in entropy of a Carnot engine and its heat reservoirs for one full cycle. The hot reservoir has a loss of entropy $Δ{S}_{h}=-{Q}_{h}/{T}_{h}$, because heat transfer occurs out of it (remember that when heat transfers out, then $Q$ has a negative sign). The cold reservoir has a gain of entropy $Δ{S}_{c}={Q}_{c}/{T}_{c}$, because heat transfer occurs into it. (We assume the reservoirs are sufficiently large that their temperatures are constant.) So the total change in entropy is $Δ{S}_{tot}=Δ{S}_{h}+Δ{S}_{c}.$",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Thus, since we know that ${Q}_{h}/{T}_{h}={Q}_{c}/{T}_{c}$ for a Carnot engine,",
+        "text": "Thus, since we know that ${Q}_{h}/{T}_{h}={Q}_{c}/{T}_{c}$ for a Carnot engine, $Δ{S}_{tot}=–\\frac{{Q}_{h}}{{T}_{h}}+\\frac{{Q}_{c}}{{T}_{c}}=0.$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at ${T}_{h}=600 K(327º C)$ to a cold reservoir at ${T}_{c}=250 K(-23º C)$ , assuming there is no temperature change in either reservoir. (See .)",
+        "text": "Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at ${T}_{h}=600 K(327º C)$ to a cold reservoir at ${T}_{c}=250 K(-23º C)$, assuming there is no temperature change in either reservoir. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We now calculate the two changes in entropy using $Δ{S}_{tot}=Δ{S}_{h}+Δ{S}_{c}$ . First, for the heat transfer from the hot reservoir,",
+        "text": "We now calculate the two changes in entropy using $Δ{S}_{tot}=Δ{S}_{h}+Δ{S}_{c}$. First, for the heat transfer from the hot reservoir, $Δ{S}_{h}=\\frac{-{Q}_{h}}{{T}_{h}}=\\frac{-4000 J}{600 K}=-6.67 J/K.$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "And for the cold reservoir,",
+        "text": "And for the cold reservoir, $Δ{S}_{c}=\\frac{{Q}_{c}}{{T}_{c}}=\\frac{4000 J}{250 K}=16.0 J/K.$",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "It is reasonable that entropy increases for heat transfer from hot to cold. Since the change in entropy is $Q/T$ , there is a larger change at lower temperatures. The decrease in entropy of the hot object is therefore less than the increase in entropy of the cold object, producing an overall increase, just as in the previous example. This result is very general:",
+        "text": "It is reasonable that entropy increases for heat transfer from hot to cold. Since the change in entropy is $Q/T$, there is a larger change at lower temperatures. The decrease in entropy of the hot object is therefore less than the increase in entropy of the cold object, producing an overall increase, just as in the previous example. This result is very general:",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "With respect to entropy, there are only two possibilities: entropy is constant for a reversible process, and it increases for an irreversible process. There is a fourth version of the second law of thermodynamics stated in terms of entropy :",
+        "text": "With respect to entropy, there are only two possibilities: entropy is constant for a reversible process, and it increases for an irreversible process. There is a fourth version of the second law of thermodynamics stated in terms of entropy:",
         "inline": []
       },
       "level": "core"
@@ -307,7 +307,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "(a) Calculate the work output of a Carnot engine operating between temperatures of 600 K and 100 K for 4000 J of heat transfer to the engine. (b) Now suppose that the 4000 J of heat transfer occurs first from the 600 K reservoir to a 250 K reservoir (without doing any work, and this produces the increase in entropy calculated above) before transferring into a Carnot engine operating between 250 K and 100 K. What work output is produced? (See .)",
+        "text": "(a) Calculate the work output of a Carnot engine operating between temperatures of 600 K and 100 K for 4000 J of heat transfer to the engine. (b) Now suppose that the 4000 J of heat transfer occurs first from the 600 K reservoir to a 250 K reservoir (without doing any work, and this produces the increase in entropy calculated above) before transferring into a Carnot engine operating between 250 K and 100 K. What work output is produced? (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -325,7 +325,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The Carnot efficiency is given by",
+        "text": "The Carnot efficiency is given by ${Eff}_{C}=1-\\frac{{T}_{c}}{{T}_{h}}.$",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the given temperatures yields",
+        "text": "Substituting the given temperatures yields ${Eff}_{C}=1-\\frac{100 K}{600 K}=0.833.$",
         "inline": []
       },
       "level": "core"
@@ -343,7 +343,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Now the work output can be calculated using the definition of efficiency for any heat engine as given by",
+        "text": "Now the work output can be calculated using the definition of efficiency for any heat engine as given by $Eff=\\frac{W}{{Q}_{h}}.$",
         "inline": []
       },
       "level": "core"
@@ -352,7 +352,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $W$ and substituting known terms gives",
+        "text": "Solving for $W$ and substituting known terms gives $W = {Eff}_{C}{Q}_{h} = (0.833)(4000 J)=3333 J.$",
         "inline": []
       },
       "level": "core"
@@ -383,7 +383,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "When entropy increases, a certain amount of energy becomes *permanently* unavailable to do work. The energy is not lost, but its character is changed, so that some of it can never be converted to doing work—that is, to an organized force acting through a distance. For instance, in the previous example, 933 J less work was done after an increase in entropy of 9.33 J/K occurred in the 4000 J heat transfer from the 600 K reservoir to the 250 K reservoir. It can be shown that the amount of energy that becomes unavailable for work is",
+        "text": "When entropy increases, a certain amount of energy becomes *permanently* unavailable to do work. The energy is not lost, but its character is changed, so that some of it can never be converted to doing work—that is, to an organized force acting through a distance. For instance, in the previous example, 933 J less work was done after an increase in entropy of 9.33 J/K occurred in the 4000 J heat transfer from the 600 K reservoir to the 250 K reservoir. It can be shown that the amount of energy that becomes unavailable for work is ${W}_{unavail}=ΔS\\cdot {T}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -392,7 +392,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "where ${T}_{0}$ is the lowest temperature utilized. In the previous example,",
+        "text": "where ${T}_{0}$ is the lowest temperature utilized. In the previous example, ${W}_{unavail}=(9.33 J/K)(100 K)=933 J$",
         "inline": []
       },
       "level": "core"
@@ -464,7 +464,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "Either way, the universe is destined for thermodynamic equilibrium—maximum entropy. This is often called the *heat death of the universe* , and will mean the end of all activity. However, whether the universe contracts and heats up, or continues to expand and cools down, the end is not near. Calculations of black holes suggest that entropy can easily continue for at least ${10}^{100}$ years.",
+        "text": "Either way, the universe is destined for thermodynamic equilibrium—maximum entropy. This is often called the *heat death of the universe*, and will mean the end of all activity. However, whether the universe contracts and heats up, or continues to expand and cools down, the end is not near. Calculations of black holes suggest that entropy can easily continue for at least ${10}^{100}$ years.",
         "inline": []
       },
       "level": "core"
@@ -482,7 +482,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Entropy is related not only to the unavailability of energy to do work—it is also a measure of disorder. This notion was initially postulated by Ludwig Boltzmann in the 1800s. For example, melting a block of ice means taking a highly structured and orderly system of water molecules and converting it into a disorderly liquid in which molecules have no fixed positions. (See .) There is a large increase in entropy in the process, as seen in the following example.",
+        "text": "Entropy is related not only to the unavailability of energy to do work—it is also a measure of disorder. This notion was initially postulated by Ludwig Boltzmann in the 1800s. For example, melting a block of ice means taking a highly structured and orderly system of water molecules and converting it into a disorderly liquid in which molecules have no fixed positions. (See the figure.) There is a large increase in entropy in the process, as seen in the following example.",
         "inline": []
       },
       "level": "core"
@@ -506,7 +506,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "Find the increase in entropy of 1.00 kg of ice originally at $0º C$ that is melted to form water at $0º C$ .",
+        "text": "Find the increase in entropy of 1.00 kg of ice originally at $0º C$ that is melted to form water at $0º C$.",
         "inline": []
       },
       "level": "core"
@@ -524,7 +524,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "The change in entropy is defined as:",
+        "text": "The change in entropy is defined as: $ΔS=\\frac{Q}{T}.$",
         "inline": []
       },
       "level": "core"
@@ -533,7 +533,7 @@
       "id": "p-54",
       "type": "paragraph",
       "content": {
-        "text": "Here $Q$ is the heat transfer necessary to melt 1.00 kg of ice and is given by",
+        "text": "Here $Q$ is the heat transfer necessary to melt 1.00 kg of ice and is given by $Q={mL}_{f,}$",
         "inline": []
       },
       "level": "core"
@@ -542,7 +542,7 @@
       "id": "p-55",
       "type": "paragraph",
       "content": {
-        "text": "where $m$ is the mass and ${L}_{f}$ is the latent heat of fusion. ${L}_{f}=334kJ/kg$ for water, so that",
+        "text": "where $m$ is the mass and ${L}_{f}$ is the latent heat of fusion. ${L}_{f}=334 kJ/kg$ for water, so that $Q=(1.00 kg)(334 kJ/kg)=3.34\\times {10}^{5} J.$",
         "inline": []
       },
       "level": "core"
@@ -551,7 +551,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "Now the change in entropy is positive, since heat transfer occurs into the ice to cause the phase change; thus,",
+        "text": "Now the change in entropy is positive, since heat transfer occurs into the ice to cause the phase change; thus, $ΔS=\\frac{Q}{T}=\\frac{3.34\\times {10}^{5} J}{T}.$",
         "inline": []
       },
       "level": "core"
@@ -560,7 +560,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "$T$ is the melting temperature of ice. That is, $T=0ºC=273 K$ . So the change in entropy is",
+        "text": "$T$ is the melting temperature of ice. That is, $T=0ºC=273 K$. So the change in entropy is $Δ S = \\frac{3.34×{10}^{5} J}{273 K} = 1.22×{10}^{3} J/K.$",
         "inline": []
       },
       "level": "core"
@@ -591,7 +591,7 @@
       "id": "p-60",
       "type": "paragraph",
       "content": {
-        "text": "In another easily imagined example, suppose we mix equal masses of water originally at two different temperatures, say $20.0º C$ and $40.0º C$ . The result is water at an intermediate temperature of $30.0º C$ . Three outcomes have resulted: entropy has increased, some energy has become unavailable to do work, and the system has become less orderly. Let us think about each of these results.",
+        "text": "In another easily imagined example, suppose we mix equal masses of water originally at two different temperatures, say $20.0º C$ and $40.0º C$. The result is water at an intermediate temperature of $30.0º C$. Three outcomes have resulted: entropy has increased, some energy has become unavailable to do work, and the system has become less orderly. Let us think about each of these results.",
         "inline": []
       },
       "level": "core"
@@ -645,7 +645,7 @@
       "id": "p-66",
       "type": "paragraph",
       "content": {
-        "text": "Some people misunderstand the second law of thermodynamics, stated in terms of entropy, to say that the process of the evolution of life violates this law. Over time, complex organisms evolved from much simpler ancestors, representing a large decrease in entropy of the Earth’s biosphere. It is a fact that living organisms have evolved to be highly structured, and much lower in entropy than the substances from which they grow. But it is *always* possible for the entropy of one part of the universe to decrease, provided the total change in entropy of the universe increases. In equation form, we can write this as",
+        "text": "Some people misunderstand the second law of thermodynamics, stated in terms of entropy, to say that the process of the evolution of life violates this law. Over time, complex organisms evolved from much simpler ancestors, representing a large decrease in entropy of the Earth’s biosphere. It is a fact that living organisms have evolved to be highly structured, and much lower in entropy than the substances from which they grow. But it is *always* possible for the entropy of one part of the universe to decrease, provided the total change in entropy of the universe increases. In equation form, we can write this as $Δ{S}_{tot}=Δ{S}_{syst}+Δ{S}_{envir}>0.$",
         "inline": []
       },
       "level": "core"
@@ -663,7 +663,7 @@
       "id": "p-68",
       "type": "paragraph",
       "content": {
-        "text": "How is it possible for a system to decrease its entropy? Energy transfer is necessary. If I pick up marbles that are scattered about the room and put them into a cup, my work has decreased the entropy of that system. If I gather iron ore from the ground and convert it into steel and build a bridge, my work has decreased the entropy of that system. Energy coming from the Sun can decrease the entropy of local systems on Earth—that is, $Δ{S}_{syst}$ is negative. But the overall entropy of the rest of the universe increases by a greater amount—that is, $Δ{S}_{envir}$ is positive and greater in magnitude. Thus, $Δ{S}_{tot}=Δ{S}_{syst}+Δ{S}_{envir}>0$ , and the second law of thermodynamics is *not* violated.",
+        "text": "How is it possible for a system to decrease its entropy? Energy transfer is necessary. If I pick up marbles that are scattered about the room and put them into a cup, my work has decreased the entropy of that system. If I gather iron ore from the ground and convert it into steel and build a bridge, my work has decreased the entropy of that system. Energy coming from the Sun can decrease the entropy of local systems on Earth—that is, $Δ{S}_{syst}$ is negative. But the overall entropy of the rest of the universe increases by a greater amount—that is, $Δ{S}_{envir}$ is positive and greater in magnitude. Thus, $Δ{S}_{tot}=Δ{S}_{syst}+Δ{S}_{envir}>0$, and the second law of thermodynamics is *not* violated.",
         "inline": []
       },
       "level": "core"
@@ -672,7 +672,7 @@
       "id": "p-69",
       "type": "paragraph",
       "content": {
-        "text": "Every time a plant stores some solar energy in the form of chemical potential energy, or an updraft of warm air lifts a soaring bird, the Earth can be viewed as a heat engine operating between a hot reservoir supplied by the Sun and a cold reservoir supplied by dark outer space—a heat engine of high complexity, causing local decreases in entropy as it uses part of the heat transfer from the Sun into deep space. There is a large total increase in entropy resulting from this massive heat transfer. A small part of this heat transfer is stored in structured systems on Earth, producing much smaller local decreases in entropy. (See .)",
+        "text": "Every time a plant stores some solar energy in the form of chemical potential energy, or an updraft of warm air lifts a soaring bird, the Earth can be viewed as a heat engine operating between a hot reservoir supplied by the Sun and a cold reservoir supplied by dark outer space—a heat engine of high complexity, causing local decreases in entropy as it uses part of the heat transfer from the Sun into deep space. There is a large total increase in entropy resulting from this massive heat transfer. A small part of this heat transfer is stored in structured systems on Earth, producing much smaller local decreases in entropy. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -703,7 +703,7 @@
       "id": "p-72",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -983,7 +983,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) On a winter day, a certain house loses $5.00×{10}^{8}J$ of heat to the outside (about 500,000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of $21.0º C$ and an average outdoor temperature of $5.00º C$ ? (b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?",
+        "text": "(a) On a winter day, a certain house loses $5.00×{10}^{8} J$ of heat to the outside (about 500,000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of $21.0º C$ and an average outdoor temperature of $5.00º C$? (b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?",
         "inline": []
       },
       "level": "core",
@@ -1025,7 +1025,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "On a hot summer day, $4.00×{10}^{6}J$ of heat transfer into a parked car takes place, increasing its temperature from $35.0º C$ to $45.0º C$ . What is the increase in entropy of the car due to this heat transfer alone?",
+        "text": "On a hot summer day, $4.00×{10}^{6} J$ of heat transfer into a parked car takes place, increasing its temperature from $35.0º C$ to $45.0º C$. What is the increase in entropy of the car due to this heat transfer alone?",
         "inline": []
       },
       "level": "core",
@@ -1046,7 +1046,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A hot rock ejected from a volcano’s lava fountain cools from $1100º C$ to $40.0º C$ , and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?",
+        "text": "A hot rock ejected from a volcano’s lava fountain cools from $1100º C$ to $40.0º C$, and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?",
         "inline": []
       },
       "level": "core",
@@ -1070,7 +1070,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "When $1.60×{10}^{5}J$ of heat transfer occurs into a meat pie initially at $20.0º C$ , its entropy increases by 480 J/K. What is its final temperature?",
+        "text": "When $1.60×{10}^{5} J$ of heat transfer occurs into a meat pie initially at $20.0º C$, its entropy increases by 480 J/K. What is its final temperature?",
         "inline": []
       },
       "level": "core",
@@ -1091,7 +1091,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The Sun radiates energy at the rate of $3.80×{10}^{26}W$ from its $5500º C$ surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is $-270º C$ . (a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?",
+        "text": "The Sun radiates energy at the rate of $3.80×{10}^{26} W$ from its $5500º C$ surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is $-270º C$. (a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?",
         "inline": []
       },
       "level": "core",
@@ -1133,7 +1133,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at $40.0º C$ when it is placed in contact with 1.00 kg of $20.0º C$ water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be $20.0º C$ ? Explicitly show how you follow the steps in the Problem-Solving Strategies for Entropy .",
+        "text": "(a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at $40.0º C$ when it is placed in contact with 1.00 kg of $20.0º C$ water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be $20.0º C$? Explicitly show how you follow the steps in the Problem-Solving Strategies for Entropy.",
         "inline": []
       },
       "level": "core",
@@ -1154,7 +1154,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of $35.0º C$ , assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?",
+        "text": "What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of $35.0º C$, assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?",
         "inline": []
       },
       "level": "core",
@@ -1199,7 +1199,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station, ${Q}_{h}$ , in one day. (b) How much heat transfer ${Q}_{c}$ occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from $35.0º C$ water into the local air mass, which increases in temperature from $18.0º C$ to $20.0º C$ , what is the total increase in entropy due to this heat transfer? (d) How much energy becomes unavailable to do work because of this increase in entropy, assuming an $18.0º C$ lowest temperature? (Part of ${Q}_{c}$ could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)",
+        "text": "A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station, ${Q}_{h}$, in one day. (b) How much heat transfer ${Q}_{c}$ occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from $35.0º C$ water into the local air mass, which increases in temperature from $18.0º C$ to $20.0º C$, what is the total increase in entropy due to this heat transfer? (d) How much energy becomes unavailable to do work because of this increase in entropy, assuming an $18.0º C$ lowest temperature? (Part of ${Q}_{c}$ could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)",
         "inline": []
       },
       "level": "core",
@@ -1259,7 +1259,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How much heat transfer occurs from 20.0 kg of $90.0º C$ water placed in contact with 20.0 kg of $10.0º C$ water, producing a final temperature of $50.0º C$ ? (b) How much work could a Carnot engine do with this heat transfer, assuming it operates between two reservoirs at constant temperatures of $90.0º C$ and $10.0º C$ ? (c) What increase in entropy is produced by mixing 20.0 kg of $90.0º C$ water with 20.0 kg of $10.0º C$ water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of $10.0º C$ , and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in the Problem-Solving Strategies for Entropy . (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.",
+        "text": "(a) How much heat transfer occurs from 20.0 kg of $90.0º C$ water placed in contact with 20.0 kg of $10.0º C$ water, producing a final temperature of $50.0º C$? (b) How much work could a Carnot engine do with this heat transfer, assuming it operates between two reservoirs at constant temperatures of $90.0º C$ and $10.0º C$? (c) What increase in entropy is produced by mixing 20.0 kg of $90.0º C$ water with 20.0 kg of $10.0º C$ water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of $10.0º C$, and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in the Problem-Solving Strategies for Entropy. (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.",
         "inline": []
       },
       "level": "core",

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Many complex circuits, such as the one in , cannot be analyzed with the series-parallel techniques developed in Resistors in Series and Parallel and Electromotive Force: Terminal Voltage . There are, however, two circuit analysis rules that can be used to analyze any circuit, simple or complex. These rules are special cases of the laws of conservation of charge and conservation of energy. The rules are known as Kirchhoff’s rules , after their inventor Gustav Kirchhoff (1824–1887).",
+        "text": "Many complex circuits, such as the one in the figure, cannot be analyzed with the series-parallel techniques developed in Resistors in Series and Parallel and Electromotive Force: Terminal Voltage. There are, however, two circuit analysis rules that can be used to analyze any circuit, simple or complex. These rules are special cases of the laws of conservation of charge and conservation of energy. The rules are known as Kirchhoff’s rules, after their inventor Gustav Kirchhoff (1824–1887).",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Kirchhoff’s first rule (the junction rule ) is an application of the conservation of charge to a junction; it is illustrated in . Current is the flow of charge, and charge is conserved; thus, whatever charge flows into the junction must flow out. Kirchhoff’s first rule requires that ${I}_{1}={I}_{2}+{I}_{3}$ (see figure). Equations like this can and will be used to analyze circuits and to solve circuit problems.",
+        "text": "Kirchhoff’s first rule (the junction rule) is an application of the conservation of charge to a junction; it is illustrated in the figure. Current is the flow of charge, and charge is conserved; thus, whatever charge flows into the junction must flow out. Kirchhoff’s first rule requires that ${I}_{1}={I}_{2}+{I}_{3}$ (see figure). Equations like this can and will be used to analyze circuits and to solve circuit problems.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Kirchhoff’s second rule (the loop rule ) is an application of conservation of energy. The loop rule is stated in terms of potential, $V$ , rather than potential energy, but the two are related since ${PE}_{elec}=qV$ . Recall that emf is the potential difference of a source when no current is flowing. In a closed loop, whatever energy is supplied by emf must be transferred into other forms by devices in the loop, since there are no other ways in which energy can be transferred into or out of the circuit. illustrates the changes in potential in a simple series circuit loop.",
+        "text": "Kirchhoff’s second rule (the loop rule) is an application of conservation of energy. The loop rule is stated in terms of potential, $V$, rather than potential energy, but the two are related since ${PE}_{elec}=qV$. Recall that emf is the potential difference of a source when no current is flowing. In a closed loop, whatever energy is supplied by emf must be transferred into other forms by devices in the loop, since there are no other ways in which energy can be transferred into or out of the circuit. The figure illustrates the changes in potential in a simple series circuit loop.",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Kirchhoff’s second rule requires $emf-Ir-{IR}_{1}-{IR}_{2}=0$ . Rearranged, this is $emf=Ir+{IR}_{1}+{IR}_{2}$ , which means the emf equals the sum of the $IR$ (voltage) drops in the loop.",
+        "text": "Kirchhoff’s second rule requires $emf-Ir-{IR}_{1}-{IR}_{2}=0$. Rearranged, this is $emf=Ir+{IR}_{1}+{IR}_{2}$, which means the emf equals the sum of the $IR$ (voltage) drops in the loop.",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "and the following points will help you get the plus or minus signs right when applying the loop rule. Note that the resistors and emfs are traversed by going from a to b. In many circuits, it will be necessary to construct more than one loop. In traversing each loop, one needs to be consistent for the sign of the change in potential. (See .)",
+        "text": "The figure and the following points will help you get the plus or minus signs right when applying the loop rule. Note that the resistors and emfs are traversed by going from a to b. In many circuits, it will be necessary to construct more than one loop. In traversing each loop, one needs to be consistent for the sign of the change in potential. (See the example.)",
         "inline": []
       },
       "level": "core"
@@ -197,7 +197,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Find the currents flowing in the circuit in .",
+        "text": "Find the currents flowing in the circuit in the figure.",
         "inline": []
       },
       "level": "core"
@@ -219,7 +219,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "This circuit is sufficiently complex that the currents cannot be found using Ohm’s law and the series-parallel techniques—it is necessary to use Kirchhoff’s rules. Currents have been labeled ${I}_{1}$ , ${I}_{2}$ , and ${I}_{3}$ in the figure and assumptions have been made about their directions. Locations on the diagram have been labeled with letters a through h. In the solution we will apply the junction and loop rules, seeking three independent equations to allow us to solve for the three unknown currents.",
+        "text": "This circuit is sufficiently complex that the currents cannot be found using Ohm’s law and the series-parallel techniques—it is necessary to use Kirchhoff’s rules. Currents have been labeled ${I}_{1}$, ${I}_{2}$, and ${I}_{3}$ in the figure and assumptions have been made about their directions. Locations on the diagram have been labeled with letters a through h. In the solution we will apply the junction and loop rules, seeking three independent equations to allow us to solve for the three unknown currents.",
         "inline": []
       },
       "level": "core"
@@ -228,7 +228,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "We begin by applying Kirchhoff’s first or junction rule at point a. This gives",
+        "text": "We begin by applying Kirchhoff’s first or junction rule at point a. This gives ${I}_{1}={I}_{2}+{I}_{3},$",
         "inline": []
       },
       "level": "core"
@@ -246,7 +246,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Now we consider the loop abcdea. Going from a to b, we traverse ${R}_{2}$ in the same (assumed) direction of the current ${I}_{2}$ , and so the change in potential is $-{I}_{2}{R}_{2}$ . Then going from b to c, we go from $-$ to +, so that the change in potential is $+{emf}_{1}$ . Traversing the internal resistance ${r}_{1}$ from c to d gives $-{I}_{2}{r}_{1}$ . Completing the loop by going from d to a again traverses a resistor in the same direction as its current, giving a change in potential of $-{I}_{1}{R}_{1}$ .",
+        "text": "Now we consider the loop abcdea. Going from a to b, we traverse ${R}_{2}$ in the same (assumed) direction of the current ${I}_{2}$, and so the change in potential is $-{I}_{2}{R}_{2}$. Then going from b to c, we go from $-$ to +, so that the change in potential is $+{emf}_{1}$. Traversing the internal resistance ${r}_{1}$ from c to d gives $-{I}_{2}{r}_{1}$. Completing the loop by going from d to a again traverses a resistor in the same direction as its current, giving a change in potential of $-{I}_{1}{R}_{1}$.",
         "inline": []
       },
       "level": "core"
@@ -255,7 +255,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The loop rule states that the changes in potential sum to zero. Thus,",
+        "text": "The loop rule states that the changes in potential sum to zero. Thus, $-{I}_{2}{R}_{2}+{emf}_{1}-{I}_{2}{r}_{1}-{I}_{1}{R}_{1}=-{I}_{2}({R}_{2}+{r}_{1})+{emf}_{1}-{I}_{1}{R}_{1}=0.$",
         "inline": []
       },
       "level": "core"
@@ -264,7 +264,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Substituting values from the circuit diagram for the resistances and emf, and canceling the ampere unit gives",
+        "text": "Substituting values from the circuit diagram for the resistances and emf, and canceling the ampere unit gives $-{3I}_{2}+18-{6I}_{1}=0.$",
         "inline": []
       },
       "level": "core"
@@ -273,7 +273,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Now applying the loop rule to aefgha (we could have chosen abcdefgha as well) similarly gives",
+        "text": "Now applying the loop rule to aefgha (we could have chosen abcdefgha as well) similarly gives $+ {I}_{1}{R}_{1}+{I}_{3}{R}_{3}+{I}_{3}{r}_{2}-{emf}_{2}= +{I}_{1}{R}_{1}+{I}_{3}({R}_{3}+{r}_{2})-{emf}_{2}=0.$",
         "inline": []
       },
       "level": "core"
@@ -282,7 +282,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Note that the signs are reversed compared with the other loop, because elements are traversed in the opposite direction. With values entered, this becomes",
+        "text": "Note that the signs are reversed compared with the other loop, because elements are traversed in the opposite direction. With values entered, this becomes $+ {6I}_{1}+{2I}_{3}-45=0.$",
         "inline": []
       },
       "level": "core"
@@ -291,7 +291,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "These three equations are sufficient to solve for the three unknown currents. First, solve the second equation for ${I}_{2}$ :",
+        "text": "These three equations are sufficient to solve for the three unknown currents. First, solve the second equation for ${I}_{2}$: ${I}_{2}=6-{2I}_{1}.$",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Now solve the third equation for ${I}_{3}$ :",
+        "text": "Now solve the third equation for ${I}_{3}$: ${I}_{3}=22.5-{3I}_{1}.$",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Substituting these two new equations into the first one allows us to find a value for ${I}_{1}$ :",
+        "text": "Substituting these two new equations into the first one allows us to find a value for ${I}_{1}$: ${I}_{1}={I}_{2}+{I}_{3}=(6-{2I}_{1})+(22.5-{3I}_{1})=28.5-{5I}_{1}.$",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Combining terms gives",
+        "text": "Combining terms gives ${6I}_{1}=28.5, and$ ${I}_{1}=4.75 A.$",
         "inline": []
       },
       "level": "core"
@@ -327,7 +327,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Substituting this value for ${I}_{1}$ back into the fourth equation gives",
+        "text": "Substituting this value for ${I}_{1}$ back into the fourth equation gives ${I}_{2}=6-{2I}_{1}=6-9.50$ ${I}_{2}=-3.50 A.$",
         "inline": []
       },
       "level": "core"
@@ -336,7 +336,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "The minus sign means ${I}_{2}$ flows in the direction opposite to that assumed in .",
+        "text": "The minus sign means ${I}_{2}$ flows in the direction opposite to that assumed in the figure.",
         "inline": []
       },
       "level": "core"
@@ -345,7 +345,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Finally, substituting the value for ${I}_{1}$ into the fifth equation gives",
+        "text": "Finally, substituting the value for ${I}_{1}$ into the fifth equation gives ${I}_{3}=22.5-{3I}_{1}=22.5-14.25$ ${I}_{3}=8.25 A.$",
         "inline": []
       },
       "level": "core"
@@ -354,7 +354,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Just as a check, we note that indeed ${I}_{1}={I}_{2}+{I}_{3}$ . The results could also have been checked by entering all of the values into the equation for the abcdefgha loop.",
+        "text": "Just as a check, we note that indeed ${I}_{1}={I}_{2}+{I}_{3}$. The results could also have been checked by entering all of the values into the equation for the abcdefgha loop.",
         "inline": []
       },
       "level": "core"
@@ -415,7 +415,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An experiment was set up with the circuit diagram shown. Assume *R 1* = 10 Ω, *R 2* = *R 3* = 5 Ω, *r* = 0 Ω and *E* = 6 V. One of the steps to examine the set-up is to test points with the same potential. Which of the following points can be tested? Points *b* , *c* and *d* .; Points *d* , *e* and *f* .; Points *f* , *h* and *j* .; Points *a* , *h* and *i* .; At which three points should the currents be measured so that Kirchhoff’s junction rule can be directly confirmed? Points *b* , *c* and *d* .; Points *d* , *e* and *f* .; Points *f* , *h* and *j* .; Points *a* , *h* and *i* .; If the current in the branch with the voltage source is upward and currents in the other two branches are downward, i.e. *I a = I i + I c* , identify which of the following can be true? Select *two* answers. *I i = I j - I f*; *I e = I h - I i*; *I c = I j - I a*; *I d = I h - I j*; The measurements reveal that the current through *R* 1 is 0.5 A and *R* 3 is 0.6 A. Based on your knowledge of Kirchoff’s laws, confirm which of the following statements are true. The measured current for *R* 1 is correct but for *R* 3 is incorrect.; The measured current for *R* 3 is correct but for *R* 1 is incorrect.; Both the measured currents are correct.; Both the measured currents are incorrect.; The graph shown in the following figure is the energy dissipated at *R* 1 as a function of time. Which of the following shows the graph for energy dissipated at *R* 2 as a function of time?",
+        "text": "An experiment was set up with the circuit diagram shown. Assume *R 1* = 10 Ω, *R 2* = *R 3* = 5 Ω, *r* = 0 Ω and *E* = 6 V. One of the steps to examine the set-up is to test points with the same potential. Which of the following points can be tested? Points *b*, *c* and *d*.; Points *d*, *e* and *f*.; Points *f*, *h* and *j*.; Points *a*, *h* and *i*.; At which three points should the currents be measured so that Kirchhoff’s junction rule can be directly confirmed? Points *b*, *c* and *d*.; Points *d*, *e* and *f*.; Points *f*, *h* and *j*.; Points *a*, *h* and *i*.; If the current in the branch with the voltage source is upward and currents in the other two branches are downward, i.e. *I a = I i + I c*, identify which of the following can be true? Select *two* answers. *I i = I j - I f*; *I e = I h - I i*; *I c = I j - I a*; *I d = I h - I j*; The measurements reveal that the current through *R* 1 is 0.5 A and *R* 3 is 0.6 A. Based on your knowledge of Kirchoff’s laws, confirm which of the following statements are true. The measured current for *R* 1 is correct but for *R* 3 is incorrect.; The measured current for *R* 3 is correct but for *R* 1 is incorrect.; Both the measured currents are correct.; Both the measured currents are incorrect.; The graph shown in the following figure is the energy dissipated at *R* 1 as a function of time. Which of the following shows the graph for energy dissipated at *R* 2 as a function of time?",
         "inline": []
       },
       "level": "core",
@@ -568,7 +568,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "For this question, consider the circuit shown in the following figure. Assuming that none of the three currents ( *I* 1 , *I* 2 , and *I* 3 ) are equal to zero, which of the following statements is false? *I* 3 = *I* 1 + *I* 2 at point *a* .; *I* 2 = *I* 3 *-* *I* 1 at point *e* .; The current through *R 3* is equal to the current through *R 5.*; The current through *R 1* is equal to the current through *R* 5.; Which of the following statements is true? *E 1 + E 2 + I 1 R 1 - I 2 R 2 + I 1 r 1 - I 2 r 2 + I 1 R 5* = 0; *- E 1 + E 2 + I 1 R 1 - I 2 R 2 + I 1 r 1 - I 2 r 2 - I 1 R 5* = 0; *E 1 - E 2 - I 1 R 1 + I 2 R 2 - I 1 r 1 + I 2 r 2 - I 1 R 5* = 0; *E 1 + E 2 - I 1 R 1 + I 2 R 2 - I 1 r 1 + I 2 r 2 + I 1 R 5* = 0; If *I* 1 = 5 A and *I* 3 = -2 A, which of the following statements is false? The current through *R 1* will flow from *a* to *b* and will be equal to 5 A.; The current through *R 3* will flow from *a* to *j* and will be equal to 2 A.; The current through *R 5* will flow from *d* to *e* and will be equal to 5 A.; None of the above.; If *I 1* = 5 A and *I 3* = -2 A, *I 2* will be equal to 3 A; -3 A; 7 A; -7 A",
+        "text": "For this question, consider the circuit shown in the following figure. Assuming that none of the three currents (*I* 1, *I* 2, and *I* 3) are equal to zero, which of the following statements is false? *I* 3 = *I* 1 + *I* 2 at point *a*.; *I* 2 = *I* 3 *-* *I* 1 at point *e*.; The current through *R 3* is equal to the current through *R 5.*; The current through *R 1* is equal to the current through *R* 5.; Which of the following statements is true? *E 1 + E 2 + I 1 R 1 - I 2 R 2 + I 1 r 1 - I 2 r 2 + I 1 R 5* = 0; *- E 1 + E 2 + I 1 R 1 - I 2 R 2 + I 1 r 1 - I 2 r 2 - I 1 R 5* = 0; *E 1 - E 2 - I 1 R 1 + I 2 R 2 - I 1 r 1 + I 2 r 2 - I 1 R 5* = 0; *E 1 + E 2 - I 1 R 1 + I 2 R 2 - I 1 r 1 + I 2 r 2 + I 1 R 5* = 0; If *I* 1 = 5 A and *I* 3 = -2 A, which of the following statements is false? The current through *R 1* will flow from *a* to *b* and will be equal to 5 A.; The current through *R 3* will flow from *a* to *j* and will be equal to 2 A.; The current through *R 5* will flow from *d* to *e* and will be equal to 5 A.; None of the above.; If *I 1* = 5 A and *I 3* = -2 A, *I 2* will be equal to 3 A; -3 A; 7 A; -7 A",
         "inline": []
       },
       "level": "core",
@@ -641,7 +641,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In an experiment this circuit is set up. Three ammeters are used to record the currents in the three vertical branches (with *R* 1 , *R* 2 , and *E)* . The readings of the ammeters in the resistor branches (i.e. currents in *R* 1 and *R* 2 ) are 2 A and 3 A respectively. Find the equation obtained by applying Kirchhoff’s loop rule in the loop involving *R* 1 and *R* 2 .; What will be the reading of the third ammeter (i.e. the branch with *E* )? If *E* were replaced by 3 *E* , how would this reading change?; If the original circuit is modified by adding another voltage source (as shown in the following circuit), find the readings of the three ammeters.",
+        "text": "In an experiment this circuit is set up. Three ammeters are used to record the currents in the three vertical branches (with *R* 1, *R* 2, and *E)*. The readings of the ammeters in the resistor branches (i.e. currents in *R* 1 and *R* 2) are 2 A and 3 A respectively. Find the equation obtained by applying Kirchhoff’s loop rule in the loop involving *R* 1 and *R* 2.; What will be the reading of the third ammeter (i.e. the branch with *E*)? If *E* were replaced by 3 *E*, how would this reading change?; If the original circuit is modified by adding another voltage source (as shown in the following circuit), find the readings of the three ammeters.",
         "inline": []
       },
       "level": "core",
@@ -688,7 +688,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In this circuit, assume the currents through *R* 1 , *R* 2 and *R* 3 are *I* 1 , *I* 2 and *I* 3 respectively and all are flowing in the clockwise direction. Find the equation obtained by applying Kirchhoff’s junction rule at point A.; Find the equations obtained by applying Kirchhoff’s loop rule in the upper and lower loops.; Assume *R* 1 = *R* 2 = 6 Ω, *R* 3 = 12 Ω, *r* 1 = *r* 2 = 0 Ω, *E* 1 = 6 V and *E* 2 = 4 V. Calculate *I* 1 , *I* 2 and *I* 3 .; For the situation in which *E* 2 is replaced by a closed switch, repeat parts (a) and (b). Using the values for *R* 1 , *R* 2 , *R* 3 , *r* 1 and *E* 1 from part (c) calculate the currents through the three resistors.; For the circuit in part (d) calculate the output power of the voltage source and across all the resistors. Examine if energy is conserved in the circuit.; A student implemented the circuit of part (d) in the lab and measured the current though one of the resistors as 0.19 A. According to the results calculated in part (d) identify the resistor(s). Justify any difference in measured and calculated value.",
+        "text": "In this circuit, assume the currents through *R* 1, *R* 2 and *R* 3 are *I* 1, *I* 2 and *I* 3 respectively and all are flowing in the clockwise direction. Find the equation obtained by applying Kirchhoff’s junction rule at point A.; Find the equations obtained by applying Kirchhoff’s loop rule in the upper and lower loops.; Assume *R* 1 = *R* 2 = 6 Ω, *R* 3 = 12 Ω, *r* 1 = *r* 2 = 0 Ω, *E* 1 = 6 V and *E* 2 = 4 V. Calculate *I* 1, *I* 2 and *I* 3.; For the situation in which *E* 2 is replaced by a closed switch, repeat parts (a) and (b). Using the values for *R* 1, *R* 2, *R* 3, *r* 1 and *E* 1 from part (c) calculate the currents through the three resistors.; For the circuit in part (d) calculate the output power of the voltage source and across all the resistors. Examine if energy is conserved in the circuit.; A student implemented the circuit of part (d) in the lab and measured the current though one of the resistors as 0.19 A. According to the results calculated in part (d) identify the resistor(s). Justify any difference in measured and calculated value.",
         "inline": []
       },
       "level": "core",
@@ -743,7 +743,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Can all of the currents going into the junction in be positive? Explain.",
+        "text": "Can all of the currents going into the junction in the figure be positive? Explain.",
         "inline": []
       },
       "level": "core",
@@ -777,7 +777,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the junction rule to junction b in . Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)",
+        "text": "Apply the junction rule to junction b in the figure. Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)",
         "inline": []
       },
       "level": "core",
@@ -811,7 +811,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the potential difference going from point a to point b in ? (b) What is the potential difference going from c to b? (c) From e to g? (d) From e to d?",
+        "text": "(a) What is the potential difference going from point a to point b in the figure? (b) What is the potential difference going from c to b? (c) From e to g? (d) From e to d?",
         "inline": []
       },
       "level": "core",
@@ -832,7 +832,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loop afedcba in .",
+        "text": "Apply the loop rule to loop afedcba in the figure.",
         "inline": []
       },
       "level": "core",
@@ -853,7 +853,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loops abgefa and cbgedc in .",
+        "text": "Apply the loop rule to loops abgefa and cbgedc in the figure.",
         "inline": []
       },
       "level": "core",
@@ -883,7 +883,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loop abcdefgha in .",
+        "text": "Apply the loop rule to loop abcdefgha in the figure.",
         "inline": []
       },
       "level": "core",
@@ -907,7 +907,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loop aedcba in .",
+        "text": "Apply the loop rule to loop aedcba in the figure.",
         "inline": []
       },
       "level": "core",
@@ -928,7 +928,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the second equation in by substituting the values found for the currents ${I}_{1}$ and ${I}_{2}$ .",
+        "text": "Verify the second equation in the example by substituting the values found for the currents ${I}_{1}$ and ${I}_{2}$.",
         "inline": []
       },
       "level": "core",
@@ -949,7 +949,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the third equation in by substituting the values found for the currents ${I}_{1}$ and ${I}_{3}$ .",
+        "text": "Verify the third equation in the example by substituting the values found for the currents ${I}_{1}$ and ${I}_{3}$.",
         "inline": []
       },
       "level": "core",
@@ -970,7 +970,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the junction rule at point a in .",
+        "text": "Apply the junction rule at point a in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1007,7 +1007,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loop abcdefghija in .",
+        "text": "Apply the loop rule to loop abcdefghija in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1028,7 +1028,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Apply the loop rule to loop akledcba in .",
+        "text": "Apply the loop rule to loop akledcba in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1052,7 +1052,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the currents flowing in the circuit in . Explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors .",
+        "text": "Find the currents flowing in the circuit in the figure. Explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors.",
         "inline": []
       },
       "level": "core",
@@ -1073,7 +1073,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Solve , but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors .",
+        "text": "Solve the example, but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors.",
         "inline": []
       },
       "level": "core",
@@ -1124,7 +1124,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the currents flowing in the circuit in .",
+        "text": "Find the currents flowing in the circuit in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1145,7 +1145,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results Consider the circuit in , and suppose that the emfs are unknown and the currents are given to be ${I}_{1}=5.00 A$ , ${I}_{2}=3.0 A$ , and ${I}_{3}=–2.00 A$ . (a) Could you find the emfs? (b) What is wrong with the assumptions?",
+        "text": "Unreasonable Results Consider the circuit in the figure, and suppose that the emfs are unknown and the currents are given to be ${I}_{1}=5.00 A$, ${I}_{2}=3.0 A$, and ${I}_{3}=–2.00 A$. (a) Could you find the emfs? (b) What is wrong with the assumptions?",
         "inline": []
       },
       "level": "core",

@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Similarly, atmospheric pressure adds to blood pressure in every part of the circulatory system. (As noted in Pascal’s Principle , the total pressure in a fluid is the sum of the pressures from different sources—here, the heart and the atmosphere.) But atmospheric pressure has no net effect on blood flow since it adds to the pressure coming out of the heart and going back into it, too. What is important is how much *greater* blood pressure is than atmospheric pressure. Blood pressure measurements, like tire pressures, are thus made relative to atmospheric pressure.",
+        "text": "Similarly, atmospheric pressure adds to blood pressure in every part of the circulatory system. (As noted in Pascal’s Principle, the total pressure in a fluid is the sum of the pressures from different sources—here, the heart and the atmosphere.) But atmospheric pressure has no net effect on blood flow since it adds to the pressure coming out of the heart and going back into it, too. What is important is how much *greater* blood pressure is than atmospheric pressure. Blood pressure measurements, like tire pressures, are thus made relative to atmospheric pressure.",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "In fact, atmospheric pressure does add to the pressure in any fluid not enclosed in a rigid container. This happens because of Pascal’s principle. The total pressure, or absolute pressure , is thus the sum of gauge pressure and atmospheric pressure: ${P}_{abs}={P}_{g}+{P}_{atm}$ where ${P}_{abs}$ is absolute pressure, ${P}_{g}$ is gauge pressure, and ${P}_{atm}$ is atmospheric pressure. For example, if your tire gauge reads 34 psi (pounds per square inch), then the absolute pressure is 34 psi plus 14.7 psi ( ${P}_{atm}$ in psi), or 48.7 psi (equivalent to 336 kPa).",
+        "text": "In fact, atmospheric pressure does add to the pressure in any fluid not enclosed in a rigid container. This happens because of Pascal’s principle. The total pressure, or absolute pressure, is thus the sum of gauge pressure and atmospheric pressure: ${P}_{abs}={P}_{g}+{P}_{atm}$ where ${P}_{abs}$ is absolute pressure, ${P}_{g}$ is gauge pressure, and ${P}_{atm}$ is atmospheric pressure. For example, if your tire gauge reads 34 psi (pounds per square inch), then the absolute pressure is 34 psi plus 14.7 psi (${P}_{atm}$ in psi), or 48.7 psi (equivalent to 336 kPa).",
         "inline": []
       },
       "level": "core"
@@ -103,7 +103,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "shows one of the many types of mechanical pressure gauges in use today. In all mechanical pressure gauges, pressure results in a force that is converted (or transduced) into some type of readout.",
+        "text": "The figure shows one of the many types of mechanical pressure gauges in use today. In all mechanical pressure gauges, pressure results in a force that is converted (or transduced) into some type of readout.",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "An entire class of gauges uses the property that pressure due to the weight of a fluid is given by $P=hρg.$ Consider the U-shaped tube shown in , for example. This simple tube is called a *manometer* . In (a), both sides of the tube are open to the atmosphere. Atmospheric pressure therefore pushes down on each side equally so its effect cancels. If the fluid is deeper on one side, there is a greater pressure on the deeper side, and the fluid flows away from that side until the depths are equal.",
+        "text": "An entire class of gauges uses the property that pressure due to the weight of a fluid is given by $P=hρg.$ Consider the U-shaped tube shown in the figure, for example. This simple tube is called a *manometer*. In the figure (a), both sides of the tube are open to the atmosphere. Atmospheric pressure therefore pushes down on each side equally so its effect cancels. If the fluid is deeper on one side, there is a greater pressure on the deeper side, and the fluid flows away from that side until the depths are equal.",
         "inline": []
       },
       "level": "core"
@@ -134,7 +134,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Let us examine how a manometer is used to measure pressure. Suppose one side of the U-tube is connected to some source of pressure ${P}_{abs}$ such as the toy balloon in (b) or the vacuum-packed peanut jar shown in (c). Pressure is transmitted undiminished to the manometer, and the fluid levels are no longer equal. In (b), ${P}_{abs}$ is greater than atmospheric pressure, whereas in (c), ${P}_{abs}$ is less than atmospheric pressure. In both cases, ${P}_{abs}$ differs from atmospheric pressure by an amount $hρg$ , where $ρ$ is the density of the fluid in the manometer. In (b), ${P}_{abs}$ can support a column of fluid of height $h$ , and so it must exert a pressure $hρg$ greater than atmospheric pressure (the gauge pressure ${P}_{g}$ is positive). In (c), atmospheric pressure can support a column of fluid of height $h$ , and so ${P}_{abs}$ is less than atmospheric pressure by an amount $hρg$ (the gauge pressure ${P}_{g}$ is negative). A manometer with one side open to the atmosphere is an ideal device for measuring gauge pressures. The gauge pressure is ${P}_{g}=hρg$ and is found by measuring $h$ .",
+        "text": "Let us examine how a manometer is used to measure pressure. Suppose one side of the U-tube is connected to some source of pressure ${P}_{abs}$ such as the toy balloon in the figure (b) or the vacuum-packed peanut jar shown in the figure (c). Pressure is transmitted undiminished to the manometer, and the fluid levels are no longer equal. In the figure (b), ${P}_{abs}$ is greater than atmospheric pressure, whereas in the figure (c), ${P}_{abs}$ is less than atmospheric pressure. In both cases, ${P}_{abs}$ differs from atmospheric pressure by an amount $hρg$, where $ρ$ is the density of the fluid in the manometer. In the figure (b), ${P}_{abs}$ can support a column of fluid of height $h$, and so it must exert a pressure $hρg$ greater than atmospheric pressure (the gauge pressure ${P}_{g}$ is positive). In the figure (c), atmospheric pressure can support a column of fluid of height $h$, and so ${P}_{abs}$ is less than atmospheric pressure by an amount $hρg$ (the gauge pressure ${P}_{g}$ is negative). A manometer with one side open to the atmosphere is an ideal device for measuring gauge pressures. The gauge pressure is ${P}_{g}=hρg$ and is found by measuring $h$.",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Mercury manometers are often used to measure arterial blood pressure. An inflatable cuff is placed on the upper arm as shown in . By squeezing the bulb, the person making the measurement exerts pressure, which is transmitted undiminished to both the main artery in the arm and the manometer. When this applied pressure exceeds blood pressure, blood flow below the cuff is cut off. The person making the measurement then slowly lowers the applied pressure and listens for blood flow to resume. Blood pressure pulsates because of the pumping action of the heart, reaching a maximum, called systolic pressure , and a minimum, called diastolic pressure , with each heartbeat. Systolic pressure is measured by noting the value of $h$ when blood flow first begins as cuff pressure is lowered. Diastolic pressure is measured by noting $h$ when blood flows without interruption. The typical blood pressure of a young adult raises the mercury to a height of 120 mm at systolic and 80 mm at diastolic. This is commonly quoted as 120 over 80, or 120/80. The first pressure is representative of the maximum output of the heart; the second is due to the elasticity of the arteries in maintaining the pressure between beats. The density of the mercury fluid in the manometer is 13.6 times greater than water, so the height of the fluid will be 1/13.6 of that in a water manometer. This reduced height can make measurements difficult, so mercury manometers are used to measure larger pressures, such as blood pressure. The density of mercury is such that $1.0 mm Hg=133Pa$ .",
+        "text": "Mercury manometers are often used to measure arterial blood pressure. An inflatable cuff is placed on the upper arm as shown in the figure. By squeezing the bulb, the person making the measurement exerts pressure, which is transmitted undiminished to both the main artery in the arm and the manometer. When this applied pressure exceeds blood pressure, blood flow below the cuff is cut off. The person making the measurement then slowly lowers the applied pressure and listens for blood flow to resume. Blood pressure pulsates because of the pumping action of the heart, reaching a maximum, called systolic pressure, and a minimum, called diastolic pressure, with each heartbeat. Systolic pressure is measured by noting the value of $h$ when blood flow first begins as cuff pressure is lowered. Diastolic pressure is measured by noting $h$ when blood flows without interruption. The typical blood pressure of a young adult raises the mercury to a height of 120 mm at systolic and 80 mm at diastolic. This is commonly quoted as 120 over 80, or 120/80. The first pressure is representative of the maximum output of the heart; the second is due to the elasticity of the arteries in maintaining the pressure between beats. The density of the mercury fluid in the manometer is 13.6 times greater than water, so the height of the fluid will be 1/13.6 of that in a water manometer. This reduced height can make measurements difficult, so mercury manometers are used to measure larger pressures, such as blood pressure. The density of mercury is such that $1.0 mm Hg=133 Pa$.",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "We first need to convert the pressure into SI units. Since $1.0 mm Hg=133 Pa$ ,",
+        "text": "We first need to convert the pressure into SI units. Since $1.0 mm Hg=133 Pa$, $P=18 mm Hg\\times \\frac{133 Pa}{1.0 mm Hg}=2400 Pa.$",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging ${P}_{g}=hρg$ for $h$ gives $h=\\frac{{P}_{g}}{ρg}$ . Substituting known values into this equation gives",
+        "text": "Rearranging ${P}_{g}=hρg$ for $h$ gives $h=\\frac{{P}_{g}}{ρg}$. Substituting known values into this equation gives $h = \\frac{2400 N{/m}^{2}}{(1.0\\times {10}^{3} {kg/m}^{3})(9.80 {m/s}^{2})} = 0.24 m.$",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "A *barometer* is a device that measures atmospheric pressure. A mercury barometer is shown in . This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube. The height of the mercury is such that $hρg={P}_{atm}$ . When atmospheric pressure varies, the mercury rises or falls, giving important clues to weather forecasters. The barometer can also be used as an altimeter, since average atmospheric pressure varies with altitude. Mercury barometers and manometers are so common that units of mm Hg are often quoted for atmospheric pressure and blood pressures. gives conversion factors for some of the more commonly used units of pressure.",
+        "text": "A *barometer* is a device that measures atmospheric pressure. A mercury barometer is shown in the figure. This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube. The height of the mercury is such that $hρg={P}_{atm}$. When atmospheric pressure varies, the mercury rises or falls, giving important clues to weather forecasters. The barometer can also be used as an altimeter, since average atmospheric pressure varies with altitude. Mercury barometers and manometers are so common that units of mm Hg are often quoted for atmospheric pressure and blood pressures. The table gives conversion factors for some of the more commonly used units of pressure.",
         "inline": []
       },
       "level": "core"
@@ -370,7 +370,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows how a common measurement of arterial blood pressure is made. Is there any effect on the measured pressure if the manometer is lowered? What is the effect of raising the arm above the shoulder? What is the effect of placing the cuff on the upper leg with the person standing? Explain your answers in terms of pressure created by the weight of a fluid.",
+        "text": "The figure shows how a common measurement of arterial blood pressure is made. Is there any effect on the measured pressure if the manometer is lowered? What is the effect of raising the arm above the shoulder? What is the effect of placing the cuff on the upper leg with the person standing? Explain your answers in terms of pressure created by the weight of a fluid.",
         "inline": []
       },
       "level": "core",
@@ -421,7 +421,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the gauge and absolute pressures in the balloon and peanut jar shown in , assuming the manometer connected to the balloon uses water whereas the manometer connected to the jar contains mercury. Express in units of centimeters of water for the balloon and millimeters of mercury for the jar, taking $h=0.0500 m$ for each.",
+        "text": "Find the gauge and absolute pressures in the balloon and peanut jar shown in the figure, assuming the manometer connected to the balloon uses water whereas the manometer connected to the jar contains mercury. Express in units of centimeters of water for the balloon and millimeters of mercury for the jar, taking $h=0.0500 m$ for each.",
         "inline": []
       },
       "level": "core",
@@ -583,7 +583,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Assuming bicycle tires are perfectly flexible and support the weight of bicycle and rider by pressure alone, calculate the total area of the tires in contact with the ground. The bicycle plus rider has a mass of 80.0 kg, and the gauge pressure in the tires is $3.50×{10}^{5}Pa$ .",
+        "text": "Assuming bicycle tires are perfectly flexible and support the weight of bicycle and rider by pressure alone, calculate the total area of the tires in contact with the ground. The bicycle plus rider has a mass of 80.0 kg, and the gauge pressure in the tires is $3.50\\times {10}^{5} Pa$.",
         "inline": []
       },
       "level": "core",

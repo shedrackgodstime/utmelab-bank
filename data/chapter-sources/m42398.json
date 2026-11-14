@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "We can derive an expression for the magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity ${v}_{d}$ is given by $F={qv}_{d}Bsinθ$ . Taking $B$ to be uniform over a length of wire $l$ and zero elsewhere, the total magnetic force on the wire is then $F=({qv}_{d}Bsinθ)(N)$ , where $N$ is the number of charge carriers in the section of wire of length *$l$* . Now, $N=nV$ , where $n$ is the number of charge carriers per unit volume and $V$ is the volume of wire in the field. Noting that $V=Al$ , where $A$ is the cross-sectional area of the wire, then the force on the wire is $F=({qv}_{d}Bsinθ)(nAl)$ . Gathering terms,",
+        "text": "We can derive an expression for the magnetic force on a current by taking a sum of the magnetic forces on individual charges. (The forces add because they are in the same direction.) The force on an individual charge moving at the drift velocity ${v}_{d}$ is given by $F={qv}_{d}B sin θ$. Taking $B$ to be uniform over a length of wire $l$ and zero elsewhere, the total magnetic force on the wire is then $F=({qv}_{d}B sin θ)(N)$, where $N$ is the number of charge carriers in the section of wire of length *$l$*. Now, $N=nV$, where $n$ is the number of charge carriers per unit volume and $V$ is the volume of wire in the field. Noting that $V=Al$, where $A$ is the cross-sectional area of the wire, then the force on the wire is $F=({qv}_{d}B sin θ)(nAl)$. Gathering terms, $F=({nqAv}_{d})lB sin θ.$",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Because ${nqAv}_{d}=I$ (see Current ),",
+        "text": "Because ${nqAv}_{d}=I$ (see Current), $F=IlB sin θ$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "is the equation for *magnetic force on a length $l$ of wire carrying a current $I$ in a uniform magnetic field $B$* , as shown in . If we divide both sides of this expression by $l$ , we find that the magnetic force per unit length of wire in a uniform field is $\\frac{F}{l}=IBsinθ$ . The direction of this force is given by RHR-1, with the thumb in the direction of the current $I$ . Then, with the fingers in the direction of $B$ , a perpendicular to the palm points in the direction of $F$ , as in .",
+        "text": "is the equation for *magnetic force on a length $l$ of wire carrying a current $I$ in a uniform magnetic field $B$*, as shown in the figure. If we divide both sides of this expression by $l$, we find that the magnetic force per unit length of wire in a uniform field is $\\frac{F}{l}=IB sin θ$. The direction of this force is given by RHR-1, with the thumb in the direction of the current $I$. Then, with the fingers in the direction of $B$, a perpendicular to the palm points in the direction of $F$, as in the figure.",
         "inline": []
       },
       "level": "core"
@@ -108,7 +108,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the force on the wire shown in , given $B=1.50 T$ , $l=5.00 cm$ , and $I=20.0A$ .",
+        "text": "Calculate the force on the wire shown in the figure, given $B=1.50 T$, $l=5.00 cm$, and $I=20.0 A$.",
         "inline": []
       },
       "level": "core"
@@ -117,7 +117,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The force can be found with the given information by using $F=IlBsinθ$ and noting that the angle $θ$ between $I$ and $B$ is $90º$ , so that $sinθ=1$ .",
+        "text": "The force can be found with the given information by using $F=IlB sin θ$ and noting that the angle $θ$ between $I$ and $B$ is $90º$, so that $sin θ=1$.",
         "inline": []
       },
       "level": "core"
@@ -126,7 +126,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values into $F=IlBsinθ$ yields",
+        "text": "Entering the given values into $F=IlB sin θ$ yields $F=IlB sin θ=(20.0 A)(0.0500 m)(1.50 T)(1).$",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The units for tesla are $1 T=\\frac{N}{A\\cdot m}$ ; thus,",
+        "text": "The units for tesla are $1 T=\\frac{N}{A\\cdot m}$; thus, $F=1.50 N.$",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Magnetic force on current-carrying conductors is used to convert electric energy to work. (Motors are a prime example—they employ loops of wire and are considered in the next section.) Magnetohydrodynamics (MHD) is the technical name given to a clever application where magnetic force pumps fluids without moving mechanical parts. (See .)",
+        "text": "Magnetic force on current-carrying conductors is used to convert electric energy to work. (Motors are a prime example—they employ loops of wire and are considered in the next section.) Magnetohydrodynamics (MHD) is the technical name given to a clever application where magnetic force pumps fluids without moving mechanical parts. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -175,7 +175,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "A strong magnetic field is applied across a tube and a current is passed through the fluid at right angles to the field, resulting in a force on the fluid parallel to the tube axis as shown. The absence of moving parts makes this attractive for moving a hot, chemically active substance, such as the liquid sodium employed in some nuclear reactors. Experimental artificial hearts are testing with this technique for pumping blood, perhaps circumventing the adverse effects of mechanical pumps. (Cell membranes, however, are affected by the large fields needed in MHD, delaying its practical application in humans.) MHD propulsion for nuclear submarines has been proposed, because it could be considerably quieter than conventional propeller drives. The deterrent value of nuclear submarines is based on their ability to hide and survive a first or second nuclear strike. As we slowly disassemble our nuclear weapons arsenals, the submarine branch will be the last to be decommissioned because of this ability (See .) Existing MHD drives are heavy and inefficient—much development work is needed.",
+        "text": "A strong magnetic field is applied across a tube and a current is passed through the fluid at right angles to the field, resulting in a force on the fluid parallel to the tube axis as shown. The absence of moving parts makes this attractive for moving a hot, chemically active substance, such as the liquid sodium employed in some nuclear reactors. Experimental artificial hearts are testing with this technique for pumping blood, perhaps circumventing the adverse effects of mechanical pumps. (Cell membranes, however, are affected by the large fields needed in MHD, delaying its practical application in humans.) MHD propulsion for nuclear submarines has been proposed, because it could be considerably quieter than conventional propeller drives. The deterrent value of nuclear submarines is based on their ability to hide and survive a first or second nuclear strike. As we slowly disassemble our nuclear weapons arsenals, the submarine branch will be the last to be decommissioned because of this ability (See the figure.) Existing MHD drives are heavy and inefficient—much development work is needed.",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Draw a sketch of the situation in showing the direction of electrons carrying the current, and use RHR-1 to verify the direction of the force on the wire.",
+        "text": "Draw a sketch of the situation in the figure showing the direction of electrons carrying the current, and use RHR-1 to verify the direction of the force on the wire.",
         "inline": []
       },
       "level": "core",
@@ -237,7 +237,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify that the direction of the force in an MHD drive, such as that in , does not depend on the sign of the charges carrying the current across the fluid.",
+        "text": "Verify that the direction of the force in an MHD drive, such as that in the figure, does not depend on the sign of the charges carrying the current across the fluid.",
         "inline": []
       },
       "level": "core",
@@ -309,7 +309,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the magnetic force on the current in each of the six cases in ?",
+        "text": "What is the direction of the magnetic force on the current in each of the six cases in the figure?",
         "inline": []
       },
       "level": "core",
@@ -346,7 +346,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of a current that experiences the magnetic force shown in each of the three cases in , assuming the current runs perpendicular to $B$ ?",
+        "text": "What is the direction of a current that experiences the magnetic force shown in each of the three cases in the figure, assuming the current runs perpendicular to $B$?",
         "inline": []
       },
       "level": "core",
@@ -380,7 +380,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in , assuming $B$ is perpendicular to $I$ ?",
+        "text": "What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in the figure, assuming $B$ is perpendicular to $I$?",
         "inline": []
       },
       "level": "core",
@@ -417,7 +417,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the force per meter on a lightning bolt at the equator that carries 20,000 A perpendicular to the Earth’s $3.00×{10}^{-5}-T$ field? (b) What is the direction of the force if the current is straight up and the Earth’s field direction is due north, parallel to the ground?",
+        "text": "(a) What is the force per meter on a lightning bolt at the equator that carries 20,000 A perpendicular to the Earth’s $3.00\\times {10}^{-5}-T$ field? (b) What is the direction of the force if the current is straight up and the Earth’s field direction is due north, parallel to the ground?",
         "inline": []
       },
       "level": "core",
@@ -438,7 +438,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A DC power line for a light-rail system carries 1000 A at an angle of $30.0º$ to the Earth’s $5.00×{10}^{-5}-T$ field. What is the force on a 100-m section of this line? (b) Discuss practical concerns this presents, if any.",
+        "text": "(a) A DC power line for a light-rail system carries 1000 A at an angle of $30.0º$ to the Earth’s $5.00\\times {10}^{-5} -T$ field. What is the force on a 100-m section of this line? (b) Discuss practical concerns this presents, if any.",
         "inline": []
       },
       "level": "core",
@@ -516,7 +516,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of $60º$ with the Earth’s $5.50×{10}^{-5}T$ field. What is the current when the wire experiences a force of $7.00×{10}^{-3}N$ ? (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?",
+        "text": "(a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of $60º$ with the Earth’s $5.50\\times {10}^{-5} T$ field. What is the current when the wire experiences a force of $7.00\\times {10}^{-3} N$? (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?",
         "inline": []
       },
       "level": "core",
@@ -561,7 +561,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The force on the rectangular loop of wire in the magnetic field in can be used to measure field strength. The field is uniform, and the plane of the loop is perpendicular to the field. (a) What is the direction of the magnetic force on the loop? Justify the claim that the forces on the sides of the loop are equal and opposite, independent of how much of the loop is in the field and do not affect the net force on the loop. (b) If a current of 5.00 A is used, what is the force per tesla on the 20.0-cm-wide loop? A rectangular loop of wire carrying a current is perpendicular to a magnetic field. The field is uniform in the region shown and is zero outside that region.",
+        "text": "The force on the rectangular loop of wire in the magnetic field in the figure can be used to measure field strength. The field is uniform, and the plane of the loop is perpendicular to the field. (a) What is the direction of the magnetic force on the loop? Justify the claim that the forces on the sides of the loop are equal and opposite, independent of how much of the loop is in the field and do not affect the net force on the loop. (b) If a current of 5.00 A is used, what is the force per tesla on the 20.0-cm-wide loop?",
         "inline": []
       },
       "level": "core",

@@ -1,0 +1,3620 @@
+{
+  "chapter_id": "phy_nature_of_science",
+  "schema_version": 2,
+  "updated_at": "2026-11-12",
+  "title": "The Nature of Science and Physics",
+  "book_id": "secondary_physics",
+  "part_id": "part-1",
+  "order": 1,
+  "facts_inherited": false,
+  "learning_objectives": [
+    {
+      "id": "lo-1",
+      "statement": "Explain what physics studies and how it connects to technology, medicine and the other sciences.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-2",
+      "statement": "Distinguish a model, a theory and a law, and describe the role of experiment in deciding whether a theory stands.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-3",
+      "statement": "Identify the SI base units and use metric prefixes to express physical quantities.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-4",
+      "statement": "Convert quantities between units using dimensional analysis.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-5",
+      "statement": "Report measurements with the correct accuracy, precision and significant figures, and make order-of-magnitude estimates.",
+      "bloom_level": "understand"
+    }
+  ],
+  "prerequisites": [],
+  "formula_sheet": [],
+  "glossary": [
+    {
+      "term": {
+        "text": "science",
+        "inline": []
+      },
+      "definition": {
+        "text": "The systematic study of the natural world through observation, experiment and reasoning.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "physics",
+        "inline": []
+      },
+      "definition": {
+        "text": "The branch of science that studies matter, energy, motion, forces and the rules that connect them.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "model",
+        "inline": []
+      },
+      "definition": {
+        "text": "A simplified representation of a system that is used to make predictions.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "theory",
+        "inline": []
+      },
+      "definition": {
+        "text": "A well-tested explanation of a set of observations that can be revised when new evidence appears.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "law",
+        "inline": []
+      },
+      "definition": {
+        "text": "A statement that describes a regular relationship in nature, often in mathematical form.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "hypothesis",
+        "inline": []
+      },
+      "definition": {
+        "text": "A testable proposed explanation for an observation.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "experiment",
+        "inline": []
+      },
+      "definition": {
+        "text": "A controlled procedure that tests a hypothesis or a prediction.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "SI unit",
+        "inline": []
+      },
+      "definition": {
+        "text": "A unit in the International System of Units, the agreed base for scientific measurement.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "derived unit",
+        "inline": []
+      },
+      "definition": {
+        "text": "A unit formed by combining base units, such as the newton or the joule.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "metric prefix",
+        "inline": []
+      },
+      "definition": {
+        "text": "A prefix that scales a unit by a power of ten, such as kilo or milli.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "accuracy",
+        "inline": []
+      },
+      "definition": {
+        "text": "How close a measurement is to the true value.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "precision",
+        "inline": []
+      },
+      "definition": {
+        "text": "How closely repeated measurements agree with one another.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "uncertainty",
+        "inline": []
+      },
+      "definition": {
+        "text": "The range within which a measured value is likely to lie.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "significant figures",
+        "inline": []
+      },
+      "definition": {
+        "text": "The digits in a measurement that carry meaningful information about its precision.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "approximation",
+        "inline": []
+      },
+      "definition": {
+        "text": "A value or answer that is close enough for its purpose, often found by rounding or estimating.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "order of magnitude",
+        "inline": []
+      },
+      "definition": {
+        "text": "The nearest power of ten to a quantity.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "order": 1,
+      "slug": "introduction-to-the-nature-of-science-and-physics",
+      "title": "Introduction to the Nature of Science and Physics",
+      "est_minutes": 6,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Describe how physics connects to technology, other sciences and everyday life.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/61af777a417531fabab05afdfbb753318763cd046500deb677d70ede3fa2d7e8.jpg",
+            "caption": {
+              "text": "The laws of physics describe the smallest and largest forces and structures, such as the Veil Nebula, a supernova remnant from a star that was 20 times larger than our Sun. Stretching over 110 light years across, the spectacular image is created by the stellar explosion's blast wave impacting clouds of gas. Scientists use successive observations of the still-moving wave to learn about nebula formation in ways they can apply to other systems. The laws of physics are surprisingly few in number, implying an underlying simplicity to nature’s apparent complexity. (credit: NASA, ESA, Hubble Heritage, and the Digitized Sky Survey 2)",
+              "inline": []
+            },
+            "alt": "A filament of gas resembles an enormous bubble or surface stretching across the entire image. Stars and smaller gas filaments are also visible in the background.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "What is your first reaction when you hear the word “physics”? Did you imagine working through difficult equations or memorizing formulas that seem to have no real use in life outside the physics classroom? Many people come to the subject of physics with a bit of fear. But as you begin your exploration of this broad-ranging subject, you may soon come to realize that physics plays a much larger role in your life than you first thought, no matter your life goals or career choice.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "Consider the Veil Nebula, a cloud of heated dust and gas located about 2,400 light years from Earth (a light year is the distance light travels in one year, or approximately 9.5 trillion kilometers). The unique structure is the ongoing result of a supernova that occurred 8,000 years ago. The shock wave from the explosion is colliding with a cloud of gas and dust, creating the rope-like filaments and sheet-like appearance. Scientists compare newer images, such as the one above, with detailed images taken by the Hubble Space Telescope in 1997 in order to understand nebula expansion and other properties of astronomical objects. The forces that cause the supernova remnant to act as it does are the same forces we contend with here on Earth, whether we are planning to send a rocket into space or simply heating a new home. Although the scale is much different, the interaction of gasses in the Veil Nebula resembles those on Earth; and the vibrant color combinations are created by the familiar glows of hydrogen, sulfur, oxygen, and similar elements that make up everything we know. Tonight, take a moment to look up at the stars. The forces out there are the same as the ones here on Earth. Through a study of physics, you may gain a greater understanding of the interconnectedness of everything we can see and know in this universe.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "Humans have created and manufactured millions of different objects over the history of our species. Successive technological periods (often referred to as the Stone Age, the Bronze Age, the Iron Age, and so on) were marked by our knowledge of the physical properties of certain materials and our ability to manipulate them. This knowledge all stems from physics, whether it's the way a rock would flake when constructing a spear point, the effect of integrating carbon with iron in South Indian and Sri Lankan furnaces to create the earliest high-quality steel, or the proper way to combine perfectly ground and polished pieces of glass to create optical instruments. Our current technological age, the Information Age, builds on all that knowledge and can be traced to critical innovations made by people from all backgrounds working together. Mohamed M. Atalla and Dawon Kahng, for example, invented the MOSFET (metal-oxide-semiconductor field-effect transistor). Although unknown to most people, this tiny device, created in 1959 by an Egyptian-born scientist and Korean-born scientist working in a lab in New Jersey, is the basis for modern electronics. More MOSFETs have been produced than any other object in human history. They are used in computers, smart phones, microwave ovens, automotive controls, medical instruments, and nearly every other electronic device.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "Next, think about the most exciting modern technologies that you have heard about in the news, such as trains that levitate above tracks, “invisibility cloaks” that bend light around them, and microscopic robots that fight cancer cells in our bodies. All of these groundbreaking advancements, commonplace or unbelievable, rely on the principles of physics. Aside from playing a significant role in technology, professionals such as engineers, pilots, physicians, physical therapists, electricians, and computer programmers apply physics concepts in their daily work. For example, a pilot must understand how wind forces affect a flight path and a physical therapist must understand how the muscles in the body experience forces as they move and bend. As you will learn in this text, physics principles are propelling new, exciting technologies, and these principles are applied in a wide range of careers.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "In this text, you will begin to explore the history of the formal study of physics, beginning with natural philosophy and the ancient thinkers from the Middle East and the Mediterranean, and leading up through a review of Sir Isaac Newton and the laws of physics that bear his name. You will also be introduced to the standards scientists use when they study physical quantities and the interrelated system of measurements most of the scientific community uses to communicate in a single mathematical language. Finally, you will study the limits of our ability to be accurate and precise, and the reasons scientists go to painstaking lengths to be as clear as possible regarding their own limitations.",
+              "inline": []
+            }
+          }
+        ]
+      },
+      "worked_examples": [],
+      "misconceptions": [],
+      "summary_points": [
+        {
+          "text": "Physics studies the fundamental laws of nature, from particles to galaxies.",
+          "inline": []
+        },
+        {
+          "text": "Those laws underlie technology, medicine, engineering and the other sciences.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [],
+      "exam_links": [],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+        "locator": "CNXML module m42119",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "no_worked_example_reason": "This chapter opener has no worked example."
+    },
+    {
+      "id": "sec-2",
+      "order": 2,
+      "slug": "physics-an-introduction",
+      "title": "Physics: An Introduction",
+      "est_minutes": 14,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Explain how physics relates to other sciences and to technology.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Distinguish a model, a theory and a law, and describe how experiment tests them.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "paragraph",
+            "content": {
+              "text": "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/87e3e0465361933d8a569785ec89901e1350defe2f6ab98b8003b93dd82bf0e0.jpg",
+            "caption": {
+              "text": "The flight formations of migratory birds such as Canada geese are governed by the laws of physics. (credit: David Merrett)",
+              "inline": []
+            },
+            "alt": "Two Canada geese flying close to each other in the sky.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "The physical universe is enormously complex in its detail. Every day, each of us observes a great variety of objects and phenomena. Over the centuries, the curiosity of the human race has led us collectively to explore and catalog a tremendous wealth of information. From the flight of birds to the colors of flowers, from lightning to gravity, from quarks to clusters of galaxies, from the flow of time to the mystery of the creation of the universe, we have asked questions and assembled huge arrays of facts. In the face of all these details, we have discovered that a surprisingly small and unified set of physical laws can explain what we observe. As humans, we make generalizations and seek order. We have found that nature is remarkably cooperative—it exhibits the *underlying order and simplicity* we so value.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "It is the underlying order of nature that makes science in general, and physics in particular, so enjoyable to study. For example, what do a bag of chips and a car battery have in common? Both contain energy that can be converted to other forms. The law of conservation of energy (which says that energy can change form but is never lost) ties together such topics as food calories, batteries, heat, light, and watch springs. Understanding this law makes it easier to learn about the various forms energy takes and how they relate to one another. Apparently unrelated topics are connected through broadly applicable physical laws, permitting an understanding beyond just the memorization of lists of facts.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "The unifying aspect of physical laws and the basic simplicity of nature form the underlying themes of this text. In learning to apply these laws, you will, of course, study the most important topics in physics. More importantly, you will gain analytical abilities that will enable you to apply these laws far beyond the scope of what can be included in a single book. These analytical skills will help you to excel academically, and they will also help you to think critically in any professional career you choose to pursue. This module discusses the realm of physics (to define what physics is), some applications of physics (to illustrate its relevance to other disciplines), and more precisely what constitutes a physical law (to illuminate the importance of experimentation to theory).",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "heading",
+            "text": {
+              "text": "Science and the Realm of Physics",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "Science consists of the theories and laws that are the general truths of nature as well as the body of knowledge they encompass. Scientists are continually trying to expand this body of knowledge and to perfect the expression of the laws that describe it. Physics is concerned with describing the interactions of energy, matter, space, and time, and it is especially interested in what fundamental mechanisms underlie every phenomenon. The concern for describing the basic phenomena in nature essentially defines the *realm of physics*.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "Physics aims to describe the function of everything around us, from the movement of tiny charged particles to the motion of people, cars, and spaceships. In fact, almost everything around you can be described quite accurately by the laws of physics. Consider a smart phone (the figure). Physics describes how electricity interacts with the various circuits inside the device. This knowledge helps engineers select the appropriate materials and circuit layout when building the smart phone. Next, consider a GPS system. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. GPS relies on precise calculations that account for variations in the Earth's landscapes, the exact distance between orbiting satellites, and even the effect of a complex occurrence of time dilation. Most of these calculations are founded on algorithms developed by Gladys West, a mathematician and computer scientist who programmed the first computers capable of highly accurate remote sensing and positioning. When you use a GPS device, it utilizes these algorithms to recognize where you are and how your position relates to other objects on Earth.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/82d8bb1cd9b8189894a5a616d2c98f2ff6cb333efcd7e973fab05403ee80baf1.jpg",
+            "caption": {
+              "text": "The Apple iPhone is a common smart phone with a GPS function, sophisticated camera, haptic (vibration) capabilities, and many other functions. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: Tinh tế Photo/Flickr)",
+              "inline": []
+            },
+            "alt": "An iPhone taken apart and separated into about ten parts. Visible are the battery, the haptic engine, the camera, and the larger frames.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-10",
+            "type": "heading",
+            "text": {
+              "text": "Applications of Physics",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "You need not be a scientist to use physics. On the contrary, knowledge of physics is useful in everyday situations as well as in nonscientific professions. It can help you understand how microwave ovens work, why metals should not be put into them, and why they might affect pacemakers. (See the figure and the figure.) Physics allows you to understand the hazards of radiation and rationally evaluate these hazards more easily. Physics also explains the reason why a black car radiator helps remove heat in a car engine, and it explains why a white roof helps keep the inside of a house cool. Similarly, the operation of a car’s ignition system as well as the transmission of electrical signals through our body’s nervous system are much easier to understand when you think about them in terms of basic physics.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "Physics is the foundation of many important disciplines and contributes directly to others. Chemistry, for example—since it deals with the interactions of atoms and molecules—is rooted in atomic and molecular physics. Most branches of engineering are applied physics. In architecture, physics is at the heart of structural stability, and is involved in the acoustics, heating, lighting, and cooling of buildings. Parts of geology rely heavily on physics, such as radioactive dating of rocks, earthquake analysis, and heat transfer in the Earth. Some disciplines, such as biophysics and geophysics, are hybrids of physics and other disciplines.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "paragraph",
+            "content": {
+              "text": "Physics has many applications in the biological sciences. On the microscopic level, it helps describe the properties of cell walls and cell membranes (the figure and the figure). On the macroscopic level, it can explain the heat, work, and power associated with the human body. Physics is involved in medical diagnostics, such as x-rays, magnetic resonance imaging (MRI), and ultrasonic blood flow measurements. Medical therapy sometimes directly involves physics; for example, cancer radiotherapy uses ionizing radiation. Physics can also explain sensory phenomena, such as how musical instruments make sound, how the eye detects color, and how lasers can transmit information.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-14",
+            "type": "paragraph",
+            "content": {
+              "text": "It is not necessary to formally study all applications of physics. What is most useful is knowledge of the basic laws of physics and a skill in the analytical methods for applying them. The study of physics also can improve your problem-solving skills. Furthermore, physics has retained the most basic aspects of science, so it is used by all of the sciences, and the study of physics makes other sciences easier to understand.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-15",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/0d1c1a42554fe026e0772195dc8c0424156ec9a1235e932bfa197cdf92ac89df.jpg",
+            "caption": {
+              "text": "The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)",
+              "inline": []
+            },
+            "alt": "A microwave oven is shown with some food on the nonmetal plate inside it.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-16",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/17ae89475557b6b973e2d98bcdc1901c05a6dd3c305946a58d51dad206e07403.jpg",
+            "caption": {
+              "text": "These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)",
+              "inline": []
+            },
+            "alt": "M R I scan of a brain with specific tumors.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-17",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/433d53596b1cb0a52151ce2f3accc7882342c89032a90f5bbe96c26fc1aba058.jpg",
+            "caption": {
+              "text": "Physics, chemistry, and biology help describe the properties of cell walls in plant cells, such as the onion cells seen here. (credit: Umberto Salvagnin)",
+              "inline": []
+            },
+            "alt": "Cell membranes of onion cells, similar in appearance to a section of a brick wall.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-18",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/f7d05bc94ab23ec6c6c7c970b53da966e342d0e2d3341d7042b0998569132795.jpg",
+            "caption": {
+              "text": "An artist’s rendition of the structure of a cell membrane. Membranes form the boundaries of animal cells and are complex in structure and function. Many of the most fundamental properties of life, such as the firing of nerve cells, are related to membranes. The disciplines of biology, chemistry, and physics all help us understand the membranes of animal cells. (credit: Mariana Ruiz)",
+              "inline": []
+            },
+            "alt": "A detailed diagram of a cell membrane is shown with parts labeled as Protein channel, Globular protein, Glycoprotein, Carbohydrate, Hydrophilic heads, Phospholipid bilayer , Phospholipid molecule, Hydrophobic tails, Alpha-Helix protein, Surface protein, Filaments of cytoskeleton, Integral protein, Peripheral protein, Glycolipid, and Cholesterol.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-19",
+            "type": "heading",
+            "text": {
+              "text": "Models, Theories, and Laws; The Role of Experimentation",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-20",
+            "type": "paragraph",
+            "content": {
+              "text": "The laws of nature are concise descriptions of the universe around us; they are human statements of the underlying laws or rules that all natural processes follow. Such laws are intrinsic to the universe; humans did not create them and so cannot change them. We can only discover and understand them. Their discovery is a very human endeavor, with all the elements of mystery, imagination, struggle, triumph, and disappointment inherent in any creative effort. (See the figure and the figure.) The cornerstone of discovering natural laws is observation; science must describe the universe as it is, not as we may imagine it to be.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-21",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/9a49f0b64f9d72682e5e13b43326959b0784089f2cf4cdf5aa46bccb9bf6b3c9.jpg",
+            "caption": {
+              "text": "*Isaac Newton* (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: *Britain’s Heritage of Science* . London, 1917.)",
+              "inline": []
+            },
+            "alt": "A portrait of Isaac Newton. ",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-22",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/678bf42b361402ec274a2b24c82b2c9ce306aa9530ff76964da358ecd2eefd68.jpg",
+            "caption": {
+              "text": "*Marie Curie* (1867–1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons)",
+              "inline": []
+            },
+            "alt": "A photograph of Marie Curie",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-23",
+            "type": "paragraph",
+            "content": {
+              "text": "We all are curious to some extent. We look around, make generalizations, and try to understand what we see—for example, we look up and wonder whether one type of cloud signals an oncoming storm. As we become serious about exploring nature, we become more organized and formal in collecting and analyzing data. We attempt greater precision, perform controlled experiments (if we can), and write down ideas about how the data may be organized and unified. We then formulate models, theories, and laws based on the data we have collected and analyzed to generalize and communicate the results of these experiments.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-24",
+            "type": "paragraph",
+            "content": {
+              "text": "A model is a representation of something that is often too difficult (or impossible) to display directly. While a model is justified with experimental proof, it is only accurate under limited situations. An example is the planetary model of the atom in which electrons are pictured as orbiting the nucleus, analogous to the way planets orbit the Sun. (See the figure.) We cannot observe electron orbits directly, but the mental image helps explain the observations we can make, such as the emission of light from hot gases (atomic spectra). Physicists use models for a variety of purposes. For example, models can help physicists analyze a scenario and perform a calculation, or they can be used to represent a situation in the form of a computer simulation.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-25",
+            "type": "paragraph",
+            "content": {
+              "text": "The word theory means something different to scientists than what is often meant when the word is used in everyday conversation. In particular, to a scientist a theory is not the same as a “guess” or an “idea” or even a “hypothesis.” The phrase “it’s just a theory” seems meaningless and silly to scientists because science is founded on the notion of theories. To a scientist, a theory is a testable explanation for patterns in nature supported by scientific evidence and verified multiple times by various groups of researchers. Some theories include models to help visualize phenomena whereas others do not. Newton’s theory of gravity, for example, does not require a model or mental image, because we can observe the objects directly with our own senses. Although models are meant only to describe certain aspects of a physical system accurately, a theory should describe all aspects of any system that falls within its domain of applicability. In particular, any experimentally testable implication of a theory should be verified. If an experiment ever shows an implication of a theory to be false, then the theory is either thrown out or modified suitably (for example, by limiting its domain of applicability).",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-26",
+            "type": "paragraph",
+            "content": {
+              "text": "Some theories include models to help visualize phenomena, whereas others do not. Newton’s theory of gravity, for example, does not require a model or mental image, because we can observe the objects directly with our own senses. The kinetic theory of gases, on the other hand, is a model in which a gas is viewed as being composed of atoms and molecules. Atoms and molecules are too small to be observed directly with our senses—thus, we picture them mentally to understand what our instruments tell us about the behavior of gases.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-27",
+            "type": "paragraph",
+            "content": {
+              "text": "A law uses concise language to describe a generalized pattern in nature that is supported by scientific evidence and repeated experiments. Often, a law can be expressed in the form of a single mathematical equation. Laws and theories are similar in that they are both scientific statements that result from a tested hypothesis and are supported by scientific evidence. However, the designation *law* is reserved for a concise and very general statement that describes phenomena in nature, such as the law that energy is conserved during any process, or Newton’s second law of motion, which relates force, mass, and acceleration by the simple equation $F=ma$. A theory, in contrast, is a less concise statement of observed phenomena. For example, the Theory of Evolution and the Theory of Relativity cannot be expressed concisely enough to be considered a law. The biggest difference between a law and a theory is that a theory is much more complex and dynamic. A law describes a single action, whereas a theory explains an entire group of related phenomena. And, whereas a law is a postulate that forms the foundation of the scientific method, a theory is the end result of that process.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-28",
+            "type": "paragraph",
+            "content": {
+              "text": "Less broadly applicable statements are usually called principles (such as Pascal’s principle, which is applicable only in fluids), but the distinction between laws and principles often is not carefully made.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-29",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/764c822dfe0117b888203cd0aefc5a263403e810a94a8ea0d27b7d4eea8c3679.jpg",
+            "caption": {
+              "text": "What is a model? This planetary model of the atom shows electrons orbiting the nucleus. It is a drawing that we use to form a mental image of the atom that we cannot see directly with our eyes because it is too small.",
+              "inline": []
+            },
+            "alt": "A planetary model of an atom with a positively charged nucleus at the center and negatively charged particles moving in orbits around the nucleus.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-30",
+            "type": "paragraph",
+            "content": {
+              "text": "Models, theories, and laws are used to help scientists analyze the data they have already collected. However, often after a model, theory, or law has been developed, it points scientists toward new discoveries they would not otherwise have made.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-31",
+            "type": "paragraph",
+            "content": {
+              "text": "The models, theories, and laws we devise sometimes *imply the existence of objects or phenomena as yet unobserved.* These predictions are remarkable triumphs and tributes to the power of science. It is the underlying order in the universe that enables scientists to make such spectacular predictions. However, if *experiment* does not verify our predictions, then the theory or law is wrong, no matter how elegant or convenient it is. Laws can never be known with absolute certainty because it is impossible to perform every imaginable experiment in order to confirm a law in every possible scenario. Physicists operate under the assumption that all scientific laws and theories are valid until a counterexample is observed. If a good-quality, verifiable experiment contradicts a well-established law, then the law must be modified or overthrown completely.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-32",
+            "type": "paragraph",
+            "content": {
+              "text": "The study of science in general and physics in particular is an adventure much like the exploration of uncharted ocean. Discoveries are made; models, theories, and laws are formulated; and the beauty of the physical universe is made more sublime for the insights gained.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-33",
+            "type": "paragraph",
+            "content": {
+              "text": "Ibn al-Haytham (sometimes referred to as Alhazen), a 10th-11th century scientist working in Cairo, significantly advanced the understanding of optics and vision. But his contributions go much further. In demonstrating that previous approaches were incorrect, he emphasized that scientists must be ready to reject existing knowledge and become \"the enemy\" of everything they read; he expressed that scientists must trust only objective evidence. Al-Haytham emphasized repeated experimentation and validation, and acknowledged that senses and predisposition could lead to poor conclusions. His work was a precursor to the scientific method that we use today.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-34",
+            "type": "paragraph",
+            "content": {
+              "text": "As scientists inquire and gather information about the world, they follow a process called the scientific method. This process typically begins with an observation and question that the scientist will research. Next, the scientist typically performs some research about the topic and then devises a hypothesis. Then, the scientist will test the hypothesis by performing an experiment. Finally, the scientist analyzes the results of the experiment and draws a conclusion. Note that the scientific method can be applied to many situations that are not limited to science, and this method can be modified to suit the situation.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-35",
+            "type": "paragraph",
+            "content": {
+              "text": "Consider an example. Let us say that you try to turn on your car, but it will not start. You undoubtedly wonder: Why will the car not start? You can follow a scientific method to answer this question. First off, you may perform some research to determine a variety of reasons why the car will not start. Next, you will state a hypothesis. For example, you may believe that the car is not starting because it has no engine oil. To test this, you open the hood of the car and examine the oil level. You observe that the oil is at an acceptable level, and you thus conclude that the oil level is not contributing to your car issue. To troubleshoot the issue further, you may devise a new hypothesis to test and then repeat the process again.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-36",
+            "type": "heading",
+            "text": {
+              "text": "The Evolution of Natural Philosophy into Modern Physics",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-37",
+            "type": "paragraph",
+            "content": {
+              "text": "Physics was not always a separate and distinct discipline. It remains connected to other sciences to this day. The word *physics* comes from Greek, meaning nature. The study of nature came to be called “natural philosophy.” From ancient times through the Renaissance, natural philosophy encompassed many fields, including astronomy, biology, chemistry, physics, mathematics, and medicine. Over the last few centuries, the growth of knowledge has resulted in ever-increasing specialization and branching of natural philosophy into separate fields, with physics retaining the most basic facets. (See the figures.) Physics as it developed from the Renaissance to the end of the 19th century is called classical physics. It was transformed into modern physics by revolutionary discoveries made starting at the beginning of the 20th century.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-38",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/c548cc17b3ed42c1ad7b9af0d2d6e6d1ce27ea0524c7bac4b260bab00f0aab7c.jpg",
+            "caption": {
+              "text": "Over the centuries, natural philosophy has evolved into more specialized disciplines, as illustrated by the contributions of some of the greatest minds in history. The Greek philosopher *Aristotle* (384–322 B.C.) wrote on a broad range of topics including physics, animals, the soul, politics, and poetry. (credit: Jastrow (2006)/Ludovisi Collection)",
+              "inline": []
+            },
+            "alt": "A marble statue of Aristotle.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-39",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/f6f4593e342fe029dd85f687f9901fc69372f16745312a9572443766d6cdea1c.jpg",
+            "caption": {
+              "text": "Ibn al-Haytham (965–1040) and Galileo Galilei (1564–1642) were so critical to the advancement of scientific practice and to the fields of mathematics, optics, physics, and astronomy that a later prominent scientist featured them on the cover of his major work. (credit: Johannes Hevelius (author), Adolph Boÿ (artist), J. Falck (engraver); Houghton Library, Harvard University/Wikimedia Commons)",
+              "inline": []
+            },
+            "alt": "The cover of book by Hevelius. Pictured are al-Haytham and Galilei standing on pedestals on either side of the title inscription, which reads Selonographia. Al-Haytham's pedestal has the Latin word for “Reason” and Galilei's has the Latin word for “Sense.”",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-40",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/35246c2332321aa16073f2624f1a6450de8cc455e1fc32878aa400d12951a1e9.jpg",
+            "caption": {
+              "text": "*Niels Bohr* (1885–1962) made fundamental contributions to the development of quantum mechanics, one part of modern physics. (credit: United States Library of Congress Prints and Photographs Division)",
+              "inline": []
+            },
+            "alt": "A photograph of Niels Bohr",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-41",
+            "type": "paragraph",
+            "content": {
+              "text": "Classical physics is not an exact description of the universe, but it is an excellent approximation under the following conditions: Matter must be moving at speeds less than about 1% of the speed of light, the objects dealt with must be large enough to be seen with a microscope, and only weak gravitational fields, such as the field generated by the Earth, can be involved. Because humans live under such circumstances, classical physics seems intuitively reasonable, while many aspects of modern physics seem bizarre. This is why models are so useful in modern physics—they let us conceptualize phenomena we do not ordinarily experience. We can relate to models in human terms and visualize what happens when objects move at high speeds or imagine what objects too small to observe with our senses might be like. For example, we can understand an atom’s properties because we can picture it in our minds, although we have never seen an atom with our eyes. New tools, of course, allow us to better picture phenomena we cannot see. In fact, new instrumentation has allowed us in recent years to actually “picture” the atom.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-42",
+            "type": "paragraph",
+            "content": {
+              "text": "For the laws of classical physics to apply, the following criteria must be met: Matter must be moving at speeds less than about 1% of the speed of light, the objects dealt with must be large enough to be seen with a microscope, and only weak gravitational fields (such as the field generated by the Earth) can be involved.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-43",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/5c2e5334ffcf7763c800d3213393d8170ce03a3c1dabe05062f97aabe8828ae7.jpg",
+            "caption": {
+              "text": "Using a scanning tunneling microscope (STM), scientists can see the individual atoms that compose this sheet of gold. (credit: Erwinrossen)",
+              "inline": []
+            },
+            "alt": "A high-resolution image of gold sheet obtained from S T M.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-44",
+            "type": "paragraph",
+            "content": {
+              "text": "Some of the most spectacular advances in science have been made in modern physics. Many of the laws of classical physics have been modified or rejected, and revolutionary changes in technology, society, and our view of the universe have resulted. Like science fiction, modern physics is filled with fascinating objects beyond our normal experiences, but it has the advantage over science fiction of being very real. Why, then, is the majority of this text devoted to topics of classical physics? There are two main reasons: Classical physics gives an extremely accurate description of the universe under a wide range of everyday circumstances, and knowledge of classical physics is necessary to understand modern physics.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-45",
+            "type": "paragraph",
+            "content": {
+              "text": "Modern physics itself consists of the two revolutionary theories, relativity and quantum mechanics. These theories deal with the very fast and the very small, respectively. Relativity must be used whenever an object is traveling at greater than about 1% of the speed of light or experiences a strong gravitational field such as that near the Sun. Quantum mechanics must be used for objects smaller than can be seen with a microscope. The combination of these two theories is *relativistic quantum mechanics,* and it describes the behavior of small objects traveling at high speeds or experiencing a strong gravitational field. Relativistic quantum mechanics is the best universally applicable theory we have. Because of its mathematical complexity, it is used only when necessary, and the other theories are used whenever they will produce sufficiently accurate results. We will find, however, that we can do a great deal of modern physics with the algebra and trigonometry used in this text.",
+              "inline": []
+            }
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-47",
+          "statement": {
+            "text": "A friend tells you they have learned about a new law of nature. What can you know about the information even before your friend describes the law? How would the information be different if your friend told you they had learned about a scientific theory rather than a law?",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Without knowing the details of the law, you can still infer that the information your friend has learned conforms to the requirements of all laws of nature: it will be a concise description of the universe around us; a statement of the underlying rules that all natural processes follow. If the information had been a theory, you would be able to infer that the information will be a large-scale, broadly applicable generalization."
+            }
+          ],
+          "answer": {
+            "text": "Without knowing the details of the law, you can still infer that the information your friend has learned conforms to the requirements of all laws of nature: it will be a concise description of the universe around us; a statement of the underlying rules that all natural processes follow. If the information had been a theory, you would be able to infer that the information will be a large-scale, broadly applicable generalization.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "osbooks-college-physics-bundle",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+            "locator": "CNXML module m42092, exercise block exr-47",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "A scientific law is a theory that has been proved.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A law describes a regular relationship, often as an equation. A theory explains why the relationship holds. Neither is proved beyond revision; both are tested against experiment.",
+            "inline": []
+          },
+          "signal": {
+            "text": "The word law sounds like a final verdict. In science it is not.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42092",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "A model is just a guess.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A model is a deliberate simplification. It can be physical, mathematical or computational, and it is judged by how well it predicts.",
+            "inline": []
+          },
+          "signal": {
+            "text": "The everyday meaning of model is a person or a small copy. In physics it is a working representation.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42092",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "Physics is the study of matter, energy, motion and the forces that connect them.",
+          "inline": []
+        },
+        {
+          "text": "Models simplify a system, theories explain observations, and laws describe regular relationships.",
+          "inline": []
+        },
+        {
+          "text": "Experiment decides whether a model or theory stands. A failed prediction forces a revision.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-2-01",
+        "ex-sec-2-02",
+        "ex-sec-2-03"
+      ],
+      "exam_links": [],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+        "locator": "CNXML module m42092",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "no_exam_link_reason": "This section introduces physics as a science; the syllabus topics begin with measurement."
+    },
+    {
+      "id": "sec-3",
+      "order": 3,
+      "slug": "physical-quantities-and-units",
+      "title": "Physical Quantities and Units",
+      "est_minutes": 18,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Identify the SI base units for length, mass and time, and use metric prefixes.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Convert quantities between units using dimensional analysis.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/c2331a458cb22fff37e33a072f64f594ce3e3d97ec1f64a6c4cfc4aff95b0c97.jpg",
+            "caption": {
+              "text": "The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)",
+              "inline": []
+            },
+            "alt": "A view of Earth from the Moon.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "The range of objects and phenomena studied in physics is immense. From the incredibly short lifetime of a nucleus to the age of the Earth, from the tiny sizes of sub-nuclear particles to the vast distance to the edges of the known universe, from the force exerted by a jumping flea to the force between Earth and the Sun, there are enough factors of 10 to challenge the imagination of even the most experienced scientist. Giving numerical values for physical quantities and equations for physical principles allows us to understand nature much more deeply than does qualitative description alone. To comprehend these vast ranges, we must also have accepted units in which to express them. And we shall find that (even in the potentially mundane discussion of meters, kilograms, and seconds) a profound simplicity of nature appears—most physical quantities can be expressed as combinations of only four fundamental physical quantities: length, mass, time, and electric current.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "We define a physical quantity either by *specifying how it is measured* or by *stating how it is calculated* from other measurements. For example, we define distance and time by specifying methods for measuring them, whereas we define *average speed* by stating that it is calculated as distance traveled divided by time of travel.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "Measurements of physical quantities are expressed in terms of units, which are standardized values. For example, the length of a race, which is a physical quantity, can be expressed in units of meters (for sprinters) or kilometers (for distance runners). Without standardized units, it would be extremely difficult for scientists to express and compare measured values in a meaningful way. (See the figure.)",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/b45cf2f4a325f131aa1e29cb105b5726216a8bfc1054d5a23cb98990b7b5d01c.jpg",
+            "caption": {
+              "text": "Distances given in unknown units are maddeningly useless.",
+              "inline": []
+            },
+            "alt": "A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "There are two major systems of units used in the world: SI units (also known as the metric system) and English units (also known as the customary or imperial system). *English units* were historically used in nations once ruled by the British Empire and are still widely used in the United States. Virtually every other country in the world now uses SI units as the standard; the metric system is also the standard system agreed upon by scientists and mathematicians. The acronym “SI” is derived from the French *Système International*.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "heading",
+            "text": {
+              "text": "SI Units: Fundamental and Derived Units",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "The table gives the fundamental SI units that are used throughout this textbook. This text uses non-SI units in a few applications where they are in very common use, such as the measurement of blood pressure in millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI units through conversions.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "paragraph",
+            "content": {
+              "text": "It is an intriguing fact that some physical quantities are more fundamental than others and that the most fundamental physical quantities can be defined *only* in terms of the procedure used to measure them. The units in which they are measured are thus called fundamental units. In this textbook, the fundamental physical quantities are taken to be length, mass, time, and electric current. (Note that electric current will not be introduced until much later in this text.) All other physical quantities, such as force and electric charge, can be expressed as algebraic combinations of length, mass, time, and current (for example, speed is length divided by time); these units are called derived units.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "heading",
+            "text": {
+              "text": "Units of Time, Length, and Mass: The Second, Meter, and Kilogram",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "heading",
+            "text": {
+              "text": "The Second",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "The SI unit for time, the second (abbreviated s), has a long history. For many years it was defined as 1/86,400 of a mean solar day. More recently, a new standard was adopted to gain greater accuracy and to define the second in terms of a non-varying, or constant, physical phenomenon (because the solar day is getting longer due to very gradual slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very steady way, and these vibrations can be readily observed and counted. In 1967 the second was redefined as the time required for 9,192,631,770 of these vibrations. (See the figure.) Accuracy in the fundamental units is essential, because all measurements are ultimately expressed in terms of fundamental units and can be no more accurate than are the fundamental units themselves.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/e724dbcfbfd2709ec3782d59ab6334e3ea0c5f3954393df28b5d907733b953d1.jpg",
+            "caption": {
+              "text": "An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)",
+              "inline": []
+            },
+            "alt": "A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-14",
+            "type": "heading",
+            "text": {
+              "text": "The Meter",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-15",
+            "type": "paragraph",
+            "content": {
+              "text": "The SI unit for length is the meter (abbreviated m); its definition has also changed over time to become more accurate and precise. The meter was first defined in 1791 as 1/10,000,000 of the distance from the equator to the North Pole. This measurement was improved in 1889 by redefining the meter to be the distance between two engraved lines on a platinum-iridium bar now kept near Paris. By 1960, it had become possible to define the meter even more accurately in terms of the wavelength of light, so it was again redefined as 1,650,763.73 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was given its present definition (partly for greater accuracy) as the distance light travels in a vacuum in 1/299,792,458 of a second. (See the figure.) This change defines the speed of light to be exactly 299,792,458 meters per second. The length of the meter will change if the speed of light is someday measured with greater accuracy.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-16",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/c7fa88c50de2f255711ab243ae947ecf5c4ee358827a49284974bf0457d05ee7.jpg",
+            "caption": {
+              "text": "The meter is defined to be the distance light travels in 1/299,792,458 of a second in a vacuum. Distance traveled is speed multiplied by time.",
+              "inline": []
+            },
+            "alt": "Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-17",
+            "type": "heading",
+            "text": {
+              "text": "The Kilogram",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-18",
+            "type": "paragraph",
+            "content": {
+              "text": "The SI unit for mass is the kilogram (abbreviated kg); it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris. Exact replicas of the previously defined kilogram are also kept at the United States’ National Institute of Standards and Technology, or NIST, located in Gaithersburg, Maryland outside of Washington D.C., and at other locations around the world. The determination of all other masses could be ultimately traced to a comparison with the standard mass. Even though the platinum-iridium cylinder was resistant to corrosion, airborne contaminants were able to adhere to its surface, slightly changing its mass over time. In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, *h* (a quantum mechanical value that relates a photon's energy to its frequency).",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-19",
+            "type": "paragraph",
+            "content": {
+              "text": "Electric current and its accompanying unit, the ampere, will be introduced in Electric Current, Resistance, and Ohm's Law when electricity and magnetism are covered. The initial modules in this textbook are concerned with mechanics, fluids, heat, and waves. In these subjects all pertinent physical quantities can be expressed in terms of the fundamental units of length, mass, and time.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-20",
+            "type": "heading",
+            "text": {
+              "text": "Metric Prefixes",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-21",
+            "type": "paragraph",
+            "content": {
+              "text": "SI units are part of the metric system. The metric system is convenient for scientific and engineering calculations because the units are categorized by factors of 10. The table gives metric prefixes and symbols used to denote various factors of 10.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-22",
+            "type": "paragraph",
+            "content": {
+              "text": "Metric systems have the advantage that conversions of units involve only powers of 10. There are 100 centimeters in a meter, 1000 meters in a kilometer, and so on. In nonmetric systems, such as the system of U.S. customary units, the relationships are not as simple—there are 12 inches in a foot, 5280 feet in a mile, and so on. Another advantage of the metric system is that the same unit can be used over extremely large ranges of values simply by using an appropriate metric prefix. For example, distances in meters are suitable in construction, while distances in kilometers are appropriate for air travel, and the tiny measure of nanometers are convenient in optical design. With the metric system there is no need to invent new units for particular applications.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-23",
+            "type": "paragraph",
+            "content": {
+              "text": "The term order of magnitude refers to the scale of a value expressed in the metric system. Each power of $10$, and so forth are all different orders of magnitude. All quantities that can be expressed as a product of a specific power of $10$ are said to be of the *same* order of magnitude. For example, the number $800$ can be written as $8\\times {10}^{2}$, and the number $450$ can be written as $4.5\\times {10}^{2}.$ Thus, the numbers $800$ and $450$ are of the same order of magnitude: ${10}^{2}.$ Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of ${10}^{-10}m,$ while the diameter of the Sun is on the order of ${10}^{9}m.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-24",
+            "type": "paragraph",
+            "content": {
+              "text": "The fundamental units described in this chapter are those that produce the greatest accuracy and precision in measurement. There is a sense among physicists that, because there is an underlying microscopic substructure to matter, it would be most satisfying to base our standards of measurement on microscopic objects and fundamental physical phenomena such as the speed of light. A microscopic standard has been accomplished for the standard of time, which is based on the oscillations of the cesium atom.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-25",
+            "type": "paragraph",
+            "content": {
+              "text": "The standard for length was once based on the wavelength of light (a small-scale length) emitted by a certain type of atom, but it has been supplanted by the more precise measurement of the speed of light. If it becomes possible to measure the mass of atoms or a particular arrangement of atoms such as a silicon sphere to greater precision than the kilogram standard, it may become possible to base mass measurements on the small scale. There are also possibilities that electrical phenomena on the small scale may someday allow us to base a unit of charge on the charge of electrons and protons, but at present current and charge are related to large-scale currents and forces between wires.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-26",
+            "type": "heading",
+            "text": {
+              "text": "Known Ranges of Length, Mass, and Time",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-27",
+            "type": "paragraph",
+            "content": {
+              "text": "The vastness of the universe and the breadth over which physics applies are illustrated by the wide range of examples of known lengths, masses, and times in the table. Examination of this table will give you some feeling for the range of possible topics and numerical values. (See the figure and the figure.)",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-28",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/f397b894be057dca094261cb426e04947b1327b3a98868a322ef2f7596c71482.jpg",
+            "caption": {
+              "text": "Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)",
+              "inline": []
+            },
+            "alt": "A magnified image of tiny phytoplankton swimming among the crystal of ice.[",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-29",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/47af18887a7a34f716e36e27d44750c182da7c5158c80d9ba2091b4c5e3bcad2.jpg",
+            "caption": {
+              "text": "Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)",
+              "inline": []
+            },
+            "alt": "A view of Abell Galaxy with some bright stars and some hot gases.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-30",
+            "type": "heading",
+            "text": {
+              "text": "Unit Conversion and Dimensional Analysis",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-31",
+            "type": "paragraph",
+            "content": {
+              "text": "It is often necessary to convert from one type of unit to another. For example, if you are reading a European cookbook, some quantities may be expressed in units of liters and you need to convert them to cups. Or, perhaps you are reading walking directions from one location to another and you are interested in how many miles you will be walking. In this case, you will need to convert units of feet to miles.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-32",
+            "type": "paragraph",
+            "content": {
+              "text": "Let us consider a simple example of how to convert units. Let us say that we want to convert 80 meters (m) to kilometers (km).",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-33",
+            "type": "paragraph",
+            "content": {
+              "text": "The first thing to do is to list the units that you have and the units that you want to convert to. In this case, we have units in *meters* and we want to convert to *kilometers*.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-34",
+            "type": "paragraph",
+            "content": {
+              "text": "Next, we need to determine a conversion factor relating meters to kilometers. A conversion factor is a ratio expressing how many of one unit are equal to another unit. For example, there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1 minute, and so on. In this case, we know that there are 1,000 meters in 1 kilometer.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-35",
+            "type": "paragraph",
+            "content": {
+              "text": "Now we can set up our unit conversion. We will write the units that we have and then multiply them by the conversion factor so that the units cancel out, as shown: $80m\\times \\frac{1 km}{1000m}=0.080 km.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-36",
+            "type": "paragraph",
+            "content": {
+              "text": "Note that the unwanted m unit cancels, leaving only the desired km unit. You can use this method to convert between any types of unit.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-37",
+            "type": "paragraph",
+            "content": {
+              "text": "Click Appendix C for a more complete list of conversion factors.",
+              "inline": []
+            }
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-ex-42",
+          "statement": {
+            "text": "Unit Conversions: A Short Drive Home",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "osbooks-college-physics-bundle",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+            "locator": "CNXML module m42091, worked example",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Suppose that you drive the 10.0 km from your school to home in 20.0 min."
+            },
+            {
+              "step_number": 2,
+              "expression": "Calculate your average speed (a) in kilometers per hour (km/h) and (b) in meters per second (m/s)."
+            },
+            {
+              "step_number": 3,
+              "expression": "(Note: Average speed is distance traveled divided by time of travel.) First we calculate the average speed using the given units."
+            },
+            {
+              "step_number": 4,
+              "expression": "Then we can get the average speed into the desired units by picking the correct conversion factor and multiplying by it."
+            },
+            {
+              "step_number": 5,
+              "expression": "The correct conversion factor is the one that cancels the unwanted unit and leaves the desired unit in its place."
+            },
+            {
+              "step_number": 6,
+              "expression": "(1) Calculate average speed."
+            },
+            {
+              "step_number": 7,
+              "expression": "Average speed is distance traveled divided by time of travel."
+            },
+            {
+              "step_number": 8,
+              "expression": "(Take this definition as a given for now—average speed and other motion concepts will be covered in a later module.) In equation form, $average speed =\\frac{distance}{time}.$ (2) Substitute the given values for distance and time."
+            },
+            {
+              "step_number": 9,
+              "expression": "$average speed =\\frac{10.0km}{20.0min}=0.500\\frac{km}{min}.$ (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours."
+            },
+            {
+              "step_number": 10,
+              "expression": "That conversion factor is $60 min/hr$ To check your answer, consider the following: (1) Be sure that you have properly cancelled the units in the unit conversion."
+            },
+            {
+              "step_number": 11,
+              "expression": "If you have written the unit conversion factor upside down, the units will not cancel properly in the equation."
+            },
+            {
+              "step_number": 12,
+              "expression": "If you accidentally get the ratio upside down, then the units will not cancel; rather, they will give you the wrong units as follows: $\\frac{km}{min}\\times \\frac{1hr}{60min}=\\frac{1}{60}\\frac{km\\cdot hr}{{min}^{2}},$ which are obviously not the desired units of km/h."
+            },
+            {
+              "step_number": 13,
+              "expression": "(2) Check that the units of the final answer are the desired units."
+            },
+            {
+              "step_number": 14,
+              "expression": "The problem asked us to solve for average speed in units of km/h and we have indeed obtained these units."
+            },
+            {
+              "step_number": 15,
+              "expression": "(3) Check the significant figures."
+            },
+            {
+              "step_number": 16,
+              "expression": "Because each of the values given in the problem has three significant figures, the answer should also have three significant figures."
+            },
+            {
+              "step_number": 17,
+              "expression": "The answer 30.0 km/hr does indeed have three significant figures, so this is appropriate."
+            },
+            {
+              "step_number": 18,
+              "expression": "Note that the significant figures in the conversion factor are not relevant because an hour is *defined* to be 60 minutes, so the precision of the conversion factor is perfect."
+            },
+            {
+              "step_number": 19,
+              "expression": "(4) Next, check whether the answer is reasonable."
+            },
+            {
+              "step_number": 20,
+              "expression": "Let us consider some information from the problem—if you travel 10 km in a third of an hour (20 min), you would travel three times that far in an hour."
+            },
+            {
+              "step_number": 21,
+              "expression": "The answer does seem reasonable."
+            },
+            {
+              "step_number": 22,
+              "expression": "There are several ways to convert the average speed into meters per second."
+            },
+            {
+              "step_number": 23,
+              "expression": "(1) Start with the answer to (a) and convert km/h to m/s."
+            },
+            {
+              "step_number": 24,
+              "expression": "Two conversion factors are needed—one to convert hours to seconds, and another to convert kilometers to meters."
+            },
+            {
+              "step_number": 25,
+              "expression": "(2) Multiplying by these yields $Average speed=30.0\\frac{km}{h}\\times \\frac{1 h}{3,600 s}\\times \\frac{1,000 m}{1 km},$ $Average speed=8.33\\frac{m}{s}.$ If we had started with 0.500 km/min, we would have needed different conversion factors, but the answer would have been the same: 8.33 m/s."
+            },
+            {
+              "step_number": 26,
+              "expression": "You may have noted that the answers in the worked example just covered were given to three digits."
+            },
+            {
+              "step_number": 27,
+              "expression": "Why?"
+            },
+            {
+              "step_number": 28,
+              "expression": "When do you need to be concerned about the number of digits in something you calculate?"
+            },
+            {
+              "step_number": 29,
+              "expression": "Why not write down all the digits your calculator produces?"
+            },
+            {
+              "step_number": 30,
+              "expression": "The module Accuracy, Precision, and Significant Figures will help you answer these questions."
+            },
+            {
+              "step_number": 31,
+              "expression": "While there are numerous types of units that we are all familiar with, there are others that are much more obscure."
+            },
+            {
+              "step_number": 32,
+              "expression": "For example, a *firkin* is a unit of volume that was once used to measure beer."
+            },
+            {
+              "step_number": 33,
+              "expression": "One firkin equals about 34 liters."
+            },
+            {
+              "step_number": 34,
+              "expression": "To learn more about nonstandard units, use a dictionary or encyclopedia to research different “weights and measures.” Take note of any unusual units, such as a barleycorn, that are not listed in the text."
+            },
+            {
+              "step_number": 35,
+              "expression": "Think about how the unit is defined and state its relationship to SI units."
+            },
+            {
+              "step_number": 36,
+              "expression": "Some hummingbirds beat their wings more than 50 times per second."
+            },
+            {
+              "step_number": 37,
+              "expression": "A scientist is measuring the time it takes for a hummingbird to beat its wings once."
+            },
+            {
+              "step_number": 38,
+              "expression": "Which fundamental unit should the scientist use to describe the measurement?"
+            },
+            {
+              "step_number": 39,
+              "expression": "Which factor of 10 is the scientist likely to use to describe the motion precisely?"
+            },
+            {
+              "step_number": 40,
+              "expression": "Identify the metric prefix that corresponds to this factor of 10."
+            },
+            {
+              "step_number": 41,
+              "expression": "The scientist will measure the time between each movement using the fundamental unit of seconds."
+            },
+            {
+              "step_number": 42,
+              "expression": "Because the wings beat so fast, the scientist will probably need to measure in milliseconds, or ${10}^{-3}$ seconds."
+            },
+            {
+              "step_number": 43,
+              "expression": "(50 beats per second corresponds to 20 milliseconds per beat.) One cubic centimeter is equal to one milliliter."
+            },
+            {
+              "step_number": 44,
+              "expression": "What does this tell you about the different units in the SI metric system?"
+            },
+            {
+              "step_number": 45,
+              "expression": "The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter)."
+            },
+            {
+              "step_number": 46,
+              "expression": "The measure of a milliliter is dependent on the measure of a centimeter."
+            }
+          ],
+          "answer": {
+            "text": "Suppose that you drive the 10.0 km from your school to home in 20.0 min. Calculate your average speed (a) in kilometers per hour (km/h) and (b) in meters per second (m/s). (Note: Average speed is distance traveled divided by time of travel.) First we calculate the average speed using the given units. Then we can get the average speed into the desired units by picking the correct conversion factor and multiplying by it. The correct conversion factor is the one that cancels the unwanted unit and leaves the desired unit in its place. (1) Calculate average speed. Average speed is distance traveled divided by time of travel. (Take this definition as a given for now—average speed and other motion concepts will be covered in a later module.) In equation form, $average speed =\\frac{distance}{time}.$ (2) Substitute the given values for distance and time. $average speed =\\frac{10.0km}{20.0min}=0.500\\frac{km}{min}.$ (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours. That conversion factor is $60 min/hr$ To check your answer, consider the following: (1) Be sure that you have properly cancelled the units in the unit conversion. If you have written the unit conversion factor upside down, the units will not cancel properly in the equation. If you accidentally get the ratio upside down, then the units will not cancel; rather, they will give you the wrong units as follows: $\\frac{km}{min}\\times \\frac{1hr}{60min}=\\frac{1}{60}\\frac{km\\cdot hr}{{min}^{2}},$ which are obviously not the desired units of km/h. (2) Check that the units of the final answer are the desired units. The problem asked us to solve for average speed in units of km/h and we have indeed obtained these units. (3) Check the significant figures. Because each of the values given in the problem has three significant figures, the answer should also have three significant figures. The answer 30.0 km/hr does indeed have three significant figures, so this is appropriate. Note that the significant figures in the conversion factor are not relevant because an hour is *defined* to be 60 minutes, so the precision of the conversion factor is perfect. (4) Next, check whether the answer is reasonable. Let us consider some information from the problem—if you travel 10 km in a third of an hour (20 min), you would travel three times that far in an hour. The answer does seem reasonable. There are several ways to convert the average speed into meters per second. (1) Start with the answer to (a) and convert km/h to m/s. Two conversion factors are needed—one to convert hours to seconds, and another to convert kilometers to meters. (2) Multiplying by these yields $Average speed=30.0\\frac{km}{h}\\times \\frac{1 h}{3,600 s}\\times \\frac{1,000 m}{1 km},$ $Average speed=8.33\\frac{m}{s}.$ If we had started with 0.500 km/min, we would have needed different conversion factors, but the answer would have been the same: 8.33 m/s. You may have noted that the answers in the worked example just covered were given to three digits. Why? When do you need to be concerned about the number of digits in something you calculate? Why not write down all the digits your calculator produces? The module Accuracy, Precision, and Significant Figures will help you answer these questions. While there are numerous types of units that we are all familiar with, there are others that are much more obscure. For example, a *firkin* is a unit of volume that was once used to measure beer. One firkin equals about 34 liters. To learn more about nonstandard units, use a dictionary or encyclopedia to research different “weights and measures.” Take note of any unusual units, such as a barleycorn, that are not listed in the text. Think about how the unit is defined and state its relationship to SI units. Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a hummingbird to beat its wings once. Which fundamental unit should the scientist use to describe the measurement? Which factor of 10 is the scientist likely to use to describe the motion precisely? Identify the metric prefix that corresponds to this factor of 10. The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings beat so fast, the scientist will probably need to measure in milliseconds, or ${10}^{-3}$ seconds. (50 beats per second corresponds to 20 milliseconds per beat.) One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system? The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a milliliter is dependent on the measure of a centimeter.",
+            "inline": []
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "A number is a complete physical quantity even without a unit.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A physical quantity needs a number and a unit. The unit gives the number meaning and allows comparison.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Answers that drop the unit look complete but cannot be checked.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42091",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "Changing a metric prefix changes the size of the quantity.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A prefix changes the unit, not the physical quantity. 1 km and 1000 m describe the same length.",
+            "inline": []
+          },
+          "signal": {
+            "text": "A larger number with a smaller unit can describe the same length.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42091",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "SI base units give scientists a common language for length, mass, time and other quantities.",
+          "inline": []
+        },
+        {
+          "text": "Metric prefixes scale a unit by powers of ten without changing the physical quantity.",
+          "inline": []
+        },
+        {
+          "text": "Dimensional analysis converts units by multiplying by ratios equal to one.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-3-01",
+        "ex-sec-3-02",
+        "ex-sec-3-03",
+        "ex-sec-3-04",
+        "ex-sec-3-05",
+        "ex-sec-3-06",
+        "ex-sec-3-07",
+        "ex-sec-3-08"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+        "locator": "CNXML module m42091",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "sec-4",
+      "order": 4,
+      "slug": "accuracy-precision-and-significant-figures",
+      "title": "Accuracy, Precision, and Significant Figures",
+      "est_minutes": 18,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Distinguish accuracy from precision and explain what uncertainty means.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Report calculated results with the correct number of significant figures.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/1b9f1a9fd057fe9eb93e442fd1c121038887253ca814771720946d5c44b52702.jpg",
+            "caption": {
+              "text": "A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The “known masses” are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)",
+              "inline": []
+            },
+            "alt": "An old rusted double-pan balance is shown with a weighing stone on one pan.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-2",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/96cbf394bd0bf4d763ae406edfce21b35d748eff3d8ae23436ba83f9aadeb90b.jpg",
+            "caption": {
+              "text": "Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit: Karel Jakubec)",
+              "inline": []
+            },
+            "alt": "A digital analytical balance.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-3",
+            "type": "heading",
+            "text": {
+              "text": "Accuracy and Precision of a Measurement",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "Science is based on observation and experiment—that is, on measurements. Accuracy is how close a measurement is to the correct value for that measurement. For example, let us say that you are measuring the length of standard computer paper. The packaging in which you purchased the paper states that it is 11.0 inches long. You measure the length of the paper three times and obtain the following measurements: 11.1 in., 11.2 in., and 10.9 in. These measurements are quite accurate because they are very close to the correct value of 11.0 inches. In contrast, if you had obtained a measurement of 12 inches, your measurement would not be very accurate.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "The precision of a measurement system refers to how close the agreement is between repeated measurements (which are repeated under the same conditions). Consider the example of the paper measurements. The precision of the measurements refers to the spread of the measured values. One way to analyze the precision of the measurements would be to determine the range, or difference, between the lowest and the highest measured values. In that case, the lowest value was 10.9 in. and the highest value was 11.2 in. Thus, the measured values deviated from each other by at most 0.3 in. These measurements were relatively precise because they did not vary too much in value. However, if the measured values had been 10.9, 11.1, and 11.9, then the measurements would not be very precise because there would be significant variation from one measurement to another.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "The measurements in the paper example are both accurate and precise, but in some cases, measurements are accurate but not precise, or they are precise but not accurate. Let us consider an example of a GPS system that is attempting to locate the position of a restaurant in a city. Think of the restaurant location as existing at the center of a bull’s-eye target, and think of each GPS attempt to locate the restaurant as a black dot. In the figure, you can see that the GPS measurements are spread out far apart from each other, but they are centered close to the actual location of the restaurant at the center of the target. This indicates a low precision, high accuracy measuring system. However, in the figure, the GPS measurements are concentrated quite closely to one another, but they are far away from the target location. This indicates a high precision, low accuracy measuring system.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/c1c726858479ed3d35c34b80c73a1971852ea9d0a579aa60acd862f729e64dac.jpg",
+            "caption": {
+              "text": "A GPS system attempts to locate a restaurant at the center of the bull’s-eye. The black dots represent each attempt to pinpoint the location of the restaurant. The dots are spread out quite far apart from one another, indicating low precision, but they are each rather close to the actual location of the restaurant, indicating high accuracy. (credit: Dark Evil)",
+              "inline": []
+            },
+            "alt": "A pattern similar to a dart board with few concentric circles shown in white color on a red background. In the innermost circle, there are four black points on the circumference showing the positions of a restaurant. They are far apart from each other.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-8",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/f235efed0a85d9076488538700745036cd722705cee1e6daee6ea9fe83b2d34c.jpg",
+            "caption": {
+              "text": "In this figure, the dots are concentrated rather closely to one another, indicating high precision, but they are rather far away from the actual location of the restaurant, indicating low accuracy. (credit: Dark Evil)",
+              "inline": []
+            },
+            "alt": "A pattern similar to a dart board with a few concentric circles shown in white color on a red background. Near the outermost white circles there are four black points showing the positions of a restaurant. The black points are very close to each other.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-9",
+            "type": "heading",
+            "text": {
+              "text": "Accuracy, Precision, and Uncertainty",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "paragraph",
+            "content": {
+              "text": "The degree of accuracy and precision of a measuring system are related to the uncertainty in the measurements. Uncertainty is a quantitative measure of how much your measured values deviate from a standard or expected value. If your measurements are not very accurate or precise, then the uncertainty of your values will be very high. In more general terms, uncertainty can be thought of as a disclaimer for your measured values. For example, if someone asked you to provide the mileage on your car, you might say that it is 45,000 miles, plus or minus 500 miles. The plus or minus amount is the uncertainty in your value. That is, you are indicating that the actual mileage of your car might be as low as 44,500 miles or as high as 45,500 miles, or anywhere in between. All measurements contain some amount of uncertainty. In our example of measuring the length of the paper, we might say that the length of the paper is 11 in., plus or minus 0.2 in. The uncertainty in a measurement, $A$, is often denoted as *$δA$* (“delta $A$ ”), so the measurement result would be recorded as $A±δA$. In our paper example, the length of the paper could be expressed as $11in.±0.2.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "The factors contributing to uncertainty in a measurement include:",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "In our example, such factors contributing to the uncertainty could be the following: the smallest division on the ruler is 0.1 in., the person using the ruler has bad eyesight, or one side of the paper is slightly longer than the other. At any rate, the uncertainty in a measurement must be based on a careful consideration of all the factors that might contribute and their possible effects.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "paragraph",
+            "content": {
+              "text": "Uncertainty is a critical piece of information, both in physics and in many other real-world applications. Imagine you are caring for a sick child. You suspect the child has a fever, so you check their temperature with a thermometer. What if the uncertainty of the thermometer were $3.0ºC$? If the child’s temperature reading was $37.0ºC$ (which is normal body temperature), the “true” temperature could be anywhere from a hypothermic $34.0ºC$ to a dangerously high $40.0ºC$. A thermometer with an uncertainty of $3.0ºC$ would be useless.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-14",
+            "type": "heading",
+            "text": {
+              "text": "Percent Uncertainty",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-15",
+            "type": "paragraph",
+            "content": {
+              "text": "One method of expressing uncertainty is as a percent of the measured value. If a measurement $A$ is expressed with uncertainty, $δA$, the percent uncertainty (%unc) is defined to be $% unc =\\frac{δA}{A}\\times 100%.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-16",
+            "type": "heading",
+            "text": {
+              "text": "Uncertainties in Calculations",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-17",
+            "type": "paragraph",
+            "content": {
+              "text": "There is an uncertainty in anything calculated from measured quantities. For example, the area of a floor calculated from measurements of its length and width has an uncertainty because the length and width have uncertainties. How big is the uncertainty in something you calculate by multiplication or division? If the measurements going into the calculation have small uncertainties (a few percent or less), then the method of adding percents can be used for multiplication or division. This method says that *the percent uncertainty in a quantity calculated by multiplication or division is the sum of the percent uncertainties in the items used to make the calculation*. For example, if a floor has a length of $4.00 m$ and a width of $3.00 m$, with uncertainties of $2%$ and $1%$, respectively, then the area of the floor is $12.0 {m}^{2}$ and has an uncertainty of $3%$. (Expressed as an area this is $0.36 {m}^{2}$, which we round to $0.4 {m}^{2}$ since the area of the floor is given to a tenth of a square meter.)",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-18",
+            "type": "heading",
+            "text": {
+              "text": "Precision of Measuring Tools and Significant Figures",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-19",
+            "type": "paragraph",
+            "content": {
+              "text": "An important factor in the accuracy and precision of measurements involves the precision of the measuring tool. In general, a precise measuring tool is one that can measure values in very small increments. For example, a standard ruler can measure length to the nearest millimeter, while a caliper can measure length to the nearest 0.01 millimeter. The caliper is a more precise measuring tool because it can measure extremely small differences in length. The more precise the measuring tool, the more precise and accurate the measurements can be.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-20",
+            "type": "paragraph",
+            "content": {
+              "text": "When we express measured values, we can only list as many digits as we initially measured with our measuring tool. For example, if you use a standard ruler to measure the length of a stick, you may measure it to be $36.7 cm$. You could not express this value as $36.71 cm$ because your measuring tool was not precise enough to measure a hundredth of a centimeter. It should be noted that the last digit in a measured value has been estimated in some way by the person performing the measurement. For example, the person measuring the length of a stick with a ruler notices that the stick length seems to be somewhere in between $36.6 cm$ and $36.7 cm$, and they must estimate the value of the last digit. Using the method of significant figures, the rule is that *the last digit written down in a measurement is the first digit with some uncertainty*. In order to determine the number of significant digits in a value, start with the first measured value at the left and count the number of digits through the last digit written on the right. For example, the measured value $36.7 cm$ has three digits, or significant figures. Significant figures indicate the precision of a measuring tool that was used to measure a value.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-21",
+            "type": "heading",
+            "text": {
+              "text": "Zeros",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-22",
+            "type": "paragraph",
+            "content": {
+              "text": "Special consideration is given to zeros when counting significant figures. The zeros in 0.053 are not significant, because they are only placekeepers that locate the decimal point. There are two significant figures in 0.053. The zeros in 10.053 are not placekeepers but are significant—this number has five significant figures. The zeros in 1300 may or may not be significant depending on the style of writing numbers. They could mean the number is known to the last digit, or they could be placekeepers. So 1300 could have two, three, or four significant figures. (To avoid this ambiguity, write 1300 in scientific notation.) *Zeros are significant except when they serve only as placekeepers*.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-23",
+            "type": "heading",
+            "text": {
+              "text": "Significant Figures in Calculations",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-24",
+            "type": "paragraph",
+            "content": {
+              "text": "When combining measurements with different degrees of accuracy and precision, *the number of significant digits in the final answer can be no greater than the number of significant digits in the least precise measured value*. There are two different rules, one for multiplication and division and the other for addition and subtraction, as discussed below.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-25",
+            "type": "paragraph",
+            "content": {
+              "text": "*1. For multiplication and division:* *The result should have the same number of significant figures as the quantity having the least significant figures entering into the calculation*. For example, the area of a circle can be calculated from its radius using $A={πr}^{2}$. Let us see how many significant figures the area has if the radius has only two—say, $r=1.2 m$. Then, $A={πr}^{2}=(3.1415927...)\\times {(1.2 m)}^{2}=4.5238934 {m}^{2}$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-26",
+            "type": "paragraph",
+            "content": {
+              "text": "is what you would get using a calculator that has an eight-digit output. But because the radius has only two significant figures, it limits the calculated quantity to two significant figures or $A=4.5 {m}^{2},$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-27",
+            "type": "paragraph",
+            "content": {
+              "text": "even though $π$ is good to at least eight digits.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-28",
+            "type": "paragraph",
+            "content": {
+              "text": "*2. For addition and subtraction:* *The answer can contain no more decimal places than the least precise measurement* *.* Suppose that you buy 7.56-kg of potatoes in a grocery store as measured with a scale with precision 0.01 kg. Then you drop off 6.052-kg of potatoes at your laboratory as measured by a scale with precision 0.001 kg. Finally, you go home and add 13.7 kg of potatoes as measured by a bathroom scale with precision 0.1 kg. How many kilograms of potatoes do you now have, and how many significant figures are appropriate in the answer? The mass is found by simple addition and subtraction: $+1 7.56 0 kg =15.2 kg.; - 1 6.052 kg =15.2 kg.; \\frac{+13.700 kg}{+15.208 kg} = 15.2 kg.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-29",
+            "type": "paragraph",
+            "content": {
+              "text": "Next, we identify the least precise measurement: 13.7 kg. This measurement is expressed to the 0.1 decimal place, so our final answer must also be expressed to the 0.1 decimal place. Thus, the answer is rounded to the tenths place, giving us 15.2 kg.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-30",
+            "type": "heading",
+            "text": {
+              "text": "Significant Figures in this Text",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-31",
+            "type": "paragraph",
+            "content": {
+              "text": "In this text, most numbers are assumed to have three significant figures. Furthermore, consistent numbers of significant figures are used in all worked examples. You will note that an answer given to three digits is based on input good to at least three digits, for example. If the input has fewer significant figures, the answer will also have fewer significant figures. Care is also taken that the number of significant figures is reasonable for the situation posed. In some topics, particularly in optics, more accurate numbers are needed and more than three significant figures will be used. Finally, if a number is *exact*, such as the two in the formula for the circumference of a circle, $c=2πr$, it does not affect the number of significant figures in a calculation.",
+              "inline": []
+            }
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-ex-17",
+          "statement": {
+            "text": "Calculating Percent Uncertainty: A Bag of Apples",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "osbooks-college-physics-bundle",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+            "locator": "CNXML module m42120, worked example",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "A grocery store sells $5-lb$ bags of apples."
+            },
+            {
+              "step_number": 2,
+              "expression": "You purchase four bags over the course of a month and weigh the apples each time."
+            },
+            {
+              "step_number": 3,
+              "expression": "You obtain the following measurements: You have previously determined, using additional measurements, that the uncertainty in the average weight of the $5-lb$ bag is $±0.4 lb$."
+            },
+            {
+              "step_number": 4,
+              "expression": "What is the average weight and percent uncertainty of the bag’s weight, given these 4 measurements?"
+            },
+            {
+              "step_number": 5,
+              "expression": "The average of the four measured weights is 5.1 lb."
+            },
+            {
+              "step_number": 6,
+              "expression": "Observe that the measured average agrees with the nominal weight of 5 lb within the uncertainty of 0.4 lb."
+            },
+            {
+              "step_number": 7,
+              "expression": "The uncertainty in this value, $δA$, is 0.4 lb."
+            },
+            {
+              "step_number": 8,
+              "expression": "We can use the following equation to determine the percent uncertainty of the weight: $% unc =\\frac{δA}{A}\\times 100%.$ Plug the known values into the equation: $% unc =\\frac{0.4lb}{5.1lb}\\times 100%=8%.$ We can conclude that the weight of the apple bag is $5 lb±8%$."
+            },
+            {
+              "step_number": 9,
+              "expression": "Consider how this percent uncertainty would change if the bag of apples were half as heavy, but the uncertainty in the weight remained the same."
+            },
+            {
+              "step_number": 10,
+              "expression": "Hint for future calculations: when calculating percent uncertainty, always remember that you must multiply the fraction by 100%."
+            },
+            {
+              "step_number": 11,
+              "expression": "If you do not do this, you will have a decimal quantity, not a percent value."
+            }
+          ],
+          "answer": {
+            "text": "A grocery store sells $5-lb$ bags of apples. You purchase four bags over the course of a month and weigh the apples each time. You obtain the following measurements: You have previously determined, using additional measurements, that the uncertainty in the average weight of the $5-lb$ bag is $±0.4 lb$. What is the average weight and percent uncertainty of the bag’s weight, given these 4 measurements? The average of the four measured weights is 5.1 lb. Observe that the measured average agrees with the nominal weight of 5 lb within the uncertainty of 0.4 lb. The uncertainty in this value, $δA$, is 0.4 lb. We can use the following equation to determine the percent uncertainty of the weight: $% unc =\\frac{δA}{A}\\times 100%.$ Plug the known values into the equation: $% unc =\\frac{0.4lb}{5.1lb}\\times 100%=8%.$ We can conclude that the weight of the apple bag is $5 lb±8%$. Consider how this percent uncertainty would change if the bag of apples were half as heavy, but the uncertainty in the weight remained the same. Hint for future calculations: when calculating percent uncertainty, always remember that you must multiply the fraction by 100%. If you do not do this, you will have a decimal quantity, not a percent value.",
+            "inline": []
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "A precise measurement is always accurate.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Precision is agreement among repeated measurements. Accuracy is closeness to the true value. A precise set can be consistently wrong.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Repeated readings that agree feel trustworthy, even when the instrument is wrongly calibrated.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42120",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "More significant figures always means a better measurement.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Significant figures show the precision of the instrument and the measurement. Digits beyond that precision are not meaningful.",
+            "inline": []
+          },
+          "signal": {
+            "text": "A calculator can show many digits, but the instrument cannot support them.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42120",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "Accuracy is closeness to the true value; precision is agreement among repeated measurements.",
+          "inline": []
+        },
+        {
+          "text": "Uncertainty states the range within which a measured value is likely to lie.",
+          "inline": []
+        },
+        {
+          "text": "A calculated result is reported with the number of significant figures supported by the measurements.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-4-01",
+        "ex-sec-4-02",
+        "ex-sec-4-03",
+        "ex-sec-4-04",
+        "ex-sec-4-05",
+        "ex-sec-4-06",
+        "ex-sec-4-07",
+        "ex-sec-4-08",
+        "ex-sec-4-09",
+        "ex-sec-4-10",
+        "ex-sec-4-11",
+        "ex-sec-4-12",
+        "ex-sec-4-13"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+        "locator": "CNXML module m42120",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "sec-5",
+      "order": 5,
+      "slug": "approximation",
+      "title": "Approximation",
+      "est_minutes": 12,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Make order-of-magnitude estimates using simple arithmetic.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Explain when an approximation is appropriate and when it is not.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "paragraph",
+            "content": {
+              "text": "On many occasions, physicists, other scientists, and engineers need to make approximations or “guesstimates” for a particular quantity. What is the distance to a certain destination? What is the approximate density of a given item? About how large a current will there be in a circuit? Many approximate numbers are based on formulae in which the input quantities are known only to a limited accuracy. As you develop problem-solving skills (that can be applied to a variety of fields through a study of physics), you will also develop skills at approximating. You will develop these skills through thinking more quantitatively, and by being willing to take risks. As with any endeavor, experience helps, as well as familiarity with units. These approximations allow us to rule out certain scenarios or unrealistic numbers. Approximations also allow us to challenge others and guide us in our approaches to our scientific world. Let us do two examples to illustrate this concept.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "figure",
+            "asset_url": "books/secondary_physics/5a2a66216a25019676bc9dbc5bb9e7b98e5d8aeded7b686f954513ebb8870529.jpg",
+            "caption": {
+              "text": "A bank stack contains one-hundred $100 bills, and is worth $10,000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)",
+              "inline": []
+            },
+            "alt": "A bank stack containing one hundred hundred-dollar bills.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "The U.S. federal debt in 2021 was a little more than \\$28 trillion. Most of us do not have any concept of how much even one trillion actually is. Suppose that you were given a trillion dollars in \\$100 bills. If you made 100-bill stacks and used them to evenly cover a football field (between the end zones), make an approximation of how high the money pile would become. (We will use feet/inches rather than meters here because football fields are measured in yards.) One of your friends says 3 in., while another says 10 ft. What do you think?",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "When you imagine the situation, you probably envision thousands of small stacks of 100 wrapped \\$100 bills, such as you might see in movies or at a bank. Since this is an easy-to-approximate quantity, let us start there. We can find the volume of a stack of 100 bills, find out how many stacks make up one trillion dollars, and then set this volume equal to the area of the football field multiplied by the unknown height.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "(1) Calculate the volume of a stack of 100 bills. The dimensions of a single bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in. thick. So the total volume of a stack of 100 bills is: $volume of stack=length\\times width\\times height,; volume of stack=6 in.\\times 3 in.\\times 0.5 in.,; volume of stack=9 in{.}^{3}.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "(2) Calculate the number of stacks. Note that a trillion dollars is equal to $1\\times {10}^{12},$ and a stack of one-hundred $100$ bills is equal to $10,000,$ or $1\\times {10}^{4}$. The number of stacks you will have is: $1\\times {10}^{12}(a trillion dollars)/ 1\\times {10}^{4} per stack=1\\times {10}^{8} stacks.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "(3) Calculate the area of a football field in square inches. The area of a football field is $100 yd\\times 50 yd,$ which gives $5,{000 yd}^{2}.$ Because we are working in inches, we need to convert square yards to square inches: $Area={5,000 yd}^{2}\\times \\frac{3 ft}{1 yd}\\times \\frac{3 ft}{1 yd}\\times \\frac{12 in.}{1 ft}\\times \\frac{12 in.}{1 ft}=6,480,000 in{.}^{2},; Area\\approx 6\\times {10}^{6} in {.}^{2}.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "This conversion gives us $6\\times {10}^{6} in{.}^{2}$ for the area of the field. (Note that we are using only one significant figure in these calculations.)",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "paragraph",
+            "content": {
+              "text": "(4) Calculate the total volume of the bills. The volume of all the $100$ -bill stacks is $9 in{.}^{3}/stack\\times {10}^{8}stacks=9\\times {10}^{8} in{.}^{3}.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "paragraph",
+            "content": {
+              "text": "(5) Calculate the height. To determine the height of the bills, use the equation: $volume of bills = area of field \\times height of money:; Height of money = \\frac{volume of bills}{area of field},; Height of money = \\frac{9\\times {10}^{8}in{.}^{3}}{6\\times {10}^{6}{in.}^{2}} = 1.33 \\times {10}^{2} in.,; Height of money \\approx 1 \\times {10}^{2} in. = 100 in.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "The height of the money will be about 100 in. high. Converting this value to feet gives $100 in.\\times \\frac{1 ft}{12 in.}=8.33 ft\\approx 8 ft.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "The final approximate value is much higher than the early estimate of 3 in., but the other early estimate of 10 ft (120 in.) was roughly correct. How did the approximation measure up to your first guess? What can this exercise tell you in terms of rough “guesstimates” versus carefully calculated approximations?",
+              "inline": []
+            }
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-ex-3",
+          "statement": {
+            "text": "Approximate the Height of a Building",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "osbooks-college-physics-bundle",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+            "locator": "CNXML module m42121, worked example",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Can you approximate the height of one of the buildings on your campus, or in your neighborhood?"
+            },
+            {
+              "step_number": 2,
+              "expression": "Let us make an approximation based upon the height of a person."
+            },
+            {
+              "step_number": 3,
+              "expression": "In this example, we will calculate the height of a 39-story building."
+            },
+            {
+              "step_number": 4,
+              "expression": "Think about the average height of an adult male."
+            },
+            {
+              "step_number": 5,
+              "expression": "We can approximate the height of the building by scaling up from the height of a person."
+            },
+            {
+              "step_number": 6,
+              "expression": "Based on information in the example, we know there are 39 stories in the building."
+            },
+            {
+              "step_number": 7,
+              "expression": "If we use the fact that the height of one story is approximately equal to about the length of two adult humans (each human is about 2-m tall), then we can estimate the total height of the building to be $\\frac{2 m}{1 person}\\times \\frac{2 person}{1 story}\\times 39 stories = 156 m.$ You can use known quantities to determine an approximate measurement of unknown quantities."
+            },
+            {
+              "step_number": 8,
+              "expression": "If your hand measures 10 cm across, how many hand lengths equal the width of your desk?"
+            },
+            {
+              "step_number": 9,
+              "expression": "What other measurements can you approximate besides length?"
+            }
+          ],
+          "answer": {
+            "text": "Can you approximate the height of one of the buildings on your campus, or in your neighborhood? Let us make an approximation based upon the height of a person. In this example, we will calculate the height of a 39-story building. Think about the average height of an adult male. We can approximate the height of the building by scaling up from the height of a person. Based on information in the example, we know there are 39 stories in the building. If we use the fact that the height of one story is approximately equal to about the length of two adult humans (each human is about 2-m tall), then we can estimate the total height of the building to be $\\frac{2 m}{1 person}\\times \\frac{2 person}{1 story}\\times 39 stories = 156 m.$ You can use known quantities to determine an approximate measurement of unknown quantities. If your hand measures 10 cm across, how many hand lengths equal the width of your desk? What other measurements can you approximate besides length?",
+            "inline": []
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "An approximation is a guess.",
+            "inline": []
+          },
+          "correction": {
+            "text": "An approximation is a reasoned estimate built from known quantities and simple arithmetic. A guess has no stated basis.",
+            "inline": []
+          },
+          "signal": {
+            "text": "The word approximate is often read as careless. In physics it is a controlled estimate.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42121",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "An order-of-magnitude answer is useless because it is not exact.",
+            "inline": []
+          },
+          "correction": {
+            "text": "An order-of-magnitude answer checks whether an exact answer is plausible and catches large errors in units or powers of ten.",
+            "inline": []
+          },
+          "signal": {
+            "text": "An exact-looking answer can still be wrong by a factor of a thousand.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42121",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "An approximation is a reasoned estimate, not a guess.",
+          "inline": []
+        },
+        {
+          "text": "Order-of-magnitude estimates use powers of ten and simple arithmetic.",
+          "inline": []
+        },
+        {
+          "text": "Approximations check whether an exact answer is plausible and expose large errors.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-5-01",
+        "ex-sec-5-02",
+        "ex-sec-5-03",
+        "ex-sec-5-04",
+        "ex-sec-5-05",
+        "ex-sec-5-06"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+        "locator": "CNXML module m42121",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-sec-2-01",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "In one sentence, state the difference between a scientific model and a scientific theory.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "A model is a simplified representation used to make predictions; a theory is a well-tested explanation that can be revised.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "A model simplifies a system so that its behaviour can be predicted."
+        },
+        {
+          "step_number": 2,
+          "expression": "A theory explains a broad set of observations and is tested against experiment. It is not a guess, and it can be revised."
+        }
+      ],
+      "tags": [
+        "physics-an-introduction"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-02",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "verbal",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A theory predicts that a new particle will decay in a certain way. An experiment finds a different decay pattern. What should happen to the theory, and why?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "It must be revised or replaced, because experiment decides whether a theory stands.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "A theory is tested by its predictions."
+        },
+        {
+          "step_number": 2,
+          "expression": "When a prediction fails, the theory cannot be kept unchanged."
+        },
+        {
+          "step_number": 3,
+          "expression": "The theory is revised or replaced by one that fits the evidence."
+        }
+      ],
+      "tags": [
+        "physics-an-introduction"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-03",
+      "section_id": "sec-2",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "A model of a bridge treats the bridge as a perfectly rigid beam. Give one situation in which this model is useful and one in which it fails.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Useful when the bridge bends only slightly under normal loads; it fails when the bridge bends a lot, vibrates, or breaks.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The rigid-beam model is useful when deformation is small compared with the bridge's size."
+        },
+        {
+          "step_number": 2,
+          "expression": "It fails when deformation, vibration or failure matters, because those depend on the bridge's elasticity and structure."
+        }
+      ],
+      "tags": [
+        "physics-an-introduction"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-3-01",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a hummingbird to beat its wings once. Which fundamental unit should the scientist use to describe the measurement? Which factor of 10 is the scientist likely to use to describe the motion precisely? Identify the metric prefix that corresponds to this factor of 10.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "{10}^{-3}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings beat so fast, the scientist will probably need to measure in milliseconds, or ${10}^{-3}$ seconds. (50 beats per second corresponds to 20 milliseconds per beat.)"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-60",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-02",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a milliliter is dependent on the measure of a centimeter.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a milliliter is dependent on the measure of a centimeter."
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-63",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-03",
+      "section_id": "sec-3",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "The speed limit on some interstate highways is roughly 100 km/h. (a) What is this in meters per second? (b) How many miles per hour is this?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) $27.8 m/s$ (b) $62.1 mph$",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) $27.8 m/s$"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) $62.1 mph$"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-71",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-04",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Show that $1.0 m/s=3.6 km/h$. Hint: Show the explicit steps involved in converting $1.0 m/s=3.6 km/h.$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "3.6 km/h",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$\\frac{1.0 m}{s}=\\frac{1.0 m}{s}×\\frac{3600 s}{1 hr}×\\frac{1 km}{1000 m}$"
+        },
+        {
+          "step_number": 2,
+          "expression": "$=3.6 km/h.$"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-75",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-05",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches? (Assume that 1 meter equals 3.281 feet.)",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "280 ft;3.3×{10}^{3}in",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "length: $377 ft;4.53×{10}^{3}in.$ width: $280 ft;3.3×{10}^{3}in.$"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-80",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-06",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Mount Everest, at 29,028 feet, is the tallest mountain on the Earth. What is its height in kilometers? (Assume that 1 kilometer equals 3,281 feet.)",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "8.847 km",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$8.847 km$"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-85",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-07",
+      "section_id": "sec-3",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average speed of 4.0 cm/year. (a) What distance does it move in 1 s at this speed? (b) What is its speed in kilometers per million years?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) $1.3×{10}^{-9}m$ (b) $40 km/My$",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) $1.3×{10}^{-9}m$"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) $40 km/My$"
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, exercise block exr-89",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-08",
+      "section_id": "sec-3",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Convert 2.5 km to metres.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "2500 m",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "1 km = 1000 m."
+        },
+        {
+          "step_number": 2,
+          "expression": "2.5 km × 1000 m/km = 2500 m."
+        }
+      ],
+      "tags": [
+        "physical-quantities-and-units"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-4-01",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of ±0.05 s. The team's top sprinter clocked a 100 meter sprint at 12.04 seconds last week and at 11.96 seconds this week. Can we conclude that this week's time was faster?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "No, the uncertainty in the stopwatch is too great to effectively differentiate between the sprint times.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "No, the uncertainty in the stopwatch is too great to effectively differentiate between the sprint times."
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-25",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-02",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Determine the number of significant figures in the following measurements: 0.0009; 15,450.0; $6\\times {10}^{3}$; 87.990; 30.42",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) 1; the zeros in this number are placekeepers that indicate the decimal point (b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal point, so the zeros are significant (c) 1; the value ${10}^{3}$ signifies the decimal place, not the number of measured values (d) 5; the final zero indicates that a measurement was made to the 0.001 decimal point, so it is significant (e) 4; any zeros located in between significant figures in a number are also significant",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) 1; the zeros in this number are placekeepers that indicate the decimal point"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal point, so the zeros are significant"
+        },
+        {
+          "step_number": 3,
+          "expression": "(c) 1; the value ${10}^{3}$ signifies the decimal place, not the number of measured values"
+        },
+        {
+          "step_number": 4,
+          "expression": "(d) 5; the final zero indicates that a measurement was made to the 0.001 decimal point, so it is significant"
+        },
+        {
+          "step_number": 5,
+          "expression": "(e) 4; any zeros located in between significant figures in a number are also significant"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-33",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-03",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Perform the following calculations and express your answer using the correct number of significant digits. (a) A woman has three bags: two of the bags weigh 13.5 pounds each, and one bag weighs of 10.2 pounds. What is the total weight of the bags? (b) The force $F$ on an object is equal to its mass $m$ multiplied by its acceleration $a$. If a wagon with mass 55 kg accelerates at a rate of $0.0255{m/s}^{2}$, what is the force on the wagon? (The unit of force is called the newton, and it is expressed with the symbol N.)",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures. (b) 1.4 N; Because the value 55 kg has only two significant figures, the final value must also contain two significant figures.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures."
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) 1.4 N; Because the value 55 kg has only two significant figures, the final value must also contain two significant figures."
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-49",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-04",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Suppose that your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "2 kg",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "2 kg"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-63",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-05",
+      "section_id": "sec-4",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "(a) A car speedometer has a $5.0%$ uncertainty. What is the range of possible speeds when it reads $90 km/h$? (b) Convert this range to miles per hour. $(1 km=0.6214 mi)$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) $85to 95km/h$ (b) $53to 59mi/h$",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) $85to 95km/h$"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) $53to 59mi/h$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-67",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-06",
+      "section_id": "sec-4",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "(a) Suppose that a person has an average heart rate of 72.0 beats/min. How many beats do they have in 2.0 y? (b) In 2.00 y? (c) In 2.000 y?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) $7.6×{10}^{7}beats$ (b) $7.57×{10}^{7}beats$ (c) $7.57×{10}^{7}beats$",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) $7.6×{10}^{7}beats$"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) $7.57×{10}^{7}beats$"
+        },
+        {
+          "step_number": 3,
+          "expression": "(c) $7.57×{10}^{7}beats$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-71",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-07",
+      "section_id": "sec-4",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "State how many significant figures are proper in the results of the following calculations: (a) $(106.7)(98.2)/(46.210)(1.01)$ (b) ${(18.7)}^{2}$ (c) $(1.60\\times {10}^{-19})(3712)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) 3 (b) 3 (c) 3",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) 3"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) 3"
+        },
+        {
+          "step_number": 3,
+          "expression": "(c) 3"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-78",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-08",
+      "section_id": "sec-4",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "(a) If your speedometer has an uncertainty of $2.0 km/h$ at a speed of $90 km/h$, what is the percent uncertainty? (b) If it has the same percent uncertainty when it reads $60 km/h$, what is the range of speeds you could be going?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "(a) $2.2%$ (b) $59 to 61 km/h$",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a) $2.2%$"
+        },
+        {
+          "step_number": 2,
+          "expression": "(b) $59 to 61 km/h$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-82",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-09",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A person measures their heart rate by counting the number of beats in $30 s$. If $40±1$ beats are counted in $30.0±0.5 s$, what is the heart rate and its uncertainty in beats per minute?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "80±3",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$80±3$ beats/min"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-86",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-10",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "If a marathon runner averages 9.5 mi/h, how long does it take him or her to run a 26.22-mi marathon?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "2.8h",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$2.8h$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-90",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-11",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "The sides of a small rectangular box are measured to be $1.80±0.01 cm$, $$ $2.05±0.02 cm, and 3.1±0.1 cm$ long. Calculate its volume and uncertainty in cubic centimeters.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "11.4±0.6{cm}^{3}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$11.4±0.6{cm}^{3}$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-94",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-12",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "The length and width of a rectangular room are measured to be $3.955±0.005 m$ and $3.050±0.005 m$. Calculate the area of the room and its uncertainty in square meters.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "12.06±0.04{m}^{2}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$12.06±0.04{m}^{2}$"
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, exercise block exr-98",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-13",
+      "section_id": "sec-4",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "How many significant figures are in the measurement 0.00450 m?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "3",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Leading zeros are not significant."
+        },
+        {
+          "step_number": 2,
+          "expression": "The digits 4, 5 and the trailing zero after the decimal point are significant."
+        },
+        {
+          "step_number": 3,
+          "expression": "The measurement has 3 significant figures."
+        }
+      ],
+      "tags": [
+        "accuracy-precision-and-significant-figures"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-4",
+        "locator": "authored exercise for sec-4",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-5-01",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approximation.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "420{m}^{2}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "An average male is about two meters tall. It would take approximately 15 males laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of $420{m}^{2}.$"
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, exercise block exr-20",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-02",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "How many heartbeats are there in a lifetime?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "2×{10}^{9}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Sample answer: $2×{10}^{9}$ heartbeats"
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, exercise block exr-26",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-03",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "How many times longer than the mean life of an extremely unstable atomic nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of ${10}^{-22}s$.)",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "2×{10}^{31}",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Sample answer: $2×{10}^{31}$ if an average human lifetime is taken to be about 70 years."
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, exercise block exr-31",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-04",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Sample answer: 50 atoms",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Sample answer: 50 atoms"
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, exercise block exr-37",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-05",
+      "section_id": "sec-5",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "(a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium. (b) Making the same assumption, how many cells are there in a human?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Sample answers: (a) ${10}^{12}$ cells/hummingbird (b) ${10}^{16}$ cells/human",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Sample answers:"
+        },
+        {
+          "step_number": 2,
+          "expression": "(a) ${10}^{12}$ cells/hummingbird"
+        },
+        {
+          "step_number": 3,
+          "expression": "(b) ${10}^{16}$ cells/human"
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, exercise block exr-42",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-06",
+      "section_id": "sec-5",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Estimate the number of seconds in one day to the nearest order of magnitude.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "about 10^5 s",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "One day has 24 hours."
+        },
+        {
+          "step_number": 2,
+          "expression": "One hour has 3600 seconds."
+        },
+        {
+          "step_number": 3,
+          "expression": "24 × 3600 = 86,400 s."
+        },
+        {
+          "step_number": 4,
+          "expression": "The nearest power of ten is 10^5 s."
+        }
+      ],
+      "tags": [
+        "approximation"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_nature_of_science/sections/sec-5",
+        "locator": "authored exercise for sec-5",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    }
+  ],
+  "exam_links": [
+    {
+      "exam": "JAMB",
+      "subject": "physics",
+      "topic_slug": "measurements-and-units",
+      "subtopic_slug": null,
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "physics",
+      "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+      "subtopic_slug": null,
+      "status": "covered",
+      "papers": []
+    }
+  ],
+  "exam_traps": [],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "A scientific theory is best described as",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "a guess that has not been tested"
+        },
+        {
+          "id": "b",
+          "text": "a well-tested explanation that can be revised"
+        },
+        {
+          "id": "c",
+          "text": "a law that has been proved"
+        },
+        {
+          "id": "d",
+          "text": "a model that is always exact"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "A theory explains observations and is tested against experiment. It is not a guess, and it can be revised.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "Which of these is an SI base unit?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "newton"
+        },
+        {
+          "id": "b",
+          "text": "joule"
+        },
+        {
+          "id": "c",
+          "text": "kilogram"
+        },
+        {
+          "id": "d",
+          "text": "watt"
+        }
+      ],
+      "answer": "c",
+      "explanation": {
+        "text": "The kilogram is the SI base unit of mass. The newton, joule and watt are derived units.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": {
+        "text": "A set of repeated measurements is close to one another but far from the true value. The measurements are",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "accurate but not precise"
+        },
+        {
+          "id": "b",
+          "text": "precise but not accurate"
+        },
+        {
+          "id": "c",
+          "text": "both accurate and precise"
+        },
+        {
+          "id": "d",
+          "text": "neither precise nor accurate"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Precision is agreement among repeated measurements. Accuracy is closeness to the true value. A precise set can be consistently wrong.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "The order of magnitude of 0.00042 m is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "10^-4 m"
+        },
+        {
+          "id": "b",
+          "text": "10^-3 m"
+        },
+        {
+          "id": "c",
+          "text": "10^-5 m"
+        },
+        {
+          "id": "d",
+          "text": "10^-2 m"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "0.00042 m = 4.2 × 10^-4 m. The nearest power of ten is 10^-4 m.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "College Physics 2e",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+      "locator": "College Physics 2e, chapter 1, modules m42119, m42092, m42091, m42120, m42121",
+      "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+    }
+  ],
+  "no_formula_reason": "This chapter teaches measurement and the language of physics. It introduces no physical law of its own."
+}

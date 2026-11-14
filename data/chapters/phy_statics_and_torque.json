@@ -5,6 +5,7 @@
   "title": "Statics and Torque",
   "book_id": "secondary_physics",
   "part_id": "part-2",
+  "order": 6,
   "facts_inherited": false,
   "learning_objectives": [
     {
@@ -23,7 +24,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_forces_and_newtons_laws"
+  ],
   "formula_sheet": [
     {
       "id": "f-1",
@@ -226,7 +229,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "What might desks, bridges, buildings, trees, and mountains have in common—at least in the eyes of a physicist? The answer is that they are ordinarily motionless relative to the Earth. Furthermore, their acceleration is zero because they remain motionless. That means they also have something in common with a car moving at a constant velocity, because anything with a constant velocity also has an acceleration of zero. Now, the important part—Newton’s second law states that net $F=ma$ , and so the net external force is zero for all stationary objects and for all objects moving at constant velocity. There are forces acting, but they are balanced. That is, they are in *equilibrium* .",
+              "text": "What might desks, bridges, buildings, trees, and mountains have in common—at least in the eyes of a physicist? The answer is that they are ordinarily motionless relative to the Earth. Furthermore, their acceleration is zero because they remain motionless. That means they also have something in common with a car moving at a constant velocity, because anything with a constant velocity also has an acceleration of zero. Now, the important part—Newton’s second law states that net $F=ma$, and so the net external force is zero for all stationary objects and for all objects moving at constant velocity. There are forces acting, but they are balanced. That is, they are in *equilibrium*.",
               "inline": []
             }
           },
@@ -314,6 +317,11 @@
           "id": "lo-1",
           "statement": "Use the first condition for equilibrium, that the net force is zero.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Resolve forces into components and apply the first condition in two dimensions.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -322,7 +330,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "The first condition necessary to achieve equilibrium is the one already mentioned: the net external force on the system must be zero. Expressed as an equation, this is simply",
+              "text": "The first condition necessary to achieve equilibrium is the one already mentioned: the net external force on the system must be zero. Expressed as an equation, this is simply $net F=0$",
               "inline": []
             }
           },
@@ -330,7 +338,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "Note that if net $F$ is zero, then the net external force in *any* direction is zero. For example, the net external forces along the typical *x* - and *y* -axes are zero. This is written as",
+              "text": "Note that if net $F$ is zero, then the net external force in *any* direction is zero. For example, the net external forces along the typical *x* - and *y* -axes are zero. This is written as $net {F}_{x}=0 and net {F}_{y}=0$",
               "inline": []
             }
           },
@@ -338,7 +346,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "and illustrate situations where $netF=0$ for both static equilibrium (motionless), and dynamic equilibrium (constant velocity).",
+              "text": "The figure and the figure illustrate situations where $net F=0$ for both static equilibrium (motionless), and dynamic equilibrium (constant velocity).",
               "inline": []
             }
           },
@@ -368,7 +376,7 @@
             "id": "b-6",
             "type": "paragraph",
             "content": {
-              "text": "However, it is not sufficient for the net external force of a system to be zero for a system to be in equilibrium. Consider the two situations illustrated in and where forces are applied to an ice hockey stick lying flat on ice. The net external force is zero in both situations shown in the figure; but in one case, equilibrium is achieved, whereas in the other, it is not. In , the ice hockey stick remains motionless. But in , with the same forces applied in different places, the stick experiences accelerated rotation. Therefore, we know that the point at which a force is applied is another factor in determining whether or not equilibrium is achieved. This will be explored further in the next section.",
+              "text": "However, it is not sufficient for the net external force of a system to be zero for a system to be in equilibrium. Consider the two situations illustrated in the figure and the figure where forces are applied to an ice hockey stick lying flat on ice. The net external force is zero in both situations shown in the figure; but in one case, equilibrium is achieved, whereas in the other, it is not. In the figure, the ice hockey stick remains motionless. But in the figure, with the same forces applied in different places, the stick experiences accelerated rotation. Therefore, we know that the point at which a force is applied is another factor in determining whether or not equilibrium is achieved. This will be explored further in the next section.",
               "inline": []
             }
           },
@@ -401,30 +409,6 @@
               "text": "Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.",
               "inline": []
             }
-          },
-          {
-            "id": "b-10",
-            "type": "paragraph",
-            "content": {
-              "text": "Click to view content .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-11",
-            "type": "paragraph",
-            "content": {
-              "text": "What can you say about the velocity of a moving body that is in dynamic equilibrium? Draw a sketch of such a body using clearly labeled arrows to represent all external forces on the body.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-12",
-            "type": "paragraph",
-            "content": {
-              "text": "Under what conditions can a rotating body be in equilibrium? Give an example.",
-              "inline": []
-            }
           }
         ]
       },
@@ -447,6 +431,50 @@
             "locator": "CNXML module m42170",
             "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "The normal force on a body resting on a floor is half its weight.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The floor pushes up with a force equal to the weight, so the normal force is the whole weight.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers half the weight as an option.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-1, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-3",
+          "claim": {
+            "text": "The normal force on a body resting on a floor is a tenth of its weight.",
+            "inline": []
+          },
+          "correction": {
+            "text": "It is the whole weight. The floor pushes up with exactly the force the weight pushes down.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the value with the mass alone.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-5, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
         }
       ],
       "summary_points": [
@@ -463,13 +491,17 @@
           "inline": []
         }
       ],
-      "exercise_ids": [],
+      "exercise_ids": [
+        "ex-sec-2-01",
+        "ex-sec-2-02",
+        "ex-sec-2-03"
+      ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "conditions-for-equilibrium-of-rigid-bodies-under-parallel-an",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
@@ -477,7 +509,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-conditions-for-equilibrium-of-rigid-bodies-under-the-action-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -509,6 +541,11 @@
           "id": "lo-1",
           "statement": "Use the second condition for equilibrium, that the net moment is zero.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Calculate the moment of a force about a chosen pivot and apply the principle of moments.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -525,7 +562,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "Several familiar factors determine how effective you are in opening the door. See . First of all, the larger the force, the more effective it is in opening the door—obviously, the harder you push, the more rapidly the door opens. Also, the point at which you push is crucial. If you apply your force too close to the hinges, the door will open slowly, if at all. Most people have been embarrassed by making this mistake and bumping up against a door when it did not open as quickly as expected. Finally, the direction in which you push is also important. The most effective direction is perpendicular to the door—we push in this direction almost instinctively.",
+              "text": "Several familiar factors determine how effective you are in opening the door. See the figure. First of all, the larger the force, the more effective it is in opening the door—obviously, the harder you push, the more rapidly the door opens. Also, the point at which you push is crucial. If you apply your force too close to the hinges, the door will open slowly, if at all. Most people have been embarrassed by making this mistake and bumping up against a door when it did not open as quickly as expected. Finally, the direction in which you push is also important. The most effective direction is perpendicular to the door—we push in this direction almost instinctively.",
               "inline": []
             }
           },
@@ -544,7 +581,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "The magnitude, direction, and point of application of the force are incorporated into the definition of the physical quantity called torque. Torque is the rotational equivalent of a force. It is a measure of the effectiveness of a force in changing or accelerating a rotation (changing the angular velocity over a period of time). In equation form, the magnitude of torque is defined to be",
+              "text": "The magnitude, direction, and point of application of the force are incorporated into the definition of the physical quantity called torque. Torque is the rotational equivalent of a force. It is a measure of the effectiveness of a force in changing or accelerating a rotation (changing the angular velocity over a period of time). In equation form, the magnitude of torque is defined to be $τ=rF sin θ$",
               "inline": []
             }
           },
@@ -552,7 +589,7 @@
             "id": "b-5",
             "type": "paragraph",
             "content": {
-              "text": "where $τ$ (the Greek letter tau) is the symbol for torque, $r$ is the distance from the pivot point to the point where the force is applied, $F$ is the magnitude of the force, and $θ$ is the angle between the force and the vector directed from the point of application to the pivot point, as seen in and . An alternative expression for torque is given in terms of the perpendicular lever arm ${r}_{⊥}$ as shown in and , which is defined as",
+              "text": "where $τ$ (the Greek letter tau) is the symbol for torque, $r$ is the distance from the pivot point to the point where the force is applied, $F$ is the magnitude of the force, and $θ$ is the angle between the force and the vector directed from the point of application to the pivot point, as seen in the figure and the figure. An alternative expression for torque is given in terms of the perpendicular lever arm ${r}_{⊥}$ as shown in the figure and the figure, which is defined as ${r}_{⊥}=r sin θ$",
               "inline": []
             }
           },
@@ -571,7 +608,7 @@
             "id": "b-7",
             "type": "paragraph",
             "content": {
-              "text": "The perpendicular lever arm ${r}_{⊥}$ is the shortest distance from the pivot point to the line along which $F$ acts; it is shown as a dashed line in and . Note that the line segment that defines the distance ${r}_{⊥}$ is perpendicular to $F$ , as its name implies. It is sometimes easier to find or visualize ${r}_{⊥}$ than to find both $r$ and $θ$ . In such cases, it may be more convenient to use $τ={r}_{⊥}F$ rather than $τ=rFsinθ$ for torque, but both are equally valid.",
+              "text": "The perpendicular lever arm ${r}_{⊥}$ is the shortest distance from the pivot point to the line along which $F$ acts; it is shown as a dashed line in the figure and the figure. Note that the line segment that defines the distance ${r}_{⊥}$ is perpendicular to $F$, as its name implies. It is sometimes easier to find or visualize ${r}_{⊥}$ than to find both $r$ and $θ$. In such cases, it may be more convenient to use $τ={r}_{⊥}F$ rather than $τ=rF sin θ$ for torque, but both are equally valid.",
               "inline": []
             }
           },
@@ -579,7 +616,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "The SI unit of torque is newtons times meters, usually written as $N\\cdot m$ . For example, if you push perpendicular to the door with a force of 40 N at a distance of 0.800 m from the hinges, you exert a torque of 32 N·m(0.800 m × 40 N × sin 90º) relative to the hinges. If you reduce the force to 20 N, the torque is reduced to $16 N·m$ , and so on.",
+              "text": "The SI unit of torque is newtons times meters, usually written as $N\\cdot m$. For example, if you push perpendicular to the door with a force of 40 N at a distance of 0.800 m from the hinges, you exert a torque of 32 N·m(0.800 m × 40 N × sin 90º) relative to the hinges. If you reduce the force to 20 N, the torque is reduced to $16 N·m$, and so on.",
               "inline": []
             }
           },
@@ -595,7 +632,7 @@
             "id": "b-10",
             "type": "paragraph",
             "content": {
-              "text": "Note that for rotation in a plane, torque has two possible directions. Torque is either clockwise or counterclockwise relative to the chosen pivot point, as illustrated for points B and A, respectively, in . If the object can rotate about point A, it will rotate counterclockwise, which means that the torque for the force is shown as counterclockwise relative to A. But if the object can rotate about point B, it will rotate clockwise, which means the torque for the force shown is clockwise relative to B. Also, the magnitude of the torque is greater when the lever arm is longer.",
+              "text": "Note that for rotation in a plane, torque has two possible directions. Torque is either clockwise or counterclockwise relative to the chosen pivot point, as illustrated for points B and A, respectively, in the figure. If the object can rotate about point A, it will rotate counterclockwise, which means that the torque for the force is shown as counterclockwise relative to A. But if the object can rotate about point B, it will rotate clockwise, which means the torque for the force shown is clockwise relative to B. Also, the magnitude of the torque is greater when the lever arm is longer.",
               "inline": []
             }
           },
@@ -603,7 +640,7 @@
             "id": "b-11",
             "type": "paragraph",
             "content": {
-              "text": "Now, *the second condition necessary to achieve equilibrium* is that *the net external torque on a system must be zero* . An external torque is one that is created by an external force. You can choose the point around which the torque is calculated. The point can be the physical pivot point of a system or any other point in space—but it must be the same point for all torques. If the second condition (net external torque on a system is zero) is satisfied for one choice of pivot point, it will also hold true for any other choice of pivot point in or out of the system of interest. (This is true only in an inertial frame of reference.) The second condition necessary to achieve equilibrium is stated in equation form as",
+              "text": "Now, *the second condition necessary to achieve equilibrium* is that *the net external torque on a system must be zero*. An external torque is one that is created by an external force. You can choose the point around which the torque is calculated. The point can be the physical pivot point of a system or any other point in space—but it must be the same point for all torques. If the second condition (net external torque on a system is zero) is satisfied for one choice of pivot point, it will also hold true for any other choice of pivot point in or out of the system of interest. (This is true only in an inertial frame of reference.) The second condition necessary to achieve equilibrium is stated in equation form as $net τ=0$",
               "inline": []
             }
           },
@@ -619,7 +656,7 @@
             "id": "b-13",
             "type": "paragraph",
             "content": {
-              "text": "When two children balance a seesaw as shown in , they satisfy the two conditions for equilibrium. Most people have perfect intuition about seesaws, knowing that the lighter child must sit farther from the pivot and that a heavier child can keep a lighter one off the ground indefinitely.",
+              "text": "When two children balance a seesaw as shown in the figure, they satisfy the two conditions for equilibrium. Most people have perfect intuition about seesaws, knowing that the lighter child must sit farther from the pivot and that a heavier child can keep a lighter one off the ground indefinitely.",
               "inline": []
             }
           },
@@ -633,153 +670,6 @@
             },
             "alt": "Two children are sitting on a seesaw. On the left side, a lighter child is sitting and on the right, a heavier one. The distance of the lighter child from the fulcrum is more than that of heavier child. At the fulcrum, an upward force vector labeled as F-p is shown. The weights of the two children, w-one and w-two, are shown as vectors in the downward direction, and the force at the fulcrum, F-p, is shown as a vector in the upward direction.",
             "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-15",
-            "type": "paragraph",
-            "content": {
-              "text": "Which of the following is not an example of an object undergoing a torque?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-16",
-            "type": "paragraph",
-            "content": {
-              "text": "Five forces of equal magnitude, labeled **A** – **E** , are applied to the object shown below. If the object is anchored at point **P** , which force will provide the greatest torque?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-17",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/e3d896b4fe12ea2f8d307a2c4c7e2fffe4ec237e9d65fa5ef114e74ba19ba05a.jpg",
-            "caption": {
-              "text": "Five forces acting on an object.",
-              "inline": []
-            },
-            "alt": "The diagram shows a gray that is a rounded shape of a shoe. Slightly to the right of center is a black dot labeled P. There are 5 red arrows nearly perpendicular to the curved line representing the edge of the object. Arrow A is pointing straight down toward where the line curves around the top. Arrow B is a horizontal line pointing away from the object as the edge curves slightly in an almost vertical line. Arrow C is pointing directly below the P from the edge down. At this point the object begins to curve up from the horizontal. Arrow D is pointing toward straight up toward the object's edge where the object is curving upward more than point C. Arrow E is pointing toward the left edge at around a 45 degree angle toward the object and is approximately perpendicular to the object again.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-18",
-            "type": "paragraph",
-            "content": {
-              "text": "where $τ$ is torque, $r$ is the distance from the pivot point to the point where the force is applied, $F$ is the magnitude of the force, and $θ$ is the angle between $F$ and the vector directed from the point where the force acts to the pivot point. The perpendicular lever arm ${r}_{⊥}$ is defined to be",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "By convention, counterclockwise torques are positive, and clockwise torques are negative.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "What three factors affect the torque created by a force relative to a specific pivot point?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "A wrecking ball is being used to knock down a building. One tall unsupported concrete wall remains standing. If the wrecking ball hits the wall near the top, is the wall more likely to fall over by rotating at its base or by falling straight down? Explain your answer. How is it most likely to fall if it is struck with the same force at its base? Note that this depends on how firmly the wall is attached at its base.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "Mechanics sometimes put a length of pipe over the handle of a wrench when trying to remove a very tight bolt. How does this help? (It is also hazardous since it can break the bolt.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850m from the hinges. What torque are you exerting relative to the hinges? (b) Does it matter if you push at the same height as the hinges?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-25",
-            "type": "paragraph",
-            "content": {
-              "text": "b) It does not matter at what height you push. The torque depends on only the magnitude of the force applied and the perpendicular distance of the force’s application from the hinges. (Children don’t have a tougher time opening a door because they push lower than adults, they have a tougher time because they don’t push far enough from the hinges.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-26",
-            "type": "paragraph",
-            "content": {
-              "text": "When tightening a bolt, you push perpendicularly on a wrench with a force of 165 N at a distance of 0.140 m from the center of the bolt. (a) How much torque are you exerting in newton × meters (relative to the center of the bolt)? (b) Convert this torque to footpounds.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "Two children push on opposite sides of a door during play. Both push horizontally and perpendicular to the door. One child pushes with a force of 17.5 N at a distance of 0.600 m from the hinges, and the second child pushes at a distance of 0.450 m. What force must the second child exert to keep the door from moving? Assume friction is negligible.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "paragraph",
-            "content": {
-              "text": "Use the second condition for equilibrium $(net τ = 0)$ to calculate ${F}_{p}$ in , employing any data given or solved for in part (a) of the example.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-29",
-            "type": "paragraph",
-            "content": {
-              "text": "Repeat the seesaw problem in with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-30",
-            "type": "paragraph",
-            "content": {
-              "text": "a) Since children are balancing:",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-31",
-            "type": "paragraph",
-            "content": {
-              "text": "So, solving for ${r}_{2}$ gives:",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-32",
-            "type": "paragraph",
-            "content": {
-              "text": "b) Since the children are not moving:",
-              "inline": []
-            }
           }
         ]
       },
@@ -800,7 +690,7 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "The two children shown in are balanced on a seesaw of negligible mass."
+              "expression": "The two children shown in the figure are balanced on a seesaw of negligible mass."
             },
             {
               "step_number": 2,
@@ -808,7 +698,7 @@
             },
             {
               "step_number": 3,
-              "expression": "(b) What is ${F}_{p}$ , the supporting force exerted by the pivot?"
+              "expression": "(b) What is ${F}_{p}$, the supporting force exerted by the pivot?"
             },
             {
               "step_number": 4,
@@ -840,7 +730,7 @@
             },
             {
               "step_number": 11,
-              "expression": "Torque is defined to be Here $θ=90º$ , so that $sinθ=1$ for all three forces."
+              "expression": "Torque is defined to be $τ=rF sin θ.$ Here $θ=90º$, so that $sin θ=1$ for all three forces."
             },
             {
               "step_number": 12,
@@ -848,7 +738,7 @@
             },
             {
               "step_number": 13,
-              "expression": "The torques exerted by the three forces are first, Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention."
+              "expression": "The torques exerted by the three forces are first, ${τ}_{1}={r}_{1}{w}_{1}$ Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention."
             },
             {
               "step_number": 14,
@@ -864,23 +754,23 @@
             },
             {
               "step_number": 17,
-              "expression": "Therefore Weight is mass times the acceleration due to gravity."
+              "expression": "Therefore ${τ}_{2}={-τ}_{1},$ Weight is mass times the acceleration due to gravity."
             },
             {
               "step_number": 18,
-              "expression": "Entering $mg$ for $w$ , we get Solve this for the unknown ${r}_{2}$ *:* The quantities on the right side of the equation are known; thus, ${r}_{2}$ is As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw."
+              "expression": "Entering $mg$ for $w$, we get ${r}_{2}{m}_{2}g={r}_{1}{m}_{1}g.$ Solve this for the unknown ${r}_{2}$ *:* ${r}_{2}={r}_{1}\\frac{{m}_{1}}{{m}_{2}}.$ The quantities on the right side of the equation are known; thus, ${r}_{2}$ is ${r}_{2}=(1.60 m)\\frac{26.0 kg}{32.0 kg}=1.30 m.$ As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw."
             },
             {
               "step_number": 19,
-              "expression": "This part asks for a force ${F}_{p}$ ."
+              "expression": "This part asks for a force ${F}_{p}$."
             },
             {
               "step_number": 20,
-              "expression": "The easiest way to find it is to use the first condition for equilibrium, which is The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as where we again call the vertical axis the *y* -axis."
+              "expression": "The easiest way to find it is to use the first condition for equilibrium, which is $net F=0.$ The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as $net {F}_{y}=0$ where we again call the vertical axis the *y* -axis."
             },
             {
               "step_number": 21,
-              "expression": "Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that This equation yields what might have been guessed at the beginning: So, the pivot supplies a supporting force equal to the total weight of the system: Entering known values gives The two results make intuitive sense."
+              "expression": "Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that ${F}_{p}-{w}_{1}-{w}_{2}=0.$ This equation yields what might have been guessed at the beginning: ${F}_{p}={w}_{1}+{w}_{2}.$ So, the pivot supplies a supporting force equal to the total weight of the system: ${F}_{p}={m}_{1}g+{m}_{2}g.$ Entering known values gives ${F}_{p} = (26.0 kg)(9.80 {m/s}^{2})+(32.0 kg)(9.80 {m/s}^{2}) = 568 N.$ The two results make intuitive sense."
             },
             {
               "step_number": 22,
@@ -920,7 +810,7 @@
             },
             {
               "step_number": 31,
-              "expression": "*This will not always be the case* ."
+              "expression": "*This will not always be the case*."
             },
             {
               "step_number": 32,
@@ -964,32 +854,8 @@
             }
           ],
           "answer": {
-            "text": "The two children shown in are balanced on a seesaw of negligible mass. (This assumption is made to keep the example simple—more involved examples will follow.) The first child has a mass of 26.0 kg and sits 1.60 m from the pivot.(a) If the second child has a mass of 32.0 kg, how far is she from the pivot? (b) What is ${F}_{p}$ , the supporting force exerted by the pivot? Both conditions for equilibrium must be satisfied. In part (a), we are asked for a distance; thus, the second condition (regarding torques) must be used, since the first (regarding only forces) has no distances in it. To apply the second condition for equilibrium, we first identify the system of interest to be the seesaw plus the two children. We take the supporting pivot to be the point about which the torques are calculated. We then identify all external forces acting on the system. The three external forces acting on the system are the weights of the two children and the supporting force of the pivot. Let us examine the torque produced by each. Torque is defined to be Here $θ=90º$ , so that $sinθ=1$ for all three forces. That means ${r}_{⊥}=r$ for all three. The torques exerted by the three forces are first, Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since ${F}_{p}$ acts directly on the pivot point, the distance ${r}_{p}$ is zero. A force acting on the pivot cannot cause a rotation, just as pushing directly on the hinges of a door will not cause it to rotate. Now, the second condition for equilibrium is that the sum of the torques on both children is zero. Therefore Weight is mass times the acceleration due to gravity. Entering $mg$ for $w$ , we get Solve this for the unknown ${r}_{2}$ *:* The quantities on the right side of the equation are known; thus, ${r}_{2}$ is As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw. This part asks for a force ${F}_{p}$ . The easiest way to find it is to use the first condition for equilibrium, which is The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as where we again call the vertical axis the *y* -axis. Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that This equation yields what might have been guessed at the beginning: So, the pivot supplies a supporting force equal to the total weight of the system: Entering known values gives The two results make intuitive sense. The heavier child sits closer to the pivot. The pivot supports the weight of the two children. Part (b) can also be solved using the second condition for equilibrium, since both distances are known, but only if the pivot point is chosen to be somewhere other than the location of the seesaw’s actual pivot! Several aspects of the preceding example have broad implications. First, the choice of the pivot as the point around which torques are calculated simplified the problem. Since ${F}_{p}$ is exerted on the pivot point, its lever arm is zero. Hence, the torque exerted by the supporting force ${F}_{p}$ is zero relative to that pivot point. The second condition for equilibrium holds for any choice of pivot point, and so we choose the pivot point to simplify the solution of the problem. Second, the acceleration due to gravity canceled in this problem, and we were left with a ratio of masses. *This will not always be the case* . Always enter the correct forces—do not jump ahead to enter some ratio of masses. Third, the weight of each child is distributed over an area of the seesaw, yet we treated the weights as if each force were exerted at a single point. This is not an approximation—the distances ${r}_{1}$ and ${r}_{2}$ are the distances to points directly below the center of gravity of each child. As we shall see in the next section, the mass and weight of a system can act as if they are located at a single point. Finally, note that the concept of torque has an importance beyond static equilibrium. *Torque plays the same role in rotational motion that force plays in linear motion.* We will examine this in the next chapter. Take a piece of modeling clay and put it on a table, then mash a cylinder down into it so that a ruler can balance on the round side of the cylinder while everything remains still. Put a penny 8 cm away from the pivot. Where would you need to put two pennies to balance? Three pennies?",
+            "text": "The two children shown in the figure are balanced on a seesaw of negligible mass. (This assumption is made to keep the example simple—more involved examples will follow.) The first child has a mass of 26.0 kg and sits 1.60 m from the pivot.(a) If the second child has a mass of 32.0 kg, how far is she from the pivot? (b) What is ${F}_{p}$, the supporting force exerted by the pivot? Both conditions for equilibrium must be satisfied. In part (a), we are asked for a distance; thus, the second condition (regarding torques) must be used, since the first (regarding only forces) has no distances in it. To apply the second condition for equilibrium, we first identify the system of interest to be the seesaw plus the two children. We take the supporting pivot to be the point about which the torques are calculated. We then identify all external forces acting on the system. The three external forces acting on the system are the weights of the two children and the supporting force of the pivot. Let us examine the torque produced by each. Torque is defined to be $τ=rF sin θ.$ Here $θ=90º$, so that $sin θ=1$ for all three forces. That means ${r}_{⊥}=r$ for all three. The torques exerted by the three forces are first, ${τ}_{1}={r}_{1}{w}_{1}$ Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since ${F}_{p}$ acts directly on the pivot point, the distance ${r}_{p}$ is zero. A force acting on the pivot cannot cause a rotation, just as pushing directly on the hinges of a door will not cause it to rotate. Now, the second condition for equilibrium is that the sum of the torques on both children is zero. Therefore ${τ}_{2}={-τ}_{1},$ Weight is mass times the acceleration due to gravity. Entering $mg$ for $w$, we get ${r}_{2}{m}_{2}g={r}_{1}{m}_{1}g.$ Solve this for the unknown ${r}_{2}$ *:* ${r}_{2}={r}_{1}\\frac{{m}_{1}}{{m}_{2}}.$ The quantities on the right side of the equation are known; thus, ${r}_{2}$ is ${r}_{2}=(1.60 m)\\frac{26.0 kg}{32.0 kg}=1.30 m.$ As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw. This part asks for a force ${F}_{p}$. The easiest way to find it is to use the first condition for equilibrium, which is $net F=0.$ The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as $net {F}_{y}=0$ where we again call the vertical axis the *y* -axis. Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that ${F}_{p}-{w}_{1}-{w}_{2}=0.$ This equation yields what might have been guessed at the beginning: ${F}_{p}={w}_{1}+{w}_{2}.$ So, the pivot supplies a supporting force equal to the total weight of the system: ${F}_{p}={m}_{1}g+{m}_{2}g.$ Entering known values gives ${F}_{p} = (26.0 kg)(9.80 {m/s}^{2})+(32.0 kg)(9.80 {m/s}^{2}) = 568 N.$ The two results make intuitive sense. The heavier child sits closer to the pivot. The pivot supports the weight of the two children. Part (b) can also be solved using the second condition for equilibrium, since both distances are known, but only if the pivot point is chosen to be somewhere other than the location of the seesaw’s actual pivot! Several aspects of the preceding example have broad implications. First, the choice of the pivot as the point around which torques are calculated simplified the problem. Since ${F}_{p}$ is exerted on the pivot point, its lever arm is zero. Hence, the torque exerted by the supporting force ${F}_{p}$ is zero relative to that pivot point. The second condition for equilibrium holds for any choice of pivot point, and so we choose the pivot point to simplify the solution of the problem. Second, the acceleration due to gravity canceled in this problem, and we were left with a ratio of masses. *This will not always be the case*. Always enter the correct forces—do not jump ahead to enter some ratio of masses. Third, the weight of each child is distributed over an area of the seesaw, yet we treated the weights as if each force were exerted at a single point. This is not an approximation—the distances ${r}_{1}$ and ${r}_{2}$ are the distances to points directly below the center of gravity of each child. As we shall see in the next section, the mass and weight of a system can act as if they are located at a single point. Finally, note that the concept of torque has an importance beyond static equilibrium. *Torque plays the same role in rotational motion that force plays in linear motion.* We will examine this in the next chapter. Take a piece of modeling clay and put it on a table, then mash a cylinder down into it so that a ruler can balance on the round side of the cylinder while everything remains still. Put a penny 8 cm away from the pivot. Where would you need to put two pennies to balance? Three pennies?",
             "inline": []
-          }
-        },
-        {
-          "id": "we-exr-39",
-          "statement": {
-            "text": "Which of the following is not an example of an object undergoing a torque? A car is rounding a bend at a constant speed.; A merry-go-round increases from rest to a constant rotational speed.; A pendulum swings back and forth.; A bowling ball rolls down a bowling alley.",
-            "inline": []
-          },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "(a)"
-            }
-          ],
-          "answer": {
-            "text": "(a)",
-            "inline": []
-          },
-          "provenance": {
-            "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42171/index.cnxml",
-            "locator": "CNXML module m42171, exercise block exr-39",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
           }
         }
       ],
@@ -1011,6 +877,50 @@
             "locator": "CNXML module m42171",
             "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "The angle between the force and the arm does not change the moment.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Only the component of the force perpendicular to the arm turns the body, so the moment is F d sin(theta).",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the moment with the angle ignored.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-2, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-3",
+          "claim": {
+            "text": "The moment of a force is the force divided by the distance from the pivot.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The moment is the force multiplied by the perpendicular distance from the pivot.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the force divided by the distance as an option.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-6, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
         }
       ],
       "summary_points": [
@@ -1030,14 +940,15 @@
       "exercise_ids": [
         "ex-sec-3-01",
         "ex-sec-3-02",
-        "ex-sec-3-03"
+        "ex-sec-3-03",
+        "ex-sec-3-04"
       ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "principle-of-moments-moment-of-a-force-couple-and-torque-app",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -1056,7 +967,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-principle-of-moments-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -1081,6 +992,11 @@
           "id": "lo-1",
           "statement": "Explain stability from the position of the centre of gravity relative to the base of support.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Distinguish stable, unstable and neutral equilibrium.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -1089,7 +1005,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "It is one thing to have a system in equilibrium; it is quite another for it to be stable. The toy doll perched on the man’s hand in , for example, is not in stable equilibrium. There are *three types of equilibrium* : *stable* , *unstable* , and *neutral* . Figures throughout this module illustrate various examples.",
+              "text": "It is one thing to have a system in equilibrium; it is quite another for it to be stable. The toy doll perched on the man’s hand in the figure, for example, is not in stable equilibrium. There are *three types of equilibrium*: *stable*, *unstable*, and *neutral*. Figures throughout this module illustrate various examples.",
               "inline": []
             }
           },
@@ -1097,7 +1013,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "presents a balanced system, such as the toy doll on the man’s hand, which has its center of gravity (cg) directly over the pivot, so that the torque of the total weight is zero. This is equivalent to having the torques of the individual parts balanced about the pivot point, in this case the hand. The cgs of the arms, legs, head, and torso are labeled with smaller type.",
+              "text": "The figure presents a balanced system, such as the toy doll on the man’s hand, which has its center of gravity (cg) directly over the pivot, so that the torque of the total weight is zero. This is equivalent to having the torques of the individual parts balanced about the pivot point, in this case the hand. The cgs of the arms, legs, head, and torso are labeled with smaller type.",
               "inline": []
             }
           },
@@ -1116,7 +1032,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "A system is said to be in stable equilibrium if, when displaced from equilibrium, it experiences a net force or torque in a direction opposite to the direction of the displacement. For example, a marble at the bottom of a bowl will experience a *restoring* force when displaced from its equilibrium position. This force moves it back toward the equilibrium position. Most systems are in stable equilibrium, especially for small displacements. For another example of stable equilibrium, see the pencil in .",
+              "text": "A system is said to be in stable equilibrium if, when displaced from equilibrium, it experiences a net force or torque in a direction opposite to the direction of the displacement. For example, a marble at the bottom of a bowl will experience a *restoring* force when displaced from its equilibrium position. This force moves it back toward the equilibrium position. Most systems are in stable equilibrium, especially for small displacements. For another example of stable equilibrium, see the pencil in the figure.",
               "inline": []
             }
           },
@@ -1203,7 +1119,7 @@
             "id": "b-13",
             "type": "paragraph",
             "content": {
-              "text": "A system is in neutral equilibrium if its equilibrium is independent of displacements from its original position. A marble on a flat horizontal surface is an example. Combinations of these situations are possible. For example, a marble on a saddle is stable for displacements toward the front or back of the saddle and unstable for displacements to the side. shows another example of neutral equilibrium.",
+              "text": "A system is in neutral equilibrium if its equilibrium is independent of displacements from its original position. A marble on a flat horizontal surface is an example. Combinations of these situations are possible. For example, a marble on a saddle is stable for displacements toward the front or back of the saddle and unstable for displacements to the side. The figure shows another example of neutral equilibrium.",
               "inline": []
             }
           },
@@ -1222,7 +1138,7 @@
             "id": "b-15",
             "type": "paragraph",
             "content": {
-              "text": "When we consider how far a system in stable equilibrium can be displaced before it becomes unstable, we find that some systems in stable equilibrium are more stable than others. The pencil in and the person in (a) are in stable equilibrium, but become unstable for relatively small displacements to the side. The critical point is reached when the cg is no longer *above* the base of support. Additionally, since the cg of a person’s body is above the pivots in the hips, displacements must be quickly controlled. This control is a central nervous system function that is developed when we learn to hold our bodies erect as infants. For increased stability while standing, the feet should be spread apart, giving a larger base of support. Stability is also increased by lowering one’s center of gravity by bending the knees, as when a football player prepares to receive a ball or braces themselves for a tackle. A cane, a crutch, or a walker increases the stability of the user, even more as the base of support widens. Usually, the cg of a female is lower (closer to the ground) than a male. Young children have their center of gravity between their shoulders, which increases the challenge of learning to walk.",
+              "text": "When we consider how far a system in stable equilibrium can be displaced before it becomes unstable, we find that some systems in stable equilibrium are more stable than others. The pencil in the figure and the person in the figure (a) are in stable equilibrium, but become unstable for relatively small displacements to the side. The critical point is reached when the cg is no longer *above* the base of support. Additionally, since the cg of a person’s body is above the pivots in the hips, displacements must be quickly controlled. This control is a central nervous system function that is developed when we learn to hold our bodies erect as infants. For increased stability while standing, the feet should be spread apart, giving a larger base of support. Stability is also increased by lowering one’s center of gravity by bending the knees, as when a football player prepares to receive a ball or braces themselves for a tackle. A cane, a crutch, or a walker increases the stability of the user, even more as the base of support widens. Usually, the cg of a female is lower (closer to the ground) than a male. Young children have their center of gravity between their shoulders, which increases the challenge of learning to walk.",
               "inline": []
             }
           },
@@ -1241,7 +1157,7 @@
             "id": "b-17",
             "type": "paragraph",
             "content": {
-              "text": "Animals such as chickens have easier systems to control. shows that the cg of a chicken lies below its hip joints and between its widely separated and broad feet. Even relatively large displacements of the chicken’s cg are stable and result in restoring forces and torques that return the cg to its equilibrium position with little effort on the chicken’s part. Not all birds are like chickens, of course. Some birds, such as the flamingo, have balance systems that are almost as sophisticated as that of humans.",
+              "text": "Animals such as chickens have easier systems to control. The figure shows that the cg of a chicken lies below its hip joints and between its widely separated and broad feet. Even relatively large displacements of the chicken’s cg are stable and result in restoring forces and torques that return the cg to its equilibrium position with little effort on the chicken’s part. Not all birds are like chickens, of course. Some birds, such as the flamingo, have balance systems that are almost as sophisticated as that of humans.",
               "inline": []
             }
           },
@@ -1249,7 +1165,7 @@
             "id": "b-18",
             "type": "paragraph",
             "content": {
-              "text": "shows that the cg of a chicken is below the hip joints and lies above a broad base of support formed by widely-separated and large feet. Hence, the chicken is in very stable equilibrium, since a relatively large displacement is needed to render it unstable. The body of the chicken is supported from above by the hips and acts as a pendulum between the hips. Therefore, the chicken is stable for front-to-back displacements as well as for side-to-side displacements.",
+              "text": "The figure shows that the cg of a chicken is below the hip joints and lies above a broad base of support formed by widely-separated and large feet. Hence, the chicken is in very stable equilibrium, since a relatively large displacement is needed to render it unstable. The body of the chicken is supported from above by the hips and acts as a pendulum between the hips. Therefore, the chicken is stable for front-to-back displacements as well as for side-to-side displacements.",
               "inline": []
             }
           },
@@ -1277,248 +1193,6 @@
             "type": "paragraph",
             "content": {
               "text": "Stand straight with your heels, back, and head against a wall. Bend forward from your waist, keeping your heels and bottom against the wall, to touch your toes. Can you do this without toppling over? Explain why and what you need to do to be able to touch your toes without losing your balance. Is it easier for a woman to do this?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "Using the concept of torque, explain why a traffic cone placed on its base is in stable equilibrium, while a traffic cone placed on its tip is in unstable equilibrium.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "paragraph",
-            "content": {
-              "text": "Both objects are in equilibrium. However, they will respond differently if a force is applied to their sides. If the cone placed on its base is displaced to the side, its center of gravity will remain over its base and it will return to its original position. When the traffic cone placed on its tip is displaced to the side, its center of gravity will drift from its base, causing a torque that will accelerate it to the ground.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "A round pencil lying on its side as in is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-25",
-            "type": "paragraph",
-            "content": {
-              "text": "Explain the need for tall towers on a suspension bridge to ensure stable equilibrium.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-26",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose a horse leans against a wall as in , emulating a scene in the comedy movie *Cat Ballou* . Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/a065320df3bac3890d7702dae703fcb04ff11c178cedc9b63b56f64417242cca.jpg",
-            "caption": {
-              "text": "In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.",
-              "inline": []
-            },
-            "alt": "In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider.  The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-29",
-            "type": "paragraph",
-            "content": {
-              "text": "${F}_{wall}=1.43×{10}^{3}N$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-30",
-            "type": "paragraph",
-            "content": {
-              "text": "Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot point located at the center of the seesaw. If the children are separated by a distance of 3.00 m, at what distance from the pivot point is the small child sitting in order to maintain the balance?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-31",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Calculate the magnitude and direction of the force on each foot of the horse in (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg. (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-32",
-            "type": "paragraph",
-            "content": {
-              "text": "a) $2.55{×10}^{3}N,16.3º to the left of vertical (i.e.,toward the wall)$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-33",
-            "type": "paragraph",
-            "content": {
-              "text": "A person carries a plank of wood 2.00 m long with one hand pushing down on it at one end with a force ${F}_{1}$ and the other hand holding it up at .500 m from the end of the plank with force ${F}_{2}$ . If the plank has a mass of 20.0 kg and its center of gravity is at the middle of the plank, what are the magnitudes of the forces ${F}_{1}$ and ${F}_{2}$ ?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-34",
-            "type": "paragraph",
-            "content": {
-              "text": "A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in . The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-35",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/e453a081c3cadc81acaf4e3e8371f2a8675c77ba2dc96b40d727e643441c9a7c.jpg",
-            "caption": {
-              "text": "A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.",
-              "inline": []
-            },
-            "alt": "A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-36",
-            "type": "paragraph",
-            "content": {
-              "text": "${F}_{B}=2.12×{10}^{4}N$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-37",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in ? (b) What is the ratio of this force to the chicken’s weight? (c) Does this support the contention that the chicken has a relatively stable construction?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-38",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/a717fb36927a12fc849f3c22824df1391b7d8dcf2ce839bdeda08da275b2d73e.jpg",
-            "caption": {
-              "text": "A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken’s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.",
-              "inline": []
-            },
-            "alt": "A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken’s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-39",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose the weight of the drawbridge in is supported entirely by its hinges and the opposite shore, so that its cables are slack. The mass of the bridge is 2500 kg. (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments? (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-40",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/3446a1a2b0c45105ea3c4d3c42617f79f4886f4d5b1cb6f252fb86bea2fb900e.jpg",
-            "caption": {
-              "text": "A small drawbridge, showing the forces on the hinges ( $F$ ), its weight ( $w$ ), and the tension in its wires ( $T$ ).",
-              "inline": []
-            },
-            "alt": "A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-41",
-            "type": "paragraph",
-            "content": {
-              "text": "a) 0.167, or about one-sixth of the weight is supported by the opposite shore.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-42",
-            "type": "paragraph",
-            "content": {
-              "text": "b) $F=2.0×{10}^{4}N$ , straight up.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-43",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose a 900-kg car is on the bridge in with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.) (a) Find the force in the cables. (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-44",
-            "type": "paragraph",
-            "content": {
-              "text": "A sandwich board advertising sign is constructed as shown in . The sign’s mass is 8.00 kg. (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk. (b) What force is exerted by each side on the hinge?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-45",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/a5c4a06948d5b963aac1e240ed3bb96913192178934091356c29d628c55b0d64.jpg",
-            "caption": {
-              "text": "A sandwich board advertising sign demonstrates tension.",
-              "inline": []
-            },
-            "alt": "A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-46",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in in the position shown if the chain breaks? (b) What force is exerted by each side on the hinge?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-47",
-            "type": "paragraph",
-            "content": {
-              "text": "An athlete is attempting to perform splits. From the information given in , calculate the magnitude and direction of the force exerted on each foot by the floor.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-48",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/9d24f9da18130d200fa4c9a08d7534addb20f6243074fb798bbd815e91343e4b.jpg",
-            "caption": {
-              "text": "An athlete performs full split. The center of gravity and the various distances from it are shown.",
-              "inline": []
-            },
-            "alt": "A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-49",
-            "type": "paragraph",
-            "content": {
-              "text": "350 N directly upwards",
               "inline": []
             }
           }
@@ -1568,6 +1242,28 @@
             "locator": "CNXML module m42172",
             "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "A narrow base makes a body stable.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A narrow base makes a body unstable. A body is stable when a small tilt raises its centre of gravity.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the narrow base as the stable case.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-7, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
         }
       ],
       "summary_points": [
@@ -1587,17 +1283,14 @@
       "exercise_ids": [
         "ex-sec-4-01",
         "ex-sec-4-02",
-        "ex-sec-4-03",
-        "ex-sec-4-04",
-        "ex-sec-4-05",
-        "ex-sec-4-06"
+        "ex-sec-4-03"
       ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "centre-of-gravity-and-stability-stable-unstable-and-neutral",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
@@ -1605,7 +1298,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-centre-of-gravity-and-stability-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -1636,6 +1329,11 @@
           "id": "lo-1",
           "statement": "Set up a statics problem by drawing the free-body diagram before writing any equation.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Solve a beam or ladder problem by combining the force and moment equations.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -1644,7 +1342,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "Statics can be applied to a variety of situations, ranging from raising a drawbridge to bad posture and back strain. We begin with a discussion of problem-solving strategies specifically used for statics. Since statics is a special case of Newton’s laws, both the general problem-solving strategies and the special strategies for Newton’s laws, discussed in Problem-Solving Strategies , still apply.",
+              "text": "Statics can be applied to a variety of situations, ranging from raising a drawbridge to bad posture and back strain. We begin with a discussion of problem-solving strategies specifically used for statics. Since statics is a special case of Newton’s laws, both the general problem-solving strategies and the special strategies for Newton’s laws, discussed in Problem-Solving Strategies, still apply.",
               "inline": []
             }
           },
@@ -1652,7 +1350,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "Now let us apply this problem-solving strategy for the pole vaulter shown in the three figures below. The pole is uniform and has a mass of 5.00 kg. In , the pole’s cg lies halfway between the vaulter’s hands. It seems reasonable that the force exerted by each hand is equal to half the weight of the pole, or 24.5 N. This obviously satisfies the first condition for equilibrium $(netF=0)$ . The second condition $(netτ=0)$ is also satisfied, as we can see by choosing the cg to be the pivot point. The weight exerts no torque about a pivot point located at the cg, since it is applied at that point and its lever arm is zero. The equal forces exerted by the hands are equidistant from the chosen pivot, and so they exert equal and opposite torques. Similar arguments hold for other systems where supporting forces are exerted symmetrically about the cg. For example, the four legs of a uniform table each support one-fourth of its weight.",
+              "text": "Now let us apply this problem-solving strategy for the pole vaulter shown in the three figures below. The pole is uniform and has a mass of 5.00 kg. In the figure, the pole’s cg lies halfway between the vaulter’s hands. It seems reasonable that the force exerted by each hand is equal to half the weight of the pole, or 24.5 N. This obviously satisfies the first condition for equilibrium $(net F=0)$. The second condition $(net τ=0)$ is also satisfied, as we can see by choosing the cg to be the pivot point. The weight exerts no torque about a pivot point located at the cg, since it is applied at that point and its lever arm is zero. The equal forces exerted by the hands are equidistant from the chosen pivot, and so they exert equal and opposite torques. Similar arguments hold for other systems where supporting forces are exerted symmetrically about the cg. For example, the four legs of a uniform table each support one-fourth of its weight.",
               "inline": []
             }
           },
@@ -1660,7 +1358,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "In , a pole vaulter holding a pole with its cg halfway between his hands is shown. Each hand exerts a force equal to half the weight of the pole, ${F}_{R}={F}_{L}=w/2$ . (b) The pole vaulter moves the pole to his left, and the forces that the hands exert are no longer equal. See . If the pole is held with its cg to the left of the person, then he must push down with his right hand and up with his left. The forces he exerts are larger here because they are in opposite directions and the cg is at a long distance from either hand.",
+              "text": "In the figure, a pole vaulter holding a pole with its cg halfway between his hands is shown. Each hand exerts a force equal to half the weight of the pole, ${F}_{R}={F}_{L}=w/2$. (b) The pole vaulter moves the pole to his left, and the forces that the hands exert are no longer equal. See the figure. If the pole is held with its cg to the left of the person, then he must push down with his right hand and up with his left. The forces he exerts are larger here because they are in opposite directions and the cg is at a long distance from either hand.",
               "inline": []
             }
           },
@@ -1725,7 +1423,7 @@
             "id": "b-10",
             "type": "paragraph",
             "content": {
-              "text": "If the pole vaulter holds the pole as shown in , the situation is not as simple. The total force he exerts is still equal to the weight of the pole, but it is not evenly divided between his hands. (If ${F}_{L}={F}_{R}$ , then the torques about the cg would not be equal since the lever arms are different.) Logically, the right hand should support more weight, since it is closer to the cg. In fact, if the right hand is moved directly under the cg, it will support all the weight. This situation is exactly analogous to two people carrying a load; the one closer to the cg carries more of its weight. Finding the forces ${F}_{L}$ and ${F}_{R}$ is straightforward, as the next example shows.",
+              "text": "If the pole vaulter holds the pole as shown in the figure, the situation is not as simple. The total force he exerts is still equal to the weight of the pole, but it is not evenly divided between his hands. (If ${F}_{L}={F}_{R}$, then the torques about the cg would not be equal since the lever arms are different.) Logically, the right hand should support more weight, since it is closer to the cg. In fact, if the right hand is moved directly under the cg, it will support all the weight. This situation is exactly analogous to two people carrying a load; the one closer to the cg carries more of its weight. Finding the forces ${F}_{L}$ and ${F}_{R}$ is straightforward, as the next example shows.",
               "inline": []
             }
           },
@@ -1733,98 +1431,7 @@
             "id": "b-11",
             "type": "paragraph",
             "content": {
-              "text": "If the pole vaulter holds the pole from near the end of the pole ( ), the direction of the force applied by the right hand of the vaulter reverses its direction.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-12",
-            "type": "paragraph",
-            "content": {
-              "text": "A child sits on the end of a playground see-saw. Which of the following values is the most appropriate estimate of the torque created by the child?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-13",
-            "type": "paragraph",
-            "content": {
-              "text": "A group of students is stacking a set of identical books, each one overhanging the one below it by 1 inch. They would like to estimate how many books they could place on top of each other before the stack tipped. What information below would they need to know to make this calculation?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-14",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/2caccec07890c1fd7125c3099da9205b7cea9640763aaea72c23c0a93f37f0e5.jpg",
-            "caption": {
-              "text": "3 overlapping stacked books.",
-              "inline": []
-            },
-            "alt": "Three rectangles with thick blue borders on the bottom, left, and right side and a think black slightly indented line of the right indicate three books. There are two short black vertical lines going down on the left and right of the bottom book with a double-headed black arrow and the label Width below. On the left side of the bottom book are two short horizontal lines with a black vertical double-headed short arrow labeled Depth. The three books are stacked with the second book offset to the right and the third offset even more to the right on the second book. The edge of the second book is marked with a double-headed arrow marked 1” between a vertical line above the left edge of the bottom book and a vertical line above the left edge of the second book.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-15",
-            "type": "paragraph",
-            "content": {
-              "text": "A 10 N board of uniform density is 5 meters long. It is supported on the left by a string bearing a 3 N upward force. In order to prevent the string from breaking, a person must place an upward force of 7 N at a position along the bottom surface of the board. At what distance from its left edge would they need to place this force in order for the board to be in static equilibrium?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-16",
-            "type": "paragraph",
-            "content": {
-              "text": "A bridge is supported by two piers located 20 meters apart. Both the left and right piers provide an upward force on the bridge, labeled *F* L and *F* R respectively.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-17",
-            "type": "paragraph",
-            "content": {
-              "text": "An object of unknown mass is provided to a student. Without using a scale, design an experimental procedure detailing how the magnitude of this mass could be experimentally found. Your explanation must include the concept of torque and all steps should be provided in an orderly sequence. You may include a labeled diagram of your setup to help in your description. Include enough detail so that another student could carry out your procedure.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-18",
-            "type": "heading",
-            "text": {
-              "text": "Summary",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "When visiting some countries, you may see a person balancing a load on the head. Explain why the center of mass of the load needs to be directly above the person’s neck vertebrae.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (mass 10.0 kg) against the house on a concrete pad with the base of the ladder 2.00 m from the house. The ladder rests against a plastic rain gutter, which we can assume to be frictionless. Because the gutter is round, the ladder is tangent to it and therefore the normal force by the gutter is perpendicular to the ladder. The center of mass of the ladder is 2.00 m from the bottom, measured parallel to the ladder. The person is standing 3.00 m from the bottom, again measured parallel to the ladder. What are the magnitudes of the forces on the ladder at the top and bottom?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "In , the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and the hands are 0.700 m apart. Calculate the force exerted by (a) his right hand and (b) his left hand. (c) If each hand supports half the weight of the pole in , show that the second condition for equilibrium $(netτ=0)$ is satisfied for a pivot other than the one located at the center of gravity of the pole. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium described above.",
+              "text": "If the pole vaulter holds the pole from near the end of the pole (the figure), the direction of the force applied by the right hand of the vaulter reverses its direction.",
               "inline": []
             }
           }
@@ -1847,7 +1454,7 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "For the situation shown in , calculate: (a) ${F}_{R}$ , the force exerted by the right hand, and (b) ${F}_{L}$ , the force exerted by the left hand."
+              "expression": "For the situation shown in the figure, calculate: (a) ${F}_{R}$, the force exerted by the right hand, and (b) ${F}_{L}$, the force exerted by the left hand."
             },
             {
               "step_number": 2,
@@ -1855,15 +1462,15 @@
             },
             {
               "step_number": 3,
-              "expression": "includes a free body diagram for the pole, the system of interest."
+              "expression": "The figure includes a free body diagram for the pole, the system of interest."
             },
             {
               "step_number": 4,
-              "expression": "There is not enough information to use the first condition for equilibrium $(netF=0$ ), since two of the three forces are unknown and the hand forces cannot be assumed to be equal in this case."
+              "expression": "There is not enough information to use the first condition for equilibrium $(net F=0$), since two of the three forces are unknown and the hand forces cannot be assumed to be equal in this case."
             },
             {
               "step_number": 5,
-              "expression": "There is enough information to use the second condition for equilibrium $(netτ=0)$ if the pivot point is chosen to be at either hand, thereby making the torque from that hand zero."
+              "expression": "There is enough information to use the second condition for equilibrium $(net τ=0)$ if the pivot point is chosen to be at either hand, thereby making the torque from that hand zero."
             },
             {
               "step_number": 6,
@@ -1871,11 +1478,11 @@
             },
             {
               "step_number": 7,
-              "expression": "There are now only two nonzero torques, those from the gravitational force ( ${τ}_{w}$ ) and from the push or pull of the right hand ( ${τ}_{R}$ )."
+              "expression": "There are now only two nonzero torques, those from the gravitational force (${τ}_{w}$) and from the push or pull of the right hand (${τ}_{R}$)."
             },
             {
               "step_number": 8,
-              "expression": "Stating the second condition in terms of clockwise and counterclockwise torques, or the algebraic sum of the torques is zero."
+              "expression": "Stating the second condition in terms of clockwise and counterclockwise torques, $net {τ}_{cw}=–net {τ}_{ccw}.$ or the algebraic sum of the torques is zero."
             },
             {
               "step_number": 9,
@@ -1883,15 +1490,15 @@
             },
             {
               "step_number": 10,
-              "expression": "Using the definition of torque, $τ=rFsinθ$ , noting that $θ=90º$ , and substituting known values, we obtain The first condition for equilibrium is based on the free body diagram in the figure."
+              "expression": "Using the definition of torque, $τ=rF sin θ$, noting that $θ=90º$, and substituting known values, we obtain $(0.900 m)({F}_{R})=(0.600 m)(mg).$ The first condition for equilibrium is based on the free body diagram in the figure."
             },
             {
               "step_number": 11,
-              "expression": "This implies that by Newton’s second law: From this we can conclude: Solving for ${F}_{L}$ , we obtain *${F}_{L}$* is seen to be exactly half of ${F}_{R}$ , as we might have guessed, since ${F}_{L}$ is applied twice as far from the cg as ${F}_{R}$ ."
+              "expression": "This implies that by Newton’s second law: ${F}_{L}+{F}_{R}-mg=0$ From this we can conclude: ${F}_{L}+{F}_{R}=w=mg$ Solving for ${F}_{L}$, we obtain ${F}_{L} = mg-{F}_{R} = mg-32.7 N = (5.00 kg)(9.80 {m/s}^{2})-32.7 N = 16.3 N$ *${F}_{L}$* is seen to be exactly half of ${F}_{R}$, as we might have guessed, since ${F}_{L}$ is applied twice as far from the cg as ${F}_{R}$."
             },
             {
               "step_number": 12,
-              "expression": "If the pole vaulter holds the pole as he might at the start of a run, shown in , the forces change again."
+              "expression": "If the pole vaulter holds the pole as he might at the start of a run, shown in the figure, the forces change again."
             },
             {
               "step_number": 13,
@@ -1927,7 +1534,7 @@
             },
             {
               "step_number": 21,
-              "expression": "Play with objects on a teeter totter to learn about balance in this simulation ."
+              "expression": "Play with objects on a teeter totter to learn about balance in this simulation."
             },
             {
               "step_number": 22,
@@ -1935,32 +1542,8 @@
             }
           ],
           "answer": {
-            "text": "For the situation shown in , calculate: (a) ${F}_{R}$ , the force exerted by the right hand, and (b) ${F}_{L}$ , the force exerted by the left hand. The hands are 0.900 m apart, and the cg of the pole is 0.600 m from the left hand. includes a free body diagram for the pole, the system of interest. There is not enough information to use the first condition for equilibrium $(netF=0$ ), since two of the three forces are unknown and the hand forces cannot be assumed to be equal in this case. There is enough information to use the second condition for equilibrium $(netτ=0)$ if the pivot point is chosen to be at either hand, thereby making the torque from that hand zero. We choose to locate the pivot at the left hand in this part of the problem, to eliminate the torque from the left hand. There are now only two nonzero torques, those from the gravitational force ( ${τ}_{w}$ ) and from the push or pull of the right hand ( ${τ}_{R}$ ). Stating the second condition in terms of clockwise and counterclockwise torques, or the algebraic sum of the torques is zero. since the weight of the pole creates a counterclockwise torque and the right hand counters with a clockwise torque. Using the definition of torque, $τ=rFsinθ$ , noting that $θ=90º$ , and substituting known values, we obtain The first condition for equilibrium is based on the free body diagram in the figure. This implies that by Newton’s second law: From this we can conclude: Solving for ${F}_{L}$ , we obtain *${F}_{L}$* is seen to be exactly half of ${F}_{R}$ , as we might have guessed, since ${F}_{L}$ is applied twice as far from the cg as ${F}_{R}$ . If the pole vaulter holds the pole as he might at the start of a run, shown in , the forces change again. Both are considerably greater, and one force reverses direction. This is an experiment to perform while standing in a bus or a train. Stand facing sideways. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Now stand facing forward. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Why is it easier and safer to stand facing sideways rather than forward? Note: For your safety (and those around you), make sure you are holding onto something while you carry out this activity! Play with objects on a teeter totter to learn about balance in this simulation . Test what you've learned by trying the Balance Challenge game.",
+            "text": "For the situation shown in the figure, calculate: (a) ${F}_{R}$, the force exerted by the right hand, and (b) ${F}_{L}$, the force exerted by the left hand. The hands are 0.900 m apart, and the cg of the pole is 0.600 m from the left hand. The figure includes a free body diagram for the pole, the system of interest. There is not enough information to use the first condition for equilibrium $(net F=0$), since two of the three forces are unknown and the hand forces cannot be assumed to be equal in this case. There is enough information to use the second condition for equilibrium $(net τ=0)$ if the pivot point is chosen to be at either hand, thereby making the torque from that hand zero. We choose to locate the pivot at the left hand in this part of the problem, to eliminate the torque from the left hand. There are now only two nonzero torques, those from the gravitational force (${τ}_{w}$) and from the push or pull of the right hand (${τ}_{R}$). Stating the second condition in terms of clockwise and counterclockwise torques, $net {τ}_{cw}=–net {τ}_{ccw}.$ or the algebraic sum of the torques is zero. since the weight of the pole creates a counterclockwise torque and the right hand counters with a clockwise torque. Using the definition of torque, $τ=rF sin θ$, noting that $θ=90º$, and substituting known values, we obtain $(0.900 m)({F}_{R})=(0.600 m)(mg).$ The first condition for equilibrium is based on the free body diagram in the figure. This implies that by Newton’s second law: ${F}_{L}+{F}_{R}-mg=0$ From this we can conclude: ${F}_{L}+{F}_{R}=w=mg$ Solving for ${F}_{L}$, we obtain ${F}_{L} = mg-{F}_{R} = mg-32.7 N = (5.00 kg)(9.80 {m/s}^{2})-32.7 N = 16.3 N$ *${F}_{L}$* is seen to be exactly half of ${F}_{R}$, as we might have guessed, since ${F}_{L}$ is applied twice as far from the cg as ${F}_{R}$. If the pole vaulter holds the pole as he might at the start of a run, shown in the figure, the forces change again. Both are considerably greater, and one force reverses direction. This is an experiment to perform while standing in a bus or a train. Stand facing sideways. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Now stand facing forward. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Why is it easier and safer to stand facing sideways rather than forward? Note: For your safety (and those around you), make sure you are holding onto something while you carry out this activity! Play with objects on a teeter totter to learn about balance in this simulation. Test what you've learned by trying the Balance Challenge game.",
             "inline": []
-          }
-        },
-        {
-          "id": "we-exr-29",
-          "statement": {
-            "text": "A group of students is stacking a set of identical books, each one overhanging the one below it by 1 inch. They would like to estimate how many books they could place on top of each other before the stack tipped. What information below would they need to know to make this calculation? 3 overlapping stacked books. The mass of each book; The width of each book; The depth of each book I only; I and II only; I and III only; II only; I, II, and III",
-            "inline": []
-          },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "(d)"
-            }
-          ],
-          "answer": {
-            "text": "(d)",
-            "inline": []
-          },
-          "provenance": {
-            "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42173/index.cnxml",
-            "locator": "CNXML module m42173, exercise block exr-29",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
           }
         }
       ],
@@ -1999,9 +1582,29 @@
         }
       ],
       "exercise_ids": [
-        "ex-sec-5-01"
+        "ex-sec-5-01",
+        "ex-sec-5-02",
+        "ex-sec-5-03",
+        "ex-sec-5-04"
       ],
-      "exam_links": [],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "equilibrium-of-forces",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-equilibrium-of-forces",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
       "provenance": {
         "publisher": "OpenStax",
         "title": "College Physics 2e",
@@ -2022,6 +1625,11 @@
           "id": "lo-1",
           "statement": "Explain the mechanical advantage of a simple machine and compute it from the forces.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Calculate the mechanical advantage and efficiency of a simple machine.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -2030,7 +1638,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "Simple machines are devices that can be used to multiply or augment a force that we apply – often at the expense of a distance through which we apply the force. The word for “machine” comes from the Greek word meaning “to help make things easier.” Levers, gears, pulleys, wedges, and screws are some examples of machines. Energy is still conserved for these devices because a machine cannot do more work than the energy put into it. However, machines can reduce the input force that is needed to perform the job. The ratio of output to input force magnitudes for any simple machine is called its mechanical advantage (MA).",
+              "text": "Simple machines are devices that can be used to multiply or augment a force that we apply – often at the expense of a distance through which we apply the force. The word for “machine” comes from the Greek word meaning “to help make things easier.” Levers, gears, pulleys, wedges, and screws are some examples of machines. Energy is still conserved for these devices because a machine cannot do more work than the energy put into it. However, machines can reduce the input force that is needed to perform the job. The ratio of output to input force magnitudes for any simple machine is called its mechanical advantage (MA). $MA=\\frac{{F}_{o}}{{F}_{i}}$",
               "inline": []
             }
           },
@@ -2057,7 +1665,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "shows a lever type that is used as a nail puller. Crowbars, seesaws, and other such levers are all analogous to this one. ${F}_{i}$ is the input force and ${F}_{o}$ is the output force. There are three vertical forces acting on the nail puller (the system of interest) – these are ${F}_{i},{F}_{n},$ and $N$ . ${F}_{n}$ is the reaction force back on the system, equal and opposite to ${F}_{o}$ . (Note that ${F}_{o}$ is not a force on the system.) $N$ is the normal force upon the lever, and its torque is zero since it is exerted at the pivot. The torques due to ${F}_{i}$ and ${F}_{n}$ must be equal to each other if the nail is not moving, to satisfy the second condition for equilibrium $(netτ=0)$ . (In order for the nail to actually move, the torque due to ${F}_{i}$ must be ever-so-slightly greater than torque due to ${F}_{n}$ .) Hence,",
+              "text": "The figure shows a lever type that is used as a nail puller. Crowbars, seesaws, and other such levers are all analogous to this one. ${F}_{i}$ is the input force and ${F}_{o}$ is the output force. There are three vertical forces acting on the nail puller (the system of interest) – these are ${F}_{i}, {F}_{n},$ and $N$. ${F}_{n}$ is the reaction force back on the system, equal and opposite to ${F}_{o}$. (Note that ${F}_{o}$ is not a force on the system.) $N$ is the normal force upon the lever, and its torque is zero since it is exerted at the pivot. The torques due to ${F}_{i}$ and ${F}_{n}$ must be equal to each other if the nail is not moving, to satisfy the second condition for equilibrium $(net τ=0)$. (In order for the nail to actually move, the torque due to ${F}_{i}$ must be ever-so-slightly greater than torque due to ${F}_{n}$.) Hence, ${l}_{i}{F}_{i}={l}_{o}{F}_{o}$",
               "inline": []
             }
           },
@@ -2065,7 +1673,7 @@
             "id": "b-5",
             "type": "paragraph",
             "content": {
-              "text": "Notice that ${r}_{i}$ is the distance from the pivot point to the point where the input force ${F}_{i}$ is applied, and ${r}_{o}$ (not labeled on the diagram) is the distance from the pivot point to the point where the output force ${F}_{o}$ is applied. The distances ${l}_{i}$ and ${l}_{o}$ are the perpendicular components of the distances from where the input and output forces are applied to the pivot, as shown in the figure. Rearranging the last equation gives",
+              "text": "Notice that ${r}_{i}$ is the distance from the pivot point to the point where the input force ${F}_{i}$ is applied, and ${r}_{o}$ (not labeled on the diagram) is the distance from the pivot point to the point where the output force ${F}_{o}$ is applied. The distances ${l}_{i}$ and ${l}_{o}$ are the perpendicular components of the distances from where the input and output forces are applied to the pivot, as shown in the figure. Rearranging the last equation gives $\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}.$",
               "inline": []
             }
           },
@@ -2073,7 +1681,7 @@
             "id": "b-6",
             "type": "paragraph",
             "content": {
-              "text": "What interests us most here is that the magnitude of the force exerted by the nail puller, ${F}_{o}$ , is much greater than the magnitude of the input force applied to the puller at the other end, ${F}_{i}$ . For the nail puller,",
+              "text": "What interests us most here is that the magnitude of the force exerted by the nail puller, ${F}_{o}$, is much greater than the magnitude of the input force applied to the puller at the other end, ${F}_{i}$. For the nail puller, $MA=\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}.$",
               "inline": []
             }
           },
@@ -2089,7 +1697,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "Two other types of levers that differ slightly from the nail puller are a wheelbarrow and a shovel, shown in . All these lever types are similar in that only three forces are involved – the input force, the output force, and the force on the pivot – and thus their MAs are given by $MA=\\frac{{F}_{o}}{{F}_{i}}$ and $MA=\\frac{{d}_{1}}{{d}_{2}}$ , with distances being measured relative to the physical pivot. The wheelbarrow and shovel differ from the nail puller because both the input and output forces are on the same side of the pivot.",
+              "text": "Two other types of levers that differ slightly from the nail puller are a wheelbarrow and a shovel, shown in the figure. All these lever types are similar in that only three forces are involved – the input force, the output force, and the force on the pivot – and thus their MAs are given by $MA=\\frac{{F}_{o}}{{F}_{i}}$ and $MA=\\frac{{d}_{1}}{{d}_{2}}$, with distances being measured relative to the physical pivot. The wheelbarrow and shovel differ from the nail puller because both the input and output forces are on the same side of the pivot.",
               "inline": []
             }
           },
@@ -2127,7 +1735,7 @@
             "id": "b-12",
             "type": "paragraph",
             "content": {
-              "text": "An ordinary pulley has an MA of 1; it only changes the direction of the force and not its magnitude. Combinations of pulleys, such as those illustrated in , are used to multiply force. If the pulleys are friction-free, then the force output is approximately an integral multiple of the tension in the cable. The number of cables pulling directly upward on the system of interest, as illustrated in the figures given below, is approximately the MA of the pulley system. Since each attachment applies an external force in approximately the same direction as the others, they add, producing a total force that is nearly an integral multiple of the input force $T$ .",
+              "text": "An ordinary pulley has an MA of 1; it only changes the direction of the force and not its magnitude. Combinations of pulleys, such as those illustrated in the figure, are used to multiply force. If the pulleys are friction-free, then the force output is approximately an integral multiple of the tension in the cable. The number of cables pulling directly upward on the system of interest, as illustrated in the figures given below, is approximately the MA of the pulley system. Since each attachment applies an external force in approximately the same direction as the others, they add, producing a total force that is nearly an integral multiple of the input force $T$.",
               "inline": []
             }
           },
@@ -2141,134 +1749,6 @@
             },
             "alt": "In figure a, a rope over two pulleys is shown. One pulley is fixed at the roof and the other is hanging through the rope. A weight is hanging from the second pulley. The tensions T are shown at the two parts of hanging pulley and at the free end of the rope. The mechanical advantage of the system is two. In figure b, a set of three pulleys is shown. A pulley is fixed at the roof with another pulley below it. The third pulley is hanging through the rope with a weight hanging at it. The tensions on the rope are shown as vectors on the rope and at the end of the rope. In figure c, set of three pulleys is shown. One of the pulleys is fixed at the roof. Two connected pulleys are hanging through a rope over the first pulley. The directions of the tensions are marked on the ropes and at the end of the rope.",
             "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-14",
-            "type": "paragraph",
-            "content": {
-              "text": "As a young student, you likely learned that simple machines are capable of increasing the ability to lift and move objects. Now, as an educated AP Physics student, you are aware that this capability is governed by the relationship between force and torque.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-15",
-            "type": "paragraph",
-            "content": {
-              "text": "In the space below, explain why torque is integral to the increase in force created by a simple machine. You may use an example or diagram to assist in your explanation. Be sure to cite the mechanical advantage in your explanation as well.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-16",
-            "type": "paragraph",
-            "content": {
-              "text": "The student should mention that the guiding principle behind simple machines is the second condition of equilibrium. Though the torque leaving a machine must be equivalent to torque entering a machine, the same requirement does not exist for forces. As a result, by decreasing the lever arm to the existing force, the size of the existing force will be increased. The mechanical advantage will be equivalent to the ratio of the forces exiting and entering the machine.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-17",
-            "type": "paragraph",
-            "content": {
-              "text": "Figure 9.24(a) shows a wheelbarrow being lifted by an applied force *F* i . If the wheelbarrow is filled with twenty bricks massing 3 kg each, estimate the value of the applied force *F* i . Provide an explanation behind the total weight **w** and any reasoning toward your final answer. Additionally, provide a range of values over which you feel the force could exist.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-18",
-            "type": "paragraph",
-            "content": {
-              "text": "Scissors are like a double-lever system. Which of the simple machines in and is most analogous to scissors?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose you pull a nail at a constant rate using a nail puller as shown in . Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "Explain the mechanical advantage of a wheelbarrow and how it explains why moving a heavy load is easier with a wheelbarrow.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "How does a pulley enable a person to lift a load as heavy as a piano with little effort?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "paragraph",
-            "content": {
-              "text": "What is the mechanical advantage of a nail puller—similar to the one shown in —where you exert a force $45 cm$ from the pivot and the nail is $1.8 cm$ on the other side? What minimum force must you exert to apply a force of $1250 N$ to the nail?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground to change a tire. If you had a 2.0-m long lever, where would you place the fulcrum if your force was limited to 300 N?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-25",
-            "type": "paragraph",
-            "content": {
-              "text": "a) What is the mechanical advantage of a wheelbarrow, such as the one in , if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m? (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg? (c) What force does the wheel exert on the ground?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-26",
-            "type": "paragraph",
-            "content": {
-              "text": "A typical car has an axle with $1.10 cm$ radius driving a tire with a radius of $27.5 cm$ . What is its mechanical advantage assuming the very simplified model in (b)?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "What force does the nail puller in exert on the supporting surface? The nail puller has a mass of 2.10 kg.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "paragraph",
-            "content": {
-              "text": "If you used an ideal pulley of the type shown in (a) to support a car engine of mass $115 kg$ , (a) What would be the tension in the rope? (b) What force must the ceiling supply, assuming you pull straight down on the rope? Neglect the pulley system’s mass.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-29",
-            "type": "paragraph",
-            "content": {
-              "text": "Repeat for the pulley shown in (c), assuming you pull straight up on the rope. The pulley system’s mass is $7.00 kg$ .",
-              "inline": []
-            }
           }
         ]
       },
@@ -2289,7 +1769,7 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "In the wheelbarrow of , the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m."
+              "expression": "In the wheelbarrow of the figure, the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m."
             },
             {
               "step_number": 2,
@@ -2305,15 +1785,15 @@
             },
             {
               "step_number": 5,
-              "expression": "(a) In this case, $\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}$ becomes Adding values into this equation yields The free-body diagram (see ) gives the following normal force: ${F}_{i}+N=W$ ."
+              "expression": "(a) In this case, $\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}$ becomes ${F}_{i}={F}_{o}\\frac{{l}_{o}}{{l}_{i}}.$ Adding values into this equation yields ${F}_{i}=(45.0 kg)(9.80 {m/s}^{2})\\frac{0.075 m}{1.02 m}=32.4 N.$ The free-body diagram (see the figure) gives the following normal force: ${F}_{i}+N=W$."
             },
             {
               "step_number": 6,
-              "expression": "Therefore, $N=(45.0 kg)(9.80{m/s}^{2})-32.4 N=409 N$ ."
+              "expression": "Therefore, $N=(45.0 kg)(9.80 {m/s}^{2})-32.4 N=409 N$."
             },
             {
               "step_number": 7,
-              "expression": "$N$ is the normal force acting on the wheel; by Newton’s third law, the force the wheel exerts on the ground is $409 N$ ."
+              "expression": "$N$ is the normal force acting on the wheel; by Newton’s third law, the force the wheel exerts on the ground is $409 N$."
             },
             {
               "step_number": 8,
@@ -2321,7 +1801,7 @@
             },
             {
               "step_number": 9,
-              "expression": "The MA here is $MA=1.02/0.0750=13.6$ ."
+              "expression": "The MA here is $MA=1.02/0.0750=13.6$."
             },
             {
               "step_number": 10,
@@ -2341,7 +1821,7 @@
             },
             {
               "step_number": 14,
-              "expression": "A crank is a lever that can be rotated $360º$ about its pivot, as shown in ."
+              "expression": "A crank is a lever that can be rotated $360º$ about its pivot, as shown in the figure."
             },
             {
               "step_number": 15,
@@ -2349,7 +1829,7 @@
             },
             {
               "step_number": 16,
-              "expression": "The MA for a crank is simply the ratio of the radii ${r}_{i}/{r}_{0}$ ."
+              "expression": "The MA for a crank is simply the ratio of the radii ${r}_{i}/{r}_{0}$."
             },
             {
               "step_number": 17,
@@ -2361,11 +1841,11 @@
             },
             {
               "step_number": 19,
-              "expression": "If the axle’s radius is $2.0 cm$ and the wheel’s radius is $24.0 cm$ , then $MA=2.0/24.0=0.083$ and the axle would have to exert a force of $12,000 N$ on the wheel to enable it to exert a force of $1000 N$ on the ground."
+              "expression": "If the axle’s radius is $2.0 cm$ and the wheel’s radius is $24.0 cm$, then $MA=2.0/24.0=0.083$ and the axle would have to exert a force of $12,000 N$ on the wheel to enable it to exert a force of $1000 N$ on the ground."
             }
           ],
           "answer": {
-            "text": "In the wheelbarrow of , the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m. (a) What upward force must you exert to support the wheelbarrow and its load if their combined mass is 45.0 kg? (b) What force does the wheelbarrow exert on the ground? Here, we use the concept of mechanical advantage. (a) In this case, $\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}$ becomes Adding values into this equation yields The free-body diagram (see ) gives the following normal force: ${F}_{i}+N=W$ . Therefore, $N=(45.0 kg)(9.80{m/s}^{2})-32.4 N=409 N$ . $N$ is the normal force acting on the wheel; by Newton’s third law, the force the wheel exerts on the ground is $409 N$ . An even longer handle would reduce the force needed to lift the load. The MA here is $MA=1.02/0.0750=13.6$ . Another very simple machine is the inclined plane. Pushing a cart up a plane is easier than lifting the same cart straight up to the top using a ladder, because the applied force is less. However, the work done in both cases (assuming the work done by friction is negligible) is the same. Inclined lanes or ramps were probably used during the construction of the Egyptian pyramids to move large blocks of stone to the top. A crank is a lever that can be rotated $360º$ about its pivot, as shown in . Such a machine may not look like a lever, but the physics of its actions remain the same. The MA for a crank is simply the ratio of the radii ${r}_{i}/{r}_{0}$ . Wheels and gears have this simple expression for their MAs too. The MA can be greater than 1, as it is for the crank, or less than 1, as it is for the simplified car axle driving the wheels, as shown. If the axle’s radius is $2.0 cm$ and the wheel’s radius is $24.0 cm$ , then $MA=2.0/24.0=0.083$ and the axle would have to exert a force of $12,000 N$ on the wheel to enable it to exert a force of $1000 N$ on the ground.",
+            "text": "In the wheelbarrow of the figure, the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m. (a) What upward force must you exert to support the wheelbarrow and its load if their combined mass is 45.0 kg? (b) What force does the wheelbarrow exert on the ground? Here, we use the concept of mechanical advantage. (a) In this case, $\\frac{{F}_{o}}{{F}_{i}}=\\frac{{l}_{i}}{{l}_{o}}$ becomes ${F}_{i}={F}_{o}\\frac{{l}_{o}}{{l}_{i}}.$ Adding values into this equation yields ${F}_{i}=(45.0 kg)(9.80 {m/s}^{2})\\frac{0.075 m}{1.02 m}=32.4 N.$ The free-body diagram (see the figure) gives the following normal force: ${F}_{i}+N=W$. Therefore, $N=(45.0 kg)(9.80 {m/s}^{2})-32.4 N=409 N$. $N$ is the normal force acting on the wheel; by Newton’s third law, the force the wheel exerts on the ground is $409 N$. An even longer handle would reduce the force needed to lift the load. The MA here is $MA=1.02/0.0750=13.6$. Another very simple machine is the inclined plane. Pushing a cart up a plane is easier than lifting the same cart straight up to the top using a ladder, because the applied force is less. However, the work done in both cases (assuming the work done by friction is negligible) is the same. Inclined lanes or ramps were probably used during the construction of the Egyptian pyramids to move large blocks of stone to the top. A crank is a lever that can be rotated $360º$ about its pivot, as shown in the figure. Such a machine may not look like a lever, but the physics of its actions remain the same. The MA for a crank is simply the ratio of the radii ${r}_{i}/{r}_{0}$. Wheels and gears have this simple expression for their MAs too. The MA can be greater than 1, as it is for the crank, or less than 1, as it is for the simplified car axle driving the wheels, as shown. If the axle’s radius is $2.0 cm$ and the wheel’s radius is $24.0 cm$, then $MA=2.0/24.0=0.083$ and the axle would have to exert a force of $12,000 N$ on the wheel to enable it to exert a force of $1000 N$ on the ground.",
             "inline": []
           }
         },
@@ -2431,15 +1911,14 @@
       "exercise_ids": [
         "ex-sec-6-01",
         "ex-sec-6-02",
-        "ex-sec-6-03",
-        "ex-sec-6-04"
+        "ex-sec-6-03"
       ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "simple-machines",
-          "subtopic_slug": "definition-of-a-machine-and-types-of-machines",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -2455,7 +1934,194 @@
   ],
   "exercises": [
     {
+      "id": "ex-sec-2-01",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "A 10 N weight hangs at rest from a single vertical rope. Find the tension in the rope.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "10 N",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The weight is at rest, so the net force is zero."
+        },
+        {
+          "step_number": 2,
+          "expression": "The upward tension must balance the downward weight."
+        },
+        {
+          "step_number": 3,
+          "expression": "Tension = 10 N."
+        }
+      ],
+      "tags": [
+        "equilibrium",
+        "tension"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-02",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Forces of 6 N east and 6 N west act on the same body. Find the net force.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "0 N",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Take east as positive: +6 N and -6 N."
+        },
+        {
+          "step_number": 2,
+          "expression": "Add the forces: 6 - 6 = 0 N."
+        },
+        {
+          "step_number": 3,
+          "expression": "The forces balance, so the net force is zero."
+        }
+      ],
+      "tags": [
+        "equilibrium",
+        "net force"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-03",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A 20 kg sign hangs at rest from two vertical ropes. Find the tension in each rope. Take g = 9.8 m/s².",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "98 N in each rope",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The weight is W = mg = 20 × 9.8 = 196 N."
+        },
+        {
+          "step_number": 2,
+          "expression": "The two ropes share the load equally: 2T = 196 N."
+        },
+        {
+          "step_number": 3,
+          "expression": "T = 98 N in each rope."
+        }
+      ],
+      "tags": [
+        "equilibrium",
+        "weight",
+        "tension"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
       "id": "ex-sec-3-01",
+      "section_id": "sec-3",
+      "tier": "stretch",
+      "kind": "algebraic",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "Which of the following is not an example of an object undergoing a torque?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "A car is rounding a bend at a constant speed"
+        },
+        {
+          "id": "b",
+          "text": "A merry-go-round increases from rest to a constant rotational speed"
+        },
+        {
+          "id": "c",
+          "text": "A pendulum swings back and forth"
+        },
+        {
+          "id": "d",
+          "text": "A bowling ball rolls down a bowling alley"
+        }
+      ],
+      "answer": {
+        "text": "(a)",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a)"
+        }
+      ],
+      "tags": [
+        "moment",
+        "torque",
+        "equilibrium"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42171/index.cnxml",
+        "locator": "CNXML module m42171, exercise block exr-39",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-02",
       "section_id": "sec-3",
       "tier": "stretch",
       "kind": "application",
@@ -2496,7 +2162,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-3-02",
+      "id": "ex-sec-3-03",
       "section_id": "sec-3",
       "tier": "core",
       "kind": "numeric",
@@ -2533,14 +2199,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-3-03",
+      "id": "ex-sec-3-04",
       "section_id": "sec-3",
       "tier": "core",
       "kind": "numeric",
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "Repeat the seesaw problem in with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.",
+        "text": "Repeat the seesaw problem in the example with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.",
         "inline": []
       },
       "options": [],
@@ -2608,48 +2274,12 @@
     {
       "id": "ex-sec-4-01",
       "section_id": "sec-4",
-      "tier": "core",
-      "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
-      "stem": {
-        "text": "Suppose a horse leans against a wall as in , emulating a scene in the comedy movie *Cat Ballou* . Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.",
-        "inline": []
-      },
-      "options": [],
-      "answer": {
-        "text": "1.43×{10}^{3}N",
-        "inline": []
-      },
-      "answer_kind": "expression",
-      "solution": [
-        {
-          "step_number": 1,
-          "expression": "${F}_{wall}=1.43×{10}^{3}N$"
-        }
-      ],
-      "tags": [
-        "stability",
-        "centre-of-gravity"
-      ],
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "osbooks-college-physics-bundle",
-        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42172/index.cnxml",
-        "locator": "CNXML module m42172, exercise block exr-34",
-        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-      },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
-    },
-    {
-      "id": "ex-sec-4-02",
-      "section_id": "sec-4",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "(a) Calculate the magnitude and direction of the force on each foot of the horse in (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg. (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.",
+        "text": "A horse stands facing a wall, with its feet 0.35 m horizontally from the wall. The wall pushes horizontally on the horse at a height of 1.20 m above the ground. The horse's center of mass is 1.40 m above the ground and midway between its feet. The total mass of the horse and rider is 500 kg. (a) Calculate the magnitude and direction of the force on each foot (two are on the ground). (b) What is the minimum coefficient of friction between the hooves and the ground?",
         "inline": []
       },
       "options": [],
@@ -2661,11 +2291,23 @@
       "solution": [
         {
           "step_number": 1,
-          "expression": "a) $2.55{×10}^{3}N,16.3º to the left of vertical (i.e.,toward the wall)$"
+          "expression": "The weight is $W=mg=(500\\ \\mathrm{kg})(9.80\\ \\mathrm{m/s^{2}})=4.90\\times10^{3}\\ \\mathrm{N}$."
         },
         {
           "step_number": 2,
-          "expression": "b) 0.292"
+          "expression": "Take torques about the feet. The wall force acts at 1.20 m and the weight at 0.35 m horizontally, so $F_{\\mathrm{wall}}(1.20)=(4.90\\times10^{3})(0.35)$ and $F_{\\mathrm{wall}}=1.43\\times10^{3}\\ \\mathrm{N}$."
+        },
+        {
+          "step_number": 3,
+          "expression": "Each foot carries half the weight, $N=2.45\\times10^{3}\\ \\mathrm{N}$, and half the horizontal force, $f=7.15\\times10^{2}\\ \\mathrm{N}$."
+        },
+        {
+          "step_number": 4,
+          "expression": "The resultant on each foot is $\\sqrt{(2.45\\times10^{3})^{2}+(7.15\\times10^{2})^{2}}=2.55\\times10^{3}\\ \\mathrm{N}$, directed $\\tan^{-1}(715/2450)=16.3^{\\circ}$ from the vertical toward the wall."
+        },
+        {
+          "step_number": 5,
+          "expression": "(b) The minimum coefficient of friction is $\\mu_{\\min}=f/N=715/2450=0.292$."
         }
       ],
       "tags": [
@@ -2682,43 +2324,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-4-03",
-      "section_id": "sec-4",
-      "tier": "core",
-      "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
-      "stem": {
-        "text": "A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in . The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.",
-        "inline": []
-      },
-      "options": [],
-      "answer": {
-        "text": "2.12×{10}^{4}N",
-        "inline": []
-      },
-      "answer_kind": "expression",
-      "solution": [
-        {
-          "step_number": 1,
-          "expression": "${F}_{B}=2.12×{10}^{4}N$"
-        }
-      ],
-      "tags": [
-        "stability",
-        "centre-of-gravity"
-      ],
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "osbooks-college-physics-bundle",
-        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42172/index.cnxml",
-        "locator": "CNXML module m42172, exercise block exr-45",
-        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-      },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
-    },
-    {
-      "id": "ex-sec-4-04",
+      "id": "ex-sec-4-02",
       "section_id": "sec-4",
       "tier": "stretch",
       "kind": "application",
@@ -2758,83 +2364,117 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-4-05",
-      "section_id": "sec-4",
-      "tier": "stretch",
-      "kind": "application",
-      "difficulty": 4,
-      "marks": 4,
-      "stem": {
-        "text": "A sandwich board advertising sign is constructed as shown in . The sign’s mass is 8.00 kg. (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk. (b) What force is exerted by each side on the hinge? A sandwich board advertising sign demonstrates tension.",
-        "inline": []
-      },
-      "options": [],
-      "answer": {
-        "text": "a) 21.6 N b) 21.6 N",
-        "inline": []
-      },
-      "answer_kind": "explanation",
-      "solution": [
-        {
-          "step_number": 1,
-          "expression": "a) 21.6 N"
-        },
-        {
-          "step_number": 2,
-          "expression": "b) 21.6 N"
-        }
-      ],
-      "tags": [
-        "stability",
-        "centre-of-gravity"
-      ],
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "osbooks-college-physics-bundle",
-        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42172/index.cnxml",
-        "locator": "CNXML module m42172, exercise block exr-59",
-        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-      },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
-    },
-    {
-      "id": "ex-sec-4-06",
+      "id": "ex-sec-4-03",
       "section_id": "sec-4",
       "tier": "core",
-      "kind": "algebraic",
+      "kind": "numeric",
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "An athlete is attempting to perform splits. From the information given in , calculate the magnitude and direction of the force exerted on each foot by the floor. An athlete performs full split. The center of gravity and the various distances from it are shown.",
+        "text": "A uniform 4.0-m ladder weighing 120 N leans against a smooth (frictionless) vertical wall, making a 60° angle with the ground. A 600-N painter stands on the ladder 2.0 m along its length, measured from the base. (a) Taking torques about the base of the ladder, find the normal force the wall exerts on the ladder. (b) Find the friction force that the ground must exert on the ladder's feet.",
         "inline": []
       },
       "options": [],
       "answer": {
-        "text": "350 N directly upwards",
+        "text": "(a) 210 N (b) 210 N (the ground also pushes up with 720 N)",
         "inline": []
       },
       "answer_kind": "expression",
       "solution": [
         {
           "step_number": 1,
-          "expression": "350 N directly upwards"
+          "expression": "Torques about the base: the wall force acts 4.0 sin 60° = 3.46 m above the base; the ladder's weight acts 2.0 cos 60° = 1.0 m along the ground; the painter acts 2.0 cos 60° = 1.0 m along the ground."
+        },
+        {
+          "step_number": 2,
+          "expression": "Balance of torques: F_wall × 3.46 = 120 × 1.0 + 600 × 1.0 = 720 N·m, so F_wall = 720/3.46 = 208 ≈ 210 N."
+        },
+        {
+          "step_number": 3,
+          "expression": "Horizontal equilibrium: the friction force at the ground equals the wall's push, so f = 208 ≈ 210 N."
         }
       ],
       "tags": [
-        "stability",
-        "centre-of-gravity"
+        "torque",
+        "equilibrium",
+        "ladder"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-4",
+        "locator": "authored exercise for sec-4",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-5-01",
+      "section_id": "sec-5",
+      "tier": "stretch",
+      "kind": "numeric",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "A group of students is stacking a set of identical books, each one overhanging the one below it by 1 inch. They would like to estimate how many books they could place on top of each other before the stack tipped. What information below would they need to know to make this calculation?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "The mass of each book"
+        },
+        {
+          "id": "b",
+          "text": "The width of each book"
+        },
+        {
+          "id": "c",
+          "text": "The depth of each book I only"
+        },
+        {
+          "id": "d",
+          "text": "I and II only"
+        },
+        {
+          "id": "e",
+          "text": "I and III only"
+        },
+        {
+          "id": "f",
+          "text": "II only"
+        },
+        {
+          "id": "g",
+          "text": "I, II, and III"
+        }
+      ],
+      "answer": {
+        "text": "(d)",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(d)"
+        }
+      ],
+      "tags": [
+        "problem-solving",
+        "statics"
       ],
       "provenance": {
         "publisher": "OpenStax",
         "title": "osbooks-college-physics-bundle",
-        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42172/index.cnxml",
-        "locator": "CNXML module m42172, exercise block exr-64",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42173/index.cnxml",
+        "locator": "CNXML module m42173, exercise block exr-29",
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-01",
+      "id": "ex-sec-5-02",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "numeric",
@@ -2846,7 +2486,7 @@
       },
       "options": [],
       "answer": {
-        "text": "will both be 4900 N.)",
+        "text": "*F* L = 7350 N and *F* R = 2450 N; as the car drives to the right, *F* L decreases and *F* R increases.",
         "inline": []
       },
       "answer_kind": "expression",
@@ -2867,7 +2507,95 @@
         "locator": "CNXML module m42173, exercise block exr-34",
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer field was truncated to 'will both be 4900 N.)' and is restored from the solution"
+    },
+    {
+      "id": "ex-sec-5-03",
+      "section_id": "sec-5",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Why is it useful to choose the pivot at the point where an unknown force acts?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "That force then has zero moment about the pivot, so it drops out of the moment equation.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "A moment is force times perpendicular distance from the pivot."
+        },
+        {
+          "step_number": 2,
+          "expression": "If the distance is zero, the moment is zero."
+        },
+        {
+          "step_number": 3,
+          "expression": "Choosing that point removes the unknown from the equation."
+        }
+      ],
+      "tags": [
+        "pivot",
+        "moment"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-5",
+        "locator": "authored exercise for sec-5",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-5-04",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A 2 m beam is pivoted at one end. A 30 N force acts perpendicular to the beam at 1.5 m from the pivot. Find the moment of the force.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "45 N m",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The force is perpendicular to the beam, so the perpendicular distance is 1.5 m."
+        },
+        {
+          "step_number": 2,
+          "expression": "Moment = force × distance = 30 × 1.5."
+        },
+        {
+          "step_number": 3,
+          "expression": "The moment is 45 N m."
+        }
+      ],
+      "tags": [
+        "moment",
+        "pivot"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-5",
+        "locator": "authored exercise for sec-5",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
     },
     {
       "id": "ex-sec-6-01",
@@ -2877,23 +2605,23 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "What is the mechanical advantage of a nail puller—similar to the one shown in —where you exert a force $45 cm$ from the pivot and the nail is $1.8 cm$ on the other side? What minimum force must you exert to apply a force of $1250 N$ to the nail?",
+        "text": "What is the mechanical advantage of a nail puller where you exert a force 45 cm from the pivot and the nail is 1.8 cm on the other side? What minimum force must you exert to apply a force of 1250 N to the nail?",
         "inline": []
       },
       "options": [],
       "answer": {
-        "text": "50 N",
+        "text": "Mechanical advantage 25; minimum force 50 N",
         "inline": []
       },
       "answer_kind": "expression",
       "solution": [
         {
           "step_number": 1,
-          "expression": "25"
+          "expression": "The mechanical advantage is the ratio of the effort distance to the load distance: $MA=45\\ \\mathrm{cm}/1.8\\ \\mathrm{cm}=25$."
         },
         {
           "step_number": 2,
-          "expression": "50 N"
+          "expression": "The required effort force is $F_{\\mathrm{effort}}=F_{\\mathrm{load}}/MA=1250\\ \\mathrm{N}/25=50\\ \\mathrm{N}$."
         }
       ],
       "tags": [
@@ -2917,7 +2645,7 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "a) What is the mechanical advantage of a wheelbarrow, such as the one in , if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m? (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg? (c) What force does the wheel exert on the ground?",
+        "text": "a) What is the mechanical advantage of a wheelbarrow if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m? (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg? (c) What force does the wheel exert on the ground?",
         "inline": []
       },
       "options": [],
@@ -2961,7 +2689,7 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "What force does the nail puller in exert on the supporting surface? The nail puller has a mass of 2.10 kg.",
+        "text": "What force does the nail puller in the exercise exert on the supporting surface? The nail puller has a mass of 2.10 kg.",
         "inline": []
       },
       "options": [],
@@ -2988,46 +2716,6 @@
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
       "solution_provenance": "OpenStax CNXML solution element (in file)"
-    },
-    {
-      "id": "ex-sec-6-04",
-      "section_id": "sec-6",
-      "tier": "core",
-      "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
-      "stem": {
-        "text": "Repeat for the pulley shown in (c), assuming you pull straight up on the rope. The pulley system’s mass is $7.00 kg$ .",
-        "inline": []
-      },
-      "options": [],
-      "answer": {
-        "text": "299 N",
-        "inline": []
-      },
-      "answer_kind": "expression",
-      "solution": [
-        {
-          "step_number": 1,
-          "expression": "a) $T=299 N$"
-        },
-        {
-          "step_number": 2,
-          "expression": "b) 897 N upward"
-        }
-      ],
-      "tags": [
-        "simple-machines",
-        "mechanical-advantage"
-      ],
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "osbooks-college-physics-bundle",
-        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42174/index.cnxml",
-        "locator": "CNXML module m42174, exercise block exr-54",
-        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-      },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
     }
   ],
   "exam_links": [
@@ -3035,42 +2723,15 @@
       "exam": "JAMB",
       "subject": "physics",
       "topic_slug": "equilibrium-of-forces",
-      "subtopic_slug": "centre-of-gravity-and-stability-stable-unstable-and-neutral",
+      "subtopic_slug": null,
       "status": "covered",
       "papers": []
-    },
-    {
-      "exam": "JAMB",
-      "subject": "physics",
-      "topic_slug": "equilibrium-of-forces",
-      "subtopic_slug": "conditions-for-equilibrium-of-rigid-bodies-under-parallel-an",
-      "status": "covered",
-      "papers": []
-    },
-    {
-      "exam": "JAMB",
-      "subject": "physics",
-      "topic_slug": "equilibrium-of-forces",
-      "subtopic_slug": "principle-of-moments-moment-of-a-force-couple-and-torque-app",
-      "status": "covered",
-      "papers": [
-        {
-          "question_id": "q_claim_2025_physics_74377",
-          "year": 2025,
-          "source": "claimed_paper"
-        },
-        {
-          "question_id": "q_claim_2025_physics_74492",
-          "year": 2025,
-          "source": "claimed_paper"
-        }
-      ]
     },
     {
       "exam": "JAMB",
       "subject": "physics",
       "topic_slug": "simple-machines",
-      "subtopic_slug": "definition-of-a-machine-and-types-of-machines",
+      "subtopic_slug": null,
       "status": "covered",
       "papers": []
     },
@@ -3078,21 +2739,7 @@
       "exam": "WAEC",
       "subject": "physics",
       "topic_slug": "waec-equilibrium-of-forces",
-      "subtopic_slug": "waec-centre-of-gravity-and-stability-2",
-      "status": "covered",
-      "papers": [
-        {
-          "question_id": "q_waec_2023_physics_69407",
-          "year": 2023,
-          "source": "claimed_paper"
-        }
-      ]
-    },
-    {
-      "exam": "WAEC",
-      "subject": "physics",
-      "topic_slug": "waec-equilibrium-of-forces",
-      "subtopic_slug": "waec-conditions-for-equilibrium-of-rigid-bodies-under-the-action-2",
+      "subtopic_slug": null,
       "status": "covered",
       "papers": [
         {
@@ -3101,116 +2748,9 @@
           "source": "claimed_paper"
         }
       ]
-    },
-    {
-      "exam": "WAEC",
-      "subject": "physics",
-      "topic_slug": "waec-equilibrium-of-forces",
-      "subtopic_slug": "waec-principle-of-moments-2",
-      "status": "covered",
-      "papers": []
     }
   ],
   "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": {
-        "text": "The normal force on a body resting on a floor is half its weight.",
-        "inline": []
-      },
-      "correction": {
-        "text": "The floor pushes up with a force equal to the weight, so the normal force is the whole weight.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers half the weight as an option.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-2",
-        "locator": "our practice question rc-4",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": {
-        "text": "The angle between the force and the arm does not change the moment.",
-        "inline": []
-      },
-      "correction": {
-        "text": "Only the component of the force perpendicular to the arm turns the body, so the moment is F d sin(theta).",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the moment with the angle ignored.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-3",
-        "locator": "our practice question rc-5",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-3",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": {
-        "text": "A body is stable when its centre of gravity is high.",
-        "inline": []
-      },
-      "correction": {
-        "text": "A body is stable when a small tilt raises its centre of gravity, so a low centre of gravity inside a wide base is stable.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the high centre of gravity case.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-6",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_statics_and_torque/sections/sec-4",
-        "locator": "our practice question rc-6",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
     {
       "id": "trap-4",
       "exam": "JAMB",
@@ -3236,115 +2776,13 @@
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74380"
       },
       "status": "proven",
-      "frequency": "recurring",
+      "frequency": "occasional",
       "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
+        "publisher": "Joint Admissions and Matriculation Board (JAMB)",
+        "title": "JAMB Physics 2025",
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74380",
         "locator": "paper question q_claim_2025_physics_74380",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-5",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": {
-        "text": "The normal force on a body resting on a floor is a tenth of its weight.",
-        "inline": []
-      },
-      "correction": {
-        "text": "It is the whole weight. The floor pushes up with exactly the force the weight pushes down.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the value with the mass alone.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "status": "proven",
-      "frequency": "recurring",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/questions/waec",
-        "locator": "paper question waec",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-6",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": {
-        "text": "The moment of a force is the force divided by the distance from the pivot.",
-        "inline": []
-      },
-      "correction": {
-        "text": "The moment is the force multiplied by the perpendicular distance from the pivot.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the force divided by the distance as an option.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "status": "proven",
-      "frequency": "recurring",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/questions/waec",
-        "locator": "paper question waec",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-7",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": {
-        "text": "A narrow base makes a body stable.",
-        "inline": []
-      },
-      "correction": {
-        "text": "A narrow base makes a body unstable. A body is stable when a small tilt raises its centre of gravity.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the narrow base as the stable case.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "status": "proven",
-      "frequency": "recurring",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/questions/waec",
-        "locator": "paper question waec",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+        "licence": "Past-paper question quoted for evidence; rights remain with the examination board."
       }
     },
     {
@@ -3372,13 +2810,13 @@
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2025_physics_76337"
       },
       "status": "proven",
-      "frequency": "recurring",
+      "frequency": "occasional",
       "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
+        "publisher": "West African Examinations Council (WAEC)",
+        "title": "WAEC Physics 2025",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2025_physics_76337",
         "locator": "paper question q_waec_2025_physics_76337",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+        "licence": "Past-paper question quoted for evidence; rights remain with the examination board."
       }
     }
   ],
@@ -3623,6 +3061,41 @@
       "answer": "b",
       "explanation": {
         "text": "The mechanical advantage is the load over the effort, so the effort is 120/3 = 40 N. The efficiency does not change the mechanical advantage.",
+        "inline": []
+      },
+      "difficulty": 3,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "A uniform 4 m beam of weight 200 N is pivoted at its centre. A 50 N weight hangs 1 m from the left end. What downward effort at the right end keeps the beam balanced?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "12.5 N"
+        },
+        {
+          "id": "b",
+          "text": "25 N"
+        },
+        {
+          "id": "c",
+          "text": "50 N"
+        },
+        {
+          "id": "d",
+          "text": "100 N"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "The 50 N weight is 1 m from the pivot, giving a moment of 50 N m. The right end is 2 m from the pivot, so the effort is 50/2 = 25 N. The beam’s own weight acts at the pivot and has no moment.",
         "inline": []
       },
       "difficulty": 3,

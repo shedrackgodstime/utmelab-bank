@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Forces and Newton's Laws of Motion",
   "book_id": "secondary_physics",
-  "part_id": "part-1",
+  "part_id": "part-2",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -17,7 +17,10 @@
     "Explain why forces occur in pairs and why action and reaction act on different bodies.",
     "Distinguish mass from weight, and inertia from force."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_motion_along_a_straight_line",
+    "phy_two_dimensional_kinematics"
+  ],
   "formula_sheet": [
     {
       "id": "f-1",
@@ -318,8 +321,8 @@
           "kind": "numeric"
         },
         "exr-24": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "verbal"
         }
       },
@@ -333,13 +336,68 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "scalars-and-vectors",
-          "subtopic_slug": "types-of-force-contact-force-and-field-force",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
           "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-mass-and-weight",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-9"
+      "worked_from": "exr-9",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A book rests on a table. Name the two forces that belong in its free-body diagram.",
+          "answer": "Its weight acting downward and the normal force from the table acting upward.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Choose the book as the system.",
+            "The Earth pulls it down with its weight.",
+            "The table pushes it up with a normal force."
+          ],
+          "tags": [
+            "free-body diagram",
+            "weight",
+            "normal force"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A force of 12 N acts east and a force of 5 N acts west on the same body. Find the net force.",
+          "answer": "7 N east",
+          "answer_kind": "expression",
+          "solution": [
+            "Take east as positive: +12 N and -5 N.",
+            "Add the forces: 12 - 5 = 7 N.",
+            "The result is positive, so the net force points east."
+          ],
+          "tags": [
+            "net force",
+            "vector addition"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -427,7 +485,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -441,9 +499,73 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
-      "worked_from": "exr-10"
+      "worked_from": "exr-10",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A bus stops suddenly and the passengers lurch forward. Which of Newton’s laws explains this?",
+          "answer": "Newton’s first law: the passengers tend to keep their forward velocity.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Before braking, the passengers move forward with the bus.",
+            "When the bus slows, no forward force acts on the passengers.",
+            "By inertia they continue forward, which is Newton’s first law."
+          ],
+          "tags": [
+            "inertia",
+            "newton first law"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A spacecraft is far from any star or planet and moves in a straight line at constant speed. What is the net force on it?",
+          "answer": "Zero.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Constant velocity means the acceleration is zero.",
+            "Newton’s first law says a body keeps a constant velocity when the net external force is zero.",
+            "Therefore the net force on the spacecraft is zero."
+          ],
+          "tags": [
+            "inertia",
+            "net force"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A hockey puck slides across frictionless ice at constant velocity. A student says a forward force must be pushing it. Is the student right? Explain.",
+          "answer": "No. With no friction and no other horizontal force, the net force is zero and the puck keeps its velocity.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Constant velocity means zero acceleration.",
+            "By Newton’s first law, zero acceleration requires zero net force.",
+            "No forward force is needed to keep the puck moving; only a force would be needed to change its motion."
+          ],
+          "tags": [
+            "inertia",
+            "frictionless motion"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -486,7 +608,8 @@
         "exr-93": {
           "difficulty": 4,
           "marks": 4,
-          "kind": "numeric"
+          "kind": "numeric",
+          "tier": "stretch"
         },
         "exr-102": {
           "difficulty": 3,
@@ -496,7 +619,8 @@
         "exr-108": {
           "difficulty": 4,
           "marks": 4,
-          "kind": "numeric"
+          "kind": "numeric",
+          "tier": "stretch"
         },
         "exr-115": {
           "difficulty": 3,
@@ -512,7 +636,8 @@
           "kind": "numeric",
           "hints": [
             "Use Newton's third law: the force on the ground equals the force on the person."
-          ]
+          ],
+          "tier": "stretch"
         }
       },
       "tags": [
@@ -526,7 +651,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -545,7 +670,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -555,8 +680,7 @@
             }
           ]
         }
-      ],
-      "worked_from": "exr-89"
+      ]
     },
     {
       "id": "sec-5",
@@ -580,6 +704,13 @@
           "claim": "The force that moves a boat forward comes from the rower's arms.",
           "correction": "It comes from the interaction between the oars and the water. The rower's arms supply the push on the oars, not the force on the boat.",
           "locator": "CNXML module m42074, conceptual question on rowing"
+        },
+        {
+          "claim": "The action and the reaction cancel, so nothing can move.",
+          "correction": "They act on two different bodies, so they never cancel on one body. That is why the swimmer accelerates away from the wall.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_forces_and_newtons_laws:trap-4",
+          "signal": "Our own question offers the cancellation as an option."
         }
       ],
       "summary": [
@@ -602,8 +733,8 @@
           "kind": "algebraic"
         },
         "exr-51": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "numeric"
         },
         "exr-58": {
@@ -615,8 +746,8 @@
           ]
         },
         "exr-70": {
-          "difficulty": 3,
-          "marks": 3,
+          "difficulty": 4,
+          "marks": 4,
           "kind": "algebraic"
         },
         "exr-75": {
@@ -643,7 +774,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -657,6 +788,14 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
       "worked_from": "exr-40"
@@ -687,7 +826,8 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2023_physics_69404"
       },
-      "frequency": "recurring"
+      "frequency": "occasional",
+      "status": "proven"
     },
     {
       "id": "trap-2",
@@ -704,41 +844,8 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2024_physics_72028"
       },
-      "frequency": "recurring"
-    },
-    {
-      "id": "trap-3",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A body can exert a force on itself.",
-      "correction": "It cannot. A hawk that accelerates while gliding is pushed by the air and pulled by the Earth.",
-      "signal": "Our own question offers the body as its own source of force.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-7",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The action and the reaction cancel, so nothing can move.",
-      "correction": "They act on two different bodies, so they never cancel on one body. That is why the swimmer accelerates away from the wall.",
-      "signal": "Our own question offers the cancellation as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-8",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
+      "frequency": "occasional",
+      "status": "proven"
     }
   ],
   "exam_recall_checks": [
@@ -974,5 +1081,14 @@
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
     }
-  ]
+  ],
+  "order": 4,
+  "exercise_fixes": {
+    "sec-4:exr-102": {
+      "stem": "(a) If the rocket sled starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust $T$ is $2.59\\times10^{4}\\ \\mathrm{N}$, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?"
+    },
+    "sec-4:exr-115": {
+      "stem": "The rocket sled accelerates at a rate of $49.0\\ \\mathrm{m/s^{2}}$. Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body."
+    }
+  }
 }

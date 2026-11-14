@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "shows what happens to charges moving through a conductor in a magnetic field. The field is perpendicular to the electron drift velocity and to the width of the conductor. Note that conventional current is to the right in both parts of the figure. In part (a), electrons carry the current and move to the left. In part (b), positive charges carry the current and move to the right. Moving electrons feel a magnetic force toward one side of the conductor, leaving a net positive charge on the other side. This separation of charge *creates a voltage $ε$* , known as the Hall emf , *across* the conductor. The creation of a voltage *across* a current-carrying conductor by a magnetic field is known as the Hall effect , after Edwin Hall, the American physicist who discovered it in 1879.",
+        "text": "The figure shows what happens to charges moving through a conductor in a magnetic field. The field is perpendicular to the electron drift velocity and to the width of the conductor. Note that conventional current is to the right in both parts of the figure. In part (a), electrons carry the current and move to the left. In part (b), positive charges carry the current and move to the right. Moving electrons feel a magnetic force toward one side of the conductor, leaving a net positive charge on the other side. This separation of charge *creates a voltage $ε$*, known as the Hall emf, *across* the conductor. The creation of a voltage *across* a current-carrying conductor by a magnetic field is known as the Hall effect, after Edwin Hall, the American physicist who discovered it in 1879.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "One very important use of the Hall effect is to determine whether positive or negative charges carries the current. Note that in (b), where positive charges carry the current, the Hall emf has the sign opposite to when negative charges carry the current. Historically, the Hall effect was used to show that electrons carry current in metals and it also shows that positive charges carry current in some semiconductors. The Hall effect is used today as a research tool to probe the movement of charges, their drift velocities and densities, and so on, in materials. In 1980, it was discovered that the Hall effect is quantized, an example of quantum behavior in a macroscopic object.",
+        "text": "One very important use of the Hall effect is to determine whether positive or negative charges carries the current. Note that in the figure (b), where positive charges carry the current, the Hall emf has the sign opposite to when negative charges carry the current. Historically, the Hall effect was used to show that electrons carry current in metals and it also shows that positive charges carry current in some semiconductors. The Hall effect is used today as a research tool to probe the movement of charges, their drift velocities and densities, and so on, in materials. In 1980, it was discovered that the Hall effect is quantized, an example of quantum behavior in a macroscopic object.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The Hall effect has other uses that range from the determination of blood flow rate to precision measurement of magnetic field strength. To examine these quantitatively, we need an expression for the Hall emf, $ε$ , across a conductor. Consider the balance of forces on a moving charge in a situation where $B$ , $v$ , and $l$ are mutually perpendicular, such as shown in . Although the magnetic force moves negative charges to one side, they cannot build up without limit. The electric field caused by their separation opposes the magnetic force, $F=qvB$ , and the electric force, ${F}_{e}=qE$ , eventually grows to equal it. That is,",
+        "text": "The Hall effect has other uses that range from the determination of blood flow rate to precision measurement of magnetic field strength. To examine these quantitatively, we need an expression for the Hall emf, $ε$, across a conductor. Consider the balance of forces on a moving charge in a situation where $B$, $v$, and $l$ are mutually perpendicular, such as shown in the figure. Although the magnetic force moves negative charges to one side, they cannot build up without limit. The electric field caused by their separation opposes the magnetic force, $F=qvB$, and the electric force, ${F}_{e}=qE$, eventually grows to equal it. That is, $qE=qvB$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Note that the electric field $E$ is uniform across the conductor because the magnetic field $B$ is uniform, as is the conductor. For a uniform electric field, the relationship between electric field and voltage is $E=ε/l$ , where $l$ is the width of the conductor and $ε$ is the Hall emf. Entering this into the last expression gives",
+        "text": "Note that the electric field $E$ is uniform across the conductor because the magnetic field $B$ is uniform, as is the conductor. For a uniform electric field, the relationship between electric field and voltage is $E=ε/l$, where $l$ is the width of the conductor and $ε$ is the Hall emf. Entering this into the last expression gives $\\frac{ε}{l}=vB.$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Solving this for the Hall emf yields",
+        "text": "Solving this for the Hall emf yields $ε=Blv (B, v, and l, mutually perpendicular),$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where $ε$ is the Hall effect voltage across a conductor of width $l$ through which charges move at a speed $v$ .",
+        "text": "where $ε$ is the Hall effect voltage across a conductor of width $l$ through which charges move at a speed $v$.",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "One of the most common uses of the Hall effect is in the measurement of magnetic field strength $B$ . Such devices, called *Hall probes* , can be made very small, allowing fine position mapping. Hall probes can also be made very accurate, usually accomplished by careful calibration. Another application of the Hall effect is to measure fluid flow in any fluid that has free charges (most do). (See .) A magnetic field applied perpendicular to the flow direction produces a Hall emf $ε$ as shown. Note that the sign of $ε$ depends not on the sign of the charges, but only on the directions of $B$ and $v$ . The magnitude of the Hall emf is $ε=Blv$ , where $l$ is the pipe diameter, so that the average velocity $v$ can be determined from $ε$ providing the other factors are known.",
+        "text": "One of the most common uses of the Hall effect is in the measurement of magnetic field strength $B$. Such devices, called *Hall probes*, can be made very small, allowing fine position mapping. Hall probes can also be made very accurate, usually accomplished by careful calibration. Another application of the Hall effect is to measure fluid flow in any fluid that has free charges (most do). (See the figure.) A magnetic field applied perpendicular to the flow direction produces a Hall emf $ε$ as shown. Note that the sign of $ε$ depends not on the sign of the charges, but only on the directions of $B$ and $v$. The magnitude of the Hall emf is $ε=Blv$, where $l$ is the pipe diameter, so that the average velocity $v$ can be determined from $ε$ providing the other factors are known.",
         "inline": []
       },
       "level": "core"
@@ -157,7 +157,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "A Hall effect flow probe is placed on an artery, applying a 0.100-T magnetic field across it, in a setup similar to that in . What is the Hall emf, given the vessel’s inside diameter is 4.00 mm and the average blood velocity is 20.0 cm/s?",
+        "text": "A Hall effect flow probe is placed on an artery, applying a 0.100-T magnetic field across it, in a setup similar to that in the figure. What is the Hall emf, given the vessel’s inside diameter is 4.00 mm and the average blood velocity is 20.0 cm/s?",
         "inline": []
       },
       "level": "core"
@@ -166,7 +166,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Because $B$ , $v$ , and $l$ are mutually perpendicular, the equation $ε=Blv$ can be used to find $ε$ .",
+        "text": "Because $B$, $v$, and $l$ are mutually perpendicular, the equation $ε=Blv$ can be used to find $ε$.",
         "inline": []
       },
       "level": "core"
@@ -175,7 +175,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values for $B$ , $v$ , and *$l$* gives",
+        "text": "Entering the given values for $B$, $v$, and *$l$* gives $ε = Blv=(0.100 T)(4.00\\times {10}^{-3} m)(0.200 m/s) = 80.0 μV$",
         "inline": []
       },
       "level": "core"
@@ -272,7 +272,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A large water main is 2.50 m in diameter and the average water velocity is 6.00 m/s. Find the Hall voltage produced if the pipe runs perpendicular to the Earth’s $5.00×{10}^{-5}-T$ field.",
+        "text": "A large water main is 2.50 m in diameter and the average water velocity is 6.00 m/s. Find the Hall voltage produced if the pipe runs perpendicular to the Earth’s $5.00\\times {10}^{-5}-T$ field.",
         "inline": []
       },
       "level": "core",
@@ -317,7 +317,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the speed of a supersonic aircraft with a 17.0-m wingspan, if it experiences a 1.60-V Hall voltage between its wing tips when in level flight over the north magnetic pole, where the Earth’s field strength is $8.00×{10}^{-5}T?$ (b) Explain why very little current flows as a result of this Hall voltage.",
+        "text": "(a) What is the speed of a supersonic aircraft with a 17.0-m wingspan, if it experiences a 1.60-V Hall voltage between its wing tips when in level flight over the north magnetic pole, where the Earth’s field strength is $8.00\\times {10}^{-5} T?$ (b) Explain why very little current flows as a result of this Hall voltage.",
         "inline": []
       },
       "level": "core",
@@ -416,7 +416,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Using information in , what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?",
+        "text": "Using information in the example, what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?",
         "inline": []
       },
       "level": "core",

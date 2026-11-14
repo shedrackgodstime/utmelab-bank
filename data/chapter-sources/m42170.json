@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The first condition necessary to achieve equilibrium is the one already mentioned: the net external force on the system must be zero. Expressed as an equation, this is simply",
+        "text": "The first condition necessary to achieve equilibrium is the one already mentioned: the net external force on the system must be zero. Expressed as an equation, this is simply $net F=0$",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Note that if net $F$ is zero, then the net external force in *any* direction is zero. For example, the net external forces along the typical *x* - and *y* -axes are zero. This is written as",
+        "text": "Note that if net $F$ is zero, then the net external force in *any* direction is zero. For example, the net external forces along the typical *x* - and *y* -axes are zero. This is written as $net {F}_{x}=0 and net {F}_{y}=0$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "and illustrate situations where $netF=0$ for both static equilibrium (motionless), and dynamic equilibrium (constant velocity).",
+        "text": "The figure and the figure illustrate situations where $net F=0$ for both static equilibrium (motionless), and dynamic equilibrium (constant velocity).",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "However, it is not sufficient for the net external force of a system to be zero for a system to be in equilibrium. Consider the two situations illustrated in and where forces are applied to an ice hockey stick lying flat on ice. The net external force is zero in both situations shown in the figure; but in one case, equilibrium is achieved, whereas in the other, it is not. In , the ice hockey stick remains motionless. But in , with the same forces applied in different places, the stick experiences accelerated rotation. Therefore, we know that the point at which a force is applied is another factor in determining whether or not equilibrium is achieved. This will be explored further in the next section.",
+        "text": "However, it is not sufficient for the net external force of a system to be zero for a system to be in equilibrium. Consider the two situations illustrated in the figure and the figure where forces are applied to an ice hockey stick lying flat on ice. The net external force is zero in both situations shown in the figure; but in one case, equilibrium is achieved, whereas in the other, it is not. In the figure, the ice hockey stick remains motionless. But in the figure, with the same forces applied in different places, the stick experiences accelerated rotation. Therefore, we know that the point at which a force is applied is another factor in determining whether or not equilibrium is achieved. This will be explored further in the next section.",
         "inline": []
       },
       "level": "core"
@@ -128,7 +128,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"

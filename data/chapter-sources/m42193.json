@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "What happens to a pressure in an enclosed fluid? Since atoms in a fluid are free to move about, they transmit the pressure to all parts of the fluid and to the walls of the container. Remarkably, the pressure is transmitted *undiminished* . This phenomenon is called Pascal’s principle , because it was first clearly stated by the French philosopher and scientist Blaise Pascal (1623–1662): A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container.",
+        "text": "What happens to a pressure in an enclosed fluid? Since atoms in a fluid are free to move about, they transmit the pressure to all parts of the fluid and to the walls of the container. Remarkably, the pressure is transmitted *undiminished*. This phenomenon is called Pascal’s principle, because it was first clearly stated by the French philosopher and scientist Blaise Pascal (1623–1662): A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Pascal’s principle, an experimentally verified fact, is what makes pressure so important in fluids. Since a change in pressure is transmitted undiminished in an enclosed fluid, we often know more about pressure than other physical quantities in fluids. Moreover, Pascal’s principle implies that *the total pressure in a fluid is the sum of the pressures from different sources* . We shall find this fact—that pressures add—very useful.",
+        "text": "Pascal’s principle, an experimentally verified fact, is what makes pressure so important in fluids. Since a change in pressure is transmitted undiminished in an enclosed fluid, we often know more about pressure than other physical quantities in fluids. Moreover, Pascal’s principle implies that *the total pressure in a fluid is the sum of the pressures from different sources*. We shall find this fact—that pressures add—very useful.",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "One of the most important technological applications of Pascal’s principle is found in a *hydraulic system* , which is an enclosed fluid system used to exert forces. The most common hydraulic systems are those that operate car brakes. Let us first consider the simple hydraulic system shown in .",
+        "text": "One of the most important technological applications of Pascal’s principle is found in a *hydraulic system*, which is an enclosed fluid system used to exert forces. The most common hydraulic systems are those that operate car brakes. Let us first consider the simple hydraulic system shown in the figure.",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "We can derive a relationship between the forces in the simple hydraulic system shown in by applying Pascal’s principle. Note first that the two pistons in the system are at the same height, and so there will be no difference in pressure due to a difference in depth. Now the pressure due to ${F}_{1}$ acting on area ${A}_{1}$ is simply ${P}_{1}=\\frac{{F}_{1}}{{A}_{1}}$ , as defined by $P=\\frac{F}{A}$ . According to Pascal’s principle, this pressure is transmitted undiminished throughout the fluid and to all walls of the container. Thus, a pressure ${P}_{2}$ is felt at the other piston that is equal to ${P}_{1}$ . That is ${P}_{1}={P}_{2}$ .",
+        "text": "We can derive a relationship between the forces in the simple hydraulic system shown in the figure by applying Pascal’s principle. Note first that the two pistons in the system are at the same height, and so there will be no difference in pressure due to a difference in depth. Now the pressure due to ${F}_{1}$ acting on area ${A}_{1}$ is simply ${P}_{1}=\\frac{{F}_{1}}{{A}_{1}}$, as defined by $P=\\frac{F}{A}$. According to Pascal’s principle, this pressure is transmitted undiminished throughout the fluid and to all walls of the container. Thus, a pressure ${P}_{2}$ is felt at the other piston that is equal to ${P}_{1}$. That is ${P}_{1}={P}_{2}$.",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "But since ${P}_{2}=\\frac{{F}_{2}}{{A}_{2}}$ , we see that $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$ .",
+        "text": "But since ${P}_{2}=\\frac{{F}_{2}}{{A}_{2}}$, we see that $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$.",
         "inline": []
       },
       "level": "core"
@@ -134,7 +134,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "This equation relates the ratios of force to area in any hydraulic system, providing the pistons are at the same vertical height and that friction in the system is negligible. Hydraulic systems can increase or decrease the force applied to them. To make the force larger, the pressure is applied to a larger area. For example, if a 100-N force is applied to the left cylinder in and the right one has an area five times greater, then the force out is 500 N. Hydraulic systems are analogous to simple levers, but they have the advantage that pressure can be sent through tortuously curved lines to several places at once.",
+        "text": "This equation relates the ratios of force to area in any hydraulic system, providing the pistons are at the same vertical height and that friction in the system is negligible. Hydraulic systems can increase or decrease the force applied to them. To make the force larger, the pressure is applied to a larger area. For example, if a 100-N force is applied to the left cylinder in the figure and the right one has an area five times greater, then the force out is 500 N. Hydraulic systems are analogous to simple levers, but they have the advantage that pressure can be sent through tortuously curved lines to several places at once.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Consider the automobile hydraulic system shown in .",
+        "text": "Consider the automobile hydraulic system shown in the figure.",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "A force of 100 N is applied to the brake pedal, which acts on the pedal cylinder through a lever. A force of 500 N is exerted on the pedal cylinder. (The reader can verify that the force is 500 N using techniques of statics from Applications of Statics, Including Problem-Solving Strategies .) Pressure created in the pedal cylinder is transmitted to four wheel cylinders. The pedal cylinder has a diameter of 0.500 cm, and each wheel cylinder has a diameter of 2.50 cm. Calculate the force ${F}_{2}$ created at each of the wheel cylinders.",
+        "text": "A force of 100 N is applied to the brake pedal, which acts on the pedal cylinder through a lever. A force of 500 N is exerted on the pedal cylinder. (The reader can verify that the force is 500 N using techniques of statics from Applications of Statics, Including Problem-Solving Strategies.) Pressure created in the pedal cylinder is transmitted to four wheel cylinders. The pedal cylinder has a diameter of 0.500 cm, and each wheel cylinder has a diameter of 2.50 cm. Calculate the force ${F}_{2}$ created at each of the wheel cylinders.",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "We are given the force ${F}_{1}$ that is applied to the pedal cylinder. The cross-sectional areas ${A}_{1}$ and ${A}_{2}$ can be calculated from their given diameters. Then $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$ can be used to find the force ${F}_{2}$ . Manipulate this algebraically to get ${F}_{2}$ on one side and substitute known values:",
+        "text": "We are given the force ${F}_{1}$ that is applied to the pedal cylinder. The cross-sectional areas ${A}_{1}$ and ${A}_{2}$ can be calculated from their given diameters. Then $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$ can be used to find the force ${F}_{2}$. Manipulate this algebraically to get ${F}_{2}$ on one side and substitute known values:",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Pascal’s principle applied to hydraulic systems is given by $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$ :",
+        "text": "Pascal’s principle applied to hydraulic systems is given by $\\frac{{F}_{1}}{{A}_{1}}=\\frac{{F}_{2}}{{A}_{2}}$: ${F}_{2}=\\frac{{A}_{2}}{{A}_{1}}{F}_{1}=\\frac{{πr}_{2}^{2}}{{πr}_{1}^{2}}{F}_{1}=\\frac{{(1.25 cm)}^{2}}{{(0.250 cm)}^{2}}\\times 500 N=1.25\\times {10}^{4} N.$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "This value is the force exerted by each of the four wheel cylinders. Note that we can add as many wheel cylinders as we wish. If each has a 2.50-cm diameter, each will exert $1.25×{10}^{4}N.$",
+        "text": "This value is the force exerted by each of the four wheel cylinders. Note that we can add as many wheel cylinders as we wish. If each has a 2.50-cm diameter, each will exert $1.25\\times {10}^{4} N.$",
         "inline": []
       },
       "level": "core"
@@ -283,7 +283,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How much pressure is transmitted in the hydraulic system considered in ? Express your answer in pascals and in atmospheres.",
+        "text": "How much pressure is transmitted in the hydraulic system considered in the example? Express your answer in pascals and in atmospheres.",
         "inline": []
       },
       "level": "core",

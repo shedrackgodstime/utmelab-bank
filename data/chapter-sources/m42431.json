@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "When alone in an AC circuit, inductors, capacitors, and resistors all impede current. How do they behave when all three occur together? Interestingly, their individual resistances in ohms do not simply add. Because inductors and capacitors behave in opposite ways, they partially to totally cancel each other’s effect. shows an *RLC* series circuit with an AC voltage source, the behavior of which is the subject of this section. The crux of the analysis of an *RLC* circuit is the frequency dependence of ${X}_{L}$ and ${X}_{C}$ , and the effect they have on the phase of voltage versus current (established in the preceding section). These give rise to the frequency dependence of the circuit, with important “resonance” features that are the basis of many applications, such as radio tuners.",
+        "text": "When alone in an AC circuit, inductors, capacitors, and resistors all impede current. How do they behave when all three occur together? Interestingly, their individual resistances in ohms do not simply add. Because inductors and capacitors behave in opposite ways, they partially to totally cancel each other’s effect. The figure shows an *RLC* series circuit with an AC voltage source, the behavior of which is the subject of this section. The crux of the analysis of an *RLC* circuit is the frequency dependence of ${X}_{L}$ and ${X}_{C}$, and the effect they have on the phase of voltage versus current (established in the preceding section). These give rise to the frequency dependence of the circuit, with important “resonance” features that are the basis of many applications, such as radio tuners.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The combined effect of resistance $R$ , inductive reactance ${X}_{L}$ , and capacitive reactance ${X}_{C}$ is defined to be impedance , an AC analogue to resistance in a DC circuit. Current, voltage, and impedance in an *RLC* circuit are related by an AC version of Ohm’s law:",
+        "text": "The combined effect of resistance $R$, inductive reactance ${X}_{L}$, and capacitive reactance ${X}_{C}$ is defined to be impedance, an AC analogue to resistance in a DC circuit. Current, voltage, and impedance in an *RLC* circuit are related by an AC version of Ohm’s law: ${I}_{0}=\\frac{{V}_{0}}{Z} or {I}_{rms}=\\frac{{V}_{rms}}{Z}.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Here ${I}_{0}$ is the peak current, ${V}_{0}$ the peak source voltage, and $Z$ is the impedance of the circuit. The units of impedance are ohms, and its effect on the circuit is as you might expect: the greater the impedance, the smaller the current. To get an expression for $Z$ in terms of $R$ , ${X}_{L}$ , and ${X}_{C}$ , we will now examine how the voltages across the various components are related to the source voltage. Those voltages are labeled ${V}_{R}$ , ${V}_{L}$ , and ${V}_{C}$ in .",
+        "text": "Here ${I}_{0}$ is the peak current, ${V}_{0}$ the peak source voltage, and $Z$ is the impedance of the circuit. The units of impedance are ohms, and its effect on the circuit is as you might expect: the greater the impedance, the smaller the current. To get an expression for $Z$ in terms of $R$, ${X}_{L}$, and ${X}_{C}$, we will now examine how the voltages across the various components are related to the source voltage. Those voltages are labeled ${V}_{R}$, ${V}_{L}$, and ${V}_{C}$ in the figure.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Conservation of charge requires current to be the same in each part of the circuit at all times, so that we can say the currents in $R$ , $L$ , and $C$ are equal and in phase. But we know from the preceding section that the voltage across the inductor ${V}_{L}$ leads the current by one-fourth of a cycle, the voltage across the capacitor ${V}_{C}$ follows the current by one-fourth of a cycle, and the voltage across the resistor ${V}_{R}$ is exactly in phase with the current. shows these relationships in one graph, as well as showing the total voltage around the circuit $V={V}_{R}+{V}_{L}+{V}_{C}$ , where all four voltages are the instantaneous values. According to Kirchhoff’s loop rule, the total voltage around the circuit $V$ is also the voltage of the source.",
+        "text": "Conservation of charge requires current to be the same in each part of the circuit at all times, so that we can say the currents in $R$, $L$, and $C$ are equal and in phase. But we know from the preceding section that the voltage across the inductor ${V}_{L}$ leads the current by one-fourth of a cycle, the voltage across the capacitor ${V}_{C}$ follows the current by one-fourth of a cycle, and the voltage across the resistor ${V}_{R}$ is exactly in phase with the current. The figure shows these relationships in one graph, as well as showing the total voltage around the circuit $V={V}_{R}+{V}_{L}+{V}_{C}$, where all four voltages are the instantaneous values. According to Kirchhoff’s loop rule, the total voltage around the circuit $V$ is also the voltage of the source.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "You can see from that while ${V}_{R}$ is in phase with the current, ${V}_{L}$ leads by $90º$ , and ${V}_{C}$ follows by $90º$ . Thus ${V}_{L}$ and ${V}_{C}$ are $180º$ out of phase (crest to trough) and tend to cancel, although not completely unless they have the same magnitude. Since the peak voltages are not aligned (not in phase), the peak voltage ${V}_{0}$ of the source does *not* equal the sum of the peak voltages across $R$ , $L$ , and $C$ . The actual relationship is",
+        "text": "You can see from the figure that while ${V}_{R}$ is in phase with the current, ${V}_{L}$ leads by $90º$, and ${V}_{C}$ follows by $90º$. Thus ${V}_{L}$ and ${V}_{C}$ are $180º$ out of phase (crest to trough) and tend to cancel, although not completely unless they have the same magnitude. Since the peak voltages are not aligned (not in phase), the peak voltage ${V}_{0}$ of the source does *not* equal the sum of the peak voltages across $R$, $L$, and $C$. The actual relationship is ${V}_{0}=\\sqrt{{V}_{0R}^{ 2}+({V}_{0L}-{V}_{0C}{)}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where ${V}_{0R}$ , ${V}_{0L}$ , and ${V}_{0C}$ are the peak voltages across $R$ , $L$ , and $C$ , respectively. Now, using Ohm’s law and definitions from Reactance, Inductive and Capacitive , we substitute ${V}_{0}={I}_{0}Z$ into the above, as well as ${V}_{0R}={I}_{0}R$ , ${V}_{0L}={I}_{0}{X}_{L}$ , and ${V}_{0C}={I}_{0}{X}_{C}$ , yielding",
+        "text": "where ${V}_{0R}$, ${V}_{0L}$, and ${V}_{0C}$ are the peak voltages across $R$, $L$, and $C$, respectively. Now, using Ohm’s law and definitions from Reactance, Inductive and Capacitive, we substitute ${V}_{0}={I}_{0}Z$ into the above, as well as ${V}_{0R}={I}_{0}R$, ${V}_{0L}={I}_{0}{X}_{L}$, and ${V}_{0C}={I}_{0}{X}_{C}$, yielding ${I}_{0}Z=\\sqrt{{I}_{0}^{ 2}{R}^{2}+({I}_{0}{X}_{L}-{I}_{0}{X}_{C}{)}^{2}}={I}_{0}\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "${I}_{0}$ cancels to yield an expression for $Z$ :",
+        "text": "${I}_{0}$ cancels to yield an expression for $Z$: $Z=\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}},$",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "which is the impedance of an *RLC* series AC circuit. For circuits without a resistor, take $R=0$ ; for those without an inductor, take ${X}_{L}=0$ ; and for those without a capacitor, take ${X}_{C}=0$ .",
+        "text": "which is the impedance of an *RLC* series AC circuit. For circuits without a resistor, take $R=0$; for those without an inductor, take ${X}_{L}=0$; and for those without a capacitor, take ${X}_{C}=0$.",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "An *RLC* series circuit has a $40.0 Ω$ resistor, a 3.00 mH inductor, and a $5.00 μF$ capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for $L$ and $C$ are the same as in and . (b) If the voltage source has ${V}_{rms}=120V$ , what is ${I}_{rms}$ at each frequency?",
+        "text": "An *RLC* series circuit has a $40.0 Ω$ resistor, a 3.00 mH inductor, and a $5.00 μF$ capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for $L$ and $C$ are the same as in the example and the example. (b) If the voltage source has ${V}_{rms}=120 V$, what is ${I}_{rms}$ at each frequency?",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "At 60.0 Hz, the values of the reactances were found in to be ${X}_{L}=1.13Ω$ and in to be ${X}_{C}=531Ω$ . Entering these and the given $40.0 Ω$ for resistance into $Z=\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}$ yields",
+        "text": "At 60.0 Hz, the values of the reactances were found in the example to be ${X}_{L}=1.13 Ω$ and in the example to be ${X}_{C}=531 Ω$. Entering these and the given $40.0 Ω$ for resistance into $Z=\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}$ yields $Z = \\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}} = \\sqrt{(40.0 Ω{)}^{2}+(1.13 Ω-531 Ω{)}^{2}} = 531 Ωat 60.0 Hz.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Similarly, at 10.0 kHz, ${X}_{L}=188Ω$ and ${X}_{C}=3.18Ω$ , so that",
+        "text": "Similarly, at 10.0 kHz, ${X}_{L}=188 Ω$ and ${X}_{C}=3.18 Ω$, so that $Z = \\sqrt{(40.0 Ω{)}^{2}+(188 Ω-3.18 Ω{)}^{2}} = 190 Ωat 10.0 kHz.$",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The current ${I}_{rms}$ can be found using the AC version of Ohm’s law in Equation ${I}_{rms}={V}_{rms}/Z$ :",
+        "text": "The current ${I}_{rms}$ can be found using the AC version of Ohm’s law in Equation ${I}_{rms}={V}_{rms}/Z$:",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "${I}_{rms}=\\frac{{V}_{rms}}{Z}=\\frac{120V}{531Ω}=0.226A$ at 60.0 Hz",
+        "text": "${I}_{rms}=\\frac{{V}_{rms}}{Z}=\\frac{120 V}{531 Ω}=0.226 A$ at 60.0 Hz",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "${I}_{rms}=\\frac{{V}_{rms}}{Z}=\\frac{120V}{190Ω}=0.633A$ at 10.0 kHz",
+        "text": "${I}_{rms}=\\frac{{V}_{rms}}{Z}=\\frac{120 V}{190 Ω}=0.633 A$ at 10.0 kHz",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The current at 60.0 Hz is the same (to three digits) as found for the capacitor alone in . The capacitor dominates at low frequency. The current at 10.0 kHz is only slightly different from that found for the inductor alone in . The inductor dominates at high frequency.",
+        "text": "The current at 60.0 Hz is the same (to three digits) as found for the capacitor alone in the example. The capacitor dominates at low frequency. The current at 10.0 kHz is only slightly different from that found for the inductor alone in the example. The inductor dominates at high frequency.",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "How does an *RLC* circuit behave as a function of the frequency of the driving voltage source? Combining Ohm’s law, ${I}_{rms}={V}_{rms}/Z$ , and the expression for impedance $Z$ from $Z=\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}$ gives",
+        "text": "How does an *RLC* circuit behave as a function of the frequency of the driving voltage source? Combining Ohm’s law, ${I}_{rms}={V}_{rms}/Z$, and the expression for impedance $Z$ from $Z=\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}$ gives ${I}_{rms}=\\frac{{V}_{rms}}{\\sqrt{{R}^{2}+({X}_{L}-{X}_{C}{)}^{2}}}.$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The reactances vary with frequency, with ${X}_{L}$ large at high frequencies and ${X}_{C}$ large at low frequencies, as we have seen in three previous examples. At some intermediate frequency ${f}_{0}$ , the reactances will be equal and cancel, giving *$Z=R$* —this is a minimum value for impedance, and a maximum value for ${I}_{rms}$ results. We can get an expression for ${f}_{0}$ by taking",
+        "text": "The reactances vary with frequency, with ${X}_{L}$ large at high frequencies and ${X}_{C}$ large at low frequencies, as we have seen in three previous examples. At some intermediate frequency ${f}_{0}$, the reactances will be equal and cancel, giving *$Z=R$* —this is a minimum value for impedance, and a maximum value for ${I}_{rms}$ results. We can get an expression for ${f}_{0}$ by taking ${X}_{L}={X}_{C}.$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the definitions of ${X}_{L}$ and ${X}_{C}$ ,",
+        "text": "Substituting the definitions of ${X}_{L}$ and ${X}_{C}$, $2{πf}_{0}L=\\frac{1}{2{πf}_{0}C}.$",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Solving this expression for ${f}_{0}$ yields",
+        "text": "Solving this expression for ${f}_{0}$ yields ${f}_{0}=\\frac{1}{2π\\sqrt{LC}},$",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "where ${f}_{0}$ is the resonant frequency of an *RLC* series circuit. This is also the *natural frequency* at which the circuit would oscillate if not driven by the voltage source. At ${f}_{0}$ , the effects of the inductor and capacitor cancel, so that *$Z=R$* , and ${I}_{rms}$ is a maximum.",
+        "text": "where ${f}_{0}$ is the resonant frequency of an *RLC* series circuit. This is also the *natural frequency* at which the circuit would oscillate if not driven by the voltage source. At ${f}_{0}$, the effects of the inductor and capacitor cancel, so that *$Z=R$*, and ${I}_{rms}$ is a maximum.",
         "inline": []
       },
       "level": "core"
@@ -297,7 +297,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Resonance in AC circuits is analogous to mechanical resonance, where resonance is defined to be a forced oscillation—in this case, forced by the voltage source—at the natural frequency of the system. The receiver in a radio is an *RLC* circuit that oscillates best at its ${f}_{0}$ . A variable capacitor is often used to adjust ${f}_{0}$ to receive a desired frequency and to reject others. is a graph of current as a function of frequency, illustrating a resonant peak in ${I}_{rms}$ at ${f}_{0}$ . The two curves are for two different circuits, which differ only in the amount of resistance in them. The peak is lower and broader for the higher-resistance circuit. Thus the higher-resistance circuit does not resonate as strongly and would not be as selective in a radio receiver, for example.",
+        "text": "Resonance in AC circuits is analogous to mechanical resonance, where resonance is defined to be a forced oscillation—in this case, forced by the voltage source—at the natural frequency of the system. The receiver in a radio is an *RLC* circuit that oscillates best at its ${f}_{0}$. A variable capacitor is often used to adjust ${f}_{0}$ to receive a desired frequency and to reject others. The figure is a graph of current as a function of frequency, illustrating a resonant peak in ${I}_{rms}$ at ${f}_{0}$. The two curves are for two different circuits, which differ only in the amount of resistance in them. The peak is lower and broader for the higher-resistance circuit. Thus the higher-resistance circuit does not resonate as strongly and would not be as selective in a radio receiver, for example.",
         "inline": []
       },
       "level": "core"
@@ -343,7 +343,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "The resonant frequency is found by using the expression in ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ . The current at that frequency is the same as if the resistor alone were in the circuit.",
+        "text": "The resonant frequency is found by using the expression in ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$. The current at that frequency is the same as if the resistor alone were in the circuit.",
         "inline": []
       },
       "level": "core"
@@ -352,7 +352,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values for $L$ and $C$ into the expression given for ${f}_{0}$ in ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ yields",
+        "text": "Entering the given values for $L$ and $C$ into the expression given for ${f}_{0}$ in ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ yields ${f}_{0} = \\frac{1}{2π\\sqrt{LC}} = \\frac{1}{2π\\sqrt{(3.00\\times {10}^{-3} H)(5.00\\times {10}^{-6} F)}}=1.30 kHz.$",
         "inline": []
       },
       "level": "core"
@@ -370,7 +370,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "The current is given by Ohm’s law. At resonance, the two reactances are equal and cancel, so that the impedance equals the resistance alone. Thus,",
+        "text": "The current is given by Ohm’s law. At resonance, the two reactances are equal and cancel, so that the impedance equals the resistance alone. Thus, ${I}_{rms}=\\frac{{V}_{rms}}{Z}=\\frac{120 V}{40.0 Ω}=3.00 A.$",
         "inline": []
       },
       "level": "core"
@@ -397,7 +397,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "If current varies with frequency in an *RLC* circuit, then the power delivered to it also varies with frequency. But the average power is not simply current times voltage, as it is in purely resistive circuits. As was seen in , voltage and current are out of phase in an *RLC* circuit. There is a phase angle $ϕ$ between the source voltage $V$ and the current $I$ , which can be found from",
+        "text": "If current varies with frequency in an *RLC* circuit, then the power delivered to it also varies with frequency. But the average power is not simply current times voltage, as it is in purely resistive circuits. As was seen in the figure, voltage and current are out of phase in an *RLC* circuit. There is a phase angle $ϕ$ between the source voltage $V$ and the current $I$, which can be found from $cos ϕ=\\frac{R}{Z}.$",
         "inline": []
       },
       "level": "core"
@@ -406,7 +406,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "For example, at the resonant frequency or in a purely resistive circuit *$Z=R$* , so that $cosϕ=1$ . This implies that $ϕ=0º$ and that voltage and current are in phase, as expected for resistors. At other frequencies, average power is less than at resonance. This is both because voltage and current are out of phase and because ${I}_{rms}$ is lower. The fact that source voltage and current are out of phase affects the power delivered to the circuit. It can be shown that the *average power* is",
+        "text": "For example, at the resonant frequency or in a purely resistive circuit *$Z=R$*, so that $cos ϕ=1$. This implies that $ϕ=0º$ and that voltage and current are in phase, as expected for resistors. At other frequencies, average power is less than at resonance. This is both because voltage and current are out of phase and because ${I}_{rms}$ is lower. The fact that source voltage and current are out of phase affects the power delivered to the circuit. It can be shown that the *average power* is ${P}_{ave}={I}_{rms}{V}_{rms}cos ϕ,$",
         "inline": []
       },
       "level": "core"
@@ -415,7 +415,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "Thus $cosϕ$ is called the power factor , which can range from 0 to 1. Power factors near 1 are desirable when designing an efficient motor, for example. At the resonant frequency, $cosϕ=1$ .",
+        "text": "Thus $cos ϕ$ is called the power factor, which can range from 0 to 1. Power factors near 1 are desirable when designing an efficient motor, for example. At the resonant frequency, $cos ϕ=1$.",
         "inline": []
       },
       "level": "core"
@@ -439,7 +439,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "For the same *RLC* series circuit having a $40.0 Ω$ resistor, a 3.00 mH inductor, a $5.00 μF$ capacitor, and a voltage source with a ${V}_{rms}$ of 120 V: (a) Calculate the power factor and phase angle for $f=60.0Hz$ . (b) What is the average power at 60.0 Hz? (c) Find the average power at the circuit’s resonant frequency.",
+        "text": "For the same *RLC* series circuit having a $40.0 Ω$ resistor, a 3.00 mH inductor, a $5.00 μF$ capacitor, and a voltage source with a ${V}_{rms}$ of 120 V: (a) Calculate the power factor and phase angle for $f=60.0Hz$. (b) What is the average power at 60.0 Hz? (c) Find the average power at the circuit’s resonant frequency.",
         "inline": []
       },
       "level": "core"
@@ -457,7 +457,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "The power factor at 60.0 Hz is found from",
+        "text": "The power factor at 60.0 Hz is found from $cos ϕ=\\frac{R}{Z}.$",
         "inline": []
       },
       "level": "core"
@@ -475,7 +475,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "This small value indicates the voltage and current are significantly out of phase. In fact, the phase angle is",
+        "text": "This small value indicates the voltage and current are significantly out of phase. In fact, the phase angle is $ϕ={cos}^{-1} 0.0753=85.7º at 60.0 Hz.$",
         "inline": []
       },
       "level": "core"
@@ -484,7 +484,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "The phase angle is close to $90º$ , consistent with the fact that the capacitor dominates the circuit at this low frequency (a pure *RC* circuit has its voltage and current $90º$ out of phase).",
+        "text": "The phase angle is close to $90º$, consistent with the fact that the capacitor dominates the circuit at this low frequency (a pure *RC* circuit has its voltage and current $90º$ out of phase).",
         "inline": []
       },
       "level": "core"
@@ -502,7 +502,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "The average power at 60.0 Hz is",
+        "text": "The average power at 60.0 Hz is ${P}_{ave}={I}_{rms}{V}_{rms}cos ϕ.$",
         "inline": []
       },
       "level": "core"
@@ -511,7 +511,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "${I}_{rms}$ was found to be 0.226 A in . Entering the known values gives",
+        "text": "${I}_{rms}$ was found to be 0.226 A in the example. Entering the known values gives ${P}_{ave}=(0.226 A)(120 V)(0.0753)=2.04 W at 60.0 Hz.$",
         "inline": []
       },
       "level": "core"
@@ -529,7 +529,7 @@
       "id": "p-54",
       "type": "paragraph",
       "content": {
-        "text": "At the resonant frequency, we know $cosϕ=1$ , and ${I}_{rms}$ was found to be 3.00 A in . Thus,",
+        "text": "At the resonant frequency, we know $cos ϕ=1$, and ${I}_{rms}$ was found to be 3.00 A in the example. Thus,",
         "inline": []
       },
       "level": "core"
@@ -538,7 +538,7 @@
       "id": "p-55",
       "type": "paragraph",
       "content": {
-        "text": "${P}_{ave}=(3.00A)(120V)(1)=360W$ at resonance (1.30 kHz)",
+        "text": "${P}_{ave}=(3.00 A)(120 V)(1)=360 W$ at resonance (1.30 kHz)",
         "inline": []
       },
       "level": "core"
@@ -556,7 +556,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "Power delivered to an *RLC* series AC circuit is dissipated by the resistance alone. The inductor and capacitor have energy input and output but do not dissipate it out of the circuit. Rather they transfer energy back and forth to one another, with the resistor dissipating exactly what the voltage source puts into the circuit. This assumes no significant electromagnetic radiation from the inductor and capacitor, such as radio waves. Such radiation can happen and may even be desired, as we will see in the next chapter on electromagnetic radiation, but it can also be suppressed as is the case in this chapter. The circuit is analogous to the wheel of a car driven over a corrugated road as shown in . The regularly spaced bumps in the road are analogous to the voltage source, driving the wheel up and down. The shock absorber is analogous to the resistance damping and limiting the amplitude of the oscillation. Energy within the system goes back and forth between kinetic (analogous to maximum current, and energy stored in an inductor) and potential energy stored in the car spring (analogous to no current, and energy stored in the electric field of a capacitor). The amplitude of the wheels’ motion is a maximum if the bumps in the road are hit at the resonant frequency.",
+        "text": "Power delivered to an *RLC* series AC circuit is dissipated by the resistance alone. The inductor and capacitor have energy input and output but do not dissipate it out of the circuit. Rather they transfer energy back and forth to one another, with the resistor dissipating exactly what the voltage source puts into the circuit. This assumes no significant electromagnetic radiation from the inductor and capacitor, such as radio waves. Such radiation can happen and may even be desired, as we will see in the next chapter on electromagnetic radiation, but it can also be suppressed as is the case in this chapter. The circuit is analogous to the wheel of a car driven over a corrugated road as shown in the figure. The regularly spaced bumps in the road are analogous to the voltage source, driving the wheel up and down. The shock absorber is analogous to the resistance damping and limiting the amplitude of the oscillation. Energy within the system goes back and forth between kinetic (analogous to maximum current, and energy stored in an inductor) and potential energy stored in the car spring (analogous to no current, and energy stored in the electric field of a capacitor). The amplitude of the wheels’ motion is a maximum if the bumps in the road are hit at the resonant frequency.",
         "inline": []
       },
       "level": "core"
@@ -578,7 +578,7 @@
       "id": "p-59",
       "type": "paragraph",
       "content": {
-        "text": "A pure *LC* circuit with negligible resistance oscillates at ${f}_{0}$ , the same resonant frequency as an *RLC* circuit. It can serve as a frequency standard or clock circuit—for example, in a digital wristwatch. With a very small resistance, only a very small energy input is necessary to maintain the oscillations. The circuit is analogous to a car with no shock absorbers. Once it starts oscillating, it continues at its natural frequency for some time. shows the analogy between an *LC* circuit and a mass on a spring.",
+        "text": "A pure *LC* circuit with negligible resistance oscillates at ${f}_{0}$, the same resonant frequency as an *RLC* circuit. It can serve as a frequency standard or clock circuit—for example, in a digital wristwatch. With a very small resistance, only a very small energy input is necessary to maintain the oscillations. The circuit is analogous to a car with no shock absorbers. Once it starts oscillating, it continues at its natural frequency for some time. The figure shows the analogy between an *LC* circuit and a mass on a spring.",
         "inline": []
       },
       "level": "core"
@@ -679,7 +679,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RL* circuit consists of a $40.0 Ω$ resistor and a 3.00 mH inductor. (a) Find its impedance $Z$ at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in in which there was also a capacitor.",
+        "text": "An *RL* circuit consists of a $40.0 Ω$ resistor and a\n3.00 mH inductor. (a) Find its impedance $Z$ at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in the example in which there was also a capacitor.",
         "inline": []
       },
       "level": "core",
@@ -721,7 +721,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RC* circuit consists of a $40.0 Ω$ resistor and a $5.00 μF$ capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in , in which there was also an inductor.",
+        "text": "An *RC* circuit consists of a $40.0 Ω$ resistor and a $5.00 μF$ capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in the example, in which there was also an inductor.",
         "inline": []
       },
       "level": "core",
@@ -742,7 +742,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *LC* circuit consists of a $3.00mH$ inductor and a $5.00μF$ capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in in which there was also a resistor.",
+        "text": "An *LC* circuit consists of a $3.00 mH$ inductor and a $5.00 μF$ capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of $Z$ with those found in the example in which there was also a resistor.",
         "inline": []
       },
       "level": "core",
@@ -919,7 +919,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RLC* series circuit has a $2.50 Ω$ resistor, a $100 μH$ inductor, and an $80.0 μF$ capacitor.(a) Find the circuit’s impedance at 120 Hz. (b) Find the circuit’s impedance at 5.00 kHz. (c) If the voltage source has ${V}_{rms}=5.60V$ , what is ${I}_{rms}$ at each frequency? (d) What is the resonant frequency of the circuit? (e) What is ${I}_{rms}$ at resonance?",
+        "text": "An *RLC* series circuit has a $2.50 Ω$ resistor, a $100 μH$ inductor, and an $80.0 μF$ capacitor.(a) Find the circuit’s impedance at 120 Hz. (b) Find the circuit’s impedance at 5.00 kHz. (c) If the voltage source has ${V}_{rms}=5.60 V$, what is ${I}_{rms}$ at each frequency? (d) What is the resonant frequency of the circuit? (e) What is ${I}_{rms}$ at resonance?",
         "inline": []
       },
       "level": "core",
@@ -940,7 +940,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RLC* series circuit has a $1.00 kΩ$ resistor, a $150 μH$ inductor, and a 25.0 nF capacitor. (a) Find the circuit’s impedance at 500 Hz. (b) Find the circuit’s impedance at 7.50 kHz. (c) If the voltage source has ${V}_{rms}=408V$ , what is ${I}_{rms}$ at each frequency? (d) What is the resonant frequency of the circuit? (e) What is ${I}_{rms}$ at resonance?",
+        "text": "An *RLC* series circuit has a $1.00 kΩ$ resistor, a $150 μH$ inductor, and a 25.0 nF capacitor. (a) Find the circuit’s impedance at 500 Hz. (b) Find the circuit’s impedance at 7.50 kHz. (c) If the voltage source has ${V}_{rms}=408 V$, what is ${I}_{rms}$ at each frequency? (d) What is the resonant frequency of the circuit? (e) What is ${I}_{rms}$ at resonance?",
         "inline": []
       },
       "level": "core",
@@ -973,7 +973,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RLC* series circuit has a $2.50 Ω$ resistor, a $100 μH$ inductor, and an $80.0 μF$ capacitor. (a) Find the power factor at $f=120 Hz$ . (b) What is the phase angle at 120 Hz? (c) What is the average power at 120 Hz? (d) Find the average power at the circuit’s resonant frequency.",
+        "text": "An *RLC* series circuit has a $2.50 Ω$ resistor, a $100 μH$ inductor, and an $80.0 μF$ capacitor. (a) Find the power factor at $f=120 Hz$. (b) What is the phase angle at 120 Hz? (c) What is the average power at 120 Hz? (d) Find the average power at the circuit’s resonant frequency.",
         "inline": []
       },
       "level": "core",
@@ -994,7 +994,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RLC* series circuit has a $1.00 kΩ$ resistor, a $150 μH$ inductor, and a 25.0 nF capacitor. (a) Find the power factor at $f=7.50 Hz$ . (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit’s resonant frequency.",
+        "text": "An *RLC* series circuit has a $1.00 kΩ$ resistor, a $150 μH$ inductor, and a 25.0 nF capacitor. (a) Find the power factor at $f=7.50 Hz$. (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit’s resonant frequency.",
         "inline": []
       },
       "level": "core",
@@ -1018,7 +1018,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An *RLC* series circuit has a $200 Ω$ resistor and a 25.0 mH inductor. At 8000 Hz, the phase angle is $45.0º$ . (a) What is the impedance? (b) Find the circuit’s capacitance. (c) If ${V}_{rms}=408V$ is applied, what is the average power supplied?",
+        "text": "An *RLC* series circuit has a $200 Ω$ resistor and a 25.0 mH inductor. At 8000 Hz, the phase angle is $45.0º$. (a) What is the impedance? (b) Find the circuit’s capacitance. (c) If ${V}_{rms}=408 V$ is applied, what is the average power supplied?",
         "inline": []
       },
       "level": "core",
@@ -1039,7 +1039,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to , find the average power at 10.0 kHz.",
+        "text": "Referring to the example, find the average power at 10.0 kHz.",
         "inline": []
       },
       "level": "core",

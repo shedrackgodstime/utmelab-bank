@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Pendulums are in common usage. Some have crucial uses, such as in clocks; some are for fun, such as a child’s swing; and some are just there, such as the sinker on a fishing line. For small displacements, a pendulum is a simple harmonic oscillator. A simple pendulum is defined to have an object that has a small mass, also known as the pendulum bob, which is suspended from a light wire or string, such as shown in . Exploring the simple pendulum a bit further, we can discover the conditions under which it performs simple harmonic motion, and we can derive an interesting expression for its period.",
+        "text": "Pendulums are in common usage. Some have crucial uses, such as in clocks; some are for fun, such as a child’s swing; and some are just there, such as the sinker on a fishing line. For small displacements, a pendulum is a simple harmonic oscillator. A simple pendulum is defined to have an object that has a small mass, also known as the pendulum bob, which is suspended from a light wire or string, such as shown in the figure. Exploring the simple pendulum a bit further, we can discover the conditions under which it performs simple harmonic motion, and we can derive an interesting expression for its period.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "We begin by defining the displacement to be the arc length $s$ . We see from that the net force on the bob is tangent to the arc and equals $-mgsinθ$ . (The weight $mg$ has components $mgcosθ$ along the string and $mgsinθ$ tangent to the arc.) Tension in the string exactly cancels the component $mgcosθ$ parallel to the string. This leaves a *net* restoring force back toward the equilibrium position at $θ=0$ .",
+        "text": "We begin by defining the displacement to be the arc length $s$. We see from the figure that the net force on the bob is tangent to the arc and equals $-mg sin θ$. (The weight $mg$ has components $mg cos θ$ along the string and $mg sin θ$ tangent to the arc.) Tension in the string exactly cancels the component $mg cos θ$ parallel to the string. This leaves a *net* restoring force back toward the equilibrium position at $θ=0$.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Now, if we can show that the restoring force is directly proportional to the displacement, then we have a simple harmonic oscillator. In trying to determine if we have a simple harmonic oscillator, we should note that for small angles (less than about $15º$ ), $sinθ≈θ$ ( $sinθ$ and $θ$ differ by about 1% or less at smaller angles). Thus, for angles less than about $15º$ , the restoring force *$F$* is",
+        "text": "Now, if we can show that the restoring force is directly proportional to the displacement, then we have a simple harmonic oscillator. In trying to determine if we have a simple harmonic oscillator, we should note that for small angles (less than about $15º$), $sin θ\\approx θ$ ($sin θ$ and $θ$ differ by about 1% or less at smaller angles). Thus, for angles less than about $15º$, the restoring force *$F$* is $F\\approx -mgθ.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The displacement *$s$* is directly proportional to $θ$ . When $θ$ is expressed in radians, the arc length in a circle is related to its radius ( *$L$* in this instance) by:",
+        "text": "The displacement *$s$* is directly proportional to $θ$. When $θ$ is expressed in radians, the arc length in a circle is related to its radius (*$L$* in this instance) by: $s=Lθ,$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "For small angles, then, the expression for the restoring force is:",
+        "text": "For small angles, then, the expression for the restoring force is: $F\\approx -\\frac{mg}{L}s$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "This expression is of the form:",
+        "text": "This expression is of the form: $F=-kx,$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where the force constant is given by $k=mg/L$ and the displacement is given by $x=s$ . For angles less than about $15º$ , the restoring force is directly proportional to the displacement, and the simple pendulum is a simple harmonic oscillator.",
+        "text": "where the force constant is given by $k=mg/L$ and the displacement is given by $x=s$. For angles less than about $15º$, the restoring force is directly proportional to the displacement, and the simple pendulum is a simple harmonic oscillator.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Using this equation, we can find the period of a pendulum for amplitudes less than about $15º$ . For the simple pendulum:",
+        "text": "Using this equation, we can find the period of a pendulum for amplitudes less than about $15º$. For the simple pendulum: $T=2π\\sqrt{\\frac{m}{k}}=2π\\sqrt{\\frac{m}{mg/L}}.$",
         "inline": []
       },
       "level": "core"
@@ -116,7 +116,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "for the period of a simple pendulum. This result is interesting because of its simplicity. The only things that affect the period of a simple pendulum are its length and the acceleration due to gravity. The period is completely independent of other factors, such as mass. As with simple harmonic oscillators, the period $T$ for a pendulum is nearly independent of amplitude, especially if *$θ$* is less than about $15º$ . Even simple pendulum clocks can be finely adjusted and accurate.",
+        "text": "for the period of a simple pendulum. This result is interesting because of its simplicity. The only things that affect the period of a simple pendulum are its length and the acceleration due to gravity. The period is completely independent of other factors, such as mass. As with simple harmonic oscillators, the period $T$ for a pendulum is nearly independent of amplitude, especially if *$θ$* is less than about $15º$. Even simple pendulum clocks can be finely adjusted and accurate.",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Note the dependence of $T$ on *$g$* . If the length of a pendulum is precisely known, it can actually be used to measure the acceleration due to gravity. Consider the following example.",
+        "text": "Note the dependence of $T$ on *$g$*. If the length of a pendulum is precisely known, it can actually be used to measure the acceleration due to gravity. Consider the following example.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "We are asked to find *$g$* given the period $T$ and the length *$L$* of a pendulum. We can solve $T=2π\\sqrt{\\frac{L}{g}}$ for *$g$* , assuming only that the angle of deflection is less than $15º$ .",
+        "text": "We are asked to find *$g$* given the period $T$ and the length *$L$* of a pendulum. We can solve $T=2π\\sqrt{\\frac{L}{g}}$ for *$g$*, assuming only that the angle of deflection is less than $15º$.",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "This method for determining $g$ can be very accurate. This is why length and period are given to five digits in this example. For the precision of the approximation $sin θ≈θ$ to be better than the precision of the pendulum length and period, the maximum displacement angle should be kept below about $0.5º$ .",
+        "text": "This method for determining $g$ can be very accurate. This is why length and period are given to five digits in this example. For the precision of the approximation $sin θ\\approx θ$ to be better than the precision of the pendulum length and period, the maximum displacement angle should be kept below about $0.5º$.",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Use a simple pendulum to determine the acceleration due to gravity $g$ in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than $10º$ , allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch. Calculate $g$ . How accurate is this measurement? How might it be improved?",
+        "text": "Use a simple pendulum to determine the acceleration due to gravity $g$ in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than $10º$, allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch. Calculate $g$. How accurate is this measurement? How might it be improved?",
         "inline": []
       },
       "level": "core"
@@ -195,7 +195,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of $10kg$ . Pendulum 2 has a bob with a mass of $100 kg$ . Describe how the motion of the pendula will differ if the bobs are both displaced by $12º$ .",
+        "text": "An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of $10 kg$. Pendulum 2 has a bob with a mass of $100 kg$. Describe how the motion of the pendula will differ if the bobs are both displaced by $12º$.",
         "inline": []
       },
       "level": "core",
@@ -227,7 +227,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing in this simulation . It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of $g$ on planet X. Notice the anharmonic behavior at large amplitude.",
+        "text": "Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing in this simulation. It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of $g$ on planet X. Notice the anharmonic behavior at large amplitude.",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The period of a simple pendulum is",
+        "text": "The period of a simple pendulum is $T=2π\\sqrt{\\frac{L}{g}},$",
         "inline": []
       },
       "level": "core"
@@ -377,7 +377,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "*As usual, the acceleration due to gravity in these problems is taken to be* $g=9.80m/{s}^{2}$ , *unless otherwise specified.*",
+        "text": "*As usual, the acceleration due to gravity in these problems is taken to be* $g=9.80 m/{s}^{2}$, *unless otherwise specified.*",
         "inline": []
       },
       "level": "core"
@@ -522,7 +522,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is $9.79{m/s}^{2}$ is moved to a location where the acceleration due to gravity is $9.82{m/s}^{2}$ . What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.",
+        "text": "(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is $9.79 {m/s}^{2}$ is moved to a location where the acceleration due to gravity is $9.82 {m/s}^{2}$. What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.",
         "inline": []
       },
       "level": "core",
@@ -555,7 +555,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A pendulum with a period of 2.00000 s in one location $(g=9.80{m/s}^{2})$ is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?",
+        "text": "A pendulum with a period of 2.00000 s in one location $(g=9.80 {m/s}^{2})$ is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?",
         "inline": []
       },
       "level": "core",
@@ -627,7 +627,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is $1.63{m/s}^{2}$ .",
+        "text": "Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is $1.63 {m/s}^{2}$.",
         "inline": []
       },
       "level": "core",
@@ -648,7 +648,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is $1.63{m/s}^{2}$ , if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock’s minute hand, which on Earth makes one revolution per hour, to make one revolution on the Moon.",
+        "text": "At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is $1.63 {m/s}^{2}$, if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock’s minute hand, which on Earth makes one revolution per hour, to make one revolution on the Moon.",
         "inline": []
       },
       "level": "core",

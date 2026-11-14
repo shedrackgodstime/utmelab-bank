@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The bright colors seen in an oil slick floating on water or in a sunlit soap bubble are caused by interference. The brightest colors are those that interfere constructively. This interference is between light reflected from different surfaces of a thin film; thus, the effect is known as thin film interference . As noticed before, interference effects are most prominent when light interacts with something having a size similar to its wavelength. A thin film is one having a thickness $t$ smaller than a few times the wavelength of light, $λ$ . Since color is associated indirectly with $λ$ and since all interference depends in some way on the ratio of $λ$ to the size of the object involved, we should expect to see different colors for different thicknesses of a film, as in . Some of the earliest measurements of such films and their effects were conducted by Agnes Pockels, a self-taught German chemist who investigated the characteristics of soapy and greasy films in water. Using homemade materials, Pockels developed a trough for measuring surface films and began conducting experiments. While scientific and societal barriers for women prevented her from publishing on her own, renowned scientist Lord Rayleigh supported her efforts and pushed for her work to be shared in the journal *Nature* . The trough Pockels invented became the basis for the contemporary version, as described below.",
+        "text": "The bright colors seen in an oil slick floating on water or in a sunlit soap bubble are caused by interference. The brightest colors are those that interfere constructively. This interference is between light reflected from different surfaces of a thin film; thus, the effect is known as thin film interference. As noticed before, interference effects are most prominent when light interacts with something having a size similar to its wavelength. A thin film is one having a thickness $t$ smaller than a few times the wavelength of light, $λ$. Since color is associated indirectly with $λ$ and since all interference depends in some way on the ratio of $λ$ to the size of the object involved, we should expect to see different colors for different thicknesses of a film, as in the figure. Some of the earliest measurements of such films and their effects were conducted by Agnes Pockels, a self-taught German chemist who investigated the characteristics of soapy and greasy films in water. Using homemade materials, Pockels developed a trough for measuring surface films and began conducting experiments. While scientific and societal barriers for women prevented her from publishing on her own, renowned scientist Lord Rayleigh supported her efforts and pushed for her work to be shared in the journal *Nature*. The trough Pockels invented became the basis for the contemporary version, as described below.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "What causes thin film interference? shows how light reflected from the top and bottom surfaces of a film can interfere. Incident light is only partially reflected from the top surface of the film (ray 1). The remainder enters the film and is itself partially reflected from the bottom surface. Part of the light reflected from the bottom surface can emerge from the top of the film (ray 2) and interfere with light reflected from the top (ray 1). Since the ray that enters the film travels a greater distance, it may be in or out of phase with the ray reflected from the top. However, consider for a moment, again, the bubbles in . The bubbles are darkest where they are thinnest. Furthermore, if you observe a soap bubble carefully, you will note it gets dark at the point where it breaks. For very thin films, the difference in path lengths of ray 1 and ray 2 in is negligible; so why should they interfere destructively and not constructively? The answer is that a phase change can occur upon reflection. The rule is as follows:",
+        "text": "What causes thin film interference? The figure shows how light reflected from the top and bottom surfaces of a film can interfere. Incident light is only partially reflected from the top surface of the film (ray 1). The remainder enters the film and is itself partially reflected from the bottom surface. Part of the light reflected from the bottom surface can emerge from the top of the film (ray 2) and interfere with light reflected from the top (ray 1). Since the ray that enters the film travels a greater distance, it may be in or out of phase with the ray reflected from the top. However, consider for a moment, again, the bubbles in the figure. The bubbles are darkest where they are thinnest. Furthermore, if you observe a soap bubble carefully, you will note it gets dark at the point where it breaks. For very thin films, the difference in path lengths of ray 1 and ray 2 in the figure is negligible; so why should they interfere destructively and not constructively? The answer is that a phase change can occur upon reflection. The rule is as follows:",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "If the film in is a soap bubble (essentially water with air on both sides), then there is a $λ/2$ shift for ray 1 and none for ray 2. Thus, when the film is very thin, the path length difference between the two rays is negligible, they are exactly out of phase, and destructive interference will occur at all wavelengths and so the soap bubble will be dark here.",
+        "text": "If the film in the figure is a soap bubble (essentially water with air on both sides), then there is a $λ/2$ shift for ray 1 and none for ray 2. Thus, when the film is very thin, the path length difference between the two rays is negligible, they are exactly out of phase, and destructive interference will occur at all wavelengths and so the soap bubble will be dark here.",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The thickness of the film relative to the wavelength of light is the other crucial factor in thin film interference. Ray 2 in travels a greater distance than ray 1. For light incident perpendicular to the surface, ray 2 travels a distance approximately $2t$ farther than ray 1. When this distance is an integral or half-integral multiple of the wavelength in the medium ( ${λ}_{n}=λ/n$ , where $λ$ is the wavelength in vacuum and $n$ is the index of refraction), constructive or destructive interference occurs, depending also on whether there is a phase change in either ray.",
+        "text": "The thickness of the film relative to the wavelength of light is the other crucial factor in thin film interference. Ray 2 in the figure travels a greater distance than ray 1. For light incident perpendicular to the surface, ray 2 travels a distance approximately $2t$ farther than ray 1. When this distance is an integral or half-integral multiple of the wavelength in the medium (${λ}_{n}=λ/n$, where $λ$ is the wavelength in vacuum and $n$ is the index of refraction), constructive or destructive interference occurs, depending also on whether there is a phase change in either ray.",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of the film *Gone With the Wind* . The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.",
+        "text": "Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of the film *Gone With the Wind*. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Refer to and use ${n}_{1}=1.00$ for air, ${n}_{2}=1.38$ , and ${n}_{3}=1.52$ . Both ray 1 and ray 2 will have a $λ/2$ shift upon reflection. Thus, to obtain destructive interference, ray 2 will need to travel a half wavelength farther than ray 1. For rays incident perpendicularly, the path length difference is $2t$ .",
+        "text": "Refer to the figure and use ${n}_{1}=1.00$ for air, ${n}_{2}=1.38$, and ${n}_{3}=1.52$. Both ray 1 and ray 2 will have a $λ/2$ shift upon reflection. Thus, to obtain destructive interference, ray 2 will need to travel a half wavelength farther than ray 1. For rays incident perpendicularly, the path length difference is $2t$.",
         "inline": []
       },
       "level": "core"
@@ -144,7 +144,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "To obtain destructive interference here,",
+        "text": "To obtain destructive interference here, $2t=\\frac{{λ}_{{n}_{2}}}{2},$",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "where ${λ}_{{n}_{2}}$ is the wavelength in the film and is given by ${λ}_{{n}_{2}}=\\frac{λ}{{n}_{2}}$ .",
+        "text": "where ${λ}_{{n}_{2}}$ is the wavelength in the film and is given by ${λ}_{{n}_{2}}=\\frac{λ}{{n}_{2}}$.",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $t$ and entering known values yields",
+        "text": "Solving for $t$ and entering known values yields $t = \\frac{λ/{n}_{2}}{4} = \\frac{(550 nm)/1.38}{4} = 99.6 nm.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Thin film interference is most constructive or most destructive when the path length difference for the two rays is an integral or half-integral wavelength, respectively. That is, for rays incident perpendicularly, $2t={λ}_{n},{2λ}_{n},{3λ}_{n},…$ or $2t={λ}_{n}/2,{3λ}_{n}/2,{5λ}_{n}/2,…$ . To know whether interference is constructive or destructive, you must also determine if there is a phase change upon reflection. Thin film interference thus depends on film thickness, the wavelength of light, and the refractive indices. For white light incident on a film that varies in thickness, you will observe rainbow colors of constructive interference for various wavelengths as the thickness varies.",
+        "text": "Thin film interference is most constructive or most destructive when the path length difference for the two rays is an integral or half-integral wavelength, respectively. That is, for rays incident perpendicularly, $2t={λ}_{n}, {2λ}_{n}, {3λ}_{n},…$ or $2t={λ}_{n}/2, {3λ}_{n}/2, {5λ}_{n}/2,…$. To know whether interference is constructive or destructive, you must also determine if there is a phase change upon reflection. Thin film interference thus depends on film thickness, the wavelength of light, and the refractive indices. For white light incident on a film that varies in thickness, you will observe rainbow colors of constructive interference for various wavelengths as the thickness varies.",
         "inline": []
       },
       "level": "core"
@@ -222,7 +222,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Use to visualize the bubble. Note that ${n}_{1}={n}_{3}=1.00$ for air, and ${n}_{2}=1.333$ for soap (equivalent to water). There is a $λ/2$ shift for ray 1 reflected from the top surface of the bubble, and no shift for ray 2 reflected from the bottom surface. To get constructive interference, then, the path length difference ( $2t$ ) must be a half-integral multiple of the wavelength—the first three being ${λ}_{n}/2,{3λ}_{n}/2$ , and ${5λ}_{n}/2$ . To get destructive interference, the path length difference must be an integral multiple of the wavelength—the first three being $0,{λ}_{n}$ , and ${2λ}_{n}$ .",
+        "text": "Use the figure to visualize the bubble. Note that ${n}_{1}={n}_{3}=1.00$ for air, and ${n}_{2}=1.333$ for soap (equivalent to water). There is a $λ/2$ shift for ray 1 reflected from the top surface of the bubble, and no shift for ray 2 reflected from the bottom surface. To get constructive interference, then, the path length difference ($2t$) must be a half-integral multiple of the wavelength—the first three being ${λ}_{n}/2, {3λ}_{n}/2$, and ${5λ}_{n}/2$. To get destructive interference, the path length difference must be an integral multiple of the wavelength—the first three being $0, {λ}_{n}$, and ${2λ}_{n}$.",
         "inline": []
       },
       "level": "core"
@@ -231,7 +231,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "*Constructive interference* occurs here when",
+        "text": "*Constructive interference* occurs here when $2{t}_{c}=\\frac{{λ}_{n}}{2}, \\frac{{3λ}_{n}}{2}, \\frac{{5λ}_{n}}{2},….$",
         "inline": []
       },
       "level": "core"
@@ -240,7 +240,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The smallest constructive thickness ${t}_{c}$ thus is",
+        "text": "The smallest constructive thickness ${t}_{c}$ thus is ${t}_{c} = \\frac{{λ}_{n}}{4} = \\frac{λ/n}{4} = \\frac{(650 nm)/1.333}{4} = 122 nm.$",
         "inline": []
       },
       "level": "core"
@@ -249,7 +249,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The next thickness that gives constructive interference is ${t′}_{c}={3λ}_{n}/4$ , so that",
+        "text": "The next thickness that gives constructive interference is ${t′}_{c}={3λ}_{n}/4$, so that ${t′}_{c}=366 nm.$",
         "inline": []
       },
       "level": "core"
@@ -258,7 +258,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Finally, the third thickness producing constructive interference is ${t′′}_{c}={5λ}_{n}/4$ , so that",
+        "text": "Finally, the third thickness producing constructive interference is ${t′′}_{c}={5λ}_{n}/4$, so that ${t′′}_{c}=610 nm.$",
         "inline": []
       },
       "level": "core"
@@ -267,7 +267,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "For *destructive interference* , the path length difference here is an integral multiple of the wavelength. The first occurs for zero thickness, since there is a phase change at the top surface. That is,",
+        "text": "For *destructive interference*, the path length difference here is an integral multiple of the wavelength. The first occurs for zero thickness, since there is a phase change at the top surface. That is, ${t}_{d}=0.$",
         "inline": []
       },
       "level": "core"
@@ -276,7 +276,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The first non-zero thickness producing destructive interference is",
+        "text": "The first non-zero thickness producing destructive interference is $2{t′}_{d}={λ}_{n}.$",
         "inline": []
       },
       "level": "core"
@@ -285,7 +285,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Substituting known values gives",
+        "text": "Substituting known values gives ${t′}_{d} = \\frac{λn}{2} = \\frac{λ/n}{2} = \\frac{(650 nm)/1.333}{2} = 244 nm.$",
         "inline": []
       },
       "level": "core"
@@ -294,7 +294,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Finally, the third destructive thickness is $2{t′′}_{d}={2λ}_{n}$ , so that",
+        "text": "Finally, the third destructive thickness is $2{t′′}_{d}={2λ}_{n}$, so that ${t′′}_{d} = {λ}_{n} = \\frac{λ}{n} = \\frac{650 nm}{1.333} = 488 nm.$",
         "inline": []
       },
       "level": "core"
@@ -312,7 +312,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Another example of thin film interference can be seen when microscope slides are separated (see ). The slides are very flat, so that the wedge of air between them increases in thickness very uniformly. A phase change occurs at the second surface but not the first, and so there is a dark band where the slides touch. The rainbow colors of constructive interference repeat, going from violet to red again and again as the distance between the slides increases. As the layer of air increases, the bands become more difficult to see, because slight changes in incident angle have greater effects on path length differences. If pure-wavelength light instead of white light is used, then bright and dark bands are obtained rather than repeating rainbow colors.",
+        "text": "Another example of thin film interference can be seen when microscope slides are separated (see the figure). The slides are very flat, so that the wedge of air between them increases in thickness very uniformly. A phase change occurs at the second surface but not the first, and so there is a dark band where the slides touch. The rainbow colors of constructive interference repeat, going from violet to red again and again as the distance between the slides increases. As the layer of air increases, the bands become more difficult to see, because slight changes in incident angle have greater effects on path length differences. If pure-wavelength light instead of white light is used, then bright and dark bands are obtained rather than repeating rainbow colors.",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "An important application of thin film interference is found in the manufacturing of optical instruments. A lens or mirror can be compared with a master as it is being ground, allowing it to be shaped to an accuracy of less than a wavelength over its entire surface. illustrates the phenomenon called Newton’s rings, which occurs when the plane surfaces of two lenses are placed together. (The circular bands are called Newton’s rings because Isaac Newton described them and their use in detail. Newton did not discover them; Robert Hooke did, and Newton did not believe they were due to the wave character of light.) Each successive ring of a given color indicates an increase of only one wavelength in the distance between the lens and the blank, so that great precision can be obtained. Once the lens is perfect, there will be no rings.",
+        "text": "An important application of thin film interference is found in the manufacturing of optical instruments. A lens or mirror can be compared with a master as it is being ground, allowing it to be shaped to an accuracy of less than a wavelength over its entire surface. The figure illustrates the phenomenon called Newton’s rings, which occurs when the plane surfaces of two lenses are placed together. (The circular bands are called Newton’s rings because Isaac Newton described them and their use in detail. Newton did not discover them; Robert Hooke did, and Newton did not believe they were due to the wave character of light.) Each successive ring of a given color indicates an increase of only one wavelength in the distance between the lens and the blank, so that great precision can be obtained. Once the lens is perfect, there will be no rings.",
         "inline": []
       },
       "level": "core"
@@ -365,7 +365,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "One feature of thin film interference and diffraction gratings is that the pattern shifts as you change the angle at which you look or move your head. Find examples of thin film interference and gratings around you. Explain how the patterns change for each specific example. Find examples where the thickness changes giving rise to changing colors. If you can find two microscope slides, then try observing the effect shown in . Try separating one end of the two slides with a hair or maybe a thin piece of paper and observe the effect.",
+        "text": "One feature of thin film interference and diffraction gratings is that the pattern shifts as you change the angle at which you look or move your head. Find examples of thin film interference and gratings around you. Explain how the patterns change for each specific example. Find examples where the thickness changes giving rise to changing colors. If you can find two microscope slides, then try observing the effect shown in the figure. Try separating one end of the two slides with a hair or maybe a thin piece of paper and observe the effect.",
         "inline": []
       },
       "level": "core"
@@ -383,7 +383,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "*Step 1.* *Examine the situation to determine that interference is involved* . Identify whether slits or thin film interference are considered in the problem.",
+        "text": "*Step 1.* *Examine the situation to determine that interference is involved*. Identify whether slits or thin film interference are considered in the problem.",
         "inline": []
       },
       "level": "core"
@@ -392,7 +392,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "*Step 2.* *If slits are involved* , note that diffraction gratings and double slits produce very similar interference patterns, but that gratings have narrower (sharper) maxima. Single slit patterns are characterized by a large central maximum and smaller maxima to the sides.",
+        "text": "*Step 2.* *If slits are involved*, note that diffraction gratings and double slits produce very similar interference patterns, but that gratings have narrower (sharper) maxima. Single slit patterns are characterized by a large central maximum and smaller maxima to the sides.",
         "inline": []
       },
       "level": "core"
@@ -401,7 +401,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "*Step 3.* *If thin film interference is involved, take note of the path length difference between the two rays that interfere* . Be certain to use the wavelength in the medium involved, since it differs from the wavelength in vacuum. Note also that there is an additional $λ/2$ phase shift when light reflects from a medium with a greater index of refraction.",
+        "text": "*Step 3.* *If thin film interference is involved, take note of the path length difference between the two rays that interfere*. Be certain to use the wavelength in the medium involved, since it differs from the wavelength in vacuum. Note also that there is an additional $λ/2$ phase shift when light reflects from a medium with a greater index of refraction.",
         "inline": []
       },
       "level": "core"
@@ -410,7 +410,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "*Step 4.* *Identify exactly what needs to be determined in the problem (identify the unknowns)* . A written list is useful. Draw a diagram of the situation. Labeling the diagram is useful.",
+        "text": "*Step 4.* *Identify exactly what needs to be determined in the problem (identify the unknowns)*. A written list is useful. Draw a diagram of the situation. Labeling the diagram is useful.",
         "inline": []
       },
       "level": "core"
@@ -419,7 +419,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "*Step 5.* *Make a list of what is given or can be inferred from the problem as stated (identify the knowns)* .",
+        "text": "*Step 5.* *Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.",
         "inline": []
       },
       "level": "core"
@@ -428,7 +428,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "*Step 6.* *Solve the appropriate equation for the quantity to be determined (the unknown), and enter the knowns* . Slits, gratings, and the Rayleigh limit involve equations.",
+        "text": "*Step 6.* *Solve the appropriate equation for the quantity to be determined (the unknown), and enter the knowns*. Slits, gratings, and the Rayleigh limit involve equations.",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "*Step 7.* *For thin film interference, you will have constructive interference for a total shift that is an integral number of wavelengths. You will have destructive interference for a total shift of a half-integral number of wavelengths* . Always keep in mind that crest to crest is constructive whereas crest to trough is destructive.",
+        "text": "*Step 7.* *For thin film interference, you will have constructive interference for a total shift that is an integral number of wavelengths. You will have destructive interference for a total shift of a half-integral number of wavelengths*. Always keep in mind that crest to crest is constructive whereas crest to trough is destructive.",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "*Step 8.* *Check to see if the answer is reasonable: Does it make sense?* Angles in interference patterns cannot be greater than $90º$ , for example.",
+        "text": "*Step 8.* *Check to see if the answer is reasonable: Does it make sense?* Angles in interference patterns cannot be greater than $90º$, for example.",
         "inline": []
       },
       "level": "core"
@@ -489,7 +489,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A film of magnesium fluoride ( *n* = 1.38) is used to coat a glass camera lens ( *n* = 1.52). If the thickness of the film is 105 nm, calculate the wavelength of visible light that will have the most limited reflection.",
+        "text": "A film of magnesium fluoride (*n* = 1.38) is used to coat a glass camera lens (*n* = 1.52). If the thickness of the film is 105 nm, calculate the wavelength of visible light that will have the most limited reflection.",
         "inline": []
       },
       "level": "core",
@@ -675,7 +675,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A non-reflective coating like the one described in works ideally for a single wavelength and for perpendicular incidence. What happens for other wavelengths and other incident directions? Be specific.",
+        "text": "A non-reflective coating like the one described in the example works ideally for a single wavelength and for perpendicular incidence. What happens for other wavelengths and other incident directions? Be specific.",
         "inline": []
       },
       "level": "core",
@@ -816,7 +816,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A film of soapy water ( $n=1.33$ ) on top of a plastic cutting board has a thickness of 233 nm. What color is most strongly reflected if it is illuminated perpendicular to its surface?",
+        "text": "A film of soapy water ($n=1.33$) on top of a plastic cutting board has a thickness of 233 nm. What color is most strongly reflected if it is illuminated perpendicular to its surface?",
         "inline": []
       },
       "level": "core",
@@ -840,7 +840,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What are the three smallest non-zero thicknesses of soapy water ( $n=1.33$ ) on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow the steps in Problem Solving Strategies for Wave Optics .",
+        "text": "What are the three smallest non-zero thicknesses of soapy water ($n=1.33$) on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow the steps in Problem Solving Strategies for Wave Optics.",
         "inline": []
       },
       "level": "core",
@@ -861,7 +861,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of magnesium fluoride that would be non-reflective for this wavelength? Refer to for the index of refraction.",
+        "text": "Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of magnesium fluoride that would be non-reflective for this wavelength? Refer to the table for the index of refraction.",
         "inline": []
       },
       "level": "core",
@@ -930,7 +930,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows two glass slides illuminated by pure-wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on a 0.100-mm-diameter hair at the other end, forming a wedge of air. (a) How far apart are the dark bands, if the slides are 7.50 cm long and 589-nm light is used? (b) Is there any difference if the slides are made from crown or flint glass? Explain.",
+        "text": "The figure shows two glass slides illuminated by pure-wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on a 0.100-mm-diameter hair at the other end, forming a wedge of air. (a) How far apart are the dark bands, if the slides are 7.50 cm long and 589-nm light is used? (b) Is there any difference if the slides are made from crown or flint glass? Explain.",
         "inline": []
       },
       "level": "core",
@@ -951,7 +951,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows two 7.50-cm-long glass slides illuminated by pure 589-nm wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on some debris at the other end, forming a wedge of air. How thick is the debris, if the dark bands are 1.00 mm apart?",
+        "text": "The figure shows two 7.50-cm-long glass slides illuminated by pure 589-nm wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on some debris at the other end, forming a wedge of air. How thick is the debris, if the dark bands are 1.00 mm apart?",
         "inline": []
       },
       "level": "core",
@@ -975,7 +975,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat , but take the light to be incident at a $45º$ angle.",
+        "text": "Repeat the exercise, but take the light to be incident at a $45º$ angle.",
         "inline": []
       },
       "level": "core",
@@ -996,7 +996,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat , but take the light to be incident at a $45º$ angle.",
+        "text": "Repeat the exercise, but take the light to be incident at a $45º$ angle.",
         "inline": []
       },
       "level": "core",

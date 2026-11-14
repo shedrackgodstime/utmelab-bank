@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The curved paths followed by charged particles in magnetic fields can be put to use. A charged particle moving perpendicular to a magnetic field travels in a circular path having a radius $r$ .",
+        "text": "The curved paths followed by charged particles in magnetic fields can be put to use. A charged particle moving perpendicular to a magnetic field travels in a circular path having a radius $r$. $r=\\frac{mv}{qB}$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "It was noted that this relationship could be used to measure the mass of charged particles such as ions. A mass spectrometer is a device that measures such masses. Most mass spectrometers use magnetic fields for this purpose, although some of them have extremely sophisticated designs. Since there are five variables in the relationship, there are many possibilities. However, if $v$ , $q$ , and $B$ can be fixed, then the radius of the path $r$ is simply proportional to the mass $m$ of the charged particle. Let us examine one such mass spectrometer that has a relatively simple design. (See .) The process begins with an ion source, a device like an electron gun. The ion source gives ions their charge, accelerates them to some velocity $v$ , and directs a beam of them into the next stage of the spectrometer. This next region is a *velocity selector* that only allows particles with a particular value of $v$ to get through.",
+        "text": "It was noted that this relationship could be used to measure the mass of charged particles such as ions. A mass spectrometer is a device that measures such masses. Most mass spectrometers use magnetic fields for this purpose, although some of them have extremely sophisticated designs. Since there are five variables in the relationship, there are many possibilities. However, if $v$, $q$, and $B$ can be fixed, then the radius of the path $r$ is simply proportional to the mass $m$ of the charged particle. Let us examine one such mass spectrometer that has a relatively simple design. (See the figure.) The process begins with an ion source, a device like an electron gun. The ion source gives ions their charge, accelerates them to some velocity $v$, and directs a beam of them into the next stage of the spectrometer. This next region is a *velocity selector* that only allows particles with a particular value of $v$ to get through.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The velocity selector has both an electric field and a magnetic field, perpendicular to one another, producing forces in opposite directions on the ions. Only those ions for which the forces balance travel in a straight line into the next region. If the forces balance, then the electric force $F=qE$ equals the magnetic force $F=qvB$ , so that $qE=qvB$ . Noting that $q$ cancels, we see that",
+        "text": "The velocity selector has both an electric field and a magnetic field, perpendicular to one another, producing forces in opposite directions on the ions. Only those ions for which the forces balance travel in a straight line into the next region. If the forces balance, then the electric force $F=qE$ equals the magnetic force $F=qvB$, so that $qE=qvB$. Noting that $q$ cancels, we see that $v=\\frac{E}{B}$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "is the velocity particles must have to make it through the velocity selector, and further, that $v$ can be selected by varying $E$ and $B$ . In the final region, there is only a uniform magnetic field, and so the charged particles move in circular arcs with radii proportional to particle mass. The paths also depend on charge $q$ , but since $q$ is in multiples of electron charges, it is easy to determine and to discriminate between ions in different charge states.",
+        "text": "is the velocity particles must have to make it through the velocity selector, and further, that $v$ can be selected by varying $E$ and $B$. In the final region, there is only a uniform magnetic field, and so the charged particles move in circular arcs with radii proportional to particle mass. The paths also depend on charge $q$, but since $q$ is in multiples of electron charges, it is easy to determine and to discriminate between ions in different charge states.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "What do non-flat-screen TVs, old computer monitors, x-ray machines, and the 2-mile-long Stanford Linear Accelerator have in common? All of them accelerate electrons, making them different versions of the electron gun. Many of these devices use magnetic fields to steer the accelerated electrons. shows the construction of the type of cathode ray tube (CRT) found in some TVs, oscilloscopes, and old computer monitors. Two pairs of coils are used to steer the electrons, one vertically and the other horizontally, to their desired destination.",
+        "text": "What do non-flat-screen TVs, old computer monitors, x-ray machines, and the 2-mile-long Stanford Linear Accelerator have in common? All of them accelerate electrons, making them different versions of the electron gun. Many of these devices use magnetic fields to steer the accelerated electrons. The figure shows the construction of the type of cathode ray tube (CRT) found in some TVs, oscilloscopes, and old computer monitors. Two pairs of coils are used to steer the electrons, one vertically and the other horizontally, to their desired destination.",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "When placed in an external magnetic field, such nuclei experience a torque that pushes or aligns the nuclei into one of two new energy states—depending on the orientation of its spin (analogous to the N pole and S pole in a bar magnet). Transitions from the lower to higher energy state can be achieved by using an external radio frequency signal to “flip” the orientation of the small magnets. (This is actually a quantum mechanical process. The direction of the nuclear magnetic field is quantized as is energy in the radio waves. We will return to these topics in later chapters.) The specific frequency of the radio waves that are absorbed and reemitted depends sensitively on the type of nucleus, the chemical environment, and the external magnetic field strength. Therefore, this is a *resonance* phenomenon in which *nuclei* in a *magnetic* field act like resonators (analogous to those discussed in the treatment of sound in Oscillatory Motion and Waves ) that absorb and reemit only certain frequencies. Hence, the phenomenon is named *nuclear magnetic resonance (NMR).*",
+        "text": "When placed in an external magnetic field, such nuclei experience a torque that pushes or aligns the nuclei into one of two new energy states—depending on the orientation of its spin (analogous to the N pole and S pole in a bar magnet). Transitions from the lower to higher energy state can be achieved by using an external radio frequency signal to “flip” the orientation of the small magnets. (This is actually a quantum mechanical process. The direction of the nuclear magnetic field is quantized as is energy in the radio waves. We will return to these topics in later chapters.) The specific frequency of the radio waves that are absorbed and reemitted depends sensitively on the type of nucleus, the chemical environment, and the external magnetic field strength. Therefore, this is a *resonance* phenomenon in which *nuclei* in a *magnetic* field act like resonators (analogous to those discussed in the treatment of sound in Oscillatory Motion and Waves) that absorb and reemit only certain frequencies. Hence, the phenomenon is named *nuclear magnetic resonance (NMR).*",
         "inline": []
       },
       "level": "core"
@@ -210,7 +210,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Currents in nerve cells and the heart create magnetic fields like any other currents. These can be measured but with some difficulty since their strengths are about ${10}^{-6}$ to ${10}^{-8}$ *less* than the Earth’s magnetic field. Recording of the heart’s magnetic field as it beats is called a magnetocardiogram (MCG) , while measurements of the brain’s magnetic field is called a magnetoencephalogram (MEG) . Both give information that differs from that obtained by measuring the electric fields of these organs (ECGs and EEGs), but they are not yet of sufficient importance to make these difficult measurements common.",
+        "text": "Currents in nerve cells and the heart create magnetic fields like any other currents. These can be measured but with some difficulty since their strengths are about ${10}^{-6}$ to ${10}^{-8}$ *less* than the Earth’s magnetic field. Recording of the heart’s magnetic field as it beats is called a magnetocardiogram (MCG), while measurements of the brain’s magnetic field is called a magnetoencephalogram (MEG). Both give information that differs from that obtained by measuring the electric fields of these organs (ECGs and EEGs), but they are not yet of sufficient importance to make these difficult measurements common.",
         "inline": []
       },
       "level": "core"
@@ -255,7 +255,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -418,7 +418,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Indicate whether the magnetic field created in each of the three situations shown in is into or out of the page on the left and right of the current.",
+        "text": "Indicate whether the magnetic field created in each of the three situations shown in the figure is into or out of the page on the left and right of the current.",
         "inline": []
       },
       "level": "core",
@@ -482,7 +482,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What are the directions of the fields in the center of the loop and coils shown in ?",
+        "text": "What are the directions of the fields in the center of the loop and coils shown in the figure?",
         "inline": []
       },
       "level": "core",
@@ -516,7 +516,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What are the directions of the currents in the loop and coils shown in ?",
+        "text": "What are the directions of the currents in the loop and coils shown in the figure?",
         "inline": []
       },
       "level": "core",
@@ -571,7 +571,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "To see why an MRI utilizes iron to increase the magnetic field created by a coil, calculate the current needed in a 400-loop-per-meter circular coil 0.660 m in radius to create a 1.20-T field (typical of an MRI instrument) at its center with no iron present. The magnetic field of a proton is approximately like that of a circular current loop $0.650×{10}^{-15}m$ in radius carrying $1.05×{10}^{4}A$ . What is the field at the center of such a loop?",
+        "text": "To see why an MRI utilizes iron to increase the magnetic field created by a coil, calculate the current needed in a 400-loop-per-meter circular coil 0.660 m in radius to create a 1.20-T field (typical of an MRI instrument) at its center with no iron present. The magnetic field of a proton is approximately like that of a circular current loop $0.650\\times {10}^{-15} m$ in radius carrying $1.05\\times {10}^{4} A$. What is the field at the center of such a loop?",
         "inline": []
       },
       "level": "core",
@@ -679,7 +679,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What current is needed in the solenoid described in to produce a magnetic field ${10}^{4}$ times the Earth’s magnetic field of $5.00×{10}^{-5}T$ ?",
+        "text": "What current is needed in the solenoid described in the exercise to produce a magnetic field ${10}^{4}$ times the Earth’s magnetic field of $5.00\\times {10}^{-5} T$?",
         "inline": []
       },
       "level": "core",
@@ -703,7 +703,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How far from the starter cable of a car, carrying 150 A, must you be to experience a field less than the Earth’s $(5.00×{10}^{-5}T)?$ Assume a long straight wire carries the current. (In practice, the body of your car shields the dashboard compass.)",
+        "text": "How far from the starter cable of a car, carrying 150 A, must you be to experience a field less than the Earth’s $(5.00\\times {10}^{-5} T)?$ Assume a long straight wire carries the current. (In practice, the body of your car shields the dashboard compass.)",
         "inline": []
       },
       "level": "core",
@@ -724,7 +724,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Measurements affect the system being measured, such as the current loop in . (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?",
+        "text": "Measurements affect the system being measured, such as the current loop in the figure. (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?",
         "inline": []
       },
       "level": "core",
@@ -757,7 +757,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows a long straight wire just touching a loop carrying a current ${I}_{1}$ . Both lie in the same plane. (a) What direction must the current ${I}_{2}$ in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of ${I}_{1}/{I}_{2}$ that gives zero field strength at the center of the loop? (c) What is the direction of the field directly above the loop under this circumstance?",
+        "text": "The figure shows a long straight wire just touching a loop carrying a current ${I}_{1}$. Both lie in the same plane. (a) What direction must the current ${I}_{2}$ in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of ${I}_{1}/{I}_{2}$ that gives zero field strength at the center of the loop? (c) What is the direction of the field directly above the loop under this circumstance?",
         "inline": []
       },
       "level": "core",
@@ -791,7 +791,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in (a), using the rules of vector addition to sum the contributions from each wire.",
+        "text": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in the figure (a), using the rules of vector addition to sum the contributions from each wire.",
         "inline": []
       },
       "level": "core",
@@ -824,7 +824,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in (b), using the rules of vector addition to sum the contributions from each wire.",
+        "text": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in the figure (b), using the rules of vector addition to sum the contributions from each wire.",
         "inline": []
       },
       "level": "core",
@@ -845,7 +845,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What current is needed in the top wire in (a) to produce a field of zero at the point equidistant from the wires, if the currents in the bottom two wires are both 10.0 A into the page?",
+        "text": "What current is needed in the top wire in the figure (a) to produce a field of zero at the point equidistant from the wires, if the currents in the bottom two wires are both 10.0 A into the page?",
         "inline": []
       },
       "level": "core",
@@ -890,7 +890,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) A pendulum is set up so that its bob (a thin copper disk) swings between the poles of a permanent magnet as shown in . What is the magnitude and direction of the magnetic force on the bob at the lowest point in its path, if it has a positive $0.250 μC$ charge and is released from a height of 30.0 cm above its lowest point? The magnetic field strength is 1.50 T. (b) What is the acceleration of the bob at the bottom of its swing if its mass is 30.0 grams and it is hung from a flexible string? Be certain to include a free-body diagram as part of your analysis.",
+        "text": "Integrated Concepts (a) A pendulum is set up so that its bob (a thin copper disk) swings between the poles of a permanent magnet as shown in the figure. What is the magnitude and direction of the magnetic force on the bob at the lowest point in its path, if it has a positive $0.250 μC$ charge and is released from a height of 30.0 cm above its lowest point? The magnetic field strength is 1.50 T. (b) What is the acceleration of the bob at the bottom of its swing if its mass is 30.0 grams and it is hung from a flexible string? Be certain to include a free-body diagram as part of your analysis.",
         "inline": []
       },
       "level": "core",
@@ -945,7 +945,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) What voltage will accelerate electrons to a speed of $6.00×{10}^{6}m/s$ ? (b) Find the radius of curvature of the path of a *proton* accelerated through this potential in a 0.500-T field and compare this with the radius of curvature of an electron accelerated through the same potential.",
+        "text": "Integrated Concepts (a) What voltage will accelerate electrons to a speed of $6.00\\times {10}^{6} m/s$? (b) Find the radius of curvature of the path of a *proton* accelerated through this potential in a 0.500-T field and compare this with the radius of curvature of an electron accelerated through the same potential.",
         "inline": []
       },
       "level": "core",
@@ -1011,7 +1011,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) Using the values given for an MHD drive in , and assuming the force is uniformly applied to the fluid, calculate the pressure created in ${N/m}^{2}.$ (b) Is this a significant fraction of an atmosphere?",
+        "text": "Integrated Concepts (a) Using the values given for an MHD drive in the exercise, and assuming the force is uniformly applied to the fluid, calculate the pressure created in ${N/m}^{2}.$ (b) Is this a significant fraction of an atmosphere?",
         "inline": []
       },
       "level": "core",
@@ -1141,7 +1141,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts A cyclotron accelerates charged particles as shown in . Using the results of the previous problem, calculate the frequency of the accelerating voltage needed for a proton in a 1.20-T field.",
+        "text": "Integrated Concepts A cyclotron accelerates charged particles as shown in the figure. Using the results of the previous problem, calculate the frequency of the accelerating voltage needed for a proton in a 1.20-T field.",
         "inline": []
       },
       "level": "core",
@@ -1165,7 +1165,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) A 0.140-kg baseball, pitched at 40.0 m/s horizontally and perpendicular to the Earth’s horizontal $5.00×{10}^{-5}T$ field, has a 100-nC charge on it. What distance is it deflected from its path by the magnetic force, after traveling 30.0 m horizontally? (b) Would you suggest this as a secret technique for a pitcher to throw curve balls?",
+        "text": "Integrated Concepts (a) A 0.140-kg baseball, pitched at 40.0 m/s horizontally and perpendicular to the Earth’s horizontal $5.00\\times {10}^{-5} T$ field, has a 100-nC charge on it. What distance is it deflected from its path by the magnetic force, after traveling 30.0 m horizontally? (b) Would you suggest this as a secret technique for a pitcher to throw curve balls?",
         "inline": []
       },
       "level": "core",
@@ -1186,7 +1186,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) What is the direction of the force on a wire carrying a current due east in a location where the Earth’s field is due north? Both are parallel to the ground. (b) Calculate the force per meter if the wire carries 20.0 A and the field strength is $3.00×{10}^{-5}T$ . (c) What diameter copper wire would have its weight supported by this force? (d) Calculate the resistance per meter and the voltage per meter needed.",
+        "text": "Integrated Concepts (a) What is the direction of the force on a wire carrying a current due east in a location where the Earth’s field is due north? Both are parallel to the ground. (b) Calculate the force per meter if the wire carries 20.0 A and the field strength is $3.00\\times {10}^{-5} T$. (c) What diameter copper wire would have its weight supported by this force? (d) Calculate the resistance per meter and the voltage per meter needed.",
         "inline": []
       },
       "level": "core",
@@ -1228,7 +1228,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts One long straight wire is to be held directly above another by repulsion between their currents. The lower wire carries 100 A and the wire 7.50 cm above it is 10-gauge (2.588 mm diameter) copper wire. (a) What current must flow in the upper wire, neglecting the Earth’s field? (b) What is the smallest current if the Earth’s $3.00×{10}^{-5}T$ field is parallel to the ground and is not neglected? (c) Is the supported wire in a stable or unstable equilibrium if displaced vertically? If displaced horizontally?",
+        "text": "Integrated Concepts One long straight wire is to be held directly above another by repulsion between their currents. The lower wire carries 100 A and the wire 7.50 cm above it is 10-gauge (2.588 mm diameter) copper wire. (a) What current must flow in the upper wire, neglecting the Earth’s field? (b) What is the smallest current if the Earth’s $3.00\\times {10}^{-5} T$ field is parallel to the ground and is not neglected? (c) Is the supported wire in a stable or unstable equilibrium if displaced vertically? If displaced horizontally?",
         "inline": []
       },
       "level": "core",
@@ -1249,7 +1249,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results (a) Find the charge on a baseball, thrown at 35.0 m/s perpendicular to the Earth’s $5.00×{10}^{-5}T$ field, that experiences a 1.00-N magnetic force. (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
+        "text": "Unreasonable Results (a) Find the charge on a baseball, thrown at 35.0 m/s perpendicular to the Earth’s $5.00\\times {10}^{-5} T$ field, that experiences a 1.00-N magnetic force. (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
         "inline": []
       },
       "level": "core",
@@ -1300,7 +1300,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results A charged particle having mass $6.64×{10}^{-27}kg$ (that of a helium atom) moving at $8.70×{10}^{5}m/s$ perpendicular to a 1.50-T magnetic field travels in a circular path of radius 16.0 mm. (a) What is the charge of the particle? (b) What is unreasonable about this result? (c) Which assumptions are responsible?",
+        "text": "Unreasonable Results A charged particle having mass $6.64\\times {10}^{-27} kg$ (that of a helium atom) moving at $8.70\\times {10}^{5} m/s$ perpendicular to a 1.50-T magnetic field travels in a circular path of radius 16.0 mm. (a) What is the charge of the particle? (b) What is unreasonable about this result? (c) Which assumptions are responsible?",
         "inline": []
       },
       "level": "core",
@@ -1330,7 +1330,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results An inventor wants to generate 120-V power by moving a 1.00-m-long wire perpendicular to the Earth’s $5.00×{10}^{-5}T$ field. (a) Find the speed with which the wire must move. (b) What is unreasonable about this result? (c) Which assumption is responsible?",
+        "text": "Unreasonable Results An inventor wants to generate 120-V power by moving a 1.00-m-long wire perpendicular to the Earth’s $5.00\\times {10}^{-5} T$ field. (a) Find the speed with which the wire must move. (b) What is unreasonable about this result? (c) Which assumption is responsible?",
         "inline": []
       },
       "level": "core",
@@ -1420,7 +1420,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results A surveyor 100 m from a long straight 200-kV DC power line suspects that its magnetic field may equal that of the Earth and affect compass readings. (a) Calculate the current in the wire needed to create a $5.00×{10}^{-5}T$ field at this distance. (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
+        "text": "Unreasonable Results A surveyor 100 m from a long straight 200-kV DC power line suspects that its magnetic field may equal that of the Earth and affect compass readings. (a) Calculate the current in the wire needed to create a $5.00\\times {10}^{-5} T$ field at this distance. (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
         "inline": []
       },
       "level": "core",
@@ -1531,7 +1531,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking A magnetic field of $2.00×{10}^{−7}T$ in the positive *x* -direction exists. Three electrons pass through the origin, one at a time, each with a velocity of $5.00×{10}^{7}m/s$ . The first electron passes the origin along the *x* -axis, the second electron along the *y* -axis, and the third at an angle of $45°$ with respect to both the *y* - and *z* -axes in the *yz* -plane. (a) What is the force acting on each electron? (b) What is the shape of the path of each electron? (c) When, if ever, will each electron return to the origin?",
+        "text": "Critical Thinking A magnetic field of $2.00\\times {10}^{−7} T$ in the positive *x* -direction exists. Three electrons pass through the origin, one at a time, each with a velocity of $5.00\\times {10}^{7} m/s$. The first electron passes the origin along the *x* -axis, the second electron along the *y* -axis, and the third at an angle of $45°$ with respect to both the *y* - and *z* -axes in the *yz* -plane. (a) What is the force acting on each electron? (b) What is the shape of the path of each electron? (c) When, if ever, will each electron return to the origin?",
         "inline": []
       },
       "level": "core",

@@ -1,26 +1,28 @@
 # Syllabus coverage audit: Physics, Chemistry, Biology
 
-Date: 2026-11-09 (updated 2026-11-10 after scrape batches 1-8)
+Date: 2026-11-09 (updated 2026-11-13 after the Physics book completion pass)
 Compared against: **production topics** in the Turso DB (`turso://utmelab-api-ultimatekristency.aws-eu-west-1.turso.io`, tables `topics` + `subtopics`), query `subject IN ('physics','chemistry','biology')`.
 Concept inventory at audit time: **110 concepts** in `data/concepts/` (57 maths incl. shared physics files, 24 phy, 20 che, 9 bio).
 Machine-readable version: `data/concepts/audit-3sci.json` (gitignored staging).
 
-## Post-scrape final coverage (2026-11-10)
+## Post-scrape final coverage (2026-11-13)
 
 **281 concepts, 32,000+ blocks, 1,700+ source figures** after scrape batches 1-8. Every scrapeable topic is now **covered**; the only remaining holes are the no-source topics below. No topic remains "thin" or "gap" where OpenStax offers a module.
 
 | Subject  | Exam | topics | covered | thin | gap | no_source |
 |----------|------|--------|---------|------|-----|-----------|
-| physics  | JAMB | 39     | 37      | 0    | 0   | 2         |
-| physics  | WAEC | 33     | 32      | 0    | 0   | 1         |
+| physics  | JAMB | 39     | 39      | 0    | 0   | 0         |
+| physics  | WAEC | 33     | 33      | 0    | 0   | 0         |
 | chemistry| JAMB | 18     | 14      | 0    | 0   | 4         |
 | chemistry| WAEC | 26     | 24      | 0    | 0   | 2         |
 | biology  | JAMB | 23     | 21      | 0    | 0   | 2         |
 | biology  | WAEC | 74     | 63      | 0    | 0   | 11        |
 
-**No-source (14 total, unresolved):** physics - Simple Machines, Vapours/hygrometry; chemistry - Air, Water (hardness/town supply), Environmental Pollution, Chemistry and Industry; biology - Local (Nigerian) Biomes, Soil, and 11 applied/practical WAEC topics (dissection, water/fishing/food industry, biotechnology, sampling, drawing practice, biological-work procedure, hygiene detail, fibre optics). These need a peer-reviewed fallback publisher or a decision to hand-author; nothing will be fabricated.
+**No-source rows remaining (19):** chemistry - Air, Water (hardness/town supply), Environmental Pollution, Chemistry and Industry; biology - Local (Nigerian) Biomes, Soil, and 11 applied/practical WAEC topics (dissection, water/fishing/food industry, biotechnology, sampling, drawing practice, biological-work procedure, hygiene detail). These need a peer-reviewed fallback publisher or a decision to hand-author; nothing will be fabricated.
 
-The pre-scrape audit below is retained for history.
+Physics has no remaining no-source rows. Simple Machines is served by `phy_statics_and_torque` sec-6 (OpenStax m42174). Vapours is served by `phy_temperature_and_gas_laws` sec-6 and sec-7 (m42218 and m42219), including an authored wet-and-dry-bulb paragraph and warm-up exercise. Fibre Optics is served by `phy_geometric_optics` sec-5 (m42462). The three topics now carry exam links to their JAMB/WAEC syllabus entries.
+
+The pre-scrape audit below is retained for history. Its physics no-source counts describe the state before the book was built.
 
 ## Status legend
 
@@ -86,10 +88,10 @@ WAEC topics are the NECO-style syllabus plus exam-specific extras (Section A/B s
 | Conduction Through Liquids and Gases | che_solubility | m68827 (Electrolysis) |
 | Elementary Modern Physics | phy_hydrogen_atom, phy_nuclear, phy_photoelectric | m58609 (Radioactive Decay), m58610, m58611 |
 
-### No-source (2)
+### No-source (2, resolved 2026-11-13)
 
-- **Simple Machines** — mechanical advantage/velocity ratio has no OpenStax module. Needs a peer-reviewed fallback publisher or a decision to hand-author.
-- **Vapours** — SVP partially inside m58388 Phase Changes; dew/humidity/hygrometry (wet-and-dry-bulb) have no module.
+- **Simple Machines** - resolved. Served by `phy_statics_and_torque` sec-6 from OpenStax m42174.
+- **Vapours** - resolved. Served by `phy_temperature_and_gas_laws` sec-6 and sec-7 from m42218 and m42219, with authored wet-and-dry-bulb coverage.
 
 ## JAMB Chemistry (18 topics): 4 gaps, 8 thin, 4 no-source
 
@@ -156,9 +158,9 @@ Covered: Living Organisms, Nutrition, Humans and Environment, Theories of Evolut
 ## Notable WAEC-only differences
 
 - WAEC progressive/optics topics bundle more (e.g. `waec-light-waves` = reflection + refraction + lenses + dispersion) — same candidates as JAMB optics.
-- `waec-heat-energy` bundles gas laws + heat capacity + latent heat + humidity — big topic, candidates m58387/88/89 + m68751; humidity subtopic no-source.
+- `waec-heat-energy` bundles gas laws + heat capacity + latent heat + humidity — big topic, candidates m58387/88/89 + m68751; the humidity subtopic is now served by `phy_temperature_and_gas_laws` sec-6 and sec-7.
 - Applied/practical biology topics (dissection, water/fishing/food industry, biotechnology, sampling, drawing/sectioning, procedure for biological work) are **no_source** — 11 WAEC biology topics. A hand-authoring or fallback decision is needed for them together.
-- waec-fibre-optics, waec-simple-machines, waec-soil, waec-local-biomes, waec-air, waec-water-treatment: no-source flags above.
+- waec-soil, waec-local-biomes, waec-air, waec-water-treatment: no-source flags above. Physics fibre optics and simple machines are now covered; see the resolved entries in the JAMB Physics section.
 
 ## Proposed next scrape order (closes the most topics per module)
 

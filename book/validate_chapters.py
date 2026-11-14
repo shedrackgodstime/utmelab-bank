@@ -345,6 +345,33 @@ def validate(path):
             errors.append((path, f"exercise {exercise_id} marks not positive"))
         check_richtext(exercise.get("stem"), f"{path}.{exercise_id}.stem", errors)
         check_richtext(exercise.get("answer"), f"{path}.{exercise_id}.answer", errors)
+        options = exercise.get("options")
+        if options:
+            if not isinstance(options, list) or len(options) < 2:
+                errors.append((path, f"exercise {exercise_id} options must list at least two choices"))
+            else:
+                ids = []
+                malformed = False
+                for option in options:
+                    if not isinstance(option, dict) or not isinstance(option.get("id"), str) \
+                            or not isinstance(option.get("text"), str) or not option["text"].strip():
+                        errors.append((path, f"exercise {exercise_id} option malformed"))
+                        malformed = True
+                        continue
+                    ids.append(option["id"].strip().lower())
+                if not malformed and len(set(ids)) != len(ids):
+                    errors.append((path, f"exercise {exercise_id} repeats an option id"))
+                letters = re.findall(
+                    r"\(([a-e])\)",
+                    (exercise.get("answer") or {}).get("text", "") if isinstance(exercise.get("answer"), dict) else "",
+                    re.I,
+                )
+                if letters:
+                    for letter in letters:
+                        if letter.lower() not in ids and not malformed:
+                            errors.append((path, f"exercise {exercise_id} answer ({letter}) has no matching option"))
+                elif not malformed:
+                    errors.append((path, f"exercise {exercise_id} names no option in its answer"))
         if exercise.get("answer_kind") not in ANSWER_KINDS:
             errors.append((path, f"exercise {exercise_id} answer_kind {exercise.get('answer_kind')} unknown"))
         solution = exercise.get("solution")

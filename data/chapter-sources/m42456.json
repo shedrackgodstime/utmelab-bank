@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The law of reflection is illustrated in , which also shows how the angles are measured relative to the perpendicular to the surface at the point where the light ray strikes. We expect to see reflections from smooth surfaces, but illustrates how a rough surface reflects light. Since the light strikes different parts of the surface at different angles, it is reflected in many different directions, or diffused. Diffused light is what allows us to see a sheet of paper from any angle, as illustrated in . Many objects, such as people, clothing, leaves, and walls, have rough surfaces and can be seen from all sides. A mirror, on the other hand, has a smooth surface (compared with the wavelength of light) and reflects light at specific angles, as illustrated in . When the moon reflects from a lake, as shown in , a combination of these effects takes place.",
+        "text": "The law of reflection is illustrated in the figure, which also shows how the angles are measured relative to the perpendicular to the surface at the point where the light ray strikes. We expect to see reflections from smooth surfaces, but the figure illustrates how a rough surface reflects light. Since the light strikes different parts of the surface at different angles, it is reflected in many different directions, or diffused. Diffused light is what allows us to see a sheet of paper from any angle, as illustrated in the figure. Many objects, such as people, clothing, leaves, and walls, have rough surfaces and can be seen from all sides. A mirror, on the other hand, has a smooth surface (compared with the wavelength of light) and reflects light at specific angles, as illustrated in the figure. When the moon reflects from a lake, as shown in the figure, a combination of these effects takes place.",
         "inline": []
       },
       "level": "core"
@@ -132,7 +132,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "When we see ourselves in a mirror, it appears that our image is actually behind the mirror. This is illustrated in . We see the light coming from a direction determined by the law of reflection. The angles are such that our image is exactly the same distance behind the mirror as we stand away from the mirror. If the mirror is on the wall of a room, the images in it are all behind the mirror, which can make the room seem bigger. Although these mirror images make objects appear to be where they cannot be (like behind a solid wall), the images are not figments of our imagination. Mirror images can be photographed and videotaped by instruments and look just as they do with our eyes (optical instruments themselves). The precise manner in which images are formed by mirrors and lenses will be treated in later sections of this chapter.",
+        "text": "When we see ourselves in a mirror, it appears that our image is actually behind the mirror. This is illustrated in the figure. We see the light coming from a direction determined by the law of reflection. The angles are such that our image is exactly the same distance behind the mirror as we stand away from the mirror. If the mirror is on the wall of a room, the images in it are all behind the mirror, which can make the room seem bigger. Although these mirror images make objects appear to be where they cannot be (like behind a solid wall), the images are not figments of our imagination. Mirror images can be photographed and videotaped by instruments and look just as they do with our eyes (optical instruments themselves). The precise manner in which images are formed by mirrors and lenses will be treated in later sections of this chapter.",
         "inline": []
       },
       "level": "core"
@@ -154,7 +154,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Take a piece of paper and shine a flashlight at an angle at the paper, as shown in . Now shine the flashlight at a mirror at an angle. Do your observations confirm the predictions in and ? Shine the flashlight on various surfaces and determine whether the reflected light is diffuse or not. You can choose a shiny metallic lid of a pot or your skin. Using the mirror and flashlight, can you confirm the law of reflection? You will need to draw lines on a piece of paper showing the incident and reflected rays. (This part works even better if you use a laser pencil.)",
+        "text": "Take a piece of paper and shine a flashlight at an angle at the paper, as shown in the figure. Now shine the flashlight at a mirror at an angle. Do your observations confirm the predictions in the figure and the figure? Shine the flashlight on various surfaces and determine whether the reflected light is diffuse or not. You can choose a shiny metallic lid of a pot or your skin. Using the mirror and flashlight, can you confirm the law of reflection? You will need to draw lines on a piece of paper showing the incident and reflected rays. (This part works even better if you use a laser pencil.)",
         "inline": []
       },
       "level": "core"
@@ -266,7 +266,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure. A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.",
+        "text": "Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure.",
         "inline": []
       },
       "level": "core",
@@ -300,7 +300,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Light shows staged with lasers use moving mirrors to swing beams and create colorful effects. Show that a light ray reflected from a mirror changes direction by $2θ$ when the mirror is rotated by an angle $θ$ .",
+        "text": "Light shows staged with lasers use moving mirrors to swing beams and create colorful effects. Show that a light ray reflected from a mirror changes direction by $2θ$ when the mirror is rotated by an angle $θ$.",
         "inline": []
       },
       "level": "core",
@@ -321,7 +321,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A flat mirror is neither converging nor diverging. To prove this, consider two rays originating from the same point and diverging at an angle $θ$ . Show that after striking a plane mirror, the angle between their directions remains $θ$ . A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.",
+        "text": "A flat mirror is neither converging nor diverging. To prove this, consider two rays originating from the same point and diverging at an angle $θ$. Show that after striking a plane mirror, the angle between their directions remains $θ$.",
         "inline": []
       },
       "level": "core",

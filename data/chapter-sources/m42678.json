@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Quarks have been mentioned at various points in this text as fundamental building blocks and members of the exclusive club of truly elementary particles. Note that an elementary or fundamental particle has no substructure (it is not made of other particles) and has no finite size other than its wavelength. This does not mean that fundamental particles are stable—some decay, while others do not. Keep in mind that *all* leptons seem to be fundamental, whereas *no* hadrons are fundamental. There is strong evidence that quarks are the fundamental building blocks of hadrons as seen in . Quarks are the second group of fundamental particles (leptons are the first). The third and perhaps final group of fundamental particles is the carrier particles for the four basic forces. Leptons, quarks, and carrier particles may be all there is. In this module we will discuss the quark substructure of hadrons and its relationship to forces as well as indicate some remaining questions and problems.",
+        "text": "Quarks have been mentioned at various points in this text as fundamental building blocks and members of the exclusive club of truly elementary particles. Note that an elementary or fundamental particle has no substructure (it is not made of other particles) and has no finite size other than its wavelength. This does not mean that fundamental particles are stable—some decay, while others do not. Keep in mind that *all* leptons seem to be fundamental, whereas *no* hadrons are fundamental. There is strong evidence that quarks are the fundamental building blocks of hadrons as seen in the figure. Quarks are the second group of fundamental particles (leptons are the first). The third and perhaps final group of fundamental particles is the carrier particles for the four basic forces. Leptons, quarks, and carrier particles may be all there is. In this module we will discuss the quark substructure of hadrons and its relationship to forces as well as indicate some remaining questions and problems.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Quarks were first proposed independently by American physicists Murray Gell-Mann and George Zweig in 1963. Their quaint name was taken by Gell-Mann from a James Joyce novel—Gell-Mann was also largely responsible for the concept and name of strangeness. (Whimsical names are common in particle physics, reflecting the personalities of modern physicists.) Originally, three quark types—or flavors —were proposed to account for the then-known mesons and baryons. These quark flavors are named up ( *u* ), down ( *d* ), and strange ( *s* ). All quarks have half-integral spin and are thus fermions. All mesons have integral spin while all baryons have half-integral spin. Therefore, mesons should be made up of an even number of quarks while baryons need to be made up of an odd number of quarks. shows the quark substructure of the proton, neutron, and two pions. The most radical proposal by Gell-Mann and Zweig is the fractional charges of quarks, which are $±(\\frac{2}{3}){q}_{e}$ and $(\\frac{1}{3}){q}_{e}$ , whereas all directly observed particles have charges that are integral multiples of ${q}_{e}$ . Note that the fractional value of the quark does not violate the fact that the *e* is the smallest unit of charge that is observed, because a free quark cannot exist. lists characteristics of the six quark flavors that are now thought to exist. Discoveries made since 1963 have required extra quark flavors, which are divided into three families quite analogous to leptons.",
+        "text": "Quarks were first proposed independently by American physicists Murray Gell-Mann and George Zweig in 1963. Their quaint name was taken by Gell-Mann from a James Joyce novel—Gell-Mann was also largely responsible for the concept and name of strangeness. (Whimsical names are common in particle physics, reflecting the personalities of modern physicists.) Originally, three quark types—or flavors —were proposed to account for the then-known mesons and baryons. These quark flavors are named up (*u*), down (*d*), and strange (*s*). All quarks have half-integral spin and are thus fermions. All mesons have integral spin while all baryons have half-integral spin. Therefore, mesons should be made up of an even number of quarks while baryons need to be made up of an odd number of quarks. The figure shows the quark substructure of the proton, neutron, and two pions. The most radical proposal by Gell-Mann and Zweig is the fractional charges of quarks, which are $±(\\frac{2}{3}){q}_{e}$ and $(\\frac{1}{3}){q}_{e}$, whereas all directly observed particles have charges that are integral multiples of ${q}_{e}$. Note that the fractional value of the quark does not violate the fact that the *e* is the smallest unit of charge that is observed, because a free quark cannot exist. The table lists characteristics of the six quark flavors that are now thought to exist. Discoveries made since 1963 have required extra quark flavors, which are divided into three families quite analogous to leptons.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "To understand how these quark substructures work, let us specifically examine the proton, neutron, and the two pions pictured in before moving on to more general considerations. First, the proton *p* is composed of the three quarks *uud* , so that its total charge is $+(\\frac{2}{3}){q}_{e}+(\\frac{2}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}={q}_{e}$ , as expected. With the spins aligned as in the figure, the proton’s intrinsic spin is $+(\\frac{1}{2})+(\\frac{1}{2})-(\\frac{1}{2})=(\\frac{1}{2})$ , also as expected. Note that the spins of the up quarks are aligned, so that they would be in the same state except that they have different colors (another quantum number to be elaborated upon a little later). Quarks obey the Pauli exclusion principle. Similar comments apply to the neutron *n* , which is composed of the three quarks *udd* . Note also that the neutron is made of charges that add to zero but move internally, producing its well-known magnetic moment. When the neutron ${β}^{-}$ decays, it does so by changing the flavor of one of its quarks. Writing neutron ${β}^{-}$ decay in terms of quarks,",
+        "text": "To understand how these quark substructures work, let us specifically examine the proton, neutron, and the two pions pictured in the figure before moving on to more general considerations. First, the proton *p* is composed of the three quarks *uud*, so that its total charge is $+(\\frac{2}{3}){q}_{e}+(\\frac{2}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}={q}_{e}$, as expected. With the spins aligned as in the figure, the proton’s intrinsic spin is $+(\\frac{1}{2})+(\\frac{1}{2})-(\\frac{1}{2})=(\\frac{1}{2})$, also as expected. Note that the spins of the up quarks are aligned, so that they would be in the same state except that they have different colors (another quantum number to be elaborated upon a little later). Quarks obey the Pauli exclusion principle. Similar comments apply to the neutron *n*, which is composed of the three quarks *udd*. Note also that the neutron is made of charges that add to zero but move internally, producing its well-known magnetic moment. When the neutron ${β}^{-}$ decays, it does so by changing the flavor of one of its quarks. Writing neutron ${β}^{-}$ decay in terms of quarks,",
         "inline": []
       },
       "level": "core"
@@ -333,7 +333,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "This is an example of the general fact that *the weak nuclear force can change the flavor of a quark* . By general, we mean that any quark can be converted to any other (change flavor) by the weak nuclear force. Not only can we get $d→u$ , we can also get $u→d$ . Furthermore, the strange quark can be changed by the weak force, too, making $s→u$ and $s→d$ possible. This explains the violation of the conservation of strangeness by the weak force noted in the preceding section. Another general fact is that *the strong nuclear force cannot change the flavor of a quark.*",
+        "text": "This is an example of the general fact that *the weak nuclear force can change the flavor of a quark*. By general, we mean that any quark can be converted to any other (change flavor) by the weak nuclear force. Not only can we get $d\\to u$, we can also get $u\\to d$. Furthermore, the strange quark can be changed by the weak force, too, making $s\\to u$ and $s\\to d$ possible. This explains the violation of the conservation of strangeness by the weak force noted in the preceding section. Another general fact is that *the strong nuclear force cannot change the flavor of a quark.*",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Again, from , we see that the ${π}^{+}$ meson (one of the three pions) is composed of an up quark plus an antidown quark, or $ud-$ . Its total charge is thus $+(\\frac{2}{3}){q}_{e}+(\\frac{1}{3}){q}_{e}={q}_{e}$ , as expected. Its baryon number is 0, since it has a quark and an antiquark with baryon numbers $+(\\frac{1}{3})-(\\frac{1}{3})=0$ . The ${π}^{+}$ half-life is relatively long since, although it is composed of matter and antimatter, the quarks are different flavors and the weak force should cause the decay by changing the flavor of one into that of the other. The spins of the $u$ and $d-$ quarks are antiparallel, enabling the pion to have spin zero, as observed experimentally. Finally, the ${π}^{-}$ meson shown in is the antiparticle of the ${π}^{+}$ meson, and it is composed of the corresponding quark antiparticles. That is, the ${π}^{+}$ meson is $ud-$ , while the ${π}^{-}$ meson is $u-d$ . These two pions annihilate each other quickly, because their constituent quarks are each other’s antiparticles.",
+        "text": "Again, from the figure, we see that the ${π}^{+}$ meson (one of the three pions) is composed of an up quark plus an antidown quark, or $ud-$. Its total charge is thus $+(\\frac{2}{3}){q}_{e}+(\\frac{1}{3}){q}_{e}={q}_{e}$, as expected. Its baryon number is 0, since it has a quark and an antiquark with baryon numbers $+(\\frac{1}{3})-(\\frac{1}{3})=0$. The ${π}^{+}$ half-life is relatively long since, although it is composed of matter and antimatter, the quarks are different flavors and the weak force should cause the decay by changing the flavor of one into that of the other. The spins of the $u$ and $d-$ quarks are antiparallel, enabling the pion to have spin zero, as observed experimentally. Finally, the ${π}^{-}$ meson shown in the figure is the antiparticle of the ${π}^{+}$ meson, and it is composed of the corresponding quark antiparticles. That is, the ${π}^{+}$ meson is $ud-$, while the ${π}^{-}$ meson is $u-d$. These two pions annihilate each other quickly, because their constituent quarks are each other’s antiparticles.",
         "inline": []
       },
       "level": "core"
@@ -378,7 +378,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "All quark combinations are possible. lists some of these combinations. When Gell-Mann and Zweig proposed the original three quark flavors, particles corresponding to all combinations of those three had not been observed. The pattern was there, but it was incomplete—much as had been the case in the periodic table of the elements and the chart of nuclides. The ${Ω}^{-}$ particle, in particular, had not been discovered but was predicted by quark theory. Its combination of three strange quarks, $sss$ , gives it a strangeness of $-3$ (see ) and other predictable characteristics, such as spin, charge, approximate mass, and lifetime. If the quark picture is complete, the ${Ω}^{-}$ should exist. It was first observed in 1964 at Brookhaven National Laboratory and had the predicted characteristics as seen in . The discovery of the ${Ω}^{-}$ was convincing indirect evidence for the existence of the three original quark flavors and boosted theoretical and experimental efforts to further explore particle physics in terms of quarks.",
+        "text": "All quark combinations are possible. The table lists some of these combinations. When Gell-Mann and Zweig proposed the original three quark flavors, particles corresponding to all combinations of those three had not been observed. The pattern was there, but it was incomplete—much as had been the case in the periodic table of the elements and the chart of nuclides. The ${Ω}^{-}$ particle, in particular, had not been discovered but was predicted by quark theory. Its combination of three strange quarks, $sss$, gives it a strangeness of $-3$ (see the table) and other predictable characteristics, such as spin, charge, approximate mass, and lifetime. If the quark picture is complete, the ${Ω}^{-}$ should exist. It was first observed in 1964 at Brookhaven National Laboratory and had the predicted characteristics as seen in the figure. The discovery of the ${Ω}^{-}$ was convincing indirect evidence for the existence of the three original quark flavors and boosted theoretical and experimental efforts to further explore particle physics in terms of quarks.",
         "inline": []
       },
       "level": "core"
@@ -424,7 +424,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Verify the quantum numbers given for the ${Ξ}^{0}$ particle in by adding the quantum numbers for its quark composition as given in .",
+        "text": "Verify the quantum numbers given for the ${Ξ}^{0}$ particle in the table by adding the quantum numbers for its quark composition as given in the table.",
         "inline": []
       },
       "level": "core"
@@ -433,7 +433,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The composition of the ${Ξ}^{0}$ is given as $uss$ in . The quantum numbers for the constituent quarks are given in . We will not consider spin, because that is not given for the ${Ξ}^{0}$ . But we can check on charge and the other quantum numbers given for the quarks.",
+        "text": "The composition of the ${Ξ}^{0}$ is given as $uss$ in the table. The quantum numbers for the constituent quarks are given in the table. We will not consider spin, because that is not given for the ${Ξ}^{0}$. But we can check on charge and the other quantum numbers given for the quarks.",
         "inline": []
       },
       "level": "core"
@@ -442,7 +442,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The total charge of *uss* is $+(\\frac{2}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}=0$ , which is correct for the ${Ξ}^{0}$ . The baryon number is $+(\\frac{1}{3})+(\\frac{1}{3})+(\\frac{1}{3})=1$ , also correct since the ${Ξ}^{0}$ is a matter baryon and has $B=1$ , as listed in . Its strangeness is $S=0-1-1=-2$ , also as expected from . Its charm, bottomness, and topness are 0, as are its lepton family numbers (it is not a lepton).",
+        "text": "The total charge of *uss* is $+(\\frac{2}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}-(\\frac{1}{3}){q}_{e}=0$, which is correct for the ${Ξ}^{0}$. The baryon number is $+(\\frac{1}{3})+(\\frac{1}{3})+(\\frac{1}{3})=1$, also correct since the ${Ξ}^{0}$ is a matter baryon and has $B=1$, as listed in the table. Its strangeness is $S=0-1-1=-2$, also as expected from the table. Its charm, bottomness, and topness are 0, as are its lepton family numbers (it is not a lepton).",
         "inline": []
       },
       "level": "core"
@@ -469,7 +469,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "At first, physicists expected that, with sufficient energy, we should be able to free quarks and observe them directly. This has not proved possible. There is still no direct observation of a fractional charge or any isolated quark. When large energies are put into collisions, other particles are created—but no quarks emerge. There is nearly direct evidence for quarks that is quite compelling. By 1967, experiments at SLAC scattering 20-GeV electrons from protons had produced results like Rutherford had obtained for the nucleus nearly 60 years earlier. The SLAC scattering experiments showed unambiguously that there were three pointlike (meaning they had sizes considerably smaller than the probe’s wavelength) charges inside the proton as seen in . This evidence made all but the most skeptical admit that there was validity to the quark substructure of hadrons.",
+        "text": "At first, physicists expected that, with sufficient energy, we should be able to free quarks and observe them directly. This has not proved possible. There is still no direct observation of a fractional charge or any isolated quark. When large energies are put into collisions, other particles are created—but no quarks emerge. There is nearly direct evidence for quarks that is quite compelling. By 1967, experiments at SLAC scattering 20-GeV electrons from protons had produced results like Rutherford had obtained for the nucleus nearly 60 years earlier. The SLAC scattering experiments showed unambiguously that there were three pointlike (meaning they had sizes considerably smaller than the probe’s wavelength) charges inside the proton as seen in the figure. This evidence made all but the most skeptical admit that there was validity to the quark substructure of hadrons.",
         "inline": []
       },
       "level": "core"
@@ -522,7 +522,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The quark model actually lost some of its early popularity because the original model with three quarks had to be modified. The up and down quarks seemed to compose normal matter as seen in , while the single strange quark explained strangeness. Why didn’t it have a counterpart? A fourth quark flavor called charm ( *c* ) was proposed as the counterpart of the strange quark to make things symmetric—there would be two normal quarks ( *u* and *d* ) and two exotic quarks ( *s* and *c* ). Furthermore, at that time only four leptons were known, two normal and two exotic. It was attractive that there would be four quarks and four leptons. The problem was that no known particles contained a charmed quark. Suddenly, in November of 1974, two groups (one headed by C. C. Ting at Brookhaven National Laboratory and the other by Burton Richter at SLAC) independently and nearly simultaneously discovered a new meson with characteristics that made it clear that its substructure is $cc-$ . It was called *J* by one group and psi ( $ψ$ ) by the other and now is known as the $J/ψ$ meson. Since then, numerous particles have been discovered containing the charmed quark, consistent in every way with the quark model. The discovery of the $J/ψ$ meson had such a rejuvenating effect on quark theory that it is now called the November Revolution. Ting and Richter shared the 1976 Nobel Prize.",
+        "text": "The quark model actually lost some of its early popularity because the original model with three quarks had to be modified. The up and down quarks seemed to compose normal matter as seen in the table, while the single strange quark explained strangeness. Why didn’t it have a counterpart? A fourth quark flavor called charm (*c*) was proposed as the counterpart of the strange quark to make things symmetric—there would be two normal quarks (*u* and *d*) and two exotic quarks (*s* and *c*). Furthermore, at that time only four leptons were known, two normal and two exotic. It was attractive that there would be four quarks and four leptons. The problem was that no known particles contained a charmed quark. Suddenly, in November of 1974, two groups (one headed by C. C. Ting at Brookhaven National Laboratory and the other by Burton Richter at SLAC) independently and nearly simultaneously discovered a new meson with characteristics that made it clear that its substructure is $cc-$. It was called *J* by one group and psi ($ψ$) by the other and now is known as the $J/ψ$ meson. Since then, numerous particles have been discovered containing the charmed quark, consistent in every way with the quark model. The discovery of the $J/ψ$ meson had such a rejuvenating effect on quark theory that it is now called the November Revolution. Ting and Richter shared the 1976 Nobel Prize.",
         "inline": []
       },
       "level": "core"
@@ -531,7 +531,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "History quickly repeated itself. In 1975, the tau ( $τ$ ) was discovered, and a third family of leptons emerged as seen in ). Theorists quickly proposed two more quark flavors called top ( *t* ) or truth and bottom ( *b* ) or beauty to keep the number of quarks the same as the number of leptons. And in 1976, the upsilon ( $ϒ$ ) meson was discovered and shown to be composed of a bottom and an antibottom quark or $bb-$ , quite analogous to the $J/ψ$ being $cc-$ as seen in . Being a single flavor, these mesons are sometimes called bare charm and bare bottom and reveal the characteristics of their quarks most clearly. Other mesons containing bottom quarks have since been observed. In 1995, two groups at Fermilab confirmed the top quark’s existence, completing the picture of six quarks listed in . Each successive quark discovery—first $c$ , then $b$ , and finally $t$ —has required higher energy because each has higher mass. Quark masses in are only approximately known, because they are not directly observed. They must be inferred from the masses of the particles they combine to form.",
+        "text": "History quickly repeated itself. In 1975, the tau ($τ$) was discovered, and a third family of leptons emerged as seen in the table). Theorists quickly proposed two more quark flavors called top (*t*) or truth and bottom (*b*) or beauty to keep the number of quarks the same as the number of leptons. And in 1976, the upsilon ($ϒ$) meson was discovered and shown to be composed of a bottom and an antibottom quark or $bb-$, quite analogous to the $J/ψ$ being $cc-$ as seen in the table. Being a single flavor, these mesons are sometimes called bare charm and bare bottom and reveal the characteristics of their quarks most clearly. Other mesons containing bottom quarks have since been observed. In 1995, two groups at Fermilab confirmed the top quark’s existence, completing the picture of six quarks listed in the table. Each successive quark discovery—first $c$, then $b$, and finally $t$ —has required higher energy because each has higher mass. Quark masses in the table are only approximately known, because they are not directly observed. They must be inferred from the masses of the particles they combine to form.",
         "inline": []
       },
       "level": "core"
@@ -549,7 +549,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "As mentioned and shown in , quarks carry another quantum number, which we call color . Of course, it is not the color we sense with visible light, but its properties are analogous to those of three primary and three secondary colors. Specifically, a quark can have one of three color values we call *red* ( $R$ ), *green* ( $G$ ), and *blue* ( $B$ ) in analogy to those primary visible colors. Antiquarks have three values we call *antired or cyan* $(R-)$ , *antigreen or magenta* $(G-)$ , and *antiblue or yellow* $(B-)$ in analogy to those secondary visible colors. The reason for these names is that when certain visual colors are combined, the eye sees white. The analogy of the colors combining to white is used to explain why baryons are made of three quarks, why mesons are a quark and an antiquark, and why we cannot isolate a single quark. The force between the quarks is such that their combined colors produce white. This is illustrated in . A baryon must have one of each primary color or RGB, which produces white. A meson must have a primary color and its anticolor, also producing white.",
+        "text": "As mentioned and shown in the figure, quarks carry another quantum number, which we call color. Of course, it is not the color we sense with visible light, but its properties are analogous to those of three primary and three secondary colors. Specifically, a quark can have one of three color values we call *red* ($R$), *green* ($G$), and *blue* ($B$) in analogy to those primary visible colors. Antiquarks have three values we call *antired or cyan* $(R-)$, *antigreen or magenta* $(G-)$, and *antiblue or yellow* $(B-)$ in analogy to those secondary visible colors. The reason for these names is that when certain visual colors are combined, the eye sees white. The analogy of the colors combining to white is used to explain why baryons are made of three quarks, why mesons are a quark and an antiquark, and why we cannot isolate a single quark. The force between the quarks is such that their combined colors produce white. This is illustrated in the figure. A baryon must have one of each primary color or RGB, which produces white. A meson must have a primary color and its anticolor, also producing white.",
         "inline": []
       },
       "level": "core"
@@ -571,7 +571,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Why must hadrons be white? The color scheme is intentionally devised to explain why baryons have three quarks and mesons have a quark and an antiquark. Quark color is thought to be similar to charge, but with more values. An ion, by analogy, exerts much stronger forces than a neutral molecule. When the color of a combination of quarks is white, it is like a neutral atom. The forces a white particle exerts are like the polarization forces in molecules, but in hadrons these leftovers are the strong nuclear force. When a combination of quarks has color other than white, it exerts *extremely* large forces—even larger than the strong force—and perhaps cannot be stable or permanently separated. This is part of the theory of quark confinement , which explains how quarks can exist and yet never be isolated or directly observed. Finally, an extra quantum number with three values (like those we assign to color) is necessary for quarks to obey the Pauli exclusion principle. Particles such as the ${Ω}^{-}$ , which is composed of three strange quarks, $sss$ , and the ${Δ}^{++}$ , which is three up quarks, *uuu* , can exist because the quarks have different colors and do not have the same quantum numbers. Color is consistent with all observations and is now widely accepted. Quark theory including color is called quantum chromodynamics (QCD), also named by Gell-Mann.",
+        "text": "Why must hadrons be white? The color scheme is intentionally devised to explain why baryons have three quarks and mesons have a quark and an antiquark. Quark color is thought to be similar to charge, but with more values. An ion, by analogy, exerts much stronger forces than a neutral molecule. When the color of a combination of quarks is white, it is like a neutral atom. The forces a white particle exerts are like the polarization forces in molecules, but in hadrons these leftovers are the strong nuclear force. When a combination of quarks has color other than white, it exerts *extremely* large forces—even larger than the strong force—and perhaps cannot be stable or permanently separated. This is part of the theory of quark confinement, which explains how quarks can exist and yet never be isolated or directly observed. Finally, an extra quantum number with three values (like those we assign to color) is necessary for quarks to obey the Pauli exclusion principle. Particles such as the ${Ω}^{-}$, which is composed of three strange quarks, $sss$, and the ${Δ}^{++}$, which is three up quarks, *uuu*, can exist because the quarks have different colors and do not have the same quantum numbers. Color is consistent with all observations and is now widely accepted. Quark theory including color is called quantum chromodynamics (QCD), also named by Gell-Mann.",
         "inline": []
       },
       "level": "core"
@@ -589,7 +589,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Fundamental particles are thought to be one of three types—leptons, quarks, or carrier particles. Each of those three types is further divided into three analogous families as illustrated in . We have examined leptons and quarks in some detail. Each has six members (and their six antiparticles) divided into three analogous families. The first family is normal matter, of which most things are composed. The second is exotic, and the third more exotic and more massive than the second. The only stable particles are in the first family, which also has unstable members.",
+        "text": "Fundamental particles are thought to be one of three types—leptons, quarks, or carrier particles. Each of those three types is further divided into three analogous families as illustrated in the figure. We have examined leptons and quarks in some detail. Each has six members (and their six antiparticles) divided into three analogous families. The first family is normal matter, of which most things are composed. The second is exotic, and the third more exotic and more massive than the second. The only stable particles are in the first family, which also has unstable members.",
         "inline": []
       },
       "level": "core"
@@ -598,7 +598,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "Always searching for symmetry and similarity, physicists have also divided the carrier particles into three families, omitting the graviton. Gravity is special among the four forces in that it affects the space and time in which the other forces exist and is proving most difficult to include in a Theory of Everything or TOE (to stub the pretension of such a theory). Gravity is thus often set apart. It is not certain that there is meaning in the groupings shown in , but the analogies are tempting. In the past, we have been able to make significant advances by looking for analogies and patterns, and this is an example of one under current scrutiny. There are connections between the families of leptons, in that the $τ$ decays into the $μ$ and the $μ$ into the *e* . Similarly for quarks, the higher families eventually decay into the lowest, leaving only *u* and *d* quarks. We have long sought connections between the forces in nature. Since these are carried by particles, we will explore connections between gluons, ${W}^{±}$ and ${Z}^{0}$ , and photons as part of the search for unification of forces discussed in GUTs: The Unification of Forces ..",
+        "text": "Always searching for symmetry and similarity, physicists have also divided the carrier particles into three families, omitting the graviton. Gravity is special among the four forces in that it affects the space and time in which the other forces exist and is proving most difficult to include in a Theory of Everything or TOE (to stub the pretension of such a theory). Gravity is thus often set apart. It is not certain that there is meaning in the groupings shown in the figure, but the analogies are tempting. In the past, we have been able to make significant advances by looking for analogies and patterns, and this is an example of one under current scrutiny. There are connections between the families of leptons, in that the $τ$ decays into the $μ$ and the $μ$ into the *e*. Similarly for quarks, the higher families eventually decay into the lowest, leaving only *u* and *d* quarks. We have long sought connections between the forces in nature. Since these are carried by particles, we will explore connections between gluons, ${W}^{±}$ and ${Z}^{0}$, and photons as part of the search for unification of forces discussed in GUTs: The Unification of Forces..",
         "inline": []
       },
       "level": "core"
@@ -706,7 +706,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The quark flavor change $d→u$ takes place in ${β}^{-}$ decay. Does this mean that the reverse quark flavor change $u→d$ takes place in ${β}^{+}$ decay? Justify your response by writing the decay in terms of the quark constituents, noting that it looks as if a proton is converted into a neutron in ${β}^{+}$ decay.",
+        "text": "The quark flavor change $d\\to u$ takes place in ${β}^{-}$ decay. Does this mean that the reverse quark flavor change $u\\to d$ takes place in ${β}^{+}$ decay? Justify your response by writing the decay in terms of the quark constituents, noting that it looks as if a proton is converted into a neutron in ${β}^{+}$ decay.",
         "inline": []
       },
       "level": "core",
@@ -769,7 +769,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Why is it easier to see the properties of the *c* , *b* , and *t* quarks in mesons having composition ${W}^{-}$ or $tt-$ rather than in baryons having a mixture of quarks, such as *udb* ?",
+        "text": "Why is it easier to see the properties of the *c*, *b*, and *t* quarks in mesons having composition ${W}^{-}$ or $tt-$ rather than in baryons having a mixture of quarks, such as *udb*?",
         "inline": []
       },
       "level": "core",
@@ -832,7 +832,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Discuss how we know that $π-mesons$ ( ${π}^{+},π,{π}^{0}$ ) are not fundamental particles and are not the basic carriers of the strong force.",
+        "text": "Discuss how we know that $π-mesons$ (${π}^{+},π,{π}^{0}$) are not fundamental particles and are not the basic carriers of the strong force.",
         "inline": []
       },
       "level": "core",
@@ -853,7 +853,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An antibaryon has three antiquarks with colors $R-G-B-$ . What is its color?",
+        "text": "An antibaryon has three antiquarks with colors $R-G-B-$. What is its color?",
         "inline": []
       },
       "level": "core",
@@ -946,7 +946,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The sigma-zero particle decays mostly via the reaction ${Σ}^{0}→{Λ}^{0}+γ$ . Explain how this decay and the respective quark compositions imply that the ${Σ}^{0}$ is an excited state of the ${Λ}^{0}$ .",
+        "text": "The sigma-zero particle decays mostly via the reaction ${Σ}^{0}\\to {Λ}^{0}+γ$. Explain how this decay and the respective quark compositions imply that the ${Σ}^{0}$ is an excited state of the ${Λ}^{0}$.",
         "inline": []
       },
       "level": "core",
@@ -1060,7 +1060,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Verify from its quark composition that the ${Δ}^{+}$ particle could be an excited state of the proton. (b) There is a spread of about 100 MeV in the decay energy of the ${Δ}^{+}$ , interpreted as uncertainty due to its short lifetime. What is its approximate lifetime? (c) Does its decay proceed via the strong or weak force?",
+        "text": "(a) Verify from its quark composition that the ${Δ}^{+}$ particle could be an excited state of the proton. (b) There is a spread of about 100 MeV in the decay energy of the ${Δ}^{+}$, interpreted as uncertainty due to its short lifetime. What is its approximate lifetime? (c) Does its decay proceed via the strong or weak force?",
         "inline": []
       },
       "level": "core",
@@ -1129,7 +1129,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Accelerators such as the Triangle Universities Meson Facility (TRIUMF) in British Columbia produce secondary beams of pions by having an intense primary proton beam strike a target. Such “meson factories” have been used for many years to study the interaction of pions with nuclei and, hence, the strong nuclear force. One reaction that occurs is ${π}^{+}+p→{Δ}^{++}→{π}^{+}+p$ , where the ${Δ}^{++}$ is a very short-lived particle. The graph in shows the probability of this reaction as a function of energy. The width of the bump is the uncertainty in energy due to the short lifetime of the ${Δ}^{++}$ . (a) Find this lifetime. (b) Verify from the quark composition of the particles that this reaction annihilates and then re-creates a *d* quark and a $d-$ antiquark by writing the reaction and decay in terms of quarks. (c) Draw a Feynman diagram of the production and decay of the ${Δ}^{++}$ showing the individual quarks involved. This graph shows the probability of an interaction between a ${π}^{+}$ and a proton as a function of energy. The bump is interpreted as a very short lived particle called a ${Δ}^{++}$ . The approximately 100-MeV width of the bump is due to the short lifetime of the ${Δ}^{++}$ .",
+        "text": "Accelerators such as the Triangle Universities Meson Facility (TRIUMF) in British Columbia produce secondary beams of pions by having an intense primary proton beam strike a target. Such “meson factories” have been used for many years to study the interaction of pions with nuclei and, hence, the strong nuclear force. One reaction that occurs is ${π}^{+}+p\\to {Δ}^{++}\\to {π}^{+}+p$, where the ${Δ}^{++}$ is a very short-lived particle. The graph in the figure shows the probability of this reaction as a function of energy. The width of the bump is the uncertainty in energy due to the short lifetime of the ${Δ}^{++}$. (a) Find this lifetime. (b) Verify from the quark composition of the particles that this reaction annihilates and then re-creates a *d* quark and a $d-$ antiquark by writing the reaction and decay in terms of quarks. (c) Draw a Feynman diagram of the production and decay of the ${Δ}^{++}$ showing the individual quarks involved.",
         "inline": []
       },
       "level": "core",
@@ -1190,7 +1190,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The reaction ${π}^{+}+p→{Δ}^{++}$ (described in the preceding problem) takes place via the strong force. (a) What is the baryon number of the ${Δ}^{++}$ particle? (b) Draw a Feynman diagram of the reaction showing the individual quarks involved.",
+        "text": "The reaction ${π}^{+}+p\\to {Δ}^{++}$ (described in the preceding problem) takes place via the strong force. (a) What is the baryon number of the ${Δ}^{++}$ particle? (b) Draw a Feynman diagram of the reaction showing the individual quarks involved.",
         "inline": []
       },
       "level": "core",
@@ -1232,7 +1232,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "One of the decay modes of the omega minus is ${Ω}^{-}→{Ξ}^{0}+{π}^{-}$ . (a) What is the change in strangeness? (b) Verify that baryon number and charge are conserved, while lepton numbers are unaffected. (c) Write the equation in terms of the constituent quarks, indicating that the weak force is responsible.",
+        "text": "One of the decay modes of the omega minus is ${Ω}^{-}\\to {Ξ}^{0}+{π}^{-}$. (a) What is the change in strangeness? (b) Verify that baryon number and charge are conserved, while lepton numbers are unaffected. (c) Write the equation in terms of the constituent quarks, indicating that the weak force is responsible.",
         "inline": []
       },
       "level": "core",
@@ -1280,7 +1280,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat the previous problem for the decay mode ${Ω}^{-}→{Λ}^{0}+{K}^{-}.$",
+        "text": "Repeat the previous problem for the decay mode ${Ω}^{-}\\to {Λ}^{0}+{K}^{-}.$",
         "inline": []
       },
       "level": "core",
@@ -1322,7 +1322,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "One decay mode for the eta-zero meson is ${η}^{0}→γ+γ.$ (a) Find the energy released. (b) What is the uncertainty in the energy due to the short lifetime? (c) Write the decay in terms of the constituent quarks. (d) Verify that baryon number, lepton numbers, and charge are conserved.",
+        "text": "One decay mode for the eta-zero meson is ${η}^{0}\\to γ+γ.$ (a) Find the energy released. (b) What is the uncertainty in the energy due to the short lifetime? (c) Write the decay in terms of the constituent quarks. (d) Verify that baryon number, lepton numbers, and charge are conserved.",
         "inline": []
       },
       "level": "core",
@@ -1379,7 +1379,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "One decay mode for the eta-zero meson is ${η}^{0}→{π}^{0}+{π}^{0}$ . (a) Write the decay in terms of the quark constituents. (b) How much energy is released? (c) What is the ultimate release of energy, given the decay mode for the pi zero is ${π}^{0}→γ+γ$ ?",
+        "text": "One decay mode for the eta-zero meson is ${η}^{0}\\to {π}^{0}+{π}^{0}$. (a) Write the decay in terms of the quark constituents. (b) How much energy is released? (c) What is the ultimate release of energy, given the decay mode for the pi zero is ${π}^{0}\\to γ+γ$?",
         "inline": []
       },
       "level": "core",
@@ -1439,7 +1439,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Is the decay $n→{e}^{+}+{e}^{-}$ possible considering the appropriate conservation laws? State why or why not.",
+        "text": "Is the decay $n\\to {e}^{+}+{e}^{-}$ possible considering the appropriate conservation laws? State why or why not.",
         "inline": []
       },
       "level": "core",
@@ -1460,7 +1460,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Is the decay ${μ}^{-}→{e}^{-}+{ν}_{e}+{ν}_{μ}$ possible considering the appropriate conservation laws? State why or why not.",
+        "text": "Is the decay ${μ}^{-}\\to {e}^{-}+{ν}_{e}+{ν}_{μ}$ possible considering the appropriate conservation laws? State why or why not.",
         "inline": []
       },
       "level": "core",
@@ -1493,7 +1493,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Is the decay ${Λ}^{0}→n+{π}^{0}$ possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.",
+        "text": "(a) Is the decay ${Λ}^{0}\\to n+{π}^{0}$ possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.",
         "inline": []
       },
       "level": "core",
@@ -1523,7 +1523,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Is the decay ${Σ}^{-}→n+{π}^{-}$ possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.",
+        "text": "(a) Is the decay ${Σ}^{-}\\to n+{π}^{-}$ possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.",
         "inline": []
       },
       "level": "core",
@@ -1556,7 +1556,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The only combination of quark colors that produces a white baryon is *RGB* . Identify all the color combinations that can produce a white meson.",
+        "text": "The only combination of quark colors that produces a white baryon is *RGB*. Identify all the color combinations that can produce a white meson.",
         "inline": []
       },
       "level": "core",
@@ -1619,7 +1619,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Show that the conjectured decay of the proton, $p→{π}^{0}+{e}^{+}$ , violates conservation of baryon number and conservation of lepton number. (b) What is the analogous decay process for the antiproton?",
+        "text": "(a) Show that the conjectured decay of the proton, $p\\to {π}^{0}+{e}^{+}$, violates conservation of baryon number and conservation of lepton number. (b) What is the analogous decay process for the antiproton?",
         "inline": []
       },
       "level": "core",
@@ -1649,7 +1649,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the quantum numbers given for the ${Ω}^{+}$ in by adding the quantum numbers for its quark constituents as inferred from .",
+        "text": "Verify the quantum numbers given for the ${Ω}^{+}$ in the table by adding the quantum numbers for its quark constituents as inferred from the table.",
         "inline": []
       },
       "level": "core",
@@ -1682,7 +1682,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify the quantum numbers given for the proton and neutron in by adding the quantum numbers for their quark constituents as given in .",
+        "text": "Verify the quantum numbers given for the proton and neutron in the table by adding the quantum numbers for their quark constituents as given in the table.",
         "inline": []
       },
       "level": "core",
@@ -1703,7 +1703,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How much energy would be released if the proton did decay via the conjectured reaction $p→{π}^{0}+{e}^{+}$ ? (b) Given that the ${π}^{0}$ decays to two $γ$ s and that the ${e}^{+}$ will find an electron to annihilate, what total energy is ultimately produced in proton decay? (c) Why is this energy greater than the proton’s total mass (converted to energy)?",
+        "text": "(a) How much energy would be released if the proton did decay via the conjectured reaction $p\\to {π}^{0}+{e}^{+}$? (b) Given that the ${π}^{0}$ decays to two $γ$ s and that the ${e}^{+}$ will find an electron to annihilate, what total energy is ultimately produced in proton decay? (c) Why is this energy greater than the proton’s total mass (converted to energy)?",
         "inline": []
       },
       "level": "core",
@@ -1808,7 +1808,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There are particles called bottom mesons or *B* -mesons. One of them is the ${B}^{-}$ meson, which has a single negative charge; its baryon number is zero, as are its strangeness, charm, and topness. It has a bottomness of $-1$ . What is its quark configuration?",
+        "text": "There are particles called bottom mesons or *B* -mesons. One of them is the ${B}^{-}$ meson, which has a single negative charge; its baryon number is zero, as are its strangeness, charm, and topness. It has a bottomness of $-1$. What is its quark configuration?",
         "inline": []
       },
       "level": "core",
@@ -1829,7 +1829,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What particle has the quark composition $u-u-d-$ ? (b) What should its decay mode be?",
+        "text": "(a) What particle has the quark composition $u-u-d-$? (b) What should its decay mode be?",
         "inline": []
       },
       "level": "core",

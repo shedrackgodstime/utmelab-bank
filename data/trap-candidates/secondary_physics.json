@@ -1,0 +1,1915 @@
+{
+  "book_id": "secondary_physics",
+  "generated_at": "2026-11-12",
+  "note": "Candidate traps demoted to section misconceptions because they have no traceable paper question. Revisit when the bank is available.",
+  "count": 119,
+  "records": [
+    {
+      "chapter_id": "phy_atomic_physics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The energy levels of an atom are spread evenly.",
+      "correction": "They are not. The levels get closer together as the energy rises, and the ground state is separated by a large gap.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_atomic_physics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "The energy of a photon depends on how bright the light is.",
+      "correction": "It depends on the frequency. The brightness tells you how many photons there are.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_atomic_physics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "The atom was first shown to have a nucleus by J. J. Thomson.",
+      "correction": "It was Rutherford, from the gold foil experiment. Thomson's model had the positive charge spread through the atom, and the scattering of the fast alpha particles was what showed the mass was concentrated in a tiny nucleus.",
+      "signal": "Our own question offers Thomson as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_atomic_physics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The energy of an electron in the ground state of the hydrogen atom is zero.",
+      "correction": "It is negative, because the electron is bound to the nucleus. It takes a positive amount of energy, the ionisation energy, to free it, which is why the bound states sit below zero.",
+      "signal": "Our own question offers zero as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_circular_motion_and_gravitation",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Centripetal acceleration pushes the object outward, away from the centre.",
+      "correction": "It points inward. The inward acceleration is what keeps the object on the circle.",
+      "signal": "Our own question offers the outward direction as an option.",
+      "paper_evidence": {
+        "check_id": "rc-8",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_circular_motion_and_gravitation",
+      "trap_id": "trap-5",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "Centripetal force is a new kind of force that pulls objects to the centre.",
+      "correction": "It is the name for the net inward force, whatever provides it: gravity, tension or friction.",
+      "signal": "Our own question offers the new force as an option.",
+      "paper_evidence": {
+        "check_id": "rc-9",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_circular_motion_and_gravitation",
+      "trap_id": "trap-6",
+      "exam": "WAEC",
+      "section_id": "sec-7",
+      "misconception": "A satellite is held up by the engine that keeps it flying.",
+      "correction": "Most of them coast. A satellite falls towards the Earth while moving sideways fast enough to keep missing it.",
+      "signal": "Our own question offers the engine as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-10",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_circular_motion_and_gravitation",
+      "trap_id": "trap-7",
+      "exam": "WAEC",
+      "section_id": "sec-6",
+      "misconception": "A heavier body feels a greater pull from the Earth.",
+      "correction": "Every body on the Earth feels the same pull per unit mass. The weight of a body on the Moon is one sixth of its weight on the Earth, whatever its mass.",
+      "signal": "Our own question offers the same weight as an option.",
+      "paper_evidence": {
+        "check_id": "rc-11",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_dc_circuits",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Current is used up as it goes round a circuit.",
+      "correction": "The same current flows at every point of a series circuit. What is used up is the energy, not the current.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_dc_circuits",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Putting a resistor in a series circuit changes the current everywhere.",
+      "correction": "It does, and that is why a series resistor dims the whole circuit rather than one lamp.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_dc_circuits",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Resistances in parallel add, so $6\\,\\Omega$ and $3\\,\\Omega$ in parallel give $9\\,\\Omega$.",
+      "correction": "Adding the resistances is the rule for a series connection. In parallel the reciprocals add, so $\\frac{1}{R} = \\frac{1}{6} + \\frac{1}{3} = \\frac{1}{2}$ and the combination is $2\\,\\Omega$.",
+      "signal": "Our own question offers the series answer for the parallel case.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_dc_circuits",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "Kirchhoff's loop rule says that the current is the same everywhere round a circuit.",
+      "correction": "That is the junction rule, and it is about current at a node. The loop rule is about potential differences: the sum of the changes in potential round any closed loop is zero.",
+      "signal": "Our own question offers the junction rule as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-4",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_charge_and_field",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Two charges of the same sign attract.",
+      "correction": "They repel. Like charges repel and unlike charges attract.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_charge_and_field",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The electric field at a point depends on the charge there.",
+      "correction": "The field at a point is set by the charges around it. A test charge placed there feels the field, it does not make it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_charge_and_field",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Rubbing an isolated body leaves it with a net charge.",
+      "correction": "Charge is conserved. Rubbing moves charge from one part of the body to another, so the total charge of an isolated body stays zero even though its parts are now charged.",
+      "signal": "Our own question asks what the total charge of an isolated body is.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_charge_and_field",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The electrostatic force between two charges is inversely proportional to the distance between them.",
+      "correction": "It is inversely proportional to the square of the distance, so doubling the separation makes the force a quarter as large.",
+      "signal": "Our own question offers the inverse-distance law as an option.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_current",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Current flows through a thicker wire faster.",
+      "correction": "Current is the rate of flow of charge. A thicker wire is a smaller resistance, so more charge passes each second.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_current",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The resistance of a wire depends on its length.",
+      "correction": "It depends on the length, the cross section, and the material, and it rises with temperature for most metals.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_current",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The potential difference across a resistor of $10\\,\\Omega$ carrying $2\\,\\text{A}$ is $5\\,\\text{V}$.",
+      "correction": "Ohm's law gives $V = IR = 2 \\times 10 = 20\\,\\text{V}$. The resistance and the current multiply; the answer is not the current divided by the resistance.",
+      "signal": "Our own question offers the halved reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_current",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "The SI unit of electrical power is the joule.",
+      "correction": "Power is measured in watts, one joule per second. The joule is the unit of energy, and power is the rate at which energy is used.",
+      "signal": "Our own question asks for the unit of power.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_potential",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Potential is the same everywhere around a point charge.",
+      "correction": "It falls as one over the distance, so it is only equal on a sphere around the charge.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_potential",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "A voltmeter measures the energy of a charge.",
+      "correction": "It measures the potential difference between two points, and that difference times the charge is the energy.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_potential",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Potential difference between two points is the force on a unit charge placed between them.",
+      "correction": "That is the electric field. The potential difference is the work done per unit charge in moving a charge between the two points.",
+      "signal": "Our own question offers the field definition as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_electric_potential",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The potential of a point charge falls with the square of the distance, like the field.",
+      "correction": "The potential falls as $1/r$. It is the electric field that falls as $1/r^2$, because the field is the gradient of the potential.",
+      "signal": "Our own question offers the square law as an option.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_induction_and_ac",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A generator and a motor are the same device.",
+      "correction": "A generator turns motion into current, and a motor turns current into motion. The same coil can do either, depending on what drives it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_induction_and_ac",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Transformers work on direct current.",
+      "correction": "They work on alternating current, because a changing current is what gives a changing flux and therefore an induced voltage.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_induction_and_ac",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Faraday's law says the induced emf is proportional to the magnetic flux itself.",
+      "correction": "It is proportional to the rate of change of the flux, so a steady flux induces nothing at all. The minus sign in Lenz's law is what says the induced current opposes the change.",
+      "signal": "Our own question offers the flux itself as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_induction_and_ac",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The induced current flows so as to reinforce the magnetic field that caused it.",
+      "correction": "It opposes the change that produced it, which is how the conservation of energy shows up in induction. A current that reinforced the field would give away energy for nothing.",
+      "signal": "Our own question offers the reinforcing direction as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_waves",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Electromagnetic waves need a medium to travel through.",
+      "correction": "They do not. They are a changing electric and magnetic field that travel through empty space.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_waves",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "All electromagnetic waves travel at the same speed in a vacuum.",
+      "correction": "They do, at about three hundred million metres per second, but their frequency and wavelength differ.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_waves",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The electromagnetic spectrum is arranged in order of increasing wavelength.",
+      "correction": "It runs from radio waves to gamma rays, so the frequency increases as the wavelength decreases. The speed of every one of them in vacuum is the same.",
+      "signal": "Our own question offers the wavelength ordering as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_em_waves",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "The energy of an electromagnetic wave depends on how bright it is.",
+      "correction": "The energy of a photon is set by its frequency, $E = hf$. Brightness tells you how many photons arrive, not how much energy each one carries.",
+      "signal": "Our own question offers the brightness reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_dynamics",
+      "trap_id": "trap-1",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "A fluid flowing at a steady rate has no acceleration.",
+      "correction": "A change in speed or direction is an acceleration, so the fluid is accelerating even at a steady rate.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_dynamics",
+      "trap_id": "trap-2",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The Bernoulli effect explains why a curve ball curves.",
+      "correction": "It explains the pressure difference between the two sides of a spinning ball, and the deflection of the air around it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_statics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The pressure in a liquid is the same at every depth.",
+      "correction": "It grows with depth, so the pressure at the bottom of a container is greater than at the top.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_statics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-3",
+      "misconception": "An object floats or sinks according to whether it is lighter or heavier than the same volume of water.",
+      "correction": "It floats or sinks according to its density compared with the fluid, not its weight compared with the fluid.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-3",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_statics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "The pressure at depth $h$ in a fluid is $\\rho g h$ below atmospheric pressure.",
+      "correction": "The gauge pressure at depth $h$ is $\\rho gh$, and the absolute pressure is that plus atmospheric. The pressure rises with depth, so a deeper point is at a higher pressure, not a lower one.",
+      "signal": "Our own question offers the pressure below atmospheric as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_fluid_statics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-7",
+      "misconception": "Gauge pressure is the total pressure in the fluid.",
+      "correction": "Gauge pressure is the pressure in excess of atmospheric, so a gauge reading of zero means the pressure is atmospheric. The absolute pressure is the gauge pressure plus atmospheric.",
+      "signal": "Our own question offers the total pressure as an option.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_forces_and_newtons_laws",
+      "trap_id": "trap-3",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A body can exert a force on itself.",
+      "correction": "It cannot. A hawk that accelerates while gliding is pushed by the air and pulled by the Earth.",
+      "signal": "Our own question offers the body as its own source of force.",
+      "paper_evidence": {
+        "check_id": "rc-7",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_forces_and_newtons_laws",
+      "trap_id": "trap-4",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "The action and the reaction cancel, so nothing can move.",
+      "correction": "They act on two different bodies, so they never cancel on one body. That is why the swimmer accelerates away from the wall.",
+      "signal": "Our own question offers the cancellation as an option.",
+      "paper_evidence": {
+        "check_id": "rc-8",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_friction_drag_and_elasticity",
+      "trap_id": "trap-4",
+      "exam": "JAMB",
+      "section_id": "sec-3",
+      "misconception": "Drag is a small force that only matters at very high speed.",
+      "correction": "At low speeds the drag grows with the square of the speed, so it matters for anything that moves quickly through air.",
+      "signal": "Our own question offers the drag as negligible.",
+      "paper_evidence": {
+        "check_id": "rc-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_friction_drag_and_elasticity",
+      "trap_id": "trap-5",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "A spring returns to its original length however hard it is pulled.",
+      "correction": "Not past the elastic limit. Beyond it the material does not return to its shape.",
+      "signal": "Our own question offers the unlimited stretch as an option.",
+      "paper_evidence": {
+        "check_id": "rc-6",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_frontiers_of_physics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "String theory is a confirmed theory of everything.",
+      "correction": "It is a promising idea that is still being tested, and it is not part of the standard model.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_frontiers_of_physics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Dark matter has been seen directly.",
+      "correction": "It has not. Its presence is inferred from the rotation of galaxies and from the lensing of light, not from a direct detection.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_geometric_optics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A ray bends towards the normal when it enters glass from air.",
+      "correction": "It bends away from the normal, because the speed of light is lower in glass.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_geometric_optics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "A converging lens forms an image at the same place whatever the object distance.",
+      "correction": "The image distance changes with the object distance, and the lens equation gives it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_geometric_optics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The law of reflection says the angle of reflection equals the angle of incidence, both measured from the surface.",
+      "correction": "Both angles are measured from the normal, the line perpendicular to the surface at the point of incidence. Measuring from the surface gives a different pair of numbers, though the two are complementary.",
+      "signal": "Our own question asks which angle the reflection angle equals.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_geometric_optics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "Snell's law relates the angles of incidence and refraction to the wavelengths in the two media.",
+      "correction": "It relates them to the speeds of light, through the refractive indices. The wavelengths change as the speed changes, and the frequency does not, which is the point of the law.",
+      "signal": "Our own question offers the wavelength reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_heat_transfer",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Heat flows from a cold body to a hot one.",
+      "correction": "Heat flows from the hotter body to the colder one, until they reach the same temperature.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_heat_transfer",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "A metal spoon and a wooden spoon in the same pot of soup reach the same temperature at the same rate.",
+      "correction": "The metal conducts the heat away far faster, so it feels hotter long before the wooden one does.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_heat_transfer",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The temperature of a liquid rises steadily while it boils away.",
+      "correction": "It stays at the boiling point until the liquid has gone. The heat supplied goes into the latent heat of vaporisation, breaking the bonds between molecules rather than raising the temperature.",
+      "signal": "Our own question offers the steady rise as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_heat_transfer",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-6",
+      "misconception": "Conduction is the transfer of heat by the movement of the heated substance.",
+      "correction": "Conduction is by collisions between neighbouring particles, without the substance moving. The bulk movement of a heated fluid is convection, which is a different mechanism.",
+      "signal": "Our own question offers the movement reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_linear_momentum_and_collisions",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The momentum of a body is its mass added to its speed.",
+      "correction": "Momentum is the product of the mass and the velocity, and it is a vector.",
+      "signal": "Our own question offers the sum of the mass and the speed as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_linear_momentum_and_collisions",
+      "trap_id": "trap-2",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Impulse is the force divided by the time it acts.",
+      "correction": "Impulse is the force multiplied by the time, and it equals the change in momentum.",
+      "signal": "Our own question offers the force divided by the time as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_linear_momentum_and_collisions",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "Momentum is conserved only in a collision where the bodies bounce apart.",
+      "correction": "Momentum is conserved in every collision where the net external force is negligible, whether or not the bodies bounce.",
+      "signal": "Our own question offers the conservation of momentum only for a rebound.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_linear_momentum_and_collisions",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "In an elastic collision only the momentum is conserved.",
+      "correction": "In an elastic collision the total kinetic energy is conserved as well, and the bodies exchange speed.",
+      "signal": "Our own question offers the conservation of the momentum alone as an option.",
+      "paper_evidence": {
+        "check_id": "rc-4",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_magnetism",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Magnetic field lines can cross each other.",
+      "correction": "They never cross. The field at a point has one direction, and two field lines through the same point would mean two directions at once.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_magnetism",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "A current in a wire has no magnetic field around it.",
+      "correction": "It has one, in circles around the wire, with the direction set by the right hand rule.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_magnetism",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Like poles of a magnet attract each other.",
+      "correction": "Like poles repel and unlike poles attract. That is the first law of magnetism, and it is the same pattern as the repulsion between like electric charges.",
+      "signal": "Our own question offers attraction as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_magnetism",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "The force on a charged particle in a magnetic field does not depend on the speed of the particle.",
+      "correction": "It does, because the force is $F = qvB\\sin\\theta$. A stationary charge in a magnetic field feels no magnetic force at all, and the force grows with the speed.",
+      "signal": "Our own question offers the speed-independent reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_motion_along_a_straight_line",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Distance travelled and displacement are the same quantity.",
+      "correction": "Distance is the length of the path, 10 m here. Displacement is the change in position, 2 m east.",
+      "signal": "Our own question offers the distance as an option.",
+      "paper_evidence": {
+        "check_id": "rc-8",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_motion_along_a_straight_line",
+      "trap_id": "trap-2",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "Average velocity tells you how fast an object is moving at this moment.",
+      "correction": "It covers the whole journey. The speed at a moment is the instantaneous speed.",
+      "signal": "Our own question offers the instantaneous reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-9",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_motion_along_a_straight_line",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "An object with zero acceleration must be at rest.",
+      "correction": "Zero acceleration means the velocity is not changing. The object may be moving at a constant velocity.",
+      "signal": "Our own question offers the stationary reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-10",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_motion_along_a_straight_line",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-6",
+      "misconception": "The equations of constant acceleration hold for any motion.",
+      "correction": "They hold only while the acceleration stays constant.",
+      "signal": "Our own question offers the answer for a changing acceleration as an option.",
+      "paper_evidence": {
+        "check_id": "rc-11",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_motion_along_a_straight_line",
+      "trap_id": "trap-5",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Distance travelled and displacement are the same quantity.",
+      "correction": "The distance here is 8 m, the length of the path. The displacement is zero, because the body ends where it started.",
+      "signal": "Our own question offers the distance as an option.",
+      "paper_evidence": {
+        "check_id": "rc-12",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_nuclear_medicine",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A tracer is used to see the shape of an organ.",
+      "correction": "It shows how the organ works, by following where the tracer goes in the body.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_nuclear_medicine",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The dose from a tracer is the same however the tracer is given.",
+      "correction": "It depends on the activity, the half life, and how long it stays in the body.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_oscillations_and_waves",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A pendulum swings faster when it is given a bigger push.",
+      "correction": "The period of a pendulum does not depend on the push. It depends on the length and on gravity.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_oscillations_and_waves",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "A wave carries energy along with it.",
+      "correction": "A wave carries energy but not matter. The medium stays where it is, and the energy travels through it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_oscillations_and_waves",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The frequency of an oscillation is the time taken for one complete cycle.",
+      "correction": "That is the period. The frequency is the number of cycles in one second, and the two are reciprocals, so a wave of $50\\,\\text{Hz}$ has a period of $0.02\\,\\text{s}$.",
+      "signal": "Our own question offers the period as the frequency.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_oscillations_and_waves",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "A wave of frequency $50\\,\\text{Hz}$ has a period of $2\\,\\text{s}$.",
+      "correction": "The period is the reciprocal of the frequency, $T = 1/f = 1/50 = 0.02\\,\\text{s}$. Multiplying the two instead of dividing gives the wrong figure.",
+      "signal": "Our own question offers the multiplied reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_particle_physics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The standard model explains every particle there is.",
+      "correction": "It explains the particles we have found so far. Gravity is not in it, and the matter and antimatter imbalance is not explained either.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_particle_physics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Particles and antiparticles are the same thing with the opposite charge.",
+      "correction": "They have the same mass and opposite charge, and when they meet they annihilate into photons.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_physics_of_hearing",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The pitch of a sound is its loudness.",
+      "correction": "Pitch is the frequency of the vibration, and loudness is how large the vibration is.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_physics_of_hearing",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Sound is louder in air than in water.",
+      "correction": "Sound travels faster in water, and it is the speed and the resistance that decide how loud it seems.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_physics_of_hearing",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "Sound is a transverse wave, like light.",
+      "correction": "In sound the particles of the medium oscillate along the direction of travel, so the wave is longitudinal. Light is transverse, and the difference is what makes sound need a medium and light not.",
+      "signal": "Our own question offers transverse as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_physics_of_hearing",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The speed of sound in air is about $1500\\,\\text{m/s}$.",
+      "correction": "In air at room temperature it is about $340\\,\\text{m/s}$. The figure near $1500\\,\\text{m/s}$ belongs to sound in water, and $3 \\times 10^8\\,\\text{m/s}$ is the speed of light.",
+      "signal": "Our own question offers the speed in water as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_quantum_physics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "An electron is a small ball that orbits the nucleus.",
+      "correction": "It has no orbit. It occupies a quantum state, and the orbit picture is only a picture.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_quantum_physics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "A photon is a particle and never behaves as a wave.",
+      "correction": "It behaves as a particle when it is absorbed or emitted, and as a wave when it passes through a double slit.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_quantum_physics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "The energy of a photon is proportional to its wavelength.",
+      "correction": "It is proportional to its frequency, $E = hf$, so a longer wavelength means a lower energy. This is why the blue end of the spectrum carries more energy per photon than the red end.",
+      "signal": "Our own question offers the wavelength reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_quantum_physics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The kinetic energy of the electrons emitted in the photoelectric effect is set by the intensity of the light.",
+      "correction": "It is set by the frequency, $K = hf - \\phi$. The intensity decides how many electrons come out, not how fast they are, which is the observation that told Bohr the light was quantised.",
+      "signal": "Our own question offers the intensity reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_radioactivity",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The half life of a radioactive sample is a fixed time.",
+      "correction": "It is a fixed proportion. Half of whatever is left decays in each half life, whatever the amount.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_radioactivity",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The activity of a sample depends on the mass of the sample.",
+      "correction": "It depends on how many nuclei are left, so a larger sample is more active even though the half life is the same.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_radioactivity",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-6",
+      "misconception": "The half-life of a radioactive sample is the time in which all of it decays.",
+      "correction": "It is the time in which half the nuclei decay. The sample never decays completely in a finite time, and the same half-life applies however much you start with.",
+      "signal": "Our own question offers the full decay as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_radioactivity",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "In alpha decay the nucleus emits an electron.",
+      "correction": "It emits a helium nucleus, made of two protons and two neutrons, and the atomic number falls by two. The electron is the beta particle, emitted in beta decay instead.",
+      "signal": "Our own question offers the electron as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_rotational_motion",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "A body rotating with a constant angular velocity has no acceleration.",
+      "correction": "Its angular velocity is constant, but its direction changes every instant, so the angular acceleration and the centripetal acceleration are not zero.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_rotational_motion",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The torque on a body is the force applied.",
+      "correction": "The torque is the force times the perpendicular distance from the pivot, so the same force further out the arm turns the body more.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_rotational_motion",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Angular velocity is measured in revolutions per second.",
+      "correction": "It is measured in radians per second. Revolutions per second is the frequency of the rotation, which is the same thing only because a revolution is $2\\pi$ radians.",
+      "signal": "Our own question offers revolutions as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_rotational_motion",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The rotational inertia of a solid disc about its central axis is $MR^2$.",
+      "correction": "It is $\\frac{1}{2}MR^2$. The hoop, which has all its mass at the rim, is the one with $MR^2$, and a disc with the same mass and radius is harder to start turning.",
+      "signal": "Our own question offers the hoop value as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_special_relativity",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The length of a moving object is unchanged.",
+      "correction": "It is shortened along the direction of the motion, by the factor the Lorentz factor gives.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_special_relativity",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Nothing in the universe can move faster than light.",
+      "correction": "That is true for anything with mass. Light itself travels at the speed of light because it has no mass.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_special_relativity",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "The speed of light in vacuum is different for observers moving at different speeds.",
+      "correction": "It is the same for every inertial observer, whatever the motion of the source or the observer. That is Einstein's second postulate, and it is why there is no absolute rest.",
+      "signal": "Our own question offers the observer-dependent reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_special_relativity",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "A clock moving at a high speed ticks faster for an observer who sees it moving.",
+      "correction": "It ticks more slowly. Time dilation means the moving clock runs slow as measured in the frame in which it is moving, and each of two inertial observers sees the other's clock run slow.",
+      "signal": "Our own question offers the faster reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The normal force on a body resting on a floor is half its weight.",
+      "correction": "The floor pushes up with a force equal to the weight, so the normal force is the whole weight.",
+      "signal": "Our own question offers half the weight as an option.",
+      "paper_evidence": {
+        "check_id": "rc-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-3",
+      "misconception": "The angle between the force and the arm does not change the moment.",
+      "correction": "Only the component of the force perpendicular to the arm turns the body, so the moment is F d sin(theta).",
+      "signal": "Our own question offers the moment with the angle ignored.",
+      "paper_evidence": {
+        "check_id": "rc-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-3",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "A body is stable when its centre of gravity is high.",
+      "correction": "A body is stable when a small tilt raises its centre of gravity, so a low centre of gravity inside a wide base is stable.",
+      "signal": "Our own question offers the high centre of gravity case.",
+      "paper_evidence": {
+        "check_id": "rc-6",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-5",
+      "exam": "WAEC",
+      "section_id": "sec-2",
+      "misconception": "The normal force on a body resting on a floor is a tenth of its weight.",
+      "correction": "It is the whole weight. The floor pushes up with exactly the force the weight pushes down.",
+      "signal": "Our own question offers the value with the mass alone.",
+      "paper_evidence": {
+        "question_id": "waec",
+        "exam": "WAEC",
+        "year": 2025,
+        "source": "claimed_paper",
+        "url": "https://api.utmelab.com/api/v1/questions/waec"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-6",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The moment of a force is the force divided by the distance from the pivot.",
+      "correction": "The moment is the force multiplied by the perpendicular distance from the pivot.",
+      "signal": "Our own question offers the force divided by the distance as an option.",
+      "paper_evidence": {
+        "question_id": "waec",
+        "exam": "WAEC",
+        "year": 2025,
+        "source": "claimed_paper",
+        "url": "https://api.utmelab.com/api/v1/questions/waec"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_statics_and_torque",
+      "trap_id": "trap-7",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "A narrow base makes a body stable.",
+      "correction": "A narrow base makes a body unstable. A body is stable when a small tilt raises its centre of gravity.",
+      "signal": "Our own question offers the narrow base as the stable case.",
+      "paper_evidence": {
+        "question_id": "waec",
+        "exam": "WAEC",
+        "year": 2025,
+        "source": "claimed_paper",
+        "url": "https://api.utmelab.com/api/v1/questions/waec"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_temperature_and_gas_laws",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Temperature is the same thing as heat.",
+      "correction": "Temperature measures how hot a body is, the average kinetic energy of its particles. Heat is the energy that moves because of a temperature difference.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_temperature_and_gas_laws",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "The pressure of a gas depends only on its temperature.",
+      "correction": "It depends on the temperature and on the volume, which is what the gas laws state.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_thermodynamics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Heat added to a gas always raises its temperature.",
+      "correction": "It can raise the temperature, do work as it expands, or both. The first law says where it goes.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_thermodynamics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Heat always flows from a hot body to a cold one.",
+      "correction": "It flows that way on its own, but a refrigerator moves it the other way by doing work on it.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_two_dimensional_kinematics",
+      "trap_id": "trap-2",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Vectors are added by adding their magnitudes.",
+      "correction": "Vectors are added as arrows, head to tail, and the resultant is the diagonal.",
+      "signal": "Our own question offers the sum of the magnitudes as an option.",
+      "paper_evidence": {
+        "check_id": "rc-7",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_two_dimensional_kinematics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The components of a vector are found by adding it up and dividing.",
+      "correction": "The components are the projections of the vector on the axes, and the magnitude follows from them.",
+      "signal": "Our own question offers the sum of the components as an option.",
+      "paper_evidence": {
+        "check_id": "rc-8",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_two_dimensional_kinematics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-6",
+      "misconception": "The velocity an observer sees is the velocity of the object alone.",
+      "correction": "It is the sum of the object's velocity and the velocity of the frame the observer is in.",
+      "signal": "Our own question offers the velocity of the frame as an option.",
+      "paper_evidence": {
+        "check_id": "rc-9",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_vision_and_instruments",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The eye focuses by moving its lens.",
+      "correction": "It focuses by changing the shape of its lens, which is what the ciliary muscles do.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_vision_and_instruments",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-5",
+      "misconception": "A magnifying glass works by making the object bigger.",
+      "correction": "It works by making the object subtend a larger angle at the eye, not by changing the object.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_vision_and_instruments",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "A short-sighted person is given a diverging lens to correct their sight.",
+      "correction": "They are given a converging lens. A short-sighted eye focuses distant light in front of the retina, and a converging lens brings the focus back onto it, which lets the wearer see near objects.",
+      "signal": "Our own question offers the diverging lens as the answer.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_vision_and_instruments",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "The magnifying power of a compound microscope is increased by using an eyepiece of longer focal length.",
+      "correction": "A shorter eyepiece focal length gives a larger angular magnification, because the eyepiece acts as a simple magnifier. A longer objective focal length helps as well.",
+      "signal": "Our own question offers the longer eyepiece as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_wave_optics",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "Light always travels in straight lines.",
+      "correction": "Light is a wave and it spreads. It travels straight only when the object is far enough away that the spreading does not matter.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-2",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_wave_optics",
+      "trap_id": "trap-2",
+      "exam": "JAMB",
+      "section_id": "sec-4",
+      "misconception": "Two beams of light crossing produce a bright spot where they cross.",
+      "correction": "They pass through each other. The bright fringes of an interference pattern come from the two beams overlapping, not from them colliding.",
+      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
+      "paper_evidence": {
+        "section_id": "sec-4",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_wave_optics",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The fringe spacing in Young's double slit experiment is inversely proportional to the wavelength.",
+      "correction": "It is directly proportional to the wavelength and inversely proportional to the slit separation, since the spacing is $\\frac{\\lambda L}{d}$. A longer wavelength gives wider fringes.",
+      "signal": "Our own question offers the inverse reading as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_wave_optics",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "Huygens' principle says that light travels in straight lines through a medium.",
+      "correction": "It says every point on a wavefront acts as a source of secondary wavelets, and the later wavefront is their envelope. That is what lets light bend round an obstacle, which is diffraction.",
+      "signal": "Our own question offers the reflector as an option.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_work_and_energy",
+      "trap_id": "trap-1",
+      "exam": "JAMB",
+      "section_id": "sec-2",
+      "misconception": "The work done by a force is the force times the distance travelled.",
+      "correction": "It is the component of the force along the displacement, so W = F d cos(theta). A force at right angles to the motion does no work.",
+      "signal": "Our own question offers the force times the distance as an option.",
+      "paper_evidence": {
+        "check_id": "rc-1",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_work_and_energy",
+      "trap_id": "trap-2",
+      "exam": "WAEC",
+      "section_id": "sec-3",
+      "misconception": "The kinetic energy of a body is half its mass times its speed.",
+      "correction": "The speed enters as a square, so K = 1/2 m v^2. Doubling the speed multiplies the kinetic energy by four.",
+      "signal": "Our own question offers the value with the speed unsquared.",
+      "paper_evidence": {
+        "check_id": "rc-2",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_work_and_energy",
+      "trap_id": "trap-3",
+      "exam": "WAEC",
+      "section_id": "sec-4",
+      "misconception": "The gain in gravitational potential energy is the mass times the height.",
+      "correction": "It is the weight times the height, so U = mgh. The weight of the body matters, not only its mass.",
+      "signal": "Our own question offers the value with the mass alone.",
+      "paper_evidence": {
+        "check_id": "rc-3",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_work_and_energy",
+      "trap_id": "trap-4",
+      "exam": "WAEC",
+      "section_id": "sec-5",
+      "misconception": "A conservative force does positive work around a closed path, because the path is longer.",
+      "correction": "It does zero net work around any closed path, which is what makes a potential energy possible.",
+      "signal": "Our own question offers a positive net work as an option.",
+      "paper_evidence": {
+        "check_id": "rc-4",
+        "exam": "WAEC",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    },
+    {
+      "chapter_id": "phy_work_and_energy",
+      "trap_id": "trap-5",
+      "exam": "JAMB",
+      "section_id": "sec-7",
+      "misconception": "Friction destroys energy.",
+      "correction": "Friction does not destroy energy. It turns mechanical energy into thermal energy, so the total energy is unchanged.",
+      "signal": "Our own question offers the destroyed energy as an option.",
+      "paper_evidence": {
+        "check_id": "rc-5",
+        "exam": "JAMB",
+        "year": null,
+        "source": "authored"
+      },
+      "reason": "demoted: no traceable paper question id"
+    }
+  ]
+}

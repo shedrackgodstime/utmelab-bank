@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See .)",
+        "text": "The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an irreversible process is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -75,7 +75,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The already familiar direction of heat transfer from hot to cold is the basis of our first version of the second law of thermodynamics .",
+        "text": "The already familiar direction of heat transfer from hot to cold is the basis of our first version of the second law of thermodynamics.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Now let us consider a device that uses heat transfer to do work. As noted in the previous section, such a device is called a heat engine, and one is shown schematically in (b). Gasoline and diesel engines, jet engines, and steam turbines are all heat engines that do work by using part of the heat transfer from some source. Heat transfer from the hot object (or hot reservoir) is denoted as ${Q}_{h}$ , while heat transfer into the cold object (or cold reservoir) is ${Q}_{c}$ , and the work done by the engine is $W$ . The temperatures of the hot and cold reservoirs are ${T}_{h}$ and ${T}_{c}$ , respectively.",
+        "text": "Now let us consider a device that uses heat transfer to do work. As noted in the previous section, such a device is called a heat engine, and one is shown schematically in the figure (b). Gasoline and diesel engines, jet engines, and steam turbines are all heat engines that do work by using part of the heat transfer from some source. Heat transfer from the hot object (or hot reservoir) is denoted as ${Q}_{h}$, while heat transfer into the cold object (or cold reservoir) is ${Q}_{c}$, and the work done by the engine is $W$. The temperatures of the hot and cold reservoirs are ${T}_{h}$ and ${T}_{c}$, respectively.",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Because the hot reservoir is heated externally, which is energy intensive, it is important that the work is done as efficiently as possible. In fact, we would like $W$ to equal ${Q}_{h}$ , and for there to be no heat transfer to the environment ( ${Q}_{c}=0$ ). Unfortunately, this is impossible. The second law of thermodynamics also states, with regard to using heat transfer to do work (the second expression of the second law):",
+        "text": "Because the hot reservoir is heated externally, which is energy intensive, it is important that the work is done as efficiently as possible. In fact, we would like $W$ to equal ${Q}_{h}$, and for there to be no heat transfer to the environment (${Q}_{c}=0$). Unfortunately, this is impossible. The second law of thermodynamics also states, with regard to using heat transfer to do work (the second expression of the second law):",
         "inline": []
       },
       "level": "core"
@@ -151,7 +151,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "A cyclical process brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. Most heat engines, such as reciprocating piston engines and rotating turbines, use cyclical processes. The second law, just stated in its second form, clearly states that such engines cannot have perfect conversion of heat transfer into work done. Before going into the underlying reasons for the limits on converting heat transfer into work, we need to explore the relationships among $W$ , ${Q}_{h}$ , and ${Q}_{c}$ , and to define the efficiency of a cyclical heat engine. As noted, a cyclical process brings the system back to its original condition at the end of every cycle. Such a system’s internal energy ${E}_{int}$ is the same at the beginning and end of every cycle—that is, $Δ{E}_{int}=0$ . The first law of thermodynamics states that",
+        "text": "A cyclical process brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. Most heat engines, such as reciprocating piston engines and rotating turbines, use cyclical processes. The second law, just stated in its second form, clearly states that such engines cannot have perfect conversion of heat transfer into work done. Before going into the underlying reasons for the limits on converting heat transfer into work, we need to explore the relationships among $W$, ${Q}_{h}$, and ${Q}_{c}$, and to define the efficiency of a cyclical heat engine. As noted, a cyclical process brings the system back to its original condition at the end of every cycle. Such a system’s internal energy ${E}_{int}$ is the same at the beginning and end of every cycle—that is, $Δ{E}_{int}=0$. The first law of thermodynamics states that $Δ{E}_{int}=Q-W,$",
         "inline": []
       },
       "level": "core"
@@ -160,7 +160,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "where $Q$ is the *net* heat transfer during the cycle ( $Q={Q}_{h}-{Q}_{c}$ ) and $W$ is the net work done by the system. Since $Δ{E}_{int}=0$ for a complete cycle, we have",
+        "text": "where $Q$ is the *net* heat transfer during the cycle ($Q={Q}_{h}-{Q}_{c}$) and $W$ is the net work done by the system. Since $Δ{E}_{int}=0$ for a complete cycle, we have $0=Q-W,$",
         "inline": []
       },
       "level": "core"
@@ -169,7 +169,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Thus the net work done by the system equals the net heat transfer into the system, or",
+        "text": "Thus the net work done by the system equals the net heat transfer into the system, or $W={Q}_{h}-{Q}_{c} (cyclical process),$",
         "inline": []
       },
       "level": "core"
@@ -178,7 +178,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "just as shown schematically in (b). The problem is that in all processes, there is some heat transfer ${Q}_{c}$ to the environment—and usually a very significant amount at that.",
+        "text": "just as shown schematically in the figure (b). The problem is that in all processes, there is some heat transfer ${Q}_{c}$ to the environment—and usually a very significant amount at that.",
         "inline": []
       },
       "level": "core"
@@ -187,7 +187,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "In the conversion of energy to work, we are always faced with the problem of getting less out than we put in. We define *conversion efficiency* $Eff$ to be the ratio of useful work output to the energy input (or, in other words, the ratio of what we get to what we spend). In that spirit, we define the efficiency of a heat engine to be its net work output $W$ divided by heat transfer to the engine ${Q}_{h}$ ; that is,",
+        "text": "In the conversion of energy to work, we are always faced with the problem of getting less out than we put in. We define *conversion efficiency* $Eff$ to be the ratio of useful work output to the energy input (or, in other words, the ratio of what we get to what we spend). In that spirit, we define the efficiency of a heat engine to be its net work output $W$ divided by heat transfer to the engine ${Q}_{h}$; that is, $Eff=\\frac{W}{{Q}_{h}}.$",
         "inline": []
       },
       "level": "core"
@@ -196,7 +196,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Since $W={Q}_{h}-{Q}_{c}$ in a cyclical process, we can also express this as",
+        "text": "Since $W={Q}_{h}-{Q}_{c}$ in a cyclical process, we can also express this as $Eff=\\frac{{Q}_{h}-{Q}_{c}}{{Q}_{h}}=1-\\frac{{Q}_{c}}{{Q}_{h}} (cyclical process),$",
         "inline": []
       },
       "level": "core"
@@ -205,7 +205,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "making it clear that an efficiency of 1, or 100%, is possible only if there is no heat transfer to the environment ( ${Q}_{c}=0$ ). Note that all $Q$ s are positive. The direction of heat transfer is indicated by a plus or minus sign. For example, ${Q}_{c}$ is out of the system and so is preceded by a minus sign.",
+        "text": "making it clear that an efficiency of 1, or 100%, is possible only if there is no heat transfer to the environment (${Q}_{c}=0$). Note that all $Q$ s are positive. The direction of heat transfer is indicated by a plus or minus sign. For example, ${Q}_{c}$ is out of the system and so is preceded by a minus sign.",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has $2.50×{10}^{14}J$ of heat transfer from coal and $1.48×{10}^{14}J$ of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $C+{O}_{2}→{CO}_{2}$ . This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide $2.5×{10}^{6}J$ of heat transfer upon combustion, how much ${CO}_{2}$ is emitted per day by this power plant?",
+        "text": "A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has $2.50\\times {10}^{14} J$ of heat transfer from coal and $1.48\\times {10}^{14} J$ of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $C+{O}_{2}\\to {CO}_{2}$. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide $2.5\\times {10}^{6} J$ of heat transfer upon combustion, how much ${CO}_{2}$ is emitted per day by this power plant?",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "We can use $W={Q}_{h}-{Q}_{c}$ to find the work output $W$ , assuming a cyclical process is used in the power station. In this process, water is boiled under pressure to form high-temperature steam, which is used to run steam turbine-generators, and then condensed back to water to start the cycle again.",
+        "text": "We can use $W={Q}_{h}-{Q}_{c}$ to find the work output $W$, assuming a cyclical process is used in the power station. In this process, water is boiled under pressure to form high-temperature steam, which is used to run steam turbine-generators, and then condensed back to water to start the cycle again.",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Work output is given by:",
+        "text": "Work output is given by: $W={Q}_{h}-{Q}_{c}.$",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the given values:",
+        "text": "Substituting the given values: $W = 2.50×{10}^{14} J-1.48×{10}^{14} J = 1.02\\times {10}^{14} J.$",
         "inline": []
       },
       "level": "core"
@@ -274,7 +274,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Efficiency is given by: $Eff=\\frac{W}{{Q}_{h}}$ . The work $W$ was just found to be ${1.02 × 10}^{14}J$ , and ${Q}_{h}$ is given, so the efficiency is",
+        "text": "Efficiency is given by: $Eff=\\frac{W}{{Q}_{h}}$. The work $W$ was just found to be ${1.02 × 10}^{14} J$, and ${Q}_{h}$ is given, so the efficiency is $Eff = \\frac{1.02\\times {10}^{14} J}{2.50\\times {10}^{14} J} = 0.408, or 40.8%$",
         "inline": []
       },
       "level": "core"
@@ -283,7 +283,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "The daily consumption of coal is calculated using the information that each day there is $2.50×{10}^{14}J$ of heat transfer from coal. In the combustion process, we have $C+{O}_{2}→{CO}_{2}$ . So every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of ${CO}_{2}$ into the atmosphere.",
+        "text": "The daily consumption of coal is calculated using the information that each day there is $2.50×{10}^{14} J$ of heat transfer from coal. In the combustion process, we have $C+{O}_{2}\\to {CO}_{2}$. So every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of ${CO}_{2}$ into the atmosphere.",
         "inline": []
       },
       "level": "core"
@@ -292,7 +292,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The daily coal consumption is",
+        "text": "The daily coal consumption is $\\frac{2.50×{10}^{14} J}{2.50×{10}^{6} J/kg}=1.0×{10}^{8} kg.$",
         "inline": []
       },
       "level": "core"
@@ -301,7 +301,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Assuming that the coal is pure and that all the coal goes toward producing carbon dioxide, the carbon dioxide produced per day is",
+        "text": "Assuming that the coal is pure and that all the coal goes toward producing carbon dioxide, the carbon dioxide produced per day is $1.0×{10}^{8} kg coal×\\frac{{44 kg CO}_{2}}{12 kg coal}=3.7×{10}^{8} {kg CO}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -328,7 +328,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "With the information given in , we can find characteristics such as the efficiency of a heat engine without any knowledge of how the heat engine operates, but looking further into the mechanism of the engine will give us greater insight. illustrates the operation of the common four-stroke gasoline engine. The four steps shown complete this heat engine’s cycle, bringing the gasoline-air mixture back to its original condition.",
+        "text": "With the information given in the example, we can find characteristics such as the efficiency of a heat engine without any knowledge of how the heat engine operates, but looking further into the mechanism of the engine will give us greater insight. The figure illustrates the operation of the common four-stroke gasoline engine. The four steps shown complete this heat engine’s cycle, bringing the gasoline-air mixture back to its original condition.",
         "inline": []
       },
       "level": "core"
@@ -337,7 +337,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "The Otto cycle shown in (a) is used in four-stroke internal combustion engines, although in fact the true Otto cycle paths do not correspond exactly to the strokes of the engine.",
+        "text": "The Otto cycle shown in the figure (a) is used in four-stroke internal combustion engines, although in fact the true Otto cycle paths do not correspond exactly to the strokes of the engine.",
         "inline": []
       },
       "level": "core"
@@ -355,7 +355,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The net work done by a cyclical process is the area inside the closed path on a $PV$ diagram, such as that inside path ABCDA in . Note that in every imaginable cyclical process, it is absolutely necessary for heat transfer from the system to occur in order to get a net work output. In the Otto cycle, heat transfer occurs along path DA. If no heat transfer occurs, then the return path is the same, and the net work output is zero. The lower the temperature on the path AB, the less work has to be done to compress the gas. The area inside the closed path is then greater, and so the engine does more work and is thus more efficient. Similarly, the higher the temperature along path CD, the more work output there is. (See .) So efficiency is related to the temperatures of the hot and cold reservoirs. In the next section, we shall see what the absolute limit to the efficiency of a heat engine is, and how it is related to temperature.",
+        "text": "The net work done by a cyclical process is the area inside the closed path on a $PV$ diagram, such as that inside path ABCDA in the figure. Note that in every imaginable cyclical process, it is absolutely necessary for heat transfer from the system to occur in order to get a net work output. In the Otto cycle, heat transfer occurs along path DA. If no heat transfer occurs, then the return path is the same, and the net work output is zero. The lower the temperature on the path AB, the less work has to be done to compress the gas. The area inside the closed path is then greater, and so the engine does more work and is thus more efficient. Similarly, the higher the temperature along path CD, the more work output there is. (See the figure.) So efficiency is related to the temperatures of the hot and cold reservoirs. In the next section, we shall see what the absolute limit to the efficiency of a heat engine is, and how it is related to temperature.",
         "inline": []
       },
       "level": "core"
@@ -539,7 +539,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "With $2.56×{10}^{6}J$ of heat transfer into this engine, a given cyclical heat engine can do only $1.50×{10}^{5}J$ of work. (a) What is the engine’s efficiency? (b) How much heat transfer to the environment takes place?",
+        "text": "With $2.56×{10}^{6} J$ of heat transfer into this engine, a given cyclical heat engine can do only $1.50×{10}^{5} J$ of work. (a) What is the engine’s efficiency? (b) How much heat transfer to the environment takes place?",
         "inline": []
       },
       "level": "core",
@@ -560,7 +560,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the work output of a cyclical heat engine having a 22.0% efficiency and $6.00×{10}^{9}J$ of heat transfer into the engine? (b) How much heat transfer occurs to the environment?",
+        "text": "(a) What is the work output of a cyclical heat engine having a 22.0% efficiency and $6.00×{10}^{9} J$ of heat transfer into the engine? (b) How much heat transfer occurs to the environment?",
         "inline": []
       },
       "level": "core",
@@ -623,7 +623,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The engine of a large ship does $2.00×{10}^{8}J$ of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces $6.00×{10}^{9}J$ of heat transfer when burned?",
+        "text": "The engine of a large ship does $2.00×{10}^{8} J$ of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces $6.00×{10}^{9} J$ of heat transfer when burned?",
         "inline": []
       },
       "level": "core",
@@ -656,7 +656,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How much heat transfer occurs to the environment by an electrical power station that uses $1.25×{10}^{14}J$ of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?",
+        "text": "(a) How much heat transfer occurs to the environment by an electrical power station that uses $1.25×{10}^{14} J$ of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?",
         "inline": []
       },
       "level": "core",
@@ -677,7 +677,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Assume that the turbines at a coal-powered power plant were upgraded, resulting in an improvement in efficiency of 3.32%. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at $2.50×{10}^{14}J$ . (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?",
+        "text": "Assume that the turbines at a coal-powered power plant were upgraded, resulting in an improvement in efficiency of 3.32%. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at $2.50×{10}^{14} J$. (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?",
         "inline": []
       },
       "level": "core",
@@ -719,7 +719,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day, $2.50×{10}^{14}J$ . (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)",
+        "text": "This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day, $2.50×{10}^{14} J$. (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)",
         "inline": []
       },
       "level": "core",

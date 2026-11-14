@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Fluid Dynamics",
   "book_id": "secondary_physics",
-  "part_id": "part-2",
+  "part_id": "part-3",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -122,7 +122,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_fluid_statics"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -141,24 +143,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -186,25 +171,8 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-40"
+      "exam_links": [],
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-3",
@@ -219,7 +187,18 @@
         "Calculate with Bernoulli’s principle.",
         "List some applications of Bernoulli’s principle."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A fast-moving fluid always has a higher pressure than a slow-moving one.",
+          "correction": "For steady horizontal flow at constant height, Bernoulli’s equation gives a lower pressure where the speed is higher. The pressure difference is what accelerates the fluid.",
+          "signal": "The pressure is lower where the fluid speeds up, not higher."
+        },
+        {
+          "claim": "Bernoulli’s equation applies to any flow, including turbulent flow.",
+          "correction": "It applies along a streamline in steady, incompressible, nonviscous flow. Turbulent flow has eddies and energy losses that the simple equation does not describe.",
+          "signal": "The equation comes from energy conservation under restrictive assumptions."
+        }
+      ],
       "summary": [
         "Calculate flow rate.",
         "Define units of volume.",
@@ -227,25 +206,8 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-44"
+      "exam_links": [],
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-4",
@@ -270,25 +232,8 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-30"
+      "exam_links": [],
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-5",
@@ -302,7 +247,18 @@
         "Calculate flow and resistance with Poiseuille’s law.",
         "Explain how pressure drops due to resistance."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Viscosity and density are the same property of a fluid.",
+          "correction": "Density is mass per unit volume. Viscosity is the fluid’s resistance to flow, or its internal friction. Oil is less dense than water but much more viscous.",
+          "signal": "A fluid can be dense and runny, or light and thick."
+        },
+        {
+          "claim": "A more viscous fluid always flows faster in a pipe.",
+          "correction": "For the same pressure difference, a more viscous fluid flows more slowly. Poiseuille’s law puts viscosity in the denominator.",
+          "signal": "Viscosity resists flow, so it cannot increase the flow rate."
+        }
+      ],
       "summary": [
         "Laminar flow is characterized by smooth flow of the fluid in layers that do not mix.",
         "Turbulence is characterized by eddies and swirls that mix layers of fluid together.",
@@ -310,25 +266,9 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-63"
+      "exam_links": [],
+      "worked_from": "exr-63",
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-6",
@@ -340,32 +280,21 @@
         "Calculate Reynolds number.",
         "Use the Reynolds number for a system to determine whether it is laminar or turbulent."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Turbulence begins at one fixed speed for every pipe and fluid.",
+          "correction": "The onset depends on the Reynolds number, which combines speed, size, density and viscosity. Geometry also matters.",
+          "signal": "The same speed can be laminar in a wide pipe and turbulent in a narrow one."
+        }
+      ],
       "summary": [
         "The Reynolds number NR can reveal whether flow is laminar or turbulent. It isNR=2ρvrη.",
         "For NR below about 2000, flow is laminar. For NR above about 3000, flow is turbulent. For values of NR between 2000 and 3000, it may be either or both."
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-24"
+      "exam_links": [],
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-7",
@@ -378,7 +307,18 @@
         "Explain whether the Reynolds number indicates laminar or turbulent flow.",
         "Describe the conditions under which an object has a terminal speed."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An object falling through a fluid keeps accelerating until it lands.",
+          "correction": "Drag grows with speed. When drag plus buoyancy balances the weight, the net force is zero and the object falls at its terminal speed.",
+          "signal": "Terminal speed is a steady state, not a pause."
+        },
+        {
+          "claim": "Terminal speed depends only on the object’s weight.",
+          "correction": "It also depends on the object’s size and shape and on the fluid’s density and viscosity. A flat sheet falls more slowly than a compact sphere of the same weight.",
+          "signal": "Two objects of equal weight can have very different terminal speeds."
+        }
+      ],
       "summary": [
         "When an object moves in a fluid, there is a different form of the Reynolds number NR′=ρvLη(object in fluid), which indicates whether flow is laminar or turbulent.",
         "For NR′ less than about one, flow is laminar.",
@@ -386,25 +326,66 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
         {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is meant by the terminal speed of an object falling through a fluid?",
+          "answer": "The constant speed reached when the drag and buoyancy forces balance the object’s weight, so the net force is zero.",
+          "answer_kind": "explanation",
+          "solution": [
+            "As speed rises, drag rises.",
+            "When drag plus buoyancy equals weight, the net force is zero.",
+            "The object then falls at a constant terminal speed."
+          ],
+          "tags": [
+            "terminal speed",
+            "drag"
+          ]
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A sphere falls through oil at its terminal speed of 0.2 m/s. What is its acceleration at that instant?",
+          "answer": "0 m/s²",
+          "answer_kind": "expression",
+          "solution": [
+            "Terminal speed means the speed is constant.",
+            "Constant velocity means zero acceleration.",
+            "The net force is zero."
+          ],
+          "tags": [
+            "terminal speed",
+            "acceleration"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A small sphere of radius 0.5 mm and density 7800 kg/m³ falls through oil of density 900 kg/m³ and viscosity 0.5 Pa s. Estimate its terminal speed using Stokes’ law. Take g = 9.8 m/s².",
+          "answer": "about 7.5 × 10^-3 m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "Stokes’ law gives v_t = 2r²(ρ_s − ρ_f)g/(9η).",
+            "r = 0.5 × 10^-3 m and ρ_s − ρ_f = 6900 kg/m³.",
+            "v_t = 2(2.5 × 10^-7)(6900)(9.8)/(9 × 0.5).",
+            "v_t ≈ 7.5 × 10^-3 m/s."
+          ],
+          "tags": [
+            "terminal speed",
+            "stokes law"
+          ]
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     },
     {
       "id": "sec-8",
@@ -416,7 +397,18 @@
         "Define diffusion, osmosis, dialysis, and active transport.",
         "Calculate diffusion rates."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Diffusion needs a pump or stirring to move molecules through a fluid.",
+          "correction": "Diffusion is driven by random thermal motion. A concentration difference makes the net movement directional, but no pump is needed.",
+          "signal": "Molecular motion is always present, even in still fluid."
+        },
+        {
+          "claim": "Osmosis is simply the diffusion of solute particles through a membrane.",
+          "correction": "Osmosis is the movement of solvent through a semipermeable membrane from a less concentrated to a more concentrated solution. The solute may be unable to cross.",
+          "signal": "It is the solvent that moves in osmosis."
+        }
+      ],
       "summary": [
         "Diffusion is the movement of substances due to random thermal molecular motion.",
         "The average distance xrms a molecule travels by diffusion in a given amount of time is given byxrms=2Dt,where D is the diffusion constant, representative values of which are found in .",
@@ -424,28 +416,184 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "authored_exercises": [
         {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "liquids-at-rest",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A molecule has diffusion constant 2.0 × 10^-9 m²/s. Find its root-mean-square diffusion distance in 100 s.",
+          "answer": "about 6.3 × 10^-4 m",
+          "answer_kind": "expression",
+          "solution": [
+            "Use x_rms = √(2Dt).",
+            "x_rms = √(2 × 2.0 × 10^-9 × 100).",
+            "x_rms = √(4.0 × 10^-7) ≈ 6.3 × 10^-4 m."
+          ],
+          "tags": [
+            "diffusion",
+            "rms distance"
+          ]
         }
       ],
-      "worked_from": "exr-37"
+      "no_exam_link_reason": "Neither syllabus lists fluid dynamics; both cover fluids only at rest."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$Q = \\frac{V}{t} = Av$",
+      "caption": {
+        "text": "Flow rate",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Volume passing a point per unit time, for flow speed v through area A.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42205/index.cnxml",
+        "locator": "CNXML module m42205, section “Flow Rate and Its Relation to Velocity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$A_1v_1 = A_2v_2$",
+      "caption": {
+        "text": "Equation of continuity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an incompressible fluid in steady flow.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42205/index.cnxml",
+        "locator": "CNXML module m42205, section “Flow Rate and Its Relation to Velocity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\mathrm{constant}$",
+      "caption": {
+        "text": "Bernoulli’s equation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Along a streamline in steady, incompressible, nonviscous flow.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42206/index.cnxml",
+        "locator": "CNXML module m42206, section “Bernoulli’s Equation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$v = \\sqrt{2gh}$",
+      "caption": {
+        "text": "Torricelli’s theorem",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The speed of fluid leaving a hole a depth h below the surface.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42208/index.cnxml",
+        "locator": "CNXML module m42208, section “Applications of Bernoulli’s Equation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$Q = \\frac{\\pi r^4 \\Delta P}{8\\eta L}$",
+      "caption": {
+        "text": "Poiseuille’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Laminar flow through a cylindrical pipe of radius r and length L.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42209/index.cnxml",
+        "locator": "CNXML module m42209, section “Viscosity and Laminar Flow”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$N_R = \\frac{2\\rho v r}{\\eta}$",
+      "caption": {
+        "text": "Reynolds number",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For flow in a tube; below about 2000 the flow is laminar, above about 3000 it is turbulent.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42210/index.cnxml",
+        "locator": "CNXML module m42210, section “The Onset of Turbulence”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$v_t = \\frac{2r^2(\\rho_s - \\rho_f)g}{9\\eta}$",
+      "caption": {
+        "text": "Terminal speed of a small sphere",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Stokes’ law for a sphere at low Reynolds number.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42211/index.cnxml",
+        "locator": "CNXML module m42211, section “Motion of an Object in a Viscous Fluid”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$x_{\\mathrm{rms}} = \\sqrt{2Dt}$",
+      "caption": {
+        "text": "Root-mean-square diffusion distance",
+        "inline": []
+      },
+      "conditions": {
+        "text": "D is the diffusion constant and t is the elapsed time.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42212/index.cnxml",
+        "locator": "CNXML module m42212, section “Molecular Transport Phenomena”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -845,42 +993,8 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A fluid flowing at a steady rate has no acceleration.",
-      "correction": "A change in speed or direction is an acceleration, so the fluid is accelerating even at a steady rate.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The Bernoulli effect explains why a curve ball curves.",
-      "correction": "It explains the pressure difference between the two sides of a spinning ball, and the deflection of the air around it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "no_exam_link_reason": "Fluid dynamics is not named in either the JAMB or WAEC syllabus; both treat fluids only at rest.",
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1026,6 +1140,93 @@
       "explanation": "At the terminal speed the net force is zero, so the upward viscous drag balances the downward weight less the buoyant force.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "Water escapes from a small hole 5 m below the surface of a large tank. Find the speed of the water as it leaves the hole. Take g = 9.8 m/s².",
+      "options": [
+        {
+          "id": "a",
+          "text": "5.0 m/s"
+        },
+        {
+          "id": "b",
+          "text": "9.9 m/s"
+        },
+        {
+          "id": "c",
+          "text": "49 m/s"
+        },
+        {
+          "id": "d",
+          "text": "98 m/s"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Torricelli’s theorem gives v = √(2gh) = √(2 × 9.8 × 5) = √98 ≈ 9.9 m/s.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "A flow has a Reynolds number of 1500. The flow is",
+      "options": [
+        {
+          "id": "a",
+          "text": "laminar"
+        },
+        {
+          "id": "b",
+          "text": "turbulent"
+        },
+        {
+          "id": "c",
+          "text": "always changing direction"
+        },
+        {
+          "id": "d",
+          "text": "at terminal speed"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Below a Reynolds number of about 2000 the flow is laminar. Above about 3000 it is turbulent.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "Diffusion of molecules through a still fluid is driven by",
+      "options": [
+        {
+          "id": "a",
+          "text": "random thermal motion of the molecules"
+        },
+        {
+          "id": "b",
+          "text": "a pressure pump"
+        },
+        {
+          "id": "c",
+          "text": "gravity alone"
+        },
+        {
+          "id": "d",
+          "text": "the container walls"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Diffusion is the net movement of particles due to their random thermal motion. A concentration difference makes the net movement directional, but no external pump is required.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1036,5 +1237,11 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Fluid Dynamics and Its Biological and Medical Applications', modules m42204, m42205, m42206, m42208, m42209, m42210, m42211, m42212",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 12,
+  "exercise_fixes": {
+    "sec-2:exr-61": {
+      "stem": "The Huka Falls on the Waikato River is one of New Zealand’s most visited natural tourist attractions . On average the river has a flow rate of about 300,000 L/s. At the gorge, the river narrows to 20 m wide and averages 20 m deep. (a) What is the average speed of the river in the gorge? (b) What is the average speed of the water in the river downstream of the falls when it widens to 60 m and its depth increases to an average of 40 m?"
+    }
+  }
 }

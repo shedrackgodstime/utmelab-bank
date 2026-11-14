@@ -132,7 +132,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_nature_of_science"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -151,32 +153,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "temperature-and-its-measurement",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "gas-laws",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -212,25 +189,29 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "gas-laws",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
         }
       ],
-      "worked_from": "exr-42"
+      "worked_from": "exr-42",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Convert 27 °C to kelvin.",
+          "answer": "300 K",
+          "answer_kind": "expression",
+          "solution": [
+            "T_K = T_C + 273.",
+            "T_K = 27 + 273.",
+            "T_K = 300 K."
+          ],
+          "tags": [
+            "temperature",
+            "kelvin"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -244,7 +225,18 @@
         "Calculate the volume expansion of an object given its initial volume, change in temperature, and coefficient of volume expansion.",
         "Calculate thermal stress on an object given its original volume, temperature change, volume change, and bulk modulus."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A hole in a metal plate shrinks when the plate is heated.",
+          "correction": "The hole expands. Every linear dimension of the plate grows, including the distance across the hole, as if the hole were made of the same metal.",
+          "signal": "Expansion scales the whole shape, not only the solid parts."
+        },
+        {
+          "claim": "All solids expand by the same amount for the same temperature rise.",
+          "correction": "The expansion depends on the material’s coefficient of expansion. Brass expands more than steel for the same temperature rise.",
+          "signal": "Different materials have different coefficients."
+        }
+      ],
       "summary": [
         "Thermal expansion is the increase, or decrease, of the size (length, area, or volume) of a body due to a change in temperature.",
         "Thermal expansion is large for gases, and relatively small, but not negligible, for liquids and solids.",
@@ -256,25 +248,17 @@
         {
           "exam": "JAMB",
           "subject": "physics",
+          "topic_slug": "thermal-expansion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "physics",
           "topic_slug": "temperature-and-its-measurement",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "gas-laws",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -308,25 +292,17 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "temperature-and-its-measurement",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
           "topic_slug": "gas-laws",
           "subtopic_slug": null,
           "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-heat-energy",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": []
         }
       ],
@@ -345,7 +321,18 @@
         "Describe the relationship between the temperature of a gas and the kinetic energy of atoms and molecules.",
         "Describe the distribution of speeds of molecules in a gas."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "At a given temperature, all molecules of a gas move at the same speed.",
+          "correction": "The molecules have a distribution of speeds. Temperature fixes the average kinetic energy, not the speed of every molecule.",
+          "signal": "Collisions constantly exchange energy among molecules."
+        },
+        {
+          "claim": "Temperature is the total kinetic energy of a gas.",
+          "correction": "Temperature is related to the average kinetic energy per molecule. A larger sample at the same temperature has more total kinetic energy but the same temperature.",
+          "signal": "Temperature is intensive; total energy is extensive."
+        }
+      ],
       "summary": [
         "Kinetic theory is the atomistic description of gases as well as liquids and solids.",
         "Kinetic theory models the properties of matter in terms of continuous random motion of atoms and molecules.",
@@ -354,14 +341,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "temperature-and-its-measurement",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -375,7 +354,7 @@
           "subject": "physics",
           "topic_slug": "gas-laws",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -393,7 +372,18 @@
         "Identify and describe the triple point of a gas from its phase diagram.",
         "Describe the state of equilibrium between a liquid and a gas, a liquid and a solid, and a gas and a solid."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Water boils at 100 °C under all conditions.",
+          "correction": "The boiling point depends on pressure. At high altitude the pressure is lower, so water boils below 100 °C.",
+          "signal": "Boiling happens when vapour pressure equals the surrounding pressure."
+        },
+        {
+          "claim": "The temperature of a pure substance rises steadily while it changes phase.",
+          "correction": "At constant pressure, the temperature stays constant during the phase change while latent heat is absorbed or released. The temperature rises again once the change is complete.",
+          "signal": "The energy goes into breaking or forming bonds, not into raising temperature."
+        }
+      ],
       "summary": [
         "Most substances have three distinct phases: gas, liquid, and solid.",
         "Phase changes among the various phases of matter depend on temperature and pressure.",
@@ -405,7 +395,15 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "temperature-and-its-measurement",
+          "topic_slug": "change-of-state",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -413,21 +411,51 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
+          "topic_slug": "vapours",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "gas-laws",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-21"
+      "worked_from": "exr-21",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "While pure ice melts at constant pressure, what happens to its temperature?",
+          "answer": "It stays at 0 °C until all the ice has melted.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The mixture is at the melting point.",
+            "Heat supplied goes into breaking the ice lattice, not raising the temperature.",
+            "The temperature stays constant during the change."
+          ],
+          "tags": [
+            "phase change",
+            "melting"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the name of the phase change from a gas directly to a solid?",
+          "answer": "Deposition.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Gas to liquid is condensation.",
+            "Liquid to solid is freezing.",
+            "Gas directly to solid is deposition."
+          ],
+          "tags": [
+            "phase change",
+            "deposition"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -441,7 +469,18 @@
         "Calculate vapor density using vapor pressure.",
         "Calculate humidity and dew point."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Relative humidity is the total amount of water vapour in the air.",
+          "correction": "Relative humidity compares the actual vapour density with the saturation vapour density at the same temperature, expressed as a percentage.",
+          "signal": "Warm air can hold more vapour, so the same amount gives a lower relative humidity."
+        },
+        {
+          "claim": "Air can hold an unlimited amount of water vapour.",
+          "correction": "At a given temperature there is a saturation limit. Beyond it, excess vapour condenses as liquid or forms droplets.",
+          "signal": "The limit rises with temperature."
+        }
+      ],
       "summary": [
         "Relative humidity is the fraction of water vapor in a gas compared to the saturation value.",
         "The saturation vapor density can be determined from the vapor pressure for a given temperature.",
@@ -453,32 +492,227 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "temperature-and-its-measurement",
+          "topic_slug": "vapours",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
         {
-          "exam": "JAMB",
+          "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "structure-of-matter-and-kinetic-theory",
+          "topic_slug": "waec-heat-energy",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "gas-laws",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-30"
+      "worked_from": "exr-30",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "A wet-and-dry-bulb hygrometer measures relative humidity from the cooling caused by evaporation. Two identical thermometers are mounted side by side. The dry bulb measures the air temperature. The wet bulb is wrapped in muslin kept wet with distilled water, so evaporation cools it below the air temperature. The difference between the two readings is the wet-bulb depression. A small depression means the air is close to saturation and the relative humidity is high. A large depression means the air is dry and the relative humidity is low. The depression is converted to relative humidity with a psychrometric table or graph. The instrument needs a steady airflow across the bulbs, and it is unreliable near or below freezing, when the water may freeze or evaporate too slowly.",
+            "inline": []
+          }
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 2,
+          "marks": 2,
+          "stem": "In a wet-and-dry-bulb hygrometer, the dry bulb reads 30 °C and the wet bulb reads 26 °C. (a) Explain why the wet bulb reads lower. (b) State what happens to the difference between the readings as the relative humidity rises.",
+          "answer": "(a) Water evaporates from the wet muslin and removes latent heat, cooling the wet bulb. (b) The difference becomes smaller as relative humidity rises, because evaporation is slower when the air is closer to saturation.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The wet bulb is cooled by evaporation from the wet muslin.",
+            "Evaporation takes latent heat from the thermometer bulb.",
+            "When the air is humid, evaporation is slower, so the wet bulb is cooled less.",
+            "Therefore the wet-bulb depression decreases as relative humidity rises."
+          ],
+          "tags": [
+            "humidity",
+            "hygrometer",
+            "evaporation"
+          ]
+        }
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$T_{\\mathrm{K}} = T_{\\mathrm{C}} + 273.15$",
+      "caption": {
+        "text": "Celsius to kelvin",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The kelvin scale starts at absolute zero.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42214/index.cnxml",
+        "locator": "CNXML module m42214, section “Temperature”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$T_{\\mathrm{F}} = \\frac{9}{5}T_{\\mathrm{C}} + 32$",
+      "caption": {
+        "text": "Celsius to Fahrenheit",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For the same temperature on the Fahrenheit scale.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42214/index.cnxml",
+        "locator": "CNXML module m42214, section “Temperature”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$\\Delta L = \\alpha L \\Delta T$",
+      "caption": {
+        "text": "Linear thermal expansion",
+        "inline": []
+      },
+      "conditions": {
+        "text": "α is the coefficient of linear expansion for the material.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42215/index.cnxml",
+        "locator": "CNXML module m42215, section “Thermal Expansion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\Delta V = \\beta V \\Delta T$",
+      "caption": {
+        "text": "Volume thermal expansion",
+        "inline": []
+      },
+      "conditions": {
+        "text": "β is the coefficient of volume expansion.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42215/index.cnxml",
+        "locator": "CNXML module m42215, section “Thermal Expansion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$PV = NkT$",
+      "caption": {
+        "text": "Ideal gas law in molecular form",
+        "inline": []
+      },
+      "conditions": {
+        "text": "N is the number of molecules and k is the Boltzmann constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42216/index.cnxml",
+        "locator": "CNXML module m42216, section “The Ideal Gas Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$PV = nRT$",
+      "caption": {
+        "text": "Ideal gas law in molar form",
+        "inline": []
+      },
+      "conditions": {
+        "text": "n is the number of moles and R is the universal gas constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42216/index.cnxml",
+        "locator": "CNXML module m42216, section “The Ideal Gas Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\overline{KE} = \\frac{3}{2}kT$",
+      "caption": {
+        "text": "Average kinetic energy of a gas molecule",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a monatomic ideal gas in thermal equilibrium.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42217/index.cnxml",
+        "locator": "CNXML module m42217, section “Kinetic Theory”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$v_{\\mathrm{rms}} = \\sqrt{\\frac{3kT}{m}}$",
+      "caption": {
+        "text": "Root-mean-square molecular speed",
+        "inline": []
+      },
+      "conditions": {
+        "text": "m is the mass of one molecule.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42217/index.cnxml",
+        "locator": "CNXML module m42217, section “Kinetic Theory”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$\\mathrm{relative\\ humidity} = \\frac{\\mathrm{vapour\\ density}}{\\mathrm{saturation\\ vapour\\ density}} \\times 100\\%$",
+      "caption": {
+        "text": "Relative humidity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Both densities are measured at the same temperature.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42219/index.cnxml",
+        "locator": "CNXML module m42219, section “Humidity, Evaporation, and Boiling”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1076,42 +1310,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Temperature is the same thing as heat.",
-      "correction": "Temperature measures how hot a body is, the average kinetic energy of its particles. Heat is the energy that moves because of a temperature difference.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The pressure of a gas depends only on its temperature.",
-      "correction": "It depends on the temperature and on the volume, which is what the gas laws state.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1257,6 +1456,35 @@
       "explanation": "The heat supplied goes into the latent heat of vaporisation, so the temperature stays at the boiling point until the liquid has gone.",
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "A temperature of 27 °C is equivalent to",
+      "options": [
+        {
+          "id": "a",
+          "text": "246 K"
+        },
+        {
+          "id": "b",
+          "text": "273 K"
+        },
+        {
+          "id": "c",
+          "text": "300 K"
+        },
+        {
+          "id": "d",
+          "text": "327 K"
+        }
+      ],
+      "answer": "c",
+      "explanation": "T_K = T_C + 273 = 27 + 273 = 300 K.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1267,5 +1495,25 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Temperature, Kinetic Theory, and the Gas Laws', modules m42213, m42214, m42215, m42216, m42217, m42218, m42219",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 13,
+  "exercise_fixes": {
+    "sec-5:exr-60": {
+      "drop": true
+    },
+    "sec-3:exr-82": {
+      "stem": "Show that 60.0 L of gasoline originally at $15.0ºC$ will expand to 61.1 L when it warms to $35.0ºC.$ The volume expansion coefficient of gasoline is $9.5×{10}^{-4}{/ºC}$ ."
+    },
+    "sec-4:exr-81": {
+      "stem": "A fixed amount of ideal gas is kept in a container of fixed volume. The absolute pressure $P$, in pascals, of the gas is plotted as a function of its temperature $T$, in degrees Celsius. Which of the following are properties of a best-fit curve to the data? Select two answers."
+    },
+    "sec-3:exr-77": {
+      "answer": "The price decreases by about 17,000 dollars.",
+      "solution": [
+        "The land area is $A=(20\\ \\mathrm{m})(30\\ \\mathrm{m})=600\\ \\mathrm{m^{2}}$. The area expansion coefficient is $2\\alpha$, with $\\alpha=12\\times10^{-6}\\ \\mathrm{^\\circ C^{-1}}$ for steel.",
+        "The measured area changes by $\\Delta A=2\\alpha A\\Delta T=2(12\\times10^{-6})(600)(20.0)=0.288\\ \\mathrm{m^{2}}$.",
+        "The steel tape expands in the heat, so the measured dimensions are too large and the true area is smaller than 600 $\\mathrm{m^{2}}$. The price therefore decreases by $(0.288\\ \\mathrm{m^{2}})(60,000\\ \\mathrm{dollars/m^{2}})\\approx17,000\\ \\mathrm{dollars}$."
+      ]
+    }
+  }
 }

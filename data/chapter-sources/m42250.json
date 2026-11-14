@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The amount of energy in a wave is related to its amplitude. Large-amplitude earthquakes produce large ground displacements. Loud sounds have higher pressure amplitudes and come from larger-amplitude source vibrations than soft sounds. Large ocean breakers churn up the shore more than small ones. More quantitatively, a wave is a displacement that is resisted by a restoring force. The larger the displacement $x$ , the larger the force $F=kx$ needed to create it. Because work $W$ is related to force multiplied by distance ( $Fx$ ) and energy is put into the wave by the work done to create it, the energy in a wave is related to amplitude. In fact, a wave’s energy is directly proportional to its amplitude squared because",
+        "text": "The amount of energy in a wave is related to its amplitude. Large-amplitude earthquakes produce large ground displacements. Loud sounds have higher pressure amplitudes and come from larger-amplitude source vibrations than soft sounds. Large ocean breakers churn up the shore more than small ones. More quantitatively, a wave is a displacement that is resisted by a restoring force. The larger the displacement $x$, the larger the force $F=kx$ needed to create it. Because work $W$ is related to force multiplied by distance ($Fx$) and energy is put into the wave by the work done to create it, the energy in a wave is related to amplitude. In fact, a wave’s energy is directly proportional to its amplitude squared because $W∝Fx={kx}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The energy effects of a wave depend on time as well as amplitude. For example, the longer deep-heat ultrasound is applied, the more energy it transfers. Waves can also be concentrated or spread out. Sunlight, for example, can be focused to burn wood. Earthquakes spread out, so they do less damage the farther they get from the source. In both cases, changing the area the waves cover has important effects. All these pertinent factors are included in the definition of intensity $I$ as power per unit area:",
+        "text": "The energy effects of a wave depend on time as well as amplitude. For example, the longer deep-heat ultrasound is applied, the more energy it transfers. Waves can also be concentrated or spread out. Sunlight, for example, can be focused to burn wood. Earthquakes spread out, so they do less damage the farther they get from the source. In both cases, changing the area the waves cover has important effects. All these pertinent factors are included in the definition of intensity $I$ as power per unit area: $I=\\frac{P}{A}$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "where $P$ is the power carried by the wave through area *$A$* . The definition of intensity is valid for any energy in transit, including that carried by waves. The SI unit for intensity is watts per square meter ( ${W/m}^{2}$ ). For example, infrared and visible energy from the Sun impinge on Earth at an intensity of $1300{W/m}^{2}$ just above the atmosphere. There are other intensity-related units in use, too. The most common is the decibel. For example, a 90 decibel sound level corresponds to an intensity of ${10}^{-3}{W/m}^{2}$ . (This quantity is not much power per unit area considering that 90 decibels is a relatively high sound level. Decibels will be discussed in some detail in a later chapter.",
+        "text": "where $P$ is the power carried by the wave through area *$A$*. The definition of intensity is valid for any energy in transit, including that carried by waves. The SI unit for intensity is watts per square meter (${W/m}^{2}$). For example, infrared and visible energy from the Sun impinge on Earth at an intensity of $1300 {W/m}^{2}$ just above the atmosphere. There are other intensity-related units in use, too. The most common is the decibel. For example, a 90 decibel sound level corresponds to an intensity of ${10}^{-3} {W/m}^{2}$. (This quantity is not much power per unit area considering that 90 decibels is a relatively high sound level. Decibels will be discussed in some detail in a later chapter.",
         "inline": []
       },
       "level": "core"
@@ -104,7 +104,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The average intensity of sunlight on Earth’s surface is about $700{W/m}^{2}$ .",
+        "text": "The average intensity of sunlight on Earth’s surface is about $700 {W/m}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -113,7 +113,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "(a) Calculate the amount of energy that falls on a solar collector having an area of $0.500{m}^{2}$ in $4.00h$ .",
+        "text": "(a) Calculate the amount of energy that falls on a solar collector having an area of $0.500 {m}^{2}$ in $4.00 h$.",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Because power is energy per unit time or $P=\\frac{E}{t}$ , the definition of intensity can be written as $I=\\frac{P}{A}=\\frac{E/t}{A}$ , and this equation can be solved for E with the given information.",
+        "text": "Because power is energy per unit time or $P=\\frac{E}{t}$, the definition of intensity can be written as $I=\\frac{P}{A}=\\frac{E/t}{A}$, and this equation can be solved for E with the given information.",
         "inline": []
       },
       "level": "core"
@@ -182,7 +182,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "If two identical waves are spatially separated, each having an intensity of 1.00 W/m 2 , interfere perfectly constructively in a particular location, what is the intensity of the wave at this particular location?",
+        "text": "If two identical waves are spatially separated, each having an intensity of 1.00 W/m 2, interfere perfectly constructively in a particular location, what is the intensity of the wave at this particular location?",
         "inline": []
       },
       "level": "core"
@@ -191,7 +191,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "We know from Superposition and Interference that when two identical waves, which have equal amplitudes $X$ , interfere perfectly constructively, the resulting wave has an amplitude of $2X$ . Because a wave’s intensity is proportional to amplitude squared, the intensity of the resulting wave is four times as great as in the individual waves.",
+        "text": "We know from Superposition and Interference that when two identical waves, which have equal amplitudes $X$, interfere perfectly constructively, the resulting wave has an amplitude of $2X$. Because a wave’s intensity is proportional to amplitude squared, the intensity of the resulting wave is four times as great as in the individual waves.",
         "inline": []
       },
       "level": "core"
@@ -200,7 +200,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The intensity goes up by a factor of 4 when the amplitude doubles. This answer is a little disquieting. The two individual waves each have intensities of $1.00{W/m}^{2}$ , yet their sum has an intensity of $4.00{W/m}^{2}$ , which may appear to violate conservation of energy. This violation, of course, cannot happen. What does happen is intriguing. The area over which the intensity is $4.00{W/m}^{2}$ is much less than the area covered by the two waves before they interfered. There are other areas where the intensity is zero. The addition of waves is not as simple as our first look in Superposition and Interference suggested. We actually get a pattern of both constructive interference and destructive interference whenever two waves are added. For example, if we have two stereo speakers putting out $1.00{W/m}^{2}$ each, there will be places in the room where the intensity is $4.00{W/m}^{2}$ , other places where the intensity is zero, and others in between. shows what this interference might look like. We will pursue interference patterns elsewhere in this text.",
+        "text": "The intensity goes up by a factor of 4 when the amplitude doubles. This answer is a little disquieting. The two individual waves each have intensities of $1.00 {W/m}^{2}$, yet their sum has an intensity of $4.00 {W/m}^{2}$, which may appear to violate conservation of energy. This violation, of course, cannot happen. What does happen is intriguing. The area over which the intensity is $4.00 {W/m}^{2}$ is much less than the area covered by the two waves before they interfered. There are other areas where the intensity is zero. The addition of waves is not as simple as our first look in Superposition and Interference suggested. We actually get a pattern of both constructive interference and destructive interference whenever two waves are added. For example, if we have two stereo speakers putting out $1.00 {W/m}^{2}$ each, there will be places in the room where the intensity is $4.00 {W/m}^{2}$, other places where the intensity is zero, and others in between. The figure shows what this interference might look like. We will pursue interference patterns elsewhere in this text.",
         "inline": []
       },
       "level": "core"
@@ -273,7 +273,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "$I=\\frac{P}{A}$ and has units of ${W/m}^{2}$ .",
+        "text": "$I=\\frac{P}{A}$ and has units of ${W/m}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -343,7 +343,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Medical Application Ultrasound of intensity $1.50×{10}^{2}{W/m}^{2}$ is produced by the rectangular head of a medical imaging device measuring 3.00 by 5.00 cm. What is its power output?",
+        "text": "Medical Application Ultrasound of intensity $1.50\\times {10}^{2} {W/m}^{2}$ is produced by the rectangular head of a medical imaging device measuring 3.00 by 5.00 cm. What is its power output?",
         "inline": []
       },
       "level": "core",
@@ -367,7 +367,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The low-frequency speaker of a stereo set has a surface area of $0.05{m}^{2}$ and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity $0.1{W/m}^{2}$ ?",
+        "text": "The low-frequency speaker of a stereo set has a surface area of $0.05 {m}^{2}$ and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity $0.1 {W/m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -412,7 +412,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Engineering Application A device called an insolation meter is used to measure the intensity of sunlight has an area of 100 cm 2 and registers 6.50 W. What is the intensity in ${W/m}^{2}$ ?",
+        "text": "Engineering Application A device called an insolation meter is used to measure the intensity of sunlight has an area of 100 cm 2 and registers 6.50 W. What is the intensity in ${W/m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -442,7 +442,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Astronomy Application Energy from the Sun arrives at the top of the Earth’s atmosphere with an intensity of $1.30{kW/m}^{2}.$ How long does it take for $1.8×{10}^{9}J$ to arrive on an area of $1.00{m}^{2}$ ?",
+        "text": "Astronomy Application Energy from the Sun arrives at the top of the Earth’s atmosphere with an intensity of $1.30 {kW/m}^{2}.$ How long does it take for $1.8\\times {10}^{9} J$ to arrive on an area of $1.00 {m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -499,7 +499,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Engineering Application (a) A photovoltaic array of (solar cells) is 10.0% efficient in gathering solar energy and converting it to electricity. If the average intensity of sunlight on one day is $700{W/m}^{2},$ what area should your array have to gather energy at the rate of 100 W? (b) What is the maximum cost of the array if it must pay for itself in two years of operation averaging 10.0 hours per day? Assume that it earns money at the rate of 9.00 ¢ per kilowatt-hour.",
+        "text": "Engineering Application (a) A photovoltaic array of (solar cells) is 10.0% efficient in gathering solar energy and converting it to electricity. If the average intensity of sunlight on one day is $700 {W/m}^{2},$ what area should your array have to gather energy at the rate of 100 W? (b) What is the maximum cost of the array if it must pay for itself in two years of operation averaging 10.0 hours per day? Assume that it earns money at the rate of 9.00 ¢ per kilowatt-hour.",
         "inline": []
       },
       "level": "core",
@@ -529,7 +529,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally $2.00×{10}^{–5}{W/m}^{2},$ but is turned up until the amplitude increases by 30.0%, what is the new intensity?",
+        "text": "A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally $2.00\\times {10}^{–5} {W/m}^{2},$ but is turned up until the amplitude increases by 30.0%, what is the new intensity?",
         "inline": []
       },
       "level": "core",
@@ -562,7 +562,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Medical Application (a) What is the intensity in ${W/m}^{2}$ of a laser beam used to burn away cancerous tissue that, when 90.0% absorbed, puts 500 J of energy into a circular spot 2.00 mm in diameter in 4.00 s? (b) Discuss how this intensity compares to the average intensity of sunlight (about $700{W/m}^{2}$ ) and the implications that would have if the laser beam entered your eye. Note how the amount of damage depends on the time duration of the exposure.",
+        "text": "Medical Application (a) What is the intensity in ${W/m}^{2}$ of a laser beam used to burn away cancerous tissue that, when 90.0% absorbed, puts 500 J of energy into a circular spot 2.00 mm in diameter in 4.00 s? (b) Discuss how this intensity compares to the average intensity of sunlight (about $700 {W/m}^{2}$) and the implications that would have if the laser beam entered your eye. Note how the amount of damage depends on the time duration of the exposure.",
         "inline": []
       },
       "level": "core",

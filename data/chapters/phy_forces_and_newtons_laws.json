@@ -4,7 +4,8 @@
   "updated_at": "2026-11-12",
   "title": "Forces and Newton's Laws of Motion",
   "book_id": "secondary_physics",
-  "part_id": "part-1",
+  "part_id": "part-2",
+  "order": 4,
   "facts_inherited": false,
   "learning_objectives": [
     {
@@ -38,7 +39,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_motion_along_a_straight_line",
+    "phy_two_dimensional_kinematics"
+  ],
   "formula_sheet": [
     {
       "id": "f-1",
@@ -310,7 +314,7 @@
             "id": "b-7",
             "type": "paragraph",
             "content": {
-              "text": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about ${10}^{-9}m$ in diameter). These constraints define the realm of classical mechanics, as discussed in Introduction to the Nature of Science and Physics . At the beginning of the 20 th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter, and all those preceding the introduction of relativity in Special Relativity , are in the realm of classical physics.",
+              "text": "It was not until the advent of modern physics early in the 20th century that it was discovered that Newton’s laws of motion produce a good approximation to motion only when the objects are moving at speeds much, much less than the speed of light and when those objects are larger than the size of most molecules (about ${10}^{-9} m$ in diameter). These constraints define the realm of classical mechanics, as discussed in Introduction to the Nature of Science and Physics. At the beginning of the 20 th century, Albert Einstein (1879–1955) developed the theory of relativity and, along with many other scientists, developed quantum theory. This theory does not have the constraints present in classical physics. All of the situations we consider in this chapter, and all those preceding the introduction of relativity in Special Relativity, are in the realm of classical physics.",
               "inline": []
             }
           },
@@ -430,7 +434,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "Dynamics is the study of the forces that cause objects and systems to move. To understand this, we need a working definition of force. Our intuitive definition of force —that is, a push or a pull—is a good place to start. We know that a push or pull has both magnitude and direction (therefore, it is a vector quantity) and can vary considerably in each regard. For example, a cannon exerts a strong force on a cannonball that is launched into the air. In contrast, Earth exerts only a tiny downward pull on a flea. Our everyday experiences also give us a good idea of how multiple forces add. If two people push in different directions on a third person, as illustrated in , we might expect the total force to be in the direction shown. Since force is a vector, it adds just like other vectors, as illustrated in (a) for two ice skaters. Forces, like other vectors, are represented by arrows and can be added using the familiar head-to-tail method or by trigonometric methods. These ideas were developed in Two-Dimensional Kinematics .",
+              "text": "Dynamics is the study of the forces that cause objects and systems to move. To understand this, we need a working definition of force. Our intuitive definition of force —that is, a push or a pull—is a good place to start. We know that a push or pull has both magnitude and direction (therefore, it is a vector quantity) and can vary considerably in each regard. For example, a cannon exerts a strong force on a cannonball that is launched into the air. In contrast, Earth exerts only a tiny downward pull on a flea. Our everyday experiences also give us a good idea of how multiple forces add. If two people push in different directions on a third person, as illustrated in the figure, we might expect the total force to be in the direction shown. Since force is a vector, it adds just like other vectors, as illustrated in the figure (a) for two ice skaters. Forces, like other vectors, are represented by arrows and can be added using the familiar head-to-tail method or by trigonometric methods. These ideas were developed in Two-Dimensional Kinematics.",
               "inline": []
             }
           },
@@ -449,7 +453,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "(b) is our first example of a free-body diagram , which is a technique used to illustrate all the external forces acting on a body. The body is represented by a single isolated point (or free body), and only those forces acting *on* the body from the outside (external forces) are shown. (These forces are the only ones shown, because only external forces acting on the body affect its motion. We can ignore any internal forces within the body.) Free-body diagrams are very useful in analyzing forces acting on a system and are employed extensively in the study and application of Newton’s laws of motion.",
+              "text": "The figure (b) is our first example of a free-body diagram, which is a technique used to illustrate all the external forces acting on a body. The body is represented by a single isolated point (or free body), and only those forces acting *on* the body from the outside (external forces) are shown. (These forces are the only ones shown, because only external forces acting on the body affect its motion. We can ignore any internal forces within the body.) Free-body diagrams are very useful in analyzing forces acting on a system and are employed extensively in the study and application of Newton’s laws of motion.",
               "inline": []
             }
           },
@@ -457,7 +461,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "A more quantitative definition of force can be based on some standard force, just as distance is measured in units relative to a standard distance. One possibility is to stretch a spring a certain fixed distance, as illustrated in , and use the force it exerts to pull itself back to its relaxed shape—called a *restoring force* —as a standard. The magnitude of all other forces can be stated as multiples of this standard unit of force. Many other possibilities exist for standard forces. (One that we will encounter in Magnetism is the magnetic force between two wires carrying electric current.) Some alternative definitions of force will be given later in this chapter.",
+              "text": "A more quantitative definition of force can be based on some standard force, just as distance is measured in units relative to a standard distance. One possibility is to stretch a spring a certain fixed distance, as illustrated in the figure, and use the force it exerts to pull itself back to its relaxed shape—called a *restoring force* —as a standard. The magnitude of all other forces can be stated as multiples of this standard unit of force. Many other possibilities exist for standard forces. (One that we will encounter in Magnetism is the magnetic force between two wires carrying electric current.) Some alternative definitions of force will be given later in this chapter.",
               "inline": []
             }
           },
@@ -477,159 +481,6 @@
             "type": "paragraph",
             "content": {
               "text": "To investigate force standards and cause and effect, get two identical rubber bands. Hang one rubber band vertically on a hook. Find a small household item that could be attached to the rubber band using a paper clip, and use this item as a weight to investigate the stretch of the rubber band. Measure the amount of stretch produced in the rubber band with one, two, and four of these (identical) items suspended from the rubber band. What is the relationship between the number of items and the amount of stretch? How large a stretch would you expect for the same number of items suspended from two rubber bands? What happens to the amount of stretch of the rubber band (with the weights attached) if the weights are also pushed to the side with a pencil?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-7",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/55877085235e2891ec20f5210bc72c285b72d0474a6e7762974b06dd1e1cee46.jpg",
-            "caption": {
-              "text": "The diagram looks like a solid black oval race track with 16 equally-spaced short perpendicular hash marks crossing the track. The oval is longer than it is tall and the top and bottom parts of the track are horizontal and parallel to the bottom of the page. To complete the oval, the race track starts to curve in a half-circle starting from the second perpendicular hash mark to the right of the top center hash mark. The curve continues for four perpendicular hash marks and the horizontal bottom part of the track starts two perpendicular hash marks to the right of the center bottom hash mark. The half-circle is mirrored on the left side of the track. On the right side of the oval is an arrow curving around the track and pointing up with the text “Direction of Cars’ Motion.” There is one solid line above the track and one to the right outside of the track. Both lines are indicated by the lowercase letter d. One line starts at the first hash mark’s location on a horizontally straight bit of track in the upper right side and indicates that the size of the line goes for 4 additional hash marks. The second line starts at the end of the horizontal stretch on the upper left of the track and curves around for 4 additional hash marks.",
-              "inline": []
-            },
-            "alt": "The diagram looks like a solid black oval race track with 16 equally-spaced short perpendicular hash marks crossing the track. The oval is longer than it is tall and the top and bottom parts of the track are horizontal and parallel to the bottom of the page. To complete the oval, the race track starts to curve in a half-circle starting from the second perpendicular hash mark to the right of the top center hash mark. The curve continues for four perpendicular hash marks and the horizontal bottom part of the track starts two perpendicular hash marks to the right of the center bottom hash mark. The half-circle is mirrored on the left side of the track. On the right side of the oval is an arrow curving around the track and pointing up with the text “Direction of Cars’ Motion.” There is one solid line above the track and one to the right outside of the track. Both lines are indicated by the lowercase letter d. One line starts at the first hash mark’s location on a horizontally straight bit of track in the upper right side and indicates that the size of the line goes for 4 additional hash marks. The second line starts at the end of the horizontal stretch on the upper left of the track and curves around for 4 additional hash marks.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-8",
-            "type": "paragraph",
-            "content": {
-              "text": "The figure above represents a racetrack with semicircular sections connected by straight sections. Each section has length *d* , and markers along the track are spaced *d* /4 apart. Two people drive cars counterclockwise around the track, as shown. Car *X* goes around the curves at constant speed *v* c , increases speed at constant acceleration for half of each straight section to reach a maximum speed of 2 *v* c , then brakes at constant acceleration for the other half of each straight section to return to speed *v* c . Car *Y* also goes around the curves at constant speed *v* c , increases its speed at constant acceleration for one-fourth of each straight section to reach the same maximum speed 2 *v* c , stays at that speed for half of each straight section, then brakes at constant acceleration for the remaining fourth of each straight section to return to speed *v* c .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-9",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) On the figures below, draw an arrow showing the direction of the net force on each of the cars at the positions noted by the dots. If the net force is zero at any position, label the dot with 0.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-10",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/7d3adda5020bfc568a77ad74c46c963a3a7515d46d9cc302023158caf60f7c83.jpg",
-            "caption": {
-              "text": "There are two dashed oval tracks representative of the larger oval track shown in figure 04_M1_track_img earlier. Both tracks have the same 16 equally spaced perpendicular hash marks shown in the earlier figure but there are dashes around the tracks instead of a solid line. Between each of the perpendicular dashes is one smaller dash at the perpendicular dash and three additional dashes. Centered above the figure on the left is the text Car X and over the figure on the left is Car Y. There are 6 black dots positioned on each of the Car X and Car Y tracks. The position of the six dots on the Car X track on the left are as follows: The first dot is on dashed line on the perpendicular hash mark at the very center left of the track. Moving to the right past three perpendicular hash marks the second dot is on the top horizontal line on the second of four small dashes before the top center perpendicular hash mark. The third dot is one perpendicular hash mark to the right of the center perpendicular hash mark. The fourth dot is two perpendicular hash marks from the third dot and one perpendicular hash mark above the right center perpendicular hash mark. The fifth dot is on the bottom horizontal line of the track and about one and one-third perpendicular hash marks to the right of the center bottom perpendicular hash mark. The sixth dot is on the bottom horizontal line about one and two-third perpendicular hash marks to the left of the center bottom perpendicular dash.",
-              "inline": []
-            },
-            "alt": "There are two dashed oval tracks representative of the larger oval track shown in figure 04_M1_track_img earlier. Both tracks have the same 16 equally spaced perpendicular hash marks shown in the earlier figure but there are dashes around the tracks instead of a solid line. Between each of the perpendicular dashes is one smaller dash at the perpendicular dash and three additional dashes. Centered above the figure on the left is the text Car X and over the figure on the left is Car Y. There are 6 black dots positioned on each of the Car X and Car Y tracks. The position of the six dots on the Car X track on the left are as follows: The first dot is on dashed line on the perpendicular hash mark at the very center left of the track.  Moving to the right past three perpendicular hash marks the second dot is on the top horizontal line on the second of four small dashes before the top center perpendicular hash mark. The third dot is one perpendicular hash mark to the right of the center perpendicular hash mark. The fourth dot is two perpendicular hash marks from the third dot and one perpendicular hash mark above the right center perpendicular hash mark. The fifth dot is on the bottom horizontal line of the track and about one and one-third perpendicular hash marks to the right of the center bottom perpendicular hash mark. The sixth dot is on the bottom horizontal line about one and two-third perpendicular hash marks to the left of the center bottom perpendicular dash.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-11",
-            "type": "paragraph",
-            "content": {
-              "text": "The position of the six dots on the Car Y track on the right are as follows:",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-12",
-            "type": "paragraph",
-            "content": {
-              "text": "i. Indicate which car, if either, completes one trip around the track in less time, and justify your answer qualitatively without using equations.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-13",
-            "type": "paragraph",
-            "content": {
-              "text": "ii. Justify your answer about which car, if either, completes one trip around the track in less time quantitatively with appropriate equations.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-14",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/749abd26398883847741cca84e489248032e8ed584c55305cc78ee9d2fc629c7.jpg",
-            "caption": {
-              "text": "Two identical diagrams feature oval-shaped dashed paths with alternating plus and minus signs. Each path includes black dots with arrows indicating specific vector directions at points along the loop.",
-              "inline": []
-            },
-            "alt": "Two identical diagrams feature oval-shaped dashed paths with alternating plus and minus signs. Each path includes black dots with arrows indicating specific vector directions at points along the loop.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-15",
-            "type": "paragraph",
-            "content": {
-              "text": "Car *X* is shown on the left, and Car *Y* is shown on the right.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-16",
-            "type": "paragraph",
-            "content": {
-              "text": "Car *X* takes longer to accelerate and does not spend any time traveling at top speed. Car *Y* accelerates over a shorter time and spends time going at top speed. So Car *Y* must cover the straightaways in a shorter time. Curves take the same time, so Car *Y* must overall take a shorter time.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-17",
-            "type": "paragraph",
-            "content": {
-              "text": "The only difference in the calculations for the time of one segment of linear acceleration is the difference in distances. That shows that Car *X* takes longer to accelerate. The equation $\\frac{d}{4{v}_{c}}={t}_{c}$ corresponds to Car *Y* traveling for a time at top speed.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-18",
-            "type": "paragraph",
-            "content": {
-              "text": "Substituting $a=\\frac{{v}_{c}}{{t}_{1}}$ into the displacement equation in part (b) ii gives $D=\\frac{3}{2}{v}_{c}{t}_{1}$ . This shows that a car takes less time to reach its maximum speed when it accelerates over a shorter distance. Therefore, Car *Y* reaches its maximum speed more quickly, and spends more time at its maximum speed than Car *X* does, as argued in part (b) i.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "Which of the following is an example of a body exerting a force on itself?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "A hawk accelerates as it glides in the air. Does the force causing the acceleration come from the hawk itself? Explain.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "A body cannot exert a force on itself. The hawk may accelerate as a result of several forces. The hawk may accelerate toward Earth as a result of the force due to gravity. The hawk may accelerate as a result of the additional force exerted on it by wind. The hawk may accelerate as a result of orienting its body to create less air resistance, thus increasing the net force forward.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "What causes the force that moves a boat forward when someone rows it?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "paragraph",
-            "content": {
-              "text": "Propose a force standard different from the example of a stretched spring discussed in the text. Your standard must be capable of producing the same force repeatedly.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "What properties do forces have that allow us to classify them as vectors?",
               "inline": []
             }
           }
@@ -675,7 +526,7 @@
         {
           "id": "we-exr-9",
           "statement": {
-            "text": "The figure above represents a racetrack with semicircular sections connected by straight sections. Each section has length *d* , and markers along the track are spaced *d* /4 apart. Two people drive cars counterclockwise around the track, as shown. Car *X* goes around the curves at constant speed *v* c , increases speed at constant acceleration for half of each straight section to reach a maximum speed of 2 *v* c , then brakes at constant acceleration for the other half of each straight section to return to speed *v* c . Car *Y* also goes around the curves at constant speed *v* c , increases its speed at constant acceleration for one-fourth of each straight section to reach the same maximum speed 2 *v* c , stays at that speed for half of each straight section, then brakes at constant acceleration for the remaining fourth of each straight section to return to speed *v* c . (a) On the figures below, draw an arrow showing the direction of the net force on each of the cars at the positions noted by the dots. If the net force is zero at any position, label the dot with 0. The position of the six dots on the Car Y track on the right are as follows: The first dot on the left center of the track is at the same position as it is on the Car X track.; The second dot is just slight to the right of the Car X dot (less than a dash) past three perpendicular hash marks moving to the right.; The third dot is about one and two-thirds perpendicular hash marks to the right of the center top perpendicular has mark.; The fourth dot is in the same position as the Car X figure (one perpendicular hash mark above the center right perpendicular hash mark).; The fifth dot is about one and two-third perpendicular hash marks to the right of the center bottom perpendicular hash mark.; The sixth dot is in the same position as the Car Y dot (one and two third perpendicular hash marks to the left of the center bottom hash mark). (b) i. Indicate which car, if either, completes one trip around the track in less time, and justify your answer qualitatively without using equations. ii. Justify your answer about which car, if either, completes one trip around the track in less time quantitatively with appropriate equations.",
+            "text": "The figure above represents a racetrack with semicircular sections connected by straight sections. Each section has length *d*, and markers along the track are spaced *d* /4 apart. Two people drive cars counterclockwise around the track, as shown. Car *X* goes around the curves at constant speed *v* c, increases speed at constant acceleration for half of each straight section to reach a maximum speed of 2 *v* c, then brakes at constant acceleration for the other half of each straight section to return to speed *v* c. Car *Y* also goes around the curves at constant speed *v* c, increases its speed at constant acceleration for one-fourth of each straight section to reach the same maximum speed 2 *v* c, stays at that speed for half of each straight section, then brakes at constant acceleration for the remaining fourth of each straight section to return to speed *v* c. (a) On the figures below, draw an arrow showing the direction of the net force on each of the cars at the positions noted by the dots. If the net force is zero at any position, label the dot with 0. The position of the six dots on the Car Y track on the right are as follows: The first dot on the left center of the track is at the same position as it is on the Car X track.; The second dot is just slight to the right of the Car X dot (less than a dash) past three perpendicular hash marks moving to the right.; The third dot is about one and two-thirds perpendicular hash marks to the right of the center top perpendicular has mark.; The fourth dot is in the same position as the Car X figure (one perpendicular hash mark above the center right perpendicular hash mark).; The fifth dot is about one and two-third perpendicular hash marks to the right of the center bottom perpendicular hash mark.; The sixth dot is in the same position as the Car Y dot (one and two third perpendicular hash marks to the left of the center bottom hash mark). (b) i. Indicate which car, if either, completes one trip around the track in less time, and justify your answer qualitatively without using equations. ii. Justify your answer about which car, if either, completes one trip around the track in less time quantitatively with appropriate equations.",
             "inline": []
           },
           "steps": [
@@ -774,15 +625,33 @@
         }
       ],
       "exercise_ids": [
-        "ex-sec-2-01"
+        "ex-sec-2-01",
+        "ex-sec-2-02",
+        "ex-sec-2-03"
       ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "scalars-and-vectors",
-          "subtopic_slug": "types-of-force-contact-force-and-field-force",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
           "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-mass-and-weight",
+          "subtopic_slug": null,
+          "status": "partial",
           "papers": []
         }
       ],
@@ -848,7 +717,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "Rather than contradicting our experience, Newton’s first law of motion states that there must be a *cause* (which is a net external force) *for there to be any change in velocity (either a change in magnitude or direction)* . We will define *net external force* in the next section. An object sliding across a table or floor slows down due to the net force of friction acting on the object. If friction disappeared, would the object still slow down?",
+              "text": "Rather than contradicting our experience, Newton’s first law of motion states that there must be a *cause* (which is a net external force) *for there to be any change in velocity (either a change in magnitude or direction)*. We will define *net external force* in the next section. An object sliding across a table or floor slows down due to the net force of friction acting on the object. If friction disappeared, would the object still slow down?",
               "inline": []
             }
           },
@@ -880,39 +749,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "The property of a body to remain at rest or to remain in motion with constant velocity is called inertia . Newton’s first law is often called the law of inertia . As we know from experience, some objects have more inertia than others. It is obviously more difficult to change the motion of a large boulder than that of a basketball, for example. The inertia of an object is measured by its mass . Roughly speaking, mass is a measure of the amount of “stuff” (or matter) in something. The quantity or amount of matter in an object is determined by the numbers of atoms and molecules of various types it contains. Unlike weight, mass does not vary with location. The mass of an object is the same on Earth, in orbit, or on the surface of the Moon. In practice, it is very difficult to count and identify all of the atoms and molecules in an object, so masses are not often determined in this manner. Operationally, the masses of objects are determined by comparison with the standard kilogram.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-9",
-            "type": "paragraph",
-            "content": {
-              "text": "Which has more mass: a kilogram of cotton balls or a kilogram of gold?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-10",
-            "type": "paragraph",
-            "content": {
-              "text": "They are equal. A kilogram of one substance is equal in mass to a kilogram of another substance. The quantities that might differ between them are volume and density.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-11",
-            "type": "paragraph",
-            "content": {
-              "text": "How are inertia and mass related?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-12",
-            "type": "paragraph",
-            "content": {
-              "text": "What is the relationship between weight and mass? Which is an intrinsic, unchanging property of a body?",
+              "text": "The property of a body to remain at rest or to remain in motion with constant velocity is called inertia. Newton’s first law is often called the law of inertia. As we know from experience, some objects have more inertia than others. It is obviously more difficult to change the motion of a large boulder than that of a basketball, for example. The inertia of an object is measured by its mass. Roughly speaking, mass is a measure of the amount of “stuff” (or matter) in something. The quantity or amount of matter in an object is determined by the numbers of atoms and molecules of various types it contains. Unlike weight, mass does not vary with location. The mass of an object is the same on Earth, in orbit, or on the surface of the Moon. In practice, it is very difficult to count and identify all of the atoms and molecules in an object, so masses are not often determined in this manner. Operationally, the masses of objects are determined by comparison with the standard kilogram.",
               "inline": []
             }
           }
@@ -1036,13 +873,17 @@
           "inline": []
         }
       ],
-      "exercise_ids": [],
+      "exercise_ids": [
+        "ex-sec-3-01",
+        "ex-sec-3-02",
+        "ex-sec-3-03"
+      ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -1056,6 +897,14 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
       "provenance": {
@@ -1104,7 +953,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "First, what do we mean by a change in motion? The answer is that a change in motion is equivalent to a change in velocity. A change in velocity means, by definition, that there is an acceleration . Newton’s first law says that a net external force causes a change in motion; thus, we see that a *net external force causes acceleration* .",
+              "text": "First, what do we mean by a change in motion? The answer is that a change in motion is equivalent to a change in velocity. A change in velocity means, by definition, that there is an acceleration. Newton’s first law says that a net external force causes a change in motion; thus, we see that a *net external force causes acceleration*.",
               "inline": []
             }
           },
@@ -1112,7 +961,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) *You must define the boundaries of the system before you can determine which forces are external* . Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
+              "text": "Another question immediately arises. What do we mean by an external force? An intuitive notion of external is correct—an external force acts from outside the system (object or collection of objects) of interest. For example, in the figure (a) the system of interest is the wagon plus the child in it. The two forces exerted by the other children are external forces. An internal force acts between elements of the system. Again looking at the figure (a), the force the child in the wagon exerts to hang onto the wagon is an internal force between elements of the system of interest. Only external forces affect the motion of a system, according to Newton’s first law. (The internal forces actually cancel, as we shall see in the next section.) *You must define the boundaries of the system before you can determine which forces are external*. Sometimes the system is obvious, whereas other times identifying the boundaries of a system is more subtle. The concept of a system is fundamental to many areas of physics, as is the correct application of Newton’s laws. This concept will be revisited many times on our journey through physics.",
               "inline": []
             }
           },
@@ -1131,7 +980,7 @@
             "id": "b-5",
             "type": "paragraph",
             "content": {
-              "text": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in . In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight $w$ and the support of the ground $N$ , and the horizontal force $f$ represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. (b) shows how vectors representing the external forces add together to produce a net force, ${F}_{net}$ .",
+              "text": "Now, it seems reasonable that acceleration should be directly proportional to and in the same direction as the net (total) external force acting on a system. This assumption has been verified experimentally and is illustrated in the figure. In part (a), a smaller force causes a smaller acceleration than the larger force illustrated in part (c). For completeness, the vertical forces are also shown; they are assumed to cancel since there is no acceleration in the vertical direction. The vertical forces are the weight $w$ and the support of the ground $N$, and the horizontal force $f$ represents the force of friction. These will be discussed in more detail in later sections. For now, we will define friction as a force that opposes the motion past each other of objects that are touching. The figure (b) shows how vectors representing the external forces add together to produce a net force, ${F}_{net}$.",
               "inline": []
             }
           },
@@ -1147,7 +996,7 @@
             "id": "b-7",
             "type": "paragraph",
             "content": {
-              "text": "where the symbol $∝$ means “proportional to,” and ${F}_{net}$ is the net external force . (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics .) This proportionality states what we have said in words— *acceleration is directly proportional to the net external force* . Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
+              "text": "where the symbol $∝$ means “proportional to,” and ${F}_{net}$ is the net external force. (The net external force is the vector sum of all external forces and can be determined graphically, using the head-to-tail method, or analytically, using components. The techniques are the same as for the addition of other vectors, and are covered in Two-Dimensional Kinematics.) This proportionality states what we have said in words— *acceleration is directly proportional to the net external force*. Once the system of interest is chosen, it is important to identify the external forces and ignore the internal ones. It is a tremendous simplification not to have to consider the numerous internal forces acting between objects within the system, such as muscular forces within the child’s body, let alone the myriad of forces between atoms in the objects, but by doing so, we can easily solve some very complex problems with only minimal error due to our simplification",
               "inline": []
             }
           },
@@ -1155,7 +1004,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in , the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
+              "text": "Now, it also seems reasonable that acceleration should be inversely proportional to the mass of the system. In other words, the larger the mass (the inertia), the smaller the acceleration produced by a given force. And indeed, as illustrated in the figure, the same net external force applied to a car produces a much smaller acceleration than when applied to a basketball. The proportionality is written as",
               "inline": []
             }
           },
@@ -1246,7 +1095,7 @@
             "id": "b-19",
             "type": "paragraph",
             "content": {
-              "text": "${F}_{net}=ma$ is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of $1{m/s}^{2}$ . That is, since ${F}_{net}=ma$ ,",
+              "text": "${F}_{net}=ma$ is used to define the units of force in terms of the three basic units for mass, length, and time. The SI unit of force is called the newton (abbreviated N) and is the force needed to accelerate a 1-kg system at the rate of $1{m/s}^{2}$. That is, since ${F}_{net}=ma$,",
               "inline": []
             }
           },
@@ -1278,7 +1127,7 @@
             "id": "b-23",
             "type": "paragraph",
             "content": {
-              "text": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight $w$ . Weight can be denoted as a vector $w$ because it has a direction; *down* is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as $w$ *.* Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration $g$ . Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
+              "text": "When an object is dropped, it accelerates toward the center of Earth. Newton’s second law states that a net force on an object is responsible for its acceleration. If air resistance is negligible, the net force on a falling object is the gravitational force, commonly called its weight $w$. Weight can be denoted as a vector $w$ because it has a direction; *down* is, by definition, the direction of gravity, and hence weight is a downward force. The magnitude of weight is denoted as $w$ *.* Galileo was instrumental in showing that, in the absence of air resistance, all objects fall with the same acceleration $g$. Using Galileo’s result and Newton’s second law, we can derive an equation for weight.",
               "inline": []
             }
           },
@@ -1286,7 +1135,7 @@
             "id": "b-24",
             "type": "paragraph",
             "content": {
-              "text": "Consider an object with mass $m$ falling downward toward Earth. It experiences only the downward force of gravity, which has magnitude $w$ . Newton’s second law states that the magnitude of the net external force on an object is ${F}_{net}=ma$ .",
+              "text": "Consider an object with mass $m$ falling downward toward Earth. It experiences only the downward force of gravity, which has magnitude $w$. Newton’s second law states that the magnitude of the net external force on an object is ${F}_{net}=ma$.",
               "inline": []
             }
           },
@@ -1294,7 +1143,7 @@
             "id": "b-25",
             "type": "paragraph",
             "content": {
-              "text": "Since the object experiences only the downward force of gravity, ${F}_{net}=w$ . We know that the magnitude of the acceleration of an object due to gravity is $g$ , or $a=g$ . Substituting these into Newton’s second law gives",
+              "text": "Since the object experiences only the downward force of gravity, ${F}_{net}=w$. We know that the magnitude of the acceleration of an object due to gravity is $g$, or $a=g$. Substituting these into Newton’s second law gives",
               "inline": []
             }
           },
@@ -1302,7 +1151,7 @@
             "id": "b-26",
             "type": "paragraph",
             "content": {
-              "text": "This is the equation for *weight* —the gravitational force on a mass $m$ :",
+              "text": "This is the equation for *weight* —the gravitational force on a mass $m$: $w=mg.$",
               "inline": []
             }
           },
@@ -1310,7 +1159,7 @@
             "id": "b-27",
             "type": "paragraph",
             "content": {
-              "text": "Since $g=9.80{m/s}^{2}$ on Earth, the weight of a 1.0 kg object on Earth is 9.8 N, as we see:",
+              "text": "Since $g=9.80 {m/s}^{2}$ on Earth, the weight of a 1.0 kg object on Earth is 9.8 N, as we see:",
               "inline": []
             }
           },
@@ -1326,7 +1175,7 @@
             "id": "b-29",
             "type": "paragraph",
             "content": {
-              "text": "Recall that when writing the second law equations, the components of the weight, $mg$ , can take positive, negative, or zero values, depending on orientation of the coordinate system. Be sure to take this into consideration when solving problems with weight.",
+              "text": "Recall that when writing the second law equations, the components of the weight, $mg$, can take positive, negative, or zero values, depending on orientation of the coordinate system. Be sure to take this into consideration when solving problems with weight.",
               "inline": []
             }
           },
@@ -1334,7 +1183,7 @@
             "id": "b-30",
             "type": "paragraph",
             "content": {
-              "text": "When the net external force on an object is its weight, we say that it is in free-fall . That is, the only force acting on the object is the force of gravity. In the real world, when objects fall downward toward Earth, they are never truly in free-fall because there is always some upward force from the air acting on the object.",
+              "text": "When the net external force on an object is its weight, we say that it is in free-fall. That is, the only force acting on the object is the force of gravity. In the real world, when objects fall downward toward Earth, they are never truly in free-fall because there is always some upward force from the air acting on the object.",
               "inline": []
             }
           },
@@ -1342,7 +1191,7 @@
             "id": "b-31",
             "type": "paragraph",
             "content": {
-              "text": "The acceleration due to gravity $g$ varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only $1.625{m/s}^{2}$ . A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
+              "text": "The acceleration due to gravity $g$ varies slightly over the surface of Earth, so that the weight of an object depends on location and is not an intrinsic property of the object. Weight varies dramatically if one leaves Earth’s surface. On the Moon, for example, the acceleration due to gravity is only $1.625 {m/s}^{2}$. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only about 1.7 N on the Moon.",
               "inline": []
             }
           },
@@ -1350,7 +1199,7 @@
             "id": "b-32",
             "type": "paragraph",
             "content": {
-              "text": "The broadest definition of weight in this sense is that *the weight of an object is the gravitational force on it from the nearest large body* , such as Earth, the Moon, the Sun, and so on. This is the most common and useful definition of weight in physics. It differs dramatically, however, from the definition of weight used by NASA and the popular media in relation to space travel and exploration. When they speak of “weightlessness” and “microgravity,” they are really referring to the phenomenon we call “free-fall” in physics. We shall use the above definition of weight, and we will make careful distinctions between free-fall and actual weightlessness.",
+              "text": "The broadest definition of weight in this sense is that *the weight of an object is the gravitational force on it from the nearest large body*, such as Earth, the Moon, the Sun, and so on. This is the most common and useful definition of weight in physics. It differs dramatically, however, from the definition of weight used by NASA and the popular media in relation to space travel and exploration. When they speak of “weightlessness” and “microgravity,” they are really referring to the phenomenon we call “free-fall” in physics. We shall use the above definition of weight, and we will make careful distinctions between free-fall and actual weightlessness.",
               "inline": []
             }
           },
@@ -1366,7 +1215,7 @@
             "id": "b-34",
             "type": "paragraph",
             "content": {
-              "text": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ( $m$ ) multiplied by the acceleration due to gravity ( $g$ ). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
+              "text": "Mass and weight are often used interchangeably in everyday language. However, in science, these terms are distinctly different from one another. Mass is a measure of how much matter is in an object. The typical measure of mass is the kilogram (or the “slug” in English units). Weight, on the other hand, is a measure of the force of gravity acting on an object. Weight is equal to the mass of an object ($m$) multiplied by the acceleration due to gravity ($g$). Like any other force, weight is measured in terms of newtons (or pounds in English units).",
               "inline": []
             }
           },
@@ -1374,7 +1223,7 @@
             "id": "b-35",
             "type": "paragraph",
             "content": {
-              "text": "Assuming the mass of an object is kept intact, it will remain the same, regardless of its location. However, because weight depends on the acceleration due to gravity, the weight of an object *can change* when the object enters into a region with stronger or weaker gravity. For example, the acceleration due to gravity on the Moon is $1.625{m/s}^{2}$ (which is much less than the acceleration due to gravity on Earth, $9.80{m/s}^{2}$ ). If you measured your weight on Earth and then measured your weight on the Moon, you would find that you “weigh” much less, even though you do not look any skinnier. This is because the force of gravity is weaker on the Moon. In fact, when people say that they are “losing weight,” they really mean that they are losing “mass” (which in turn causes them to weigh less).",
+              "text": "Assuming the mass of an object is kept intact, it will remain the same, regardless of its location. However, because weight depends on the acceleration due to gravity, the weight of an object *can change* when the object enters into a region with stronger or weaker gravity. For example, the acceleration due to gravity on the Moon is $1.625 {m/s}^{2}$ (which is much less than the acceleration due to gravity on Earth, $9.80 {m/s}^{2}$). If you measured your weight on Earth and then measured your weight on the Moon, you would find that you “weigh” much less, even though you do not look any skinnier. This is because the force of gravity is weaker on the Moon. In fact, when people say that they are “losing weight,” they really mean that they are losing “mass” (which in turn causes them to weigh less).",
               "inline": []
             }
           },
@@ -1401,7 +1250,7 @@
             "id": "b-38",
             "type": "paragraph",
             "content": {
-              "text": "Since ${F}_{net}$ and $m$ are given, the acceleration can be calculated directly from Newton’s second law as stated in ${F}_{net}=ma$ .",
+              "text": "Since ${F}_{net}$ and $m$ are given, the acceleration can be calculated directly from Newton’s second law as stated in ${F}_{net}=ma$.",
               "inline": []
             }
           },
@@ -1409,7 +1258,7 @@
             "id": "b-39",
             "type": "paragraph",
             "content": {
-              "text": "The magnitude of the acceleration $a$ is $a=\\frac{{F}_{net}}{m}$ . Entering known values gives",
+              "text": "The magnitude of the acceleration $a$ is $a=\\frac{{F}_{net}}{m}$. Entering known values gives",
               "inline": []
             }
           },
@@ -1476,7 +1325,7 @@
             "id": "b-47",
             "type": "paragraph",
             "content": {
-              "text": "where ${F}_{net}$ is the net force along the horizontal direction. We can see from that the engine thrusts add, while friction opposes the thrust. In equation form, the net external force is",
+              "text": "where ${F}_{net}$ is the net force along the horizontal direction. We can see from the figure that the engine thrusts add, while friction opposes the thrust. In equation form, the net external force is",
               "inline": []
             }
           },
@@ -1508,7 +1357,7 @@
             "id": "b-51",
             "type": "paragraph",
             "content": {
-              "text": "Using a little algebra, we solve for the total thrust 4 *T* :",
+              "text": "Using a little algebra, we solve for the total thrust 4 *T*:",
               "inline": []
             }
           },
@@ -1564,7 +1413,7 @@
             "id": "b-58",
             "type": "paragraph",
             "content": {
-              "text": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 $g$ 's. (Recall that $g$ , the acceleration due to gravity, is $9.{80 m/s}^{2}$ . When we say that an acceleration is 45 $g$ 's, it is $45×9.{80 m/s}^{2}$ , which is approximately ${440 m/s}^{2}$ .) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
+              "text": "The numbers are quite large, so the result might surprise you. Experiments such as this were performed in the early 1960s to test the limits of human endurance and the setup designed to protect human subjects in jet fighter emergency ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 $g$ 's. (Recall that $g$, the acceleration due to gravity, is $9.{80 m/s}^{2}$. When we say that an acceleration is 45 $g$ 's, it is $45×9.{80 m/s}^{2}$, which is approximately ${440 m/s}^{2}$.) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial—and the choice is not always obvious.",
               "inline": []
             }
           },
@@ -1573,303 +1422,6 @@
             "type": "paragraph",
             "content": {
               "text": "Newton’s second law of motion is more than a definition; it is a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-60",
-            "type": "paragraph",
-            "content": {
-              "text": "Which statement is correct? (a) Net force causes motion. (b) Net force causes change in motion. Explain your answer and give an example.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-61",
-            "type": "paragraph",
-            "content": {
-              "text": "Why can we neglect forces such as those holding a body together when we apply Newton’s second law of motion?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-62",
-            "type": "paragraph",
-            "content": {
-              "text": "Explain how the choice of the “system of interest” affects which forces must be considered when applying Newton’s second law of motion.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-63",
-            "type": "paragraph",
-            "content": {
-              "text": "Describe a situation in which the net external force on a system is not zero, yet its speed remains constant.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-64",
-            "type": "paragraph",
-            "content": {
-              "text": "A system can have a nonzero velocity while the net external force on it *is* zero. Describe such a situation.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-65",
-            "type": "paragraph",
-            "content": {
-              "text": "A rock is thrown straight up. What is the net external force acting on the rock when it is at the top of its trajectory?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-66",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Give an example of different net external forces acting on the same system to produce different accelerations. (b) Give an example of the same net external force acting on systems of different masses, producing different accelerations. (c) What law accurately describes both effects? State it in words and as an equation.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-67",
-            "type": "paragraph",
-            "content": {
-              "text": "If the acceleration of a system is zero, are no external forces acting on it? What about internal forces? Explain your answers.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-68",
-            "type": "paragraph",
-            "content": {
-              "text": "If a constant, nonzero force is applied to an object, what can you say about the velocity and acceleration of the object?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-69",
-            "type": "paragraph",
-            "content": {
-              "text": "The gravitational force on the basketball in is ignored. When gravity *is* taken into account, what is the direction of the net external force on the basketball—above horizontal, below horizontal, or still horizontal?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-70",
-            "type": "heading",
-            "text": {
-              "text": "Problem Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-71",
-            "type": "paragraph",
-            "content": {
-              "text": "*You may assume data taken from illustrations is accurate to three digits.*",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-72",
-            "type": "paragraph",
-            "content": {
-              "text": "A 63.0-kg sprinter starts a race with an acceleration of $4.20 m{/s}^{2}$ . What is the net external force on him?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-73",
-            "type": "paragraph",
-            "content": {
-              "text": "If the sprinter from the previous problem accelerates at that rate for 20 m, and then maintains that velocity for the remainder of the 100-m dash, what will be his time for the race?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-74",
-            "type": "paragraph",
-            "content": {
-              "text": "A cleaner pushes a 4.50-kg laundry cart in such a way that the net external force on it is 60.0 N. Calculate the magnitude of its acceleration.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-75",
-            "type": "paragraph",
-            "content": {
-              "text": "Since astronauts in orbit are apparently weightless, a clever method of measuring their masses is needed to monitor their mass gains or losses to adjust diets. One way to do this is to exert a known force on an astronaut and measure the acceleration produced. Suppose a net external force of 50.0 N is exerted and the astronaut’s acceleration is measured to be $0.{893 m/s}^{2}$ . (a) Calculate her mass. (b) By exerting a force on the astronaut, the vehicle in which they orbit experiences an equal and opposite force. Discuss how this would affect the measurement of the astronaut’s acceleration. Propose a method in which recoil of the vehicle is avoided.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-76",
-            "type": "paragraph",
-            "content": {
-              "text": "In , the net external force on the 24-kg mower is stated to be 51 N. If the force of friction opposing the motion is 24 N, what force $F$ (in newtons) is the person exerting on the mower? Suppose the mower is moving at 1.5 m/s when the force $F$ is removed. How far will the mower go before stopping?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-77",
-            "type": "paragraph",
-            "content": {
-              "text": "The same rocket sled drawn in is decelerated at a rate of $1{96 m/s}^{2}$ . What force is necessary to produce this deceleration? Assume that the rockets are off. The mass of the system is 2100 kg.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-78",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/d8e06499a3169eb373381a40e127e7c0bfaeb6845d8852be29c573471d8603c6.jpg",
-            "caption": {
-              "text": "A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.",
-              "inline": []
-            },
-            "alt": "A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-79",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) If the rocket sled shown in starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust T is $2.59×{10}^{4}$ N, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-80",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) The acceleration is not one-fourth of what it was with all rockets burning because the frictional force is still as large as it was with all rockets burning.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-81",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/3a75ff0f5919db4e150f82f9aea9d6e35abd8181ff1cfee11a3d57bddc5e5f49.jpg",
-            "caption": {
-              "text": "A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.",
-              "inline": []
-            },
-            "alt": "A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-82",
-            "type": "paragraph",
-            "content": {
-              "text": "What is the deceleration of the rocket sled if it comes to rest in 1.1 s from a speed of 1000 km/h? (Such deceleration caused one test subject to black out and have temporary blindness.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-83",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose two children push horizontally, but in exactly opposite directions, on a third child in a wagon. The first child exerts a force of 75.0 N, the second a force of 90.0 N, friction is 12.0 N, and the mass of the third child plus wagon is 23.0 kg. What is the system of interest if the acceleration of the child in the wagon is to be calculated?; Draw a free-body diagram, including all forces acting on the system.; Calculate the acceleration.; What would the acceleration be if friction were 15.0 N?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-84",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) The system is the child in the wagon plus the wagon.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-85",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) $a=0.130{m/s}^{2}$ in the direction of the second child’s push.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-86",
-            "type": "paragraph",
-            "content": {
-              "text": "(d) $a=0.00{m/s}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-87",
-            "type": "paragraph",
-            "content": {
-              "text": "A powerful motorcycle can produce an acceleration of $3.50{m/s}^{2}$ while traveling at 90.0 km/h. At that speed the forces resisting motion, including friction and air resistance, total 400 N. (Air resistance is analogous to air friction. It always opposes the motion of an object.) What is the magnitude of the force the motorcycle exerts backward on the ground to produce its acceleration if the mass of the motorcycle with rider is 245 kg?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-88",
-            "type": "paragraph",
-            "content": {
-              "text": "The rocket sled shown in accelerates at a rate of $49.0{m/s}^{2}$ . Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-89",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $3.68×{10}^{3}N$ . This force is 5.00 times greater than his weight.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-90",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) $3750 N; 11.3ºabove horizontal$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-91",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/d8e06499a3169eb373381a40e127e7c0bfaeb6845d8852be29c573471d8603c6.jpg",
-            "caption": {
-              "text": "A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.",
-              "inline": []
-            },
-            "alt": "A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. ",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-92",
-            "type": "paragraph",
-            "content": {
-              "text": "Repeat the previous problem for the situation in which the rocket sled decelerates at a rate of $2{01 m/s}^{2}$ . In this problem, the forces are exerted by the seat and restraining belts.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-93",
-            "type": "paragraph",
-            "content": {
-              "text": "The weight of an astronaut plus their space suit on the Moon is only 250 N. How much do they weigh on Earth? What is the mass on the Moon? On Earth?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-94",
-            "type": "paragraph",
-            "content": {
-              "text": "$1.5×{10}^{3}N,150 kg,150 kg$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-95",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose the mass of a fully loaded module in which astronauts take off from the Moon is 10,000 kg. The thrust of its engines is 30,000 N. (a) Calculate its the magnitude of acceleration in a vertical takeoff from the Moon. (b) Could it lift off from Earth? If not, why not? If it could, calculate the magnitude of its acceleration.",
               "inline": []
             }
           }
@@ -1932,40 +1484,16 @@
             },
             {
               "step_number": 3,
-              "expression": "Calculate the magnitude of force exerted by each rocket, called its thrust $T$ , for the four-rocket propulsion system shown in ."
+              "expression": "Calculate the magnitude of force exerted by each rocket, called its thrust $T$, for the four-rocket propulsion system shown in the figure."
             },
             {
               "step_number": 4,
-              "expression": "The sled’s initial acceleration is $49{m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N."
+              "expression": "The sled’s initial acceleration is $49 {m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N."
             }
           ],
           "answer": {
-            "text": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $T$ , for the four-rocket propulsion system shown in . The sled’s initial acceleration is $49{m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
+            "text": "Prior to space flights carrying astronauts, rocket sleds were used to test aircraft, missile equipment, and physiological effects on human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $T$, for the four-rocket propulsion system shown in the figure. The sled’s initial acceleration is $49 {m/s}^{2},$ the mass of the system is 2100 kg, and the force of friction opposing the motion is known to be 650 N.",
             "inline": []
-          }
-        },
-        {
-          "id": "we-exr-89",
-          "statement": {
-            "text": "A 63.0-kg sprinter starts a race with an acceleration of $4.20 m{/s}^{2}$ . What is the net external force on him?",
-            "inline": []
-          },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "265 N"
-            }
-          ],
-          "answer": {
-            "text": "265 N",
-            "inline": []
-          },
-          "provenance": {
-            "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42073/index.cnxml",
-            "locator": "CNXML module m42073, exercise block exr-89",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
           }
         }
       ],
@@ -2030,14 +1558,15 @@
         "ex-sec-4-02",
         "ex-sec-4-03",
         "ex-sec-4-04",
-        "ex-sec-4-05"
+        "ex-sec-4-05",
+        "ex-sec-4-06"
       ],
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -2056,7 +1585,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-newton-s-laws-of-motion",
-          "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -2105,7 +1634,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "Baseball relief pitcher Mariano Rivera was so highly regarded that during his retirement year, opposing teams conducted farewell presentations when he played at their stadiums. The Minnesota Twins offered a unique gift: A chair made of broken bats. Any pitch can break a bat, but with Rivera's signature pitch—known as a cutter—the ball and the bat frequently came together at a point that shattered the hardwood. Typically, we think of a baseball or softball hitter exerting a force on the incoming ball, and baseball analysts focus on the resulting \"exit velocity\" as a key statistic. But the force of the ball can do its own damage. This is exactly what happens whenever one body exerts a force on another—the first also experiences a force (equal in magnitude and opposite in direction). Numerous common experiences, such as stubbing a toe or pushing off the floor during a jump, confirm this. It is precisely stated in Newton’s third law of motion .",
+              "text": "Baseball relief pitcher Mariano Rivera was so highly regarded that during his retirement year, opposing teams conducted farewell presentations when he played at their stadiums. The Minnesota Twins offered a unique gift: A chair made of broken bats. Any pitch can break a bat, but with Rivera's signature pitch—known as a cutter—the ball and the bat frequently came together at a point that shattered the hardwood. Typically, we think of a baseball or softball hitter exerting a force on the incoming ball, and baseball analysts focus on the resulting \"exit velocity\" as a key statistic. But the force of the ball can do its own damage. This is exactly what happens whenever one body exerts a force on another—the first also experiences a force (equal in magnitude and opposite in direction). Numerous common experiences, such as stubbing a toe or pushing off the floor during a jump, confirm this. It is precisely stated in Newton’s third law of motion.",
               "inline": []
             }
           },
@@ -2121,7 +1650,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "This law represents a certain *symmetry in nature* : Forces always occur in pairs, and one body cannot exert a force on another without experiencing a force itself. We sometimes refer to this law loosely as “action-reaction,” where the force exerted is the action and the force experienced as a consequence is the reaction. Newton’s third law has practical uses in analyzing the origin of forces and understanding which forces are external to a system.",
+              "text": "This law represents a certain *symmetry in nature*: Forces always occur in pairs, and one body cannot exert a force on another without experiencing a force itself. We sometimes refer to this law loosely as “action-reaction,” where the force exerted is the action and the force experienced as a consequence is the reaction. Newton’s third law has practical uses in analyzing the origin of forces and understanding which forces are external to a system.",
               "inline": []
             }
           },
@@ -2129,7 +1658,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "We can readily see Newton’s third law at work by taking a look at how people move about. Consider a swimmer pushing off from the side of a pool, as illustrated in . She pushes against the pool wall with her feet and accelerates in the direction *opposite* to that of her push. The wall has exerted an equal and opposite force back on the swimmer. You might think that two equal and opposite forces would cancel, but they do not *because they act on different systems* . In this case, there are two systems that we could investigate: the swimmer or the wall. If we select the swimmer to be the system of interest, as in the figure, then ${F}_{wall on feet}$ is an external force on this system and affects its motion. The swimmer moves in the direction of ${F}_{wall on feet}$ . In contrast, the force ${F}_{feet on wall}$ acts on the wall and not on our system of interest. Thus ${F}_{feet on wall}$ does not directly affect the motion of the system and does not cancel ${F}_{wall on feet}$ . Note that the swimmer pushes in the direction opposite to that in which she wishes to move. The reaction to her push is thus in the desired direction.",
+              "text": "We can readily see Newton’s third law at work by taking a look at how people move about. Consider a swimmer pushing off from the side of a pool, as illustrated in the figure. She pushes against the pool wall with her feet and accelerates in the direction *opposite* to that of her push. The wall has exerted an equal and opposite force back on the swimmer. You might think that two equal and opposite forces would cancel, but they do not *because they act on different systems*. In this case, there are two systems that we could investigate: the swimmer or the wall. If we select the swimmer to be the system of interest, as in the figure, then ${F}_{wall on feet}$ is an external force on this system and affects its motion. The swimmer moves in the direction of ${F}_{wall on feet}$. In contrast, the force ${F}_{feet on wall}$ acts on the wall and not on our system of interest. Thus ${F}_{feet on wall}$ does not directly affect the motion of the system and does not cancel ${F}_{wall on feet}$. Note that the swimmer pushes in the direction opposite to that in which she wishes to move. The reaction to her push is thus in the desired direction.",
               "inline": []
             }
           },
@@ -2148,7 +1677,7 @@
             "id": "b-6",
             "type": "paragraph",
             "content": {
-              "text": "Other examples of Newton’s third law are easy to find. As a professor walks in front of a whiteboard, she exerts a force backward on the floor. The floor exerts a reaction force forward on the professor that causes her to accelerate forward. Similarly, a car accelerates because the ground pushes forward on the drive wheels in reaction to the drive wheels pushing backward on the ground. You can see evidence of the wheels pushing backward when tires spin on a gravel road and throw rocks backward. In another example, rockets move forward by expelling gas backward at high velocity. This means the rocket exerts a large backward force on the gas in the rocket combustion chamber, and the gas therefore exerts a large reaction force forward on the rocket. This reaction force is called thrust . It is a common misconception that rockets propel themselves by pushing on the ground or on the air behind them. They actually work better in a vacuum, where they can more readily expel the exhaust gases. Helicopters similarly create lift by pushing air down, thereby experiencing an upward reaction force. Birds and airplanes also fly by exerting force on air in a direction opposite to that of whatever force they need. For example, the wings of a bird force air downward and backward in order to get lift and move forward. An octopus propels itself in the water by ejecting water through a funnel from its body, similar to a jet ski. Boxers and other martial arts fighters experience reaction forces when they punch, sometimes breaking their hand by hitting an opponent’s body.",
+              "text": "Other examples of Newton’s third law are easy to find. As a professor walks in front of a whiteboard, she exerts a force backward on the floor. The floor exerts a reaction force forward on the professor that causes her to accelerate forward. Similarly, a car accelerates because the ground pushes forward on the drive wheels in reaction to the drive wheels pushing backward on the ground. You can see evidence of the wheels pushing backward when tires spin on a gravel road and throw rocks backward. In another example, rockets move forward by expelling gas backward at high velocity. This means the rocket exerts a large backward force on the gas in the rocket combustion chamber, and the gas therefore exerts a large reaction force forward on the rocket. This reaction force is called thrust. It is a common misconception that rockets propel themselves by pushing on the ground or on the air behind them. They actually work better in a vacuum, where they can more readily expel the exhaust gases. Helicopters similarly create lift by pushing air down, thereby experiencing an upward reaction force. Birds and airplanes also fly by exerting force on air in a direction opposite to that of whatever force they need. For example, the wings of a bird force air downward and backward in order to get lift and move forward. An octopus propels itself in the water by ejecting water through a funnel from its body, similar to a jet ski. Boxers and other martial arts fighters experience reaction forces when they punch, sometimes breaking their hand by hitting an opponent’s body.",
               "inline": []
             }
           },
@@ -2167,7 +1696,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "Since they accelerate as a unit, we define the system to be the professor, cart, and equipment. This is System 1 in . The professor pushes backward with a force ${F}_{foot}$ of 150 N. According to Newton’s third law, the floor exerts a forward reaction force ${F}_{floor}$ of 150 N on System 1. Because all motion is horizontal, we can assume there is no net force in the vertical direction. The problem is therefore one-dimensional along the horizontal direction. As noted, $f$ opposes the motion and is thus in the opposite direction of ${F}_{floor}$ . Note that we do not include the forces ${F}_{prof}$ or ${F}_{cart}$ because these are internal forces, and we do not include ${F}_{foot}$ because it acts on the floor, not on the system. There are no other significant forces acting on System 1. If the net external force can be found from all this information, we can use Newton’s second law to find the acceleration as requested. See the free-body diagram in the figure.",
+              "text": "Since they accelerate as a unit, we define the system to be the professor, cart, and equipment. This is System 1 in the figure. The professor pushes backward with a force ${F}_{foot}$ of 150 N. According to Newton’s third law, the floor exerts a forward reaction force ${F}_{floor}$ of 150 N on System 1. Because all motion is horizontal, we can assume there is no net force in the vertical direction. The problem is therefore one-dimensional along the horizontal direction. As noted, $f$ opposes the motion and is thus in the opposite direction of ${F}_{floor}$. Note that we do not include the forces ${F}_{prof}$ or ${F}_{cart}$ because these are internal forces, and we do not include ${F}_{foot}$ because it acts on the floor, not on the system. There are no other significant forces acting on System 1. If the net external force can be found from all this information, we can use Newton’s second law to find the acceleration as requested. See the free-body diagram in the figure.",
               "inline": []
             }
           },
@@ -2191,7 +1720,7 @@
             "id": "b-11",
             "type": "paragraph",
             "content": {
-              "text": "The net external force on System 1 is deduced from and the discussion above to be",
+              "text": "The net external force on System 1 is deduced from the figure and the discussion above to be",
               "inline": []
             }
           },
@@ -2242,353 +1771,6 @@
               "text": "None of the forces between components of System 1, such as between the professor’s hands and the cart, contribute to the net external force because they are internal to System 1. Another way to look at this is to note that forces between components of a system cancel because they are equal in magnitude and opposite in direction. For example, the force exerted by the professor on the cart results in an equal and opposite force back on her. In this case both forces act on the same system and, therefore, cancel. Thus internal forces (between components of a system) cancel. Choosing System 1 was crucial to solving this problem.",
               "inline": []
             }
-          },
-          {
-            "id": "b-18",
-            "type": "paragraph",
-            "content": {
-              "text": "What object or objects commonly exert forces on the following objects in motion? (a) a soccer ball being kicked, (b) a dolphin jumping, (c) a parachutist drifting to Earth.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) A soccer player, gravity, air, and friction commonly exert forces on a soccer ball being kicked.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) Gravity and the surrounding water commonly exert forces on a dolphin jumping. (The dolphin moves its muscles to exert a force on the water. The water exerts an equal force on the dolphin, resulting in the dolphin’s motion.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) Gravity and air exert forces on a parachutist drifting to Earth.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "A ball with a mass of 0.25 kg hits a gym ceiling with a force of 78.0 N. What is the net force on the ball?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "paragraph",
-            "content": {
-              "text": "Which of the following is true?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "Stationary skater A pushes stationary skater B, who then accelerates at 5.0 m/s 2 . Skater A does not move. Since forces act in action-reaction pairs, explain why Skater A did not move?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-25",
-            "type": "paragraph",
-            "content": {
-              "text": "The current in a river exerts a force of 9.0 N on a balloon floating in the river. A wind exerts a force of 13.0 N on the balloon in the opposite direction. Draw a free-body diagram to show the forces acting on the balloon. Use your free-body diagram to predict the effect on the balloon.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-26",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/0a8df1c904e5b7fec93d05b5383520f21d4c553e892a8d2d08a9b19f75efeda1.jpg",
-            "caption": {
-              "text": "A free-body diagram illustrating four forces acting on a central point. Fw (13.0 N) points left, Fc (9.0 N) points right, Fb points upward, and Fg points downward.",
-              "inline": []
-            },
-            "alt": "A free-body diagram illustrating four forces acting on a central point. Fw (13.0 N) points left, Fc (9.0 N) points right, Fb points upward, and Fg points downward.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "The diagram consists of a black dot in the center and two small red arrows pointing up (Fb) and down (Fg) and two long red arrows pointing right (Fc = 9.0 N) and left (Fw=13.0 N).",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "paragraph",
-            "content": {
-              "text": "In the diagram, *F* g represents the force due to gravity on the balloon, and *F b* represents the buoyant force. These two forces are equal in magnitude and opposite in direction. *F* c represents the force of the current. *F* w represents the force of the wind. The net force on the balloon will be ${F}_{w}-{F}_{c}=4.0$ N and the balloon will accelerate in the direction the wind is blowing.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-29",
-            "type": "paragraph",
-            "content": {
-              "text": "A force is applied to accelerate an object on a smooth icy surface. When the force stops, which of the following will be true? (Assume zero friction.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-30",
-            "type": "paragraph",
-            "content": {
-              "text": "A parachutist’s fall to Earth is determined by two opposing forces. A gravitational force of 539 N acts on the parachutist. After 2 s, she opens her parachute and experiences an air resistance of 615 N. At what speed is the parachutist falling after 10 s?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-31",
-            "type": "paragraph",
-            "content": {
-              "text": "Since $m=F/a$ , the parachutist has a mass of $539N/9{.8 km/s}^{2}=55kg$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-32",
-            "type": "paragraph",
-            "content": {
-              "text": "For the first 2 s, the parachutist accelerates at 9.8 m/s 2 .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-33",
-            "type": "paragraph",
-            "content": {
-              "text": "$v=at=9.8\\frac{m}{{s}^{2}}•2s=19.6\\frac{m}{s}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-34",
-            "type": "paragraph",
-            "content": {
-              "text": "Her speed after 2 s is 19.6 m/s.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-35",
-            "type": "paragraph",
-            "content": {
-              "text": "From 2 s to 10 s, the net force on the parachutist is 539 N – 615 N, or 76 N upward.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-36",
-            "type": "paragraph",
-            "content": {
-              "text": "$a=\\frac{F}{m}=\\frac{-76N}{55​​​​kg}=-1.4\\frac{m}{{s}^{2}}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-37",
-            "type": "paragraph",
-            "content": {
-              "text": "Since $v={v}_{0}+at$ , $v=19.6{m/s}^{2}+(-1.4{m/s}^{2})(8s)=8.4{m/s}^{2}$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-38",
-            "type": "paragraph",
-            "content": {
-              "text": "At 10 s, the parachutist is falling to Earth at 8.4 m/s.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-39",
-            "type": "paragraph",
-            "content": {
-              "text": "A flight attendant pushes a cart down the aisle of a plane in flight. In determining the acceleration of the cart relative to the plane, which factor do you not need to consider?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-40",
-            "type": "paragraph",
-            "content": {
-              "text": "A landscaper is easing a wheelbarrow full of soil down a hill. Define the system you would analyze and list all the forces that you would need to include to calculate the acceleration of the wheelbarrow.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-41",
-            "type": "paragraph",
-            "content": {
-              "text": "The system includes the gardener and the wheelbarrow with its contents. The following forces are important to include: the weight of the wheelbarrow, the weight of the gardener, the normal force for the wheelbarrow and the gardener, the force of the gardener pushing against the ground and the equal force of the ground pushing back against the gardener, and any friction in the wheelbarrow’s wheels.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-42",
-            "type": "paragraph",
-            "content": {
-              "text": "Two water-skiers, with masses of 48 kg and 61 kg, are preparing to be towed behind the same boat. When the boat accelerates, the rope the skiers hold onto accelerates with it and exerts a net force of 290 N on the skiers. At what rate will the skiers accelerate?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-43",
-            "type": "paragraph",
-            "content": {
-              "text": "A figure skater has a mass of 40 kg and her partner's mass is 50 kg. She pushes against the ice with a force of 120 N, causing her and her partner to move forward. Calculate the pair’s acceleration. Assume that all forces opposing the motion, such as friction and air resistance, total 5.0 N.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-44",
-            "type": "paragraph",
-            "content": {
-              "text": "The system undergoing acceleration is the two figure skaters together.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-45",
-            "type": "paragraph",
-            "content": {
-              "text": "Net force = $120N–5.0N=115N$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-46",
-            "type": "paragraph",
-            "content": {
-              "text": "Total mass = $40kg + 50 kg = 90 kg$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-47",
-            "type": "paragraph",
-            "content": {
-              "text": "Using Newton’s second law, we have that",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-48",
-            "type": "paragraph",
-            "content": {
-              "text": "$a=\\frac{F}{m}=\\frac{115N}{90kg}=1.28\\frac{m}{{s}^{2}}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-49",
-            "type": "paragraph",
-            "content": {
-              "text": "The pair accelerates forward at 1.28 m/s 2 .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-50",
-            "type": "paragraph",
-            "content": {
-              "text": "When you take off in a jet aircraft, there is a sensation of being pushed back into the seat. Explain why you move backward in the seat—is there really a force backward on you? (The same reasoning explains whiplash injuries, in which the head is apparently thrown backward.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-51",
-            "type": "paragraph",
-            "content": {
-              "text": "A device used since the 1940s to measure the kick or recoil of the body due to heart beats is the “ballistocardiograph.” What physics principle(s) are involved here to measure the force of cardiac contraction? How might we construct such a device?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-52",
-            "type": "paragraph",
-            "content": {
-              "text": "Describe a situation in which one system exerts a force on another and, as a consequence, experiences a force that is equal in magnitude and opposite in direction. Which of Newton’s laws of motion apply?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-53",
-            "type": "paragraph",
-            "content": {
-              "text": "Why does an ordinary rifle recoil (kick backward) when fired? The barrel of a recoilless rifle is open at both ends. Describe how Newton’s third law applies when one is fired. Can you safely stand close behind one when it is fired?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-54",
-            "type": "paragraph",
-            "content": {
-              "text": "An American football lineman reasons that it is senseless to try to out-push the opposing player, since no matter how hard he pushes he will experience an equal and opposite force from the other player. Use Newton’s laws and draw a free-body diagram of an appropriate system to explain how he can still out-push the opposition if he is strong enough.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-55",
-            "type": "paragraph",
-            "content": {
-              "text": "Newton’s third law of motion tells us that forces always occur in pairs of equal and opposite magnitude. Explain how the choice of the “system of interest” affects whether one such pair of forces cancels.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-56",
-            "type": "heading",
-            "text": {
-              "text": "Problem Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-57",
-            "type": "paragraph",
-            "content": {
-              "text": "What net external force is exerted on a 1100-kg artillery shell fired from a battleship if the shell is accelerated at $2.40×{10}^{4}{m/s}^{2}$ ? What is the magnitude of the force exerted on the ship by the artillery shell?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-58",
-            "type": "paragraph",
-            "content": {
-              "text": "Force on shell: $2.64×{10}^{7}N$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-59",
-            "type": "paragraph",
-            "content": {
-              "text": "Force exerted on ship = $-2.64×{10}^{7}N$ , by Newton’s third law",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-60",
-            "type": "paragraph",
-            "content": {
-              "text": "A rugby player is being pushed backward by an opposing player who is exerting a force of 800 N on him. The mass of the losing player plus equipment is 90.0 kg, and he is accelerating at $1.20{m/s}^{2}$ backward. (a) What is the force of friction between the losing player’s feet and the grass? (b) What force does the winning player exert on the ground to move forward if his mass plus equipment is 110 kg? (c) Draw a sketch of the situation showing the system of interest used to solve each part. For this situation, draw a free-body diagram and write the net force equation.",
-              "inline": []
-            }
           }
         ]
       },
@@ -2609,7 +1791,7 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in ."
+              "expression": "A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in the figure."
             },
             {
               "step_number": 2,
@@ -2625,7 +1807,7 @@
             }
           ],
           "answer": {
-            "text": "A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in . Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.",
+            "text": "A physics professor pushes a cart of demonstration equipment to a lecture hall, as seen in the figure. Her mass is 65.0 kg, the cart’s is 12.0 kg, and the equipment’s is 7.0 kg. Calculate the acceleration produced when the professor exerts a backward force of 150 N on the floor. All forces opposing the motion, such as friction on the cart’s wheels and air resistance, total 24.0 N.",
             "inline": []
           }
         },
@@ -2645,15 +1827,15 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "Calculate the force the professor exerts on the cart in using data from the previous example if needed."
+              "expression": "Calculate the force the professor exerts on the cart in the figure using data from the previous example if needed."
             },
             {
               "step_number": 2,
-              "expression": "If we now define the system of interest to be the cart plus equipment (System 2 in ), then the net external force on System 2 is the force the professor exerts on the cart minus friction."
+              "expression": "If we now define the system of interest to be the cart plus equipment (System 2 in the figure), then the net external force on System 2 is the force the professor exerts on the cart minus friction."
             },
             {
               "step_number": 3,
-              "expression": "The force she exerts on the cart, ${F}_{prof}$ , is an external force acting on System 2."
+              "expression": "The force she exerts on the cart, ${F}_{prof}$, is an external force acting on System 2."
             },
             {
               "step_number": 4,
@@ -2661,11 +1843,11 @@
             },
             {
               "step_number": 5,
-              "expression": "Newton’s second law can be used to find ${F}_{prof}$ ."
+              "expression": "Newton’s second law can be used to find ${F}_{prof}$."
             },
             {
               "step_number": 6,
-              "expression": "Starting with \\[$a=\\frac{{F}_{net}}{m}$\\] and noting that the magnitude of the net external force on System 2 is \\[${F}_{net}={F}_{prof}-f,$\\] we solve for ${F}_{prof}$ , the desired quantity: \\[${F}_{prof}={F}_{net}+f.$\\] The value of $f$ is given, so we must calculate net ${F}_{net}$ ."
+              "expression": "Starting with \\[$a=\\frac{{F}_{net}}{m}$\\] and noting that the magnitude of the net external force on System 2 is \\[${F}_{net}={F}_{prof}-f,$\\] we solve for ${F}_{prof}$, the desired quantity: \\[${F}_{prof}={F}_{net}+f.$\\] The value of $f$ is given, so we must calculate net ${F}_{net}$."
             },
             {
               "step_number": 7,
@@ -2673,7 +1855,7 @@
             },
             {
               "step_number": 8,
-              "expression": "Using Newton’s second law we see that where the mass of System 2 is 19.0 kg ( $m$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $a=1.5{m/s}^{2}$ in the previous example."
+              "expression": "Using Newton’s second law we see that where the mass of System 2 is 19.0 kg ($m$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $a=1.5 {m/s}^{2}$ in the previous example."
             },
             {
               "step_number": 9,
@@ -2697,7 +1879,7 @@
             }
           ],
           "answer": {
-            "text": "Calculate the force the professor exerts on the cart in using data from the previous example if needed. If we now define the system of interest to be the cart plus equipment (System 2 in ), then the net external force on System 2 is the force the professor exerts on the cart minus friction. The force she exerts on the cart, ${F}_{prof}$ , is an external force acting on System 2. ${F}_{prof}$ was internal to System 1, but it is external to System 2 and will enter Newton’s second law for System 2. Newton’s second law can be used to find ${F}_{prof}$ . Starting with \\[$a=\\frac{{F}_{net}}{m}$\\] and noting that the magnitude of the net external force on System 2 is \\[${F}_{net}={F}_{prof}-f,$\\] we solve for ${F}_{prof}$ , the desired quantity: \\[${F}_{prof}={F}_{net}+f.$\\] The value of $f$ is given, so we must calculate net ${F}_{net}$ . That can be done since both the acceleration and mass of System 2 are known. Using Newton’s second law we see that where the mass of System 2 is 19.0 kg ( $m$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $a=1.5{m/s}^{2}$ in the previous example. Thus, \\[${F}_{net}=(19.0 kg)(1.5{m/s}^{2})=29 N.$\\] Now we can find the desired force: \\[${F}_{prof}={F}_{net}+f,$\\] \\[${F}_{prof}=29 N+24.0 N=53 N.$\\] It is interesting that this force is significantly less than the 150-N force the professor exerted backward on the floor. Not all of that 150-N force is transmitted to the cart; some of it accelerates the professor. The choice of a system is an important analytical step both in solving problems and in thoroughly understanding the physics of the situation (which is not necessarily the same thing). Visualize the gravitational force that two objects exert on each other. Change properties of the objects in order to see how it changes the gravity force.",
+            "text": "Calculate the force the professor exerts on the cart in the figure using data from the previous example if needed. If we now define the system of interest to be the cart plus equipment (System 2 in the figure), then the net external force on System 2 is the force the professor exerts on the cart minus friction. The force she exerts on the cart, ${F}_{prof}$, is an external force acting on System 2. ${F}_{prof}$ was internal to System 1, but it is external to System 2 and will enter Newton’s second law for System 2. Newton’s second law can be used to find ${F}_{prof}$. Starting with \\[$a=\\frac{{F}_{net}}{m}$\\] and noting that the magnitude of the net external force on System 2 is \\[${F}_{net}={F}_{prof}-f,$\\] we solve for ${F}_{prof}$, the desired quantity: \\[${F}_{prof}={F}_{net}+f.$\\] The value of $f$ is given, so we must calculate net ${F}_{net}$. That can be done since both the acceleration and mass of System 2 are known. Using Newton’s second law we see that where the mass of System 2 is 19.0 kg ($m$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $a=1.5 {m/s}^{2}$ in the previous example. Thus, \\[${F}_{net}=(19.0 kg)(1.5{m/s}^{2})=29 N.$\\] Now we can find the desired force: \\[${F}_{prof}={F}_{net}+f,$\\] \\[${F}_{prof}=29 N+24.0 N=53 N.$\\] It is interesting that this force is significantly less than the 150-N force the professor exerted backward on the floor. Not all of that 150-N force is transmitted to the cart; some of it accelerates the professor. The choice of a system is an important analytical step both in solving problems and in thoroughly understanding the physics of the situation (which is not necessarily the same thing). Visualize the gravitational force that two objects exert on each other. Change properties of the objects in order to see how it changes the gravity force.",
             "inline": []
           }
         },
@@ -2770,6 +1952,28 @@
             "locator": "CNXML module m42074, conceptual question on rowing",
             "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
+        },
+        {
+          "id": "mis-3",
+          "claim": {
+            "text": "The action and the reaction cancel, so nothing can move.",
+            "inline": []
+          },
+          "correction": {
+            "text": "They act on two different bodies, so they never cancel on one body. That is why the swimmer accelerates away from the wall.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the cancellation as an option.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-4, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
         }
       ],
       "summary_points": [
@@ -2803,7 +2007,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "motion",
-          "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -2817,6 +2021,14 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-newton-s-laws-of-motion",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ],
       "provenance": {
@@ -2834,8 +2046,8 @@
       "section_id": "sec-2",
       "tier": "stretch",
       "kind": "verbal",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "A hawk accelerates as it glides in the air. Does the force causing the acceleration come from the hawk itself? Explain.",
         "inline": []
@@ -2868,9 +2080,268 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
+      "id": "ex-sec-2-02",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "A book rests on a table. Name the two forces that belong in its free-body diagram.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Its weight acting downward and the normal force from the table acting upward.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Choose the book as the system."
+        },
+        {
+          "step_number": 2,
+          "expression": "The Earth pulls it down with its weight."
+        },
+        {
+          "step_number": 3,
+          "expression": "The table pushes it up with a normal force."
+        }
+      ],
+      "tags": [
+        "free-body diagram",
+        "weight",
+        "normal force"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-03",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "A force of 12 N acts east and a force of 5 N acts west on the same body. Find the net force.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "7 N east",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Take east as positive: +12 N and -5 N."
+        },
+        {
+          "step_number": 2,
+          "expression": "Add the forces: 12 - 5 = 7 N."
+        },
+        {
+          "step_number": 3,
+          "expression": "The result is positive, so the net force points east."
+        }
+      ],
+      "tags": [
+        "net force",
+        "vector addition"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-3-01",
+      "section_id": "sec-3",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "A bus stops suddenly and the passengers lurch forward. Which of Newton’s laws explains this?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Newton’s first law: the passengers tend to keep their forward velocity.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Before braking, the passengers move forward with the bus."
+        },
+        {
+          "step_number": 2,
+          "expression": "When the bus slows, no forward force acts on the passengers."
+        },
+        {
+          "step_number": 3,
+          "expression": "By inertia they continue forward, which is Newton’s first law."
+        }
+      ],
+      "tags": [
+        "inertia",
+        "newton first law"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-3-02",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "verbal",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A spacecraft is far from any star or planet and moves in a straight line at constant speed. What is the net force on it?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Zero.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Constant velocity means the acceleration is zero."
+        },
+        {
+          "step_number": 2,
+          "expression": "Newton’s first law says a body keeps a constant velocity when the net external force is zero."
+        },
+        {
+          "step_number": 3,
+          "expression": "Therefore the net force on the spacecraft is zero."
+        }
+      ],
+      "tags": [
+        "inertia",
+        "net force"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-3-03",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "verbal",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A hockey puck slides across frictionless ice at constant velocity. A student says a forward force must be pushing it. Is the student right? Explain.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "No. With no friction and no other horizontal force, the net force is zero and the puck keeps its velocity.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Constant velocity means zero acceleration."
+        },
+        {
+          "step_number": 2,
+          "expression": "By Newton’s first law, zero acceleration requires zero net force."
+        },
+        {
+          "step_number": 3,
+          "expression": "No forward force is needed to keep the puck moving; only a force would be needed to change its motion."
+        }
+      ],
+      "tags": [
+        "inertia",
+        "frictionless motion"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
       "id": "ex-sec-4-01",
       "section_id": "sec-4",
       "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A 63.0-kg sprinter starts a race with an acceleration of $4.20 m{/s}^{2}$. What is the net external force on him?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "265 N",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "265 N"
+        }
+      ],
+      "tags": [
+        "acceleration",
+        "free-body-diagram",
+        "newtons-second-law",
+        "system-of-interest"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42073/index.cnxml",
+        "locator": "CNXML module m42073, exercise block exr-89",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-4-02",
+      "section_id": "sec-4",
+      "tier": "stretch",
       "kind": "numeric",
       "difficulty": 4,
       "marks": 4,
@@ -2906,14 +2377,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-4-02",
+      "id": "ex-sec-4-03",
       "section_id": "sec-4",
       "tier": "core",
       "kind": "numeric",
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "(a) If the rocket sled shown in starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust T is $2.59×{10}^{4}$ N, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?",
+        "text": "(a) If the rocket sled starts with only one rocket burning, what is the magnitude of its acceleration? Assume that the mass of the system is 2100 kg, the thrust $T$ is $2.59\\times10^{4}\\ \\mathrm{N}$, and the force of friction opposing the motion is known to be 650 N. (b) Why is the acceleration not one-fourth of what it is with all rockets burning?",
         "inline": []
       },
       "options": [],
@@ -2948,9 +2419,9 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-4-03",
+      "id": "ex-sec-4-04",
       "section_id": "sec-4",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
       "difficulty": 4,
       "marks": 4,
@@ -2998,14 +2469,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-4-04",
+      "id": "ex-sec-4-05",
       "section_id": "sec-4",
       "tier": "core",
       "kind": "numeric",
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "The rocket sled shown in accelerates at a rate of $49.0{m/s}^{2}$ . Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body.",
+        "text": "The rocket sled accelerates at a rate of $49.0\\ \\mathrm{m/s^{2}}$. Its passenger has a mass of 75.0 kg. (a) Calculate the horizontal component of the force the seat exerts against his body. Compare this with his weight by using a ratio. (b) Calculate the direction and magnitude of the total force the seat exerts against his body.",
         "inline": []
       },
       "options": [],
@@ -3049,9 +2520,9 @@
       ]
     },
     {
-      "id": "ex-sec-4-05",
+      "id": "ex-sec-4-06",
       "section_id": "sec-4",
-      "tier": "core",
+      "tier": "stretch",
       "kind": "numeric",
       "difficulty": 4,
       "marks": 4,
@@ -3103,10 +2574,27 @@
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Which of the following is true? Earth exerts a force due to gravity on your body, and your body exerts a smaller force on the Earth, because your mass is smaller than the mass of the Earth.; The Moon orbits the Earth because the Earth exerts a force on the Moon and the Moon exerts a force equal in magnitude and direction on the Earth.; A rocket taking off exerts a force on the Earth equal to the force the Earth exerts on the rocket.; An airplane cruising at a constant speed is not affected by gravity.",
+        "text": "Which of the following is true?",
         "inline": []
       },
-      "options": [],
+      "options": [
+        {
+          "id": "a",
+          "text": "Earth exerts a force due to gravity on your body, and your body exerts a smaller force on the Earth, because your mass is smaller than the mass of the Earth"
+        },
+        {
+          "id": "b",
+          "text": "The Moon orbits the Earth because the Earth exerts a force on the Moon and the Moon exerts a force equal in magnitude and direction on the Earth"
+        },
+        {
+          "id": "c",
+          "text": "A rocket taking off exerts a force on the Earth equal to the force the Earth exerts on the rocket"
+        },
+        {
+          "id": "d",
+          "text": "An airplane cruising at a constant speed is not affected by gravity"
+        }
+      ],
       "answer": {
         "text": "(c)",
         "inline": []
@@ -3137,8 +2625,8 @@
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "numeric",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "The current in a river exerts a force of 9.0 N on a balloon floating in the river. A wind exerts a force of 13.0 N on the balloon in the opposite direction. Draw a free-body diagram to show the forces acting on the balloon. Use your free-body diagram to predict the effect on the balloon.",
         "inline": []
@@ -3252,8 +2740,8 @@
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "algebraic",
-      "difficulty": 3,
-      "marks": 3,
+      "difficulty": 4,
+      "marks": 4,
       "stem": {
         "text": "A landscaper is easing a wheelbarrow full of soil down a hill. Define the system you would analyze and list all the forces that you would need to include to calculate the acceleration of the wheelbarrow.",
         "inline": []
@@ -3358,7 +2846,7 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "What net external force is exerted on a 1100-kg artillery shell fired from a battleship if the shell is accelerated at $2.40×{10}^{4}{m/s}^{2}$ ? What is the magnitude of the force exerted on the ship by the artillery shell?",
+        "text": "What net external force is exerted on a 1100-kg artillery shell fired from a battleship if the shell is accelerated at $2.40×{10}^{4} {m/s}^{2}$? What is the magnitude of the force exerted on the ship by the artillery shell?",
         "inline": []
       },
       "options": [],
@@ -3397,42 +2885,33 @@
       "exam": "JAMB",
       "subject": "physics",
       "topic_slug": "motion",
-      "subtopic_slug": "newton-s-laws-of-motion-inertia-mass-impulse-momentum-and-co",
-      "status": "covered",
-      "papers": [
-        {
-          "question_id": "q_claim_2025_physics_74552",
-          "year": 2025,
-          "source": "claimed_paper"
-        },
-        {
-          "question_id": "q_claim_2025_physics_74561",
-          "year": 2025,
-          "source": "claimed_paper"
-        }
-      ]
-    },
-    {
-      "exam": "JAMB",
-      "subject": "physics",
-      "topic_slug": "scalars-and-vectors",
-      "subtopic_slug": "types-of-force-contact-force-and-field-force",
+      "subtopic_slug": null,
       "status": "covered",
       "papers": []
     },
     {
       "exam": "WAEC",
       "subject": "physics",
+      "topic_slug": "waec-mass-and-weight",
+      "subtopic_slug": null,
+      "status": "partial",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "physics",
+      "topic_slug": "waec-motion",
+      "subtopic_slug": null,
+      "status": "partial",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "physics",
       "topic_slug": "waec-newton-s-laws-of-motion",
-      "subtopic_slug": "waec-second-law-force-acceleration-momentum-and-impulse-2",
+      "subtopic_slug": null,
       "status": "covered",
-      "papers": [
-        {
-          "question_id": "q_waec_2023_physics_69404",
-          "year": 2023,
-          "source": "claimed_paper"
-        }
-      ]
+      "papers": []
     }
   ],
   "exam_traps": [
@@ -3461,13 +2940,13 @@
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2023_physics_69404"
       },
       "status": "proven",
-      "frequency": "recurring",
+      "frequency": "occasional",
       "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
+        "publisher": "West African Examinations Council (WAEC)",
+        "title": "WAEC Physics 2023",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2023_physics_69404",
         "locator": "paper question q_waec_2023_physics_69404",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+        "licence": "Past-paper question quoted for evidence; rights remain with the examination board."
       }
     },
     {
@@ -3495,79 +2974,13 @@
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2024_physics_72028"
       },
       "status": "proven",
-      "frequency": "recurring",
+      "frequency": "occasional",
       "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
+        "publisher": "West African Examinations Council (WAEC)",
+        "title": "WAEC Physics 2024",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2024_physics_72028",
         "locator": "paper question q_waec_2024_physics_72028",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-3",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": {
-        "text": "A body can exert a force on itself.",
-        "inline": []
-      },
-      "correction": {
-        "text": "It cannot. A hawk that accelerates while gliding is pushed by the air and pulled by the Earth.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the body as its own source of force.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-7",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-2",
-        "locator": "our practice question rc-7",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-4",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": {
-        "text": "The action and the reaction cancel, so nothing can move.",
-        "inline": []
-      },
-      "correction": {
-        "text": "They act on two different bodies, so they never cancel on one body. That is why the swimmer accelerates away from the wall.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the cancellation as an option.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-8",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_forces_and_newtons_laws/sections/sec-5",
-        "locator": "our practice question rc-8",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+        "licence": "Past-paper question quoted for evidence; rights remain with the examination board."
       }
     }
   ],

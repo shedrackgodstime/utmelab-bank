@@ -44,7 +44,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "We know from the second law of thermodynamics that a heat engine cannot be 100% efficient, since there must always be some heat transfer ${Q}_{c}$ to the environment, which is often called waste heat. How efficient, then, can a heat engine be? This question was answered at a theoretical level in 1824 by a young French engineer, Sadi Carnot (1796–1832), in his study of the then-emerging heat engine technology crucial to the Industrial Revolution. He devised a theoretical cycle, now called the Carnot cycle , which is the most efficient cyclical process possible. The second law of thermodynamics can be restated in terms of the Carnot cycle, and so what Carnot actually discovered was this fundamental law. Any heat engine employing the Carnot cycle is called a Carnot engine .",
+        "text": "We know from the second law of thermodynamics that a heat engine cannot be 100% efficient, since there must always be some heat transfer ${Q}_{c}$ to the environment, which is often called waste heat. How efficient, then, can a heat engine be? This question was answered at a theoretical level in 1824 by a young French engineer, Sadi Carnot (1796–1832), in his study of the then-emerging heat engine technology crucial to the Industrial Revolution. He devised a theoretical cycle, now called the Carnot cycle, which is the most efficient cyclical process possible. The second law of thermodynamics can be restated in terms of the Carnot cycle, and so what Carnot actually discovered was this fundamental law. Any heat engine employing the Carnot cycle is called a Carnot engine.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "shows the $PV$ diagram for a Carnot cycle. The cycle comprises two isothermal and two adiabatic processes. Recall that both isothermal and adiabatic processes are, in principle, reversible.",
+        "text": "The figure shows the $PV$ diagram for a Carnot cycle. The cycle comprises two isothermal and two adiabatic processes. Recall that both isothermal and adiabatic processes are, in principle, reversible.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Carnot also determined the efficiency of a perfect heat engine—that is, a Carnot engine. It is always true that the efficiency of a cyclical heat engine is given by:",
+        "text": "Carnot also determined the efficiency of a perfect heat engine—that is, a Carnot engine. It is always true that the efficiency of a cyclical heat engine is given by: $Eff=\\frac{{Q}_{h}-{Q}_{c}}{{Q}_{h}}=1-\\frac{{Q}_{c}}{{Q}_{h}}.$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "What Carnot found was that for a perfect heat engine, the ratio ${Q}_{c}/{Q}_{h}$ equals the ratio of the absolute temperatures of the heat reservoirs. That is, ${Q}_{c}/{Q}_{h}={T}_{c}/{T}_{h}$ for a Carnot engine, so that the maximum or Carnot efficiency ${Eff}_{C}$ is given by",
+        "text": "What Carnot found was that for a perfect heat engine, the ratio ${Q}_{c}/{Q}_{h}$ equals the ratio of the absolute temperatures of the heat reservoirs. That is, ${Q}_{c}/{Q}_{h}={T}_{c}/{T}_{h}$ for a Carnot engine, so that the maximum or Carnot efficiency ${Eff}_{C}$ is given by ${Eff}_{C}=1-\\frac{{T}_{c}}{{T}_{h}},$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "A nuclear power reactor has pressurized water at $300ºC$ . (Higher temperatures are theoretically possible but practically not, due to limitations with materials used in the reactor.) Heat transfer from this water is a complex process (see ). Steam, produced in the steam generator, is used to drive the turbine-generators. Eventually the steam is condensed to water at $27ºC$ and then heated again to start the cycle over. Calculate the maximum theoretical efficiency for a heat engine operating between these two temperatures.",
+        "text": "A nuclear power reactor has pressurized water at $300ºC$. (Higher temperatures are theoretically possible but practically not, due to limitations with materials used in the reactor.) Heat transfer from this water is a complex process (see the figure). Steam, produced in the steam generator, is used to drive the turbine-generators. Eventually the steam is condensed to water at $27ºC$ and then heated again to start the cycle over. Calculate the maximum theoretical efficiency for a heat engine operating between these two temperatures.",
         "inline": []
       },
       "level": "core"
@@ -193,7 +193,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The hot and cold reservoir temperatures are given as $300ºC$ and $27.0ºC$ , respectively. In kelvins, then, ${T}_{h}=573 K$ and ${T}_{c}=300 K$ , so that the maximum efficiency is",
+        "text": "The hot and cold reservoir temperatures are given as $300ºC$ and $27.0ºC$, respectively. In kelvins, then, ${T}_{h}=573 K$ and ${T}_{c}=300 K$, so that the maximum efficiency is ${Eff}_{C}=1-\\frac{{T}_{c}}{{T}_{h}}.$",
         "inline": []
       },
       "level": "core"
@@ -202,7 +202,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "A typical nuclear power station’s actual efficiency is about 35%, a little better than 0.7 times the maximum possible value, a tribute to superior engineering. Electrical power stations fired by coal, oil, and natural gas have greater actual efficiencies (about 42%), because their boilers can reach higher temperatures and pressures. The cold reservoir temperature in any of these power stations is limited by the local environment. shows (a) the exterior of a nuclear power station and (b) the exterior of a coal-fired power station. Both have cooling towers into which water from the condenser enters the tower near the top and is sprayed downward, cooled by evaporation.",
+        "text": "A typical nuclear power station’s actual efficiency is about 35%, a little better than 0.7 times the maximum possible value, a tribute to superior engineering. Electrical power stations fired by coal, oil, and natural gas have greater actual efficiencies (about 42%), because their boilers can reach higher temperatures and pressures. The cold reservoir temperature in any of these power stations is limited by the local environment. The figure shows (a) the exterior of a nuclear power station and (b) the exterior of a coal-fired power station. Both have cooling towers into which water from the condenser enters the tower near the top and is sprayed downward, cooled by evaporation.",
         "inline": []
       },
       "level": "core"
@@ -224,7 +224,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Since all real processes are irreversible, the actual efficiency of a heat engine can never be as great as that of a Carnot engine, as illustrated in (a). Even with the best heat engine possible, there are always dissipative processes in peripheral equipment, such as electrical transformers or car transmissions. These further reduce the overall efficiency by converting some of the engine’s work output back into heat transfer, as shown in (b).",
+        "text": "Since all real processes are irreversible, the actual efficiency of a heat engine can never be as great as that of a Carnot engine, as illustrated in the figure (a). Even with the best heat engine possible, there are always dissipative processes in peripheral equipment, such as electrical transformers or car transmissions. These further reduce the overall efficiency by converting some of the engine’s work output back into heat transfer, as shown in the figure (b).",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Think about the drinking bird at the beginning of this section ( ). Although the bird enjoys the theoretical maximum efficiency possible, if left to its own devices over time, the bird will cease “drinking.” What are some of the dissipative processes that might cause the bird’s motion to cease?",
+        "text": "Think about the drinking bird at the beginning of this section (the figure). Although the bird enjoys the theoretical maximum efficiency possible, if left to its own devices over time, the bird will cease “drinking.” What are some of the dissipative processes that might cause the bird’s motion to cease?",
         "inline": []
       },
       "level": "core",
@@ -337,7 +337,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A certain gasoline engine has an efficiency of 30.0%. What would the hot reservoir temperature be for a Carnot engine having that efficiency, if it operates with a cold reservoir temperature of $200ºC$ ?",
+        "text": "A certain gasoline engine has an efficiency of 30.0%. What would the hot reservoir temperature be for a Carnot engine having that efficiency, if it operates with a cold reservoir temperature of $200ºC$?",
         "inline": []
       },
       "level": "core",
@@ -361,7 +361,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of $700ºC$ and $27.0ºC$ . (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in ).",
+        "text": "A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of $700ºC$ and $27.0ºC$. (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in the example).",
         "inline": []
       },
       "level": "core",
@@ -382,7 +382,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the hot reservoir temperature of a Carnot engine that has an efficiency of 42.0% and a cold reservoir temperature of $27.0ºC$ ? (b) What must the hot reservoir temperature be for a real heat engine that achieves 0.700 of the maximum efficiency, but still has an efficiency of 42.0% (and a cold reservoir at $27.0ºC$ )? (c) Does your answer imply practical limits to the efficiency of car gasoline engines?",
+        "text": "(a) What is the hot reservoir temperature of a Carnot engine that has an efficiency of 42.0% and a cold reservoir temperature of $27.0ºC$? (b) What must the hot reservoir temperature be for a real heat engine that achieves 0.700 of the maximum efficiency, but still has an efficiency of 42.0% (and a cold reservoir at $27.0ºC$)? (c) Does your answer imply practical limits to the efficiency of car gasoline engines?",
         "inline": []
       },
       "level": "core",
@@ -415,7 +415,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Steam locomotives have an efficiency of 17.0% and operate with a hot steam temperature of $425ºC$ . (a) What would the cold reservoir temperature be if this were a Carnot engine? (b) What would the maximum efficiency of this steam engine be if its cold reservoir temperature were $150ºC$ ?",
+        "text": "Steam locomotives have an efficiency of 17.0% and operate with a hot steam temperature of $425ºC$. (a) What would the cold reservoir temperature be if this were a Carnot engine? (b) What would the maximum efficiency of this steam engine be if its cold reservoir temperature were $150ºC$?",
         "inline": []
       },
       "level": "core",
@@ -436,7 +436,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Practical steam engines utilize $450ºC$ steam, which is later exhausted at $270ºC$ . (a) What is the maximum efficiency that such a heat engine can have? (b) Since $270ºC$ steam is still quite hot, a second steam engine is sometimes operated using the exhaust of the first. What is the maximum efficiency of the second engine if its exhaust has a temperature of $150ºC$ ? (c) What is the overall efficiency of the two engines? (d) Show that this is the same efficiency as a single Carnot engine operating between $450ºC$ and $150ºC$ . Explicitly show how you follow the steps in the Problem-Solving Strategies for Thermodynamics .",
+        "text": "Practical steam engines utilize $450ºC$ steam, which is later exhausted at $270ºC$. (a) What is the maximum efficiency that such a heat engine can have? (b) Since $270ºC$ steam is still quite hot, a second steam engine is sometimes operated using the exhaust of the first. What is the maximum efficiency of the second engine if its exhaust has a temperature of $150ºC$? (c) What is the overall efficiency of the two engines? (d) Show that this is the same efficiency as a single Carnot engine operating between $450ºC$ and $150ºC$. Explicitly show how you follow the steps in the Problem-Solving Strategies for Thermodynamics.",
         "inline": []
       },
       "level": "core",
@@ -496,7 +496,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A coal-fired electrical power station has an efficiency of 38%. The temperature of the steam leaving the boiler is $550ºC$ . What percentage of the maximum efficiency does this station obtain? (Assume the temperature of the environment is $20ºC$ .)",
+        "text": "A coal-fired electrical power station has an efficiency of 38%. The temperature of the steam leaving the boiler is $550ºC$. What percentage of the maximum efficiency does this station obtain? (Assume the temperature of the environment is $20ºC$.)",
         "inline": []
       },
       "level": "core",

@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Magnetism",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -127,7 +127,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_electric_current"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -146,24 +148,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -180,6 +165,13 @@
         {
           "claim": "Magnetic field lines can cross each other.",
           "correction": "They never cross. The field at a point has one direction, and two field lines through the same point would mean two directions at once."
+        },
+        {
+          "claim": "Like poles of a magnet attract each other.",
+          "correction": "Like poles repel and unlike poles attract. That is the first law of magnetism, and it is the same pattern as the repulsion between like electric charges.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_magnetism:trap-3",
+          "signal": "Our own question offers attraction as the answer."
         }
       ],
       "summary": [
@@ -201,13 +193,69 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What happens when the north pole of one magnet is brought near the north pole of another?",
+          "answer": "They repel.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Like magnetic poles repel.",
+            "Unlike poles attract.",
+            "North and north are like poles."
+          ],
+          "tags": [
+            "magnetic poles",
+            "repulsion"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Can a magnet have a single isolated north pole?",
+          "answer": "No. Magnetic poles always occur in pairs.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Every magnet has a north and a south pole.",
+            "Cutting a magnet creates two smaller magnets, each with both poles.",
+            "A single magnetic monopole has never been observed."
+          ],
+          "tags": [
+            "magnetic poles",
+            "monopole"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A bar magnet is cut in half. What happens to the poles of each piece?",
+          "answer": "Each half becomes a complete magnet with its own north and south pole.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The original magnet has two poles.",
+            "Cutting it separates the material but not the poles.",
+            "Each new piece forms a north and a south pole at its ends."
+          ],
+          "tags": [
+            "magnetic poles",
+            "magnetisation"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -221,7 +269,18 @@
         "Explain the significance of the Curie temperature.",
         "Describe the relationship between electricity and magnetism."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A magnet can have a north pole without a south pole.",
+          "correction": "Magnetic poles occur in pairs. Cutting a magnet in half produces two smaller magnets, each with its own north and south pole.",
+          "signal": "A monopole has never been observed."
+        },
+        {
+          "claim": "Iron remains strongly magnetic above its Curie temperature.",
+          "correction": "Above the Curie temperature, thermal motion randomizes the magnetic domains and ferromagnetism disappears. The material becomes paramagnetic.",
+          "signal": "The Curie temperature is the limit of the ordered domain state."
+        }
+      ],
       "summary": [
         "Magnetic poles always occur in pairs of north and south—it is not possible to isolate north and south poles.",
         "All magnetism is created by electric current.",
@@ -241,13 +300,53 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-25"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What happens to the magnetism of iron above its Curie temperature?",
+          "answer": "It loses its ferromagnetism because the magnetic domains become randomized.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Ferromagnetism depends on aligned domains.",
+            "Thermal motion disrupts the alignment as temperature rises.",
+            "Above the Curie temperature the alignment is lost."
+          ],
+          "tags": [
+            "curie temperature",
+            "ferromagnet"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A steel needle is stroked several times in one direction with the north pole of a strong magnet, and is then brought near a compass needle. (a) Explain, in terms of magnetic domains, why the needle now behaves like a magnet with a definite north and south pole. (b) What happens to the needle's magnetism if it is heated strongly or dropped repeatedly? (c) Why is soft iron rather than steel used for the core of an electromagnet that must be switched on and off?",
+          "answer": "(a) Stroking aligns the domains, so their fields add and the needle becomes a magnet whose north pole points away from the stroking end. (b) Heating or dropping shakes the domains out of alignment, so the needle loses most of its magnetism. (c) Soft iron magnetizes and demagnetizes easily, so the core switches with the current; hard steel keeps its domains aligned and would stay magnetized after the current stops.",
+          "answer_kind": "explanation",
+          "solution": [
+            "An unmagnetized ferromagnet contains domains whose magnetic moments point in random directions, so their fields cancel.",
+            "Stroking with one pole drags the domains into alignment along the stroke direction; the aligned domains then act together like a bar magnet.",
+            "Heat and mechanical shock increase the randomizing motion of the domains, so a hardened needle keeps its magnetism and a heated or shaken one loses it.",
+            "An electromagnet core must respond instantly to the coil's field: soft iron has high permeability but low retentivity, unlike steel, which retains magnetization."
+          ],
+          "tags": [
+            "domains",
+            "ferromagnetism",
+            "electromagnet"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Ferromagnets and Electromagnets has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-4",
@@ -256,7 +355,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42370",
       "objectives": [
-        "Define magnetic field and describe the magnetic field lines of various magnetic fields."
+        "Define magnetic field and describe the magnetic field lines of various magnetic fields.",
+        "Sketch the magnetic field lines of a bar magnet and of a current-carrying wire."
       ],
       "misconceptions": [
         {
@@ -283,13 +383,69 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Outside a magnet, in which direction do magnetic field lines point?",
+          "answer": "From the north pole to the south pole.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Field lines are a map of the magnetic field.",
+            "Outside the magnet they run from north to south.",
+            "Inside the magnet they continue from south to north."
+          ],
+          "tags": [
+            "magnetic field lines",
+            "poles"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Can two magnetic field lines cross?",
+          "answer": "No. The field has only one direction at each point.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A field line follows the field direction.",
+            "Two crossing lines would give two directions at one point.",
+            "That cannot happen for a well-defined field."
+          ],
+          "tags": [
+            "magnetic field lines",
+            "field direction"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "What does the density of magnetic field lines represent?",
+          "answer": "The strength of the magnetic field: closer lines mean a stronger field.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Field lines are drawn closer together where the field is strong.",
+            "The line density is proportional to the field strength.",
+            "The pattern around a bar magnet shows strong fields near the poles."
+          ],
+          "tags": [
+            "magnetic field",
+            "field strength"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -302,7 +458,15 @@
         "Use the right hand rule 1 to determine the velocity of a charge, the direction of the magnetic field, and the direction of the magnetic force on a moving charge.",
         "Calculate the magnetic force on a moving charge."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The force on a charged particle in a magnetic field does not depend on the speed of the particle.",
+          "correction": "It does, because the force is $F = qvB\\sin\\theta$. A stationary charge in a magnetic field feels no magnetic force at all, and the force grows with the speed.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_magnetism:trap-4",
+          "signal": "Our own question offers the speed-independent reading as an option."
+        }
+      ],
       "summary": [
         "Magnetic fields exert a force on a moving charge q, the magnitude of which is F=qvBsinθ, where θ is the angle between the directions of v and B.",
         "The SI unit for magnetic field strength B is the tesla (T), which is related to other units by 1 T=1 NC⋅m/s=1 NA⋅m.",
@@ -314,7 +478,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -322,13 +486,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-20"
+      ]
     },
     {
       "id": "sec-6",
@@ -340,7 +503,18 @@
         "Describe the effects of a magnetic field on a moving charge.",
         "Calculate the radius of curvature of the path of a charge that is moving in a magnetic field."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A magnetic field can increase the speed of a charged particle.",
+          "correction": "The magnetic force is always perpendicular to the velocity, so it does no work. It changes the direction of motion, not the speed or kinetic energy.",
+          "signal": "A charged particle in a uniform B field moves in a circle at constant speed."
+        },
+        {
+          "claim": "A stationary charge in a magnetic field experiences a magnetic force.",
+          "correction": "The magnetic force is F = qvB sinθ, so it is zero when v = 0. Only moving charges feel a magnetic force.",
+          "signal": "A charge at rest may feel an electric force, but not a magnetic one."
+        }
+      ],
       "summary": [
         "Magnetic force can supply centripetal force and cause a charged particle to move in a circular path of radius r = mv qB , where v is the component of the velocity perpendicular to B for a charged particle with mass m and charge q.",
         "Describe the difference between the north and south poles of a magnet.",
@@ -352,7 +526,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -360,13 +534,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-28"
+      ]
     },
     {
       "id": "sec-7",
@@ -378,7 +551,18 @@
         "Describe the Hall effect.",
         "Calculate the Hall emf across a current-carrying conductor."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The Hall effect is caused by gravity.",
+          "correction": "It is caused by the magnetic force on moving charges, which separates positive and negative charge across the conductor and creates a transverse emf.",
+          "signal": "The sign of the Hall voltage reveals the sign of the charge carriers."
+        },
+        {
+          "claim": "The Hall emf depends on the conductor’s length along the current.",
+          "correction": "The Hall emf is ε = Blv, where l is the transverse dimension across which the voltage appears.",
+          "signal": "The geometry that matters is the width, not the length along the current."
+        }
+      ],
       "summary": [
         "The Hall effect is the creation of voltage ε, known as the Hall emf, across a current-carrying conductor by a magnetic field.",
         "The Hall emf is given by ε = Blv ( B , v , and l , mutually perpendicular ) for a conductor of width l through which charges move at a speed v."
@@ -389,21 +573,20 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-26"
+      ]
     },
     {
       "id": "sec-8",
@@ -415,7 +598,18 @@
         "Describe the effects of a magnetic force on a current-carrying conductor.",
         "Calculate the magnetic force on a current-carrying conductor."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A current-carrying wire always experiences a magnetic force.",
+          "correction": "The force is F = IlB sinθ. It is zero when the wire is parallel to the field and maximum when perpendicular.",
+          "signal": "A wire along the field feels no magnetic force."
+        },
+        {
+          "claim": "The magnetic force on a wire points along the wire.",
+          "correction": "The force is perpendicular to both the current and the magnetic field, given by the right-hand rule.",
+          "signal": "It can push the wire sideways, not along its length."
+        }
+      ],
       "summary": [
         "The magnetic force on current-carrying conductors is given by F=IlBsinθ, where I is the current, l is the length of a straight conductor in a uniform magnetic field B, and θ is the angle between I and B. The force follows RHR-1 with the thumb in the direction of I.",
         "Describe the difference between the north and south poles of a magnet.",
@@ -427,7 +621,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -435,7 +629,7 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -453,7 +647,18 @@
         "Describe how motors and meters work in terms of torque on a current loop.",
         "Calculate the torque on a current-carrying loop in a magnetic field."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A current loop in a uniform magnetic field always experiences a net force.",
+          "correction": "In a uniform field the forces on opposite sides cancel, so the net force is zero. The loop may still experience a torque.",
+          "signal": "A uniform field can rotate a loop without translating it."
+        },
+        {
+          "claim": "The torque on a current loop is maximum when the loop’s plane is perpendicular to the field.",
+          "correction": "The torque is τ = NIAB sinθ, where θ is between the loop’s normal and the field. It is maximum when the normal is perpendicular to B, which means the loop’s plane is parallel to B.",
+          "signal": "The normal, not the plane, sets the angle in the formula."
+        }
+      ],
       "summary": [
         "The torque τ on a current-carrying loop of any shape in a uniform magnetic field. is τ=NIABsinθ, where N is the number of turns, I is the current, A is the area of the loop, B is the magnetic field strength, and θ is the angle between the perpendicular to the loop and the magnetic field.",
         "Describe the difference between the north and south poles of a magnet.",
@@ -465,7 +670,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -473,7 +678,7 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -491,7 +696,18 @@
         "Calculate current that produces a magnetic field.",
         "Use the right hand rule 2 to determine the direction of current or the direction of magnetic field loops."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The magnetic field around a long straight wire falls as 1/r².",
+          "correction": "It falls as 1/r. The 1/r² law belongs to the electric field of a point charge.",
+          "signal": "B = μ₀I/(2πr)."
+        },
+        {
+          "claim": "The magnetic field lines around a straight wire run along the wire.",
+          "correction": "They form circles around the wire. Their direction is given by the right-hand grip rule.",
+          "signal": "The field is perpendicular to the current at every point."
+        }
+      ],
       "summary": [
         "The strength of the magnetic field created by current in a long straight wire is given by B = μ 0 I 2πr ( long straight wire ) , where I is the current, r is the shortest distance to the wire, and the constant μ0=4π×10−7T⋅m/A is the permeability of free space.",
         "The direction of the magnetic field created by a long straight wire is given by right hand rule 2 (RHR-2): Point the thumb of the right hand in the direction of current, and the fingers curl in the direction of the magnetic field loops created by it.",
@@ -511,13 +727,50 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-34"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the shape of the magnetic field lines around a long straight current-carrying wire?",
+          "answer": "Concentric circles around the wire.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The field wraps around the wire.",
+            "The direction is given by the right-hand grip rule.",
+            "The magnitude falls as 1/r."
+          ],
+          "tags": [
+            "straight wire",
+            "magnetic field"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A long straight wire carries a current of 10 A. Find the magnetic field strength at a point 0.05 m from the wire. Take μ₀ = 4π × 10⁻⁷ T m/A.",
+          "answer": "2 × 10^-5 T",
+          "answer_kind": "expression",
+          "solution": [
+            "Use B = μ₀I/(2πr).",
+            "B = (4π × 10⁻⁷ × 10)/(2π × 0.05).",
+            "B = (2 × 10⁻⁶)/(0.1) = 2 × 10⁻⁵ T."
+          ],
+          "tags": [
+            "ampere law",
+            "magnetic field"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-11",
@@ -529,7 +782,18 @@
         "Describe the effects of the magnetic force between two conductors.",
         "Calculate the force between two parallel conductors."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Parallel currents in the same direction repel each other.",
+          "correction": "Parallel currents in the same direction attract; opposite currents repel.",
+          "signal": "The force follows from the magnetic field of one wire acting on the other."
+        },
+        {
+          "claim": "The force per unit length between two parallel wires depends on their length.",
+          "correction": "The force per unit length is independent of length. The total force scales with the length of the overlapping wires.",
+          "signal": "F/L is the quantity the formula gives."
+        }
+      ],
       "summary": [
         "The force between two parallel currents I1 and I2, separated by a distance r, has a magnitude per unit length given by Fl=μ0I1I22πr.",
         "The force is attractive if the currents are in the same direction, repulsive if they are in opposite directions."
@@ -540,7 +804,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -548,13 +812,13 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-15"
+      "no_worked_example_reason": "The source section on Magnetic Force between Two Parallel Conductors has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-12",
@@ -563,9 +827,21 @@
       "est_minutes": 12,
       "locator": "CNXML module m42388",
       "objectives": [
-        "Describe some applications of magnetism."
+        "Describe some applications of magnetism.",
+        "Explain how crossed electric and magnetic fields can select particles of a particular speed."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A velocity selector passes charged particles of every speed.",
+          "correction": "It passes only particles with v = E/B, for which the electric and magnetic forces cancel. Other speeds are deflected.",
+          "signal": "The crossed fields act as a speed filter."
+        },
+        {
+          "claim": "An MRI scanner uses X-rays to image the body.",
+          "correction": "MRI uses strong magnetic fields and radio waves; it does not use ionizing radiation.",
+          "signal": "The signal comes from nuclear magnetic resonance of hydrogen nuclei."
+        }
+      ],
       "summary": [
         "Crossed (perpendicular) electric and magnetic fields act as a velocity filter, giving equal and opposite forces on any charge with velocity perpendicular to the fields and of magnitude v = E B .",
         "Describe the difference between the north and south poles of a magnet.",
@@ -577,24 +853,177 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "magnets-and-magnetic-fields",
+          "topic_slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-field",
+          "topic_slug": "waec-magnetic-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
       "worked_from": "exr-42"
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$F = qvB\\sin\\theta$",
+      "caption": {
+        "text": "Magnetic force on a moving charge",
+        "inline": []
+      },
+      "conditions": {
+        "text": "θ is the angle between the velocity and the magnetic field.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42372/index.cnxml",
+        "locator": "CNXML module m42372, section “Magnetic Field Strength”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$r = \\frac{mv}{qB}$",
+      "caption": {
+        "text": "Radius of a charged particle’s circular path",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For motion perpendicular to a uniform magnetic field.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42375/index.cnxml",
+        "locator": "CNXML module m42375, section “Force on a Moving Charge: Applications”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$F = IlB\\sin\\theta$",
+      "caption": {
+        "text": "Magnetic force on a current-carrying conductor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "θ is the angle between the current and the magnetic field.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42398/index.cnxml",
+        "locator": "CNXML module m42398, section “Magnetic Force on a Current-Carrying Conductor”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\tau = NIAB\\sin\\theta$",
+      "caption": {
+        "text": "Torque on a current loop",
+        "inline": []
+      },
+      "conditions": {
+        "text": "θ is the angle between the loop’s normal and the magnetic field.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42380/index.cnxml",
+        "locator": "CNXML module m42380, section “Torque on a Current Loop”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$B = \\frac{\\mu_0 I}{2\\pi r}$",
+      "caption": {
+        "text": "Magnetic field of a long straight wire",
+        "inline": []
+      },
+      "conditions": {
+        "text": "μ₀ = 4π × 10⁻⁷ T m/A and r is the perpendicular distance from the wire.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42382/index.cnxml",
+        "locator": "CNXML module m42382, section “Magnetic Fields Produced by Currents”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi r}$",
+      "caption": {
+        "text": "Force per unit length between parallel conductors",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The force is attractive for currents in the same direction and repulsive for opposite currents.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42386/index.cnxml",
+        "locator": "CNXML module m42386, section “Magnetic Force between Two Parallel Conductors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\varepsilon = Blv$",
+      "caption": {
+        "text": "Hall emf",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For B, v and l mutually perpendicular.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42377/index.cnxml",
+        "locator": "CNXML module m42377, section “The Hall Effect”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$v = \\frac{E}{B}$",
+      "caption": {
+        "text": "Velocity selector",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The speed that passes undeflected through crossed electric and magnetic fields.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42388/index.cnxml",
+        "locator": "CNXML module m42388, section “More Applications of Magnetism”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1228,76 +1657,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Magnetic field lines can cross each other.",
-      "correction": "They never cross. The field at a point has one direction, and two field lines through the same point would mean two directions at once.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "A current in a wire has no magnetic field around it.",
-      "correction": "It has one, in circles around the wire, with the direction set by the right hand rule.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Like poles of a magnet attract each other.",
-      "correction": "Like poles repel and unlike poles attract. That is the first law of magnetism, and it is the same pattern as the repulsion between like electric charges.",
-      "signal": "Our own question offers attraction as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The force on a charged particle in a magnetic field does not depend on the speed of the particle.",
-      "correction": "It does, because the force is $F = qvB\\sin\\theta$. A stationary charge in a magnetic field feels no magnetic force at all, and the force grows with the speed.",
-      "signal": "Our own question offers the speed-independent reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1443,6 +1803,180 @@
       "explanation": "Same-direction currents repel, and opposite-direction currents attract.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": "What happens to the ferromagnetism of iron when it is heated above its Curie temperature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It becomes stronger."
+        },
+        {
+          "id": "b",
+          "text": "It disappears because the domains become randomized."
+        },
+        {
+          "id": "c",
+          "text": "It turns into an electric charge."
+        },
+        {
+          "id": "d",
+          "text": "It becomes a superconductor."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Above the Curie temperature, thermal energy disrupts the alignment of magnetic domains, so the material loses its strong ferromagnetic behaviour.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "Outside a bar magnet, the magnetic field lines point",
+      "options": [
+        {
+          "id": "a",
+          "text": "from the south pole to the north pole"
+        },
+        {
+          "id": "b",
+          "text": "from the north pole to the south pole"
+        },
+        {
+          "id": "c",
+          "text": "randomly in all directions"
+        },
+        {
+          "id": "d",
+          "text": "along the magnet’s axis only"
+        }
+      ],
+      "answer": "b",
+      "explanation": "By convention, magnetic field lines outside a magnet point from the north pole to the south pole. Inside the magnet they continue from south to north.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "The Hall effect produces a transverse voltage because",
+      "options": [
+        {
+          "id": "a",
+          "text": "gravity pulls charges to one side"
+        },
+        {
+          "id": "b",
+          "text": "the magnetic force separates moving charges across the conductor"
+        },
+        {
+          "id": "c",
+          "text": "the conductor heats up"
+        },
+        {
+          "id": "d",
+          "text": "the current reverses direction"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Moving charge carriers are deflected by the magnetic field, creating a charge imbalance and a transverse Hall emf.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "The magnetic force on a current-carrying wire is maximum when the wire is",
+      "options": [
+        {
+          "id": "a",
+          "text": "parallel to the magnetic field"
+        },
+        {
+          "id": "b",
+          "text": "perpendicular to the magnetic field"
+        },
+        {
+          "id": "c",
+          "text": "at 45° to the magnetic field"
+        },
+        {
+          "id": "d",
+          "text": "carrying no current"
+        }
+      ],
+      "answer": "b",
+      "explanation": "F = IlB sinθ is maximum when θ = 90°, so the wire is perpendicular to the field.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-9",
+      "stem": "The torque on a current loop in a magnetic field is maximum when",
+      "options": [
+        {
+          "id": "a",
+          "text": "the loop’s normal is parallel to the field"
+        },
+        {
+          "id": "b",
+          "text": "the loop’s normal is perpendicular to the field"
+        },
+        {
+          "id": "c",
+          "text": "the loop carries no current"
+        },
+        {
+          "id": "d",
+          "text": "the loop is circular"
+        }
+      ],
+      "answer": "b",
+      "explanation": "τ = NIAB sinθ is maximum when θ = 90°, with the loop’s normal perpendicular to the field.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-12",
+      "stem": "A velocity selector uses",
+      "options": [
+        {
+          "id": "a",
+          "text": "crossed electric and magnetic fields with v = E/B"
+        },
+        {
+          "id": "b",
+          "text": "a single electric field only"
+        },
+        {
+          "id": "c",
+          "text": "a strong gravitational field"
+        },
+        {
+          "id": "d",
+          "text": "X-rays and a diffraction grating"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In crossed fields, the electric and magnetic forces cancel for particles with v = E/B, so only those particles pass undeflected.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1453,5 +1987,90 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Magnetism', modules m42365, m42366, m42368, m42370, m42372, m42375, m42377, m42398, m42380, m42382, m42386, m42388",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 22,
+  "exercise_fixes": {
+    "sec-3:exr-33": {
+      "drop": true
+    },
+    "sec-5:exr-34": {
+      "drop": true
+    },
+    "sec-5:exr-39": {
+      "drop": true
+    },
+    "sec-7:exr-39": {
+      "drop": true
+    },
+    "sec-8:exr-35": {
+      "drop": true
+    },
+    "sec-12:exr-85": {
+      "drop": true
+    },
+    "sec-12:exr-96": {
+      "drop": true
+    },
+    "sec-12:exr-70": {
+      "stem": "Measurements affect the system being measured. (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?"
+    },
+    "sec-12:exr-108": {
+      "stem": "Integrated Concepts A cyclotron accelerates charged particles. Using the results of the previous problem, calculate the frequency of the accelerating voltage needed for a proton in a 1.20-T field."
+    },
+    "sec-3:exr-29": {
+      "stem": "Describe how the magnetic domains in an unmagnetized iron rod will respond to the presence of a strong external magnetic field.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The domains will split into monopoles."
+        },
+        {
+          "id": "b",
+          "text": "The domains will tend to align with the external field."
+        },
+        {
+          "id": "c",
+          "text": "The domains will tend to orient themselves perpendicular to the external field."
+        },
+        {
+          "id": "d",
+          "text": "The domains will tend to align so as to cancel out the external field."
+        }
+      ]
+    },
+    "sec-12:exr-56": {
+      "answer": "(a) $2.39×10^{3}A$ (b) $1.01×10^{13}T$",
+      "solution": [
+        "(a) For a coil with $n=400$ turns per metre, $B=μ_{0}nI$, so $I=B/(μ_{0}n)=1.20/[(4π×10^{-7})(400)]=2.39×10^{3}A$ .",
+        "(b) For a circular loop, $B=μ_{0}I/(2r)=(4π×10^{-7})(1.05×10^{4})/[2(0.650×10^{-15})]=1.01×10^{13}T$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer gave only the field and omitted the current the first part asks for"
+    },
+    "sec-10:exr-38": {
+      "stem": "A long straight wire along the y-axis carries current in the +y-direction. At a point on the +x-axis near the wire, in what direction is the magnetic field?",
+      "answer": "(c)",
+      "solution": [
+        "Point the thumb of the right hand along the current (+y). The fingers curl around the wire and, at a point on the +x-axis, point into the page."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source stem carried a leftover explanation of an unrelated force problem"
+    },
+    "sec-5:exr-29": {
+      "drop": true
+    },
+    "sec-6:exr-59": {
+      "drop": true
+    },
+    "sec-11:exr-55": {
+      "drop": true
+    },
+    "sec-12:exr-51": {
+      "drop": true
+    },
+    "sec-12:exr-76": {
+      "drop": true
+    },
+    "sec-12:exr-81": {
+      "drop": true
+    }
+  }
 }

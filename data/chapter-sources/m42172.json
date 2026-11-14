@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "It is one thing to have a system in equilibrium; it is quite another for it to be stable. The toy doll perched on the man’s hand in , for example, is not in stable equilibrium. There are *three types of equilibrium* : *stable* , *unstable* , and *neutral* . Figures throughout this module illustrate various examples.",
+        "text": "It is one thing to have a system in equilibrium; it is quite another for it to be stable. The toy doll perched on the man’s hand in the figure, for example, is not in stable equilibrium. There are *three types of equilibrium*: *stable*, *unstable*, and *neutral*. Figures throughout this module illustrate various examples.",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "presents a balanced system, such as the toy doll on the man’s hand, which has its center of gravity (cg) directly over the pivot, so that the torque of the total weight is zero. This is equivalent to having the torques of the individual parts balanced about the pivot point, in this case the hand. The cgs of the arms, legs, head, and torso are labeled with smaller type.",
+        "text": "The figure presents a balanced system, such as the toy doll on the man’s hand, which has its center of gravity (cg) directly over the pivot, so that the torque of the total weight is zero. This is equivalent to having the torques of the individual parts balanced about the pivot point, in this case the hand. The cgs of the arms, legs, head, and torso are labeled with smaller type.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "A system is said to be in stable equilibrium if, when displaced from equilibrium, it experiences a net force or torque in a direction opposite to the direction of the displacement. For example, a marble at the bottom of a bowl will experience a *restoring* force when displaced from its equilibrium position. This force moves it back toward the equilibrium position. Most systems are in stable equilibrium, especially for small displacements. For another example of stable equilibrium, see the pencil in .",
+        "text": "A system is said to be in stable equilibrium if, when displaced from equilibrium, it experiences a net force or torque in a direction opposite to the direction of the displacement. For example, a marble at the bottom of a bowl will experience a *restoring* force when displaced from its equilibrium position. This force moves it back toward the equilibrium position. Most systems are in stable equilibrium, especially for small displacements. For another example of stable equilibrium, see the pencil in the figure.",
         "inline": []
       },
       "level": "core"
@@ -163,7 +163,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "A system is in neutral equilibrium if its equilibrium is independent of displacements from its original position. A marble on a flat horizontal surface is an example. Combinations of these situations are possible. For example, a marble on a saddle is stable for displacements toward the front or back of the saddle and unstable for displacements to the side. shows another example of neutral equilibrium.",
+        "text": "A system is in neutral equilibrium if its equilibrium is independent of displacements from its original position. A marble on a flat horizontal surface is an example. Combinations of these situations are possible. For example, a marble on a saddle is stable for displacements toward the front or back of the saddle and unstable for displacements to the side. The figure shows another example of neutral equilibrium.",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "When we consider how far a system in stable equilibrium can be displaced before it becomes unstable, we find that some systems in stable equilibrium are more stable than others. The pencil in and the person in (a) are in stable equilibrium, but become unstable for relatively small displacements to the side. The critical point is reached when the cg is no longer *above* the base of support. Additionally, since the cg of a person’s body is above the pivots in the hips, displacements must be quickly controlled. This control is a central nervous system function that is developed when we learn to hold our bodies erect as infants. For increased stability while standing, the feet should be spread apart, giving a larger base of support. Stability is also increased by lowering one’s center of gravity by bending the knees, as when a football player prepares to receive a ball or braces themselves for a tackle. A cane, a crutch, or a walker increases the stability of the user, even more as the base of support widens. Usually, the cg of a female is lower (closer to the ground) than a male. Young children have their center of gravity between their shoulders, which increases the challenge of learning to walk.",
+        "text": "When we consider how far a system in stable equilibrium can be displaced before it becomes unstable, we find that some systems in stable equilibrium are more stable than others. The pencil in the figure and the person in the figure (a) are in stable equilibrium, but become unstable for relatively small displacements to the side. The critical point is reached when the cg is no longer *above* the base of support. Additionally, since the cg of a person’s body is above the pivots in the hips, displacements must be quickly controlled. This control is a central nervous system function that is developed when we learn to hold our bodies erect as infants. For increased stability while standing, the feet should be spread apart, giving a larger base of support. Stability is also increased by lowering one’s center of gravity by bending the knees, as when a football player prepares to receive a ball or braces themselves for a tackle. A cane, a crutch, or a walker increases the stability of the user, even more as the base of support widens. Usually, the cg of a female is lower (closer to the ground) than a male. Young children have their center of gravity between their shoulders, which increases the challenge of learning to walk.",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Animals such as chickens have easier systems to control. shows that the cg of a chicken lies below its hip joints and between its widely separated and broad feet. Even relatively large displacements of the chicken’s cg are stable and result in restoring forces and torques that return the cg to its equilibrium position with little effort on the chicken’s part. Not all birds are like chickens, of course. Some birds, such as the flamingo, have balance systems that are almost as sophisticated as that of humans.",
+        "text": "Animals such as chickens have easier systems to control. The figure shows that the cg of a chicken lies below its hip joints and between its widely separated and broad feet. Even relatively large displacements of the chicken’s cg are stable and result in restoring forces and torques that return the cg to its equilibrium position with little effort on the chicken’s part. Not all birds are like chickens, of course. Some birds, such as the flamingo, have balance systems that are almost as sophisticated as that of humans.",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "shows that the cg of a chicken is below the hip joints and lies above a broad base of support formed by widely-separated and large feet. Hence, the chicken is in very stable equilibrium, since a relatively large displacement is needed to render it unstable. The body of the chicken is supported from above by the hips and acts as a pendulum between the hips. Therefore, the chicken is stable for front-to-back displacements as well as for side-to-side displacements.",
+        "text": "The figure shows that the cg of a chicken is below the hip joints and lies above a broad base of support formed by widely-separated and large feet. Hence, the chicken is in very stable equilibrium, since a relatively large displacement is needed to render it unstable. The body of the chicken is supported from above by the hips and acts as a pendulum between the hips. Therefore, the chicken is stable for front-to-back displacements as well as for side-to-side displacements.",
         "inline": []
       },
       "level": "core"
@@ -317,7 +317,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A round pencil lying on its side as in is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?",
+        "text": "A round pencil lying on its side as in the figure is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?",
         "inline": []
       },
       "level": "core",
@@ -368,7 +368,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a horse leans against a wall as in , emulating a scene in the comedy movie *Cat Ballou* . Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.",
+        "text": "Suppose a horse leans against a wall as in the figure, emulating a scene in the comedy movie *Cat Ballou*. Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.",
         "inline": []
       },
       "level": "core",
@@ -435,7 +435,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the magnitude and direction of the force on each foot of the horse in (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg. (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.",
+        "text": "(a) Calculate the magnitude and direction of the force on each foot of the horse in the figure (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg. (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.",
         "inline": []
       },
       "level": "core",
@@ -468,7 +468,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A person carries a plank of wood 2.00 m long with one hand pushing down on it at one end with a force ${F}_{1}$ and the other hand holding it up at .500 m from the end of the plank with force ${F}_{2}$ . If the plank has a mass of 20.0 kg and its center of gravity is at the middle of the plank, what are the magnitudes of the forces ${F}_{1}$ and ${F}_{2}$ ?",
+        "text": "A person carries a plank of wood 2.00 m long with one hand pushing down on it at one end with a force ${F}_{1}$ and the other hand holding it up at.500 m from the end of the plank with force ${F}_{2}$. If the plank has a mass of 20.0 kg and its center of gravity is at the middle of the plank, what are the magnitudes of the forces ${F}_{1}$ and ${F}_{2}$?",
         "inline": []
       },
       "level": "core",
@@ -489,7 +489,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in . The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.",
+        "text": "A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in the figure. The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.",
         "inline": []
       },
       "level": "core",
@@ -535,7 +535,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in ? (b) What is the ratio of this force to the chicken’s weight? (c) Does this support the contention that the chicken has a relatively stable construction?",
+        "text": "(a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in the figure? (b) What is the ratio of this force to the chicken’s weight? (c) Does this support the contention that the chicken has a relatively stable construction?",
         "inline": []
       },
       "level": "core",
@@ -624,7 +624,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a 900-kg car is on the bridge in with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.) (a) Find the force in the cables. (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.",
+        "text": "Suppose a 900-kg car is on the bridge in the figure with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.) (a) Find the force in the cables. (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.",
         "inline": []
       },
       "level": "core",
@@ -645,7 +645,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A sandwich board advertising sign is constructed as shown in . The sign’s mass is 8.00 kg. (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk. (b) What force is exerted by each side on the hinge? A sandwich board advertising sign demonstrates tension.",
+        "text": "A sandwich board advertising sign is constructed as shown in the figure. The sign’s mass is 8.00 kg. (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk. (b) What force is exerted by each side on the hinge?",
         "inline": []
       },
       "level": "core",
@@ -682,7 +682,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in in the position shown if the chain breaks? (b) What force is exerted by each side on the hinge?",
+        "text": "(a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in the figure in the position shown if the chain breaks? (b) What force is exerted by each side on the hinge?",
         "inline": []
       },
       "level": "core",

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Transformers do what their name implies—they transform voltages from one value to another (The term voltage is used rather than emf, because transformers have internal resistance). For example, many cell phones, laptops, video games, and power tools and small appliances have a transformer built into their plug-in unit (like that in ) that changes 120 V or 240 V AC into whatever voltage the device uses. Transformers are also used at several points in the power distribution systems, such as illustrated in . Power is sent long distances at high voltages, because less current is required for a given amount of power, and this means less line loss, as was discussed previously. But high voltages pose greater hazards, so that transformers are employed to produce lower voltage at the user’s location.",
+        "text": "Transformers do what their name implies—they transform voltages from one value to another (The term voltage is used rather than emf, because transformers have internal resistance). For example, many cell phones, laptops, video games, and power tools and small appliances have a transformer built into their plug-in unit (like that in the figure) that changes 120 V or 240 V AC into whatever voltage the device uses. Transformers are also used at several points in the power distribution systems, such as illustrated in the figure. Power is sent long distances at high voltages, because less current is required for a given amount of power, and this means less line loss, as was discussed previously. But high voltages pose greater hazards, so that transformers are employed to produce lower voltage at the user’s location.",
         "inline": []
       },
       "level": "core"
@@ -66,7 +66,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The type of transformer considered in this text—see —is based on Faraday’s law of induction and is very similar in construction to the apparatus Faraday used to demonstrate magnetic fields could cause currents. The two coils are called the *primary* and *secondary coils* . In normal use, the input voltage is placed on the primary, and the secondary produces the transformed output voltage. Not only does the iron core trap the magnetic field created by the primary coil, its magnetization increases the field strength. Since the input voltage is AC, a time-varying magnetic flux is sent to the secondary, inducing its AC output voltage.",
+        "text": "The type of transformer considered in this text—see the figure —is based on Faraday’s law of induction and is very similar in construction to the apparatus Faraday used to demonstrate magnetic fields could cause currents. The two coils are called the *primary* and *secondary coils*. In normal use, the input voltage is placed on the primary, and the secondary produces the transformed output voltage. Not only does the iron core trap the magnetic field created by the primary coil, its magnetization increases the field strength. Since the input voltage is AC, a time-varying magnetic flux is sent to the secondary, inducing its AC output voltage.",
         "inline": []
       },
       "level": "core"
@@ -88,7 +88,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "For the simple transformer shown in , the output voltage ${V}_{s}$ depends almost entirely on the input voltage ${V}_{p}$ and the ratio of the number of loops in the primary and secondary coils. Faraday’s law of induction for the secondary coil gives its induced output voltage ${V}_{s}$ to be",
+        "text": "For the simple transformer shown in the figure, the output voltage ${V}_{s}$ depends almost entirely on the input voltage ${V}_{p}$ and the ratio of the number of loops in the primary and secondary coils. Faraday’s law of induction for the secondary coil gives its induced output voltage ${V}_{s}$ to be ${V}_{s}=-{N}_{s}\\frac{ΔΦ}{Δt},$",
         "inline": []
       },
       "level": "core"
@@ -97,7 +97,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "where ${N}_{s}$ is the number of loops in the secondary coil and $ΔΦ$ / $Δt$ is the rate of change of magnetic flux. Note that the output voltage equals the induced emf ( ${V}_{s}={emf}_{s}$ ), provided coil resistance is small (a reasonable assumption for transformers). The cross-sectional area of the coils is the same on either side, as is the magnetic field strength, and so $ΔΦ/Δt$ is the same on either side. The input primary voltage ${V}_{p}$ is also related to changing flux by",
+        "text": "where ${N}_{s}$ is the number of loops in the secondary coil and $ΔΦ$ / $Δt$ is the rate of change of magnetic flux. Note that the output voltage equals the induced emf (${V}_{s}={emf}_{s}$), provided coil resistance is small (a reasonable assumption for transformers). The cross-sectional area of the coils is the same on either side, as is the magnetic field strength, and so $ΔΦ/Δt$ is the same on either side. The input primary voltage ${V}_{p}$ is also related to changing flux by ${V}_{p}=-{N}_{p}\\frac{ΔΦ}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -106,7 +106,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The reason for this is a little more subtle. Lenz’s law tells us that the primary coil opposes the change in flux caused by the input voltage ${V}_{p}$ , hence the minus sign (This is an example of *self-inductance* , a topic to be explored in some detail in later sections). Assuming negligible coil resistance, Kirchhoff’s loop rule tells us that the induced emf exactly equals the input voltage. Taking the ratio of these last two equations yields a useful relationship:",
+        "text": "The reason for this is a little more subtle. Lenz’s law tells us that the primary coil opposes the change in flux caused by the input voltage ${V}_{p}$, hence the minus sign (This is an example of *self-inductance*, a topic to be explored in some detail in later sections). Assuming negligible coil resistance, Kirchhoff’s loop rule tells us that the induced emf exactly equals the input voltage. Taking the ratio of these last two equations yields a useful relationship: $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}.$",
         "inline": []
       },
       "level": "core"
@@ -115,7 +115,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "This is known as the transformer equation , and it simply states that the ratio of the secondary to primary voltages in a transformer equals the ratio of the number of loops in their coils.",
+        "text": "This is known as the transformer equation, and it simply states that the ratio of the secondary to primary voltages in a transformer equals the ratio of the number of loops in their coils.",
         "inline": []
       },
       "level": "core"
@@ -124,7 +124,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The output voltage of a transformer can be less than, greater than, or equal to the input voltage, depending on the ratio of the number of loops in their coils. Some transformers even provide a variable output by allowing connection to be made at different points on the secondary coil. A step-up transformer is one that increases voltage, whereas a step-down transformer decreases voltage. Assuming, as we have, that resistance is negligible, the electrical power output of a transformer equals its input. This is nearly true in practice—transformer efficiency often exceeds 99%. Equating the power input and output,",
+        "text": "The output voltage of a transformer can be less than, greater than, or equal to the input voltage, depending on the ratio of the number of loops in their coils. Some transformers even provide a variable output by allowing connection to be made at different points on the secondary coil. A step-up transformer is one that increases voltage, whereas a step-down transformer decreases voltage. Assuming, as we have, that resistance is negligible, the electrical power output of a transformer equals its input. This is nearly true in practice—transformer efficiency often exceeds 99%. Equating the power input and output, ${P}_{p}={I}_{p}{V}_{p}={I}_{s}{V}_{s}={P}_{s}.$",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging terms gives",
+        "text": "Rearranging terms gives $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{I}_{p}}{{I}_{s}}.$",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Combining this with $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$ , we find that",
+        "text": "Combining this with $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$, we find that $\\frac{{I}_{s}}{{I}_{p}}=\\frac{{N}_{p}}{{N}_{s}}$",
         "inline": []
       },
       "level": "core"
@@ -193,7 +193,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "We solve $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$ for ${N}_{s}$ , the number of loops in the secondary, and enter the known values. This gives",
+        "text": "We solve $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$ for ${N}_{s}$, the number of loops in the secondary, and enter the known values. This gives ${N}_{s} = {N}_{p}\\frac{{V}_{s}}{{V}_{p}} = (50)\\frac{100,000 V}{120 V}=4.17\\times {10}^{4}.$",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "We can similarly find the output current of the secondary by solving $\\frac{{I}_{s}}{{I}_{p}}=\\frac{{N}_{p}}{{N}_{s}}$ for ${I}_{s}$ and entering known values. This gives",
+        "text": "We can similarly find the output current of the secondary by solving $\\frac{{I}_{s}}{{I}_{p}}=\\frac{{N}_{p}}{{N}_{s}}$ for ${I}_{s}$ and entering known values. This gives ${I}_{s} = {I}_{p}\\frac{{N}_{p}}{{N}_{s}} = (10.00 A) \\frac{50}{4.17\\times {10}^{4}} = 12.0 mA.$",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "As expected, the current output is significantly less than the input. In certain spectacular demonstrations, very large voltages are used to produce long arcs, but they are relatively safe because the transformer output does not supply a large current. Note that the power input here is ${P}_{p}={I}_{p}{V}_{p}=(10.00A)(120V)=1.20kW$ . This equals the power output ${P}_{p}={I}_{s}{V}_{s}=(12.0mA)(100kV)=1.20kW$ , as we assumed in the derivation of the equations used.",
+        "text": "As expected, the current output is significantly less than the input. In certain spectacular demonstrations, very large voltages are used to produce long arcs, but they are relatively safe because the transformer output does not supply a large current. Note that the power input here is ${P}_{p}={I}_{p}{V}_{p}=(10.00 A)(120 V)=1.20 kW$. This equals the power output ${P}_{p}={I}_{s}{V}_{s}=(12.0 mA)(100 kV)=1.20 kW$, as we assumed in the derivation of the equations used.",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The fact that transformers are based on Faraday’s law of induction makes it clear why we cannot use transformers to change DC voltages. If there is no change in primary voltage, there is no voltage induced in the secondary. One possibility is to connect DC to the primary coil through a switch. As the switch is opened and closed, the secondary produces a voltage like that in . This is not really a practical alternative, and AC is in common use wherever it is necessary to increase or decrease voltages.",
+        "text": "The fact that transformers are based on Faraday’s law of induction makes it clear why we cannot use transformers to change DC voltages. If there is no change in primary voltage, there is no voltage induced in the secondary. One possibility is to connect DC to the primary coil through a switch. As the switch is opened and closed, the secondary produces a voltage like that in the figure. This is not really a practical alternative, and AC is in common use wherever it is necessary to increase or decrease voltages.",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "You would expect the secondary to have a small number of loops. Solving $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$ for ${N}_{s}$ and entering known values gives",
+        "text": "You would expect the secondary to have a small number of loops. Solving $\\frac{{V}_{s}}{{V}_{p}}=\\frac{{N}_{s}}{{N}_{p}}$ for ${N}_{s}$ and entering known values gives ${N}_{s} = {N}_{p}\\frac{{V}_{s}}{{V}_{p}} = (200)\\frac{15.0 V}{120 V}=25.$",
         "inline": []
       },
       "level": "core"
@@ -311,7 +311,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The current input can be obtained by solving $\\frac{{I}_{s}}{{I}_{p}}=\\frac{{N}_{p}}{{N}_{s}}$ for ${I}_{p}$ and entering known values. This gives",
+        "text": "The current input can be obtained by solving $\\frac{{I}_{s}}{{I}_{p}}=\\frac{{N}_{p}}{{N}_{s}}$ for ${I}_{p}$ and entering known values. This gives ${I}_{p} = {I}_{s}\\frac{{N}_{s}}{{N}_{p}} = (16.0 A)\\frac{25}{200}=2.00 A.$",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The number of loops in the secondary is small, as expected for a step-down transformer. We also see that a small input current produces a larger output current in a step-down transformer. When transformers are used to operate large magnets, they sometimes have a small number of very heavy loops in the secondary. This allows the secondary to have low internal resistance and produce large currents. Note again that this solution is based on the assumption of 100% efficiency—or power out equals power in ( ${P}_{p}={P}_{s}$ )—reasonable for good transformers. In this case the primary and secondary power is 240 W. (Verify this for yourself as a consistency check.) Note that the Ni-Cd batteries need to be charged from a DC power source (as would a 12 V battery). So the AC output of the secondary coil needs to be converted into DC. This is done using something called a rectifier, which uses devices called diodes that allow only a one-way flow of current.",
+        "text": "The number of loops in the secondary is small, as expected for a step-down transformer. We also see that a small input current produces a larger output current in a step-down transformer. When transformers are used to operate large magnets, they sometimes have a small number of very heavy loops in the secondary. This allows the secondary to have low internal resistance and produce large currents. Note again that this solution is based on the assumption of 100% efficiency—or power out equals power in (${P}_{p}={P}_{s}$)—reasonable for good transformers. In this case the primary and secondary power is 240 W. (Verify this for yourself as a consistency check.) Note that the Ni-Cd batteries need to be charged from a DC power source (as would a 12 V battery). So the AC output of the secondary coil needs to be converted into DC. This is done using something called a rectifier, which uses devices called diodes that allow only a one-way flow of current.",
         "inline": []
       },
       "level": "core"
@@ -329,7 +329,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Transformers have many applications in electrical safety systems, which are discussed in Electrical Safety: Systems and Devices .",
+        "text": "Transformers have many applications in electrical safety systems, which are discussed in Electrical Safety: Systems and Devices.",
         "inline": []
       },
       "level": "core"
@@ -347,7 +347,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -459,7 +459,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A plug-in transformer, like that in , supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?",
+        "text": "A plug-in transformer, like that in the figure, supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?",
         "inline": []
       },
       "level": "core",
@@ -645,7 +645,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If the power output in the previous problem is 1000 MW and line resistance is $2.00 Ω$ , what were the old and new line losses?",
+        "text": "If the power output in the previous problem is 1000 MW and line resistance is $2.00 Ω$, what were the old and new line losses?",
         "inline": []
       },
       "level": "core",
@@ -666,7 +666,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results The 335 kV AC electricity from a power transmission line is fed into the primary coil of a transformer. The ratio of the number of turns in the secondary to the number in the primary is ${N}_{s}/{N}_{p}=1000$ . (a) What voltage is induced in the secondary? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
+        "text": "Unreasonable Results The 335 kV AC electricity from a power transmission line is fed into the primary coil of a transformer. The ratio of the number of turns in the secondary to the number in the primary is ${N}_{s}/{N}_{p}=1000$. (a) What voltage is induced in the secondary? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?",
         "inline": []
       },
       "level": "core",

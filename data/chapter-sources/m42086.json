@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Any net force causing uniform circular motion is called a centripetal force . The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: net $F=ma$ . For uniform circular motion, the acceleration is the centripetal acceleration— $a={a}_{c}$ . Thus, the magnitude of centripetal force ${F}_{c}$ is",
+        "text": "Any net force causing uniform circular motion is called a centripetal force. The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: net $F=ma$. For uniform circular motion, the acceleration is the centripetal acceleration— $a={a}_{c}$. Thus, the magnitude of centripetal force ${F}_{c}$ is ${F}_{c}={ma}_{c}.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "By using the expressions for centripetal acceleration ${a}_{c}$ from ${a}_{c}=\\frac{{v}^{2}}{r};{a}_{c}={rω}^{2}$ , we get two expressions for the centripetal force ${F}_{c}$ in terms of mass, velocity, angular velocity, and radius of curvature:",
+        "text": "By using the expressions for centripetal acceleration ${a}_{c}$ from ${a}_{c}=\\frac{{v}^{2}}{r}; {a}_{c}={rω}^{2}$, we get two expressions for the centripetal force ${F}_{c}$ in terms of mass, velocity, angular velocity, and radius of curvature: ${F}_{c}=m\\frac{{v}^{2}}{r}; {F}_{c}=mr{ω}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Note that if you solve the first expression for $r$ , you get",
+        "text": "Note that if you solve the first expression for $r$, you get $r=\\frac{{mv}^{2}}{{F}_{c}}.$",
         "inline": []
       },
       "level": "core"
@@ -122,7 +122,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "(b) Assuming an unbanked curve, find the minimum static coefficient of friction, between the tires and the road, static friction being the reason that keeps the car from slipping (see ).",
+        "text": "(b) Assuming an unbanked curve, find the minimum static coefficient of friction, between the tires and the road, static friction being the reason that keeps the car from slipping (see the figure).",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "We know that ${F}_{c}=\\frac{{mv}^{2}}{r}$ . Thus,",
+        "text": "We know that ${F}_{c}=\\frac{{mv}^{2}}{r}$. Thus, ${F}_{c}=\\frac{{mv}^{2}}{r}=\\frac{(900 kg)(25.0 m/s{)}^{2}}{(500 m)}=1125 N.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "shows the forces acting on the car on an unbanked (level ground) curve. Friction is to the left, keeping the car from slipping, and because it is the only horizontal force acting on the car, the friction is the centripetal force in this case. We know that the maximum static friction (at which the tires roll but do not slip) is ${μ}_{s}N$ , where ${μ}_{s}$ is the static coefficient of friction and N is the normal force. The normal force equals the car’s weight on level ground, so that $N=mg$ . Thus the centripetal force in this situation is",
+        "text": "The figure shows the forces acting on the car on an unbanked (level ground) curve. Friction is to the left, keeping the car from slipping, and because it is the only horizontal force acting on the car, the friction is the centripetal force in this case. We know that the maximum static friction (at which the tires roll but do not slip) is ${μ}_{s}N$, where ${μ}_{s}$ is the static coefficient of friction and N is the normal force. The normal force equals the car’s weight on level ground, so that $N=mg$. Thus the centripetal force in this situation is ${F}_{c}=f={μ}_{s}N={μ}_{s}mg.$",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Now we have a relationship between centripetal force and the coefficient of friction. Using the first expression for ${F}_{c}$ from the equation",
+        "text": "Now we have a relationship between centripetal force and the coefficient of friction. Using the first expression for ${F}_{c}$ from the equation ${F}_{c}=m\\frac{{v}^{2}}{r}; {F}_{c}=mr{ω}^{2}},$ $m\\frac{{v}^{2}}{r}={μ}_{s}mg.$",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "We solve this for ${μ}_{s}$ , noting that mass cancels, and obtain",
+        "text": "We solve this for ${μ}_{s}$, noting that mass cancels, and obtain ${μ}_{s}=\\frac{{v}^{2}}{rg}.$",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the knowns,",
+        "text": "Substituting the knowns, ${μ}_{s}=\\frac{(25.0 m/s{)}^{2}}{(500 m)(9.{80 m/s}^{2})}=0.13.$",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "We could also solve part (a) using the first expression in ${F}_{c}=m\\frac{{v}^{2}}{r}{F}_{c}=mr{ω}^{2}},$ because $m,$ $v,$ and $r$ are given. The coefficient of friction found in part (b) is much smaller than is typically found between tires and roads. The car will still negotiate the curve if the coefficient is greater than 0.13, because static friction is a responsive force, being able to assume a value less than but no more than ${μ}_{s}N$ . A higher coefficient would also allow the car to negotiate the curve at a higher speed, but if the coefficient of friction is less, the safe speed would be less than 25 m/s. Note that mass cancels, implying that in this example, it does not matter how heavily loaded the car is to negotiate the turn. Mass cancels because friction is assumed proportional to the normal force, which in turn is proportional to mass. If the surface of the road were banked, the normal force would be less as will be discussed below.",
+        "text": "We could also solve part (a) using the first expression in ${F}_{c}=m\\frac{{v}^{2}}{r}; {F}_{c}=mr{ω}^{2}},$ because $m,$ $v,$ and $r$ are given. The coefficient of friction found in part (b) is much smaller than is typically found between tires and roads. The car will still negotiate the curve if the coefficient is greater than 0.13, because static friction is a responsive force, being able to assume a value less than but no more than ${μ}_{s}N$. A higher coefficient would also allow the car to negotiate the curve at a higher speed, but if the coefficient of friction is less, the safe speed would be less than 25 m/s. Note that mass cancels, implying that in this example, it does not matter how heavily loaded the car is to negotiate the turn. Mass cancels because friction is assumed proportional to the normal force, which in turn is proportional to mass. If the surface of the road were banked, the normal force would be less as will be discussed below.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Let us now consider banked curves , where the slope of the road helps you negotiate the curve. See . The greater the angle $θ$ , the faster you can take the curve. Race tracks for bikes as well as cars, for example, often have steeply banked curves. In an “ideally banked curve,” the angle $θ$ is such that you can negotiate the curve at a certain speed without the aid of friction between the tires and the road. We will derive an expression for $θ$ for an ideally banked curve and consider an example related to it.",
+        "text": "Let us now consider banked curves, where the slope of the road helps you negotiate the curve. See the figure. The greater the angle $θ$, the faster you can take the curve. Race tracks for bikes as well as cars, for example, often have steeply banked curves. In an “ideally banked curve,” the angle $θ$ is such that you can negotiate the curve at a certain speed without the aid of friction between the tires and the road. We will derive an expression for $θ$ for an ideally banked curve and consider an example related to it.",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "For ideal banking , the net external force equals the horizontal centripetal force in the absence of friction. The components of the normal force N in the horizontal and vertical directions must equal the centripetal force and the weight of the car, respectively. In cases in which forces are not parallel, it is most convenient to consider components along perpendicular axes—in this case, the vertical and horizontal directions.",
+        "text": "For ideal banking, the net external force equals the horizontal centripetal force in the absence of friction. The components of the normal force N in the horizontal and vertical directions must equal the centripetal force and the weight of the car, respectively. In cases in which forces are not parallel, it is most convenient to consider components along perpendicular axes—in this case, the vertical and horizontal directions.",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "shows a free body diagram for a car on a frictionless banked curve. If the angle $θ$ is ideal for the speed and radius, then the net external force will equal the necessary centripetal force. The only two external forces acting on the car are its weight $w$ and the normal force of the road $N$ . (A frictionless surface can only exert a force perpendicular to the surface—that is, a normal force.) These two forces must add to give a net external force that is horizontal toward the center of curvature and has magnitude ${mv}^{2}/r$ . Because this is the crucial force and it is horizontal, we use a coordinate system with vertical and horizontal axes. Only the normal force has a horizontal component, and so this must equal the centripetal force—that is,",
+        "text": "The figure shows a free body diagram for a car on a frictionless banked curve. If the angle $θ$ is ideal for the speed and radius, then the net external force will equal the necessary centripetal force. The only two external forces acting on the car are its weight $w$ and the normal force of the road $N$. (A frictionless surface can only exert a force perpendicular to the surface—that is, a normal force.) These two forces must add to give a net external force that is horizontal toward the center of curvature and has magnitude ${mv}^{2}/r$. Because this is the crucial force and it is horizontal, we use a coordinate system with vertical and horizontal axes. Only the normal force has a horizontal component, and so this must equal the centripetal force—that is, $N sin θ=\\frac{{mv}^{2}}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Because the car does not leave the surface of the road, the net vertical force must be zero, meaning that the vertical components of the two external forces must be equal in magnitude and opposite in direction. From the figure, we see that the vertical component of the normal force is $Ncosθ$ , and the only other vertical force is the car’s weight. These must be equal in magnitude; thus,",
+        "text": "Because the car does not leave the surface of the road, the net vertical force must be zero, meaning that the vertical components of the two external forces must be equal in magnitude and opposite in direction. From the figure, we see that the vertical component of the normal force is $N cos θ$, and the only other vertical force is the car’s weight. These must be equal in magnitude; thus, $N cos θ=mg.$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Now we can combine the last two equations to eliminate $N$ and get an expression for $θ$ , as desired. Solving the second equation for $N=mg/(cosθ)$ , and substituting this into the first yields",
+        "text": "Now we can combine the last two equations to eliminate $N$ and get an expression for $θ$, as desired. Solving the second equation for $N=mg/(cos θ)$, and substituting this into the first yields $mg\\frac{sin θ}{cos θ}=\\frac{{mv}^{2}}{r}$ $mg tan (θ) = \\frac{{mv}^{2}}{r}; tan θ = \\frac{{v}^{2}}{rg.}$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Taking the inverse tangent gives",
+        "text": "Taking the inverse tangent gives $θ={tan}^{-1}(\\frac{{v}^{2}}{rg}) (ideally banked curve, no friction).$",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "This expression can be understood by considering how $θ$ depends on $v$ and $r$ . A large $θ$ will be obtained for a large $v$ and a small $r$ . That is, roads must be steeply banked for high speeds and sharp curves. Friction helps, because it allows you to take the curve at greater or lower speed than if the curve is frictionless. Note that $θ$ does not depend on the mass of the vehicle.",
+        "text": "This expression can be understood by considering how $θ$ depends on $v$ and $r$. A large $θ$ will be obtained for a large $v$ and a small $r$. That is, roads must be steeply banked for high speeds and sharp curves. Friction helps, because it allows you to take the curve at greater or lower speed than if the curve is frictionless. Note that $θ$ does not depend on the mass of the vehicle.",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Noting that tan 65.0º = 2.14, we obtain",
+        "text": "Noting that tan 65.0º = 2.14, we obtain $v = {[(100 m)(9.80 m{/s}^{2})(2.14)]}^{1/2} = 45.8 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -388,7 +388,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "which can also be expressed as",
+        "text": "which can also be expressed as ${F}_{c}=m\\frac{{v}^{2}}{r}; or; {F}_{c}=mr {ω}^{2},}$",
         "inline": []
       },
       "level": "core"
@@ -556,7 +556,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in under the following circumstances: (a) The car goes over the top at such a speed that the gravitational force is the only force acting? (b) The car goes over the top faster than this speed? (c) The car goes over the top slower than this speed?",
+        "text": "What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in the figure under the following circumstances: (a) The car goes over the top at such a speed that the gravitational force is the only force acting? (b) The car goes over the top faster than this speed? (c) The car goes over the top slower than this speed?",
         "inline": []
       },
       "level": "core",
@@ -680,7 +680,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from the centre of rotation, yet there is a very real force stretching the string attaching the mass to the nail. Using concepts related to centripetal force and Newton’s third law, explain what force stretches the string, identifying its physical origin. A mass attached to a nail on a frictionless table moves in a circular path. The force stretching the string is real and not fictional. What is the physical origin of the force on the string?",
+        "text": "Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from the centre of rotation, yet there is a very real force stretching the string attaching the mass to the nail. Using concepts related to centripetal force and Newton’s third law, explain what force stretches the string, identifying its physical origin.",
         "inline": []
       },
       "level": "core",

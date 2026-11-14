@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The scientific definition of linear momentum is consistent with most people’s intuitive understanding of momentum: a large, fast-moving object has greater momentum than a smaller, slower object. Linear momentum is defined as the product of a system’s mass multiplied by its velocity. In symbols, linear momentum is expressed as",
+        "text": "The scientific definition of linear momentum is consistent with most people’s intuitive understanding of momentum: a large, fast-moving object has greater momentum than a smaller, slower object. Linear momentum is defined as the product of a system’s mass multiplied by its velocity. In symbols, linear momentum is expressed as $p=mv.$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Momentum is directly proportional to the object’s mass and also its velocity. Thus the greater an object’s mass or the greater its velocity, the greater its momentum. Momentum $p$ is a vector having the same direction as the velocity $v$ . The SI unit for momentum is $kg\\cdot m/s$ .",
+        "text": "Momentum is directly proportional to the object’s mass and also its velocity. Thus the greater an object’s mass or the greater its velocity, the greater its momentum. Momentum $p$ is a vector having the same direction as the velocity $v$. The SI unit for momentum is $kg\\cdot m/s$.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Linear momentum is defined as the product of a system’s mass multiplied by its velocity:",
+        "text": "Linear momentum is defined as the product of a system’s mass multiplied by its velocity: $p=mv.$",
         "inline": []
       },
       "level": "core"
@@ -91,7 +91,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "No information is given regarding direction, and so we can calculate only the magnitude of the momentum, $p$ . (As usual, a symbol that is in italics is a magnitude, whereas one that is italicized, boldfaced, and has an arrow is a vector.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum given in the equation, which becomes",
+        "text": "No information is given regarding direction, and so we can calculate only the magnitude of the momentum, $p$. (As usual, a symbol that is in italics is a magnitude, whereas one that is italicized, boldfaced, and has an arrow is a vector.) In both parts of this example, the magnitude of momentum can be calculated directly from the definition of momentum given in the equation, which becomes $p=mv$",
         "inline": []
       },
       "level": "core"
@@ -109,7 +109,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "To determine the momentum of the player, substitute the known values for the player’s mass and speed into the equation.",
+        "text": "To determine the momentum of the player, substitute the known values for the player’s mass and speed into the equation. ${p}_{player}=(110 kg)(8.00 m/s)=880 kg\\cdot m/s$",
         "inline": []
       },
       "level": "core"
@@ -118,7 +118,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "To determine the momentum of the ball, substitute the known values for the ball’s mass and speed into the equation.",
+        "text": "To determine the momentum of the ball, substitute the known values for the ball’s mass and speed into the equation. ${p}_{ball}=(0.410 kg)(25.0 m/s)=10.3 kg\\cdot m/s$",
         "inline": []
       },
       "level": "core"
@@ -127,7 +127,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of the player’s momentum to that of the ball is",
+        "text": "The ratio of the player’s momentum to that of the ball is $\\frac{{p}_{player}}{{p}_{ball}}=\\frac{880}{10.3}=85.4.$",
         "inline": []
       },
       "level": "core"
@@ -136,7 +136,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Although the ball has greater velocity, the player has a much greater mass. Thus the momentum of the player is much greater than the momentum of the football, as you might guess. As a result, the player’s motion is only slightly affected if he catches the ball. We shall quantify what happens in such collisions in terms of momentum in later sections. A more precise calculation of the ratio without first rounding the intermediate results gives $\\frac{(110×8.00)}{(0.410×25.0)}=85.9$ .",
+        "text": "Although the ball has greater velocity, the player has a much greater mass. Thus the momentum of the player is much greater than the momentum of the football, as you might guess. As a result, the player’s motion is only slightly affected if he catches the ball. We shall quantify what happens in such collisions in terms of momentum in later sections. A more precise calculation of the ratio without first rounding the intermediate results gives $\\frac{(110\\times 8.00)}{(0.410\\times 25.0)}=85.9$.",
         "inline": []
       },
       "level": "core"
@@ -154,7 +154,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The importance of momentum, unlike the importance of energy, was recognized early in the development of classical physics. Momentum was deemed so important that it was called the “quantity of motion.” Newton actually stated his second law of motion in terms of momentum: The net external force equals the change in momentum of a system divided by the time over which it changes. Using symbols, this law is",
+        "text": "The importance of momentum, unlike the importance of energy, was recognized early in the development of classical physics. Momentum was deemed so important that it was called the “quantity of motion.” Newton actually stated his second law of motion in terms of momentum: The net external force equals the change in momentum of a system divided by the time over which it changes. Using symbols, this law is ${F}_{net}=\\frac{Δp}{Δt},$",
         "inline": []
       },
       "level": "core"
@@ -172,7 +172,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The net external force equals the change in momentum of a system divided by the time over which it changes.",
+        "text": "The net external force equals the change in momentum of a system divided by the time over which it changes. ${F}_{net}=\\frac{Δp}{Δt}$",
         "inline": []
       },
       "level": "core"
@@ -190,7 +190,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "This statement of Newton’s second law of motion includes the more familiar ${F}_{net}=ma$ as a special case. We can derive this form as follows. First, note that the change in momentum $Δp$ is given by",
+        "text": "This statement of Newton’s second law of motion includes the more familiar ${F}_{net}=ma$ as a special case. We can derive this form as follows. First, note that the change in momentum $Δp$ is given by $Δp=Δ(mv).$",
         "inline": []
       },
       "level": "core"
@@ -199,7 +199,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "If the mass of the system is constant, then",
+        "text": "If the mass of the system is constant, then $Δ(mv)=mΔv.$",
         "inline": []
       },
       "level": "core"
@@ -208,7 +208,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "So that for constant mass, Newton’s second law of motion becomes",
+        "text": "So that for constant mass, Newton’s second law of motion becomes ${F}_{net}=\\frac{Δp}{Δt}=\\frac{mΔv}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -217,7 +217,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Because $\\frac{Δv}{Δt}=a$ , we get the familiar equation",
+        "text": "Because $\\frac{Δv}{Δt}=a$, we get the familiar equation ${F}_{net}=ma$",
         "inline": []
       },
       "level": "core"
@@ -226,7 +226,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "*when the mass of the system is constant* .",
+        "text": "*when the mass of the system is constant*.",
         "inline": []
       },
       "level": "core"
@@ -268,7 +268,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "This problem involves only one dimension because the ball starts from having no horizontal velocity component before impact. Newton’s second law stated in terms of momentum is then written as",
+        "text": "This problem involves only one dimension because the ball starts from having no horizontal velocity component before impact. Newton’s second law stated in terms of momentum is then written as ${F}_{net}=\\frac{Δp}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -277,7 +277,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "As noted above, when mass is constant, the change in momentum is given by",
+        "text": "As noted above, when mass is constant, the change in momentum is given by $Δp=mΔv=m({v}_{f}-{v}_{i}).$",
         "inline": []
       },
       "level": "core"
@@ -295,7 +295,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "To determine the change in momentum, substitute the values for the initial and final velocities into the equation above.",
+        "text": "To determine the change in momentum, substitute the values for the initial and final velocities into the equation above. $Δ p = m ({v}_{f}-{v}_{i}) = (0.057 kg) (58 m/s-0 m/s) = 3.306 kg \\cdot m/s \\approx 3.3 kg \\cdot m/s$",
         "inline": []
       },
       "level": "core"
@@ -304,7 +304,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Now the magnitude of the net external force can determined by using ${F}_{net}=\\frac{Δp}{Δt}$ :",
+        "text": "Now the magnitude of the net external force can determined by using ${F}_{net}=\\frac{Δp}{Δt}$: ${F}_{net} = \\frac{Δp}{Δt}=\\frac{3.306 kg\\cdot m/s}{5.0\\times {10}^{-3} s} = 661 N \\approx 660 N,$",
         "inline": []
       },
       "level": "core"
@@ -322,7 +322,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "This quantity was the average force exerted by Venus Williams’ racquet on the tennis ball during its brief impact (note that the ball also experienced the 0.56-N force of gravity, but that force was not due to the racquet). This problem could also be solved by first finding the acceleration and then using ${F}_{net}=ma$ , but one additional step would be required compared with the strategy used in this example.",
+        "text": "This quantity was the average force exerted by Venus Williams’ racquet on the tennis ball during its brief impact (note that the ball also experienced the 0.56-N force of gravity, but that force was not due to the racquet). This problem could also be solved by first finding the acceleration and then using ${F}_{net} = ma$, but one additional step would be required compared with the strategy used in this example.",
         "inline": []
       },
       "level": "core"
@@ -506,7 +506,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the momentum of a 2000-kg elephant charging a hunter at a speed of $7.50 m/s$ . (b) Compare the elephant’s momentum with the momentum of a 0.0400-kg tranquilizer dart fired at a speed of $600 m/s$ . (c) What is the momentum of the 90.0-kg hunter running at $7.40 m/s$ after missing the elephant?",
+        "text": "(a) Calculate the momentum of a 2000-kg elephant charging a hunter at a speed of $7.50 m/s$. (b) Compare the elephant’s momentum with the momentum of a 0.0400-kg tranquilizer dart fired at a speed of $600 m/s$. (c) What is the momentum of the 90.0-kg hunter running at $7.40 m/s$ after missing the elephant?",
         "inline": []
       },
       "level": "core",
@@ -548,7 +548,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the mass of a large ship that has a momentum of $1.60×{10}^{9}kg\\cdot m/s$ , when the ship is moving at a speed of $48.0 km/h?$ (b) Compare the ship’s momentum to the momentum of a 1100-kg artillery shell fired at a speed of $1200 m/s$ .",
+        "text": "(a) What is the mass of a large ship that has a momentum of $1.60\\times {10}^{9} kg\\cdot m/s$, when the ship is moving at a speed of $48.0 km/h?$ (b) Compare the ship’s momentum to the momentum of a 1100-kg artillery shell fired at a speed of $1200 m/s$.",
         "inline": []
       },
       "level": "core",
@@ -569,7 +569,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) At what speed would a $2.00×{10}^{4}-kg$ airplane have to fly to have a momentum of $1.60×{10}^{9}kg\\cdot m/s$ (the same as the ship’s momentum in the problem above)? (b) What is the plane’s momentum when it is taking off at a speed of $60.0 m/s$ ? (c) If the ship is an aircraft carrier that launches these airplanes with a catapult, discuss the implications of your answer to (b) as it relates to recoil effects of the catapult on the ship.",
+        "text": "(a) At what speed would a $2.00\\times {10}^{4}-kg$ airplane have to fly to have a momentum of $1.60\\times {10}^{9} kg\\cdot m/s$ (the same as the ship’s momentum in the problem above)? (b) What is the plane’s momentum when it is taking off at a speed of $60.0 m/s$? (c) If the ship is an aircraft carrier that launches these airplanes with a catapult, discuss the implications of your answer to (b) as it relates to recoil effects of the catapult on the ship.",
         "inline": []
       },
       "level": "core",
@@ -620,7 +620,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the momentum of a garbage truck that is $1.20×{10}^{4}kg$ and is moving at $30.0 m/s$ ? (b) At what speed would an 8.00-kg trash can have the same momentum as the truck?",
+        "text": "(a) What is the momentum of a garbage truck that is $1.20\\times {10}^{4} kg$ and is moving at $30.0 m/s$? (b) At what speed would an 8.00-kg trash can have the same momentum as the truck?",
         "inline": []
       },
       "level": "core",
@@ -665,7 +665,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The mass of Earth is $5.972×{10}^{24}kg$ and its orbital radius is an average of $1.496×{10}^{11}m$ . Calculate its linear momentum.",
+        "text": "The mass of Earth is $5.972\\times {10}^{24} kg$ and its orbital radius is an average of $1.496\\times {10}^{11} m$. Calculate its linear momentum.",
         "inline": []
       },
       "level": "core",

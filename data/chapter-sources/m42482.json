@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The eye is perhaps the most interesting of all optical instruments. The eye is remarkable in how it forms images and in the richness of detail and color it can detect. However, our eyes commonly need some correction, to reach what is called “normal” vision, but should be called ideal rather than normal. Image formation by our eyes and common vision correction are easy to analyze with the optics discussed in Geometric Optics .",
+        "text": "The eye is perhaps the most interesting of all optical instruments. The eye is remarkable in how it forms images and in the richness of detail and color it can detect. However, our eyes commonly need some correction, to reach what is called “normal” vision, but should be called ideal rather than normal. Image formation by our eyes and common vision correction are easy to analyze with the optics discussed in Geometric Optics.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "shows the basic anatomy of the eye. The cornea and lens form a system that, to a good approximation, acts as a single thin lens. For clear vision, a real image must be projected onto the light-sensitive retina, which lies at a fixed distance from the lens. The lens of the eye adjusts its power to produce an image on the retina for objects at different distances. The center of the image falls on the fovea, which has the greatest density of light receptors and the greatest acuity (sharpness) in the visual field. The variable opening (or pupil) of the eye along with chemical adaptation allows the eye to detect light intensities from the lowest observable to ${10}^{10}$ times greater (without damage). This is an incredible range of detection. Our eyes perform a vast number of functions, such as sense direction, movement, sophisticated colors, and distance. Processing of visual nerve impulses begins with interconnections in the retina and continues in the brain. The optic nerve conveys signals received by the eye to the brain.",
+        "text": "The figure shows the basic anatomy of the eye. The cornea and lens form a system that, to a good approximation, acts as a single thin lens. For clear vision, a real image must be projected onto the light-sensitive retina, which lies at a fixed distance from the lens. The lens of the eye adjusts its power to produce an image on the retina for objects at different distances. The center of the image falls on the fovea, which has the greatest density of light receptors and the greatest acuity (sharpness) in the visual field. The variable opening (or pupil) of the eye along with chemical adaptation allows the eye to detect light intensities from the lowest observable to ${10}^{10}$ times greater (without damage). This is an incredible range of detection. Our eyes perform a vast number of functions, such as sense direction, movement, sophisticated colors, and distance. Processing of visual nerve impulses begins with interconnections in the retina and continues in the brain. The optic nerve conveys signals received by the eye to the brain.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Refractive indices are crucial to image formation using lenses. shows refractive indices relevant to the eye. The biggest change in the refractive index, and bending of rays, occurs at the cornea rather than the lens. The ray diagram in shows image formation by the cornea and lens of the eye. The rays bend according to the refractive indices provided in . The cornea provides about two-thirds of the power of the eye, owing to the fact that speed of light changes considerably while traveling from air into cornea. The lens provides the remaining power needed to produce an image on the retina. The cornea and lens can be treated as a single thin lens, even though the light rays pass through several layers of material (such as cornea, aqueous humor, several layers in the lens, and vitreous humor), changing direction at each interface. The image formed is much like the one produced by a single convex lens. This is a case 1 image. Images formed in the eye are inverted but the brain inverts them once more to make them seem upright.",
+        "text": "Refractive indices are crucial to image formation using lenses. The table shows refractive indices relevant to the eye. The biggest change in the refractive index, and bending of rays, occurs at the cornea rather than the lens. The ray diagram in the figure shows image formation by the cornea and lens of the eye. The rays bend according to the refractive indices provided in the table. The cornea provides about two-thirds of the power of the eye, owing to the fact that speed of light changes considerably while traveling from air into cornea. The lens provides the remaining power needed to produce an image on the retina. The cornea and lens can be treated as a single thin lens, even though the light rays pass through several layers of material (such as cornea, aqueous humor, several layers in the lens, and vitreous humor), changing direction at each interface. The image formed is much like the one produced by a single convex lens. This is a case 1 image. Images formed in the eye are inverted but the brain inverts them once more to make them seem upright.",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "As noted, the image must fall precisely on the retina to produce clear vision — that is, the image distance ${d}_{i}$ must equal the lens-to-retina distance. Because the lens-to-retina distance does not change, the image distance ${d}_{i}$ must be the same for objects at all distances. The eye manages this by varying the power (and focal length) of the lens to accommodate for objects at various distances. The process of adjusting the eye’s focal length is called accommodation . A person with normal (ideal) vision can see objects clearly at distances ranging from 25 cm to essentially infinity. However, although the near point (the shortest distance at which a sharp focus can be obtained) increases with age (becoming meters for some older people), we will consider it to be 25 cm in our treatment here.",
+        "text": "As noted, the image must fall precisely on the retina to produce clear vision — that is, the image distance ${d}_{i}$ must equal the lens-to-retina distance. Because the lens-to-retina distance does not change, the image distance ${d}_{i}$ must be the same for objects at all distances. The eye manages this by varying the power (and focal length) of the lens to accommodate for objects at various distances. The process of adjusting the eye’s focal length is called accommodation. A person with normal (ideal) vision can see objects clearly at distances ranging from 25 cm to essentially infinity. However, although the near point (the shortest distance at which a sharp focus can be obtained) increases with age (becoming meters for some older people), we will consider it to be 25 cm in our treatment here.",
         "inline": []
       },
       "level": "core"
@@ -142,7 +142,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "shows the accommodation of the eye for distant and near vision. Since light rays from a nearby object can diverge and still enter the eye, the lens must be more converging (more powerful) for close vision than for distant vision. To be more converging, the lens is made thicker by the action of the ciliary muscle surrounding it. The eye is most relaxed when viewing distant objects, one reason that microscopes and telescopes are designed to produce distant images. Vision of very distant objects is called *totally relaxed* , while close vision is termed *accommodated* , with the closest vision being *fully accommodated* .",
+        "text": "The figure shows the accommodation of the eye for distant and near vision. Since light rays from a nearby object can diverge and still enter the eye, the lens must be more converging (more powerful) for close vision than for distant vision. To be more converging, the lens is made thicker by the action of the ciliary muscle surrounding it. The eye is most relaxed when viewing distant objects, one reason that microscopes and telescopes are designed to produce distant images. Vision of very distant objects is called *totally relaxed*, while close vision is termed *accommodated*, with the closest vision being *fully accommodated*.",
         "inline": []
       },
       "level": "core"
@@ -164,7 +164,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "We will use the thin lens equations to examine image formation by the eye quantitatively. First, note the power of a lens is given as $p=1/f$ , so we rewrite the thin lens equations as",
+        "text": "We will use the thin lens equations to examine image formation by the eye quantitatively. First, note the power of a lens is given as $p=1/f$, so we rewrite the thin lens equations as $P=\\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}$",
         "inline": []
       },
       "level": "core"
@@ -215,7 +215,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "What is the size of the image on the retina of a $1.20×{10}^{-2}$ cm diameter human hair, held at arm’s length (60.0 cm) away? Take the lens-to-retina distance to be 2.00 cm.",
+        "text": "What is the size of the image on the retina of a $1.20\\times {10}^{-2}$ cm diameter human hair, held at arm’s length (60.0 cm) away? Take the lens-to-retina distance to be 2.00 cm.",
         "inline": []
       },
       "level": "core"
@@ -224,7 +224,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "We want to find the height of the image ${h}_{i}$ , given the height of the object is ${h}_{o}=1.20×{10}^{-2}$ cm. We also know that the object is 60.0 cm away, so that ${d}_{o}=60.0 cm$ . For clear vision, the image distance must equal the lens-to-retina distance, and so ${d}_{i}=2.00 cm$ . The equation $\\frac{{h}_{i}}{{h}_{o}}=-\\frac{{d}_{i}}{{d}_{o}}=m$ can be used to find ${h}_{i}$ with the known information.",
+        "text": "We want to find the height of the image ${h}_{i}$, given the height of the object is ${h}_{o}=1.20\\times {10}^{-2}$ cm. We also know that the object is 60.0 cm away, so that ${d}_{o}=60.0 cm$. For clear vision, the image distance must equal the lens-to-retina distance, and so ${d}_{i}=2.00 cm$. The equation $\\frac{{h}_{i}}{{h}_{o}}=-\\frac{{d}_{i}}{{d}_{o}}=m$ can be used to find ${h}_{i}$ with the known information.",
         "inline": []
       },
       "level": "core"
@@ -233,7 +233,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The only unknown variable in the equation $\\frac{{h}_{i}}{{h}_{o}}=-\\frac{{d}_{i}}{{d}_{o}}=m$ is ${h}_{i}$ :",
+        "text": "The only unknown variable in the equation $\\frac{{h}_{i}}{{h}_{o}}=-\\frac{{d}_{i}}{{d}_{o}}=m$ is ${h}_{i}$: $\\frac{{h}_{i}}{{h}_{o}}=-\\frac{{d}_{i}}{{d}_{o}}.$",
         "inline": []
       },
       "level": "core"
@@ -242,7 +242,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging to isolate ${h}_{i}$ yields",
+        "text": "Rearranging to isolate ${h}_{i}$ yields ${h}_{i}=-{h}_{o}\\cdot \\frac{{d}_{i}}{{d}_{o}}.$",
         "inline": []
       },
       "level": "core"
@@ -251,7 +251,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the known values gives",
+        "text": "Substituting the known values gives ${h}_{i} = -(1.20\\times {10}^{-2} cm)\\frac{2.00 cm}{60.0 cm} = -4.00\\times {10}^{-4} cm.$",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "For clear vision, the image must be on the retina, and so ${d}_{i}=2.00 cm$ here. For distant vision, ${d}_{o}≈∞$ , and for close vision, ${d}_{o}=25.0 cm$ , as discussed earlier. The equation $P=\\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}$ as written just above, can be used directly to solve for $P$ in both cases, since we know ${d}_{i}$ and ${d}_{o}$ . Power has units of diopters, where $1 D=1/m$ , and so we should express all distances in meters.",
+        "text": "For clear vision, the image must be on the retina, and so ${d}_{i}=2.00 cm$ here. For distant vision, ${d}_{o}\\approx ∞$, and for close vision, ${d}_{o}=25.0 cm$, as discussed earlier. The equation $P=\\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}$ as written just above, can be used directly to solve for $P$ in both cases, since we know ${d}_{i}$ and ${d}_{o}$. Power has units of diopters, where $1 D=1/m$, and so we should express all distances in meters.",
         "inline": []
       },
       "level": "core"
@@ -302,7 +302,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Since $1/∞=0$ , this gives",
+        "text": "Since $1/\\infty =0$, this gives $P=0+50.0/m=50.0 D (distant vision).$",
         "inline": []
       },
       "level": "core"
@@ -311,7 +311,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Now, for close vision,",
+        "text": "Now, for close vision, $P = \\frac{1}{{d}_{o}}+\\frac{1}{{d}_{i}}=\\frac{1}{0.250 m}+\\frac{1}{0.0200 m} = \\frac{4.00}{m}+\\frac{50.0}{m}=4.00 D+50.0 D = 54.0 D (close vision).$",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "For an eye with this typical 2.00 cm lens-to-retina distance, the power of the eye ranges from 50.0 D (for distant totally relaxed vision) to 54.0 D (for close fully accommodated vision), which is an 8% increase. This increase in power for close vision is consistent with the preceding discussion and the ray tracing in . An 8% ability to accommodate is considered normal but is typical for people who are about 40 years old. Younger people have greater accommodation ability, whereas older people gradually lose the ability to accommodate. When an optometrist identifies accommodation as a problem in elder people, it is most likely due to stiffening of the lens. The lens of the eye changes with age in ways that tend to preserve the ability to see distant objects clearly but do not allow the eye to accommodate for close vision, a condition called presbyopia (literally, elder eye). To correct this vision defect, we place a converging, positive power lens in front of the eye, such as found in reading glasses. Commonly available reading glasses are rated by their power in diopters, typically ranging from 1.0 to 3.5 D.",
+        "text": "For an eye with this typical 2.00 cm lens-to-retina distance, the power of the eye ranges from 50.0 D (for distant totally relaxed vision) to 54.0 D (for close fully accommodated vision), which is an 8% increase. This increase in power for close vision is consistent with the preceding discussion and the ray tracing in the figure. An 8% ability to accommodate is considered normal but is typical for people who are about 40 years old. Younger people have greater accommodation ability, whereas older people gradually lose the ability to accommodate. When an optometrist identifies accommodation as a problem in elder people, it is most likely due to stiffening of the lens. The lens of the eye changes with age in ways that tend to preserve the ability to see distant objects clearly but do not allow the eye to accommodate for close vision, a condition called presbyopia (literally, elder eye). To correct this vision defect, we place a converging, positive power lens in front of the eye, such as found in reading glasses. Commonly available reading glasses are rated by their power in diopters, typically ranging from 1.0 to 3.5 D.",
         "inline": []
       },
       "level": "core"

@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Physics of Hearing",
   "book_id": "secondary_physics",
-  "part_id": "part-3",
+  "part_id": "part-4",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -122,7 +122,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_oscillations_and_waves"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -141,32 +143,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "characteristics-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -183,6 +160,13 @@
         {
           "claim": "The pitch of a sound is its loudness.",
           "correction": "Pitch is the frequency of the vibration, and loudness is how large the vibration is."
+        },
+        {
+          "claim": "Sound is a transverse wave, like light.",
+          "correction": "In sound the particles of the medium oscillate along the direction of travel, so the wave is longitudinal. Light is transverse, and the difference is what makes sound need a medium and light not.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_physics_of_hearing:trap-3",
+          "signal": "Our own question offers transverse as the answer."
         }
       ],
       "summary": [
@@ -193,14 +177,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "characteristics-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -218,7 +194,64 @@
           "papers": []
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Is sound a longitudinal or a transverse wave?",
+          "answer": "Longitudinal.",
+          "answer_kind": "explanation",
+          "solution": [
+            "In a sound wave the particles oscillate along the direction the wave travels.",
+            "That is the definition of a longitudinal wave.",
+            "Light is transverse; sound in a fluid is longitudinal."
+          ],
+          "tags": [
+            "sound",
+            "longitudinal wave"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Can sound travel through a vacuum? Explain.",
+          "answer": "No. Sound needs a material medium because it is a mechanical vibration.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Sound is a disturbance of matter.",
+            "Without particles there is nothing to vibrate.",
+            "That is why there is no sound in space."
+          ],
+          "tags": [
+            "sound",
+            "medium",
+            "vacuum"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What property of a sound wave determines its pitch?",
+          "answer": "Its frequency.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Pitch is the perceived highness or lowness of a sound.",
+            "It corresponds to the frequency of the vibration.",
+            "A higher frequency gives a higher pitch."
+          ],
+          "tags": [
+            "pitch",
+            "frequency"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -232,7 +265,15 @@
         "Describe the effects on the speed of sound as it travels through various media.",
         "Describe the effects of temperature on the speed of sound."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The speed of sound in air is about $1500\\,\\text{m/s}$.",
+          "correction": "In air at room temperature it is about $340\\,\\text{m/s}$. The figure near $1500\\,\\text{m/s}$ belongs to sound in water, and $3 \\times 10^8\\,\\text{m/s}$ is the speed of light.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_physics_of_hearing:trap-4",
+          "signal": "Our own question offers the speed in water as an option."
+        }
+      ],
       "summary": [
         "The relationship of the speed of sound vw, its frequency f, and its wavelength λ is given by",
         "which is the same relationship given for all waves.",
@@ -241,14 +282,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "characteristics-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -286,7 +319,7 @@
       ],
       "summary": [
         "Intensity is the same for a sound wave as was defined for all waves; it is I=PA, where P is the power crossing area A. The SI unit for I is watts per meter squared. The intensity of a sound wave is also related to the pressure amplitude Δp I= (Δp) 2 2 ρv w , where ρ is the density of the medium in which the sound wave travels and vw is the speed of sound in the medium.",
-        "Sound intensity level in units of decibels (dB) is βdB=10log10II0, where I0 = 10 –12 W/ m2 is the threshold intensity of hearing."
+        "Sound intensity level in units of decibels (dB) is βdB=10log10II0, where I0 = 10 -12 W/ m2 is the threshold intensity of hearing."
       ],
       "tags": [],
       "facts_inherited": true,
@@ -300,14 +333,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-sound-waves",
@@ -315,8 +340,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-35"
+      ]
     },
     {
       "id": "sec-5",
@@ -329,7 +353,18 @@
         "Calculate the frequency of a sound heard by someone observing Doppler shift.",
         "Describe the sounds produced by objects moving faster than the speed of sound."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The Doppler effect changes the speed of sound.",
+          "correction": "It changes the observed frequency and wavelength, not the speed. The speed is set by the medium.",
+          "signal": "The wave still travels at the same speed through the air."
+        },
+        {
+          "claim": "A sonic boom is heard only at the instant an aircraft breaks the sound barrier.",
+          "correction": "A supersonic aircraft continuously produces a shock cone. The boom is heard when the cone sweeps past the listener, which can be well after the aircraft has passed.",
+          "signal": "The boom follows the aircraft’s path."
+        }
+      ],
       "summary": [
         "The Doppler effect is an alteration in the observed frequency of a sound due to motion of either the source or the observer.",
         "The actual change in frequency is called the Doppler shift.",
@@ -337,33 +372,9 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "characteristics-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-38"
+      "exam_links": [],
+      "worked_from": "exr-38",
+      "no_exam_link_reason": "The Doppler effect is not named in the JAMB or WAEC sound topics."
     },
     {
       "id": "sec-6",
@@ -377,7 +388,18 @@
         "Describe how sound interference occurring inside open and closed tubes changes the characteristics of the sound, and how this applies to sounds produced by musical instruments.",
         "Calculate the length of a tube using sound wave measurements."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A pipe closed at one end can support every harmonic.",
+          "correction": "A closed pipe supports only odd harmonics: the fundamental, third, fifth, and so on. The closed end is a displacement node.",
+          "signal": "The boundary conditions remove the even harmonics."
+        },
+        {
+          "claim": "Nodes are the points of maximum vibration in a standing wave.",
+          "correction": "Nodes are points of zero displacement. Antinodes are points of maximum displacement.",
+          "signal": "The names are the opposite of what they sound like."
+        }
+      ],
       "summary": [
         "Sound interference and resonance have the same properties as defined for all waves.",
         "In air columns, the lowest-frequency resonance is called the fundamental, whereas all higher resonant frequencies are called overtones. Collectively, they are called harmonics.",
@@ -395,14 +417,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-sound-waves",
@@ -411,7 +425,11 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-47"
+      "worked_from": "exr-47",
+      "figure_captions": {
+        "images/phy_m42296_CNX_APPhysics_17_M5_spkr_img.jpg": "Two tubes of different lengths resonate with a loudspeaker, showing how tube length selects the resonant frequency.",
+        "images/phy_m42296_image029.png": "A string driven by an oscillator and tensioned over a pulley, used to study standing waves."
+      }
     },
     {
       "id": "sec-7",
@@ -424,7 +442,18 @@
         "Compare loudness to frequency and intensity of a sound.",
         "Identify structures of the inner ear and explain how they relate to sound perception."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Loudness is the same as sound intensity.",
+          "correction": "Loudness is the subjective perception of sound. Intensity is the physical power per unit area. The ear’s sensitivity varies with frequency.",
+          "signal": "Two sounds of equal intensity can seem different in loudness."
+        },
+        {
+          "claim": "The human ear hears all frequencies equally well.",
+          "correction": "The ear is most sensitive around 2-5 kHz and less sensitive at very low and very high frequencies. Equal intensity does not mean equal loudness.",
+          "signal": "An equal-loudness curve is not flat."
+        }
+      ],
       "summary": [
         "The range of audible frequencies is 20 to 20,000 Hz.",
         "Those sounds above 20,000 Hz are ultrasound, whereas those below 20 Hz are infrasound.",
@@ -438,15 +467,7 @@
           "subject": "physics",
           "topic_slug": "characteristics-of-sound-waves",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -454,7 +475,7 @@
           "subject": "physics",
           "topic_slug": "waec-sound-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -472,7 +493,18 @@
         "Calculate acoustic impedance using density values and the speed of ultrasound.",
         "Calculate the velocity of a moving object using Doppler-shifted ultrasound."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Ultrasound is a different kind of wave from audible sound.",
+          "correction": "It is the same longitudinal sound wave, at a frequency above about 20 kHz. The difference is frequency, not wave type.",
+          "signal": "Bats and medical scanners use the same physics."
+        },
+        {
+          "claim": "Ultrasound passes easily through bone.",
+          "correction": "Bone has a very different acoustic impedance from soft tissue, so most of the ultrasound is reflected at the boundary. That is why bone casts an acoustic shadow.",
+          "signal": "A large impedance mismatch means strong reflection."
+        }
+      ],
       "summary": [
         "The acoustic impedance is defined as: Z=ρv,ρ is the density of a medium through which the sound travels and v is the speed of sound through that medium.",
         "The intensity reflection coefficient a, a measure of the ratio of the intensity of the wave reflected off a boundary between two media relative to the intensity of the incident wave, is given by a = Z 2 − Z 1 2 Z 1 + Z 2 2 .",
@@ -480,36 +512,203 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "characteristics-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "propagation-of-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-sound-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-63"
+      "exam_links": [],
+      "worked_from": "exr-63",
+      "no_exam_link_reason": "Medical ultrasound is an applied extension and is not named in either syllabus."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$v = f\\lambda$",
+      "caption": {
+        "text": "Speed of sound",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a sound wave of frequency f and wavelength λ.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42256/index.cnxml",
+        "locator": "CNXML module m42256, section “Speed of Sound, Frequency, and Wavelength”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$v = 331\\sqrt{\\frac{T}{273}}$",
+      "caption": {
+        "text": "Speed of sound in air",
+        "inline": []
+      },
+      "conditions": {
+        "text": "T is the absolute temperature in kelvin; the speed is in m/s.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42256/index.cnxml",
+        "locator": "CNXML module m42256, section “Speed of Sound, Frequency, and Wavelength”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$I = \\frac{P}{A}$",
+      "caption": {
+        "text": "Sound intensity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Power crossing area A perpendicular to the direction of travel.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42257/index.cnxml",
+        "locator": "CNXML module m42257, section “Sound Intensity and Sound Level”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\beta = 10\\log_{10}\\left(\\frac{I}{I_0}\\right)$",
+      "caption": {
+        "text": "Sound intensity level in decibels",
+        "inline": []
+      },
+      "conditions": {
+        "text": "I₀ = 10⁻¹² W/m² is the reference intensity.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42257/index.cnxml",
+        "locator": "CNXML module m42257, section “Sound Intensity and Sound Level”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$f_{\\mathrm{obs}} = f_s\\frac{v \\pm v_o}{v \\mp v_s}$",
+      "caption": {
+        "text": "Doppler shift",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Use the signs that increase the observed frequency when source and observer approach.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42712/index.cnxml",
+        "locator": "CNXML module m42712, section “Doppler Effect”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$f_n = \\frac{nv}{2L}$",
+      "caption": {
+        "text": "Resonant frequencies of an open pipe",
+        "inline": []
+      },
+      "conditions": {
+        "text": "n = 1, 2, 3, … for a pipe open at both ends.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42296/index.cnxml",
+        "locator": "CNXML module m42296, section “Standing Waves in Air Columns”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$f_n = \\frac{nv}{4L}$",
+      "caption": {
+        "text": "Resonant frequencies of a closed pipe",
+        "inline": []
+      },
+      "conditions": {
+        "text": "n = 1, 3, 5, … for a pipe closed at one end.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42296/index.cnxml",
+        "locator": "CNXML module m42296, section “Standing Waves in Air Columns”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$f_{\\mathrm{beat}} = |f_1 - f_2|$",
+      "caption": {
+        "text": "Beat frequency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The difference between two close frequencies.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42296/index.cnxml",
+        "locator": "CNXML module m42296, section “Standing Waves in Air Columns”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$Z = \\rho v$",
+      "caption": {
+        "text": "Acoustic impedance",
+        "inline": []
+      },
+      "conditions": {
+        "text": "ρ is the density of the medium and v is the speed of sound in it.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42298/index.cnxml",
+        "locator": "CNXML module m42298, section “Ultrasound”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-10",
+      "expression": "$\\alpha = \\left(\\frac{Z_2 - Z_1}{Z_2 + Z_1}\\right)^2$",
+      "caption": {
+        "text": "Intensity reflection coefficient",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The fraction of intensity reflected at a boundary between media of impedances Z₁ and Z₂.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42298/index.cnxml",
+        "locator": "CNXML module m42298, section “Ultrasound”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -963,76 +1162,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The pitch of a sound is its loudness.",
-      "correction": "Pitch is the frequency of the vibration, and loudness is how large the vibration is.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Sound is louder in air than in water.",
-      "correction": "Sound travels faster in water, and it is the speed and the resistance that decide how loud it seems.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Sound is a transverse wave, like light.",
-      "correction": "In sound the particles of the medium oscillate along the direction of travel, so the wave is longitudinal. Light is transverse, and the difference is what makes sound need a medium and light not.",
-      "signal": "Our own question offers transverse as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The speed of sound in air is about $1500\\,\\text{m/s}$.",
-      "correction": "In air at room temperature it is about $340\\,\\text{m/s}$. The figure near $1500\\,\\text{m/s}$ belongs to sound in water, and $3 \\times 10^8\\,\\text{m/s}$ is the speed of light.",
-      "signal": "Our own question offers the speed in water as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1178,6 +1308,64 @@
       "explanation": "Zero decibels is the faintest sound the average human ear can detect, and the threshold of pain is around $120\\,\\text{dB}$.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "The normal range of human hearing is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.2 Hz to 200 Hz"
+        },
+        {
+          "id": "b",
+          "text": "20 Hz to 20,000 Hz"
+        },
+        {
+          "id": "c",
+          "text": "200 Hz to 200,000 Hz"
+        },
+        {
+          "id": "d",
+          "text": "20,000 Hz to 200,000 Hz"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Humans hear roughly 20 Hz to 20 kHz. Below 20 Hz is infrasound and above 20 kHz is ultrasound.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "Acoustic impedance is defined as",
+      "options": [
+        {
+          "id": "a",
+          "text": "ρ/v"
+        },
+        {
+          "id": "b",
+          "text": "ρv"
+        },
+        {
+          "id": "c",
+          "text": "v/ρ"
+        },
+        {
+          "id": "d",
+          "text": "ρv²"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Acoustic impedance Z = ρv, the product of the medium’s density and the speed of sound in it.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1188,5 +1376,189 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Physics of Hearing', modules m42254, m42255, m42256, m42257, m42712, m42296, m42297, m42298",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 17,
+  "exercise_fixes": {
+    "sec-6:exr-74": {
+      "drop": true
+    },
+    "sec-7:exr-58": {
+      "drop": true
+    },
+    "sec-3:exr-68": {
+      "stem": "Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (a) Calculate the echo times for temperatures of $5.00ºC$ and $35.0ºC$ . (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)"
+    },
+    "sec-6:exr-97": {
+      "stem": "A student connects one end of a string with negligible mass to an oscillator. The other end of the string is passed over a pulley and attached to a suspended weight. The student finds that a standing wave with one antinode is formed on the string when the frequency of the oscillator is $f_{0}$. The student then moves the oscillator to shorten the horizontal segment of string to half its original length. At what frequency will a standing wave with one antinode now be formed on the string?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f_{0}/2$"
+        },
+        {
+          "id": "b",
+          "text": "$f_{0}$"
+        },
+        {
+          "id": "c",
+          "text": "$2f_{0}$"
+        },
+        {
+          "id": "d",
+          "text": "There is no frequency at which a standing wave will be formed"
+        }
+      ]
+    },
+    "sec-6:exr-137": {
+      "stem": "The ear canal resonates like a tube closed at one end. If ear canals range in length from 1.80 to 2.60 cm in an average population, what is the range of fundamental resonant frequencies? Take air temperature to be $37.0ºC$ , which is the same as body temperature."
+    },
+    "sec-6:exr-141": {
+      "stem": "A crude approximation of voice production is to consider the breathing passages and mouth to be a resonating tube closed at one end. (a) What is the fundamental frequency if the tube is 0.240-m long, by taking air temperature to be $37.0ºC$ ? (b) What would this frequency become if the person replaced the air with helium? Assume the same temperature dependence for helium as for air."
+    },
+    "sec-8:exr-86": {
+      "stem": "In the clinical use of ultrasound, transducers are always coupled to the skin by a thin layer of gel or oil, replacing the air that would otherwise exist between the transducer and the skin. Take the acoustic impedance of the transducer material as $30.8×10^{6}kg/(m^{2}\\cdot s)$ , that of air as $429kg/(m^{2}\\cdot s)$ , and that of the gel (treated as water) as $1.5×10^{6}kg/(m^{2}\\cdot s)$ . (a) Calculate the intensity reflection coefficient between transducer material and air. (b) Calculate the intensity reflection coefficient between transducer material and gel. (c) Based on the results, explain why the gel is used.",
+      "answer": "(a) 1.00 (essentially total reflection) (b) 0.823 (c) The gel replaces air with a medium whose acoustic impedance is much closer to that of the transducer, so most of the ultrasound enters the body instead of being reflected at the skin.",
+      "solution": [
+        "The intensity reflection coefficient is $α=\\left(\\frac{Z_{2}-Z_{1}}{Z_{2}+Z_{1}}\\right)^{2}$ .",
+        "(a) $α=\\left(\\frac{429-30.8×10^{6}}{429+30.8×10^{6}}\\right)^{2}=1.00$ .",
+        "(b) $α=\\left(\\frac{1.5×10^{6}-30.8×10^{6}}{1.5×10^{6}+30.8×10^{6}}\\right)^{2}=0.823$ .",
+        "(c) With air, essentially all the ultrasound is reflected. The gel raises the transmitted fraction to about 18%, which is enough for imaging."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the impedance values from the section's table are written into the question"
+    },
+    "sec-3:exr-30": {
+      "stem": "A teacher wants to demonstrate that the speed of sound is not a constant value. Considering her regular classroom voice as the control, which of the following combinations will increase the speed of sound leaving her mouth? I. Submerge her mouth underwater and speak at the same volume. II. Increase the temperature of the room and speak at the same volume. III. Increase the pitch of her voice and speak at the same volume.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I only"
+        },
+        {
+          "id": "b",
+          "text": "I and II only"
+        },
+        {
+          "id": "c",
+          "text": "I, II and III"
+        },
+        {
+          "id": "d",
+          "text": "II and III"
+        },
+        {
+          "id": "e",
+          "text": "III only"
+        }
+      ],
+      "solution": [
+        "Sound travels faster in water than in air, so I increases the speed. The speed of sound in air increases with temperature, so II increases it. Pitch is frequency, which does not change the speed of sound, so III does not."
+      ]
+    },
+    "sec-6:exr-68": {
+      "stem": "A student is shaking a flexible string attached to a wooden board in a rhythmic manner. Which of the following choices will decrease the wavelength within the rope? I. Shake her hand back and forth with greater frequency. II. Shake her hand back and forth with a greater amplitude. III. Increase the tension within the rope by stepping backwards from the board.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I only"
+        },
+        {
+          "id": "b",
+          "text": "I and II"
+        },
+        {
+          "id": "c",
+          "text": "I and III"
+        },
+        {
+          "id": "d",
+          "text": "II and III"
+        },
+        {
+          "id": "e",
+          "text": "I, II, and III"
+        }
+      ],
+      "answer": "(a)",
+      "solution": [
+        "The wave speed on a string is $v=\\sqrt{T/\\mu}$, and the wavelength is $\\lambda=v/f$. Greater frequency (I) decreases $\\lambda$. Amplitude (II) does not change $\\lambda$. Increasing the tension (III) increases $v$ and therefore increases $\\lambda$. Only I decreases the wavelength."
+      ]
+    },
+    "sec-6:exr-85": {
+      "stem": "When a student blows across a glass half-full of water, a resonant frequency is created within the air column remaining in the glass. Which of the following will increase this resonant frequency? I. Add more water to the glass. II. Replace the water with a more dense fluid. III. Increase the temperature of the room.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I only"
+        },
+        {
+          "id": "b",
+          "text": "I and III"
+        },
+        {
+          "id": "c",
+          "text": "II and III"
+        },
+        {
+          "id": "d",
+          "text": "All of the above"
+        }
+      ],
+      "solution": [
+        "Adding water shortens the air column, and a shorter column has a higher resonant frequency, so I works. A denser liquid does not change the air column or the speed of sound in air, so II does not. Warmer air has a higher sound speed, which raises the frequency, so III works."
+      ]
+    },
+    "sec-6:exr-90": {
+      "stem": "A musician stands outside in a field and plucks a string on an acoustic guitar. Standing waves will most likely occur in which of the following media? Select two answers.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The guitar string"
+        },
+        {
+          "id": "b",
+          "text": "The air inside the guitar"
+        },
+        {
+          "id": "c",
+          "text": "The air surrounding the guitar"
+        },
+        {
+          "id": "d",
+          "text": "The ground beneath the musician"
+        }
+      ]
+    },
+    "sec-6:exr-79": {
+      "stem": "A tube is open at one end. If the fundamental frequency $f$ is created by a wavelength $\\lambda$, then which of the following describes the frequency and wavelength associated with the tube's fourth overtone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$4f$, $\\lambda/4$"
+        },
+        {
+          "id": "b",
+          "text": "$4f$, $\\lambda$"
+        },
+        {
+          "id": "c",
+          "text": "$9f$, $\\lambda/9$"
+        },
+        {
+          "id": "d",
+          "text": "$9f$, $\\lambda$"
+        }
+      ]
+    }
+  },
+  "worked_fixes": {
+    "sec-4:we-ex-16": {
+      "answer": "87 dB",
+      "steps": [
+        "Calculate the intensity from the pressure amplitude using $I=(Δp)^{2}/(2ρv_{w})$ .",
+        "With $ρ=1.29kg/m^{3}$ and $v_{w}=331m/s$, $I=(0.656)^{2}/[2(1.29)(331)]=5.04×10^{-4}W/m^{2}$ .",
+        "Then $β=10\\log_{10}(I/I_{0})=10\\log_{10}(5.04×10^{-4}/1.00×10^{-12})=87.0dB$ .",
+        "A factor of five in intensity corresponds to about 7 dB, so this sound is about 7 dB louder than an 80-dB sound."
+      ]
+    }
+  }
 }

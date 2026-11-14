@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In , a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum , but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum $Δp$ .",
+        "text": "The effect of a force on an object depends on how long it acts, as well as how great the force is. In the example, a very large force acting for a short time had a great effect on the momentum of the tennis ball. A small force could cause the same change in momentum, but it would have to act for a much longer time. For example, if the ball were thrown upward, the gravitational force (which is much smaller than the tennis racquet’s force) would eventually reverse the momentum of the ball. Quantitatively, the effect we are talking about is the change in momentum $Δp$.",
         "inline": []
       },
       "level": "core"
@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "By rearranging the equation ${F}_{net}=\\frac{Δp}{Δt}$ to be",
+        "text": "By rearranging the equation ${F}_{net}=\\frac{Δp}{Δt}$ to be $Δp={F}_{net}Δt,$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity ${F}_{net}Δt$ is given the name impulse . Impulse is the same as the change in momentum.",
+        "text": "we can see how the change in momentum equals the average net external force multiplied by the time this force acts. The quantity ${F}_{net}Δt$ is given the name impulse. Impulse is the same as the change in momentum.",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Change in momentum equals the average net external force multiplied by the time this force acts.",
+        "text": "Change in momentum equals the average net external force multiplied by the time this force acts. $Δp={F}_{net}Δt$",
         "inline": []
       },
       "level": "core"
@@ -172,7 +172,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Let $u$ be the speed of each ball before and after collision with the wall, and $m$ the mass of each ball. Choose the *$x$* -axis and *$y$* -axis as previously described, and consider the change in momentum of the first ball which strikes perpendicular to the wall.",
+        "text": "Let $u$ be the speed of each ball before and after collision with the wall, and $m$ the mass of each ball. Choose the *$x$* -axis and *$y$* -axis as previously described, and consider the change in momentum of the first ball which strikes perpendicular to the wall. ${p}_{xi}=mu; {p}_{yi}=0$ ${p}_{xf}=-mu; {p}_{yf}=0$",
         "inline": []
       },
       "level": "core"
@@ -190,7 +190,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Now consider the change in momentum of the second ball.",
+        "text": "Now consider the change in momentum of the second ball. ${p}_{xi}=mu cos 30º; {p}_{yi}=–mu sin 30º$ ${p}_{xf}=-mu cos 30º; {p}_{yf}=-mu sin 30º$",
         "inline": []
       },
       "level": "core"
@@ -199,7 +199,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "It should be noted here that while ${p}_{x}$ changes sign after the collision, ${p}_{y}$ does not. Therefore the $x$ -component of impulse is equal to $-2mucos 30º$ and the $y$ -component of impulse is equal to zero.",
+        "text": "It should be noted here that while ${p}_{x}$ changes sign after the collision, ${p}_{y}$ does not. Therefore the $x$ -component of impulse is equal to $-2mu cos 30º$ and the $y$ -component of impulse is equal to zero.",
         "inline": []
       },
       "level": "core"
@@ -208,7 +208,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The ratio of the magnitudes of the impulse imparted to the balls is",
+        "text": "The ratio of the magnitudes of the impulse imparted to the balls is $\\frac{2mu}{2mu cos 30º}=\\frac{2}{\\sqrt{3}}=1.155.$",
         "inline": []
       },
       "level": "core"
@@ -226,7 +226,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Our definition of impulse includes an assumption that the force is constant over the time interval $Δt$ . *Forces are usually not constant* . Forces vary considerably even during the brief time intervals considered. It is, however, possible to find an average effective force ${F}_{eff}$ that produces the same result as the corresponding time-varying force. shows a graph of what an actual force looks like as a function of time for a ball bouncing off the floor. The area under the curve has units of momentum and is equal to the impulse or change in momentum between times ${t}_{1}$ and ${t}_{2}$ . That area is equal to the area inside the rectangle bounded by ${F}_{eff}$ , ${t}_{1}$ , and ${t}_{2}$ . Thus the impulses and their effects are the same for both the actual and effective forces.",
+        "text": "Our definition of impulse includes an assumption that the force is constant over the time interval $Δt$. *Forces are usually not constant*. Forces vary considerably even during the brief time intervals considered. It is, however, possible to find an average effective force ${F}_{eff}$ that produces the same result as the corresponding time-varying force. The figure shows a graph of what an actual force looks like as a function of time for a ball bouncing off the floor. The area under the curve has units of momentum and is equal to the impulse or change in momentum between times ${t}_{1}$ and ${t}_{2}$. That area is equal to the area inside the rectangle bounded by ${F}_{eff}$, ${t}_{1}$, and ${t}_{2}$. Thus the impulses and their effects are the same for both the actual and effective forces.",
         "inline": []
       },
       "level": "core"
@@ -919,7 +919,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Professional Application One hazard of space travel is debris left by previous missions. There are several thousand objects orbiting Earth that are large enough to be detected by radar, but there are far greater numbers of very small objects, such as flakes of paint. Calculate the force exerted by a 0.100-mg chip of paint that strikes a spacecraft window at a relative speed of $4.00×{10}^{3}m/s$ , given the collision lasts $6.00×{10}^{-8}s$ .",
+        "text": "Professional Application One hazard of space travel is debris left by previous missions. There are several thousand objects orbiting Earth that are large enough to be detected by radar, but there are far greater numbers of very small objects, such as flakes of paint. Calculate the force exerted by a 0.100-mg chip of paint that strikes a spacecraft window at a relative speed of $4.00\\times {10}^{3} m/s$, given the collision lasts $6.00\\times {10}^{-8} s$.",
         "inline": []
       },
       "level": "core",
@@ -1030,7 +1030,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A cruise ship with a mass of $1.00×{10}^{7}kg$ strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging the ship, the pier, and the tugboat captain’s finances. Calculate the average force exerted on the pier using the concept of impulse. (Hint: First calculate the time it took to bring the ship to rest.)",
+        "text": "A cruise ship with a mass of $1.00\\times {10}^{7} kg$ strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging the ship, the pier, and the tugboat captain’s finances. Calculate the average force exerted on the pier using the concept of impulse. (Hint: First calculate the time it took to bring the ship to rest.)",
         "inline": []
       },
       "level": "core",
@@ -1063,7 +1063,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the final speed of a 110-kg rugby player who is initially running at 8.00 m/s but collides head-on with a padded goalpost and experiences a backward force of $1.76×{10}^{4}N$ for $5.50×{10}^{–2}s$ .",
+        "text": "Calculate the final speed of a 110-kg rugby player who is initially running at 8.00 m/s but collides head-on with a padded goalpost and experiences a backward force of $1.76\\times {10}^{4} N$ for $5.50\\times {10}^{–2} s$.",
         "inline": []
       },
       "level": "core",

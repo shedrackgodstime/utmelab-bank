@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The great Danish physicist Niels Bohr (1885–1962) made immediate use of Rutherford’s planetary model of the atom. ( ). Bohr became convinced of its validity and spent part of 1912 at Rutherford’s laboratory. In 1913, after returning to Copenhagen, he began publishing his theory of the simplest atom, hydrogen, based on the planetary model of the atom. For decades, many questions had been asked about atomic characteristics. From their sizes to their spectra, much was known about atoms, but little had been explained in terms of the laws of physics. Bohr’s theory explained the atomic spectrum of hydrogen and established new and broadly applicable principles in quantum mechanics.",
+        "text": "The great Danish physicist Niels Bohr (1885–1962) made immediate use of Rutherford’s planetary model of the atom. (the figure). Bohr became convinced of its validity and spent part of 1912 at Rutherford’s laboratory. In 1913, after returning to Copenhagen, he began publishing his theory of the simplest atom, hydrogen, based on the planetary model of the atom. For decades, many questions had been asked about atomic characteristics. From their sizes to their spectra, much was known about atoms, but little had been explained in terms of the laws of physics. Bohr’s theory explained the atomic spectrum of hydrogen and established new and broadly applicable principles in quantum mechanics.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "As noted in Quantization of Energy , the energies of some small systems are quantized. Atomic and molecular emission and absorption spectra have been known for over a century to be discrete (or quantized). (See .) Maxwell and others had realized that there must be a connection between the spectrum of an atom and its structure, something like the resonant frequencies of musical instruments. But, in spite of years of efforts by many great minds, no one had a workable theory. (It was a running joke that any theory of atomic and molecular spectra could be destroyed by throwing a book of data at it, so complex were the spectra.) Following Einstein’s proposal of photons with quantized energies directly proportional to their wavelengths, it became even more evident that electrons in atoms can exist only in discrete orbits.",
+        "text": "As noted in Quantization of Energy, the energies of some small systems are quantized. Atomic and molecular emission and absorption spectra have been known for over a century to be discrete (or quantized). (See the figure.) Maxwell and others had realized that there must be a connection between the spectrum of an atom and its structure, something like the resonant frequencies of musical instruments. But, in spite of years of efforts by many great minds, no one had a workable theory. (It was a running joke that any theory of atomic and molecular spectra could be destroyed by throwing a book of data at it, so complex were the spectra.) Following Einstein’s proposal of photons with quantized energies directly proportional to their wavelengths, it became even more evident that electrons in atoms can exist only in discrete orbits.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "In some cases, it had been possible to devise formulas that described the emission spectra. As you might expect, the simplest atom—hydrogen, with its single electron—has a relatively simple spectrum. The hydrogen spectrum had been observed in the infrared (IR), visible, and ultraviolet (UV), and several series of spectral lines had been observed. (See .) These series are named after early researchers who studied them in particular depth.",
+        "text": "In some cases, it had been possible to devise formulas that described the emission spectra. As you might expect, the simplest atom—hydrogen, with its single electron—has a relatively simple spectrum. The hydrogen spectrum had been observed in the infrared (IR), visible, and ultraviolet (UV), and several series of spectral lines had been observed. (See the figure.) These series are named after early researchers who studied them in particular depth.",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The observed hydrogen-spectrum wavelengths can be calculated using the following formula:",
+        "text": "The observed hydrogen-spectrum wavelengths can be calculated using the following formula: $\\frac{1}{λ}=R(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}}),$",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where $λ$ is the wavelength of the emitted EM radiation and $R$ is the Rydberg constant , determined by the experiment to be",
+        "text": "where $λ$ is the wavelength of the emitted EM radiation and $R$ is the Rydberg constant, determined by the experiment to be $R=1.097\\times {10}^{7}/m ({or m}^{-1}).$",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The constant ${n}_{f}$ is a positive integer associated with a specific series. For the Lyman series, ${n}_{f}=1$ ; for the Balmer series, ${n}_{f}=2$ ; for the Paschen series, ${n}_{f}=3$ ; and so on. The Lyman series is entirely in the UV, while part of the Balmer series is visible with the remainder UV. The Paschen series and all the rest are entirely IR. There are apparently an unlimited number of series, although they lie progressively farther into the infrared and become difficult to observe as ${n}_{f}$ increases. The constant ${n}_{i}$ is a positive integer, but it must be greater than ${n}_{f}$ . Thus, for the Balmer series, ${n}_{f}=2$ and ${n}_{i}=3,4,5,6,...$ . Note that ${n}_{i}$ can approach infinity. While the formula in the wavelengths equation was just a recipe designed to fit data and was not based on physical principles, it did imply a deeper meaning. Balmer first devised the formula for his series alone, and it was later found to describe all the other series by using different values of ${n}_{f}$ . Bohr was the first to comprehend the deeper meaning. Again, we see the interplay between experiment and theory in physics. Experimentally, the spectra were well established, an equation was found to fit the experimental data, but the theoretical foundation was missing.",
+        "text": "The constant ${n}_{f}$ is a positive integer associated with a specific series. For the Lyman series, ${n}_{f}=1$; for the Balmer series, ${n}_{f}=2$; for the Paschen series, ${n}_{f}=3$; and so on. The Lyman series is entirely in the UV, while part of the Balmer series is visible with the remainder UV. The Paschen series and all the rest are entirely IR. There are apparently an unlimited number of series, although they lie progressively farther into the infrared and become difficult to observe as ${n}_{f}$ increases. The constant ${n}_{i}$ is a positive integer, but it must be greater than ${n}_{f}$. Thus, for the Balmer series, ${n}_{f}=2$ and ${n}_{i}=3, 4, 5, 6,...$. Note that ${n}_{i}$ can approach infinity. While the formula in the wavelengths equation was just a recipe designed to fit data and was not based on physical principles, it did imply a deeper meaning. Balmer first devised the formula for his series alone, and it was later found to describe all the other series by using different values of ${n}_{f}$. Bohr was the first to comprehend the deeper meaning. Again, we see the interplay between experiment and theory in physics. Experimentally, the spectra were well established, an equation was found to fit the experimental data, but the theoretical foundation was missing.",
         "inline": []
       },
       "level": "core"
@@ -148,7 +148,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of $15º$ ?",
+        "text": "What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of $15º$?",
         "inline": []
       },
       "level": "core"
@@ -166,7 +166,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "For an Integrated Concept problem, we must first identify the physical principles involved. In this example, we need to know (a) the wavelength of light as well as (b) conditions for an interference maximum for the pattern from a double slit. Part (a) deals with a topic of the present chapter, while part (b) considers the wave interference material of Wave Optics .",
+        "text": "For an Integrated Concept problem, we must first identify the physical principles involved. In this example, we need to know (a) the wavelength of light as well as (b) conditions for an interference maximum for the pattern from a double slit. Part (a) deals with a topic of the present chapter, while part (b) considers the wave interference material of Wave Optics.",
         "inline": []
       },
       "level": "core"
@@ -175,7 +175,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Hydrogen spectrum wavelength . The Balmer series requires that ${n}_{f}=2$ . The first line in the series is taken to be for ${n}_{i}=3$ , and so the second would have ${n}_{i}=4$ .",
+        "text": "Hydrogen spectrum wavelength. The Balmer series requires that ${n}_{f}=2$. The first line in the series is taken to be for ${n}_{i}=3$, and so the second would have ${n}_{i}=4$.",
         "inline": []
       },
       "level": "core"
@@ -184,7 +184,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The calculation is a straightforward application of the wavelength equation. Entering the determined values for ${n}_{f}$ and ${n}_{i}$ yields",
+        "text": "The calculation is a straightforward application of the wavelength equation. Entering the determined values for ${n}_{f}$ and ${n}_{i}$ yields $\\frac{1}{λ} = R(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}}) = (1.097\\times {10}^{7} {m}^{–1})(\\frac{1}{{2}^{2}}-\\frac{1}{{4}^{2}}) = 2.057\\times {10}^{6} {m}^{–1}.$",
         "inline": []
       },
       "level": "core"
@@ -193,7 +193,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Inverting to find $λ$ gives",
+        "text": "Inverting to find $λ$ gives $λ = \\frac{1}{2.057\\times {10}^{6} {m}^{–1}}=486\\times {10}^{-9} m = 486 nm.$",
         "inline": []
       },
       "level": "core"
@@ -211,7 +211,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Double-slit interference ( Wave Optics ). To obtain constructive interference for a double slit, the path length difference from two slits must be an integral multiple of the wavelength. This condition was expressed by the equation",
+        "text": "Double-slit interference (Wave Optics). To obtain constructive interference for a double slit, the path length difference from two slits must be an integral multiple of the wavelength. This condition was expressed by the equation $d sin θ=mλ,$",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "where $d$ is the distance between slits and $θ$ is the angle from the original direction of the beam. The number $m$ is the order of the interference; $m=1$ in this example. Solving for $d$ and entering known values yields",
+        "text": "where $d$ is the distance between slits and $θ$ is the angle from the original direction of the beam. The number $m$ is the order of the interference; $m=1$ in this example. Solving for $d$ and entering known values yields $d=\\frac{(1)(486 nm)}{sin 15º}=1.88\\times {10}^{-6} m.$",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Bohr was able to derive the formula for the hydrogen spectrum using basic physics, the planetary model of the atom, and some very important new proposals. His first proposal is that only certain orbits are allowed: we say that *the orbits of electrons in atoms are quantized* . Each orbit has a different energy, and electrons can move to a higher orbit by absorbing energy and drop to a lower orbit by emitting energy. If the orbits are quantized, the amount of energy absorbed or emitted is also quantized, producing discrete spectra. Photon absorption and emission are among the primary methods of transferring energy into and out of atoms. The energies of the photons are quantized, and their energy is explained as being equal to the change in energy of the electron when it moves from one orbit to another. In equation form, this is",
+        "text": "Bohr was able to derive the formula for the hydrogen spectrum using basic physics, the planetary model of the atom, and some very important new proposals. His first proposal is that only certain orbits are allowed: we say that *the orbits of electrons in atoms are quantized*. Each orbit has a different energy, and electrons can move to a higher orbit by absorbing energy and drop to a lower orbit by emitting energy. If the orbits are quantized, the amount of energy absorbed or emitted is also quantized, producing discrete spectra. Photon absorption and emission are among the primary methods of transferring energy into and out of atoms. The energies of the photons are quantized, and their energy is explained as being equal to the change in energy of the electron when it moves from one orbit to another. In equation form, this is $ΔE=hf={E}_{i}-{E}_{f}.$",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Here, $ΔE$ is the change in energy between the initial and final orbits, and $hf$ is the energy of the absorbed or emitted photon. It is quite logical (that is, expected from our everyday experience) that energy is involved in changing orbits. A blast of energy is required for the space shuttle, for example, to climb to a higher orbit. What is not expected is that atomic orbits should be quantized. This is not observed for satellites or planets, which can have any orbit given the proper energy. (See .)",
+        "text": "Here, $ΔE$ is the change in energy between the initial and final orbits, and $hf$ is the energy of the absorbed or emitted photon. It is quite logical (that is, expected from our everyday experience) that energy is involved in changing orbits. A blast of energy is required for the space shuttle, for example, to climb to a higher orbit. What is not expected is that atomic orbits should be quantized. This is not observed for satellites or planets, which can have any orbit given the proper energy. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -278,7 +278,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "shows an energy-level diagram , a convenient way to display energy states. In the present discussion, we take these to be the allowed energy levels of the electron. Energy is plotted vertically with the lowest or ground state at the bottom and with excited states above. Given the energies of the lines in an atomic spectrum, it is possible (although sometimes very difficult) to determine the energy levels of an atom. Energy-level diagrams are used for many systems, including molecules and nuclei. A theory of the atom or any other system must predict its energies based on the physics of the system.",
+        "text": "The figure shows an energy-level diagram, a convenient way to display energy states. In the present discussion, we take these to be the allowed energy levels of the electron. Energy is plotted vertically with the lowest or ground state at the bottom and with excited states above. Given the energies of the lines in an atomic spectrum, it is possible (although sometimes very difficult) to determine the energy levels of an atom. Energy-level diagrams are used for many systems, including molecules and nuclei. A theory of the atom or any other system must predict its energies based on the physics of the system.",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Bohr was clever enough to find a way to calculate the electron orbital energies in hydrogen. This was an important first step that has been improved upon, but it is well worth repeating here, because it does correctly describe many characteristics of hydrogen. Assuming circular orbits, Bohr proposed that the *angular momentum $L$ of an electron in its orbit is quantized* , that is, it has only specific, discrete values. The value for $L$ is given by the formula",
+        "text": "Bohr was clever enough to find a way to calculate the electron orbital energies in hydrogen. This was an important first step that has been improved upon, but it is well worth repeating here, because it does correctly describe many characteristics of hydrogen. Assuming circular orbits, Bohr proposed that the *angular momentum $L$ of an electron in its orbit is quantized*, that is, it has only specific, discrete values. The value for $L$ is given by the formula $L={m}_{e}{vr}_{n}=n\\frac{h}{2π}(n=1, 2, 3,…),$",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "where $L$ is the angular momentum, ${m}_{e}$ is the electron’s mass, ${r}_{n}$ is the radius of the $n$ th orbit, and $h$ is Planck’s constant. Note that angular momentum is $L=Iω$ . For a small object at a radius $r,I={mr}^{2}$ and $ω=v/r$ , so that $L=({mr}^{2})(v/r)=mvr$ . Quantization says that this value of $mvr$ can only be equal to $h/2,2h/2,3h/2$ , etc. At the time, Bohr himself did not know why angular momentum should be quantized, but using this assumption he was able to calculate the energies in the hydrogen spectrum, something no one else had done at the time.",
+        "text": "where $L$ is the angular momentum, ${m}_{e}$ is the electron’s mass, ${r}_{n}$ is the radius of the $n$ th orbit, and $h$ is Planck’s constant. Note that angular momentum is $L=Iω$. For a small object at a radius $r, I={mr}^{2}$ and $ω=v/r$, so that $L=({mr}^{2})(v/r)=mvr$. Quantization says that this value of $mvr$ can only be equal to $h/2, 2h/2, 3h/2$, etc. At the time, Bohr himself did not know why angular momentum should be quantized, but using this assumption he was able to calculate the energies in the hydrogen spectrum, something no one else had done at the time.",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "From Bohr’s assumptions, we will now derive a number of important properties of the hydrogen atom from the classical physics we have covered in the text. We start by noting the centripetal force causing the electron to follow a circular path is supplied by the Coulomb force. To be more general, we note that this analysis is valid for any single-electron atom. So, if a nucleus has $Z$ protons ( $Z=1$ for hydrogen, 2 for helium, etc.) and only one electron, that atom is called a hydrogen-like atom . The spectra of hydrogen-like ions are similar to hydrogen, but shifted to higher energy by the greater attractive force between the electron and nucleus. The magnitude of the centripetal force is ${m}_{e}{v}^{2}/{r}_{n}$ , while the Coulomb force is $k({Zq}_{e})({q}_{e})/{r}_{n}^{2}$ . The tacit assumption here is that the nucleus is more massive than the stationary electron, and the electron orbits about it. This is consistent with the planetary model of the atom. Equating these,",
+        "text": "From Bohr’s assumptions, we will now derive a number of important properties of the hydrogen atom from the classical physics we have covered in the text. We start by noting the centripetal force causing the electron to follow a circular path is supplied by the Coulomb force. To be more general, we note that this analysis is valid for any single-electron atom. So, if a nucleus has $Z$ protons ($Z=1$ for hydrogen, 2 for helium, etc.) and only one electron, that atom is called a hydrogen-like atom. The spectra of hydrogen-like ions are similar to hydrogen, but shifted to higher energy by the greater attractive force between the electron and nucleus. The magnitude of the centripetal force is ${m}_{e}{v}^{2}/{r}_{n}$, while the Coulomb force is $k({Zq}_{e})({q}_{e})/{r}_{n}^{2}$. The tacit assumption here is that the nucleus is more massive than the stationary electron, and the electron orbits about it. This is consistent with the planetary model of the atom. Equating these, $k\\frac{{Zq}_{e}^{2}}{{r}_{n}^{2}}=\\frac{{m}_{e}{v}^{2}}{{r}_{n}}(Coulomb = centripetal).$",
         "inline": []
       },
       "level": "core"
@@ -327,7 +327,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Angular momentum quantization is stated in an earlier equation. We solve that equation for $v$ , substitute it into the above, and rearrange the expression to obtain the radius of the orbit. This yields:",
+        "text": "Angular momentum quantization is stated in an earlier equation. We solve that equation for $v$, substitute it into the above, and rearrange the expression to obtain the radius of the orbit. This yields: ${r}_{n}=\\frac{{n}^{2}}{Z}{a}_{B}, for allowed orbits(n=1,2,3,…),$",
         "inline": []
       },
       "level": "core"
@@ -336,7 +336,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "where ${a}_{B}$ is defined to be the Bohr radius , since for the lowest orbit $(n=1)$ and for hydrogen $(Z=1)$ , ${r}_{1}={a}_{B}$ . It is left for this chapter’s Problems and Exercises to show that the Bohr radius is",
+        "text": "where ${a}_{B}$ is defined to be the Bohr radius, since for the lowest orbit $(n=1)$ and for hydrogen $(Z=1)$, ${r}_{1}={a}_{B}$. It is left for this chapter’s Problems and Exercises to show that the Bohr radius is ${a}_{B}=\\frac{{h}^{2}}{{4π}^{2}{m}_{e}{kq}_{e}^{2}}=0.529\\times {10}^{-10} m.$",
         "inline": []
       },
       "level": "core"
@@ -345,7 +345,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "These last two equations can be used to calculate the *radii of the allowed (quantized) electron orbits in any hydrogen-like atom* . It is impressive that the formula gives the correct size of hydrogen, which is measured experimentally to be very close to the Bohr radius. The earlier equation also tells us that the orbital radius is proportional to ${n}^{2}$ , as illustrated in .",
+        "text": "These last two equations can be used to calculate the *radii of the allowed (quantized) electron orbits in any hydrogen-like atom*. It is impressive that the formula gives the correct size of hydrogen, which is measured experimentally to be very close to the Bohr radius. The earlier equation also tells us that the orbital radius is proportional to ${n}^{2}$, as illustrated in the figure.",
         "inline": []
       },
       "level": "core"
@@ -367,7 +367,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "To get the electron orbital energies, we start by noting that the electron energy is the sum of its kinetic and potential energy:",
+        "text": "To get the electron orbital energies, we start by noting that the electron energy is the sum of its kinetic and potential energy: ${E}_{n}=KE+PE.$",
         "inline": []
       },
       "level": "core"
@@ -376,7 +376,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Kinetic energy is the familiar $KE=(1/2){m}_{e}{v}^{2}$ , assuming the electron is not moving at relativistic speeds. Potential energy for the electron is electrical, or $PE={q}_{e}V$ , where *$V$* is the potential due to the nucleus, which looks like a point charge. The nucleus has a positive charge *${Zq}_{e}$* ; thus, $V={kZq}_{e}/{r}_{n}$ , recalling an earlier equation for the potential due to a point charge. Since the electron’s charge is negative, we see that *$PE=-{kZq}_{e}/{r}_{n}$* . Entering the expressions for $KE$ and $PE$ , we find",
+        "text": "Kinetic energy is the familiar $KE=(1/2){m}_{e}{v}^{2}$, assuming the electron is not moving at relativistic speeds. Potential energy for the electron is electrical, or $PE={q}_{e}V$, where *$V$* is the potential due to the nucleus, which looks like a point charge. The nucleus has a positive charge *${Zq}_{e}$*; thus, $V={kZq}_{e}/{r}_{n}$, recalling an earlier equation for the potential due to a point charge. Since the electron’s charge is negative, we see that *$PE=-{kZq}_{e}/{r}_{n}$*. Entering the expressions for $KE$ and $PE$, we find ${E}_{n}=\\frac{1}{2}{m}_{e}{v}^{2}-k\\frac{{Zq}_{e}^{2}}{{r}_{n}}.$",
         "inline": []
       },
       "level": "core"
@@ -385,7 +385,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Now we substitute ${r}_{n}$ and *$v$* from earlier equations into the above expression for energy. Algebraic manipulation yields",
+        "text": "Now we substitute ${r}_{n}$ and *$v$* from earlier equations into the above expression for energy. Algebraic manipulation yields ${E}_{n}=-\\frac{{Z}^{2}}{{n}^{2}}{E}_{0}(n=1, 2, 3,...)$",
         "inline": []
       },
       "level": "core"
@@ -394,7 +394,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "for the orbital energies of hydrogen-like atoms . Here, *${E}_{0}$* is the *ground-state energy* $(n=1)$ for hydrogen $(Z=1)$ and is given by",
+        "text": "for the orbital energies of hydrogen-like atoms. Here, *${E}_{0}$* is the *ground-state energy* $(n=1)$ for hydrogen $(Z=1)$ and is given by ${E}_{0}=\\frac{{2π}^{2}{q}_{e}^{4}{m}_{e}{k}^{2}}{{h}^{2}}=13.6 eV.$",
         "inline": []
       },
       "level": "core"
@@ -403,7 +403,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "shows an energy-level diagram for hydrogen that also illustrates how the various spectral series for hydrogen are related to transitions between energy levels.",
+        "text": "The figure shows an energy-level diagram for hydrogen that also illustrates how the various spectral series for hydrogen are related to transitions between energy levels.",
         "inline": []
       },
       "level": "core"
@@ -425,7 +425,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "Electron total energies are negative, since the electron is bound to the nucleus, analogous to being in a hole without enough kinetic energy to escape. As $n$ approaches infinity, the total energy becomes zero. This corresponds to a free electron with no kinetic energy, since ${r}_{n}$ gets very large for large $n$ , and the electric potential energy thus becomes zero. Thus, 13.6 eV is needed to ionize hydrogen (to go from –13.6 eV to 0, or unbound), an experimentally verified number. Given more energy, the electron becomes unbound with some kinetic energy. For example, giving 15.0 eV to an electron in the ground state of hydrogen strips it from the atom and leaves it with 1.4 eV of kinetic energy.",
+        "text": "Electron total energies are negative, since the electron is bound to the nucleus, analogous to being in a hole without enough kinetic energy to escape. As $n$ approaches infinity, the total energy becomes zero. This corresponds to a free electron with no kinetic energy, since ${r}_{n}$ gets very large for large $n$, and the electric potential energy thus becomes zero. Thus, 13.6 eV is needed to ionize hydrogen (to go from –13.6 eV to 0, or unbound), an experimentally verified number. Given more energy, the electron becomes unbound with some kinetic energy. For example, giving 15.0 eV to an electron in the ground state of hydrogen strips it from the atom and leaves it with 1.4 eV of kinetic energy.",
         "inline": []
       },
       "level": "core"
@@ -434,7 +434,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "Finally, let us consider the energy of a photon emitted in a downward transition, given by the equation to be",
+        "text": "Finally, let us consider the energy of a photon emitted in a downward transition, given by the equation to be $ΔE=hf={E}_{i}-{E}_{f}.$",
         "inline": []
       },
       "level": "core"
@@ -443,7 +443,7 @@
       "id": "p-44",
       "type": "paragraph",
       "content": {
-        "text": "Substituting ${E}_{n}=(-13.6 eV/{n}^{2})$ , we see that",
+        "text": "Substituting ${E}_{n}=(-13.6 eV/{n}^{2})$, we see that $hf=(13.6 eV)(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}}).$",
         "inline": []
       },
       "level": "core"
@@ -452,7 +452,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Dividing both sides of this equation by $hc$ gives an expression for $1/λ$ :",
+        "text": "Dividing both sides of this equation by $hc$ gives an expression for $1/λ$: $\\frac{hf}{hc}=\\frac{f}{c}=\\frac{1}{λ}=\\frac{(13.6 eV)}{hc}(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}}).$",
         "inline": []
       },
       "level": "core"
@@ -461,7 +461,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "It can be shown that",
+        "text": "It can be shown that $(\\frac{13.6 eV}{hc})=\\frac{(13.6 eV)(1.602\\times {10}^{−19} J/eV)}{(6.626\\times {10}^{−34} J·s)(2.998\\times {10}^{8} m/s)}=1.097\\times {10}^{7} {m}^{–1}=R$",
         "inline": []
       },
       "level": "core"
@@ -470,7 +470,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "is the Rydberg constant . Thus, we have used Bohr’s assumptions to derive the formula first proposed by Balmer years earlier as a recipe to fit experimental data.",
+        "text": "is the Rydberg constant. Thus, we have used Bohr’s assumptions to derive the formula first proposed by Balmer years earlier as a recipe to fit experimental data. $\\frac{1}{λ}=R(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}})$",
         "inline": []
       },
       "level": "core"
@@ -479,7 +479,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "We see that Bohr’s theory of the hydrogen atom answers the question as to why this previously known formula describes the hydrogen spectrum. It is because the energy levels are proportional to $1/{n}^{2}$ , where *$n$* is a non-negative integer. A downward transition releases energy, and so ${n}_{i}$ must be greater than ${n}_{f}$ . The various series are those where the transitions end on a certain level. For the Lyman series, ${n}_{f}=1$ — that is, all the transitions end in the ground state (see also ). For the Balmer series, ${n}_{f}=2$ , or all the transitions end in the first excited state; and so on. What was once a recipe is now based in physics, and something new is emerging—angular momentum is quantized.",
+        "text": "We see that Bohr’s theory of the hydrogen atom answers the question as to why this previously known formula describes the hydrogen spectrum. It is because the energy levels are proportional to $1/{n}^{2}$, where *$n$* is a non-negative integer. A downward transition releases energy, and so ${n}_{i}$ must be greater than ${n}_{f}$. The various series are those where the transitions end on a certain level. For the Lyman series, ${n}_{f}=1$ — that is, all the transitions end in the ground state (see also the figure). For the Balmer series, ${n}_{f}=2$, or all the transitions end in the first excited state; and so on. What was once a recipe is now based in physics, and something new is emerging—angular momentum is quantized.",
         "inline": []
       },
       "level": "core"
@@ -506,7 +506,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "But there are limits to Bohr’s theory. It cannot be applied to multielectron atoms, even one as simple as a two-electron helium atom. Bohr’s model is what we call *semiclassical* . The orbits are quantized (nonclassical) but are assumed to be simple circular paths (classical). As quantum mechanics was developed, it became clear that there are no well-defined orbits; rather, there are clouds of probability. Bohr’s theory also did not explain that some spectral lines are doublets (split into two) when examined closely. We shall examine many of these aspects of quantum mechanics in more detail, but it should be kept in mind that Bohr did not fail. Rather, he made very important steps along the path to greater knowledge and laid the foundation for all of atomic physics that has since evolved.",
+        "text": "But there are limits to Bohr’s theory. It cannot be applied to multielectron atoms, even one as simple as a two-electron helium atom. Bohr’s model is what we call *semiclassical*. The orbits are quantized (nonclassical) but are assumed to be simple circular paths (classical). As quantum mechanics was developed, it became clear that there are no well-defined orbits; rather, there are clouds of probability. Bohr’s theory also did not explain that some spectral lines are doublets (split into two) when examined closely. We shall examine many of these aspects of quantum mechanics in more detail, but it should be kept in mind that Bohr did not fail. Rather, he made very important steps along the path to greater knowledge and laid the foundation for all of atomic physics that has since evolved.",
         "inline": []
       },
       "level": "core"
@@ -524,7 +524,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -543,7 +543,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A hypothetical one-electron atom in its highest excited state can only emit photons of energy 2 *E* , 3 *E* , and 5 *E* before reaching the ground state. Which of the following represents the complete set of energy levels for this atom? 0, 3 *E* , 5 *E*; 0, 2 *E* , 3 *E*; 0, 2 *E* , 3 *E* , 5 *E*; 0, 5 *E* , 8 *E* , 10 *E*",
+        "text": "A hypothetical one-electron atom in its highest excited state can only emit photons of energy 2 *E*, 3 *E*, and 5 *E* before reaching the ground state. Which of the following represents the complete set of energy levels for this atom? 0, 3 *E*, 5 *E*; 0, 2 *E*, 3 *E*; 0, 2 *E*, 3 *E*, 5 *E*; 0, 5 *E*, 8 *E*, 10 *E*",
         "inline": []
       },
       "level": "core",
@@ -588,7 +588,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The ground state of a certain type of atom has energy – *E* 0 . What is the wavelength of a photon with enough energy to ionize an atom in the ground state and give the ejected electron a kinetic energy of 2 *E* 0 ? $\\frac{hc}{3{E}_{0}}$; $\\frac{hc}{2{E}_{0}}$; $\\frac{hc}{{E}_{0}}$; $\\frac{2hc}{{E}_{0}}$",
+        "text": "The ground state of a certain type of atom has energy – *E* 0. What is the wavelength of a photon with enough energy to ionize an atom in the ground state and give the ejected electron a kinetic energy of 2 *E* 0? $\\frac{hc}{3{E}_{0}}$; $\\frac{hc}{2{E}_{0}}$; $\\frac{hc}{{E}_{0}}$; $\\frac{2hc}{{E}_{0}}$",
         "inline": []
       },
       "level": "core",
@@ -612,7 +612,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An electron in a hydrogen atom is initially in energy level 2 ( *E* 2 = -3.4 eV). (a) What frequency of photon must be absorbed by the atom in order for the electron to transition to energy level 3 ( *E* 3 = -1.5 eV)? (b) What frequency of photon must be emitted by the atom in order for the electron to transition to energy level 1 ( *E* 1 = -13.6 eV)?",
+        "text": "An electron in a hydrogen atom is initially in energy level 2 (*E* 2 = -3.4 eV). (a) What frequency of photon must be absorbed by the atom in order for the electron to transition to energy level 3 (*E* 3 = -1.5 eV)? (b) What frequency of photon must be emitted by the atom in order for the electron to transition to energy level 1 (*E* 1 = -13.6 eV)?",
         "inline": []
       },
       "level": "core",
@@ -786,7 +786,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Look up the values of the quantities in ${a}_{B}=\\frac{{h}^{2}}{{4π}^{2}{m}_{e}{kq}_{e}^{2}}$ , and verify that the Bohr radius ${a}_{B}$ is $0.529×{10}^{-10}m$ .",
+        "text": "Look up the values of the quantities in ${a}_{B}=\\frac{{h}^{2}}{{4π}^{2}{m}_{e}{kq}_{e}^{2}}$, and verify that the Bohr radius ${a}_{B}$ is $0.529\\times {10}^{-10} m$.",
         "inline": []
       },
       "level": "core",
@@ -909,7 +909,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that $(13.6 eV)/hc=1.097×{10}^{7}m=R$ (Rydberg’s constant), as discussed in the text.",
+        "text": "Show that $(13.6 eV)/hc=1.097\\times {10}^{7} m=R$ (Rydberg’s constant), as discussed in the text.",
         "inline": []
       },
       "level": "core",
@@ -1071,7 +1071,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A singly ionized helium ion has only one electron and is denoted ${He}^{+}$ . What is the ion’s radius in the ground state compared to the Bohr radius of hydrogen atom?",
+        "text": "A singly ionized helium ion has only one electron and is denoted ${He}^{+}$. What is the ion’s radius in the ground state compared to the Bohr radius of hydrogen atom?",
         "inline": []
       },
       "level": "core",
@@ -1092,7 +1092,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A beryllium ion with a single electron (denoted ${Be}^{3+}$ ) is in an excited state with radius the same as that of the ground state of hydrogen. (a) What is *$n$* for the ${Be}^{3+}$ ion? (b) How much energy in eV is needed to ionize the ion from this excited state?",
+        "text": "A beryllium ion with a single electron (denoted ${Be}^{3+}$) is in an excited state with radius the same as that of the ground state of hydrogen. (a) What is *$n$* for the ${Be}^{3+}$ ion? (b) How much energy in eV is needed to ionize the ion from this excited state?",
         "inline": []
       },
       "level": "core",
@@ -1134,7 +1134,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Atoms can be ionized by thermal collisions, such as at the high temperatures found in the solar corona. One such ion is ${C}^{+5}$ , a carbon atom with only a single electron. (a) By what factor are the energies of its hydrogen-like levels greater than those of hydrogen? (b) What is the wavelength of the first line in this ion’s Paschen series? (c) What type of EM radiation is this?",
+        "text": "Atoms can be ionized by thermal collisions, such as at the high temperatures found in the solar corona. One such ion is ${C}^{+5}$, a carbon atom with only a single electron. (a) By what factor are the energies of its hydrogen-like levels greater than those of hydrogen? (b) What is the wavelength of the first line in this ion’s Paschen series? (c) What type of EM radiation is this?",
         "inline": []
       },
       "level": "core",
@@ -1182,7 +1182,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify Equations ${r}_{n}=\\frac{{n}^{2}}{Z}{a}_{B}$ and ${a}_{B}=\\frac{{h}^{2}}{{4π}^{2}{m}_{e}{kq}_{e}^{2}}=0.529×{10}^{-10}m$ using the approach stated in the text. That is, equate the Coulomb and centripetal forces and then insert an expression for velocity from the condition for angular momentum quantization.",
+        "text": "Verify Equations ${r}_{n}=\\frac{{n}^{2}}{Z}{a}_{B}$ and ${a}_{B}=\\frac{{h}^{2}}{{4π}^{2}{m}_{e}{kq}_{e}^{2}}=0.529\\times {10}^{-10} m$ using the approach stated in the text. That is, equate the Coulomb and centripetal forces and then insert an expression for velocity from the condition for angular momentum quantization.",
         "inline": []
       },
       "level": "core",
@@ -1215,7 +1215,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The wavelength of the four Balmer series lines for hydrogen are found to be 410.3, 434.2, 486.3, and 656.5 nm. What average percentage difference is found between these wavelength numbers and those predicted by $\\frac{1}{λ}=R(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}})$ ? It is amazing how well a simple formula (disconnected originally from theory) could duplicate this phenomenon.",
+        "text": "The wavelength of the four Balmer series lines for hydrogen are found to be 410.3, 434.2, 486.3, and 656.5 nm. What average percentage difference is found between these wavelength numbers and those predicted by $\\frac{1}{λ}=R(\\frac{1}{{n}_{f}^{2}}-\\frac{1}{{n}_{i}^{2}})$? It is amazing how well a simple formula (disconnected originally from theory) could duplicate this phenomenon.",
         "inline": []
       },
       "level": "core",

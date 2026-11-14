@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See .)",
+        "text": "Motors are the most common application of magnetic force on current-carrying wires. Motors have loops of wire in a magnetic field. When current is passed through the loops, the magnetic field exerts torque on the loops, which rotates a shaft. Electrical energy is converted to mechanical work in the process. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Let us examine the force on each segment of the loop in to find the torques produced about the axis of the vertical shaft. (This will lead to a useful equation for the torque on the loop.) We take the magnetic field to be uniform over the rectangular loop, which has width $w$ and height $l$ . First, we note that the forces on the top and bottom segments are vertical and, therefore, parallel to the shaft, producing no torque. Those vertical forces are equal in magnitude and opposite in direction, so that they also produce no net force on the loop. shows views of the loop from above. Torque is defined as $τ=rFsinθ$ , where $F$ is the force, $r$ is the distance from the pivot that the force is applied, and $θ$ is the angle between $r$ and $F$ . As seen in (a), right hand rule 1 gives the forces on the sides to be equal in magnitude and opposite in direction, so that the net force is again zero. However, each force produces a clockwise torque. Since $r=w/2$ , the torque on each vertical segment is $(w/2)Fsinθ$ , and the two add to give a total torque.",
+        "text": "Let us examine the force on each segment of the loop in the figure to find the torques produced about the axis of the vertical shaft. (This will lead to a useful equation for the torque on the loop.) We take the magnetic field to be uniform over the rectangular loop, which has width $w$ and height $l$. First, we note that the forces on the top and bottom segments are vertical and, therefore, parallel to the shaft, producing no torque. Those vertical forces are equal in magnitude and opposite in direction, so that they also produce no net force on the loop. The figure shows views of the loop from above. Torque is defined as $τ=rF sin θ$, where $F$ is the force, $r$ is the distance from the pivot that the force is applied, and $θ$ is the angle between $r$ and $F$. As seen in the figure (a), right hand rule 1 gives the forces on the sides to be equal in magnitude and opposite in direction, so that the net force is again zero. However, each force produces a clockwise torque. Since $r=w/2$, the torque on each vertical segment is $(w/2)F sin θ$, and the two add to give a total torque. $τ=\\frac{w}{2}F sin θ+\\frac{w}{2}F sin θ=wF sin θ$",
         "inline": []
       },
       "level": "core"
@@ -75,7 +75,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Now, each vertical segment has a length $l$ that is perpendicular to $B$ , so that the force on each is $F=IlB$ . Entering $F$ into the expression for torque yields",
+        "text": "Now, each vertical segment has a length $l$ that is perpendicular to $B$, so that the force on each is $F=IlB$. Entering $F$ into the expression for torque yields $τ=wIlB sin θ.$",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "If we have a multiple loop of $N$ turns, we get $N$ times the torque of one loop. Finally, note that the area of the loop is $A=wl$ ; the expression for the torque becomes",
+        "text": "If we have a multiple loop of $N$ turns, we get $N$ times the torque of one loop. Finally, note that the area of the loop is $A=wl$; the expression for the torque becomes $τ=NIAB sin θ.$",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "This is the torque on a current-carrying loop in a uniform magnetic field. This equation can be shown to be valid for a loop of any shape. The loop carries a current $I$ , has $N$ turns, each of area $A$ , and the perpendicular to the loop makes an angle $θ$ with the field $B$ . The net force on the loop is zero.",
+        "text": "This is the torque on a current-carrying loop in a uniform magnetic field. This equation can be shown to be valid for a loop of any shape. The loop carries a current $I$, has $N$ turns, each of area $A$, and the perpendicular to the loop makes an angle $θ$ with the field $B$. The net force on the loop is zero.",
         "inline": []
       },
       "level": "core"
@@ -126,7 +126,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Torque on the loop can be found using $τ=NIABsinθ$ . Maximum torque occurs when $θ=90º$ and $sinθ=1$ .",
+        "text": "Torque on the loop can be found using $τ=NIAB sin θ$. Maximum torque occurs when $θ=90º$ and $sin θ=1$.",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "For $sinθ=1$ , the maximum torque is",
+        "text": "For $sin θ=1$, the maximum torque is ${τ}_{max}=NIAB.$",
         "inline": []
       },
       "level": "core"
@@ -144,7 +144,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values yields",
+        "text": "Entering known values yields ${τ}_{max} = (100)(15.0 A)(0.0100 {m}^{2})(2.00 T) = 30.0 N\\cdot m.$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The torque found in the preceding example is the maximum. As the coil rotates, the torque decreases to zero at $θ=0$ . The torque then *reverses* its direction once the coil rotates past $θ=0$ . (See (d).) This means that, unless we do something, the coil will oscillate back and forth about equilibrium at $θ=0$ . To get the coil to continue rotating in the same direction, we can reverse the current as it passes through $θ=0$ with automatic switches called *brushes* . (See .)",
+        "text": "The torque found in the preceding example is the maximum. As the coil rotates, the torque decreases to zero at $θ=0$. The torque then *reverses* its direction once the coil rotates past $θ=0$. (See the figure (d).) This means that, unless we do something, the coil will oscillate back and forth about equilibrium at $θ=0$. To get the coil to continue rotating in the same direction, we can reverse the current as it passes through $θ=0$ with automatic switches called *brushes*. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -184,7 +184,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Meters , such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of $θ$ by making $B$ perpendicular to the loop over a large angular range. Thus the torque is proportional to $I$ and not $θ$ . A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to $I$ . If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area $A$ , high magnetic field $B$ , and low-resistance coils.",
+        "text": "Meters, such as those in analog fuel gauges on a car, are another common application of magnetic torque on a current-carrying loop. The figure shows that a meter is very similar in construction to a motor. The meter in the figure has its magnets shaped to limit the effect of $θ$ by making $B$ perpendicular to the loop over a large angular range. Thus the torque is proportional to $I$ and not $θ$. A linear spring exerts a counter-torque that balances the current-produced torque. This makes the needle deflection proportional to $I$. If an exact proportionality cannot be achieved, the gauge reading can be calibrated. To produce a galvanometer for use in analog voltmeters and ammeters that have a low resistance and respond to small currents, we use a large loop area $A$, high magnetic field $B$, and low-resistance coils.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Draw a diagram and use RHR-1 to show that the forces on the top and bottom segments of the motor’s current loop in are vertical and produce no torque about the axis of rotation.",
+        "text": "Draw a diagram and use RHR-1 to show that the forces on the top and bottom segments of the motor’s current loop in the figure are vertical and produce no torque about the axis of rotation.",
         "inline": []
       },
       "level": "core",
@@ -354,7 +354,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Since the equation for torque on a current-carrying loop is $τ=NIABsinθ$ , the units of $N\\cdot m$ must equal units of $A\\cdot {m}^{2}T$ . Verify this.",
+        "text": "Since the equation for torque on a current-carrying loop is $τ=NIAB sin θ$, the units of $N\\cdot m$ must equal units of $A\\cdot {m}^{2} T$. Verify this.",
         "inline": []
       },
       "level": "core",
@@ -408,7 +408,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A proton has a magnetic field due to its spin on its axis. The field is similar to that created by a circular current loop $0.650×{10}^{-15}m$ in radius with a current of $1.05×{10}^{4}A$ (no kidding). Find the maximum torque on a proton in a 2.50-T field. (This is a significant torque on a small particle.)",
+        "text": "A proton has a magnetic field due to its spin on its axis. The field is similar to that created by a circular current loop $0.650\\times {10}^{-15} m$ in radius with a current of $1.05\\times {10}^{4} A$ (no kidding). Find the maximum torque on a proton in a 2.50-T field. (This is a significant torque on a small particle.)",
         "inline": []
       },
       "level": "core",
@@ -441,7 +441,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The Earth’s field here is due north, parallel to the ground, with a strength of $3.00×{10}^{-5}T$ . What are the direction and magnitude of the torque on the loop? (b) Does this device have any practical applications as a motor?",
+        "text": "(a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The Earth’s field here is due north, parallel to the ground, with a strength of $3.00\\times {10}^{-5} T$. What are the direction and magnitude of the torque on the loop? (b) Does this device have any practical applications as a motor?",
         "inline": []
       },
       "level": "core",
@@ -462,7 +462,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat , but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth’s field is north, but at an angle $45.0º$ below the horizontal and with a strength of $6.00×{10}^{-5}T$ .",
+        "text": "Repeat the exercise, but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth’s field is north, but at an angle $45.0º$ below the horizontal and with a strength of $6.00\\times {10}^{-5} T$.",
         "inline": []
       },
       "level": "core",

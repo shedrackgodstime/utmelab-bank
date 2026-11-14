@@ -14,7 +14,9 @@
     "State the second condition for equilibrium and compute a moment.",
     "Explain the stability of a body from the position of its centre of gravity."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_forces_and_newtons_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -50,12 +52,27 @@
       "est_minutes": 14,
       "locator": "CNXML module m42170",
       "objectives": [
-        "Use the first condition for equilibrium, that the net force is zero."
+        "Use the first condition for equilibrium, that the net force is zero.",
+        "Resolve forces into components and apply the first condition in two dimensions."
       ],
       "misconceptions": [
         {
           "claim": "A body at rest has no forces acting on it.",
           "correction": "It has forces acting on it that balance, so the net force is zero."
+        },
+        {
+          "claim": "The normal force on a body resting on a floor is half its weight.",
+          "correction": "The floor pushes up with a force equal to the weight, so the normal force is the whole weight.",
+          "locator": "candidate trap trap-1, demoted pending paper evidence",
+          "source_trap": "phy_statics_and_torque:trap-1",
+          "signal": "Our own question offers half the weight as an option."
+        },
+        {
+          "claim": "The normal force on a body resting on a floor is a tenth of its weight.",
+          "correction": "It is the whole weight. The floor pushes up with exactly the force the weight pushes down.",
+          "locator": "candidate trap trap-5, demoted pending paper evidence",
+          "source_trap": "phy_statics_and_torque:trap-5",
+          "signal": "Our own question offers the value with the mass alone."
         }
       ],
       "summary": [
@@ -72,7 +89,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "conditions-for-equilibrium-of-rigid-bodies-under-parallel-an",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
@@ -80,7 +97,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-conditions-for-equilibrium-of-rigid-bodies-under-the-action-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -91,7 +108,64 @@
           ]
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A 10 N weight hangs at rest from a single vertical rope. Find the tension in the rope.",
+          "answer": "10 N",
+          "answer_kind": "expression",
+          "solution": [
+            "The weight is at rest, so the net force is zero.",
+            "The upward tension must balance the downward weight.",
+            "Tension = 10 N."
+          ],
+          "tags": [
+            "equilibrium",
+            "tension"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Forces of 6 N east and 6 N west act on the same body. Find the net force.",
+          "answer": "0 N",
+          "answer_kind": "expression",
+          "solution": [
+            "Take east as positive: +6 N and -6 N.",
+            "Add the forces: 6 - 6 = 0 N.",
+            "The forces balance, so the net force is zero."
+          ],
+          "tags": [
+            "equilibrium",
+            "net force"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A 20 kg sign hangs at rest from two vertical ropes. Find the tension in each rope. Take g = 9.8 m/s².",
+          "answer": "98 N in each rope",
+          "answer_kind": "expression",
+          "solution": [
+            "The weight is W = mg = 20 × 9.8 = 196 N.",
+            "The two ropes share the load equally: 2T = 196 N.",
+            "T = 98 N in each rope."
+          ],
+          "tags": [
+            "equilibrium",
+            "weight",
+            "tension"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -100,12 +174,27 @@
       "est_minutes": 16,
       "locator": "CNXML module m42171",
       "objectives": [
-        "Use the second condition for equilibrium, that the net moment is zero."
+        "Use the second condition for equilibrium, that the net moment is zero.",
+        "Calculate the moment of a force about a chosen pivot and apply the principle of moments."
       ],
       "misconceptions": [
         {
           "claim": "If the forces balance, the body is in equilibrium.",
           "correction": "Only if the forces balance and the turning effects balance as well. A couple is a pair of forces that turn a body without changing its motion."
+        },
+        {
+          "claim": "The angle between the force and the arm does not change the moment.",
+          "correction": "Only the component of the force perpendicular to the arm turns the body, so the moment is F d sin(theta).",
+          "locator": "candidate trap trap-2, demoted pending paper evidence",
+          "source_trap": "phy_statics_and_torque:trap-2",
+          "signal": "Our own question offers the moment with the angle ignored."
+        },
+        {
+          "claim": "The moment of a force is the force divided by the distance from the pivot.",
+          "correction": "The moment is the force multiplied by the perpendicular distance from the pivot.",
+          "locator": "candidate trap trap-6, demoted pending paper evidence",
+          "source_trap": "phy_statics_and_torque:trap-6",
+          "signal": "Our own question offers the force divided by the distance as an option."
         }
       ],
       "summary": [
@@ -123,7 +212,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "principle-of-moments-moment-of-a-force-couple-and-torque-app",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -142,12 +231,11 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-principle-of-moments-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-39"
+      ]
     },
     {
       "id": "sec-4",
@@ -156,12 +244,20 @@
       "est_minutes": 12,
       "locator": "CNXML module m42172",
       "objectives": [
-        "Explain stability from the position of the centre of gravity relative to the base of support."
+        "Explain stability from the position of the centre of gravity relative to the base of support.",
+        "Distinguish stable, unstable and neutral equilibrium."
       ],
       "misconceptions": [
         {
           "claim": "A body is stable when its centre of gravity is high.",
           "correction": "It is stable when the centre of gravity is low, or when it lies over the base of support, so a small tilt raises it."
+        },
+        {
+          "claim": "A narrow base makes a body stable.",
+          "correction": "A narrow base makes a body unstable. A body is stable when a small tilt raises its centre of gravity.",
+          "locator": "candidate trap trap-7, demoted pending paper evidence",
+          "source_trap": "phy_statics_and_torque:trap-7",
+          "signal": "Our own question offers the narrow base as the stable case."
         }
       ],
       "summary": [
@@ -178,7 +274,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "equilibrium-of-forces",
-          "subtopic_slug": "centre-of-gravity-and-stability-stable-unstable-and-neutral",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
@@ -186,7 +282,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-equilibrium-of-forces",
-          "subtopic_slug": "waec-centre-of-gravity-and-stability-2",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -197,7 +293,28 @@
           ]
         }
       ],
-      "worked_from": "exr-24"
+      "worked_from": "exr-24",
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A uniform 4.0-m ladder weighing 120 N leans against a smooth (frictionless) vertical wall, making a 60° angle with the ground. A 600-N painter stands on the ladder 2.0 m along its length, measured from the base. (a) Taking torques about the base of the ladder, find the normal force the wall exerts on the ladder. (b) Find the friction force that the ground must exert on the ladder's feet.",
+          "answer": "(a) 210 N (b) 210 N (the ground also pushes up with 720 N)",
+          "answer_kind": "expression",
+          "solution": [
+            "Torques about the base: the wall force acts 4.0 sin 60° = 3.46 m above the base; the ladder's weight acts 2.0 cos 60° = 1.0 m along the ground; the painter acts 2.0 cos 60° = 1.0 m along the ground.",
+            "Balance of torques: F_wall × 3.46 = 120 × 1.0 + 600 × 1.0 = 720 N·m, so F_wall = 720/3.46 = 208 ≈ 210 N.",
+            "Horizontal equilibrium: the friction force at the ground equals the wall's push, so f = 208 ≈ 210 N."
+          ],
+          "tags": [
+            "torque",
+            "equilibrium",
+            "ladder"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -206,7 +323,8 @@
       "est_minutes": 14,
       "locator": "CNXML module m42173",
       "objectives": [
-        "Set up a statics problem by drawing the free-body diagram before writing any equation."
+        "Set up a statics problem by drawing the free-body diagram before writing any equation.",
+        "Solve a beam or ladder problem by combining the force and moment equations."
       ],
       "misconceptions": [
         {
@@ -223,8 +341,62 @@
         "problem-solving",
         "statics"
       ],
-      "exam_links": [],
-      "worked_from": "exr-29"
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "equilibrium-of-forces",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-equilibrium-of-forces",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why is it useful to choose the pivot at the point where an unknown force acts?",
+          "answer": "That force then has zero moment about the pivot, so it drops out of the moment equation.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A moment is force times perpendicular distance from the pivot.",
+            "If the distance is zero, the moment is zero.",
+            "Choosing that point removes the unknown from the equation."
+          ],
+          "tags": [
+            "pivot",
+            "moment"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A 2 m beam is pivoted at one end. A 30 N force acts perpendicular to the beam at 1.5 m from the pivot. Find the moment of the force.",
+          "answer": "45 N m",
+          "answer_kind": "expression",
+          "solution": [
+            "The force is perpendicular to the beam, so the perpendicular distance is 1.5 m.",
+            "Moment = force × distance = 30 × 1.5.",
+            "The moment is 45 N m."
+          ],
+          "tags": [
+            "moment",
+            "pivot"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -233,7 +405,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42174",
       "objectives": [
-        "Explain the mechanical advantage of a simple machine and compute it from the forces."
+        "Explain the mechanical advantage of a simple machine and compute it from the forces.",
+        "Calculate the mechanical advantage and efficiency of a simple machine."
       ],
       "misconceptions": [
         {
@@ -255,7 +428,7 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "simple-machines",
-          "subtopic_slug": "definition-of-a-machine-and-types-of-machines",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
@@ -435,57 +608,6 @@
   ],
   "exam_traps": [
     {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The normal force on a body resting on a floor is half its weight.",
-      "correction": "The floor pushes up with a force equal to the weight, so the normal force is the whole weight.",
-      "signal": "Our own question offers half the weight as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The angle between the force and the arm does not change the moment.",
-      "correction": "Only the component of the force perpendicular to the arm turns the body, so the moment is F d sin(theta).",
-      "signal": "Our own question offers the moment with the angle ignored.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "A body is stable when its centre of gravity is high.",
-      "correction": "A body is stable when a small tilt raises its centre of gravity, so a low centre of gravity inside a wide base is stable.",
-      "signal": "Our own question offers the high centre of gravity case.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-6",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
       "id": "trap-4",
       "exam": "JAMB",
       "subject": "physics",
@@ -501,61 +623,7 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74380"
       },
-      "frequency": "recurring"
-    },
-    {
-      "id": "trap-5",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The normal force on a body resting on a floor is a tenth of its weight.",
-      "correction": "It is the whole weight. The floor pushes up with exactly the force the weight pushes down.",
-      "signal": "Our own question offers the value with the mass alone.",
-      "status": "proven",
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "frequency": "recurring"
-    },
-    {
-      "id": "trap-6",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The moment of a force is the force divided by the distance from the pivot.",
-      "correction": "The moment is the force multiplied by the perpendicular distance from the pivot.",
-      "signal": "Our own question offers the force divided by the distance as an option.",
-      "status": "proven",
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "frequency": "recurring"
-    },
-    {
-      "id": "trap-7",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "A narrow base makes a body stable.",
-      "correction": "A narrow base makes a body unstable. A body is stable when a small tilt raises its centre of gravity.",
-      "signal": "Our own question offers the narrow base as the stable case.",
-      "status": "proven",
-      "paper_evidence": {
-        "question_id": "waec",
-        "exam": "WAEC",
-        "year": 2025,
-        "source": "claimed_paper",
-        "url": "https://api.utmelab.com/api/v1/questions/waec"
-      },
-      "frequency": "recurring"
+      "frequency": "occasional"
     },
     {
       "id": "trap-8",
@@ -573,7 +641,7 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2025_physics_76337"
       },
-      "frequency": "recurring"
+      "frequency": "occasional"
     }
   ],
   "exam_recall_checks": [
@@ -779,6 +847,35 @@
       "explanation": "The mechanical advantage is the load over the effort, so the effort is 120/3 = 40 N. The efficiency does not change the mechanical advantage.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "A uniform 4 m beam of weight 200 N is pivoted at its centre. A 50 N weight hangs 1 m from the left end. What downward effort at the right end keeps the beam balanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12.5 N"
+        },
+        {
+          "id": "b",
+          "text": "25 N"
+        },
+        {
+          "id": "c",
+          "text": "50 N"
+        },
+        {
+          "id": "d",
+          "text": "100 N"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The 50 N weight is 1 m from the pivot, giving a moment of 50 N m. The right end is 2 m from the pivot, so the effort is 50/2 = 25 N. The beam’s own weight acts at the pivot and has no moment.",
+      "difficulty": 3,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -789,5 +886,48 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Statics and Torque', modules m42167, m42170, m42171, m42172, m42173, m42174",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 6,
+  "exercise_fixes": {
+    "sec-4:exr-34": {
+      "drop": true
+    },
+    "sec-4:exr-45": {
+      "drop": true
+    },
+    "sec-4:exr-59": {
+      "drop": true
+    },
+    "sec-4:exr-64": {
+      "drop": true
+    },
+    "sec-6:exr-54": {
+      "drop": true
+    },
+    "sec-6:exr-46": {
+      "stem": "a) What is the mechanical advantage of a wheelbarrow if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m? (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg? (c) What force does the wheel exert on the ground?"
+    },
+    "sec-5:exr-34": {
+      "answer": "*F* L = 7350 N and *F* R = 2450 N; as the car drives to the right, *F* L decreases and *F* R increases.",
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer field was truncated to 'will both be 4900 N.)' and is restored from the solution"
+    },
+    "sec-6:exr-42": {
+      "stem": "What is the mechanical advantage of a nail puller where you exert a force 45 cm from the pivot and the nail is 1.8 cm on the other side? What minimum force must you exert to apply a force of 1250 N to the nail?",
+      "answer": "Mechanical advantage 25; minimum force 50 N",
+      "solution": [
+        "The mechanical advantage is the ratio of the effort distance to the load distance: $MA=45\\ \\mathrm{cm}/1.8\\ \\mathrm{cm}=25$.",
+        "The required effort force is $F_{\\mathrm{effort}}=F_{\\mathrm{load}}/MA=1250\\ \\mathrm{N}/25=50\\ \\mathrm{N}$."
+      ]
+    },
+    "sec-4:exr-40": {
+      "stem": "A horse stands facing a wall, with its feet 0.35 m horizontally from the wall. The wall pushes horizontally on the horse at a height of 1.20 m above the ground. The horse's center of mass is 1.40 m above the ground and midway between its feet. The total mass of the horse and rider is 500 kg. (a) Calculate the magnitude and direction of the force on each foot (two are on the ground). (b) What is the minimum coefficient of friction between the hooves and the ground?",
+      "solution": [
+        "The weight is $W=mg=(500\\ \\mathrm{kg})(9.80\\ \\mathrm{m/s^{2}})=4.90\\times10^{3}\\ \\mathrm{N}$.",
+        "Take torques about the feet. The wall force acts at 1.20 m and the weight at 0.35 m horizontally, so $F_{\\mathrm{wall}}(1.20)=(4.90\\times10^{3})(0.35)$ and $F_{\\mathrm{wall}}=1.43\\times10^{3}\\ \\mathrm{N}$.",
+        "Each foot carries half the weight, $N=2.45\\times10^{3}\\ \\mathrm{N}$, and half the horizontal force, $f=7.15\\times10^{2}\\ \\mathrm{N}$.",
+        "The resultant on each foot is $\\sqrt{(2.45\\times10^{3})^{2}+(7.15\\times10^{2})^{2}}=2.55\\times10^{3}\\ \\mathrm{N}$, directed $\\tan^{-1}(715/2450)=16.3^{\\circ}$ from the vertical toward the wall.",
+        "(b) The minimum coefficient of friction is $\\mu_{\\min}=f/N=715/2450=0.292$."
+      ]
+    }
+  }
 }

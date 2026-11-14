@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The current that flows through most substances is directly proportional to the voltage $V$ applied to it. The German physicist Georg Simon Ohm (1787–1854) was the first to demonstrate experimentally that the current in a metal wire is *directly proportional to the voltage applied* :",
+        "text": "The current that flows through most substances is directly proportional to the voltage $V$ applied to it. The German physicist Georg Simon Ohm (1787–1854) was the first to demonstrate experimentally that the current in a metal wire is *directly proportional to the voltage applied*: $I∝V.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "This important relationship is known as Ohm’s law . It can be viewed as a cause-and-effect relationship, with voltage the cause and current the effect. This is an empirical law like that for friction—an experimentally observed phenomenon. Such a linear relationship doesn’t always occur.",
+        "text": "This important relationship is known as Ohm’s law. It can be viewed as a cause-and-effect relationship, with voltage the cause and current the effect. This is an empirical law like that for friction—an experimentally observed phenomenon. Such a linear relationship doesn’t always occur.",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "If voltage drives current, what impedes it? The electric property that impedes current (crudely similar to friction and air resistance) is called resistance $R$ . Collisions of moving charges with atoms and molecules in a substance transfer energy to the substance and limit current. Resistance is defined as inversely proportional to current, or",
+        "text": "If voltage drives current, what impedes it? The electric property that impedes current (crudely similar to friction and air resistance) is called resistance $R$. Collisions of moving charges with atoms and molecules in a substance transfer energy to the substance and limit current. Resistance is defined as inversely proportional to current, or $I∝\\frac{1}{R}.$",
         "inline": []
       },
       "level": "core"
@@ -85,7 +85,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Thus, for example, current is cut in half if resistance doubles. Combining the relationships of current to voltage and current to resistance gives",
+        "text": "Thus, for example, current is cut in half if resistance doubles. Combining the relationships of current to voltage and current to resistance gives $I=\\frac{V}{R}.$",
         "inline": []
       },
       "level": "core"
@@ -94,7 +94,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "This relationship is also called Ohm’s law. Ohm’s law in this form really defines resistance for certain materials. Ohm’s law (like Hooke’s law) is not universally valid. The many substances for which Ohm’s law holds are called ohmic . These include good conductors like copper and aluminum, and some poor conductors under certain circumstances. Ohmic materials have a resistance $R$ that is independent of voltage $V$ and current $I$ . An object that has simple resistance is called a *resistor* , even if its resistance is small. The unit for resistance is an ohm and is given the symbol $Ω$ (upper case Greek omega). Rearranging $I=V/R$ gives $R=V/I$ , and so the units of resistance are 1 ohm = 1 volt per ampere:",
+        "text": "This relationship is also called Ohm’s law. Ohm’s law in this form really defines resistance for certain materials. Ohm’s law (like Hooke’s law) is not universally valid. The many substances for which Ohm’s law holds are called ohmic. These include good conductors like copper and aluminum, and some poor conductors under certain circumstances. Ohmic materials have a resistance $R$ that is independent of voltage $V$ and current $I$. An object that has simple resistance is called a *resistor*, even if its resistance is small. The unit for resistance is an ohm and is given the symbol $Ω$ (upper case Greek omega). Rearranging $I=V/R$ gives $R=V/I$, and so the units of resistance are 1 ohm = 1 volt per ampere: $1 Ω=1\\frac{V}{A}.$",
         "inline": []
       },
       "level": "core"
@@ -103,7 +103,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "shows the schematic for a simple circuit. A simple circuit has a single voltage source and a single resistor. The wires connecting the voltage source to the resistor can be assumed to have negligible resistance, or their resistance can be included in $R$ .",
+        "text": "The figure shows the schematic for a simple circuit. A simple circuit has a single voltage source and a single resistor. The wires connecting the voltage source to the resistor can be assumed to have negligible resistance, or their resistance can be included in $R$.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging $I=V/R$ and substituting known values gives",
+        "text": "Rearranging $I=V/R$ and substituting known values gives $R=\\frac{V}{I}=\\frac{12.0 V}{2.50 A}=4.80 Ω.$",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. As we shall see in Resistance and Resistivity , resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
+        "text": "This is a relatively small resistance, but it is larger than the cold resistance of the headlight. As we shall see in Resistance and Resistivity, resistance usually increases with temperature, and so the bulb has a lower resistance when it is first switched on and will draw considerably more current during its brief warm-up period.",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of ${10}^{12}Ω$ or more. A dry person may have a hand-to-foot resistance of ${10}^{5}Ω$ , whereas the resistance of the human heart is about ${10}^{3}Ω$ . A meter-long piece of large-diameter copper wire may have a resistance of ${10}^{-5}Ω$ , and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed, as will be seen in Resistance and Resistivity .",
+        "text": "Resistances range over many orders of magnitude. Some ceramic insulators, such as those used to support power lines, have resistances of ${10}^{12} Ω$ or more. A dry person may have a hand-to-foot resistance of ${10}^{5} Ω$, whereas the resistance of the human heart is about ${10}^{3} Ω$. A meter-long piece of large-diameter copper wire may have a resistance of ${10}^{-5} Ω$, and superconductors have no resistance at all (they are non-ohmic). Resistance is related to the shape of an object and the material of which it is composed, as will be seen in Resistance and Resistivity.",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Additional insight is gained by solving $I=V/R$ for $V,$ yielding",
+        "text": "Additional insight is gained by solving $I=V/R$ for $V,$ yielding $V=IR.$",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "This expression for $V$ can be interpreted as the *voltage drop across a resistor produced by the flow of current* $I$ . The phrase $IR$ *drop* is often used for this voltage. For instance, the headlight in has an $IR$ drop of 12.0 V. If voltage is measured at various points in a circuit, it will be seen to increase at the voltage source and decrease at the resistor. Voltage is similar to fluid pressure. The voltage source is like a pump, creating a pressure difference, causing current—the flow of charge. The resistor is like a pipe that reduces pressure and limits flow because of its resistance. Conservation of energy has important consequences here. The voltage source supplies energy (causing an electric field and a current), and the resistor converts it to another form (such as thermal energy). In a simple circuit (one with a single simple resistor), the voltage supplied by the source equals the voltage drop across the resistor, since $PE=qΔV$ , and the same $q$ flows through each. Thus the energy supplied by the voltage source and the energy converted by the resistor are equal. (See .)",
+        "text": "This expression for $V$ can be interpreted as the *voltage drop across a resistor produced by the flow of current* $I$. The phrase $IR$ *drop* is often used for this voltage. For instance, the headlight in the example has an $IR$ drop of 12.0 V. If voltage is measured at various points in a circuit, it will be seen to increase at the voltage source and decrease at the resistor. Voltage is similar to fluid pressure. The voltage source is like a pump, creating a pressure difference, causing current—the flow of charge. The resistor is like a pipe that reduces pressure and limits flow because of its resistance. Conservation of energy has important consequences here. The voltage source supplies energy (causing an electric field and a current), and the resistor converts it to another form (such as thermal energy). In a simple circuit (one with a single simple resistor), the voltage supplied by the source equals the voltage drop across the resistor, since $PE=qΔV$, and the same $q$ flows through each. Thus the energy supplied by the voltage source and the energy converted by the resistor are equal. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -410,7 +410,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What current flows through the bulb of a 3.00-V flashlight when its hot resistance is $3.60 Ω$ ?",
+        "text": "What current flows through the bulb of a 3.00-V flashlight when its hot resistance is $3.60 Ω$?",
         "inline": []
       },
       "level": "core",
@@ -479,7 +479,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "How many volts are supplied to operate an indicator light on a DVD player that has a resistance of $140Ω$ , given that 25.0 mA passes through it?",
+        "text": "How many volts are supplied to operate an indicator light on a DVD player that has a resistance of $140 Ω$, given that 25.0 mA passes through it?",
         "inline": []
       },
       "level": "core",
@@ -500,7 +500,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Find the voltage drop in an extension cord having a $0.0600-Ω$ resistance and through which 5.00 A is flowing. (b) A cheaper cord utilizes thinner wire and has a resistance of $0.300Ω$ . What is the voltage drop in it when 5.00 A flows? (c) Why is the voltage to whatever appliance is being used reduced by this amount? What is the effect on the appliance?",
+        "text": "(a) Find the voltage drop in an extension cord having a $0.0600-Ω$ resistance and through which 5.00 A is flowing. (b) A cheaper cord utilizes thinner wire and has a resistance of $0.300 Ω$. What is the voltage drop in it when 5.00 A flows? (c) Why is the voltage to whatever appliance is being used reduced by this amount? What is the effect on the appliance?",
         "inline": []
       },
       "level": "core",
@@ -533,7 +533,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A power transmission line is hung from metal towers with glass insulators having a resistance of $1.00×{10}^{9}Ω.$ What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)",
+        "text": "A power transmission line is hung from metal towers with glass insulators having a resistance of $1.00×{10}^{9} Ω.$ What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)",
         "inline": []
       },
       "level": "core",

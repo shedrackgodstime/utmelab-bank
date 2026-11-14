@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Analytical techniques and right triangles go hand-in-hand in physics because (among other things) motions along perpendicular directions are independent. We very often need to separate a vector into perpendicular components. For example, given a vector like $A$ in , we may wish to find which two perpendicular vectors, ${A}_{x}$ and ${A}_{y}$ , add to produce it.",
+        "text": "Analytical techniques and right triangles go hand-in-hand in physics because (among other things) motions along perpendicular directions are independent. We very often need to separate a vector into perpendicular components. For example, given a vector like $A$ in the figure, we may wish to find which two perpendicular vectors, ${A}_{x}$ and ${A}_{y}$, add to produce it.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "${A}_{x}$ and ${A}_{y}$ are defined to be the components of $A$ along the *x* - and *y* -axes. The three vectors $A$ , ${A}_{x}$ , and ${A}_{y}$ form a right triangle:",
+        "text": "${A}_{x}$ and ${A}_{y}$ are defined to be the components of $A$ along the *x* - and *y* -axes. The three vectors $A$, ${A}_{x}$, and ${A}_{y}$ form a right triangle: ${A}_{x}{+ A}_{y}= A.$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Note that this relationship between vector components and the resultant vector holds only for vector quantities (which include both magnitude and direction). The relationship does not apply for the magnitudes alone. For example, if ${A}_{x}=3 m$ east, ${A}_{y}=4 m$ north, and $A=5 m$ north-east, then it is true that the vectors ${A}_{x}{+ A}_{y}= A$ . However, it is *not* true that the sum of the magnitudes of the vectors is also equal. That is,",
+        "text": "Note that this relationship between vector components and the resultant vector holds only for vector quantities (which include both magnitude and direction). The relationship does not apply for the magnitudes alone. For example, if ${A}_{x}=3 m$ east, ${A}_{y}=4 m$ north, and $A=5 m$ north-east, then it is true that the vectors ${A}_{x}{+ A}_{y}= A$. However, it is *not* true that the sum of the magnitudes of the vectors is also equal. That is, $3 m+4 m\\ne 5 m$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "If the vector $A$ is known, then its magnitude $A$ (its length) and its angle $θ$ (its direction) are known. To find ${A}_{x}$ and ${A}_{y}$ , its *x* - and *y* -components, we use the following relationships for a right triangle.",
+        "text": "If the vector $A$ is known, then its magnitude $A$ (its length) and its angle $θ$ (its direction) are known. To find ${A}_{x}$ and ${A}_{y}$, its *x* - and *y* -components, we use the following relationships for a right triangle. ${A}_{x}=A cos θ$",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Suppose, for example, that $A$ is the vector representing the total displacement of the person walking in a city considered in Kinematics in Two Dimensions: An Introduction and Vector Addition and Subtraction: Graphical Methods .",
+        "text": "Suppose, for example, that $A$ is the vector representing the total displacement of the person walking in a city considered in Kinematics in Two Dimensions: An Introduction and Vector Addition and Subtraction: Graphical Methods.",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Then $A=10.3$ blocks and $θ=29.1º$ , so that \\[${A}_{x}=Acosθ=(10.3 blocks)(cos29.1º)=9.0 blocks$\\] \\[${A}_{y}=Asinθ=(10.3 blocks)(sin29.1º)=5.0 blocks.$\\]",
+        "text": "Then $A=10.3$ blocks and $θ=29.1º$, so that ${A}_{x}=A cos θ=(10.3 blocks)(cos 29.1º)=9.0 blocks$ ${A}_{y}=A sin θ=(10.3 blocks)(sin 29.1º)=5.0 blocks.$",
         "inline": []
       },
       "level": "core"
@@ -151,7 +151,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "If the perpendicular components ${A}_{x}$ and ${A}_{y}$ of a vector $A$ are known, then $A$ can also be found analytically. To find the magnitude $A$ and direction $θ$ of a vector from its perpendicular components ${A}_{x}$ and ${A}_{y}$ , relative to the *x* -axis, we use the following relationships:",
+        "text": "If the perpendicular components ${A}_{x}$ and ${A}_{y}$ of a vector $A$ are known, then $A$ can also be found analytically. To find the magnitude $A$ and direction $θ$ of a vector from its perpendicular components ${A}_{x}$ and ${A}_{y}$, relative to the *x* -axis, we use the following relationships: $A=\\sqrt{{A}_{x}{}^{2}+{A}_{y}{}^{2}}$ $θ={tan}^{-1}({A}_{y}/{A}_{x}).$",
         "inline": []
       },
       "level": "core"
@@ -173,7 +173,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Note that the equation $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ is just the Pythagorean theorem relating the legs of a right triangle to the length of the hypotenuse. For example, if ${A}_{x}$ and ${A}_{y}$ are 9 and 5 blocks, respectively, then $A=\\sqrt{{9}^{2}{+5}^{2}}=10.3$ blocks, again consistent with the example of the person walking in a city. Finally, the direction is $θ={tan}^{–1}(5/9)=29.1º$ , as before.",
+        "text": "Note that the equation $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ is just the Pythagorean theorem relating the legs of a right triangle to the length of the hypotenuse. For example, if ${A}_{x}$ and ${A}_{y}$ are 9 and 5 blocks, respectively, then $A=\\sqrt{{9}^{2}{+5}^{2}}=10.3$ blocks, again consistent with the example of the person walking in a city. Finally, the direction is $θ={tan}^{–1}(5/9)=29.1º$, as before.",
         "inline": []
       },
       "level": "core"
@@ -182,7 +182,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Equations ${A}_{x}=Acosθ$ and ${A}_{y}=Asinθ$ are used to find the perpendicular components of a vector—that is, to go from $A$ and $θ$ to ${A}_{x}$ and ${A}_{y}$ . Equations $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ and $θ={tan}^{–1}({A}_{y}/{A}_{x})$ are used to find a vector from its perpendicular components—that is, to go from ${A}_{x}$ and ${A}_{y}$ to $A$ and $θ$ . Both processes are crucial to analytical methods of vector addition and subtraction.",
+        "text": "Equations ${A}_{x}=A cos θ$ and ${A}_{y}=A sin θ$ are used to find the perpendicular components of a vector—that is, to go from $A$ and $θ$ to ${A}_{x}$ and ${A}_{y}$. Equations $A=\\sqrt{{A}_{x}^{2}+{A}_{y}^{2}}$ and $θ={tan}^{–1}({A}_{y}/{A}_{x})$ are used to find a vector from its perpendicular components—that is, to go from ${A}_{x}$ and ${A}_{y}$ to $A$ and $θ$. Both processes are crucial to analytical methods of vector addition and subtraction.",
         "inline": []
       },
       "level": "core"
@@ -200,7 +200,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "To see how to add vectors using perpendicular components, consider , in which the vectors $A$ and $B$ are added to produce the resultant $R$ .",
+        "text": "To see how to add vectors using perpendicular components, consider the figure, in which the vectors $A$ and $B$ are added to produce the resultant $R$.",
         "inline": []
       },
       "level": "core"
@@ -222,7 +222,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "If $A$ and $B$ represent two legs of a walk (two displacements), then $R$ is the total displacement. The person taking the walk ends up at the tip of $R.$ There are many ways to arrive at the same point. In particular, the person could have walked first in the *x* -direction and then in the *y* -direction. Those paths are the *x* - and *y* -components of the resultant, ${R}_{x}$ and ${R}_{y}$ . If we know ${R}_{x}$ and ${R}_{y}$ , we can find $R$ and $θ$ using the equations $A=\\sqrt{{{A}_{x}}^{2}}$ and $θ={tan}^{–1}({A}_{y}/{A}_{x})$ . When you use the analytical method of vector addition, you can determine the components or the magnitude and direction of a vector.",
+        "text": "If $A$ and $B$ represent two legs of a walk (two displacements), then $R$ is the total displacement. The person taking the walk ends up at the tip of $R.$ There are many ways to arrive at the same point. In particular, the person could have walked first in the *x* -direction and then in the *y* -direction. Those paths are the *x* - and *y* -components of the resultant, ${R}_{x}$ and ${R}_{y}$. If we know ${R}_{x}$ and ${R}_{y}$, we can find $R$ and $θ$ using the equations $A=\\sqrt{{{A}_{x}}^{2}}$ and $θ={tan}^{–1}({A}_{y}/{A}_{x})$. When you use the analytical method of vector addition, you can determine the components or the magnitude and direction of a vector.",
         "inline": []
       },
       "level": "core"
@@ -231,7 +231,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "**Step 1.* *Identify the x- and y-axes that will be used in the problem. Then, find the components of each vector to be added along the chosen perpendicular axes* .* Use the equations ${A}_{x}=Acosθ$ and ${A}_{y}=Asinθ$ to find the components. In , these components are ${A}_{x}$ , ${A}_{y}$ , ${B}_{x}$ , and ${B}_{y}$ . The angles that vectors $A$ and $B$ make with the *x* -axis are ${θ}_{A}$ and ${θ}_{B}$ , respectively.",
+        "text": "**Step 1.* *Identify the x- and y-axes that will be used in the problem. Then, find the components of each vector to be added along the chosen perpendicular axes*.* Use the equations ${A}_{x}=A cos θ$ and ${A}_{y}=A sin θ$ to find the components. In the figure, these components are ${A}_{x}$, ${A}_{y}$, ${B}_{x}$, and ${B}_{y}$. The angles that vectors $A$ and $B$ make with the *x* -axis are ${θ}_{A}$ and ${θ}_{B}$, respectively.",
         "inline": []
       },
       "level": "core"
@@ -253,7 +253,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "**Step 2.* *Find the components of the resultant along each axis by adding the components of the individual vectors along that axis* .* That is, as shown in ,",
+        "text": "**Step 2.* *Find the components of the resultant along each axis by adding the components of the individual vectors along that axis*.* That is, as shown in the figure, ${R}_{x}={A}_{x}+{B}_{x}$",
         "inline": []
       },
       "level": "core"
@@ -284,7 +284,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "**Step 3.* *To get the magnitude $R$ of the resultant, use the Pythagorean theorem:**",
+        "text": "**Step 3.* *To get the magnitude $R$ of the resultant, use the Pythagorean theorem:** $R=\\sqrt{{R}_{x}^{2}+{R}_{y}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "**Step 4.* *To get the direction of the resultant relative to the *x* -axis:**",
+        "text": "**Step 4.* *To get the direction of the resultant relative to the *x* -axis:** $θ={tan}^{-1}({R}_{y}/{R}_{x}).$",
         "inline": []
       },
       "level": "core"
@@ -326,7 +326,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Add the vector $A$ to the vector $B$ shown in , using perpendicular components along the *x* - and *y* -axes. The *x* - and *y* -axes are along the east–west and north–south directions, respectively. Vector $A$ represents the first leg of a walk in which a person walks $53.0 m$ in a direction $20.0º$ north of east. Vector $B$ represents the second leg, a displacement of $34.0 m$ in a direction $63.0º$ north of east.",
+        "text": "Add the vector $A$ to the vector $B$ shown in the figure, using perpendicular components along the *x* - and *y* -axes. The *x* - and *y* -axes are along the east–west and north–south directions, respectively. Vector $A$ represents the first leg of a walk in which a person walks $53.0 m$ in a direction $20.0º$ north of east. Vector $B$ represents the second leg, a displacement of $34.0 m$ in a direction $63.0º$ north of east.",
         "inline": []
       },
       "level": "core"
@@ -357,7 +357,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Following the method outlined above, we first find the components of $A$ and $B$ along the *x* - and *y* -axes. Note that $A=53.0 m$ , ${θ}_{A}=20.0º$ , $B=34.0 m$ , and ${θ}_{B}=63.0º$ . We find the *x* -components by using ${A}_{x}=Acosθ$ , which gives",
+        "text": "Following the method outlined above, we first find the components of $A$ and $B$ along the *x* - and *y* -axes. Note that $A=53.0 m$, ${θ}_{A}=20.0º$, $B=34.0 m$, and ${θ}_{B}=63.0º$. We find the *x* -components by using ${A}_{x}=A cos θ$, which gives ${A}_{x} = A cos {θ}_{A}=(53. 0 m) (cos 20.0º) = (53.0 m)(0.940)=49.8 m$",
         "inline": []
       },
       "level": "core"
@@ -366,7 +366,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Similarly, the *y* -components are found using ${A}_{y}=Asin{θ}_{A}$ :",
+        "text": "Similarly, the *y* -components are found using ${A}_{y}=A sin {θ}_{A}$: ${A}_{y} = A sin {θ}_{A}=(53. 0 m) (sin 20.0º) = (53.0 m)(0.342)=18.1 m$",
         "inline": []
       },
       "level": "core"
@@ -375,7 +375,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The *x* - and *y* -components of the resultant are thus",
+        "text": "The *x* - and *y* -components of the resultant are thus ${R}_{x}={A}_{x}+{B}_{x}=49.8 m+15.4 m=65.2 m$",
         "inline": []
       },
       "level": "core"
@@ -384,7 +384,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Now we can find the magnitude of the resultant by using the Pythagorean theorem:",
+        "text": "Now we can find the magnitude of the resultant by using the Pythagorean theorem: $R=\\sqrt{{R}_{x}^{2}+{R}_{y}^{2}}=\\sqrt{(65.2{)}^{2}+(48.4{)}^{2}}$",
         "inline": []
       },
       "level": "core"
@@ -393,7 +393,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Finally, we find the direction of the resultant:",
+        "text": "Finally, we find the direction of the resultant: $θ={tan}^{-1}({R}_{y}/{R}_{x})=+{tan}^{-1}(48.4/65.2).$",
         "inline": []
       },
       "level": "core"
@@ -424,7 +424,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "Subtraction of vectors is accomplished by the addition of a negative vector. That is, $A-B≡A+(–B)$ . Thus, *the method for the subtraction of vectors using perpendicular components is identical to that for addition* . The components of $–B$ are the negatives of the components of $B$ . The *x* - and *y* -components of the resultant $A-B = R$ are thus",
+        "text": "Subtraction of vectors is accomplished by the addition of a negative vector. That is, $A-B≡A+(–B)$. Thus, *the method for the subtraction of vectors using perpendicular components is identical to that for addition*. The components of $–B$ are the negatives of the components of $B$. The *x* - and *y* -components of the resultant $A-B = R$ are thus ${R}_{x}={A}_{x}+(-{B}_{x})$",
         "inline": []
       },
       "level": "core"
@@ -433,7 +433,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "and the rest of the method outlined above is identical to that for addition. (See .)",
+        "text": "and the rest of the method outlined above is identical to that for addition. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -442,7 +442,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "Analyzing vectors using perpendicular components is very useful in many areas of physics, because perpendicular quantities are often independent of one another. The next module, Projectile Motion , is one of many in which using perpendicular components helps make the picture clear and simplifies the physics.",
+        "text": "Analyzing vectors using perpendicular components is very useful in many areas of physics, because perpendicular quantities are often independent of one another. The next module, Projectile Motion, is one of many in which using perpendicular components helps make the picture clear and simplifies the physics.",
         "inline": []
       },
       "level": "core"
@@ -482,7 +482,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "Step 1: Determine the coordinate system for the vectors. Then, determine the horizontal and vertical components of each vector using the equations",
+        "text": "Step 1: Determine the coordinate system for the vectors. Then, determine the horizontal and vertical components of each vector using the equations ${A}_{x} = A cos θ; {B}_{x} = B cos θ$",
         "inline": []
       },
       "level": "core"
@@ -491,7 +491,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "Step 2: Add the horizontal and vertical components of each vector to determine the components ${R}_{x}$ and ${R}_{y}$ of the resultant vector, $R$ :",
+        "text": "Step 2: Add the horizontal and vertical components of each vector to determine the components ${R}_{x}$ and ${R}_{y}$ of the resultant vector, $R$: ${R}_{x}={A}_{x}+{B}_{x}$",
         "inline": []
       },
       "level": "core"
@@ -500,7 +500,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Step 3: Use the Pythagorean theorem to determine the magnitude, $R$ , of the resultant vector $R$ :",
+        "text": "Step 3: Use the Pythagorean theorem to determine the magnitude, $R$, of the resultant vector $R$: $R=\\sqrt{{R}_{x}^{2}+{R}_{y}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -509,7 +509,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "Step 4: Use a trigonometric identity to determine the direction, $θ$ , of $R$ :",
+        "text": "Step 4: Use a trigonometric identity to determine the direction, $θ$, of $R$: $θ={tan}^{-1}({R}_{y}/{R}_{x}).$",
         "inline": []
       },
       "level": "core"
@@ -528,7 +528,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you add two vectors $A$ and $B$ . What relative direction between them produces the resultant with the greatest magnitude? What is the maximum magnitude? What relative direction between them produces the resultant with the smallest magnitude? What is the minimum magnitude?",
+        "text": "Suppose you add two vectors $A$ and $B$. What relative direction between them produces the resultant with the greatest magnitude? What is the maximum magnitude? What relative direction between them produces the resultant with the smallest magnitude? What is the minimum magnitude?",
         "inline": []
       },
       "level": "core",
@@ -591,7 +591,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If the vectors $A$ and $B$ are perpendicular, what is the component of $A$ along the direction of $B$ ? What is the component of $B$ along the direction of $A$ ?",
+        "text": "If the vectors $A$ and $B$ are perpendicular, what is the component of $A$ along the direction of $B$? What is the component of $B$ along the direction of $A$?",
         "inline": []
       },
       "level": "core",
@@ -658,7 +658,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the following for path D in : (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.",
+        "text": "Find the following for path C in the figure: (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.",
         "inline": []
       },
       "level": "core",
@@ -679,7 +679,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the north and east components of the displacement from San Francisco to Sacramento shown in .",
+        "text": "Find the north and east components of the displacement from San Francisco to Sacramento shown in the figure.",
         "inline": []
       },
       "level": "core",
@@ -725,7 +725,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position? (If you represent the two legs of the walk as vector displacements $A$ and $B$ , as in , then this problem asks you to find their sum $R=A+B$ .) The two displacements $A$ and $B$ add to give a total displacement $R$ having magnitude $R$ and direction $θ$ . Note that you can also solve this graphically. Discuss why the analytical technique for solving this problem is potentially more accurate than the graphical technique.",
+        "text": "Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position? (If you represent the two legs of the walk as vector displacements $A$ and $B$, as in the figure, then this problem asks you to find their sum $R=A+B$.) Note that you can also solve this graphically. Discuss why the analytical technique for solving this problem is potentially more accurate than the graphical technique.",
         "inline": []
       },
       "level": "core",
@@ -768,7 +768,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result. (This problem shows that adding them in reverse order gives the same result—that is, $B + A = A + B$ .) Discuss how taking another path to reach the same point might help to overcome an obstacle blocking your other path.",
+        "text": "Repeat the exercise using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result. (This problem shows that adding them in reverse order gives the same result—that is, $B + A = A + B$.) Discuss how taking another path to reach the same point might help to overcome an obstacle blocking your other path.",
         "inline": []
       },
       "level": "core",
@@ -822,7 +822,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Do again using analytical techniques and change the second leg of the walk to $25.0 m$ straight south. (This is equivalent to subtracting $B$ from $A$ —that is, finding $R′=A – B$ ) (b) Repeat again, but now you first walk $25.0 m$ north and then $18.0 m$ east. (This is equivalent to subtract $A$ from $B$ —that is, to find $A=B+C$ . Is that consistent with your result?)",
+        "text": "Do the exercise again using analytical techniques and change the second leg of the walk to $25.0 m$ straight south. (This is equivalent to subtracting $B$ from $A$ —that is, finding $R′=A – B$) (b) Repeat again, but now you first walk $25.0 m$ north and then $18.0 m$ east. (This is equivalent to subtract $A$ from $B$ —that is, to find $A=B+C$. Is that consistent with your result?)",
         "inline": []
       },
       "level": "core",
@@ -864,7 +864,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors $A$ from $B$ in . She then correctly calculates the length and orientation of the third side $C$ . What is her result?",
+        "text": "A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors $A$ from $B$ in the figure. She then correctly calculates the length and orientation of the third side $C$. What is her result?",
         "inline": []
       },
       "level": "core",
@@ -898,7 +898,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "You fly $32.0 km$ in a straight line in still air in the direction $35.0º$ south of west. (a) Find the distances you would have to fly straight south and then straight west to arrive at the same point. (This determination is equivalent to finding the components of the displacement along the south and west directions.) (b) Find the distances you would have to fly first in a direction $45.0º$ south of west and then in a direction $45.0º$ west of north. These are the components of the displacement along a different set of axes—one rotated $45º$ .",
+        "text": "You fly $32.0 km$ in a straight line in still air in the direction $35.0º$ south of west. (a) Find the distances you would have to fly straight south and then straight west to arrive at the same point. (This determination is equivalent to finding the components of the displacement along the south and west directions.) (b) Find the distances you would have to fly first in a direction $45.0º$ south of west and then in a direction $45.0º$ west of north. These are the components of the displacement along a different set of axes—one rotated $45º$.",
         "inline": []
       },
       "level": "core",
@@ -931,7 +931,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A farmer wants to fence off a four-sided plot of flat land. They measure the first three sides, shown as $A,$ $B,$ and $C$ in , and then correctly calculate the length and orientation of the fourth side $D$ . What is their result?",
+        "text": "A farmer wants to fence off a four-sided plot of flat land. They measure the first three sides, shown as $A,$ $B,$ and $C$ in the figure, and then correctly calculate the length and orientation of the fourth side $D$. What is their result?",
         "inline": []
       },
       "level": "core",
@@ -965,7 +965,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In an attempt to escape his island, Gilligan builds a raft and sets to sea. The wind shifts a great deal during the day, and he is blown along the following straight lines: $2.50 km$ $45.0º$ north of west; then $4.70 km$ $60.0º$ south of east; then $1.30km$ $25.0º$ south of west; then $5.10 km$ straight east; then $1.70km$ $5.00º$ east of north; then $7.20 km$ $55.0º$ south of west; and finally $2.80 km$ $10.0º$ north of east. What is his final position relative to the island?",
+        "text": "In an attempt to escape his island, Gilligan builds a raft and sets to sea. The wind shifts a great deal during the day, and he is blown along the following straight lines: $2.50 km$ $45.0º$ north of west; then $4.70 km$ $60.0º$ south of east; then $1.30 km$ $25.0º$ south of west; then $5.10 km$ straight east; then $1.70 km$ $5.00º$ east of north; then $7.20 km$ $55.0º$ south of west; and finally $2.80 km$ $10.0º$ north of east. What is his final position relative to the island?",
         "inline": []
       },
       "level": "core",
@@ -998,7 +998,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a pilot flies $40.0 km$ in a direction $60º$ north of east and then flies $30.0 km$ in a direction $15º$ north of east as shown in . Find her total distance $R$ from the starting point and the direction $θ$ of the straight-line path to the final position. Discuss qualitatively how this flight would be altered by a wind from the north and how the effect of the wind would depend on both wind speed and the speed of the plane relative to the air mass.",
+        "text": "Suppose a pilot flies $40.0 km$ in a direction $60º$ north of east and then flies $30.0 km$ in a direction $15º$ north of east as shown in the figure. Find her total distance $R$ from the starting point and the direction $θ$ of the straight-line path to the final position. Discuss qualitatively how this flight would be altered by a wind from the north and how the effect of the wind would depend on both wind speed and the speed of the plane relative to the air mass.",
         "inline": []
       },
       "level": "core",

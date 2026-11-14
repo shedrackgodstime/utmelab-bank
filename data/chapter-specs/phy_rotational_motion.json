@@ -117,7 +117,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_circular_motion_and_gravitation",
+    "phy_statics_and_torque"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -136,24 +139,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -187,7 +173,7 @@
           "subject": "physics",
           "topic_slug": "motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -195,11 +181,49 @@
           "subject": "physics",
           "topic_slug": "waec-motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-36"
+      "worked_from": "exr-36",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A wheel turns through 10 rad in 2 s. Find its average angular velocity.",
+          "answer": "5 rad/s",
+          "answer_kind": "expression",
+          "solution": [
+            "Average angular velocity is Δθ/Δt.",
+            "ω = 10/2.",
+            "ω = 5 rad/s."
+          ],
+          "tags": [
+            "angular velocity",
+            "rotation"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A point on a wheel of radius 0.5 m rotates at 4 rad/s. Find its linear speed.",
+          "answer": "2 m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "The linear speed at a radius is v = rω.",
+            "v = 0.5 × 4.",
+            "v = 2 m/s."
+          ],
+          "tags": [
+            "linear speed",
+            "angular velocity"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -212,7 +236,15 @@
         "Derive rotational kinematic equations.",
         "Evaluate problem solving strategies for rotational kinematics."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Angular velocity is measured in revolutions per second.",
+          "correction": "It is measured in radians per second. Revolutions per second is the frequency of the rotation, which is the same thing only because a revolution is $2\\pi$ radians.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_rotational_motion:trap-3",
+          "signal": "Our own question offers revolutions as the answer."
+        }
+      ],
       "summary": [
         "Kinematics is the description of motion.",
         "The kinematics of rotational motion describes the relationships among rotation angle, angular velocity, angular acceleration, and time.",
@@ -226,7 +258,7 @@
           "subject": "physics",
           "topic_slug": "motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -234,7 +266,7 @@
           "subject": "physics",
           "topic_slug": "waec-motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -255,6 +287,13 @@
         {
           "claim": "The torque on a body is the force applied.",
           "correction": "The torque is the force times the perpendicular distance from the pivot, so the same force further out the arm turns the body more."
+        },
+        {
+          "claim": "The rotational inertia of a solid disc about its central axis is $MR^2$.",
+          "correction": "It is $\\frac{1}{2}MR^2$. The hoop, which has all its mass at the rim, is the one with $MR^2$, and a disc with the same mass and radius is harder to start turning.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_rotational_motion:trap-4",
+          "signal": "Our own question offers the hoop value as an option."
         }
       ],
       "summary": [
@@ -268,17 +307,17 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "motion",
+          "topic_slug": "equilibrium-of-forces",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-motion",
+          "topic_slug": "waec-equilibrium-of-forces",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -295,7 +334,18 @@
         "Calculate rotational kinetic energy.",
         "Demonstrate the Law of Conservation of Energy."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A spinning flywheel has no energy unless it is moving from place to place.",
+          "correction": "A flywheel stores rotational kinetic energy, ½Iω², even when its centre stays fixed. That stored energy can be returned to a machine.",
+          "signal": "The word kinetic suggests travel, but rotation is motion too."
+        },
+        {
+          "claim": "The rotational kinetic energy of a wheel is ½mv² using the speed of its rim.",
+          "correction": "Use ½Iω² for rotation. For a rolling body, add the translational ½mv² of its centre of mass to the rotational part.",
+          "signal": "A rolling wheel has both kinds of kinetic energy."
+        }
+      ],
       "summary": [
         "The rotational kinetic energy KErot for an object with a moment of inertia I and an angular velocity ω is given by KErot=12Iω2.",
         "Helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades.",
@@ -307,17 +357,17 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "motion",
+          "topic_slug": "work-energy-and-power",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-motion",
+          "topic_slug": "waec-work-energy-and-power",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -334,7 +384,18 @@
         "Observe the relationship between torque and angular momentum.",
         "Apply the law of conservation of angular momentum."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Angular momentum is conserved whenever a body is spinning.",
+          "correction": "It is conserved only when the net external torque on the body is zero. A spin that slows under friction has an external torque.",
+          "signal": "Conservation laws depend on the forces, not on the motion alone."
+        },
+        {
+          "claim": "A figure skater speeds up a spin by creating angular momentum.",
+          "correction": "The skater pulls their arms in, which reduces I. Since L = Iω is constant with negligible external torque, ω increases.",
+          "signal": "The skater changes the distribution of mass, not the angular momentum."
+        }
+      ],
       "summary": [
         "Every rotational phenomenon has a direct translational analog , likewise angular momentum L can be defined as L=Iω.",
         "This equation is an analog to the definition of linear momentum as p=mv. The relationship between torque and angular momentum is net τ= Δ L Δ t .",
@@ -348,7 +409,7 @@
           "subject": "physics",
           "topic_slug": "motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -356,7 +417,7 @@
           "subject": "physics",
           "topic_slug": "waec-motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -372,7 +433,18 @@
         "Observe collisions of extended bodies in two dimensions.",
         "Examine collision at the point of percussion."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "In a collision of extended bodies, only linear momentum is conserved.",
+          "correction": "Angular momentum about a chosen point is also conserved when the net external torque about that point is zero.",
+          "signal": "Extended bodies can spin, so their rotational motion must be accounted for."
+        },
+        {
+          "claim": "The point of percussion is the same as the centre of mass.",
+          "correction": "The point of percussion is where an impulse produces no reaction at the pivot. It coincides with the centre of mass only in special cases.",
+          "signal": "A strike at the point of percussion avoids a jar at the pivot."
+        }
+      ],
       "summary": [
         "Angular momentum L is analogous to linear momentum and is given by L=Iω.",
         "Angular momentum is changed by torque, following the relationship net τ = Δ L Δ t .",
@@ -386,15 +458,15 @@
           "subject": "physics",
           "topic_slug": "motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-motion",
+          "topic_slug": "waec-newton-s-laws-of-motion",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -411,7 +483,18 @@
         "Explain the gyroscopic effect.",
         "Study how Earth acts like a gigantic gyroscope."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A spinning top should fall over immediately because gravity pulls it down.",
+          "correction": "Gravity exerts a torque that changes the direction of the angular momentum. The top precesses instead of falling straight down.",
+          "signal": "A torque can change direction without changing the size of L."
+        },
+        {
+          "claim": "Angular momentum is a scalar, like mass.",
+          "correction": "Angular momentum is a vector. Its direction is along the axis of rotation and is found with the right-hand rule.",
+          "signal": "The direction matters in gyroscopic motion."
+        }
+      ],
       "summary": [
         "Torque is perpendicular to the plane formed by r and F and is the direction your right thumb would point if you curled the fingers of your right hand in the direction of F . The direction of the torque is thus the same as that of the angular momentum it produces.",
         "The gyroscope precesses around a vertical axis, since the torque is always horizontal and perpendicular to L . If the gyroscope is not spinning, it acquires angular momentum in the direction of the torque (L =ΔL ), and it rotates about a horizontal axis, falling over just as we would expect.",
@@ -419,28 +502,280 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "worked_from": "exr-16",
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-motion",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "State the right-hand rule for finding the direction of angular velocity.",
+          "answer": "Curl the fingers of the right hand in the direction of rotation; the thumb points along the angular velocity vector.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The rotation has an axis and a sense.",
+            "Curl the right-hand fingers in the sense of the rotation.",
+            "The extended thumb gives the direction of the angular velocity vector."
+          ],
+          "tags": [
+            "right-hand rule",
+            "angular velocity"
+          ]
         }
       ],
-      "worked_from": "exr-16"
+      "no_exam_link_reason": "Gyroscopic effects are not named in either syllabus."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\omega = \\frac{\\Delta\\theta}{\\Delta t}$",
+      "caption": {
+        "text": "Average angular velocity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a rotation through angle Δθ in time Δt.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42177/index.cnxml",
+        "locator": "CNXML module m42177, section “Angular Acceleration”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$\\alpha = \\frac{\\Delta\\omega}{\\Delta t}$",
+      "caption": {
+        "text": "Average angular acceleration",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a change in angular velocity Δω in time Δt.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42177/index.cnxml",
+        "locator": "CNXML module m42177, section “Angular Acceleration”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$v = r\\omega$",
+      "caption": {
+        "text": "Linear speed at a radius",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a point at distance r from the axis, with ω in rad/s.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42177/index.cnxml",
+        "locator": "CNXML module m42177, section “Angular Acceleration”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$a_t = r\\alpha$",
+      "caption": {
+        "text": "Tangential acceleration",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The component of acceleration that changes the speed along the circle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42177/index.cnxml",
+        "locator": "CNXML module m42177, section “Angular Acceleration”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$a_c = \\frac{v^2}{r} = r\\omega^2$",
+      "caption": {
+        "text": "Centripetal acceleration",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The inward acceleration of a point moving on a circle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42177/index.cnxml",
+        "locator": "CNXML module m42177, section “Angular Acceleration”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\omega = \\omega_0 + \\alpha t$",
+      "caption": {
+        "text": "Angular velocity with constant angular acceleration",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For constant α only.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42178/index.cnxml",
+        "locator": "CNXML module m42178, section “Kinematics of Rotational Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$",
+      "caption": {
+        "text": "Rotation angle with constant angular acceleration",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For constant α only.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42178/index.cnxml",
+        "locator": "CNXML module m42178, section “Kinematics of Rotational Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\omega^2 = \\omega_0^2 + 2\\alpha\\theta$",
+      "caption": {
+        "text": "Angular velocity and angle",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For constant α, when time is not needed.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42178/index.cnxml",
+        "locator": "CNXML module m42178, section “Kinematics of Rotational Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$\\tau = rF\\sin\\theta$",
+      "caption": {
+        "text": "Torque about a pivot",
+        "inline": []
+      },
+      "conditions": {
+        "text": "F is the force, r the distance from the pivot, and θ the angle between them.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42179/index.cnxml",
+        "locator": "CNXML module m42179, section “Dynamics of Rotational Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-10",
+      "expression": "$\\tau = I\\alpha$",
+      "caption": {
+        "text": "Rotational form of Newton’s second law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a rigid body turning about a fixed axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42179/index.cnxml",
+        "locator": "CNXML module m42179, section “Dynamics of Rotational Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-11",
+      "expression": "$KE_{\\mathrm{rot}} = \\frac{1}{2}I\\omega^2$",
+      "caption": {
+        "text": "Rotational kinetic energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a body rotating about a fixed axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42180/index.cnxml",
+        "locator": "CNXML module m42180, section “Rotational Kinetic Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-12",
+      "expression": "$L = I\\omega$",
+      "caption": {
+        "text": "Angular momentum",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a rigid body about a fixed axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42182/index.cnxml",
+        "locator": "CNXML module m42182, section “Angular Momentum and Its Conservation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-13",
+      "expression": "$\\tau_{\\mathrm{net}} = \\frac{\\Delta L}{\\Delta t}$",
+      "caption": {
+        "text": "Torque and angular momentum",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The net external torque equals the rate of change of angular momentum.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42182/index.cnxml",
+        "locator": "CNXML module m42182, section “Angular Momentum and Its Conservation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -660,76 +995,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A body rotating with a constant angular velocity has no acceleration.",
-      "correction": "Its angular velocity is constant, but its direction changes every instant, so the angular acceleration and the centripetal acceleration are not zero.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The torque on a body is the force applied.",
-      "correction": "The torque is the force times the perpendicular distance from the pivot, so the same force further out the arm turns the body more.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "Angular velocity is measured in revolutions per second.",
-      "correction": "It is measured in radians per second. Revolutions per second is the frequency of the rotation, which is the same thing only because a revolution is $2\\pi$ radians.",
-      "signal": "Our own question offers revolutions as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The rotational inertia of a solid disc about its central axis is $MR^2$.",
-      "correction": "It is $\\frac{1}{2}MR^2$. The hoop, which has all its mass at the rim, is the one with $MR^2$, and a disc with the same mass and radius is harder to start turning.",
-      "signal": "Our own question offers the hoop value as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -875,6 +1141,64 @@
       "explanation": "The weight acts at the centre of mass, which is not on the axis of the pivot, so it exerts a torque that changes the direction of the angular momentum.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "A wheel’s angular velocity increases from 2 rad/s to 6 rad/s in 2 s. Find its angular acceleration.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 rad/s²"
+        },
+        {
+          "id": "b",
+          "text": "2 rad/s²"
+        },
+        {
+          "id": "c",
+          "text": "4 rad/s²"
+        },
+        {
+          "id": "d",
+          "text": "8 rad/s²"
+        }
+      ],
+      "answer": "b",
+      "explanation": "α = Δω/Δt = (6 − 2)/2 = 2 rad/s².",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "A solid disc with moment of inertia 4 kg m² spins at 3 rad/s. Find its rotational kinetic energy.",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 J"
+        },
+        {
+          "id": "b",
+          "text": "12 J"
+        },
+        {
+          "id": "c",
+          "text": "18 J"
+        },
+        {
+          "id": "d",
+          "text": "36 J"
+        }
+      ],
+      "answer": "c",
+      "explanation": "KE_rot = ½Iω² = ½ × 4 × 3² = 18 J.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -885,5 +1209,64 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Rotational Motion and Angular Momentum', modules m42176, m42177, m42178, m42179, m42180, m42182, m42183, m42184",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 10,
+  "exercise_fixes": {
+    "sec-6:exr-71": {
+      "stem": "A child of mass *M* sits on the rim of a circular platform of mass 2 *M* that is rotating counterclockwise. Assume the platform rotates without friction. Which of the following describes an action by the child that will increase the angular speed of the platform-child system and why?"
+    },
+    "sec-8:exr-34": {
+      "stem": "Integrated Concepts The axis of Earth makes a 23.5° angle with a direction perpendicular to the plane of Earth’s orbit. This axis precesses, making one complete rotation in 25,780 y. (a) Calculate the change in angular momentum in half this time. (b) What is the average torque producing this change in angular momentum? (c) If this torque were created by a single force (it is not) acting at the most effective point on the equator, what would its magnitude be?"
+    },
+    "sec-3:exr-78": {
+      "answer": "a) $6{00 rad/s}^{2}$ b) 450 rad/s c) $21.0{m/s}^{2}$",
+      "solution": [
+        "a) $α=a/r=1.50/0.00250=6{00 rad/s}^{2}$",
+        "b) $ω=αt=600×0.750=450rad/s$",
+        "c) ${a}_{t}=αR=600×0.0350=21.0{m/s}^{2}$"
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer repeated a stray unit token in (b) and (c), corrected here"
+    },
+    "sec-4:exr-41": {
+      "stem": "Consider two sizes of disk, both of mass $M$. One size of disk has radius $R$; the other has radius $2R$. System A consists of two of the larger disks rigidly connected to each other with a common axis of rotation. System B consists of one of the larger disks and a number of the smaller disks rigidly connected with a common axis of rotation. If the moment of inertia for system A equals the moment of inertia for system B, how many of the smaller disks are in system B?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "answer": "(d) 4",
+      "solution": [
+        "For a disk of mass $M$ and radius $R$, $I=\\\\frac{1}{2}MR^{2}$. A larger disk has radius $2R$, so $I_{large}=\\\\frac{1}{2}M(2R)^{2}=2MR^{2}$ .",
+        "System A has two large disks: $I_{A}=2(2MR^{2})=4MR^{2}$ .",
+        "System B has one large disk and $n$ small disks: $I_{B}=2MR^{2}+n(\\\\frac{1}{2}MR^{2})$ .",
+        "Setting $I_{B}=I_{A}$ gives $2+n/2=4$, so $n=4$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source solution was a bare letter followed by unrelated text, so the calculation is written out"
+    },
+    "sec-7:exr-71": {
+      "stem": "Twin skaters approach one another and lock hands. (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be those of point masses at this radius. (b) Compare the initial kinetic energy and final kinetic energy."
+    },
+    "sec-4:exr-83": {
+      "stem": "Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length $(I=M\\ell^{2}/3)$, prove that the moment of inertia of a rod rotated about an axis through its center perpendicular to its length is $I=M\\ell^{2}/12$."
+    },
+    "sec-4:exr-37": {
+      "stem": "A lever is placed on a fulcrum. A rock is placed on the left end of the lever and a downward (clockwise) force is applied to the right end of the lever. Assume the lever itself has negligible mass. What measurements would be most effective to help you determine the angular momentum of the system?"
+    },
+    "sec-6:exr-77": {
+      "stem": "A hamster sits 0.10 m from the center of a lazy Susan of negligible mass. The wheel spins with a frequency of 1.0 rev/s. How will the frequency of the lazy Susan change if the hamster walks to 0.30 m from the center of rotation? Assume zero friction and no external torque."
+    }
+  }
 }

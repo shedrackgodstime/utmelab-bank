@@ -72,7 +72,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_temperature_and_gas_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -91,32 +93,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-heat-energy",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -126,7 +103,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42223",
       "objectives": [
-        "Define heat as transfer of energy."
+        "Define heat as transfer of energy.",
+        "Distinguish heat, internal energy and temperature, and apply energy conservation to heat exchange."
       ],
       "misconceptions": [
         {
@@ -145,14 +123,6 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
           "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
           "status": "covered",
@@ -167,7 +137,45 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-13"
+      "worked_from": "exr-13",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In which direction does heat flow when a hot body touches a cold body?",
+          "answer": "From the hot body to the cold body.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Heat flows because of the temperature difference.",
+            "The direction is from higher temperature to lower temperature.",
+            "It continues until both reach the same temperature."
+          ],
+          "tags": [
+            "heat",
+            "temperature difference"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is true about the temperatures of two bodies when they reach thermal equilibrium?",
+          "answer": "They are equal.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Thermal equilibrium means no net heat flows between the bodies.",
+            "That happens when their temperatures are the same.",
+            "The temperatures do not have to equal the surroundings."
+          ],
+          "tags": [
+            "thermal equilibrium",
+            "temperature"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -179,7 +187,13 @@
         "Observe heat transfer and change in temperature and mass.",
         "Calculate final temperature after heat transfer between two objects."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A larger temperature change always means more heat was transferred.",
+          "correction": "The heat also depends on the mass and the specific heat capacity. A small metal block can change temperature a lot while absorbing less heat than a large tank of water that changes only slightly.",
+          "signal": "Temperature change alone does not determine heat."
+        }
+      ],
       "summary": [
         "Define heat as transfer of energy.",
         "Observe heat transfer and change in temperature and mass.",
@@ -188,14 +202,6 @@
       "tags": [],
       "facts_inherited": true,
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "JAMB",
           "subject": "physics",
@@ -229,6 +235,13 @@
         {
           "claim": "A metal spoon and a wooden spoon in the same pot of soup reach the same temperature at the same rate.",
           "correction": "The metal conducts the heat away far faster, so it feels hotter long before the wooden one does."
+        },
+        {
+          "claim": "The temperature of a liquid rises steadily while it boils away.",
+          "correction": "It stays at the boiling point until the liquid has gone. The heat supplied goes into the latent heat of vaporisation, breaking the bonds between molecules rather than raising the temperature.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_heat_transfer:trap-3",
+          "signal": "Our own question offers the steady rise as an option."
         }
       ],
       "summary": [
@@ -242,15 +255,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
+          "topic_slug": "change-of-state",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -273,9 +278,16 @@
       "est_minutes": 12,
       "locator": "CNXML module m42226",
       "objectives": [
-        "Discuss the different methods of heat transfer."
+        "Discuss the different methods of heat transfer.",
+        "Compare conduction, convection and radiation, and identify the dominant mechanism in a given situation."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Heat cannot be transferred without a material medium.",
+          "correction": "Radiation carries energy through a vacuum as electromagnetic waves. That is how the Sun’s energy reaches the Earth.",
+          "signal": "Conduction and convection need a medium; radiation does not."
+        }
+      ],
       "summary": [
         "Define heat as transfer of energy.",
         "Observe heat transfer and change in temperature and mass.",
@@ -288,14 +300,6 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -309,7 +313,65 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-5"
+      "worked_from": "exr-5",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Name the three methods of heat transfer.",
+          "answer": "Conduction, convection and radiation.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Conduction transfers heat by particle collisions without bulk motion.",
+            "Convection transfers heat by the bulk movement of a fluid.",
+            "Radiation transfers heat by electromagnetic waves."
+          ],
+          "tags": [
+            "heat transfer",
+            "conduction",
+            "convection",
+            "radiation"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Which method of heat transfer can carry energy through a vacuum?",
+          "answer": "Radiation.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Conduction and convection need particles.",
+            "Radiation is an electromagnetic wave and needs no medium.",
+            "That is how energy reaches the Earth from the Sun."
+          ],
+          "tags": [
+            "radiation",
+            "vacuum"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A metal rod is heated at one end. By which method does heat reach the other end? Explain.",
+          "answer": "Conduction, by collisions and vibrations passing energy along the rod without the metal itself moving.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The heated particles vibrate more strongly.",
+            "They collide with neighbouring particles and pass energy along.",
+            "The metal does not flow, so the transfer is conduction."
+          ],
+          "tags": [
+            "conduction",
+            "particle model"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -322,7 +384,15 @@
         "Observe conduction of heat in collisions.",
         "Study thermal conductivities of common substances."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Conduction is the transfer of heat by the movement of the heated substance.",
+          "correction": "Conduction is by collisions between neighbouring particles, without the substance moving. The bulk movement of a heated fluid is convection, which is a different mechanism.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_heat_transfer:trap-4",
+          "signal": "Our own question offers the movement reading as an option."
+        }
+      ],
       "summary": [
         "Define heat as transfer of energy.",
         "Observe heat transfer and change in temperature and mass.",
@@ -335,14 +405,6 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -365,9 +427,16 @@
       "est_minutes": 12,
       "locator": "CNXML module m42229",
       "objectives": [
-        "Discuss the method of heat transfer by convection."
+        "Discuss the method of heat transfer by convection.",
+        "Explain natural and forced convection and the conditions that drive convection currents."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Hot air sinks because heat makes things heavier.",
+          "correction": "Heating a gas makes it expand and become less dense, so buoyancy pushes it upward. Cooler, denser fluid sinks to take its place.",
+          "signal": "Convection currents rise from the hot region and sink from the cold region."
+        }
+      ],
       "summary": [
         "Define heat as transfer of energy.",
         "Observe heat transfer and change in temperature and mass.",
@@ -380,14 +449,6 @@
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "heat-transfer",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -413,7 +474,13 @@
         "Discuss heat transfer by radiation.",
         "Explain the power of different materials."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Objects emit thermal radiation only when they are visibly hot.",
+          "correction": "Every object above absolute zero emits infrared radiation. A hotter object emits more power and at shorter wavelengths.",
+          "signal": "You cannot see the radiation from a cup of tea, but it is there."
+        }
+      ],
       "summary": [
         "Define heat as transfer of energy.",
         "Observe heat transfer and change in temperature and mass.",
@@ -431,14 +498,6 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "quantity-of-heat",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-heat-energy",
@@ -450,7 +509,84 @@
       "worked_from": "exr-31"
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$Q = mc\\Delta T$",
+      "caption": {
+        "text": "Heat and temperature change",
+        "inline": []
+      },
+      "conditions": {
+        "text": "c is the specific heat capacity of the material; no phase change occurs.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42224/index.cnxml",
+        "locator": "CNXML module m42224, section “Temperature Change and Heat Capacity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$Q = mL$",
+      "caption": {
+        "text": "Latent heat",
+        "inline": []
+      },
+      "conditions": {
+        "text": "L is the latent heat of fusion or vaporisation; the temperature stays constant during the change.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42225/index.cnxml",
+        "locator": "CNXML module m42225, section “Phase Change and Latent Heat”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$P = \\frac{kA\\Delta T}{d}$",
+      "caption": {
+        "text": "Conduction through a slab",
+        "inline": []
+      },
+      "conditions": {
+        "text": "k is the thermal conductivity, A the area, d the thickness, and ΔT the temperature difference.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42228/index.cnxml",
+        "locator": "CNXML module m42228, section “Conduction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$P_{\\mathrm{net}} = \\sigma A e (T^4 - T_0^4)$",
+      "caption": {
+        "text": "Net radiated power",
+        "inline": []
+      },
+      "conditions": {
+        "text": "σ is the Stefan-Boltzmann constant, e the emissivity, and T and T₀ are absolute temperatures.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42230/index.cnxml",
+        "locator": "CNXML module m42230, section “Radiation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -760,76 +896,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Heat flows from a cold body to a hot one.",
-      "correction": "Heat flows from the hotter body to the colder one, until they reach the same temperature.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "A metal spoon and a wooden spoon in the same pot of soup reach the same temperature at the same rate.",
-      "correction": "The metal conducts the heat away far faster, so it feels hotter long before the wooden one does.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The temperature of a liquid rises steadily while it boils away.",
-      "correction": "It stays at the boiling point until the liquid has gone. The heat supplied goes into the latent heat of vaporisation, breaking the bonds between molecules rather than raising the temperature.",
-      "signal": "Our own question offers the steady rise as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-6",
-      "misconception": "Conduction is the transfer of heat by the movement of the heated substance.",
-      "correction": "Conduction is by collisions between neighbouring particles, without the substance moving. The bulk movement of a heated fluid is convection, which is a different mechanism.",
-      "signal": "Our own question offers the movement reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -975,6 +1042,64 @@
       "explanation": "A hot dark surface radiates far better than a hot polished one, and the rate rises with the fourth power of the absolute temperature.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "Heat is best defined as",
+      "options": [
+        {
+          "id": "a",
+          "text": "the total energy stored in a body"
+        },
+        {
+          "id": "b",
+          "text": "energy transferred because of a temperature difference"
+        },
+        {
+          "id": "c",
+          "text": "the average kinetic energy of the molecules"
+        },
+        {
+          "id": "d",
+          "text": "the temperature of a body"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Heat is energy in transit from a hotter body to a colder one because of the temperature difference. Temperature measures the average kinetic energy of the particles, not the heat.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "Which method of heat transfer can occur through a vacuum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "conduction"
+        },
+        {
+          "id": "b",
+          "text": "convection"
+        },
+        {
+          "id": "c",
+          "text": "radiation"
+        },
+        {
+          "id": "d",
+          "text": "all three"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Radiation is carried by electromagnetic waves and needs no medium. Conduction and convection require matter.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -985,5 +1110,112 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Heat and Heat Transfer Methods', modules m42221, m42223, m42224, m42225, m42226, m42228, m42229, m42230",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 14,
+  "exercise_fixes": {
+    "sec-6:exr-70": {
+      "drop": true
+    },
+    "sec-6:exr-29": {
+      "stem": "A student measures the rate of heat conduction through the walls of a container holding melting ice, using $Q/t=kA(T_{2}-T_{1})/d$. The container is kept in a room warmer than 0°C, and the student wants the ice to melt in a shorter time. Which change should the student make?",
+      "answer": "(a)",
+      "solution": [
+        "The heat needed to melt the ice is $Q=mL_{f}$, so a smaller mass $m$ needs less heat and melts sooner.",
+        "Increasing the wall thickness $d$, reducing the surface area $A$, or lowering the outside temperature $T_{2}$ all reduce the rate of heat transfer and make the melting take longer."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the stem is rewritten so the experiment is described in the question instead of a figure"
+    }
+  },
+  "worked_fixes": {
+    "sec-3:we-ex-8": {
+      "answer": "(a) about 90 kJ (b) about 30% to the pan (c) about 70% to the water",
+      "steps": [
+        "A 0.500-kg aluminum pan holds 0.250 L (0.250 kg) of water, and both are heated from 20.0°C to 80.0°C.",
+        "For the pan: $Q_{pan}=m c ΔT=(0.500)(900)(60.0)=2.70×10^{4}J$ .",
+        "For the water: $Q_{water}=m c ΔT=(0.250)(4186)(60.0)=6.28×10^{4}J$ .",
+        "Total: $Q=2.70×10^{4}+6.28×10^{4}=8.98×10^{4}J≈90kJ$ .",
+        "The pan takes $2.70/8.98=30%$ and the water takes $6.28/8.98=70%$ of the heat."
+      ]
+    },
+    "sec-3:we-ex-16": {
+      "answer": "about 9.2°C",
+      "steps": [
+        "A 10,000-kg truck descends 75.0 m, losing $Mgh=(10^{4})(9.80)(75.0)=7.35×10^{6}J$ .",
+        "The brakes retain 10%, so $Q=7.35×10^{5}J$ enters 100 kg of brake material.",
+        "$Q=mcΔT$, so $ΔT=Q/(mc)=7.35×10^{5}/[(100)(800)]=9.19°C$ .",
+        "The brakes heat by about 9.2°C, which is why a long descent can overheat them."
+      ]
+    },
+    "sec-3:we-ex-24": {
+      "answer": "about 59°C",
+      "steps": [
+        "The hot aluminum pan loses heat and the cold water gains it: $m_{pan}c_{Al}(150-T)=m_{w}c_{w}(T-20.0)$ .",
+        "$(0.500)(900)(150-T)=(0.250)(4186)(T-20.0)$ .",
+        "$6.75×10^{4}-450T=1.047×10^{3}T-2.09×10^{4}$ .",
+        "$8.84×10^{4}=1.497×10^{3}T$, so $T=59.1°C$ .",
+        "The final temperature is much closer to the water's initial temperature because water has the larger specific heat capacity."
+      ]
+    },
+    "sec-4:we-exr-30": {
+      "answer": "Snow remains at 0°C while it melts because the heat from the warmer air goes into the latent heat of fusion, not into raising the temperature. The process is slow because a large amount of heat is needed for the phase change.",
+      "steps": [
+        "Snow is ice at 0°C. Heat arriving from the warmer air first goes into melting the ice, not into raising its temperature.",
+        "The latent heat of fusion of water is large, about $334kJ/kg$, so melting a significant depth of snow takes a long time.",
+        "While ice and liquid water coexist, the mixture stays at 0°C. Only after all the ice has melted can the meltwater warm above freezing."
+      ]
+    },
+    "sec-6:we-ex-10": {
+      "answer": "about 3.4 kg of ice melts in one day",
+      "steps": [
+        "Styrofoam has $k≈0.010J/(s\\cdot m\\cdot °C)$. The conduction rate is $Q/t=kA(T_{2}-T_{1})/d$ .",
+        "$Q/t=(0.010)(0.950)(35.0)/(0.0250)=13.3W$ .",
+        "In one day, $Q=(13.3)(86,400)=1.15×10^{6}J$ .",
+        "The mass melted is $m=Q/L_{f}=1.15×10^{6}/(3.34×10^{5})=3.44kg$ ."
+      ]
+    },
+    "sec-6:we-ex-19": {
+      "answer": "about 5.3°C",
+      "steps": [
+        "The pan bottom has $d=8.00×10^{-3}m$, $A=π(0.0700)^{2}=1.54×10^{-2}m^{2}$, and $k=220J/(s\\cdot m\\cdot °C)$ .",
+        "The heat rate is the rate needed to evaporate 1.00 g/s: $Q/t=mL_{v}/t=(1.00×10^{-3})(2.26×10^{6})/1=2.26×10^{3}W$ .",
+        "$ΔT=(Q/t)d/(kA)=(2.26×10^{3})(8.00×10^{-3})/[(220)(1.54×10^{-2})]=5.3°C$ .",
+        "The bottom of the pan is only about 5°C hotter than the boiling water, which shows how effective aluminum is as a conductor."
+      ]
+    },
+    "sec-7:we-ex-8": {
+      "answer": "about 4.6 kW",
+      "steps": [
+        "The house volume is $V=(12.0)(18.0)(3.00)=648m^{3}$ .",
+        "With air density $1.29kg/m^{3}$, the mass is $m=(1.29)(648)=836kg$ .",
+        "The air is replaced in 30.0 min = 1800 s, so $Q/t=mcΔT/t=(836)(1000)(10.0)/1800=4.6×10^{3}W$ .",
+        "About 4.6 kW of heating is needed to warm the incoming air."
+      ]
+    },
+    "sec-7:we-ex-17": {
+      "answer": "about 3 g/min (5.0×10⁻⁵ kg/s)",
+      "steps": [
+        "The body loses energy by evaporation at $P=120W$ .",
+        "$P=(m/t)L_{v}$, so $m/t=P/L_{v}=120/(2.43×10^{6})=4.94×10^{-5}kg/s$ .",
+        "This is $4.94×10^{-5}×60×10^{3}=2.96g/min$, or about 3 g/min."
+      ]
+    },
+    "sec-8:we-ex-19": {
+      "answer": "about 100 W net loss",
+      "steps": [
+        "The net radiated power is $P=eσA(T_{skin}^{4}-T_{room}^{4})$ .",
+        "$T_{skin}=306K$ and $T_{room}=295K$, so $T_{skin}^{4}-T_{room}^{4}=8.77×10^{9}-7.57×10^{9}=1.20×10^{9}K^{4}$ .",
+        "$P=(0.97)(5.67×10^{-8})(1.50)(1.20×10^{9})=99W$ .",
+        "The person loses about 100 W by radiation, which is comparable to the 125 W produced at rest."
+      ]
+    },
+    "sec-8:we-exr-31": {
+      "answer": "about a 30% increase: $(313/293)^{4}=1.30$",
+      "steps": [
+        "The radiated power is proportional to the fourth power of the absolute temperature: $P∝T^{4}$ .",
+        "$T_{1}=20+273=293K$ and $T_{2}=40+273=313K$ .",
+        "$P_{2}/P_{1}=(313/293)^{4}=(1.068)^{4}=1.30$ .",
+        "The radiated power therefore rises by about 30%."
+      ]
+    }
+  }
 }

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "You have no doubt heard the word pressure being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids. Pressure $P$ is defined as",
+        "text": "You have no doubt heard the word pressure being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids. Pressure $P$ is defined as $P=\\frac{F}{A}$",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Pressure is defined as the force divided by the area perpendicular to the force over which the force is applied, or",
+        "text": "Pressure is defined as the force divided by the area perpendicular to the force over which the force is applied, or $P=\\frac{F}{A}.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "A given force can have a significantly different effect depending on the area over which the force is exerted, as shown in . The SI unit for pressure is the *pascal* , where \\[$1 Pa=1{N/m}^{2}.$\\]",
+        "text": "A given force can have a significantly different effect depending on the area over which the force is exerted, as shown in the figure. The SI unit for pressure is the *pascal*, where $1 Pa=1 {N/m}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -67,7 +67,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "In addition to the pascal, there are many other units for pressure that are in common use. In meteorology, atmospheric pressure is often described in units of millibar (mb), where",
+        "text": "In addition to the pascal, there are many other units for pressure that are in common use. In meteorology, atmospheric pressure is often described in units of millibar (mb), where $100 mb=1\\times {10}^{4} Pa.$",
         "inline": []
       },
       "level": "core"
@@ -76,7 +76,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Pounds per square inch $({lb/in}^{2}orpsi)$ is still sometimes used as a measure of tire pressure, and millimeters of mercury (mm Hg) is still often used in the measurement of blood pressure. Pressure is defined for all states of matter but is particularly important when discussing fluids.",
+        "text": "Pounds per square inch $({lb/in}^{2} or psi)$ is still sometimes used as a measure of tire pressure, and millimeters of mercury (mm Hg) is still often used in the measurement of blood pressure. Pressure is defined for all states of matter but is particularly important when discussing fluids.",
         "inline": []
       },
       "level": "core"
@@ -122,7 +122,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "An astronaut is working outside the International Space Station where the atmospheric pressure is essentially zero. The pressure gauge on her air tank reads $6.90×{10}^{6}Pa$ . What force does the air inside the tank exert on the flat end of the cylindrical tank, a disk 0.150 m in diameter?",
+        "text": "An astronaut is working outside the International Space Station where the atmospheric pressure is essentially zero. The pressure gauge on her air tank reads $6.90\\times {10}^{6} Pa$. What force does the air inside the tank exert on the flat end of the cylindrical tank, a disk 0.150 m in diameter?",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "We can find the force exerted from the definition of pressure given in $P=\\frac{F}{A}$ , provided we can find the area $A$ acted upon.",
+        "text": "We can find the force exerted from the definition of pressure given in $P=\\frac{F}{A}$, provided we can find the area $A$ acted upon.",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "By rearranging the definition of pressure to solve for force, we see that",
+        "text": "By rearranging the definition of pressure to solve for force, we see that $F=PA.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Here, the pressure $P$ is given, as is the area of the end of the cylinder $A$ , given by $A={πr}^{2}$ . Thus,",
+        "text": "Here, the pressure $P$ is given, as is the area of the end of the cylinder $A$, given by $A={πr}^{2}$. Thus, $F = (6.90\\times {10}^{6} {N/m}^{2})(3.14){(0.0750 m)}^{2} = 1.22\\times {10}^{5} N.$",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Wow! No wonder the tank must be strong. Since we found $F=PA$ , we see that the force exerted by a pressure is directly proportional to the area acted upon as well as the pressure itself.",
+        "text": "Wow! No wonder the tank must be strong. Since we found $F=PA$, we see that the force exerted by a pressure is directly proportional to the area acted upon as well as the pressure itself.",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The force exerted on the end of the tank is perpendicular to its inside surface. This direction is because the force is exerted by a static or stationary fluid. We have already seen that fluids cannot *withstand* shearing (sideways) forces; they cannot *exert* shearing forces, either. Fluid pressure has no direction, being a scalar quantity. The forces due to pressure have well-defined directions: they are always exerted perpendicular to any surface. (See the tire in , for example.) Finally, note that pressure is exerted on all surfaces. Swimmers, as well as the tire, feel pressure on all sides. (See .)",
+        "text": "The force exerted on the end of the tank is perpendicular to its inside surface. This direction is because the force is exerted by a static or stationary fluid. We have already seen that fluids cannot *withstand* shearing (sideways) forces; they cannot *exert* shearing forces, either. Fluid pressure has no direction, being a scalar quantity. The forces due to pressure have well-defined directions: they are always exerted perpendicular to any surface. (See the tire in the figure, for example.) Finally, note that pressure is exerted on all surfaces. Swimmers, as well as the tire, feel pressure on all sides. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -221,7 +221,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A cylindrical drum of radius 0.5 m is used to hold 400 liters of petroleum ether (density = .68 g/mL or 680 kg/m 3 ). (Note: 1 liter = 0.001 m 3 ) Determine the amount of pressure applied to the walls of the drum if the petroleum ether fills the drum to its top.; Determine the amount of pressure applied to the floor of the drum if the petroleum ether fills the drum to its top.; If the drum were redesigned to hold 800 liters of petroleum ether: How would the pressure on the walls change? Would it increase, decrease, or stay the same?; How would the pressure on the floor change? Would it increase, decrease, or stay the same?",
+        "text": "A cylindrical drum of radius 0.5 m is used to hold 400 liters of petroleum ether (density =.68 g/mL or 680 kg/m 3). (Note: 1 liter = 0.001 m 3) Determine the amount of pressure applied to the walls of the drum if the petroleum ether fills the drum to its top.; Determine the amount of pressure applied to the floor of the drum if the petroleum ether fills the drum to its top.; If the drum were redesigned to hold 800 liters of petroleum ether: How would the pressure on the walls change? Would it increase, decrease, or stay the same?; How would the pressure on the floor change? Would it increase, decrease, or stay the same?",
         "inline": []
       },
       "level": "core",
@@ -329,7 +329,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The outward force on one end of an air tank was calculated in . How is this force balanced? (The tank does not accelerate, so the force must be balanced.)",
+        "text": "The outward force on one end of an air tank was calculated in the example. How is this force balanced? (The tank does not accelerate, so the force must be balanced.)",
         "inline": []
       },
       "level": "core",
@@ -464,7 +464,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "As a woman walks, her entire weight is momentarily placed on one heel of her high-heeled shoes. Calculate the pressure exerted on the floor by the heel if it has an area of $1.50{cm}^{2}$ and the woman’s mass is 55.0 kg. Express the pressure in Pa. (In the early days of commercial flight, women were not allowed to wear high-heeled shoes because aircraft floors were too thin to withstand such large pressures.)",
+        "text": "As a woman walks, her entire weight is momentarily placed on one heel of her high-heeled shoes. Calculate the pressure exerted on the floor by the heel if it has an area of $1.50 {cm}^{2}$ and the woman’s mass is 55.0 kg. Express the pressure in Pa. (In the early days of commercial flight, women were not allowed to wear high-heeled shoes because aircraft floors were too thin to withstand such large pressures.)",
         "inline": []
       },
       "level": "core",
@@ -497,7 +497,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The pressure exerted by a phonograph needle on a record is surprisingly large. If the equivalent of 1.00 g is supported by a needle, the tip of which is a circle 0.200 mm in radius, what pressure is exerted on the record in ${N/m}^{2}$ ?",
+        "text": "The pressure exerted by a phonograph needle on a record is surprisingly large. If the equivalent of 1.00 g is supported by a needle, the tip of which is a circle 0.200 mm in radius, what pressure is exerted on the record in ${N/m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -518,7 +518,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Nail tips exert tremendous pressures when they are hit by hammers because they exert a large force over a small area. What force must be exerted on a nail with a circular tip of 1.00 mm diameter to create a pressure of $3.00×{10}^{9}{N/m}^{2}?$ (This high pressure is possible because the hammer striking the nail is brought to rest in such a short distance.)",
+        "text": "Nail tips exert tremendous pressures when they are hit by hammers because they exert a large force over a small area. What force must be exerted on a nail with a circular tip of 1.00 mm diameter to create a pressure of $3.00\\times {10}^{9} {N/m}^{2}?$ (This high pressure is possible because the hammer striking the nail is brought to rest in such a short distance.)",
         "inline": []
       },
       "level": "core",

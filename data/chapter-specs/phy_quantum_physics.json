@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Quantum Physics",
   "book_id": "secondary_physics",
-  "part_id": "part-6",
+  "part_id": "part-7",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -77,7 +77,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_oscillations_and_waves",
+    "phy_em_waves"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -96,24 +99,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -130,12 +116,19 @@
         {
           "claim": "An electron is a small ball that orbits the nucleus.",
           "correction": "It has no orbit. It occupies a quantum state, and the orbit picture is only a picture."
+        },
+        {
+          "claim": "The energy of a photon is proportional to its wavelength.",
+          "correction": "It is proportional to its frequency, $E = hf$, so a longer wavelength means a lower energy. This is why the blue end of the spectrum carries more energy per photon than the red end.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_quantum_physics:trap-3",
+          "signal": "Our own question offers the wavelength reading as an option."
         }
       ],
       "summary": [
         "The first indication that energy is sometimes quantized came from blackbody radiation, which is the emission of EM radiation by an object with an emissivity of 1.",
         "Planck recognized that the energy levels of the emitting atoms and molecules were quantized, with only the allowed values of E=n+12hf, where n is any non-negative integer (0, 1, 2, 3, …).",
-        "h is Planck’s constant, whose value is h=6.626× 10–34 J ⋅ s."
+        "h is Planck’s constant, whose value is h=6.626× 10-34 J ⋅ s."
       ],
       "tags": [],
       "facts_inherited": true,
@@ -157,7 +150,45 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-20"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What did Planck propose about the energy of oscillators in a black body?",
+          "answer": "That their energy is quantized in whole-number multiples of hf.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Classical physics allowed any energy for an oscillator.",
+            "Planck found he had to restrict the energy to E = nhf.",
+            "This quantization explained the observed black-body spectrum."
+          ],
+          "tags": [
+            "planck",
+            "quantization"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A photon has energy 2.0 eV. Express this energy in joules. Take 1 eV = 1.6 × 10⁻¹⁹ J.",
+          "answer": "3.2 × 10⁻¹⁹ J",
+          "answer_kind": "expression",
+          "solution": [
+            "Multiply the energy in electronvolts by the conversion factor.",
+            "E = 2.0 × 1.6 × 10⁻¹⁹ J.",
+            "E = 3.2 × 10⁻¹⁹ J."
+          ],
+          "tags": [
+            "electronvolt",
+            "photon energy"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Quantization of Energy has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -169,7 +200,15 @@
         "Describe a typical photoelectric-effect experiment.",
         "Determine the maximum kinetic energy of photoelectrons ejected by photons of one energy or wavelength, when given the maximum kinetic energy of photoelectrons for a different photon energy or wavelength."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The kinetic energy of the electrons emitted in the photoelectric effect is set by the intensity of the light.",
+          "correction": "It is set by the frequency, $K = hf - \\phi$. The intensity decides how many electrons come out, not how fast they are, which is the observation that told Bohr the light was quantised.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_quantum_physics:trap-4",
+          "signal": "Our own question offers the intensity reading as an option."
+        }
+      ],
       "summary": [
         "The photoelectric effect is the process in which EM radiation ejects electrons from a material.",
         "Einstein proposed photons to be quanta of EM radiation having energy E=hf, where f is the frequency of the radiation.",
@@ -194,8 +233,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-24"
+      ]
     },
     {
       "id": "sec-4",
@@ -207,7 +245,12 @@
         "Explain the relationship between the energy of a photon in joules or electron volts and its wavelength or frequency.",
         "Calculate the number of photons per second emitted by a monochromatic source of specific wavelength and power."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A brighter light of the same colour produces photons of higher energy.",
+          "correction": "The energy of a photon depends on its frequency, E = hf. A brighter light of the same colour contains more photons per second, not more energetic ones."
+        }
+      ],
       "summary": [
         "Photon energy is responsible for many characteristics of EM radiation, being particularly noticeable at high frequencies.",
         "Photons have both wave and particle characteristics."
@@ -220,7 +263,7 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -228,11 +271,10 @@
           "subject": "physics",
           "topic_slug": "waec-structure-of-the-atom-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-51"
+      ]
     },
     {
       "id": "sec-5",
@@ -262,7 +304,7 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -270,11 +312,10 @@
           "subject": "physics",
           "topic_slug": "waec-structure-of-the-atom-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-35"
+      ]
     },
     {
       "id": "sec-6",
@@ -283,9 +324,20 @@
       "est_minutes": 12,
       "locator": "CNXML module m42573",
       "objectives": [
-        "Explain what the term particle-wave duality means, and why it is applied to EM radiation."
+        "Explain what the term particle-wave duality means, and why it is applied to EM radiation.",
+        "Explain how the double-slit experiment with electrons demonstrates particle-wave duality.",
+        "Describe when a quantum object behaves more like a particle and when more like a wave."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An electron is either a particle or a wave, and never both.",
+          "correction": "An electron shows particle-like behaviour in some experiments and wave-like behaviour in others. The two descriptions are complementary, not exclusive."
+        },
+        {
+          "claim": "Wave-particle duality means a particle physically oscillates as it travels.",
+          "correction": "Duality means the quantum object is described by a wavefunction whose probability amplitude can interfere. The particle is detected as a whole at one place."
+        }
+      ],
       "summary": [
         "EM radiation can behave like either a particle or a wave.",
         "This is termed particle-wave duality."
@@ -304,13 +356,70 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
+          "topic_slug": "waec-wave-particle-paradox",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-9"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is meant by wave-particle duality?",
+          "answer": "Quantum objects such as electrons and photons show both wave-like and particle-like properties depending on the experiment.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A photon delivers its energy in a localized packet.",
+            "Electrons produce interference and diffraction patterns.",
+            "Both descriptions are needed for a complete account."
+          ],
+          "tags": [
+            "wave-particle duality",
+            "quantum"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In the double-slit experiment with electrons, what pattern builds up when many electrons are detected?",
+          "answer": "An interference pattern of bright and dark fringes.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Each electron is detected at a single point.",
+            "The arrival points are not distributed evenly.",
+            "The statistical pattern of many electrons is an interference pattern."
+          ],
+          "tags": [
+            "double slit",
+            "electron",
+            "interference"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Why is the particle behaviour of an electron most obvious when it hits a detector?",
+          "answer": "The detector records the electron at one localized place, so the interaction looks like a particle event.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The electron’s wavefunction spreads through the apparatus.",
+            "The detector interaction is localized in space and time.",
+            "Detection therefore yields a particle-like spot, while many spots form a wave-like pattern."
+          ],
+          "tags": [
+            "measurement",
+            "wavefunction"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on The Particle-Wave Duality has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-7",
@@ -319,9 +428,15 @@
       "est_minutes": 12,
       "locator": "CNXML module m42576",
       "objectives": [
-        "Describe the Davisson-Germer experiment, and explain how it provides evidence for the wave nature of electrons."
+        "Describe the Davisson-Germer experiment, and explain how it provides evidence for the wave nature of electrons.",
+        "Calculate the de Broglie wavelength of a particle from its momentum."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Only electrons have a de Broglie wavelength.",
+          "correction": "Every moving particle has a de Broglie wavelength, λ = h/p. The wavelength is noticeable only when the momentum is very small."
+        }
+      ],
       "summary": [
         "Particles of matter also have a wavelength, called the de Broglie wavelength, given by λ=hp, where p is momentum.",
         "Matter is found to have the same interference characteristics as any other wave."
@@ -340,13 +455,12 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
+          "topic_slug": "waec-wave-particle-paradox",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-30"
+      ]
     },
     {
       "id": "sec-8",
@@ -358,7 +472,12 @@
         "Use both versions of Heisenberg’s uncertainty principle in calculations.",
         "Explain the implications of Heisenberg’s uncertainty principle for measurements."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The uncertainty principle is caused by imperfect measuring instruments.",
+          "correction": "It is a fundamental property of quantum states, not a technical limitation. A state with a sharply defined position necessarily has a broad spread of momentum."
+        }
+      ],
       "summary": [
         "Matter is found to have the same interference characteristics as any other wave.",
         "There is now a probability distribution for the location of a particle rather than a definite position.",
@@ -378,9 +497,9 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
+          "topic_slug": "waec-wave-particle-paradox",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -393,11 +512,17 @@
       "est_minutes": 12,
       "locator": "CNXML module m42581",
       "objectives": [
-        "Explain the concept of particle-wave duality, and its scope."
+        "Explain the concept of particle-wave duality, and its scope.",
+        "Explain why classical physics emerges from quantum physics for large objects."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Quantum physics replaces classical physics completely, so classical physics is simply wrong.",
+          "correction": "Quantum physics is the deeper theory, but classical physics emerges as an excellent approximation for large objects and high quantum numbers. Both descriptions are useful in their domains."
+        }
+      ],
       "summary": [
-        "The particle-wave duality refers to the fact that all particles—those with mass and those without mass—have wave characteristics.",
+        "The particle-wave duality refers to the fact that all particles-those with mass and those without mass-have wave characteristics.",
         "This is a further connection between mass and energy."
       ],
       "tags": [],
@@ -414,16 +539,168 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
+          "topic_slug": "waec-wave-particle-paradox",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-30"
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$E = hf$",
+      "caption": {
+        "text": "Photon energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "h is Planck’s constant and f the frequency of the radiation.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42554/index.cnxml",
+        "locator": "CNXML module m42554, section “Quantization of Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$E = \\frac{hc}{\\lambda}$",
+      "caption": {
+        "text": "Photon energy from wavelength",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a photon of wavelength λ in a vacuum or air.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42563/index.cnxml",
+        "locator": "CNXML module m42563, section “Photon Energies and the Electromagnetic Spectrum”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$K_{\\max} = hf - \\phi$",
+      "caption": {
+        "text": "Photoelectric equation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "φ is the work function of the metal; K_max is the maximum kinetic energy of the emitted electrons.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42558/index.cnxml",
+        "locator": "CNXML module m42558, section “The Photoelectric Effect”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$hf_0 = \\phi$",
+      "caption": {
+        "text": "Threshold frequency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The minimum frequency that can eject an electron from a metal of work function φ.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42558/index.cnxml",
+        "locator": "CNXML module m42558, section “The Photoelectric Effect”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$p = \\frac{h}{\\lambda}$",
+      "caption": {
+        "text": "Photon momentum",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A photon of wavelength λ carries momentum h/λ.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42568/index.cnxml",
+        "locator": "CNXML module m42568, section “Photon Momentum”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$\\lambda = \\frac{h}{p}$",
+      "caption": {
+        "text": "de Broglie wavelength",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Every moving particle has a wavelength inversely proportional to its momentum.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42576/index.cnxml",
+        "locator": "CNXML module m42576, section “The Wave Nature of Matter”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\Delta x\\,\\Delta p \\geq \\frac{\\hbar}{2}$",
+      "caption": {
+        "text": "Heisenberg position-momentum uncertainty",
+        "inline": []
+      },
+      "conditions": {
+        "text": "ħ = h/(2π); the uncertainties are standard deviations of the position and momentum.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42579/index.cnxml",
+        "locator": "CNXML module m42579, section “Probability: The Heisenberg Uncertainty Principle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\Delta E\\,\\Delta t \\geq \\frac{\\hbar}{2}$",
+      "caption": {
+        "text": "Energy-time uncertainty",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A short-lived state has a correspondingly uncertain energy.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42579/index.cnxml",
+        "locator": "CNXML module m42579, section “Probability: The Heisenberg Uncertainty Principle”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -522,7 +799,7 @@
         "inline": []
       },
       "definition": {
-        "text": "h=6.626× 10–34 J ⋅ s",
+        "text": "h=6.626× 10-34 J ⋅ s",
         "inline": []
       },
       "provenance": {
@@ -967,76 +1244,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "An electron is a small ball that orbits the nucleus.",
-      "correction": "It has no orbit. It occupies a quantum state, and the orbit picture is only a picture.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "A photon is a particle and never behaves as a wave.",
-      "correction": "It behaves as a particle when it is absorbed or emitted, and as a wave when it passes through a double slit.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The energy of a photon is proportional to its wavelength.",
-      "correction": "It is proportional to its frequency, $E = hf$, so a longer wavelength means a lower energy. This is why the blue end of the spectrum carries more energy per photon than the red end.",
-      "signal": "Our own question offers the wavelength reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The kinetic energy of the electrons emitted in the photoelectric effect is set by the intensity of the light.",
-      "correction": "It is set by the frequency, $K = hf - \\phi$. The intensity decides how many electrons come out, not how fast they are, which is the observation that told Bohr the light was quantised.",
-      "signal": "Our own question offers the intensity reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1182,6 +1390,93 @@
       "explanation": "Light shows interference and diffraction but also behaves as photons in the photoelectric effect, and matter shows the same duality.",
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A photon has a frequency of 5.0 × 10¹⁴ Hz. Find its energy. Take h = 6.63 × 10⁻³⁴ J s.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.3 × 10⁻¹⁹ J"
+        },
+        {
+          "id": "b",
+          "text": "3.3 × 10⁻¹⁹ J"
+        },
+        {
+          "id": "c",
+          "text": "5.0 × 10⁻¹⁹ J"
+        },
+        {
+          "id": "d",
+          "text": "1.3 × 10⁻⁴⁷ J"
+        }
+      ],
+      "answer": "b",
+      "explanation": "E = hf = (6.63 × 10⁻³⁴)(5.0 × 10¹⁴) = 3.3 × 10⁻¹⁹ J.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "The photoelectric effect is evidence that light",
+      "options": [
+        {
+          "id": "a",
+          "text": "is a continuous wave only"
+        },
+        {
+          "id": "b",
+          "text": "behaves as a stream of particles"
+        },
+        {
+          "id": "c",
+          "text": "has no momentum"
+        },
+        {
+          "id": "d",
+          "text": "travels at different speeds in a vacuum"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The photoelectric effect shows that light delivers energy in discrete packets, or photons, whose energy depends on frequency.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "An electron moves with momentum 1.0 × 10⁻²⁴ kg m/s. Find its de Broglie wavelength. Take h = 6.63 × 10⁻³⁴ J s.",
+      "options": [
+        {
+          "id": "a",
+          "text": "6.6 × 10⁻¹⁰ m"
+        },
+        {
+          "id": "b",
+          "text": "1.5 × 10⁻⁹ m"
+        },
+        {
+          "id": "c",
+          "text": "6.6 × 10⁻⁵⁸ m"
+        },
+        {
+          "id": "d",
+          "text": "1.5 × 10⁻⁵⁸ m"
+        }
+      ],
+      "answer": "a",
+      "explanation": "λ = h/p = (6.63 × 10⁻³⁴)/(1.0 × 10⁻²⁴) = 6.6 × 10⁻¹⁰ m.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1192,5 +1487,30 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Quantum Physics', modules m42550, m42554, m42558, m42563, m42568, m42573, m42576, m42579, m42581",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 29,
+  "exercise_fixes": {
+    "sec-3:exr-57": {
+      "answer": "(a) 264 nm (b) ultraviolet",
+      "solution": [
+        "(a) $KE_{max}=hf-BE$, so $hf=2.00+2.71=4.71eV$ and $λ=1240/4.71=263nm≈264nm$ .",
+        "(b) 264 nm lies in the ultraviolet."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer omitted part (a)"
+    },
+    "sec-7:exr-47": {
+      "answer": "$7.28×10^{-4}m/s$",
+      "solution": [
+        "The de Broglie wavelength is $λ=h/p=h/(mv)$ .",
+        "$v=h/(mλ)=\\\\frac{6.63×10^{-34}}{(9.11×10^{-31})(1.00)}=7.28×10^{-4}m/s$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source solution gave the speed with a length unit"
+    },
+    "sec-8:exr-50": {
+      "answer": "29 nm, which is 290 times the 0.1-nm size of the atom"
+    },
+    "sec-4:exr-74": {
+      "answer": "$1.01×10^{-27}J=6.34×10^{-9}eV$"
+    }
+  }
 }

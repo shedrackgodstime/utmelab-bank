@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Electric Potential and Electric Field",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -127,7 +127,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_electric_charge_and_field"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -146,24 +148,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electrostatics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electric-field",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -182,6 +167,13 @@
         {
           "claim": "Potential is the same everywhere around a point charge.",
           "correction": "It falls as one over the distance, so it is only equal on a sphere around the charge."
+        },
+        {
+          "claim": "Potential difference between two points is the force on a unit charge placed between them.",
+          "correction": "That is the electric field. The potential difference is the work done per unit charge in moving a charge between the two points.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_electric_potential:trap-3",
+          "signal": "Our own question offers the field definition as an option."
         }
       ],
       "summary": [
@@ -208,8 +200,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-55"
+      ]
     },
     {
       "id": "sec-3",
@@ -222,7 +213,18 @@
         "Derive an expression for the electric potential and electric field.",
         "Calculate electric field strength given distance and voltage."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Electric field is measured in volts.",
+          "correction": "Electric field is measured in volts per metre or newtons per coulomb. The volt is the unit of potential difference.",
+          "signal": "Field and potential are different quantities."
+        },
+        {
+          "claim": "The electric potential is the same everywhere in a uniform electric field.",
+          "correction": "The potential changes linearly with distance along the field, V = Ed. Equipotential surfaces are perpendicular to the field.",
+          "signal": "A uniform field has a constant gradient of potential."
+        }
+      ],
       "summary": [
         "The voltage between points A and B is V AB = Ed E = V AB d (uniform E - field only), where d is the distance from A to B, or the distance between the plates.",
         "In equation form, the general relationship between voltage and electric field is E=–ΔVΔs, where Δs is the distance over which the change in potential, ΔV, takes place. The minus sign tells us that E points in the direction of decreasing potential.) The electric field is said to be the gradient (as in grade or slope) of the electric potential."
@@ -247,7 +249,26 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-33"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In a uniform electric field, how are the potential difference, field strength and distance related?",
+          "answer": "V = Ed, where d is the distance along the field.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The field is uniform, so the potential changes at a constant rate.",
+            "The change in potential is the field times the distance along it.",
+            "V = Ed."
+          ],
+          "tags": [
+            "uniform field",
+            "potential difference"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -260,7 +281,15 @@
         "Distinguish between electric potential and electric field.",
         "Determine the electric potential of a point charge given charge and distance."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The potential of a point charge falls with the square of the distance, like the field.",
+          "correction": "The potential falls as $1/r$. It is the electric field that falls as $1/r^2$, because the field is the gradient of the potential.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_electric_potential:trap-4",
+          "signal": "Our own question offers the square law as an option."
+        }
+      ],
       "summary": [
         "Electric potential of a point charge is V=kQ/r.",
         "Electric potential is a scalar, and electric field is a vector. Addition of voltages as numbers gives the voltage due to a combination of point charges, whereas addition of individual fields as vectors gives the total electric field."
@@ -284,8 +313,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-26"
+      ]
     },
     {
       "id": "sec-5",
@@ -317,7 +345,7 @@
           "subject": "physics",
           "topic_slug": "electrostatics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -325,11 +353,31 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-18"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is an equipotential line?",
+          "answer": "A line along which the electric potential is the same at every point.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Potential is a scalar value at each point.",
+            "An equipotential line joins points with the same value.",
+            "It is always perpendicular to the electric field lines."
+          ],
+          "tags": [
+            "equipotential",
+            "potential"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Equipotential Lines has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-6",
@@ -343,7 +391,18 @@
         "Discuss the process of increasing the capacitance of a dielectric.",
         "Determine capacitance given charge and voltage."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A capacitor stores charge but no energy.",
+          "correction": "Separating charge stores energy in the electric field. The energy is ½CV², and it can be released when the capacitor discharges.",
+          "signal": "A charged capacitor can light a lamp or fire a defibrillator."
+        },
+        {
+          "claim": "The capacitance of a capacitor depends on how much charge it currently holds.",
+          "correction": "Capacitance depends on the geometry and the dielectric. For a given capacitor C is fixed; Q and V change together as Q = CV.",
+          "signal": "C is a property of the device, not of the charge."
+        }
+      ],
       "summary": [
         "A capacitor is a device used to store charge.",
         "The amount of charge Q a capacitor can store depends on two major factors—the voltage applied and the capacitor’s physical characteristics, such as its size.",
@@ -355,7 +414,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electrostatics",
+          "topic_slug": "capacitors",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -365,11 +424,30 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-56"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is capacitance?",
+          "answer": "The charge stored per unit potential difference, C = Q/V.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A capacitor stores separated charge.",
+            "The more charge it holds for a given voltage, the larger its capacitance.",
+            "C = Q/V."
+          ],
+          "tags": [
+            "capacitance",
+            "capacitor"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -382,7 +460,18 @@
         "Identify series and parallel parts in the combination of connection of capacitors.",
         "Calculate the effective capacitance in series and parallel given individual capacitances."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Capacitors in parallel carry the same charge.",
+          "correction": "Capacitors in parallel have the same voltage across them. Their charges add, and the total capacitance is the sum.",
+          "signal": "Parallel branches share voltage, not charge."
+        },
+        {
+          "claim": "Capacitors in series have the same voltage across each one.",
+          "correction": "Capacitors in series carry the same charge. Their voltages add, and the reciprocals of their capacitances add.",
+          "signal": "Series components share charge, not voltage."
+        }
+      ],
       "summary": [
         "Total capacitance in series 1CS=1C1+1C2+1C3+...",
         "Total capacitance in parallel Cp=C1+C2+C3+...",
@@ -394,7 +483,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electrostatics",
+          "topic_slug": "capacitors",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -404,11 +493,31 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-40"
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 2,
+          "stem": "A 6.0-µF capacitor is connected in series with a 2.0-µF capacitor, and that pair is connected in parallel with a 4.0-µF capacitor. Find the total capacitance of the combination and the total charge it stores when it is connected across a 12-V battery.",
+          "answer": "5.5 µF and 66 µC",
+          "answer_kind": "expression",
+          "solution": [
+            "The series pair: 1/C_series = 1/6.0 + 1/2.0 = 0.667 µF⁻¹, so C_series = 1.5 µF.",
+            "The parallel branch adds directly: C_total = 1.5 + 4.0 = 5.5 µF.",
+            "Q = C_total V = 5.5 × 10⁻⁶ F × 12 V = 66 µC."
+          ],
+          "tags": [
+            "capacitors",
+            "series",
+            "parallel"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-8",
@@ -421,7 +530,18 @@
         "Express in equation form the energy stored in a capacitor.",
         "Explain the function of a defibrillator."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Doubling the charge on a capacitor doubles the energy stored.",
+          "correction": "At fixed capacitance, E = Q²/(2C), so doubling Q quadruples the energy. If the voltage doubles, E = ½CV² also quadruples.",
+          "signal": "Energy depends on the square of charge or voltage."
+        },
+        {
+          "claim": "A defibrillator stores its energy in a resistor.",
+          "correction": "It stores energy in a large capacitor and delivers it through electrodes and the body’s resistance in a controlled pulse.",
+          "signal": "The capacitor is the energy store; the resistor shapes the discharge."
+        }
+      ],
       "summary": [
         "Capacitors are used in a variety of devices, including defibrillators, microelectronics such as calculators, and flash lamps, to supply energy.",
         "The energy stored in a capacitor can be expressed in three ways: Ecap=QV2=CV22=Q22C, where Q is the charge, V is the voltage, and C is the capacitance of the capacitor. The energy is in joules when the charge is in coulombs, voltage is in volts, and capacitance is in farads."
@@ -432,7 +552,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "electrostatics",
+          "topic_slug": "capacitors",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -442,14 +562,185 @@
           "subject": "physics",
           "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-17"
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$\\Delta PE = q\\Delta V$",
+      "caption": {
+        "text": "Electric potential energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The change in potential energy when charge q moves through potential difference ΔV.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42324/index.cnxml",
+        "locator": "CNXML module m42324, section “Electric Potential Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$V = k\\frac{Q}{r}$",
+      "caption": {
+        "text": "Potential of a point charge",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The potential at distance r from a point charge Q, with V = 0 at infinity.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42328/index.cnxml",
+        "locator": "CNXML module m42328, section “Electrical Potential Due to a Point Charge”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$E = \\frac{V}{d}$",
+      "caption": {
+        "text": "Uniform electric field",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For two parallel plates separated by d with potential difference V.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42326/index.cnxml",
+        "locator": "CNXML module m42326, section “Electric Potential in a Uniform Electric Field”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$E = -\\frac{\\Delta V}{\\Delta s}$",
+      "caption": {
+        "text": "Field as potential gradient",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The field points in the direction of decreasing potential.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42326/index.cnxml",
+        "locator": "CNXML module m42326, section “Electric Potential in a Uniform Electric Field”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$C = \\frac{Q}{V}$",
+      "caption": {
+        "text": "Capacitance",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Charge stored per volt of potential difference.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42333/index.cnxml",
+        "locator": "CNXML module m42333, section “Capacitors and Dielectrics”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$C = \\frac{\\varepsilon_0 A}{d}$",
+      "caption": {
+        "text": "Parallel-plate capacitor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For plates of area A separated by d, with vacuum or air between them.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42333/index.cnxml",
+        "locator": "CNXML module m42333, section “Capacitors and Dielectrics”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$\\frac{1}{C_s} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\cdots$",
+      "caption": {
+        "text": "Capacitors in series",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The reciprocal of the total capacitance is the sum of the reciprocals.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42336/index.cnxml",
+        "locator": "CNXML module m42336, section “Capacitors in Series and Parallel”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$C_p = C_1 + C_2 + \\cdots$",
+      "caption": {
+        "text": "Capacitors in parallel",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The total capacitance is the sum of the individual capacitances.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42336/index.cnxml",
+        "locator": "CNXML module m42336, section “Capacitors in Series and Parallel”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$E_{\\mathrm{cap}} = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$",
+      "caption": {
+        "text": "Energy stored in a capacitor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The energy stored in the electric field of a charged capacitor.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42395/index.cnxml",
+        "locator": "CNXML module m42395, section “Energy Stored in Capacitors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -723,76 +1014,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Potential is the same everywhere around a point charge.",
-      "correction": "It falls as one over the distance, so it is only equal on a sphere around the charge.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "A voltmeter measures the energy of a charge.",
-      "correction": "It measures the potential difference between two points, and that difference times the charge is the energy.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Potential difference between two points is the force on a unit charge placed between them.",
-      "correction": "That is the electric field. The potential difference is the work done per unit charge in moving a charge between the two points.",
-      "signal": "Our own question offers the field definition as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The potential of a point charge falls with the square of the distance, like the field.",
-      "correction": "The potential falls as $1/r$. It is the electric field that falls as $1/r^2$, because the field is the gradient of the potential.",
-      "signal": "Our own question offers the square law as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -938,6 +1160,64 @@
       "explanation": "The energy is $U = \\frac{Q^2}{2C}$, which is also $\\frac{1}{2}CV^2$ and $\\frac{1}{2}Q^2/C$.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "A capacitor stores 20 μC when the potential difference across it is 10 V. Find its capacitance.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5 μF"
+        },
+        {
+          "id": "b",
+          "text": "2 μF"
+        },
+        {
+          "id": "c",
+          "text": "20 μF"
+        },
+        {
+          "id": "d",
+          "text": "200 μF"
+        }
+      ],
+      "answer": "b",
+      "explanation": "C = Q/V = 20 μC / 10 V = 2 μF.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "Two 2 μF capacitors are connected in parallel. Find the total capacitance.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 μF"
+        },
+        {
+          "id": "b",
+          "text": "2 μF"
+        },
+        {
+          "id": "c",
+          "text": "4 μF"
+        },
+        {
+          "id": "d",
+          "text": "8 μF"
+        }
+      ],
+      "answer": "c",
+      "explanation": "For capacitors in parallel, C_total = C₁ + C₂ = 2 + 2 = 4 μF.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -948,5 +1228,158 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Electric Potential and Electric Field', modules m42320, m42324, m42326, m42328, m42331, m42333, m42336, m42395",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 19,
+  "exercise_fixes": {
+    "sec-7:exr-48": {
+      "drop": true
+    },
+    "sec-2:exr-75": {
+      "stem": "A system has 2.00 µC charges at (50 cm, 0) and (−50 cm, 0) and a −1.00 µC charge at (0, 70 cm). As the *y* -coordinate of the −1.00 µC charge increases, the potential energy ___. As the *y* -coordinate of the −1.00 µC charge decreases, the potential energy ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "increases, increases"
+        },
+        {
+          "id": "b",
+          "text": "increases, decreases"
+        },
+        {
+          "id": "c",
+          "text": "decreases, increases"
+        },
+        {
+          "id": "d",
+          "text": "decreases, decreases"
+        }
+      ]
+    },
+    "sec-2:exr-83": {
+      "stem": "A system has 2.00 µC charges at (50 cm, 0) and (−50 cm, 0) and a −1.00 µC charge at (0, 70 cm), with a velocity in the – *y* -direction. When the −1.00 µC charge is at (0, 0) the potential energy is at a ___ and the kinetic energy is ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "maximum, maximum"
+        },
+        {
+          "id": "b",
+          "text": "maximum, minimum"
+        },
+        {
+          "id": "c",
+          "text": "minimum, maximum"
+        },
+        {
+          "id": "d",
+          "text": "minimum, minimum"
+        }
+      ]
+    },
+    "sec-8:exr-29": {
+      "stem": "Consider a parallel plate capacitor with metal plates, each of square shape of 1.00 m on a side, separated by 1.00 mm. If the plates grow in area while the voltage is held fixed, the capacitance ___ and the stored energy ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "decreases, decreases"
+        },
+        {
+          "id": "b",
+          "text": "decreases, increases"
+        },
+        {
+          "id": "c",
+          "text": "increases, decreases"
+        },
+        {
+          "id": "d",
+          "text": "increases, increases"
+        }
+      ]
+    },
+    "sec-6:exr-91": {
+      "stem": "A 10.0-µF parallel-plate capacitor is connected across an 8.00-kV supply. (a) What charge is stored? (b) How much energy is stored? (c) The space between the plates is then filled with a dielectric of constant 2.50 while the supply stays connected. What charge is stored now?",
+      "answer": "(a) 80.0 mC (b) 320 J (c) 200 mC",
+      "solution": [
+        "(a) $Q=CV=(10.0×10^{-6}F)(8.00×10^{3}V)=80.0mC$ .",
+        "(b) $U=\\frac{1}{2}CV^{2}=\\frac{1}{2}(10.0×10^{-6})(8.00×10^{3})^{2}=320J$ .",
+        "(c) At fixed voltage, $Q$ scales with $C$, so $Q'=κQ=2.50(80.0mC)=200mC$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source question referred to a figure that is not shipped, so the capacitor and supply are stated explicitly"
+    },
+    "sec-7:exr-45": {
+      "answer": "(a) $3.08µF$ in series (b) $13.0µF$ in parallel"
+    },
+    "sec-3:exr-41": {
+      "stem": "Consider three parallel conducting plates, with a space of 3.0 cm between them. The leftmost one is at a potential of +45 V, the middle one is held at ground, and the rightmost is at a potential of -75 V. The middle plate has holes so that the electron can pass through. What is the magnitude of the average electric field on an electron traveling between the plates?",
+      "solution": [
+        "Between the left and middle plates: $E_{1}=45\\ \\mathrm{V}/0.030\\ \\mathrm{m}=1500\\ \\mathrm{V/m}$.",
+        "Between the middle and right plates: $E_{2}=75\\ \\mathrm{V}/0.030\\ \\mathrm{m}=2500\\ \\mathrm{V/m}$.",
+        "Over the whole 6.0 cm path the potential changes by 120 V, so the average field is $120\\ \\mathrm{V}/0.060\\ \\mathrm{m}=2000\\ \\mathrm{V/m}$."
+      ]
+    },
+    "sec-6:exr-64": {
+      "stem": "A student was changing one dimension of a square parallel-plate capacitor and measuring the charge stored in a circuit with a fixed battery voltage. The student forgot which dimension was varied and did not record the units. The measurements are: side length (arbitrary units) 1.00, 1.10, 1.20, 1.30; charge ($\\mu\\mathrm{C}$) 0.50, 0.61, 0.71, 0.86. Which dimension was varied?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The distance between the plates"
+        },
+        {
+          "id": "b",
+          "text": "The area"
+        },
+        {
+          "id": "c",
+          "text": "The length of a side"
+        },
+        {
+          "id": "d",
+          "text": "Both the area and the length of a side"
+        }
+      ],
+      "solution": [
+        "For a parallel-plate capacitor, $C=\\epsilon_{0}A/d$ and $Q=CV$, so the charge is proportional to the plate area if the battery voltage is fixed.",
+        "Test the area hypothesis: if the area varied directly, $Q/x$ would be constant. The values are 0.50, 0.555, 0.592, and 0.662, so it is not.",
+        "Test the side-length hypothesis: if the side length $x$ varied, $A=x^{2}$ and $Q/x^{2}$ should be constant. The values are 0.50, 0.504, 0.493, and 0.509, which are nearly constant. The varied dimension was the length of a side."
+      ]
+    },
+    "sec-3:exr-33": {
+      "drop": true
+    },
+    "sec-5:exr-18": {
+      "drop": true
+    },
+    "sec-6:exr-60": {
+      "options": [
+        {
+          "id": "a",
+          "text": "it grows proportional to length squared"
+        },
+        {
+          "id": "b",
+          "text": "it grows proportional to length"
+        },
+        {
+          "id": "c",
+          "text": "it shrinks proportional to length"
+        },
+        {
+          "id": "d",
+          "text": "it shrinks proportional to length squared"
+        }
+      ]
+    }
+  },
+  "worked_fixes": {
+    "sec-7:we-ex-29": {
+      "statement": "A Mixture of Series and Parallel Capacitance",
+      "answer": "8.833 µF",
+      "steps": [
+        "$C_{1}=1.000µF$ and $C_{2}=5.000µF$ are in series, so $1/C_{S}=1/C_{1}+1/C_{2}$ .",
+        "$C_{S}=\\frac{C_{1}C_{2}}{C_{1}+C_{2}}=\\frac{(1.000)(5.000)}{1.000+5.000}=0.833µF$ .",
+        "$C_{S}$ is in parallel with $C_{3}=8.000µF$, so $C_{total}=C_{S}+C_{3}=0.833+8.000=8.833µF$ ."
+      ]
+    }
+  }
 }

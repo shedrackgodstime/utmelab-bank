@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "The quantum of EM radiation we call a photon has properties analogous to those of particles we can see, such as grains of sand. A photon interacts as a unit in collisions or when absorbed, rather than as an extensive wave. Massive quanta, like electrons, also act like macroscopic particles—something we expect, because they are the smallest units of matter. Particles carry momentum as well as energy. Despite photons having no mass, there has long been evidence that EM radiation carries momentum. (Maxwell and others who studied EM waves predicted that they would carry momentum.) It is now a well-established fact that photons *do* have momentum. In fact, photon momentum is suggested by the photoelectric effect, where photons knock electrons out of a substance. shows macroscopic evidence of photon momentum.",
+        "text": "The quantum of EM radiation we call a photon has properties analogous to those of particles we can see, such as grains of sand. A photon interacts as a unit in collisions or when absorbed, rather than as an extensive wave. Massive quanta, like electrons, also act like macroscopic particles—something we expect, because they are the smallest units of matter. Particles carry momentum as well as energy. Despite photons having no mass, there has long been evidence that EM radiation carries momentum. (Maxwell and others who studied EM waves predicted that they would carry momentum.) It is now a well-established fact that photons *do* have momentum. In fact, photon momentum is suggested by the photoelectric effect, where photons knock electrons out of a substance. The figure shows macroscopic evidence of photon momentum.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "shows a comet with two prominent tails. What most people do not know about the tails is that they always point *away* from the Sun rather than trailing behind the comet (like the tail of Bo Peep’s sheep). Comet tails are composed of gases and dust evaporated from the body of the comet and ionized gas. The dust particles recoil away from the Sun when photons scatter from them. Evidently, photons carry momentum in the direction of their motion (away from the Sun), and some of this momentum is transferred to dust particles in collisions. Gas atoms and molecules in the blue tail are most affected by other particles of radiation, such as protons and electrons emanating from the Sun, rather than by the momentum of photons.",
+        "text": "The figure shows a comet with two prominent tails. What most people do not know about the tails is that they always point *away* from the Sun rather than trailing behind the comet (like the tail of Bo Peep’s sheep). Comet tails are composed of gases and dust evaporated from the body of the comet and ionized gas. The dust particles recoil away from the Sun when photons scatter from them. Evidently, photons carry momentum in the direction of their motion (away from the Sun), and some of this momentum is transferred to dust particles in collisions. Gas atoms and molecules in the blue tail are most affected by other particles of radiation, such as protons and electrons emanating from the Sun, rather than by the momentum of photons.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Momentum is conserved in quantum mechanics just as it is in relativity and classical physics. Some of the earliest direct experimental evidence of this came from scattering of x-ray photons by electrons in substances, named Compton scattering after the American physicist Arthur H. Compton (1892–1962). Around 1923, Compton observed that x rays scattered from materials had a decreased energy and correctly analyzed this as being due to the scattering of photons from electrons. This phenomenon could be handled as a collision between two particles—a photon and an electron at rest in the material. Energy and momentum are conserved in the collision. (See ) He won a Nobel Prize in 1929 for the discovery of this scattering, now called the Compton effect , because it helped prove that photon momentum is given by",
+        "text": "Momentum is conserved in quantum mechanics just as it is in relativity and classical physics. Some of the earliest direct experimental evidence of this came from scattering of x-ray photons by electrons in substances, named Compton scattering after the American physicist Arthur H. Compton (1892–1962). Around 1923, Compton observed that x rays scattered from materials had a decreased energy and correctly analyzed this as being due to the scattering of photons from electrons. This phenomenon could be handled as a collision between two particles—a photon and an electron at rest in the material. Energy and momentum are conserved in the collision. (See the figure) He won a Nobel Prize in 1929 for the discovery of this scattering, now called the Compton effect, because it helped prove that photon momentum is given by $p=\\frac{h}{λ},$",
         "inline": []
       },
       "level": "core"
@@ -144,7 +144,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Finding the photon momentum is a straightforward application of its definition: $p=\\frac{h}{λ}$ . If we find the photon momentum is small, then we can assume that an electron with the same momentum will be nonrelativistic, making it easy to find its velocity and kinetic energy from the classical formulas.",
+        "text": "Finding the photon momentum is a straightforward application of its definition: $p=\\frac{h}{λ}$. If we find the photon momentum is small, then we can assume that an electron with the same momentum will be nonrelativistic, making it easy to find its velocity and kinetic energy from the classical formulas.",
         "inline": []
       },
       "level": "core"
@@ -153,7 +153,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Photon momentum is given by the equation:",
+        "text": "Photon momentum is given by the equation: $p=\\frac{h}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given photon wavelength yields",
+        "text": "Entering the given photon wavelength yields $p=\\frac{6.63\\times {10}^{–34} J\\cdot s}{500\\times {10}^{–9} m}=1.33\\times {10}^{–27} kg\\cdot m/s.$",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Since this momentum is indeed small, we will use the classical expression $p=mv$ to find the velocity of an electron with this momentum. Solving for $v$ and using the known value for the mass of an electron gives",
+        "text": "Since this momentum is indeed small, we will use the classical expression $p=mv$ to find the velocity of an electron with this momentum. Solving for $v$ and using the known value for the mass of an electron gives $v=\\frac{p}{m}=\\frac{1.33\\times {10}^{–27} kg\\cdot m/s}{9.11\\times {10}^{–31} kg}=1460 m/s\\approx 1460 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The electron has kinetic energy, which is classically given by",
+        "text": "The electron has kinetic energy, which is classically given by ${KE}_{e}=\\frac{1}{2}{mv}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Converting this to eV by multiplying by $(1 eV)/(1.602×{10}^{–19}J)$ yields",
+        "text": "Converting this to eV by multiplying by $(1 eV)/(1.602\\times {10}^{–19} J)$ yields ${KE}_{e}=6.02\\times {10}^{–6} eV.$",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The photon energy $E$ is",
+        "text": "The photon energy $E$ is $E=\\frac{hc}{λ}=\\frac{1240 eV\\cdot nm}{500 nm}=2.48 eV,$",
         "inline": []
       },
       "level": "core"
@@ -216,7 +216,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Photon momentum is indeed small. Even if we have huge numbers of them, the total momentum they carry is small. An electron with the same momentum has a 1460 m/s velocity, which is clearly nonrelativistic. A more massive particle with the same momentum would have an even smaller velocity. This is borne out by the fact that it takes far less energy to give an electron the same momentum as a photon. But on a quantum-mechanical scale, especially for high-energy photons interacting with small masses, photon momentum is significant. Even on a large scale, photon momentum can have an effect if there are enough of them and if there is nothing to prevent the slow recoil of matter. Comet tails are one example, but there are also proposals to build space sails that use huge low-mass mirrors (made of aluminized Mylar) to reflect sunlight. In the vacuum of space, the mirrors would gradually recoil and could actually take spacecraft from place to place in the solar system. (See .)",
+        "text": "Photon momentum is indeed small. Even if we have huge numbers of them, the total momentum they carry is small. An electron with the same momentum has a 1460 m/s velocity, which is clearly nonrelativistic. A more massive particle with the same momentum would have an even smaller velocity. This is borne out by the fact that it takes far less energy to give an electron the same momentum as a photon. But on a quantum-mechanical scale, especially for high-energy photons interacting with small masses, photon momentum is significant. Even on a large scale, photon momentum can have an effect if there are enough of them and if there is nothing to prevent the slow recoil of matter. Comet tails are one example, but there are also proposals to build space sails that use huge low-mass mirrors (made of aluminized Mylar) to reflect sunlight. In the vacuum of space, the mirrors would gradually recoil and could actually take spacecraft from place to place in the solar system. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "There is a relationship between photon momentum $p$ and photon energy $E$ that is consistent with the relation given previously for the relativistic total energy of a particle as ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2}$ . We know $m$ is zero for a photon, but $p$ is not, so that ${E}^{2}=(pc{)}^{2}+(m{c}^{2}{)}^{2}$ becomes",
+        "text": "There is a relationship between photon momentum $p$ and photon energy $E$ that is consistent with the relation given previously for the relativistic total energy of a particle as ${E}^{2}=(pc{)}^{2}+({mc}^{2}{)}^{2}$. We know $m$ is zero for a photon, but $p$ is not, so that ${E}^{2}=(pc{)}^{2}+(m{c}^{2}{)}^{2}$ becomes $E=pc,$",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "To check the validity of this relation, note that $E=hc/λ$ for a photon. Substituting this into $p=E/c$ yields",
+        "text": "To check the validity of this relation, note that $E=hc/λ$ for a photon. Substituting this into $p=E/c$ yields $p=(hc/λ)/c=\\frac{h}{λ},$",
         "inline": []
       },
       "level": "core"
@@ -265,7 +265,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "as determined experimentally and discussed above. Thus, $p=E/c$ is equivalent to Compton’s result $p=h/λ$ . For a further verification of the relationship between photon energy and momentum, see .",
+        "text": "as determined experimentally and discussed above. Thus, $p=E/c$ is equivalent to Compton’s result $p=h/λ$. For a further verification of the relationship between photon energy and momentum, see the example.",
         "inline": []
       },
       "level": "core"
@@ -298,7 +298,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Show that $p=E/c$ for the photon considered in the .",
+        "text": "Show that $p=E/c$ for the photon considered in the the example.",
         "inline": []
       },
       "level": "core"
@@ -307,7 +307,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "We will take the energy $E$ found in , divide it by the speed of light, and see if the same momentum is obtained as before.",
+        "text": "We will take the energy $E$ found in the example, divide it by the speed of light, and see if the same momentum is obtained as before.",
         "inline": []
       },
       "level": "core"
@@ -316,7 +316,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Given that the energy of the photon is 2.48 eV and converting this to joules, we get",
+        "text": "Given that the energy of the photon is 2.48 eV and converting this to joules, we get $p=\\frac{E}{c}=\\frac{(2.48 eV)(1.60\\times {10}^{–19} J/eV)}{3.00\\times {10}^{8} m/s}=1.33\\times {10}^{–27} kg\\cdot m/s.$",
         "inline": []
       },
       "level": "core"
@@ -325,7 +325,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "This value for momentum is the same as found before (note that unrounded values are used in all calculations to avoid even small rounding errors), an expected verification of the relationship $p=E/c$ . This also means the relationship between energy, momentum, and mass given by ${E}^{2}=(pc{)}^{2}+(mc{)}^{2}$ applies to both matter and photons. Once again, note that $p$ is not zero, even when $m$ is.",
+        "text": "This value for momentum is the same as found before (note that unrounded values are used in all calculations to avoid even small rounding errors), an expected verification of the relationship $p=E/c$. This also means the relationship between energy, momentum, and mass given by ${E}^{2}=(pc{)}^{2}+(mc{)}^{2}$ applies to both matter and photons. Once again, note that $p$ is not zero, even when $m$ is.",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Note that the forms of the constants $h=4.14×{10}^{–15}eV\\cdot s$ and $hc=1240 eV\\cdot nm$ may be particularly useful for this section’s Problems and Exercises.",
+        "text": "Note that the forms of the constants $h=4.14\\times {10}^{–15} eV\\cdot s$ and $hc=1240 eV\\cdot nm$ may be particularly useful for this section’s Problems and Exercises.",
         "inline": []
       },
       "level": "core"
@@ -596,7 +596,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the wavelength of a photon that has a momentum of $5.00×{10}^{-29}kg\\cdot m/s$ ? (b) Find its energy in eV.",
+        "text": "(a) What is the wavelength of a photon that has a momentum of $5.00\\times {10}^{-29} kg\\cdot m/s$? (b) Find its energy in eV.",
         "inline": []
       },
       "level": "core",
@@ -629,7 +629,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A $γ$ -ray photon has a momentum of $8.00×{10}^{-21}kg\\cdot m/s$ . What is its wavelength? (b) Calculate its energy in MeV.",
+        "text": "(a) A $γ$ -ray photon has a momentum of $8.00\\times {10}^{-21} kg\\cdot m/s$. What is its wavelength? (b) Calculate its energy in MeV.",
         "inline": []
       },
       "level": "core",
@@ -650,7 +650,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the momentum of a photon having a wavelength of $2.50 μm$ . (b) Find the velocity of an electron having the same momentum. (c) What is the kinetic energy of the electron, and how does it compare with that of the photon?",
+        "text": "(a) Calculate the momentum of a photon having a wavelength of $2.50 μm$. (b) Find the velocity of an electron having the same momentum. (c) What is the kinetic energy of the electron, and how does it compare with that of the photon?",
         "inline": []
       },
       "level": "core",
@@ -776,7 +776,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Take the ratio of relativistic rest energy, $E={γmc}^{2}{mc}^{2}$ , to relativistic momentum, $p=γmu$ , and show that in the limit that mass approaches zero, you find $E/p=c$ .",
+        "text": "Take the ratio of relativistic rest energy, $E={γmc}^{2}{mc}^{2}$, to relativistic momentum, $p=γmu$, and show that in the limit that mass approaches zero, you find $E/p=c$.",
         "inline": []
       },
       "level": "core",
@@ -827,7 +827,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Construct Your Own Problem Consider a space sail such as mentioned in . Construct a problem in which you calculate the light pressure on the sail in ${N/m}^{2}$ produced by reflecting sunlight. Also calculate the force that could be produced and how much effect that would have on a spacecraft. Among the things to be considered are the intensity of sunlight, its average wavelength, the number of photons per square meter this implies, the area of the space sail, and the mass of the system being accelerated.",
+        "text": "Construct Your Own Problem Consider a space sail such as mentioned in the example. Construct a problem in which you calculate the light pressure on the sail in ${N/m}^{2}$ produced by reflecting sunlight. Also calculate the force that could be produced and how much effect that would have on a spacecraft. Among the things to be considered are the intensity of sunlight, its average wavelength, the number of photons per square meter this implies, the area of the space sail, and the mass of the system being accelerated.",
         "inline": []
       },
       "level": "core",
@@ -857,7 +857,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results A car feels a small force due to the light it sends out from its headlights, equal to the momentum of the light divided by the time in which it is emitted. (a) Calculate the power of each headlight, if they exert a total force of $2.00×{10}^{-2}N$ backward on the car. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results A car feels a small force due to the light it sends out from its headlights, equal to the momentum of the light divided by the time in which it is emitted. (a) Calculate the power of each headlight, if they exert a total force of $2.00\\times {10}^{-2} N$ backward on the car. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",

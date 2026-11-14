@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "lists some of the measured pressures in mm Hg, the units most commonly quoted.",
+        "text": "The table lists some of the measured pressures in mm Hg, the units most commonly quoted.",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Blood leaves the heart at about 120 mm Hg but its pressure continues to decrease (to almost 0) as it goes from the aorta to smaller arteries to small veins (see ). The pressure differences in the circulation system are caused by blood flow through the system as well as the position of the person. For a person standing up, the pressure in the feet will be larger than at the heart due to the weight of the blood $(P=hρg)$ . If we assume that the distance between the heart and the feet of a person in an upright position is 1.4 m, then the increase in pressure in the feet relative to that in the heart (for a static column of blood) is given by",
+        "text": "Blood leaves the heart at about 120 mm Hg but its pressure continues to decrease (to almost 0) as it goes from the aorta to smaller arteries to small veins (see the figure). The pressure differences in the circulation system are caused by blood flow through the system as well as the position of the person. For a person standing up, the pressure in the feet will be larger than at the heart due to the weight of the blood $(P=hρg)$. If we assume that the distance between the heart and the feet of a person in an upright position is 1.4 m, then the increase in pressure in the feet relative to that in the heart (for a static column of blood) is given by $ΔP=Δhρg=(1.4 m)(1050 kg{/m}^{3})(9.80 m{/s}^{2})=1.4\\times {10}^{4} Pa=108 mm Hg.$",
         "inline": []
       },
       "level": "core"
@@ -183,7 +183,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The heart consists of two pumps—the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body ( ). Right-heart failure, for example, results in a rise in the pressure in the vena cavae and a drop in pressure in the arteries to the lungs. Left-heart failure results in a rise in the pressure entering the left side of the heart and a drop in aortal pressure. Implications of these and other pressures on flow in the circulatory system will be discussed in more detail in Fluid Dynamics and Its Biological and Medical Applications .",
+        "text": "The heart consists of two pumps—the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body (the figure). Right-heart failure, for example, results in a rise in the pressure in the vena cavae and a drop in pressure in the arteries to the lungs. Left-heart failure results in a rise in the pressure entering the left side of the heart and a drop in aortal pressure. Implications of these and other pressures on flow in the circulatory system will be discussed in more detail in Fluid Dynamics and Its Biological and Medical Applications.",
         "inline": []
       },
       "level": "core"
@@ -223,7 +223,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The shape of the eye is maintained by fluid pressure, called intraocular pressure , which is normally in the range of 12.0 to 24.0 mm Hg. When the circulation of fluid in the eye is blocked, it can lead to a buildup in pressure, a condition called glaucoma . The net pressure can become as great as 85.0 mm Hg, an abnormally large pressure that can permanently damage the optic nerve. To get an idea of the force involved, suppose the back of the eye has an area of $6.0{cm}^{2}$ , and the net pressure is 85.0 mm Hg. Force is given by $F=PA$ . To get $F$ in newtons, we convert the area to ${m}^{2}$ ( ${1 m}^{2}={10}^{4}{cm}^{2}$ ). Then we calculate as follows:",
+        "text": "The shape of the eye is maintained by fluid pressure, called intraocular pressure, which is normally in the range of 12.0 to 24.0 mm Hg. When the circulation of fluid in the eye is blocked, it can lead to a buildup in pressure, a condition called glaucoma. The net pressure can become as great as 85.0 mm Hg, an abnormally large pressure that can permanently damage the optic nerve. To get an idea of the force involved, suppose the back of the eye has an area of $6.0 {cm}^{2}$, and the net pressure is 85.0 mm Hg. Force is given by $F=PA$. To get $F$ in newtons, we convert the area to ${m}^{2}$ (${1 m}^{2}={10}^{4} {cm}^{2}$). Then we calculate as follows: $F=hρgA=(85.0\\times {10}^{-3} m)(13.6\\times {10}^{3} {kg/m}^{3})(9.80 {m/s}^{2})(6.0\\times {10}^{-4} {m}^{2})=6.8 N.$",
         "inline": []
       },
       "level": "core"
@@ -232,7 +232,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "The shape of the eye is maintained by fluid pressure, called intraocular pressure. When the circulation of fluid in the eye is blocked, it can lead to a buildup in pressure, a condition called glaucoma. The force is calculated as",
+        "text": "The shape of the eye is maintained by fluid pressure, called intraocular pressure. When the circulation of fluid in the eye is blocked, it can lead to a buildup in pressure, a condition called glaucoma. The force is calculated as $F=hρgA=(85.0\\times {10}^{-3} m)(13.6\\times {10}^{3} {kg/m}^{3})(9.80 {m/s}^{2})(6.0\\times {10}^{-4} {m}^{2})=6.8 N.$",
         "inline": []
       },
       "level": "core"
@@ -250,7 +250,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "People over 40 years of age are at greatest risk of developing glaucoma and should have their intraocular pressure tested routinely. Most measurements involve exerting a force on the (anesthetized) eye over some area (a pressure) and observing the eye’s response. A noncontact approach uses a puff of air and a measurement is made of the force needed to indent the eye ( ). If the intraocular pressure is high, the eye will deform less and rebound more vigorously than normal. Excessive intraocular pressures can be detected reliably and sometimes controlled effectively.",
+        "text": "People over 40 years of age are at greatest risk of developing glaucoma and should have their intraocular pressure tested routinely. Most measurements involve exerting a force on the (anesthetized) eye over some area (a pressure) and observing the eye’s response. A noncontact approach uses a puff of air and a measurement is made of the force needed to indent the eye (the figure). If the intraocular pressure is high, the eye will deform less and rebound more vigorously than normal. Excessive intraocular pressures can be detected reliably and sometimes controlled effectively.",
         "inline": []
       },
       "level": "core"
@@ -287,7 +287,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Suppose a 3.00-N force can rupture an eardrum. (a) If the eardrum has an area of $1.00{cm}^{2}$ , calculate the maximum tolerable gauge pressure on the eardrum in newtons per meter squared and convert it to millimeters of mercury. (b) At what depth in freshwater would this person’s eardrum rupture, assuming the gauge pressure in the middle ear is zero?",
+        "text": "Suppose a 3.00-N force can rupture an eardrum. (a) If the eardrum has an area of $1.00 {cm}^{2}$, calculate the maximum tolerable gauge pressure on the eardrum in newtons per meter squared and convert it to millimeters of mercury. (b) At what depth in freshwater would this person’s eardrum rupture, assuming the gauge pressure in the middle ear is zero?",
         "inline": []
       },
       "level": "core"
@@ -305,7 +305,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "We now need to convert this to units of mm Hg:",
+        "text": "We now need to convert this to units of mm Hg: ${P}_{g}=3.0\\times {10}^{4} {N/m}^{2}(\\frac{1.0 mm Hg}{133 {N/m}^{2}})=226 mm Hg.$",
         "inline": []
       },
       "level": "core"
@@ -323,7 +323,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "$P=hρg$ and therefore $h=P/ρg$ . Using the value above for $P$ , we have",
+        "text": "$P=hρg$ and therefore $h=P/ρg$. Using the value above for $P$, we have $h=\\frac{3.0\\times {10}^{4} {N/m}^{2}}{(1.00\\times {10}^{3} {kg/m}^{3})(9.80 m{/s}^{2})}=3.06 m.$",
         "inline": []
       },
       "level": "core"
@@ -359,7 +359,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Lung pressure is controlled by several mechanisms. Muscle action in the diaphragm and rib cage is necessary for inhalation; this muscle action increases the volume of the lungs thereby reducing the pressure within them . Surface tension in the alveoli creates a positive pressure opposing inhalation. (See Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action .) You can exhale without muscle action by letting surface tension in the alveoli create its own positive pressure. Muscle action can add to this positive pressure to produce forced exhalation, such as when you blow up a balloon, blow out a candle, or cough.",
+        "text": "Lung pressure is controlled by several mechanisms. Muscle action in the diaphragm and rib cage is necessary for inhalation; this muscle action increases the volume of the lungs thereby reducing the pressure within them the figure. Surface tension in the alveoli creates a positive pressure opposing inhalation. (See Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action.) You can exhale without muscle action by letting surface tension in the alveoli create its own positive pressure. Muscle action can add to this positive pressure to produce forced exhalation, such as when you blow up a balloon, blow out a candle, or cough.",
         "inline": []
       },
       "level": "core"
@@ -426,7 +426,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "This bodily pressure is one of which we are often aware. In fact, there is a relationship between our awareness of this pressure and a subsequent increase in it. Bladder pressure climbs steadily from zero to about 25 mm Hg as the bladder fills to its normal capacity of $500{cm}^{3}$ . This pressure triggers the micturition reflex , which stimulates the feeling of needing to urinate. What is more, it also causes muscles around the bladder to contract, raising the pressure to over 100 mm Hg, accentuating the sensation. Coughing, straining, tensing in cold weather, wearing tight clothes, and experiencing simple nervous tension all can increase bladder pressure and trigger this reflex. So can the weight of a pregnant woman’s fetus, especially if it is kicking vigorously or pushing down with its head! Bladder pressure can be measured by a catheter or by inserting a needle through the bladder wall and transmitting the pressure to an appropriate measuring device. One hazard of high bladder pressure (sometimes created by an obstruction), is that such pressure can force urine back into the kidneys, causing potentially severe damage.",
+        "text": "This bodily pressure is one of which we are often aware. In fact, there is a relationship between our awareness of this pressure and a subsequent increase in it. Bladder pressure climbs steadily from zero to about 25 mm Hg as the bladder fills to its normal capacity of $500 {cm}^{3}$. This pressure triggers the micturition reflex, which stimulates the feeling of needing to urinate. What is more, it also causes muscles around the bladder to contract, raising the pressure to over 100 mm Hg, accentuating the sensation. Coughing, straining, tensing in cold weather, wearing tight clothes, and experiencing simple nervous tension all can increase bladder pressure and trigger this reflex. So can the weight of a pregnant woman’s fetus, especially if it is kicking vigorously or pushing down with its head! Bladder pressure can be measured by a catheter or by inserting a needle through the bladder wall and transmitting the pressure to an appropriate measuring device. One hazard of high bladder pressure (sometimes created by an obstruction), is that such pressure can force urine back into the kidneys, causing potentially severe damage.",
         "inline": []
       },
       "level": "core"
@@ -444,7 +444,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "These pressures are the largest in the body, due both to the high values of initial force, and the small areas to which this force is applied, such as in the joints.. For example, when a person lifts an object improperly, a force of 5000 N may be created between vertebrae in the spine, and this may be applied to an area as small as $10{cm}^{2}$ . The pressure created is $P=F/A=(5000 N)/({10}^{-3}{m}^{2})=5.0×{10}^{6}{N/m}^{2}$ or about 50 atm! This pressure can damage both the spinal discs (the cartilage between vertebrae), as well as the bony vertebrae themselves. Even under normal circumstances, forces between vertebrae in the spine are large enough to create pressures of several atmospheres. Most causes of excessive pressure in the skeletal system can be avoided by lifting properly and avoiding extreme physical activity. (See Forces and Torques in Muscles and Joints .)",
+        "text": "These pressures are the largest in the body, due both to the high values of initial force, and the small areas to which this force is applied, such as in the joints.. For example, when a person lifts an object improperly, a force of 5000 N may be created between vertebrae in the spine, and this may be applied to an area as small as $10 {cm}^{2}$. The pressure created is $P=F/A=(5000 N)/({10}^{-3} {m}^{2})=5.0\\times {10}^{6} {N/m}^{2}$ or about 50 atm! This pressure can damage both the spinal discs (the cartilage between vertebrae), as well as the bony vertebrae themselves. Even under normal circumstances, forces between vertebrae in the spine are large enough to create pressures of several atmospheres. Most causes of excessive pressure in the skeletal system can be avoided by lifting properly and avoiding extreme physical activity. (See Forces and Torques in Muscles and Joints.)",
         "inline": []
       },
       "level": "core"
@@ -462,7 +462,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "Many pressures in the human body are associated with the flow of fluids. Fluid flow will be discussed in detail in the Fluid Dynamics and Its Biological and Medical Applications .",
+        "text": "Many pressures in the human body are associated with the flow of fluids. Fluid flow will be discussed in detail in the Fluid Dynamics and Its Biological and Medical Applications.",
         "inline": []
       },
       "level": "core"
@@ -490,7 +490,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "During forced exhalation, such as when blowing up a balloon, the diaphragm and chest muscles create a pressure of 60.0 mm Hg between the lungs and chest wall. What force in newtons does this pressure create on the $600{cm}^{2}$ surface area of the diaphragm?",
+        "text": "During forced exhalation, such as when blowing up a balloon, the diaphragm and chest muscles create a pressure of 60.0 mm Hg between the lungs and chest wall. What force in newtons does this pressure create on the $600 {cm}^{2}$ surface area of the diaphragm?",
         "inline": []
       },
       "level": "core",
@@ -514,7 +514,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "You can chew through very tough objects with your incisors because they exert a large force on the small area of a pointed tooth. What pressure in pascals can you create by exerting a force of $500 N$ with your tooth on an area of $1.00{mm}^{2}$ ?",
+        "text": "You can chew through very tough objects with your incisors because they exert a large force on the small area of a pointed tooth. What pressure in pascals can you create by exerting a force of $500 N$ with your tooth on an area of $1.00 {mm}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -535,7 +535,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "One way to force air into an unconscious person’s lungs is to squeeze on a balloon appropriately connected to the subject. What force must you exert on the balloon with your hands to create a gauge pressure of 4.00 cm water, assuming you squeeze on an effective area of $50.0{cm}^{2}$ ?",
+        "text": "One way to force air into an unconscious person’s lungs is to squeeze on a balloon appropriately connected to the subject. What force must you exert on the balloon with your hands to create a gauge pressure of 4.00 cm water, assuming you squeeze on an effective area of $50.0 {cm}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -583,7 +583,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Gauge pressure in the fluid surrounding an infant’s brain may rise as high as 85.0 mm Hg (5 to 12 mm Hg is normal), creating an outward force large enough to make the skull grow abnormally large. (a) Calculate this outward force in newtons on each side of an infant’s skull if the effective area of each side is $70.0{cm}^{2}$ . (b) What is the net force acting on the skull?",
+        "text": "Gauge pressure in the fluid surrounding an infant’s brain may rise as high as 85.0 mm Hg (5 to 12 mm Hg is normal), creating an outward force large enough to make the skull grow abnormally large. (a) Calculate this outward force in newtons on each side of an infant’s skull if the effective area of each side is $70.0 {cm}^{2}$. (b) What is the net force acting on the skull?",
         "inline": []
       },
       "level": "core",
@@ -604,7 +604,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A full-term fetus typically has a mass of 3.50 kg. (a) What pressure does the weight of such a fetus create if it rests on the mother’s bladder, supported on an area of $90.0{cm}^{2}$ ? (b) Convert this pressure to millimeters of mercury and determine if it alone is great enough to trigger the micturition reflex (it will add to any pressure already existing in the bladder).",
+        "text": "A full-term fetus typically has a mass of 3.50 kg. (a) What pressure does the weight of such a fetus create if it rests on the mother’s bladder, supported on an area of $90.0 {cm}^{2}$? (b) Convert this pressure to millimeters of mercury and determine if it alone is great enough to trigger the micturition reflex (it will add to any pressure already existing in the bladder).",
         "inline": []
       },
       "level": "core",
@@ -646,7 +646,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If the pressure in the esophagus is $-2.00 mm Hg$ while that in the stomach is $+20.0 mm Hg$ , to what height could stomach fluid rise in the esophagus, assuming a density of 1.10 g/mL? (This movement will not occur if the muscle closing the lower end of the esophagus is working properly.)",
+        "text": "If the pressure in the esophagus is $-2.00 mm Hg$ while that in the stomach is $+20.0 mm Hg$, to what height could stomach fluid rise in the esophagus, assuming a density of 1.10 g/mL? (This movement will not occur if the muscle closing the lower end of the esophagus is working properly.)",
         "inline": []
       },
       "level": "core",
@@ -713,7 +713,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the maximum force in newtons exerted by the blood on an aneurysm, or ballooning, in a major artery, given the maximum blood pressure for this person is 150 mm Hg and the effective area of the aneurysm is $20.0{cm}^{2}$ . Note that this force is great enough to cause further enlargement and subsequently greater force on the ever-thinner vessel wall.",
+        "text": "Calculate the maximum force in newtons exerted by the blood on an aneurysm, or ballooning, in a major artery, given the maximum blood pressure for this person is 150 mm Hg and the effective area of the aneurysm is $20.0 {cm}^{2}$. Note that this force is great enough to cause further enlargement and subsequently greater force on the ever-thinner vessel wall.",
         "inline": []
       },
       "level": "core",
@@ -734,7 +734,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "During heavy lifting, a disk between spinal vertebrae is subjected to a 5000-N compressional force. (a) What pressure is created, assuming that the disk has a uniform circular cross section 2.00 cm in radius? (b) What deformation is produced if the disk is 0.800 cm thick and has a Young’s modulus of $1.5×{10}^{9}{N/m}^{2}$ ?",
+        "text": "During heavy lifting, a disk between spinal vertebrae is subjected to a 5000-N compressional force. (a) What pressure is created, assuming that the disk has a uniform circular cross section 2.00 cm in radius? (b) What deformation is produced if the disk is 0.800 cm thick and has a Young’s modulus of $1.5\\times {10}^{9} {N/m}^{2}$?",
         "inline": []
       },
       "level": "core",
@@ -1021,7 +1021,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.00-cm radius. (a) What force in newtons must you exert to create a pressure of $6.90×{10}^{5}Pa$ (b) What is unreasonable about this (a) result? (c) Which premises are unreasonable or inconsistent?",
+        "text": "You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.00-cm radius. (a) What force in newtons must you exert to create a pressure of $6.90\\times {10}^{5} Pa$ (b) What is unreasonable about this (a) result? (c) Which premises are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",

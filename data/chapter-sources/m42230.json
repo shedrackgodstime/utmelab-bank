@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "You can feel the heat transfer from a fire and from the Sun. Similarly, you can sometimes tell that the oven is hot without touching its door or looking inside—it may just warm you as you walk by. The space between the Earth and the Sun is largely empty, without any possibility of heat transfer by convection or conduction. In these examples, heat is transferred by radiation. That is, the hot body emits electromagnetic waves that are absorbed by our skin: no medium is required for electromagnetic waves to propagate. Different names are used for electromagnetic waves of different wavelengths: radio waves, microwaves, infrared radiation , visible light, ultraviolet radiation, X-rays, and gamma rays.",
+        "text": "You can feel the heat transfer from a fire and from the Sun. Similarly, you can sometimes tell that the oven is hot without touching its door or looking inside—it may just warm you as you walk by. The space between the Earth and the Sun is largely empty, without any possibility of heat transfer by convection or conduction. In these examples, heat is transferred by radiation. That is, the hot body emits electromagnetic waves that are absorbed by our skin: no medium is required for electromagnetic waves to propagate. Different names are used for electromagnetic waves of different wavelengths: radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "All objects absorb and emit electromagnetic radiation. The rate of heat transfer by radiation is largely determined by the color of the object. Black is the most effective, and white is the least effective. People living in hot climates generally avoid wearing black clothing, for instance. Similarly, black asphalt in a parking lot will be hotter than adjacent gray sidewalk on a summer day, because black absorbs better than gray. The reverse is also true—black radiates better than gray. Thus, on a clear summer night, the asphalt will be colder than the gray sidewalk, because black radiates the energy more rapidly than gray. An *ideal radiator* is the same color as an *ideal absorber* , and captures all the radiation that falls on it. In contrast, white is a poor absorber and is also a poor radiator. A white object reflects all radiation, like a mirror. (A perfect, polished white surface is mirror-like in appearance, and a crushed mirror looks white.)",
+        "text": "All objects absorb and emit electromagnetic radiation. The rate of heat transfer by radiation is largely determined by the color of the object. Black is the most effective, and white is the least effective. People living in hot climates generally avoid wearing black clothing, for instance. Similarly, black asphalt in a parking lot will be hotter than adjacent gray sidewalk on a summer day, because black absorbs better than gray. The reverse is also true—black radiates better than gray. Thus, on a clear summer night, the asphalt will be colder than the gray sidewalk, because black radiates the energy more rapidly than gray. An *ideal radiator* is the same color as an *ideal absorber*, and captures all the radiation that falls on it. In contrast, white is a poor absorber and is also a poor radiator. A white object reflects all radiation, like a mirror. (A perfect, polished white surface is mirror-like in appearance, and a crushed mirror looks white.)",
         "inline": []
       },
       "level": "core"
@@ -128,7 +128,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The rate of heat transfer by emitted radiation is determined by the Stefan-Boltzmann law of radiation :",
+        "text": "The rate of heat transfer by emitted radiation is determined by the Stefan-Boltzmann law of radiation: $\\frac{Q}{t}=σeA{T}^{4},$",
         "inline": []
       },
       "level": "core"
@@ -137,7 +137,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where $σ=5.67×{10}^{-8}J/s\\cdot {m}^{2}\\cdot {K}^{4}$ is the Stefan-Boltzmann constant, $A$ is the surface area of the object, and $T$ is its absolute temperature in kelvin. The symbol $e$ stands for the emissivity of the object, which is a measure of how well it radiates. An ideal jet-black (or black body) radiator has $e=1$ , whereas a perfect reflector has $e=0$ . Real objects fall between these two values. Take, for example, tungsten light bulb filaments which have an $e$ of about $0.5$ , and carbon black (a material used in printer toner), which has the (greatest known) emissivity of about $0.99$ .",
+        "text": "where $σ=5.67\\times {10}^{-8} J/s\\cdot {m}^{2}\\cdot {K}^{4}$ is the Stefan-Boltzmann constant, $A$ is the surface area of the object, and $T$ is its absolute temperature in kelvin. The symbol $e$ stands for the emissivity of the object, which is a measure of how well it radiates. An ideal jet-black (or black body) radiator has $e=1$, whereas a perfect reflector has $e=0$. Real objects fall between these two values. Take, for example, tungsten light bulb filaments which have an $e$ of about $0.5$, and carbon black (a material used in printer toner), which has the (greatest known) emissivity of about $0.99$.",
         "inline": []
       },
       "level": "core"
@@ -168,7 +168,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Skin is a remarkably good absorber and emitter of infrared radiation, having an emissivity of 0.97 in the infrared spectrum. Thus, we are all nearly (jet) black in the infrared, in spite of the obvious variations in skin color. This high infrared emissivity is why we can so easily feel radiation on our skin. It is also the basis for the use of night scopes used by law enforcement and the military to detect human beings. Even small temperature variations can be detected because of the ${T}^{4}$ dependence. Images, called *thermographs* , can be used medically to detect regions of abnormally high temperature in the body, perhaps indicative of disease. Similar techniques can be used to detect heat leaks in homes , optimize performance of blast furnaces, improve comfort levels in work environments, and even remotely map the Earth’s temperature profile.",
+        "text": "Skin is a remarkably good absorber and emitter of infrared radiation, having an emissivity of 0.97 in the infrared spectrum. Thus, we are all nearly (jet) black in the infrared, in spite of the obvious variations in skin color. This high infrared emissivity is why we can so easily feel radiation on our skin. It is also the basis for the use of night scopes used by law enforcement and the military to detect human beings. Even small temperature variations can be detected because of the ${T}^{4}$ dependence. Images, called *thermographs*, can be used medically to detect regions of abnormally high temperature in the body, perhaps indicative of disease. Similar techniques can be used to detect heat leaks in homes the figure, optimize performance of blast furnaces, improve comfort levels in work environments, and even remotely map the Earth’s temperature profile.",
         "inline": []
       },
       "level": "core"
@@ -177,7 +177,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "All objects emit and absorb radiation. The *net* rate of heat transfer by radiation (absorption minus emission) is related to both the temperature of the object and the temperature of its surroundings. Assuming that an object with a temperature ${T}_{1}$ is surrounded by an environment with uniform temperature ${T}_{2}$ , the net rate of heat transfer by radiation is",
+        "text": "All objects emit and absorb radiation. The *net* rate of heat transfer by radiation (absorption minus emission) is related to both the temperature of the object and the temperature of its surroundings. Assuming that an object with a temperature ${T}_{1}$ is surrounded by an environment with uniform temperature ${T}_{2}$, the net rate of heat transfer by radiation is $\\frac{{Q}_{net}}{t}=σeA({T}_{2}^{4}-{T}_{1}^{4}),$",
         "inline": []
       },
       "level": "core"
@@ -186,7 +186,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "where $e$ is the emissivity of the object alone. In other words, it does not matter whether the surroundings are white, gray, or black; the balance of radiation into and out of the object depends on how well it emits and absorbs radiation. When ${T}_{2}>{T}_{1}$ , the quantity ${Q}_{net}/t$ is positive; that is, the net heat transfer is from hot to cold.",
+        "text": "where $e$ is the emissivity of the object alone. In other words, it does not matter whether the surroundings are white, gray, or black; the balance of radiation into and out of the object depends on how well it emits and absorbs radiation. When ${T}_{2}>{T}_{1}$, the quantity ${Q}_{net}/t$ is positive; that is, the net heat transfer is from hot to cold.",
         "inline": []
       },
       "level": "core"
@@ -219,7 +219,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "What is the rate of heat transfer by radiation, with an unclothed person standing in a dark room whose ambient temperature is $22.0ºC$ . The person has a normal skin temperature of $33.0ºC$ and a surface area of $1.50{m}^{2}$ . The emissivity of skin is 0.97 in the infrared, where the radiation takes place.",
+        "text": "What is the rate of heat transfer by radiation, with an unclothed person standing in a dark room whose ambient temperature is $22.0ºC$. The person has a normal skin temperature of $33.0ºC$ and a surface area of $1.50 {m}^{2}$. The emissivity of skin is 0.97 in the infrared, where the radiation takes place.",
         "inline": []
       },
       "level": "core"
@@ -237,7 +237,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Insert the temperatures values ${T}_{2}=295 K$ and ${T}_{1}=306 K$ , so that",
+        "text": "Insert the temperatures values ${T}_{2}=295 K$ and ${T}_{1}=306 K$, so that $\\frac{Q}{t}=σeA({T}_{2}^{4}-{T}_{1}^{4})$ $=(5.67\\times {10}^{-8}J/s\\cdot {m}^{2}\\cdot {K}^{4})(0.97)(1.50{m}^{2})[{(295K)}^{4}-{(306 K)}^{4}]$ $=-99J/s=-99 W.$",
         "inline": []
       },
       "level": "core"
@@ -255,7 +255,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The Earth receives almost all its energy from radiation of the Sun and reflects some of it back into outer space. Because the Sun is hotter than the Earth, the net energy flux is from the Sun to the Earth. However, the rate of energy transfer is less than the equation for the radiative heat transfer would predict because the Sun does not fill the sky. The average emissivity ( $e$ ) of the Earth is about 0.65, but the calculation of this value is complicated by the fact that the highly reflective cloud coverage varies greatly from day to day. There is a negative feedback (one in which a change produces an effect that opposes that change) between clouds and heat transfer; greater temperatures evaporate more water to form more clouds, which reflect more radiation back into space, reducing the temperature. The often mentioned greenhouse effect is directly related to the variation of the Earth’s emissivity with radiation type (see the figure given below). The greenhouse effect is a natural phenomenon responsible for providing temperatures suitable for life on Earth. The Earth’s relatively constant temperature is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by carbon dioxide ( ${CO}_{2}$ ) and water ( ${H}_{2}O$ ) in the atmosphere and then re-radiated back to the Earth or into outer space. Re-radiation back to the Earth maintains its surface temperature about $40ºC$ higher than it would be if there was no atmosphere, similar to the way glass increases temperatures in a greenhouse.",
+        "text": "The Earth receives almost all its energy from radiation of the Sun and reflects some of it back into outer space. Because the Sun is hotter than the Earth, the net energy flux is from the Sun to the Earth. However, the rate of energy transfer is less than the equation for the radiative heat transfer would predict because the Sun does not fill the sky. The average emissivity ($e$) of the Earth is about 0.65, but the calculation of this value is complicated by the fact that the highly reflective cloud coverage varies greatly from day to day. There is a negative feedback (one in which a change produces an effect that opposes that change) between clouds and heat transfer; greater temperatures evaporate more water to form more clouds, which reflect more radiation back into space, reducing the temperature. The often mentioned greenhouse effect is directly related to the variation of the Earth’s emissivity with radiation type (see the figure given below). The greenhouse effect is a natural phenomenon responsible for providing temperatures suitable for life on Earth. The Earth’s relatively constant temperature is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by carbon dioxide (${CO}_{2}$) and water (${H}_{2}O$) in the atmosphere and then re-radiated back to the Earth or into outer space. Re-radiation back to the Earth maintains its surface temperature about $40ºC$ higher than it would be if there was no atmosphere, similar to the way glass increases temperatures in a greenhouse.",
         "inline": []
       },
       "level": "core"
@@ -317,7 +317,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Conversely, dark space is very cold, about $3K(−454ºF)$ , so that the Earth radiates energy into the dark sky. Owing to the fact that clouds have lower emissivity than either oceans or land masses, they reflect some of the radiation back to the surface, greatly reducing heat transfer into dark space, just as they greatly reduce heat transfer into the atmosphere during the day. The rate of heat transfer from soil and grasses can be so rapid that frost may occur on clear summer evenings, even in warm latitudes.",
+        "text": "Conversely, dark space is very cold, about $3K(−454ºF)$, so that the Earth radiates energy into the dark sky. Owing to the fact that clouds have lower emissivity than either oceans or land masses, they reflect some of the radiation back to the surface, greatly reducing heat transfer into dark space, just as they greatly reduce heat transfer into the atmosphere during the day. The rate of heat transfer from soil and grasses can be so rapid that frost may occur on clear summer evenings, even in warm latitudes.",
         "inline": []
       },
       "level": "core"
@@ -327,7 +327,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the change in the rate of the radiated heat by a body at the temperature ${T}_{1}=20ºC$ compared to when the body is at the temperature ${T}_{2}=40ºC$ ?",
+        "text": "What is the change in the rate of the radiated heat by a body at the temperature ${T}_{1}=20ºC$ compared to when the body is at the temperature ${T}_{2}=40ºC$?",
         "inline": []
       },
       "level": "core",
@@ -431,7 +431,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "where $σ=5.67×{10}^{-8}J/s\\cdot {m}^{2}\\cdot {K}^{4}$ is the Stefan-Boltzmann constant and $e$ is the emissivity of the body. For a black body, $e=1$ whereas a shiny white or perfect reflector has $e=0$ , with real objects having values of $e$ between 1 and 0. The net rate of heat transfer by radiation is",
+        "text": "where $σ=5.67\\times {10}^{-8} J/s\\cdot {m}^{2}\\cdot {K}^{4}$ is the Stefan-Boltzmann constant and $e$ is the emissivity of the body. For a black body, $e=1$ whereas a shiny white or perfect reflector has $e=0$, with real objects having values of $e$ between 1 and 0. The net rate of heat transfer by radiation is $\\frac{{Q}_{net}}{t}=σeA({T}_{2}^{4}-{T}_{1}^{4})$",
         "inline": []
       },
       "level": "core"
@@ -440,7 +440,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "where ${T}_{1}$ is the temperature of an object surrounded by an environment with uniform temperature ${T}_{2}$ and $e$ is the emissivity of the *object* .",
+        "text": "where ${T}_{1}$ is the temperature of an object surrounded by an environment with uniform temperature ${T}_{2}$ and $e$ is the emissivity of the *object*.",
         "inline": []
       },
       "level": "core"
@@ -573,7 +573,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At what net rate does heat radiate from a $275{-m}^{2}$ black roof on a night when the roof’s temperature is $30.0ºC$ and the surrounding temperature is $15.0ºC$ ? The emissivity of the roof is 0.900.",
+        "text": "At what net rate does heat radiate from a $275{-m}^{2}$ black roof on a night when the roof’s temperature is $30.0ºC$ and the surrounding temperature is $15.0ºC$? The emissivity of the roof is 0.900.",
         "inline": []
       },
       "level": "core",
@@ -606,7 +606,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Cherry-red embers in a fireplace are at $850ºC$ and have an exposed area of $0.200{m}^{2}$ and an emissivity of 0.980. The surrounding room has a temperature of $18.0ºC$ . If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?",
+        "text": "(a) Cherry-red embers in a fireplace are at $850ºC$ and have an exposed area of $0.200 {m}^{2}$ and an emissivity of 0.980. The surrounding room has a temperature of $18.0ºC$. If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?",
         "inline": []
       },
       "level": "core",
@@ -627,7 +627,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Radiation makes it impossible to stand close to a hot lava flow. Calculate the rate of heat transfer by radiation from $1.00{m}^{2}$ of $1200ºC$ fresh lava into $30.0ºC$ surroundings, assuming lava’s emissivity is 1.00.",
+        "text": "Radiation makes it impossible to stand close to a hot lava flow. Calculate the rate of heat transfer by radiation from $1.00 {m}^{2}$ of $1200ºC$ fresh lava into $30.0ºC$ surroundings, assuming lava’s emissivity is 1.00.",
         "inline": []
       },
       "level": "core",
@@ -651,7 +651,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the rate of heat transfer by radiation from a car radiator at $110°C$ into a $50.0ºC$ environment, if the radiator has an emissivity of 0.750 and a $1.20{-m}^{2}$ surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of $200hp(1.5kW)$ and the efficiency of automobile engines as 25%.",
+        "text": "(a) Calculate the rate of heat transfer by radiation from a car radiator at $110°C$ into a $50.0ºC$ environment, if the radiator has an emissivity of 0.750 and a $1.20{-m}^{2}$ surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of $200 hp (1.5 kW)$ and the efficiency of automobile engines as 25%.",
         "inline": []
       },
       "level": "core",
@@ -672,7 +672,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the net rate of heat transfer by radiation from a skier standing in the shade, given the following. She is completely clothed in white (head to foot, including a ski mask), the clothes have an emissivity of 0.200 and a surface temperature of $10.0ºC$ , the surroundings are at $-15.0ºC$ , and her surface area is $1.60{m}^{2}$ .",
+        "text": "Find the net rate of heat transfer by radiation from a skier standing in the shade, given the following. She is completely clothed in white (head to foot, including a ski mask), the clothes have an emissivity of 0.200 and a surface temperature of $10.0ºC$, the surroundings are at $-15.0ºC$, and her surface area is $1.60 {m}^{2}$.",
         "inline": []
       },
       "level": "core",
@@ -696,7 +696,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you walk into a sauna that has an ambient temperature of $50.0ºC$ . (a) Calculate the rate of heat transfer to you by radiation given your skin temperature is $37.0ºC$ , the emissivity of skin is 0.98, and the surface area of your body is $1.50{m}^{2}$ . (b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?",
+        "text": "Suppose you walk into a sauna that has an ambient temperature of $50.0ºC$. (a) Calculate the rate of heat transfer to you by radiation given your skin temperature is $37.0ºC$, the emissivity of skin is 0.98, and the surface area of your body is $1.50 {m}^{2}$. (b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?",
         "inline": []
       },
       "level": "core",
@@ -717,7 +717,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Thermography is a technique for measuring radiant heat and detecting variations in surface temperatures that may be medically, environmentally, or militarily meaningful.(a) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $34.0ºC$ compared with that at $33.0ºC$ , such as on a person’s skin? (b) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $34.0ºC$ compared with that at $20.0ºC$ , such as for warm and cool automobile hoods? Artist’s rendition of a thermograph of a patient’s upper body, showing the distribution of heat represented by different colors.",
+        "text": "Thermography is a technique for measuring radiant heat and detecting variations in surface temperatures that may be medically, environmentally, or militarily meaningful.(a) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $34.0ºC$ compared with that at $33.0ºC$, such as on a person’s skin? (b) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $34.0ºC$ compared with that at $20.0ºC$, such as for warm and cool automobile hoods?",
         "inline": []
       },
       "level": "core",
@@ -754,7 +754,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) Calculate the surface temperature of the Sun, given that it is a sphere with a $7.00×{10}^{8}-m$ radius that radiates $3.80×{10}^{26}W$ into 3-K space. (b) How much power does the Sun radiate per square meter of its surface? (c) How much power in watts per square meter is that value at the distance of Earth, $1.50×{10}^{11}m$ away? (This number is called the solar constant.)",
+        "text": "The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) Calculate the surface temperature of the Sun, given that it is a sphere with a $7.00\\times {10}^{8}-m$ radius that radiates $3.80\\times {10}^{26}W$ into 3-K space. (b) How much power does the Sun radiate per square meter of its surface? (c) How much power in watts per square meter is that value at the distance of Earth, $1.50\\times {10}^{11}m$ away? (This number is called the solar constant.)",
         "inline": []
       },
       "level": "core",
@@ -775,7 +775,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A large body of lava from a volcano has stopped flowing and is slowly cooling. The interior of the lava is at $1200ºC$ , its surface is at $450ºC$ , and the surroundings are at $27.0ºC$ . (a) Calculate the rate at which energy is transferred by radiation from $1.00{m}^{2}$ of surface lava into the surroundings, assuming the emissivity is 1.00. (b) Suppose heat conduction to the surface occurs at the same rate. What is the thickness of the lava between the $450ºC$ surface and the $1200ºC$ interior, assuming that the lava’s conductivity is the same as that of brick?",
+        "text": "A large body of lava from a volcano has stopped flowing and is slowly cooling. The interior of the lava is at $1200ºC$, its surface is at $450ºC$, and the surroundings are at $27.0ºC$. (a) Calculate the rate at which energy is transferred by radiation from $1.00 {m}^{2}$ of surface lava into the surroundings, assuming the emissivity is 1.00. (b) Suppose heat conduction to the surface occurs at the same rate. What is the thickness of the lava between the $450ºC$ surface and the $1200ºC$ interior, assuming that the lava’s conductivity is the same as that of brick?",
         "inline": []
       },
       "level": "core",
@@ -799,7 +799,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at $1000{W/m}^{2}$ —about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of $27.0ºC$ .",
+        "text": "Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at $1000 {W/m}^{2}$ —about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of $27.0ºC$.",
         "inline": []
       },
       "level": "core",
@@ -820,7 +820,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) A shirtless rider under a circus tent feels the heat radiating from the sunlit portion of the tent. Calculate the temperature of the tent canvas based on the following information: The shirtless rider’s skin temperature is $34.0ºC$ and has an emissivity of 0.970. The exposed area of skin is $0.400{m}^{2}$ . He receives radiation at the rate of 20.0 W—half what you would calculate if the entire region behind him was hot. The rest of the surroundings are at $34.0ºC$ . (b) Discuss how this situation would change if the sunlit side of the tent was nearly pure white and if the rider was covered by a white tunic.",
+        "text": "(a) A shirtless rider under a circus tent feels the heat radiating from the sunlit portion of the tent. Calculate the temperature of the tent canvas based on the following information: The shirtless rider’s skin temperature is $34.0ºC$ and has an emissivity of 0.970. The exposed area of skin is $0.400 {m}^{2}$. He receives radiation at the rate of 20.0 W—half what you would calculate if the entire region behind him was hot. The rest of the surroundings are at $34.0ºC$. (b) Discuss how this situation would change if the sunlit side of the tent was nearly pure white and if the rider was covered by a white tunic.",
         "inline": []
       },
       "level": "core",
@@ -853,7 +853,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts One $30.0ºC$ day the relative humidity is $75.0%$ , and that evening the temperature drops to $20.0ºC$ , well below the dew point. (a) How many grams of water condense from each cubic meter of air? (b) How much heat transfer occurs by this condensation? (c) What temperature increase could this cause in dry air?",
+        "text": "Integrated Concepts One $30.0ºC$ day the relative humidity is $75.0%$, and that evening the temperature drops to $20.0ºC$, well below the dew point. (a) How many grams of water condense from each cubic meter of air? (b) How much heat transfer occurs by this condensation? (c) What temperature increase could this cause in dry air?",
         "inline": []
       },
       "level": "core",
@@ -928,7 +928,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) A large electrical power facility produces 1600 MW of “waste heat,” which is dissipated to the environment in cooling towers by warming air flowing through the towers by $5.00ºC$ . What is the necessary flow rate of air in ${m}^{3}/s$ ? (b) Is your result consistent with the large cooling towers used by many large electrical power plants?",
+        "text": "Integrated Concepts (a) A large electrical power facility produces 1600 MW of “waste heat,” which is dissipated to the environment in cooling towers by warming air flowing through the towers by $5.00ºC$. What is the necessary flow rate of air in ${m}^{3}/s$? (b) Is your result consistent with the large cooling towers used by many large electrical power plants?",
         "inline": []
       },
       "level": "core",
@@ -970,7 +970,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) Suppose you start a workout on a Stairmaster, producing power at the same rate as climbing 116 stairs per minute. Assuming your mass is 76.0 kg and your efficiency is $20.0%$ , how long will it take for your body temperature to rise $1.00ºC$ if all other forms of heat transfer in and out of your body are balanced? (b) Is this consistent with your experience in getting warm while exercising?",
+        "text": "Integrated Concepts (a) Suppose you start a workout on a Stairmaster, producing power at the same rate as climbing 116 stairs per minute. Assuming your mass is 76.0 kg and your efficiency is $20.0%$, how long will it take for your body temperature to rise $1.00ºC$ if all other forms of heat transfer in and out of your body are balanced? (b) Is this consistent with your experience in getting warm while exercising?",
         "inline": []
       },
       "level": "core",
@@ -1015,7 +1015,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts In certain large geographic regions, the underlying rock is hot. Wells can be drilled and water circulated through the rock for heat transfer for the generation of electricity. (a) Calculate the heat transfer that can be extracted by cooling $1.00{km}^{3}$ of granite by $100ºC$ . (b) How long will this take if heat is transferred at a rate of 300 MW, assuming no heat transfers back into the 1.00 km of rock by its surroundings?",
+        "text": "Integrated Concepts In certain large geographic regions, the underlying rock is hot. Wells can be drilled and water circulated through the rock for heat transfer for the generation of electricity. (a) Calculate the heat transfer that can be extracted by cooling $1.00 {km}^{3}$ of granite by $100ºC$. (b) How long will this take if heat is transferred at a rate of 300 MW, assuming no heat transfers back into the 1.00 km of rock by its surroundings?",
         "inline": []
       },
       "level": "core",
@@ -1036,7 +1036,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Heat transfers from your lungs and breathing passages by evaporating water. (a) Calculate the maximum number of grams of water that can be evaporated when you inhale 1.50 L of $37ºC$ air with an original relative humidity of 40.0%. (Assume that body temperature is also $37ºC$ .) (b) How many joules of energy are required to evaporate this amount? (c) What is the rate of heat transfer in watts from this method, if you breathe at a normal resting rate of 10.0 breaths per minute?",
+        "text": "Integrated Concepts Heat transfers from your lungs and breathing passages by evaporating water. (a) Calculate the maximum number of grams of water that can be evaporated when you inhale 1.50 L of $37ºC$ air with an original relative humidity of 40.0%. (Assume that body temperature is also $37ºC$.) (b) How many joules of energy are required to evaporate this amount? (c) What is the rate of heat transfer in watts from this method, if you breathe at a normal resting rate of 10.0 breaths per minute?",
         "inline": []
       },
       "level": "core",
@@ -1081,7 +1081,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Hot air rises because it has expanded. It then displaces a greater volume of cold air, which increases the buoyant force on it. (a) Calculate the ratio of the buoyant force to the weight of $50.0ºC$ air surrounded by $20.0ºC$ air. (b) What energy is needed to cause $1.00{m}^{3}$ of air to go from $20.0ºC$ to $50.0ºC$ ? (c) What gravitational potential energy is gained by this volume of air if it rises 1.00 m? Will this cause a significant cooling of the air?",
+        "text": "Integrated Concepts Hot air rises because it has expanded. It then displaces a greater volume of cold air, which increases the buoyant force on it. (a) Calculate the ratio of the buoyant force to the weight of $50.0ºC$ air surrounded by $20.0ºC$ air. (b) What energy is needed to cause $1.00 {m}^{3}$ of air to go from $20.0ºC$ to $50.0ºC$? (c) What gravitational potential energy is gained by this volume of air if it rises 1.00 m? Will this cause a significant cooling of the air?",
         "inline": []
       },
       "level": "core",
@@ -1204,7 +1204,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results (a) Calculate the rate of heat transfer by conduction through a window with an area of $1.00{m}^{2}$ that is 0.750 cm thick, if its inner surface is at $22.0ºC$ and its outer surface is at $35.0ºC$ . (b) What is unreasonable about this result? (c) Which premise or assumption is responsible?",
+        "text": "Unreasonable Results (a) Calculate the rate of heat transfer by conduction through a window with an area of $1.00 {m}^{2}$ that is 0.750 cm thick, if its inner surface is at $22.0ºC$ and its outer surface is at $35.0ºC$. (b) What is unreasonable about this result? (c) Which premise or assumption is responsible?",
         "inline": []
       },
       "level": "core",

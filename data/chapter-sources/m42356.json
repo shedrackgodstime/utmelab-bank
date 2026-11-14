@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Most circuits have more than one component, called a resistor that limits the flow of charge in the circuit. A measure of this limit on charge flow is called resistance . The simplest combinations of resistors are the series and parallel connections illustrated in . The total resistance of a combination of resistors depends on both their individual values and how they are connected.",
+        "text": "Most circuits have more than one component, called a resistor that limits the flow of charge in the circuit. A measure of this limit on charge flow is called resistance. The simplest combinations of resistors are the series and parallel connections illustrated in the figure. The total resistance of a combination of resistors depends on both their individual values and how they are connected.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "When are resistors in series ? Resistors are in series whenever the flow of charge, called the current , must flow through devices sequentially. For example, if current flows through a person holding a screwdriver and into the Earth, then ${R}_{1}$ in (a) could be the resistance of the screwdriver’s shaft, ${R}_{2}$ the resistance of its handle, ${R}_{3}$ the person’s body resistance, and ${R}_{4}$ the resistance of her shoes.",
+        "text": "When are resistors in series? Resistors are in series whenever the flow of charge, called the current, must flow through devices sequentially. For example, if current flows through a person holding a screwdriver and into the Earth, then ${R}_{1}$ in the figure (a) could be the resistance of the screwdriver’s shaft, ${R}_{2}$ the resistance of its handle, ${R}_{3}$ the person’s body resistance, and ${R}_{4}$ the resistance of her shoes.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "shows resistors in series connected to a voltage source. It seems reasonable that the total resistance is the sum of the individual resistances, considering that the current has to pass through each resistor in sequence. (This fact would be an advantage to a person wishing to avoid an electrical shock, who could reduce the current by wearing high-resistance rubber-soled shoes. It could be a disadvantage if one of the resistances were a faulty high-resistance cord to an appliance that would reduce the operating current.)",
+        "text": "The figure shows resistors in series connected to a voltage source. It seems reasonable that the total resistance is the sum of the individual resistances, considering that the current has to pass through each resistor in sequence. (This fact would be an advantage to a person wishing to avoid an electrical shock, who could reduce the current by wearing high-resistance rubber-soled shoes. It could be a disadvantage if one of the resistances were a faulty high-resistance cord to an appliance that would reduce the operating current.)",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "To verify that resistances in series do indeed add, let us consider the loss of electrical power, called a voltage drop , in each resistor in .",
+        "text": "To verify that resistances in series do indeed add, let us consider the loss of electrical power, called a voltage drop, in each resistor in the figure.",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "According to Ohm’s law , the voltage drop, $V$ , across a resistor when a current flows through it is calculated using the equation $V=IR$ , where $I$ equals the current in amps (A) and $R$ is the resistance in ohms $(Ω)$ . Another way to think of this is that $V$ is the voltage necessary to make a current $I$ flow through a resistance $R$ .",
+        "text": "According to Ohm’s law, the voltage drop, $V$, across a resistor when a current flows through it is calculated using the equation $V=IR$, where $I$ equals the current in amps (A) and $R$ is the resistance in ohms $(Ω)$. Another way to think of this is that $V$ is the voltage necessary to make a current $I$ flow through a resistance $R$.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "So the voltage drop across ${R}_{1}$ is ${V}_{1}={IR}_{1}$ , that across ${R}_{2}$ is ${V}_{2}={IR}_{2}$ , and that across ${R}_{3}$ is ${V}_{3}={IR}_{3}$ . The sum of these voltages equals the voltage output of the source; that is,",
+        "text": "So the voltage drop across ${R}_{1}$ is ${V}_{1}={IR}_{1}$, that across ${R}_{2}$ is ${V}_{2}={IR}_{2}$, and that across ${R}_{3}$ is ${V}_{3}={IR}_{3}$. The sum of these voltages equals the voltage output of the source; that is, $V={V}_{1}+{V}_{2}+{V}_{3}.$",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "This equation is based on the conservation of energy and conservation of charge. Electrical potential energy can be described by the equation $PE=qV$ , where $q$ is the electric charge and $V$ is the voltage. Thus the energy supplied by the source is $qV$ , while that dissipated by the resistors is",
+        "text": "This equation is based on the conservation of energy and conservation of charge. Electrical potential energy can be described by the equation $PE=qV$, where $q$ is the electric charge and $V$ is the voltage. Thus the energy supplied by the source is $qV$, while that dissipated by the resistors is ${qV}_{1}+{qV}_{2}+{qV}_{3}.$",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "These energies must be equal, because there is no other source and no other destination for energy in the circuit. Thus, $qV={qV}_{1}+{qV}_{2}+{qV}_{3}$ . The charge $q$ cancels, yielding $V={V}_{1}+{V}_{2}+{V}_{3}$ , as stated. (Note that the same amount of charge passes through the battery and each resistor in a given amount of time, since there is no capacitance to store charge, there is no place for charge to leak, and charge is conserved.)",
+        "text": "These energies must be equal, because there is no other source and no other destination for energy in the circuit. Thus, $qV={qV}_{1}+{qV}_{2}+{qV}_{3}$. The charge $q$ cancels, yielding $V={V}_{1}+{V}_{2}+{V}_{3}$, as stated. (Note that the same amount of charge passes through the battery and each resistor in a given amount of time, since there is no capacitance to store charge, there is no place for charge to leak, and charge is conserved.)",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Now substituting the values for the individual voltages gives",
+        "text": "Now substituting the values for the individual voltages gives $V={IR}_{1}+{IR}_{2}+{IR}_{3}=I({R}_{1}+{R}_{2}+{R}_{3}).$",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Note that for the equivalent single series resistance ${R}_{s}$ , we have",
+        "text": "Note that for the equivalent single series resistance ${R}_{s}$, we have $V={IR}_{s}.$",
         "inline": []
       },
       "level": "core"
@@ -165,7 +165,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "This implies that the total or equivalent series resistance ${R}_{s}$ of three resistors is ${R}_{s}={R}_{1}+{R}_{2}+{R}_{3}$ .",
+        "text": "This implies that the total or equivalent series resistance ${R}_{s}$ of three resistors is ${R}_{s}={R}_{1}+{R}_{2}+{R}_{3}$.",
         "inline": []
       },
       "level": "core"
@@ -174,7 +174,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "This logic is valid in general for any number of resistors in series; thus, the total resistance ${R}_{s}$ of a series connection is",
+        "text": "This logic is valid in general for any number of resistors in series; thus, the total resistance ${R}_{s}$ of a series connection is ${R}_{s}={R}_{1}+{R}_{2}+{R}_{3}+...,$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Suppose the voltage output of the battery in is $12.0V$ , and the resistances are ${R}_{1}=1.00Ω$ , ${R}_{2}=6.00Ω$ , and ${R}_{3}=13.0Ω$ . (a) What is the total resistance? (b) Find the current. (c) Calculate the voltage drop in each resistor, and show these add to equal the voltage output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.",
+        "text": "Suppose the voltage output of the battery in the figure is $12.0 V$, and the resistances are ${R}_{1}=1.00 Ω$, ${R}_{2}=6.00 Ω$, and ${R}_{3}=13.0 Ω$. (a) What is the total resistance? (b) Find the current. (c) Calculate the voltage drop in each resistor, and show these add to equal the voltage output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "The total resistance is simply the sum of the individual resistances, as given by this equation:",
+        "text": "The total resistance is simply the sum of the individual resistances, as given by this equation: ${R}_{s} = {R}_{1} + {R}_{2} + {R}_{3} = 1.00 Ω + 6.00 Ω + 13.0 Ω = 20.0 Ω.$",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "The current is found using Ohm’s law, $V=IR$ . Entering the value of the applied voltage and the total resistance yields the current for the circuit:",
+        "text": "The current is found using Ohm’s law, $V=IR$. Entering the value of the applied voltage and the total resistance yields the current for the circuit: $I=\\frac{V}{{R}_{s}}=\\frac{12.0 V}{20.0 Ω}=0.600 A.$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The voltage—or $IR$ drop—in a resistor is given by Ohm’s law. Entering the current and the value of the first resistance yields",
+        "text": "The voltage—or $IR$ drop—in a resistor is given by Ohm’s law. Entering the current and the value of the first resistance yields ${V}_{1}={IR}_{1}=(0.600 A)(1.0 Ω)=0.600 V.$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The three $IR$ drops add to $12.0V$ , as predicted:",
+        "text": "The three $IR$ drops add to $12.0 V$, as predicted: ${V}_{1}+{V}_{2}+{V}_{3}=(0.600+3.60+7.80) V=12.0 V.$",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The easiest way to calculate power in watts (W) dissipated by a resistor in a DC circuit is to use Joule’s law , $P=IV$ , where $P$ is electric power. In this case, each resistor has the same full current flowing through it. By substituting Ohm’s law $V=IR$ into Joule’s law, we get the power dissipated by the first resistor as",
+        "text": "The easiest way to calculate power in watts (W) dissipated by a resistor in a DC circuit is to use Joule’s law, $P=IV$, where $P$ is electric power. In this case, each resistor has the same full current flowing through it. By substituting Ohm’s law $V=IR$ into Joule’s law, we get the power dissipated by the first resistor as ${P}_{1}={I}^{2}{R}_{1}=(0.600 A{)}^{2}(1.00 Ω)=0.360 W.$",
         "inline": []
       },
       "level": "core"
@@ -297,7 +297,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Power can also be calculated using either $P=IV$ or $P=\\frac{{V}^{2}}{R}$ , where $V$ is the voltage drop across the resistor (not the full voltage of the source). The same values will be obtained.",
+        "text": "Power can also be calculated using either $P=IV$ or $P=\\frac{{V}^{2}}{R}$, where $V$ is the voltage drop across the resistor (not the full voltage of the source). The same values will be obtained.",
         "inline": []
       },
       "level": "core"
@@ -315,7 +315,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "The easiest way to calculate power output of the source is to use $P=IV$ , where $V$ is the source voltage. This gives",
+        "text": "The easiest way to calculate power output of the source is to use $P=IV$, where $V$ is the source voltage. This gives $P=(0.600 A)(12.0 V)=7.20 W.$",
         "inline": []
       },
       "level": "core"
@@ -324,7 +324,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Note, coincidentally, that the total power dissipated by the resistors is also 7.20 W, the same as the power put out by the source. That is,",
+        "text": "Note, coincidentally, that the total power dissipated by the resistors is also 7.20 W, the same as the power put out by the source. That is, ${P}_{1}+{P}_{2}+{P}_{3}=(0.360+2.16+4.68) W=7.20 W.$",
         "inline": []
       },
       "level": "core"
@@ -351,7 +351,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "shows resistors in parallel , wired to a voltage source. Resistors are in parallel when each resistor is connected directly to the voltage source by connecting wires having negligible resistance. Each resistor thus has the full voltage of the source applied to it.",
+        "text": "The figure shows resistors in parallel, wired to a voltage source. Resistors are in parallel when each resistor is connected directly to the voltage source by connecting wires having negligible resistance. Each resistor thus has the full voltage of the source applied to it.",
         "inline": []
       },
       "level": "core"
@@ -360,7 +360,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Each resistor draws the same current it would if it alone were connected to the voltage source (provided the voltage source is not overloaded). For example, an automobile’s headlights, radio, and so on, are wired in parallel, so that they utilize the full voltage of the source and can operate completely independently. The same is true in your house, or any building. (See (b).)",
+        "text": "Each resistor draws the same current it would if it alone were connected to the voltage source (provided the voltage source is not overloaded). For example, an automobile’s headlights, radio, and so on, are wired in parallel, so that they utilize the full voltage of the source and can operate completely independently. The same is true in your house, or any building. (See the figure (b).)",
         "inline": []
       },
       "level": "core"
@@ -382,7 +382,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "To find an expression for the equivalent parallel resistance ${R}_{p}$ , let us consider the currents that flow and how they are related to resistance. Since each resistor in the circuit has the full voltage, the currents flowing through the individual resistors are ${I}_{1}=\\frac{V}{{R}_{1}}$ , ${I}_{2}=\\frac{V}{{R}_{2}}$ , and ${I}_{3}=\\frac{V}{{R}_{3}}$ . Conservation of charge implies that the total current $I$ produced by the source is the sum of these currents:",
+        "text": "To find an expression for the equivalent parallel resistance ${R}_{p}$, let us consider the currents that flow and how they are related to resistance. Since each resistor in the circuit has the full voltage, the currents flowing through the individual resistors are ${I}_{1}=\\frac{V}{{R}_{1}}$, ${I}_{2}=\\frac{V}{{R}_{2}}$, and ${I}_{3}=\\frac{V}{{R}_{3}}$. Conservation of charge implies that the total current $I$ produced by the source is the sum of these currents: $I={I}_{1}+{I}_{2}+{I}_{3}.$",
         "inline": []
       },
       "level": "core"
@@ -391,7 +391,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the expressions for the individual currents gives",
+        "text": "Substituting the expressions for the individual currents gives $I=\\frac{V}{{R}_{1}}+\\frac{V}{{R}_{2}}+\\frac{V}{{R}_{3}}=V(\\frac{1}{{R}_{1}}+\\frac{1}{{R}_{2}}+\\frac{1}{{R}_{3}}).$",
         "inline": []
       },
       "level": "core"
@@ -400,7 +400,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "Note that Ohm’s law for the equivalent single resistance gives",
+        "text": "Note that Ohm’s law for the equivalent single resistance gives $I=\\frac{V}{{R}_{p}}=V(\\frac{1}{{R}_{p}}).$",
         "inline": []
       },
       "level": "core"
@@ -409,7 +409,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "The terms inside the parentheses in the last two equations must be equal. Generalizing to any number of resistors, the total resistance ${R}_{p}$ of a parallel connection is related to the individual resistances by",
+        "text": "The terms inside the parentheses in the last two equations must be equal. Generalizing to any number of resistors, the total resistance ${R}_{p}$ of a parallel connection is related to the individual resistances by $\\frac{1}{{R}_{p}}=\\frac{1}{{R}_{1}}+\\frac{1}{{R}_{2}}+\\frac{1}{{R}_{.3}}+....$",
         "inline": []
       },
       "level": "core"
@@ -442,7 +442,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Let the voltage output of the battery and resistances in the parallel connection in be the same as the previously considered series connection: $V=12.0V$ , ${R}_{1}=1.00Ω$ , ${R}_{2}=6.00Ω$ , and ${R}_{3}=13.0Ω$ . (a) What is the total resistance? (b) Find the total current. (c) Calculate the currents in each resistor, and show these add to equal the total current output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.",
+        "text": "Let the voltage output of the battery and resistances in the parallel connection in the figure be the same as the previously considered series connection: $V=12.0 V$, ${R}_{1}=1.00 Ω$, ${R}_{2}=6.00 Ω$, and ${R}_{3}=13.0 Ω$. (a) What is the total resistance? (b) Find the total current. (c) Calculate the currents in each resistor, and show these add to equal the total current output of the source. (d) Calculate the power dissipated by each resistor. (e) Find the power output of the source, and show that it equals the total power dissipated by the resistors.",
         "inline": []
       },
       "level": "core"
@@ -460,7 +460,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The total resistance for a parallel combination of resistors is found using the equation below. Entering known values gives",
+        "text": "The total resistance for a parallel combination of resistors is found using the equation below. Entering known values gives $\\frac{1}{{R}_{p}}=\\frac{1}{{R}_{1}}+\\frac{1}{{R}_{2}}+\\frac{1}{{R}_{3}}=\\frac{1}{1.00 Ω}+\\frac{1}{6.00 Ω}+\\frac{1}{13.0 Ω}.$",
         "inline": []
       },
       "level": "core"
@@ -478,7 +478,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "We must invert this to find the total resistance ${R}_{p}$ . This yields",
+        "text": "We must invert this to find the total resistance ${R}_{p}$. This yields ${R}_{p}=\\frac{1}{1.2436}Ω=0.8041 Ω.$",
         "inline": []
       },
       "level": "core"
@@ -487,7 +487,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "The total resistance with the correct number of significant digits is ${R}_{p}=0.804Ω.$",
+        "text": "The total resistance with the correct number of significant digits is ${R}_{p}=0.804 Ω.$",
         "inline": []
       },
       "level": "core"
@@ -514,7 +514,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "The total current can be found from Ohm’s law, substituting ${R}_{p}$ for the total resistance. This gives",
+        "text": "The total current can be found from Ohm’s law, substituting ${R}_{p}$ for the total resistance. This gives $I=\\frac{V}{{R}_{p}}=\\frac{12.0 V}{0.8041 Ω}=14.92 A.$",
         "inline": []
       },
       "level": "core"
@@ -541,7 +541,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "The individual currents are easily calculated from Ohm’s law, since each resistor gets the full voltage. Thus,",
+        "text": "The individual currents are easily calculated from Ohm’s law, since each resistor gets the full voltage. Thus, ${I}_{1}=\\frac{V}{{R}_{1}}=\\frac{12.0 V}{1.00 Ω}=12.0 A.$",
         "inline": []
       },
       "level": "core"
@@ -550,7 +550,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "The total current is the sum of the individual currents:",
+        "text": "The total current is the sum of the individual currents: ${I}_{1}+{I}_{2}+{I}_{3}=14.92 A.$",
         "inline": []
       },
       "level": "core"
@@ -577,7 +577,7 @@
       "id": "p-60",
       "type": "paragraph",
       "content": {
-        "text": "The power dissipated by each resistor can be found using any of the equations relating power to current, voltage, and resistance, since all three are known. Let us use $P=\\frac{{V}^{2}}{R}$ , since each resistor gets full voltage. Thus,",
+        "text": "The power dissipated by each resistor can be found using any of the equations relating power to current, voltage, and resistance, since all three are known. Let us use $P=\\frac{{V}^{2}}{R}$, since each resistor gets full voltage. Thus, ${P}_{1}=\\frac{{V}^{2}}{{R}_{1}}=\\frac{(12.0 V{)}^{2}}{1.00 Ω}=144 W.$",
         "inline": []
       },
       "level": "core"
@@ -604,7 +604,7 @@
       "id": "p-63",
       "type": "paragraph",
       "content": {
-        "text": "The total power can also be calculated in several ways. Choosing $P=IV$ , and entering the total current, yields",
+        "text": "The total power can also be calculated in several ways. Choosing $P=IV$, and entering the total current, yields $P=IV=(14.92 A)(12.0 V)=179 W.$",
         "inline": []
       },
       "level": "core"
@@ -613,7 +613,7 @@
       "id": "p-64",
       "type": "paragraph",
       "content": {
-        "text": "Total power dissipated by the resistors is also 179 W:",
+        "text": "Total power dissipated by the resistors is also 179 W: ${P}_{1}+{P}_{2}+{P}_{3}=144 W+24.0 W+11.1 W=179 W.$",
         "inline": []
       },
       "level": "core"
@@ -658,7 +658,7 @@
       "id": "p-69",
       "type": "paragraph",
       "content": {
-        "text": "Combinations of series and parallel can be reduced to a single equivalent resistance using the technique illustrated in . Various parts are identified as either series or parallel, reduced to their equivalents, and further reduced until a single resistance is left. The process is more time consuming than difficult.",
+        "text": "Combinations of series and parallel can be reduced to a single equivalent resistance using the technique illustrated in the figure. Various parts are identified as either series or parallel, reduced to their equivalents, and further reduced until a single resistance is left. The process is more time consuming than difficult.",
         "inline": []
       },
       "level": "core"
@@ -680,7 +680,7 @@
       "id": "p-71",
       "type": "paragraph",
       "content": {
-        "text": "The simplest combination of series and parallel resistance, shown in , is also the most instructive, since it is found in many applications. For example, ${R}_{1}$ could be the resistance of wires from a car battery to its electrical devices, which are in parallel. ${R}_{2}$ and ${R}_{3}$ could be the starter motor and a passenger compartment light. We have previously assumed that wire resistance is negligible, but, when it is not, it has important effects, as the next example indicates.",
+        "text": "The simplest combination of series and parallel resistance, shown in the figure, is also the most instructive, since it is found in many applications. For example, ${R}_{1}$ could be the resistance of wires from a car battery to its electrical devices, which are in parallel. ${R}_{2}$ and ${R}_{3}$ could be the starter motor and a passenger compartment light. We have previously assumed that wire resistance is negligible, but, when it is not, it has important effects, as the next example indicates.",
         "inline": []
       },
       "level": "core"
@@ -704,7 +704,7 @@
       "id": "p-73",
       "type": "paragraph",
       "content": {
-        "text": "shows the resistors from the previous two examples wired in a different way—a combination of series and parallel. We can consider ${R}_{1}$ to be the resistance of wires leading to ${R}_{2}$ and ${R}_{3}$ . (a) Find the total resistance. (b) What is the $IR$ drop in ${R}_{1}$ ? (c) Find the current ${I}_{2}$ through ${R}_{2}$ . (d) What power is dissipated by ${R}_{2}$ ?",
+        "text": "The figure shows the resistors from the previous two examples wired in a different way—a combination of series and parallel. We can consider ${R}_{1}$ to be the resistance of wires leading to ${R}_{2}$ and ${R}_{3}$. (a) Find the total resistance. (b) What is the $IR$ drop in ${R}_{1}$? (c) Find the current ${I}_{2}$ through ${R}_{2}$. (d) What power is dissipated by ${R}_{2}$?",
         "inline": []
       },
       "level": "core"
@@ -735,7 +735,7 @@
       "id": "p-76",
       "type": "paragraph",
       "content": {
-        "text": "To find the total resistance, we note that ${R}_{2}$ and ${R}_{3}$ are in parallel and their combination ${R}_{p}$ is in series with ${R}_{1}$ . Thus the total (equivalent) resistance of this combination is",
+        "text": "To find the total resistance, we note that ${R}_{2}$ and ${R}_{3}$ are in parallel and their combination ${R}_{p}$ is in series with ${R}_{1}$. Thus the total (equivalent) resistance of this combination is ${R}_{tot}={R}_{1}+{R}_{p}.$",
         "inline": []
       },
       "level": "core"
@@ -744,7 +744,7 @@
       "id": "p-77",
       "type": "paragraph",
       "content": {
-        "text": "First, we find ${R}_{p}$ using the equation for resistors in parallel and entering known values:",
+        "text": "First, we find ${R}_{p}$ using the equation for resistors in parallel and entering known values: $\\frac{1}{{R}_{p}}=\\frac{1}{{R}_{2}}+\\frac{1}{{R}_{3}}=\\frac{1}{6.00 Ω}+\\frac{1}{13.0 Ω}=\\frac{0.2436}{Ω}.$",
         "inline": []
       },
       "level": "core"
@@ -753,7 +753,7 @@
       "id": "p-78",
       "type": "paragraph",
       "content": {
-        "text": "So the total resistance is",
+        "text": "So the total resistance is ${R}_{tot}={R}_{1}+{R}_{p}=1.00 Ω+4.11 Ω=5.11 Ω.$",
         "inline": []
       },
       "level": "core"
@@ -762,7 +762,7 @@
       "id": "p-79",
       "type": "paragraph",
       "content": {
-        "text": "The total resistance of this combination is intermediate between the pure series and pure parallel values ( $20.0 Ω$ and $0.804 Ω$ , respectively) found for the same resistors in the two previous examples.",
+        "text": "The total resistance of this combination is intermediate between the pure series and pure parallel values ($20.0 Ω$ and $0.804 Ω$, respectively) found for the same resistors in the two previous examples.",
         "inline": []
       },
       "level": "core"
@@ -780,7 +780,7 @@
       "id": "p-81",
       "type": "paragraph",
       "content": {
-        "text": "To find the $IR$ drop in ${R}_{1}$ , we note that the full current $I$ flows through ${R}_{1}$ . Thus its $IR$ drop is",
+        "text": "To find the $IR$ drop in ${R}_{1}$, we note that the full current $I$ flows through ${R}_{1}$. Thus its $IR$ drop is ${V}_{1}={IR}_{1}.$",
         "inline": []
       },
       "level": "core"
@@ -789,7 +789,7 @@
       "id": "p-82",
       "type": "paragraph",
       "content": {
-        "text": "We must find $I$ before we can calculate ${V}_{1}$ . The total current $I$ is found using Ohm’s law for the circuit. That is,",
+        "text": "We must find $I$ before we can calculate ${V}_{1}$. The total current $I$ is found using Ohm’s law for the circuit. That is, $I=\\frac{V}{{R}_{tot}}=\\frac{12.0 V}{5.11 Ω}=2.35 A.$",
         "inline": []
       },
       "level": "core"
@@ -798,7 +798,7 @@
       "id": "p-83",
       "type": "paragraph",
       "content": {
-        "text": "Entering this into the expression above, we get",
+        "text": "Entering this into the expression above, we get ${V}_{1}={IR}_{1}=(2.35 A)(1.00 Ω)=2.35 V.$",
         "inline": []
       },
       "level": "core"
@@ -807,7 +807,7 @@
       "id": "p-84",
       "type": "paragraph",
       "content": {
-        "text": "The voltage applied to ${R}_{2}$ and ${R}_{3}$ is less than the total voltage by an amount ${V}_{1}$ . When wire resistance is large, it can significantly affect the operation of the devices represented by ${R}_{2}$ and ${R}_{3}$ .",
+        "text": "The voltage applied to ${R}_{2}$ and ${R}_{3}$ is less than the total voltage by an amount ${V}_{1}$. When wire resistance is large, it can significantly affect the operation of the devices represented by ${R}_{2}$ and ${R}_{3}$.",
         "inline": []
       },
       "level": "core"
@@ -825,7 +825,7 @@
       "id": "p-86",
       "type": "paragraph",
       "content": {
-        "text": "To find the current through ${R}_{2}$ , we must first find the voltage applied to it. We call this voltage ${V}_{p}$ , because it is applied to a parallel combination of resistors. The voltage applied to both ${R}_{2}$ and ${R}_{3}$ is reduced by the amount ${V}_{1}$ , and so it is",
+        "text": "To find the current through ${R}_{2}$, we must first find the voltage applied to it. We call this voltage ${V}_{p}$, because it is applied to a parallel combination of resistors. The voltage applied to both ${R}_{2}$ and ${R}_{3}$ is reduced by the amount ${V}_{1}$, and so it is ${V}_{p}=V-{V}_{1}=12.0 V-2.35 V=9.65 V.$",
         "inline": []
       },
       "level": "core"
@@ -834,7 +834,7 @@
       "id": "p-87",
       "type": "paragraph",
       "content": {
-        "text": "Now the current ${I}_{2}$ through resistance ${R}_{2}$ is found using Ohm’s law:",
+        "text": "Now the current ${I}_{2}$ through resistance ${R}_{2}$ is found using Ohm’s law: ${I}_{2}=\\frac{{V}_{p}}{{R}_{2}}=\\frac{9.65 V}{6.00 Ω}=1.61 A.$",
         "inline": []
       },
       "level": "core"
@@ -861,7 +861,7 @@
       "id": "p-90",
       "type": "paragraph",
       "content": {
-        "text": "The power dissipated by ${R}_{2}$ is given by",
+        "text": "The power dissipated by ${R}_{2}$ is given by ${P}_{2}=({I}_{2}{)}^{2}{R}_{2}=(1.61 A{)}^{2}(6.00 Ω)=15.5 W.$",
         "inline": []
       },
       "level": "core"
@@ -906,7 +906,7 @@
       "id": "p-95",
       "type": "paragraph",
       "content": {
-        "text": "What is happening in these high-current situations is illustrated in . The device represented by ${R}_{3}$ has a very low resistance, and so when it is switched on, a large current flows. This increased current causes a larger $IR$ drop in the wires represented by ${R}_{1}$ , reducing the voltage across the light bulb (which is ${R}_{2}$ ), which then dims noticeably.",
+        "text": "What is happening in these high-current situations is illustrated in the figure. The device represented by ${R}_{3}$ has a very low resistance, and so when it is switched on, a large current flows. This increased current causes a larger $IR$ drop in the wires represented by ${R}_{1}$, reducing the voltage across the light bulb (which is ${R}_{2}$), which then dims noticeably.",
         "inline": []
       },
       "level": "core"
@@ -971,7 +971,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The figure above shows a circuit containing two batteries and three identical resistors with resistance *R* . Which of the following changes to the circuit will result in an increase in the current at point *P* ? Select *two* answers. Reversing the connections to the 14 V battery.; Removing the 2 V battery and connecting the wires to close the left loop.; Rearranging the resistors so all three are in series.; Removing the branch containing resistor *Z* .",
+        "text": "The figure above shows a circuit containing two batteries and three identical resistors with resistance *R*. Which of the following changes to the circuit will result in an increase in the current at point *P*? Select *two* answers. Reversing the connections to the 14 V battery.; Removing the 2 V battery and connecting the wires to close the left loop.; Rearranging the resistors so all three are in series.; Removing the branch containing resistor *Z*.",
         "inline": []
       },
       "level": "core",
@@ -1053,7 +1053,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two resistors, with resistances *R* and 2 *R* are connected to a voltage source as shown in this figure. If the power dissipated in *R* is 10 W, what is the power dissipated in 2 *R* ? 1 W; 2.5 W; 5 W; 10 W",
+        "text": "Two resistors, with resistances *R* and 2 *R* are connected to a voltage source as shown in this figure. If the power dissipated in *R* is 10 W, what is the power dissipated in 2 *R*? 1 W; 2.5 W; 5 W; 10 W",
         "inline": []
       },
       "level": "core",
@@ -1172,7 +1172,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the voltage across the open switch in ?",
+        "text": "What is the voltage across the open switch in the figure?",
         "inline": []
       },
       "level": "core",
@@ -1193,7 +1193,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There is a voltage across an open switch, such as in . Why, then, is the power dissipated by the open switch small?",
+        "text": "There is a voltage across an open switch, such as in the figure. Why, then, is the power dissipated by the open switch small?",
         "inline": []
       },
       "level": "core",
@@ -1214,7 +1214,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Why is the power dissipated by a closed switch, such as in , small?",
+        "text": "Why is the power dissipated by a closed switch, such as in the figure, small?",
         "inline": []
       },
       "level": "core",
@@ -1458,7 +1458,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the resistance of a $1.00×{10}^{2}-Ω$ , a $2.50-kΩ$ , and a $4.00-kΩ$ resistor connected in series? (b) In parallel?",
+        "text": "(a) What is the resistance of a $1.00\\times {10}^{2}-Ω$, a $2.50-kΩ$, and a $4.00-kΩ$ resistor connected in series? (b) In parallel?",
         "inline": []
       },
       "level": "core",
@@ -1479,7 +1479,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What are the largest and smallest resistances you can obtain by connecting a $36.0-Ω$ , a $50.0-Ω$ , and a $700-Ω$ resistor together?",
+        "text": "What are the largest and smallest resistances you can obtain by connecting a $36.0-Ω$, a $50.0-Ω$, and a $700-Ω$ resistor together?",
         "inline": []
       },
       "level": "core",
@@ -1569,7 +1569,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to the example combining series and parallel circuits and , calculate ${I}_{3}$ in the following two different ways: (a) from the known values of $I$ and ${I}_{2}$ ; (b) using Ohm’s law for ${R}_{3}$ . In both parts explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors .",
+        "text": "Referring to the example combining series and parallel circuits and the figure, calculate ${I}_{3}$ in the following two different ways: (a) from the known values of $I$ and ${I}_{2}$; (b) using Ohm’s law for ${R}_{3}$. In both parts explicitly show how you follow the steps in the Problem-Solving Strategies for Series and Parallel Resistors.",
         "inline": []
       },
       "level": "core",
@@ -1593,7 +1593,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Referring to : (a) Calculate ${P}_{3}$ and note how it compares with ${P}_{3}$ found in the first two example problems in this module. (b) Find the total power supplied by the source and compare it with the sum of the powers dissipated by the resistors.",
+        "text": "Referring to the figure: (a) Calculate ${P}_{3}$ and note how it compares with ${P}_{3}$ found in the first two example problems in this module. (b) Find the total power supplied by the source and compare it with the sum of the powers dissipated by the resistors.",
         "inline": []
       },
       "level": "core",
@@ -1614,7 +1614,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Refer to and the discussion of lights dimming when a heavy appliance comes on. (a) Given the voltage source is 120 V, the wire resistance is $0.400Ω$ , and the bulb is nominally 75.0 W, what power will the bulb dissipate if a total of 15.0 A passes through the wires when the motor comes on? Assume negligible change in bulb resistance. (b) What power is consumed by the motor?",
+        "text": "Refer to the figure and the discussion of lights dimming when a heavy appliance comes on. (a) Given the voltage source is 120 V, the wire resistance is $0.400 Ω$, and the bulb is nominally 75.0 W, what power will the bulb dissipate if a total of 15.0 A passes through the wires when the motor comes on? Assume negligible change in bulb resistance. (b) What power is consumed by the motor?",
         "inline": []
       },
       "level": "core",
@@ -1672,7 +1672,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that if two resistors ${R}_{1}$ and ${R}_{2}$ are combined and one is much greater than the other ( ${R}_{1}>>{R}_{2}$ ): (a) Their series resistance is very nearly equal to the greater resistance ${R}_{1}$ . (b) Their parallel resistance is very nearly equal to smaller resistance ${R}_{2}$ .",
+        "text": "Show that if two resistors ${R}_{1}$ and ${R}_{2}$ are combined and one is much greater than the other (${R}_{1}>>{R}_{2}$): (a) Their series resistance is very nearly equal to the greater resistance ${R}_{1}$. (b) Their parallel resistance is very nearly equal to smaller resistance ${R}_{2}$.",
         "inline": []
       },
       "level": "core",
@@ -1723,7 +1723,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results Two resistors, one having a resistance of $145Ω$ , are connected in parallel to produce a total resistance of $150Ω$ . (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results Two resistors, one having a resistance of $145 Ω$, are connected in parallel to produce a total resistance of $150 Ω$. (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",
@@ -1753,7 +1753,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results Two resistors, one having a resistance of $900 kΩ$ , are connected in series to produce a total resistance of $0.500 MΩ$ . (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results Two resistors, one having a resistance of $900 kΩ$, are connected in series to produce a total resistance of $0.500 MΩ$. (a) What is the value of the second resistance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",

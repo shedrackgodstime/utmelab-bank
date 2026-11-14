@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Angular momentum is a vector and, therefore, *has direction as well as magnitude* . Torque affects both the direction and the magnitude of angular momentum. What is the direction of the angular momentum of a rotating object like the disk in ? The figure shows the right-hand rule used to find the direction of both angular momentum and angular velocity. Both $L$ and $ω$ are vectors—each has direction and magnitude. Both can be represented by arrows. The right-hand rule defines both to be perpendicular to the plane of rotation in the direction shown. Because angular momentum is related to angular velocity by $L=Iω$ , the direction of $L$ is the same as the direction of $ω$ . Notice in the figure that both point along the axis of rotation.",
+        "text": "Angular momentum is a vector and, therefore, *has direction as well as magnitude*. Torque affects both the direction and the magnitude of angular momentum. What is the direction of the angular momentum of a rotating object like the disk in the figure? The figure shows the right-hand rule used to find the direction of both angular momentum and angular velocity. Both $L$ and $ω$ are vectors—each has direction and magnitude. Both can be represented by arrows. The right-hand rule defines both to be perpendicular to the plane of rotation in the direction shown. Because angular momentum is related to angular velocity by $L=Iω$, the direction of $L$ is the same as the direction of $ω$. Notice in the figure that both point along the axis of rotation.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Now, recall that torque changes angular momentum as expressed by",
+        "text": "Now, recall that torque changes angular momentum as expressed by $net τ=\\frac{ΔL}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "This equation means that the direction of $ΔL$ is the same as the direction of the torque $τ$ that creates it. This result is illustrated in , which shows the direction of torque and the angular momentum it creates.",
+        "text": "This equation means that the direction of $ΔL$ is the same as the direction of the torque $τ$ that creates it. This result is illustrated in the figure, which shows the direction of torque and the angular momentum it creates.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Let us now consider a bicycle wheel with a couple of handles attached to it, as shown in . (This device is popular in demonstrations among physicists, because it does unexpected things.) With the wheel rotating as shown, its angular momentum is to the woman's left. Suppose the person holding the wheel tries to rotate it as in the figure. Her natural expectation is that the wheel will rotate in the direction she pushes it—but what happens is quite different. The forces exerted create a torque that is horizontal toward the person, as shown in (a). This torque creates a change in angular momentum $L$ in the same direction, perpendicular to the original angular momentum $L$ , thus changing the direction of $L$ but not the magnitude of $L$ . shows how $ΔL$ and $L$ add, giving a new angular momentum with direction that is inclined more toward the person than before. The axis of the wheel has thus moved *perpendicular to the forces exerted on it* , instead of in the expected direction.",
+        "text": "Let us now consider a bicycle wheel with a couple of handles attached to it, as shown in the figure. (This device is popular in demonstrations among physicists, because it does unexpected things.) With the wheel rotating as shown, its angular momentum is to the woman's left. Suppose the person holding the wheel tries to rotate it as in the figure. Her natural expectation is that the wheel will rotate in the direction she pushes it—but what happens is quite different. The forces exerted create a torque that is horizontal toward the person, as shown in the figure (a). This torque creates a change in angular momentum $L$ in the same direction, perpendicular to the original angular momentum $L$, thus changing the direction of $L$ but not the magnitude of $L$. The figure shows how $ΔL$ and $L$ add, giving a new angular momentum with direction that is inclined more toward the person than before. The axis of the wheel has thus moved *perpendicular to the forces exerted on it*, instead of in the expected direction.",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "This same logic explains the behavior of gyroscopes. shows the two forces acting on a spinning gyroscope. The torque produced is perpendicular to the angular momentum, thus the direction of the torque is changed, but not its magnitude. The gyroscope *precesses* around a vertical axis, since the torque is always horizontal and perpendicular to $L$ . If the gyroscope is *not* spinning, it acquires angular momentum in the direction of the torque ( $L=ΔL$ ), and it rotates around a horizontal axis, falling over just as we would expect.",
+        "text": "This same logic explains the behavior of gyroscopes. The figure shows the two forces acting on a spinning gyroscope. The torque produced is perpendicular to the angular momentum, thus the direction of the torque is changed, but not its magnitude. The gyroscope *precesses* around a vertical axis, since the torque is always horizontal and perpendicular to $L$. If the gyroscope is *not* spinning, it acquires angular momentum in the direction of the torque ($L=ΔL$), and it rotates around a horizontal axis, falling over just as we would expect.",
         "inline": []
       },
       "level": "core"

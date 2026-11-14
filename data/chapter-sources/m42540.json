@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "For simplicity, we restrict our consideration of velocity addition to one-dimensional motion. Classically, velocities add like regular numbers in one-dimensional motion. (See .) Suppose, for example, a girl is riding in a sled at a speed 1.0 m/s relative to an observer. She throws a snowball first forward, then backward at a speed of 1.5 m/s relative to the sled. We denote direction with plus and minus signs in one dimension; in this example, forward is positive. Let $v$ be the velocity of the sled relative to the Earth, $u$ the velocity of the snowball relative to the Earth-bound observer, and $u′$ the velocity of the snowball relative to the sled.",
+        "text": "For simplicity, we restrict our consideration of velocity addition to one-dimensional motion. Classically, velocities add like regular numbers in one-dimensional motion. (See the figure.) Suppose, for example, a girl is riding in a sled at a speed 1.0 m/s relative to an observer. She throws a snowball first forward, then backward at a speed of 1.5 m/s relative to the sled. We denote direction with plus and minus signs in one dimension; in this example, forward is positive. Let $v$ be the velocity of the sled relative to the Earth, $u$ the velocity of the snowball relative to the Earth-bound observer, and $u′$ the velocity of the snowball relative to the sled.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Thus, when the girl throws the snowball forward, $u=1.0 m/s+1.5 m/s=2.5 m/s$ . It makes good intuitive sense that the snowball will head towards the Earth-bound observer faster, because it is thrown forward from a moving vehicle. When the girl throws the snowball backward, $u=1.0 m/s+(-1.5 m/s)=-0.5 m/s$ . The minus sign means the snowball moves away from the Earth-bound observer.",
+        "text": "Thus, when the girl throws the snowball forward, $u=1.0 m/s+1.5 m/s=2.5 m/s$. It makes good intuitive sense that the snowball will head towards the Earth-bound observer faster, because it is thrown forward from a moving vehicle. When the girl throws the snowball backward, $u=1.0 m/s+(-1.5 m/s)=-0.5 m/s$. The minus sign means the snowball moves away from the Earth-bound observer.",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The second postulate of relativity (verified by extensive experimental observation) says that classical velocity addition does not apply to light. Imagine a car traveling at night along a straight road, as in . If classical velocity addition applied to light, then the light from the car’s headlights would approach the observer on the sidewalk at a speed $u=v+c$ . But we know that light will move away from the car at speed $c$ relative to the driver of the car, and light will move towards the observer on the sidewalk at speed $c$ , too.",
+        "text": "The second postulate of relativity (verified by extensive experimental observation) says that classical velocity addition does not apply to light. Imagine a car traveling at night along a straight road, as in the figure. If classical velocity addition applied to light, then the light from the car’s headlights would approach the observer on the sidewalk at a speed $u=v+c$. But we know that light will move away from the car at speed $c$ relative to the driver of the car, and light will move towards the observer on the sidewalk at speed $c$, too.",
         "inline": []
       },
       "level": "core"
@@ -124,7 +124,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Either light is an exception, or the classical velocity addition formula only works at low velocities. The latter is the case. The correct formula for one-dimensional relativistic velocity addition is",
+        "text": "Either light is an exception, or the classical velocity addition formula only works at low velocities. The latter is the case. The correct formula for one-dimensional relativistic velocity addition is $u=\\frac{v+u'}{1+\\frac{vu′}{{c}^{2}}},$",
         "inline": []
       },
       "level": "core"
@@ -133,7 +133,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where $v$ is the relative velocity between two observers, $u$ is the velocity of an object relative to one observer, and $u′$ is the velocity relative to the other observer. (For ease of visualization, we often choose to measure $u$ in our reference frame, while someone moving at $v$ relative to us measures $u′$ .) Note that the term $\\frac{vu′}{{c}^{2}}$ becomes very small at low velocities, and $u=\\frac{v+u′}{1+\\frac{vu′}{{c}^{2}}}$ gives a result very close to classical velocity addition. As before, we see that classical velocity addition is an excellent approximation to the correct relativistic formula for small velocities. No wonder that it seems correct in our experience.",
+        "text": "where $v$ is the relative velocity between two observers, $u$ is the velocity of an object relative to one observer, and $u′$ is the velocity relative to the other observer. (For ease of visualization, we often choose to measure $u$ in our reference frame, while someone moving at $v$ relative to us measures $u′$.) Note that the term $\\frac{vu′}{{c}^{2}}$ becomes very small at low velocities, and $u=\\frac{v+u′}{1+\\frac{vu′}{{c}^{2}}}$ gives a result very close to classical velocity addition. As before, we see that classical velocity addition is an excellent approximation to the correct relativistic formula for small velocities. No wonder that it seems correct in our experience.",
         "inline": []
       },
       "level": "core"
@@ -188,7 +188,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Relativistic velocity addition gives the correct result. Light leaves the ship at speed $c$ and approaches the Earth at speed $c$ . The speed of light is independent of the relative motion of source and observer, whether the observer is on the ship or Earth-bound.",
+        "text": "Relativistic velocity addition gives the correct result. Light leaves the ship at speed $c$ and approaches the Earth at speed $c$. The speed of light is independent of the relative motion of source and observer, whether the observer is on the ship or Earth-bound.",
         "inline": []
       },
       "level": "core"
@@ -197,7 +197,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Velocities cannot add to greater than the speed of light, provided that $v$ is less than $c$ and $u′$ does not exceed $c$ . The following example illustrates that relativistic velocity addition is not as symmetric as classical velocity addition.",
+        "text": "Velocities cannot add to greater than the speed of light, provided that $v$ is less than $c$ and $u′$ does not exceed $c$. The following example illustrates that relativistic velocity addition is not as symmetric as classical velocity addition.",
         "inline": []
       },
       "level": "core"
@@ -221,7 +221,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of $0.750c$ . (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See .)",
+        "text": "Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of $0.750c$. (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The minus sign indicates velocity away from the Earth (in the opposite direction from $v$ ), which means the canister is heading towards the Earth in part (a) and away in part (b), as expected. But relativistic velocities do not add as simply as they do classically. In part (a), the canister does approach the Earth faster, but not at the simple sum of $1.250c$ . The total velocity is less than you would get classically. And in part (b), the canister moves away from the Earth at a velocity of $-0.400c$ , which is *faster* than the $−0.250c$ you would expect classically. The velocities are not even symmetric. In part (a) the canister moves $0.409c$ faster than the ship relative to the Earth, whereas in part (b) it moves $0.900c$ slower than the ship.",
+        "text": "The minus sign indicates velocity away from the Earth (in the opposite direction from $v$), which means the canister is heading towards the Earth in part (a) and away in part (b), as expected. But relativistic velocities do not add as simply as they do classically. In part (a), the canister does approach the Earth faster, but not at the simple sum of $1.250c$. The total velocity is less than you would get classically. And in part (b), the canister moves away from the Earth at a velocity of $-0.400c$, which is *faster* than the $−0.250c$ you would expect classically. The velocities are not even symmetric. In part (a) the canister moves $0.409c$ faster than the ship relative to the Earth, whereas in part (b) it moves $0.900c$ slower than the ship.",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves towards the observer.",
+        "text": "The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves towards the observer. ${=λ}_{obs}{=λ}_{s}\\sqrt{\\frac{1+\\frac{u}{c}}{1-\\frac{u}{c}}}.$",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "In the Doppler equation, ${λ}_{obs}$ is the observed wavelength, ${λ}_{s}$ is the source wavelength, and $u$ is the relative velocity of the source to the observer. The velocity $u$ is positive for motion away from an observer and negative for motion toward an observer. In terms of source frequency and observed frequency, this equation can be written",
+        "text": "In the Doppler equation, ${λ}_{obs}$ is the observed wavelength, ${λ}_{s}$ is the source wavelength, and $u$ is the relative velocity of the source to the observer. The velocity $u$ is positive for motion away from an observer and negative for motion toward an observer. In terms of source frequency and observed frequency, this equation can be written ${f}_{obs}{=f}_{s}\\sqrt{\\frac{1-\\frac{u}{c}}{1+\\frac{u}{c}}}.$",
         "inline": []
       },
       "level": "core"
@@ -330,7 +330,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Suppose a galaxy is moving away from the Earth at a speed $0.825c$ . It emits radio waves with a wavelength of $0.525m$ . What wavelength would we detect on the Earth?",
+        "text": "Suppose a galaxy is moving away from the Earth at a speed $0.825c$. It emits radio waves with a wavelength of $0.525 m$. What wavelength would we detect on the Earth?",
         "inline": []
       },
       "level": "core"
@@ -367,7 +367,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose a space probe moves away from the Earth at a speed $0.350c$ . It sends a radio wave message back to the Earth at a frequency of 1.50 GHz. At what frequency is the message received on the Earth?",
+        "text": "Suppose a space probe moves away from the Earth at a speed $0.350c$. It sends a radio wave message back to the Earth at a frequency of 1.50 GHz. At what frequency is the message received on the Earth?",
         "inline": []
       },
       "level": "core",
@@ -400,7 +400,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What happens when velocities comparable to the speed of light are involved in an observation? Newton’s second law of motion, $F=ma$ , governs the motion of the object.; Newton’s second law of motion, $F=ma$ , no longer governs the dynamics of the object.; Such velocities cannot be determined mathematically.; None of the above",
+        "text": "What happens when velocities comparable to the speed of light are involved in an observation? Newton’s second law of motion, $F=ma$, governs the motion of the object.; Newton’s second law of motion, $F=ma$, no longer governs the dynamics of the object.; Such velocities cannot be determined mathematically.; None of the above",
         "inline": []
       },
       "level": "core",
@@ -535,7 +535,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "All galaxies farther away than about $50×{10}^{6}ly$ exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)",
+        "text": "All galaxies farther away than about $50\\times {10}^{6} ly$ exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)",
         "inline": []
       },
       "level": "core",
@@ -634,7 +634,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Suppose the speed of light were only $3000 m/s$ . A jet fighter moving toward a target on the ground at $800 m/s$ shoots bullets, each having a muzzle velocity of $1000 m/s$ . What are the bullets’ velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.",
+        "text": "(a) Suppose the speed of light were only $3000 m/s$. A jet fighter moving toward a target on the ground at $800 m/s$ shoots bullets, each having a muzzle velocity of $1000 m/s$. What are the bullets’ velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.",
         "inline": []
       },
       "level": "core",
@@ -709,7 +709,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If two spaceships are heading directly towards each other at $0.800c$ , at what speed must a canister be shot from the first ship to approach the other at $0.999c$ as seen by the second ship?",
+        "text": "If two spaceships are heading directly towards each other at $0.800c$, at what speed must a canister be shot from the first ship to approach the other at $0.999c$ as seen by the second ship?",
         "inline": []
       },
       "level": "core",
@@ -733,7 +733,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two planets are on a collision course, heading directly towards each other at $0.250c$ . A spaceship sent from one planet approaches the second at $0.750c$ as seen by the second planet. What is the velocity of the ship relative to the first planet?",
+        "text": "Two planets are on a collision course, heading directly towards each other at $0.250c$. A spaceship sent from one planet approaches the second at $0.750c$ as seen by the second planet. What is the velocity of the ship relative to the first planet?",
         "inline": []
       },
       "level": "core",
@@ -754,7 +754,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "When a missile is shot from one spaceship towards another, it leaves the first at $0.950c$ and approaches the other at $0.750c$ . What is the relative velocity of the two ships?",
+        "text": "When a missile is shot from one spaceship towards another, it leaves the first at $0.950c$ and approaches the other at $0.750c$. What is the relative velocity of the two ships?",
         "inline": []
       },
       "level": "core",
@@ -778,7 +778,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the relative velocity of two spaceships if one fires a missile at the other at $0.750c$ and the other observes it to approach at $0.950c$ ?",
+        "text": "What is the relative velocity of two spaceships if one fires a missile at the other at $0.750c$ and the other observes it to approach at $0.950c$?",
         "inline": []
       },
       "level": "core",
@@ -844,7 +844,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Prove that for any relative velocity $v$ between two observers, a beam of light sent from one to the other will approach at speed $c$ (provided that $v$ is less than $c$ , of course).",
+        "text": "Prove that for any relative velocity $v$ between two observers, a beam of light sent from one to the other will approach at speed $c$ (provided that $v$ is less than $c$, of course).",
         "inline": []
       },
       "level": "core",
@@ -877,7 +877,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that for any relative velocity $v$ between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that $v$ is less than $c$ , of course).",
+        "text": "Show that for any relative velocity $v$ between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that $v$ is less than $c$, of course).",
         "inline": []
       },
       "level": "core",
@@ -898,7 +898,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy $12.0×{10}^{9}ly$ ly away is receding from us at 0. $0.900c$ , at what velocity relative to us must we send an exploratory probe to approach the other galaxy at $0.990c$ , as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)",
+        "text": "(a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy $12.0\\times {10}^{9} ly$ ly away is receding from us at 0. $0.900c$, at what velocity relative to us must we send an exploratory probe to approach the other galaxy at $0.990c$, as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)",
         "inline": []
       },
       "level": "core",

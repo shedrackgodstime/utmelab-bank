@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "We start with the elastic collision of two objects moving along the same line—a one-dimensional problem. An elastic collision is one that also conserves internal kinetic energy. Internal kinetic energy is the sum of the kinetic energies of the objects in the system. illustrates an elastic collision in which internal kinetic energy and momentum are conserved.",
+        "text": "We start with the elastic collision of two objects moving along the same line—a one-dimensional problem. An elastic collision is one that also conserves internal kinetic energy. Internal kinetic energy is the sum of the kinetic energies of the objects in the system. The figure illustrates an elastic collision in which internal kinetic energy and momentum are conserved.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Now, to solve problems involving one-dimensional elastic collisions between two objects we can use the equations for conservation of momentum and conservation of internal kinetic energy. First, the equation for conservation of momentum for two objects in a one-dimensional collision is",
+        "text": "Now, to solve problems involving one-dimensional elastic collisions between two objects we can use the equations for conservation of momentum and conservation of internal kinetic energy. First, the equation for conservation of momentum for two objects in a one-dimensional collision is ${p}_{1}+{p}_{2}={p′}_{1}+{p′}_{2} ({F}_{net}=0)$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where the primes (') indicate values after the collision. By definition, an elastic collision conserves internal kinetic energy, and so the sum of kinetic energies before the collision equals the sum after the collision. Thus,",
+        "text": "where the primes (') indicate values after the collision. By definition, an elastic collision conserves internal kinetic energy, and so the sum of kinetic energies before the collision equals the sum after the collision. Thus, $\\frac{1}{2}{m}_{1}{{v}_{1}}^{2}+\\frac{1}{2}{m}_{2}{{v}_{2}}^{2}=\\frac{1}{2}{m}_{1}{{v′}_{1}}^{2}+\\frac{1}{2}{m}_{2}{{v′}_{2}}^{2} (two-object elastic collision)$",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the velocities of two objects following an elastic collision, given that",
+        "text": "Calculate the velocities of two objects following an elastic collision, given that ${m}_{1}=0.500 kg, {m}_{2}=3.50 kg, {v}_{1}=4.00 m/s, and {v}_{2}=0.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "First, visualize what the initial conditions mean—a small object strikes a larger object that is initially at rest. This situation is slightly simpler than the situation shown in where both objects are initially moving. We are asked to find two unknowns (the final velocities ${v′}_{1}$ and ${v′}_{2}$ ). To find two unknowns, we must use two independent equations. Because this collision is elastic, we can use the above two equations. Both can be simplified by the fact that object 2 is initially at rest, and thus ${v}_{2}=0$ . Once we simplify these equations, we combine them algebraically to solve for the unknowns.",
+        "text": "First, visualize what the initial conditions mean—a small object strikes a larger object that is initially at rest. This situation is slightly simpler than the situation shown in the figure where both objects are initially moving. We are asked to find two unknowns (the final velocities ${v′}_{1}$ and ${v′}_{2}$). To find two unknowns, we must use two independent equations. Because this collision is elastic, we can use the above two equations. Both can be simplified by the fact that object 2 is initially at rest, and thus ${v}_{2}=0$. Once we simplify these equations, we combine them algebraically to solve for the unknowns.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "For this problem, note that ${v}_{2}=0$ and use conservation of momentum. Thus,",
+        "text": "For this problem, note that ${v}_{2}=0$ and use conservation of momentum. Thus, ${p}_{1}=p′{}_{1}+p′{}_{2}$",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Using conservation of internal kinetic energy and that ${v}_{2}=0$ ,",
+        "text": "Using conservation of internal kinetic energy and that ${v}_{2}=0$, $\\frac{1}{2}{m}_{1}{{v}_{1}}^{2}=\\frac{1}{2}{m}_{1}{v′}_{1}{}^{2}+\\frac{1}{2}{m}_{2}{v′}_{2}{}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Solving the first equation (momentum equation) for ${v′}_{2}$ , we obtain",
+        "text": "Solving the first equation (momentum equation) for ${v′}_{2}$, we obtain ${v′}_{2}=\\frac{{m}_{1}}{{m}_{2}}({v}_{1}-{v′}_{1}).$",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Substituting this expression into the second equation (internal kinetic energy equation) eliminates the variable ${v′}_{2}$ , leaving only ${v′}_{1}$ as an unknown (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in this example, they are",
+        "text": "Substituting this expression into the second equation (internal kinetic energy equation) eliminates the variable ${v′}_{2}$, leaving only ${v′}_{1}$ as an unknown (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in this example, they are ${v′}_{1}=4.00 m/s$",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $({v′}_{1}=-3.00 m/s)$ is negative, meaning that the first object bounces backward. When this negative value of ${v′}_{1}$ is used to find the velocity of the second object after the collision, we get",
+        "text": "As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $({v′}_{1}=-3.00 m/s)$ is negative, meaning that the first object bounces backward. When this negative value of ${v′}_{1}$ is used to find the velocity of the second object after the collision, we get ${v′}_{2}=\\frac{{m}_{1}}{{m}_{2}}({v}_{1}-{v′}_{1})=\\frac{0.500 kg}{3.50 kg}[4.00-(-3.00)] m/s$",
         "inline": []
       },
       "level": "core"
@@ -814,7 +814,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Professional Application Two piloted satellites approach one another at a relative speed of 0.250 m/s, intending to dock. The first has a mass of $4.00×{10}^{3}kg$ , and the second a mass of $7.50×{10}^{3}kg$ . If the two satellites collide elastically rather than dock, what is their final relative velocity?",
+        "text": "Professional Application Two piloted satellites approach one another at a relative speed of 0.250 m/s, intending to dock. The first has a mass of $4.00\\times {10}^{3} kg$, and the second a mass of $7.50\\times {10}^{3} kg$. If the two satellites collide elastically rather than dock, what is their final relative velocity?",
         "inline": []
       },
       "level": "core",

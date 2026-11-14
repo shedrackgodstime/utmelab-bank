@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "The oscillations of a system in which the net force can be described by Hooke’s law are of special importance, because they are very common. They are also the simplest oscillatory systems. Simple Harmonic Motion (SHM) is the name given to oscillatory motion for a system where the net force can be described by Hooke’s law, and such a system is called a simple harmonic oscillator . If the net force can be described by Hooke’s law and there is no *damping* (by friction or other non-conservative forces), then a simple harmonic oscillator will oscillate with equal displacement on either side of the equilibrium position, as shown for an object on a spring in . The maximum displacement from equilibrium is called the amplitude $X$ . The units for amplitude and displacement are the same, but depend on the type of oscillation. For the object on the spring, the units of amplitude and displacement are meters; whereas for sound oscillations, they have units of pressure (and other types of oscillations have yet other units). Because amplitude is the maximum displacement, it is related to the energy in the oscillation.",
+        "text": "The oscillations of a system in which the net force can be described by Hooke’s law are of special importance, because they are very common. They are also the simplest oscillatory systems. Simple Harmonic Motion (SHM) is the name given to oscillatory motion for a system where the net force can be described by Hooke’s law, and such a system is called a simple harmonic oscillator. If the net force can be described by Hooke’s law and there is no *damping* (by friction or other non-conservative forces), then a simple harmonic oscillator will oscillate with equal displacement on either side of the equilibrium position, as shown for an object on a spring in the figure. The maximum displacement from equilibrium is called the amplitude $X$. The units for amplitude and displacement are the same, but depend on the type of oscillation. For the object on the spring, the units of amplitude and displacement are meters; whereas for sound oscillations, they have units of pressure (and other types of oscillations have yet other units). Because amplitude is the maximum displacement, it is related to the energy in the oscillation.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Two important factors do affect the period of a simple harmonic oscillator. The period is related to how stiff the system is. A very stiff object has a large force constant $k$ , which causes the system to have a smaller period. For example, you can adjust a diving board’s stiffness—the stiffer it is, the faster it vibrates, and the shorter its period. Period also depends on the mass of the oscillating system. The more massive the system is, the longer the period. For example, a heavy person on a diving board bounces up and down more slowly than a light one.",
+        "text": "Two important factors do affect the period of a simple harmonic oscillator. The period is related to how stiff the system is. A very stiff object has a large force constant $k$, which causes the system to have a smaller period. For example, you can adjust a diving board’s stiffness—the stiffer it is, the faster it vibrates, and the shorter its period. Period also depends on the mass of the oscillating system. The more massive the system is, the longer the period. For example, a heavy person on a diving board bounces up and down more slowly than a light one.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "The *period of a simple harmonic oscillator* is given by",
+        "text": "The *period of a simple harmonic oscillator* is given by $T=2π\\sqrt{\\frac{m}{k}}$",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "and, because $f=1/T$ , the *frequency of a simple harmonic oscillator* is",
+        "text": "and, because $f=1/T$, the *frequency of a simple harmonic oscillator* is $f=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}.$",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See ). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant ( *$k$* ) of the suspension system is $6.53×{10}^{4}N/m$ .",
+        "text": "If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See the figure). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant (*$k$*) of the suspension system is $6.53\\times {10}^{4} N/m$.",
         "inline": []
       },
       "level": "core"
@@ -158,7 +158,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "The frequency of the car’s oscillations will be that of a simple harmonic oscillator as given in the equation $f=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}$ . The mass and the force constant are both given.",
+        "text": "The frequency of the car’s oscillations will be that of a simple harmonic oscillator as given in the equation $f=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}$. The mass and the force constant are both given.",
         "inline": []
       },
       "level": "core"
@@ -185,7 +185,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in . Similarly, shows an object bouncing on a spring as it leaves a wavelike \"trace\" of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
+        "text": "If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in the figure. Similarly, the figure shows an object bouncing on a spring as it leaves a wavelike \"trace\" of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.",
         "inline": []
       },
       "level": "core"
@@ -220,7 +220,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The displacement as a function of time *t* in any simple harmonic motion—that is, one in which the net restoring force can be described by Hooke’s law, is given by",
+        "text": "The displacement as a function of time *t* in any simple harmonic motion—that is, one in which the net restoring force can be described by Hooke’s law, is given by $x(t)=X cos\\frac{2πt}{T},$",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "where $X$ is amplitude. At $t=0$ , the initial position is ${x}_{0}=X$ , and the displacement oscillates back and forth with a period $T$ *.* (When $t=T$ , we get $x=X$ again because $cos2π=1$ .). Furthermore, from this expression for *$x$* , the velocity $v$ as a function of time is given by:",
+        "text": "where $X$ is amplitude. At $t=0$, the initial position is ${x}_{0}=X$, and the displacement oscillates back and forth with a period $T$ *.* (When $t=T$, we get $x=X$ again because $cos 2π=1$.). Furthermore, from this expression for *$x$*, the velocity $v$ as a function of time is given by: $v(t)=-{v}_{max} sin (\\frac{2πt}{T}),$",
         "inline": []
       },
       "level": "core"
@@ -238,7 +238,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "where ${v}_{max}=2πX/T=X\\sqrt{k/m}$ . The object has zero velocity at maximum displacement—for example, $v=0$ when $t=0$ , and at that time $x=X$ . The minus sign in the first equation for $v(t)$ gives the correct direction for the velocity. Just after the start of the motion, for instance, the velocity is negative because the system is moving back toward the equilibrium point. Finally, we can get an expression for acceleration using Newton’s second law. [Then we have $x(t),v(t),t,$ and $a(t)$ , the quantities needed for kinematics and a description of simple harmonic motion.] According to Newton’s second law, the acceleration is $a=F/m=kx/m$ *.* So, $a(t)$ is also a cosine function:",
+        "text": "where ${v}_{max}=2πX/T=X\\sqrt{k/m}$. The object has zero velocity at maximum displacement—for example, $v=0$ when $t=0$, and at that time $x=X$. The minus sign in the first equation for $v(t)$ gives the correct direction for the velocity. Just after the start of the motion, for instance, the velocity is negative because the system is moving back toward the equilibrium point. Finally, we can get an expression for acceleration using Newton’s second law. [Then we have $x(t), v(t), t,$ and $a(t)$, the quantities needed for kinematics and a description of simple harmonic motion.] According to Newton’s second law, the acceleration is $a=F/m=kx/m$ *.* So, $a(t)$ is also a cosine function: $a(t)=-\\frac{kX}{m}cos\\frac{2πt}{T}.$",
         "inline": []
       },
       "level": "core"
@@ -247,7 +247,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Hence, $a(t)$ is directly proportional to and in the opposite direction to $x(t)$ .",
+        "text": "Hence, $a(t)$ is directly proportional to and in the opposite direction to $x(t)$.",
         "inline": []
       },
       "level": "core"
@@ -256,7 +256,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "shows the simple harmonic motion of an object on a spring and presents graphs of $x(t),v(t),$ and $a(t)$ versus time.",
+        "text": "The figure shows the simple harmonic motion of an object on a spring and presents graphs of $x(t),v(t),$ and $a(t)$ versus time.",
         "inline": []
       },
       "level": "core"
@@ -321,7 +321,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A babysitter is pushing a child on a swing. At the point where the swing reaches $X$ , where would the corresponding point on a wave of this motion be located?",
+        "text": "A babysitter is pushing a child on a swing. At the point where the swing reaches $X$, where would the corresponding point on a wave of this motion be located?",
         "inline": []
       },
       "level": "core",
@@ -353,7 +353,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "A realistic mass and spring laboratory . Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.",
+        "text": "A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.",
         "inline": []
       },
       "level": "core"
@@ -406,7 +406,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A particle of mass 100 g undergoes a simple harmonic motion. The restoring force is provided by a spring with a spring constant of 40 N∙m −1 . What is the period of oscillation? 10π; 0.5π; 0.1π; 1π",
+        "text": "A particle of mass 100 g undergoes a simple harmonic motion. The restoring force is provided by a spring with a spring constant of 40 N∙m −1. What is the period of oscillation? 10π; 0.5π; 0.1π; 1π",
         "inline": []
       },
       "level": "core",
@@ -430,7 +430,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The graph shows the simple harmonic motion of a mass *m* attached to a spring with spring constant *k* . What is the displacement at time 8 *π* ? 1 m; 0 m; Not defined; −1 m",
+        "text": "The graph shows the simple harmonic motion of a mass *m* attached to a spring with spring constant *k*. What is the displacement at time 8 *π*? 1 m; 0 m; Not defined; −1 m",
         "inline": []
       },
       "level": "core",
@@ -473,7 +473,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A pendulum of mass 200 g undergoes simple harmonic motion when acted upon by a force of 15 N. The pendulum crosses the point of equilibrium at a speed of 5 m∙s −1 . What is the energy of the pendulum at the center of the oscillation?",
+        "text": "A pendulum of mass 200 g undergoes simple harmonic motion when acted upon by a force of 15 N. The pendulum crosses the point of equilibrium at a speed of 5 m∙s −1. What is the energy of the pendulum at the center of the oscillation?",
         "inline": []
       },
       "level": "core",
@@ -523,7 +523,7 @@
       "id": "p-50",
       "type": "paragraph",
       "content": {
-        "text": "$T=2π\\sqrt{\\frac{m}{k}}$ and $f=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}$ , where $m$ is the mass of the system.",
+        "text": "$T=2π\\sqrt{\\frac{m}{k}}$ and $f=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}$, where $m$ is the mass of the system.",
         "inline": []
       },
       "level": "core"
@@ -776,7 +776,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you attach the object with mass $m$ to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring’s original rest length. (a) Show that the spring exerts an upward force of $2.00mg$ on the object at its lowest point. (b) If the spring has a force constant of $10.0N/m$ and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity.",
+        "text": "Suppose you attach the object with mass $m$ to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring’s original rest length. (a) Show that the spring exerts an upward force of $2.00 mg$ on the object at its lowest point. (b) If the spring has a force constant of $10.0 N/m$ and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity.",
         "inline": []
       },
       "level": "core",

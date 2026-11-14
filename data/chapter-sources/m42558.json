@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "When light strikes materials, it can eject electrons from them. This is called the photoelectric effect , meaning that light ( *photo* ) produces electricity. One common use of the photoelectric effect is in light meters, such as those that adjust the automatic iris on various types of cameras. In a similar way, another use is in solar cells, as you probably have in your calculator or have seen on a roof top or a roadside sign. These make use of the photoelectric effect to convert light into electricity for running different devices.",
+        "text": "When light strikes materials, it can eject electrons from them. This is called the photoelectric effect, meaning that light (*photo*) produces electricity. One common use of the photoelectric effect is in light meters, such as those that adjust the automatic iris on various types of cameras. In a similar way, another use is in solar cells, as you probably have in your calculator or have seen on a roof top or a roadside sign. These make use of the photoelectric effect to convert light into electricity for running different devices.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "This effect has been known for more than a century and can be studied using a device such as that shown in . This figure shows an evacuated tube with a metal plate and a collector wire that are connected by a variable voltage source, with the collector more negative than the plate. When light (or other EM radiation) strikes the plate in the evacuated tube, it may eject electrons. If the electrons have energy in electron volts (eV) greater than the potential difference between the plate and the wire in volts, some electrons will be collected on the wire. Since the electron energy in eV is $qV$ , where $q$ is the electron charge and $V$ is the potential difference, the electron energy can be measured by adjusting the retarding voltage between the wire and the plate. The voltage that stops the electrons from reaching the wire equals the energy in eV. For example, if $–3.00 V$ barely stops the electrons, their energy is 3.00 eV. The number of electrons ejected can be determined by measuring the current between the wire and plate. The more light, the more electrons; a little circuitry allows this device to be used as a light meter.",
+        "text": "This effect has been known for more than a century and can be studied using a device such as that shown in the figure. This figure shows an evacuated tube with a metal plate and a collector wire that are connected by a variable voltage source, with the collector more negative than the plate. When light (or other EM radiation) strikes the plate in the evacuated tube, it may eject electrons. If the electrons have energy in electron volts (eV) greater than the potential difference between the plate and the wire in volts, some electrons will be collected on the wire. Since the electron energy in eV is $qV$, where $q$ is the electron charge and $V$ is the potential difference, the electron energy can be measured by adjusting the retarding voltage between the wire and the plate. The voltage that stops the electrons from reaching the wire equals the energy in eV. For example, if $–3.00 V$ barely stops the electrons, their energy is 3.00 eV. The number of electrons ejected can be determined by measuring the current between the wire and plate. The more light, the more electrons; a little circuitry allows this device to be used as a light meter.",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "What is really important about the photoelectric effect is what Albert Einstein deduced from it. Einstein realized that there were several characteristics of the photoelectric effect that could be explained only if *EM radiation is itself quantized* : the apparently continuous stream of energy in an EM wave is actually composed of energy quanta called photons. In his explanation of the photoelectric effect, Einstein defined a quantized unit or quantum of EM energy, which we now call a photon , with an energy proportional to the frequency of EM radiation. In equation form, the photon energy is",
+        "text": "What is really important about the photoelectric effect is what Albert Einstein deduced from it. Einstein realized that there were several characteristics of the photoelectric effect that could be explained only if *EM radiation is itself quantized*: the apparently continuous stream of energy in an EM wave is actually composed of energy quanta called photons. In his explanation of the photoelectric effect, Einstein defined a quantized unit or quantum of EM energy, which we now call a photon, with an energy proportional to the frequency of EM radiation. In equation form, the photon energy is $E=hf,$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "where $E$ is the energy of a photon of frequency $f$ and $h$ is Planck’s constant. This revolutionary idea looks similar to Planck’s quantization of energy states in blackbody oscillators, but it is quite different. It is the quantization of EM radiation itself. EM waves are composed of photons and are not continuous smooth waves as described in previous chapters on optics. Their energy is absorbed and emitted in lumps, not continuously. This is exactly consistent with Planck’s quantization of energy levels in blackbody oscillators, since these oscillators increase and decrease their energy in steps of $hf$ by absorbing and emitting photons having $E=hf$ . We do not observe this with our eyes, because there are so many photons in common light sources that individual photons go unnoticed. (See .) The next section of the text ( Photon Energies and the Electromagnetic Spectrum ) is devoted to a discussion of photons and some of their characteristics and implications. For now, we will use the photon concept to explain the photoelectric effect, much as Einstein did.",
+        "text": "where $E$ is the energy of a photon of frequency $f$ and $h$ is Planck’s constant. This revolutionary idea looks similar to Planck’s quantization of energy states in blackbody oscillators, but it is quite different. It is the quantization of EM radiation itself. EM waves are composed of photons and are not continuous smooth waves as described in previous chapters on optics. Their energy is absorbed and emitted in lumps, not continuously. This is exactly consistent with Planck’s quantization of energy levels in blackbody oscillators, since these oscillators increase and decrease their energy in steps of $hf$ by absorbing and emitting photons having $E=hf$. We do not observe this with our eyes, because there are so many photons in common light sources that individual photons go unnoticed. (See the figure.) The next section of the text (Photon Energies and the Electromagnetic Spectrum) is devoted to a discussion of photons and some of their characteristics and implications. For now, we will use the photon concept to explain the photoelectric effect, much as Einstein did.",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The photoelectric effect has the properties discussed below. All these properties are consistent with the idea that individual photons of EM radiation are absorbed by individual electrons in a material, with the electron gaining the photon’s energy. Some of these properties are inconsistent with the idea that EM radiation is a simple wave. For simplicity, let us consider what happens with monochromatic EM radiation in which all photons have the same energy $hf$ .",
+        "text": "The photoelectric effect has the properties discussed below. All these properties are consistent with the idea that individual photons of EM radiation are absorbed by individual electrons in a material, with the electron gaining the photon’s energy. Some of these properties are inconsistent with the idea that EM radiation is a simple wave. For simplicity, let us consider what happens with monochromatic EM radiation in which all photons have the same energy $hf$.",
         "inline": []
       },
       "level": "core"
@@ -148,7 +148,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "To solve part (a), note that the energy of a photon is given by $E=hf$ . For part (b), once the energy of the photon is calculated, it is a straightforward application of ${KE}_{e}=hf–BE$ to find the ejected electron’s maximum kinetic energy, since BE is given.",
+        "text": "To solve part (a), note that the energy of a photon is given by $E=hf$. For part (b), once the energy of the photon is calculated, it is a straightforward application of ${KE}_{e}=hf–BE$ to find the ejected electron’s maximum kinetic energy, since BE is given.",
         "inline": []
       },
       "level": "core"
@@ -157,7 +157,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Photon energy is given by",
+        "text": "Photon energy is given by $E=hf$",
         "inline": []
       },
       "level": "core"
@@ -166,7 +166,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Since we are given the wavelength rather than the frequency, we solve the familiar relationship *$c=fλ$* for the frequency, yielding",
+        "text": "Since we are given the wavelength rather than the frequency, we solve the familiar relationship *$c=fλ$* for the frequency, yielding $f=\\frac{c}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -175,7 +175,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Combining these two equations gives the useful relationship",
+        "text": "Combining these two equations gives the useful relationship $E=\\frac{hc}{λ}.$",
         "inline": []
       },
       "level": "core"
@@ -184,7 +184,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "Now substituting known values yields",
+        "text": "Now substituting known values yields $E=\\frac{(6.63\\times {10}^{–34} J\\cdot s)(3.00\\times {10}^{8} m/s)}{420\\times {10}^{–9} m}=4.74\\times {10}^{–19} J.$",
         "inline": []
       },
       "level": "core"
@@ -193,7 +193,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Converting to eV, the energy of the photon is",
+        "text": "Converting to eV, the energy of the photon is $E=(4.74\\times {10}^{–19} J)\\frac{1 eV}{1.6\\times {10}^{–19} J}=2.96 eV.$",
         "inline": []
       },
       "level": "core"
@@ -202,7 +202,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Finding the kinetic energy of the ejected electron is now a simple application of the equation ${KE}_{e}=hf–BE$ . Substituting the photon energy and binding energy yields",
+        "text": "Finding the kinetic energy of the ejected electron is now a simple application of the equation ${KE}_{e}=hf–BE$. Substituting the photon energy and binding energy yields ${KE}_{e}=hf– BE=2.96 eV – 2.71 eV=0.246 eV.$",
         "inline": []
       },
       "level": "core"
@@ -211,7 +211,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The energy of this 420-nm photon of violet light is a tiny fraction of a joule, and so it is no wonder that a single photon would be difficult for us to sense directly—humans are more attuned to energies on the order of joules. But looking at the energy in electron volts, we can see that this photon has enough energy to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of energy, for example, and typical atomic and molecular energies are on the order of eV, so that the UV photon in this example could have biological effects. The ejected electron (called a *photoelectron* ) has a rather low energy, and it would not travel far, except in a vacuum. The electron would be stopped by a retarding potential of but 0.26 eV. In fact, if the photon wavelength were longer and its energy less than 2.71 eV, then the formula would give a negative kinetic energy, an impossibility. This simply means that the 420-nm photons with their 2.96-eV energy are not much above the frequency threshold. You can show for yourself that the threshold wavelength is 459 nm (blue light). This means that if calcium metal is used in a light meter, the meter will be insensitive to wavelengths longer than those of blue light. Such a light meter would be completely insensitive to red light, for example.",
+        "text": "The energy of this 420-nm photon of violet light is a tiny fraction of a joule, and so it is no wonder that a single photon would be difficult for us to sense directly—humans are more attuned to energies on the order of joules. But looking at the energy in electron volts, we can see that this photon has enough energy to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of energy, for example, and typical atomic and molecular energies are on the order of eV, so that the UV photon in this example could have biological effects. The ejected electron (called a *photoelectron*) has a rather low energy, and it would not travel far, except in a vacuum. The electron would be stopped by a retarding potential of but 0.26 eV. In fact, if the photon wavelength were longer and its energy less than 2.71 eV, then the formula would give a negative kinetic energy, an impossibility. This simply means that the 420-nm photons with their 2.96-eV energy are not much above the frequency threshold. You can show for yourself that the threshold wavelength is 459 nm (blue light). This means that if calcium metal is used in a light meter, the meter will be insensitive to wavelengths longer than those of blue light. Such a light meter would be completely insensitive to red light, for example.",
         "inline": []
       },
       "level": "core"
@@ -229,7 +229,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"

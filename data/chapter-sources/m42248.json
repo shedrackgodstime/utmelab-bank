@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "A wave is a disturbance that propagates, or moves from the place it was created. The simplest waves repeat themselves for several cycles and are associated with simple harmonic motion. Let us start by considering the simplified water wave in *.* The wave is an up and down disturbance of the water surface. It causes a sea gull to move up and down in simple harmonic motion as the wave crests and troughs (peaks and valleys) pass under the bird. The time for one complete up and down motion is the wave’s period $T$ . The wave’s frequency is $f=1/T$ , as usual. The wave itself moves to the right in the figure. This movement of the wave is actually the disturbance moving to the right, not the water itself (or the bird would move to the right). We define wave velocity ${v}_{w}$ to be the speed at which the disturbance moves. Wave velocity is sometimes also called the *propagation velocity or propagation speed* *,* because the disturbance propagates from one location to another.",
+        "text": "A wave is a disturbance that propagates, or moves from the place it was created. The simplest waves repeat themselves for several cycles and are associated with simple harmonic motion. Let us start by considering the simplified water wave in the figure *.* The wave is an up and down disturbance of the water surface. It causes a sea gull to move up and down in simple harmonic motion as the wave crests and troughs (peaks and valleys) pass under the bird. The time for one complete up and down motion is the wave’s period $T$. The wave’s frequency is $f=1/T$, as usual. The wave itself moves to the right in the figure. This movement of the wave is actually the disturbance moving to the right, not the water itself (or the bird would move to the right). We define wave velocity ${v}_{w}$ to be the speed at which the disturbance moves. Wave velocity is sometimes also called the *propagation velocity or propagation speed* *,* because the disturbance propagates from one location to another.",
         "inline": []
       },
       "level": "core"
@@ -84,7 +84,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The water wave in the figure also has a length associated with it, called its wavelength $λ$ , the distance between adjacent identical parts of a wave. ( $λ$ is the distance parallel to the direction of propagation.) The speed of propagation ${v}_{w}$ is the distance the wave travels in a given time, which is one wavelength in the time of one period. In equation form, that is",
+        "text": "The water wave in the figure also has a length associated with it, called its wavelength $λ$, the distance between adjacent identical parts of a wave. ($λ$ is the distance parallel to the direction of propagation.) The speed of propagation ${v}_{w}$ is the distance the wave travels in a given time, which is one wavelength in the time of one period. In equation form, that is ${v}_{w}=\\frac{λ}{T}$",
         "inline": []
       },
       "level": "core"
@@ -126,7 +126,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the wave velocity of the ocean wave in if the distance between wave crests is 10.0 m and the time for a sea gull to bob up and down is 5.00 s.",
+        "text": "Calculate the wave velocity of the ocean wave in the figure if the distance between wave crests is 10.0 m and the time for a sea gull to bob up and down is 5.00 s.",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "We are asked to find ${v}_{w}$ . The given information tells us that $λ=10.0m$ and $T=5.00s$ . Therefore, we can use ${v}_{w}=\\frac{λ}{T}$ to find the wave velocity.",
+        "text": "We are asked to find ${v}_{w}$. The given information tells us that $λ=10.0 m$ and $T=5.00 s$. Therefore, we can use ${v}_{w}=\\frac{λ}{T}$ to find the wave velocity.",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "A simple wave consists of a periodic disturbance that propagates from one place to another. The wave in propagates in the horizontal direction while the surface is disturbed in the vertical direction. Such a wave is called a transverse wave or shear wave; in such a wave, the disturbance is perpendicular to the direction of propagation. In contrast, in a longitudinal wave or compressional wave, the disturbance is parallel to the direction of propagation. shows an example of a longitudinal wave. The size of the disturbance is its amplitude *X* and is completely independent of the speed of propagation ${v}_{w}$ .",
+        "text": "A simple wave consists of a periodic disturbance that propagates from one place to another. The wave in the figure propagates in the horizontal direction while the surface is disturbed in the vertical direction. Such a wave is called a transverse wave or shear wave; in such a wave, the disturbance is perpendicular to the direction of propagation. In contrast, in a longitudinal wave or compressional wave, the disturbance is parallel to the direction of propagation. The figure shows an example of a longitudinal wave. The size of the disturbance is its amplitude *X* and is completely independent of the speed of propagation ${v}_{w}$.",
         "inline": []
       },
       "level": "core"
@@ -197,7 +197,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Waves may be transverse, longitudinal, or *a combination of the two* . (Water waves are actually a combination of transverse and longitudinal. The simplified water wave illustrated in shows no longitudinal motion of the bird.) The waves on the strings of musical instruments are transverse—so are electromagnetic waves, such as visible light.",
+        "text": "Waves may be transverse, longitudinal, or *a combination of the two*. (Water waves are actually a combination of transverse and longitudinal. The simplified water wave illustrated in the figure shows no longitudinal motion of the bird.) The waves on the strings of musical instruments are transverse—so are electromagnetic waves, such as visible light.",
         "inline": []
       },
       "level": "core"
@@ -662,7 +662,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Radio waves transmitted through space at $3.00×{10}^{8}m/s$ by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?",
+        "text": "Radio waves transmitted through space at $3.00\\times {10}^{8} m/s$ by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?",
         "inline": []
       },
       "level": "core",
@@ -707,7 +707,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. ) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.) A seismograph as described in above problem.(credit: Oleg Alexandrov)",
+        "text": "(a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. The figure) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.)",
         "inline": []
       },
       "level": "core",

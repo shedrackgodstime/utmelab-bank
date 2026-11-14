@@ -4,7 +4,8 @@
   "updated_at": "2026-11-12",
   "title": "Electromagnetic Waves",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
+  "order": 24,
   "facts_inherited": true,
   "learning_objectives": [
     {
@@ -58,8 +59,145 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
-  "formula_sheet": [],
+  "prerequisites": [
+    "phy_electric_charge_and_field",
+    "phy_magnetism"
+  ],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$c = f\\lambda$",
+      "caption": {
+        "text": "Speed of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a wave of frequency f and wavelength λ in a vacuum or air.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42444/index.cnxml",
+        "locator": "CNXML module m42444, section “The Electromagnetic Spectrum”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$",
+      "caption": {
+        "text": "Speed of light from Maxwell’s equations",
+        "inline": []
+      },
+      "conditions": {
+        "text": "μ₀ is the permeability and ε₀ the permittivity of free space.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42437/index.cnxml",
+        "locator": "CNXML module m42437, section “Maxwell’s Equations”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$E = cB$",
+      "caption": {
+        "text": "Field amplitudes in an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The electric and magnetic field amplitudes are related by the speed of light.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42440/index.cnxml",
+        "locator": "CNXML module m42440, section “Production of Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$I = \\frac{P}{A}$",
+      "caption": {
+        "text": "Intensity of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Power crossing unit area perpendicular to the direction of travel.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$I = \\frac{1}{2}c\\varepsilon_0 E_0^2$",
+      "caption": {
+        "text": "Intensity and electric field amplitude",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a sinusoidal electromagnetic wave in a vacuum, with peak field E₀.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$u = \\frac{1}{2}\\varepsilon_0 E_0^2$",
+      "caption": {
+        "text": "Average energy density of an electromagnetic wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The energy stored per unit volume, averaged over a cycle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$P_{\\mathrm{rad}} = \\frac{I}{c}$",
+      "caption": {
+        "text": "Radiation pressure for a perfectly absorbing surface",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The pressure exerted by an electromagnetic wave that is completely absorbed.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, section “Energy in Electromagnetic Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -778,7 +916,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "The beauty of a coral reef, the warm radiance of sunshine, the sting of sunburn, the X-ray revealing a broken bone, even microwave popcorn—all are brought to us by electromagnetic waves . The list of the various types of electromagnetic waves, ranging from radio transmission waves to nuclear gamma-ray ( $γ$ -ray) emissions, is interesting in itself.",
+              "text": "The beauty of a coral reef, the warm radiance of sunshine, the sting of sunburn, the X-ray revealing a broken bone, even microwave popcorn—all are brought to us by electromagnetic waves. The list of the various types of electromagnetic waves, ranging from radio transmission waves to nuclear gamma-ray ($γ$ -ray) emissions, is interesting in itself.",
               "inline": []
             }
           },
@@ -786,7 +924,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "Even more intriguing is that all of these widely varied phenomena are different manifestations of the same thing—electromagnetic waves. (See .) What are electromagnetic waves? How are they created, and how do they travel? How can we understand and organize their widely varying properties? What is their relationship to electric and magnetic effects? These and other questions will be explored.",
+              "text": "Even more intriguing is that all of these widely varied phenomena are different manifestations of the same thing—electromagnetic waves. (See the figure.) What are electromagnetic waves? How are they created, and how do they travel? How can we understand and organize their widely varying properties? What is their relationship to electric and magnetic effects? These and other questions will be explored.",
               "inline": []
             }
           },
@@ -794,7 +932,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "Many people confuse sound waves with radio waves , one type of electromagnetic (EM) wave. However, sound and radio waves are completely different phenomena. Sound creates pressure variations (waves) in matter, such as air or water, or your eardrum. Conversely, radio waves are *electromagnetic waves* , like visible light, infrared, ultraviolet, X-rays, and gamma rays. EM waves don’t need a medium in which to propagate; they can travel through a vacuum, such as outer space.",
+              "text": "Many people confuse sound waves with radio waves, one type of electromagnetic (EM) wave. However, sound and radio waves are completely different phenomena. Sound creates pressure variations (waves) in matter, such as air or water, or your eardrum. Conversely, radio waves are *electromagnetic waves*, like visible light, infrared, ultraviolet, X-rays, and gamma rays. EM waves don’t need a medium in which to propagate; they can travel through a vacuum, such as outer space.",
               "inline": []
             }
           },
@@ -860,24 +998,7 @@
         }
       ],
       "exercise_ids": [],
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-electromagnetic-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "provenance": {
         "publisher": "OpenStax",
         "title": "College Physics 2e",
@@ -899,6 +1020,16 @@
           "id": "lo-1",
           "statement": "Restate Maxwell’s equations.",
           "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Explain how Maxwell’s equations predict that a changing electric field produces a magnetic field and vice versa.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Describe how Hertz confirmed the existence of electromagnetic waves.",
+          "bloom_level": "understand"
         }
       ],
       "teaching_text": {
@@ -907,7 +1038,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "The Scotsman James Clerk Maxwell (1831–1879) is regarded as the greatest theoretical physicist of the 19th century. (See .) Although he died young, Maxwell not only formulated a complete electromagnetic theory, represented by Maxwell’s equations , he also developed the kinetic theory of gases and made significant contributions to the understanding of color vision and the nature of Saturn’s rings.",
+              "text": "The Scotsman James Clerk Maxwell (1831–1879) is regarded as the greatest theoretical physicist of the 19th century. (See the figure.) Although he died young, Maxwell not only formulated a complete electromagnetic theory, represented by Maxwell’s equations, he also developed the kinetic theory of gases and made significant contributions to the understanding of color vision and the nature of Saturn’s rings.",
               "inline": []
             }
           },
@@ -966,7 +1097,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "The waves predicted by Maxwell would consist of oscillating electric and magnetic fields—defined to be an electromagnetic wave (EM wave). Electromagnetic waves would be capable of exerting forces on charges great distances from their source, and they might thus be detectable. Maxwell calculated that electromagnetic waves would propagate at a speed given by the equation",
+              "text": "The waves predicted by Maxwell would consist of oscillating electric and magnetic fields—defined to be an electromagnetic wave (EM wave). Electromagnetic waves would be capable of exerting forces on charges great distances from their source, and they might thus be detectable. Maxwell calculated that electromagnetic waves would propagate at a speed given by the equation $c=\\frac{1}{\\sqrt{{μ}_{0}{ε}_{0}}}.$",
               "inline": []
             }
           },
@@ -974,7 +1105,7 @@
             "id": "b-9",
             "type": "paragraph",
             "content": {
-              "text": "When the values for ${μ}_{0}$ and ${ε}_{0}$ are entered into the equation for $c$ , we find that",
+              "text": "When the values for ${μ}_{0}$ and ${ε}_{0}$ are entered into the equation for $c$, we find that $c=\\frac{1}{\\sqrt{(8.85\\times {10}^{-12} \\frac{{C}^{2}}{N\\cdot {m}^{2}})(4π×{10}^{-7} \\frac{T\\cdot m}{A})}}=3.00\\times {10}^{8} m/s,$",
               "inline": []
             }
           },
@@ -1014,7 +1145,7 @@
             "id": "b-14",
             "type": "paragraph",
             "content": {
-              "text": "Hertz used an AC $RLC$ (resistor-inductor-capacitor) circuit that resonates at a known frequency ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ and connected it to a loop of wire as shown in . High voltages induced across the gap in the loop produced sparks that were visible evidence of the current in the circuit and that helped generate electromagnetic waves.",
+              "text": "Hertz used an AC $RLC$ (resistor-inductor-capacitor) circuit that resonates at a known frequency ${f}_{0}=\\frac{1}{2π\\sqrt{LC}}$ and connected it to a loop of wire as shown in the figure. High voltages induced across the gap in the loop produced sparks that were visible evidence of the current in the circuit and that helped generate electromagnetic waves.",
               "inline": []
             }
           },
@@ -1041,39 +1172,7 @@
             "id": "b-17",
             "type": "paragraph",
             "content": {
-              "text": "Hertz also studied the reflection, refraction, and interference patterns of the electromagnetic waves he generated, verifying their wave character. He was able to determine wavelength from the interference patterns, and knowing their frequency, he could calculate the propagation speed using the equation $υ=fλ$ (velocity—or speed—equals frequency times wavelength). Hertz was thus able to prove that electromagnetic waves travel at the speed of light. The SI unit for frequency, the hertz ( $1 Hz=1 cycle/s$ ), is named in his honor.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-18",
-            "type": "paragraph",
-            "content": {
-              "text": "where ${μ}_{0}$ is the permeability of free space and ${ε}_{0}$ is the permittivity of free space.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "Verify that the correct value for the speed of light $c$ is obtained when numerical values for the permeability and permittivity of free space ( ${μ}_{0}$ and ${ε}_{0}$ ) are entered into the equation $c=\\frac{1}{\\sqrt{{μ}_{0}{ε}_{0}}}$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "Show that, when SI units for ${μ}_{0}$ and ${ε}_{0}$ are entered, the units given by the right-hand side of the equation in the problem above are m/s.",
+              "text": "Hertz also studied the reflection, refraction, and interference patterns of the electromagnetic waves he generated, verifying their wave character. He was able to determine wavelength from the interference patterns, and knowing their frequency, he could calculate the propagation speed using the equation $υ=fλ$ (velocity—or speed—equals frequency times wavelength). Hertz was thus able to prove that electromagnetic waves travel at the speed of light. The SI unit for frequency, the hertz ($1 Hz=1 cycle/s$), is named in his honor.",
               "inline": []
             }
           }
@@ -1114,22 +1213,19 @@
           "inline": []
         }
       ],
-      "exercise_ids": [],
+      "exercise_ids": [
+        "ex-sec-2-01",
+        "ex-sec-2-02",
+        "ex-sec-2-03",
+        "ex-sec-2-04"
+      ],
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -1172,7 +1268,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "We can get a good understanding of electromagnetic waves (EM) by considering how they are produced. Whenever a current varies, associated electric and magnetic fields vary, moving out from the source like waves. Perhaps the easiest situation to visualize is a varying current in a long straight wire, produced by an AC generator at its center, as illustrated in .",
+              "text": "We can get a good understanding of electromagnetic waves (EM) by considering how they are produced. Whenever a current varies, associated electric and magnetic fields vary, moving out from the source like waves. Perhaps the easiest situation to visualize is a varying current in a long straight wire, produced by an AC generator at its center, as illustrated in the figure.",
               "inline": []
             }
           },
@@ -1199,7 +1295,7 @@
             "id": "b-4",
             "type": "paragraph",
             "content": {
-              "text": "The electric field ( $E$ ) shown surrounding the wire is produced by the charge distribution on the wire. Both the $E$ and the charge distribution vary as the current changes. The changing field propagates outward at the speed of light.",
+              "text": "The electric field ($E$) shown surrounding the wire is produced by the charge distribution on the wire. Both the $E$ and the charge distribution vary as the current changes. The changing field propagates outward at the speed of light.",
               "inline": []
             }
           },
@@ -1207,7 +1303,7 @@
             "id": "b-5",
             "type": "paragraph",
             "content": {
-              "text": "There is an associated magnetic field ( $B$ ) which propagates outward as well (see ). The electric and magnetic fields are closely related and propagate as an electromagnetic wave. This is what happens in broadcast antennae such as those in radio and TV stations.",
+              "text": "There is an associated magnetic field ($B$) which propagates outward as well (see the figure). The electric and magnetic fields are closely related and propagate as an electromagnetic wave. This is what happens in broadcast antennae such as those in radio and TV stations.",
               "inline": []
             }
           },
@@ -1215,7 +1311,7 @@
             "id": "b-6",
             "type": "paragraph",
             "content": {
-              "text": "Closer examination of the one complete cycle shown in reveals the periodic nature of the generator-driven charges oscillating up and down in the antenna and the electric field produced. At time $t=0$ , there is the maximum separation of charge, with negative charges at the top and positive charges at the bottom, producing the maximum magnitude of the electric field (or $E$ -field) in the upward direction. One-fourth of a cycle later, there is no charge separation and the field next to the antenna is zero, while the maximum $E$ -field has moved away at speed $c$ .",
+              "text": "Closer examination of the one complete cycle shown in the figure reveals the periodic nature of the generator-driven charges oscillating up and down in the antenna and the electric field produced. At time $t=0$, there is the maximum separation of charge, with negative charges at the top and positive charges at the bottom, producing the maximum magnitude of the electric field (or $E$ -field) in the upward direction. One-fourth of a cycle later, there is no charge separation and the field next to the antenna is zero, while the maximum $E$ -field has moved away at speed $c$.",
               "inline": []
             }
           },
@@ -1239,7 +1335,7 @@
             "id": "b-9",
             "type": "paragraph",
             "content": {
-              "text": "Following Ampere’s law, current in the antenna produces a magnetic field, as shown in . The relationship between $E$ and $B$ is shown at one instant in (a). As the current varies, the magnetic field varies in magnitude and direction.",
+              "text": "Following Ampere’s law, current in the antenna produces a magnetic field, as shown in the figure. The relationship between $E$ and $B$ is shown at one instant in the figure (a). As the current varies, the magnetic field varies in magnitude and direction.",
               "inline": []
             }
           },
@@ -1266,7 +1362,7 @@
             "id": "b-12",
             "type": "paragraph",
             "content": {
-              "text": "The magnetic field lines also propagate away from the antenna at the speed of light, forming the other part of the electromagnetic wave, as seen in (b). The magnetic part of the wave has the same period and wavelength as the electric part, since they are both produced by the same movement and separation of charges in the antenna.",
+              "text": "The magnetic field lines also propagate away from the antenna at the speed of light, forming the other part of the electromagnetic wave, as seen in the figure (b). The magnetic part of the wave has the same period and wavelength as the electric part, since they are both produced by the same movement and separation of charges in the antenna.",
               "inline": []
             }
           },
@@ -1274,7 +1370,7 @@
             "id": "b-13",
             "type": "paragraph",
             "content": {
-              "text": "The electric and magnetic waves are shown together at one instant in time in . The electric and magnetic fields produced by a long straight wire antenna are exactly in phase. Note that they are perpendicular to one another and to the direction of propagation, making this a transverse wave .",
+              "text": "The electric and magnetic waves are shown together at one instant in time in the figure. The electric and magnetic fields produced by a long straight wire antenna are exactly in phase. Note that they are perpendicular to one another and to the direction of propagation, making this a transverse wave.",
               "inline": []
             }
           },
@@ -1293,7 +1389,7 @@
             "id": "b-15",
             "type": "paragraph",
             "content": {
-              "text": "Electromagnetic waves generally propagate out from a source in all directions, sometimes forming a complex radiation pattern. A linear antenna like this one will not radiate parallel to its length, for example. The wave is shown in one direction from the antenna in to illustrate its basic characteristics.",
+              "text": "Electromagnetic waves generally propagate out from a source in all directions, sometimes forming a complex radiation pattern. A linear antenna like this one will not radiate parallel to its length, for example. The wave is shown in one direction from the antenna in the figure to illustrate its basic characteristics.",
               "inline": []
             }
           },
@@ -1301,7 +1397,7 @@
             "id": "b-16",
             "type": "paragraph",
             "content": {
-              "text": "Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave , driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna.",
+              "text": "Instead of the AC generator, the antenna can also be driven by an AC circuit. In fact, charges radiate whenever they are accelerated. But while a current in a circuit needs a complete path, an antenna has a varying charge distribution forming a standing wave, driven by the AC. The dimensions of the antenna are critical for determining the frequency of the radiated electromagnetic waves. This is a resonant phenomenon and when we tune radios or TV, we vary electrical properties to achieve appropriate resonant conditions in the antenna.",
               "inline": []
             }
           },
@@ -1357,7 +1453,7 @@
             "id": "b-23",
             "type": "paragraph",
             "content": {
-              "text": "Since current is directly proportional to voltage (Ohm’s law) and voltage is directly proportional to $E$ -field strength, the two should be directly proportional. It can be shown that the magnitudes of the fields do have a constant ratio, equal to the speed of light. That is,",
+              "text": "Since current is directly proportional to voltage (Ohm’s law) and voltage is directly proportional to $E$ -field strength, the two should be directly proportional. It can be shown that the magnitudes of the fields do have a constant ratio, equal to the speed of light. That is, $\\frac{E}{B}=c$",
               "inline": []
             }
           },
@@ -1373,7 +1469,7 @@
             "id": "b-25",
             "type": "paragraph",
             "content": {
-              "text": "An electromagnetic wave traveling in a medium, with index of refraction *n* , will propagate at a lower speed,",
+              "text": "An electromagnetic wave traveling in a medium, with index of refraction *n*, will propagate at a lower speed, $v=\\frac{c}{n}.$",
               "inline": []
             }
           },
@@ -1381,224 +1477,7 @@
             "id": "b-26",
             "type": "paragraph",
             "content": {
-              "text": "The ratio of the field strengths will be similarly reduced, such that in the medium,",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "If an electromagnetic wave is described as having a frequency of 3 GHz, what are its period and wavelength (in a vacuum)?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "paragraph",
-            "content": {
-              "text": "Describe the outcome if you attempt to produce a longitudinal electromagnetic wave.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-29",
-            "type": "paragraph",
-            "content": {
-              "text": "A wave is travelling through a medium until it hits the end of the medium and there is nothing but vacuum beyond. What happens to a mechanical wave? Electromagnetic wave?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-30",
-            "type": "paragraph",
-            "content": {
-              "text": "You’re on the moon, skipping around, and your radio breaks. What would be the best way to communicate this problem to your friend, who is also skipping around on the moon: yelling or flashing a light? Why?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-31",
-            "type": "paragraph",
-            "content": {
-              "text": "Given the waveform in (d), if $T=3.0×{10}^{-9}s$ and $E=5.0×{10}^{5}N / C$ , which of the following is the correct equation for the wave at the antenna?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-32",
-            "type": "paragraph",
-            "content": {
-              "text": "Given the waveform in (d), if $f=2.0$ GHz and $E=6.0×{10}^{5}N/C$ , what is the correct equation for the magnetic field wave at the antenna?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-33",
-            "type": "paragraph",
-            "content": {
-              "text": "In Heinrich Hertz’s spark gap experiment ( ), how will the induced sparks in Loop 2 compare to those created in Loop 1?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-34",
-            "type": "paragraph",
-            "content": {
-              "text": "The sun is far away from the Earth, and the intervening space is very close to empty. Yet the tilt of the Earth’s axis of rotation relative to the sun results in seasons. Explain why, given what you have learned in this section.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-35",
-            "type": "paragraph",
-            "content": {
-              "text": "which implies that the magnetic field $B$ is very weak relative to the electric field $E$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-36",
-            "type": "paragraph",
-            "content": {
-              "text": "The direction of the electric field shown in each part of is that produced by the charge distribution in the wire. Justify the direction shown in each part, using the Coulomb force law and the definition of $E=F/q$ , where $q$ is a positive test charge.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-37",
-            "type": "paragraph",
-            "content": {
-              "text": "Is the direction of the magnetic field shown in (a) consistent with the right-hand rule for current (RHR-2) in the direction shown in the figure?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-38",
-            "type": "paragraph",
-            "content": {
-              "text": "Why is the direction of the current shown in each part of opposite to the electric field produced by the wire’s charge separation?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-39",
-            "type": "paragraph",
-            "content": {
-              "text": "In which situation shown in will the electromagnetic wave be more successful in inducing a current in the wire? Explain.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-40",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/ff50e77c712454fba58393a4074274c5310c46a0d38c54f55e5354ac8b7c98f3.jpg",
-            "caption": {
-              "text": "Electromagnetic waves approaching long straight wires.",
-              "inline": []
-            },
-            "alt": "Part a of the diagram shows an electromagnetic wave approaching a long straight vertical wire. The wave is shown with the variation of two components E and B. E is a sine wave in vertical plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a horizontal plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. Part b of the diagram shows an electromagnetic wave approaching a long straight vertical wire. The wave is shown with the variation of two components E and B. E is a sine wave in horizontal plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a vertical plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. ",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-41",
-            "type": "paragraph",
-            "content": {
-              "text": "In which situation shown in will the electromagnetic wave be more successful in inducing a current in the loop? Explain.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-42",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/bb2324059f3bd5686a97317cd6710fa0859c7504276e1c589ad9dd05df1d9036.jpg",
-            "caption": {
-              "text": "Electromagnetic waves approaching a wire loop.",
-              "inline": []
-            },
-            "alt": "Part a of the diagram shows an electromagnetic wave approaching a receiver loop connected to a tuner. The wave is shown with the variation of two components E and B. E is a sine wave in vertical plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a horizontal plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. Part b of the diagram shows an electromagnetic wave approaching a receiver loop connected to a tuner. The wave is shown with the variation of two components E and B. E is a sine wave in horizontal plane with small arrows showing the vibrations of particles in the plane. B is a sine wave in a vertical plane perpendicular to the E wave. The B wave has arrows to show the vibrations of particles in the plane. The waves are shown intersecting each other at the junction of the planes because E and B are perpendicular to each other. The direction of propagation of wave is shown perpendicular to E and B waves. ",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-43",
-            "type": "paragraph",
-            "content": {
-              "text": "Should the straight wire antenna of a radio be vertical or horizontal to best receive radio waves broadcast by a vertical transmitter antenna? How should a loop antenna be aligned to best receive the signals? (Note that the direction of the loop that produces the best reception can be used to determine the location of the source. It is used for that purpose in tracking tagged animals in nature studies, for example.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-44",
-            "type": "paragraph",
-            "content": {
-              "text": "Under what conditions might wires in a DC circuit emit electromagnetic waves?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-45",
-            "type": "paragraph",
-            "content": {
-              "text": "Give an example of interference of electromagnetic waves.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-46",
-            "type": "paragraph",
-            "content": {
-              "text": "shows the interference pattern of two radio antennas broadcasting the same signal. Explain how this is analogous to the interference pattern for sound produced by two speakers. Could this be used to make a directional antenna system that broadcasts preferentially in certain directions? Explain.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-47",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/f4dd53cdb48a303eb7a5efb0ebf0d6bcda813eab70dbc44221ce9f9b7d98fdfa.jpg",
-            "caption": {
-              "text": "An overhead view of two radio broadcast antennas sending the same signal, and the interference pattern they produce.",
-              "inline": []
-            },
-            "alt": "The picture shows an overhead view of a radio broadcast antenna sending signals in the form of waves. Two waves are shown in the diagram with concentric circular wave fonts. The crest and trough are marked as bold and dashed circles respectively. The points where the bold circles of the two different waves meet are marked as points of constructive interference. Arrows point outward from the antenna, joining these points. These arrows show the directions of constructive interference.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-48",
-            "type": "paragraph",
-            "content": {
-              "text": "Can an antenna be any length? Explain your answer.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-49",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-50",
-            "type": "paragraph",
-            "content": {
-              "text": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $5.00×{10}^{-4}T$ (about 10 times the Earth’s)?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-51",
-            "type": "paragraph",
-            "content": {
-              "text": "The maximum magnetic field strength of an electromagnetic field is $5×{10}^{-6}T$ . Calculate the maximum electric field strength if the wave is traveling in a medium in which the speed of the wave is $0.75c$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-52",
-            "type": "paragraph",
-            "content": {
-              "text": "Verify the units obtained for magnetic field strength $B$ in (using the equation $B=\\frac{E}{c}$ ) are in fact teslas (T).",
+              "text": "The ratio of the field strengths will be similarly reduced, such that in the medium, $\\frac{E}{B}=\\frac{c}{n}.$",
               "inline": []
             }
           }
@@ -1621,15 +1500,15 @@
           "steps": [
             {
               "step_number": 1,
-              "expression": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$ ?"
+              "expression": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$?"
             },
             {
               "step_number": 2,
-              "expression": "To find the $B$ -field strength, we rearrange the above equation to solve for $B$ , yielding We are given $E$ , and $c$ is the speed of light."
+              "expression": "To find the $B$ -field strength, we rearrange the above equation to solve for $B$, yielding $B=\\frac{E}{c}.$ We are given $E$, and $c$ is the speed of light."
             },
             {
               "step_number": 3,
-              "expression": "Entering these into the expression for $B$ yields Where T stands for Tesla, a measure of magnetic field strength."
+              "expression": "Entering these into the expression for $B$ yields $B=\\frac{1000 V/m}{3.00\\times {10}^{8} m/s}=3.33\\times {10}^{-6} T,$ Where T stands for Tesla, a measure of magnetic field strength."
             },
             {
               "step_number": 4,
@@ -1705,40 +1584,53 @@
             },
             {
               "step_number": 22,
-              "expression": "Click to view content ."
+              "expression": "Click to view content."
             }
           ],
           "answer": {
-            "text": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$ ? To find the $B$ -field strength, we rearrange the above equation to solve for $B$ , yielding We are given $E$ , and $c$ is the speed of light. Entering these into the expression for $B$ yields Where T stands for Tesla, a measure of magnetic field strength. The $B$ -field strength is less than a tenth of the Earth’s admittedly weak magnetic field. This means that a relatively strong electric field of 1000 V/m is accompanied by a relatively weak magnetic field. Note that as this wave spreads out, say with distance from an antenna, its field strengths become progressively weaker. The result of this example is consistent with the statement made in the module Maxwell’s Equations: Electromagnetic Waves Predicted and Observed that changing electric fields create relatively weak magnetic fields. They can be detected in electromagnetic waves, however, by taking advantage of the phenomenon of resonance, as Hertz did. A system with the same natural frequency as the electromagnetic wave can be made to oscillate. All radio and TV receivers use this principle to pick up and then amplify weak electromagnetic waves, while rejecting all others not at their resonant frequency. If you own a cell phone or a laptop, use a search engine or the product documentation to identify the type of antenna it contains. (If you search online, try adding the words “tear down” to the search.) Do the same for a friend’s phone or your previous model. What are the differences in reception power or other features? If you have a radio, try tuning a station to the “edge” of its discernible range, to the point where static interferes with the sound. Touch the antenna with your hand. Does the reception improve? If so, what is likely happening? Broadcast radio waves from KPhET. Wiggle the transmitter electron manually or have it oscillate automatically. Display the field as a curve or vectors. The strip chart shows the electron positions at the transmitter and at the receiver. Click to view content .",
+            "text": "What is the maximum strength of the $B$ -field in an electromagnetic wave that has a maximum $E$ -field strength of $1000 V/m$? To find the $B$ -field strength, we rearrange the above equation to solve for $B$, yielding $B=\\frac{E}{c}.$ We are given $E$, and $c$ is the speed of light. Entering these into the expression for $B$ yields $B=\\frac{1000 V/m}{3.00\\times {10}^{8} m/s}=3.33\\times {10}^{-6} T,$ Where T stands for Tesla, a measure of magnetic field strength. The $B$ -field strength is less than a tenth of the Earth’s admittedly weak magnetic field. This means that a relatively strong electric field of 1000 V/m is accompanied by a relatively weak magnetic field. Note that as this wave spreads out, say with distance from an antenna, its field strengths become progressively weaker. The result of this example is consistent with the statement made in the module Maxwell’s Equations: Electromagnetic Waves Predicted and Observed that changing electric fields create relatively weak magnetic fields. They can be detected in electromagnetic waves, however, by taking advantage of the phenomenon of resonance, as Hertz did. A system with the same natural frequency as the electromagnetic wave can be made to oscillate. All radio and TV receivers use this principle to pick up and then amplify weak electromagnetic waves, while rejecting all others not at their resonant frequency. If you own a cell phone or a laptop, use a search engine or the product documentation to identify the type of antenna it contains. (If you search online, try adding the words “tear down” to the search.) Do the same for a friend’s phone or your previous model. What are the differences in reception power or other features? If you have a radio, try tuning a station to the “edge” of its discernible range, to the point where static interferes with the sound. Touch the antenna with your hand. Does the reception improve? If so, what is likely happening? Broadcast radio waves from KPhET. Wiggle the transmitter electron manually or have it oscillate automatically. Display the field as a curve or vectors. The strip chart shows the electron positions at the transmitter and at the receiver. Click to view content.",
             "inline": []
           }
-        },
+        }
+      ],
+      "misconceptions": [
         {
-          "id": "we-exr-40",
-          "statement": {
-            "text": "If an electromagnetic wave is described as having a frequency of 3 GHz, what are its period and wavelength (in a vacuum)? 3.0 × 10 9 s, 10 cm; 3.3 × 10 −10 s, 10 cm; 3.3 × 10 −10 s, 10 m; 3.0 × 10 9 s, 10 m",
+          "id": "mis-1",
+          "claim": {
+            "text": "Electromagnetic waves need a material medium in order to travel.",
             "inline": []
           },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "(b)"
-            }
-          ],
-          "answer": {
-            "text": "(b)",
+          "correction": {
+            "text": "Electromagnetic waves are oscillating electric and magnetic fields that propagate through a vacuum. They do not need a medium; that is why light from the Sun reaches the Earth through space.",
             "inline": []
           },
           "provenance": {
             "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42440/index.cnxml",
-            "locator": "CNXML module m42440, exercise block exr-40",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42440",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "In an electromagnetic wave the electric and magnetic fields oscillate along the direction of travel.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The fields oscillate perpendicular to each other and perpendicular to the direction of travel, so the wave is transverse.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "CNXML module m42440",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
         }
       ],
-      "misconceptions": [],
       "summary_points": [
         {
           "text": "Electromagnetic waves are created by oscillating charges (which radiate whenever accelerated) and have the same frequency as the oscillation.",
@@ -1757,17 +1649,11 @@
         "ex-sec-3-01",
         "ex-sec-3-02",
         "ex-sec-3-03",
-        "ex-sec-3-04"
+        "ex-sec-3-04",
+        "ex-sec-3-05",
+        "ex-sec-3-06"
       ],
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "WAEC",
           "subject": "physics",
@@ -1820,7 +1706,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in .",
+              "text": "In this module we examine how electromagnetic waves are classified into categories such as radio, infrared, ultraviolet, and so on, so that we can understand some of their similarities as well as some of their differences. We will also find that there are many connections with previously discussed topics, such as wavelength and resonance. A brief overview of the production and utilization of electromagnetic waves is found in the table.",
               "inline": []
             }
           },
@@ -1828,7 +1714,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "There are many types of waves, such as water waves and even earthquakes. Among the many shared attributes of waves are propagation speed, frequency, and wavelength. These are always related by the expression ${v}_{W}=fλ$ . This module concentrates on EM waves, but other modules contain examples of all of these characteristics for sound waves and submicroscopic particles.",
+              "text": "There are many types of waves, such as water waves and even earthquakes. Among the many shared attributes of waves are propagation speed, frequency, and wavelength. These are always related by the expression ${v}_{W}=fλ$. This module concentrates on EM waves, but other modules contain examples of all of these characteristics for sound waves and submicroscopic particles.",
               "inline": []
             }
           },
@@ -1836,7 +1722,7 @@
             "id": "b-3",
             "type": "paragraph",
             "content": {
-              "text": "As noted before, an electromagnetic wave has a frequency and a wavelength associated with it and travels at the speed of light, or $c$ . The relationship among these wave characteristics can be described by ${v}_{W}=fλ$ , where ${v}_{W}$ is the propagation speed of the wave, $f$ is the frequency, and $λ$ is the wavelength. Here ${v}_{W}=c$ , so that for all electromagnetic waves,",
+              "text": "As noted before, an electromagnetic wave has a frequency and a wavelength associated with it and travels at the speed of light, or $c$. The relationship among these wave characteristics can be described by ${v}_{W}=fλ$, where ${v}_{W}$ is the propagation speed of the wave, $f$ is the frequency, and $λ$ is the wavelength. Here ${v}_{W}=c$, so that for all electromagnetic waves, $c=fλ.$",
               "inline": []
             }
           },
@@ -1852,7 +1738,7 @@
             "id": "b-5",
             "type": "paragraph",
             "content": {
-              "text": "shows how the various types of electromagnetic waves are categorized according to their wavelengths and frequencies—that is, it shows the electromagnetic spectrum. Many of the characteristics of the various types of electromagnetic waves are related to their frequencies and wavelengths, as we shall see.",
+              "text": "The figure shows how the various types of electromagnetic waves are categorized according to their wavelengths and frequencies—that is, it shows the electromagnetic spectrum. Many of the characteristics of the various types of electromagnetic waves are related to their frequencies and wavelengths, as we shall see.",
               "inline": []
             }
           },
@@ -1935,7 +1821,7 @@
             "id": "b-15",
             "type": "paragraph",
             "content": {
-              "text": "The lowest commonly encountered radio frequencies are produced by high-voltage AC power transmission lines at frequencies of 50 or 60 Hz. (See .) These extremely long wavelength electromagnetic waves (about 6000 km!) are one means of energy loss in long-distance power transmission.",
+              "text": "The lowest commonly encountered radio frequencies are produced by high-voltage AC power transmission lines at frequencies of 50 or 60 Hz. (See the figure.) These extremely long wavelength electromagnetic waves (about 6000 km!) are one means of energy loss in long-distance power transmission.",
               "inline": []
             }
           },
@@ -1954,7 +1840,7 @@
             "id": "b-17",
             "type": "paragraph",
             "content": {
-              "text": "There was a concern regarding potential health hazards associated with exposure to these electromagnetic fields ( $E$ -fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But these power lines produce non-ionizing radiation, which government environmental organizations, medical researchers, and cancer organizations indicate are not risk factors for illness. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to $E$ -fields.",
+              "text": "There was a concern regarding potential health hazards associated with exposure to these electromagnetic fields ($E$ -fields). Some people suspect that living near such transmission lines may cause a variety of illnesses, including cancer. But these power lines produce non-ionizing radiation, which government environmental organizations, medical researchers, and cancer organizations indicate are not risk factors for illness. Recent reports that have looked at many European and American epidemiological studies have found no increase in risk for cancer due to exposure to $E$ -fields.",
               "inline": []
             }
           },
@@ -1962,7 +1848,7 @@
             "id": "b-18",
             "type": "paragraph",
             "content": {
-              "text": "Extremely low frequency (ELF) radio waves of about 1 kHz are used to communicate with submerged submarines. The ability of radio waves to penetrate salt water is related to their wavelength (much like ultrasound penetrating tissue)—the longer the wavelength, the farther they penetrate. Since salt water is a good conductor, radio waves are strongly absorbed by it, and very long wavelengths are needed to reach a submarine under the surface. (See .)",
+              "text": "Extremely low frequency (ELF) radio waves of about 1 kHz are used to communicate with submerged submarines. The ability of radio waves to penetrate salt water is related to their wavelength (much like ultrasound penetrating tissue)—the longer the wavelength, the farther they penetrate. Since salt water is a good conductor, radio waves are strongly absorbed by it, and very long wavelengths are needed to reach a submarine under the surface. (See the figure.)",
               "inline": []
             }
           },
@@ -1981,7 +1867,7 @@
             "id": "b-20",
             "type": "paragraph",
             "content": {
-              "text": "AM radio waves are used to carry commercial radio signals in the frequency range from 540 to 1600 kHz. The abbreviation AM stands for amplitude modulation , which is the method for placing information on these waves. (See .) A carrier wave having the basic frequency of the radio station, say 1530 kHz, is varied or modulated in amplitude by an audio signal. The resulting wave has a constant frequency, but a varying amplitude.",
+              "text": "AM radio waves are used to carry commercial radio signals in the frequency range from 540 to 1600 kHz. The abbreviation AM stands for amplitude modulation, which is the method for placing information on these waves. (See the figure.) A carrier wave having the basic frequency of the radio station, say 1530 kHz, is varied or modulated in amplitude by an audio signal. The resulting wave has a constant frequency, but a varying amplitude.",
               "inline": []
             }
           },
@@ -2016,7 +1902,7 @@
             "id": "b-24",
             "type": "paragraph",
             "content": {
-              "text": "FM radio waves are also used for commercial radio transmission, but in the frequency range of 88 to 108 MHz. FM stands for frequency modulation , another method of carrying information. (See .) Here a carrier wave having the basic frequency of the radio station, perhaps 105.1 MHz, is modulated in frequency by the audio signal, producing a wave of constant amplitude but varying frequency.",
+              "text": "FM radio waves are also used for commercial radio transmission, but in the frequency range of 88 to 108 MHz. FM stands for frequency modulation, another method of carrying information. (See the figure.) Here a carrier wave having the basic frequency of the radio station, perhaps 105.1 MHz, is modulated in frequency by the audio signal, producing a wave of constant amplitude but varying frequency.",
               "inline": []
             }
           },
@@ -2051,7 +1937,7 @@
             "id": "b-28",
             "type": "paragraph",
             "content": {
-              "text": "Television is also broadcast on electromagnetic waves. Since the waves must carry a great deal of visual as well as audio information, each channel requires a larger range of frequencies than simple radio transmission. TV channels utilize frequencies in the range of 54 to 88 MHz and 174 to 222 MHz. (The entire FM radio band lies between channels 88 MHz and 174 MHz.) These TV channels are called VHF (for very high frequency ). Other channels called UHF (for ultra high frequency ) utilize an even higher frequency range of 470 to 1000 MHz.",
+              "text": "Television is also broadcast on electromagnetic waves. Since the waves must carry a great deal of visual as well as audio information, each channel requires a larger range of frequencies than simple radio transmission. TV channels utilize frequencies in the range of 54 to 88 MHz and 174 to 222 MHz. (The entire FM radio band lies between channels 88 MHz and 174 MHz.) These TV channels are called VHF (for very high frequency). Other channels called UHF (for ultra high frequency) utilize an even higher frequency range of 470 to 1000 MHz.",
               "inline": []
             }
           },
@@ -2126,7 +2012,7 @@
             "id": "b-37",
             "type": "paragraph",
             "content": {
-              "text": "Microwaves are the highest-frequency electromagnetic waves that can be produced by currents in macroscopic circuits and devices. Microwave frequencies range from about ${10}^{9}Hz$ to the highest practical $LC$ resonance at nearly ${10}^{12}Hz$ . Since they have high frequencies, their wavelengths are short compared with those of other radio waves—hence the name “microwave.”",
+              "text": "Microwaves are the highest-frequency electromagnetic waves that can be produced by currents in macroscopic circuits and devices. Microwave frequencies range from about ${10}^{9} Hz$ to the highest practical $LC$ resonance at nearly ${10}^{12} Hz$. Since they have high frequencies, their wavelengths are short compared with those of other radio waves—hence the name “microwave.”",
               "inline": []
             }
           },
@@ -2134,7 +2020,7 @@
             "id": "b-38",
             "type": "paragraph",
             "content": {
-              "text": "Microwaves can also be produced by atoms and molecules. They are, for example, a component of electromagnetic radiation generated by thermal agitation . The thermal motion of atoms and molecules in any object at a temperature above absolute zero causes them to emit and absorb radiation.",
+              "text": "Microwaves can also be produced by atoms and molecules. They are, for example, a component of electromagnetic radiation generated by thermal agitation. The thermal motion of atoms and molecules in any object at a temperature above absolute zero causes them to emit and absorb radiation.",
               "inline": []
             }
           },
@@ -2150,7 +2036,7 @@
             "id": "b-40",
             "type": "paragraph",
             "content": {
-              "text": "Radar is a common application of microwaves that was first developed in World War II. By detecting and timing microwave echoes, radar systems can determine the distance to objects as diverse as clouds and aircraft. A Doppler shift in the radar echo can be used to determine the speed of a car or the intensity of a rainstorm. Sophisticated radar systems are used to map the Earth and other planets, with a resolution limited by wavelength. (See .) The shorter the wavelength of any probe, the smaller the detail it is possible to observe.",
+              "text": "Radar is a common application of microwaves that was first developed in World War II. By detecting and timing microwave echoes, radar systems can determine the distance to objects as diverse as clouds and aircraft. A Doppler shift in the radar echo can be used to determine the speed of a car or the intensity of a rainstorm. Sophisticated radar systems are used to map the Earth and other planets, with a resolution limited by wavelength. (See the figure.) The shorter the wavelength of any probe, the smaller the detail it is possible to observe.",
               "inline": []
             }
           },
@@ -2233,7 +2119,7 @@
             "id": "b-50",
             "type": "paragraph",
             "content": {
-              "text": "The microwave and infrared regions of the electromagnetic spectrum overlap (see ). Infrared radiation is generally produced by thermal motion and the vibration and rotation of atoms and molecules. Electronic transitions in atoms and molecules can also produce infrared radiation.",
+              "text": "The microwave and infrared regions of the electromagnetic spectrum overlap (see the figure). Infrared radiation is generally produced by thermal motion and the vibration and rotation of atoms and molecules. Electronic transitions in atoms and molecules can also produce infrared radiation.",
               "inline": []
             }
           },
@@ -2265,7 +2151,7 @@
             "id": "b-54",
             "type": "paragraph",
             "content": {
-              "text": "The Sun radiates like a nearly perfect blackbody (that is, it has $e=1$ ), with a 6000 K surface temperature. About half of the solar energy arriving at the Earth is in the infrared region, with most of the rest in the visible part of the spectrum, and a relatively small amount in the ultraviolet. On average, 50 percent of the incident solar energy is absorbed by the Earth.",
+              "text": "The Sun radiates like a nearly perfect blackbody (that is, it has $e=1$), with a 6000 K surface temperature. About half of the solar energy arriving at the Earth is in the infrared region, with most of the rest in the visible part of the spectrum, and a relatively small amount in the ultraviolet. On average, 50 percent of the incident solar energy is absorbed by the Earth.",
               "inline": []
             }
           },
@@ -2297,7 +2183,7 @@
             "id": "b-58",
             "type": "paragraph",
             "content": {
-              "text": "shows this part of the spectrum, together with the colors associated with particular pure wavelengths. We usually refer to visible light as having wavelengths of between 400 nm and 750 nm. (The retina of the eye actually responds to the lowest ultraviolet frequencies, but these do not normally reach the retina because they are absorbed by the cornea and lens of the eye.)",
+              "text": "The figure shows this part of the spectrum, together with the colors associated with particular pure wavelengths. We usually refer to visible light as having wavelengths of between 400 nm and 750 nm. (The retina of the eye actually responds to the lowest ultraviolet frequencies, but these do not normally reach the retina because they are absorbed by the cornea and lens of the eye.)",
               "inline": []
             }
           },
@@ -2348,7 +2234,7 @@
             "id": "b-64",
             "type": "paragraph",
             "content": {
-              "text": "Solar UV radiation is broadly subdivided into three regions: UV-A (320–400 nm), UV-B (290–320 nm), and UV-C (220–290 nm), ranked from long to shorter wavelengths (from smaller to larger energies). Most UV-B and all UV-C is absorbed by ozone ( ${O}_{3}$ ) molecules in the upper atmosphere. Consequently, 99% of the solar UV radiation reaching the Earth’s surface is UV-A.",
+              "text": "Solar UV radiation is broadly subdivided into three regions: UV-A (320–400 nm), UV-B (290–320 nm), and UV-C (220–290 nm), ranked from long to shorter wavelengths (from smaller to larger energies). Most UV-B and all UV-C is absorbed by ozone (${O}_{3}$) molecules in the upper atmosphere. Consequently, 99% of the solar UV radiation reaching the Earth’s surface is UV-A.",
               "inline": []
             }
           },
@@ -2447,7 +2333,7 @@
             "id": "b-76",
             "type": "paragraph",
             "content": {
-              "text": "If all of the Sun’s ultraviolet radiation reached the Earth’s surface, there would be extremely grave effects on the biosphere from the severe cell damage it causes. However, the layer of ozone ( ${O}_{3}$ ) in our upper atmosphere (10 to 50 km above the Earth) protects life by absorbing most of the dangerous UV radiation.",
+              "text": "If all of the Sun’s ultraviolet radiation reached the Earth’s surface, there would be extremely grave effects on the biosphere from the severe cell damage it causes. However, the layer of ozone (${O}_{3}$) in our upper atmosphere (10 to 50 km above the Earth) protects life by absorbing most of the dangerous UV radiation.",
               "inline": []
             }
           },
@@ -2463,7 +2349,7 @@
             "id": "b-78",
             "type": "paragraph",
             "content": {
-              "text": "The UV radiation helps dissociate the CFC’s, releasing highly reactive chlorine (Cl) atoms, which catalyze the destruction of the ozone layer. For example, the reaction of ${CFCl}_{3}$ with a photon of light $(hv)$ can be written as:",
+              "text": "The UV radiation helps dissociate the CFC’s, releasing highly reactive chlorine (Cl) atoms, which catalyze the destruction of the ozone layer. For example, the reaction of ${CFCl}_{3}$ with a photon of light $(hv)$ can be written as: ${CFCl}_{3}+hv\\to {CFCl}_{2}+Cl.$",
               "inline": []
             }
           },
@@ -2471,7 +2357,7 @@
             "id": "b-79",
             "type": "paragraph",
             "content": {
-              "text": "The Cl atom then catalyzes the breakdown of ozone as follows:",
+              "text": "The Cl atom then catalyzes the breakdown of ozone as follows: $Cl+{O}_{3}\\to ClO+{O}_{2} and ClO+{O}_{3}\\to Cl+{2O}_{2}.$",
               "inline": []
             }
           },
@@ -2487,7 +2373,7 @@
             "id": "b-81",
             "type": "paragraph",
             "content": {
-              "text": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was the largest and longest-lasting on record, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See .)",
+              "text": "International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. The 2019 Antarctic ozone hole was small and short-lived, continuing the general trend toward recovery. But the 2020 Antarctic ozone hole was the largest and longest-lasting on record, partially due to atmospheric conditions. Furthermore, emissions are not the only concern. Susan Solomon and her colleagues at MIT have uncovered the substantial impact of CFC “banks,” in certain regions, where outdated and deteriorating equipment (such as air conditioners) or materials can release enough CFCs to be detectable in the atmosphere and deplete the ozone layer. (See the figure.)",
               "inline": []
             }
           },
@@ -2546,7 +2432,7 @@
             "id": "b-88",
             "type": "paragraph",
             "content": {
-              "text": "The first method is illustrated in . An electron is accelerated in an evacuated tube by a high positive voltage. The electron strikes a metal plate (e.g., copper) and produces X-rays. Since this is a high-voltage discharge, the electron gains sufficient energy to ionize the atom.",
+              "text": "The first method is illustrated in the figure. An electron is accelerated in an evacuated tube by a high positive voltage. The electron strikes a metal plate (e.g., copper) and produces X-rays. Since this is a high-voltage discharge, the electron gains sufficient energy to ionize the atom.",
               "inline": []
             }
           },
@@ -2573,7 +2459,7 @@
             "id": "b-91",
             "type": "paragraph",
             "content": {
-              "text": "The second method by which an energetic electron creates an X-ray when it strikes a material is illustrated in . The electron interacts with charges in the material as it penetrates. These collisions transfer kinetic energy from the electron to the electrons and atoms in the material.",
+              "text": "The second method by which an energetic electron creates an X-ray when it strikes a material is illustrated in the figure. The electron interacts with charges in the material as it penetrates. These collisions transfer kinetic energy from the electron to the electrons and atoms in the material.",
               "inline": []
             }
           },
@@ -2616,7 +2502,7 @@
             "id": "b-96",
             "type": "paragraph",
             "content": {
-              "text": "In the 1850s, scientists (such as Faraday) began experimenting with high-voltage electrical discharges in tubes filled with rarefied gases. It was later found that these discharges created an invisible, penetrating form of very high frequency electromagnetic radiation. This radiation was called an X-ray , because its identity and nature were unknown.",
+              "text": "In the 1850s, scientists (such as Faraday) began experimenting with high-voltage electrical discharges in tubes filled with rarefied gases. It was later found that these discharges created an invisible, penetrating form of very high frequency electromagnetic radiation. This radiation was called an X-ray, because its identity and nature were unknown.",
               "inline": []
             }
           },
@@ -2624,7 +2510,7 @@
             "id": "b-97",
             "type": "paragraph",
             "content": {
-              "text": "As described in Things Great and Small , there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies).",
+              "text": "As described in Things Great and Small, there are two methods by which X-rays are created—both are submicroscopic processes and can be caused by high-voltage discharges. While the low-frequency end of the X-ray range overlaps with the ultraviolet, X-rays extend to much higher frequencies (and energies).",
               "inline": []
             }
           },
@@ -2648,7 +2534,7 @@
             "id": "b-100",
             "type": "paragraph",
             "content": {
-              "text": "The ability of X-rays to penetrate matter depends on density, and so an X-ray image can reveal very detailed density information. shows an example of the simplest type of X-ray image, an X-ray shadow on film. The amount of information in a simple X-ray image is impressive, but more sophisticated techniques, such as CT scans, can reveal three-dimensional information with details smaller than a millimeter.",
+              "text": "The ability of X-rays to penetrate matter depends on density, and so an X-ray image can reveal very detailed density information. The figure shows an example of the simplest type of X-ray image, an X-ray shadow on film. The amount of information in a simple X-ray image is impressive, but more sophisticated techniques, such as CT scans, can reveal three-dimensional information with details smaller than a millimeter.",
               "inline": []
             }
           },
@@ -2699,7 +2585,7 @@
             "id": "b-106",
             "type": "paragraph",
             "content": {
-              "text": "Soon after nuclear radioactivity was first detected in 1896, it was found that at least three distinct types of radiation were being emitted. The most penetrating nuclear radiation was called a gamma ray *( $γ$ ray)* (again a name given because its identity and character were unknown), and it was later found to be an extremely high frequency electromagnetic wave.",
+              "text": "Soon after nuclear radioactivity was first detected in 1896, it was found that at least three distinct types of radiation were being emitted. The most penetrating nuclear radiation was called a gamma ray *($γ$ ray)* (again a name given because its identity and character were unknown), and it was later found to be an extremely high frequency electromagnetic wave.",
               "inline": []
             }
           },
@@ -2723,7 +2609,7 @@
             "id": "b-109",
             "type": "paragraph",
             "content": {
-              "text": "shows a medical image based on $γ$ rays. Food spoilage can be greatly inhibited by exposing it to large doses of $γ$ radiation, thereby obliterating responsible microorganisms. Damage to food cells through irradiation occurs as well, and the long-term hazards of consuming radiation-preserved food are unknown and controversial for some groups. Both X-ray and $γ-ray$ technologies are also used in scanning luggage at airports.",
+              "text": "The figure shows a medical image based on $γ$ rays. Food spoilage can be greatly inhibited by exposing it to large doses of $γ$ radiation, thereby obliterating responsible microorganisms. Damage to food cells through irradiation occurs as well, and the long-term hazards of consuming radiation-preserved food are unknown and controversial for some groups. Both X-ray and $γ-ray$ technologies are also used in scanning luggage at airports.",
               "inline": []
             }
           },
@@ -2785,433 +2671,6 @@
               "text": "Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons.",
               "inline": []
             }
-          },
-          {
-            "id": "b-117",
-            "type": "paragraph",
-            "content": {
-              "text": "The correct ordering from least to greatest wavelength is:",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-118",
-            "type": "paragraph",
-            "content": {
-              "text": "Describe how our vision would be different if we could see energy in what we define as the radio spectrum.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-119",
-            "type": "paragraph",
-            "content": {
-              "text": "If you live in a region that has a particular TV station, you can sometimes pick up some of its audio portion on your FM radio receiver. Explain how this is possible. Does it imply that TV audio is broadcast as FM?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-120",
-            "type": "paragraph",
-            "content": {
-              "text": "Explain why people who have the lens of their eye removed because of cataracts are able to see low-frequency ultraviolet.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-121",
-            "type": "paragraph",
-            "content": {
-              "text": "How do fluorescent soap residues make clothing look “brighter and whiter” in outdoor light? Would this be effective in candlelight?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-122",
-            "type": "paragraph",
-            "content": {
-              "text": "Give an example of resonance in the reception of electromagnetic waves.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-123",
-            "type": "paragraph",
-            "content": {
-              "text": "Illustrate that the size of details of an object that can be detected with electromagnetic waves is related to their wavelength, by comparing details observable with two different types (for example, radar and visible light or infrared and X-rays).",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-124",
-            "type": "paragraph",
-            "content": {
-              "text": "Why don’t buildings block radio waves as completely as they do visible light?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-125",
-            "type": "paragraph",
-            "content": {
-              "text": "Make a list of some everyday objects and decide whether they are transparent or opaque to each of the types of electromagnetic waves.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-126",
-            "type": "paragraph",
-            "content": {
-              "text": "Your friend says that more patterns and colors can be seen on the wings of birds if viewed in ultraviolet light. Would you agree with your friend? Explain your answer.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-127",
-            "type": "paragraph",
-            "content": {
-              "text": "The rate at which information can be transmitted on an electromagnetic wave is proportional to the frequency of the wave. Is this consistent with the fact that laser telephone transmission at visible frequencies carries far more conversations per optical fiber than conventional electronic transmission in a wire? What is the implication for ELF radio communication with submarines?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-128",
-            "type": "paragraph",
-            "content": {
-              "text": "Give an example of energy carried by an electromagnetic wave.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-129",
-            "type": "paragraph",
-            "content": {
-              "text": "In an MRI scan, a higher magnetic field requires higher frequency radio waves to resonate with the nuclear type whose density and location is being imaged. What effect does going to a larger magnetic field have on the most efficient antenna to broadcast those radio waves? Does it favor a smaller or larger antenna?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-130",
-            "type": "paragraph",
-            "content": {
-              "text": "Laser vision correction often uses an excimer laser that produces 193-nm electromagnetic radiation. This wavelength is extremely strongly absorbed by the cornea and ablates it in a manner that reshapes the cornea to correct vision defects. Explain how the strong absorption helps concentrate the energy in a thin layer and thus give greater accuracy in shaping the cornea. Also explain how this strong absorption limits damage to the lens and retina of the eye.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-131",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-132",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Two microwave frequencies are authorized for use in microwave ovens: 900 and 2560 MHz. Calculate the wavelength of each. (b) Which frequency would produce smaller hot spots in foods due to interference effects?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-133",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) 33.3 cm (900 MHz) 11.7 cm (2560 MHz)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-134",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) The microwave oven with the smaller wavelength would produce smaller hot spots in foods, corresponding to the one with the frequency 2560 MHz.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-135",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Calculate the range of wavelengths for AM radio given its frequency range is 540 to 1600 kHz. (b) Do the same for the FM frequency range of 88.0 to 108 MHz.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-136",
-            "type": "paragraph",
-            "content": {
-              "text": "A radio station utilizes frequencies between commercial AM and FM. What is the frequency of a 11.12-m-wavelength channel?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-137",
-            "type": "paragraph",
-            "content": {
-              "text": "Find the frequency range of visible light, given that it encompasses wavelengths from 380 to 760 nm.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-138",
-            "type": "paragraph",
-            "content": {
-              "text": "Combing your hair leads to excess electrons on the comb. How fast would you have to move the comb up and down to produce red light?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-139",
-            "type": "paragraph",
-            "content": {
-              "text": "Electromagnetic radiation having a $15.0-μm$ wavelength is classified as infrared radiation. What is its frequency?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-140",
-            "type": "paragraph",
-            "content": {
-              "text": "Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency $1.20×{10}^{15}Hz$ ?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-141",
-            "type": "paragraph",
-            "content": {
-              "text": "\\[$λ=\\frac{c}{f}=\\frac{3.00×{10}^{8}m/s}{1.20×{10}^{15}Hz}=2.50×{10}^{-7}m$\\]",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-142",
-            "type": "paragraph",
-            "content": {
-              "text": "A radar used to detect the presence of aircraft receives a pulse that has reflected off an object $6×{10}^{-5}s$ after it was transmitted. What is the distance from the radar station to the reflecting object?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-143",
-            "type": "paragraph",
-            "content": {
-              "text": "Some radar systems detect the size and shape of objects such as aircraft and geological terrain. Approximately what is the smallest observable detail utilizing 500-MHz radar?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-144",
-            "type": "paragraph",
-            "content": {
-              "text": "Determine the amount of time it takes for X-rays of frequency $3×{10}^{18}Hz$ to travel (a) 1 mm and (b) 1 cm.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-145",
-            "type": "paragraph",
-            "content": {
-              "text": "If you wish to detect details of the size of atoms (about $1×{10}^{-10}m$ ) with electromagnetic radiation, it must have a wavelength of about this size. (a) What is its frequency? (b) What type of electromagnetic radiation might this be?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-146",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $f=\\frac{c}{λ}=\\frac{3.00×{10}^{8}m/s}{1×{10}^{-10}m}=3×{10}^{18}Hz$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-147",
-            "type": "paragraph",
-            "content": {
-              "text": "If the Sun suddenly turned off, we would not know it until its light stopped coming. How long would that be, given that the Sun is $1.50×{10}^{11}m$ away?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-148",
-            "type": "paragraph",
-            "content": {
-              "text": "Distances in space are often quoted in units of light years, the distance light travels in one year. (a) How many meters is a light year? (b) How many meters is it to Andromeda, the nearest large galaxy, given that it is $2.00×{10}^{6}$ light years away? (c) The most distant galaxy yet discovered is $12.0×{10}^{9}$ light years away. How far is this in meters?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-149",
-            "type": "paragraph",
-            "content": {
-              "text": "A certain 50.0-Hz AC power line radiates an electromagnetic wave having a maximum electric field strength of 13.0 kV/m. (a) What is the wavelength of this very low frequency electromagnetic wave? (b) What is its maximum magnetic field strength?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-150",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $6.00×{10}^{6}m$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-151",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) $4.33×{10}^{-5}T$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-152",
-            "type": "paragraph",
-            "content": {
-              "text": "During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person’s chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric field strength created? (b) What is the corresponding maximum magnetic field strength in the electromagnetic wave? (c) What is the wavelength of the electromagnetic wave?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-153",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $λ/4$ ) of the electromagnetic radiation being sent out. If a new radio station has such an antenna that is 50.0 m high, what frequency does it broadcast most efficiently? Is this in the AM or FM band? (b) Discuss the analogy of the fundamental resonant mode of an air column closed at one end to the resonance of currents on an antenna that is one-fourth their wavelength.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-154",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) 1.50 × 10 6 Hz, AM band (b) The resonance of currents on an antenna that is 1/4 their wavelength is analogous to the fundamental resonant mode of an air column closed at one end, since the tube also has a length equal to 1/4 the wavelength of the fundamental oscillation.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-155",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) What is the wavelength of 100-MHz radio waves used in an MRI unit? (b) If the frequencies are swept over a $±1.00$ range centered on 100 MHz, what is the range of wavelengths broadcast?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-156",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) What is the frequency of the 193-nm ultraviolet radiation used in laser eye surgery? (b) Assuming the accuracy with which this EM radiation can ablate the cornea is directly proportional to wavelength, how much more accurate can this UV be than the shortest visible wavelength of light?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-157",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $1.55×{10}^{15}Hz$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-158",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) The shortest wavelength of visible light is 380 nm, so that",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-159",
-            "type": "paragraph",
-            "content": {
-              "text": "\\[$\\frac{{λ}_{visible}}{{λ}_{UV}}=\\frac{380 nm}{193 nm}=1.97.$\\]",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-160",
-            "type": "paragraph",
-            "content": {
-              "text": "In other words, the UV radiation is 97% more accurate than the shortest wavelength of visible light, or almost twice as accurate!",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-161",
-            "type": "paragraph",
-            "content": {
-              "text": "TV-reception antennas for VHF are constructed with cross wires supported at their centers, as shown in . The ideal length for the cross wires is one-half the wavelength to be received, with the more expensive antennas having one for each channel. Suppose you measure the lengths of the wires for particular channels and find them to be 1.94 and 0.753 m long, respectively. What are the frequencies for these channels?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-162",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/ae5ba1444b86b8846ed9c1b3c293280d27e79ecf091b29e4686cd74ac69f1e69.jpg",
-            "caption": {
-              "text": "A television reception antenna has cross wires of various lengths to most efficiently receive different wavelengths.",
-              "inline": []
-            },
-            "alt": "The picture of a television reception antenna mounted on the roof of a house. An enlarged image of the antenna is also shown. The antenna has a long horizontal rod having smaller cross wires of decreasing length from left to right. The cross wires are numbered from two to thirteen.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-163",
-            "type": "paragraph",
-            "content": {
-              "text": "Conversations with astronauts on lunar walks had an echo that was used to estimate the distance to the Moon. The sound spoken by the person on Earth was transformed into a radio signal sent to the Moon, and transformed back into sound on a speaker inside the astronaut’s space suit. This sound was picked up by the microphone in the space suit (intended for the astronaut’s voice) and sent back to Earth as a radio echo of sorts. If the round-trip time was 2.60 s, what was the approximate distance to the Moon, neglecting any delays in the electronics?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-164",
-            "type": "paragraph",
-            "content": {
-              "text": "Lunar astronauts placed a reflector on the Moon’s surface, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. (a) To what accuracy in meters can the distance to the Moon be determined, if this time can be measured to 0.100 ns? (b) What percent accuracy is this, given the average distance to the Moon is $3.84×{10}^{8}m$ ?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-165",
-            "type": "paragraph",
-            "content": {
-              "text": "Radar is used to determine distances to various objects by measuring the round-trip time for an echo from the object. (a) How far away is the planet Venus if the echo time is 1000 s? (b) What is the echo time for a car 75.0 m from a Highway Police radar unit? (c) How accurately (in nanoseconds) must you be able to measure the echo time to an airplane 12.0 km away to determine its distance within 10.0 m?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-166",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $1.50×{10}^{11}m$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-167",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Calculate the ratio of the highest to lowest frequencies of electromagnetic waves the eye can see, given the wavelength range of visible light is from 380 to 760 nm. (b) Compare this with the ratio of highest to lowest frequencies the ear can hear.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-168",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) Calculate the rate in watts at which heat transfer through radiation occurs (almost entirely in the infrared) from $1.0{m}^{2}$ of the Earth’s surface at night. Assume the emissivity is 0.90, the temperature of the Earth is $15ºC$ , and that of outer space is 2.7 K. (b) Compare the intensity of this radiation with that coming to the Earth from the Sun during the day, which averages about $800{W/m}^{2}$ , only half of which is absorbed. (c) What is the maximum magnetic field strength in the outgoing radiation, assuming it is a continuous wave?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-169",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $-3.5×{10}^{2}{W/m}^{2}$",
-              "inline": []
-            }
           }
         ]
       },
@@ -3236,7 +2695,7 @@
             },
             {
               "step_number": 2,
-              "expression": "The relationship between wavelength and frequency is $c=fλ$ , where $c=3.00×{10}^{8}m/s$ is the speed of light (the speed of light is only very slightly smaller in air than it is in a vacuum)."
+              "expression": "The relationship between wavelength and frequency is $c=fλ$, where $c=3.00\\times {10}^{8} m/s$ is the speed of light (the speed of light is only very slightly smaller in air than it is in a vacuum)."
             },
             {
               "step_number": 3,
@@ -3244,7 +2703,7 @@
             },
             {
               "step_number": 4,
-              "expression": "(a) For the $f=1530kHz$ AM radio signal, then, (b) For the $f=105.1 MHz$ FM radio signal, (c) And for the $f=1.90 GHz$ cell phone, These wavelengths are consistent with the spectrum in ."
+              "expression": "(a) For the $f=1530 kHz$ AM radio signal, then, $λ = \\frac{3.00\\times {10}^{8} m/s}{1530\\times {10}^{3} cycles/s} = 196 m.$ (b) For the $f=105.1 MHz$ FM radio signal, $λ = \\frac{3.00\\times {10}^{8} m/s}{105.1\\times {10}^{6} cycles/s} = 2.85 m.$ (c) And for the $f=1.90 GHz$ cell phone, $λ = \\frac{3.00\\times {10}^{8} m/s}{1.90\\times {10}^{9} cycles/s} = 0.158 m.$ These wavelengths are consistent with the spectrum in the figure."
             },
             {
               "step_number": 5,
@@ -3256,7 +2715,7 @@
             },
             {
               "step_number": 7,
-              "expression": "The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves , is $λ/2$ , half the wavelength of the electromagnetic wave."
+              "expression": "The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves, is $λ/2$, half the wavelength of the electromagnetic wave."
             },
             {
               "step_number": 8,
@@ -3276,11 +2735,11 @@
             },
             {
               "step_number": 12,
-              "expression": "(See .)"
+              "expression": "(See the figure.)"
             }
           ],
           "answer": {
-            "text": "Calculate the wavelengths of a 1530-kHz AM radio signal, a 105.1-MHz FM radio signal, and a 1.90-GHz cell phone signal. The relationship between wavelength and frequency is $c=fλ$ , where $c=3.00×{10}^{8}m/s$ is the speed of light (the speed of light is only very slightly smaller in air than it is in a vacuum). We can rearrange this equation to find the wavelength for all three frequencies. (a) For the $f=1530kHz$ AM radio signal, then, (b) For the $f=105.1 MHz$ FM radio signal, (c) And for the $f=1.90 GHz$ cell phone, These wavelengths are consistent with the spectrum in . The wavelengths are also related to other properties of these electromagnetic waves, as we shall see. The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves , is $λ/2$ , half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters. One benefit to these long AM wavelengths is that they can go over and around rather large obstacles (like buildings and hills), just as ocean waves can go around large rocks. FM and TV are best received when there is a line of sight between the broadcast antenna and receiver, and they are often sent from very tall structures. FM, TV, and mobile phone antennas themselves are much smaller than those used for AM, but they are elevated to achieve an unobstructed line of sight. (See .)",
+            "text": "Calculate the wavelengths of a 1530-kHz AM radio signal, a 105.1-MHz FM radio signal, and a 1.90-GHz cell phone signal. The relationship between wavelength and frequency is $c=fλ$, where $c=3.00\\times {10}^{8} m/s$ is the speed of light (the speed of light is only very slightly smaller in air than it is in a vacuum). We can rearrange this equation to find the wavelength for all three frequencies. (a) For the $f=1530 kHz$ AM radio signal, then, $λ = \\frac{3.00\\times {10}^{8} m/s}{1530\\times {10}^{3} cycles/s} = 196 m.$ (b) For the $f=105.1 MHz$ FM radio signal, $λ = \\frac{3.00\\times {10}^{8} m/s}{105.1\\times {10}^{6} cycles/s} = 2.85 m.$ (c) And for the $f=1.90 GHz$ cell phone, $λ = \\frac{3.00\\times {10}^{8} m/s}{1.90\\times {10}^{9} cycles/s} = 0.158 m.$ These wavelengths are consistent with the spectrum in the figure. The wavelengths are also related to other properties of these electromagnetic waves, as we shall see. The wavelengths found in the preceding example are representative of AM, FM, and cell phones, and account for some of the differences in how they are broadcast and how well they travel. The most efficient length for a linear antenna, such as discussed in Production of Electromagnetic Waves, is $λ/2$, half the wavelength of the electromagnetic wave. Thus a very large antenna is needed to efficiently broadcast typical AM radio with its carrier wavelengths on the order of hundreds of meters. One benefit to these long AM wavelengths is that they can go over and around rather large obstacles (like buildings and hills), just as ocean waves can go around large rocks. FM and TV are best received when there is a line of sight between the broadcast antenna and receiver, and they are often sent from very tall structures. FM, TV, and mobile phone antennas themselves are much smaller than those used for AM, but they are elevated to achieve an unobstructed line of sight. (See the figure.)",
             "inline": []
           }
         },
@@ -3304,15 +2763,15 @@
             },
             {
               "step_number": 2,
-              "expression": "It makes a spot 0.80 mm in diameter and evaporates a layer of cornea $0.30μm$ thick."
+              "expression": "It makes a spot 0.80 mm in diameter and evaporates a layer of cornea $0.30 μm$ thick."
             },
             {
               "step_number": 3,
-              "expression": "Calculate the energy absorbed, assuming the corneal tissue has the same properties as water; it is initially at $34ºC$ ."
+              "expression": "Calculate the energy absorbed, assuming the corneal tissue has the same properties as water; it is initially at $34ºC$."
             },
             {
               "step_number": 4,
-              "expression": "Assume the evaporated tissue leaves at a temperature of $100ºC$ ."
+              "expression": "Assume the evaporated tissue leaves at a temperature of $100ºC$."
             },
             {
               "step_number": 5,
@@ -3328,19 +2787,19 @@
             },
             {
               "step_number": 8,
-              "expression": "To figure out the heat required to raise the temperature of the tissue to $100ºC$ , we can apply concepts of thermal energy."
+              "expression": "To figure out the heat required to raise the temperature of the tissue to $100ºC$, we can apply concepts of thermal energy."
             },
             {
               "step_number": 9,
-              "expression": "We know that where Q is the heat required to raise the temperature, $ΔT$ is the desired change in temperature, $m$ is the mass of tissue to be heated, and $c$ is the specific heat of water equal to 4186 J/kg/K."
+              "expression": "We know that $Q=mcΔT,$ where Q is the heat required to raise the temperature, $ΔT$ is the desired change in temperature, $m$ is the mass of tissue to be heated, and $c$ is the specific heat of water equal to 4186 J/kg/K."
             },
             {
               "step_number": 10,
-              "expression": "Without knowing the mass $m$ at this point, we have The latent heat of vaporization of water is 2256 kJ/kg, so that the energy needed to evaporate mass $m$ is To find the mass $m$ , we use the equation $ρ=m/V$ , where $ρ$ is the density of the tissue and $V$ is its volume."
+              "expression": "Without knowing the mass $m$ at this point, we have $Q=m(4186 J/kg/K)(100ºC-34ºC)=m(276,276 J/kg)=m(276 kJ/kg).$ The latent heat of vaporization of water is 2256 kJ/kg, so that the energy needed to evaporate mass $m$ is ${Q}_{v}={mL}_{v}=m(2256 kJ/kg).$ To find the mass $m$, we use the equation $ρ=m/V$, where $ρ$ is the density of the tissue and $V$ is its volume."
             },
             {
               "step_number": 11,
-              "expression": "For this case, Therefore, the total energy absorbed by the tissue in the eye is the sum of $Q$ and ${Q}_{v}$ : The lasers used for this eye surgery are excimer lasers, whose light is well absorbed by biological tissue."
+              "expression": "For this case, $m = ρ V = {(1000 kg/m}^{3}) (area × thickness {(m}^{3})) = (1000 kg/{m}^{3})(π(0.80×{10}^{-3} m{)}^{2}/4)(0.30×{10}^{-6} m) = 0.151×{10}^{-9} kg.$ Therefore, the total energy absorbed by the tissue in the eye is the sum of $Q$ and ${Q}_{v}$: ${Q}_{tot}=m(cΔT+{L}_{v})=(0.151×{10}^{-9} kg)(276 kJ/kg+2256 kJ/kg)=382×{10}^{-9} kJ.$ The lasers used for this eye surgery are excimer lasers, whose light is well absorbed by biological tissue."
             },
             {
               "step_number": 12,
@@ -3352,7 +2811,7 @@
             },
             {
               "step_number": 14,
-              "expression": "For our example, if we assume that each laser burst from this pulsed laser lasts for 10 ns, and there are 400 bursts per second, then the average power is ${Q}_{tot}×400=150 mW$ ."
+              "expression": "For our example, if we assume that each laser burst from this pulsed laser lasts for 10 ns, and there are 400 bursts per second, then the average power is ${Q}_{tot}×400=150 mW$."
             },
             {
               "step_number": 15,
@@ -3396,32 +2855,8 @@
             }
           ],
           "answer": {
-            "text": "During laser vision correction, a brief burst of 193-nm ultraviolet light is projected onto the cornea of a patient. It makes a spot 0.80 mm in diameter and evaporates a layer of cornea $0.30μm$ thick. Calculate the energy absorbed, assuming the corneal tissue has the same properties as water; it is initially at $34ºC$ . Assume the evaporated tissue leaves at a temperature of $100ºC$ . The energy from the laser light goes toward raising the temperature of the tissue and also toward evaporating it. Thus we have two amounts of heat to add together. Also, we need to find the mass of corneal tissue involved. To figure out the heat required to raise the temperature of the tissue to $100ºC$ , we can apply concepts of thermal energy. We know that where Q is the heat required to raise the temperature, $ΔT$ is the desired change in temperature, $m$ is the mass of tissue to be heated, and $c$ is the specific heat of water equal to 4186 J/kg/K. Without knowing the mass $m$ at this point, we have The latent heat of vaporization of water is 2256 kJ/kg, so that the energy needed to evaporate mass $m$ is To find the mass $m$ , we use the equation $ρ=m/V$ , where $ρ$ is the density of the tissue and $V$ is its volume. For this case, Therefore, the total energy absorbed by the tissue in the eye is the sum of $Q$ and ${Q}_{v}$ : The lasers used for this eye surgery are excimer lasers, whose light is well absorbed by biological tissue. They evaporate rather than burn the tissue, and can be used for precision work. Most lasers used for this type of eye surgery have an average power rating of about one watt. For our example, if we assume that each laser burst from this pulsed laser lasts for 10 ns, and there are 400 bursts per second, then the average power is ${Q}_{tot}×400=150 mW$ . Optics is the study of the behavior of visible light and other forms of electromagnetic waves. Optics falls into two distinct categories. When electromagnetic radiation, such as visible light, interacts with objects that are large compared with its wavelength, its motion can be represented by straight lines like rays. Ray optics is the study of such situations and includes lenses and mirrors. When electromagnetic radiation interacts with objects about the same size as the wavelength or smaller, its wave nature becomes apparent. For example, observable detail is limited by the wavelength, and so visible light can never detect individual atoms, because they are so much smaller than its wavelength. Physical or wave optics is the study of such situations and includes all wave characteristics. When you light a match you see largely orange light; when you light a gas stove you see blue light. Why are the colors different? What other colors are present in these?",
+            "text": "During laser vision correction, a brief burst of 193-nm ultraviolet light is projected onto the cornea of a patient. It makes a spot 0.80 mm in diameter and evaporates a layer of cornea $0.30 μm$ thick. Calculate the energy absorbed, assuming the corneal tissue has the same properties as water; it is initially at $34ºC$. Assume the evaporated tissue leaves at a temperature of $100ºC$. The energy from the laser light goes toward raising the temperature of the tissue and also toward evaporating it. Thus we have two amounts of heat to add together. Also, we need to find the mass of corneal tissue involved. To figure out the heat required to raise the temperature of the tissue to $100ºC$, we can apply concepts of thermal energy. We know that $Q=mcΔT,$ where Q is the heat required to raise the temperature, $ΔT$ is the desired change in temperature, $m$ is the mass of tissue to be heated, and $c$ is the specific heat of water equal to 4186 J/kg/K. Without knowing the mass $m$ at this point, we have $Q=m(4186 J/kg/K)(100ºC-34ºC)=m(276,276 J/kg)=m(276 kJ/kg).$ The latent heat of vaporization of water is 2256 kJ/kg, so that the energy needed to evaporate mass $m$ is ${Q}_{v}={mL}_{v}=m(2256 kJ/kg).$ To find the mass $m$, we use the equation $ρ=m/V$, where $ρ$ is the density of the tissue and $V$ is its volume. For this case, $m = ρ V = {(1000 kg/m}^{3}) (area × thickness {(m}^{3})) = (1000 kg/{m}^{3})(π(0.80×{10}^{-3} m{)}^{2}/4)(0.30×{10}^{-6} m) = 0.151×{10}^{-9} kg.$ Therefore, the total energy absorbed by the tissue in the eye is the sum of $Q$ and ${Q}_{v}$: ${Q}_{tot}=m(cΔT+{L}_{v})=(0.151×{10}^{-9} kg)(276 kJ/kg+2256 kJ/kg)=382×{10}^{-9} kJ.$ The lasers used for this eye surgery are excimer lasers, whose light is well absorbed by biological tissue. They evaporate rather than burn the tissue, and can be used for precision work. Most lasers used for this type of eye surgery have an average power rating of about one watt. For our example, if we assume that each laser burst from this pulsed laser lasts for 10 ns, and there are 400 bursts per second, then the average power is ${Q}_{tot}×400=150 mW$. Optics is the study of the behavior of visible light and other forms of electromagnetic waves. Optics falls into two distinct categories. When electromagnetic radiation, such as visible light, interacts with objects that are large compared with its wavelength, its motion can be represented by straight lines like rays. Ray optics is the study of such situations and includes lenses and mirrors. When electromagnetic radiation interacts with objects about the same size as the wavelength or smaller, its wave nature becomes apparent. For example, observable detail is limited by the wavelength, and so visible light can never detect individual atoms, because they are so much smaller than its wavelength. Physical or wave optics is the study of such situations and includes all wave characteristics. When you light a match you see largely orange light; when you light a gas stove you see blue light. Why are the colors different? What other colors are present in these?",
             "inline": []
-          }
-        },
-        {
-          "id": "we-exr-142",
-          "statement": {
-            "text": "The correct ordering from least to greatest wavelength is: ELF, FM radio, microwaves, infrared, red, green, ultraviolet, x-ray, gamma ray; ELF, FM radio, microwaves, infrared, green, red, ultraviolet, x-ray, gamma ray; gamma ray, x-ray, ultraviolet, red, green, infrared, microwaves, FM radio, ELF; gamma ray, x-ray, ultraviolet, green, red, infrared, microwaves, FM radio, ELF",
-            "inline": []
-          },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "(d)"
-            }
-          ],
-          "answer": {
-            "text": "(d)",
-            "inline": []
-          },
-          "provenance": {
-            "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42444/index.cnxml",
-            "locator": "CNXML module m42444, exercise block exr-142",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
           }
         }
       ],
@@ -3441,6 +2876,28 @@
             "title": "College Physics 2e",
             "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
             "locator": "CNXML module m42444",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "The electromagnetic spectrum is arranged in order of increasing wavelength.",
+            "inline": []
+          },
+          "correction": {
+            "text": "It runs from radio waves to gamma rays, so the frequency increases as the wavelength decreases. The speed of every one of them in vacuum is the same.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the wavelength ordering as an option.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-3, demoted pending paper evidence",
             "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
         }
@@ -3475,17 +2932,17 @@
       ],
       "exam_links": [
         {
-          "exam": "JAMB",
+          "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
+          "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         },
         {
-          "exam": "WAEC",
+          "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "waec-electromagnetic-waves",
+          "topic_slug": "dispersion-of-light-and-colours",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -3524,7 +2981,7 @@
             "id": "b-1",
             "type": "paragraph",
             "content": {
-              "text": "Anyone who has used a microwave oven knows there is energy in electromagnetic waves . Sometimes this energy is obvious, such as in the warmth of the summer sun. Other times it is subtle, such as the unfelt energy of gamma rays, which can destroy living cells.",
+              "text": "Anyone who has used a microwave oven knows there is energy in electromagnetic waves. Sometimes this energy is obvious, such as in the warmth of the summer sun. Other times it is subtle, such as the unfelt energy of gamma rays, which can destroy living cells.",
               "inline": []
             }
           },
@@ -3532,7 +2989,7 @@
             "id": "b-2",
             "type": "paragraph",
             "content": {
-              "text": "Electromagnetic waves can bring energy into a system by virtue of their electric and magnetic fields . These fields can exert forces and move charges in the system and, thus, do work on them. If the frequency of the electromagnetic wave is the same as the natural frequencies of the system (such as microwaves at the resonant frequency of water molecules), the transfer of energy is much more efficient.",
+              "text": "Electromagnetic waves can bring energy into a system by virtue of their electric and magnetic fields. These fields can exert forces and move charges in the system and, thus, do work on them. If the frequency of the electromagnetic wave is the same as the natural frequencies of the system (such as microwaves at the resonant frequency of water molecules), the transfer of energy is much more efficient.",
               "inline": []
             }
           },
@@ -3575,7 +3032,7 @@
             "id": "b-7",
             "type": "paragraph",
             "content": {
-              "text": "A wave’s energy is proportional to its amplitude squared ( ${E}^{2}$ or ${B}^{2}$ ). This is true for waves on guitar strings, for water waves, and for sound waves, where amplitude is proportional to pressure. In electromagnetic waves, the amplitude is the maximum field strength of the electric and magnetic fields. (See .)",
+              "text": "A wave’s energy is proportional to its amplitude squared (${E}^{2}$ or ${B}^{2}$). This is true for waves on guitar strings, for water waves, and for sound waves, where amplitude is proportional to pressure. In electromagnetic waves, the amplitude is the maximum field strength of the electric and magnetic fields. (See the figure.)",
               "inline": []
             }
           },
@@ -3583,7 +3040,7 @@
             "id": "b-8",
             "type": "paragraph",
             "content": {
-              "text": "Thus the energy carried and the intensity $I$ of an electromagnetic wave is proportional to ${E}^{2}$ and ${B}^{2}$ . In fact, for a continuous sinusoidal electromagnetic wave, the average intensity ${I}_{ave}$ is given by",
+              "text": "Thus the energy carried and the intensity $I$ of an electromagnetic wave is proportional to ${E}^{2}$ and ${B}^{2}$. In fact, for a continuous sinusoidal electromagnetic wave, the average intensity ${I}_{ave}$ is given by ${I}_{ave}=\\frac{{cε}_{0}{E}_{0}^{2}}{2},$",
               "inline": []
             }
           },
@@ -3591,7 +3048,7 @@
             "id": "b-9",
             "type": "paragraph",
             "content": {
-              "text": "where $c$ is the speed of light, ${ε}_{0}$ is the permittivity of free space, and ${E}_{0}$ is the maximum electric field strength; intensity, as always, is power per unit area (here in ${W/m}^{2}$ ).",
+              "text": "where $c$ is the speed of light, ${ε}_{0}$ is the permittivity of free space, and ${E}_{0}$ is the maximum electric field strength; intensity, as always, is power per unit area (here in ${W/m}^{2}$).",
               "inline": []
             }
           },
@@ -3599,7 +3056,7 @@
             "id": "b-10",
             "type": "paragraph",
             "content": {
-              "text": "The average intensity of an electromagnetic wave ${I}_{ave}$ can also be expressed in terms of the magnetic field strength by using the relationship $B=E/c$ , and the fact that ${ε}_{0}=1/{μ}_{0}{c}^{2}$ , where ${μ}_{0}$ is the permeability of free space. Algebraic manipulation produces the relationship",
+              "text": "The average intensity of an electromagnetic wave ${I}_{ave}$ can also be expressed in terms of the magnetic field strength by using the relationship $B=E/c$, and the fact that ${ε}_{0}=1/{μ}_{0}{c}^{2}$, where ${μ}_{0}$ is the permeability of free space. Algebraic manipulation produces the relationship ${I}_{ave}=\\frac{{cB}_{0}^{2}}{{2μ}_{0}},$",
               "inline": []
             }
           },
@@ -3615,7 +3072,7 @@
             "id": "b-12",
             "type": "paragraph",
             "content": {
-              "text": "One more expression for ${I}_{ave}$ in terms of both electric and magnetic field strengths is useful. Substituting the fact that $c\\cdot {B}_{0}={E}_{0}$ , the previous expression becomes",
+              "text": "One more expression for ${I}_{ave}$ in terms of both electric and magnetic field strengths is useful. Substituting the fact that $c\\cdot {B}_{0}={E}_{0}$, the previous expression becomes ${I}_{ave}=\\frac{{E}_{0}{B}_{0}}{{2μ}_{0}}.$",
               "inline": []
             }
           },
@@ -3623,458 +3080,7 @@
             "id": "b-13",
             "type": "paragraph",
             "content": {
-              "text": "Whichever of the three preceding equations is most convenient can be used, since they are really just different versions of the same principle: Energy in a wave is related to amplitude squared. Furthermore, since these equations are based on the assumption that the electromagnetic waves are sinusoidal, peak intensity is twice the average; that is, ${I}_{0}=2{I}_{ave}$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-14",
-            "type": "paragraph",
-            "content": {
-              "text": "An old microwave oven outputs only half the electric field it used to. How much longer does it take to cook things in this microwave oven?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-15",
-            "type": "paragraph",
-            "content": {
-              "text": "Describe at least two improvements you could make to a radar set to make it more sensitive (able to detect things at longer ranges). Explain why these would work.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-16",
-            "type": "paragraph",
-            "content": {
-              "text": "where ${I}_{ave}$ is the average intensity in ${W/m}^{2}$ , and ${E}_{0}$ is the maximum electric field strength of a continuous sinusoidal wave.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-17",
-            "type": "paragraph",
-            "content": {
-              "text": "and in terms of both electric and magnetic fields as",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-18",
-            "type": "heading",
-            "text": {
-              "text": "Problems & Exercises",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-19",
-            "type": "paragraph",
-            "content": {
-              "text": "What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-20",
-            "type": "paragraph",
-            "content": {
-              "text": "\\[$I=\\frac{{cε}_{0}{E}_{0}^{2}}{2}=\\frac{(3.00×{10}^{8}m/s)(8.85×{10}^{–12}{C}^{2}/N\\cdot {m}^{2}){(125 V/m)}^{2}}{2}=20.{7 W/m}^{2}$\\]",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-21",
-            "type": "paragraph",
-            "content": {
-              "text": "Find the intensity of an electromagnetic wave having a peak magnetic field strength of $4.00×{10}^{-9}T$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-22",
-            "type": "paragraph",
-            "content": {
-              "text": "Assume the helium-neon lasers commonly used in student physics laboratories have power outputs of 0.250 mW. (a) If such a laser beam is projected onto a circular spot 1.00 mm in diameter, what is its intensity? (b) Find the peak magnetic field strength. (c) Find the peak electric field strength.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-23",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $I=\\frac{P}{A}=\\frac{P}{π{r}^{2}}=\\frac{0.250×{10}^{-3}W}{π{(0.500×{10}^{-3}m)}^{2}}={318 W/m}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-24",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) ${I}_{ave}=\\frac{{cB}_{0}^{2}}{{2μ}_{0}}⇒{B}_{0}={(\\frac{{2μ}_{0}I}{c})}^{1/2}={(\\frac{2(4π×{10}^{-7}T\\cdot m/A)(318.{3 W/m}^{2})}{3.00×{10}^{8}m/s})}^{1/2}=1.63×{10}^{-6}T$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-25",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) ${E}_{0}={cB}_{0}=(3.00×{10}^{8}m/s)(1.633×{10}^{-6}T)=4.90×{10}^{2}V/m$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-26",
-            "type": "paragraph",
-            "content": {
-              "text": "An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions. (a) Assuming all of the radio waves that strike the ground are completely absorbed, and that there is no absorption by the atmosphere or other objects, what is the intensity 30.0 km away? (Hint: Half the power will be spread over the area of a hemisphere.) (b) What is the maximum electric field strength at this distance?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-27",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose the maximum safe intensity of microwaves for human exposure is taken to be $1.00 W{/m}^{2}$ . (a) If a radar unit leaks 10.0 W of microwaves (other than those sent by its antenna) uniformly in all directions, how far away must you be to be exposed to an intensity considered to be safe? Assume that the power spreads uniformly over the area of a sphere with no complications from absorption or reflection. (b) What is the maximum electric field strength at the safe intensity? (Note that early radar units leaked more than modern ones do. This caused identifiable health problems, such as cataracts, for people who worked near them.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-28",
-            "type": "paragraph",
-            "content": {
-              "text": "A 2.50-m-diameter university communications satellite dish receives TV signals that have a maximum electric field strength (for one channel) of $7.50μV/m$ . (See .) (a) What is the intensity of this wave? (b) What is the power received by the antenna? (c) If the orbiting satellite broadcasts uniformly over an area of $1.50×{10}^{13}{m}^{2}$ (a large fraction of North America), how much power does it radiate?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-29",
-            "type": "figure",
-            "asset_url": "books/secondary_physics/ce90b1d8ec918c6c2da1a598e58c24ac66ba36e698e80d834c63641d31398b41.jpg",
-            "caption": {
-              "text": "Satellite dishes receive TV signals sent from orbit. Although the signals are quite weak, the receiver can detect them by being tuned to resonate at their frequency.",
-              "inline": []
-            },
-            "alt": "A large, round dish antenna looking like a giant white saucer is shown. It rests on a pillar like structure based on the ground. It is shown to receive TV signals in the form of electromagnetic waves shown as wavy arrows.",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
-          },
-          {
-            "id": "b-30",
-            "type": "paragraph",
-            "content": {
-              "text": "Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to ignite nuclear fusion, for example. Such a laser may produce an electromagnetic wave with a maximum electric field strength of $1.00×{10}^{11}V/m$ for a time of 1.00 ns. (a) What is the maximum magnetic field strength in the wave? (b) What is the intensity of the beam? (c) What energy does it deliver on a $1.00{-mm}^{2}$ area?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-31",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) $1.33×{10}^{19}{W/m}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-32",
-            "type": "paragraph",
-            "content": {
-              "text": "Show that for a continuous sinusoidal electromagnetic wave, the peak intensity is twice the average intensity ( ${I}_{0}={2I}_{ave}$ ), using either the fact that ${E}_{0}=\\sqrt{2}{E}_{rms}$ , or ${B}_{0}=\\sqrt{2}{B}_{rms}$ , where rms means average (actually root mean square, a type of average).",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-33",
-            "type": "paragraph",
-            "content": {
-              "text": "Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is inversely proportional to ${r}^{2}$ , the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to $r$ .",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-34",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $I=\\frac{P}{A}=\\frac{P}{4π{r}^{2}}∝\\frac{1}{{r}^{2}}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-35",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) ${I∝E}_{0}^{2},{B}_{0}^{2}⇒{E}_{0}^{2},{B}_{0}^{2}∝\\frac{1}{{r}^{2}}⇒{E}_{0},{B}_{0}∝\\frac{1}{r}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-36",
-            "type": "paragraph",
-            "content": {
-              "text": "An $LC$ circuit with a 5.00-pF capacitor oscillates in such a manner as to radiate at a wavelength of 3.30 m. (a) What is the resonant frequency? (b) What inductance is in series with the capacitor?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-37",
-            "type": "paragraph",
-            "content": {
-              "text": "What capacitance is needed in series with an $800-μH$ inductor to form a circuit that radiates a wavelength of 196 m?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-38",
-            "type": "paragraph",
-            "content": {
-              "text": "Police radar determines the speed of motor vehicles using the same Doppler-shift technique employed for ultrasound in medical diagnostics. Beats are produced by mixing the double Doppler-shifted echo with the original frequency. If $1.50×{10}^{9}-Hz$ microwaves are used and a beat frequency of 150 Hz is produced, what is the speed of the vehicle? (Assume the same Doppler-shift formulas are valid with the speed of sound replaced by the speed of light.)",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-39",
-            "type": "paragraph",
-            "content": {
-              "text": "Assume the mostly infrared radiation from a heat lamp acts like a continuous wave with wavelength $1.50μm$ . (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a circular area 25.0 cm in diameter, what is the intensity in ${W/m}^{2}$ ? (b) What is the peak electric field strength? (c) Find the peak magnetic field strength. (d) How long will it take to increase the temperature of the 4.00-kg shoulder by $2.00º C$ , assuming no other heat transfer and given that its specific heat is $3.47×{10}^{3}J/kg\\cdot ºC$ ?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-40",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $4.07 k{W/m}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-41",
-            "type": "paragraph",
-            "content": {
-              "text": "On its highest power setting, a microwave oven increases the temperature of 0.400 kg of spaghetti by $45.0ºC$ in 120 s. (a) What was the rate of power absorption by the spaghetti, given that its specific heat is $3.76×{10}^{3}J/kg\\cdot ºC$ ? (b) Find the average intensity of the microwaves, given that they are absorbed over a circular area 20.0 cm in diameter. (c) What is the peak electric field strength of the microwave? (d) What is its peak magnetic field strength?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-42",
-            "type": "paragraph",
-            "content": {
-              "text": "Electromagnetic radiation from a 5.00-mW laser is concentrated on a $1.00{-mm}^{2}$ area. (a) What is the intensity in ${W/m}^{2}$ ? (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric force it experiences? (c) If the static charge moves at 400 m/s, what maximum magnetic force can it feel?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-43",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $5.00×{10}^{3}{W/m}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-44",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) $3.88×{10}^{-6}N$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-45",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) $5.18×{10}^{-12}N$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-46",
-            "type": "paragraph",
-            "content": {
-              "text": "A 200-turn flat coil of wire 30.0 cm in diameter acts as an antenna for FM radio at a frequency of 100 MHz. The magnetic field of the incoming electromagnetic wave is perpendicular to the coil and has a maximum strength of $1.00×{10}^{-12}T$ . (a) What power is incident on the coil? (b) What average emf is induced in the coil over one-fourth of a cycle? (c) If the radio receiver has an inductance of $2.50μH$ , what capacitance must it have to resonate at 100 MHz?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-47",
-            "type": "paragraph",
-            "content": {
-              "text": "If electric and magnetic field strengths vary sinusoidally in time, being zero at $t=0$ , then $E={E}_{0}sin2πft$ and $B={B}_{0}sin2πft$ . Let $f=1.00 GHz$ here. (a) When are the field strengths first zero? (b) When do they reach their most negative value? (c) How much time is needed for them to complete one cycle?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-48",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) $7.50×{10}^{-10}s$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-49",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) $1.00×{10}^{-9}s$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-50",
-            "type": "paragraph",
-            "content": {
-              "text": "Unreasonable Results",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-51",
-            "type": "paragraph",
-            "content": {
-              "text": "A researcher measures the wavelength of a 1.20-GHz electromagnetic wave to be 0.500 m. (a) Calculate the speed at which this wave propagates. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-52",
-            "type": "paragraph",
-            "content": {
-              "text": "Unreasonable Results",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-53",
-            "type": "paragraph",
-            "content": {
-              "text": "The peak magnetic field strength in a residential microwave oven is $9.20×{10}^{-5}T$ . (a) What is the intensity of the microwave? (b) What is unreasonable about this result? (c) What is wrong about the premise?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-54",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $1.01×{10}^{6}{W/m}^{2}$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-55",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) Much too great for an oven.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-56",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) The assumed magnetic field is unreasonably large.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-57",
-            "type": "paragraph",
-            "content": {
-              "text": "Unreasonable Results",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-58",
-            "type": "paragraph",
-            "content": {
-              "text": "An $LC$ circuit containing a 2.00-H inductor oscillates at such a frequency that it radiates at a 1.00-m wavelength. (a) What is the capacitance of the circuit? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-59",
-            "type": "paragraph",
-            "content": {
-              "text": "Unreasonable Results",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-60",
-            "type": "paragraph",
-            "content": {
-              "text": "An $LC$ circuit containing a 1.00-pF capacitor oscillates at such a frequency that it radiates at a 300-nm wavelength. (a) What is the inductance of the circuit? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-61",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $2.53×{10}^{-20}H$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-62",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) L is much too small.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-63",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) The wavelength is unreasonably small.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-64",
-            "type": "paragraph",
-            "content": {
-              "text": "Create Your Own Problem Consider electromagnetic fields produced by high voltage power lines. Construct a problem in which you calculate the intensity of this electromagnetic radiation in ${W/m}^{2}$ based on the measured magnetic field strength of the radiation in a home near the power lines. Assume these magnetic field strengths are known to average less than a $μT$ . The intensity is small enough that it is difficult to imagine mechanisms for biological damage due to it. Discuss how much energy may be radiating from a section of power line several hundred meters long and compare this to the power likely to be carried by the lines. An idea of how much power this is can be obtained by calculating the approximate current responsible for $μT$ fields at distances of tens of meters.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-65",
-            "type": "paragraph",
-            "content": {
-              "text": "Create Your Own Problem Consider the most recent generation of residential satellite dishes that are a little less than half a meter in diameter. Construct a problem in which you calculate the power received by the dish and the maximum electric field strength of the microwave signals for a single channel received by the dish. Among the things to be considered are the power broadcast by the satellite and the area over which the power is spread, as well as the area of the receiving dish.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-66",
-            "type": "paragraph",
-            "content": {
-              "text": "Critical Thinking (a) Find the magnetic field strength when the electric field strength is 1,250 V/m. (b) If *E* is increased, would *B* be increased, decreased, or remain the same? (c) By what factor would the change in part b be, if any?",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-67",
-            "type": "paragraph",
-            "content": {
-              "text": "(a) $B=\\frac{E}{c}B=\\frac{1250}{3.00×{10}^{8}}T=4.17×{10}^{-6}T$",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-68",
-            "type": "paragraph",
-            "content": {
-              "text": "(b) *E* would increase.",
-              "inline": []
-            }
-          },
-          {
-            "id": "b-69",
-            "type": "paragraph",
-            "content": {
-              "text": "(c) It would be by 1/ *c* .",
+              "text": "Whichever of the three preceding equations is most convenient can be used, since they are really just different versions of the same principle: Energy in a wave is related to amplitude squared. Furthermore, since these equations are based on the assumption that the electromagnetic waves are sinusoidal, peak intensity is twice the average; that is, ${I}_{0}=2{I}_{ave}$.",
               "inline": []
             }
           }
@@ -4101,7 +3107,7 @@
             },
             {
               "step_number": 2,
-              "expression": "(a) What is the intensity in ${W/m}^{2}$ ?"
+              "expression": "(a) What is the intensity in ${W/m}^{2}$?"
             },
             {
               "step_number": 3,
@@ -4109,7 +3115,7 @@
             },
             {
               "step_number": 4,
-              "expression": "(c) What is the peak magnetic field strength ${B}_{0}$ ?"
+              "expression": "(c) What is the peak magnetic field strength ${B}_{0}$?"
             },
             {
               "step_number": 5,
@@ -4121,7 +3127,7 @@
             },
             {
               "step_number": 7,
-              "expression": "Entering the given power into the definition of intensity, and noting the area is 0.300 by 0.400 m, yields Here $I={I}_{ave}$ , so that Note that the peak intensity is twice the average: To find ${E}_{0}$ , we can rearrange the first equation given above for ${I}_{ave}$ to give Entering known values gives Perhaps the easiest way to find magnetic field strength, now that the electric field strength is known, is to use the relationship given by Entering known values gives As before, a relatively strong electric field is accompanied by a relatively weak magnetic field in an electromagnetic wave, since $B=E/c$ , and $c$ is a large number."
+              "expression": "Entering the given power into the definition of intensity, and noting the area is 0.300 by 0.400 m, yields $I=\\frac{P}{A}=\\frac{1.00 kW}{0.300 m \\times 0.400 m}.$ Here $I={I}_{ave}$, so that ${I}_{ave}=\\frac{1000 W}{0.120 {m}^{2}}=8.33\\times {10}^{3} {W/m}^{2}.$ Note that the peak intensity is twice the average: ${I}_{0}=2{I}_{ave}=1.67\\times {10}^{4} W/{m}^{2}.$ To find ${E}_{0}$, we can rearrange the first equation given above for ${I}_{ave}$ to give ${E}_{0}={(\\frac{2{I}_{ave}}{{cε}_{0}})}^{1/2}.$ Entering known values gives ${E}_{0} = \\sqrt{\\frac{2(8.33\\times {10}^{3} {W/m}^{2})}{(3.00\\times {10}^{8} m/s)(8.85\\times {10}^{-12} {C}^{2}/N\\cdot {m}^{2})}} = 2.51\\times {10}^{3} V/m.$ Perhaps the easiest way to find magnetic field strength, now that the electric field strength is known, is to use the relationship given by ${B}_{0}=\\frac{{E}_{0}}{c}.$ Entering known values gives ${B}_{0} = \\frac{2.51\\times {10}^{3} V/m}{3.0\\times {10}^{8} m/s} = 8.35\\times {10}^{-6} T.$ As before, a relatively strong electric field is accompanied by a relatively weak magnetic field in an electromagnetic wave, since $B=E/c$, and $c$ is a large number."
             },
             {
               "step_number": 8,
@@ -4137,36 +3143,35 @@
             }
           ],
           "answer": {
-            "text": "On its highest power setting, a certain microwave oven projects 1.00 kW of microwaves onto a 30.0 by 40.0 cm area. (a) What is the intensity in ${W/m}^{2}$ ? (b) Calculate the peak electric field strength ${E}_{0}$ in these waves. (c) What is the peak magnetic field strength ${B}_{0}$ ? In part (a), we can find intensity from its definition as power per unit area. Once the intensity is known, we can use the equations below to find the field strengths asked for in parts (b) and (c). Entering the given power into the definition of intensity, and noting the area is 0.300 by 0.400 m, yields Here $I={I}_{ave}$ , so that Note that the peak intensity is twice the average: To find ${E}_{0}$ , we can rearrange the first equation given above for ${I}_{ave}$ to give Entering known values gives Perhaps the easiest way to find magnetic field strength, now that the electric field strength is known, is to use the relationship given by Entering known values gives As before, a relatively strong electric field is accompanied by a relatively weak magnetic field in an electromagnetic wave, since $B=E/c$ , and $c$ is a large number. Explore the effect of different types of radiation on various molecules. Choose the type of radiation and the molecules to see how they interact. Click to view content",
+            "text": "On its highest power setting, a certain microwave oven projects 1.00 kW of microwaves onto a 30.0 by 40.0 cm area. (a) What is the intensity in ${W/m}^{2}$? (b) Calculate the peak electric field strength ${E}_{0}$ in these waves. (c) What is the peak magnetic field strength ${B}_{0}$? In part (a), we can find intensity from its definition as power per unit area. Once the intensity is known, we can use the equations below to find the field strengths asked for in parts (b) and (c). Entering the given power into the definition of intensity, and noting the area is 0.300 by 0.400 m, yields $I=\\frac{P}{A}=\\frac{1.00 kW}{0.300 m \\times 0.400 m}.$ Here $I={I}_{ave}$, so that ${I}_{ave}=\\frac{1000 W}{0.120 {m}^{2}}=8.33\\times {10}^{3} {W/m}^{2}.$ Note that the peak intensity is twice the average: ${I}_{0}=2{I}_{ave}=1.67\\times {10}^{4} W/{m}^{2}.$ To find ${E}_{0}$, we can rearrange the first equation given above for ${I}_{ave}$ to give ${E}_{0}={(\\frac{2{I}_{ave}}{{cε}_{0}})}^{1/2}.$ Entering known values gives ${E}_{0} = \\sqrt{\\frac{2(8.33\\times {10}^{3} {W/m}^{2})}{(3.00\\times {10}^{8} m/s)(8.85\\times {10}^{-12} {C}^{2}/N\\cdot {m}^{2})}} = 2.51\\times {10}^{3} V/m.$ Perhaps the easiest way to find magnetic field strength, now that the electric field strength is known, is to use the relationship given by ${B}_{0}=\\frac{{E}_{0}}{c}.$ Entering known values gives ${B}_{0} = \\frac{2.51\\times {10}^{3} V/m}{3.0\\times {10}^{8} m/s} = 8.35\\times {10}^{-6} T.$ As before, a relatively strong electric field is accompanied by a relatively weak magnetic field in an electromagnetic wave, since $B=E/c$, and $c$ is a large number. Explore the effect of different types of radiation on various molecules. Choose the type of radiation and the molecules to see how they interact. Click to view content",
             "inline": []
           }
-        },
+        }
+      ],
+      "misconceptions": [
         {
-          "id": "we-exr-29",
-          "statement": {
-            "text": "An old microwave oven outputs only half the electric field it used to. How much longer does it take to cook things in this microwave oven? Four times as long; Twice as long; Half the time; One fourth the time",
+          "id": "mis-1",
+          "claim": {
+            "text": "The energy of an electromagnetic wave depends on how bright it is.",
             "inline": []
           },
-          "steps": [
-            {
-              "step_number": 1,
-              "expression": "(a)"
-            }
-          ],
-          "answer": {
-            "text": "(a)",
+          "correction": {
+            "text": "The energy of a photon is set by its frequency, $E = hf$. Brightness tells you how many photons arrive, not how much energy each one carries.",
+            "inline": []
+          },
+          "signal": {
+            "text": "Our own question offers the brightness reading as an option.",
             "inline": []
           },
           "provenance": {
             "publisher": "OpenStax",
-            "title": "osbooks-college-physics-bundle",
-            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
-            "locator": "CNXML module m42446, exercise block exr-29",
-            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+            "title": "College Physics 2e",
+            "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+            "locator": "candidate trap trap-4, demoted pending paper evidence",
+            "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
           }
         }
       ],
-      "misconceptions": [],
       "summary_points": [
         {
           "text": "The energy carried by any wave is proportional to its amplitude squared. For electromagnetic waves, this means intensity can be expressed as Iave=cε0E022,where Iave is the average intensity in W/m2, and E0 is the maximum electric field strength of a continuous sinusoidal wave.",
@@ -4193,23 +3198,16 @@
         "ex-sec-5-09",
         "ex-sec-5-10",
         "ex-sec-5-11",
-        "ex-sec-5-12"
+        "ex-sec-5-12",
+        "ex-sec-5-13"
       ],
       "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "electromagnetic-induction",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
         {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-electromagnetic-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -4224,17 +3222,262 @@
   ],
   "exercises": [
     {
+      "id": "ex-sec-2-01",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "What did Maxwell predict about a changing electric field?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "That it produces a magnetic field, just as a changing magnetic field produces an electric field.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Faraday had shown that a changing magnetic field induces an electric field."
+        },
+        {
+          "step_number": 2,
+          "expression": "Maxwell added the symmetrical term: a changing electric field produces a magnetic field."
+        },
+        {
+          "step_number": 3,
+          "expression": "Together these effects allow an electromagnetic wave to sustain itself."
+        }
+      ],
+      "tags": [
+        "maxwell equations",
+        "changing fields"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-02",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Who produced and detected the first electromagnetic waves, and how?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Hertz, using an oscillating electric spark to generate the waves and a loop with a small gap to detect them.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "A spark discharge produced rapidly changing currents."
+        },
+        {
+          "step_number": 2,
+          "expression": "Those changing currents radiated electromagnetic waves."
+        },
+        {
+          "step_number": 3,
+          "expression": "A nearby loop picked up the waves and produced a tiny spark across its gap."
+        }
+      ],
+      "tags": [
+        "hertz",
+        "electromagnetic waves"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-03",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the speed of an electromagnetic wave if μ₀ = 4π × 10⁻⁷ T m/A and ε₀ = 8.85 × 10⁻¹² C²/(N m²).",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "about 3.0 × 10⁸ m/s",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Use c = 1/√(μ₀ε₀)."
+        },
+        {
+          "step_number": 2,
+          "expression": "μ₀ε₀ = (4π × 10⁻⁷)(8.85 × 10⁻¹²) ≈ 1.11 × 10⁻¹⁷."
+        },
+        {
+          "step_number": 3,
+          "expression": "c = 1/√(1.11 × 10⁻¹⁷) ≈ 3.0 × 10⁸ m/s."
+        }
+      ],
+      "tags": [
+        "speed of light",
+        "maxwell"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
+      "id": "ex-sec-2-04",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Why did the agreement between Maxwell’s predicted speed and the measured speed of light matter?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "It showed that light itself is an electromagnetic wave.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Maxwell’s equations predicted a wave speed from electric and magnetic constants."
+        },
+        {
+          "step_number": 2,
+          "expression": "The predicted value matched the measured speed of light."
+        },
+        {
+          "step_number": 3,
+          "expression": "That strongly suggested light is an electromagnetic wave."
+        }
+      ],
+      "tags": [
+        "speed of light",
+        "electromagnetic wave"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-2",
+        "locator": "authored exercise for sec-2",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
+    },
+    {
       "id": "ex-sec-3-01",
+      "section_id": "sec-3",
+      "tier": "stretch",
+      "kind": "numeric",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "If an electromagnetic wave is described as having a frequency of 3 GHz, what are its period and wavelength (in a vacuum)?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "3.0 × 10 9 s, 10 cm"
+        },
+        {
+          "id": "b",
+          "text": "3.3 × 10 −10 s, 10 cm"
+        },
+        {
+          "id": "c",
+          "text": "3.3 × 10 −10 s, 10 m"
+        },
+        {
+          "id": "d",
+          "text": "3.0 × 10 9 s, 10 m"
+        }
+      ],
+      "answer": {
+        "text": "(b)",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(b)"
+        }
+      ],
+      "tags": [
+        "production-of-electromagnetic-waves"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42440/index.cnxml",
+        "locator": "CNXML module m42440, exercise block exr-40",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-02",
       "section_id": "sec-3",
       "tier": "stretch",
       "kind": "algebraic",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "A wave is travelling through a medium until it hits the end of the medium and there is nothing but vacuum beyond. What happens to a mechanical wave? Electromagnetic wave? reflects backward, continues on; reflects backward, reflects backward; continues on, continues on; stops, continues on",
+        "text": "A wave is travelling through a medium until it hits the end of the medium and there is nothing but vacuum beyond. What happens to a mechanical wave? Electromagnetic wave?",
         "inline": []
       },
-      "options": [],
+      "options": [
+        {
+          "id": "a",
+          "text": "reflects backward, continues on"
+        },
+        {
+          "id": "b",
+          "text": "reflects backward, reflects backward"
+        },
+        {
+          "id": "c",
+          "text": "continues on, continues on"
+        },
+        {
+          "id": "d",
+          "text": "stops, continues on"
+        }
+      ],
       "answer": {
         "text": "(a)",
         "inline": []
@@ -4259,17 +3502,34 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-3-02",
+      "id": "ex-sec-3-03",
       "section_id": "sec-3",
       "tier": "stretch",
       "kind": "numeric",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Given the waveform in (d), if $T=3.0×{10}^{-9}s$ and $E=5.0×{10}^{5}N / C$ , which of the following is the correct equation for the wave at the antenna? $(5.0×{10}^{5}N / C)sin(2π(3.0×{10}^{-9}s)t)$; $(5.0×{10}^{5}N / C)sin(\\frac{2πt}{(3.0×{10}^{-9}s)})$; $(5.0×{10}^{5}N / C)cos(2π(3.0×{10}^{-9}s)t)$; $(5.0×{10}^{5}N / C)cos(\\frac{2πt}{(3.0×{10}^{-9}s)})$",
+        "text": "A sinusoidal electromagnetic wave has period $T=3.0×10^{-9}s$ and peak electric field $E_{0}=5.0×10^{5}N/C$. At $t=0$ the electric field has its maximum value. Which of the following is the correct equation for the wave at the antenna?",
         "inline": []
       },
-      "options": [],
+      "options": [
+        {
+          "id": "a",
+          "text": "$(5.0\\times {10}^{5}N / C)sin (2π(3.0\\times {10}^{-9}s)t)$"
+        },
+        {
+          "id": "b",
+          "text": "$(5.0\\times {10}^{5}N / C)sin (\\frac{2πt}{(3.0\\times {10}^{-9}s)})$"
+        },
+        {
+          "id": "c",
+          "text": "$(5.0\\times {10}^{5}N / C)cos (2π(3.0\\times {10}^{-9}s)t)$"
+        },
+        {
+          "id": "d",
+          "text": "$(5.0\\times {10}^{5}N / C)cos (\\frac{2πt}{(3.0\\times {10}^{-9}s)})$"
+        }
+      ],
       "answer": {
         "text": "(d)",
         "inline": []
@@ -4278,7 +3538,7 @@
       "solution": [
         {
           "step_number": 1,
-          "expression": "(d)"
+          "expression": "At $t=0$ the field is a maximum, so the wave is a cosine. Its angular frequency is $2π/T$, giving $E=(5.0×10^{5}N/C)\\cos(2πt/T)$ ."
         }
       ],
       "tags": [
@@ -4291,20 +3551,37 @@
         "locator": "CNXML module m42440, exercise block exr-48",
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
+      "solution_provenance": "OpenStax CNXML solution element (in file); the stem is rewritten so the waveform is described instead of shown in a figure"
     },
     {
-      "id": "ex-sec-3-03",
+      "id": "ex-sec-3-04",
       "section_id": "sec-3",
       "tier": "stretch",
       "kind": "numeric",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "In Heinrich Hertz’s spark gap experiment ( ), how will the induced sparks in Loop 2 compare to those created in Loop 1? Stronger; Weaker; Need to know the tuner settings to tell; Weaker, but how much depends on the tuner settings.",
+        "text": "In Hertz's spark-gap experiment, a spark in the transmitting loop sends a pulse to a receiving loop. How do the sparks induced in the receiving loop compare with the spark in the transmitting loop?",
         "inline": []
       },
-      "options": [],
+      "options": [
+        {
+          "id": "a",
+          "text": "Stronger"
+        },
+        {
+          "id": "b",
+          "text": "Weaker"
+        },
+        {
+          "id": "c",
+          "text": "Need to know the tuner settings to tell"
+        },
+        {
+          "id": "d",
+          "text": "Weaker, but how much depends on the tuner settings"
+        }
+      ],
       "answer": {
         "text": "(d)",
         "inline": []
@@ -4313,7 +3590,11 @@
       "solution": [
         {
           "step_number": 1,
-          "expression": "(d)"
+          "expression": "(d). The receiving loop captures only part of the energy radiated by the transmitting loop, so the induced spark is weaker."
+        },
+        {
+          "step_number": 2,
+          "expression": "How much weaker depends on the tuning: when the loops resonate at the same frequency, the transfer is most efficient."
         }
       ],
       "tags": [
@@ -4326,17 +3607,17 @@
         "locator": "CNXML module m42440, exercise block exr-52",
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
-      "solution_provenance": "OpenStax CNXML solution element (in file)"
+      "solution_provenance": "OpenStax CNXML solution element (in file); the one-letter answer is expanded into the reasoning the question asks for"
     },
     {
-      "id": "ex-sec-3-04",
+      "id": "ex-sec-3-05",
       "section_id": "sec-3",
       "tier": "core",
       "kind": "numeric",
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $5.00×{10}^{-4}T$ (about 10 times the Earth’s)?",
+        "text": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $5.00\\times {10}^{-4} T$ (about 10 times the Earth’s)?",
         "inline": []
       },
       "options": [],
@@ -4362,6 +3643,51 @@
         "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
       },
       "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-3-06",
+      "section_id": "sec-3",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "In an electromagnetic wave, what is the angle between the electric field and the magnetic field?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "90 degrees.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The two fields are perpendicular to each other."
+        },
+        {
+          "step_number": 2,
+          "expression": "They are also both perpendicular to the direction of travel."
+        },
+        {
+          "step_number": 3,
+          "expression": "This makes the wave transverse."
+        }
+      ],
+      "tags": [
+        "electric field",
+        "magnetic field",
+        "transverse wave"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Physics",
+        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text"
     },
     {
       "id": "ex-sec-4-01",
@@ -4480,7 +3806,7 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency $1.20×{10}^{15}Hz$ ?",
+        "text": "Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency $1.20\\times {10}^{15} Hz$?",
         "inline": []
       },
       "options": [],
@@ -4550,7 +3876,7 @@
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "If you wish to detect details of the size of atoms (about $1×{10}^{-10}m$ ) with electromagnetic radiation, it must have a wavelength of about this size. (a) What is its frequency? (b) What type of electromagnetic radiation might this be?",
+        "text": "If you wish to detect details of the size of atoms (about $1×{10}^{-10} m$) with electromagnetic radiation, it must have a wavelength of about this size. (a) What is its frequency? (b) What type of electromagnetic radiation might this be?",
         "inline": []
       },
       "options": [],
@@ -4628,7 +3954,7 @@
       "difficulty": 3,
       "marks": 3,
       "stem": {
-        "text": "(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $λ/4$ ) of the electromagnetic radiation being sent out. If a new radio station has such an antenna that is 50.0 m high, what frequency does it broadcast most efficiently? Is this in the AM or FM band? (b) Discuss the analogy of the fundamental resonant mode of an air column closed at one end to the resonance of currents on an antenna that is one-fourth their wavelength.",
+        "text": "(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ($λ/4$) of the electromagnetic radiation being sent out. If a new radio station has such an antenna that is 50.0 m high, what frequency does it broadcast most efficiently? Is this in the AM or FM band? (b) Discuss the analogy of the fundamental resonant mode of an air column closed at one end to the resonance of currents on an antenna that is one-fourth their wavelength.",
         "inline": []
       },
       "options": [],
@@ -4788,7 +4114,7 @@
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Integrated Concepts (a) Calculate the rate in watts at which heat transfer through radiation occurs (almost entirely in the infrared) from $1.0{m}^{2}$ of the Earth’s surface at night. Assume the emissivity is 0.90, the temperature of the Earth is $15ºC$ , and that of outer space is 2.7 K. (b) Compare the intensity of this radiation with that coming to the Earth from the Sun during the day, which averages about $800{W/m}^{2}$ , only half of which is absorbed. (c) What is the maximum magnetic field strength in the outgoing radiation, assuming it is a continuous wave?",
+        "text": "Integrated Concepts (a) Calculate the rate in watts at which heat transfer through radiation occurs (almost entirely in the infrared) from $1.0 {m}^{2}$ of the Earth’s surface at night. Assume the emissivity is 0.90, the temperature of the Earth is $15ºC$, and that of outer space is 2.7 K. (b) Compare the intensity of this radiation with that coming to the Earth from the Sun during the day, which averages about $800 {W/m}^{2}$, only half of which is absorbed. (c) What is the maximum magnetic field strength in the outgoing radiation, assuming it is a continuous wave?",
         "inline": []
       },
       "options": [],
@@ -4826,6 +4152,58 @@
     {
       "id": "ex-sec-5-01",
       "section_id": "sec-5",
+      "tier": "stretch",
+      "kind": "algebraic",
+      "difficulty": 4,
+      "marks": 4,
+      "stem": {
+        "text": "An old microwave oven outputs only half the electric field it used to. How much longer does it take to cook things in this microwave oven?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Four times as long"
+        },
+        {
+          "id": "b",
+          "text": "Twice as long"
+        },
+        {
+          "id": "c",
+          "text": "Half the time"
+        },
+        {
+          "id": "d",
+          "text": "One fourth the time"
+        }
+      ],
+      "answer": {
+        "text": "(a)",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "(a)"
+        }
+      ],
+      "tags": [
+        "energy-in-electromagnetic-waves"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "osbooks-college-physics-bundle",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42446/index.cnxml",
+        "locator": "CNXML module m42446, exercise block exr-29",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "ex-sec-5-02",
+      "section_id": "sec-5",
       "tier": "core",
       "kind": "numeric",
       "difficulty": 3,
@@ -4836,7 +4214,7 @@
       },
       "options": [],
       "answer": {
-        "text": "20.{7 W/m}^{2}",
+        "text": "$20.7W/m^{2}$",
         "inline": []
       },
       "answer_kind": "expression",
@@ -4859,7 +4237,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-02",
+      "id": "ex-sec-5-03",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
@@ -4902,14 +4280,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-03",
+      "id": "ex-sec-5-04",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Suppose the maximum safe intensity of microwaves for human exposure is taken to be $1.00 W{/m}^{2}$ . (a) If a radar unit leaks 10.0 W of microwaves (other than those sent by its antenna) uniformly in all directions, how far away must you be to be exposed to an intensity considered to be safe? Assume that the power spreads uniformly over the area of a sphere with no complications from absorption or reflection. (b) What is the maximum electric field strength at the safe intensity? (Note that early radar units leaked more than modern ones do. This caused identifiable health problems, such as cataracts, for people who worked near them.)",
+        "text": "Suppose the maximum safe intensity of microwaves for human exposure is taken to be $1.00 W{/m}^{2}$. (a) If a radar unit leaks 10.0 W of microwaves (other than those sent by its antenna) uniformly in all directions, how far away must you be to be exposed to an intensity considered to be safe? Assume that the power spreads uniformly over the area of a sphere with no complications from absorption or reflection. (b) What is the maximum electric field strength at the safe intensity? (Note that early radar units leaked more than modern ones do. This caused identifiable health problems, such as cataracts, for people who worked near them.)",
         "inline": []
       },
       "options": [],
@@ -4941,14 +4319,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-04",
+      "id": "ex-sec-5-05",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to ignite nuclear fusion, for example. Such a laser may produce an electromagnetic wave with a maximum electric field strength of $1.00×{10}^{11}V/m$ for a time of 1.00 ns. (a) What is the maximum magnetic field strength in the wave? (b) What is the intensity of the beam? (c) What energy does it deliver on a $1.00{-mm}^{2}$ area?",
+        "text": "Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to ignite nuclear fusion, for example. Such a laser may produce an electromagnetic wave with a maximum electric field strength of $1.00×{10}^{11} V/m$ for a time of 1.00 ns. (a) What is the maximum magnetic field strength in the wave? (b) What is the intensity of the beam? (c) What energy does it deliver on a $1.00{-mm}^{2}$ area?",
         "inline": []
       },
       "options": [],
@@ -4984,14 +4362,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-05",
+      "id": "ex-sec-5-06",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is inversely proportional to ${r}^{2}$ , the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to $r$ .",
+        "text": "Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is inversely proportional to ${r}^{2}$, the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to $r$.",
         "inline": []
       },
       "options": [],
@@ -5023,7 +4401,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-06",
+      "id": "ex-sec-5-07",
       "section_id": "sec-5",
       "tier": "core",
       "kind": "numeric",
@@ -5058,14 +4436,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-07",
+      "id": "ex-sec-5-08",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Integrated Concepts Assume the mostly infrared radiation from a heat lamp acts like a continuous wave with wavelength $1.50μm$ . (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a circular area 25.0 cm in diameter, what is the intensity in ${W/m}^{2}$ ? (b) What is the peak electric field strength? (c) Find the peak magnetic field strength. (d) How long will it take to increase the temperature of the 4.00-kg shoulder by $2.00º C$ , assuming no other heat transfer and given that its specific heat is $3.47×{10}^{3}J/kg\\cdot ºC$ ?",
+        "text": "Integrated Concepts Assume the mostly infrared radiation from a heat lamp acts like a continuous wave with wavelength $1.50 μm$. (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a circular area 25.0 cm in diameter, what is the intensity in ${W/m}^{2}$? (b) What is the peak electric field strength? (c) Find the peak magnetic field strength. (d) How long will it take to increase the temperature of the 4.00-kg shoulder by $2.00º C$, assuming no other heat transfer and given that its specific heat is $3.47×{10}^{3} J/kg\\cdot ºC$?",
         "inline": []
       },
       "options": [],
@@ -5105,14 +4483,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-08",
+      "id": "ex-sec-5-09",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Integrated Concepts Electromagnetic radiation from a 5.00-mW laser is concentrated on a $1.00{-mm}^{2}$ area. (a) What is the intensity in ${W/m}^{2}$ ? (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric force it experiences? (c) If the static charge moves at 400 m/s, what maximum magnetic force can it feel?",
+        "text": "Integrated Concepts Electromagnetic radiation from a 5.00-mW laser is concentrated on a $1.00{-mm}^{2}$ area. (a) What is the intensity in ${W/m}^{2}$? (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric force it experiences? (c) If the static charge moves at 400 m/s, what maximum magnetic force can it feel?",
         "inline": []
       },
       "options": [],
@@ -5148,14 +4526,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-09",
+      "id": "ex-sec-5-10",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Integrated Concepts If electric and magnetic field strengths vary sinusoidally in time, being zero at $t=0$ , then $E={E}_{0}sin2πft$ and $B={B}_{0}sin2πft$ . Let $f=1.00 GHz$ here. (a) When are the field strengths first zero? (b) When do they reach their most negative value? (c) How much time is needed for them to complete one cycle?",
+        "text": "Integrated Concepts If electric and magnetic field strengths vary sinusoidally in time, being zero at $t=0$, then $E={E}_{0} sin 2πft$ and $B={B}_{0} sin 2πft$. Let $f=1.00 GHz$ here. (a) When are the field strengths first zero? (b) When do they reach their most negative value? (c) How much time is needed for them to complete one cycle?",
         "inline": []
       },
       "options": [],
@@ -5191,14 +4569,14 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-10",
+      "id": "ex-sec-5-11",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
       "difficulty": 4,
       "marks": 4,
       "stem": {
-        "text": "Unreasonable Results The peak magnetic field strength in a residential microwave oven is $9.20×{10}^{-5}T$ . (a) What is the intensity of the microwave? (b) What is unreasonable about this result? (c) What is wrong about the premise?",
+        "text": "Unreasonable Results The peak magnetic field strength in a residential microwave oven is $9.20×{10}^{-5} T$. (a) What is the intensity of the microwave? (b) What is unreasonable about this result? (c) What is wrong about the premise?",
         "inline": []
       },
       "options": [],
@@ -5234,7 +4612,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-11",
+      "id": "ex-sec-5-12",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
@@ -5277,7 +4655,7 @@
       "solution_provenance": "OpenStax CNXML solution element (in file)"
     },
     {
-      "id": "ex-sec-5-12",
+      "id": "ex-sec-5-13",
       "section_id": "sec-5",
       "tier": "stretch",
       "kind": "application",
@@ -5324,7 +4702,7 @@
     {
       "exam": "JAMB",
       "subject": "physics",
-      "topic_slug": "electromagnetic-induction",
+      "topic_slug": "dispersion-of-light-and-colours",
       "subtopic_slug": null,
       "status": "covered",
       "papers": []
@@ -5334,144 +4712,11 @@
       "subject": "physics",
       "topic_slug": "waec-electromagnetic-waves",
       "subtopic_slug": null,
-      "status": "covered",
+      "status": "partial",
       "papers": []
     }
   ],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": {
-        "text": "Electromagnetic waves need a medium to travel through.",
-        "inline": []
-      },
-      "correction": {
-        "text": "They do not. They are a changing electric and magnetic field that travel through empty space.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-2",
-        "locator": "our practice question None",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": {
-        "text": "All electromagnetic waves travel at the same speed in a vacuum.",
-        "inline": []
-      },
-      "correction": {
-        "text": "They do, at about three hundred million metres per second, but their frequency and wavelength differ.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-4",
-        "locator": "our practice question None",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": {
-        "text": "The electromagnetic spectrum is arranged in order of increasing wavelength.",
-        "inline": []
-      },
-      "correction": {
-        "text": "It runs from radio waves to gamma rays, so the frequency increases as the wavelength decreases. The speed of every one of them in vacuum is the same.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the wavelength ordering as an option.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-4",
-        "locator": "our practice question rc-1",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": {
-        "text": "The energy of an electromagnetic wave depends on how bright it is.",
-        "inline": []
-      },
-      "correction": {
-        "text": "The energy of a photon is set by its frequency, $E = hf$. Brightness tells you how many photons arrive, not how much energy each one carries.",
-        "inline": []
-      },
-      "signal": {
-        "text": "Our own question offers the brightness reading as an option.",
-        "inline": []
-      },
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "status": "candidate",
-      "frequency": "candidate",
-      "provenance": {
-        "publisher": "OpenStax",
-        "title": "College Physics 2e",
-        "url": "https://api.utmelab.com/api/v1/chapters/phy_em_waves/sections/sec-5",
-        "locator": "our practice question rc-2",
-        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
-      }
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -5612,6 +4857,76 @@
       },
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "Maxwell’s equations predict that an electromagnetic wave travels in a vacuum at a speed given by",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "1/√(μ₀ε₀)"
+        },
+        {
+          "id": "b",
+          "text": "μ₀ε₀"
+        },
+        {
+          "id": "c",
+          "text": "√(μ₀/ε₀)"
+        },
+        {
+          "id": "d",
+          "text": "1/(μ₀ε₀)"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "Maxwell’s equations give c = 1/√(μ₀ε₀), which is the speed of light in a vacuum.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "An electromagnetic wave has an electric field amplitude of 300 V/m. Find the magnetic field amplitude. Take c = 3.0 × 10⁸ m/s.",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "1.0 × 10⁻⁶ T"
+        },
+        {
+          "id": "b",
+          "text": "3.0 × 10⁻⁶ T"
+        },
+        {
+          "id": "c",
+          "text": "9.0 × 10¹⁰ T"
+        },
+        {
+          "id": "d",
+          "text": "1.0 × 10⁻³ T"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "In an electromagnetic wave E = cB, so B = E/c = 300/(3.0 × 10⁸) = 1.0 × 10⁻⁶ T.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
     }
   ],
   "sources": [

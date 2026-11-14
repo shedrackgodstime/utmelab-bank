@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Uniform Circular Motion and Gravitation",
   "book_id": "secondary_physics",
-  "part_id": "part-1",
+  "part_id": "part-2",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -14,7 +14,10 @@
     "Explain centripetal acceleration and centripetal force, and give them a direction.",
     "State Newton's law of universal gravitation and use it, and describe Kepler's laws."
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_two_dimensional_kinematics",
+    "phy_forces_and_newtons_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -69,13 +72,20 @@
         "rotation",
         "radians"
       ],
-      "worked_from": "exr-41",
       "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
         {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-motion",
-          "subtopic_slug": "waec-simple-ideas-of-circular-motion",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -111,13 +121,20 @@
       "tags": [
         "centripetal-acceleration"
       ],
-      "worked_from": "exr-36",
       "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
         {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-motion",
-          "subtopic_slug": "waec-simple-ideas-of-circular-motion",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -156,10 +173,18 @@
       "worked_from": "exr-71",
       "exam_links": [
         {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "motion",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-motion",
-          "subtopic_slug": "waec-simple-ideas-of-circular-motion",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -197,7 +222,65 @@
         "coriolis"
       ],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
-      "exam_links": []
+      "exam_links": [],
+      "no_exam_link_reason": "Rotating frames and the Coriolis force are not named in either syllabus.",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "A passenger in a car turning left feels pushed to the right. Is there a real outward force on the passenger?",
+          "answer": "No. The passenger tends to keep moving straight while the car turns left, so the outward feeling is a fictitious force in the car’s frame.",
+          "answer_kind": "explanation",
+          "solution": [
+            "In an inertial frame, no outward force acts on the passenger.",
+            "The passenger’s inertia keeps them moving in a straight line while the car turns left.",
+            "The outward push is a fictitious force introduced in the turning frame."
+          ],
+          "tags": [
+            "fictitious force",
+            "inertia",
+            "non-inertial frame"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is a non-inertial frame of reference?",
+          "answer": "A frame that is accelerating or rotating, so Newton’s laws do not hold without adding fictitious forces.",
+          "answer_kind": "explanation",
+          "solution": [
+            "An inertial frame moves at constant velocity.",
+            "An accelerating or rotating frame is non-inertial.",
+            "In such a frame, observers need fictitious forces to explain motion."
+          ],
+          "tags": [
+            "frame of reference",
+            "inertial frame"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In the Northern Hemisphere, in which direction does the Coriolis force deflect a moving object?",
+          "answer": "To the right of its direction of motion.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The Earth rotates, so a frame fixed to its surface is rotating.",
+            "In the Northern Hemisphere the Coriolis deflection is to the right of the motion.",
+            "In the Southern Hemisphere the deflection is to the left."
+          ],
+          "tags": [
+            "coriolis force",
+            "rotation"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -213,6 +296,13 @@
         {
           "claim": "Gravity pulls harder on a heavy object than on a light one.",
           "correction": "The force is larger, but so is the mass that has to be accelerated. The acceleration due to gravity at the surface is the same for every object, whatever its mass."
+        },
+        {
+          "claim": "A heavier body feels a greater pull from the Earth.",
+          "correction": "Every body on the Earth feels the same pull per unit mass. The weight of a body on the Moon is one sixth of its weight on the Earth, whatever its mass.",
+          "locator": "candidate trap trap-7, demoted pending paper evidence",
+          "source_trap": "phy_circular_motion_and_gravitation:trap-7",
+          "signal": "Our own question offers the same weight as an option."
         }
       ],
       "summary": [
@@ -224,13 +314,12 @@
         "gravitation",
         "universal-gravitation"
       ],
-      "worked_from": "exr-57",
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "gravitational-field",
-          "subtopic_slug": "newton-s-law-of-universal-gravitation",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -249,7 +338,7 @@
           "exam": "WAEC",
           "subject": "physics",
           "topic_slug": "waec-gravitational-field",
-          "subtopic_slug": "waec-gravitational-force-between-two",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -302,13 +391,12 @@
         "satellites",
         "orbits"
       ],
-      "worked_from": "exr-60",
       "exam_links": [
         {
           "exam": "JAMB",
           "subject": "physics",
           "topic_slug": "gravitational-field",
-          "subtopic_slug": "newton-s-law-of-universal-gravitation",
+          "subtopic_slug": null,
           "status": "covered",
           "papers": [
             {
@@ -322,6 +410,14 @@
               "source": "claimed_paper"
             }
           ]
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-satellites-and-rockets",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
         }
       ]
     }
@@ -558,7 +654,8 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74363"
       },
-      "frequency": "recurring"
+      "frequency": "occasional",
+      "status": "proven"
     },
     {
       "id": "trap-2",
@@ -575,7 +672,8 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_claim_2025_physics_74573"
       },
-      "frequency": "recurring"
+      "frequency": "occasional",
+      "status": "proven"
     },
     {
       "id": "trap-3",
@@ -592,75 +690,8 @@
         "source": "claimed_paper",
         "url": "https://api.utmelab.com/api/v1/questions/q_waec_2025_physics_76333"
       },
-      "frequency": "recurring"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "Centripetal acceleration pushes the object outward, away from the centre.",
-      "correction": "It points inward. The inward acceleration is what keeps the object on the circle.",
-      "signal": "Our own question offers the outward direction as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-8",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-5",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Centripetal force is a new kind of force that pulls objects to the centre.",
-      "correction": "It is the name for the net inward force, whatever provides it: gravity, tension or friction.",
-      "signal": "Our own question offers the new force as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-9",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-6",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-7",
-      "misconception": "A satellite is held up by the engine that keeps it flying.",
-      "correction": "Most of them coast. A satellite falls towards the Earth while moving sideways fast enough to keep missing it.",
-      "signal": "Our own question offers the engine as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-10",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-7",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-6",
-      "misconception": "A heavier body feels a greater pull from the Earth.",
-      "correction": "Every body on the Earth feels the same pull per unit mass. The weight of a body on the Moon is one sixth of its weight on the Earth, whatever its mass.",
-      "signal": "Our own question offers the same weight as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-11",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
+      "frequency": "occasional",
+      "status": "proven"
     }
   ],
   "exam_recall_checks": [
@@ -982,6 +1013,62 @@
       "explanation": "The Moon's pull is one sixth of the Earth's, so the weight is 60/6 = 10 N. The mass has not changed.",
       "difficulty": 3,
       "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "A passenger in a car that turns left feels thrown to the right. What is the best explanation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A real force pushes the passenger outward."
+        },
+        {
+          "id": "b",
+          "text": "The passenger tends to keep moving straight while the car turns left."
+        },
+        {
+          "id": "c",
+          "text": "Gravity pulls the passenger sideways."
+        },
+        {
+          "id": "d",
+          "text": "The car exerts a force to the right on the passenger."
+        }
+      ],
+      "answer": "b",
+      "explanation": "In the car’s turning frame the passenger feels a fictitious outward force. In an inertial frame, the passenger simply tends to continue in a straight line while the car turns left beneath them.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
-  ]
+  ],
+  "order": 9,
+  "exercise_fixes": {
+    "sec-4:exr-92": {
+      "stem": "A large centrifuge is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries. (a) At what angular velocity is the centripetal acceleration $10g$ if the rider is 15.0 m from the center of rotation? (b) The rider's cage hangs on a pivot at the end of the arm, allowing it to swing outward during rotation. At what angle $θ$ below the horizontal will the cage hang when the centripetal acceleration is $10g$ ? (Hint: The arm supplies centripetal force and supports the weight of the cage. Draw a free body diagram of the forces to see what the angle $θ$ should be.)"
+    },
+    "sec-7:exr-69": {
+      "answer": "(a) $7.40×10^{3}m/s$ (b) $1.05×10^{4}m/s$ (c) $5.7×10^{-7}s$ (d) $9.1×10^{3}N$ (e) $2.7×10^{4}J$",
+      "solution": [
+        "(a) $v=\\sqrt{GM/r}=\\sqrt{(6.67×10^{-11})(5.97×10^{24})/(6.37×10^{6}+9.00×10^{5})}=7.40×10^{3}m/s$ .",
+        "(b) The rivet's orbit crosses the satellite's orbit at right angles, so the relative speed is $\\sqrt{2}v=1.05×10^{4}m/s$ .",
+        "(c) With constant acceleration to rest, the average relative speed is $v_{rel}/2$, so $t=2(3.00×10^{-3})/(1.05×10^{4})=5.7×10^{-7}s$ .",
+        "(d) $F=mΔv/Δt=(0.500×10^{-3})(1.05×10^{4})/(5.7×10^{-7})=9.1×10^{3}N$ .",
+        "(e) $E=\\frac{1}{2}mv_{rel}^{2}=\\frac{1}{2}(0.500×10^{-3})(1.05×10^{4})^{2}=2.7×10^{4}J$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source values were recomputed for a 900-km orbit above Earth's surface"
+    },
+    "sec-7:exr-64": {
+      "stem": "The Moon orbits Earth at an average radius of $3.84\\times10^{5}\\ \\mathrm{km}$ with a period of 0.07481 y. Io orbits Jupiter at an average radius of $4.22\\times10^{5}\\ \\mathrm{km}$ with a period of 0.00485 y. Use Kepler's third law to find the ratio of the mass of Jupiter to that of Earth.",
+      "answer": "316",
+      "solution": [
+        "Kepler's third law gives $r^{3}/T^{2}=GM/(4\\pi^{2})$, so the mass of the central body is proportional to $r^{3}/T^{2}$.",
+        "For the Moon: $r^{3}/T^{2}=(3.84\\times10^{5})^{3}/(0.07481)^{2}=1.01\\times10^{19}\\ \\mathrm{km^{3}/y^{2}}$.",
+        "For Io: $r^{3}/T^{2}=(4.22\\times10^{5})^{3}/(0.00485)^{2}=3.19\\times10^{21}\\ \\mathrm{km^{3}/y^{2}}$.",
+        "The ratio is $M_{J}/M_{E}=(3.19\\times10^{21})/(1.01\\times10^{19})=316$."
+      ]
+    }
+  }
 }

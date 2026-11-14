@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "Forces are expected to be unified only at extremely high energies and at particle separations on the order of ${10}^{-35}m$ . This could mean that Superstrings must have dimensions or wavelengths of this size or smaller. Just as quantum gravity may imply that there are no time intervals shorter than some finite value, it also implies that there may be no sizes smaller than some tiny but finite value. That may be about ${10}^{-35}m$ . If so, and if Superstring theory can explain all it strives to, then the structures of Superstrings are at the lower limit of the smallest possible size and can have no further substructure. This would be the ultimate answer to the question the ancient Greeks considered. There is a finite lower limit to space.",
+        "text": "Forces are expected to be unified only at extremely high energies and at particle separations on the order of ${10}^{-35} m$. This could mean that Superstrings must have dimensions or wavelengths of this size or smaller. Just as quantum gravity may imply that there are no time intervals shorter than some finite value, it also implies that there may be no sizes smaller than some tiny but finite value. That may be about ${10}^{-35} m$. If so, and if Superstring theory can explain all it strives to, then the structures of Superstrings are at the lower limit of the smallest possible size and can have no further substructure. This would be the ultimate answer to the question the ancient Greeks considered. There is a finite lower limit to space.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Not only is Superstring theory in its infancy, it deals with dimensions about 17 orders of magnitude smaller than the ${10}^{-18}m$ details that we have been able to observe directly. It is thus relatively unconstrained by experiment, and there are a host of theoretical possibilities to choose from. This has led theorists to make choices subjectively (as always) on what is the most elegant theory, with less hope than usual that experiment will guide them. It has also led to speculation of alternate universes, with their Big Bangs creating each new universe with a random set of rules. These speculations may not be tested even in principle, since an alternate universe is by definition unattainable. It is something like exploring a self-consistent field of mathematics, with its axioms and rules of logic that are not consistent with nature. Such endeavors have often given insight to mathematicians and scientists alike and occasionally have been directly related to the description of new discoveries.",
+        "text": "Not only is Superstring theory in its infancy, it deals with dimensions about 17 orders of magnitude smaller than the ${10}^{-18} m$ details that we have been able to observe directly. It is thus relatively unconstrained by experiment, and there are a host of theoretical possibilities to choose from. This has led theorists to make choices subjectively (as always) on what is the most elegant theory, with less hope than usual that experiment will guide them. It has also led to speculation of alternate universes, with their Big Bangs creating each new universe with a random set of rules. These speculations may not be tested even in principle, since an alternate universe is by definition unattainable. It is something like exploring a self-consistent field of mathematics, with its axioms and rules of logic that are not consistent with nature. Such endeavors have often given insight to mathematicians and scientists alike and occasionally have been directly related to the description of new discoveries.",
         "inline": []
       },
       "level": "core"
@@ -77,7 +77,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The characteristic length of entities in Superstring theory is approximately ${10}^{-35}m$ . (a) Find the energy in GeV of a photon of this wavelength. (b) Compare this with the average particle energy of ${10}^{19}GeV$ needed for unification of forces.",
+        "text": "The characteristic length of entities in Superstring theory is approximately ${10}^{-35} m$. (a) Find the energy in GeV of a photon of this wavelength. (b) Compare this with the average particle energy of ${10}^{19} GeV$ needed for unification of forces.",
         "inline": []
       },
       "level": "core",

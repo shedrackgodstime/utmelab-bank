@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Vision and Optical Instruments",
   "book_id": "secondary_physics",
-  "part_id": "part-5",
+  "part_id": "part-6",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -87,7 +87,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_geometric_optics"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -106,24 +108,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "optical-instruments",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-light-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -168,8 +153,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-30"
+      ]
     },
     {
       "id": "sec-3",
@@ -182,7 +166,15 @@
         "Explain nearsightedness and farsightedness corrections.",
         "Explain laser vision correction."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A short-sighted person is given a converging lens to correct their sight.",
+          "correction": "They are given a diverging lens. A short-sighted eye focuses distant light in front of the retina, and a diverging lens spreads the rays so that the focus moves back onto the retina. A converging lens corrects long sight, not short sight.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_vision_and_instruments:trap-3",
+          "signal": "Our own question offers the diverging lens as the answer."
+        }
+      ],
       "summary": [
         "Nearsightedness, or myopia, is the inability to see distant objects and is corrected with a diverging lens to reduce power.",
         "Farsightedness, or hyperopia, is the inability to see close objects and is corrected with a converging lens to increase power.",
@@ -207,8 +199,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-27"
+      ]
     },
     {
       "id": "sec-4",
@@ -221,7 +212,16 @@
         "Outline the coloring properties of light sources.",
         "Describe the retinex theory of color vision."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The colour of an object is a fixed property of the object, whatever light falls on it.",
+          "correction": "The colour seen depends on both the object and the light source. A red object looks black under green light because it reflects very little green."
+        },
+        {
+          "claim": "The primary colours of light are red, yellow and blue, the same as for paints.",
+          "correction": "The primary colours of light are red, green and blue. Mixing all three adds to white. Pigments subtract colours, so their primaries are different."
+        }
+      ],
       "summary": [
         "The eye has four types of light receptors—rods and three types of color-sensitive cones.",
         "The rods are good for night vision, peripheral vision, and motion changes, while the cones are responsible for central vision and color.",
@@ -233,7 +233,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "optical-instruments",
+          "topic_slug": "dispersion-of-light-and-colours",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -243,11 +243,67 @@
           "subject": "physics",
           "topic_slug": "waec-light-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-22"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What are the three primary colours of light?",
+          "answer": "Red, green and blue.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Additive colour mixing uses red, green and blue light.",
+            "Red and green together make yellow.",
+            "All three together make white."
+          ],
+          "tags": [
+            "primary colours",
+            "additive mixing"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why does a white sheet look white in sunlight?",
+          "answer": "It reflects all visible wavelengths strongly and about equally.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Sunlight contains all visible colours.",
+            "A white surface reflects them all without strongly absorbing any one.",
+            "The reflected light reaching the eye is therefore a mixture that looks white."
+          ],
+          "tags": [
+            "colour",
+            "reflection"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A blue object is illuminated with yellow light. What colour does it appear, and why?",
+          "answer": "It appears black, because the blue object reflects mainly blue light and yellow light contains no blue to reflect.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The object’s pigment absorbs most wavelengths except blue.",
+            "Yellow light is a mixture of red and green wavelengths.",
+            "With no blue present to reflect, the object reflects very little light and looks black."
+          ],
+          "tags": [
+            "colour subtraction",
+            "illumination"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Color and Color Vision has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-5",
@@ -263,6 +319,13 @@
         {
           "claim": "A magnifying glass works by making the object bigger.",
           "correction": "It works by making the object subtend a larger angle at the eye, not by changing the object."
+        },
+        {
+          "claim": "The magnifying power of a compound microscope is increased by using an eyepiece of longer focal length.",
+          "correction": "A shorter eyepiece focal length gives a larger angular magnification, because the eyepiece acts as a simple magnifier. A shorter objective focal length also increases the magnification.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_vision_and_instruments:trap-4",
+          "signal": "Our own question offers the longer eyepiece as an option."
         }
       ],
       "summary": [
@@ -289,8 +352,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-40"
+      ]
     },
     {
       "id": "sec-6",
@@ -302,7 +364,16 @@
         "Outline the invention of a telescope.",
         "Describe the working of a telescope."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A telescope makes a distant object larger by physically enlarging it.",
+          "correction": "A telescope collects more light and makes the object subtend a larger angle at the eye. The object itself is unchanged."
+        },
+        {
+          "claim": "The eyepiece of a telescope is the large lens at the front.",
+          "correction": "The large front lens is the objective. It gathers light and forms a real image; the eyepiece magnifies that image."
+        }
+      ],
       "summary": [
         "Simple telescopes can be made with two lenses. They are used for viewing objects at large distances and utilize the entire range of the electromagnetic spectrum.",
         "The angular magnification M for a telescope is given by M=θ′θ=−fofe, where θ is the angle subtended by an object viewed by the unaided eye, θ′ is the angle subtended by a magnified image, and fo and fe are the focal lengths of the objective and the eyepiece."
@@ -327,7 +398,7 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-20"
+      "no_worked_example_reason": "The source section on Telescopes has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-7",
@@ -336,9 +407,16 @@
       "est_minutes": 12,
       "locator": "CNXML module m42292",
       "objectives": [
-        "Describe optical aberration."
+        "Describe optical aberration.",
+        "Distinguish spherical aberration from chromatic aberration.",
+        "Explain how compound lenses and stops reduce aberrations."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Chromatic aberration can be removed by stopping down the aperture.",
+          "correction": "Stopping down the aperture reduces spherical aberration and improves sharpness, but it does not remove chromatic aberration. Chromatic aberration is corrected with a compound lens made of two glasses."
+        }
+      ],
       "summary": [
         "Aberrations or image distortions can arise due to the finite thickness of optical instruments, imperfections in the optical components, and limitations on the ways in which the components are used.",
         "The means for correcting aberrations range from better components to computational techniques."
@@ -351,7 +429,7 @@
           "subject": "physics",
           "topic_slug": "optical-instruments",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -359,14 +437,166 @@
           "subject": "physics",
           "topic_slug": "waec-light-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-15"
+      "worked_from": "exr-15",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is spherical aberration?",
+          "answer": "A defect in which rays far from the axis of a spherical lens or mirror are focused at a different point from rays near the axis.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A spherical surface does not focus all parallel rays to one point.",
+            "Rays near the edge come to a focus closer to the lens than paraxial rays.",
+            "The result is a blurred image."
+          ],
+          "tags": [
+            "spherical aberration",
+            "lens"
+          ]
+        },
+        {
+          "tier": "stretch",
+          "kind": "numeric",
+          "difficulty": 4,
+          "marks": 4,
+          "stem": "A telescope has an objective of focal length 80 cm and an eyepiece of focal length 4 cm. Find its angular magnification.",
+          "answer": "20",
+          "answer_kind": "expression",
+          "solution": [
+            "For a telescope in normal adjustment, angular magnification M = f_o/f_e.",
+            "M = 80/4.",
+            "M = 20."
+          ],
+          "tags": [
+            "telescope",
+            "magnification"
+          ]
+        },
+        {
+          "tier": "stretch",
+          "kind": "numeric",
+          "difficulty": 4,
+          "marks": 4,
+          "stem": "A compound microscope has an objective of focal length 1.0 cm and an eyepiece of focal length 5.0 cm. The tube length is 15 cm. Estimate the angular magnification.",
+          "answer": "about 75",
+          "answer_kind": "expression",
+          "solution": [
+            "Use M ≈ (L/f_o)(25 cm/f_e).",
+            "M ≈ (15/1.0)(25/5.0).",
+            "M ≈ 15 × 5 = 75."
+          ],
+          "tags": [
+            "microscope",
+            "magnification"
+          ]
+        }
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$P = \\frac{1}{f}$",
+      "caption": {
+        "text": "Power of a corrective lens",
+        "inline": []
+      },
+      "conditions": {
+        "text": "f is the focal length in metres; the power is in dioptres.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42484/index.cnxml",
+        "locator": "CNXML module m42484, section “Vision Correction”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$M = \\frac{25\\,\\mathrm{cm}}{f}$",
+      "caption": {
+        "text": "Magnifying power of a simple magnifier",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a relaxed eye, with the image at infinity and f in centimetres.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42491/index.cnxml",
+        "locator": "CNXML module m42491, section “Microscopes”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$M \\approx \\frac{L}{f_o}\\frac{25\\,\\mathrm{cm}}{f_e}$",
+      "caption": {
+        "text": "Magnifying power of a compound microscope",
+        "inline": []
+      },
+      "conditions": {
+        "text": "L is the tube length and f_o, f_e are the objective and eyepiece focal lengths.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42491/index.cnxml",
+        "locator": "CNXML module m42491, section “Microscopes”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$M = \\frac{f_o}{f_e}$",
+      "caption": {
+        "text": "Angular magnification of a telescope",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a telescope focused at infinity, with objective focal length f_o and eyepiece focal length f_e.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42493/index.cnxml",
+        "locator": "CNXML module m42493, section “Telescopes”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$\\theta = 1.22\\frac{\\lambda}{D}$",
+      "caption": {
+        "text": "Rayleigh criterion",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The minimum angular separation of two point sources that a circular aperture of diameter D can resolve.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42493/index.cnxml",
+        "locator": "CNXML module m42493, section “Telescopes”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -784,76 +1014,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The eye focuses by moving its lens.",
-      "correction": "It focuses by changing the shape of its lens, which is what the ciliary muscles do.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "A magnifying glass works by making the object bigger.",
-      "correction": "It works by making the object subtend a larger angle at the eye, not by changing the object.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "A short-sighted person is given a diverging lens to correct their sight.",
-      "correction": "They are given a converging lens. A short-sighted eye focuses distant light in front of the retina, and a converging lens brings the focus back onto it, which lets the wearer see near objects.",
-      "signal": "Our own question offers the diverging lens as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "The magnifying power of a compound microscope is increased by using an eyepiece of longer focal length.",
-      "correction": "A shorter eyepiece focal length gives a larger angular magnification, because the eyepiece acts as a simple magnifier. A longer objective focal length helps as well.",
-      "signal": "Our own question offers the longer eyepiece as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -970,6 +1131,93 @@
       "explanation": "Different colours have different frequencies, and since the speed in vacuum is the same, different wavelengths too. Blue has the higher frequency.",
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "The least distance of distinct vision for a normal human eye is about",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.5 cm"
+        },
+        {
+          "id": "b",
+          "text": "25 cm"
+        },
+        {
+          "id": "c",
+          "text": "2.5 m"
+        },
+        {
+          "id": "d",
+          "text": "25 m"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The near point of a normal eye is about 25 cm. Closer than that, the eye cannot accommodate enough to keep the image sharp.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A red object is viewed in green light. It appears",
+      "options": [
+        {
+          "id": "a",
+          "text": "red"
+        },
+        {
+          "id": "b",
+          "text": "green"
+        },
+        {
+          "id": "c",
+          "text": "black"
+        },
+        {
+          "id": "d",
+          "text": "white"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A red object reflects mainly red light and absorbs most other colours. Under green light there is little red to reflect, so it appears black.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "A converging lens forms images of different colours at slightly different distances from the lens. This defect is called",
+      "options": [
+        {
+          "id": "a",
+          "text": "spherical aberration"
+        },
+        {
+          "id": "b",
+          "text": "chromatic aberration"
+        },
+        {
+          "id": "c",
+          "text": "astigmatism"
+        },
+        {
+          "id": "d",
+          "text": "diffraction"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The refractive index depends on wavelength, so different colours have slightly different focal lengths. That is chromatic aberration.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -980,5 +1228,19 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Vision and Optical Instruments', modules m42478, m42482, m42484, m42487, m42491, m42493, m42292",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 26,
+  "exercise_fixes": {
+    "sec-5:exr-69": {
+      "stem": "An amoeba is 0.305 cm away from the 0.300 cm focal length objective lens of a microscope. (a) Where is the image formed by the objective lens? (b) What is this image’s magnification? (c) An eyepiece with a 2.00 cm focal length is placed 20.0 cm from the objective. Where is the final image? (d) What magnification is produced by the eyepiece? (e) What is the overall magnification?"
+    },
+    "sec-5:exr-59": {
+      "answer": "(a) 4.00 (b) 400 and 1600",
+      "solution": [
+        "(a) $M_{total}=M_{obj}M_{eye}$, so $M_{eye}=800/200=4.00$ .",
+        "(b) With the 100× objective: $M_{total}=100×4.00=400$. With the 400× objective: $M_{total}=400×4.00=1600$."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer omitted the 400× total"
+    }
+  }
 }

@@ -40,7 +40,7 @@
       "id": "p-3",
       "type": "paragraph",
       "content": {
-        "text": "shows an object moving in a circular path at constant speed. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration ( ${a}_{c}$ ); centripetal means “toward the center” or “center seeking.”",
+        "text": "The figure shows an object moving in a circular path at constant speed. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the centripetal acceleration (${a}_{c}$); centripetal means “toward the center” or “center seeking.”",
         "inline": []
       },
       "level": "core"
@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? Note that the triangle formed by the velocity vectors and the one formed by the radii $r$ and $Δs$ are similar. Both the triangles ABC and PQR are isosceles triangles (two equal sides). The two equal sides of the velocity vector triangle are the speeds ${v}_{1}={v}_{2}=v$ . Using the properties of two similar triangles, we obtain",
+        "text": "The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? Note that the triangle formed by the velocity vectors and the one formed by the radii $r$ and $Δs$ are similar. Both the triangles ABC and PQR are isosceles triangles (two equal sides). The two equal sides of the velocity vector triangle are the speeds ${v}_{1}={v}_{2}=v$. Using the properties of two similar triangles, we obtain $\\frac{Δv}{v}=\\frac{Δs}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "Acceleration is $Δv/Δt$ , and so we first solve this expression for $Δv$ :",
+        "text": "Acceleration is $Δv/Δt$, and so we first solve this expression for $Δv$: $Δv=\\frac{v}{r}Δs.$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Then we divide this by $Δt$ , yielding",
+        "text": "Then we divide this by $Δt$, yielding $\\frac{Δv}{Δt}=\\frac{v}{r}\\times \\frac{Δs}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Finally, noting that $Δv/Δt={a}_{c}$ and that $Δs/Δt=v$ , the linear or tangential speed, we see that the magnitude of the centripetal acceleration is",
+        "text": "Finally, noting that $Δv/Δt={a}_{c}$ and that $Δs/Δt=v$, the linear or tangential speed, we see that the magnitude of the centripetal acceleration is ${a}_{c}=\\frac{{v}^{2}}{r},$",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "which is the acceleration of an object in a circle of radius $r$ at a speed $v$ . So, centripetal acceleration is greater at high speeds and in sharp curves (smaller radius), as you have noticed when driving a car. But it is a bit surprising that ${a}_{c}$ is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that ${a}_{c}$ is greater for tighter turns, as you have probably noticed.",
+        "text": "which is the acceleration of an object in a circle of radius $r$ at a speed $v$. So, centripetal acceleration is greater at high speeds and in sharp curves (smaller radius), as you have noticed when driving a car. But it is a bit surprising that ${a}_{c}$ is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that ${a}_{c}$ is greater for tighter turns, as you have probably noticed.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "It is also useful to express ${a}_{c}$ in terms of angular velocity. Substituting $v=rω$ into the above expression, we find ${a}_{c}={(rω)}^{2}/r={rω}^{2}$ . We can express the magnitude of centripetal acceleration using either of two equations:",
+        "text": "It is also useful to express ${a}_{c}$ in terms of angular velocity. Substituting $v=rω$ into the above expression, we find ${a}_{c}={(rω)}^{2}/r={rω}^{2}$. We can express the magnitude of centripetal acceleration using either of two equations: ${a}_{c}=\\frac{{v}^{2}}{r}; {a}_{c}={rω}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -125,7 +125,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "A centrifuge (see b) is a rotating device used to separate specimens of different densities. High centripetal acceleration significantly decreases the time it takes for separation to occur, and makes separation possible with small samples. Centrifuges are used in a variety of applications in science and medicine, including the separation of single cell suspensions such as bacteria, viruses, and blood cells from a liquid medium and the separation of macromolecules, such as DNA and protein, from a solution. Centrifuges are often rated in terms of their centripetal acceleration relative to acceleration due to gravity $(g)$ ; maximum centripetal acceleration of several hundred thousand $g$ is possible in a vacuum. Human centrifuges, extremely large centrifuges, have been used to test the tolerance of astronauts to the effects of accelerations larger than that of Earth’s gravity.",
+        "text": "A centrifuge (see the figure b) is a rotating device used to separate specimens of different densities. High centripetal acceleration significantly decreases the time it takes for separation to occur, and makes separation possible with small samples. Centrifuges are used in a variety of applications in science and medicine, including the separation of single cell suspensions such as bacteria, viruses, and blood cells from a liquid medium and the separation of macromolecules, such as DNA and protein, from a solution. Centrifuges are often rated in terms of their centripetal acceleration relative to acceleration due to gravity $(g)$; maximum centripetal acceleration of several hundred thousand $g$ is possible in a vacuum. Human centrifuges, extremely large centrifuges, have been used to test the tolerance of astronauts to the effects of accelerations larger than that of Earth’s gravity.",
         "inline": []
       },
       "level": "core"
@@ -149,7 +149,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See (a).",
+        "text": "What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See the figure (a).",
         "inline": []
       },
       "level": "core"
@@ -167,7 +167,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given values of $v=25.0m/s$ and $r=500 m$ into the first expression for ${a}_{c}$ gives",
+        "text": "Entering the given values of $v=25.0 m/s$ and $r=500 m$ into the first expression for ${a}_{c}$ gives ${a}_{c}=\\frac{{v}^{2}}{r}=\\frac{(25.0 m/s{)}^{2}}{500 m}=1.25 {m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -176,7 +176,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "To compare this with the acceleration due to gravity $(g=9.80{m/s}^{2})$ , we take the ratio of ${a}_{c}/g=(1.25{m/s}^{2})/(9.80{m/s}^{2})=0.128$ . Thus, ${a}_{c}=0.128 g$ and is noticeable especially if you were not wearing a seat belt.",
+        "text": "To compare this with the acceleration due to gravity $(g=9.80 {m/s}^{2})$, we take the ratio of ${a}_{c}/g=(1.25 {m/s}^{2})/(9.80 {m/s}^{2})=0.128$. Thus, ${a}_{c}=0.128 g$ and is noticeable especially if you were not wearing a seat belt.",
         "inline": []
       },
       "level": "core"
@@ -222,7 +222,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the centripetal acceleration of a point 7.50 cm from the axis of an ultracentrifuge spinning at ${7.5 × 10}^{4}rev/min.$ Determine the ratio of this acceleration to that due to gravity. See (b).",
+        "text": "Calculate the centripetal acceleration of a point 7.50 cm from the axis of an ultracentrifuge spinning at ${7.5 × 10}^{4} rev/min.$ Determine the ratio of this acceleration to that due to gravity. See the figure (b).",
         "inline": []
       },
       "level": "core"
@@ -231,7 +231,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "The term rev/min stands for revolutions per minute. By converting this to radians per second, we obtain the angular velocity $ω$ . Because $r$ is given, we can use the second expression in the equation ${a}_{c}=\\frac{{v}^{2}}{r};{a}_{c}={rω}^{2}$ to calculate the centripetal acceleration.",
+        "text": "The term rev/min stands for revolutions per minute. By converting this to radians per second, we obtain the angular velocity $ω$. Because $r$ is given, we can use the second expression in the equation ${a}_{c}=\\frac{{v}^{2}}{r}; {a}_{c}={rω}^{2}$ to calculate the centripetal acceleration.",
         "inline": []
       },
       "level": "core"
@@ -240,7 +240,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "To convert $7.50×{10}^{4}rev/min$ to radians per second, we use the facts that one revolution is $2πrad$ and one minute is 60.0 s. Thus,",
+        "text": "To convert $7.50\\times {10}^{4} rev/min$ to radians per second, we use the facts that one revolution is $2πrad$ and one minute is 60.0 s. Thus, $ω=7.50\\times {10}^{4} \\frac{rev}{min}\\times \\frac{2π rad}{1 rev}\\times \\frac{1 min}{60.0 s}=7854rad/s.$",
         "inline": []
       },
       "level": "core"
@@ -249,7 +249,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Now the centripetal acceleration is given by the second expression in ${a}_{c}=\\frac{{v}^{2}}{r};{a}_{c}={rω}^{2}$ as",
+        "text": "Now the centripetal acceleration is given by the second expression in ${a}_{c}=\\frac{{v}^{2}}{r};{a}_{c}={rω}^{2}$ as ${a}_{c}={rω}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -258,7 +258,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Converting 7.50 cm to meters and substituting known values gives",
+        "text": "Converting 7.50 cm to meters and substituting known values gives ${a}_{c}=(0.0750 m)(7854 rad/s{)}^{2}=4.63\\times {10}^{6} {m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -267,7 +267,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Note that the unitless radians are discarded in order to get the correct units for centripetal acceleration. Taking the ratio of ${a}_{c}$ to $g$ yields",
+        "text": "Note that the unitless radians are discarded in order to get the correct units for centripetal acceleration. Taking the ratio of ${a}_{c}$ to $g$ yields $\\frac{{a}_{c}}{g}=\\frac{4.63\\times {10}^{6}}{9.80}=4.72\\times {10}^{5}.$",
         "inline": []
       },
       "level": "core"
@@ -276,7 +276,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "This last result means that the centripetal acceleration is 472,000 times as strong as $g$ . It is no wonder that such high $ω$ centrifuges are called ultracentrifuges. The extremely large accelerations involved greatly decrease the time needed to cause the sedimentation of blood cells or other materials.",
+        "text": "This last result means that the centripetal acceleration is 472,000 times as strong as $g$. It is no wonder that such high $ω$ centrifuges are called ultracentrifuges. The extremely large accelerations involved greatly decrease the time needed to cause the sedimentation of blood cells or other materials.",
         "inline": []
       },
       "level": "core"
@@ -285,7 +285,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "Of course, a net external force is needed to cause any acceleration, just as Newton proposed in his second law of motion. So a net external force is needed to cause a centripetal acceleration. In Centripetal Force , we will consider the forces involved in circular motion.",
+        "text": "Of course, a net external force is needed to cause any acceleration, just as Newton proposed in his second law of motion. So a net external force is needed to cause a centripetal acceleration. In Centripetal Force, we will consider the forces involved in circular motion.",
         "inline": []
       },
       "level": "core"
@@ -303,7 +303,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -406,7 +406,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Taking the age of Earth to be about $4×{10}^{9}$ years and assuming its orbital radius of $1.5 ×{10}^{11}$ m has not changed and is circular, calculate the approximate total distance Earth has traveled since its birth (in a frame of reference stationary with respect to the Sun).",
+        "text": "Taking the age of Earth to be about $4\\times {10}^{9}$ years and assuming its orbital radius of $1.5 ×{10}^{11}$ m has not changed and is circular, calculate the approximate total distance Earth has traveled since its birth (in a frame of reference stationary with respect to the Sun).",
         "inline": []
       },
       "level": "core",
@@ -430,7 +430,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The propeller of a World War II fighter plane is 2.30 m in diameter. (a) What is its angular velocity in radians per second if it spins at 1200 rev/min? (b) What is the linear speed of its tip at this angular velocity if the plane is stationary on the tarmac? (c) What is the centripetal acceleration of the propeller tip under these conditions? Calculate it in meters per second squared and convert to multiples of $g$ .",
+        "text": "The propeller of a World War II fighter plane is 2.30 m in diameter. (a) What is its angular velocity in radians per second if it spins at 1200 rev/min? (b) What is the linear speed of its tip at this angular velocity if the plane is stationary on the tarmac? (c) What is the centripetal acceleration of the propeller tip under these conditions? Calculate it in meters per second squared and convert to multiples of $g$.",
         "inline": []
       },
       "level": "core",
@@ -478,7 +478,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "An ordinary workshop grindstone has a radius of 7.50 cm and rotates at 6500 rev/min. (a) Calculate the magnitude of the centripetal acceleration at its edge in meters per second squared and convert it to multiples of $g$ . (b) What is the linear speed of a point on its edge?",
+        "text": "An ordinary workshop grindstone has a radius of 7.50 cm and rotates at 6500 rev/min. (a) Calculate the magnitude of the centripetal acceleration at its edge in meters per second squared and convert it to multiples of $g$. (b) What is the linear speed of a point on its edge?",
         "inline": []
       },
       "level": "core",
@@ -700,7 +700,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A rotating space station is said to create “artificial gravity”—a loosely-defined term used for an acceleration that would be crudely similar to gravity. The outer wall of the rotating space station would become a floor for the astronauts, and centripetal acceleration supplied by the floor would allow astronauts to exercise and maintain muscle and bone strength more naturally than in non-rotating space environments. If the space station is 200 m in diameter, what angular velocity would produce an “artificial gravity” of $9.80{m/s}^{2}$ at the rim?",
+        "text": "A rotating space station is said to create “artificial gravity”—a loosely-defined term used for an acceleration that would be crudely similar to gravity. The outer wall of the rotating space station would become a floor for the astronauts, and centripetal acceleration supplied by the floor would allow astronauts to exercise and maintain muscle and bone strength more naturally than in non-rotating space environments. If the space station is 200 m in diameter, what angular velocity would produce an “artificial gravity” of $9.80 {m/s}^{2}$ at the rim?",
         "inline": []
       },
       "level": "core",
@@ -721,7 +721,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At takeoff, a commercial jet has a 60.0 m/s speed. Its tires have a diameter of 0.850 m. (a) At how many rev/min are the tires rotating? (b) What is the centripetal acceleration at the edge of the tire? (c) With what force must a determined $1.00×{10}^{-15}kg$ bacterium cling to the rim? (d) Take the ratio of this force to the bacterium’s weight.",
+        "text": "At takeoff, a commercial jet has a 60.0 m/s speed. Its tires have a diameter of 0.850 m. (a) At how many rev/min are the tires rotating? (b) What is the centripetal acceleration at the edge of the tire? (c) With what force must a determined $1.00\\times {10}^{-15} kg$ bacterium cling to the rim? (d) Take the ratio of this force to the bacterium’s weight.",
         "inline": []
       },
       "level": "core",

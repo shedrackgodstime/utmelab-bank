@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "shows an elastic collision of a gas molecule with the wall of a container, so that it exerts a force on the wall (by Newton’s third law). Because a huge number of molecules will collide with the wall in a short time, we observe an average force per unit area. These collisions are the source of pressure in a gas. As the number of molecules increases, the number of collisions and thus the pressure increase. Similarly, the gas pressure is higher if the average velocity of molecules is higher. The actual relationship is derived in the Things Great and Small feature below. The following relationship is found:",
+        "text": "The figure shows an elastic collision of a gas molecule with the wall of a container, so that it exerts a force on the wall (by Newton’s third law). Because a huge number of molecules will collide with the wall in a short time, we observe an average force per unit area. These collisions are the source of pressure in a gas. As the number of molecules increases, the number of collisions and thus the pressure increase. Similarly, the gas pressure is higher if the average velocity of molecules is higher. The actual relationship is derived in the Things Great and Small feature below. The following relationship is found: $PV=\\frac{1}{3}Nm{v}^{2}¯,$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "What can we learn from this atomic and molecular version of the ideal gas law? We can derive a relationship between temperature and the average translational kinetic energy of molecules in a gas. Recall the previous expression of the ideal gas law:",
+        "text": "What can we learn from this atomic and molecular version of the ideal gas law? We can derive a relationship between temperature and the average translational kinetic energy of molecules in a gas. Recall the previous expression of the ideal gas law: $PV=NkT.$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Equating the right-hand side of this equation with the right-hand side of $PV=\\frac{1}{3}Nm{v}^{2}¯$ gives",
+        "text": "Equating the right-hand side of this equation with the right-hand side of $PV=\\frac{1}{3}Nm{v}^{2}¯$ gives $\\frac{1}{3}Nm{v}^{2}¯=NkT.$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "shows a box filled with a gas. We know from our previous discussions that putting more gas into the box produces greater pressure, and that increasing the temperature of the gas also produces a greater pressure. But why should increasing the temperature of the gas increase the pressure in the box? A look at the atomic and molecular scale gives us some answers, and an alternative expression for the ideal gas law.",
+        "text": "The figure shows a box filled with a gas. We know from our previous discussions that putting more gas into the box produces greater pressure, and that increasing the temperature of the gas also produces a greater pressure. But why should increasing the temperature of the gas increase the pressure in the box? A look at the atomic and molecular scale gives us some answers, and an alternative expression for the ideal gas law.",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "If the molecule’s velocity changes in the $x$ -direction, its momentum changes from $–{mv}_{x}$ to $+{mv}_{x}$ . Thus, its change in momentum is $Δmv= +{mv}_{x}–(–{mv}_{x})=2{mv}_{x}$ . The force exerted on the molecule is given by",
+        "text": "If the molecule’s velocity changes in the $x$ -direction, its momentum changes from $–{mv}_{x}$ to $+{mv}_{x}$. Thus, its change in momentum is $Δmv = +{mv}_{x}–(–{mv}_{x})=2{mv}_{x}$. The force exerted on the molecule is given by $F=\\frac{Δp}{Δt}=\\frac{2{mv}_{x}}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take $Δt$ to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance $2l)$ at a speed of ${v}_{x}$ . Thus $Δt=2l/{v}_{x}$ , and the expression for the force becomes",
+        "text": "There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take $Δt$ to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance $2l)$ at a speed of ${v}_{x}$. Thus $Δt=2l/{v}_{x}$, and the expression for the force becomes $F=\\frac{2{mv}_{x}}{2l/{v}_{x}}=\\frac{{mv}_{x}^{2}}{l}.$",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "This force is due to *one* molecule. We multiply by the number of molecules $N$ and use their average squared velocity to find the force",
+        "text": "This force is due to *one* molecule. We multiply by the number of molecules $N$ and use their average squared velocity to find the force $F=N\\frac{m{v}_{x}^{2}¯}{l},$",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "where the bar over a quantity means its average value. We would like to have the force in terms of the speed $v$ , rather than the $x$ -component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that",
+        "text": "where the bar over a quantity means its average value. We would like to have the force in terms of the speed $v$, rather than the $x$ -component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that ${v}^{2}¯={v}_{x}^{2}¯+{v}_{y}^{2}¯+{v}_{z}^{2}¯.$",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Because the velocities are random, their average components in all directions are the same:",
+        "text": "Because the velocities are random, their average components in all directions are the same: ${v}_{x}^{2}¯={v}_{y}^{2}¯={v}_{z}^{2}¯.$",
         "inline": []
       },
       "level": "core"
@@ -165,7 +165,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Substituting $\\frac{1}{3}{v}^{2}¯$ into the expression for $F$ gives",
+        "text": "Substituting $\\frac{1}{3}{v}^{2}¯$ into the expression for $F$ gives $F=N\\frac{m{v}^{2}¯}{3l}.$",
         "inline": []
       },
       "level": "core"
@@ -174,7 +174,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The pressure is $F/A,$ so that we obtain",
+        "text": "The pressure is $F/A,$ so that we obtain $P=\\frac{F}{A}=N\\frac{m{v}^{2}¯}{3Al}=\\frac{1}{3}\\frac{Nm{v}^{2}¯}{V},$",
         "inline": []
       },
       "level": "core"
@@ -183,7 +183,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "where we used $V=Al$ for the volume. This gives the important result.",
+        "text": "where we used $V=Al$ for the volume. This gives the important result. $PV=\\frac{1}{3}Nm{v}^{2}¯$",
         "inline": []
       },
       "level": "core"
@@ -201,7 +201,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "We can get the average kinetic energy of a molecule, $\\frac{1}{2}{mv}^{2}$ , from the right-hand side of the equation by canceling $N$ and multiplying by 3/2. This calculation produces the result that the average kinetic energy of a molecule is directly related to absolute temperature.",
+        "text": "We can get the average kinetic energy of a molecule, $\\frac{1}{2}{mv}^{2}$, from the right-hand side of the equation by canceling $N$ and multiplying by 3/2. This calculation produces the result that the average kinetic energy of a molecule is directly related to absolute temperature. $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$",
         "inline": []
       },
       "level": "core"
@@ -210,7 +210,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The average translational kinetic energy of a molecule, $KE¯$ , is called thermal energy . The equation $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$ is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.",
+        "text": "The average translational kinetic energy of a molecule, $KE¯$, is called thermal energy. The equation $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$ is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.",
         "inline": []
       },
       "level": "core"
@@ -219,7 +219,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "It is sometimes useful to rearrange $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$ *,* and solve for the average speed of molecules in a gas in terms of temperature,",
+        "text": "It is sometimes useful to rearrange $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$ *,* and solve for the average speed of molecules in a gas in terms of temperature, $\\sqrt{{v}^{2}¯}={v}_{rms}=\\sqrt{\\frac{3kT}{m}},$",
         "inline": []
       },
       "level": "core"
@@ -261,7 +261,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The known in the equation for the average kinetic energy is the temperature.",
+        "text": "The known in the equation for the average kinetic energy is the temperature. $KE¯=\\frac{1}{2}m{v}^{2}¯=\\frac{3}{2}kT$",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives $T=(20.0+273)K = 293K.$",
+        "text": "Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives $T=(20.0+273) K = 293 K.$",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "The temperature alone is sufficient to find the average translational kinetic energy. Substituting the temperature into the translational kinetic energy equation gives",
+        "text": "The temperature alone is sufficient to find the average translational kinetic energy. Substituting the temperature into the translational kinetic energy equation gives $KE¯=\\frac{3}{2}kT=\\frac{3}{2}(1.38\\times {10}^{-23} J/K)(293 K)=6.07\\times {10}^{-21} J.$",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Finding the rms speed of a nitrogen molecule involves a straightforward calculation using the equation",
+        "text": "Finding the rms speed of a nitrogen molecule involves a straightforward calculation using the equation $\\sqrt{{v}^{2}¯}={v}_{rms}=\\sqrt{\\frac{3kT}{m}},$",
         "inline": []
       },
       "level": "core"
@@ -297,7 +297,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen ${N}_{2}$ from the periodic table,",
+        "text": "but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen ${N}_{2}$ from the periodic table, $m=\\frac{2(14.0067)\\times {10}^{-3} kg/mol}{6.02\\times {10}^{23} {mol}^{-1}}=4.65\\times {10}^{-26} kg.$",
         "inline": []
       },
       "level": "core"
@@ -306,7 +306,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Substituting this mass and the value for $k$ into the equation for ${v}_{rms}$ yields",
+        "text": "Substituting this mass and the value for $k$ into the equation for ${v}_{rms}$ yields ${v}_{rms}=\\sqrt{\\frac{3kT}{m}}=\\sqrt{\\frac{3(1.38\\times {10}^{–23} J/K)(293 K)}{4.65\\times {10}^{–26} kg}}=511 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -315,7 +315,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Note that the average kinetic energy of the molecule is independent of the type of molecule. The average translational kinetic energy depends only on absolute temperature. The kinetic energy is very small compared to macroscopic energies, so that we do not feel when an air molecule is hitting our skin. The rms velocity of the nitrogen molecule is surprisingly large. These large molecular velocities do not yield macroscopic movement of air, since the molecules move in all directions with equal likelihood. The *mean free path* (the distance a molecule can move on average between collisions) of molecules in air is very small, and so the molecules move rapidly but do not get very far in a second. The high value for rms speed is reflected in the speed of sound, however, which is about 340 m/s at room temperature. The faster the rms speed of air molecules, the faster that sound vibrations can be transferred through the air. The speed of sound increases with temperature and is greater in gases with small molecular masses, such as helium. (See .)",
+        "text": "Note that the average kinetic energy of the molecule is independent of the type of molecule. The average translational kinetic energy depends only on absolute temperature. The kinetic energy is very small compared to macroscopic energies, so that we do not feel when an air molecule is hitting our skin. The rms velocity of the nitrogen molecule is surprisingly large. These large molecular velocities do not yield macroscopic movement of air, since the molecules move in all directions with equal likelihood. The *mean free path* (the distance a molecule can move on average between collisions) of molecules in air is very small, and so the molecules move rapidly but do not get very far in a second. The high value for rms speed is reflected in the speed of sound, however, which is about 340 m/s at room temperature. The faster the rms speed of air molecules, the faster that sound vibrations can be transferred through the air. The speed of sound increases with temperature and is greater in gases with small molecular masses, such as helium. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -355,7 +355,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The motion of molecules in a gas is random in magnitude and direction for individual molecules, but a gas of many molecules has a predictable distribution of molecular speeds. This distribution is called the *Maxwell-Boltzmann distribution* , after its originators, who calculated it based on kinetic theory, and has since been confirmed experimentally. (See .) The distribution has a long tail, because a few molecules may go several times the rms speed. The most probable speed ${v}_{p}$ is less than the rms speed ${v}_{rms}$ . shows that the curve is shifted to higher speeds at higher temperatures, with a broader range of speeds.",
+        "text": "The motion of molecules in a gas is random in magnitude and direction for individual molecules, but a gas of many molecules has a predictable distribution of molecular speeds. This distribution is called the *Maxwell-Boltzmann distribution*, after its originators, who calculated it based on kinetic theory, and has since been confirmed experimentally. (See the figure.) The distribution has a long tail, because a few molecules may go several times the rms speed. The most probable speed ${v}_{p}$ is less than the rms speed ${v}_{rms}$. The figure shows that the curve is shifted to higher speeds at higher temperatures, with a broader range of speeds.",
         "inline": []
       },
       "level": "core"
@@ -399,7 +399,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "What is the implication of the change in distribution with temperature shown in for humans? All other things being equal, if a person has a fever, they are likely to lose more water molecules, particularly from linings along moist cavities such as the lungs and mouth, creating a dry sensation in the mouth.",
+        "text": "What is the implication of the change in distribution with temperature shown in the figure for humans? All other things being equal, if a person has a fever, they are likely to lose more water molecules, particularly from linings along moist cavities such as the lungs and mouth, creating a dry sensation in the mouth.",
         "inline": []
       },
       "level": "core"
@@ -423,7 +423,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "In order to escape Earth’s gravity, an object near the top of the atmosphere (at an altitude of 100 km) must travel away from Earth at 11.1 km/s. This speed is called the *escape velocity* . At what temperature would helium atoms have an rms speed equal to the escape velocity?",
+        "text": "In order to escape Earth’s gravity, an object near the top of the atmosphere (at an altitude of 100 km) must travel away from Earth at 11.1 km/s. This speed is called the *escape velocity*. At what temperature would helium atoms have an rms speed equal to the escape velocity?",
         "inline": []
       },
       "level": "core"
@@ -450,7 +450,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "2. Identify the unknowns: We need to solve for temperature, $T$ . We also need to solve for the mass $m$ of the helium atom.",
+        "text": "2. Identify the unknowns: We need to solve for temperature, $T$. We also need to solve for the mass $m$ of the helium atom.",
         "inline": []
       },
       "level": "core"
@@ -468,7 +468,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "4. Plug the known values into the equations and solve for the unknowns.",
+        "text": "4. Plug the known values into the equations and solve for the unknowns. $m=\\frac{molar mass}{number of atoms per mole}=\\frac{4.0026\\times {10}^{-3} kg/mol}{6.02\\times {10}^{23} mol}=6.65\\times {10}^{-27} kg$ $T=\\frac{(6.65\\times {10}^{-27} kg){(11.1\\times {10}^{3} m/s)}^{2}}{3(1.38\\times {10}^{-23} J/K)}=1.98\\times {10}^{4} K$",
         "inline": []
       },
       "level": "core"
@@ -477,7 +477,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "This temperature is much higher than atmospheric temperature, which is approximately 250 K $(–25ºC$ or $–10ºF)$ at high altitude. Very few helium atoms are left in the atmosphere, but there were many when the atmosphere was formed. The reason for the loss of helium atoms is that there are a small number of helium atoms with speeds higher than Earth’s escape velocity even at normal temperatures. The speed of a helium atom changes from one instant to the next, so that at any instant, there is a small, but nonzero chance that the speed is greater than the escape speed and the molecule escapes from Earth’s gravitational pull. Heavier molecules, such as oxygen, nitrogen, and water (very little of which reach a very high altitude), have smaller rms speeds, and so it is much less likely that any of them will have speeds greater than the escape velocity. In fact, so few have speeds above the escape velocity that billions of years are required to lose significant amounts of the atmosphere. shows the impact of a lack of an atmosphere on the Moon. Because the gravitational pull of the Moon is much weaker, it has lost almost its entire atmosphere. The comparison between Earth and the Moon is discussed in this chapter’s Problems and Exercises.",
+        "text": "This temperature is much higher than atmospheric temperature, which is approximately 250 K $(–25ºC$ or $–10ºF)$ at high altitude. Very few helium atoms are left in the atmosphere, but there were many when the atmosphere was formed. The reason for the loss of helium atoms is that there are a small number of helium atoms with speeds higher than Earth’s escape velocity even at normal temperatures. The speed of a helium atom changes from one instant to the next, so that at any instant, there is a small, but nonzero chance that the speed is greater than the escape speed and the molecule escapes from Earth’s gravitational pull. Heavier molecules, such as oxygen, nitrogen, and water (very little of which reach a very high altitude), have smaller rms speeds, and so it is much less likely that any of them will have speeds greater than the escape velocity. In fact, so few have speeds above the escape velocity that billions of years are required to lose significant amounts of the atmosphere. The figure shows the impact of a lack of an atmosphere on the Moon. Because the gravitational pull of the Moon is much weaker, it has lost almost its entire atmosphere. The comparison between Earth and the Moon is discussed in this chapter’s Problems and Exercises.",
         "inline": []
       },
       "level": "core"
@@ -633,7 +633,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "This graph shows the Maxwell-Boltzmann distribution of molecular speeds in an ideal gas for two temperatures, *T* 1 and *T* 2 . Which of the following statements is false? *T* 1 is lower than *T* 2; The *rms* speed at *T* 1 is higher than that at *T* 2 .; The peak of each graph shows the most probable speed at the corresponding temperature.; None of the above.",
+        "text": "This graph shows the Maxwell-Boltzmann distribution of molecular speeds in an ideal gas for two temperatures, *T* 1 and *T* 2. Which of the following statements is false? *T* 1 is lower than *T* 2; The *rms* speed at *T* 1 is higher than that at *T* 2.; The peak of each graph shows the most probable speed at the corresponding temperature.; None of the above.",
         "inline": []
       },
       "level": "core",
@@ -670,7 +670,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you have gas in a cylinder with a movable piston which has an area of 0.40 m 2 . The pressure of the gas is 150 Pa when the height of the piston is 0.02 m. Find the force exerted by the gas on the piston. How does this force change if the piston is moved to a height of 0.03 m? Assume temperature remains constant.",
+        "text": "Suppose you have gas in a cylinder with a movable piston which has an area of 0.40 m 2. The pressure of the gas is 150 Pa when the height of the piston is 0.02 m. Find the force exerted by the gas on the piston. How does this force change if the piston is moved to a height of 0.03 m? Assume temperature remains constant.",
         "inline": []
       },
       "level": "core",
@@ -691,7 +691,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What is the average kinetic energy of a nitrogen molecule (N 2 ) if its *rms* speed is 560 m/s? At what temperature is this *rms* speed achieved?",
+        "text": "What is the average kinetic energy of a nitrogen molecule (N 2) if its *rms* speed is 560 m/s? At what temperature is this *rms* speed achieved?",
         "inline": []
       },
       "level": "core",
@@ -838,7 +838,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the average kinetic energy in joules of hydrogen atoms on the $5500ºC$ surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is $6.00×{10}^{5}K$ ?",
+        "text": "(a) What is the average kinetic energy in joules of hydrogen atoms on the $5500ºC$ surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is $6.00\\times {10}^{5} K$?",
         "inline": []
       },
       "level": "core",
@@ -925,7 +925,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of $6.40×{10}^{-14}J$ . What temperature is needed?",
+        "text": "Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of $6.40\\times {10}^{-14} J$. What temperature is needed?",
         "inline": []
       },
       "level": "core",
@@ -946,7 +946,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose that the average velocity $({v}_{rms})$ of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be $1.05×{10}^{5}m/s$ . What temperature does this represent?",
+        "text": "Suppose that the average velocity $({v}_{rms})$ of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be $1.05\\times {10}^{5} m/s$. What temperature does this represent?",
         "inline": []
       },
       "level": "core",
@@ -991,7 +991,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Much of the gas near the Sun is atomic hydrogen. Its temperature would have to be $1.5×{10}^{7}K$ for the average velocity ${v}_{rms}$ to equal the escape velocity from the Sun. What is that velocity?",
+        "text": "Much of the gas near the Sun is atomic hydrogen. Its temperature would have to be $1.5\\times {10}^{7} K$ for the average velocity ${v}_{rms}$ to equal the escape velocity from the Sun. What is that velocity?",
         "inline": []
       },
       "level": "core",
@@ -1015,7 +1015,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There are two important isotopes of uranium— ${}^{235}U$ and ${}^{238}U$ ; these isotopes are nearly identical chemically but have different atomic masses. Only ${}^{235}U$ is very useful in nuclear reactors. One of the techniques for separating them (gas diffusion) is based on the different average velocities ${v}_{rms}$ of uranium hexafluoride gas, ${UF}_{6}$ . (a) The molecular masses for ${}^{235}U$ ${UF}_{6}$ and ${}^{238}U$ ${UF}_{6}$ are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult?",
+        "text": "There are two important isotopes of uranium— ${}^{235}U$ and ${}^{238}U$; these isotopes are nearly identical chemically but have different atomic masses. Only ${}^{235}U$ is very useful in nuclear reactors. One of the techniques for separating them (gas diffusion) is based on the different average velocities ${v}_{rms}$ of uranium hexafluoride gas, ${UF}_{6}$. (a) The molecular masses for ${}^{235}U$ ${UF}_{6}$ and ${}^{238}U$ ${UF}_{6}$ are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult?",
         "inline": []
       },
       "level": "core",

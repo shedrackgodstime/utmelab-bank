@@ -1,0 +1,707 @@
+{
+  "chapter_id": "phy_nature_of_science",
+  "schema_version": 2,
+  "updated_at": "2026-11-12",
+  "title": "The Nature of Science and Physics",
+  "book_id": "secondary_physics",
+  "part_id": "part-1",
+  "order": 1,
+  "prerequisites": [],
+  "publisher": "OpenStax",
+  "source_title": "College Physics 2e",
+  "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+  "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+  "learning_objectives": [
+    "Explain what physics studies and how it connects to technology, medicine and the other sciences.",
+    "Distinguish a model, a theory and a law, and describe the role of experiment in deciding whether a theory stands.",
+    "Identify the SI base units and use metric prefixes to express physical quantities.",
+    "Convert quantities between units using dimensional analysis.",
+    "Report measurements with the correct accuracy, precision and significant figures, and make order-of-magnitude estimates."
+  ],
+  "no_formula_reason": "This chapter teaches measurement and the language of physics. It introduces no physical law of its own.",
+  "glossary": [
+    {
+      "term": {
+        "text": "science",
+        "inline": []
+      },
+      "definition": {
+        "text": "The systematic study of the natural world through observation, experiment and reasoning.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "physics",
+        "inline": []
+      },
+      "definition": {
+        "text": "The branch of science that studies matter, energy, motion, forces and the rules that connect them.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "model",
+        "inline": []
+      },
+      "definition": {
+        "text": "A simplified representation of a system that is used to make predictions.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "theory",
+        "inline": []
+      },
+      "definition": {
+        "text": "A well-tested explanation of a set of observations that can be revised when new evidence appears.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "law",
+        "inline": []
+      },
+      "definition": {
+        "text": "A statement that describes a regular relationship in nature, often in mathematical form.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "hypothesis",
+        "inline": []
+      },
+      "definition": {
+        "text": "A testable proposed explanation for an observation.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "experiment",
+        "inline": []
+      },
+      "definition": {
+        "text": "A controlled procedure that tests a hypothesis or a prediction.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42092/index.cnxml",
+        "locator": "CNXML module m42092, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "SI unit",
+        "inline": []
+      },
+      "definition": {
+        "text": "A unit in the International System of Units, the agreed base for scientific measurement.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "derived unit",
+        "inline": []
+      },
+      "definition": {
+        "text": "A unit formed by combining base units, such as the newton or the joule.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "metric prefix",
+        "inline": []
+      },
+      "definition": {
+        "text": "A prefix that scales a unit by a power of ten, such as kilo or milli.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42091/index.cnxml",
+        "locator": "CNXML module m42091, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "accuracy",
+        "inline": []
+      },
+      "definition": {
+        "text": "How close a measurement is to the true value.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "precision",
+        "inline": []
+      },
+      "definition": {
+        "text": "How closely repeated measurements agree with one another.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "uncertainty",
+        "inline": []
+      },
+      "definition": {
+        "text": "The range within which a measured value is likely to lie.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "significant figures",
+        "inline": []
+      },
+      "definition": {
+        "text": "The digits in a measurement that carry meaningful information about its precision.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42120/index.cnxml",
+        "locator": "CNXML module m42120, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "approximation",
+        "inline": []
+      },
+      "definition": {
+        "text": "A value or answer that is close enough for its purpose, often found by rounding or estimating.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "term": {
+        "text": "order of magnitude",
+        "inline": []
+      },
+      "definition": {
+        "text": "The nearest power of ten to a quantity.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42121/index.cnxml",
+        "locator": "CNXML module m42121, chapter 1 glossary",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "College Physics 2e",
+      "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
+      "locator": "College Physics 2e, chapter 1, modules m42119, m42092, m42091, m42120, m42121",
+      "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Introduction to the Nature of Science and Physics",
+      "module": "m42119",
+      "est_minutes": 6,
+      "locator": "CNXML module m42119",
+      "objectives": [
+        "Describe how physics connects to technology, other sciences and everyday life."
+      ],
+      "misconceptions": [],
+      "summary": [
+        "Physics studies the fundamental laws of nature, from particles to galaxies.",
+        "Those laws underlie technology, medicine, engineering and the other sciences."
+      ],
+      "tags": [],
+      "no_worked_example_reason": "This chapter opener has no worked example.",
+      "exam_links": []
+    },
+    {
+      "id": "sec-2",
+      "title": "Physics: An Introduction",
+      "module": "m42092",
+      "est_minutes": 14,
+      "locator": "CNXML module m42092",
+      "objectives": [
+        "Explain how physics relates to other sciences and to technology.",
+        "Distinguish a model, a theory and a law, and describe how experiment tests them."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A scientific law is a theory that has been proved.",
+          "correction": "A law describes a regular relationship, often as an equation. A theory explains why the relationship holds. Neither is proved beyond revision; both are tested against experiment.",
+          "signal": "The word law sounds like a final verdict. In science it is not."
+        },
+        {
+          "claim": "A model is just a guess.",
+          "correction": "A model is a deliberate simplification. It can be physical, mathematical or computational, and it is judged by how well it predicts.",
+          "signal": "The everyday meaning of model is a person or a small copy. In physics it is a working representation."
+        }
+      ],
+      "summary": [
+        "Physics is the study of matter, energy, motion and the forces that connect them.",
+        "Models simplify a system, theories explain observations, and laws describe regular relationships.",
+        "Experiment decides whether a model or theory stands. A failed prediction forces a revision."
+      ],
+      "tags": [],
+      "worked_from": "exr-47",
+      "exam_links": [],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "In one sentence, state the difference between a scientific model and a scientific theory.",
+          "answer": "A model is a simplified representation used to make predictions; a theory is a well-tested explanation that can be revised.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A model simplifies a system so that its behaviour can be predicted.",
+            "A theory explains a broad set of observations and is tested against experiment. It is not a guess, and it can be revised."
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A theory predicts that a new particle will decay in a certain way. An experiment finds a different decay pattern. What should happen to the theory, and why?",
+          "answer": "It must be revised or replaced, because experiment decides whether a theory stands.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A theory is tested by its predictions.",
+            "When a prediction fails, the theory cannot be kept unchanged.",
+            "The theory is revised or replaced by one that fits the evidence."
+          ]
+        },
+        {
+          "tier": "stretch",
+          "kind": "application",
+          "difficulty": 4,
+          "marks": 4,
+          "stem": "A model of a bridge treats the bridge as a perfectly rigid beam. Give one situation in which this model is useful and one in which it fails.",
+          "answer": "Useful when the bridge bends only slightly under normal loads; it fails when the bridge bends a lot, vibrates, or breaks.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The rigid-beam model is useful when deformation is small compared with the bridge's size.",
+            "It fails when deformation, vibration or failure matters, because those depend on the bridge's elasticity and structure."
+          ]
+        }
+      ],
+      "no_exam_link_reason": "This section introduces physics as a science; the syllabus topics begin with measurement."
+    },
+    {
+      "id": "sec-3",
+      "title": "Physical Quantities and Units",
+      "module": "m42091",
+      "est_minutes": 18,
+      "locator": "CNXML module m42091",
+      "objectives": [
+        "Identify the SI base units for length, mass and time, and use metric prefixes.",
+        "Convert quantities between units using dimensional analysis."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A number is a complete physical quantity even without a unit.",
+          "correction": "A physical quantity needs a number and a unit. The unit gives the number meaning and allows comparison.",
+          "signal": "Answers that drop the unit look complete but cannot be checked."
+        },
+        {
+          "claim": "Changing a metric prefix changes the size of the quantity.",
+          "correction": "A prefix changes the unit, not the physical quantity. 1 km and 1000 m describe the same length.",
+          "signal": "A larger number with a smaller unit can describe the same length."
+        }
+      ],
+      "summary": [
+        "SI base units give scientists a common language for length, mass, time and other quantities.",
+        "Metric prefixes scale a unit by powers of ten without changing the physical quantity.",
+        "Dimensional analysis converts units by multiplying by ratios equal to one."
+      ],
+      "tags": [],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Convert 2.5 km to metres.",
+          "answer": "2500 m",
+          "answer_kind": "expression",
+          "solution": [
+            "1 km = 1000 m.",
+            "2.5 km × 1000 m/km = 2500 m."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Accuracy, Precision, and Significant Figures",
+      "module": "m42120",
+      "est_minutes": 18,
+      "locator": "CNXML module m42120",
+      "objectives": [
+        "Distinguish accuracy from precision and explain what uncertainty means.",
+        "Report calculated results with the correct number of significant figures."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A precise measurement is always accurate.",
+          "correction": "Precision is agreement among repeated measurements. Accuracy is closeness to the true value. A precise set can be consistently wrong.",
+          "signal": "Repeated readings that agree feel trustworthy, even when the instrument is wrongly calibrated."
+        },
+        {
+          "claim": "More significant figures always means a better measurement.",
+          "correction": "Significant figures show the precision of the instrument and the measurement. Digits beyond that precision are not meaningful.",
+          "signal": "A calculator can show many digits, but the instrument cannot support them."
+        }
+      ],
+      "summary": [
+        "Accuracy is closeness to the true value; precision is agreement among repeated measurements.",
+        "Uncertainty states the range within which a measured value is likely to lie.",
+        "A calculated result is reported with the number of significant figures supported by the measurements."
+      ],
+      "tags": [],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "How many significant figures are in the measurement 0.00450 m?",
+          "answer": "3",
+          "answer_kind": "expression",
+          "solution": [
+            "Leading zeros are not significant.",
+            "The digits 4, 5 and the trailing zero after the decimal point are significant.",
+            "The measurement has 3 significant figures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "Approximation",
+      "module": "m42121",
+      "est_minutes": 12,
+      "locator": "CNXML module m42121",
+      "objectives": [
+        "Make order-of-magnitude estimates using simple arithmetic.",
+        "Explain when an approximation is appropriate and when it is not."
+      ],
+      "misconceptions": [
+        {
+          "claim": "An approximation is a guess.",
+          "correction": "An approximation is a reasoned estimate built from known quantities and simple arithmetic. A guess has no stated basis.",
+          "signal": "The word approximate is often read as careless. In physics it is a controlled estimate."
+        },
+        {
+          "claim": "An order-of-magnitude answer is useless because it is not exact.",
+          "correction": "An order-of-magnitude answer checks whether an exact answer is plausible and catches large errors in units or powers of ten.",
+          "signal": "An exact-looking answer can still be wrong by a factor of a thousand."
+        }
+      ],
+      "summary": [
+        "An approximation is a reasoned estimate, not a guess.",
+        "Order-of-magnitude estimates use powers of ten and simple arithmetic.",
+        "Approximations check whether an exact answer is plausible and expose large errors."
+      ],
+      "tags": [],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "physics",
+          "topic_slug": "measurements-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "physics",
+          "topic_slug": "waec-fundamental-and-derived-quantities-and-units",
+          "subtopic_slug": null,
+          "status": "partial",
+          "papers": []
+        }
+      ],
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Estimate the number of seconds in one day to the nearest order of magnitude.",
+          "answer": "about 10^5 s",
+          "answer_kind": "expression",
+          "solution": [
+            "One day has 24 hours.",
+            "One hour has 3600 seconds.",
+            "24 × 3600 = 86,400 s.",
+            "The nearest power of ten is 10^5 s."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam_traps": [],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "A scientific theory is best described as",
+      "options": [
+        {
+          "id": "a",
+          "text": "a guess that has not been tested"
+        },
+        {
+          "id": "b",
+          "text": "a well-tested explanation that can be revised"
+        },
+        {
+          "id": "c",
+          "text": "a law that has been proved"
+        },
+        {
+          "id": "d",
+          "text": "a model that is always exact"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A theory explains observations and is tested against experiment. It is not a guess, and it can be revised.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": "Which of these is an SI base unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "newton"
+        },
+        {
+          "id": "b",
+          "text": "joule"
+        },
+        {
+          "id": "c",
+          "text": "kilogram"
+        },
+        {
+          "id": "d",
+          "text": "watt"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The kilogram is the SI base unit of mass. The newton, joule and watt are derived units.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "A set of repeated measurements is close to one another but far from the true value. The measurements are",
+      "options": [
+        {
+          "id": "a",
+          "text": "accurate but not precise"
+        },
+        {
+          "id": "b",
+          "text": "precise but not accurate"
+        },
+        {
+          "id": "c",
+          "text": "both accurate and precise"
+        },
+        {
+          "id": "d",
+          "text": "neither precise nor accurate"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Precision is agreement among repeated measurements. Accuracy is closeness to the true value. A precise set can be consistently wrong.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "The order of magnitude of 0.00042 m is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10^-4 m"
+        },
+        {
+          "id": "b",
+          "text": "10^-3 m"
+        },
+        {
+          "id": "c",
+          "text": "10^-5 m"
+        },
+        {
+          "id": "d",
+          "text": "10^-2 m"
+        }
+      ],
+      "answer": "a",
+      "explanation": "0.00042 m = 4.2 × 10^-4 m. The nearest power of ten is 10^-4 m.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    }
+  ]
+}

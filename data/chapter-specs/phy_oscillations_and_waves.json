@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Oscillatory Motion and Waves",
   "book_id": "secondary_physics",
-  "part_id": "part-3",
+  "part_id": "part-4",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -107,7 +107,10 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_motion_along_a_straight_line",
+    "phy_forces_and_newtons_laws"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -126,32 +129,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-production-and-propagation-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -182,25 +160,17 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "waves",
+          "topic_slug": "elasticity",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-production-and-propagation-of-waves",
+          "topic_slug": "waec-elastic-properties-of-solid",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -216,7 +186,22 @@
         "Observe the vibrations of a guitar string.",
         "Determine the frequency of oscillations."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The frequency of an oscillation is the time taken for one complete cycle.",
+          "correction": "That is the period. The frequency is the number of cycles in one second, and the two are reciprocals, so a wave of $50\\,\\text{Hz}$ has a period of $0.02\\,\\text{s}$.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_oscillations_and_waves:trap-3",
+          "signal": "Our own question offers the period as the frequency."
+        },
+        {
+          "claim": "A wave of frequency $50\\,\\text{Hz}$ has a period of $2\\,\\text{s}$.",
+          "correction": "The period is the reciprocal of the frequency, $T = 1/f = 1/50 = 0.02\\,\\text{s}$. Multiplying the two instead of dividing gives the wrong figure.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_oscillations_and_waves:trap-4",
+          "signal": "Our own question offers the multiplied reading as an option."
+        }
+      ],
       "summary": [
         "Periodic motion is a repetitious oscillation.",
         "The time for one oscillation is the period T.",
@@ -240,14 +225,6 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
         }
       ],
       "worked_from": "exr-12"
@@ -262,7 +239,18 @@
         "Describe a simple harmonic oscillator.",
         "Explain the link between simple harmonic motion and waves."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "In simple harmonic motion the acceleration is constant.",
+          "correction": "The acceleration is a = −ω²x, so it changes with position. It is maximum at the extremes and zero at equilibrium.",
+          "signal": "Only constant-force motion has constant acceleration."
+        },
+        {
+          "claim": "A simple harmonic oscillator moves at constant speed.",
+          "correction": "Its speed varies. It is zero at the extremes and maximum as it passes through equilibrium.",
+          "signal": "The velocity changes direction every half cycle."
+        }
+      ],
       "summary": [
         "Simple harmonic motion is oscillatory motion for a system that can be described only by Hooke’s law. Such a system is also called a simple harmonic oscillator.",
         "Maximum displacement is the amplitude X. The period T and frequency f of a simple harmonic oscillator are given by T=2πmk and f=12πkm, where m is the mass of the system.",
@@ -286,17 +274,8 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
         }
-      ],
-      "worked_from": "exr-28"
+      ]
     },
     {
       "id": "sec-5",
@@ -305,7 +284,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42243",
       "objectives": [
-        "Measure acceleration due to gravity."
+        "Measure acceleration due to gravity.",
+        "Use the simple pendulum to measure g and explain why its period is independent of mass."
       ],
       "misconceptions": [
         {
@@ -336,17 +316,29 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
         }
       ],
-      "worked_from": "exr-19"
+      "worked_from": "exr-19",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Does the period of a simple pendulum depend on the mass of its bob?",
+          "answer": "No. For small swings the period depends on the length and on g, not on the mass.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The restoring force is proportional to the weight.",
+            "The mass cancels in the equation of motion.",
+            "T = 2π√(L/g) has no mass term."
+          ],
+          "tags": [
+            "pendulum",
+            "period"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-6",
@@ -355,9 +347,21 @@
       "est_minutes": 12,
       "locator": "CNXML module m42244",
       "objectives": [
-        "Determine the maximum speed of an oscillating system."
+        "Determine the maximum speed of an oscillating system.",
+        "Apply conservation of energy to find the speed of an oscillator at a given displacement."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The total energy of an undamped oscillator changes as it swings.",
+          "correction": "The total energy is constant. Kinetic and potential energy interchange, but their sum stays the same.",
+          "signal": "Energy is conserved when damping is negligible."
+        },
+        {
+          "claim": "At maximum displacement the kinetic energy is maximum.",
+          "correction": "At maximum displacement the oscillator is momentarily at rest, so the kinetic energy is zero and all the energy is potential.",
+          "signal": "Speed is zero at the turning points."
+        }
+      ],
       "summary": [
         "Energy in the simple harmonic oscillator is shared between elastic potential energy and kinetic energy, with the total being constant: 1 2 mv 2 + 1 2 kx 2 = constant.",
         "Maximum velocity depends on three factors: it is directly proportional to amplitude, it is greater for stiffer systems, and it is smaller for objects that have larger masses: vmax=Xkm"
@@ -370,7 +374,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -378,19 +382,31 @@
           "subject": "physics",
           "topic_slug": "waec-production-and-propagation-of-waves",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-24"
+      "worked_from": "exr-24",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "At which point in simple harmonic motion is the kinetic energy maximum?",
+          "answer": "At the equilibrium position.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The speed is greatest at equilibrium.",
+            "Kinetic energy is ½mv², so it is maximum there.",
+            "At the extremes the speed is zero and all the energy is potential."
+          ],
+          "tags": [
+            "kinetic energy",
+            "simple harmonic motion"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-7",
@@ -399,9 +415,16 @@
       "est_minutes": 12,
       "locator": "CNXML module m42245",
       "objectives": [
-        "Compare simple harmonic motion with uniform circular motion."
+        "Compare simple harmonic motion with uniform circular motion.",
+        "Explain how simple harmonic motion is the projection of uniform circular motion."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Simple harmonic motion is the same as uniform circular motion.",
+          "correction": "SHM is the projection of uniform circular motion onto a diameter. The projection’s speed varies, while the circular motion’s speed is constant.",
+          "signal": "The circular motion is a mathematical model for the projection."
+        }
+      ],
       "summary": [
         "A projection of uniform circular motion undergoes simple harmonic oscillation.",
         "Explain Newton’s third law of motion with respect to stress and deformation.",
@@ -415,7 +438,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -423,19 +446,31 @@
           "subject": "physics",
           "topic_slug": "waec-production-and-propagation-of-waves",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-22"
+      "worked_from": "exr-22",
+      "authored_exercises": [
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "A point moves uniformly on a circle of radius 0.2 m at angular speed 3 rad/s. Its projection on a diameter executes simple harmonic motion. Find the amplitude and maximum speed of the projection.",
+          "answer": "amplitude 0.2 m; maximum speed 0.6 m/s",
+          "answer_kind": "expression",
+          "solution": [
+            "The amplitude of the projection equals the circle’s radius, 0.2 m.",
+            "For SHM, v_max = ωX.",
+            "v_max = 3 × 0.2 = 0.6 m/s."
+          ],
+          "tags": [
+            "simple harmonic motion",
+            "circular motion"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-8",
@@ -447,7 +482,18 @@
         "Compare and discuss underdamped and overdamped oscillating systems.",
         "Explain critically damped system."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Damping immediately stops an oscillator.",
+          "correction": "Damping gradually removes energy and reduces the amplitude. Critical damping returns the system to equilibrium quickly without overshooting; overdamping returns it more slowly.",
+          "signal": "The type of damping changes the return, not just the speed."
+        },
+        {
+          "claim": "An overdamped system oscillates more slowly than a critically damped one.",
+          "correction": "An overdamped system does not oscillate at all. It returns to equilibrium without crossing it, often more slowly than the critical case.",
+          "signal": "Overdamping means too much damping for oscillation."
+        }
+      ],
       "summary": [
         "Damped harmonic oscillators have non-conservative forces that dissipate their energy.",
         "Critical damping returns the system to equilibrium as fast as possible without overshooting.",
@@ -461,7 +507,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -469,19 +515,10 @@
           "subject": "physics",
           "topic_slug": "waec-production-and-propagation-of-waves",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
-      ],
-      "worked_from": "exr-18"
+      ]
     },
     {
       "id": "sec-9",
@@ -493,7 +530,13 @@
         "Observe resonance of a paddle ball on a string.",
         "Observe amplitude of a damped harmonic oscillator."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "At resonance the amplitude grows forever.",
+          "correction": "The amplitude peaks near the natural frequency, but damping limits it. A sustained driving force keeps supplying energy; without it, damping eventually removes the motion.",
+          "signal": "Resonance is a large response, not unlimited energy."
+        }
+      ],
       "summary": [
         "A system’s natural frequency is the frequency at which the system will oscillate if not affected by driving or damping forces.",
         "A periodic force driving a harmonic oscillator at its natural frequency produces resonance. The system is said to resonate.",
@@ -507,7 +550,7 @@
           "subject": "physics",
           "topic_slug": "waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -515,15 +558,15 @@
           "subject": "physics",
           "topic_slug": "waec-production-and-propagation-of-waves",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
+          "topic_slug": "waec-equilibrium-of-forces",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -539,7 +582,18 @@
         "State the characteristics of a wave.",
         "Calculate the velocity of wave propagation."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A wave carries matter along with its energy.",
+          "correction": "A wave carries energy and momentum, but the medium oscillates about fixed positions and does not travel with the wave.",
+          "signal": "Watch a floating cork: it bobs but does not ride the wave to shore."
+        },
+        {
+          "claim": "The speed of a wave depends on its frequency.",
+          "correction": "In a given medium the wave speed is set by the medium. Changing the frequency changes the wavelength, not the speed.",
+          "signal": "v = fλ keeps the product fixed."
+        }
+      ],
       "summary": [
         "A wave is a disturbance that moves from the point of creation with a wave velocity vw.",
         "A wave has a wavelength λ, which is the distance between adjacent identical parts of the wave.",
@@ -573,7 +627,27 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-22"
+      "worked_from": "exr-22",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "State the relationship between wave speed, frequency and wavelength.",
+          "answer": "v = fλ.",
+          "answer_kind": "explanation",
+          "solution": [
+            "The wave travels one wavelength in one period.",
+            "Frequency is the reciprocal of the period.",
+            "Therefore v = λ/T = fλ."
+          ],
+          "tags": [
+            "wave speed",
+            "wavelength"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-11",
@@ -585,7 +659,18 @@
         "Explain standing waves.",
         "Describe the mathematical representation of overtones and beat frequency."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Two superposed waves always make a larger wave.",
+          "correction": "Superposition adds displacements algebraically. In-phase waves add constructively; exactly out-of-phase waves cancel.",
+          "signal": "Interference can be destructive."
+        },
+        {
+          "claim": "A standing wave travels along the medium.",
+          "correction": "A standing wave has fixed nodes and antinodes. Energy is trapped between the nodes rather than transported along the medium.",
+          "signal": "The pattern stays in place while the medium oscillates."
+        }
+      ],
       "summary": [
         "Superposition is the combination of two waves at the same location.",
         "Constructive interference occurs when two identical waves are superimposed in phase.",
@@ -605,15 +690,7 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-production-and-propagation-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
+          "topic_slug": "waec-properties-of-waves-reflection-refraction-diffraction-interf-2",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -628,9 +705,21 @@
       "est_minutes": 12,
       "locator": "CNXML module m42250",
       "objectives": [
-        "Calculate the intensity and the power of rays and waves."
+        "Calculate the intensity and the power of rays and waves.",
+        "Calculate wave intensity from power and area, and explain the inverse-square falloff."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Intensity and power are the same quantity.",
+          "correction": "Intensity is power per unit area. A source of the same power gives a smaller intensity when spread over a larger area.",
+          "signal": "Intensity has units of W/m²."
+        },
+        {
+          "claim": "The intensity of a spherical wave is the same at every distance.",
+          "correction": "It falls as 1/r² because the same power spreads over a sphere of area 4πr².",
+          "signal": "Doubling the distance quarters the intensity."
+        }
+      ],
       "summary": [
         "Intensity is defined to be the power per unit area:",
         "Explain Newton’s third law of motion with respect to stress and deformation.",
@@ -654,20 +743,183 @@
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-types-of-waves",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
         }
-      ],
-      "worked_from": "exr-21"
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$F = -kx$",
+      "caption": {
+        "text": "Hooke’s law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The restoring force is opposite to the displacement x; k is the spring constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42240/index.cnxml",
+        "locator": "CNXML module m42240, section “Hooke’s Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$PE = \\frac{1}{2}kx^2$",
+      "caption": {
+        "text": "Elastic potential energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a spring stretched or compressed by x within its elastic limit.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42240/index.cnxml",
+        "locator": "CNXML module m42240, section “Hooke’s Law”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$T = \\frac{1}{f}$",
+      "caption": {
+        "text": "Period and frequency",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The period is the time for one complete cycle.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42241/index.cnxml",
+        "locator": "CNXML module m42241, section “Period and Frequency”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$T = 2\\pi\\sqrt{\\frac{m}{k}}$",
+      "caption": {
+        "text": "Period of a mass on a spring",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a simple harmonic oscillator with mass m and spring constant k.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42242/index.cnxml",
+        "locator": "CNXML module m42242, section “Simple Harmonic Motion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$T = 2\\pi\\sqrt{\\frac{L}{g}}$",
+      "caption": {
+        "text": "Period of a simple pendulum",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For small amplitudes, with length L and gravitational acceleration g.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42243/index.cnxml",
+        "locator": "CNXML module m42243, section “The Simple Pendulum”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$v_{\\max} = \\omega X = \\sqrt{\\frac{k}{m}}X$",
+      "caption": {
+        "text": "Maximum speed in SHM",
+        "inline": []
+      },
+      "conditions": {
+        "text": "X is the amplitude and ω is the angular frequency.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42244/index.cnxml",
+        "locator": "CNXML module m42244, section “Energy and the Simple Harmonic Oscillator”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$v = f\\lambda$",
+      "caption": {
+        "text": "Wave speed",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a periodic wave with frequency f and wavelength λ.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42248/index.cnxml",
+        "locator": "CNXML module m42248, section “Waves”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$I = \\frac{P}{A}$",
+      "caption": {
+        "text": "Intensity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Power per unit area carried by a wave.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42250/index.cnxml",
+        "locator": "CNXML module m42250, section “Energy in Waves: Intensity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$I = \\frac{P}{4\\pi r^2}$",
+      "caption": {
+        "text": "Intensity of a spherical wave",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For a source radiating equally in all directions at distance r.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42250/index.cnxml",
+        "locator": "CNXML module m42250, section “Energy in Waves: Intensity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1247,76 +1499,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A pendulum swings faster when it is given a bigger push.",
-      "correction": "The period of a pendulum does not depend on the push. It depends on the length and on gravity.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "A wave carries energy along with it.",
-      "correction": "A wave carries energy but not matter. The medium stays where it is, and the energy travels through it.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-5",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "The frequency of an oscillation is the time taken for one complete cycle.",
-      "correction": "That is the period. The frequency is the number of cycles in one second, and the two are reciprocals, so a wave of $50\\,\\text{Hz}$ has a period of $0.02\\,\\text{s}$.",
-      "signal": "Our own question offers the period as the frequency.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-3",
-      "misconception": "A wave of frequency $50\\,\\text{Hz}$ has a period of $2\\,\\text{s}$.",
-      "correction": "The period is the reciprocal of the frequency, $T = 1/f = 1/50 = 0.02\\,\\text{s}$. Multiplying the two instead of dividing gives the wrong figure.",
-      "signal": "Our own question offers the multiplied reading as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-3",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1462,6 +1645,209 @@
       "explanation": "At resonance the driving frequency matches the natural frequency, the amplitude grows largest and the energy transferred each cycle is at its maximum.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "A simple pendulum has length 1.0 m. Take g = 9.8 m/s². Find its period.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.32 s"
+        },
+        {
+          "id": "b",
+          "text": "1.0 s"
+        },
+        {
+          "id": "c",
+          "text": "2.0 s"
+        },
+        {
+          "id": "d",
+          "text": "6.3 s"
+        }
+      ],
+      "answer": "c",
+      "explanation": "T = 2π√(L/g) = 2π√(1.0/9.8) ≈ 2.0 s.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-6",
+      "stem": "At which point in simple harmonic motion is the kinetic energy maximum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "at maximum displacement"
+        },
+        {
+          "id": "b",
+          "text": "at the equilibrium position"
+        },
+        {
+          "id": "c",
+          "text": "halfway between equilibrium and maximum displacement"
+        },
+        {
+          "id": "d",
+          "text": "the kinetic energy is always constant"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The speed is greatest as the oscillator passes through equilibrium, so the kinetic energy is maximum there.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "Simple harmonic motion can be represented as",
+      "options": [
+        {
+          "id": "a",
+          "text": "the projection of uniform circular motion onto a diameter"
+        },
+        {
+          "id": "b",
+          "text": "a constant-velocity motion"
+        },
+        {
+          "id": "c",
+          "text": "the sum of two constant forces"
+        },
+        {
+          "id": "d",
+          "text": "a motion with constant acceleration"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A point moving uniformly on a circle projects onto a diameter with simple harmonic motion.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "A critically damped system",
+      "options": [
+        {
+          "id": "a",
+          "text": "oscillates forever"
+        },
+        {
+          "id": "b",
+          "text": "returns to equilibrium as fast as possible without overshooting"
+        },
+        {
+          "id": "c",
+          "text": "never returns to equilibrium"
+        },
+        {
+          "id": "d",
+          "text": "has zero damping"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Critical damping is the fastest return to equilibrium without crossing it. Overdamping returns more slowly; underdamping oscillates.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-10",
+      "stem": "A wave has frequency 50 Hz and wavelength 2 m. Find its speed.",
+      "options": [
+        {
+          "id": "a",
+          "text": "25 m/s"
+        },
+        {
+          "id": "b",
+          "text": "50 m/s"
+        },
+        {
+          "id": "c",
+          "text": "100 m/s"
+        },
+        {
+          "id": "d",
+          "text": "200 m/s"
+        }
+      ],
+      "answer": "c",
+      "explanation": "v = fλ = 50 × 2 = 100 m/s.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-11",
+      "stem": "Two identical waves meet exactly out of phase. What is the result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "constructive interference with double amplitude"
+        },
+        {
+          "id": "b",
+          "text": "destructive interference with zero amplitude"
+        },
+        {
+          "id": "c",
+          "text": "a wave of half the frequency"
+        },
+        {
+          "id": "d",
+          "text": "a standing wave with no nodes"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Exactly out-of-phase identical waves cancel at every point, giving zero amplitude.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-12",
+      "stem": "The intensity of a wave is defined as",
+      "options": [
+        {
+          "id": "a",
+          "text": "the power per unit area"
+        },
+        {
+          "id": "b",
+          "text": "the total power of the source"
+        },
+        {
+          "id": "c",
+          "text": "the energy of one photon"
+        },
+        {
+          "id": "d",
+          "text": "the speed of the wave"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Intensity is the power crossing unit area perpendicular to the direction of travel, measured in W/m².",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1472,5 +1858,45 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Oscillatory Motion and Waves', modules m42239, m42240, m42241, m42242, m42243, m42244, m42245, m42246, m42247, m42248, m42249, m42250",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 16,
+  "exercise_fixes": {
+    "sec-10:exr-37": {
+      "drop": true
+    },
+    "sec-4:exr-85": {
+      "stem": "A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first?"
+    },
+    "sec-4:exr-31": {
+      "stem": "A babysitter pushes a child on a swing. At the instant the swing is momentarily at rest at one extreme of its motion, where is the corresponding point on a displacement-time graph of the motion?",
+      "answer": "At a crest or a trough: the displacement is at its maximum amplitude.",
+      "solution": [
+        "The extreme of the swing is the point of maximum deformation, which corresponds to the amplitude of the motion.",
+        "On a displacement-time graph that point is either at the very top or the very bottom of the curve, depending on which extreme is chosen."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the unnamed point X in the source is described explicitly"
+    },
+    "sec-5:exr-50": {
+      "answer": "(a) 2.99541 s (b) $T∝g^{-1/2}$, so a 1% change in $g$ changes $T$ by about 0.5%; at least five significant figures are needed to see the shift.",
+      "solution": [
+        "(a) $T_{2}=T_{1}\\sqrt{g_{1}/g_{2}}=3.00000\\sqrt{9.79/9.82}=2.99541s$ .",
+        "(b) Since $T=2π\\sqrt{L/g}$ , $T∝g^{-1/2}$. For small changes, $ΔT/T≈-\\frac{1}{2}Δg/g$. A 1% change in $g$ therefore changes the period by about 0.5%, not 0.01%, so several decimal places are needed to resolve it."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source's $(0.01)^2=0.01%$ sentence is corrected to the square-root dependence"
+    },
+    "sec-5:exr-62": {
+      "answer": "2.45 h per revolution; the clock runs slow by a factor of 2.45.",
+      "solution": [
+        "$T_{Moon}/T_{Earth}=\\sqrt{g_{Earth}/g_{Moon}}=\\sqrt{9.80/1.63}=2.45$ .",
+        "A minute hand that takes 1.00 h per revolution on Earth takes 2.45 h per revolution on the Moon, so the clock runs slow by a factor of 2.45."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer gave only the factor, not the time the question asks for"
+    },
+    "sec-2:exr-35": {
+      "stem": "Which of the following represents the distance (how much ground the particle covers) moved by a particle in simple harmonic motion in one time period? Here $A$ represents the amplitude of the oscillation.",
+      "solution": [
+        "In one period the particle moves from one extreme to the other and back again, a total distance of $A+A+A+A=4A$."
+      ]
+    }
+  }
 }

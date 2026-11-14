@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "While basking in the warmth of the summer sun, a student reads of the latest breakthrough in achieving sustained thermonuclear power and vaguely recalls hearing about the cold fusion controversy. The three are connected. The Sun’s energy is produced by nuclear fusion (see ). Thermonuclear power is the name given to the use of controlled nuclear fusion as an energy source. While research in the area of thermonuclear power is progressing, high temperatures and containment difficulties remain. The cold fusion controversy centered around unsubstantiated claims of practical fusion power at room temperatures.",
+        "text": "While basking in the warmth of the summer sun, a student reads of the latest breakthrough in achieving sustained thermonuclear power and vaguely recalls hearing about the cold fusion controversy. The three are connected. The Sun’s energy is produced by nuclear fusion (see the figure). Thermonuclear power is the name given to the use of controlled nuclear fusion as an energy source. While research in the area of thermonuclear power is progressing, high temperatures and containment difficulties remain. The cold fusion controversy centered around unsubstantiated claims of practical fusion power at room temperatures.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Nuclear fusion is a reaction in which two nuclei are combined, or *fused* , to form a larger nucleus. We know that all nuclei have less mass than the sum of the masses of the protons and neutrons that form them. The missing mass times ${c}^{2}$ equals the binding energy of the nucleus—the greater the binding energy, the greater the missing mass. We also know that $BE/A$ , the binding energy per nucleon, is greater for medium-mass nuclei and has a maximum at Fe (iron). This means that if two low-mass nuclei can be fused together to form a larger nucleus, energy can be released. The larger nucleus has a greater binding energy and less mass per nucleon than the two that combined. Thus mass is destroyed in the fusion reaction, and energy is released (see ). On average, fusion of low-mass nuclei releases energy, but the details depend on the actual nuclides involved.",
+        "text": "Nuclear fusion is a reaction in which two nuclei are combined, or *fused*, to form a larger nucleus. We know that all nuclei have less mass than the sum of the masses of the protons and neutrons that form them. The missing mass times ${c}^{2}$ equals the binding energy of the nucleus—the greater the binding energy, the greater the missing mass. We also know that $BE/A$, the binding energy per nucleon, is greater for medium-mass nuclei and has a maximum at Fe (iron). This means that if two low-mass nuclei can be fused together to form a larger nucleus, energy can be released. The larger nucleus has a greater binding energy and less mass per nucleon than the two that combined. Thus mass is destroyed in the fusion reaction, and energy is released (see the figure). On average, fusion of low-mass nuclei releases energy, but the details depend on the actual nuclides involved.",
         "inline": []
       },
       "level": "core"
@@ -75,7 +75,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "The major obstruction to fusion is the Coulomb repulsion between nuclei. Since the attractive nuclear force that can fuse nuclei together is short ranged, the repulsion of like positive charges must be overcome to get nuclei close enough to induce fusion. shows an approximate graph of the potential energy between two nuclei as a function of the distance between their centers. The graph is analogous to a hill with a well in its center. A ball rolled from the right must have enough kinetic energy to get over the hump before it falls into the deeper well with a net gain in energy. So it is with fusion. If the nuclei are given enough kinetic energy to overcome the electric potential energy due to repulsion, then they can combine, release energy, and fall into a deep well. One way to accomplish this is to heat fusion fuel to high temperatures so that the kinetic energy of thermal motion is sufficient to get the nuclei together.",
+        "text": "The major obstruction to fusion is the Coulomb repulsion between nuclei. Since the attractive nuclear force that can fuse nuclei together is short ranged, the repulsion of like positive charges must be overcome to get nuclei close enough to induce fusion. The figure shows an approximate graph of the potential energy between two nuclei as a function of the distance between their centers. The graph is analogous to a hill with a well in its center. A ball rolled from the right must have enough kinetic energy to get over the hump before it falls into the deeper well with a net gain in energy. So it is with fusion. If the nuclei are given enough kinetic energy to overcome the electric potential energy due to repulsion, then they can combine, release energy, and fall into a deep well. One way to accomplish this is to heat fusion fuel to high temperatures so that the kinetic energy of thermal motion is sufficient to get the nuclei together.",
         "inline": []
       },
       "level": "core"
@@ -97,7 +97,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "You might think that, in the core of our Sun, nuclei are coming into contact and fusing. However, in fact, temperatures on the order of ${10}^{8}K$ are needed to actually get the nuclei in contact, exceeding the core temperature of the Sun. Quantum mechanical tunneling is what makes fusion in the Sun possible, and tunneling is an important process in most other practical applications of fusion, too. Since the probability of tunneling is extremely sensitive to barrier height and width, increasing the temperature greatly increases the rate of fusion. The closer reactants get to one another, the more likely they are to fuse (see ). Thus most fusion in the Sun and other stars takes place at their centers, where temperatures are highest. Moreover, high temperature is needed for thermonuclear power to be a practical source of energy.",
+        "text": "You might think that, in the core of our Sun, nuclei are coming into contact and fusing. However, in fact, temperatures on the order of ${10}^{8}K$ are needed to actually get the nuclei in contact, exceeding the core temperature of the Sun. Quantum mechanical tunneling is what makes fusion in the Sun possible, and tunneling is an important process in most other practical applications of fusion, too. Since the probability of tunneling is extremely sensitive to barrier height and width, increasing the temperature greatly increases the rate of fusion. The closer reactants get to one another, the more likely they are to fuse (see the figure). Thus most fusion in the Sun and other stars takes place at their centers, where temperatures are highest. Moreover, high temperature is needed for thermonuclear power to be a practical source of energy.",
         "inline": []
       },
       "level": "core"
@@ -119,7 +119,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The Sun produces energy by fusing protons or hydrogen nuclei ${}^{1}H$ (by far the Sun’s most abundant nuclide) into helium nuclei ${}^{4}He$ . The principal sequence of fusion reactions forms what is called the proton-proton cycle :",
+        "text": "The Sun produces energy by fusing protons or hydrogen nuclei ${}^{1}H$ (by far the Sun’s most abundant nuclide) into helium nuclei ${}^{4}He$. The principal sequence of fusion reactions forms what is called the proton-proton cycle: ${}^{1}H+{}^{1}H\\to {}^{2}H+{e}^{+}+{v}_{e}(0.42 MeV)$ ${}^{1}H+{}^{2}H\\to {}^{3}He+γ(5.49 MeV)$ ${}^{3}He+{}^{3}He\\to {}^{4}He+{}^{1}H+{}^{1}H(12.86 MeV)$",
         "inline": []
       },
       "level": "core"
@@ -128,7 +128,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "where ${e}^{+}$ stands for a positron and ${v}_{e}$ is an electron neutrino. (The energy in parentheses is *released* by the reaction.) Note that the first two reactions must occur twice for the third to be possible, so that the cycle consumes six protons ( ${}^{1}H$ ) but gives back two. Furthermore, the two positrons produced will find two electrons and annihilate to form four more $γ$ rays, for a total of six. The overall effect of the cycle is thus",
+        "text": "where ${e}^{+}$ stands for a positron and ${v}_{e}$ is an electron neutrino. (The energy in parentheses is *released* by the reaction.) Note that the first two reactions must occur twice for the third to be possible, so that the cycle consumes six protons (${}^{1}H$) but gives back two. Furthermore, the two positrons produced will find two electrons and annihilate to form four more $γ$ rays, for a total of six. The overall effect of the cycle is thus $2{e}^{-}+4{}^{1}H\\to {}^{4}He+{2v}_{e}+6γ(26.7 MeV)$",
         "inline": []
       },
       "level": "core"
@@ -137,7 +137,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where the 26.7 MeV includes the annihilation energy of the positrons and electrons and is distributed among all the reaction products. The solar interior is dense, and the reactions occur deep in the Sun where temperatures are highest. It takes about 32,000 years for the energy to diffuse to the surface and radiate away. However, the neutrinos escape the Sun in less than two seconds, carrying their energy with them, because they interact so weakly that the Sun is transparent to them. Negative feedback in the Sun acts as a thermostat to regulate the overall energy output. For instance, if the interior of the Sun becomes hotter than normal, the reaction rate increases, producing energy that expands the interior. This cools it and lowers the reaction rate. Conversely, if the interior becomes too cool, it contracts, increasing the temperature and reaction rate (see ). Stars like the Sun are stable for billions of years, until a significant fraction of their hydrogen has been depleted. What happens then is discussed in Frontiers of Physics .",
+        "text": "where the 26.7 MeV includes the annihilation energy of the positrons and electrons and is distributed among all the reaction products. The solar interior is dense, and the reactions occur deep in the Sun where temperatures are highest. It takes about 32,000 years for the energy to diffuse to the surface and radiate away. However, the neutrinos escape the Sun in less than two seconds, carrying their energy with them, because they interact so weakly that the Sun is transparent to them. Negative feedback in the Sun acts as a thermostat to regulate the overall energy output. For instance, if the interior of the Sun becomes hotter than normal, the reaction rate increases, producing energy that expands the interior. This cools it and lowers the reaction rate. Conversely, if the interior becomes too cool, it contracts, increasing the temperature and reaction rate (see the figure). Stars like the Sun are stable for billions of years, until a significant fraction of their hydrogen has been depleted. What happens then is discussed in Frontiers of Physics.",
         "inline": []
       },
       "level": "core"
@@ -159,7 +159,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "Theories of the proton-proton cycle (and other energy-producing cycles in stars) were pioneered by the German-born, American physicist Hans Bethe (1906–2005), starting in 1938. He was awarded the 1967 Nobel Prize in physics for this work, and he has made many other contributions to physics and society. Neutrinos produced in these cycles escape so readily that they provide us an excellent means to test these theories and study stellar interiors. Detectors have been constructed and operated for more than four decades now to measure solar neutrinos (see ). Although solar neutrinos are detected and neutrinos were observed from Supernova 1987A ( ), too few solar neutrinos were observed to be consistent with predictions of solar energy production. After many years, this solar neutrino problem was resolved with a blend of theory and experiment that showed that the neutrino does indeed have mass. It was also found that there are three types of neutrinos, each associated with a different type of nuclear decay.",
+        "text": "Theories of the proton-proton cycle (and other energy-producing cycles in stars) were pioneered by the German-born, American physicist Hans Bethe (1906–2005), starting in 1938. He was awarded the 1967 Nobel Prize in physics for this work, and he has made many other contributions to physics and society. Neutrinos produced in these cycles escape so readily that they provide us an excellent means to test these theories and study stellar interiors. Detectors have been constructed and operated for more than four decades now to measure solar neutrinos (see the figure). Although solar neutrinos are detected and neutrinos were observed from Supernova 1987A (the figure), too few solar neutrinos were observed to be consistent with predictions of solar energy production. After many years, this solar neutrino problem was resolved with a blend of theory and experiment that showed that the neutrino does indeed have mass. It was also found that there are three types of neutrinos, each associated with a different type of nuclear decay.",
         "inline": []
       },
       "level": "core"
@@ -194,7 +194,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The proton-proton cycle is not a practical source of energy on Earth, in spite of the great abundance of hydrogen ( ${}^{1}H$ ). The reaction ${}^{1}H+{}^{1}H→{}^{2}H+{e}^{+}+{v}_{e}$ has a very low probability of occurring. (This is why our Sun will last for about ten billion years.) However, a number of other fusion reactions are easier to induce. Among them are:",
+        "text": "The proton-proton cycle is not a practical source of energy on Earth, in spite of the great abundance of hydrogen (${}^{1}H$). The reaction ${}^{1}H+{}^{1}H\\to {}^{2}H+{e}^{+}+{v}_{e}$ has a very low probability of occurring. (This is why our Sun will last for about ten billion years.) However, a number of other fusion reactions are easier to induce. Among them are: ${}^{2}H+{}^{2}H\\to {}^{3}H+{}^{1}H(4.03 MeV)$ ${}^{2}H+{}^{2}H\\to {}^{3}He+n(3.27 MeV)$ ${}^{2}H+{}^{3}H\\to {}^{4}He+n(17.59 MeV)$ ${}^{2}H+{}^{2}H\\to {}^{4}He+γ(23.85 MeV).$",
         "inline": []
       },
       "level": "core"
@@ -203,7 +203,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Deuterium ( ${}^{2}H$ ) is about 0.015% of natural hydrogen, so there is an immense amount of it in sea water alone. In addition to an abundance of deuterium fuel, these fusion reactions produce large energies per reaction (in parentheses), but they do not produce much radioactive waste. Tritium ( ${}^{3}H$ ) is radioactive, but it is consumed as a fuel (the reaction ${}^{2}H+{}^{3}H→{}^{4}He+n$ ), and the neutrons and $γ$ s can be shielded. The neutrons produced can also be used to create more energy and fuel in reactions like",
+        "text": "Deuterium (${}^{2}H$) is about 0.015% of natural hydrogen, so there is an immense amount of it in sea water alone. In addition to an abundance of deuterium fuel, these fusion reactions produce large energies per reaction (in parentheses), but they do not produce much radioactive waste. Tritium (${}^{3}H$) is radioactive, but it is consumed as a fuel (the reaction ${}^{2}H+{}^{3}H\\to {}^{4}He+n$), and the neutrons and $γ$ s can be shielded. The neutrons produced can also be used to create more energy and fuel in reactions like $n+{}^{1}H\\to {}^{2}H+γ(20.68 MeV)$",
         "inline": []
       },
       "level": "core"
@@ -212,7 +212,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Note that these last two reactions, and ${}^{2}H+{}^{2}H→{}^{4}He+γ$ , put most of their energy output into the $γ$ ray, and such energy is difficult to utilize.",
+        "text": "Note that these last two reactions, and ${}^{2}H+{}^{2}H\\to {}^{4}He+γ$, put most of their energy output into the $γ$ ray, and such energy is difficult to utilize.",
         "inline": []
       },
       "level": "core"
@@ -221,7 +221,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. Ignition is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called break-even , occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.",
+        "text": "The three keys to practical fusion energy generation are to achieve the temperatures necessary to make the reactions likely, to raise the density of the fuel, and to confine it long enough to produce large amounts of energy. These three factors—temperature, density, and time—complement one another, and so a deficiency in one can be compensated for by the others. Ignition is defined to occur when the reactions produce enough energy to be self-sustaining after external energy input is cut off. This goal, which must be reached before commercial plants can be a reality, has not been achieved. Another milestone, called break-even, occurs when the fusion power produced equals the heating power input. Break-even has nearly been reached and gives hope that ignition and commercial plants may become a reality in a few decades.",
         "inline": []
       },
       "level": "core"
@@ -230,7 +230,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "Two techniques have shown considerable promise. The first of these is called magnetic confinement and uses the property that charged particles have difficulty crossing magnetic field lines. The tokamak, shown in , has shown particular promise. The tokamak’s toroidal coil confines charged particles into a circular path with a helical twist due to the circulating ions themselves. In 1995, the Tokamak Fusion Test Reactor at Princeton in the US achieved world-record plasma temperatures as high as 500 million degrees Celsius. This facility operated between 1982 and 1997. A joint international effort is underway in France to build a tokamak-type reactor that will be the stepping stone to commercial power. ITER, as it is called, will be a full-scale device that aims to demonstrate the feasibility of fusion energy. It will generate 500 MW of power for extended periods of time and will achieve break-even conditions. It will study plasmas in conditions similar to those expected in a fusion power plant. Completion is scheduled for 2018.",
+        "text": "Two techniques have shown considerable promise. The first of these is called magnetic confinement and uses the property that charged particles have difficulty crossing magnetic field lines. The tokamak, shown in the figure, has shown particular promise. The tokamak’s toroidal coil confines charged particles into a circular path with a helical twist due to the circulating ions themselves. In 1995, the Tokamak Fusion Test Reactor at Princeton in the US achieved world-record plasma temperatures as high as 500 million degrees Celsius. This facility operated between 1982 and 1997. A joint international effort is underway in France to build a tokamak-type reactor that will be the stepping stone to commercial power. ITER, as it is called, will be a full-scale device that aims to demonstrate the feasibility of fusion energy. It will generate 500 MW of power for extended periods of time and will achieve break-even conditions. It will study plasmas in conditions similar to those expected in a fusion power plant. Completion is scheduled for 2018.",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The second promising technique aims multiple lasers at tiny fuel pellets filled with a mixture of deuterium and tritium. Huge power input heats the fuel, evaporating the confining pellet and crushing the fuel to high density with the expanding hot plasma produced. This technique is called inertial confinement , because the fuel’s inertia prevents it from escaping before significant fusion can take place. Higher densities have been reached than with tokamaks, but with smaller confinement times. In 2009, the Lawrence Livermore Laboratory (CA) completed a laser fusion device with 192 ultraviolet laser beams that are focused upon a D-T pellet (see ).",
+        "text": "The second promising technique aims multiple lasers at tiny fuel pellets filled with a mixture of deuterium and tritium. Huge power input heats the fuel, evaporating the confining pellet and crushing the fuel to high density with the expanding hot plasma produced. This technique is called inertial confinement, because the fuel’s inertia prevents it from escaping before significant fusion can take place. Higher densities have been reached than with tokamaks, but with smaller confinement times. In 2009, the Lawrence Livermore Laboratory (CA) completed a laser fusion device with 192 ultraviolet laser beams that are focused upon a D-T pellet (see the figure).",
         "inline": []
       },
       "level": "core"
@@ -307,7 +307,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "According to ${}^{2}H+{}^{3}H→{}^{4}He+n$ , the energy per reaction is 17.59 MeV. To find the total energy released, we must find the number of deuterium and tritium atoms in a kilogram. Deuterium has an atomic mass of about 2 and tritium has an atomic mass of about 3, for a total of about 5 g per mole of reactants or about 200 mol in 1.00 kg. To get a more precise figure, we will use the atomic masses from Appendix A. The power output is best expressed in watts, and so the energy output needs to be calculated in joules and then divided by the number of seconds in a year.",
+        "text": "According to ${}^{2}H+{}^{3}H\\to {}^{4}He+n$, the energy per reaction is 17.59 MeV. To find the total energy released, we must find the number of deuterium and tritium atoms in a kilogram. Deuterium has an atomic mass of about 2 and tritium has an atomic mass of about 3, for a total of about 5 g per mole of reactants or about 200 mol in 1.00 kg. To get a more precise figure, we will use the atomic masses from Appendix A. The power output is best expressed in watts, and so the energy output needs to be calculated in joules and then divided by the number of seconds in a year.",
         "inline": []
       },
       "level": "core"
@@ -316,7 +316,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "The atomic mass of deuterium ( ${}^{2}H$ ) is 2.014102 u, while that of tritium ( ${}^{3}H$ ) is 3.016049 u, for a total of 5.032151 u per reaction. So a mole of reactants has a mass of 5.03 g, and in 1.00 kg there are $(1000 g)/(5.03 g/mol)=198.8 mol of reactants$ . The number of reactions that take place is therefore",
+        "text": "The atomic mass of deuterium (${}^{2}H$) is 2.014102 u, while that of tritium (${}^{3}H$) is 3.016049 u, for a total of 5.032151 u per reaction. So a mole of reactants has a mass of 5.03 g, and in 1.00 kg there are $(1000 g)/(5.03 g/mol)=198.8 mol of reactants$. The number of reactions that take place is therefore $(198.8 mol)(6.02\\times {10}^{23} {mol}^{-1})=1.20\\times {10}^{26} reactions.$",
         "inline": []
       },
       "level": "core"
@@ -325,7 +325,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The total energy output is the number of reactions times the energy per reaction:",
+        "text": "The total energy output is the number of reactions times the energy per reaction: $E=(1.20\\times {10}^{26} reactions)(17.59 MeV/reaction)(1.602\\times {10}^{-13} J/MeV) =3. 37\\times {10}^{14} J.$",
         "inline": []
       },
       "level": "core"
@@ -334,7 +334,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "Power is energy per unit time. One year has $3.16×{10}^{7}s$ , so",
+        "text": "Power is energy per unit time. One year has $3.16\\times {10}^{7} s$, so $P = \\frac{E}{t} = \\frac{3.37\\times {10}^{14} J}{3.16\\times {10}^{7} s} = 1.07\\times {10}^{7} W=10.7 MW.$",
         "inline": []
       },
       "level": "core"
@@ -343,7 +343,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "By now we expect nuclear processes to yield large amounts of energy, and we are not disappointed here. The energy output of $3.37×{10}^{14}J$ from fusing 1.00 kg of deuterium and tritium is equivalent to 2.6 million gallons of gasoline and about eight times the energy output of the bomb that destroyed Hiroshima. Yet the average backyard swimming pool has about 6 kg of deuterium in it, so that fuel is plentiful if it can be utilized in a controlled manner. The average power output over a year is more than 10 MW, impressive but a bit small for a commercial power plant. About 32 times this power output would allow generation of 100 MW of electricity, assuming an efficiency of one-third in converting the fusion energy to electrical energy.",
+        "text": "By now we expect nuclear processes to yield large amounts of energy, and we are not disappointed here. The energy output of $3.37\\times {10}^{14} J$ from fusing 1.00 kg of deuterium and tritium is equivalent to 2.6 million gallons of gasoline and about eight times the energy output of the bomb that destroyed Hiroshima. Yet the average backyard swimming pool has about 6 kg of deuterium in it, so that fuel is plentiful if it can be utilized in a controlled manner. The average power output over a year is more than 10 MW, impressive but a bit small for a commercial power plant. About 32 times this power output would allow generation of 100 MW of electricity, assuming an efficiency of one-third in converting the fusion energy to electrical energy.",
         "inline": []
       },
       "level": "core"
@@ -552,7 +552,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In considering potential fusion reactions, what is the advantage of the reaction ${}^{2}H+{}^{3}H→{}^{4}He+n$ over the reaction ${}^{2}H+{}^{2}H→{}^{3}He+n?$",
+        "text": "In considering potential fusion reactions, what is the advantage of the reaction ${}^{2}H+{}^{3}H\\to {}^{4}He+n$ over the reaction ${}^{2}H+{}^{2}H\\to {}^{3}He+n?$",
         "inline": []
       },
       "level": "core",
@@ -573,7 +573,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Give reasons justifying the contention made in the text that energy from the fusion reaction ${}^{2}H+{}^{2}H→{}^{4}He+γ$ is relatively difficult to capture and utilize.",
+        "text": "Give reasons justifying the contention made in the text that energy from the fusion reaction ${}^{2}H+{}^{2}H\\to {}^{4}He+γ$ is relatively difficult to capture and utilize.",
         "inline": []
       },
       "level": "core",
@@ -603,7 +603,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in \\[${}^{1}H+{}^{1}H→{}^{2}H+{e}^{+}+{v}_{e},$\\] \\[${}^{1}H+{}^{2}H→{}^{3}He+γ,$\\] and \\[${}^{3}He+{}^{3}He→{}^{4}He+{}^{1}H+{}^{1}H.$\\] (List the value of each of the conserved quantities before and after each of the reactions.)",
+        "text": "Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in ${}^{1}H+{}^{1}H\\to {}^{2}H+{e}^{+}+{v}_{e},$ ${}^{1}H+{}^{2}H\\to {}^{3}He+γ,$ and ${}^{3}He+{}^{3}He\\to {}^{4}He+{}^{1}H+{}^{1}H.$ (List the value of each of the conserved quantities before and after each of the reactions.)",
         "inline": []
       },
       "level": "core",
@@ -684,7 +684,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that the total energy released in the proton-proton cycle is 26.7 MeV, considering the overall effect in ${}^{1}H+{}^{1}H→{}^{2}H+{e}^{+}+{v}_{e}$ , ${}^{1}H+{}^{2}H→{}^{3}He+γ$ , and ${}^{3}He+{}^{3}He→{}^{4}He+{}^{1}H+{}^{1}H$ and being certain to include the annihilation energy.",
+        "text": "Show that the total energy released in the proton-proton cycle is 26.7 MeV, considering the overall effect in ${}^{1}H+{}^{1}H\\to {}^{2}H+{e}^{+}+{v}_{e}$, ${}^{1}H+{}^{2}H\\to {}^{3}He+γ$, and ${}^{3}He+{}^{3}He\\to {}^{4}He+{}^{1}H+{}^{1}H$ and being certain to include the annihilation energy.",
         "inline": []
       },
       "level": "core",
@@ -717,7 +717,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Verify by listing the number of nucleons, total charge, and electron family number before and after the cycle that these quantities are conserved in the overall proton-proton cycle in $2{e}^{-}+4{}^{1}H→{}^{4}He+{2v}_{e}+6γ$ .",
+        "text": "Verify by listing the number of nucleons, total charge, and electron family number before and after the cycle that these quantities are conserved in the overall proton-proton cycle in $2{e}^{-}+4{}^{1}H\\to {}^{4}He+{2v}_{e}+6γ$.",
         "inline": []
       },
       "level": "core",
@@ -738,7 +738,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium was found in Example Calculating Energy and Power from Fusion . Approximately how many kilograms would be required to supply the annual energy use in the United States?",
+        "text": "The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium was found in Example Calculating Energy and Power from Fusion. Approximately how many kilograms would be required to supply the annual energy use in the United States?",
         "inline": []
       },
       "level": "core",
@@ -771,7 +771,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Tritium is naturally rare, but can be produced by the reaction $n+{}^{2}H→{}^{3}H+γ$ . How much energy in MeV is released in this neutron capture?",
+        "text": "Tritium is naturally rare, but can be produced by the reaction $n+{}^{2}H\\to {}^{3}H+γ$. How much energy in MeV is released in this neutron capture?",
         "inline": []
       },
       "level": "core",
@@ -792,7 +792,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Two fusion reactions mentioned in the text are $n+{}^{3}He→{}^{4}He+γ$ and $n+{}^{1}H→{}^{2}H+γ$ . Both reactions release energy, but the second also creates more fuel. Confirm that the energies produced in the reactions are 20.58 and 2.22 MeV, respectively. Comment on which product nuclide is most tightly bound, ${}^{4}He$ or ${}^{2}H$ .",
+        "text": "Two fusion reactions mentioned in the text are $n+{}^{3}He\\to {}^{4}He+γ$ and $n+{}^{1}H\\to {}^{2}H+γ$. Both reactions release energy, but the second also creates more fuel. Confirm that the energies produced in the reactions are 20.58 and 2.22 MeV, respectively. Comment on which product nuclide is most tightly bound, ${}^{4}He$ or ${}^{2}H$.",
         "inline": []
       },
       "level": "core",
@@ -861,7 +861,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Calculate the number of grams of deuterium in an 80,000-L swimming pool, given deuterium is 0.0150% of natural hydrogen. (b) Find the energy released in joules if this deuterium is fused via the reaction ${}^{2}H+{}^{2}H→{}^{3}He+n$ . (c) Could the neutrons be used to create more energy? (d) Discuss the amount of this type of energy in a swimming pool as compared to that in, say, a gallon of gasoline, also taking into consideration that water is far more abundant.",
+        "text": "(a) Calculate the number of grams of deuterium in an 80,000-L swimming pool, given deuterium is 0.0150% of natural hydrogen. (b) Find the energy released in joules if this deuterium is fused via the reaction ${}^{2}H+{}^{2}H\\to {}^{3}He+n$. (c) Could the neutrons be used to create more energy? (d) Discuss the amount of this type of energy in a swimming pool as compared to that in, say, a gallon of gasoline, also taking into consideration that water is far more abundant.",
         "inline": []
       },
       "level": "core",
@@ -933,7 +933,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The power output of the Sun is $4×{10}^{26}W$ . (a) If 90% of this is supplied by the proton-proton cycle, how many protons are consumed per second? (b) How many neutrinos per second should there be per square meter at the Earth from this process? This huge number is indicative of how rarely a neutrino interacts, since large detectors observe very few per day.",
+        "text": "The power output of the Sun is $4\\times {10}^{26} W$. (a) If 90% of this is supplied by the proton-proton cycle, how many protons are consumed per second? (b) How many neutrinos per second should there be per square meter at the Earth from this process? This huge number is indicative of how rarely a neutrino interacts, since large detectors observe very few per day.",
         "inline": []
       },
       "level": "core",
@@ -972,7 +972,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Another set of reactions that result in the fusing of hydrogen into helium in the Sun and especially in hotter stars is called the carbon cycle. It is ${}^{12}C+{}^{1}H→{}^{13}N+γ,{}^{13}N→{}^{13}C+{e}^{+}+{v}_{e},{}^{13}C+{}^{1}H→{}^{14}N+γ,{}^{14}N+{}^{1}H→{}^{15}O+γ,{}^{15}O→{}^{15}N+{e}^{+}+{v}_{e},{}^{15}N+{}^{1}H→{}^{12}C+{}^{4}He.$ Write down the overall effect of the carbon cycle (as was done for the proton-proton cycle in $2{e}^{-}+4{}^{1}H→{}^{4}He+{2v}_{e}+6γ$ ). Note the number of protons ( ${}^{1}H$ ) required and assume that the positrons ( ${e}^{+}$ ) annihilate electrons to form more $γ$ rays.",
+        "text": "Another set of reactions that result in the fusing of hydrogen into helium in the Sun and especially in hotter stars is called the carbon cycle. It is ${}^{12} C+{}^{1} H \\to {}^{13} N+γ,; {}^{13} N \\to {}^{13} C+{e}^{+}+{v}_{e},; {}^{13} C+{}^{1} H \\to {}^{14} N+γ,; {}^{14} N+{}^{1} H \\to {}^{15} O+γ,; {}^{15} O \\to {}^{15} N+{e}^{+}+{v}_{e},; {}^{15} N+{}^{1} H \\to {}^{12} C+{}^{4} He.$ Write down the overall effect of the carbon cycle (as was done for the proton-proton cycle in $2{e}^{-}+4{}^{1}H\\to {}^{4}He+{2v}_{e}+6γ$). Note the number of protons (${}^{1}H$) required and assume that the positrons (${e}^{+}$) annihilate electrons to form more $γ$ rays.",
         "inline": []
       },
       "level": "core",
@@ -1113,7 +1113,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts The laser system tested for inertial confinement can produce a 100-kJ pulse only 1.00 ns in duration. (a) What is the power output of the laser system during the brief pulse? (b) How many photons are in the pulse, given their wavelength is $1.06 µm$ ? (c) What is the total momentum of all these photons? (d) How does the total photon momentum compare with that of a single 1.00 MeV deuterium nucleus?",
+        "text": "Integrated Concepts The laser system tested for inertial confinement can produce a 100-kJ pulse only 1.00 ns in duration. (a) What is the power output of the laser system during the brief pulse? (b) How many photons are in the pulse, given their wavelength is $1.06 µm$? (c) What is the total momentum of all these photons? (d) How does the total photon momentum compare with that of a single 1.00 MeV deuterium nucleus?",
         "inline": []
       },
       "level": "core",
@@ -1161,7 +1161,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Find the amount of energy given to the ${}^{4}He$ nucleus and to the $γ$ ray in the reaction $n{+}^{3}He{→}^{4}He+γ$ , using the conservation of momentum principle and taking the reactants to be initially at rest. This should confirm the contention that most of the energy goes to the $γ$ ray.",
+        "text": "Integrated Concepts Find the amount of energy given to the ${}^{4}He$ nucleus and to the $γ$ ray in the reaction $n{+}^{3}He{\\to }^{4}He+γ$, using the conservation of momentum principle and taking the reactants to be initially at rest. This should confirm the contention that most of the energy goes to the $γ$ ray.",
         "inline": []
       },
       "level": "core",
@@ -1224,7 +1224,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) Estimate the years that the deuterium fuel in the oceans could supply the energy needs of the world. Assume world energy consumption to be ten times that of the United States which is $8×{10}^{19}$ J/y and that the deuterium in the oceans could be converted to energy with an efficiency of 32%. You must estimate or look up the amount of water in the oceans and take the deuterium content to be 0.015% of natural hydrogen to find the mass of deuterium available. Note that approximate energy yield of deuterium is $3.37×{10}^{14}$ J/kg. (b) Comment on how much time this is by any human measure. (It is not an unreasonable result, only an impressive one.)",
+        "text": "Integrated Concepts (a) Estimate the years that the deuterium fuel in the oceans could supply the energy needs of the world. Assume world energy consumption to be ten times that of the United States which is $8\\times {10}^{19}$ J/y and that the deuterium in the oceans could be converted to energy with an efficiency of 32%. You must estimate or look up the amount of water in the oceans and take the deuterium content to be 0.015% of natural hydrogen to find the mass of deuterium available. Note that approximate energy yield of deuterium is $3.37\\times {10}^{14}$ J/kg. (b) Comment on how much time this is by any human measure. (It is not an unreasonable result, only an impressive one.)",
         "inline": []
       },
       "level": "core",

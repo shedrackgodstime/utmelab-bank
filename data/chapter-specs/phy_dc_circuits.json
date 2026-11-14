@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Circuits and DC Instruments",
   "book_id": "secondary_physics",
-  "part_id": "part-4",
+  "part_id": "part-5",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -117,7 +117,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_electric_current"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -136,32 +138,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "current-electricity",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -181,6 +158,13 @@
         {
           "claim": "Current is used up as it goes round a circuit.",
           "correction": "The same current flows at every point of a series circuit. What is used up is the energy, not the current."
+        },
+        {
+          "claim": "Resistances in parallel add, so $6\\,\\Omega$ and $3\\,\\Omega$ in parallel give $9\\,\\Omega$.",
+          "correction": "Adding the resistances is the rule for a series connection. In parallel the reciprocals add, so $\\frac{1}{R} = \\frac{1}{6} + \\frac{1}{3} = \\frac{1}{2}$ and the combination is $2\\,\\Omega$.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_dc_circuits:trap-3",
+          "signal": "Our own question offers the series answer for the parallel case."
         }
       ],
       "summary": [
@@ -200,23 +184,35 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-97"
+      "worked_from": "exr-97",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Two 3 Ω resistors are connected in series. Find the total resistance.",
+          "answer": "6 Ω",
+          "answer_kind": "expression",
+          "solution": [
+            "In series, resistances add.",
+            "R_s = 3 + 3.",
+            "R_s = 6 Ω."
+          ],
+          "tags": [
+            "series resistors",
+            "resistance"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-3",
@@ -229,7 +225,18 @@
         "Describe what happens to the terminal voltage, current, and power delivered to a load as internal resistance of the voltage source increases (due to aging of batteries, for example).",
         "Explain why it is beneficial to use more than one voltage source connected in parallel."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The terminal voltage of a battery always equals its emf.",
+          "correction": "The terminal voltage is emf minus Ir, where r is the internal resistance. It falls as the current increases.",
+          "signal": "A car battery’s voltage sags when the starter draws a large current."
+        },
+        {
+          "claim": "Internal resistance is negligible in every battery.",
+          "correction": "Real batteries have internal resistance. It causes heating and a drop in terminal voltage, and it grows as the battery ages.",
+          "signal": "It is why a weak battery cannot deliver a large current."
+        }
+      ],
       "summary": [
         "All voltage sources have two fundamental parts—a source of electrical energy that has a characteristic electromotive force (emf), and an internal resistance r.",
         "The emf is the potential difference of a source when no current is flowing.",
@@ -249,7 +256,7 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
+          "topic_slug": "electric-cells",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
@@ -257,13 +264,32 @@
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
           "status": "covered",
           "papers": []
         }
       ],
-      "worked_from": "exr-78"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the emf of a voltage source?",
+          "answer": "The potential difference across the source when no current is flowing.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Every source has an emf and an internal resistance.",
+            "When no current flows, there is no voltage drop across the internal resistance.",
+            "The terminal voltage then equals the emf."
+          ],
+          "tags": [
+            "emf",
+            "terminal voltage"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -272,12 +298,20 @@
       "est_minutes": 12,
       "locator": "CNXML module m42359",
       "objectives": [
-        "Analyze a complex circuit using Kirchhoff’s rules, using the conventions for determining the correct signs of various terms."
+        "Analyze a complex circuit using Kirchhoff’s rules, using the conventions for determining the correct signs of various terms.",
+        "Apply the junction and loop rules to find unknown currents and potential differences in a multi-loop circuit."
       ],
       "misconceptions": [
         {
           "claim": "Putting a resistor in a series circuit changes the current everywhere.",
           "correction": "It does, and that is why a series resistor dims the whole circuit rather than one lamp."
+        },
+        {
+          "claim": "Kirchhoff's loop rule says that the current is the same everywhere round a circuit.",
+          "correction": "That is the junction rule, and it is about current at a node. The loop rule is about potential differences: the sum of the changes in potential round any closed loop is zero.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_dc_circuits:trap-4",
+          "signal": "Our own question offers the junction rule as the answer."
         }
       ],
       "summary": [
@@ -297,23 +331,57 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-37"
+      "worked_from": "exr-37",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 2,
+          "stem": "(a) A junction in a circuit has currents of 3.0 A and 5.0 A entering it and a current $I$ leaving it. Find $I$. (b) A single-loop circuit contains a 12-V battery, a $2.0-Ω$ resistor and a $4.0-Ω$ resistor in series. Find the current and the power dissipated in each resistor. (c) State which Kirchhoff rule you used in each part.",
+          "answer": "(a) 8.0 A (b) 2.0 A; 8.0 W in the $2.0-Ω$ resistor and 16 W in the $4.0-Ω$ resistor (c) junction rule in (a); loop rule and Ohm's law in (b)",
+          "answer_kind": "expression",
+          "solution": [
+            "(a) The junction rule gives $I=3.0+5.0=8.0A$ .",
+            "(b) The loop rule gives $12=I(2.0+4.0)$, so $I=2.0A$ .",
+            "$P_{2Ω}=I^{2}R=(2.0)^{2}(2.0)=8.0W$ and $P_{4Ω}=(2.0)^{2}(4.0)=16W$ .",
+            "The source delivers $P=VI=12(2.0)=24W$, equal to $8.0+16W$ ."
+          ],
+          "tags": [
+            "Kirchhoff rules",
+            "series circuit",
+            "power"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "numeric",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Two loops share a central branch. The left loop contains a 9.0-V source and a $2.0-Ω$ resistor; the right loop contains a 3.0-V source and a $2.0-Ω$ resistor; the shared central branch contains a $4.0-Ω$ resistor. Both sources drive current clockwise in their own loops. Let $I_{1}$ be the current in the left branch (clockwise), $I_{3}$ the current in the right branch (clockwise), and $I_{2}$ the current down through the central branch. (a) Write the junction equation at the top node. (b) Write the loop equations. (c) Solve for the three currents. (d) Check that the power delivered by the sources equals the power dissipated in the resistors.",
+          "answer": "(a) $I_{1}+I_{3}=I_{2}$ (b) $9=2I_{1}+4I_{2}$ and $3=2I_{3}+4I_{2}$ (c) $I_{1}=2.1A$ clockwise, $I_{3}=-0.90A$ (0.90 A counterclockwise), $I_{2}=1.2A$ downward (d) $18.9W=2.7W+16.2W$",
+          "answer_kind": "expression",
+          "solution": [
+            "(a) At the top node, $I_{1}$ and $I_{3}$ enter and $I_{2}$ leaves: $I_{1}+I_{3}=I_{2}$ .",
+            "(b) Left loop: $9-2I_{1}-4I_{2}=0$, so $9=2I_{1}+4I_{2}$. Right loop: $3-2I_{3}-4I_{2}=0$, so $3=2I_{3}+4I_{2}$ .",
+            "(c) Substituting $I_{2}=I_{1}+I_{3}$ gives $9=6I_{1}+4I_{3}$ and $3=4I_{1}+6I_{3}$. Solving, $I_{1}=2.1A$, $I_{3}=-0.90A$, and $I_{2}=1.2A$. The negative sign means the right-loop current is actually counterclockwise.",
+            "(d) The 9-V source delivers $9(2.1)=18.9W$. The 3-V source absorbs $3(0.90)=2.7W$ because current enters its positive terminal. The resistors dissipate $(2.1)^{2}(2.0)+(1.2)^{2}(4.0)+(0.90)^{2}(2.0)=8.82+5.76+1.62=16.2W$. Thus $18.9=2.7+16.2$, so energy is conserved."
+          ],
+          "tags": [
+            "Kirchhoff rules",
+            "two-loop circuit",
+            "power"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-5",
@@ -328,7 +396,18 @@
         "Find the resistance that must be placed in series with a galvanometer to allow it to be used as a voltmeter with a given reading.",
         "Explain why measuring the voltage or current in a circuit can never be exact."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "An ideal voltmeter has zero resistance.",
+          "correction": "An ideal voltmeter has infinite resistance so that it draws negligible current and does not disturb the circuit.",
+          "signal": "A low-resistance voltmeter would change the voltage it is measuring."
+        },
+        {
+          "claim": "An ideal ammeter has infinite resistance.",
+          "correction": "An ideal ammeter has zero resistance so that it does not change the current in the branch.",
+          "signal": "An ammeter is connected in series, so its resistance adds to the circuit."
+        }
+      ],
       "summary": [
         "Voltmeters measure voltage, and ammeters measure current.",
         "A voltmeter is placed in parallel with the voltage source to receive full voltage and must have a large resistance to limit its effect on the circuit.",
@@ -342,23 +421,15 @@
           "subject": "physics",
           "topic_slug": "current-electricity",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -374,7 +445,18 @@
         "Explain why a null measurement device is more accurate than a standard voltmeter or ammeter.",
         "Demonstrate how a Wheatstone bridge can be used to accurately calculate the resistance in a circuit."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A Wheatstone bridge measures resistance by driving current through the galvanometer.",
+          "correction": "It is adjusted until no current flows through the galvanometer. The balance condition gives the unknown resistance.",
+          "signal": "Null means zero current in the meter."
+        },
+        {
+          "claim": "Null measurements are less accurate because no current flows.",
+          "correction": "They are more accurate because the meter draws no current and does not load the circuit. The balance is detected at zero deflection.",
+          "signal": "No loading means no measurement error from the meter."
+        }
+      ],
       "summary": [
         "Null measurement techniques achieve greater accuracy by balancing a circuit so that no current flows through the measuring device.",
         "One such device, for determining voltage, is a potentiometer.",
@@ -392,19 +474,11 @@
           "papers": []
         },
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
@@ -423,7 +497,18 @@
         "Explain how a timing circuit works and list some applications.",
         "Calculate the necessary speed of a strobe flash needed to “stop” the movement of an object over a particular length."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A capacitor in an RC circuit charges instantly.",
+          "correction": "It charges exponentially with time constant τ = RC. The voltage approaches the supply gradually.",
+          "signal": "The larger R or C, the slower the charging."
+        },
+        {
+          "claim": "The time constant is the time for a capacitor to charge completely.",
+          "correction": "It is the time to reach about 63% of the final voltage. Complete charging takes several time constants.",
+          "signal": "After 5τ the capacitor is more than 99% charged."
+        }
+      ],
       "summary": [
         "An RC circuit is one that has both a resistor and a capacitor.",
         "The time constant τ for an RC circuit is τ=RC.",
@@ -435,32 +520,235 @@
         {
           "exam": "JAMB",
           "subject": "physics",
-          "topic_slug": "current-electricity",
+          "topic_slug": "capacitors",
           "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "simple-a-c-circuits",
-          "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
           "exam": "WAEC",
           "subject": "physics",
-          "topic_slug": "waec-simple-a-c-circuits",
+          "topic_slug": "waec-electric-field",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-43"
+      "worked_from": "exr-43",
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "numeric",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Find the time constant of a 2 kΩ resistor in series with a 5 μF capacitor.",
+          "answer": "0.01 s",
+          "answer_kind": "expression",
+          "solution": [
+            "The time constant is τ = RC.",
+            "R = 2 × 10³ Ω and C = 5 × 10⁻⁶ F.",
+            "τ = (2 × 10³)(5 × 10⁻⁶) = 0.01 s."
+          ],
+          "tags": [
+            "time constant",
+            "rc circuit"
+          ]
+        }
+      ]
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$R_s = R_1 + R_2 + \\cdots$",
+      "caption": {
+        "text": "Resistors in series",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The total resistance is the sum of the individual resistances.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42356/index.cnxml",
+        "locator": "CNXML module m42356, section “Resistors in Series and Parallel”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\cdots$",
+      "caption": {
+        "text": "Resistors in parallel",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The reciprocal of the total resistance is the sum of the reciprocals.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42356/index.cnxml",
+        "locator": "CNXML module m42356, section “Resistors in Series and Parallel”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$V_{\\mathrm{terminal}} = \\mathrm{emf} - Ir$",
+      "caption": {
+        "text": "Terminal voltage",
+        "inline": []
+      },
+      "conditions": {
+        "text": "r is the internal resistance of the source and I is the current drawn.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42357/index.cnxml",
+        "locator": "CNXML module m42357, section “Electromotive Force”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$\\sum I_{\\mathrm{in}} = \\sum I_{\\mathrm{out}}$",
+      "caption": {
+        "text": "Kirchhoff’s junction rule",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Charge is conserved at a junction.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42359/index.cnxml",
+        "locator": "CNXML module m42359, section “Kirchhoff’s Rules”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$\\sum \\Delta V = 0$",
+      "caption": {
+        "text": "Kirchhoff’s loop rule",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The algebraic sum of potential changes around any closed loop is zero.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42359/index.cnxml",
+        "locator": "CNXML module m42359, section “Kirchhoff’s Rules”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$R_V = R_g + R_{\\mathrm{series}}$",
+      "caption": {
+        "text": "Voltmeter multiplier",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A galvanometer of resistance R_g is placed in series with a large resistance.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42360/index.cnxml",
+        "locator": "CNXML module m42360, section “DC Voltmeters and Ammeters”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$R_{\\mathrm{shunt}} = \\frac{I_gR_g}{I - I_g}$",
+      "caption": {
+        "text": "Ammeter shunt",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A small resistance in parallel lets most of the current bypass the galvanometer.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42360/index.cnxml",
+        "locator": "CNXML module m42360, section “DC Voltmeters and Ammeters”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$\\frac{R_1}{R_2} = \\frac{R_3}{R_4}$",
+      "caption": {
+        "text": "Balanced Wheatstone bridge",
+        "inline": []
+      },
+      "conditions": {
+        "text": "At balance no current flows through the galvanometer.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42362/index.cnxml",
+        "locator": "CNXML module m42362, section “Null Measurements”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-9",
+      "expression": "$\\tau = RC$",
+      "caption": {
+        "text": "RC time constant",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The time for a capacitor in an RC circuit to charge to about 63% of its final voltage.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42363/index.cnxml",
+        "locator": "CNXML module m42363, section “DC Circuits Containing Resistors and Capacitors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-10",
+      "expression": "$V_C = \\mathrm{emf}\\left(1 - e^{-t/RC}\\right)$",
+      "caption": {
+        "text": "Charging a capacitor",
+        "inline": []
+      },
+      "conditions": {
+        "text": "For an initially uncharged capacitor charging through a resistor.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42363/index.cnxml",
+        "locator": "CNXML module m42363, section “DC Circuits Containing Resistors and Capacitors”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1058,76 +1346,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Current is used up as it goes round a circuit.",
-      "correction": "The same current flows at every point of a series circuit. What is used up is the energy, not the current.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Putting a resistor in a series circuit changes the current everywhere.",
-      "correction": "It does, and that is why a series resistor dims the whole circuit rather than one lamp.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "Resistances in parallel add, so $6\\,\\Omega$ and $3\\,\\Omega$ in parallel give $9\\,\\Omega$.",
-      "correction": "Adding the resistances is the rule for a series connection. In parallel the reciprocals add, so $\\frac{1}{R} = \\frac{1}{6} + \\frac{1}{3} = \\frac{1}{2}$ and the combination is $2\\,\\Omega$.",
-      "signal": "Our own question offers the series answer for the parallel case.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "Kirchhoff's loop rule says that the current is the same everywhere round a circuit.",
-      "correction": "That is the junction rule, and it is about current at a node. The loop rule is about potential differences: the sum of the changes in potential round any closed loop is zero.",
-      "signal": "Our own question offers the junction rule as the answer.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-4",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1273,6 +1492,64 @@
       "explanation": "The bridge is balanced, so the potential difference across the galvanometer is zero and no current flows through it.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "An ideal voltmeter should have",
+      "options": [
+        {
+          "id": "a",
+          "text": "zero resistance"
+        },
+        {
+          "id": "b",
+          "text": "infinite resistance"
+        },
+        {
+          "id": "c",
+          "text": "the same resistance as the circuit"
+        },
+        {
+          "id": "d",
+          "text": "a resistance equal to the galvanometer’s"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A voltmeter is connected in parallel. Infinite resistance means it draws negligible current and does not alter the voltage being measured.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-7",
+      "stem": "A 2 kΩ resistor is connected in series with a 5 μF capacitor. Find the time constant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.01 s"
+        },
+        {
+          "id": "b",
+          "text": "0.1 s"
+        },
+        {
+          "id": "c",
+          "text": "10 s"
+        },
+        {
+          "id": "d",
+          "text": "100 s"
+        }
+      ],
+      "answer": "a",
+      "explanation": "τ = RC = (2 × 10³)(5 × 10⁻⁶) = 0.01 s.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1283,5 +1560,106 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Circuits and DC Instruments', modules m42354, m42356, m42357, m42359, m42360, m42362, m42363",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 21,
+  "exercise_fixes": {
+    "sec-2:exr-101": {
+      "drop": true
+    },
+    "sec-4:exr-84": {
+      "drop": true
+    },
+    "sec-4:exr-92": {
+      "drop": true
+    },
+    "sec-4:exr-97": {
+      "drop": true
+    },
+    "sec-4:exr-108": {
+      "drop": true
+    },
+    "sec-5:exr-66": {
+      "stem": "Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an internal resistance of $0.100Ω$ by placing a $1.00-kΩ$ voltmeter across its terminals. (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio."
+    },
+    "sec-2:exr-148": {
+      "answer": "(a) 786 Ω (largest, all three in series) (b) 20.3 Ω (smallest, all three in parallel)"
+    },
+    "sec-5:exr-77": {
+      "stem": "A $0.0200-Ω$ ammeter is placed in series with a $10.00-Ω$ resistor in a circuit. (a) Calculate the resistance of the combination. (b) If the voltage is kept the same across the combination as it was across the $10.00-Ω$ resistor alone, what is the percent decrease in current? (c) If the current is kept the same through the combination as it was through the $10.00-Ω$ resistor alone, what is the percent increase in voltage? (d) Are the changes in (b) and (c) significant? Discuss.",
+      "answer": "(a) 10.02 Ω (b) 0.20% decrease (c) 0.20% increase (d) Not significant for most purposes.",
+      "solution": [
+        "(a) $R=10.00+0.0200=10.02Ω$ .",
+        "(b) At fixed voltage, $I∝1/R$, so the fractional decrease is $0.0200/10.02=2.0×10^{-3}$, or 0.20%.",
+        "(c) At fixed current, $V∝R$, so the fractional increase is also 0.20%.",
+        "(d) A 0.2% change is smaller than the tolerance of most components and meters, so it is not significant in ordinary work."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the instruction to draw a circuit diagram is removed so every part can be answered from the text"
+    },
+    "sec-7:exr-52": {
+      "stem": "An uncharged capacitor $C=1.0mF$ is connected in series with a resistor $R_{1}=1.2kΩ$ and a 24-V source, and the switch is closed. (a) What is the current at the instant the switch is closed? (b) How long does it take for the capacitor to become 99% charged? The capacitor is then disconnected and connected in series with a $1.0-kΩ$ resistor. (c) What is the current at the instant this second circuit is closed? (d) How long does it take for the capacitor voltage to fall to 3.24 V?",
+      "answer": "(a) 20 mA (b) 5.5 s (c) 24 mA (d) 2.0 s",
+      "solution": [
+        "(a) At $t=0$ the capacitor has no voltage, so $I_{0}=E/R_{1}=24/1200=0.020A$ .",
+        "(b) $τ=R_{1}C=(1200)(1.0×10^{-3})=1.2s$. For 99% charge, $t=-τ\\ln(0.01)=1.2(4.605)=5.5s$ .",
+        "(c) $I_{0}=E/R_{2}=24/1000=0.024A$ .",
+        "(d) $τ=R_{2}C=1.0s$ and $V/V_{0}=3.24/24=0.135$, so $t=-τ\\ln(0.135)=2.0s$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the multi-part stem is rewritten so each part is stated explicitly"
+    },
+    "sec-2:exr-156": {
+      "drop": true
+    },
+    "sec-4:exr-55": {
+      "drop": true
+    },
+    "sec-4:exr-66": {
+      "drop": true
+    },
+    "sec-7:exr-96": {
+      "drop": true
+    },
+    "sec-2:exr-160": {
+      "stem": "A 120 V source supplies a 75.0 W light bulb through wires whose total resistance is $0.400\\ \\Omega$. When a motor is turned on, the total current through the wires is 15.0 A. Assume the bulb's resistance does not change. (a) What power does the bulb dissipate while the motor is running? (b) What power is consumed by the motor?",
+      "solution": [
+        "The bulb's resistance is $R=V^{2}/P=(120\\ \\mathrm{V})^{2}/(75.0\\ \\mathrm{W})=192\\ \\Omega$.",
+        "The wires drop $IR=(15.0\\ \\mathrm{A})(0.400\\ \\Omega)=6.0\\ \\mathrm{V}$, so the bulb sees $120-6.0=114\\ \\mathrm{V}$.",
+        "(a) $P_{\\mathrm{bulb}}=V^{2}/R=(114\\ \\mathrm{V})^{2}/(192\\ \\Omega)=67.7\\ \\mathrm{W}$.",
+        "(b) The source delivers $(120\\ \\mathrm{V})(15.0\\ \\mathrm{A})=1.80\\ \\mathrm{kW}$. The wires dissipate $I^{2}R=(15.0)^{2}(0.400)=90\\ \\mathrm{W}$, and the bulb takes 67.7 W, so the motor takes $1800-90-67.7=1.64\\times10^{3}\\ \\mathrm{W}=1.64\\ \\mathrm{kW}$."
+      ]
+    }
+  },
+  "worked_fixes": {
+    "sec-2:we-ex-19": {
+      "answer": "(a) 20.0 Ω (b) 0.600 A (c) 0.600 V, 3.60 V, 7.80 V (d) 0.360 W, 2.16 W, 4.68 W (e) 7.20 W",
+      "steps": [
+        "(a) The resistors are in series: $R_{eq}=1.00+6.00+13.0=20.0Ω$ .",
+        "(b) $I=V/R_{eq}=12.0/20.0=0.600A$ .",
+        "(c) $V_{1}=IR_{1}=0.600V$, $V_{2}=3.60V$, and $V_{3}=7.80V$; their sum is 12.0 V.",
+        "(d) $P_{1}=I^{2}R_{1}=0.360W$, $P_{2}=2.16W$, and $P_{3}=4.68W$ .",
+        "(e) $P_{source}=VI=(12.0)(0.600)=7.20W$, equal to $0.360+2.16+4.68=7.20W$ ."
+      ]
+    },
+    "sec-2:we-ex-72": {
+      "statement": "Calculating Resistance, Current, Voltage Drop, and Power: A Combination Circuit",
+      "answer": "(a) 5.11 Ω (b) 2.35 V (c) 1.61 A (d) 15.5 W",
+      "steps": [
+        "The same resistors are used: $R_{1}=1.00Ω$, $R_{2}=6.00Ω$, $R_{3}=13.0Ω$, and $V=12.0V$. Now $R_{2}$ and $R_{3}$ are in parallel, and their combination is in series with $R_{1}$.",
+        "(a) $R_{23}=\\frac{(6.00)(13.0)}{6.00+13.0}=4.11Ω$, so $R_{eq}=1.00+4.11=5.11Ω$ .",
+        "(b) $I=12.0/5.11=2.35A$, so the drop across $R_{1}$ is $V_{1}=(2.35)(1.00)=2.35V$ .",
+        "(c) The parallel pair has $12.0-2.35=9.65V$ across it, so $I_{2}=9.65/6.00=1.61A$ .",
+        "(d) $P_{2}=I_{2}^{2}R_{2}=(1.61)^{2}(6.00)=15.5W$ ."
+      ]
+    },
+    "sec-4:we-ex-17": {
+      "statement": "Calculating Current: Using Kirchhoff's Rules",
+      "answer": "$I_{1}=2.4A$ clockwise, $I_{3}=0.60A$ counterclockwise, $I_{2}=1.8A$ downward",
+      "steps": [
+        "The circuit has two loops sharing a central branch. The left loop contains a 12-V source and a $2.0-Ω$ resistor; the right loop contains a 6.0-V source and a $2.0-Ω$ resistor; the shared branch contains a $4.0-Ω$ resistor.",
+        "Let $I_{1}$ flow clockwise in the left loop, $I_{3}$ clockwise in the right loop, and $I_{2}$ downward in the shared branch. The junction rule gives $I_{1}+I_{3}=I_{2}$ .",
+        "Left loop: $12-2.0I_{1}-4.0I_{2}=0$. Right loop: $6-2.0I_{3}-4.0I_{2}=0$ .",
+        "Substituting $I_{2}=I_{1}+I_{3}$ gives $12=6I_{1}+4I_{3}$ and $6=4I_{1}+6I_{3}$. Solving, $I_{1}=2.4A$, $I_{3}=-0.60A$, and $I_{2}=1.8A$. The negative sign means the right-loop current is counterclockwise.",
+        "Check: the 12-V source delivers $12(2.4)=28.8W$; the 6-V source absorbs $6(0.60)=3.6W$; the resistors dissipate $11.52+0.72+12.96=25.2W$, and $28.8=3.6+25.2$ ."
+      ]
+    }
+  }
 }

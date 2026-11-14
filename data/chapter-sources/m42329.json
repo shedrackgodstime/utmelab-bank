@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "Van de Graaff generators (or Van de Graaffs) are not only spectacular devices used to demonstrate high voltage due to static electricity—they are also used for serious research. The first was built by Robert Van de Graaff in 1931 (based on original suggestions by Lord Kelvin) for use in nuclear physics research. shows a schematic of a large research version. Van de Graaffs utilize both smooth and pointed surfaces, and conductors and insulators to generate large static charges and, hence, large voltages.",
+        "text": "Van de Graaff generators (or Van de Graaffs) are not only spectacular devices used to demonstrate high voltage due to static electricity—they are also used for serious research. The first was built by Robert Van de Graaff in 1931 (based on original suggestions by Lord Kelvin) for use in nuclear physics research. The figure shows a schematic of a large research version. Van de Graaffs utilize both smooth and pointed surfaces, and conductors and insulators to generate large static charges and, hence, large voltages.",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Most copy machines use an electrostatic process called xerography —a word coined from the Greek words *xeros* for dry and *graphos* for writing. The heart of the process is shown in simplified form in .",
+        "text": "Most copy machines use an electrostatic process called xerography —a word coined from the Greek words *xeros* for dry and *graphos* for writing. The heart of the process is shown in simplified form in the figure.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "A selenium-coated aluminum drum is sprayed with positive charge from points on a device called a corotron. Selenium is a substance with an interesting property—it is a photoconductor . That is, selenium is an insulator when in the dark and a conductor when exposed to light.",
+        "text": "A selenium-coated aluminum drum is sprayed with positive charge from points on a device called a corotron. Selenium is a substance with an interesting property—it is a photoconductor. That is, selenium is an insulator when in the dark and a conductor when exposed to light.",
         "inline": []
       },
       "level": "core"
@@ -156,7 +156,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Laser printers use the xerographic process to make high-quality images on paper, employing a laser to produce an image on the photoconducting drum as shown in . In its most common application, the laser printer receives output from a computer, and it can achieve high-quality output because of the precision with which laser light can be controlled. Many laser printers do significant information processing, such as making sophisticated letters or fonts, and may contain a computer more powerful than the one giving them the raw data to be printed.",
+        "text": "Laser printers use the xerographic process to make high-quality images on paper, employing a laser to produce an image on the photoconducting drum as shown in the figure. In its most common application, the laser printer receives output from a computer, and it can achieve high-quality output because of the precision with which laser light can be controlled. Many laser printers do significant information processing, such as making sophisticated letters or fonts, and may contain a computer more powerful than the one giving them the raw data to be printed.",
         "inline": []
       },
       "level": "core"
@@ -187,7 +187,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The ink jet printer , commonly used to print computer-generated text and graphics, also employs electrostatics. A nozzle makes a fine spray of tiny ink droplets, which are then given an electrostatic charge. (See .)",
+        "text": "The ink jet printer, commonly used to print computer-generated text and graphics, also employs electrostatics. A nozzle makes a fine spray of tiny ink droplets, which are then given an electrostatic charge. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -236,7 +236,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Another important application of electrostatics is found in air cleaners, both large and small. The electrostatic part of the process places excess (usually positive) charge on smoke, dust, pollen, and other particles in the air and then passes the air through an oppositely charged grid that attracts and retains the charged particles. (See .)",
+        "text": "Another important application of electrostatics is found in air cleaners, both large and small. The electrostatic part of the process places excess (usually positive) charge on smoke, dust, pollen, and other particles in the air and then passes the air through an oppositely charged grid that attracts and retains the charged particles. (See the figure.)",
         "inline": []
       },
       "level": "core"
@@ -276,7 +276,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The Integrated Concepts exercises for this module involve concepts such as electric charges, electric fields, and several other topics. Physics is most interesting when applied to general situations involving more than a narrow set of physical principles. The electric field exerts force on charges, for example, and hence the relevance of Dynamics: Force and Newton’s Laws of Motion . The following topics are involved in some or all of the problems labeled “Integrated Concepts”: Kinematics; Two-Dimensional Kinematics; Dynamics: Force and Newton’s Laws of Motion; Uniform Circular Motion and Gravitation; Statics and Torque; Fluid Statics",
+        "text": "The Integrated Concepts exercises for this module involve concepts such as electric charges, electric fields, and several other topics. Physics is most interesting when applied to general situations involving more than a narrow set of physical principles. The electric field exerts force on charges, for example, and hence the relevance of Dynamics: Force and Newton’s Laws of Motion. The following topics are involved in some or all of the problems labeled “Integrated Concepts”: Kinematics; Two-Dimensional Kinematics; Dynamics: Force and Newton’s Laws of Motion; Uniform Circular Motion and Gravitation; Statics and Torque; Fluid Statics",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "If steps are not taken to ground a gasoline pump, static electricity can be placed on gasoline when filling your car’s tank. Suppose a tiny drop of gasoline has a mass of $4.00×{10}^{–15}kg$ and is given a positive charge of $3.20×{10}^{–19}C$ . (a) Find the weight of the drop. (b) Calculate the electric force on the drop if there is an upward electric field of strength $3.00×{10}^{5}N/C$ due to other static electricity in the vicinity. (c) Calculate the drop’s acceleration.",
+        "text": "If steps are not taken to ground a gasoline pump, static electricity can be placed on gasoline when filling your car’s tank. Suppose a tiny drop of gasoline has a mass of $4.00\\times {10}^{–15} kg$ and is given a positive charge of $3.20\\times {10}^{–19} C$. (a) Find the weight of the drop. (b) Calculate the electric force on the drop if there is an upward electric field of strength $3.00\\times {10}^{5} N/C$ due to other static electricity in the vicinity. (c) Calculate the drop’s acceleration.",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "To solve an integrated concept problem, we must first identify the physical principles involved and identify the chapters in which they are found. Part (a) of this example asks for weight. This is a topic of dynamics and is defined in Dynamics: Force and Newton’s Laws of Motion . Part (b) deals with electric force on a charge, a topic of Electric Charge and Electric Field . Part (c) asks for acceleration, knowing forces and mass. These are part of Newton’s laws, also found in Dynamics: Force and Newton’s Laws of Motion .",
+        "text": "To solve an integrated concept problem, we must first identify the physical principles involved and identify the chapters in which they are found. Part (a) of this example asks for weight. This is a topic of dynamics and is defined in Dynamics: Force and Newton’s Laws of Motion. Part (b) deals with electric force on a charge, a topic of Electric Charge and Electric Field. Part (c) asks for acceleration, knowing forces and mass. These are part of Newton’s laws, also found in Dynamics: Force and Newton’s Laws of Motion.",
         "inline": []
       },
       "level": "core"
@@ -336,7 +336,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Weight is mass times the acceleration due to gravity, as first expressed in",
+        "text": "Weight is mass times the acceleration due to gravity, as first expressed in $w=mg.$",
         "inline": []
       },
       "level": "core"
@@ -345,7 +345,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "Entering the given mass and the average acceleration due to gravity yields",
+        "text": "Entering the given mass and the average acceleration due to gravity yields $w=(4.00\\times {10}^{-15} kg)(9.80 {m/s}^{2})=3.92\\times {10}^{-14} N.$",
         "inline": []
       },
       "level": "core"
@@ -363,7 +363,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The force an electric field exerts on a charge is given by rearranging the following equation:",
+        "text": "The force an electric field exerts on a charge is given by rearranging the following equation: $F=qE.$",
         "inline": []
       },
       "level": "core"
@@ -372,7 +372,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Here we are given the charge ( $3.20×{10}^{–19}C$ is twice the fundamental unit of charge) and the electric field strength, and so the electric force is found to be",
+        "text": "Here we are given the charge ($3.20\\times {10}^{–19} C$ is twice the fundamental unit of charge) and the electric field strength, and so the electric force is found to be $F=(3.20\\times {10}^{-19} C)(3.00\\times {10}^{5} N/C)=9.60\\times {10}^{-14} N.$",
         "inline": []
       },
       "level": "core"
@@ -390,7 +390,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "The acceleration can be found using Newton’s second law, provided we can identify all of the external forces acting on the drop. We assume only the drop’s weight and the electric force are significant. Since the drop has a positive charge and the electric field is given to be upward, the electric force is upward. We thus have a one-dimensional (vertical direction) problem, and we can state Newton’s second law as",
+        "text": "The acceleration can be found using Newton’s second law, provided we can identify all of the external forces acting on the drop. We assume only the drop’s weight and the electric force are significant. Since the drop has a positive charge and the electric field is given to be upward, the electric force is upward. We thus have a one-dimensional (vertical direction) problem, and we can state Newton’s second law as $a=\\frac{{F}_{net}}{m}.$",
         "inline": []
       },
       "level": "core"
@@ -399,7 +399,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "where ${F}_{net}=F-w$ . Entering this and the known values into the expression for Newton’s second law yields",
+        "text": "where ${F}_{net}=F-w$. Entering this and the known values into the expression for Newton’s second law yields $a = \\frac{F-w}{m} = \\frac{9.60\\times {10}^{-14} N-3.92\\times {10}^{-14} N}{4.00\\times {10}^{-15} kg} = 14.2 {m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -463,7 +463,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the electric field 5.00 m from the center of the terminal of a Van de Graaff with a 3.00 mC charge, noting that the field is equivalent to that of a point charge at the center of the terminal? (b) At this distance, what force does the field exert on a $2.00μC$ charge on the Van de Graaff’s belt?",
+        "text": "(a) What is the electric field 5.00 m from the center of the terminal of a Van de Graaff with a 3.00 mC charge, noting that the field is equivalent to that of a point charge at the center of the terminal? (b) At this distance, what force does the field exert on a $2.00 μC$ charge on the Van de Graaff’s belt?",
         "inline": []
       },
       "level": "core",
@@ -611,7 +611,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Point charges of $25.0μC$ and $45.0μC$ are placed 0.500 m apart. (a) At what point along the line between them is the electric field zero? (b) What is the electric field halfway between them?",
+        "text": "Point charges of $25.0 μC$ and $45.0 μC$ are placed 0.500 m apart. (a) At what point along the line between them is the electric field zero? (b) What is the electric field halfway between them?",
         "inline": []
       },
       "level": "core",
@@ -632,7 +632,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "What can you say about two charges ${q}_{1}$ and ${q}_{2}$ , if the electric field one-fourth of the way from ${q}_{1}$ to ${q}_{2}$ is zero?",
+        "text": "What can you say about two charges ${q}_{1}$ and ${q}_{2}$, if the electric field one-fourth of the way from ${q}_{1}$ to ${q}_{2}$ is zero?",
         "inline": []
       },
       "level": "core",
@@ -665,7 +665,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts Calculate the angular velocity $ω$ of an electron orbiting a proton in the hydrogen atom, given the radius of the orbit is $0.530×{10}^{–10}m$ . You may assume that the proton is stationary and the centripetal force is supplied by Coulomb attraction.",
+        "text": "Integrated Concepts Calculate the angular velocity $ω$ of an electron orbiting a proton in the hydrogen atom, given the radius of the orbit is $0.530\\times {10}^{–10} m$. You may assume that the proton is stationary and the centripetal force is supplied by Coulomb attraction.",
         "inline": []
       },
       "level": "core",
@@ -686,7 +686,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts An electron has an initial velocity of $5.00×{10}^{6}m/s$ in a uniform $2.00×{10}^{5}N/C$ strength electric field. The field accelerates the electron in the direction opposite to its initial velocity. (a) What is the direction of the electric field? (b) How far does the electron travel before coming to rest? (c) How long does it take the electron to come to rest? (d) What is the electron’s velocity when it returns to its starting point?",
+        "text": "Integrated Concepts An electron has an initial velocity of $5.00\\times {10}^{6} m/s$ in a uniform $2.00\\times {10}^{5} N/C$ strength electric field. The field accelerates the electron in the direction opposite to its initial velocity. (a) What is the direction of the electric field? (b) How far does the electron travel before coming to rest? (c) How long does it take the electron to come to rest? (d) What is the electron’s velocity when it returns to its starting point?",
         "inline": []
       },
       "level": "core",
@@ -707,7 +707,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts The practical limit to an electric field in air is about $3.00×{10}^{6}N/C$ . Above this strength, sparking takes place because air begins to ionize and charges flow, reducing the field. (a) Calculate the distance a free proton must travel in this field to reach $3.00%$ of the speed of light, starting from rest. (b) Is this practical in air, or must it occur in a vacuum?",
+        "text": "Integrated Concepts The practical limit to an electric field in air is about $3.00\\times {10}^{6} N/C$. Above this strength, sparking takes place because air begins to ionize and charges flow, reducing the field. (a) Calculate the distance a free proton must travel in this field to reach $3.00%$ of the speed of light, starting from rest. (b) Is this practical in air, or must it occur in a vacuum?",
         "inline": []
       },
       "level": "core",
@@ -762,7 +762,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts shows an electron passing between two charged metal plates that create an 100 N/C vertical electric field perpendicular to the electron’s original horizontal velocity. (These can be used to change the electron’s direction, such as in an oscilloscope.) The initial speed of the electron is $3.00×{10}^{6}m/s$ , and the horizontal distance it travels in the uniform field is 4.00 cm. (a) What is its vertical deflection? (b) What is the vertical component of its final velocity? (c) At what angle does it exit? Neglect any edge effects.",
+        "text": "Integrated Concepts the figure shows an electron passing between two charged metal plates that create an 100 N/C vertical electric field perpendicular to the electron’s original horizontal velocity. (These can be used to change the electron’s direction, such as in an oscilloscope.) The initial speed of the electron is $3.00\\times {10}^{6} m/s$, and the horizontal distance it travels in the uniform field is 4.00 cm. (a) What is its vertical deflection? (b) What is the vertical component of its final velocity? (c) At what angle does it exit? Neglect any edge effects.",
         "inline": []
       },
       "level": "core",
@@ -830,7 +830,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Integrated Concepts (a) In , four equal charges $q$ lie on the corners of a square. A fifth charge $Q$ is on a mass $m$ directly above the center of the square, at a height equal to the length $d$ of one side of the square. Determine the magnitude of $q$ in terms of $Q$ , $m$ , and $d$ , if the Coulomb force is to equal the weight of $m$ . (b) Is this equilibrium stable or unstable? Discuss. Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.",
+        "text": "Integrated Concepts (a) In the figure, four equal charges $q$ lie on the corners of a square. A fifth charge $Q$ is on a mass $m$ directly above the center of the square, at a height equal to the length $d$ of one side of the square. Determine the magnitude of $q$ in terms of $Q$, $m$, and $d$, if the Coulomb force is to equal the weight of $m$. (b) Is this equilibrium stable or unstable? Discuss.",
         "inline": []
       },
       "level": "core",
@@ -1014,7 +1014,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking A frictionless circular track with a diameter of 4.00 m has two spheres of 10.0 kg each anchored very near it. The track is oriented with a diameter along the *x* -axis. The anchored spheres are just outside the track. One of the anchored spheres is just left of the origin at a distance of $1.00×{10}^{-15}m$ from it, and the other is on the *x* -axis just right of the track at a distance of $1.00×{10}^{-15}m$ past $(4,0)$ . Each sphere carries a charge of $2.00×{10}^{-9}C$ . (Note: The slight distance from the track is so the particles cannot collide, and does not enter into the calculations for three significant figures.) (a) A third sphere has a mass of 10.00 kg and carries a charge of $-1.00×{10}^{-9}C$ . It is free to move on the track. It is initially placed an equal length from the two anchored spheres at $(2.00,2.00)$ . What is the total force on the third sphere? (Be certain to include gravity between the spheres.) (b) Will the third sphere move? (c) Label the first two spheres A and B, and the movable sphere C. Now start sphere C at $(1.00,2.00)$ . What are the forces on sphere C? (d) Will sphere C now move? (e) If it does, where will it stop moving and reverse course? If it does not move, you may skip this part. (f) How many equilibrium points are there on the track at which the movable sphere will remain stationary? Where are they?",
+        "text": "Critical Thinking A frictionless circular track with a diameter of 4.00 m has two spheres of 10.0 kg each anchored very near it. The track is oriented with a diameter along the *x* -axis. The anchored spheres are just outside the track. One of the anchored spheres is just left of the origin at a distance of $1.00\\times {10}^{-15}m$ from it, and the other is on the *x* -axis just right of the track at a distance of $1.00\\times {10}^{-15}m$ past $(4,0)$. Each sphere carries a charge of $2.00\\times {10}^{-9}C$. (Note: The slight distance from the track is so the particles cannot collide, and does not enter into the calculations for three significant figures.) (a) A third sphere has a mass of 10.00 kg and carries a charge of $-1.00\\times {10}^{-9}C$. It is free to move on the track. It is initially placed an equal length from the two anchored spheres at $(2.00,2.00)$. What is the total force on the third sphere? (Be certain to include gravity between the spheres.) (b) Will the third sphere move? (c) Label the first two spheres A and B, and the movable sphere C. Now start sphere C at $(1.00,2.00)$. What are the forces on sphere C? (d) Will sphere C now move? (e) If it does, where will it stop moving and reverse course? If it does not move, you may skip this part. (f) How many equilibrium points are there on the track at which the movable sphere will remain stationary? Where are they?",
         "inline": []
       },
       "level": "core",

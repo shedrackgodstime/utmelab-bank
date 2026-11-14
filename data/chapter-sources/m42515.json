@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "Light passing through a single slit forms a diffraction pattern somewhat different from those formed by double slits or diffraction gratings. shows a single slit diffraction pattern. Note that the central maximum is larger than those on either side, and that the intensity decreases rapidly on either side. In contrast, a diffraction grating produces evenly spaced lines that dim slowly on either side of center.",
+        "text": "Light passing through a single slit forms a diffraction pattern somewhat different from those formed by double slits or diffraction gratings. The figure shows a single slit diffraction pattern. Note that the central maximum is larger than those on either side, and that the intensity decreases rapidly on either side. In contrast, a diffraction grating produces evenly spaced lines that dim slowly on either side of center.",
         "inline": []
       },
       "level": "core"
@@ -53,7 +53,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The analysis of single slit diffraction is illustrated in . Here we consider light coming from different parts of the *same* slit. According to Huygens’s principle, every part of the wavefront in the slit emits wavelets. These are like rays that start out in phase and head in all directions. (Each ray is perpendicular to the wavefront of a wavelet.) Assuming the screen is very far away compared with the size of the slit, rays heading toward a common destination are nearly parallel. When they travel straight ahead, as in (a), they remain in phase, and a central maximum is obtained. However, when rays travel at an angle $θ$ relative to the original direction of the beam, each travels a different distance to a common location, and they can arrive in or out of phase. In (b), the ray from the bottom travels a distance of one wavelength $λ$ farther than the ray from the top. Thus a ray from the center travels a distance $λ/2$ farther than the one on the left, arrives out of phase, and interferes destructively. A ray from slightly above the center and one from slightly above the bottom will also cancel one another. In fact, each ray from the slit will have another to interfere destructively, and a minimum in intensity will occur at this angle. There will be another minimum at the same angle to the right of the incident direction of the light.",
+        "text": "The analysis of single slit diffraction is illustrated in the figure. Here we consider light coming from different parts of the *same* slit. According to Huygens’s principle, every part of the wavefront in the slit emits wavelets. These are like rays that start out in phase and head in all directions. (Each ray is perpendicular to the wavefront of a wavelet.) Assuming the screen is very far away compared with the size of the slit, rays heading toward a common destination are nearly parallel. When they travel straight ahead, as in the figure (a), they remain in phase, and a central maximum is obtained. However, when rays travel at an angle $θ$ relative to the original direction of the beam, each travels a different distance to a common location, and they can arrive in or out of phase. In the figure (b), the ray from the bottom travels a distance of one wavelength $λ$ farther than the ray from the top. Thus a ray from the center travels a distance $λ/2$ farther than the one on the left, arrives out of phase, and interferes destructively. A ray from slightly above the center and one from slightly above the bottom will also cancel one another. In fact, each ray from the slit will have another to interfere destructively, and a minimum in intensity will occur at this angle. There will be another minimum at the same angle to the right of the incident direction of the light.",
         "inline": []
       },
       "level": "core"
@@ -75,7 +75,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "At the larger angle shown in (c), the path lengths differ by $3λ/2$ for rays from the top and bottom of the slit. One ray travels a distance $λ$ different from the ray from the bottom and arrives in phase, interfering constructively. Two rays, each from slightly above those two, will also add constructively. Most rays from the slit will have another to interfere with constructively, and a maximum in intensity will occur at this angle. However, all rays do not interfere constructively for this situation, and so the maximum is not as intense as the central maximum. Finally, in (d), the angle shown is large enough to produce a second minimum. As seen in the figure, the difference in path length for rays from either side of the slit is $Dsinθ$ , and we see that a destructive minimum is obtained when this distance is an integral multiple of the wavelength.",
+        "text": "At the larger angle shown in the figure (c), the path lengths differ by $3λ/2$ for rays from the top and bottom of the slit. One ray travels a distance $λ$ different from the ray from the bottom and arrives in phase, interfering constructively. Two rays, each from slightly above those two, will also add constructively. Most rays from the slit will have another to interfere with constructively, and a maximum in intensity will occur at this angle. However, all rays do not interfere constructively for this situation, and so the maximum is not as intense as the central maximum. Finally, in the figure (d), the angle shown is large enough to produce a second minimum. As seen in the figure, the difference in path length for rays from either side of the slit is $Dsin θ$, and we see that a destructive minimum is obtained when this distance is an integral multiple of the wavelength.",
         "inline": []
       },
       "level": "core"
@@ -97,7 +97,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Thus, to obtain destructive interference for a single slit ,",
+        "text": "Thus, to obtain destructive interference for a single slit, $Dsin θ=mλ, for m=1, –1, 2, –2, 3, … (destructive),$",
         "inline": []
       },
       "level": "core"
@@ -106,7 +106,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "where $D$ is the slit width, $λ$ is the light’s wavelength, $θ$ is the angle relative to the original direction of the light, and $m$ is the order of the minimum. shows a graph of intensity for single slit interference, and it is apparent that the maxima on either side of the central maximum are much less intense and not as wide. This is consistent with the illustration in (b).",
+        "text": "where $D$ is the slit width, $λ$ is the light’s wavelength, $θ$ is the angle relative to the original direction of the light, and $m$ is the order of the minimum. The figure shows a graph of intensity for single slit interference, and it is apparent that the maxima on either side of the central maximum are much less intense and not as wide. This is consistent with the illustration in the figure (b).",
         "inline": []
       },
       "level": "core"
@@ -152,7 +152,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "From the given information, and assuming the screen is far away from the slit, we can use the equation $Dsinθ=mλ$ first to find $D$ , and again to find the angle for the first minimum ${θ}_{1}$ .",
+        "text": "From the given information, and assuming the screen is far away from the slit, we can use the equation $Dsin θ=mλ$ first to find $D$, and again to find the angle for the first minimum ${θ}_{1}$.",
         "inline": []
       },
       "level": "core"
@@ -161,7 +161,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "We are given that $λ=550 nm$ , $m=2$ , and ${θ}_{2}=45.0º$ . Solving the equation $Dsinθ=mλ$ for $D$ and substituting known values gives",
+        "text": "We are given that $λ=550 nm$, $m=2$, and ${θ}_{2}=45.0º$. Solving the equation $D sin θ=mλ$ for $D$ and substituting known values gives $D = \\frac{mλ}{ sin {θ}_{2}}=\\frac{2(550 nm)}{sin 45.0º} = \\frac{1100\\times {10}^{-9}}{0.707} = 1.56\\times {10}^{-6}.$",
         "inline": []
       },
       "level": "core"
@@ -170,7 +170,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Solving the equation $Dsinθ=mλ$ for $sin{θ}_{1}$ and substituting the known values gives",
+        "text": "Solving the equation $D sin θ=mλ$ for $sin {θ}_{1}$ and substituting the known values gives $sin {θ}_{1}=\\frac{mλ}{D}=\\frac{1(550\\times {10}^{-9} m)}{1.56\\times {10}^{-6} m}.$",
         "inline": []
       },
       "level": "core"
@@ -179,7 +179,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Thus the angle ${θ}_{1}$ is",
+        "text": "Thus the angle ${θ}_{1}$ is ${θ}_{1}={sin}^{-1} 0.354=20.7º.$",
         "inline": []
       },
       "level": "core"
@@ -188,7 +188,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "We see that the slit is narrow (it is only a few times greater than the wavelength of light). This is consistent with the fact that light must interact with an object comparable in size to its wavelength in order to exhibit significant wave effects such as this single slit diffraction pattern. We also see that the central maximum extends $20.7º$ on either side of the original beam, for a width of about $41º$ . The angle between the first and second minima is only about $24º(45.0º-20.7º)$ . Thus the second maximum is only about half as wide as the central maximum.",
+        "text": "We see that the slit is narrow (it is only a few times greater than the wavelength of light). This is consistent with the fact that light must interact with an object comparable in size to its wavelength in order to exhibit significant wave effects such as this single slit diffraction pattern. We also see that the central maximum extends $20.7º$ on either side of the original beam, for a width of about $41º$. The angle between the first and second minima is only about $24º (45.0º-20.7º)$. Thus the second maximum is only about half as wide as the central maximum.",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) At what angle is the first minimum for 550-nm light falling on a single slit of width $1.00μm$ ? (b) Will there be a second minimum?",
+        "text": "(a) At what angle is the first minimum for 550-nm light falling on a single slit of width $1.00 μm$? (b) Will there be a second minimum?",
         "inline": []
       },
       "level": "core",
@@ -345,7 +345,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How wide is a single slit that produces its first minimum for 633-nm light at an angle of $28.0º$ ? (b) At what angle will the second minimum be?",
+        "text": "(a) How wide is a single slit that produces its first minimum for 633-nm light at an angle of $28.0º$? (b) At what angle will the second minimum be?",
         "inline": []
       },
       "level": "core",
@@ -378,7 +378,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the width of a single slit that produces its first minimum at $60.0º$ for 600-nm light? (b) Find the wavelength of light that has its first minimum at $62.0º$ .",
+        "text": "(a) What is the width of a single slit that produces its first minimum at $60.0º$ for 600-nm light? (b) Find the wavelength of light that has its first minimum at $62.0º$.",
         "inline": []
       },
       "level": "core",
@@ -399,7 +399,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the wavelength of light that has its third minimum at an angle of $48.6º$ when it falls on a single slit of width $3.00μm$ .",
+        "text": "Find the wavelength of light that has its third minimum at an angle of $48.6º$ when it falls on a single slit of width $3.00 μm$.",
         "inline": []
       },
       "level": "core",
@@ -423,7 +423,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the wavelength of light that produces its first minimum at an angle of $36.9º$ when falling on a single slit of width $1.00μm$ .",
+        "text": "Calculate the wavelength of light that produces its first minimum at an angle of $36.9º$ when falling on a single slit of width $1.00 μm$.",
         "inline": []
       },
       "level": "core",
@@ -444,7 +444,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Sodium vapor light averaging 589 nm in wavelength falls on a single slit of width $7.50μm$ . At what angle does it produces its second minimum? (b) What is the highest-order minimum produced?",
+        "text": "(a) Sodium vapor light averaging 589 nm in wavelength falls on a single slit of width $7.50 μm$. At what angle does it produces its second minimum? (b) What is the highest-order minimum produced?",
         "inline": []
       },
       "level": "core",
@@ -468,7 +468,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Find the angle of the third diffraction minimum for 633-nm light falling on a slit of width $20.0μm$ . (b) What slit width would place this minimum at $85.0º$ ? Explicitly show how you follow the steps in Problem-Solving Strategies for Wave Optics",
+        "text": "(a) Find the angle of the third diffraction minimum for 633-nm light falling on a slit of width $20.0 μm$. (b) What slit width would place this minimum at $85.0º$? Explicitly show how you follow the steps in Problem-Solving Strategies for Wave Optics",
         "inline": []
       },
       "level": "core",
@@ -489,7 +489,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Find the angle between the first minima for the two sodium vapor lines, which have wavelengths of 589.1 and 589.6 nm, when they fall upon a single slit of width $2.00μm$ . (b) What is the distance between these minima if the diffraction pattern falls on a screen 1.00 m from the slit? (c) Discuss the ease or difficulty of measuring such a distance.",
+        "text": "(a) Find the angle between the first minima for the two sodium vapor lines, which have wavelengths of 589.1 and 589.6 nm, when they fall upon a single slit of width $2.00 μm$. (b) What is the distance between these minima if the diffraction pattern falls on a screen 1.00 m from the slit? (c) Discuss the ease or difficulty of measuring such a distance.",
         "inline": []
       },
       "level": "core",
@@ -522,7 +522,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the minimum width of a single slit (in multiples of $λ$ ) that will produce a first minimum for a wavelength $λ$ ? (b) What is its minimum width if it produces 50 minima? (c) 1000 minima?",
+        "text": "(a) What is the minimum width of a single slit (in multiples of $λ$) that will produce a first minimum for a wavelength $λ$? (b) What is its minimum width if it produces 50 minima? (c) 1000 minima?",
         "inline": []
       },
       "level": "core",
@@ -543,7 +543,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) If a single slit produces a first minimum at $14.5º$ , at what angle is the second-order minimum? (b) What is the angle of the third-order minimum? (c) Is there a fourth-order minimum? (d) Use your answers to illustrate how the angular width of the central maximum is about twice the angular width of the next maximum (which is the angle between the first and second minima).",
+        "text": "(a) If a single slit produces a first minimum at $14.5º$, at what angle is the second-order minimum? (b) What is the angle of the third-order minimum? (c) Is there a fourth-order minimum? (d) Use your answers to illustrate how the angular width of the central maximum is about twice the angular width of the next maximum (which is the angle between the first and second minima).",
         "inline": []
       },
       "level": "core",

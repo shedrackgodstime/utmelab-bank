@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The most remarkable and unexpected fact about falling objects is that, if air resistance and friction are negligible, then in a given location all objects fall toward the center of Earth with the *same constant acceleration* , *independent of their mass* . This experimentally determined fact is unexpected, because we are so accustomed to the effects of air resistance and friction that we expect light objects to fall slower than heavy ones.",
+        "text": "The most remarkable and unexpected fact about falling objects is that, if air resistance and friction are negligible, then in a given location all objects fall toward the center of Earth with the *same constant acceleration*, *independent of their mass*. This experimentally determined fact is unexpected, because we are so accustomed to the effects of air resistance and friction that we expect light objects to fall slower than heavy ones.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "In the real world, air resistance can cause a lighter object to fall slower than a heavier object of the same size. A tennis ball will reach the ground after a hard baseball dropped at the same time. (It might be difficult to observe the difference if the height is not large.) Air resistance opposes the motion of an object through the air, while friction between objects—such as between clothes and a laundry chute or between a stone and a pool into which it is dropped—also opposes motion between them. For the ideal situations of these first few chapters, an object *falling without air resistance or friction* is defined to be in free-fall .",
+        "text": "In the real world, air resistance can cause a lighter object to fall slower than a heavier object of the same size. A tennis ball will reach the ground after a hard baseball dropped at the same time. (It might be difficult to observe the difference if the height is not large.) Air resistance opposes the motion of an object through the air, while friction between objects—such as between clothes and a laundry chute or between a stone and a pool into which it is dropped—also opposes motion between them. For the ideal situations of these first few chapters, an object *falling without air resistance or friction* is defined to be in free-fall.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "The force of gravity causes objects to fall toward the center of Earth. The acceleration of free-falling objects is therefore called the acceleration due to gravity . The acceleration due to gravity is *constant* , which means we can apply the kinematics equations to any falling object where air resistance and friction are negligible. This opens a broad class of interesting situations to us. The acceleration due to gravity is so important that its magnitude is given its own symbol, $g$ . It is constant at any given location on Earth and has the average value",
+        "text": "The force of gravity causes objects to fall toward the center of Earth. The acceleration of free-falling objects is therefore called the acceleration due to gravity. The acceleration due to gravity is *constant*, which means we can apply the kinematics equations to any falling object where air resistance and friction are negligible. This opens a broad class of interesting situations to us. The acceleration due to gravity is so important that its magnitude is given its own symbol, $g$. It is constant at any given location on Earth and has the average value $g=9.{80 m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Although $g$ varies from $9.{78 m/s}^{2}$ to $$ $9.{83 m/s}^{2}$ , depending on latitude, altitude, underlying geological formations, and local topography, the average value of $9.{80 m/s}^{2}$ will be used in this text unless otherwise specified. The direction of the acceleration due to gravity is *downward (towards the center of Earth)* . In fact, its direction *defines* what we call vertical. Note that whether the acceleration $a$ in the kinematic equations has the value $+g$ or $-g$ depends on how we define our coordinate system. If we define the upward direction as positive, then $a=-g=-9.{80 m/s}^{2}$ , and if we define the downward direction as positive, then $a=g=9.{80 m/s}^{2}$ .",
+        "text": "Although $g$ varies from $9.{78 m/s}^{2}$ to $$ $9.{83 m/s}^{2}$, depending on latitude, altitude, underlying geological formations, and local topography, the average value of $9.{80 m/s}^{2}$ will be used in this text unless otherwise specified. The direction of the acceleration due to gravity is *downward (towards the center of Earth)*. In fact, its direction *defines* what we call vertical. Note that whether the acceleration $a$ in the kinematic equations has the value $+g$ or $-g$ depends on how we define our coordinate system. If we define the upward direction as positive, then $a=-g=-9.{80 m/s}^{2}$, and if we define the downward direction as positive, then $a=g=9.{80 m/s}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -107,7 +107,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The best way to see the basic features of motion involving gravity is to start with the simplest situations and then progress toward more complex ones. So we start by considering straight up and down motion with no air resistance or friction. These assumptions mean that the velocity (if there is any) is vertical. If the object is dropped, we know the initial velocity is zero. Once the object has left contact with whatever held or threw it, the object is in free-fall. Under these circumstances, the motion is one-dimensional and has constant acceleration of magnitude $g$ . We will also represent vertical displacement with the symbol $y$ and use $x$ for horizontal displacement.",
+        "text": "The best way to see the basic features of motion involving gravity is to start with the simplest situations and then progress toward more complex ones. So we start by considering straight up and down motion with no air resistance or friction. These assumptions mean that the velocity (if there is any) is vertical. If the object is dropped, we know the initial velocity is zero. Once the object has left contact with whatever held or threw it, the object is in free-fall. Under these circumstances, the motion is one-dimensional and has constant acceleration of magnitude $g$. We will also represent vertical displacement with the symbol $y$ and use $x$ for horizontal displacement.",
         "inline": []
       },
       "level": "core"
@@ -162,7 +162,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Since we are asked for values of position and velocity at three times, we will refer to these as ${y}_{1}$ and ${v}_{1}$ ; *${y}_{2}$* and ${v}_{2}$ ; and ${y}_{3}$ and ${v}_{3}$ .",
+        "text": "Since we are asked for values of position and velocity at three times, we will refer to these as ${y}_{1}$ and ${v}_{1}$; *${y}_{2}$* and ${v}_{2}$; and ${y}_{3}$ and ${v}_{3}$.",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "1. Identify the knowns. We know that ${y}_{0}=0$ ; ${v}_{0}=13.0 m/s$ ; $a=-g=-9.{80 m/s}^{2}$ ; and $t=1.00 s$ .",
+        "text": "1. Identify the knowns. We know that ${y}_{0}=0$; ${v}_{0}=13.0 m/s$; $a=-g=-9.{80 m/s}^{2}$; and $t=1.00 s$.",
         "inline": []
       },
       "level": "core"
@@ -189,7 +189,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "2. Identify the best equation to use. We will use $y={y}_{0}+{v}_{0}t+\\frac{1}{2}{at}^{2}$ because it includes only one unknown, $y$ (or ${y}_{1}$ , here), which is the value we want to find.",
+        "text": "2. Identify the best equation to use. We will use $y={y}_{0}+{v}_{0}t+\\frac{1}{2}{at}^{2}$ because it includes only one unknown, $y$ (or ${y}_{1}$, here), which is the value we want to find.",
         "inline": []
       },
       "level": "core"
@@ -198,7 +198,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "3. Plug in the known values and solve for ${y}_{1}$ .",
+        "text": "3. Plug in the known values and solve for ${y}_{1}$. $y1=0+(13.0 m/s)(1.00 s)+\\frac{1}{2}(-9.80 {m/s}^{2}){(1.00 s)}^{2}=8.10 m$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The rock is 8.10 m above its starting point at $t=1.00$ s, since ${y}_{1}>{y}_{0}$ . It could be *moving* up or down; the only way to tell is to calculate ${v}_{1}$ and find out if it is positive or negative.",
+        "text": "The rock is 8.10 m above its starting point at $t=1.00$ s, since ${y}_{1}>{y}_{0}$. It could be *moving* up or down; the only way to tell is to calculate ${v}_{1}$ and find out if it is positive or negative.",
         "inline": []
       },
       "level": "core"
@@ -225,7 +225,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "1. Identify the knowns. We know that ${y}_{0}=0$ ; ${v}_{0}=13.0 m/s$ ; $a=-g=-9.{80 m/s}^{2}$ ; and $t=1.00 s$ . We also know from the solution above that ${y}_{1}=8.10 m$ .",
+        "text": "1. Identify the knowns. We know that ${y}_{0}=0$; ${v}_{0}=13.0 m/s$; $a=-g=-9.{80 m/s}^{2}$; and $t=1.00 s$. We also know from the solution above that ${y}_{1}=8.10 m$.",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "2. Identify the best equation to use. The most straightforward is $v={v}_{0}-gt$ (from $v={v}_{0}+at$ , where $a=gravitational acceleration=-g$ ).",
+        "text": "2. Identify the best equation to use. The most straightforward is $v={v}_{0}-gt$ (from $v={v}_{0}+at$, where $a=gravitational acceleration=-g$).",
         "inline": []
       },
       "level": "core"
@@ -243,7 +243,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "3. Plug in the knowns and solve.",
+        "text": "3. Plug in the knowns and solve. ${v}_{1}={v}_{0}-gt=13.0 m/s-(9.{80 m/s}^{2})(1.00 s)=3.20 m/s$",
         "inline": []
       },
       "level": "core"
@@ -252,7 +252,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "The positive value for ${v}_{1}$ means that the rock is still heading upward at $t=1.00s$ . However, it has slowed from its original 13.0 m/s, as expected.",
+        "text": "The positive value for ${v}_{1}$ means that the rock is still heading upward at $t=1.00 s$. However, it has slowed from its original 13.0 m/s, as expected.",
         "inline": []
       },
       "level": "core"
@@ -270,7 +270,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "The procedures for calculating the position and velocity at $t=2.00s$ and $3.00 s$ are the same as those above. The results are summarized in and illustrated in .",
+        "text": "The procedures for calculating the position and velocity at $t=2.00 s$ and $3.00 s$ are the same as those above. The results are summarized in the table and illustrated in the figure.",
         "inline": []
       },
       "level": "core"
@@ -337,7 +337,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The interpretation of these results is important. At 1.00 s the rock is above its starting point and heading upward, since ${y}_{1}$ and ${v}_{1}$ are both positive. At 2.00 s, the rock is still above its starting point, but the negative velocity means it is moving downward. At 3.00 s, both ${y}_{3}$ and ${v}_{3}$ are negative, meaning the rock is below its starting point and continuing to move downward. Notice that when the rock is at its highest point (at 1.33 s), its velocity is zero, but its acceleration is still $-9.{80 m/s}^{2}$ . Its acceleration is $-9.{80 m/s}^{2}$ for the whole trip—while it is moving up and while it is moving down. Note that the values for $y$ are the positions (or displacements) of the rock, not the total distances traveled. Finally, note that free-fall applies to upward motion as well as downward. Both have the same acceleration—the acceleration due to gravity, which remains constant the entire time. Astronauts training in the famous Vomit Comet, for example, experience free-fall while arcing up as well as down, as we will discuss in more detail later.",
+        "text": "The interpretation of these results is important. At 1.00 s the rock is above its starting point and heading upward, since ${y}_{1}$ and ${v}_{1}$ are both positive. At 2.00 s, the rock is still above its starting point, but the negative velocity means it is moving downward. At 3.00 s, both ${y}_{3}$ and ${v}_{3}$ are negative, meaning the rock is below its starting point and continuing to move downward. Notice that when the rock is at its highest point (at 1.33 s), its velocity is zero, but its acceleration is still $-9.{80 m/s}^{2}$. Its acceleration is $-9.{80 m/s}^{2}$ for the whole trip—while it is moving up and while it is moving down. Note that the values for $y$ are the positions (or displacements) of the rock, not the total distances traveled. Finally, note that free-fall applies to upward motion as well as downward. Both have the same acceleration—the acceleration due to gravity, which remains constant the entire time. Astronauts training in the famous Vomit Comet, for example, experience free-fall while arcing up as well as down, as we will discuss in more detail later.",
         "inline": []
       },
       "level": "core"
@@ -392,7 +392,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Since up is positive, the final position of the rock will be negative because it finishes below the starting point at ${y}_{0}=0$ . Similarly, the initial velocity is downward and therefore negative, as is the acceleration due to gravity. We expect the final velocity to be negative since the rock will continue to move downward.",
+        "text": "Since up is positive, the final position of the rock will be negative because it finishes below the starting point at ${y}_{0}=0$. Similarly, the initial velocity is downward and therefore negative, as is the acceleration due to gravity. We expect the final velocity to be negative since the rock will continue to move downward.",
         "inline": []
       },
       "level": "core"
@@ -401,7 +401,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "1. Identify the knowns. ${y}_{0}=0$ ; ${y}_{1}=-5.10 m$ ; ${v}_{0}=-13.0 m/s$ ; $a=-g=-9.80 m{/s}^{2}$ .",
+        "text": "1. Identify the knowns. ${y}_{0}=0$; ${y}_{1}=-5.10 m$; ${v}_{0}=-13.0 m/s$; $a=-g=-9.80 m{/s}^{2}$.",
         "inline": []
       },
       "level": "core"
@@ -410,7 +410,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "2. Choose the kinematic equation that makes it easiest to solve the problem. The equation ${v}^{2}={v}_{0}^{2}+2a(y-{y}_{0})$ works well because the only unknown in it is $v$ . (We will plug ${y}_{1}$ in for $y$ .)",
+        "text": "2. Choose the kinematic equation that makes it easiest to solve the problem. The equation ${v}^{2}={v}_{0}^{2}+2a(y-{y}_{0})$ works well because the only unknown in it is $v$. (We will plug ${y}_{1}$ in for $y$.)",
         "inline": []
       },
       "level": "core"
@@ -419,7 +419,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "3. Enter the known values",
+        "text": "3. Enter the known values ${v}^{2}={(-13.0 m/s)}^{2}+2(-9.{80 m/s}^{2})(-5.10 m-0 m)=268.{96 m}^{2}{/s}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -437,7 +437,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "Taking the square root, and noting that a square root can be positive or negative, gives",
+        "text": "Taking the square root, and noting that a square root can be positive or negative, gives $v=±16.4 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -446,7 +446,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "The negative root is chosen to indicate that the rock is still heading down. Thus,",
+        "text": "The negative root is chosen to indicate that the rock is still heading down. Thus, $v=-16.4 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -455,7 +455,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "Note that *this is exactly the same velocity the rock had at this position when it was thrown straight upward with the same initial speed* . (See and (a).) This is not a coincidental result. Because we only consider the acceleration due to gravity in this problem, the *speed* of a falling object depends only on its initial speed and its vertical position relative to the starting point. For example, if the velocity of the rock is calculated at a height of 8.10 m above the starting point (using the method from ) when the initial velocity is 13.0 m/s straight up, a result of $±3.20 m/s$ is obtained. Here both signs are meaningful; the positive value occurs when the rock is at 8.10 m and heading up, and the negative value occurs when the rock is at 8.10 m and heading back down. It has the same *speed* but the opposite direction.",
+        "text": "Note that *this is exactly the same velocity the rock had at this position when it was thrown straight upward with the same initial speed*. (See the example and the figure (a).) This is not a coincidental result. Because we only consider the acceleration due to gravity in this problem, the *speed* of a falling object depends only on its initial speed and its vertical position relative to the starting point. For example, if the velocity of the rock is calculated at a height of 8.10 m above the starting point (using the method from the example) when the initial velocity is 13.0 m/s straight up, a result of $±3.20 m/s$ is obtained. Here both signs are meaningful; the positive value occurs when the rock is at 8.10 m and heading up, and the negative value occurs when the rock is at 8.10 m and heading back down. It has the same *speed* but the opposite direction.",
         "inline": []
       },
       "level": "core"
@@ -477,7 +477,7 @@
       "id": "p-45",
       "type": "paragraph",
       "content": {
-        "text": "Another way to look at it is this: In , the rock is thrown up with an initial velocity of $13.0 m/s$ . It rises and then falls back down. When its position is $y=0$ on its way back down, its velocity is $-13.0 m/s$ . That is, it has the same speed on its way down as on its way up. We would then expect its velocity at a position of $y=-5.10 m$ to be the same whether we have thrown it upwards at $+13.0 m/s$ or thrown it downwards at $-13.0 m/s$ . The velocity of the rock on its way down from $y=0$ is the same whether we have thrown it up or down to start with, as long as the speed with which it was initially thrown is the same.",
+        "text": "Another way to look at it is this: In the example, the rock is thrown up with an initial velocity of $13.0 m/s$. It rises and then falls back down. When its position is $y=0$ on its way back down, its velocity is $-13.0 m/s$. That is, it has the same speed on its way down as on its way up. We would then expect its velocity at a position of $y=-5.10 m$ to be the same whether we have thrown it upwards at $+13.0 m/s$ or thrown it downwards at $-13.0 m/s$. The velocity of the rock on its way down from $y=0$ is the same whether we have thrown it up or down to start with, as long as the speed with which it was initially thrown is the same.",
         "inline": []
       },
       "level": "core"
@@ -501,7 +501,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, . Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.",
+        "text": "The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, the figure. Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.",
         "inline": []
       },
       "level": "core"
@@ -545,7 +545,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "We need to solve for acceleration $a$ . Note that in this case, displacement is downward and therefore negative, as is acceleration.",
+        "text": "We need to solve for acceleration $a$. Note that in this case, displacement is downward and therefore negative, as is acceleration.",
         "inline": []
       },
       "level": "core"
@@ -554,7 +554,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "1. Identify the knowns. ${y}_{0}=0$ ; $y=–1.0000 m$ ; $t=0.45173$ ; ${v}_{0}=0$ .",
+        "text": "1. Identify the knowns. ${y}_{0}=0$; $y=–1.0000 m$; $t=0.45173$; ${v}_{0}=0$.",
         "inline": []
       },
       "level": "core"
@@ -563,7 +563,7 @@
       "id": "p-53",
       "type": "paragraph",
       "content": {
-        "text": "2. Choose the equation that allows you to solve for $a$ using the known values.",
+        "text": "2. Choose the equation that allows you to solve for $a$ using the known values. $y={y}_{0}+{v}_{0}t+\\frac{1}{2}{at}^{2}$",
         "inline": []
       },
       "level": "core"
@@ -572,7 +572,7 @@
       "id": "p-54",
       "type": "paragraph",
       "content": {
-        "text": "3. Substitute 0 for ${v}_{0}$ and rearrange the equation to solve for $a$ . Substituting 0 for ${v}_{0}$ yields",
+        "text": "3. Substitute 0 for ${v}_{0}$ and rearrange the equation to solve for $a$. Substituting 0 for ${v}_{0}$ yields $y={y}_{0}+\\frac{1}{2}{at}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -581,7 +581,7 @@
       "id": "p-55",
       "type": "paragraph",
       "content": {
-        "text": "Solving for $a$ gives",
+        "text": "Solving for $a$ gives $a=\\frac{2(y-{y}_{0})}{{t}^{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -590,7 +590,7 @@
       "id": "p-56",
       "type": "paragraph",
       "content": {
-        "text": "4. Substitute known values yields",
+        "text": "4. Substitute known values yields $a=\\frac{2(-1.0000 m – 0)}{(0.45173 s{)}^{2}}=-9.{8010 m/s}^{2},$",
         "inline": []
       },
       "level": "core"
@@ -599,7 +599,7 @@
       "id": "p-57",
       "type": "paragraph",
       "content": {
-        "text": "so, because $a=-g$ with the directions we have chosen,",
+        "text": "so, because $a=-g$ with the directions we have chosen, $g=9.{8010 m/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -608,7 +608,7 @@
       "id": "p-58",
       "type": "paragraph",
       "content": {
-        "text": "The negative value for $a$ indicates that the gravitational acceleration is downward, as expected. We expect the value to be somewhere around the average value of $9.{80 m/s}^{2}$ , so $9.{8010 m/s}^{2}$ makes sense. Since the data going into the calculation are relatively precise, this value for $g$ is more precise than the average value of $9.{80 m/s}^{2}$ ; it represents the local value for the acceleration due to gravity.",
+        "text": "The negative value for $a$ indicates that the gravitational acceleration is downward, as expected. We expect the value to be somewhere around the average value of $9.{80 m/s}^{2}$, so $9.{8010 m/s}^{2}$ makes sense. Since the data going into the calculation are relatively precise, this value for $g$ is more precise than the average value of $9.{80 m/s}^{2}$; it represents the local value for the acceleration due to gravity.",
         "inline": []
       },
       "level": "core"
@@ -659,7 +659,7 @@
       "id": "p-63",
       "type": "paragraph",
       "content": {
-        "text": "Learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the individual terms (e.g. $y=bx$ ) to see how they add to generate the polynomial curve.",
+        "text": "Learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the individual terms (e.g. $y=bx$) to see how they add to generate the polynomial curve.",
         "inline": []
       },
       "level": "core"
@@ -864,7 +864,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00, (c) 1.50, and (d) 2.00 s for a ball thrown straight up with an initial velocity of 15.0 m/s. Take the point of release to be ${y}_{0}=0$ .",
+        "text": "Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00, (c) 1.50, and (d) 2.00 s for a ball thrown straight up with an initial velocity of 15.0 m/s. Take the point of release to be ${y}_{0}=0$.",
         "inline": []
       },
       "level": "core",
@@ -1275,7 +1275,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.45 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 0.0800 ms $(8.00×{10}^{-5}s)$ . (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?",
+        "text": "A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.45 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 0.0800 ms $(8.00\\times {10}^{-5} s)$. (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?",
         "inline": []
       },
       "level": "core",
@@ -1329,7 +1329,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.10 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms $(3.50×{10}^{-3}s)$ . (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?",
+        "text": "A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.10 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms $(3.50\\times {10}^{-3} s)$. (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?",
         "inline": []
       },
       "level": "core",

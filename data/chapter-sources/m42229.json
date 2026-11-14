@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "While convection is usually more complicated than conduction, we can describe convection and do some straightforward, realistic calculations of its effects. Natural convection is driven by buoyant forces: hot air rises because density decreases as temperature increases. The house in is kept warm in this manner, as is the pot of water on the stove in . Ocean currents and large-scale atmospheric circulation transfer energy from one part of the globe to another. Both are examples of natural convection.",
+        "text": "While convection is usually more complicated than conduction, we can describe convection and do some straightforward, realistic calculations of its effects. Natural convection is driven by buoyant forces: hot air rises because density decreases as temperature increases. The house in the figure is kept warm in this manner, as is the pot of water on the stove in the figure. Ocean currents and large-scale atmospheric circulation transfer energy from one part of the globe to another. Both are examples of natural convection.",
         "inline": []
       },
       "level": "core"
@@ -108,7 +108,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions $12.0m×18.0m×3.00m$ high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by $10.0ºC$ , thus replacing the heat transferred by convection alone.",
+        "text": "Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions $12.0m\\times 18.0m\\times 3.00m$ high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by $10.0ºC$, thus replacing the heat transferred by convection alone.",
         "inline": []
       },
       "level": "core"
@@ -117,7 +117,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Heat is used to raise the temperature of air so that $Q=mcΔT$ . The rate of heat transfer is then $Q/t$ , where $t$ is the time for air turnover. We are given that $ΔT$ is $10.0ºC$ , but we must still find values for the mass of air and its specific heat before we can calculate $Q$ . The specific heat of air is a weighted average of the specific heats of nitrogen and oxygen, which gives $c={c}_{p}≅1000J/kg⋅ºC$ from (note that the specific heat at constant pressure must be used for this process).",
+        "text": "Heat is used to raise the temperature of air so that $Q=mcΔT$. The rate of heat transfer is then $Q/t$, where $t$ is the time for air turnover. We are given that $ΔT$ is $10.0ºC$, but we must still find values for the mass of air and its specific heat before we can calculate $Q$. The specific heat of air is a weighted average of the specific heats of nitrogen and oxygen, which gives $c={c}_{p}≅1000J/kg⋅ºC$ from the table (note that the specific heat at constant pressure must be used for this process).",
         "inline": []
       },
       "level": "core"
@@ -135,7 +135,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "A cold wind is much more chilling than still cold air, because convection combines with conduction in the body to increase the rate at which energy is transferred away from the body. The table below gives approximate wind-chill factors, which are the temperatures of still air that produce the same rate of cooling as air of a given temperature and speed. Wind-chill factors are a dramatic reminder of convection’s ability to transfer heat faster than conduction. For example, a 15.0 m/s wind at $0ºC$ has the chilling equivalent of still air at about $-18ºC$ .",
+        "text": "A cold wind is much more chilling than still cold air, because convection combines with conduction in the body to increase the rate at which energy is transferred away from the body. The table below gives approximate wind-chill factors, which are the temperatures of still air that produce the same rate of cooling as air of a given temperature and speed. Wind-chill factors are a dramatic reminder of convection’s ability to transfer heat faster than conduction. For example, a 15.0 m/s wind at $0ºC$ has the chilling equivalent of still air at about $-18ºC$.",
         "inline": []
       },
       "level": "core"
@@ -246,7 +246,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Some interesting phenomena happen *when convection is accompanied by a phase change* . It allows us to cool off by sweating, even if the temperature of the surrounding air exceeds body temperature. Heat from the skin is required for sweat to evaporate from the skin, but without air flow, the air becomes saturated and evaporation stops. Air flow caused by convection replaces the saturated air by dry air and evaporation continues.",
+        "text": "Some interesting phenomena happen *when convection is accompanied by a phase change*. It allows us to cool off by sweating, even if the temperature of the surrounding air exceeds body temperature. Heat from the skin is required for sweat to evaporate from the skin, but without air flow, the air becomes saturated and evaporation stops. Air flow caused by convection replaces the saturated air by dry air and evaporation continues.",
         "inline": []
       },
       "level": "core"
@@ -279,7 +279,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "Energy is needed for a phase change ( $Q={mL}_{v}$ ). Thus, the energy loss per unit time is",
+        "text": "Energy is needed for a phase change ($Q={mL}_{v}$). Thus, the energy loss per unit time is $\\frac{Q}{t}=\\frac{{mL}_{v}}{t}=120 W=120 J/s.$",
         "inline": []
       },
       "level": "core"
@@ -288,7 +288,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "We divide both sides of the equation by ${L}_{v}$ to find that the mass evaporated per unit time is",
+        "text": "We divide both sides of the equation by ${L}_{v}$ to find that the mass evaporated per unit time is $\\frac{m}{t}=\\frac{120J/s}{{L}_{v}}.$",
         "inline": []
       },
       "level": "core"
@@ -297,7 +297,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "(1) Insert the value of the latent heat from , ${L}_{v}=2430kJ/kg=2430J/g$ . This yields",
+        "text": "(1) Insert the value of the latent heat from the table, ${L}_{v}=2430kJ/kg=2430J/g$. This yields $\\frac{m}{t}=\\frac{120J/s}{2430J/g}=0.0494g/s=2.96g/min.$",
         "inline": []
       },
       "level": "core"
@@ -529,7 +529,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "At what wind speed does $-10ºC$ air cause the same chill factor as still air at $-29ºC$ ?",
+        "text": "At what wind speed does $-10ºC$ air cause the same chill factor as still air at $-29ºC$?",
         "inline": []
       },
       "level": "core",
@@ -598,7 +598,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by $0.750ºC$ ? (b) Is this a reasonable amount of water to evaporate in the form of perspiration, assuming the relative humidity of the surrounding air is low?",
+        "text": "(a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by $0.750ºC$? (b) Is this a reasonable amount of water to evaporate in the form of perspiration, assuming the relative humidity of the surrounding air is low?",
         "inline": []
       },
       "level": "core",
@@ -628,7 +628,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "On a hot dry day, evaporation from a lake has just enough heat transfer to balance the $1.00{kW/m}^{2}$ of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you follow the steps in the Problem-Solving Strategies for the Effects of Heat Transfer .",
+        "text": "On a hot dry day, evaporation from a lake has just enough heat transfer to balance the $1.00{kW/m}^{2}$ of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you follow the steps in the Problem-Solving Strategies for the Effects of Heat Transfer.",
         "inline": []
       },
       "level": "core",
@@ -673,7 +673,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The Kilauea volcano in Hawaii is the world’s most active, disgorging about $5×{10}^{5}{m}^{3}$ of $1200ºC$ lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of $2700{kg/m}^{3}$ and eventually cools to $30ºC$ ? Assume that the specific heat of lava is the same as that of granite. Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)",
+        "text": "The Kilauea volcano in Hawaii is the world’s most active, disgorging about $5\\times {10}^{5} {m}^{3}$ of $1200ºC$ lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of $2700 {kg/m}^{3}$ and eventually cools to $30ºC$? Assume that the specific heat of lava is the same as that of granite.",
         "inline": []
       },
       "level": "core",
@@ -710,7 +710,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by $2.00ºC$ . What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is $1050{kg/m}^{3}$ ?",
+        "text": "During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by $2.00ºC$. What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is $1050{kg/m}^{3}$?",
         "inline": []
       },
       "level": "core",
@@ -731,7 +731,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A person inhales and exhales 2.00 L of $37.0ºC$ air, evaporating $4.00×{10}^{-2}g$ of water from the lungs and breathing passages with each breath. (a) How much heat transfer occurs due to evaporation in each breath? (b) What is the rate of heat transfer in watts if the person is breathing at a moderate rate of 18.0 breaths per minute? (c) If the inhaled air had a temperature of $20.0ºC$ , what is the rate of heat transfer for warming the air? (d) Discuss the total rate of heat transfer as it relates to typical metabolic rates. Will this breathing be a major form of heat transfer for this person?",
+        "text": "A person inhales and exhales 2.00 L of $37.0ºC$ air, evaporating $4.00\\times {10}^{-2}g$ of water from the lungs and breathing passages with each breath. (a) How much heat transfer occurs due to evaporation in each breath? (b) What is the rate of heat transfer in watts if the person is breathing at a moderate rate of 18.0 breaths per minute? (c) If the inhaled air had a temperature of $20.0ºC$, what is the rate of heat transfer for warming the air? (d) Discuss the total rate of heat transfer as it relates to typical metabolic rates. Will this breathing be a major form of heat transfer for this person?",
         "inline": []
       },
       "level": "core",
@@ -800,7 +800,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A glass coffee pot has a circular bottom with a 9.00-cm diameter in contact with a heating element that keeps the coffee warm with a continuous heat transfer rate of 50.0 W (a) What is the temperature of the bottom of the pot, if it is 3.00 mm thick and the inside temperature is $60.0ºC$ ? (b) If the temperature of the coffee remains constant and all of the heat transfer is removed by evaporation, how many grams per minute evaporate? Take the heat of vaporization to be 2340 kJ/kg.",
+        "text": "A glass coffee pot has a circular bottom with a 9.00-cm diameter in contact with a heating element that keeps the coffee warm with a continuous heat transfer rate of 50.0 W (a) What is the temperature of the bottom of the pot, if it is 3.00 mm thick and the inside temperature is $60.0ºC$? (b) If the temperature of the coffee remains constant and all of the heat transfer is removed by evaporation, how many grams per minute evaporate? Take the heat of vaporization to be 2340 kJ/kg.",
         "inline": []
       },
       "level": "core",

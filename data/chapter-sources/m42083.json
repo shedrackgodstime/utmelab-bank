@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "In Kinematics , we studied motion along a straight line and introduced such concepts as displacement, velocity, and acceleration. Two-Dimensional Kinematics dealt with motion in two dimensions. Projectile motion is a special case of two-dimensional kinematics in which the object is projected into the air, while being subject to the gravitational force, and lands a distance away. In this chapter, we consider situations where the object does not land but moves in a curve. We begin the study of uniform circular motion by defining two angular quantities needed to describe rotational motion.",
+        "text": "In Kinematics, we studied motion along a straight line and introduced such concepts as displacement, velocity, and acceleration. Two-Dimensional Kinematics dealt with motion in two dimensions. Projectile motion is a special case of two-dimensional kinematics in which the object is projected into the air, while being subject to the gravitational force, and lands a distance away. In this chapter, we consider situations where the object does not land but moves in a curve. We begin the study of uniform circular motion by defining two angular quantities needed to describe rotational motion.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "When objects rotate about some axis—for example, when the CD (compact disc) in rotates about its center—each point in the object follows a circular arc. Consider a line from the center of the CD to its edge. Each pit used to record sound along this line moves through the same angle in the same amount of time. The rotation angle is the amount of rotation and is analogous to linear distance. We define the rotation angle $Δθ$ to be the ratio of the arc length to the radius of curvature:",
+        "text": "When objects rotate about some axis—for example, when the CD (compact disc) in the figure rotates about its center—each point in the object follows a circular arc. Consider a line from the center of the CD to its edge. Each pit used to record sound along this line moves through the same angle in the same amount of time. The rotation angle is the amount of rotation and is analogous to linear distance. We define the rotation angle $Δθ$ to be the ratio of the arc length to the radius of curvature: $Δθ=\\frac{Δs}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -93,7 +93,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "The arc length $Δs$ is the distance traveled along a circular path as shown in Note that $r$ is the radius of curvature of the circular path.",
+        "text": "The arc length $Δs$ is the distance traveled along a circular path as shown in the figure Note that $r$ is the radius of curvature of the circular path.",
         "inline": []
       },
       "level": "core"
@@ -102,7 +102,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "We know that for one complete revolution, the arc length is the circumference of a circle of radius $r$ . The circumference of a circle is $2πr$ . Thus for one complete revolution the rotation angle is",
+        "text": "We know that for one complete revolution, the arc length is the circumference of a circle of radius $r$. The circumference of a circle is $2πr$. Thus for one complete revolution the rotation angle is $Δθ=\\frac{2πr}{r}=2π.$",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "This result is the basis for defining the units used to measure rotation angles, $Δθ$ to be radians (rad), defined so that",
+        "text": "This result is the basis for defining the units used to measure rotation angles, $Δθ$ to be radians (rad), defined so that $2π rad=1 revolution.$",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "A comparison of some useful angles expressed in both degrees and radians is shown in .",
+        "text": "A comparison of some useful angles expressed in both degrees and radians is shown in the table.",
         "inline": []
       },
       "level": "core"
@@ -182,7 +182,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "If $Δθ=2π$ rad, then the CD has made one complete revolution, and every point on the CD is back at its original position. Because there are $360º$ in a circle or one revolution, the relationship between radians and degrees is thus",
+        "text": "If $Δθ=2π$ rad, then the CD has made one complete revolution, and every point on the CD is back at its original position. Because there are $360º$ in a circle or one revolution, the relationship between radians and degrees is thus $2π rad=360º$",
         "inline": []
       },
       "level": "core"
@@ -200,7 +200,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "How fast is an object rotating? We define angular velocity $ω$ as the rate of change of an angle. In symbols, this is",
+        "text": "How fast is an object rotating? We define angular velocity $ω$ as the rate of change of an angle. In symbols, this is $ω=\\frac{Δθ}{Δt},$",
         "inline": []
       },
       "level": "core"
@@ -209,7 +209,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "where an angular rotation $Δθ$ takes place in a time $Δt$ . The greater the rotation angle in a given amount of time, the greater the angular velocity. The units for angular velocity are radians per second (rad/s).",
+        "text": "where an angular rotation $Δθ$ takes place in a time $Δt$. The greater the rotation angle in a given amount of time, the greater the angular velocity. The units for angular velocity are radians per second (rad/s).",
         "inline": []
       },
       "level": "core"
@@ -218,7 +218,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "Angular velocity $ω$ is analogous to linear velocity $v$ . To get the precise relationship between angular and linear velocity, we again consider a pit on the rotating CD. This pit moves an arc length $Δs$ in a time $Δt$ , and so it has a linear velocity",
+        "text": "Angular velocity $ω$ is analogous to linear velocity $v$. To get the precise relationship between angular and linear velocity, we again consider a pit on the rotating CD. This pit moves an arc length $Δs$ in a time $Δt$, and so it has a linear velocity $v=\\frac{Δs}{Δt}.$",
         "inline": []
       },
       "level": "core"
@@ -227,7 +227,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "From $Δθ=\\frac{Δs}{r}$ we see that $Δs=rΔθ$ . Substituting this into the expression for $v$ gives",
+        "text": "From $Δθ=\\frac{Δs}{r}$ we see that $Δs=rΔθ$. Substituting this into the expression for $v$ gives $v=\\frac{rΔθ}{Δt}=rω.$",
         "inline": []
       },
       "level": "core"
@@ -236,7 +236,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "We write this relationship in two different ways and gain two different insights:",
+        "text": "We write this relationship in two different ways and gain two different insights: $v=rωorω=\\frac{v}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -245,7 +245,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "The first relationship in $v=rωorω=\\frac{v}{r}$ states that the linear velocity $v$ is proportional to the distance from the center of rotation, thus, it is largest for a point on the rim (largest $r$ ), as you might expect. We can also call this linear speed $v$ of a point on the rim the *tangential speed* . The second relationship in $v=rωorω=\\frac{v}{r}$ can be illustrated by considering the tire of a moving car. Note that the speed of a point on the rim of the tire is the same as the speed $v$ of the car. See . So the faster the car moves, the faster the tire spins—large $v$ means a large $ω$ , because $v=rω$ . Similarly, a larger-radius tire rotating at the same angular velocity ( $ω$ ) will produce a greater linear speed ( $v$ ) for the car.",
+        "text": "The first relationship in $v=rωorω=\\frac{v}{r}$ states that the linear velocity $v$ is proportional to the distance from the center of rotation, thus, it is largest for a point on the rim (largest $r$), as you might expect. We can also call this linear speed $v$ of a point on the rim the *tangential speed*. The second relationship in $v=rωorω=\\frac{v}{r}$ can be illustrated by considering the tire of a moving car. Note that the speed of a point on the rim of the tire is the same as the speed $v$ of the car. See the figure. So the faster the car moves, the faster the tire spins—large $v$ means a large $ω$, because $v=rω$. Similarly, a larger-radius tire rotating at the same angular velocity ($ω$) will produce a greater linear speed ($v$) for the car.",
         "inline": []
       },
       "level": "core"
@@ -282,7 +282,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $15.0m/s$ (about $54km/h$ ). See .",
+        "text": "Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $15.0 m/s$ (about $54 km/h$). See the figure.",
         "inline": []
       },
       "level": "core"
@@ -291,7 +291,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Because the linear speed of the tire rim is the same as the speed of the car, we have $v=15.0 m/s.$ The radius of the tire is given to be $r=0.300 m.$ Knowing $v$ and $r$ , we can use the second relationship in $v=rω,ω=\\frac{v}{r}$ to calculate the angular velocity.",
+        "text": "Because the linear speed of the tire rim is the same as the speed of the car, we have $v=15.0 m/s.$ The radius of the tire is given to be $r=0.300 m.$ Knowing $v$ and $r$, we can use the second relationship in $v=rω,ω=\\frac{v}{r}$ to calculate the angular velocity.",
         "inline": []
       },
       "level": "core"
@@ -300,7 +300,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "To calculate the angular velocity, we will use the following relationship:",
+        "text": "To calculate the angular velocity, we will use the following relationship: $ω=\\frac{v}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -309,7 +309,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Substituting the knowns,",
+        "text": "Substituting the knowns, $ω=\\frac{15.0 m/s}{0.300 m}=50.0 rad/s.$",
         "inline": []
       },
       "level": "core"
@@ -318,7 +318,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "When we cancel units in the above calculation, we get 50.0/s. But the angular velocity must have units of rad/s. Because radians are actually unitless (radians are defined as a ratio of distance), we can simply insert them into the answer for the angular velocity. Also note that if an earth mover with much larger tires, say 1.20 m in radius, were moving at the same speed of 15.0 m/s, its tires would rotate more slowly. They would have an angular velocity",
+        "text": "When we cancel units in the above calculation, we get 50.0/s. But the angular velocity must have units of rad/s. Because radians are actually unitless (radians are defined as a ratio of distance), we can simply insert them into the answer for the angular velocity. Also note that if an earth mover with much larger tires, say 1.20 m in radius, were moving at the same speed of 15.0 m/s, its tires would rotate more slowly. They would have an angular velocity $ω=(15.0 m/s)/(1.20 m)=12.5 rad/s.$",
         "inline": []
       },
       "level": "core"
@@ -327,7 +327,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "Both $ω$ and $v$ have directions (hence they are angular and linear *velocities* , respectively). Angular velocity has only two directions with respect to the axis of rotation—it is either clockwise or counterclockwise. Linear velocity is tangent to the path, as illustrated in .",
+        "text": "Both $ω$ and $v$ have directions (hence they are angular and linear *velocities*, respectively). Angular velocity has only two directions with respect to the axis of rotation—it is either clockwise or counterclockwise. Linear velocity is tangent to the path, as illustrated in the figure.",
         "inline": []
       },
       "level": "core"
@@ -367,7 +367,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -385,7 +385,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "where arc length $Δs$ is distance traveled along a circular path and $r$ is the radius of curvature of the circular path. The quantity $Δθ$ is measured in units of radians (rad), for which",
+        "text": "where arc length $Δs$ is distance traveled along a circular path and $r$ is the radius of curvature of the circular path. The quantity $Δθ$ is measured in units of radians (rad), for which $2π rad=360º=1revolution.$",
         "inline": []
       },
       "level": "core"
@@ -394,7 +394,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "where a rotation $Δθ$ takes place in a time $Δt$ . The units of angular velocity are radians per second (rad/s). Linear velocity $v$ and angular velocity $ω$ are related by",
+        "text": "where a rotation $Δθ$ takes place in a time $Δt$. The units of angular velocity are radians per second (rad/s). Linear velocity $v$ and angular velocity $ω$ are related by $v=rωorω=\\frac{v}{r}.$",
         "inline": []
       },
       "level": "core"
@@ -521,7 +521,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) What is the period of rotation of Earth in seconds? (b) What is the angular velocity of Earth? (c) Given that Earth has a radius of $6.4×{10}^{6}m$ at its equator, what is the linear velocity at Earth’s surface?",
+        "text": "(a) What is the period of rotation of Earth in seconds? (b) What is the angular velocity of Earth? (c) Given that Earth has a radius of $6.4\\times {10}^{6} m$ at its equator, what is the linear velocity at Earth’s surface?",
         "inline": []
       },
       "level": "core",

@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Medical Applications of Nuclear Physics",
   "book_id": "secondary_physics",
-  "part_id": "part-6",
+  "part_id": "part-7",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -77,7 +77,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_radioactivity"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -96,16 +98,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -137,11 +130,11 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-24"
+      "no_worked_example_reason": "The source section on Diagnostics and Medical Imaging has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -153,7 +146,12 @@
         "Define various units of radiation.",
         "Describe RBE."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The gray and the sievert are the same unit, so absorbed dose and equivalent dose are the same quantity.",
+          "correction": "The gray measures absorbed energy per kilogram. The sievert measures biological effect and includes the radiation weighting factor, so 1 Gy of alpha radiation gives a much larger equivalent dose than 1 Gy of gamma radiation."
+        }
+      ],
       "summary": [
         "The biological effects of ionizing radiation are due to two effects it has on cells: interference with cell reproduction, and destruction of cell function.",
         "A radiation dose unit called the rad is defined in terms of the ionizing energy deposited per kilogram of tissue: 1 rad=0.01 J/kg.",
@@ -167,11 +165,30 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-58"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What does the absorbed dose of radiation measure?",
+          "answer": "The energy deposited by ionizing radiation per unit mass of material.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Radiation deposits energy as it passes through matter.",
+            "The absorbed dose is that energy divided by the mass.",
+            "It is measured in gray, where 1 Gy = 1 J/kg."
+          ],
+          "tags": [
+            "absorbed dose",
+            "gray"
+          ]
+        }
+      ]
     },
     {
       "id": "sec-4",
@@ -180,7 +197,8 @@
       "est_minutes": 12,
       "locator": "CNXML module m42654",
       "objectives": [
-        "Explain the concept of radiotherapy and list typical doses for cancer therapy."
+        "Explain the concept of radiotherapy and list typical doses for cancer therapy.",
+        "Explain how radiotherapy is planned to deliver a high dose to a tumour while limiting the dose to healthy tissue."
       ],
       "misconceptions": [
         {
@@ -201,11 +219,11 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-19"
+      "no_worked_example_reason": "The source section on Therapeutic Uses of Ionizing Radiation has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-5",
@@ -214,9 +232,16 @@
       "est_minutes": 12,
       "locator": "CNXML module m42656",
       "objectives": [
-        "Define food irradiation low dose, and free radicals."
+        "Define food irradiation low dose, and free radicals.",
+        "Explain why irradiated food does not become radioactive.",
+        "Describe the effects of ionizing radiation on microorganisms and on food quality."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Food that has been irradiated becomes radioactive.",
+          "correction": "Irradiation does not make food radioactive any more than an X-ray makes a patient radioactive. The radiation passes through and is not retained."
+        }
+      ],
       "summary": [
         "Food irradiation is the treatment of food with ionizing radiation.",
         "Irradiating food can destroy insects and bacteria by creating free radicals and radiolytic products that can break apart cell membranes.",
@@ -224,17 +249,65 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
+      "exam_links": [],
+      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves.",
+      "authored_exercises": [
         {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is food irradiation?",
+          "answer": "The exposure of food to a controlled dose of ionizing radiation to kill microorganisms and insects or to slow spoilage.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Ionizing radiation damages the DNA of microorganisms.",
+            "The food itself is not made radioactive.",
+            "The treatment can extend shelf life and reduce foodborne illness."
+          ],
+          "tags": [
+            "food irradiation",
+            "ionizing radiation"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Does irradiated food become radioactive? Explain briefly.",
+          "answer": "No. The radiation passes through the food and is not retained; the food contains no induced radioactivity.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Irradiation uses gamma rays, x-rays or electron beams.",
+            "These do not leave radioactive material behind.",
+            "The same is true of a patient who has had an X-ray."
+          ],
+          "tags": [
+            "food irradiation",
+            "radioactivity"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Why is a high dose of radiation more damaging to rapidly dividing cells such as bacteria than to many mature food cells?",
+          "answer": "Rapidly dividing cells are more sensitive to DNA damage because they are actively copying and repairing DNA.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Ionizing radiation damages DNA.",
+            "Cells that divide often have less time to repair the damage.",
+            "Microorganisms and insect cells are therefore hit harder than the bulk of the food tissue."
+          ],
+          "tags": [
+            "radiation damage",
+            "cell division"
+          ]
         }
       ],
-      "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
+      "no_exam_link_reason": "Food irradiation is an applied extension and is not named in either syllabus."
     },
     {
       "id": "sec-6",
@@ -246,7 +319,12 @@
         "Define nuclear fusion.",
         "Discuss processes to achieve practical fusion energy generation."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "Nuclear fusion is the splitting of a heavy nucleus into lighter ones.",
+          "correction": "Fusion joins light nuclei into a heavier one. Fission splits a heavy nucleus. Both release energy when the binding energy per nucleon increases."
+        }
+      ],
       "summary": [
         "Nuclear fusion is a reaction in which two nuclei are combined to form a larger nucleus. It releases energy when light nuclei are fused to form medium-mass nuclei.",
         "Fusion is the source of energy in stars, with the proton-proton cycle, 1H +1H →2H+e++ve (0.42 MeV)1H+2H→3He +γ (5.49 MeV)3He +3He→4He+1H+1H (12.86 MeV) being the principal sequence of energy-producing reactions in our Sun.",
@@ -263,8 +341,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-34"
+      ]
     },
     {
       "id": "sec-7",
@@ -277,7 +354,12 @@
         "Discuss how fission fuel reacts and describe what it produces.",
         "Describe controlled and uncontrolled chain reactions."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A nuclear power reactor can explode like a nuclear bomb.",
+          "correction": "A power reactor cannot produce a nuclear explosion because its fuel is not highly enriched enough and its geometry is not designed for a runaway supercritical chain reaction. A reactor accident is a different kind of event."
+        }
+      ],
       "summary": [
         "Nuclear fission is a reaction in which a nucleus is split.",
         "Fission releases energy when heavy nuclei are split into medium-mass nuclei.",
@@ -294,8 +376,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-39"
+      ]
     },
     {
       "id": "sec-8",
@@ -307,7 +388,12 @@
         "Discuss different types of fission and thermonuclear bombs.",
         "Explain the ill effects of nuclear explosion."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A nuclear weapon releases its energy by chemical burning of the fissile material.",
+          "correction": "The energy comes from nuclear fission or fusion, where a small mass defect is converted to energy through E = mc². Chemical burning involves only electron rearrangements and releases far less energy per kilogram."
+        }
+      ],
       "summary": [
         "There are two types of nuclear weapons—fission bombs use fission alone, whereas thermonuclear bombs use fission to ignite fusion.",
         "Both types of weapons produce huge numbers of nuclear reactions in a very short time.",
@@ -315,20 +401,127 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
-      "worked_from": "exr-32"
+      "exam_links": [],
+      "no_exam_link_reason": "Nuclear weapons are an applied extension and are not named in either syllabus.",
+      "no_worked_example_reason": "The source section on Nuclear Weapons has no worked example; the teaching text derives the key results and the practice set applies them."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$A = \\lambda N$",
+      "caption": {
+        "text": "Activity of a tracer",
+        "inline": []
+      },
+      "conditions": {
+        "text": "N is the number of radioactive nuclei and λ the decay constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42649/index.cnxml",
+        "locator": "CNXML module m42649, section “Diagnostics and Medical Imaging”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$T_{1/2} = \\frac{\\ln 2}{\\lambda}$",
+      "caption": {
+        "text": "Half-life",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The time for half the radioactive nuclei to decay.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42649/index.cnxml",
+        "locator": "CNXML module m42649, section “Diagnostics and Medical Imaging”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$D = \\frac{E}{m}$",
+      "caption": {
+        "text": "Absorbed dose",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Energy deposited per unit mass, measured in gray (1 Gy = 1 J/kg).",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42652/index.cnxml",
+        "locator": "CNXML module m42652, section “Biological Effects of Ionizing Radiation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$H = D \\times w_R$",
+      "caption": {
+        "text": "Equivalent dose",
+        "inline": []
+      },
+      "conditions": {
+        "text": "D is the absorbed dose and w_R the radiation weighting factor; the result is in sieverts.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42652/index.cnxml",
+        "locator": "CNXML module m42652, section “Biological Effects of Ionizing Radiation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$I = I_0 e^{-\\mu x}$",
+      "caption": {
+        "text": "Attenuation of radiation",
+        "inline": []
+      },
+      "conditions": {
+        "text": "I₀ is the incident intensity, μ the linear attenuation coefficient and x the thickness.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42654/index.cnxml",
+        "locator": "CNXML module m42654, section “Therapeutic Uses of Ionizing Radiation”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$E = mc^2$",
+      "caption": {
+        "text": "Energy released in a nuclear reaction",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The mass defect of the reaction appears as energy.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42659/index.cnxml",
+        "locator": "CNXML module m42659, section “Fusion”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1016,42 +1209,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "A tracer is used to see the shape of an organ.",
-      "correction": "It shows how the organ works, by following where the tracer goes in the body.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The dose from a tracer is the same however the tracer is given.",
-      "correction": "It depends on the activity, the half life, and how long it stays in the body.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1168,6 +1326,93 @@
       "explanation": "Fusion needs temperatures of millions of kelvin to overcome the electrostatic repulsion between the nuclei, which is why it is hard to sustain.",
       "difficulty": 3,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "Radiotherapy for cancer usually delivers a total dose of about",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.001 Gy"
+        },
+        {
+          "id": "b",
+          "text": "0.1 Gy"
+        },
+        {
+          "id": "c",
+          "text": "50 Gy"
+        },
+        {
+          "id": "d",
+          "text": "50 000 Gy"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A typical course of external-beam radiotherapy delivers about 50–70 Gy, divided into many smaller fractions over several weeks.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-5",
+      "stem": "Food is irradiated mainly in order to",
+      "options": [
+        {
+          "id": "a",
+          "text": "make it radioactive"
+        },
+        {
+          "id": "b",
+          "text": "kill microorganisms and extend its storage life"
+        },
+        {
+          "id": "c",
+          "text": "increase its mass"
+        },
+        {
+          "id": "d",
+          "text": "change its colour permanently"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Ionizing radiation damages the DNA of bacteria, moulds and insects, which reduces spoilage and makes the food safer to store.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "The destructive energy of a nuclear explosion comes from",
+      "options": [
+        {
+          "id": "a",
+          "text": "a chemical reaction between the explosive casing and the fuel"
+        },
+        {
+          "id": "b",
+          "text": "the conversion of a small mass defect into energy"
+        },
+        {
+          "id": "c",
+          "text": "the absorption of neutrons by air"
+        },
+        {
+          "id": "d",
+          "text": "the burning of hydrogen in oxygen"
+        }
+      ],
+      "answer": "b",
+      "explanation": "In fission or fusion, the products have slightly less mass than the reactants. The missing mass appears as energy through E = mc².",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1178,5 +1423,45 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Medical Applications of Nuclear Physics', modules m42646, m42649, m42652, m42654, m42656, m42659, m42662, m42665",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 32,
+  "exercise_fixes": {
+    "sec-2:exr-38": {
+      "stem": "(a) Neutron activation of sodium, which is 100% ${}^{23}Na$ , produces ${}^{24}Na$ , which is used in some heart scans. The equation for the reaction is ${}^{23}Na+n→{}^{24}Na+γ$ . Find its energy output, given the mass of ${}^{24}Na$ is 23.990962 u. (b) What mass of ${}^{24}Na$ produces the needed 5.0-mCi activity, given its half-life is 15.0 h?"
+    },
+    "sec-7:exr-66": {
+      "stem": "(a) Calculate the energy released in the neutron-induced fission  $n+{}^{238}U→{}^{96}Sr+{}^{140}Xe+3n,$ given $m({}^{96}Sr)=95.921750 u$ and $m({}^{140}Xe)=139.92164$ . (b) This result is about 6 MeV greater than the result for spontaneous fission. Why? (c) Confirm that the total number of nucleons and total charge are conserved in this reaction."
+    },
+    "sec-6:exr-75": {
+      "answer": "20.58 MeV and 2.22 MeV. ${}^{4}He$ is more tightly bound: about 5.15 MeV per nucleon, compared with about 1.11 MeV per nucleon for ${}^{2}H$.",
+      "solution": [
+        "$E=(m_{i}-m_{f})c^{2}$ .",
+        "${E}_{1}=(1.008665+3.016030-4.002603)(931.5)=20.58MeV$ .",
+        "${E}_{2}=(1.008665+1.007825-2.014102)(931.5)=2.22MeV$ .",
+        "Per nucleon: ${}^{4}He$ gives $20.58/4=5.15MeV$, while ${}^{2}H$ gives $2.22/2=1.11MeV$. ${}^{4}He$ is more tightly bound."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer field was a malformed superscript"
+    },
+    "sec-2:exr-28": {
+      "answer": "${}^{99}_{42}Mo→{}^{99}_{43}Tc+{β}^{-}+{ν̄}_{e}$",
+      "solution": [
+        "${}^{99}_{42}Mo→{}^{99}_{43}Tc+{β}^{-}+{ν̄}_{e}$ .",
+        "Nucleon number: 99 = 99 + 0. Charge: 42 = 43 + (-1). Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the antineutrino symbol was mistyped as v in the source"
+    },
+    "sec-2:exr-34": {
+      "stem": "A brain scan uses 7.50 mCi of ${}^{99m}\\mathrm{Tc}$. The half-life of ${}^{99m}\\mathrm{Tc}$ is 6.01 h. What mass of technetium is present?",
+      "answer": "$1.43\\times10^{-9}\\ \\mathrm{g}$",
+      "solution": [
+        "Convert the activity: $A=(7.50\\times10^{-3}\\ \\mathrm{Ci})(3.70\\times10^{10}\\ \\mathrm{Bq/Ci})=2.78\\times10^{8}\\ \\mathrm{Bq}$.",
+        "The decay constant is $\\lambda=\\ln 2/T_{1/2}=0.693/(6.01\\times3600\\ \\mathrm{s})=3.20\\times10^{-5}\\ \\mathrm{s^{-1}}$.",
+        "The number of nuclei is $N=A/\\lambda=(2.78\\times10^{8})/(3.20\\times10^{-5})=8.67\\times10^{12}$.",
+        "The mass is $m=(N/N_{A})M=(8.67\\times10^{12}/6.02\\times10^{23})(99\\ \\mathrm{g/mol})=1.43\\times10^{-9}\\ \\mathrm{g}$."
+      ]
+    },
+    "sec-6:exr-34": {
+      "drop": true
+    }
+  }
 }

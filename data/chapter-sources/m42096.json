@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "As discussed in Physical Quantities and Units , the most fundamental physical quantities are defined by how they are measured. This is the case with time. Every measurement of time involves measuring a change in some physical quantity. It may be a number on a digital clock, a heartbeat, or the position of the Sun in the sky. In physics, the definition of time is simple— time is *change* , or the interval over which change occurs. It is impossible to know that time has passed unless something changes.",
+        "text": "As discussed in Physical Quantities and Units, the most fundamental physical quantities are defined by how they are measured. This is the case with time. Every measurement of time involves measuring a change in some physical quantity. It may be a number on a digital clock, a heartbeat, or the position of the Sun in the sky. In physics, the definition of time is simple— time is *change*, or the interval over which change occurs. It is impossible to know that time has passed unless something changes.",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "How does time relate to motion? We are usually interested in elapsed time for a particular motion, such as how long it takes an airplane passenger to get from his seat to the back of the plane. To find elapsed time, we note the time at the beginning and end of the motion and subtract the two. For example, a lecture may start at 11:00 *A.M.* and end at 11:50 *A.M.* , so that the elapsed time would be 50 min. Elapsed time *$Δt$* is the difference between the ending time and beginning time,",
+        "text": "How does time relate to motion? We are usually interested in elapsed time for a particular motion, such as how long it takes an airplane passenger to get from his seat to the back of the plane. To find elapsed time, we note the time at the beginning and end of the motion and subtract the two. For example, a lecture may start at 11:00 *A.M.* and end at 11:50 *A.M.*, so that the elapsed time would be 50 min. Elapsed time *$Δt$* is the difference between the ending time and beginning time, $Δt={t}_{f}-{t}_{0},$",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "where $Δt$ is the change in time or elapsed time, ${t}_{f}$ is the time at the end of the motion, and ${t}_{0}$ is the time at the beginning of the motion. (As usual, the delta symbol, $Δ$ , means the change in the quantity that follows it.)",
+        "text": "where $Δt$ is the change in time or elapsed time, ${t}_{f}$ is the time at the end of the motion, and ${t}_{0}$ is the time at the beginning of the motion. (As usual, the delta symbol, $Δ$, means the change in the quantity that follows it.)",
         "inline": []
       },
       "level": "core"
@@ -98,7 +98,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "Life is simpler if the beginning time ${t}_{0}$ is taken to be zero, as when we use a stopwatch. If we were using a stopwatch, it would simply read zero at the start of the lecture and 50 min at the end. If ${t}_{0}=0$ , then $Δt={t}_{f}≡t$ .",
+        "text": "Life is simpler if the beginning time ${t}_{0}$ is taken to be zero, as when we use a stopwatch. If we were using a stopwatch, it would simply read zero at the start of the lecture and 50 min at the end. If ${t}_{0}=0$, then $Δt={t}_{f}≡t$.",
         "inline": []
       },
       "level": "core"
@@ -134,7 +134,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Average velocity is *displacement (change in position) divided by the time of travel* ,",
+        "text": "Average velocity is *displacement (change in position) divided by the time of travel*, $v-=\\frac{Δx}{Δt}=\\frac{{x}_{f}-{x}_{0}}{{t}_{f}-{t}_{0}},$",
         "inline": []
       },
       "level": "core"
@@ -143,7 +143,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "where $v-$ is the *average* (indicated by the bar over the $v$ ) velocity, $Δx$ is the change in position (or displacement), and ${x}_{f}$ and ${x}_{0}$ are the final and beginning positions at times ${t}_{f}$ and ${t}_{0}$ , respectively. If the starting time ${t}_{0}$ is taken to be zero, then the average velocity is simply",
+        "text": "where $v-$ is the *average* (indicated by the bar over the $v$) velocity, $Δx$ is the change in position (or displacement), and ${x}_{f}$ and ${x}_{0}$ are the final and beginning positions at times ${t}_{f}$ and ${t}_{0}$, respectively. If the starting time ${t}_{0}$ is taken to be zero, then the average velocity is simply $v-=\\frac{Δx}{t}.$",
         "inline": []
       },
       "level": "core"
@@ -152,7 +152,7 @@
       "id": "p-15",
       "type": "paragraph",
       "content": {
-        "text": "Notice that this definition indicates that *velocity is a vector because displacement is a vector* . It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be",
+        "text": "Notice that this definition indicates that *velocity is a vector because displacement is a vector*. It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be $v-=\\frac{Δx}{t}=\\frac{-4 m}{5 s}=-0.8 m/s.$",
         "inline": []
       },
       "level": "core"
@@ -192,7 +192,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the *instantaneous velocity* or the *velocity at a specific instant* . A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) Instantaneous velocity $v$ is the average velocity at a specific instant in time (or over an infinitesimally small time interval).",
+        "text": "The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the *instantaneous velocity* or the *velocity at a specific instant*. A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) Instantaneous velocity $v$ is the average velocity at a specific instant in time (or over an infinitesimally small time interval).",
         "inline": []
       },
       "level": "core"
@@ -201,7 +201,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "Mathematically, finding instantaneous velocity, $v$ , at a precise instant $t$ can involve taking a limit, a calculus operation beyond the scope of this text. However, under many circumstances, we can find precise values for instantaneous velocity without calculus.",
+        "text": "Mathematically, finding instantaneous velocity, $v$, at a precise instant $t$ can involve taking a limit, a calculus operation beyond the scope of this text. However, under many circumstances, we can find precise values for instantaneous velocity without calculus.",
         "inline": []
       },
       "level": "core"
@@ -219,7 +219,7 @@
       "id": "p-22",
       "type": "paragraph",
       "content": {
-        "text": "In everyday language, most people use the terms “speed” and “velocity” interchangeably. In physics, however, they do not have the same meaning and they are distinct concepts. One major difference is that speed has no direction. Thus *speed is a scalar* . Just as we need to distinguish between instantaneous velocity and average velocity, we also need to distinguish between instantaneous speed and average speed.",
+        "text": "In everyday language, most people use the terms “speed” and “velocity” interchangeably. In physics, however, they do not have the same meaning and they are distinct concepts. One major difference is that speed has no direction. Thus *speed is a scalar*. Just as we need to distinguish between instantaneous velocity and average velocity, we also need to distinguish between instantaneous speed and average speed.",
         "inline": []
       },
       "level": "core"
@@ -259,7 +259,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in . (Note that these graphs depict a very simplified model of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)",
+        "text": "Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in the figure. (Note that these graphs depict a very simplified model of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A group of students has two carts, *A* and *B* , with wheels that turn with negligible friction. The two carts travel along a straight horizontal track and eventually collide. Before the collision, cart *A* travels to the right and cart *B* is initially at rest. After the collision, the carts stick together. Describe an experimental procedure to determine the velocities of the carts before and after the collision, including all the additional equipment you would need. You may include a labeled diagram of your setup to help in your description. Indicate what measurements you would take and how you would take them. Include enough detail so that another student could carry out your procedure.; There will be sources of error in the measurements taken in the experiment both before and after the collision. Which velocity will be more greatly affected by this error: the velocity prior to the collision or the velocity after the collision? Or will both sets of data be affected equally? Justify your answer.",
+        "text": "A group of students has two carts, *A* and *B*, with wheels that turn with negligible friction. The two carts travel along a straight horizontal track and eventually collide. Before the collision, cart *A* travels to the right and cart *B* is initially at rest. After the collision, the carts stick together. Describe an experimental procedure to determine the velocities of the carts before and after the collision, including all the additional equipment you would need. You may include a labeled diagram of your setup to help in your description. Indicate what measurements you would take and how you would take them. Include enough detail so that another student could carry out your procedure.; There will be sources of error in the measurements taken in the experiment both before and after the collision. Which velocity will be more greatly affected by this error: the velocity prior to the collision or the velocity after the collision? Or will both sets of data be affected equally? Justify your answer.",
         "inline": []
       },
       "level": "core",
@@ -648,7 +648,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Tidal friction is slowing the rotation of the Earth. As a result, the orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year. Assuming this to be a constant rate, how many years will pass before the radius of the Moon’s orbit increases by $3.84×{10}^{6}m$ (1%)?",
+        "text": "Tidal friction is slowing the rotation of the Earth. As a result, the orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year. Assuming this to be a constant rate, how many years will pass before the radius of the Moon’s orbit increases by $3.84\\times {10}^{6} m$ (1%)?",
         "inline": []
       },
       "level": "core",
@@ -732,7 +732,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Conversations with astronauts on the lunar surface were characterized by a kind of echo in which the earthbound person’s voice was so loud in the astronaut’s space helmet that it was picked up by the astronaut’s microphone and transmitted back to Earth. It is reasonable to assume that the echo time equals the time necessary for the radio wave to travel from the Earth to the Moon and back (that is, neglecting any time delays in the electronic equipment). Calculate the distance from Earth to the Moon given that the echo time was 2.56 s and that radio waves travel at the speed of light $(3.00×{10}^{8}m/s)$ .",
+        "text": "Conversations with astronauts on the lunar surface were characterized by a kind of echo in which the earthbound person’s voice was so loud in the astronaut’s space helmet that it was picked up by the astronaut’s microphone and transmitted back to Earth. It is reasonable to assume that the echo time equals the time necessary for the radio wave to travel from the Earth to the Moon and back (that is, neglecting any time delays in the electronic equipment). Calculate the distance from Earth to the Moon given that the echo time was 2.56 s and that radio waves travel at the speed of light $(3.00\\times {10}^{8} m/s)$.",
         "inline": []
       },
       "level": "core",
@@ -777,7 +777,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The planetary model of the atom pictures electrons orbiting the atomic nucleus much as planets orbit the Sun. In this model you can view hydrogen, the simplest atom, as having a single electron in a circular orbit $1.06×{10}^{-10}m$ in diameter. (a) If the average speed of the electron in this orbit is known to be $2.20×{10}^{6}m/s$ , calculate the number of revolutions per second it makes about the nucleus. (b) What is the electron’s average velocity per revolution?",
+        "text": "The planetary model of the atom pictures electrons orbiting the atomic nucleus much as planets orbit the Sun. In this model you can view hydrogen, the simplest atom, as having a single electron in a circular orbit $1.06\\times {10}^{-10} m$ in diameter. (a) If the average speed of the electron in this orbit is known to be $2.20\\times {10}^{6} m/s$, calculate the number of revolutions per second it makes about the nucleus. (b) What is the electron’s average velocity per revolution?",
         "inline": []
       },
       "level": "core",

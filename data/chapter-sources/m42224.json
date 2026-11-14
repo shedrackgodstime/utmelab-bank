@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "The quantitative relationship between heat transfer and temperature change contains all three factors:",
+        "text": "The quantitative relationship between heat transfer and temperature change contains all three factors: $Q=mcΔT,$",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "where $Q$ is the symbol for heat transfer, $m$ is the mass of the substance, and $ΔT$ is the change in temperature. The symbol $c$ stands for specific heat and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by $1.00ºC$ . The specific heat $c$ is a property of the substance; its SI unit is $J/(kg\\cdot K)$ or $J/(kg⋅ºC).$ Recall that the temperature change $(ΔT)$ is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then *the unit of specific heat* is $kcal/(kg⋅ºC).$",
+        "text": "where $Q$ is the symbol for heat transfer, $m$ is the mass of the substance, and $ΔT$ is the change in temperature. The symbol $c$ stands for specific heat and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by $1.00ºC$. The specific heat $c$ is a property of the substance; its SI unit is $J/(kg\\cdot K)$ or $J/(kg⋅ºC).$ Recall that the temperature change $(ΔT)$ is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then *the unit of specific heat* is $kcal/(kg⋅ºC).$",
         "inline": []
       },
       "level": "core"
@@ -80,7 +80,7 @@
       "id": "p-7",
       "type": "paragraph",
       "content": {
-        "text": "Values of specific heat must generally be looked up in tables, because there is no simple way to calculate them. In general, the specific heat also depends on the temperature. lists representative values of specific heat for various substances. Except for gases, the temperature and volume dependence of the specific heat of most substances is weak. We see from this table that the specific heat of water is five times that of glass and ten times that of iron, which means that it takes five times as much heat to raise the temperature of water the same amount as for glass and ten times as much heat to raise the temperature of water as for iron. In fact, water has one of the largest specific heats of any material, which is important for sustaining life on Earth.",
+        "text": "Values of specific heat must generally be looked up in tables, because there is no simple way to calculate them. In general, the specific heat also depends on the temperature. The table lists representative values of specific heat for various substances. Except for gases, the temperature and volume dependence of the specific heat of most substances is weak. We see from this table that the specific heat of water is five times that of glass and ten times that of iron, which means that it takes five times as much heat to raise the temperature of water the same amount as for glass and ten times as much heat to raise the temperature of water as for iron. In fact, water has one of the largest specific heats of any material, which is important for sustaining life on Earth.",
         "inline": []
       },
       "level": "core"
@@ -104,7 +104,7 @@
       "id": "p-9",
       "type": "paragraph",
       "content": {
-        "text": "A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from $20.0ºC$ to $80.0ºC$ . (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?",
+        "text": "A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from $20.0ºC$ to $80.0ºC$. (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?",
         "inline": []
       },
       "level": "core"
@@ -113,7 +113,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The pan and the water are always at the same temperature. When you put the pan on the stove, the temperature of the water and the pan is increased by the same amount. We use the equation for the heat transfer for the given temperature change and mass of water and aluminum. The specific heat values for water and aluminum are given in .",
+        "text": "The pan and the water are always at the same temperature. When you put the pan on the stove, the temperature of the water and the pan is increased by the same amount. We use the equation for the heat transfer for the given temperature change and mass of water and aluminum. The specific heat values for water and aluminum are given in the table.",
         "inline": []
       },
       "level": "core"
@@ -131,7 +131,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "Thus, the amount of heat going into heating the pan is",
+        "text": "Thus, the amount of heat going into heating the pan is $\\frac{27.0 kJ}{89.8 kJ}\\times 100%=30.1%,$",
         "inline": []
       },
       "level": "core"
@@ -140,7 +140,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "and the amount going into heating the water is",
+        "text": "and the amount going into heating the water is $\\frac{62.8 kJ}{89.8 kJ}\\times 100%=69.9%.$",
         "inline": []
       },
       "level": "core"
@@ -213,7 +213,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "where $m$ is the mass of the brake material. Insert the values $m=100 kg$ and $c=800 J/(kg⋅ºC)$ to find",
+        "text": "where $m$ is the mass of the brake material. Insert the values $m=100 kg$ and $c=800 J/(kg⋅ºC)$ to find $ΔT=\\frac{(7.35\\times {10}^{6} J)}{(100 kg)(800 J/(kg⋅ºC))}=9.2ºC.$",
         "inline": []
       },
       "level": "core"
@@ -377,7 +377,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "Note that is an illustration of the mechanical equivalent of heat. Alternatively, the temperature increase could be produced by a blow torch instead of mechanically.",
+        "text": "Note that the example is an illustration of the mechanical equivalent of heat. Alternatively, the temperature increase could be produced by a blow torch instead of mechanically.",
         "inline": []
       },
       "level": "core"
@@ -401,7 +401,7 @@
       "id": "p-25",
       "type": "paragraph",
       "content": {
-        "text": "Suppose you pour 0.250 kg of $20.0ºC$ water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of $150ºC$ . Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?",
+        "text": "Suppose you pour 0.250 kg of $20.0ºC$ water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of $150ºC$. Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?",
         "inline": []
       },
       "level": "core"
@@ -410,7 +410,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The pan is placed on an insulated pad so that little heat transfer occurs with the surroundings. Originally the pan and water are not in thermal equilibrium: the pan is at a higher temperature than the water. Heat transfer then restores thermal equilibrium once the water and pan are in contact. Because heat transfer between the pan and water takes place rapidly, the mass of evaporated water is negligible and the magnitude of the heat lost by the pan is equal to the heat gained by the water. The exchange of heat stops once a thermal equilibrium between the pan and the water is achieved. The heat exchange can be written as $∣{Q}_{hot}∣={Q}_{cold}$ .",
+        "text": "The pan is placed on an insulated pad so that little heat transfer occurs with the surroundings. Originally the pan and water are not in thermal equilibrium: the pan is at a higher temperature than the water. Heat transfer then restores thermal equilibrium once the water and pan are in contact. Because heat transfer between the pan and water takes place rapidly, the mass of evaporated water is negligible and the magnitude of the heat lost by the pan is equal to the heat gained by the water. The exchange of heat stops once a thermal equilibrium between the pan and the water is achieved. The heat exchange can be written as $∣{Q}_{hot}∣={Q}_{cold}$.",
         "inline": []
       },
       "level": "core"
@@ -419,7 +419,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "and insert the numerical values:",
+        "text": "and insert the numerical values: ${T}_{f} = \\frac{(0.500 kg)(900 J/(kg⋅ºC))(150ºC)+(0.250 kg)(4186 J/(kg⋅ºC))(20.0ºC)}{(0.500 kg)(900 J/(kg⋅ºC))+(0.250 kg)(4186 J/(kg⋅ºC))} = \\frac{88430 J}{1496.5 J/ºC} = 59.1ºC.$",
         "inline": []
       },
       "level": "core"
@@ -428,7 +428,7 @@
       "id": "p-28",
       "type": "paragraph",
       "content": {
-        "text": "This is a typical *calorimetry* problem—two bodies at different temperatures are brought in contact with each other and exchange heat until a common temperature is reached. Why is the final temperature so much closer to $20.0ºC$ than $150ºC$ ? The reason is that water has a greater specific heat than most common substances and thus undergoes a small temperature change for a given heat transfer. A large body of water, such as a lake, requires a large amount of heat to increase its temperature appreciably. This explains why the temperature of a lake stays relatively constant during a day even when the temperature change of the air is large. However, the water temperature does change over longer times (e.g., summer to winter).",
+        "text": "This is a typical *calorimetry* problem—two bodies at different temperatures are brought in contact with each other and exchange heat until a common temperature is reached. Why is the final temperature so much closer to $20.0ºC$ than $150ºC$? The reason is that water has a greater specific heat than most common substances and thus undergoes a small temperature change for a given heat transfer. A large body of water, such as a lake, requires a large amount of heat to increase its temperature appreciably. This explains why the temperature of a lake stays relatively constant during a day even when the temperature change of the air is large. However, the water temperature does change over longer times (e.g., summer to winter).",
         "inline": []
       },
       "level": "core"
@@ -465,7 +465,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If 25 kJ is necessary to raise the temperature of a block from $25ºC$ to $30ºC$ , how much heat is necessary to heat the block from $45ºC$ to $50ºC$ ?",
+        "text": "If 25 kJ is necessary to raise the temperature of a block from $25ºC$ to $30ºC$, how much heat is necessary to heat the block from $45ºC$ to $50ºC$?",
         "inline": []
       },
       "level": "core",
@@ -537,7 +537,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The brakes in a car increase in temperature by $ΔT$ when bringing the car to rest from a speed $v$ . How much greater would $ΔT$ be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.",
+        "text": "The brakes in a car increase in temperature by $ΔT$ when bringing the car to rest from a speed $v$. How much greater would $ΔT$ be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.",
         "inline": []
       },
       "level": "core",
@@ -567,7 +567,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "On a hot day, the temperature of an 80,000-L swimming pool increases by $1.50ºC$ . What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.",
+        "text": "On a hot day, the temperature of an 80,000-L swimming pool increases by $1.50ºC$. What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.",
         "inline": []
       },
       "level": "core",
@@ -591,7 +591,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that $1cal/g\\cdot ºC=1kcal/kg\\cdot ºC$ .",
+        "text": "Show that $1 cal/g\\cdot ºC=1 kcal/kg\\cdot ºC$.",
         "inline": []
       },
       "level": "core",
@@ -612,7 +612,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "To sterilize a 50.0-g glass baby bottle, we must raise its temperature from $22.0ºC$ to $95.0ºC$ . How much heat transfer is required?",
+        "text": "To sterilize a 50.0-g glass baby bottle, we must raise its temperature from $22.0ºC$ to $95.0ºC$. How much heat transfer is required?",
         "inline": []
       },
       "level": "core",
@@ -636,7 +636,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at $20.0ºC$ : (a) water; (b) concrete; (c) steel; and (d) mercury.",
+        "text": "The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at $20.0ºC$: (a) water; (b) concrete; (c) steel; and (d) mercury.",
         "inline": []
       },
       "level": "core",
@@ -747,7 +747,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Following vigorous exercise, the body temperature of an 80.0-kg person is $40.0ºC$ . At what rate in watts must the person transfer thermal energy to reduce the the body temperature to $37.0ºC$ in 30.0 min, assuming the body continues to produce energy at the rate of 150 W? $(1 watt = 1 joule/second or 1 W = 1 J/s)$ .",
+        "text": "Following vigorous exercise, the body temperature of an 80.0-kg person is $40.0ºC$. At what rate in watts must the person transfer thermal energy to reduce the the body temperature to $37.0ºC$ in 30.0 min, assuming the body continues to produce energy at the rate of 150 W? $(1 watt = 1 joule/second or 1 W = 1 J/s)$.",
         "inline": []
       },
       "level": "core",
@@ -771,7 +771,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails (1 watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt). (a) Calculate the rate of temperature increase in degrees Celsius per second $(ºC/s)$ if the mass of the reactor core is $1.60×{10}^{5}kg$ and it has an average specific heat of $0.3349 kJ/kgº\\cdot C$ . (b) How long would it take to obtain a temperature increase of $2000ºC$ , which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the $5×{10}^{5}-kg$ steel containment vessel would also begin to heat up.)",
+        "text": "Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails (1 watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt). (a) Calculate the rate of temperature increase in degrees Celsius per second $(ºC/s)$ if the mass of the reactor core is $1.60\\times {10}^{5} kg$ and it has an average specific heat of $0.3349 kJ/kgº\\cdot C$. (b) How long would it take to obtain a temperature increase of $2000ºC$, which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the $5\\times {10}^{5}-kg$ steel containment vessel would also begin to heat up.)",
         "inline": []
       },
       "level": "core",

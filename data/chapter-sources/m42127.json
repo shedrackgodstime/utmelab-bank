@@ -62,7 +62,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "shows such a *graphical representation of a vector* , using as an example the total displacement for the person walking in a city considered in Kinematics in Two Dimensions: An Introduction . We shall use the notation that a boldface symbol, such as $D$ , stands for a vector. Its magnitude is represented by the symbol in italics, $D$ , and its direction by $θ$ .",
+        "text": "The figure shows such a *graphical representation of a vector*, using as an example the total displacement for the person walking in a city considered in Kinematics in Two Dimensions: An Introduction. We shall use the notation that a boldface symbol, such as $D$, stands for a vector. Its magnitude is represented by the symbol in italics, $D$, and its direction by $θ$.",
         "inline": []
       },
       "level": "core"
@@ -71,7 +71,7 @@
       "id": "p-6",
       "type": "paragraph",
       "content": {
-        "text": "In this text, we will represent a vector with a boldface variable. For example, we will represent the quantity force with the vector $F$ , which has both magnitude and direction. The magnitude of the vector will be represented by a variable in italics, such as $F$ , and the direction of the variable will be given by an angle $θ$ .",
+        "text": "In this text, we will represent a vector with a boldface variable. For example, we will represent the quantity force with the vector $F$, which has both magnitude and direction. The magnitude of the vector will be represented by a variable in italics, such as $F$, and the direction of the variable will be given by an angle $θ$.",
         "inline": []
       },
       "level": "core"
@@ -115,7 +115,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "The head-to-tail method is a graphical way to add vectors, described in below and in the steps following. The tail of the vector is the starting point of the vector, and the head (or tip) of a vector is the final, pointed end of the arrow.",
+        "text": "The head-to-tail method is a graphical way to add vectors, described in the figure below and in the steps following. The tail of the vector is the starting point of the vector, and the head (or tip) of a vector is the final, pointed end of the arrow.",
         "inline": []
       },
       "level": "core"
@@ -137,7 +137,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "**Step 1.** *Draw an arrow to represent the first vector (9 blocks to the east) using a ruler and protractor* .",
+        "text": "**Step 1.** *Draw an arrow to represent the first vector (9 blocks to the east) using a ruler and protractor*.",
         "inline": []
       },
       "level": "core"
@@ -159,7 +159,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "**Step 2.** Now draw an arrow to represent the second vector (5 blocks to the north). *Place the tail of the second vector at the head of the first vector* .",
+        "text": "**Step 2.** Now draw an arrow to represent the second vector (5 blocks to the north). *Place the tail of the second vector at the head of the first vector*.",
         "inline": []
       },
       "level": "core"
@@ -181,7 +181,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "**Step 3.** *If there are more than two vectors, continue this process for each vector to be added. Note that in our example, we have only two vectors, so we have finished placing arrows tip to tail* .",
+        "text": "**Step 3.** *If there are more than two vectors, continue this process for each vector to be added. Note that in our example, we have only two vectors, so we have finished placing arrows tip to tail*.",
         "inline": []
       },
       "level": "core"
@@ -190,7 +190,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "**Step 4.** *Draw an arrow from the tail of the first vector to the head of the last vector* . This is the resultant , or the sum, of the other vectors.",
+        "text": "**Step 4.** *Draw an arrow from the tail of the first vector to the head of the last vector*. This is the resultant, or the sum, of the other vectors.",
         "inline": []
       },
       "level": "core"
@@ -263,7 +263,7 @@
       "id": "p-24",
       "type": "paragraph",
       "content": {
-        "text": "Represent each displacement vector graphically with an arrow, labeling the first $A$ , the second $B$ , and the third $C$ , making the lengths proportional to the distance and the directions as specified relative to an east-west line. The head-to-tail method outlined above will give a way to determine the magnitude and direction of the resultant displacement, denoted $R$ .",
+        "text": "Represent each displacement vector graphically with an arrow, labeling the first $A$, the second $B$, and the third $C$, making the lengths proportional to the distance and the directions as specified relative to an east-west line. The head-to-tail method outlined above will give a way to determine the magnitude and direction of the resultant displacement, denoted $R$.",
         "inline": []
       },
       "level": "core"
@@ -316,7 +316,7 @@
       "id": "p-29",
       "type": "paragraph",
       "content": {
-        "text": "(3) Draw the resultant vector, $R$ .",
+        "text": "(3) Draw the resultant vector, $R$.",
         "inline": []
       },
       "level": "core"
@@ -338,7 +338,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "(4) Use a ruler to measure the magnitude of $R$ , and a protractor to measure the direction of $R$ . While the direction of the vector can be specified in many ways, the easiest way is to measure the angle between the vector and the nearest horizontal or vertical axis. Since the resultant vector is south of the eastward pointing axis, we flip the protractor upside down and measure the angle between the eastward axis and the vector.",
+        "text": "(4) Use a ruler to measure the magnitude of $R$, and a protractor to measure the direction of $R$. While the direction of the vector can be specified in many ways, the easiest way is to measure the angle between the vector and the nearest horizontal or vertical axis. Since the resultant vector is south of the eastward pointing axis, we flip the protractor upside down and measure the angle between the eastward axis and the vector.",
         "inline": []
       },
       "level": "core"
@@ -369,7 +369,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "The head-to-tail graphical method of vector addition works for any number of vectors. It is also important to note that the resultant is independent of the order in which the vectors are added. Therefore, we could add the vectors in any order as illustrated in and we will still get the same solution.",
+        "text": "The head-to-tail graphical method of vector addition works for any number of vectors. It is also important to note that the resultant is independent of the order in which the vectors are added. Therefore, we could add the vectors in any order as illustrated in the figure and we will still get the same solution.",
         "inline": []
       },
       "level": "core"
@@ -391,7 +391,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Here, we see that when the same vectors are added in a different order, the result is the same. This characteristic is true in every case and is an important characteristic of vectors. Vector addition is commutative . Vectors can be added in any order.",
+        "text": "Here, we see that when the same vectors are added in a different order, the result is the same. This characteristic is true in every case and is an important characteristic of vectors. Vector addition is commutative. Vectors can be added in any order. $A+B=B+A.$",
         "inline": []
       },
       "level": "core"
@@ -400,7 +400,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "(This is true for the addition of ordinary numbers as well—you get the same result whether you add $2+3$ or $3+2$ , for example).",
+        "text": "(This is true for the addition of ordinary numbers as well—you get the same result whether you add $2+3$ or $3+2$, for example).",
         "inline": []
       },
       "level": "core"
@@ -418,7 +418,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Vector subtraction is a straightforward extension of vector addition. To define subtraction (say we want to subtract $B$ from $A$ , written $A-B$ , we must first define what we mean by subtraction. The *negative* of a vector $B$ is defined to be $–B$ ; that is, graphically *the negative of any vector has the same magnitude but the opposite direction* , as shown in . In other words, $B$ has the same length as $–B$ , but points in the opposite direction. Essentially, we just flip the vector so it points in the opposite direction.",
+        "text": "Vector subtraction is a straightforward extension of vector addition. To define subtraction (say we want to subtract $B$ from $A$, written $A-B$, we must first define what we mean by subtraction. The *negative* of a vector $B$ is defined to be $–B$; that is, graphically *the negative of any vector has the same magnitude but the opposite direction*, as shown in the figure. In other words, $B$ has the same length as $–B$, but points in the opposite direction. Essentially, we just flip the vector so it points in the opposite direction.",
         "inline": []
       },
       "level": "core"
@@ -440,7 +440,7 @@
       "id": "p-41",
       "type": "paragraph",
       "content": {
-        "text": "The *subtraction* of vector $B$ from vector $A$ is then simply defined to be the addition of $–B$ to $A$ . Note that vector subtraction is the addition of a negative vector. The order of subtraction does not affect the results.",
+        "text": "The *subtraction* of vector $B$ from vector $A$ is then simply defined to be the addition of $–B$ to $A$. Note that vector subtraction is the addition of a negative vector. The order of subtraction does not affect the results. $A – B = A +(–B).$",
         "inline": []
       },
       "level": "core"
@@ -449,7 +449,7 @@
       "id": "p-42",
       "type": "paragraph",
       "content": {
-        "text": "This is analogous to the subtraction of scalars (where, for example, $5 – 2 = 5 +(–2)$ ). Again, the result is independent of the order in which the subtraction is made. When vectors are subtracted graphically, the techniques outlined above are used, as the following example illustrates.",
+        "text": "This is analogous to the subtraction of scalars (where, for example, $5 – 2 = 5 +(–2)$). Again, the result is independent of the order in which the subtraction is made. When vectors are subtracted graphically, the techniques outlined above are used, as the following example illustrates.",
         "inline": []
       },
       "level": "core"
@@ -495,7 +495,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "We can represent the first leg of the trip with a vector $A$ , and the second leg of the trip with a vector $B$ . The dock is located at a location $A+B$ . If the woman mistakenly travels in the *opposite* direction for the second leg of the journey, she will travel a distance $B$ (30.0 m) in the direction $180º-112º=68º$ south of east. We represent this as $–B$ , as shown below. The vector $–B$ has the same magnitude as $B$ but is in the opposite direction. Thus, she will end up at a location $A+(–B)$ , or $A-B$ .",
+        "text": "We can represent the first leg of the trip with a vector $A$, and the second leg of the trip with a vector $B$. The dock is located at a location $A+B$. If the woman mistakenly travels in the *opposite* direction for the second leg of the journey, she will travel a distance $B$ (30.0 m) in the direction $180º-112º=68º$ south of east. We represent this as $–B$, as shown below. The vector $–B$ has the same magnitude as $B$ but is in the opposite direction. Thus, she will end up at a location $A+(–B)$, or $A-B$.",
         "inline": []
       },
       "level": "core"
@@ -517,7 +517,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "We will perform vector addition to compare the location of the dock, $A+B$ , with the location at which the woman mistakenly arrives, $A +(–B)$ .",
+        "text": "We will perform vector addition to compare the location of the dock, $A+B$, with the location at which the woman mistakenly arrives, $A +(–B)$.",
         "inline": []
       },
       "level": "core"
@@ -526,7 +526,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "(1) To determine the location at which the woman arrives by accident, draw vectors $A$ and $–B$ .",
+        "text": "(1) To determine the location at which the woman arrives by accident, draw vectors $A$ and $–B$.",
         "inline": []
       },
       "level": "core"
@@ -544,7 +544,7 @@
       "id": "p-51",
       "type": "paragraph",
       "content": {
-        "text": "(3) Draw the resultant vector $R$ .",
+        "text": "(3) Draw the resultant vector $R$.",
         "inline": []
       },
       "level": "core"
@@ -553,7 +553,7 @@
       "id": "p-52",
       "type": "paragraph",
       "content": {
-        "text": "(4) Use a ruler and protractor to measure the magnitude and direction of $R$ .",
+        "text": "(4) Use a ruler and protractor to measure the magnitude and direction of $R$.",
         "inline": []
       },
       "level": "core"
@@ -584,7 +584,7 @@
       "id": "p-55",
       "type": "paragraph",
       "content": {
-        "text": "(5) To determine the location of the dock, we repeat this method to add vectors $A$ and $B$ . We obtain the resultant vector $R'$ :",
+        "text": "(5) To determine the location of the dock, we repeat this method to add vectors $A$ and $B$. We obtain the resultant vector $R'$:",
         "inline": []
       },
       "level": "core"
@@ -642,7 +642,7 @@
       "id": "p-61",
       "type": "paragraph",
       "content": {
-        "text": "If we decided to walk three times as far on the first leg of the trip considered in the preceding example, then we would walk $3×27.5 m$ , or 82.5 m, in a direction $66.0º$ north of east. This is an example of multiplying a vector by a positive scalar . Notice that the magnitude changes, but the direction stays the same.",
+        "text": "If we decided to walk three times as far on the first leg of the trip considered in the preceding example, then we would walk $3\\times 27.5 m$, or 82.5 m, in a direction $66.0º$ north of east. This is an example of multiplying a vector by a positive scalar. Notice that the magnitude changes, but the direction stays the same.",
         "inline": []
       },
       "level": "core"
@@ -651,7 +651,7 @@
       "id": "p-62",
       "type": "paragraph",
       "content": {
-        "text": "If the scalar is negative, then multiplying a vector by it changes the vector’s magnitude and gives the new vector the *opposite* direction. For example, if you multiply by –2, the magnitude doubles but the direction changes. We can summarize these rules in the following way: When vector $A$ is multiplied by a scalar $c$ ,",
+        "text": "If the scalar is negative, then multiplying a vector by it changes the vector’s magnitude and gives the new vector the *opposite* direction. For example, if you multiply by –2, the magnitude doubles but the direction changes. We can summarize these rules in the following way: When vector $A$ is multiplied by a scalar $c$,",
         "inline": []
       },
       "level": "core"
@@ -660,7 +660,7 @@
       "id": "p-63",
       "type": "paragraph",
       "content": {
-        "text": "In our case, $c=3$ and $A=27.5 m$ . Vectors are multiplied by scalars in many situations. Note that division is the inverse of multiplication. For example, dividing by 2 is the same as multiplying by the value (1/2). The rules for multiplication of vectors by scalars are the same for division; simply treat the divisor as a scalar between 0 and 1.",
+        "text": "In our case, $c=3$ and $A=27.5 m$. Vectors are multiplied by scalars in many situations. Note that division is the inverse of multiplication. For example, dividing by 2 is the same as multiplying by the value (1/2). The rules for multiplication of vectors by scalars are the same for division; simply treat the divisor as a scalar between 0 and 1.",
         "inline": []
       },
       "level": "core"
@@ -687,7 +687,7 @@
       "id": "p-66",
       "type": "paragraph",
       "content": {
-        "text": "For example, we may know that the total displacement of a person walking in a city is 10.3 blocks in a direction $29.0º$ north of east and want to find out how many blocks east and north had to be walked. This method is called *finding the components (or parts)* of the displacement in the east and north directions, and it is the inverse of the process followed to find the total displacement. It is one example of finding the components of a vector. There are many applications in physics where this is a useful thing to do. We will see this soon in Projectile Motion , and much more when we cover *forces* in Dynamics: Newton’s Laws of Motion . Most of these involve finding components along perpendicular axes (such as north and east), so that right triangles are involved. The analytical techniques presented in Vector Addition and Subtraction: Analytical Methods are ideal for finding vector components.",
+        "text": "For example, we may know that the total displacement of a person walking in a city is 10.3 blocks in a direction $29.0º$ north of east and want to find out how many blocks east and north had to be walked. This method is called *finding the components (or parts)* of the displacement in the east and north directions, and it is the inverse of the process followed to find the total displacement. It is one example of finding the components of a vector. There are many applications in physics where this is a useful thing to do. We will see this soon in Projectile Motion, and much more when we cover *forces* in Dynamics: Newton’s Laws of Motion. Most of these involve finding components along perpendicular axes (such as north and east), so that right triangles are involved. The analytical techniques presented in Vector Addition and Subtraction: Analytical Methods are ideal for finding vector components.",
         "inline": []
       },
       "level": "core"
@@ -705,7 +705,7 @@
       "id": "p-68",
       "type": "paragraph",
       "content": {
-        "text": "Click to view content .",
+        "text": "Click to view content.",
         "inline": []
       },
       "level": "core"
@@ -999,7 +999,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "If an airplane pilot is told to fly 123 km in a straight line to get from San Francisco to Sacramento, explain why he could end up anywhere on the circle shown in . What other information would he need to get to Sacramento?",
+        "text": "If an airplane pilot is told to fly 123 km in a straight line to get from San Francisco to Sacramento, explain why he could end up anywhere on the circle shown in the figure. What other information would he need to get to Sacramento?",
         "inline": []
       },
       "level": "core",
@@ -1160,7 +1160,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the following for path B in : (a) the total distance traveled, and (b) the magnitude and direction of the displacement from start to finish.",
+        "text": "Find the following for path A in the figure: (a) the total distance traveled, and (b) the magnitude and direction of the displacement from start to finish.",
         "inline": []
       },
       "level": "core",
@@ -1181,7 +1181,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the north and east components of the displacement for the hikers shown in .",
+        "text": "Find the north and east components of the displacement for the hikers shown in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1248,7 +1248,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you first walk 12.0 m in a direction $20º$ west of north and then 20.0 m in a direction $40.0º$ south of west. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position? (If you represent the two legs of the walk as vector displacements $A$ and $B$ , as in , then this problem finds their sum $R = A + B$ .)",
+        "text": "Suppose you first walk 12.0 m in a direction $20º$ west of north and then 20.0 m in a direction $40.0º$ south of west. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position? (If you represent the two legs of the walk as vector displacements $A$ and $B$, as in the figure, then this problem finds their sum $R = A + B$.)",
         "inline": []
       },
       "level": "core",
@@ -1294,7 +1294,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Repeat the problem above, but reverse the order of the two legs of the walk; show that you get the same final result. That is, you first walk leg $B$ , which is 20.0 m in a direction exactly $40º$ south of west, and then leg $A$ , which is 12.0 m in a direction exactly $20º$ west of north. (This problem shows that $A+B=B+A$ .)",
+        "text": "Repeat the problem above, but reverse the order of the two legs of the walk; show that you get the same final result. That is, you first walk leg $B$, which is 20.0 m in a direction exactly $40º$ south of west, and then leg $A$, which is 12.0 m in a direction exactly $20º$ west of north. (This problem shows that $A+B=B+A$.)",
         "inline": []
       },
       "level": "core",
@@ -1315,7 +1315,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Repeat the problem two problems prior, but for the second leg you walk 20.0 m in a direction $40.0º$ north of east, (which is equivalent to subtracting $B$ from $A$ —that is, finding $R′=A-B$ ). (b) Repeat the problem two problems prior, but now you first walk 20.0 m in a direction $40.0º$ east of south (which is equivalent to subtracting $A$ from $B$ —that is, to finding $R′′=B-A=-R′$ ). Show that this is the case.",
+        "text": "(a) Repeat the problem two problems prior, but for the second leg you walk 20.0 m in a direction $40.0º$ north of east, (which is equivalent to subtracting $B$ from $A$ —that is, finding $R′=A-B$). (b) Repeat the problem two problems prior, but now you first walk 20.0 m in a direction $40.0º$ east of south (which is equivalent to subtracting $A$ from $B$ —that is, to finding $R′′=B-A=-R′$). Show that this is the case.",
         "inline": []
       },
       "level": "core",
@@ -1357,7 +1357,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that the *order* of addition of three vectors does not affect their sum. Show this property by choosing any three vectors $A$ , $B$ , and $C$ , all having different lengths and directions. Find the sum $A + B + C$ then find their sum when added in a different order and show the result is the same. (There are five other orders in which $A$ , $B$ , and $C$ can be added; choose only one.)",
+        "text": "Show that the *order* of addition of three vectors does not affect their sum. Show this property by choosing any three vectors $A$, $B$, and $C$, all having different lengths and directions. Find the sum $A + B + C$ then find their sum when added in a different order and show the result is the same. (There are five other orders in which $A$, $B$, and $C$ can be added; choose only one.)",
         "inline": []
       },
       "level": "core",
@@ -1378,7 +1378,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Show that the sum of the vectors discussed in gives the result shown in .",
+        "text": "Show that the sum of the vectors discussed in the example gives the result shown in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1445,7 +1445,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the components of ${v}_{tot}$ along the *x* - and *y* -axes in .",
+        "text": "Find the components of ${v}_{tot}$ along the *x* - and *y* -axes in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1487,7 +1487,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Find the components of ${v}_{tot}$ along a set of perpendicular axes rotated $30º$ counterclockwise relative to those in .",
+        "text": "Find the components of ${v}_{tot}$ along a set of perpendicular axes rotated $30º$ counterclockwise relative to those in the figure.",
         "inline": []
       },
       "level": "core",

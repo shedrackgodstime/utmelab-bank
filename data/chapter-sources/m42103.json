@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "First note that graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against one another in such a graph, the horizontal axis is usually considered to be an independent variable and the vertical axis a dependent variable . If we call the horizontal axis the $x$ -axis and the vertical axis the $y$ -axis, as in , a straight-line graph has the general form",
+        "text": "First note that graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against one another in such a graph, the horizontal axis is usually considered to be an independent variable and the vertical axis a dependent variable. If we call the horizontal axis the $x$ -axis and the vertical axis the $y$ -axis, as in the figure, a straight-line graph has the general form $y=mx+b.$",
         "inline": []
       },
       "level": "core"
@@ -58,7 +58,7 @@
       "id": "p-5",
       "type": "paragraph",
       "content": {
-        "text": "Here $m$ is the slope , defined to be the rise divided by the run (as seen in the figure) of the straight line. The letter $b$ is used for the *y* -intercept , which is the point at which the line crosses the vertical axis.",
+        "text": "Here $m$ is the slope, defined to be the rise divided by the run (as seen in the figure) of the straight line. The letter $b$ is used for the *y* -intercept, which is the point at which the line crosses the vertical axis.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Time is usually an independent variable that other quantities, such as position, depend upon. A graph of position versus time would, thus, have $x$ on the vertical axis and $t$ on the horizontal axis. is just such a straight-line graph. It shows a graph of position versus time for a jet-powered car on a very flat dry lake bed in Nevada.",
+        "text": "Time is usually an independent variable that other quantities, such as position, depend upon. A graph of position versus time would, thus, have $x$ on the vertical axis and $t$ on the horizontal axis. The figure is just such a straight-line graph. It shows a graph of position versus time for a jet-powered car on a very flat dry lake bed in Nevada.",
         "inline": []
       },
       "level": "core"
@@ -111,7 +111,7 @@
       "id": "p-10",
       "type": "paragraph",
       "content": {
-        "text": "Using the relationship between dependent and independent variables, we see that the slope in the graph above is average velocity $v-$ and the intercept is position at time zero—that is, ${x}_{0}$ . Substituting these symbols into $y=mx+b$ gives",
+        "text": "Using the relationship between dependent and independent variables, we see that the slope in the graph above is average velocity $v-$ and the intercept is position at time zero—that is, ${x}_{0}$. Substituting these symbols into $y=mx+b$ gives $x=v-t+{x}_{0}$",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "The slope of the graph of position $x$ vs. time $t$ is velocity $v$ .",
+        "text": "The slope of the graph of position $x$ vs. time $t$ is velocity $v$. $slope=\\frac{Δx}{Δt}=v$",
         "inline": []
       },
       "level": "core"
@@ -138,7 +138,7 @@
       "id": "p-13",
       "type": "paragraph",
       "content": {
-        "text": "Notice that this equation is the same as that derived algebraically from other motion equations in Motion Equations for Constant Acceleration in One Dimension .",
+        "text": "Notice that this equation is the same as that derived algebraically from other motion equations in Motion Equations for Constant Acceleration in One Dimension.",
         "inline": []
       },
       "level": "core"
@@ -171,7 +171,7 @@
       "id": "p-16",
       "type": "paragraph",
       "content": {
-        "text": "Find the average velocity of the car whose position is graphed in .",
+        "text": "Find the average velocity of the car whose position is graphed in the figure.",
         "inline": []
       },
       "level": "core"
@@ -180,7 +180,7 @@
       "id": "p-17",
       "type": "paragraph",
       "content": {
-        "text": "The slope of a graph of $x$ vs. $t$ is average velocity, since slope equals rise over run. In this case, rise = change in position and run = change in time, so that",
+        "text": "The slope of a graph of $x$ vs. $t$ is average velocity, since slope equals rise over run. In this case, rise = change in position and run = change in time, so that $slope=\\frac{Δx}{Δt}=v-.$",
         "inline": []
       },
       "level": "core"
@@ -207,7 +207,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "2. Substitute the $x$ and $t$ values of the chosen points into the equation. Remember in calculating change $(Δ)$ we always use final value minus initial value.",
+        "text": "2. Substitute the $x$ and $t$ values of the chosen points into the equation. Remember in calculating change $(Δ)$ we always use final value minus initial value. $v-=\\frac{Δx}{Δt}=\\frac{2000 m-525 m}{6.4 s-0.50 s},$",
         "inline": []
       },
       "level": "core"
@@ -234,7 +234,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "The graphs in below represent the motion of the jet-powered car as it accelerates toward its top speed, but only during the time when its acceleration is constant. Time starts at zero for this motion (as if measured with a stopwatch), and the position and velocity are initially 200 m and 15 m/s, respectively.",
+        "text": "The graphs in the figure below represent the motion of the jet-powered car as it accelerates toward its top speed, but only during the time when its acceleration is constant. Time starts at zero for this motion (as if measured with a stopwatch), and the position and velocity are initially 200 m and 15 m/s, respectively.",
         "inline": []
       },
       "level": "core"
@@ -269,7 +269,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The graph of position versus time in (a) is a curve rather than a straight line. The slope of the curve becomes steeper as time progresses, showing that the velocity is increasing over time. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line tangent to the curve at the point of interest and taking the slope of this straight line. Tangent lines are shown for two points in (a). If this is done at every point on the curve and the values are plotted against time, then the graph of velocity versus time shown in (b) is obtained. Furthermore, the slope of the graph of velocity versus time is acceleration, which is shown in (c).",
+        "text": "The graph of position versus time in the figure (a) is a curve rather than a straight line. The slope of the curve becomes steeper as time progresses, showing that the velocity is increasing over time. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line tangent to the curve at the point of interest and taking the slope of this straight line. Tangent lines are shown for two points in the figure (a). If this is done at every point on the curve and the values are plotted against time, then the graph of velocity versus time shown in the figure (b) is obtained. Furthermore, the slope of the graph of velocity versus time is acceleration, which is shown in the figure (c).",
         "inline": []
       },
       "level": "core"
@@ -315,7 +315,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "The slope of a curve at a point is equal to the slope of a straight line tangent to the curve at that point. This principle is illustrated in , where Q is the point at $t=25 s$ .",
+        "text": "The slope of a curve at a point is equal to the slope of a straight line tangent to the curve at that point. This principle is illustrated in the figure, where Q is the point at $t=25 s$.",
         "inline": []
       },
       "level": "core"
@@ -324,7 +324,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "1. Find the tangent line to the curve at $t=25 s$ .",
+        "text": "1. Find the tangent line to the curve at $t=25 s$.",
         "inline": []
       },
       "level": "core"
@@ -342,7 +342,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "3. Plug these endpoints into the equation to solve for the slope, *$v$* .",
+        "text": "3. Plug these endpoints into the equation to solve for the slope, *$v$*. $slope={v}_{Q}=\\frac{{Δx}_{Q}}{{Δt}_{Q}}=\\frac{(3120 m-1300 m)}{(32 s-19 s)}$",
         "inline": []
       },
       "level": "core"
@@ -351,7 +351,7 @@
       "id": "p-34",
       "type": "paragraph",
       "content": {
-        "text": "This is the value given in this figure’s table for $v$ at $t=25 s$ . The value of 140 m/s for ${v}_{Q}$ is plotted in . The entire graph of $v$ vs. $t$ can be obtained in this fashion.",
+        "text": "This is the value given in this figure’s table for $v$ at $t=25 s$. The value of 140 m/s for ${v}_{Q}$ is plotted in the figure. The entire graph of $v$ vs. $t$ can be obtained in this fashion.",
         "inline": []
       },
       "level": "core"
@@ -360,7 +360,7 @@
       "id": "p-35",
       "type": "paragraph",
       "content": {
-        "text": "Carrying this one step further, we note that the slope of a velocity versus time graph is acceleration. Slope is rise divided by run; on a $v$ vs. $t$ graph, rise = change in velocity $Δv$ and run = change in time $Δt$ .",
+        "text": "Carrying this one step further, we note that the slope of a velocity versus time graph is acceleration. Slope is rise divided by run; on a $v$ vs. $t$ graph, rise = change in velocity $Δv$ and run = change in time $Δt$.",
         "inline": []
       },
       "level": "core"
@@ -369,7 +369,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "The slope of a graph of velocity $v$ vs. time $t$ is acceleration $a$ *.*",
+        "text": "The slope of a graph of velocity $v$ vs. time $t$ is acceleration $a$ *.* $slope=\\frac{Δv}{Δt}=a$",
         "inline": []
       },
       "level": "core"
@@ -378,7 +378,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Since the velocity versus time graph in (b) is a straight line, its slope is the same everywhere, implying that acceleration is constant. Acceleration versus time is graphed in (c).",
+        "text": "Since the velocity versus time graph in the figure (b) is a straight line, its slope is the same everywhere, implying that acceleration is constant. Acceleration versus time is graphed in the figure (c).",
         "inline": []
       },
       "level": "core"
@@ -387,7 +387,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Additional general information can be obtained from and the expression for a straight line, $y=mx+b$ .",
+        "text": "Additional general information can be obtained from the figure and the expression for a straight line, $y=mx+b$.",
         "inline": []
       },
       "level": "core"
@@ -396,7 +396,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "In this case, the vertical axis $y$ is $V$ , the intercept $b$ is ${v}_{0}$ , the slope $m$ is $a$ , and the horizontal axis $x$ is $t$ . Substituting these symbols yields",
+        "text": "In this case, the vertical axis $y$ is $V$, the intercept $b$ is ${v}_{0}$, the slope $m$ is $a$, and the horizontal axis $x$ is $t$. Substituting these symbols yields $v={v}_{0}+at.$",
         "inline": []
       },
       "level": "core"
@@ -405,7 +405,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "A general relationship for velocity, acceleration, and time has again been obtained from a graph. Notice that this equation was also derived algebraically from other motion equations in Motion Equations for Constant Acceleration in One Dimension .",
+        "text": "A general relationship for velocity, acceleration, and time has again been obtained from a graph. Notice that this equation was also derived algebraically from other motion equations in Motion Equations for Constant Acceleration in One Dimension.",
         "inline": []
       },
       "level": "core"
@@ -432,7 +432,7 @@
       "id": "p-43",
       "type": "paragraph",
       "content": {
-        "text": "Now consider the motion of the jet car as it goes from 165 m/s to its top velocity of 250 m/s, graphed in . Time again starts at zero, and the initial velocity is 165 m/s. (This was the final velocity of the car in the motion graphed in .) Acceleration gradually decreases from $5.{0 m/s}^{2}$ to zero when the car hits 250 m/s. The velocity increases until 55 s and then becomes constant, since acceleration decreases to zero at 55 s and remains zero afterward.",
+        "text": "Now consider the motion of the jet car as it goes from 165 m/s to its top velocity of 250 m/s, graphed in the figure. Time again starts at zero, and the initial velocity is 165 m/s. (This was the final velocity of the car in the motion graphed in the figure.) Acceleration gradually decreases from $5.{0 m/s}^{2}$ to zero when the car hits 250 m/s. The velocity increases until 55 s and then becomes constant, since acceleration decreases to zero at 55 s and remains zero afterward.",
         "inline": []
       },
       "level": "core"
@@ -469,7 +469,7 @@
       "id": "p-46",
       "type": "paragraph",
       "content": {
-        "text": "Calculate the acceleration of the jet car at a time of 25 s by finding the slope of the $v$ vs. $t$ graph in (a).",
+        "text": "Calculate the acceleration of the jet car at a time of 25 s by finding the slope of the $v$ vs. $t$ graph in the figure (a).",
         "inline": []
       },
       "level": "core"
@@ -478,7 +478,7 @@
       "id": "p-47",
       "type": "paragraph",
       "content": {
-        "text": "The slope of the curve at $t=25 s$ is equal to the slope of the line tangent at that point, as illustrated in (a).",
+        "text": "The slope of the curve at $t=25 s$ is equal to the slope of the line tangent at that point, as illustrated in the figure (a).",
         "inline": []
       },
       "level": "core"
@@ -487,7 +487,7 @@
       "id": "p-48",
       "type": "paragraph",
       "content": {
-        "text": "Determine endpoints of the tangent line from the figure, and then plug them into the equation to solve for slope, $a$ .",
+        "text": "Determine endpoints of the tangent line from the figure, and then plug them into the equation to solve for slope, $a$. $slope=\\frac{Δv}{Δt}=\\frac{(260 m/s-210 m/s)}{(51 s-1.0 s)}$ $a=\\frac{50 m/s}{50 s}=1.0 m{/s}^{2}.$",
         "inline": []
       },
       "level": "core"
@@ -496,7 +496,7 @@
       "id": "p-49",
       "type": "paragraph",
       "content": {
-        "text": "Note that this value for $a$ is consistent with the value plotted in (b) at $t=25 s$ .",
+        "text": "Note that this value for $a$ is consistent with the value plotted in the figure (b) at $t=25 s$.",
         "inline": []
       },
       "level": "core"
@@ -601,7 +601,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Explain how you can use the graph of position versus time in to describe the change in velocity over time. Identify (b) the time ( ${t}_{a}$ , ${t}_{b}$ , ${t}_{c}$ , ${t}_{d}$ , or ${t}_{e}$ ) at which the instantaneous velocity is greatest, (c) the time at which it is zero, and (d) the time at which it is negative.",
+        "text": "(a) Explain how you can use the graph of position versus time in the figure to describe the change in velocity over time. Identify (b) the time (${t}_{a}$, ${t}_{b}$, ${t}_{c}$, ${t}_{d}$, or ${t}_{e}$) at which the instantaneous velocity is greatest, (c) the time at which it is zero, and (d) the time at which it is negative.",
         "inline": []
       },
       "level": "core",
@@ -635,7 +635,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Sketch a graph of velocity versus time corresponding to the graph of position versus time given in . (b) Identify the time or times ( ${t}_{a}$ , ${t}_{b}$ , ${t}_{c}$ , etc.) at which the instantaneous velocity is greatest. (c) At which times is it zero? (d) At which times is it negative?",
+        "text": "(a) Sketch a graph of velocity versus time corresponding to the graph of position versus time given in the figure. (b) Identify the time or times (${t}_{a}$, ${t}_{b}$, ${t}_{c}$, etc.) at which the instantaneous velocity is greatest. (c) At which times is it zero? (d) At which times is it negative?",
         "inline": []
       },
       "level": "core",
@@ -669,7 +669,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Explain how you can determine the acceleration over time from a velocity versus time graph such as the one in . (b) Based on the graph, how does acceleration change over time?",
+        "text": "(a) Explain how you can determine the acceleration over time from a velocity versus time graph such as the one in the figure. (b) Based on the graph, how does acceleration change over time?",
         "inline": []
       },
       "level": "core",
@@ -703,7 +703,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Sketch a graph of acceleration versus time corresponding to the graph of velocity versus time given in . (b) Identify the time or times ( ${t}_{a}$ , ${t}_{b}$ , ${t}_{c}$ , etc.) at which the acceleration is greatest. (c) At which times is it zero? (d) At which times is it negative?",
+        "text": "(a) Sketch a graph of acceleration versus time corresponding to the graph of velocity versus time given in the figure. (b) Identify the time or times (${t}_{a}$, ${t}_{b}$, ${t}_{c}$, etc.) at which the acceleration is greatest. (c) At which times is it zero? (d) At which times is it negative?",
         "inline": []
       },
       "level": "core",
@@ -737,7 +737,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Consider the velocity vs. time graph of a person in an elevator shown in . Suppose the elevator is initially at rest. It then accelerates for 3 seconds, maintains that velocity for 15 seconds, then decelerates for 5 seconds until it stops. The acceleration for the entire trip is not constant so we cannot use the equations of motion from Motion Equations for Constant Acceleration in One Dimension for the complete trip. (We could, however, use them in the three individual sections where acceleration is a constant.) Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.",
+        "text": "Consider the velocity vs. time graph of a person in an elevator shown in the figure. Suppose the elevator is initially at rest. It then accelerates for 3 seconds, maintains that velocity for 15 seconds, then decelerates for 5 seconds until it stops. The acceleration for the entire trip is not constant so we cannot use the equations of motion from Motion Equations for Constant Acceleration in One Dimension for the complete trip. (We could, however, use them in the three individual sections where acceleration is a constant.) Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this trip.",
         "inline": []
       },
       "level": "core",
@@ -810,7 +810,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) By taking the slope of the curve in , verify that the velocity of the jet car is 115 m/s at $t=20 s$ . (b) By taking the slope of the curve at any point in , verify that the jet car’s acceleration is $5.{0 m/s}^{2}$ .",
+        "text": "(a) By taking the slope of the curve in the figure, verify that the velocity of the jet car is 115 m/s at $t=20 s$. (b) By taking the slope of the curve at any point in the figure, verify that the jet car’s acceleration is $5.{0 m/s}^{2}$.",
         "inline": []
       },
       "level": "core",
@@ -860,7 +860,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Using approximate values, calculate the slope of the curve in to verify that the velocity at $t=10 s$ is approximately 0.21 m/s.",
+        "text": "(a) Using approximate values, calculate the slope of the curve in the figure to verify that the velocity at $t=10 s$ is approximately 0.21 m/s.",
         "inline": []
       },
       "level": "core",
@@ -881,7 +881,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Using approximate values, calculate the slope of the curve in at $t=10.0 s$ and at $t=30 s$ find the velocity at these times. (b) Using your answer to part a, find the approximate acceleration at $t=20 s$ . Assume all values are known to 2 significant figures.",
+        "text": "Using approximate values, calculate the slope of the curve in the figure at $t=10.0 s$ and at $t=30 s$ find the velocity at these times. (b) Using your answer to part a, find the approximate acceleration at $t=20 s$. Assume all values are known to 2 significant figures.",
         "inline": []
       },
       "level": "core",
@@ -918,7 +918,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "By taking the slope of the curve in , verify that the acceleration is $3.2 m{/s}^{2}$ at $t=10 s$ .",
+        "text": "By taking the slope of the curve in the figure, verify that the acceleration is $3.2 m{/s}^{2}$ at $t=10 s$.",
         "inline": []
       },
       "level": "core",
@@ -952,7 +952,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Construct the position graph for the subway shuttle train as shown in (a). Your graph should show the position of the train, in kilometers, from t = 0 to 20 s. You will need to use the information on acceleration and velocity given in the examples for this figure.",
+        "text": "Construct the position graph for the subway shuttle train as shown in the figure (a). Your graph should show the position of the train, in kilometers, from t = 0 to 20 s. You will need to use the information on acceleration and velocity given in the examples for this figure.",
         "inline": []
       },
       "level": "core",
@@ -973,7 +973,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Take the slope of the curve in to find the jogger’s velocity at $t=2.5 s$ . (b) Repeat at 7.5 s. These values must be consistent with the graph in .",
+        "text": "(a) Take the slope of the curve in the figure to find the jogger’s velocity at $t=2.5 s$. (b) Repeat at 7.5 s. These values must be consistent with the graph in the figure.",
         "inline": []
       },
       "level": "core",
@@ -1033,7 +1033,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A graph of $v(t)$ is shown for a world-class track sprinter in a 100-m race. (See ). (a) What is his average velocity for the first 4 s? (b) What is his instantaneous velocity at $t=5 s$ ? (c) What is his average acceleration between 0 and 4 s? (d) What is his time for the race?",
+        "text": "A graph of $v(t)$ is shown for a world-class track sprinter in a 100-m race. (See the figure). (a) What is his average velocity for the first 4 s? (b) What is his instantaneous velocity at $t=5 s$? (c) What is his average acceleration between 0 and 4 s? (d) What is his time for the race?",
         "inline": []
       },
       "level": "core",
@@ -1070,7 +1070,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "shows the position graph for a particle for 6 s. (a) Draw the corresponding Velocity vs. Time graph. (b) What is the acceleration between 0 s and 2 s? (c) What happens to the acceleration at exactly 2 s?",
+        "text": "The figure shows the position graph for a particle for 6 s. (a) Draw the corresponding Velocity vs. Time graph. (b) What is the acceleration between 0 s and 2 s? (c) What happens to the acceleration at exactly 2 s?",
         "inline": []
       },
       "level": "core",
@@ -1104,7 +1104,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Critical Thinking Two cars are side by side on a path where friction is negligible. Car A starts from rest and has a positive, constant acceleration while car B travels at a constant speed. The cars reach the same check point down the road at the same time. (a) Which car is traveling faster at the check point? Briefly explain your reasoning. (b) Based on experimental data, an equation that fits the data is suggested for the speed of car A at the check point, *V* , which may not be correct: $V=K{V}_{0}$ , where *K* is a constant with appropriate units and ${V}_{0}$ is the initial velocity of car B. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Graph the velocity of car A and the velocity of car B vs. distance along the path, starting when the cars are side by side.",
+        "text": "Critical Thinking Two cars are side by side on a path where friction is negligible. Car A starts from rest and has a positive, constant acceleration while car B travels at a constant speed. The cars reach the same check point down the road at the same time. (a) Which car is traveling faster at the check point? Briefly explain your reasoning. (b) Based on experimental data, an equation that fits the data is suggested for the speed of car A at the check point, *V*, which may not be correct: $V=K{V}_{0}$, where *K* is a constant with appropriate units and ${V}_{0}$ is the initial velocity of car B. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Graph the velocity of car A and the velocity of car B vs. distance along the path, starting when the cars are side by side.",
         "inline": []
       },
       "level": "core",

@@ -31,7 +31,7 @@
       "id": "p-2",
       "type": "paragraph",
       "content": {
-        "text": "It is easy to notice some odd things when looking into a fish tank. For example, you may see the same fish appearing to be in two different places. (See .) This is because light coming from the fish to us changes direction when it leaves the tank, and in this case, it can travel two different paths to get to our eyes. The changing of a light ray’s direction (loosely called bending) when it passes through variations in matter is called refraction . Refraction is responsible for a tremendous range of optical phenomena, from the action of lenses to voice transmission through optical fibers.",
+        "text": "It is easy to notice some odd things when looking into a fish tank. For example, you may see the same fish appearing to be in two different places. (See the figure.) This is because light coming from the fish to us changes direction when it leaves the tank, and in this case, it can travel two different paths to get to our eyes. The changing of a light ray’s direction (loosely called bending) when it passes through variations in matter is called refraction. Refraction is responsible for a tremendous range of optical phenomena, from the action of lenses to voice transmission through optical fibers.",
         "inline": []
       },
       "level": "core"
@@ -49,7 +49,7 @@
       "id": "p-4",
       "type": "paragraph",
       "content": {
-        "text": "The speed of light $c$ not only affects refraction, it is one of the central concepts of Einstein’s theory of relativity. As the accuracy of the measurements of the speed of light were improved, $c$ was found not to depend on the velocity of the source or the observer. However, the speed of light does vary in a precise manner with the material it traverses. These facts have far-reaching implications, as we will see in Special Relativity . It makes connections between space and time and alters our expectations that all observers measure the same time for the same event, for example. The speed of light is so important that its value in a vacuum is one of the most fundamental constants in nature as well as being one of the four fundamental SI units.",
+        "text": "The speed of light $c$ not only affects refraction, it is one of the central concepts of Einstein’s theory of relativity. As the accuracy of the measurements of the speed of light were improved, $c$ was found not to depend on the velocity of the source or the observer. However, the speed of light does vary in a precise manner with the material it traverses. These facts have far-reaching implications, as we will see in Special Relativity. It makes connections between space and time and alters our expectations that all observers measure the same time for the same event, for example. The speed of light is so important that its value in a vacuum is one of the most fundamental constants in nature as well as being one of the four fundamental SI units.",
         "inline": []
       },
       "level": "core"
@@ -89,7 +89,7 @@
       "id": "p-8",
       "type": "paragraph",
       "content": {
-        "text": "Early attempts to measure the speed of light, such as those made by Galileo, determined that light moved extremely fast, perhaps instantaneously. The first real evidence that light traveled at a finite speed came from the Danish astronomer Ole Roemer in the late 17th century. Roemer had noted that the average orbital period of one of Jupiter’s moons, as measured from Earth, varied depending on whether Earth was moving toward or away from Jupiter. He correctly concluded that the apparent change in period was due to the change in distance between Earth and Jupiter and the time it took light to travel this distance. From his 1676 data, a value of the speed of light was calculated to be $2.26×{10}^{8}m/s$ (only 25% different from today’s accepted value). In more recent times, physicists have measured the speed of light in numerous ways and with increasing accuracy. One particularly direct method, used in 1887 by the American physicist Albert Michelson (1852–1931), is illustrated in . Light reflected from a rotating set of mirrors was reflected from a stationary mirror 35 km away and returned to the rotating mirrors. The time for the light to travel can be determined by how fast the mirrors must rotate for the light to be returned to the observer’s eye.",
+        "text": "Early attempts to measure the speed of light, such as those made by Galileo, determined that light moved extremely fast, perhaps instantaneously. The first real evidence that light traveled at a finite speed came from the Danish astronomer Ole Roemer in the late 17th century. Roemer had noted that the average orbital period of one of Jupiter’s moons, as measured from Earth, varied depending on whether Earth was moving toward or away from Jupiter. He correctly concluded that the apparent change in period was due to the change in distance between Earth and Jupiter and the time it took light to travel this distance. From his 1676 data, a value of the speed of light was calculated to be $2.26\\times {10}^{8} m/s$ (only 25% different from today’s accepted value). In more recent times, physicists have measured the speed of light in numerous ways and with increasing accuracy. One particularly direct method, used in 1887 by the American physicist Albert Michelson (1852–1931), is illustrated in the figure. Light reflected from a rotating set of mirrors was reflected from a stationary mirror 35 km away and returned to the rotating mirrors. The time for the light to travel can be determined by how fast the mirrors must rotate for the light to be returned to the observer’s eye.",
         "inline": []
       },
       "level": "core"
@@ -120,7 +120,7 @@
       "id": "p-11",
       "type": "paragraph",
       "content": {
-        "text": "The speed of light is now known to great precision. In fact, the speed of light in a vacuum $c$ is so important that it is accepted as one of the basic physical quantities and has the fixed value",
+        "text": "The speed of light is now known to great precision. In fact, the speed of light in a vacuum $c$ is so important that it is accepted as one of the basic physical quantities and has the fixed value $c=2.99792458\\times {10}^{8} m/s\\approx 3.00\\times {10}^{8} m/s,$",
         "inline": []
       },
       "level": "core"
@@ -129,7 +129,7 @@
       "id": "p-12",
       "type": "paragraph",
       "content": {
-        "text": "where the approximate value of $3.00×{10}^{8}m/s$ is used whenever three-digit accuracy is sufficient. The speed of light through matter is less than it is in a vacuum, because light interacts with atoms in a material. The speed of light depends strongly on the type of material, since its interaction with different atoms, crystal lattices, and other substructures varies. We define the index of refraction $n$ of a material to be",
+        "text": "where the approximate value of $3.00\\times {10}^{8} m/s$ is used whenever three-digit accuracy is sufficient. The speed of light through matter is less than it is in a vacuum, because light interacts with atoms in a material. The speed of light depends strongly on the type of material, since its interaction with different atoms, crystal lattices, and other substructures varies. We define the index of refraction $n$ of a material to be $n=\\frac{c}{v},$",
         "inline": []
       },
       "level": "core"
@@ -147,7 +147,7 @@
       "id": "p-14",
       "type": "paragraph",
       "content": {
-        "text": "That is, $n≥1$ . gives the indices of refraction for some representative substances. The values are listed for a particular wavelength of light, because they vary slightly with wavelength. (This can have important effects, such as colors produced by a prism.) Note that for gases, $n$ is close to 1.0. This seems reasonable, since atoms in gases are widely separated and light travels at $c$ in the vacuum between atoms. It is common to take $n=1$ for gases unless great precision is needed. Although the speed of light $v$ in a medium varies considerably from its value $c$ in a vacuum, it is still a large speed.",
+        "text": "That is, $n\\ge 1$. The table gives the indices of refraction for some representative substances. The values are listed for a particular wavelength of light, because they vary slightly with wavelength. (This can have important effects, such as colors produced by a prism.) Note that for gases, $n$ is close to 1.0. This seems reasonable, since atoms in gases are widely separated and light travels at $c$ in the vacuum between atoms. It is common to take $n=1$ for gases unless great precision is needed. Although the speed of light $v$ in a medium varies considerably from its value $c$ in a vacuum, it is still a large speed.",
         "inline": []
       },
       "level": "core"
@@ -293,7 +293,7 @@
       "id": "p-18",
       "type": "paragraph",
       "content": {
-        "text": "The speed of light in a material, $v$ , can be calculated from the index of refraction $n$ of the material using the equation $n=c/v$ .",
+        "text": "The speed of light in a material, $v$, can be calculated from the index of refraction $n$ of the material using the equation $n=c/v$.",
         "inline": []
       },
       "level": "core"
@@ -302,7 +302,7 @@
       "id": "p-19",
       "type": "paragraph",
       "content": {
-        "text": "The equation for index of refraction states that $n=c/v$ . Rearranging this to determine $v$ gives",
+        "text": "The equation for index of refraction states that $n=c/v$. Rearranging this to determine $v$ gives $v=\\frac{c}{n}.$",
         "inline": []
       },
       "level": "core"
@@ -311,7 +311,7 @@
       "id": "p-20",
       "type": "paragraph",
       "content": {
-        "text": "The index of refraction for zircon is given as 1.923 in , and $c$ is given in the equation for speed of light. Entering these values in the last expression gives",
+        "text": "The index of refraction for zircon is given as 1.923 in the table, and $c$ is given in the equation for speed of light. Entering these values in the last expression gives $v = \\frac{3.00\\times {10}^{8} m/s}{1.923} = 1.56 \\times {10}^{8} m/s.$",
         "inline": []
       },
       "level": "core"
@@ -320,7 +320,7 @@
       "id": "p-21",
       "type": "paragraph",
       "content": {
-        "text": "This speed is slightly larger than half the speed of light in a vacuum and is still high compared with speeds we normally experience. The only substance listed in that has a greater index of refraction than zircon is diamond. We shall see later that the large index of refraction for zircon makes it sparkle more than glass, but less than diamond.",
+        "text": "This speed is slightly larger than half the speed of light in a vacuum and is still high compared with speeds we normally experience. The only substance listed in the table that has a greater index of refraction than zircon is diamond. We shall see later that the large index of refraction for zircon makes it sparkle more than glass, but less than diamond.",
         "inline": []
       },
       "level": "core"
@@ -338,7 +338,7 @@
       "id": "p-23",
       "type": "paragraph",
       "content": {
-        "text": "shows how a ray of light changes direction when it passes from one medium to another. As before, the angles are measured relative to a perpendicular to the surface at the point where the light ray crosses it. (Some of the incident light will be reflected from the surface, but for now we will concentrate on the light that is transmitted.) The change in direction of the light ray depends on how the speed of light changes. The change in the speed of light is related to the indices of refraction of the media involved. In the situations shown in , medium 2 has a greater index of refraction than medium 1. This means that the speed of light is less in medium 2 than in medium 1. Note that as shown in (a), the direction of the ray moves closer to the perpendicular when it slows down. Conversely, as shown in (b), the direction of the ray moves away from the perpendicular when it speeds up. The path is exactly reversible. In both cases, you can imagine what happens by thinking about pushing a lawn mower from a footpath onto grass, and vice versa. Going from the footpath to grass, the front wheels are slowed and pulled to the side as shown. This is the same change in direction as for light when it goes from a fast medium to a slow one. When going from the grass to the footpath, the front wheels can move faster and the mower changes direction as shown. This, too, is the same change in direction as for light going from slow to fast.",
+        "text": "The figure shows how a ray of light changes direction when it passes from one medium to another. As before, the angles are measured relative to a perpendicular to the surface at the point where the light ray crosses it. (Some of the incident light will be reflected from the surface, but for now we will concentrate on the light that is transmitted.) The change in direction of the light ray depends on how the speed of light changes. The change in the speed of light is related to the indices of refraction of the media involved. In the situations shown in the figure, medium 2 has a greater index of refraction than medium 1. This means that the speed of light is less in medium 2 than in medium 1. Note that as shown in the figure (a), the direction of the ray moves closer to the perpendicular when it slows down. Conversely, as shown in the figure (b), the direction of the ray moves away from the perpendicular when it speeds up. The path is exactly reversible. In both cases, you can imagine what happens by thinking about pushing a lawn mower from a footpath onto grass, and vice versa. Going from the footpath to grass, the front wheels are slowed and pulled to the side as shown. This is the same change in direction as for light when it goes from a fast medium to a slow one. When going from the grass to the footpath, the front wheels can move faster and the mower changes direction as shown. This, too, is the same change in direction as for light going from slow to fast.",
         "inline": []
       },
       "level": "core"
@@ -369,7 +369,7 @@
       "id": "p-26",
       "type": "paragraph",
       "content": {
-        "text": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle. The exact mathematical relationship is the law of refraction , or “Snell’s Law,” which is stated in equation form as",
+        "text": "The amount that a light ray changes its direction depends both on the incident angle and the amount that the speed changes. For a ray at a given incident angle, a large change in speed causes a large change in direction, and thus a large change in angle. The exact mathematical relationship is the law of refraction, or “Snell’s Law,” which is stated in equation form as ${n}_{1} sin {θ}_{1}={n}_{2} sin {θ}_{2}.$",
         "inline": []
       },
       "level": "core"
@@ -378,7 +378,7 @@
       "id": "p-27",
       "type": "paragraph",
       "content": {
-        "text": "Here ${n}_{1}$ and ${n}_{2}$ are the indices of refraction for medium 1 and 2, and ${θ}_{1}$ and ${θ}_{2}$ are the angles between the rays and the perpendicular in medium 1 and 2, as shown in . The incoming ray is called the incident ray and the outgoing ray the refracted ray, and the associated angles the incident angle and the refracted angle. The law of refraction is also called Snell’s law after the Dutch mathematician Willebrord Snell (1591–1626). While the law has been named after Snell, the Arabian physicist, Ibn Sahl, found the law of refraction in 984 and used it in his work *On Burning Mirrors and Lenses.* Snell’s experiments showed that the law of refraction was obeyed and that a characteristic index of refraction $n$ could be assigned to a given medium. Snell was not aware that the speed of light varied in different media, but through experiments he was able to determine indices of refraction from the way light rays changed direction.",
+        "text": "Here ${n}_{1}$ and ${n}_{2}$ are the indices of refraction for medium 1 and 2, and ${θ}_{1}$ and ${θ}_{2}$ are the angles between the rays and the perpendicular in medium 1 and 2, as shown in the figure. The incoming ray is called the incident ray and the outgoing ray the refracted ray, and the associated angles the incident angle and the refracted angle. The law of refraction is also called Snell’s law after the Dutch mathematician Willebrord Snell (1591–1626). While the law has been named after Snell, the Arabian physicist, Ibn Sahl, found the law of refraction in 984 and used it in his work *On Burning Mirrors and Lenses.* Snell’s experiments showed that the law of refraction was obeyed and that a characteristic index of refraction $n$ could be assigned to a given medium. Snell was not aware that the speed of light varied in different media, but through experiments he was able to determine indices of refraction from the way light rays changed direction.",
         "inline": []
       },
       "level": "core"
@@ -411,7 +411,7 @@
       "id": "p-30",
       "type": "paragraph",
       "content": {
-        "text": "Find the index of refraction for medium 2 in (a), assuming medium 1 is air and given the incident angle is $30.0º$ and the angle of refraction is $22.0º$ .",
+        "text": "Find the index of refraction for medium 2 in the figure (a), assuming medium 1 is air and given the incident angle is $30.0º$ and the angle of refraction is $22.0º$.",
         "inline": []
       },
       "level": "core"
@@ -420,7 +420,7 @@
       "id": "p-31",
       "type": "paragraph",
       "content": {
-        "text": "The index of refraction for air is taken to be 1 in most cases (and up to four significant figures, it is 1.000). Thus ${n}_{1}=1.00$ here. From the given information, ${θ}_{1}=30.0º$ and ${θ}_{2}=22.0º$ . With this information, the only unknown in Snell’s law is ${n}_{2}$ , so that it can be used to find this unknown.",
+        "text": "The index of refraction for air is taken to be 1 in most cases (and up to four significant figures, it is 1.000). Thus ${n}_{1}=1.00$ here. From the given information, ${θ}_{1}=30.0º$ and ${θ}_{2}=22.0º$. With this information, the only unknown in Snell’s law is ${n}_{2}$, so that it can be used to find this unknown.",
         "inline": []
       },
       "level": "core"
@@ -429,7 +429,7 @@
       "id": "p-32",
       "type": "paragraph",
       "content": {
-        "text": "Rearranging to isolate ${n}_{2}$ gives",
+        "text": "Rearranging to isolate ${n}_{2}$ gives ${n}_{2}={n}_{1}\\frac{sin {θ}_{1}}{sin {θ}_{2}}.$",
         "inline": []
       },
       "level": "core"
@@ -438,7 +438,7 @@
       "id": "p-33",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values,",
+        "text": "Entering known values, ${n}_{2} = 1.00\\frac{sin 30.0º}{sin 22.0º}=\\frac{0.500}{0.375} = 1.33.$",
         "inline": []
       },
       "level": "core"
@@ -471,7 +471,7 @@
       "id": "p-36",
       "type": "paragraph",
       "content": {
-        "text": "Suppose that in a situation like that in , light goes from air to diamond and that the incident angle is $30.0º$ . Calculate the angle of refraction ${θ}_{2}$ in the diamond.",
+        "text": "Suppose that in a situation like that in the example, light goes from air to diamond and that the incident angle is $30.0º$. Calculate the angle of refraction ${θ}_{2}$ in the diamond.",
         "inline": []
       },
       "level": "core"
@@ -480,7 +480,7 @@
       "id": "p-37",
       "type": "paragraph",
       "content": {
-        "text": "Again the index of refraction for air is taken to be ${n}_{1}=1.00$ , and we are given ${θ}_{1}=30.0º$ . We can look up the index of refraction for diamond in , finding ${n}_{2}=2.419$ . The only unknown in Snell’s law is ${θ}_{2}$ , which we wish to determine.",
+        "text": "Again the index of refraction for air is taken to be ${n}_{1}=1.00$, and we are given ${θ}_{1}=30.0º$. We can look up the index of refraction for diamond in the table, finding ${n}_{2}=2.419$. The only unknown in Snell’s law is ${θ}_{2}$, which we wish to determine.",
         "inline": []
       },
       "level": "core"
@@ -489,7 +489,7 @@
       "id": "p-38",
       "type": "paragraph",
       "content": {
-        "text": "Solving Snell’s law for sin ${θ}_{2}$ yields",
+        "text": "Solving Snell’s law for sin ${θ}_{2}$ yields $sin {θ}_{2}=\\frac{{n}_{1}}{{n}_{2}}sin {θ}_{1}.$",
         "inline": []
       },
       "level": "core"
@@ -498,7 +498,7 @@
       "id": "p-39",
       "type": "paragraph",
       "content": {
-        "text": "Entering known values,",
+        "text": "Entering known values, $sin {θ}_{2}=\\frac{1.00}{2.419}sin 30.0º=(0.413)(0.500)=0.207.$",
         "inline": []
       },
       "level": "core"
@@ -507,7 +507,7 @@
       "id": "p-40",
       "type": "paragraph",
       "content": {
-        "text": "For the same $30º$ angle of incidence, the angle of refraction in diamond is significantly smaller than in water ( $11.9º$ rather than $22º$ —see the preceding example). This means there is a larger change in direction in diamond. The cause of a large change in direction is a large change in the index of refraction (or speed). In general, the larger the change in speed, the greater the effect on the direction of the ray.",
+        "text": "For the same $30º$ angle of incidence, the angle of refraction in diamond is significantly smaller than in water ($11.9º$ rather than $22º$ —see the preceding example). This means there is a larger change in direction in diamond. The cause of a large change in direction is a large change in the index of refraction (or speed). In general, the larger the change in speed, the greater the effect on the direction of the ray.",
         "inline": []
       },
       "level": "core"
@@ -737,7 +737,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "A laser is fired from a submarine beneath the surface of a lake ( *n* = 1.33). The laser emerges from the lake into air with an angle of refraction of 67°. How fast is the light moving through the water? What is the angle of incidence of the laser light when it crosses the boundary between the lake and the air?",
+        "text": "A laser is fired from a submarine beneath the surface of a lake (*n* = 1.33). The laser emerges from the lake into air with an angle of refraction of 67°. How fast is the light moving through the water? What is the angle of incidence of the laser light when it crosses the boundary between the lake and the air?",
         "inline": []
       },
       "level": "core",
@@ -914,7 +914,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Why is the front surface of a thermometer curved as shown? The curved surface of the thermometer serves a purpose.",
+        "text": "Why is the front surface of a thermometer curved as shown?",
         "inline": []
       },
       "level": "core",
@@ -1041,7 +1041,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Calculate the index of refraction for a medium in which the speed of light is $2.012×{10}^{8}m/s$ , and identify the most likely substance based on .",
+        "text": "Calculate the index of refraction for a medium in which the speed of light is $2.012\\times {10}^{8} m/s$, and identify the most likely substance based on the table.",
         "inline": []
       },
       "level": "core",
@@ -1074,7 +1074,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "In what substance in is the speed of light $2.290×{10}^{8}m/s$ ?",
+        "text": "In what substance in the table is the speed of light $2.290\\times {10}^{8} m/s$?",
         "inline": []
       },
       "level": "core",
@@ -1095,7 +1095,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "There was a major collision of an asteroid with the Moon in medieval times. It was described by monks at Canterbury Cathedral in England as a red glow on and around the Moon. How long after the asteroid hit the Moon, which is $3.84×{10}^{5}km$ away, would the light first arrive on Earth?",
+        "text": "There was a major collision of an asteroid with the Moon in medieval times. It was described by monks at Canterbury Cathedral in England as a red glow on and around the Moon. How long after the asteroid hit the Moon, which is $3.84\\times {10}^{5} km$ away, would the light first arrive on Earth?",
         "inline": []
       },
       "level": "core",
@@ -1153,7 +1153,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Components of some computers communicate with each other through optical fibers having an index of refraction $n=1.55$ . What time in nanoseconds is required for a signal to travel 0.200 m through such a fiber?",
+        "text": "Components of some computers communicate with each other through optical fibers having an index of refraction $n=1.55$. What time in nanoseconds is required for a signal to travel 0.200 m through such a fiber?",
         "inline": []
       },
       "level": "core",
@@ -1177,7 +1177,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "(a) Given that the angle between the ray in the water and the perpendicular to the water is $25.0º$ , and using information in , find the height of the instructor’s head above the water, noting that you will first have to calculate the angle of refraction. (b) Find the apparent depth of the diver’s head below water as seen by the instructor. Assume the diver and the diver's image are the same horizontal distance from the normal.",
+        "text": "(a) Given that the angle between the ray in the water and the perpendicular to the water is $25.0º$, and using information in the figure, find the height of the instructor’s head above the water, noting that you will first have to calculate the angle of refraction. (b) Find the apparent depth of the diver’s head below water as seen by the instructor. Assume the diver and the diver's image are the same horizontal distance from the normal.",
         "inline": []
       },
       "level": "core",
@@ -1198,7 +1198,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose you have an unknown clear substance immersed in water, and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an angle of $45.0º$ , and you observe the angle of refraction to be $40.3º$ . What is the index of refraction of the substance and its likely identity?",
+        "text": "Suppose you have an unknown clear substance immersed in water, and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an angle of $45.0º$, and you observe the angle of refraction to be $40.3º$. What is the index of refraction of the substance and its likely identity?",
         "inline": []
       },
       "level": "core",
@@ -1231,7 +1231,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "On the Moon’s surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. What percent correction is needed to account for the delay in time due to the slowing of light in Earth’s atmosphere? Assume the distance to the Moon is precisely $3.84×{10}^{8}m$ , and Earth’s atmosphere (which varies in density with altitude) is equivalent to a layer 30.0 km thick with a constant index of refraction $n=1.000293$ .",
+        "text": "On the Moon’s surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. What percent correction is needed to account for the delay in time due to the slowing of light in Earth’s atmosphere? Assume the distance to the Moon is precisely $3.84\\times {10}^{8} m$, and Earth’s atmosphere (which varies in density with altitude) is equivalent to a layer 30.0 km thick with a constant index of refraction $n=1.000293$.",
         "inline": []
       },
       "level": "core",
@@ -1252,7 +1252,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Suppose represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $Δx$ ), given that the incident angle is $40.0º$ and the glass is 1.00 cm thick.",
+        "text": "Suppose the figure represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ($Δx$), given that the incident angle is $40.0º$ and the glass is 1.00 cm thick.",
         "inline": []
       },
       "level": "core",
@@ -1307,7 +1307,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results Suppose light travels from water to another substance, with an angle of incidence of $10.0º$ and an angle of refraction of $14.9º$ . (a) What is the index of refraction of the other substance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results Suppose light travels from water to another substance, with an angle of incidence of $10.0º$ and an angle of refraction of $14.9º$. (a) What is the index of refraction of the other substance? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",
@@ -1388,7 +1388,7 @@
       "type": "exercise",
       "category": "section",
       "prompt": {
-        "text": "Unreasonable Results Light traveling from water to a gemstone strikes the surface at an angle of $80.0º$ and has an angle of refraction of $15.2º$ . (a) What is the speed of light in the gemstone? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
+        "text": "Unreasonable Results Light traveling from water to a gemstone strikes the surface at an angle of $80.0º$ and has an angle of refraction of $15.2º$. (a) What is the speed of light in the gemstone? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?",
         "inline": []
       },
       "level": "core",

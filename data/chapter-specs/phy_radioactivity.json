@@ -4,7 +4,7 @@
   "updated_at": "2026-11-12",
   "title": "Radioactivity and Nuclear Physics",
   "book_id": "secondary_physics",
-  "part_id": "part-6",
+  "part_id": "part-7",
   "publisher": "OpenStax",
   "source_title": "College Physics 2e",
   "source_url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/collections/college-physics-2e.collection.xml",
@@ -127,7 +127,9 @@
       "bloom_level": "understand"
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    "phy_atomic_physics"
+  ],
   "sections": [
     {
       "id": "sec-1",
@@ -146,24 +148,7 @@
       ],
       "tags": [],
       "facts_inherited": true,
-      "exam_links": [
-        {
-          "exam": "JAMB",
-          "subject": "physics",
-          "topic_slug": "elementary-modern-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        },
-        {
-          "exam": "WAEC",
-          "subject": "physics",
-          "topic_slug": "waec-structure-of-the-atom-physics",
-          "subtopic_slug": null,
-          "status": "covered",
-          "papers": []
-        }
-      ],
+      "exam_links": [],
       "no_worked_example_reason": "The source carries no worked example for this section and no solved exercise to promote, so the practice is left to the exercises themselves."
     },
     {
@@ -180,8 +165,8 @@
       ],
       "misconceptions": [
         {
-          "claim": "The half life of a radioactive sample is a fixed time.",
-          "correction": "It is a fixed proportion. Half of whatever is left decays in each half life, whatever the amount."
+          "claim": "Alpha radiation is more penetrating than gamma radiation.",
+          "correction": "Gamma radiation is the most penetrating. Alpha particles are stopped by a sheet of paper or a few centimetres of air, while gamma rays need thick lead or concrete to absorb them."
         }
       ],
       "summary": [
@@ -209,7 +194,64 @@
           "papers": []
         }
       ],
-      "worked_from": "exr-29"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Name the three main types of nuclear radiation.",
+          "answer": "Alpha particles, beta particles and gamma rays.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Alpha particles are helium nuclei.",
+            "Beta particles are fast electrons or positrons.",
+            "Gamma rays are high-energy photons."
+          ],
+          "tags": [
+            "alpha",
+            "beta",
+            "gamma"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Which type of nuclear radiation is the most penetrating?",
+          "answer": "Gamma radiation.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Alpha particles are stopped by paper.",
+            "Beta particles are stopped by a few millimetres of metal.",
+            "Gamma rays need thick lead or concrete, so they penetrate most."
+          ],
+          "tags": [
+            "penetration",
+            "gamma"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What happens to the atomic number of a nucleus when it emits an alpha particle?",
+          "answer": "It decreases by 2.",
+          "answer_kind": "explanation",
+          "solution": [
+            "An alpha particle contains two protons and two neutrons.",
+            "Losing two protons reduces the atomic number by 2.",
+            "The mass number falls by 4."
+          ],
+          "tags": [
+            "alpha decay",
+            "atomic number"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Nuclear Radioactivity has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-3",
@@ -221,7 +263,12 @@
         "Explain the working principle of a Geiger tube.",
         "Define and discuss radiation detectors."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The clicks from a Geiger counter are the radiation itself.",
+          "correction": "The clicks are electrical pulses produced when radiation ionizes the gas in the tube. The counter detects the radiation; it does not manufacture or amplify the radiation."
+        }
+      ],
       "summary": [
         "Radiation detectors are based directly or indirectly upon the ionization created by radiation, as are the effects of radiation on living and inert materials.",
         "Explain nuclear radiation.",
@@ -235,7 +282,7 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -243,11 +290,68 @@
           "subject": "physics",
           "topic_slug": "waec-structure-of-the-atom-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-19"
+      "authored_exercises": [
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "What is the purpose of a radiation detector?",
+          "answer": "To detect and measure ionizing radiation and its intensity.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Radiation ionizes matter along its path.",
+            "A detector converts that ionization into a measurable signal.",
+            "The signal can show the presence, type and intensity of the radiation."
+          ],
+          "tags": [
+            "detector",
+            "ionization"
+          ]
+        },
+        {
+          "tier": "warm_up",
+          "kind": "verbal",
+          "difficulty": 1,
+          "marks": 1,
+          "stem": "Why is a Geiger–Müller tube filled with a gas at low pressure?",
+          "answer": "So that incoming radiation can ionize the gas and produce an avalanche of charge that is easily detected.",
+          "answer_kind": "explanation",
+          "solution": [
+            "A high voltage is applied between the central wire and the tube wall.",
+            "An ionizing particle starts a cascade of ion pairs.",
+            "The avalanche produces a measurable current pulse."
+          ],
+          "tags": [
+            "geiger tube",
+            "gas ionization"
+          ]
+        },
+        {
+          "tier": "core",
+          "kind": "verbal",
+          "difficulty": 3,
+          "marks": 3,
+          "stem": "Why does a Geiger–Müller tube need a thin window at its end?",
+          "answer": "So that alpha and low-energy beta particles, which cannot pass through solid walls, can enter the tube.",
+          "answer_kind": "explanation",
+          "solution": [
+            "Alpha particles have a very short range in matter.",
+            "A normal metal wall would stop them before they reach the gas.",
+            "A thin mica or plastic window lets them through with little energy loss."
+          ],
+          "tags": [
+            "geiger tube",
+            "window",
+            "alpha particles"
+          ]
+        }
+      ],
+      "no_worked_example_reason": "The source section on Radiation Detection and Detectors has no worked example; the teaching text derives the key results and the practice set applies them."
     },
     {
       "id": "sec-4",
@@ -264,8 +368,8 @@
       ],
       "misconceptions": [
         {
-          "claim": "The activity of a sample depends on the mass of the sample.",
-          "correction": "It depends on how many nuclei are left, so a larger sample is more active even though the half life is the same."
+          "claim": "The activity of a radioactive sample stays constant as time passes.",
+          "correction": "The activity falls exponentially as the nuclei decay. A = λN, so as N decreases the activity decreases with the same half-life as the number of nuclei."
         }
       ],
       "summary": [
@@ -292,8 +396,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-38"
+      ]
     },
     {
       "id": "sec-5",
@@ -307,7 +410,15 @@
         "Explain parent and daughter nucleus.",
         "Calculate the energy emitted during nuclear decay."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "In alpha decay the nucleus emits an electron.",
+          "correction": "It emits a helium nucleus, made of two protons and two neutrons, and the atomic number falls by two. The electron is the beta particle, emitted in beta decay instead.",
+          "locator": "candidate trap trap-4, demoted pending paper evidence",
+          "source_trap": "phy_radioactivity:trap-4",
+          "signal": "Our own question offers the electron as an option."
+        }
+      ],
       "summary": [
         "When a parent nucleus decays, it produces a daughter nucleus following rules and conservation laws. There are three major types of nuclear decay, called alpha α, beta β, and gamma γ. The α decay equation is ZAXN→Z−2A−4YN−2+24He2.",
         "Nuclear decay releases an amount of energy E related to the mass destroyed Δm byE=(Δm)c2.",
@@ -346,7 +457,15 @@
         "Define dating.",
         "Calculate age of old objects by radioactive dating."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "The half-life of a radioactive sample is the time in which all of it decays.",
+          "correction": "It is the time in which half the nuclei decay. The sample never decays completely in a finite time, and the same half-life applies however much you start with.",
+          "locator": "candidate trap trap-3, demoted pending paper evidence",
+          "source_trap": "phy_radioactivity:trap-3",
+          "signal": "Our own question offers the full decay as an option."
+        }
+      ],
       "summary": [
         "Half-life t1/2 is the time in which there is a 50% chance that a nucleus will decay. The number of nuclei N as a function of time isN=N0e−λt, where N0 is the number present at t=0, and λ is the decay constant, related to the half-life by λ=0.693t1/2.",
         "One of the applications of radioactive decay is radioactive dating, in which the age of a material is determined by the amount of radioactive decay that occurs. The rate of decay is called the activity R:R= Δ N Δ t .",
@@ -384,7 +503,12 @@
         "Define and discuss binding energy.",
         "Calculate the binding energy per nucleon of a particle."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A nucleus with more nucleons always has more binding energy per nucleon.",
+          "correction": "Binding energy per nucleon peaks near iron-56. Very light nuclei gain energy by fusion and very heavy nuclei gain energy by fission, so both ends of the curve have lower binding energy per nucleon."
+        }
+      ],
       "summary": [
         "The binding energy (BE) of a nucleus is the energy needed to separate it into individual protons and neutrons. In terms of atomic masses, BE={[Zm(1H)+Nmn]−m(AX)}c2, where m1H is the mass of a hydrogen atom, mAX is the atomic mass of the nuclide, and mn is the mass of a neutron. Patterns in the binding energy per nucleon, BE/A, reveal details of the nuclear force. The larger the BE/A, the more stable the nucleus.",
         "Explain nuclear radiation.",
@@ -409,8 +533,7 @@
           "status": "covered",
           "papers": []
         }
-      ],
-      "worked_from": "exr-41"
+      ]
     },
     {
       "id": "sec-8",
@@ -423,7 +546,12 @@
         "Define potential barrier.",
         "Explain quantum tunneling."
       ],
-      "misconceptions": [],
+      "misconceptions": [
+        {
+          "claim": "A particle can tunnel through a potential barrier only if its energy is greater than the barrier height.",
+          "correction": "Quantum tunneling allows a particle with less energy than the barrier to appear on the other side with a small probability. The probability falls as the barrier gets wider or higher."
+        }
+      ],
       "summary": [
         "Tunneling is a quantum mechanical process of potential energy barrier penetration. The concept was first applied to explain α decay, but tunneling is found to occur in other quantum mechanical systems.",
         "Explain nuclear radiation.",
@@ -437,7 +565,7 @@
           "subject": "physics",
           "topic_slug": "elementary-modern-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         },
         {
@@ -445,14 +573,129 @@
           "subject": "physics",
           "topic_slug": "waec-structure-of-the-atom-physics",
           "subtopic_slug": null,
-          "status": "covered",
+          "status": "partial",
           "papers": []
         }
       ],
-      "worked_from": "exr-23"
+      "no_worked_example_reason": "The source section on Tunneling has no worked example; the teaching text derives the key results and the practice set applies them."
     }
   ],
-  "formula_sheet": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$N = N_0 e^{-\\lambda t}$",
+      "caption": {
+        "text": "Radioactive decay law",
+        "inline": []
+      },
+      "conditions": {
+        "text": "N₀ is the initial number of nuclei and λ the decay constant.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42636/index.cnxml",
+        "locator": "CNXML module m42636, section “Half-Life and Activity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$T_{1/2} = \\frac{\\ln 2}{\\lambda}$",
+      "caption": {
+        "text": "Half-life",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The time for half the nuclei in a sample to decay.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42636/index.cnxml",
+        "locator": "CNXML module m42636, section “Half-Life and Activity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$A = \\lambda N$",
+      "caption": {
+        "text": "Activity",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The number of decays per second in a sample containing N nuclei.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42636/index.cnxml",
+        "locator": "CNXML module m42636, section “Half-Life and Activity”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$r = r_0 A^{1/3}$",
+      "caption": {
+        "text": "Nuclear radius",
+        "inline": []
+      },
+      "conditions": {
+        "text": "r₀ ≈ 1.2 × 10⁻¹⁵ m and A is the mass number.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42631/index.cnxml",
+        "locator": "CNXML module m42631, section “Substructure of the Nucleus”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$E = mc^2$",
+      "caption": {
+        "text": "Mass–energy equivalence",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A mass m corresponds to an energy E; the mass defect appears as binding energy or decay energy.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42640/index.cnxml",
+        "locator": "CNXML module m42640, section “Binding Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$BE = \\Delta m\\,c^2$",
+      "caption": {
+        "text": "Binding energy",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Δm is the mass defect of the nucleus.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Physics 2e",
+        "url": "https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42640/index.cnxml",
+        "locator": "CNXML module m42640, section “Binding Energy”",
+        "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+      }
+    }
+  ],
   "glossary": [
     {
       "id": "g-1",
@@ -1464,76 +1707,7 @@
     }
   ],
   "exam_links": [],
-  "exam_traps": [
-    {
-      "id": "trap-1",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-2",
-      "misconception": "The half life of a radioactive sample is a fixed time.",
-      "correction": "It is a fixed proportion. Half of whatever is left decays in each half life, whatever the amount.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-2",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-2",
-      "exam": "JAMB",
-      "subject": "physics",
-      "section_id": "sec-4",
-      "misconception": "The activity of a sample depends on the mass of the sample.",
-      "correction": "It depends on how many nuclei are left, so a larger sample is more active even though the half life is the same.",
-      "signal": "Our own teaching of the section, waiting for a paper question that shows the same mistake.",
-      "status": "candidate",
-      "paper_evidence": {
-        "section_id": "sec-4",
-        "exam": "JAMB",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-3",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-6",
-      "misconception": "The half-life of a radioactive sample is the time in which all of it decays.",
-      "correction": "It is the time in which half the nuclei decay. The sample never decays completely in a finite time, and the same half-life applies however much you start with.",
-      "signal": "Our own question offers the full decay as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-1",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    },
-    {
-      "id": "trap-4",
-      "exam": "WAEC",
-      "subject": "physics",
-      "section_id": "sec-5",
-      "misconception": "In alpha decay the nucleus emits an electron.",
-      "correction": "It emits a helium nucleus, made of two protons and two neutrons, and the atomic number falls by two. The electron is the beta particle, emitted in beta decay instead.",
-      "signal": "Our own question offers the electron as an option.",
-      "status": "candidate",
-      "paper_evidence": {
-        "check_id": "rc-2",
-        "exam": "WAEC",
-        "year": null,
-        "source": "authored"
-      },
-      "frequency": "candidate"
-    }
-  ],
+  "exam_traps": [],
   "exam_recall_checks": [
     {
       "id": "rc-1",
@@ -1679,6 +1853,122 @@
       "explanation": "The activity is $A = \\lambda N$, so it depends on how many nuclei there are and on the decay constant of the isotope.",
       "difficulty": 2,
       "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-2",
+      "stem": "Which type of radiation is stopped by a thin sheet of paper?",
+      "options": [
+        {
+          "id": "a",
+          "text": "alpha radiation"
+        },
+        {
+          "id": "b",
+          "text": "beta radiation"
+        },
+        {
+          "id": "c",
+          "text": "gamma radiation"
+        },
+        {
+          "id": "d",
+          "text": "all three equally"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Alpha particles are relatively heavy and doubly charged, so they lose energy quickly and are stopped by paper. Beta particles need a few millimetres of metal, and gamma rays need thick lead.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "physics",
+      "section_id": "sec-3",
+      "stem": "A Geiger–Müller tube detects radiation when incoming radiation",
+      "options": [
+        {
+          "id": "a",
+          "text": "ionizes the gas and triggers a discharge"
+        },
+        {
+          "id": "b",
+          "text": "magnetizes the metal walls"
+        },
+        {
+          "id": "c",
+          "text": "cools the gas"
+        },
+        {
+          "id": "d",
+          "text": "reflects off the window"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The tube has a high voltage across its gas. An incoming particle ionizes the gas, the ions create a cascade, and a current pulse is recorded.",
+      "difficulty": 2,
+      "source": "authored against the WAEC physics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-4",
+      "stem": "The nucleus of an atom is held together by",
+      "options": [
+        {
+          "id": "a",
+          "text": "the strong nuclear force"
+        },
+        {
+          "id": "b",
+          "text": "gravity alone"
+        },
+        {
+          "id": "c",
+          "text": "the electric force alone"
+        },
+        {
+          "id": "d",
+          "text": "air pressure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The strong nuclear force binds protons and neutrons over very short distances. It overcomes the electrostatic repulsion between the protons.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "physics",
+      "section_id": "sec-8",
+      "stem": "Quantum tunneling is important in alpha decay because",
+      "options": [
+        {
+          "id": "a",
+          "text": "the alpha particle can escape even though it lacks the energy to climb the nuclear barrier"
+        },
+        {
+          "id": "b",
+          "text": "the nucleus splits into equal halves"
+        },
+        {
+          "id": "c",
+          "text": "the alpha particle is an electron"
+        },
+        {
+          "id": "d",
+          "text": "gravity pulls the alpha particle out"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The alpha particle is trapped behind a potential barrier. Quantum tunneling gives it a small probability of escaping on each attempt, which explains the wide range of alpha-decay half-lives.",
+      "difficulty": 2,
+      "source": "authored against the JAMB physics syllabus"
     }
   ],
   "sources": [
@@ -1689,5 +1979,119 @@
       "locator": "CNXML collection college-physics-2e, subcollection 'Radioactivity and Nuclear Physics', modules m42620, m42623, m42627, m42631, m42633, m42636, m42640, m42644",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     }
-  ]
+  ],
+  "order": 31,
+  "exercise_fixes": {
+    "sec-4:exr-49": {
+      "stem": "Verify that a $2.3×{10}^{17}kg$ mass of water at normal density would make a cube 60 km on a side. (This mass at nuclear density would make a cube 1.0 m on a side.)"
+    },
+    "sec-7:exr-46": {
+      "stem": "${}^{209}Bi$ is the heaviest stable nuclide, and its $BE/A$ is low compared with medium-mass nuclides. Calculate $BE/A$ , the binding energy per nucleon, for ${}^{209}Bi$ and compare it with the approximate value for the heaviest nuclides that the binding-energy-per-nucleon graph in this section shows."
+    },
+    "sec-5:exr-127": {
+      "answer": "(a) $n→p+{β}^{-}+{ν¯}_{e}$ (b) 0.783 MeV",
+      "solution": [
+        "(a) In ${β}^{-}$ decay a neutron becomes a proton, an electron and an antineutrino: $n→p+{β}^{-}+{ν¯}_{e}$ .",
+        "(b) $Q=(mn-mp-me){c}^{2}=(1.008665-1.007276-0.000549)u×931.5MeV/u=0.783MeV$ ."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer carried a stray parenthesis before 0.783 MeV, corrected here"
+    },
+    "sec-5:exr-67": {
+      "stem": "Are the following reactions possible? For each, explain why or why not. (a) ${}^{238}_{92}U→{}^{234}_{88}Ra+{}^{4}_{2}He$ (b) ${}^{223}_{88}Ra→{}^{209}_{82}Pb+{}^{14}_{6}C$ (c) ${}^{14}_{6}C→{}^{14}_{7}N+{e}^{-}+{ν̄}_{e}$ (d) ${}^{24}_{12}Mg→{}^{23}_{11}Na+{e}^{+}+{ν}_{e}$",
+      "answer": "(a) No: nucleon number is conserved (238 = 234 + 4), but charge is not (92 ≠ 88 + 2). (b) Yes: 223 = 209 + 14 and 88 = 82 + 6. (c) Yes: 14 = 14 and 6 = 7 + (-1), with the electron's charge included. (d) No: nucleon number is not conserved (24 ≠ 23).",
+      "solution": [
+        "(a) Charge before is 92; after it is 88 + 2 = 90, so the reaction is not possible.",
+        "(b) Nucleon number: 223 = 209 + 14. Charge: 88 = 82 + 6. Both are conserved, so the cluster decay is possible.",
+        "(c) Nucleon number: 14 = 14. Charge: 6 = 7 + (-1). Both are conserved.",
+        "(d) Nucleon number: 24 ≠ 23 + 0. The positron is a lepton and does not count as a nucleon, so the reaction is not possible."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the nuclide notation was garbled in the source extraction and is restored"
+    },
+    "sec-5:exr-81": {
+      "answer": "${}^{3}_{1}H→{}^{3}_{2}He+{β}^{-}+{ν̄}_{e}$",
+      "solution": [
+        "${}^{3}_{1}H→{}^{3}_{2}He+{β}^{-}+{ν̄}_{e}$",
+        "Nucleon number: $3=3+0$. Charge: $1=2+(-1)$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-85": {
+      "answer": "${}^{50}_{25}Mn→{}^{50}_{24}Cr+{β}^{+}+{ν}_{e}$",
+      "solution": [
+        "${}^{50}_{25}Mn→{}^{50}_{24}Cr+{β}^{+}+{ν}_{e}$",
+        "Nucleon number: $50=50+0$. Charge: $25=24+(+1)$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-89": {
+      "answer": "${}^{7}_{4}Be+{e}^{-}→{}^{7}_{3}Li+{ν}_{e}$",
+      "solution": [
+        "${}^{7}_{4}Be+{e}^{-}→{}^{7}_{3}Li+{ν}_{e}$",
+        "Nucleon number: $7+0=7+0$. Charge: $4+(-1)=3+0$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-93": {
+      "answer": "${}^{210}_{84}Po→{}^{206}_{82}Pb+{}^{4}_{2}He$",
+      "solution": [
+        "${}^{210}_{84}Po→{}^{206}_{82}Pb+{}^{4}_{2}He$",
+        "Nucleon number: $210=206+4$. Charge: $84=82+2$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-98": {
+      "answer": "${}^{137}_{55}Cs→{}^{137}_{56}Ba+{β}^{-}+{ν̄}_{e}$",
+      "solution": [
+        "${}^{137}_{55}Cs→{}^{137}_{56}Ba+{β}^{-}+{ν̄}_{e}$",
+        "Nucleon number: $137=137+0$. Charge: $55=56+(-1)$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-102": {
+      "answer": "${}^{232}_{90}Th→{}^{228}_{88}Ra+{}^{4}_{2}He$",
+      "solution": [
+        "${}^{232}_{90}Th→{}^{228}_{88}Ra+{}^{4}_{2}He$",
+        "Nucleon number: $232=228+4$. Charge: $90=88+2$. Both are conserved."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the malformed nuclide subscripts from the source extraction are corrected"
+    },
+    "sec-5:exr-112": {
+      "answer": "Charge: $Z=(Z+1)+(-1)=Z$. Electron family number: $0=0+1+(-1)=0$. Nucleon number: $A=A+0=A$. All three are conserved.",
+      "solution": [
+        "Charge: before $Z$; after $(Z+1)+(-1)=Z$.",
+        "Electron family number: before 0; after $0+1+(-1)=0$.",
+        "Nucleon number: before $A$; after $A+0=A$."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer was a fragment of the electron-family check"
+    },
+    "sec-5:exr-116": {
+      "answer": "Charge: $Z+(-1)=Z-1$. Electron family number: $0+1=0+1$. Nucleon number: $A=A+0$. All three are conserved.",
+      "solution": [
+        "Charge: before $Z+(-1)=Z-1$; after $(Z-1)+0=Z-1$.",
+        "Electron family number: before $0+1=1$; after $0+1=1$.",
+        "Nucleon number: before $A+0=A$; after $A+0=A$."
+      ],
+      "solution_provenance": "OpenStax CNXML solution element (in file); the source answer was a fragment of the charge check"
+    },
+    "sec-7:exr-57": {
+      "stem": "The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is negligible compared with the masses of the proton and electron. Use these data: the binding energy of the electron in hydrogen is 13.6 eV; the mass of a hydrogen atom is 1.007825 u; the mass of a proton is 1.007276 u; the mass of an electron is 0.000549 u; and $1\\ \\mathrm{u}=931.5\\ \\mathrm{MeV}/c^{2}$. (a) Calculate the mass equivalent in u of the 13.6 eV binding energy and compare it with the mass of the hydrogen atom. (b) Subtract the mass of the proton from the mass of the hydrogen atom and show that the difference equals the electron mass to three digits, implying that the binding energy is small. (c) Take the ratio of the binding energy (13.6 eV) to the energy equivalent of the electron mass (0.511 MeV). (d) Discuss how your answers confirm the purpose of the problem.",
+      "answer": "(a) $1.46\\times10^{-8}\\ \\mathrm{u}$, against 1.007825 u for hydrogen (b) 0.000549 u (c) $2.66\\times10^{-5}$",
+      "solution": [
+        "(a) $m=E/c^{2}=13.6\\ \\mathrm{eV}/(931.5\\times10^{6}\\ \\mathrm{eV/u})=1.46\\times10^{-8}\\ \\mathrm{u}$, about $10^{-8}$ of the hydrogen atom's mass.",
+        "(b) $1.007825\\ \\mathrm{u}-1.007276\\ \\mathrm{u}=0.000549\\ \\mathrm{u}$, which is the electron mass to three digits.",
+        "(c) $13.6\\ \\mathrm{eV}/(0.511\\times10^{6}\\ \\mathrm{eV})=2.66\\times10^{-5}$.",
+        "(d) The binding energy changes the mass by about one part in $10^{8}$ of the atom and one part in $10^{5}$ of the electron, so it can be neglected in ordinary mass calculations."
+      ]
+    },
+    "sec-7:exr-41": {
+      "stem": "${}^{2}H$ is a loosely bound isotope of hydrogen. Called deuterium or heavy hydrogen, it is stable but relatively rare - it is 0.015% of natural hydrogen. Note that deuterium has $Z=N$, which should tend to make it more tightly bound, but both are odd numbers. Calculate $BE/A$, the binding energy per nucleon, for ${}^{2}H$ and compare it with the approximate value of 1.1 MeV per nucleon from the binding-energy curve.",
+      "answer": "1.112 MeV per nucleon, consistent with the approximate curve value of 1.1 MeV per nucleon",
+      "solution": [
+        "The deuteron contains one proton and one neutron. Their masses sum to $1.007276+1.008665=2.015941\\ \\mathrm{u}$.",
+        "The deuteron mass is $2.013553\\ \\mathrm{u}$, so the mass defect is $2.015941-2.013553=0.002388\\ \\mathrm{u}$.",
+        "The binding energy is $(0.002388)(931.5)=2.224\\ \\mathrm{MeV}$, and $BE/A=2.224/2=1.112\\ \\mathrm{MeV}$ per nucleon.",
+        "This agrees with the approximate value of 1.1 MeV per nucleon read from the binding-energy curve."
+      ]
+    }
+  }
 }
