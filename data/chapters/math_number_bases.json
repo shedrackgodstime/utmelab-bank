@@ -1,7 +1,7 @@
 {
   "chapter_id": "math_number_bases",
   "schema_version": 2,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-14",
   "title": "Number Bases",
   "book_id": "secondary_mathematics",
   "part_id": "part-1",
@@ -10381,5 +10381,6 @@
       "locator": "CNXML module m00056, sections on multiplication, division and their errors",
       "licence": "CC BY-NC-SA 4.0"
     }
-  ]
+  ],
+  "order": 1
 }

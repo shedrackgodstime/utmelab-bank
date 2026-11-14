@@ -1,0 +1,2063 @@
+{
+  "chapter_id": "math_sets",
+  "schema_version": 2,
+  "updated_at": "2026-11-14",
+  "title": "Sets",
+  "book_id": "secondary_mathematics",
+  "part_id": "part-1",
+  "publisher": "OpenStax",
+  "source_title": "Contemporary Mathematics, Sets and the Number System",
+  "source_url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+  "licence": "CC BY-NC-SA 4.0",
+  "authored_source_title": "Secondary Mathematics",
+  "learning_objectives": [
+    "Represent a set by the roster method, by set-builder notation and by a verbal description, and convert between the three forms.",
+    "Compute the cardinality of a finite set and tell finite from infinite sets.",
+    "Recognise the empty set, universal set, subsets, disjoint sets, and equal versus equivalent sets.",
+    "Find the union, intersection and complement of sets and read the same relationships off a Venn diagram.",
+    "Count the elements of a union with the inclusion-exclusion formula and solve two-set and three-set word problems.",
+    "Use the commutative, associative and distributive laws and De Morgan's laws to simplify expressions on sets."
+  ],
+  "prerequisites": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$",
+      "caption": {
+        "text": "Cardinality of the union of two sets",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Any two sets $A$ and $B$ of a finite universal set.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+        "locator": "CNXML module m00014, section 'Determining the Cardinality of Two Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$n(A \\cup B) = n(A) + n(B)$ when $A \\cap B = \\emptyset$",
+      "caption": {
+        "text": "Cardinality of the union of disjoint sets",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$A$ and $B$ share no elements.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+        "locator": "CNXML module m00014, section 'Determining the Cardinality of Two Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(A \\cap C) - n(B \\cap C) + n(A \\cap B \\cap C)$",
+      "caption": {
+        "text": "Inclusion-exclusion for three sets",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Three sets $A$, $B$, $C$ of a finite universal set; a Venn diagram organises the same count region by region.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00015/index.cnxml",
+        "locator": "CNXML module m00015, section 'Venn Diagrams with Three Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$n(A') = n(U) - n(A)$",
+      "caption": {
+        "text": "Cardinality of a complement",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$U$ the universal set, $A \\subseteq U$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00013/index.cnxml",
+        "locator": "CNXML module m00013, section 'The Complement of a Set'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g-1",
+      "term": {
+        "text": "set",
+        "inline": []
+      },
+      "definition": {
+        "text": "A collection of well-defined, distinct objects; each object is an element or member of the set.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, section 'Sets and Ways to Represent Them'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-2",
+      "term": {
+        "text": "roster method",
+        "inline": []
+      },
+      "definition": {
+        "text": "Describing a set by listing its elements between braces, separated by commas, for example $\\{2, 4, 6, 8\\}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, worked example 'Writing a Set Using the Roster or Listing Method'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-3",
+      "term": {
+        "text": "set-builder notation",
+        "inline": []
+      },
+      "definition": {
+        "text": "Describing a set by the property its elements satisfy, for example $\\{x \\mid x \\text{ is an even natural number}\\}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, worked example 'Writing a Set Using Set Builder Notation'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-4",
+      "term": {
+        "text": "cardinality",
+        "inline": []
+      },
+      "definition": {
+        "text": "The number of elements in a set, written $n(A)$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, section 'Computing the Cardinal Value of a Set'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-5",
+      "term": {
+        "text": "empty set",
+        "inline": []
+      },
+      "definition": {
+        "text": "The set with no elements, written $\\emptyset$ or $\\{\\}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, worked example 'Representing the Empty Set Symbolically'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-6",
+      "term": {
+        "text": "universal set",
+        "inline": []
+      },
+      "definition": {
+        "text": "The set $U$ that contains every element under discussion in a given problem.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00013/index.cnxml",
+        "locator": "CNXML module m00013, section 'The Complement of a Set'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-7",
+      "term": {
+        "text": "subset",
+        "inline": []
+      },
+      "definition": {
+        "text": "$A$ is a subset of $B$ when every element of $A$ is also an element of $B$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00013/index.cnxml",
+        "locator": "CNXML module m00013, worked example 'Describing the Relationship between Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-8",
+      "term": {
+        "text": "disjoint sets",
+        "inline": []
+      },
+      "definition": {
+        "text": "Sets with no elements in common, so their intersection is the empty set.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+        "locator": "CNXML module m00014, worked example 'Determining the Intersection of Disjoint Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-9",
+      "term": {
+        "text": "union",
+        "inline": []
+      },
+      "definition": {
+        "text": "The set $A \\cup B$ of elements in $A$, in $B$, or in both.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+        "locator": "CNXML module m00014, section 'The Union of Two Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-10",
+      "term": {
+        "text": "intersection",
+        "inline": []
+      },
+      "definition": {
+        "text": "The set $A \\cap B$ of elements in both $A$ and $B$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+        "locator": "CNXML module m00014, section 'The Intersection of Two Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-11",
+      "term": {
+        "text": "complement",
+        "inline": []
+      },
+      "definition": {
+        "text": "The set $A'$ of elements of the universal set that are not in $A$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00013/index.cnxml",
+        "locator": "CNXML module m00013, section 'The Complement of a Set'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-12",
+      "term": {
+        "text": "equal sets",
+        "inline": []
+      },
+      "definition": {
+        "text": "Sets with exactly the same elements; equivalent sets merely have the same cardinality.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "Contemporary Mathematics",
+        "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+        "locator": "CNXML module m00011, section 'Equal versus Equivalent Sets'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Sets and how to represent them",
+      "slug": "sets-and-how-to-represent-them",
+      "est_minutes": 13,
+      "locator": "CNXML module m00011, section 'Sets and Ways to Represent Them', the worked examples on listing, ellipses and set-builder notation",
+      "module": "m00011",
+      "objectives": [
+        "Say precisely what makes a collection a set, and decide whether a description defines a set.",
+        "Write a set using the roster or listing method, and list the elements of a set given in words.",
+        "Write finite and infinite sets using the roster method with ellipses, and convert between roster form and set-builder notation."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The order in which elements are listed changes the set, so $\\{1, 2, 3\\}$ and $\\{3, 1, 2\\}$ are different sets.",
+          "correction": "Only membership matters. The two rosters name the same set; a set has no order.",
+          "locator": "CNXML module m00011, worked example 'Writing a Set Using the Roster or Listing Method'"
+        },
+        {
+          "claim": "Every collection of objects is a set.",
+          "correction": "A set must be well defined: for any object it must be possible to say whether it belongs. 'The best footballers in Nigeria' does not define a set; 'the current members of the Super Eagles squad' does.",
+          "locator": "CNXML module m00011, worked example 'Identifying Well-Defined Sets'"
+        },
+        {
+          "claim": "The empty set is the set containing zero, $\\{0\\}$.",
+          "correction": "$\\{0\\}$ has one element, the number 0. The empty set $\\emptyset$ has no elements at all.",
+          "locator": "CNXML module m00011, worked example 'Representing the Empty Set Symbolically'"
+        },
+        {
+          "claim": "An ellipsis in a roster means the pattern is decorative; the set is still finite.",
+          "correction": "Ellipses stand for the elements that follow the pattern. When the ellipsis is not closed by a last element, the set is infinite.",
+          "locator": "CNXML module m00011, worked example 'Writing an Infinite Set Using the Roster Method and Ellipses'"
+        },
+        {
+          "claim": "Set-builder notation lists the elements of the set.",
+          "correction": "Set-builder notation states the property an element must satisfy: $\\{x \\mid x \\text{ is an even natural number}\\}$. The roster method lists; set-builder describes.",
+          "locator": "CNXML module m00011, worked example 'Writing a Set Using Set Builder Notation'"
+        }
+      ],
+      "summary": [
+        "A set is a well-defined collection; well-defined means every object either belongs or does not, with no room for opinion.",
+        "Use braces and commas for the roster method, and write each distinct element once.",
+        "Ellipses extend a roster that follows an obvious pattern; an open ellipsis makes the set infinite.",
+        "Set-builder notation $\\{x \\mid \\text{condition on } x\\}$ names the pool of candidates and the property they must satisfy.",
+        "The empty set has no elements and is written $\\emptyset$ or $\\{\\}$, not $\\{0\\}$."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "A set is the mathematician's way of talking about a collection without ambiguity. The test a description must pass is called being well defined: for any object you can name, the description must settle once and for all whether that object belongs. 'The students in this class who are taller than 1.7 metres' passes the test, because a measuring tape decides every case. 'The tallest students in this class' does not, because two students tied for first place leave the question open.",
+            "inline": []
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Three ways of writing a set do all the work in examinations. The roster method lists the elements between braces, separated by commas, writing each element once and in any order, because order carries no meaning. When a roster follows an obvious pattern but is too long to write out, ellipses stand in for the middle: $\\{2, 4, 6, \\ldots, 100\\}$ is the even numbers from 2 to 100, while $\\{2, 4, 6, \\ldots\\}$, with no closing element, is all even natural numbers and is infinite. Set-builder notation describes instead of listing: $\\{x \\mid x \\text{ is an even natural number}\\}$ reads as 'the set of all $x$ such that $x$ is an even natural number', with the pool of candidates before the bar and the condition after it.",
+            "inline": []
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "The empty set deserves its own caution. It is written $\\emptyset$ or $\\{\\}$, and it has no elements. Writing $\\{0\\}$ describes a different object entirely: a set with one element, the number 0. The distinction matters in counting problems, where an answer of 'no student offers both subjects' is the empty set, not the set whose only member is zero.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "roster-method",
+        "set-builder",
+        "empty-set",
+        "infinite-sets"
+      ],
+      "exam_links": [
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-1-sets",
+          "subtopic_slug": "waec-further-mathematics-1-1-idea-of-a-set-defined-by-a-property-set-notations-and-their-meanings",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sets",
+          "subtopic_slug": "waec-idea-of-sets-universal-sets-finite-and-infinite-sets-subsets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Sets and Ways to Represent Them"
+      ],
+      "exercise_plan": {
+        "exr-7": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "List the objects named, each once, between braces."
+          ]
+        },
+        "exr-13": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Ask whether the description decides membership for every object, or leaves it to opinion."
+          ]
+        },
+        "exr-18": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "A set with no elements is written with braces and nothing inside, or with the empty-set symbol."
+          ]
+        },
+        "exr-27": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Show the established pattern with a few elements, then an ellipsis, then the last element."
+          ]
+        },
+        "exr-36": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Decide what pattern the visible elements follow before deciding where the list can stop."
+          ]
+        },
+        "exr-46": {
+          "tier": "core",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Name the pool first (for example $x$ a whole number), then state the condition that picks out the members."
+          ]
+        },
+        "exr-50": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "For each description ask which of the three methods states it with the least distortion."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sec-2",
+      "title": "Counting elements: cardinality, equal and equivalent sets",
+      "slug": "cardinality-equal-and-equivalent-sets",
+      "est_minutes": 11,
+      "locator": "CNXML module m00011, sections 'Computing the Cardinal Value of a Set' and 'Equal versus Equivalent Sets'",
+      "module": "m00011",
+      "objectives": [
+        "Compute the cardinal value of a finite set, including sets given in words or with repeated mentions.",
+        "Classify sets as finite or infinite, and tell equal sets from equivalent sets."
+      ],
+      "misconceptions": [
+        {
+          "claim": "A set with many elements cannot have the same cardinality as a set with two elements.",
+          "correction": "Equivalent sets need only the same number of elements. A set of two students and a set of two capitals are equivalent.",
+          "locator": "CNXML module m00011, worked example 'Differentiating Between Equivalent and Equal Sets'"
+        },
+        {
+          "claim": "Equal sets and equivalent sets mean the same thing.",
+          "correction": "Equivalent sets have the same cardinality; equal sets have exactly the same elements. Equal sets are always equivalent, but equivalent sets need not be equal.",
+          "locator": "CNXML module m00011, section 'Equal versus Equivalent Sets'"
+        }
+      ],
+      "summary": [
+        "The cardinality $n(A)$ counts distinct elements: mention an element twice and it counts once.",
+        "A set is finite when its elements can be counted and the count ends; otherwise it is infinite.",
+        "Equal means same elements; equivalent means same count."
+      ],
+      "blocks": [],
+      "worked": [],
+      "tags": [
+        "sets",
+        "cardinality",
+        "finite",
+        "infinite",
+        "equal-sets"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "types-of-sets",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sets",
+          "subtopic_slug": "waec-idea-of-sets-universal-sets-finite-and-infinite-sets-subsets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Computing the Cardinal Value of a Set",
+        "Equal versus Equivalent Sets"
+      ],
+      "exercise_plan": {
+        "exr-58": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "Count each distinct element once."
+          ]
+        },
+        "exr-62": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Ask whether the counting process terminates for the set as described."
+          ]
+        },
+        "exr-71": {
+          "tier": "core",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "First compare the elements, and only if they differ compare the counts."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sec-3",
+      "title": "Venn diagrams and the complement",
+      "slug": "venn-diagrams-and-the-complement",
+      "est_minutes": 12,
+      "locator": "CNXML module m00013, sections 'Interpreting Venn Diagrams', 'Creating Venn Diagrams' and 'The Complement of a Set'",
+      "module": "m00013",
+      "objectives": [
+        "Read the subset, intersecting and disjoint relationships of two sets from a Venn diagram.",
+        "Draw a Venn diagram for one or two sets inside a universal set and shade a named region.",
+        "Find the complement of a set and its cardinality."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Elements outside the circles have nothing to do with the problem.",
+          "correction": "The universal set $U$ is the rectangle; elements of $U$ outside every circle are still members of $U$ and matter for complements.",
+          "locator": "CNXML module m00013, section 'The Complement of a Set'"
+        },
+        {
+          "claim": "Two circles that do not overlap mean the sets are unrelated.",
+          "correction": "Non-overlapping circles say the sets are disjoint: they share no element. The sets still live in the same universal set.",
+          "locator": "CNXML module m00013, worked example 'Interpreting the Relationship between Sets in a Venn Diagram'"
+        },
+        {
+          "claim": "The complement of $A$ is everything that is not in the picture of $A$, including objects outside the universal set.",
+          "correction": "$A'$ contains only the elements of $U$ outside $A$. Anything outside $U$ is not in play at all.",
+          "locator": "CNXML module m00013, worked example 'Finding the Complement of a Set'"
+        }
+      ],
+      "summary": [
+        "In a Venn diagram the rectangle is the universal set, each circle is a set, and the overlap is the intersection.",
+        "Circles that do not overlap show disjoint sets; a circle drawn inside another shows a subset.",
+        "$A'$ is what the rectangle holds outside circle $A$, and $n(A') = n(U) - n(A)$."
+      ],
+      "blocks": [],
+      "worked": [],
+      "tags": [
+        "sets",
+        "venn-diagram",
+        "complement",
+        "universal-set"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "venn-diagrams-and-their-applications",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-1-sets",
+          "subtopic_slug": "waec-disjoint-sets-universal-set-and-complement-of-set",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sets",
+          "subtopic_slug": "waec-idea-of-sets-universal-sets-finite-and-infinite-sets-subsets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Interpreting Venn Diagrams",
+        "Creating Venn Diagrams",
+        "The Complement of a Set"
+      ],
+      "figure_captions": {
+        "images/math_sets_venn_diagrams_CS_Figure_01_03_001.png": "A single-set Venn diagram with the region outside the set shaded: the set is Trees, and the universal set is Plants.",
+        "images/math_sets_venn_diagrams_CS_Figure_01_03_015.png": "A single-set Venn diagram with the complement shaded: everything in $U$ that lies outside circle $A$.",
+        "images/math_sets_venn_diagrams_CS_Figure_01_03_016.png": "A single-set Venn diagram with $A = \\{2, 3, 5, 7\\}$ marked inside the circle and the remaining elements of $U$ left outside."
+      },
+      "exercise_plan": {
+        "exr-10": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "Compare the regions the elements occupy: inside both, inside one, or outside both circles."
+          ]
+        },
+        "exr-18": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Decide first whether one circle must sit inside the other, overlap it, or sit apart."
+          ]
+        },
+        "exr-28": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Place each element in the rectangle, then decide which circle or circles contain it."
+          ]
+        },
+        "exr-47": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "List $U$, cross out the members of $A$, and keep the rest."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sec-4",
+      "title": "The intersection of two sets",
+      "slug": "the-intersection-of-two-sets",
+      "est_minutes": 10,
+      "locator": "CNXML module m00014, section 'The Intersection of Two Sets'",
+      "module": "m00014",
+      "objectives": [
+        "Find the intersection of two sets, including the cases of disjoint sets and one set contained in the other.",
+        "Decide from a word problem which elements belong to a named intersection."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The intersection of two sets is the set of elements that are in either one.",
+          "correction": "'Either one' describes the union. The intersection holds only the elements the two sets share.",
+          "locator": "CNXML module m00014, worked example 'Finding the Intersection of Set'"
+        },
+        {
+          "claim": "If $A \\subseteq B$ then $A \\cap B$ is empty, because $A$ is 'smaller'.",
+          "correction": "Every element of $A$ is in $B$, so they share all of $A$: $A \\cap B = A$ and $A \\cup B = B$.",
+          "locator": "CNXML module m00014, worked example 'Finding the Intersection of a Set and a Subset'"
+        }
+      ],
+      "summary": [
+        "$A \\cap B$ keeps the shared elements; disjoint sets intersect in $\\emptyset$.",
+        "If $A$ is a subset of $B$, then $A \\cap B = A$.",
+        "'And' in a word problem signals an intersection."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "The intersection $A \\cap B$ answers a single question: which elements do the two sets share? Write both rosters side by side, keep only the elements that appear in both, and you have it. The result is always a subset of each of the two sets, and it is smallest when the sets are disjoint, where the intersection is $\\emptyset$.",
+            "inline": []
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Two special cases carry a surprising share of examination marks. If $A$ and $B$ are disjoint, then $A \\cap B = \\emptyset$; finding nothing is a complete answer, not a failure of method. And if $A \\subseteq B$, every element of $A$ already lives in $B$, so the shared elements are all of $A$: $A \\cap B = A$. In a Venn diagram the intersection is exactly the overlap of the two circles, which is why the same reasoning serves both the roster view and the diagram view.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "intersection",
+        "disjoint",
+        "subset"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "algebra-of-sets",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sets",
+          "subtopic_slug": "waec-idea-of-sets-universal-sets-finite-and-infinite-sets-subsets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "The Intersection of Two Sets"
+      ],
+      "exercise_plan": {
+        "exr-9": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "Pick out the elements that appear in both rosters."
+          ]
+        },
+        "exr-15": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Look for shared elements; finding none is itself the answer."
+          ]
+        },
+        "exr-21": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "If every element of the first set is in the second, the intersection is the first set."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sec-5",
+      "title": "The union of two sets",
+      "slug": "the-union-of-two-sets",
+      "est_minutes": 10,
+      "locator": "CNXML module m00014, section 'The Union of Two Sets'",
+      "module": "m00014",
+      "objectives": [
+        "Find the union of two sets, including the cases of disjoint sets and one set contained in the other.",
+        "Connect union with the inclusive 'or' and state which subsets a union always contains."
+      ],
+      "misconceptions": [
+        {
+          "claim": "The union lists the elements of $A$ and then the elements of $B$, repetitions included.",
+          "correction": "A set never repeats an element: the union contains each element once, whether it comes from $A$, from $B$, or from both.",
+          "locator": "CNXML module m00014, worked example 'Finding the Union of Sets'"
+        },
+        {
+          "claim": "The union of $A$ and $B$ contains only the elements that are in $A$ and $B$ at the same time.",
+          "correction": "That is the intersection. The union contains everything in $A$, everything in $B$, and everything in both: $A \\subseteq A \\cup B$ and $B \\subseteq A \\cup B$.",
+          "locator": "CNXML module m00014, section 'The Union of Two Sets'"
+        }
+      ],
+      "summary": [
+        "$A \\cup B$ keeps every element once: those in $A$ only, in $B$ only, or in both.",
+        "For disjoint sets the union is just the two rosters read together.",
+        "If $A \\subseteq B$, then $A \\cup B = B$.",
+        "'Or' in a word problem signals a union, and the 'or' is inclusive."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "The union $A \\cup B$ gathers everything that belongs to $A$, to $B$, or to both, and writes each element once. Collect both rosters, merge them, and strike out the repetitions. In the Venn diagram the union is the whole area covered by the two circles together.",
+            "inline": []
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "In word problems 'or' means union, and the meaning is inclusive: a host offering 'rice or beans' has not excluded a guest who takes both. The same inclusive reading applies to survey questions that count people who chose tea or coffee. Two identities are worth memorising alongside the definition: $A$ and $B$ are always subsets of $A \\cup B$, and when $A \\subseteq B$ the union collapses to $B$, because $B$ already holds everything the union could gather.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "union",
+        "inclusive-or",
+        "subset"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "algebra-of-sets",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-sets",
+          "subtopic_slug": "waec-idea-of-sets-universal-sets-finite-and-infinite-sets-subsets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "The Union of Two Sets"
+      ],
+      "exercise_plan": {
+        "exr-28": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "Collect all elements from both rosters, then remove the repetitions."
+          ]
+        },
+        "exr-38": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Elements shared by the two rosters are written once."
+          ]
+        },
+        "exr-42": {
+          "tier": "stretch",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "State what condition an element must satisfy to belong to the union, then answer in words."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sec-6",
+      "title": "Counting with sets",
+      "slug": "counting-with-sets",
+      "est_minutes": 14,
+      "locator": "CNXML module m00014, section 'Determining the Cardinality of Two Sets', the AND/OR application and the Venn-diagram conclusions",
+      "module": "m00014",
+      "objectives": [
+        "Count the elements of a union with $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ and say why the subtraction is needed.",
+        "Translate an 'and'/'or' word problem into set operations and answer it by counting.",
+        "Draw conclusions about membership and cardinality from a two-set Venn diagram."
+      ],
+      "misconceptions": [
+        {
+          "claim": "$n(A \\cup B) = n(A) + n(B)$ for every pair of sets.",
+          "correction": "The plain sum counts the shared elements twice. Correct for that: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$. The plain sum is right only when the sets are disjoint.",
+          "locator": "CNXML module m00014, worked example 'Determining the Cardinality of the Union of Two Sets'"
+        },
+        {
+          "claim": "In a survey, the number who chose 'tea or coffee' means tea only plus coffee only.",
+          "correction": "'Or' is inclusive: it counts tea only, coffee only, and those who chose both. The both-region belongs to the union.",
+          "locator": "CNXML module m00014, worked example 'Using a Venn Diagram to Draw Conclusions about Set Cardinality'"
+        }
+      ],
+      "summary": [
+        "Subtract $n(A \\cap B)$ from the plain sum: the overlap is counted twice otherwise.",
+        "For disjoint sets the overlap is empty and the plain sum already works.",
+        "'And' is intersection, 'or' is union, and 'not' is the complement."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Examination questions on two sets rarely ask for $A \\cap B$ itself. They give the totals: how many people were surveyed, how many chose each item, how many chose neither, and ask for a single region of the Venn diagram. The habit that answers them all is the same: name the sets and the universal set, translate each given number into a region or a formula, and only then compute.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "cardinality",
+        "inclusion-exclusion",
+        "word-problems"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "venn-diagrams-and-their-applications",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "algebra-of-sets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Determining the Cardinality of Two Sets",
+        "Applying Concepts of “AND” and “OR” to Set Operations",
+        "Drawing Conclusions from a Venn Diagram with Two Sets"
+      ],
+      "exercise_plan": {
+        "exr-54": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "numeric",
+          "hints": [
+            "Substitute the three cardinalities into the union formula."
+          ]
+        },
+        "exr-58": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "numeric",
+          "hints": [
+            "With no shared elements nothing is counted twice."
+          ]
+        },
+        "exr-65": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "'And' between two sets means intersection; 'or' means union."
+          ]
+        },
+        "exr-70": {
+          "tier": "stretch",
+          "difficulty": 4,
+          "marks": 4,
+          "kind": "application",
+          "hints": [
+            "First name the two sets and the universal set, then translate each quantity in the problem into a region of the Venn diagram."
+          ]
+        },
+        "exr-83": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Read each claim off the regions of the diagram before judging it."
+          ]
+        },
+        "exr-88": {
+          "tier": "core",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "numeric",
+          "hints": [
+            "Each region of a two-set diagram is counted exactly once."
+          ]
+        }
+      },
+      "authored_exercises": [
+        {
+          "stem": "In a class of 45 students, 28 offer Physics, 24 offer Chemistry, and 8 offer neither subject. How many students offer Physics but not Chemistry?",
+          "kind": "numeric",
+          "answer": "16",
+          "answer_kind": "expression",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "stretch",
+          "solution": [
+            "Students offering at least one subject: $45 - 8 = 37$.",
+            "$n(P \\cup C) = n(P) + n(C) - n(P \\cap C)$, so $37 = 28 + 24 - n(P \\cap C)$ and $n(P \\cap C) = 15$.",
+            "Physics students not offering Chemistry: $28 - 15 = 16$."
+          ],
+          "hints": [
+            "First find how many offer at least one subject.",
+            "Use the union formula to find the number taking both subjects."
+          ],
+          "tags": [
+            "venn-word-problems",
+            "inclusion-exclusion",
+            "jamb-style"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-7",
+      "title": "Venn diagrams with three sets",
+      "slug": "venn-diagrams-with-three-sets",
+      "est_minutes": 13,
+      "locator": "CNXML module m00015, sections 'Venn Diagrams with Three Sets' and 'Applying Set Operations to Three Sets'",
+      "module": "m00015",
+      "objectives": [
+        "Interpret and draw a Venn diagram with three sets, placing each element in its own region.",
+        "Compute the union, intersection and difference of three sets and solve three-set counting problems."
+      ],
+      "misconceptions": [
+        {
+          "claim": "Three overlapping circles divide the universal set into seven regions.",
+          "correction": "Inside the circles there are seven regions, but the rectangle outside all three circles is the eighth region of the universal set.",
+          "locator": "CNXML module m00015, section 'Venn Diagrams with Three Sets'"
+        },
+        {
+          "claim": "$A \\cap B \\cap C$ means the elements in exactly two of the three sets.",
+          "correction": "The triple intersection holds elements in all three sets at once. Elements in exactly two sets belong to a pair of two-set intersections but not to the triple intersection.",
+          "locator": "CNXML module m00015, worked example 'Applying Set Operations to Three Sets'"
+        }
+      ],
+      "summary": [
+        "Three circles give eight regions: seven inside the circles and one outside, in the rectangle.",
+        "Fill a three-set diagram from the middle out: place the triple intersection first, then the pair overlaps, then the only-in-one regions.",
+        "The three-set inclusion-exclusion formula adds the three cardinalities, subtracts the three pairwise overlaps, and adds back the triple overlap."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Three-set problems reward the same discipline the two-set problems reward, with one extra step: fill the diagram from the inside out. The triple intersection is counted three times by the pairwise figures and once directly, so a problem that gives it separately spares you the algebra of the full inclusion-exclusion formula. Most examination questions do exactly that, which is why the region-by-region method is the reliable one under exam conditions.",
+            "inline": []
+          }
+        },
+        {
+          "type": "figure",
+          "asset_url": "books/secondary_mathematics/f4057a8a1bc50d69bbca455089b01a8a9629c05ac01ac06b27a14a0444b4b7b3.png",
+          "caption": {
+            "text": "The blood types of 100 blood donors arranged in a three-set Venn diagram over the sets A, B and $Rh^+$, with the donor counts written in each region.",
+            "inline": []
+          },
+          "alt": "A three-set Venn diagram of blood types A, B and Rh positive with donor counts in the eight regions.",
+          "licence": "CC BY-NC-SA 4.0"
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "venn-diagram",
+        "three-sets",
+        "word-problems"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "venn-diagrams-and-their-applications",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-1-sets",
+          "subtopic_slug": "waec-further-mathematics-1-3-venn-diagrams-use-of-sets-and-venn-diagrams-to-solve-problems",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Venn Diagrams with Three Sets",
+        "Creating Venn Diagrams with Three Sets",
+        "Applying Set Operations to Three Sets"
+      ],
+      "figure_captions": {
+        "images/math_sets_operations_three_CS_Figure_01_05_027.png": "Two overlapping circles $A$ and $B$ with the complement of $A \\cup B$ shaded, illustrating De Morgan's law in its union form.",
+        "images/math_sets_operations_three_CS_Figure_01_05_028a.png": "Three overlapping circles $A$, $B$ and $C$ with the complement of $A \\cup B \\cup C$ shaded: the region in none of the three sets."
+      },
+      "exercise_plan": {
+        "exr-16": {
+          "tier": "warm_up",
+          "difficulty": 1,
+          "marks": 1,
+          "kind": "application",
+          "hints": [
+            "Each region of the three-circle diagram has a precise description in terms of the three sets."
+          ]
+        },
+        "exr-26": {
+          "tier": "core",
+          "difficulty": 2,
+          "marks": 2,
+          "kind": "application",
+          "hints": [
+            "Fill the innermost region first, then work outwards."
+          ]
+        },
+        "exr-41": {
+          "tier": "core",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Compute the requested combination region by region rather than listing everything at once."
+          ]
+        }
+      },
+      "authored_exercises": [
+        {
+          "stem": "In a survey of 100 market traders, 40 sell cloth, 35 sell foodstuffs and 30 sell household goods. 10 sell both cloth and foodstuffs, 8 sell both cloth and household goods, 12 sell both foodstuffs and household goods, and 5 sell all three. How many traders sell none of the three goods?",
+          "kind": "numeric",
+          "answer": "20",
+          "answer_kind": "expression",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "stretch",
+          "solution": [
+            "$n(C \\cup F \\cup H) = 40 + 35 + 30 - 10 - 8 - 12 + 5 = 80$.",
+            "The survey covered 100 traders, so $100 - 80 = 20$ sell none of the three goods."
+          ],
+          "hints": [
+            "Apply the three-set inclusion-exclusion formula.",
+            "Those selling none are the universal set minus the union."
+          ],
+          "tags": [
+            "venn-word-problems",
+            "three-sets",
+            "jamb-style"
+          ]
+        }
+      ],
+      "figure_drops": [
+        "images/math_sets_operations_three_CS_Photo_01_05_002.jpg"
+      ]
+    },
+    {
+      "id": "sec-8",
+      "title": "Laws of sets",
+      "slug": "laws-of-sets",
+      "est_minutes": 12,
+      "locator": "CNXML module m00015, worked example 'Proving De Morgan's Law for Set Complement over Union Using a Venn Diagram', and the set laws",
+      "module": "m00015",
+      "objectives": [
+        "State and verify the commutative and associative laws for union and intersection on given sets.",
+        "Verify the distributive laws and De Morgan's laws, and prove them by shading Venn diagrams."
+      ],
+      "misconceptions": [
+        {
+          "claim": "$(A \\cup B)'$ is the same set as $A' \\cup B'$.",
+          "correction": "De Morgan's law says the complement of a union is the intersection of the complements: $(A \\cup B)' = A' \\cap B'$. An element outside both $A$ and $B$ is outside $A$ and outside $B$.",
+          "locator": "CNXML module m00015, worked example 'Proving De Morgan's Law for Set Complement over Union Using a Venn Diagram'"
+        },
+        {
+          "claim": "Union and intersection distribute over each other in only one direction, like multiplication over addition in arithmetic.",
+          "correction": "Both distributive laws hold: $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$ and $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$. Sets are more symmetric than numbers in this respect.",
+          "locator": "CNXML module m00015, section 'Applying Set Operations to Three Sets'"
+        }
+      ],
+      "summary": [
+        "Union and intersection are commutative and associative: order and grouping never matter.",
+        "Each operation distributes over the other, both ways.",
+        "De Morgan's laws turn complements of unions into intersections of complements, and complements of intersections into unions of complements."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Three laws cover most algebraic work with sets. Union and intersection are commutative, so $A \\cup B = B \\cup A$ and $A \\cap B = B \\cap A$, and associative, so regrouping never changes the result. Each operation distributes over the other, both ways: $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$ and $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$. De Morgan's laws complete the picture by pairing complements with the two operations: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$. Every one of these identities can be verified by listing elements or by shading Venn diagrams, and the shading argument is the one to reach for in an examination.",
+            "inline": []
+          }
+        }
+      ],
+      "worked": [],
+      "tags": [
+        "sets",
+        "set-laws",
+        "de-morgan",
+        "distributive"
+      ],
+      "exam_links": [
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-further-mathematics-1-sets",
+          "subtopic_slug": "waec-further-mathematics-1-4-commutative-and-associative-laws-distributive-properties-over-union-and-intersec",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "sets",
+          "subtopic_slug": "algebra-of-sets",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "source_sections": [
+        "Proving Equality of Sets Using Venn Diagrams"
+      ],
+      "figure_captions": {
+        "images/math_sets_operations_three_CS_Figure_01_05_035.png": "Two overlapping circles with the numbers 2 and 1 placed where only one set holds them, 3 and 4 in the intersection, and 5 and 6 outside both."
+      },
+      "exercise_plan": {
+        "exr-54": {
+          "tier": "core",
+          "difficulty": 3,
+          "marks": 3,
+          "kind": "application",
+          "hints": [
+            "Shade $(A \\cup B)'$ in one diagram and $A' \\cap B'$ in another, then compare the shaded regions."
+          ]
+        }
+      },
+      "authored_exercises": [
+        {
+          "stem": "Given $A = \\{1, 2, 3, 4\\}$, $B = \\{3, 4, 5\\}$ and $C = \\{4, 5, 6\\}$, verify by listing that $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$.",
+          "kind": "application",
+          "answer": "Both sides equal $\\{1, 2, 3, 4, 5\\}$",
+          "answer_kind": "expression",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "core",
+          "solution": [
+            "$B \\cap C = \\{4, 5\\}$, so $A \\cup (B \\cap C) = \\{1, 2, 3, 4\\} \\cup \\{4, 5\\} = \\{1, 2, 3, 4, 5\\}$.",
+            "$A \\cup B = \\{1, 2, 3, 4, 5\\}$ and $A \\cup C = \\{1, 2, 3, 4, 5, 6\\}$.",
+            "$(A \\cup B) \\cap (A \\cup C) = \\{1, 2, 3, 4, 5\\}$. Both sides agree, as the distributive law promises."
+          ],
+          "hints": [
+            "Compute the inner operation on each side first.",
+            "List both results and compare element by element."
+          ],
+          "tags": [
+            "set-laws",
+            "distributive",
+            "verification"
+          ]
+        },
+        {
+          "stem": "Let $U = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, $A = \\{2, 4, 6, 8\\}$ and $B = \\{3, 4, 5, 6\\}$. Use De Morgan's law to find $(A \\cup B)'$ and confirm it equals $A' \\cap B'$.",
+          "kind": "application",
+          "answer": "$(A \\cup B)' = \\{1, 7\\}$ and $A' \\cap B' = \\{1, 7\\}$",
+          "answer_kind": "expression",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "core",
+          "solution": [
+            "$A \\cup B = \\{2, 3, 4, 5, 6, 8\\}$, so $(A \\cup B)' = \\{1, 7\\}$.",
+            "$A' = \\{1, 3, 5, 7\\}$ and $B' = \\{1, 2, 7, 8\\}$, so $A' \\cap B' = \\{1, 7\\}$.",
+            "The two results agree, illustrating $(A \\cup B)' = A' \\cap B'$."
+          ],
+          "hints": [
+            "Find the union first, then take its complement within $U$.",
+            "Compute each complement separately before intersecting."
+          ],
+          "tags": [
+            "set-laws",
+            "de-morgan",
+            "verification"
+          ]
+        },
+        {
+          "stem": "For sets $A$ and $B$ with $n(U) = 60$, $n(A) = 32$ and $n(B) = 25$, find $n((A \\cup B)')$ given that $n(A \\cap B) = 10$.",
+          "kind": "numeric",
+          "answer": "13",
+          "answer_kind": "expression",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "stretch",
+          "solution": [
+            "$n(A \\cup B) = 32 + 25 - 10 = 47$.",
+            "$(A \\cup B)'$ is the complement of the union, so $n((A \\cup B)') = 60 - 47 = 13$.",
+            "By De Morgan's law this is also $n(A' \\cap B')$, the number in neither set."
+          ],
+          "hints": [
+            "Find the cardinality of the union first.",
+            "'Neither' means the complement of the union."
+          ],
+          "tags": [
+            "set-laws",
+            "cardinality",
+            "de-morgan"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "Contemporary Mathematics",
+      "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00011/index.cnxml",
+      "locator": "CNXML modules m00011, m00013, m00014 and m00015, the sections on representing sets, Venn diagrams, and the operations on sets",
+      "licence": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "Which collection is a well-defined set?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The tallest students in the class"
+        },
+        {
+          "id": "b",
+          "text": "The students in the class taller than 1.7 m"
+        },
+        {
+          "id": "c",
+          "text": "The best footballers in the school"
+        },
+        {
+          "id": "d",
+          "text": "The interesting topics in mathematics"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A set is well defined when membership is settled by a clear test. A height cut-off decides membership; 'tallest', 'best' and 'interesting' are matters of opinion.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "Which roster names the same set as $\\{a, b, c\\}$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\{b, c, d\\}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\{c, b, a\\}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\{a, b, b, c\\}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\{a, b\\}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Only membership matters: reordering changes nothing and repetition is not allowed, so $\\{c, b, a\\}$ is the same set.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": "The number of elements in $\\emptyset$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "$\\emptyset$"
+        },
+        {
+          "id": "d",
+          "text": "not defined"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The empty set has no elements, so its cardinality is 0. Writing $\\{0\\}$ would describe a set with one element.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "The set $\\{2, 4, 6, \\ldots\\}$ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "finite"
+        },
+        {
+          "id": "b",
+          "text": "infinite"
+        },
+        {
+          "id": "c",
+          "text": "empty"
+        },
+        {
+          "id": "d",
+          "text": "equal to $\\{2, 4, 6\\}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The open ellipsis means the pattern of even numbers continues without end, so the set is infinite.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": "Which set-builder form matches $\\{1, 3, 5, 7, 9\\}$ with pool the natural numbers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\{x \\mid x < 10\\}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\{x \\mid x \\text{ is odd and } x < 10\\}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\{x \\mid x \\text{ is odd}\\}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\{x \\mid x > 0\\}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The roster holds the odd natural numbers below 10; the other forms name different sets.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "If $n(A) = 5$ and $B$ is the set of weekdays, then $A$ and $B$ are",
+      "options": [
+        {
+          "id": "a",
+          "text": "equal"
+        },
+        {
+          "id": "b",
+          "text": "equivalent"
+        },
+        {
+          "id": "c",
+          "text": "disjoint"
+        },
+        {
+          "id": "d",
+          "text": "subsets of each other"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$n(B) = 5$ too, but the elements differ (numbers versus days), so the sets are equivalent but not equal.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": "$\\{x, y\\}$ and $\\{x, y, x\\}$ are",
+      "options": [
+        {
+          "id": "a",
+          "text": "equal"
+        },
+        {
+          "id": "b",
+          "text": "equivalent only"
+        },
+        {
+          "id": "c",
+          "text": "both equal and equivalent"
+        },
+        {
+          "id": "d",
+          "text": "neither"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Repetition is ignored, so both rosters are $\\{x, y\\}$: the sets are equal, and equal sets are always equivalent.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "In a Venn diagram, the universal set is represented by the",
+      "options": [
+        {
+          "id": "a",
+          "text": "circle"
+        },
+        {
+          "id": "b",
+          "text": "rectangle"
+        },
+        {
+          "id": "c",
+          "text": "overlap of the circles"
+        },
+        {
+          "id": "d",
+          "text": "shaded region only"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The rectangle holds every element under discussion; the circles sit inside it.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "If $n(U) = 30$ and $n(A) = 12$, then $n(A') =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "42"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$n(A') = n(U) - n(A) = 30 - 12 = 18$.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": "Non-overlapping circles in a Venn diagram show that the two sets are",
+      "options": [
+        {
+          "id": "a",
+          "text": "equal"
+        },
+        {
+          "id": "b",
+          "text": "disjoint"
+        },
+        {
+          "id": "c",
+          "text": "subsets of one another"
+        },
+        {
+          "id": "d",
+          "text": "equivalent"
+        }
+      ],
+      "answer": "b",
+      "explanation": "No overlap means no shared elements, which is the definition of disjoint sets.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "$A = \\{1, 2, 3\\}$ and $B = \\{2, 3, 4\\}$. Then $A \\cap B =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\{1, 2, 3, 4\\}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\{2, 3\\}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\{1, 4\\}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\emptyset$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The intersection keeps the elements both sets share: 2 and 3.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "$A = \\{1, 2, 3\\}$ and $B = \\{2, 3, 4\\}$. Then $A \\cup B =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\{2, 3\\}$"
+        },
+        {
+          "id": "b",
+          "text": "$\\{1, 2, 2, 3, 3, 4\\}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\{1, 2, 3, 4\\}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\{1, 4\\}$"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The union gathers every element once: 1, 2, 3 and 4. Repetitions are not written.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-13",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "If $A$ and $B$ are disjoint, then $A \\cap B =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$A$"
+        },
+        {
+          "id": "b",
+          "text": "$B$"
+        },
+        {
+          "id": "c",
+          "text": "$A \\cup B$"
+        },
+        {
+          "id": "d",
+          "text": "$\\emptyset$"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Disjoint sets share no element, so their intersection is the empty set.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-14",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": "If $A \\subseteq B$, then $A \\cap B =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\emptyset$"
+        },
+        {
+          "id": "b",
+          "text": "$A$"
+        },
+        {
+          "id": "c",
+          "text": "$B$"
+        },
+        {
+          "id": "d",
+          "text": "$A \\cup B$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Every element of $A$ is in $B$, so the shared elements are exactly the elements of $A$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-15",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "Given $n(A) = 10$, $n(B) = 20$ and $n(A \\cap B) = 4$, then $n(A \\cup B) =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "34"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "26"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "answer": "c",
+      "explanation": "$n(A \\cup B) = 10 + 20 - 4 = 26$; the shared 4 would otherwise be counted twice.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-16",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "In a class of 40, all students offer at least one of Mathematics and Physics; 25 offer Mathematics and 22 offer Physics. How many offer both?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "47"
+        }
+      ],
+      "answer": "b",
+      "explanation": "$n(M \\cup P) = 40$, so $n(M \\cap P) = 25 + 22 - 40 = 7$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-17",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": "'A student offers Mathematics or Physics' counts a student offering both subjects",
+      "options": [
+        {
+          "id": "a",
+          "text": "not at all"
+        },
+        {
+          "id": "b",
+          "text": "once"
+        },
+        {
+          "id": "c",
+          "text": "twice"
+        },
+        {
+          "id": "d",
+          "text": "only if they offer Mathematics"
+        }
+      ],
+      "answer": "b",
+      "explanation": "'Or' is the union: each element is counted once, whether it is in one set or in both.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-18",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "Three overlapping circles inside a rectangle divide the universal set into",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 regions"
+        },
+        {
+          "id": "b",
+          "text": "7 regions"
+        },
+        {
+          "id": "c",
+          "text": "8 regions"
+        },
+        {
+          "id": "d",
+          "text": "9 regions"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The three circles make 7 regions inside, and the part of the rectangle outside all circles is the 8th.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-19",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "An element belongs to $A \\cap B \\cap C$ when it is in",
+      "options": [
+        {
+          "id": "a",
+          "text": "exactly one of the sets"
+        },
+        {
+          "id": "b",
+          "text": "exactly two of the sets"
+        },
+        {
+          "id": "c",
+          "text": "all three sets"
+        },
+        {
+          "id": "d",
+          "text": "none of the sets"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The triple intersection holds the elements common to all three sets at once.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-20",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-7",
+      "stem": "In a survey of 100 people, $n(A \\cup B \\cup C) = 80$. The number in none of the three sets is",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "80"
+        },
+        {
+          "id": "c",
+          "text": "180"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "answer": "a",
+      "explanation": "None of the sets is the complement of the union: $100 - 80 = 20$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-21",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "Which law does $A \\cup B = B \\cup A$ illustrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "associative"
+        },
+        {
+          "id": "b",
+          "text": "distributive"
+        },
+        {
+          "id": "c",
+          "text": "commutative"
+        },
+        {
+          "id": "d",
+          "text": "De Morgan's"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Swapping the two operands does not change the result, which is commutativity.",
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-22",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "By De Morgan's law, $(A \\cap B)' =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$A' \\cap B'$"
+        },
+        {
+          "id": "b",
+          "text": "$A' \\cup B'$"
+        },
+        {
+          "id": "c",
+          "text": "$A \\cup B$"
+        },
+        {
+          "id": "d",
+          "text": "$A' \\cup B$"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The complement of an intersection is the union of the complements: $(A \\cap B)' = A' \\cup B'$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-23",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-8",
+      "stem": "For any sets, $A \\cup (B \\cap C) =$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$(A \\cup B) \\cap (A \\cup C)$"
+        },
+        {
+          "id": "b",
+          "text": "$(A \\cap B) \\cup (A \\cap C)$"
+        },
+        {
+          "id": "c",
+          "text": "$A \\cup B \\cup C$"
+        },
+        {
+          "id": "d",
+          "text": "$(A \\cup B) \\cup C$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Union distributes over intersection: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$.",
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    }
+  ],
+  "exercise_fixes": {
+    "sec-2:exr-58": {
+      "stem": "Write the cardinal value of each set in symbolic form: $F = \\{\\text{fork, spoon, knife, meat thermometer, can opener}\\}$ and the empty set.",
+      "answer": "$n(F) = 5$ and $n(\\emptyset) = 0$"
+    },
+    "sec-2:exr-71": {
+      "stem": "Determine whether each pair of sets is equal, equivalent, or neither: (1) $E = \\{2, 4, 6, 8, 10\\}$ and $F = \\{\\text{fork, spoon, knife, meat thermometer, can opener}\\}$; (2) the empty set and the set of prime numbers less than 2; (3) the set of vowels in the word \"happiness\" and the set of consonants in the word \"happiness\".",
+      "answer": "(1) equivalent; (2) equal; (3) neither",
+      "solution": [
+        "(1) Both sets have 5 elements, but the elements differ, so they are equivalent but not equal.",
+        "(2) There are no prime numbers less than 2, so that set is empty. Two sets with exactly the same (no) elements are equal, and equal sets are equivalent.",
+        "(3) The vowels in \"happiness\" are $\\{a, i, e\\}$ and the consonants are $\\{h, p, n, s\\}$: different counts (3 and 4) and different elements, so neither equal nor equivalent."
+      ]
+    },
+    "sec-3:exr-10": {
+      "stem": "A Venn diagram shows the set $T$ of terriers drawn as a circle entirely inside the circle $U$ of dogs, with the rectangle around them standing for animals. Write the relationship between the sets in words and symbolically."
+    },
+    "sec-3:exr-18": {
+      "stem": "A Venn diagram shows the set of triangles and the set of squares as two circles that do not overlap, both inside the rectangle $U$ of two-dimensional figures. Describe the relationship between the sets."
+    },
+    "sec-6:exr-65": {
+      "stem": "Let $A = \\{0, 3, 6, 9, 12\\}$, $B = \\{0, 4, 8, 12, 16\\}$ and $C = \\{1, 2, 3, 5, 8, 13\\}$. Find the set consisting of elements in: (1) $A$ and $B$; (2) $A$ or $B$; (3) $A$ or $C$; (4) $(B$ and $C)$ or $A$.",
+      "answer": "(1) $\\{0, 12\\}$; (2) $\\{0, 3, 4, 6, 8, 9, 12, 16\\}$; (3) $\\{0, 1, 2, 3, 5, 6, 8, 9, 12, 13\\}$; (4) $\\{0, 1, 2, 3, 4, 5, 6, 8, 9, 12, 13, 16\\}$",
+      "solution": [
+        "$A \\text{ and } B$ is the intersection $A \\cap B = \\{0, 12\\}$, the elements the two sets share.",
+        "$A \\text{ or } B$ is the union $A \\cup B = \\{0, 3, 4, 6, 8, 9, 12, 16\\}$, each element written once.",
+        "$A \\text{ or } C = \\{0, 1, 2, 3, 5, 6, 8, 9, 12, 13\\}$.",
+        "$B \\text{ and } C = \\{8\\}$, and $\\{8\\}$ or $A$ gives $\\{0, 1, 2, 3, 4, 5, 6, 8, 9, 12, 13, 16\\}$."
+      ]
+    },
+    "sec-6:exr-88": {
+      "stem": "A Venn diagram of two intersecting sets has 7 elements in $A$ only, 5 in both $A$ and $B$, and 2 in $B$ only. Find $n(A \\cup B)$, $n(A \\cap B)$ and $n(A)$.",
+      "answer": "$n(A \\cup B) = 14$, $n(A \\cap B) = 5$, $n(A) = 12$",
+      "solution": [
+        "$n(A \\cup B)$ counts every region once: $7 + 5 + 2 = 14$.",
+        "$n(A \\cap B)$ is the overlap region: 5.",
+        "$n(A)$ is the sum of the regions inside circle $A$: $7 + 5 = 12$."
+      ]
+    },
+    "sec-7:exr-16": {
+      "stem": "Use the Venn diagram above, which shows the blood types of 100 people who donated blood at a local clinic, to answer the following questions. How many people with a type A blood factor donated blood? Julio has blood type $B^+$. If he needs a blood transfusion, he can accept blood from anyone who does not have a type A blood factor. How many people donated blood that Julio can accept? How many people who donated blood do not have the $Rh^+$ blood factor? How many people had type A and type B blood?",
+      "answer": "46; 54; 16; 4",
+      "solution": [
+        "The type A blood factor covers the regions $A^-$, $A^+$, $AB^-$ and $AB^+$: $n(A) = 6 + 36 + 1 + 3 = 46$.",
+        "Julio can accept anyone outside circle $A$: $n(A') = 100 - 46 = 54$.",
+        "Not having $Rh^+$ means the regions $O^-$, $A^-$, $AB^-$ and $B^-$: $7 + 6 + 1 + 2 = 16$.",
+        "Type A and type B together means the regions $AB^-$ and $AB^+$: $1 + 3 = 4$."
+      ]
+    }
+  },
+  "order": 2
+}

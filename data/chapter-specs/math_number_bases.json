@@ -1,7 +1,7 @@
 {
   "chapter_id": "math_number_bases",
   "schema_version": 2,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-14",
   "title": "Number Bases",
   "book_id": "secondary_mathematics",
   "part_id": "part-1",
@@ -1303,5 +1303,6 @@
       "difficulty": 2,
       "source": "authored against the WAEC general-mathematics syllabus"
     }
-  ]
+  ],
+  "order": 1
 }

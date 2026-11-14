@@ -80,6 +80,376 @@
       "source": "data/concepts/images/math_number_bases_multiplication_CS_figure_04_05_001.png",
       "width": 1240
     },
+    "images/math_sets_basic_CS_Photo_01_01_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38962,
+      "extension": ".jpg",
+      "height": 400,
+      "published_path": "books/secondary_mathematics/e0cd2b1b68b5fa364bd2244af11c4555b9e4705c0df40247f9082f3f4768d465.jpg",
+      "sha256": "e0cd2b1b68b5fa364bd2244af11c4555b9e4705c0df40247f9082f3f4768d465",
+      "source": "data/concepts/images/math_sets_basic_CS_Photo_01_01_002.jpg",
+      "width": 305
+    },
+    "images/math_sets_basic_CS_Photo_01_02_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 52663,
+      "extension": ".jpg",
+      "height": 451,
+      "published_path": "books/secondary_mathematics/3cec0234474afcc2f1ee96551b8f9dbcfc6581f828712f0610a3dd6edab052cf.jpg",
+      "sha256": "3cec0234474afcc2f1ee96551b8f9dbcfc6581f828712f0610a3dd6edab052cf",
+      "source": "data/concepts/images/math_sets_basic_CS_Photo_01_02_001.jpg",
+      "width": 450
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_027.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 24271,
+      "extension": ".png",
+      "height": 407,
+      "published_path": "books/secondary_mathematics/c521aacc4c6d25ed21cfcd1ec261f556e39921e0153c75087aa34587094dc9a8.png",
+      "sha256": "c521aacc4c6d25ed21cfcd1ec261f556e39921e0153c75087aa34587094dc9a8",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_027.png",
+      "width": 556
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_028a.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 64907,
+      "extension": ".png",
+      "height": 836,
+      "published_path": "books/secondary_mathematics/8d0ae38ecbc03c6fa112c987549d1cdc8b146da041a912c002a9d65c218eefeb.png",
+      "sha256": "8d0ae38ecbc03c6fa112c987549d1cdc8b146da041a912c002a9d65c218eefeb",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_028a.png",
+      "width": 838
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_028b.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 38669,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/67ee78fb023f5b68364db8cb6ff90c2350c342d5966fcaf329a60b402d4442b7.png",
+      "sha256": "67ee78fb023f5b68364db8cb6ff90c2350c342d5966fcaf329a60b402d4442b7",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_028b.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_029a.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 48603,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/f4057a8a1bc50d69bbca455089b01a8a9629c05ac01ac06b27a14a0444b4b7b3.png",
+      "sha256": "f4057a8a1bc50d69bbca455089b01a8a9629c05ac01ac06b27a14a0444b4b7b3",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_029a.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_029b.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 39404,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/5101b44bd75e2218d3a0d2f6b4ae1188005da9c0e4a1564f90d364e5a53f4a5a.png",
+      "sha256": "5101b44bd75e2218d3a0d2f6b4ae1188005da9c0e4a1564f90d364e5a53f4a5a",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_029b.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_030.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 40838,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/3b3b2d61ede14c81d2177522bdf76aea60ed0e5e799d9b25680a5e808eb153e9.png",
+      "sha256": "3b3b2d61ede14c81d2177522bdf76aea60ed0e5e799d9b25680a5e808eb153e9",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_030.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_031.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 42464,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/eebca07eff113ecad519d804f2dd28092d5ab5857d678430abd18cea5ca7c116.png",
+      "sha256": "eebca07eff113ecad519d804f2dd28092d5ab5857d678430abd18cea5ca7c116",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_031.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_032.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 42621,
+      "extension": ".png",
+      "height": 651,
+      "published_path": "books/secondary_mathematics/6c4bcefa61a2dd8855ca0a755176ef507a6fa862407dec41f9f45873e6b14f53.png",
+      "sha256": "6c4bcefa61a2dd8855ca0a755176ef507a6fa862407dec41f9f45873e6b14f53",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_032.png",
+      "width": 603
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_035.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 18401,
+      "extension": ".png",
+      "height": 326,
+      "published_path": "books/secondary_mathematics/aeb77b741ce51ff27389cff288070f5be36ea81d8f4f9ea1cd255d4f2694f414.png",
+      "sha256": "aeb77b741ce51ff27389cff288070f5be36ea81d8f4f9ea1cd255d4f2694f414",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_035.png",
+      "width": 425
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_036.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 24629,
+      "extension": ".png",
+      "height": 379,
+      "published_path": "books/secondary_mathematics/5520be042cd9ce7f9255184e36fe6a2c1c2f21759c8290ca5959f933f11456c5.png",
+      "sha256": "5520be042cd9ce7f9255184e36fe6a2c1c2f21759c8290ca5959f933f11456c5",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_036.png",
+      "width": 836
+    },
+    "images/math_sets_operations_three_CS_Figure_01_05_037.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 26735,
+      "extension": ".png",
+      "height": 379,
+      "published_path": "books/secondary_mathematics/4aba9a38af775f29a2eecb43ec0da5f849774e2fdc19070ef400b5306d58e8fb.png",
+      "sha256": "4aba9a38af775f29a2eecb43ec0da5f849774e2fdc19070ef400b5306d58e8fb",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Figure_01_05_037.png",
+      "width": 1185
+    },
+    "images/math_sets_operations_three_CS_Photo_01_05_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 60942,
+      "extension": ".jpg",
+      "height": 400,
+      "published_path": "books/secondary_mathematics/2238eee32a4b1ca1bea509f8a67df07368e17648d711f0a4c6cb0e92cf167d41.jpg",
+      "sha256": "2238eee32a4b1ca1bea509f8a67df07368e17648d711f0a4c6cb0e92cf167d41",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Photo_01_05_001.jpg",
+      "width": 600
+    },
+    "images/math_sets_operations_three_CS_Photo_01_05_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 116573,
+      "extension": ".jpg",
+      "height": 850,
+      "published_path": "books/secondary_mathematics/7660c583e71a70c2f250b4ca2813a8958dbd04486556286e1865b2ffc7dc60ea.jpg",
+      "sha256": "7660c583e71a70c2f250b4ca2813a8958dbd04486556286e1865b2ffc7dc60ea",
+      "source": "data/concepts/images/math_sets_operations_three_CS_Photo_01_05_002.jpg",
+      "width": 803
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_017.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 12200,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/8e8efd1333b6ad652567d109cf2114599ac44dc3d741bfb479aad714c3a04dcb.png",
+      "sha256": "8e8efd1333b6ad652567d109cf2114599ac44dc3d741bfb479aad714c3a04dcb",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_017.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_018.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 12655,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/d273c8467b2f44b1fd2f731ff93702ee7cdb661a60a8f0b3354271cb5e9ba1c2.png",
+      "sha256": "d273c8467b2f44b1fd2f731ff93702ee7cdb661a60a8f0b3354271cb5e9ba1c2",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_018.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_019.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 14237,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/202971ebd83c73015aa94d28509df5fed008846d0fca969caadda13f4c79a72a.png",
+      "sha256": "202971ebd83c73015aa94d28509df5fed008846d0fca969caadda13f4c79a72a",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_021.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_020.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 12405,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/1ac2ec75c0818068107c22a2077006d87b978230f2519eef7048bc47a76ce7a7.png",
+      "sha256": "1ac2ec75c0818068107c22a2077006d87b978230f2519eef7048bc47a76ce7a7",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_020.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_021.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 14237,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/202971ebd83c73015aa94d28509df5fed008846d0fca969caadda13f4c79a72a.png",
+      "sha256": "202971ebd83c73015aa94d28509df5fed008846d0fca969caadda13f4c79a72a",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_021.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_022.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 31252,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/9f3309a7e6f8a01a1c6bb95a365e7f3295decdd4dda389242621ce508834af2f.png",
+      "sha256": "9f3309a7e6f8a01a1c6bb95a365e7f3295decdd4dda389242621ce508834af2f",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_022.png",
+      "width": 872
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_023.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 18686,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/65d3c78c8ff9c043373ec05102ffb7af0f12a7f682ae5487dab8b2dd1bf8b2d7.png",
+      "sha256": "65d3c78c8ff9c043373ec05102ffb7af0f12a7f682ae5487dab8b2dd1bf8b2d7",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_023.png",
+      "width": 489
+    },
+    "images/math_sets_operations_two_CS_Figure_01_04_025.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 15537,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/6cbc7cfc58c427233c6c463e479d394fec639b9d07dbbfd54e4836a702a125d2.png",
+      "sha256": "6cbc7cfc58c427233c6c463e479d394fec639b9d07dbbfd54e4836a702a125d2",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Figure_01_04_025.png",
+      "width": 425
+    },
+    "images/math_sets_operations_two_CS_Photo_01_04_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 183193,
+      "extension": ".jpg",
+      "height": 500,
+      "published_path": "books/secondary_mathematics/5056faf03900b6f43124dadcb0f9d74b4f565119e6738eb0e8e2458984269bb5.jpg",
+      "sha256": "5056faf03900b6f43124dadcb0f9d74b4f565119e6738eb0e8e2458984269bb5",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Photo_01_04_001.jpg",
+      "width": 750
+    },
+    "images/math_sets_operations_two_CS_Photo_01_04_002.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 134678,
+      "extension": ".jpg",
+      "height": 850,
+      "published_path": "books/secondary_mathematics/3d27d6bd37500677eb196580b07c74fdcbfedeebf115ff4d0a70f31adae953ee.jpg",
+      "sha256": "3d27d6bd37500677eb196580b07c74fdcbfedeebf115ff4d0a70f31adae953ee",
+      "source": "data/concepts/images/math_sets_operations_two_CS_Photo_01_04_002.jpg",
+      "width": 832
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_001.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 9370,
+      "extension": ".png",
+      "height": 323,
+      "published_path": "books/secondary_mathematics/060e41a351f4b57d0b5534198d18e2ad06f8a5ae5d228bce83b3f52664911813.png",
+      "sha256": "060e41a351f4b57d0b5534198d18e2ad06f8a5ae5d228bce83b3f52664911813",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_001.png",
+      "width": 425
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_002.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 10079,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/d64a6a723a5f4d837fb3d82eced9b6acbcc3b27521de0ce26367f79c2f728e04.png",
+      "sha256": "d64a6a723a5f4d837fb3d82eced9b6acbcc3b27521de0ce26367f79c2f728e04",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_002.png",
+      "width": 425
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_004.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 15492,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/aa334c652a364f7db433da49f96c6f30d267de7a02dbc292445b763fb35b1652.png",
+      "sha256": "aa334c652a364f7db433da49f96c6f30d267de7a02dbc292445b763fb35b1652",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_004.png",
+      "width": 425
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_005.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 17884,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/f0f5f091e971742d7af21d1f4c06535f8030df51760555bfebcadbc9e47cb9fa.png",
+      "sha256": "f0f5f091e971742d7af21d1f4c06535f8030df51760555bfebcadbc9e47cb9fa",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_005.png",
+      "width": 554
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_007.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 12654,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/ceff318a85f60a52c715246fd1bb4a6d0e1c3dafeadfb826c9beffa535647ba3.png",
+      "sha256": "ceff318a85f60a52c715246fd1bb4a6d0e1c3dafeadfb826c9beffa535647ba3",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_007.png",
+      "width": 454
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_008.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 11804,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/4bcd191dc704bdeee6358f1d8484ce52bd52ed7dc6130770ad0359c7a8338d51.png",
+      "sha256": "4bcd191dc704bdeee6358f1d8484ce52bd52ed7dc6130770ad0359c7a8338d51",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_008.png",
+      "width": 454
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_009.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 7974,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/3f6100cafe7bea67a586e6f9ba147c81a0ad719d6c2fb625090fc8ce511945a2.png",
+      "sha256": "3f6100cafe7bea67a586e6f9ba147c81a0ad719d6c2fb625090fc8ce511945a2",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_009.png",
+      "width": 454
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_011.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 10067,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/f48555b831cc3d2411051186903b691f5c216a2318bf8a7576fb8b6b5e668baf.png",
+      "sha256": "f48555b831cc3d2411051186903b691f5c216a2318bf8a7576fb8b6b5e668baf",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_011.png",
+      "width": 354
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_013.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 17896,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/8fa3dd5114e52362507435248be119e58884d1e346da53aa25ca233b3b8a6f60.png",
+      "sha256": "8fa3dd5114e52362507435248be119e58884d1e346da53aa25ca233b3b8a6f60",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_013.png",
+      "width": 554
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_015.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 7604,
+      "extension": ".png",
+      "height": 322,
+      "published_path": "books/secondary_mathematics/bdf49738077294bd82bb0c25ff373d88b89df1d495fcb1b69cf4dd5979dcbeb8.png",
+      "sha256": "bdf49738077294bd82bb0c25ff373d88b89df1d495fcb1b69cf4dd5979dcbeb8",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_015.png",
+      "width": 354
+    },
+    "images/math_sets_venn_diagrams_CS_Figure_01_03_016.png": {
+      "book_id": "secondary_mathematics",
+      "bytes": 18099,
+      "extension": ".png",
+      "height": 366,
+      "published_path": "books/secondary_mathematics/e7cdbf0028b99de92762884f5851ec33dd647803ab6f0c547778c7b37b886505.png",
+      "sha256": "e7cdbf0028b99de92762884f5851ec33dd647803ab6f0c547778c7b37b886505",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Figure_01_03_016.png",
+      "width": 489
+    },
+    "images/math_sets_venn_diagrams_CS_Photo_01_03_001.jpg": {
+      "book_id": "secondary_mathematics",
+      "bytes": 133745,
+      "extension": ".jpg",
+      "height": 600,
+      "published_path": "books/secondary_mathematics/4856480f98ba404d1dcc7105e2ec2dc22f35312848d1be576a56b39bf5c0abd1.jpg",
+      "sha256": "4856480f98ba404d1dcc7105e2ec2dc22f35312848d1be576a56b39bf5c0abd1",
+      "source": "data/concepts/images/math_sets_venn_diagrams_CS_Photo_01_03_001.jpg",
+      "width": 800
+    },
     "images/math_surds_CNX_CAT_Figure_01_03_001.jpg": {
       "book_id": "secondary_mathematics",
       "bytes": 18082,

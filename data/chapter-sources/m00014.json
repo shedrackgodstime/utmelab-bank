@@ -1,0 +1,1539 @@
+{
+  "module": "m00014",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-contemporary-mathematics",
+    "section": "m00014",
+    "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00014/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Photo_01_04_001.jpg",
+      "caption": {
+        "text": "A large, multigenerational family contains an intersection and a union of sets. (credit: “Family Photo Shoot Bani Syakur” by Mainur Risyada/Flickr, CC BY 2.0)",
+        "inline": []
+      },
+      "alt": "A group of men and women of varying ages are smiling and posing for a group photo.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Learning Objectives",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-2",
+      "type": "paragraph",
+      "content": {
+        "text": "After completing this section, you should be able to:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "The movie *Yours, Mine, and Ours* was originally released in 1968 and starred Lucille Ball and Henry Fonda. This movie, which is loosely based on a true story, is about the marriage of Helen, a widow with eight children, and Frank, a widower with ten children, who then have an additional child together. The movie is a comedy that plays on the interpersonal and organizational struggles of feeding, bathing, and clothing twenty people in one household.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-4",
+      "type": "paragraph",
+      "content": {
+        "text": "If we consider the set of Helen's children and the set of Frank's children, then the child they had together is the intersection of these two sets, and the collection of all their children combined is the union of these two sets. In this section, we will explore the operations of union and intersection as it relates to two sets.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "The Intersection of Two Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "The members that the two sets share in common are included in the intersection of two sets . To be in the intersection of two sets, an element must be in both the first set and the second set. In this way, the intersection of two sets is a logical AND statement. Symbolically, $A$ intersection $B$ is written as: $A∩B$ . $A$ intersection $B$ is written in set builder notation as: $A∩B={x|x∈Aandx∈B}$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-7",
+      "type": "paragraph",
+      "content": {
+        "text": "Let us look at Helen's and Frank's children from the movie *Yours, Mine, and Ours.* Helen's children consist of the set $H={Colleen, Nick, Janette, Tommy, Jean, Phillip, Gerald, Theresa, Joseph}$ and Frank's children are included in the set $F={Mike, Rusty, Greg, Rosemary, Loise, Susan, Veronica, Mary, Germaine, Joan, Joseph}$ . $H$ intersection $F$ is the set of children they had together. $H∩F={Joseph}$ , because Joseph is in both set $H$ and set $F$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-8",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Finding the Intersection of Set",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-9",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={1,3,5,7,9}$ and $B={2,3,5,7}.$ Find $A$ intersection $B.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The intersection of sets $A$ and $B$ include the elements that set $A$ and $B$ have in common: 3, 5, and 7. $A∩B={3,5,7}.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-10",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={1,3,5,7,9}$ and $B={2,3,5,7}.$ Find $A$ intersection $B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-11",
+      "type": "paragraph",
+      "content": {
+        "text": "The intersection of sets $A$ and $B$ include the elements that set $A$ and $B$ have in common: 3, 5, and 7. $A∩B={3,5,7}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-12",
+      "type": "paragraph",
+      "content": {
+        "text": "Notice that if sets $A$ and $B$ are disjoint sets, then they do not share any elements in common, and $A$ intersection $B$ is the empty set, as shown in the Venn diagram below.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_020.png",
+      "caption": {
+        "text": "A two-set Venn diagram, A and B, not intersecting one another is given. Outside the diagram, it is labeled U.",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram, A and B, not intersecting one another is given. Outside the diagram, it is labeled U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-14",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Determining the Intersection of Disjoint Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-15",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={0,2,4,6,8}$ and set $B={1,3,5,7,9}.$ Find $A∩B.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because sets $A$ and $B$ are disjoint, they do not share any elements in common. So, the intersection of set $A$ and set $B$ is the empty set. $A∩B=∅.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-16",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={0,2,4,6,8}$ and set $B={1,3,5,7,9}.$ Find $A∩B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-17",
+      "type": "paragraph",
+      "content": {
+        "text": "Because sets $A$ and $B$ are disjoint, they do not share any elements in common. So, the intersection of set $A$ and set $B$ is the empty set. $A∩B=∅.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-18",
+      "type": "paragraph",
+      "content": {
+        "text": "Notice that if set $A$ is a subset of set $B$ , then $A$ intersection $B$ is equal to set $A$ , as shown in the Venn diagram below.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_021.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram, A and B, where A is inside B is depicted. Outside the diagram, it is labeled U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-20",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Finding the Intersection of a Set and a Subset",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-21",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={1,3,5,…}$ and set $B=ℕ={1,2,3,…}$ Find $A∩B.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because set $A$ is a subset of set $B$ , $A$ intersection $B$ is equal to set $A$ . $A∩B=A={1,3,5,…},$ the set of odd natural numbers.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-22",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={1,3,5,…}$ and set $B=ℕ={1,2,3,…}$ Find $A∩B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-23",
+      "type": "paragraph",
+      "content": {
+        "text": "Because set $A$ is a subset of set $B$ , $A$ intersection $B$ is equal to set $A$ . $A∩B=A={1,3,5,…},$ the set of odd natural numbers.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-24",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "The Union of Two Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-25",
+      "type": "paragraph",
+      "content": {
+        "text": "Like the union of two families in marriage, the union of two sets includes all the members of the first set and all the members of the second set. To be in the union of two sets, an element must be in the first set, the second set, or both. In this way, the union of two sets is a logical inclusive OR statement. Symbolically, $A$ union $B$ is written as: $A∪B.$ $A$ union $B$ is written in set builder notation as: $A∪B={x|x∈Aorx∈B}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-26",
+      "type": "paragraph",
+      "content": {
+        "text": "Let us consider the sets of Helen's and Frank's children from the movie *Yours, Mine, and Ours* again. Helen's children is set $H={Colleen, Nick, Janette, Tommy, Jean, Phillip, Gerald, Theresa, Joseph}$ and Frank's children is set $F={Mike, Rusty, Greg, Rosemary, Loise, Susan, Veronica, Mary, Germaine, Joan, Joseph}$ . The union of these two sets is the collection of all nineteen of their children, $H∪F={Colleen, Nick, Janette, Tommy, Jean, Phillip, Gerald, Theresa, Joseph,Mike, Rusty, Greg, Rosemary, Loise, Susan, Veronica, Mary, Germaine, Joan}.$ Notice, Joseph is in both set $H$ and set $F$ , but he is only one child, so, he is only listed once in the union.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-27",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Finding the Union of Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-28",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={1,3,5,7,9}$ and set $B={2,3,5,7}$ . Find $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$A$ union $B$ is the set formed by including all the unique elements in set $A$ , set $B$ , or both sets $A$ and $B$ : $A∪B={1,3,5,7,9,2}.$ The first five elements of the union are the five unique elements in set $A$ . Even though 3, 5, and 7 are also members of set $B$ , these elements are only listed one time. Lastly, set $B$ includes the unique element 2, so 2 is also included as part of the union of sets $A$ and $B$ .",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-29",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={1,3,5,7,9}$ and set $B={2,3,5,7}$ . Find $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "$A$ union $B$ is the set formed by including all the unique elements in set $A$ , set $B$ , or both sets $A$ and $B$ : $A∪B={1,3,5,7,9,2}.$ The first five elements of the union are the five unique elements in set $A$ . Even though 3, 5, and 7 are also members of set $B$ , these elements are only listed one time. Lastly, set $B$ includes the unique element 2, so 2 is also included as part of the union of sets $A$ and $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-31",
+      "type": "paragraph",
+      "content": {
+        "text": "When observing the union of sets $A$ and $B$ , notice that both set $A$ and set $B$ are subsets of $A$ union $B$ . Graphically, $A$ union $B$ can be represented in several different ways depending on the members that they have in common. If $A$ and $B$ are disjoint sets, then $A$ union $B$ would be represented with two disjoint circles within the universal set, as shown in the Venn diagram below.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_017.png",
+      "caption": {
+        "text": "$A∪B$",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram, A and B, not intersecting one another is given. Outside the diagram, it is labeled U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-33",
+      "type": "paragraph",
+      "content": {
+        "text": "If sets $A$ and $B$ share some, but not all, members in common, then the Venn diagram is drawn as two separate circles that overlap.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_018.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram, A and B, intersecting one another is given. Outside the diagram, it is labeled U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-35",
+      "type": "paragraph",
+      "content": {
+        "text": "If every member of set $A$ is also a member of set $B$ , then $A$ is a subset of set $B$ , and $A$ union $B$ would be equal to set $B$ . To draw the Venn diagram, the circle representing set $A$ should be completely enclosed in the circle containing set $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_019.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram, A and B, where A is inside B is depicted. Outside the diagram, it is labeled U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-37",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Finding the Union of Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-38",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={0,2,4,6,8}$ and set $B={1,3,5,7,9}.$ Find $A∪B.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because sets $A$ and $B$ are disjoint, the union is simply the set containing all the elements in both set $A$ and set $B$ . $A∪B={0,1,2,3,4,5,6,7,8,9}.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={0,2,4,6,8}$ and set $B={1,3,5,7,9}.$ Find $A∪B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-40",
+      "type": "paragraph",
+      "content": {
+        "text": "Because sets $A$ and $B$ are disjoint, the union is simply the set containing all the elements in both set $A$ and set $B$ . $A∪B={0,1,2,3,4,5,6,7,8,9}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-41",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Finding the Union of Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-42",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Set $A={1,3,5,…}$ and set $B=ℕ={1,2,3,…}.$ Find $A∪B.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Because set $A$ is a subset of set $B$ , $A$ union $B$ is equal to set $B$ . $A∪B=ℕ={1,2,3,…}=B.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "Set $A={1,3,5,…}$ and set $B=ℕ={1,2,3,…}.$ Find $A∪B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "Because set $A$ is a subset of set $B$ , $A$ union $B$ is equal to set $B$ . $A∪B=ℕ={1,2,3,…}=B.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-45",
+      "type": "paragraph",
+      "content": {
+        "text": "The Basics of Intersection of Sets, Union of Sets and Venn Diagrams",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-46",
+      "type": "paragraph",
+      "content": {
+        "text": "Sets Challenge is an application available on both Android and iPhone smartphones that allows you to practice and gain familiarity with the operations of set union, intersection, complement, and difference.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Photo_01_04_002.jpg",
+      "caption": {
+        "text": "Google Play Store image of Sets Challenge game. (credit: screenshot from Google Play)",
+        "inline": []
+      },
+      "alt": "A screenshot of an application named Sets Challenge on the Google play store",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "The Sets Challenge application/game uses some notation that differs from the notation covered in the text. The complement of set $A$ in this text is written symbolically as ${A}^{′},$ but the Sets Challenge game uses ${A}^{C}$ to represent the complement operation. In the text we do not cover set difference between two sets $A$ and $B$ , represented in the game as $A-B.$ In the game this operation removes from set $A$ all the elements in $A∩B.$ For example, if set $A={a,b,c,d}$ and set $B={b,d,f,h}$ are subsets of the universal set $U={a,b,c,…,z},$ then $A-B={a,b,c,d}-{b,d}={a,c},$ and $B-A={b,d,f,h}-{b,d}={f,h}.$ There is a project at the end of the chapter to research the set difference operation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-49",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Determining the Cardinality of Two Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "The cardinality of the union of two sets is the total number of elements in the set. Symbolically the cardinality of $A$ union $B$ is written, $n(A∪B)$ . If two sets $A$ and $B$ are disjoint, the cardinality of $A$ union $B$ is the sum of the cardinality of set $A$ and the cardinality of set $B$ . If the two sets intersect, then $A$ intersection $B$ is a subset of both set $A$ and set $B$ . This means that if we add the cardinality of set $A$ and set $B$ , we will have added the number of elements in $A$ intersection $B$ twice, so we must then subtract it once as shown in the formula that follows.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-51",
+      "type": "paragraph",
+      "content": {
+        "text": "The *cardinality of* $A$ *union* $B$ is found by adding the number of elements in set $A$ to the number of elements in set $B$ , then subtracting the number of elements in the intersection of set $A$ and set $B$ . $n(A∪B)=n(A)+n(B)-n(A∩B)$ or $n(AorB)=n(A)+n(B)-n(AandB).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-52",
+      "type": "paragraph",
+      "content": {
+        "text": "If sets $A$ and $B$ are disjoint, then $n(A∩B)=n(AandB)=0$ and the formula is still valid, but simplifies to $n(A∪B)=n(A)+n(B).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-53",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Determining the Cardinality of the Union of Two Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-54",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "The number of elements in set $A$ is 10, the number of elements in set $B$ is 20, and the number of elements in $A$ intersection $B$ is 4. Find the number of elements in $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Using the formula for determining the cardinality of the union of two sets, we can say $n(A∪B)=n(A)+n(B)-n(A∩B)=10+20-4=26.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-55",
+      "type": "paragraph",
+      "content": {
+        "text": "The number of elements in set $A$ is 10, the number of elements in set $B$ is 20, and the number of elements in $A$ intersection $B$ is 4. Find the number of elements in $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "Using the formula for determining the cardinality of the union of two sets, we can say $n(A∪B)=n(A)+n(B)-n(A∩B)=10+20-4=26.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-57",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Determining the Cardinality of the Union of Two Disjoint Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-58",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "If $A$ and $B$ are disjoint sets and the cardinality of set $A$ is 37 and the cardinality of set $B$ is 43, find the cardinality of $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "To find the cardinality of $A$ union $B$ , apply the formula, $n(A∪B)=n(A)+n(B)-n(A∩B).$ Because sets $A$ and $B$ are disjoint, $A∩B$ is the empty set, therefore $n(A∩B)=n(∅)=0$ and $n(A∪B)=37+43-0=80.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-59",
+      "type": "paragraph",
+      "content": {
+        "text": "If $A$ and $B$ are disjoint sets and the cardinality of set $A$ is 37 and the cardinality of set $B$ is 43, find the cardinality of $A$ union $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-60",
+      "type": "paragraph",
+      "content": {
+        "text": "To find the cardinality of $A$ union $B$ , apply the formula, $n(A∪B)=n(A)+n(B)-n(A∩B).$ Because sets $A$ and $B$ are disjoint, $A∩B$ is the empty set, therefore $n(A∩B)=n(∅)=0$ and $n(A∪B)=37+43-0=80.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-61",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Applying Concepts of “AND” and “OR” to Set Operations",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-62",
+      "type": "paragraph",
+      "content": {
+        "text": "To become a licensed driver, you must pass some form of written test and a road test, along with several other requirements depending on your age. To keep this example simple, let us focus on the road test and the written test. If you pass the written test but fail the road test, you will not receive your license. If you fail the written test, you will not be allowed to take the road test and you will not receive a license to drive. To receive a driver's license, you must pass the written test AND the road test. For an “AND” statement to be true, both conditions that make up the statement must be true. Similarly, the intersection of two sets $A$ and $B$ is the set of elements that are in both set $A$ and set $B$ . To be a member of $A$ intersection $B$ , an element must be in set $A$ and also must be in set $B$ . The intersection of two sets corresponds to a logical \"AND\" statement.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-63",
+      "type": "paragraph",
+      "content": {
+        "text": "The union of two sets is a logical inclusive \"OR\" statement. Say you are at a birthday party and the host offers Leah, Lenny, Maya, and you some cake or ice cream for dessert. Leah asks for cake, Lenny accepts both cake and ice cream, Maya turns down both, and you choose only ice cream. Leah, Lenny, and you are all having dessert. The “OR” statement is true if at least one of the components is true. Maya is the only one who did not have cake or ice cream; therefore, she did not have dessert and the “OR” statement is false. To be in the union of two sets $A$ and $B$ , an element must be in set $A$ or set $B$ or both set $A$ and set $B$ .",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-64",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Applying the \"AND\" or \"OR\" Operation",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-65",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "$A={0,3,6,9,12},B={0,4,8,12,16},$ and $C={1,2,3,5,8,13}.$ Find the set consisting of elements in: $AandB.$ $AorB.$ $AorC.$ $(BandC)orA.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$AandB=A∩B={0,12},$ because only the elements 0 and 12 are members of both set $A$ and set $B$ . $AorB=A∪B={0,3,4,6,8,9,12,16},$ because the set $A$ or $B$ is the collection of all elements in set $A$ or set $B$ , or both. $AorC=A∪C={0,1,2,3,5,6,8,9,12,13},$ because the set $A$ or $C$ is the collection of all elements in set $A$ or set $C$ , or both. $(BandC)orA=(B∩C)∪A.$ Parentheses are evaluated first: $(BandC)=B∩C={8},$ because the only member that both set $B$ and set $C$ share in common is 8. So, now we need to find ${8}or{0,3,6,9,12},$ Because the word translates to the union operation, the problem becomes ${8}∪{0,3,6,9,12},$ which is equal to ${0,3,6,8,9,12}.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-66",
+      "type": "paragraph",
+      "content": {
+        "text": "$A={0,3,6,9,12},B={0,4,8,12,16},$ and $C={1,2,3,5,8,13}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-67",
+      "type": "paragraph",
+      "content": {
+        "text": "Find the set consisting of elements in:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-68",
+      "type": "paragraph",
+      "content": {
+        "text": "$AandB=A∩B={0,12},$ because only the elements 0 and 12 are members of both set $A$ and set $B$ . $AorB=A∪B={0,3,4,6,8,9,12,16},$ because the set $A$ or $B$ is the collection of all elements in set $A$ or set $B$ , or both. $AorC=A∪C={0,1,2,3,5,6,8,9,12,13},$ because the set $A$ or $C$ is the collection of all elements in set $A$ or set $C$ , or both. $(BandC)orA=(B∩C)∪A.$ Parentheses are evaluated first: $(BandC)=B∩C={8},$ because the only member that both set $B$ and set $C$ share in common is 8. So, now we need to find ${8}or{0,3,6,9,12},$ Because the word translates to the union operation, the problem becomes ${8}∪{0,3,6,9,12},$ which is equal to ${0,3,6,8,9,12}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-69",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Determine and Apply the Appropriate Set Operations to Solve the Problem",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-70",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Don Woods is serving cake and ice cream at his Juneteenth celebration. The party has a total of 54 guests in attendance. Suppose 30 guests requested cake, 20 guests asked for ice cream, and 12 guests did not have either cake or ice cream. How many guests had cake or ice cream? How many guests had cake and ice cream?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The total number of people at the party is 54, and 12 people did not have cake or ice cream. Recall that the total number of elements in the universal set is always equal to the number of elements in a subset plus the number of elements in the complement of the set, $n(U)=n(A)+n({A}^{′}).$ That means $54=n(cake or ice cream)+n(not(cake or ice cream))$ , or equivalently, $n(cake∪ice cream)=54-n({(cake∪ice cream)}^{′})=54-12=42.$ A total of 42 people at the party had cake or ice cream. To determine the number of people who had both cake and ice cream, we need to find the intersection of the set of people who had cake and the set of people who had ice cream. From Question 1, the number of people who had cake or ice cream is 42. This is the union of the two sets. The formula for the union of two sets is $n(A∪B)=n(A)+n(B)-n(A∩B).$ Use the information given in the problem and substitute the known values into the formula to solve for the number of people in the intersection: $42=30+20-n(A∩B).$ Adding 30 and 20, the equation simplifies to $42=50-n(cake and ice cream).$ Which means $n(cake and ice cream)=50-42=8.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-71",
+      "type": "paragraph",
+      "content": {
+        "text": "Don Woods is serving cake and ice cream at his Juneteenth celebration. The party has a total of 54 guests in attendance. Suppose 30 guests requested cake, 20 guests asked for ice cream, and 12 guests did not have either cake or ice cream.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-72",
+      "type": "paragraph",
+      "content": {
+        "text": "The total number of people at the party is 54, and 12 people did not have cake or ice cream. Recall that the total number of elements in the universal set is always equal to the number of elements in a subset plus the number of elements in the complement of the set, $n(U)=n(A)+n({A}^{′}).$ That means $54=n(cake or ice cream)+n(not(cake or ice cream))$ , or equivalently, $n(cake∪ice cream)=54-n({(cake∪ice cream)}^{′})=54-12=42.$ A total of 42 people at the party had cake or ice cream. To determine the number of people who had both cake and ice cream, we need to find the intersection of the set of people who had cake and the set of people who had ice cream. From Question 1, the number of people who had cake or ice cream is 42. This is the union of the two sets. The formula for the union of two sets is $n(A∪B)=n(A)+n(B)-n(A∩B).$ Use the information given in the problem and substitute the known values into the formula to solve for the number of people in the intersection: $42=30+20-n(A∩B).$ Adding 30 and 20, the equation simplifies to $42=50-n(cake and ice cream).$ Which means $n(cake and ice cream)=50-42=8.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-73",
+      "type": "paragraph",
+      "content": {
+        "text": "John Venn, in his writings, references works by both John Boole and Augustus De Morgan, who referred to the circle diagrams commonly used to present logical relationships as Euler's circles. Leonhard Euler's works were published over 100 years prior to Venn's, and Euler may have been influenced by the works of Gottfried Leibniz.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-74",
+      "type": "paragraph",
+      "content": {
+        "text": "So, why does John Venn get all the credit for these graphical depictions? Venn was the first to formalize the use of these diagrams in his book *Symbolic Logic,* published in 1881. Further, he made significant improvements in their design, including shading to highlight the region of interest. The mathematician C.L. Dodgson, also known as Lewis Carroll, built upon Venn’s work by adding an enclosing universal set.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-75",
+      "type": "paragraph",
+      "content": {
+        "text": "Invention is not necessarily coming up with an initial idea. It is about seeing the potential of an idea and applying it to a new situation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-76",
+      "type": "paragraph",
+      "content": {
+        "text": "Margaret E. Baron. \"A Note on the Historical Development of Logic Diagrams: Leibniz, Euler and Venn.\" *The Mathematical Gazette* , vol. 53, no. 384, 1969, pp. 113-125. *JSTOR* , www.jstor.org/stable/3614533. Accessed 15 July 2021.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-77",
+      "type": "paragraph",
+      "content": {
+        "text": "Deborah Bennett. \"Drawing Logical Conclusions.\" *Math Horizons* , vol. 22, no. 3, 2015, pp. 12-15. *JSTOR* , www.jstor.org/stable/10.4169/mathhorizons.22.3.12. Accessed 15 July 2021.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-78",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Drawing Conclusions from a Venn Diagram with Two Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-79",
+      "type": "paragraph",
+      "content": {
+        "text": "All Venn diagrams will display the relationships between the sets, such as subset, intersecting, and/or disjoint. In addition to displaying the relationship between the two sets, there are two main additional details that Venn diagrams can include: the individual members of the sets or the cardinality of each disjoint subset of the universal set.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-80",
+      "type": "paragraph",
+      "content": {
+        "text": "A Venn diagram with two subsets will partition the universal set into 3 or 4 sections depending on whether they are disjoint or intersecting sets. Recall that the complement of set $A$ , written ${A}^{′},$ is the set of all elements in the universal set that are not in set $A.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_022.png",
+      "caption": {
+        "text": "Side-by-side Venn diagrams with disjoint and intersecting sets, respectively.",
+        "inline": []
+      },
+      "alt": "A two-set disjoint Venn diagram and a two-set intersecting Venn diagram are depicted side by side.  Outside both the Venn diagrams U is marked at the top left corner. The two sets of both the Venn diagrams are labeled A and B. In the first Venn diagram, Outside the set, the complement of A union B is given. In the second Venn diagram, Set A shows A union of B complement. Set B shows B union of A complement. The intersection of the sets shows A union B. Outside the set, the complement of A union B is given. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-82",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Using a Venn Diagram to Draw Conclusions about Set Membership",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-83",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Find $A∪B.$ Find $A∩B.$ Find ${B}^{′}$ . Find $n({B}^{′}).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "$A∪B={1,2,3,4,5,6,7,8},$ because $A$ union $B$ is the collection of all elements in set $A$ or set $B$ or both. Because $A$ and $B$ are disjoint sets, there are no elements that are in both $A$ and $B$ . Therefore, $A$ intersection $B$ is the empty set, $A∩B=∅.$ The complement of set $B$ is the set of all elements in the universal set that are not in set $B$ : ${B}^{′}={0,1,3,5,7,9}.$ The cardinality, or number of elements in set ${B}^{′},isn({B}^{′})=6.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_023.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram not intersecting one another is given. The first set is labeled A while the second set is labeled B.  Set A shows 1, 3, 5, 7. Set B shows 2, 4, 8, 6. Outside the sets, 0, 9 are given. Outside the Venn diagram, it is marked 'U equals (0, 1, 2, 3, 4, 5, 6, 7, 8, 9).' ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-85",
+      "type": "paragraph",
+      "content": {
+        "text": "Find $A∪B.$ Find $A∩B.$ Find ${B}^{′}$ . Find $n({B}^{′}).$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-86",
+      "type": "paragraph",
+      "content": {
+        "text": "$A∪B={1,2,3,4,5,6,7,8},$ because $A$ union $B$ is the collection of all elements in set $A$ or set $B$ or both. Because $A$ and $B$ are disjoint sets, there are no elements that are in both $A$ and $B$ . Therefore, $A$ intersection $B$ is the empty set, $A∩B=∅.$ The complement of set $B$ is the set of all elements in the universal set that are not in set $B$ : ${B}^{′}={0,1,3,5,7,9}.$ The cardinality, or number of elements in set ${B}^{′},isn({B}^{′})=6.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-87",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Using a Venn Diagram to Draw Conclusions about Set Cardinality",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-88",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Venn diagram with two intersecting sets and number of elements in each section indicated. Find $n(AorB).$ Find $n(AandB).$ Find $n(A).$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The number of elements in $A$ or $B$ is the number of elements in $A$ union $B$ : $n(A∪B)=n({2,5,7})=14.$ The number of elements in $A$ and $B$ is the number of elements in $A$ intersection $B$ : $n(A∩B)=5.$ The number of elements in set $A$ is the sum of all the numbers enclosed in the circle representing set $A$ : $n(A)=n({7,5})=12.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_two_CS_Figure_01_04_025.png",
+      "caption": {
+        "text": "Venn diagram with two intersecting sets and number of elements in each section indicated.",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram intersecting one another is given. The first set is labeled A while the second set is labeled B.  Set A shows 7. Set B shows 5. The intersection of the sets shows 5. Outside the Venn diagram, it is marked U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-90",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Check Your Understanding",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-91",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Terms",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-92",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-93",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Formulas",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-94",
+      "type": "paragraph",
+      "content": {
+        "text": "The cardinality of $A$ union $B:n(A∪B)=n(A)+n(B)-n(A∩B)$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-95",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Video",
+        "inline": []
+      }
+    }
+  ],
+  "solutions": {
+    "osbooks-contemporary-mathematics:m00014:exr-9": [
+      [
+        {
+          "kind": "text",
+          "text": "The intersection of sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "include the elements that set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "have in common: 3, 5, and 7."
+        },
+        {
+          "kind": "math",
+          "text": "A∩B={3,5,7}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-15": [
+      [
+        {
+          "kind": "text",
+          "text": "Because sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "are disjoint, they do not share any elements in common. So, the intersection of set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and set"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is the empty set."
+        },
+        {
+          "kind": "math",
+          "text": "A∩B=∅."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-21": [
+      [
+        {
+          "kind": "text",
+          "text": "Because set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "is a subset of set"
+        },
+        {
+          "kind": "math",
+          "text": "B,A"
+        },
+        {
+          "kind": "text",
+          "text": "intersection"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is equal to set"
+        },
+        {
+          "kind": "math",
+          "text": "A.A∩B=A={1,3,5,…},"
+        },
+        {
+          "kind": "text",
+          "text": "the set of odd natural numbers."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-28": [
+      [
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "union"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is the set formed by including all the unique elements in set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": ", set"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": ", or both sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B:A∪B={1,3,5,7,9,2}."
+        },
+        {
+          "kind": "text",
+          "text": "The first five elements of the union are the five unique elements in set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": ". Even though 3, 5, and 7 are also members of set"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": ", these elements are only listed one time. Lastly, set"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "includes the unique element 2, so 2 is also included as part of the union of sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-38": [
+      [
+        {
+          "kind": "text",
+          "text": "Because sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "are disjoint, the union is simply the set containing all the elements in both set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and set"
+        },
+        {
+          "kind": "math",
+          "text": "B.A∪B={0,1,2,3,4,5,6,7,8,9}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-42": [
+      [
+        {
+          "kind": "text",
+          "text": "Because set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "is a subset of set"
+        },
+        {
+          "kind": "math",
+          "text": "B,A"
+        },
+        {
+          "kind": "text",
+          "text": "union"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is equal to set"
+        },
+        {
+          "kind": "math",
+          "text": "B.A∪B=ℕ={1,2,3,…}=B."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-54": [
+      [
+        {
+          "kind": "text",
+          "text": "Using the formula for determining the cardinality of the union of two sets, we can say"
+        },
+        {
+          "kind": "math",
+          "text": "n(A∪B)=n(A)+n(B)-n(A∩B)=10+20-4=26."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-58": [
+      [
+        {
+          "kind": "text",
+          "text": "To find the cardinality of"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "union"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": ", apply the formula,"
+        },
+        {
+          "kind": "math",
+          "text": "n(A∪B)=n(A)+n(B)-n(A∩B)."
+        },
+        {
+          "kind": "text",
+          "text": "Because sets"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "are disjoint,"
+        },
+        {
+          "kind": "math",
+          "text": "A∩B"
+        },
+        {
+          "kind": "text",
+          "text": "is the empty set, therefore"
+        },
+        {
+          "kind": "math",
+          "text": "n(A∩B)=n(∅)=0"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "n(A∪B)=37+43-0=80."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-65": [
+      [
+        {
+          "kind": "text",
+          "text": "AandB=A∩B={0,12}, because only the elements 0 and 12 are members of both set A and set B.; AorB=A∪B={0,3,4,6,8,9,12,16}, because the set A or B is the collection of all elements in set A or set B , or both.; AorC=A∪C={0,1,2,3,5,6,8,9,12,13}, because the set A or C is the collection of all elements in set A or set C , or both.; (BandC)orA=(B∩C)∪A. Parentheses are evaluated first: (BandC)=B∩C={8}, because the only member that both set B and set C share in common is 8. So, now we need to find {8}or{0,3,6,9,12}, Because the word translates to the union operation, the problem becomes {8}∪{0,3,6,9,12}, which is equal to {0,3,6,8,9,12}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-70": [
+      [
+        {
+          "kind": "text",
+          "text": "The total number of people at the party is 54, and 12 people did not have cake or ice cream. Recall that the total number of elements in the universal set is always equal to the number of elements in a subset plus the number of elements in the complement of the set, n(U)=n(A)+n({A}^{′}). That means 54=n( cake or ice cream )+n(not( cake or ice cream )) , or equivalently, n(cake∪ ice cream )=54-n({(cake∪ ice cream )}^{′})=54-12=42. A total of 42 people at the party had cake or ice cream.; To determine the number of people who had both cake and ice cream, we need to find the intersection of the set of people who had cake and the set of people who had ice cream. From Question 1, the number of people who had cake or ice cream is 42. This is the union of the two sets. The formula for the union of two sets is n(A∪B)=n(A)+n(B)-n(A∩B). Use the information given in the problem and substitute the known values into the formula to solve for the number of people in the intersection: 42=30+20-n(A∩B). Adding 30 and 20, the equation simplifies to 42=50-n( cake and ice cream) . Which means n( cake and ice cream) =50-42=8."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-83": [
+      [
+        {
+          "kind": "text",
+          "text": "A∪B={1,2,3,4,5,6,7,8}, because A union B is the collection of all elements in set A or set B or both.; Because A and B are disjoint sets, there are no elements that are in both A and B . Therefore, A intersection B is the empty set, A∩B=∅.; The complement of set B is the set of all elements in the universal set that are not in set B:{B}^{′}={0,1,3,5,7,9}.; The cardinality, or number of elements in set {B}^{′},isn({B}^{′})=6."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00014:exr-88": [
+      [
+        {
+          "kind": "text",
+          "text": "The number of elements in"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "or"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is the number of elements in"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "union"
+        },
+        {
+          "kind": "math",
+          "text": "B:n(A∪B)=n({2,5,7})=14."
+        },
+        {
+          "kind": "text",
+          "text": "The number of elements in"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": "is the number of elements in"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "intersection"
+        },
+        {
+          "kind": "math",
+          "text": "B:n(A∩B)=5."
+        },
+        {
+          "kind": "text",
+          "text": "The number of elements in set"
+        },
+        {
+          "kind": "math",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": "is the sum of all the numbers enclosed in the circle representing set"
+        },
+        {
+          "kind": "math",
+          "text": "A:n(A)=n({7,5})=12."
+        }
+      ]
+    ]
+  }
+}

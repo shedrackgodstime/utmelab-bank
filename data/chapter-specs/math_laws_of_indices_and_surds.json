@@ -1,7 +1,7 @@
 {
   "chapter_id": "math_laws_of_indices_and_surds",
   "schema_version": 2,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-14",
   "title": "Laws of Indices and Surds",
   "book_id": "secondary_mathematics",
   "part_id": "part-1",
@@ -2090,5 +2090,6 @@
       },
       "frequency": "candidate"
     }
-  ]
+  ],
+  "order": 3
 }

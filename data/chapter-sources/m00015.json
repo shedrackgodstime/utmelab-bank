@@ -1,0 +1,971 @@
+{
+  "module": "m00015",
+  "source_attribution": {
+    "publisher": "OpenStax",
+    "book": "osbooks-contemporary-mathematics",
+    "section": "m00015",
+    "url": "https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00015/index.cnxml",
+    "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)",
+    "locator": "CNXML module index.cnxml (typed elements, solutions present)"
+  },
+  "blocks": [
+    {
+      "id": "fig-1",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Photo_01_05_001.jpg",
+      "caption": {
+        "text": "Companies like Google collect data on how you use their services, but the data requires analysis to really mean something. (credit: “Man holding smartphone and searches through google” by Nenad Stojkovic/Flickr, CC BY 2.0)",
+        "inline": []
+      },
+      "alt": "A person is looking at a phone. A laptop is in the background.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Learning Objectives",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-2",
+      "type": "paragraph",
+      "content": {
+        "text": "After completing this section, you should be able to:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-3",
+      "type": "paragraph",
+      "content": {
+        "text": "Have you ever searched for something on the Internet and then soon after started seeing multiple advertisements for that item while browsing other web pages? Large corporations have built their business on data collection and analysis. As we start working with larger data sets, the analysis becomes more complex. In this section, we will extend our knowledge of set relationships by including a third set.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-4",
+      "type": "paragraph",
+      "content": {
+        "text": "A Venn diagram with two intersecting sets breaks up the universal set into four regions; simply adding one additional set will increase the number of regions to eight, doubling the complexity of the problem.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Venn Diagrams with Three Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-6",
+      "type": "paragraph",
+      "content": {
+        "text": "Below is a Venn diagram with two intersecting sets, which breaks the universal set up into four distinct regions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-2",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_027.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram of A and B intersecting one another is given. Set A shows A union of B complement. Set B shows B union of A complement. The intersection of the sets shows A union B. Outside the set, the complement of A union B is given. Outside the Venn diagram, it is marked U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-8",
+      "type": "paragraph",
+      "content": {
+        "text": "Next, we see a Venn diagram with three intersecting sets , which breaks up the universal set into eight distinct regions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-3",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_028a.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram of A, B, and C intersecting one another is given. Set A shows A union of the complement of (B union C). Set B shows B union of the complement of (A union C). Set C shows the C union of the complement of (A union B). The intersection of sets A and B shows A union B union complement of C. The intersection of sets B and C shows the complement of A union B union C. The intersection of sets A and C show the A union complement of B union C. The intersection of the sets shows A union B union C. Outside the set, the complement of (A union B union C is given). Outside the Venn diagram, it is marked U. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-10",
+      "type": "paragraph",
+      "content": {
+        "text": "Venn Diagram is an Android application that allows you to visualize how the sets are related in a Venn diagram by entering expressions and displaying the resulting Venn diagram of the set shaded in gray.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-4",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Photo_01_05_002.jpg",
+      "caption": {
+        "text": "Google Play Store image of Venn Diagram app. (credit: screenshot from Google Play)",
+        "inline": []
+      },
+      "alt": "A screenshot of an application named Venn Diagram on the Google play store",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-12",
+      "type": "paragraph",
+      "content": {
+        "text": "The Venn Diagram application uses some notation that differs from the notation covered in this text.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-13",
+      "type": "paragraph",
+      "content": {
+        "text": "It is recommended that you explore this application to expand your knowledge of Venn diagrams prior to continuing with the next example.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-14",
+      "type": "paragraph",
+      "content": {
+        "text": "In the next example, we will explore the three main blood factors, A, B and Rh. The following background information about blood types will help explain the relationships between the sets of blood factors. If an individual has blood factor A or B, those will be included in their blood type. The Rh factor is indicated with a $+$ or a $-$ . For example, if a person has all three blood factors, then their blood type would be ${AB}^{+}$ . In the Venn diagram, they would be in the intersection of all three sets, $A∩B∩R{h}^{+}.$ If a person did not have any of these three blood factors, then their blood type would be ${O}^{-},$ and they would be in the set ${(A∪B∪R{h}^{+})}^{′}$ which is the region outside all three circles.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-15",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Interpreting a Venn Diagram with Three Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-16",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Use the Venn diagram below, which shows the blood types of 100 people who donated blood at a local clinic, to answer the following questions. How many people with a type A blood factor donated blood? Julio has blood type ${B}^{+}.$ If he needs to have surgery that requires a blood transfusion, he can accept blood from anyone who does not have a type A blood factor. How many people donated blood that Julio can accept? How many people who donated blood do not have the ${Rh}^{+}$ blood factor? How many people had type A and type B blood?",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "The number of people who donated blood with a type A blood factor will include the sum of all the values included in the A circle. It will be the union of sets ${A}^{-},{A}^{+},A{B}^{-}andA{B}^{+}.$ $n(A)=n({A}^{-})+n({A}^{+})+n(A{B}^{-})+n(A{B}^{+})=6+36+1+3=46.$ In part 1, it was determined that the number of donors with a type A blood factor is 46. To determine the number of people who did not have a type A blood factor, use the following property, ${A}^{′}$ union is equal to $U$ , which means $n(A)+n({A}^{′})=n(U),$ and $n({A}^{′})=n(U)-n(A)=100-46=54.$ Thus, 54 people donated blood that Julio can accept. This would be everyone outside the ${Rh}^{+}$ circle, or everyone with a negative Rh factor, $n(R{h}^{-})=n({O}^{-})+n({A}^{-})+n(A{B}^{-})+n({B}^{-})=7+6+1+2=16.$ To have both blood type A and blood type B, a person would need to be in the intersection of sets $A$ and $B$ . The two circles overlap in the regions labeled $A{B}^{-}$ and $A{B}^{+}.$ Add up the number of people in these two regions to get the total: $1+3=4.$ This can be written symbolically as $n(AandB)=n(A∩B)=n(A{B}^{-})+n(A{B}^{+})=1+3=4.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-17",
+      "type": "paragraph",
+      "content": {
+        "text": "Use the Venn diagram below, which shows the blood types of 100 people who donated blood at a local clinic, to answer the following questions.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-5",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_029a.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram A, B, and Rh plus overlapping one another is given. Set A shows A dash equals 6. Set B shows B dash equals 2. Set Rh plus shows O plus dash equals 37. The intersection of sets A and B shows AB dash equals 1. The intersection of sets B and Rh plus shows B plus equals 8. The intersection of sets A and Rh plus shows A plus equals 36. The intersection of all three sets shows AB plus equals 3. Outside the set, 'O dash equals 7' is given. Outside the Venn diagram, it is marked 'U equals Blood types of 100 people.' ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-19",
+      "type": "paragraph",
+      "content": {
+        "text": "How many people with a type A blood factor donated blood? Julio has blood type ${B}^{+}.$ If he needs to have surgery that requires a blood transfusion, he can accept blood from anyone who does not have a type A blood factor. How many people donated blood that Julio can accept? How many people who donated blood do not have the ${Rh}^{+}$ blood factor? How many people had type A and type B blood?",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-20",
+      "type": "paragraph",
+      "content": {
+        "text": "The number of people who donated blood with a type A blood factor will include the sum of all the values included in the A circle. It will be the union of sets ${A}^{-},{A}^{+},A{B}^{-}andA{B}^{+}.$ $n(A)=n({A}^{-})+n({A}^{+})+n(A{B}^{-})+n(A{B}^{+})=6+36+1+3=46.$ In part 1, it was determined that the number of donors with a type A blood factor is 46. To determine the number of people who did not have a type A blood factor, use the following property, ${A}^{′}$ union is equal to $U$ , which means $n(A)+n({A}^{′})=n(U),$ and $n({A}^{′})=n(U)-n(A)=100-46=54.$ Thus, 54 people donated blood that Julio can accept. This would be everyone outside the ${Rh}^{+}$ circle, or everyone with a negative Rh factor, $n(R{h}^{-})=n({O}^{-})+n({A}^{-})+n(A{B}^{-})+n({B}^{-})=7+6+1+2=16.$ To have both blood type A and blood type B, a person would need to be in the intersection of sets $A$ and $B$ . The two circles overlap in the regions labeled $A{B}^{-}$ and $A{B}^{+}.$ Add up the number of people in these two regions to get the total: $1+3=4.$ This can be written symbolically as $n(AandB)=n(A∩B)=n(A{B}^{-})+n(A{B}^{+})=1+3=4.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-21",
+      "type": "paragraph",
+      "content": {
+        "text": "Most people know their main blood type of A, B, AB, or O and whether they are $R{h}^{+}$ or $R{h}^{-}$ , but did you know that the International Society of Blood Transfusion recognizes twenty-eight additional blood types that have important implications for organ transplants and successful pregnancy? For more information, check out this article:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-22",
+      "type": "paragraph",
+      "content": {
+        "text": "Blood mystery solved: Two new blood types identified",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-23",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Creating Venn Diagrams with Three Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-24",
+      "type": "paragraph",
+      "content": {
+        "text": "In general, when creating Venn diagrams from data involving three subsets of a universal set, the strategy is to work from the inside out. Start with the intersection of the three sets, then address the regions that involve the intersection of two sets. Next, complete the regions that involve a single set, and finally address the region in the universal set that does not intersect with any of the three sets. This method can be extended to any number of sets. The key is to start with the region involving the most overlap, working your way from the center out.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-25",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Creating a Venn Diagram with Three Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-26",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "A teacher surveyed her class of 43 students to find out how they prepared for their last test. She found that 24 students made flash cards, 14 studied their notes, and 27 completed the review assignment. Of the entire class of 43 students, 12 completed the review and made flash cards, nine completed the review and studied their notes, and seven made flash cards and studied their notes, while only five students completed all three of these tasks. The remaining students did not do any of these tasks. Create a Venn diagram with subsets labeled: “Notes,” “Flash Cards,” and “Review” to represent how the students prepared for the test.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "*Step 1:* First, draw a Venn diagram with three intersecting circles to represent the three intersecting sets: Notes, Flash Cards, and Review. Label the universal set with the cardinality of the class. *Step 2:* Next, in the region where all three sets intersect, enter the number of students who completed all three tasks. *Step 3:* Next, calculate the value and label the three sections where just two sets overlap. *Review and flash card overlap* . A total of 12 students completed the review and made flash cards, but five of these twelve students did all three tasks, so we need to subtract: $12-5=7$ . This is the value for the region where the flash card set intersects with the review set. *Review and notes overlap* . A total of 9 students completed the review and studied their notes, but again, five of these nine students completed all three tasks. So, we subtract: $9-5=4$ . This is the value for the region where the review set intersects with the notes set. *Flash card and notes overlap* . A total of 7 students made flash cards and studied their notes; subtracting the five students that did all three tasks from this number leaves 2 students who only studied their notes and made flash cards. Add these values to the Venn diagram. *Step 4:* Now, repeat this process to find the number of students who only completed one of these three tasks. A total of 24 students completed flash cards, but we have already accounted for $2+5+7=14$ of these. Thus, $24-14=10$ students who just made flash cards. A total of 14 students studied their notes, but we have already accounted for $4+5+2=11$ of these. Thus, $14-11=3$ students only studied their notes. A total of 27 students completed the review assignment, but we have already accounted for $4+5+7=16$ of these, which means $27-16=11$ students only completed the review assignment. Add these values to the Venn diagram. *Step 5:* Finally, compute how many students did not do any of these three tasks. To do this, we add together each value that we have already calculated for the separate and intersecting sections of our three sets: $3+2+4+5+10+7+11=42$ . Because there 43 students in the class, and $43-42=1$ , this means only one student did not complete any of these tasks to prepare for the test. Record this value somewhere in the rectangle, but outside of all the circles, to complete the Venn diagram.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-27",
+      "type": "paragraph",
+      "content": {
+        "text": "A teacher surveyed her class of 43 students to find out how they prepared for their last test. She found that 24 students made flash cards, 14 studied their notes, and 27 completed the review assignment. Of the entire class of 43 students, 12 completed the review and made flash cards, nine completed the review and studied their notes, and seven made flash cards and studied their notes, while only five students completed all three of these tasks. The remaining students did not do any of these tasks. Create a Venn diagram with subsets labeled: “Notes,” “Flash Cards,” and “Review” to represent how the students prepared for the test.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-28",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* First, draw a Venn diagram with three intersecting circles to represent the three intersecting sets: Notes, Flash Cards, and Review. Label the universal set with the cardinality of the class.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-6",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_028b.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram overlapping one another is given. The first set is labeled Notes, the second set is labeled Flash Card, and the third set is labeled Review. Outside the Venn diagram, 'U equals Class equals 43' is marked. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-30",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Next, in the region where all three sets intersect, enter the number of students who completed all three tasks.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-7",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_029b.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram overlapping one another is given. The first set is labeled Notes, the second set is labeled Flash Card, and the third set is labeled Review. The intersection of all three sets shows 5. Outside the Venn diagram, 'U equals Class equals 43' is marked.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-32",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Next, calculate the value and label the three sections where just two sets overlap. *Review and flash card overlap* . A total of 12 students completed the review and made flash cards, but five of these twelve students did all three tasks, so we need to subtract: $12-5=7$ . This is the value for the region where the flash card set intersects with the review set. *Review and notes overlap* . A total of 9 students completed the review and studied their notes, but again, five of these nine students completed all three tasks. So, we subtract: $9-5=4$ . This is the value for the region where the review set intersects with the notes set. *Flash card and notes overlap* . A total of 7 students made flash cards and studied their notes; subtracting the five students that did all three tasks from this number leaves 2 students who only studied their notes and made flash cards. Add these values to the Venn diagram.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-8",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_030.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram overlapping one another is given. The first set is labeled Notes, the second set is labeled Flash Card, and the third set is labeled Review. Outside the Venn diagram, 'U equals Class equals 43' is marked.  The intersection of the first and second sets shows 2, the intersection of the second and third sets shows 7, and the intersection of the first and third sets shows 4. The intersection of all three sets shows 5.",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-34",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 4:* Now, repeat this process to find the number of students who only completed one of these three tasks. A total of 24 students completed flash cards, but we have already accounted for $2+5+7=14$ of these. Thus, $24-14=10$ students who just made flash cards. A total of 14 students studied their notes, but we have already accounted for $4+5+2=11$ of these. Thus, $14-11=3$ students only studied their notes. A total of 27 students completed the review assignment, but we have already accounted for $4+5+7=16$ of these, which means $27-16=11$ students only completed the review assignment. Add these values to the Venn diagram.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-9",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_031.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram overlapping one another is given. The first set is labeled Notes, the second set is labeled Flash Card, and the third set is labeled Review. The first set shows 3, the second shows 10, and the third set shows 11. The intersection of the first and second sets shows 2, the intersection of the second and third sets shows 7, and the intersection of the first and third sets shows 4. The intersection of all three sets shows 5. Outside the Venn diagram, 'U equals Class equals 43' is marked. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-36",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 5:* Finally, compute how many students did not do any of these three tasks. To do this, we add together each value that we have already calculated for the separate and intersecting sections of our three sets: $3+2+4+5+10+7+11=42$ . Because there 43 students in the class, and $43-42=1$ , this means only one student did not complete any of these tasks to prepare for the test. Record this value somewhere in the rectangle, but outside of all the circles, to complete the Venn diagram.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-10",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_032.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A three-set Venn diagram overlapping one another is given. The first set is labeled Notes, the second set is labeled Flash Card, and the third set is labeled Review. The first set shows 3, the second shows 10, and the third set shows 11. The intersection of the first and second sets shows 2, the intersection of the second and third sets shows 7, and the intersection of the first and third sets shows 4. The intersection of all three sets shows 5. Outside the sets, 1 is marked. Outside the Venn diagram, 'U equals Class equals 43' is marked. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "sec-38",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Applying Set Operations to Three Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-39",
+      "type": "paragraph",
+      "content": {
+        "text": "Set operations are applied between two sets at a time. Parentheses indicate which operation should be performed first. As with numbers, the inner most parentheses are applied first. Next, find the complement of any sets, then perform any union or intersections that remain.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "ex-40",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Applying Set Operations to Three Sets",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-41",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "Perform the set operations as indicated on the following sets: $U={0,1,2,3,4,5,6,7,8,9,10,11,12}$ , $A={0,1,2,3,4,5,6},$ $B={0,2,4,6,8,10,12},$ and $C={0,3,6,9,12}.$ Find $(A∩B)∩C.$ Find $A∩(B∪C).$ Find $(A∩B)∪{C}^{′}.$",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "Parentheses first, $A$ intersection $B$ equals $A∩B={0,2,4,6},$ the elements common to both $A$ and $B$ . $(A∩B)∩C={0,2,4,6}∩{0,3,6,9,12}={0,6},$ because the only elements that are in both sets are 0 and 6. Parentheses first, $B$ union $C$ equals $B∪C={0,2,3,4,6,8,9,10,12},$ the collection of all elements in set $B$ or set $C$ or both. $A∩(B∪C)={0,1,2,3,4,5,6}∩{0,2,3,4,6,8,9,10,12}={0,2,3,4,6},$ because the intersection of these two sets is the set of elements that are common to both sets. Parentheses first, $A$ intersection $B$ equals $A∩B={0,2,4,6}.$ Next, find ${C}^{′}.$ The complement of set $C$ is the set of elements in the universal set $U$ that are not in set $C.$ ${C}^{′}={1,2,4,5,7,8,10,11}.$ Finally, find $(A∩B)∪{C}^{′}={0,2,4,6}∪{1,2,4,5,7,8,10,11}={0,1,2,4,5,6,7,8,10,11}.$",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-42",
+      "type": "paragraph",
+      "content": {
+        "text": "Perform the set operations as indicated on the following sets: $U={0,1,2,3,4,5,6,7,8,9,10,11,12}$ , $A={0,1,2,3,4,5,6},$ $B={0,2,4,6,8,10,12},$ and $C={0,3,6,9,12}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-43",
+      "type": "paragraph",
+      "content": {
+        "text": "Parentheses first, $A$ intersection $B$ equals $A∩B={0,2,4,6},$ the elements common to both $A$ and $B$ . $(A∩B)∩C={0,2,4,6}∩{0,3,6,9,12}={0,6},$ because the only elements that are in both sets are 0 and 6. Parentheses first, $B$ union $C$ equals $B∪C={0,2,3,4,6,8,9,10,12},$ the collection of all elements in set $B$ or set $C$ or both. $A∩(B∪C)={0,1,2,3,4,5,6}∩{0,2,3,4,6,8,9,10,12}={0,2,3,4,6},$ because the intersection of these two sets is the set of elements that are common to both sets. Parentheses first, $A$ intersection $B$ equals $A∩B={0,2,4,6}.$ Next, find ${C}^{′}.$ The complement of set $C$ is the set of elements in the universal set $U$ that are not in set $C.$ ${C}^{′}={1,2,4,5,7,8,10,11}.$ Finally, find $(A∩B)∪{C}^{′}={0,2,4,6}∪{1,2,4,5,7,8,10,11}={0,1,2,4,5,6,7,8,10,11}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-44",
+      "type": "paragraph",
+      "content": {
+        "text": "Notice that the answers to the Your Turn are the same as those in the Example. This is not a coincidence. The following equivalences hold true for sets:",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-45",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Proving Equality of Sets Using Venn Diagrams",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-46",
+      "type": "paragraph",
+      "content": {
+        "text": "To prove set equality using Venn diagrams, the strategy is to draw a Venn diagram to represent each side of the equality, then look at the resulting diagrams to see if the regions under consideration are identical.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-47",
+      "type": "paragraph",
+      "content": {
+        "text": "Augustus De Morgan was an English mathematician known for his contributions to set theory and logic. De Morgan’s law for set complement over union states that $(A∪B{)}^{′}={A}^{′}∩{B}^{′}$ . In the next example, we will use Venn diagrams to prove De Morgan’s law for set complement over union is true. But before we begin, let us confirm De Morgan’s law works for a specific example. While showing something is true for one specific example is not a proof, it will provide us with some reason to believe that it may be true for all cases.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-48",
+      "type": "paragraph",
+      "content": {
+        "text": "Let $U={1,2,3,4,5,6,7},$ $A={2,3,4},$ and $B={3,4,5,6}.$ We will use these sets in the equation $(A∪B{)}^{′}={A}^{′}∩{B}^{′}.$ To begin, find the value of the set defined by each side of the equation.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-49",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* $A∪B$ is the collection of all unique elements in set $A$ or set $B$ or both. $A∪B={2,3,4,5,6}.$ The complement of *A* union *B* , ${(A∪B)}^{′}$ , is the set of all elements in the universal set that are not in $A∪B$ . So, the left side the equation ${(A∪B)}^{′}$ is equal to the set ${1,7}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-50",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* The right side of the equation is ${A}^{′}∩{B}^{′}.$ ${A}^{′}$ is the set of all members of the universal set $U$ that are not in set $A$ . ${A}^{′}={1,5,6,7}.$ Similarly, $B′={1,2,7}.$",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-51",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Finally, ${A}^{′}∩{B}^{′}$ is the set of all elements that are in both ${A}^{′}$ and ${B}^{′}.$ The numbers 1 and 7 are common to both sets, therefore, ${A}^{′}∩{B}^{′}={1,7}.$ Because, ${1,7}={1,7}$ we have demonstrated that De Morgan’s law for set complement over union works for this particular example. The Venn diagram below depicts this relationship.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-11",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_035.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A two-set Venn diagram of A and B is given. Set A shows 2, l while set B shows 5, 6. The intersection of the sets shows 3, 4. Outside sets A and B, 1, and 7 are shown. The union of the sets A and B shows (0, 1, 2, 3, 4, 5, 6, 7). ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "ex-53",
+      "type": "example",
+      "kind": "worked",
+      "title": {
+        "text": "Proving De Morgan’s Law for Set Complement over Union Using a Venn Diagram",
+        "inline": []
+      },
+      "problem": {
+        "text": "",
+        "inline": []
+      },
+      "answer": null,
+      "level": "core"
+    },
+    {
+      "id": "exr-54",
+      "type": "exercise",
+      "category": "section",
+      "prompt": {
+        "text": "De Morgan’s Law for the complement of the union of two sets $A$ and $B$ states that: $(A∪B{)}^{′}={A}^{′}∩{B}^{′}.$ Use a Venn diagram to prove that De Morgan’s Law is true.",
+        "inline": []
+      },
+      "level": "core",
+      "solution": {
+        "text": "*Step 1:* First, draw a Venn diagram representing the left side of the equality. The regions of interest are shaded to highlight the sets of interest. $A∪B$ is shaded on the left, and ${(A∪B)}^{′}$ is shaded on the right. *Step 2:* Next, draw a Venn diagram to represent the right side of the equation. ${A}^{′}$ is shaded and ${B}^{′}$ is shaded. Because ${A}^{′}$ and ${B}^{′}$ mix to form ${A}^{′}∩{B}^{′}$ is also shaded. Venn diagram of intersection of the complement of two sets. *Step 3:* Verify the conclusion. Because the shaded region in the Venn diagram for $(A∪B{)}^{′}$ matches the shaded region in the Venn diagram for ${A}^{′}∩B'$ , the two sides of the equation are equal, and the statement is true. This completes the proof that De Morgan’s law is valid.",
+        "inline": []
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)"
+    },
+    {
+      "id": "p-55",
+      "type": "paragraph",
+      "content": {
+        "text": "De Morgan’s Law for the complement of the union of two sets $A$ and $B$ states that: $(A∪B{)}^{′}={A}^{′}∩{B}^{′}.$ Use a Venn diagram to prove that De Morgan’s Law is true.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "p-56",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 1:* First, draw a Venn diagram representing the left side of the equality. The regions of interest are shaded to highlight the sets of interest. $A∪B$ is shaded on the left, and ${(A∪B)}^{′}$ is shaded on the right.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-12",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_036.png",
+      "caption": {
+        "text": "",
+        "inline": []
+      },
+      "alt": "A Venn diagram of the union of two sets and the complement is depicted. A union of the two sets A and B shows the intersection of A and B is shaded while the rest of U is unshaded. The complement of the union of sets A and B shows the area of U shaded while the intersection of A and B is unshaded. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-58",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 2:* Next, draw a Venn diagram to represent the right side of the equation. ${A}^{′}$ is shaded and ${B}^{′}$ is shaded. Because ${A}^{′}$ and ${B}^{′}$ mix to form ${A}^{′}∩{B}^{′}$ is also shaded.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "fig-13",
+      "type": "figure",
+      "asset_url": "images/math_sets_operations_three_CS_Figure_01_05_037.png",
+      "caption": {
+        "text": "Venn diagram of intersection of the complement of two sets.",
+        "inline": []
+      },
+      "alt": "A Venn diagram of the intersection of the complement of two sets is depicted. Complement of A shows A is unshaded while U is shaded. The complement of B shows B is unshaded while U is shaded. A complement of the union of A and B show A intersecting with B. Sets A and B are not shaded while U is shaded. ",
+      "licence": "CC BY-NC-SA 4.0",
+      "credit": "OpenStax",
+      "level": "core"
+    },
+    {
+      "id": "p-60",
+      "type": "paragraph",
+      "content": {
+        "text": "*Step 3:* Verify the conclusion. Because the shaded region in the Venn diagram for $(A∪B{)}^{′}$ matches the shaded region in the Venn diagram for ${A}^{′}∩B'$ , the two sides of the equation are equal, and the statement is true. This completes the proof that De Morgan’s law is valid.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-61",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Check Your Understanding",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-62",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Key Concepts",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-63",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Projects",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-64",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Cardinality of Infinite Sets",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-65",
+      "type": "paragraph",
+      "content": {
+        "text": "In set theory, it has been shown that the set of irrational numbers has a cardinality greater than the set of natural numbers. That is, the set of irrational numbers is so large that it is uncountably infinite.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-66",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Set Notation",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-67",
+      "type": "paragraph",
+      "content": {
+        "text": "In arithmetic, the operation of addition is represented by the plus sign, +, but multiplication is represented in multiple ways, including $\\cdot ,×,∗,$ and parentheses, such as 5(3). Several set operations also are written in different forms based on the preferences of the mathematician and often their publisher.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-68",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "The Real Number System",
+        "inline": []
+      }
+    },
+    {
+      "id": "p-69",
+      "type": "paragraph",
+      "content": {
+        "text": "The set of real numbers and their properties are studied in elementary school today, but how did the number system evolve? The idea of natural numbers or counting numbers surfaced prior to written words, as evidenced by tally marks in cave writing. Create a timeline for significant contributions to the real number system.",
+        "inline": []
+      },
+      "level": "core"
+    },
+    {
+      "id": "sec-70",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Review",
+        "inline": []
+      }
+    },
+    {
+      "id": "sec-71",
+      "type": "heading",
+      "level": "core",
+      "text": {
+        "text": "Chapter Test",
+        "inline": []
+      }
+    }
+  ],
+  "solutions": {
+    "osbooks-contemporary-mathematics:m00015:exr-16": [
+      [
+        {
+          "kind": "text",
+          "text": "The number of people who donated blood with a type A blood factor will include the sum of all the values included in the A circle. It will be the union of sets {A}^{-},{A}^{+},A{B}^{-}andA{B}^{+}.n(A)=n({A}^{-})+n({A}^{+})+n(A{B}^{-})+n(A{B}^{+})=6+36+1+3=46.; In part 1, it was determined that the number of donors with a type A blood factor is 46. To determine the number of people who did not have a type A blood factor, use the following property, {A}^{′} union is equal to U , which means n(A)+n({A}^{′})=n(U), and n({A}^{′})=n(U)-n(A)=100-46=54. Thus, 54 people donated blood that Julio can accept.; This would be everyone outside the {Rh}^{+} circle, or everyone with a negative Rh factor, n(R{h}^{-})=n({O}^{-})+n({A}^{-})+n(A{B}^{-})+n({B}^{-})=7+6+1+2=16.; To have both blood type A and blood type B, a person would need to be in the intersection of sets A and B . The two circles overlap in the regions labeled A{B}^{-} and A{B}^{+}. Add up the number of people in these two regions to get the total: 1+3=4. This can be written symbolically as n(AandB)=n(A∩B)=n(A{B}^{-})+n(A{B}^{+})=1+3=4."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00015:exr-26": [
+      [
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "First, draw a Venn diagram with three intersecting circles to represent the three intersecting sets: Notes, Flash Cards, and Review. Label the universal set with the cardinality of the class."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "Next, in the region where all three sets intersect, enter the number of students who completed all three tasks."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "Next, calculate the value and label the three sections where just two sets overlap."
+        },
+        {
+          "kind": "text",
+          "text": "*Review and flash card overlap* . A total of 12 students completed the review and made flash cards, but five of these twelve students did all three tasks, so we need to subtract: 12-5=7 . This is the value for the region where the flash card set intersects with the review set.; *Review and notes overlap* . A total of 9 students completed the review and studied their notes, but again, five of these nine students completed all three tasks. So, we subtract: 9-5=4 . This is the value for the region where the review set intersects with the notes set.; *Flash card and notes overlap* . A total of 7 students made flash cards and studied their notes; subtracting the five students that did all three tasks from this number leaves 2 students who only studied their notes and made flash cards. Add these values to the Venn diagram."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 4:*"
+        },
+        {
+          "kind": "text",
+          "text": "Now, repeat this process to find the number of students who only completed one of these three tasks."
+        },
+        {
+          "kind": "text",
+          "text": "A total of 24 students completed flash cards, but we have already accounted for 2+5+7=14 of these. Thus, 24-14=10 students who just made flash cards.; A total of 14 students studied their notes, but we have already accounted for 4+5+2=11 of these. Thus, 14-11=3 students only studied their notes.; A total of 27 students completed the review assignment, but we have already accounted for 4+5+7=16 of these, which means 27-16=11 students only completed the review assignment.; Add these values to the Venn diagram."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 5:*"
+        },
+        {
+          "kind": "text",
+          "text": "Finally, compute how many students did not do any of these three tasks. To do this, we add together each value that we have already calculated for the separate and intersecting sections of our three sets:"
+        },
+        {
+          "kind": "math",
+          "text": "3+2+4+5+10+7+11=42"
+        },
+        {
+          "kind": "text",
+          "text": ". Because there 43 students in the class, and"
+        },
+        {
+          "kind": "math",
+          "text": "43-42=1"
+        },
+        {
+          "kind": "text",
+          "text": ", this means only one student did not complete any of these tasks to prepare for the test. Record this value somewhere in the rectangle, but outside of all the circles, to complete the Venn diagram."
+        }
+      ],
+      []
+    ],
+    "osbooks-contemporary-mathematics:m00015:exr-41": [
+      [
+        {
+          "kind": "text",
+          "text": "Parentheses first, A intersection B equals A∩B={0,2,4,6}, the elements common to both A and B.(A∩B)∩C={0,2,4,6}∩{0,3,6,9,12}={0,6}, because the only elements that are in both sets are 0 and 6.; Parentheses first, B union C equals B∪C={0,2,3,4,6,8,9,10,12}, the collection of all elements in set B or set C or both. A∩(B∪C)={0,1,2,3,4,5,6}∩{0,2,3,4,6,8,9,10,12}={0,2,3,4,6}, because the intersection of these two sets is the set of elements that are common to both sets.; Parentheses first, A intersection B equals A∩B={0,2,4,6}. Next, find {C}^{′}. The complement of set C is the set of elements in the universal set U that are not in set C.{C}^{′}={1,2,4,5,7,8,10,11}. Finally, find (A∩B)∪{C}^{′}={0,2,4,6}∪{1,2,4,5,7,8,10,11}={0,1,2,4,5,6,7,8,10,11}."
+        }
+      ]
+    ],
+    "osbooks-contemporary-mathematics:m00015:exr-54": [
+      [
+        {
+          "kind": "text",
+          "text": "*Step 1:*"
+        },
+        {
+          "kind": "text",
+          "text": "First, draw a Venn diagram representing the left side of the equality. The regions of interest are shaded to highlight the sets of interest."
+        },
+        {
+          "kind": "math",
+          "text": "A∪B"
+        },
+        {
+          "kind": "text",
+          "text": "is shaded on the left, and"
+        },
+        {
+          "kind": "math",
+          "text": "{(A∪B)}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "is shaded on the right."
+        }
+      ],
+      [],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 2:*"
+        },
+        {
+          "kind": "text",
+          "text": "Next, draw a Venn diagram to represent the right side of the equation."
+        },
+        {
+          "kind": "math",
+          "text": "{A}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "is shaded and"
+        },
+        {
+          "kind": "math",
+          "text": "{B}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "is shaded. Because"
+        },
+        {
+          "kind": "math",
+          "text": "{A}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "and"
+        },
+        {
+          "kind": "math",
+          "text": "{B}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "mix to form"
+        },
+        {
+          "kind": "math",
+          "text": "{A}^{′}∩{B}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "is also shaded."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "Venn diagram of intersection of the complement of two sets."
+        }
+      ],
+      [
+        {
+          "kind": "text",
+          "text": "*Step 3:*"
+        },
+        {
+          "kind": "text",
+          "text": "Verify the conclusion. Because the shaded region in the Venn diagram for"
+        },
+        {
+          "kind": "math",
+          "text": "(A∪B{)}^{′}"
+        },
+        {
+          "kind": "text",
+          "text": "matches the shaded region in the Venn diagram for"
+        },
+        {
+          "kind": "math",
+          "text": "{A}^{′}∩B'"
+        },
+        {
+          "kind": "text",
+          "text": ", the two sides of the equation are equal, and the statement is true. This completes the proof that De Morgan’s law is valid."
+        }
+      ]
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "book_id": "secondary_mathematics",
   "schema_version": 2,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-14",
   "title": "Secondary Mathematics",
   "subject_area": "mathematics",
   "level": "secondary",
@@ -26,6 +26,7 @@
   ],
   "chapters": [
     "math_number_bases",
+    "math_sets",
     "math_laws_of_indices_and_surds"
   ],
   "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",

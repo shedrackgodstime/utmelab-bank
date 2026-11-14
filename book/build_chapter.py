@@ -242,8 +242,15 @@ TAIL_HEADINGS = {
 }
 
 
-def source_blocks(document, module, solutions, manifest, caption_overrides=None):
-    """Teaching blocks, worked examples and exercises, from the source."""
+def source_blocks(document, module, solutions, manifest, caption_overrides=None,
+                  keep_headings=None, drops=None):
+    """Teaching blocks, worked examples and exercises, from the source.
+
+    `keep_headings` limits a section to the named source sections. A module
+    often carries more than one teaching section, and a book section should
+    not repeat the whole module for each slice it needs, so the spec may name
+    the headings it wants and the rest of the module is skipped.
+    """
     blocks = document["blocks"]
     source = document.get("source_attribution") or {}
     book = source.get("book") or ""
@@ -256,6 +263,15 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
     skip_exercise_prose = False
     seen_text: set[str] = set()
     skipped: list[tuple[str, str]] = []
+    wanted_headings = {h.strip().lower() for h in keep_headings or []}
+    current_heading: str | None = None
+    drops = drops or ()
+
+    def in_wanted_heading() -> bool:
+        return (
+            not wanted_headings
+            or (current_heading is not None and current_heading in wanted_headings)
+        )
 
     def provenance(locator):
         return {
@@ -277,6 +293,7 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
         if kind == "heading":
             title = block["text"]["text"].strip()
             grouping = title
+            current_heading = title.strip().lower()
             if title.lower() in TAIL_HEADINGS:
                 in_tail = True
                 continue
@@ -284,9 +301,11 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
                 continue
             if in_tail:
                 continue
+            if wanted_headings and current_heading not in wanted_headings:
+                continue
             teaching.append({"id": f"b-{len(teaching) + 1}", "type": "heading", "text": rt(title)})
         elif kind == "paragraph":
-            if in_tail:
+            if in_tail or not in_wanted_heading():
                 continue
             text = block["content"]["text"].strip()
             if text.startswith("By the end of this section, you will be able to"):
@@ -303,9 +322,12 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
             seen_text.add(text)
             teaching.append({"id": f"b-{len(teaching) + 1}", "type": "paragraph", "content": rt(text)})
         elif kind == "figure":
-            if in_tail or skip_exercise_prose:
+            if in_tail or skip_exercise_prose or not in_wanted_heading():
                 continue
             asset = block.get("asset_url") or ""
+            if asset in drops:
+                skipped.append((asset, "the section's figure_drops names it"))
+                continue
             reason = book_media.was_rejected(manifest, asset)
             if reason:
                 # A figure that failed the media rules does not ship, so it
@@ -329,7 +351,7 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
                 "licence": source.get("licence") or "",
             })
         elif kind == "example":
-            if in_tail:
+            if in_tail or not in_wanted_heading():
                 continue
             pending = {
                 "id": f"we-{block['id']}",
@@ -339,6 +361,8 @@ def source_blocks(document, module, solutions, manifest, caption_overrides=None)
             }
         elif kind == "exercise":
             skip_exercise_prose = True
+            if not in_wanted_heading():
+                continue
             key = f"{book}:{module}:{block['id']}"
             paragraphs = solutions.get(key)
             if not paragraphs:
@@ -435,6 +459,8 @@ def build(spec):
                 solutions,
                 manifest,
                 section_spec.get("figure_captions", {}),
+                section_spec.get("source_sections"),
+                section_spec.get("figure_drops"),
             )
 
         teaching = list(source_teaching)
@@ -560,7 +586,7 @@ def build(spec):
                 "tags": authored.get("tags") or section_spec.get("tags") or [slugify(section_spec["title"])],
                 "provenance": {
                     "publisher": "UTME-Lab",
-                    "title": "Secondary Physics",
+                    "title": spec.get("authored_source_title", "Secondary Physics"),
                     "url": (
                         "https://api.utmelab.com/api/v1/chapters/"
                         f"{spec['chapter_id']}/sections/{section_id}"
@@ -699,9 +725,9 @@ def build(spec):
                     else trap["exam"]
                 ),
                 "title": (
-                    f"{trap['exam']} Physics {trap['paper_evidence']['year']}"
+                    f"{trap['exam']} {trap.get('subject', 'Physics').title()} {trap['paper_evidence']['year']}"
                     if trap["paper_evidence"].get("year")
-                    else f"{trap['exam']} Physics past paper"
+                    else f"{trap['exam']} {trap.get('subject', 'Physics').title()} past paper"
                 ),
                 "url": trap["paper_evidence"].get("url") or (
                     "https://api.utmelab.com/api/v1/chapters/"
