@@ -71,12 +71,5 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Validate the chapters and the books
-        run: python3 book/validate_chapters.py
-
-      - name: The chapters match their specs
-        run: |
-          set -euo pipefail
-          for spec in data/chapter-specs/*.json; do
-            python3 book/build_chapter.py "$spec" --check
-          done
+      - name: The release gate
+        run: python3 book/release_check.py

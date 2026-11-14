@@ -33,10 +33,7 @@ The book scripts use the same interpreter and dependencies, and are run from
 the repository root:
 
 ```bash
-python3 book/validate_chapters.py
-for spec in data/chapter-specs/*.json; do
-  python3 book/build_chapter.py "$spec" --check
-done
+python3 book/release_check.py
 ```
 
 ## Checks
@@ -49,8 +46,12 @@ mypy src/utmelab_bank
 pytest
 ```
 
-The content gate is the two book commands above. Both run in
-`.github/workflows/quality.yml` on every push and pull request.
+`book/release_check.py` is the content gate: it validates every chapter,
+checks each built chapter against its spec, and writes the import bundle. It
+runs in `.github/workflows/quality.yml` on every push and pull request. After
+an import, `book/verify_release.py` reads production back and compares it with
+the bundle that was imported. The full process, including when a remote may be
+touched, is in [`docs/BOOK-RELEASE-WORKFLOW.md`](docs/BOOK-RELEASE-WORKFLOW.md).
 
 ## Boundaries
 
