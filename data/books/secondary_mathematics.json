@@ -1,7 +1,7 @@
 {
   "book_id": "secondary_mathematics",
   "schema_version": 2,
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "title": "Secondary Mathematics",
   "subject_area": "mathematics",
   "level": "secondary",
@@ -28,7 +28,8 @@
     "math_number_bases",
     "math_sets",
     "math_laws_of_indices_and_surds",
-    "math_trigonometry"
+    "math_trigonometry",
+    "math_coordinate_geometry"
   ],
   "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
   "sources": [
@@ -37,6 +38,13 @@
       "title": "College Algebra",
       "url": "https://github.com/openstax/osbooks-college-algebra-bundle",
       "locator": "CNXML modules m51241 and m51242",
+      "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "College Algebra 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle",
+      "locator": "CNXML modules m51252 and m51270",
       "licence": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
     },
     {

@@ -1,0 +1,5187 @@
+{
+  "chapter_id": "math_coordinate_geometry",
+  "schema_version": 2,
+  "updated_at": "2026-11-15",
+  "title": "Coordinate Geometry",
+  "book_id": "secondary_mathematics",
+  "part_id": "part-2",
+  "order": 5,
+  "facts_inherited": false,
+  "learning_objectives": [
+    {
+      "id": "lo-1",
+      "statement": "Plot ordered pairs on the Cartesian plane and name the quadrant or axis a point lies on.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-2",
+      "statement": "Find the distance between two points using the distance formula.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-3",
+      "statement": "Find the midpoint of a line segment and the centre of a circle from a diameter.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-4",
+      "statement": "Find the gradient of a line from two points and interpret it as a rate of change.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-5",
+      "statement": "Write the equation of a straight line from a gradient, a point, two points or a graph.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-6",
+      "statement": "Find the $x$- and $y$-intercepts of a line and write the equations of horizontal and vertical lines.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-7",
+      "statement": "Decide whether two lines are parallel, perpendicular or neither from their gradients.",
+      "bloom_level": "understand"
+    },
+    {
+      "id": "lo-8",
+      "statement": "Write the equation of a line parallel or perpendicular to a given line through a given point.",
+      "bloom_level": "understand"
+    }
+  ],
+  "prerequisites": [],
+  "formula_sheet": [
+    {
+      "id": "f-1",
+      "expression": "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
+      "caption": {
+        "text": "Distance between two points",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Applies to any two points $(x_1,y_1)$ and $(x_2,y_2)$ in the plane. The order of subtraction does not matter because each difference is squared.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Distance Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-2",
+      "expression": "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$",
+      "caption": {
+        "text": "Midpoint of a line segment",
+        "inline": []
+      },
+      "conditions": {
+        "text": "The coordinates of the midpoint are the averages of the endpoint coordinates.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-3",
+      "expression": "$m=\\frac{y_2-y_1}{x_2-x_1}$",
+      "caption": {
+        "text": "Gradient of a line through two points",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Defined when $x_1\\ne x_2$. A vertical line has no finite gradient.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Interpreting Slope as a Rate of Change'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-4",
+      "expression": "$y=mx+b$",
+      "caption": {
+        "text": "Slope-intercept form of a straight line",
+        "inline": []
+      },
+      "conditions": {
+        "text": "$m$ is the gradient and $b$ is the value of $y$ where the line crosses the $y$-axis.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-5",
+      "expression": "$y-y_1=m(x-x_1)$",
+      "caption": {
+        "text": "Point-slope form of a straight line",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Used when one point on the line and the gradient are known.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Writing and Interpreting an Equation for a Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-6",
+      "expression": "$m_1=m_2$",
+      "caption": {
+        "text": "Condition for parallel lines",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Two non-vertical lines are parallel exactly when their gradients are equal.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-7",
+      "expression": "$m_1m_2=-1$",
+      "caption": {
+        "text": "Condition for perpendicular lines",
+        "inline": []
+      },
+      "conditions": {
+        "text": "Two non-vertical lines are perpendicular exactly when their gradients are negative reciprocals, so their product is $-1$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "f-8",
+      "expression": "$y=b$ and $x=a$",
+      "caption": {
+        "text": "Horizontal and vertical lines",
+        "inline": []
+      },
+      "conditions": {
+        "text": "A horizontal line has gradient $0$; a vertical line has an undefined gradient and is not a function.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Describing Horizontal and Vertical Lines'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g-1",
+      "term": {
+        "text": "Cartesian coordinate system",
+        "inline": []
+      },
+      "definition": {
+        "text": "A grid formed by a horizontal axis and a vertical axis that meet at right angles, used to locate points in a plane by two numbers.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-2",
+      "term": {
+        "text": "origin",
+        "inline": []
+      },
+      "definition": {
+        "text": "The point where the two axes cross, written $(0,0)$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-3",
+      "term": {
+        "text": "quadrant",
+        "inline": []
+      },
+      "definition": {
+        "text": "One of the four regions into which the axes divide the plane. They are numbered anticlockwise from the upper right.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-4",
+      "term": {
+        "text": "ordered pair",
+        "inline": []
+      },
+      "definition": {
+        "text": "Two numbers written in the order $(x,y)$, where $x$ is the horizontal displacement from the origin and $y$ is the vertical displacement.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-5",
+      "term": {
+        "text": "x-coordinate",
+        "inline": []
+      },
+      "definition": {
+        "text": "The first number of an ordered pair, giving the horizontal displacement from the origin.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-6",
+      "term": {
+        "text": "y-coordinate",
+        "inline": []
+      },
+      "definition": {
+        "text": "The second number of an ordered pair, giving the vertical displacement from the origin.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-7",
+      "term": {
+        "text": "distance formula",
+        "inline": []
+      },
+      "definition": {
+        "text": "The rule $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ that gives the length of the straight line joining two points.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Distance Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-8",
+      "term": {
+        "text": "midpoint",
+        "inline": []
+      },
+      "definition": {
+        "text": "The point that divides a line segment into two equal parts.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-9",
+      "term": {
+        "text": "midpoint formula",
+        "inline": []
+      },
+      "definition": {
+        "text": "The rule $M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$ that gives the midpoint of a segment from its endpoints.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-10",
+      "term": {
+        "text": "linear function",
+        "inline": []
+      },
+      "definition": {
+        "text": "A function whose graph is a straight line, written $f(x)=mx+b$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-11",
+      "term": {
+        "text": "gradient",
+        "inline": []
+      },
+      "definition": {
+        "text": "The steepness of a line, measured as the change in output divided by the change in input. Also called the slope.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-12",
+      "term": {
+        "text": "rate of change",
+        "inline": []
+      },
+      "definition": {
+        "text": "How quickly the output of a function changes as the input changes by one unit. For a linear function it is constant and equals the gradient.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Interpreting Slope as a Rate of Change'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-13",
+      "term": {
+        "text": "increasing function",
+        "inline": []
+      },
+      "definition": {
+        "text": "A function whose output rises as its input rises. A linear function is increasing when its gradient is positive.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether a Linear Function Is Increasing, Decreasing, or Constant'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-14",
+      "term": {
+        "text": "decreasing function",
+        "inline": []
+      },
+      "definition": {
+        "text": "A function whose output falls as its input rises. A linear function is decreasing when its gradient is negative.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether a Linear Function Is Increasing, Decreasing, or Constant'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-15",
+      "term": {
+        "text": "y-intercept",
+        "inline": []
+      },
+      "definition": {
+        "text": "The point at which a graph crosses the $y$-axis, where $x=0$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Writing the Equation for a Function from the Graph of a Line'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-16",
+      "term": {
+        "text": "x-intercept",
+        "inline": []
+      },
+      "definition": {
+        "text": "The point at which a graph crosses the $x$-axis, where the output is zero.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Finding the x-intercepts of a Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-17",
+      "term": {
+        "text": "slope-intercept form",
+        "inline": []
+      },
+      "definition": {
+        "text": "The form $y=mx+b$ of a straight line, showing the gradient $m$ and the $y$-intercept $b$ directly.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-18",
+      "term": {
+        "text": "point-slope form",
+        "inline": []
+      },
+      "definition": {
+        "text": "The form $y-y_1=m(x-x_1)$ of a straight line, built from one point and the gradient.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Writing and Interpreting an Equation for a Linear Function'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-19",
+      "term": {
+        "text": "parallel lines",
+        "inline": []
+      },
+      "definition": {
+        "text": "Lines in the same plane that never meet. Their gradients are equal.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-20",
+      "term": {
+        "text": "perpendicular lines",
+        "inline": []
+      },
+      "definition": {
+        "text": "Lines that meet at a right angle. Their gradients are negative reciprocals.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g-21",
+      "term": {
+        "text": "negative reciprocal",
+        "inline": []
+      },
+      "definition": {
+        "text": "The result of taking the reciprocal of a number and changing its sign. For $m\\ne0$ the negative reciprocal is $-\\frac{1}{m}$.",
+        "inline": []
+      },
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "order": 1,
+      "slug": "points-in-the-cartesian-plane",
+      "title": "Points in the Cartesian plane",
+      "est_minutes": 12,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Plot an ordered pair in the Cartesian plane.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Read the quadrant, or the axis, on which a point lies from the signs of its coordinates.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Explain why a point on an axis is in no quadrant.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Plotting Ordered Pairs in the Cartesian Coordinate System",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "An old story describes how seventeenth-century philosopher/mathematician René Descartes, while sick in bed, invented the system that has become the foundation of algebra. According to the story, Descartes was staring at a fly crawling on the ceiling when he realized that he could describe the fly’s location in relation to the perpendicular lines formed by the adjacent walls of his room. He viewed the perpendicular lines as horizontal and vertical axes. Further, by dividing each axis into equal unit lengths, Descartes saw that it was possible to locate any object in a two-dimensional plane using just two numbers—the displacement from the horizontal axis and the displacement from the vertical axis.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "While there is evidence that ideas similar to Descartes’ grid system existed centuries earlier, it was Descartes who introduced the components that comprise the Cartesian coordinate system, a grid system having perpendicular axes. Descartes named the horizontal axis the *x-* axis and the vertical axis the *y-* axis.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "The Cartesian coordinate system, also called the rectangular coordinate system, is based on a two-dimensional plane consisting of the *x* -axis and the *y* -axis. Perpendicular to each other, the axes divide the plane into four sections. Each section is called a quadrant; the quadrants are numbered counterclockwise, as the figure below shows.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/bcf39b08cc8cdc1c0e933997e87e33e7fdf9f562169011c11bcdcc2fde295d79.jpg",
+            "caption": {
+              "text": "This is an image of an x, y plane with the axes labeled. The upper right section is labeled: Quadrant I. The upper left section is labeled: Quadrant II. The lower left section is labeled: Quadrant III. The lower right section is labeled: Quadrant IV.",
+              "inline": []
+            },
+            "alt": "This is an image of an x, y plane with the axes labeled. The upper right section is labeled: Quadrant I.  The upper left section is labeled: Quadrant II.  The lower left section is labeled: Quadrant III.  The lower right section is labeled: Quadrant IV.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "The center of the plane is the point at which the two axes cross. It is known as the origin, or point $(0,0).$ From the origin, each axis is further divided into equal units: increasing, positive numbers to the right on the *x-* axis and up the *y-* axis; decreasing, negative numbers to the left on the *x-* axis and down the *y-* axis. The axes extend to positive and negative infinity as shown by the arrowheads in the figure below.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/df5256e4773e48832951fa915ff468fc0ff97668869621b4edde4e0868b87db9.jpg",
+            "caption": {
+              "text": "This is an image of an x, y coordinate plane. The x and y axis range from negative 5 to 5.",
+              "inline": []
+            },
+            "alt": "This is an image of an x, y coordinate plane.  The x and y axis range from negative 5 to 5. ",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "Each point in the plane is identified by its *x-* coordinate, or horizontal displacement from the origin, and its *y-* coordinate, or vertical displacement from the origin. Together, we write them as an ordered pair indicating the combined distance from the origin in the form $(x,y).$ An ordered pair is also known as a coordinate pair because it consists of *x-* and *y* -coordinates. For example, we can represent the point $(3,−1)$ in the plane by moving three units to the right of the origin in the horizontal direction, and one unit down in the vertical direction. See the figure below.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/e0e34bb4540ceb7963b0eb8d67876f212ee921452bf0f01da71456e099986248.jpg",
+            "caption": {
+              "text": "This is an image of an x, y coordinate plane. The x and y axis range from negative 5 to 5. The point (3, -1) is labeled. An arrow extends rightward from the origin 3 units and another arrow extends downward one unit from the end of that arrow to the point.",
+              "inline": []
+            },
+            "alt": "This is an image of an x, y coordinate plane. The x and y axis range from negative 5 to 5.  The point (3, -1) is labeled.  An arrow extends rightward from the origin 3 units and another arrow extends downward one unit from the end of that arrow to the point. ",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-10",
+            "type": "paragraph",
+            "content": {
+              "text": "When dividing the axes into equally spaced increments, note that the *x-* axis may be considered separately from the *y-* axis. In other words, while the *x-* axis may be divided and labeled according to consecutive integers, the *y-* axis may be divided and labeled by increments of 2, or 10, or 100. In fact, the axes may represent other units, such as years against the balance in a savings account, or quantity against cost, and so on. Consider the rectangular coordinate system primarily as a method for showing the relationship between two quantities.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "The grid is a two-dimensional plane on which the $x$-axis is horizontal and the $y$-axis is vertical.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "A point in the plane is defined as an ordered pair, $(x,y),$ such that *x* is determined by its horizontal distance from the origin and *y* is determined by its vertical distance from the origin.",
+              "inline": []
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Read a point as a set of directions rather than a label. The first number moves you horizontally, right for positive and left for negative; the second moves you vertically, up for positive and down for negative. A zero in either place keeps you on an axis, and a point on an axis belongs to no quadrant. Once the position is fixed, the quadrant is read from the pair of signs, not from the size of the numbers.",
+              "inline": []
+            },
+            "id": "b-13"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-51",
+          "statement": {
+            "text": "Plot the points $(-2,4)$, $(3,3)$ and $(0,-3)$ in the plane.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "To plot $(-2,4)$, begin at the origin. The $x$-coordinate is $-2$, so move two units to the left. The $y$-coordinate is $4$, so move four units up."
+            },
+            {
+              "step_number": 2,
+              "expression": "To plot $(3,3)$, begin again at the origin. The $x$-coordinate is $3$, so move three units to the right. The $y$-coordinate is also $3$, so move three units up."
+            },
+            {
+              "step_number": 3,
+              "expression": "To plot $(0,-3)$, begin again at the origin. The $x$-coordinate is $0$, so do not move along the $x$-axis. The $y$-coordinate is $-3$, so move three units down."
+            },
+            {
+              "step_number": 4,
+              "expression": "When either coordinate is zero, the point lies on an axis: here $(0,-3)$ lies on the $y$-axis."
+            }
+          ],
+          "answer": {
+            "text": "$(-2,4)$ is 2 left and 4 up; $(3,3)$ is 3 right and 3 up; $(0,-3)$ is 3 down on the $y$-axis",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, exercise block exr-51",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "The order of the two numbers in an ordered pair does not matter.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The first number is the horizontal displacement and the second is the vertical displacement, so $(3,-1)$ and $(-1,3)$ are different points.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "A point on the $x$-axis lies in Quadrant I.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Points on either axis lie in no quadrant. Only the four regions between the axes are numbered.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "An ordered pair $(x,y)$ records a horizontal displacement from the origin followed by a vertical displacement.",
+          "inline": []
+        },
+        {
+          "text": "The axes divide the plane into four quadrants, numbered anticlockwise from the upper right.",
+          "inline": []
+        },
+        {
+          "text": "If either coordinate is zero the point lies on an axis and in no quadrant.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-1-01",
+        "ex-sec-1-02",
+        "ex-sec-1-03",
+        "ex-sec-1-04",
+        "ex-sec-1-05"
+      ],
+      "exam_links": [
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-circles",
+          "subtopic_slug": "waec-coordinates-of-points-on-the-x-y-plane",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Plotting Ordered Pairs in the Cartesian Coordinate System'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sec-2",
+      "order": 2,
+      "slug": "distance-between-two-points",
+      "title": "Distance between two points",
+      "est_minutes": 15,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Use the distance formula to find the length of the segment joining two points.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Leave an irrational distance in simplest surd form, and round only when the question asks for a decimal.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Use the formula on a grid where each unit stands for a real length.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Using the Distance Formula",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "Derived from the Pythagorean Theorem, the distance formula is used to find the distance between two points in the plane. The Pythagorean Theorem, ${a}^{2}+{b}^{2}={c}^{2},$ is based on a right triangle where *a* and *b* are the lengths of the legs adjacent to the right angle, and *c* is the length of the hypotenuse. See the figure below.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/561b486a7f57ffcbed2a827fad3a98ab7b6bcca5d58081915a969d5c1b87e30e.jpg",
+            "caption": {
+              "text": "This is an image of a triangle on an x, y coordinate plane. The x and y axes range from 0 to 7. The points (x sub 1, y sub 1); (x sub 2, y sub 1); and (x sub 2, y sub 2) are labeled and connected to form a triangle. Along the base of the triangle, the following equation is displayed: the absolute value of x sub 2 minus x sub 1 equals a. The hypotenuse of the triangle is labeled: d = c. The remaining side is labeled: the absolute value of y sub 2 minus y sub 1 equals b.",
+              "inline": []
+            },
+            "alt": "This is an image of a triangle on an x, y coordinate plane. The x and y axes range from 0 to 7. The points (x sub 1, y sub 1); (x sub 2, y sub 1); and (x sub 2, y sub 2) are labeled and connected to form a triangle.  Along the base of the triangle, the following equation is displayed: the absolute value of x sub 2 minus x sub 1 equals a. The hypotenuse of the triangle is labeled: d = c.  The remaining side is labeled: the absolute value of y sub 2 minus y sub 1 equals b.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "The relationship of sides $|{x}_{2}-{x}_{1}|$ and $|{y}_{2}-{y}_{1}|$ to side *d* is the same as that of sides *a* and *b* to side *c.* We use the absolute value symbol to indicate that the length is a positive number because the absolute value of any number is positive. (For example, $|−3|=3.$) The symbols $|{x}_{2}-{x}_{1}|$ and $|{y}_{2}-{y}_{1}|$ indicate that the lengths of the sides of the triangle are positive. To find the length *c*, take the square root of both sides of the Pythagorean Theorem.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "It follows that $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "We do not have to use the absolute value symbols in this definition because any number squared is positive.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "Given endpoints $({x}_{1},{y}_{1})$ and $({x}_{2},{y}_{2}),$ the distance between the points is $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+              "inline": []
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "The distance formula is Pythagoras written in coordinates. The horizontal difference and the vertical difference are the legs of a right triangle whose hypotenuse is the distance, so square the two differences, add them and take the square root. Keep the answer exact unless a decimal is requested, and remember that a straight line is never longer than a journey along the grid.",
+              "inline": []
+            },
+            "id": "b-8"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-112",
+          "statement": {
+            "text": "Find the distance between the points $(-3,-1)$ and $(2,3)$.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Connect the two points to form a right triangle whose legs are the horizontal and vertical differences."
+            },
+            {
+              "step_number": 2,
+              "expression": "Then calculate the length $d$ using the distance formula."
+            },
+            {
+              "step_number": 3,
+              "expression": "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{(2-(-3))^2+(3-(-1))^2}=\\sqrt{5^2+4^2}=\\sqrt{25+16}=\\sqrt{41}$"
+            }
+          ],
+          "answer": {
+            "text": "$d=\\sqrt{41}$",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, exercise block exr-112",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "The distance between two points is the sum of the horizontal and vertical differences.",
+            "inline": []
+          },
+          "correction": {
+            "text": "That sum is the length of a route along the grid lines. The straight-line distance is the square root of the sum of the squared differences.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Using the Distance Formula'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "The order in which the two points are subtracted changes the distance.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Each difference is squared before the square root is taken, so reversing the order leaves the distance unchanged.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Using the Distance Formula'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "The distance between $(x_1,y_1)$ and $(x_2,y_2)$ is $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+          "inline": []
+        },
+        {
+          "text": "The formula is the Pythagorean theorem applied to the horizontal and vertical differences.",
+          "inline": []
+        },
+        {
+          "text": "Give an exact surd unless the question asks for a rounded decimal.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-2-01",
+        "ex-sec-2-02",
+        "ex-sec-2-03",
+        "ex-sec-2-04",
+        "ex-sec-2-05",
+        "ex-sec-2-06",
+        "ex-sec-2-07"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "coordinate-geometry",
+          "subtopic_slug": "distance-between-two-points",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-lengths-and-perimeters",
+          "subtopic_slug": "waec-use-of-pythagoras-theorem-distances",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Distance Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sec-3",
+      "order": 3,
+      "slug": "midpoint-of-a-line-segment",
+      "title": "Midpoint of a line segment",
+      "est_minutes": 12,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Find the midpoint of a line segment from its endpoints.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Recover an endpoint when the midpoint and the other endpoint are known.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Find the centre of a circle from the endpoints of a diameter.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Using the Midpoint Formula",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "When the endpoints of a line segment are known, we can find the point midway between them. This point is known as the midpoint and the formula is known as the midpoint formula. Given the endpoints of a line segment, $({x}_{1},{y}_{1})$ and $({x}_{2},{y}_{2}),$ the midpoint formula states how to find the coordinates of the midpoint $M.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "A graphical view of a midpoint is shown in the figure below. Notice that the line segments on either side of the midpoint are congruent.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/01b1bc635f234793ee3327c945e4af3592916e1765b3619d5a20fcc2d812e413.jpg",
+            "caption": {
+              "text": "This is a line graph on an x, y coordinate plane with the x and y axes ranging from 0 to 6. The points (x sub 1, y sub 1), (x sub 2, y sub 2), and (x sub 1 plus x sub 2 all over 2, y sub 1 plus y sub 2 all over 2) are plotted. A straight line runs through these three points. Pairs of short parallel lines bisect the two sections of the line to note that they are equivalent.",
+              "inline": []
+            },
+            "alt": "This is a line graph on an x, y coordinate plane with the x and y axes ranging from 0 to 6. The points (x sub 1, y sub 1), (x sub 2, y sub 2), and (x sub 1 plus x sub 2 all over 2, y sub 1 plus y sub 2 all over 2) are plotted.  A straight line runs through these three points. Pairs of short parallel lines bisect the two sections of the line to note that they are equivalent.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Every midpoint question is an average question. Add the two $x$-coordinates and halve, then do the same with the $y$-coordinates; the order of the endpoints does not matter. The same formula finds the centre of a circle from the ends of a diameter, because the centre is the midpoint of every diameter.",
+              "inline": []
+            },
+            "id": "b-5"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-136",
+          "statement": {
+            "text": "Find the midpoint of the line segment with endpoints $(7,-2)$ and $(9,5)$.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Use the formula to find the midpoint of the line segment."
+            },
+            {
+              "step_number": 2,
+              "expression": "$(\\frac{{x}_{1}+{x}_{2}}{2},\\frac{{y}_{1}+{y}_{2}}{2})=(\\frac{7+9}{2},\\frac{-2+5}{2})=(8,\\frac{3}{2})$"
+            }
+          ],
+          "answer": {
+            "text": "$\\left(8,\\frac{3}{2}\\right)$",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, exercise block exr-136",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "The midpoint is half the distance between the endpoints.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The midpoint is a point, found by averaging the coordinates. Half the distance is a length, not a position.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "The coordinates of the midpoint are found by subtracting the endpoint coordinates.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Both coordinates are averaged: add the two $x$-values and halve, then add the two $y$-values and halve.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "The midpoint of $(x_1,y_1)$ and $(x_2,y_2)$ is $M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$.",
+          "inline": []
+        },
+        {
+          "text": "The midpoint is an average of the endpoint coordinates, so the order of the endpoints does not matter.",
+          "inline": []
+        },
+        {
+          "text": "The centre of a circle is the midpoint of any diameter.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-3-01",
+        "ex-sec-3-02",
+        "ex-sec-3-03",
+        "ex-sec-3-04",
+        "ex-sec-3-05"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "coordinate-geometry",
+          "subtopic_slug": "midpoint-and-gradient-of-a-line-segment",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-circles",
+          "subtopic_slug": "waec-coordinates-of-points-on-the-x-y-plane",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, section 'Using the Midpoint Formula'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sec-4",
+      "order": 4,
+      "slug": "gradient-of-a-straight-line",
+      "title": "Gradient of a straight line",
+      "est_minutes": 15,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Calculate the gradient of a line from two points on it.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Read the gradient of a line from an equation in the form $y=mx+b$.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Interpret the gradient as a rate of change and decide whether the line is increasing, decreasing or constant.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Linear Function",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "A linear function is a function whose graph is a line. Linear functions can be written in the slope-intercept form, $f(x)=mx+b$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "paragraph",
+            "content": {
+              "text": "Here $b$ is the initial or starting value of the function (when input, $x=0$ ), and $m$ is the constant rate of change, or slope of the function. The $y$ -intercept is at ( $0,b$ ).",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "$m=slope=\\frac{change in output}{change in input}=\\frac{∆y}{∆x}=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}=\\frac{f({x}_{2})-f({x}_{1})}{{x}_{2}-{x}_{1}}=\\frac{rise}{run}$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "When interpreting slope, it will be important to consider the units of measurement. Make sure to always attach these units to both the numerator and denominator when they are provided to you.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "heading",
+            "text": {
+              "text": "Determining Whether a Linear Function Is Increasing, Decreasing, or Constant",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "The linear functions we used in the two previous examples increased over time, but not every linear function does. A linear function may be increasing, decreasing, or constant. For an increasing function, as with the train example, the output values increase as the input values increase. The graph of an increasing function has a positive slope. A line with a positive slope slants upward from left to right as in *(a)*. For a decreasing function, the slope is negative. The output values decrease as the input values increase. A line with a negative slope slants downward from left to right as in *(b)*. If the function is constant, the output values are the same for all input values so the slope is zero. A line with a slope of zero is horizontal as in *(c)*.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/291aba8c77a97ff2d44a7c5b662f3b70851ef6c4c53f05a8a8178824d26e9620.jpg",
+            "caption": {
+              "text": "This figure shows three graphs labeled a, b, and c. Graph a shows an increasing function (f) along the x-axis and the y-axis which is labeled f of x. Graph b shows a decreasing function (f) along the x-axis and y-axis which is labeled f of x. Graph c shows a constant function (f) along the x-axis and y-axis which is labeled f of x. The constant function is horizontal. None of the graphs have any increments labeled on the x- or y-axis.",
+              "inline": []
+            },
+            "alt": "This figure shows three graphs labeled a, b, and c. Graph a shows an increasing function (f) along the x-axis and the y-axis which is labeled f of x. Graph b shows a decreasing function (f) along the x-axis and y-axis which is labeled f of x. Graph c shows a constant function (f) along the x-axis and y-axis which is labeled f of x. The constant function is horizontal. None of the graphs have any increments labeled on the x- or y-axis.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-9",
+            "type": "paragraph",
+            "content": {
+              "text": "The slope determines if the function is an increasing linear function, a decreasing linear function, or a constant function.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "heading",
+            "text": {
+              "text": "Interpreting Slope as a Rate of Change",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "In the examples we have seen so far, the slope was provided to us. However, we often need to calculate the slope given input and output values. Recall that given two values for the input, ${x}_{1}$ and ${x}_{2},$ and two corresponding values for the output, ${y}_{1}$ and ${y}_{2}$ —which can be represented by a set of points, $({x}_{1},{y}_{1})$ and $({x}_{2},{y}_{2})$ —we can calculate the slope $m.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "Note that in function notation we can obtain two corresponding values for the output ${y}_{1}$ and ${y}_{2}$ for the function $f,$ ${y}_{1}=f({x}_{1})$ and ${y}_{2}=f({x}_{2}),$ which gives $m=\\frac{f(x_2)-f(x_1)}{x_2-x_1}$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "paragraph",
+            "content": {
+              "text": "The figure below shows how the slope of the line between the points, $({x}_{1},{y}_{1})$ and $({x}_{2},{y}_{2}),$ is calculated. Recall that the slope measures steepness, or slant. The greater the absolute value of the slope, the steeper the slant is.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-14",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/036f9011c8e14e029b1c6160bf0cc6caecce2cfeb210637c9a2ba8867c00a004.jpg",
+            "caption": {
+              "text": "The slope of a function is calculated by the change in $y$ divided by the change in $x.$ It does not matter which coordinate is used as the $({x}_{2,}{y}_{2})$ and which is the $({x}_{1},{y}_{1}),$ as long as each calculation is started with the elements from the same coordinate pair.",
+              "inline": []
+            },
+            "alt": "This graph shows how to calculate the slope of a line. The line is graphed on an x y coordinate plane. The x-axis is labeled from negative 1 to 6. The y-axis is labeled from negative 1 to 10. The line passes through several points, but two are marked specifcally. The first is labeled (x subscript 1, y subscript 1). It is located at the point (1, 5). The second point is labeled (x subscript 2, y subscript 2). It is located at the point (2, 8). There is a small arrow that runs horizontally from point (2, 8) to point (1, 8). This arrow is labeled x subscript 2 minus x subscript 1. There is a blue arrow that runs vertically from point (1, 5) to point (1, 8) and is labeled y subscript 2 minus y subscript 1. Off to the side is the equation m equals delta y divided by delta x which equals y subscript 2 minus y subscript 1 divided by x subscript 2 minus x subscript 1. ",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-15",
+            "type": "paragraph",
+            "content": {
+              "text": "*Are the units for slope always* $\\frac{units for the output}{units for the input}?$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-16",
+            "type": "paragraph",
+            "content": {
+              "text": "*Yes. Think of the units as the change of output value for each unit of change in input value. An example of slope could be miles per hour or dollars per day. Notice the units appear as a ratio of units for the output per units for the input.*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-17",
+            "type": "paragraph",
+            "content": {
+              "text": "The slope, or rate of change, of a function $m$ is given by $m=\\frac{\\Delta y}{\\Delta x}=\\frac{y_2-y_1}{x_2-x_1}$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-18",
+            "type": "paragraph",
+            "content": {
+              "text": "Here ${x}_{1}$ and ${x}_{2}$ are input values, ${y}_{1}$ and ${y}_{2}$ are output values.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-19",
+            "type": "paragraph",
+            "content": {
+              "text": "*Given two points from a linear function, calculate and interpret the slope.*",
+              "inline": []
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "The gradient measures change, not position. Take the difference in $y$ over the difference in $x$ between two points on the line, and attach the units of the output over the units of the input. A positive gradient means the line rises from left to right, a negative gradient means it falls, a gradient of zero means the output never changes, and a vertical line has no gradient at all because the change in $x$ is zero.",
+              "inline": []
+            },
+            "id": "b-20"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-97",
+          "statement": {
+            "text": "If $f(x)$ is a linear function and $(3,-2)$ and $(8,1)$ are points on its line, find the gradient and say whether the function is increasing or decreasing.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "The coordinate pairs are $(3,−2)$ and $(8,1).$ To find the rate of change, we divide the change in output by the change in input."
+            },
+            {
+              "step_number": 2,
+              "expression": "$m=\\frac{$ change in output $}{$ change in input $}=\\frac{1-(−2)}{8-3}=\\frac{3}{5}$"
+            },
+            {
+              "step_number": 3,
+              "expression": "We could also write the slope as $m=0.6.$ The function is increasing because $m>0.$"
+            }
+          ],
+          "answer": {
+            "text": "$m=\\frac{3}{5}$; the function is increasing",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+            "locator": "CNXML module m51270, exercise block exr-97",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "A vertical line has a gradient of zero.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A vertical line has no finite gradient, because the change in $x$ is zero. The horizontal line is the one with gradient zero.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Describing Horizontal and Vertical Lines'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "A steep line always has a positive gradient.",
+            "inline": []
+          },
+          "correction": {
+            "text": "Steepness is the size of the gradient; the sign gives the direction. A steep line falling from left to right has a large negative gradient.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Interpreting Slope as a Rate of Change'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "The gradient through $(x_1,y_1)$ and $(x_2,y_2)$ is $m=\\frac{y_2-y_1}{x_2-x_1}$.",
+          "inline": []
+        },
+        {
+          "text": "The gradient of $y=mx+b$ is $m$, the constant rate of change of the function.",
+          "inline": []
+        },
+        {
+          "text": "A positive gradient means the function is increasing, a negative gradient means it is decreasing, and zero means it is constant.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-4-01",
+        "ex-sec-4-02",
+        "ex-sec-4-03",
+        "ex-sec-4-04",
+        "ex-sec-4-05",
+        "ex-sec-4-06",
+        "ex-sec-4-07"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "coordinate-geometry",
+          "subtopic_slug": "midpoint-and-gradient-of-a-line-segment",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-graphs-of-linear-and-values-drawing-quadratic",
+          "subtopic_slug": "waec-interpretation-of-graphs-coordinate-of-points-table-of-graph",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51270, sections 'Linear Function', 'Determining Whether a Linear Function Is Increasing, Decreasing, or Constant' and 'Interpreting Slope as a Rate of Change'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sec-5",
+      "order": 5,
+      "slug": "equations-of-straight-lines",
+      "title": "Equations of straight lines",
+      "est_minutes": 18,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Write the equation of a line from its gradient and $y$-intercept.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Write the equation of a line from two points, or from one point and the gradient.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Find the $x$- and $y$-intercepts of a line, and write the equations of horizontal and vertical lines.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Find an Equation of the Line Given Two Points",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "When data is collected, a linear model can be created from two data points. Two points fix a line: the slope comes from the two points, and the intercept follows by substituting one of them into the point-slope form.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "heading",
+            "text": {
+              "text": "Writing and Interpreting an Equation for a Linear Function",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "Recall from Equations and Inequalities that we wrote equations in both the slope-intercept form and the point-slope form. Now we can choose which method to use to write equations for linear functions based on the information we are given. That information may be provided in the form of a graph, a point and a slope, two points, and so on. Look at the graph of the function $f$ in the figure below.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/461a249634576cd464012b6c592bff14e2449b4ab9829fb63540945f9176b7a7.jpg",
+            "caption": {
+              "text": "This graph shows a linear function graphed on an x y coordinate plane. The x axis is labeled from negative 2 to 8 and the y axis is labeled from negative 1 to 8. The function f is graph along the points (0, 7) and (4, 4).",
+              "inline": []
+            },
+            "alt": "This graph shows a linear function graphed on an x y coordinate plane. The x axis is labeled from negative 2 to 8 and the y axis is labeled from negative 1 to 8. The function f is graph along the points (0, 7) and (4, 4).",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-6",
+            "type": "paragraph",
+            "content": {
+              "text": "We are not given the slope of the line, but we can choose any two points on the line to find the slope. Let’s choose $(0,7)$ and $(4,4).$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "Now substitute the slope and one point into the point-slope form: $y-4=-\\frac{3}{4}(x-4)$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "Rewriting in the slope-intercept form gives $y=-\\frac{3}{4}x+7$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "paragraph",
+            "content": {
+              "text": "If we want to find the slope-intercept form without first writing the point-slope form, we could have recognized that the line crosses the *y* -axis when the output value is 7. Therefore, $b=7.$ We now have the initial value $b$ and the slope $m$ so we can substitute $m$ and $b$ into the slope-intercept form of a line.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "paragraph",
+            "content": {
+              "text": "So the function is $f(x)=-\\frac{3}{4}x+7,$ and the linear equation would be $y=-\\frac{3}{4}x+7.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "*Given the graph of a linear function, write an equation to represent the function.*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "heading",
+            "text": {
+              "text": "Writing the Equation for a Function from the Graph of a Line",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "paragraph",
+            "content": {
+              "text": "Earlier, we wrote the equation for a linear function from a graph. Now we can extend what we know about graphing linear functions to analyze graphs a little more closely. Begin by taking a look at the figure below. We can see right away that the graph crosses the *y* -axis at the point $(0,4)$ so this is the *y* -intercept.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-14",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/fbd16cac46484a3200c24cce07db6dfca2e2473d6aa0b7e292d04e4940d6c85c.jpg",
+            "caption": {
+              "text": "This graph shows the function f of x = 2 times x plus 4 on an x, y coordinate plane. The x-axis runs from negative 10 to 10. The y-axis runs from negative 10 to 10. This function passes through the points (-2, 0) and (0, 4).",
+              "inline": []
+            },
+            "alt": "This graph shows the function f of x = 2 times x plus 4 on an x, y coordinate plane. The x-axis runs from negative 10 to 10. The y-axis runs from negative 10 to 10. This function passes through the points (-2, 0) and (0, 4).",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-15",
+            "type": "paragraph",
+            "content": {
+              "text": "Then we can calculate the slope by finding the rise and run. We can choose any two points, but let’s look at the point $(-2,0).$ To get from this point to the *y-* intercept, we must move up 4 units (rise) and to the right 2 units (run). The slope is $m=\\frac{4}{2}=2$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-16",
+            "type": "paragraph",
+            "content": {
+              "text": "Substituting the slope and $y$-intercept into the slope-intercept form gives $y=2x+4$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-17",
+            "type": "paragraph",
+            "content": {
+              "text": "*Given a graph of linear function, find the equation to describe the function.*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-18",
+            "type": "paragraph",
+            "content": {
+              "text": "So far we have been finding the *y-* intercepts of a function: the point at which the graph of the function crosses the *y* -axis. Recall that a function may also have an *x* -intercept, which is the *x* -coordinate of the point where the graph of the function crosses the *x* -axis. In other words, it is the input value when the output value is zero.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-19",
+            "type": "paragraph",
+            "content": {
+              "text": "To find the *x* -intercept, set a function $f(x)$ equal to zero and solve for the value of $x.$ For example, consider the function $f(x)=3x-6$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-20",
+            "type": "paragraph",
+            "content": {
+              "text": "Setting $f(x)=0$ gives $0=3x-6$, so $6=3x$ and $x=2$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-21",
+            "type": "paragraph",
+            "content": {
+              "text": "The graph of the function crosses the *x* -axis at the point $(2,0).$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-22",
+            "type": "paragraph",
+            "content": {
+              "text": "*Do all linear functions have $x$-intercepts?*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-23",
+            "type": "paragraph",
+            "content": {
+              "text": "*No. However, linear functions of the form $y=c,$ where $c$ is a nonzero real number are the only examples of linear functions with no x-intercept. For example, $y=5$ is a horizontal line 5 units above the x-axis. This function has no x-intercepts, as shown in the figure below.*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-24",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/929d82b069f3f9c92b8bc7136a281b88670b749d7cbf3d22217d7bbf62a54a2e.jpg",
+            "caption": {
+              "text": "Graph of the function y = 5, a completely horizontal line that goes through the point (0,5). Graphed on an xy-plane with the x-axis ranging from -3 to 3 and the y-plane ranging from -1 to 8.",
+              "inline": []
+            },
+            "alt": "Graph of the function y = 5, a completely horizontal line that goes through the point (0,5).  Graphed on an xy-plane with the x-axis ranging from -3 to 3 and the y-plane ranging from -1 to 8.  ",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-25",
+            "type": "paragraph",
+            "content": {
+              "text": "The *x* -intercept of the function is the value of $x$ when $f(x)=0.$ It can be solved by the equation $0=mx+b.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-26",
+            "type": "heading",
+            "text": {
+              "text": "Describing Horizontal and Vertical Lines",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-27",
+            "type": "paragraph",
+            "content": {
+              "text": "There are two special cases of lines on a graph—horizontal and vertical lines. A horizontal line indicates a constant output, or *y* -value. In the figure below, we see that the output has a value of 2 for every input value. The change in outputs between any two points, therefore, is 0. In the slope formula, the numerator is 0, so the slope is 0. If we use $m=0$ in the equation $f(x)=mx+b,$ the equation simplifies to $f(x)=b.$ In other words, the value of the function is a constant. This graph represents the function $f(x)=2.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-28",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/484a71fddcdf2274e5941caf9c597865cd1445213da63ecea1889eca083535a0.jpg",
+            "caption": {
+              "text": "A horizontal line representing the function $f(x)=2$",
+              "inline": []
+            },
+            "alt": "This graph shows the line y = 2 on an x.y coordinate plane.  The x-axis runs from negative 5 to 5 and the y-axis runs from – 5 to 5. A horizontal line crosses through the point (0, 2).  Underneath the graph is a table with two rows and six columns.  The top row is labeled: “x” and has the values negative 4, negative 2, 0, 2, and 4. The bottom row is labeled “y” and has the values 2, 2, 2, 2, and 2.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-29",
+            "type": "paragraph",
+            "content": {
+              "text": "A vertical line indicates a constant input, or *x* -value. We can see that the input value for every point on the line is 2, but the output value varies. Because this input value is mapped to more than one output value, a vertical line does not represent a function. Notice that between any two points, the change in the input values is zero. In the slope formula, the denominator will be zero, so the slope of a vertical line is undefined.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-30",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/5189325b371cc5579dad0bbaa1465008dfb20cd9b1490738e30729177a8f7783.jpg",
+            "caption": {
+              "text": "Example of how a line has a vertical slope. 0 in the denominator of the slope.",
+              "inline": []
+            },
+            "alt": "This is an image showing when a slope is undefined.  m = change of output divided by the change of input.  The change of output is labeled as: non-zero real number and the change of input is labeled 0.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-31",
+            "type": "paragraph",
+            "content": {
+              "text": "A vertical line, such as the one in the figure below, has an *x* -intercept, but no *y-* intercept unless it’s the line $x=0.$ This graph represents the line $x=2.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-32",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/573e6e7aabd6673c9372efb32eada85482d98d5d43a35c2e389b29936680a74d.jpg",
+            "caption": {
+              "text": "The vertical line, $x=2,$ which does not represent a function",
+              "inline": []
+            },
+            "alt": "This graph shows a vertical line passing through the point (2, 0) on an x, y coordinate plane. The x-axis runs from negative 5 to 5 and the y-axis runs from negative 5 to 5.  Underneath the graph is a table with two rows and six columns.  The top row is labeled: “x” and has the values 2, 2, 2, 2, and 2. The bottom row is labeled: “y” and has the values negative 4, negative 2, 0, 2, and 4.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-33",
+            "type": "paragraph",
+            "content": {
+              "text": "Lines can be horizontal or vertical.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-34",
+            "type": "paragraph",
+            "content": {
+              "text": "A horizontal line is a line defined by an equation in the form $f(x)=b.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-35",
+            "type": "paragraph",
+            "content": {
+              "text": "A vertical line is a line defined by an equation in the form $x=a.$",
+              "inline": []
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "An equation of a line records two facts: how steep it is and where it crosses the $y$-axis. Given two points, find the gradient first, then substitute one point into $y=mx+b$ to find $b$; given a point and the gradient, the same substitution works. Intercepts come from setting one variable to zero at a time, and a line written as $x=a$ is vertical while $y=b$ is horizontal.",
+              "inline": []
+            },
+            "id": "b-36"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-34",
+          "statement": {
+            "text": "Find the equation of the line containing the points $(-4,-3)$ and $(1,-5)$.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "Find the gradient using the two points."
+            },
+            {
+              "step_number": 2,
+              "expression": "$m=\\frac{-5-(-3)}{1-(-4)}=\\frac{-5+3}{1+4}=\\frac{-2}{5}$"
+            },
+            {
+              "step_number": 3,
+              "expression": "Choose one point, say $(-4,-3)$, and substitute the gradient and the point into the point-slope form $y-y_1=m(x-x_1)$."
+            },
+            {
+              "step_number": 4,
+              "expression": "$y-(-3)=\\frac{-2}{5}(x-(-4))$"
+            },
+            {
+              "step_number": 5,
+              "expression": "$y+3=\\frac{-2}{5}(x+4)$"
+            },
+            {
+              "step_number": 6,
+              "expression": "Rewrite in slope-intercept form."
+            },
+            {
+              "step_number": 7,
+              "expression": "$y+3=\\frac{-2}{5}x-\\frac{8}{5}$"
+            },
+            {
+              "step_number": 8,
+              "expression": "$y=\\frac{-2}{5}x-\\frac{8}{5}-3=\\frac{-2}{5}x-\\frac{8}{5}-\\frac{15}{5}$"
+            },
+            {
+              "step_number": 9,
+              "expression": "$y=\\frac{-2}{5}x-\\frac{23}{5}$"
+            }
+          ],
+          "answer": {
+            "text": "$y=-\\frac{2}{5}x-\\frac{23}{5}$",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+            "locator": "CNXML module m51270, exercise block exr-34",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "The $y$-intercept of $y=2x+3$ is the point $(3,0)$.",
+            "inline": []
+          },
+          "correction": {
+            "text": "The $y$-intercept is $(0,3)$, the value of $y$ when $x=0$. The constant $3$ is the intercept value, not an $x$-coordinate.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Linear Function'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "A vertical line can be written in the form $y=a$.",
+            "inline": []
+          },
+          "correction": {
+            "text": "A vertical line has a constant $x$-value, so it is written $x=a$. The form $y=a$ is a horizontal line.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Describing Horizontal and Vertical Lines'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "The slope-intercept form $y=mx+b$ shows the gradient $m$ and the $y$-intercept $b$.",
+          "inline": []
+        },
+        {
+          "text": "From two points, find the gradient first, then substitute one point into $y=mx+b$ to find $b$.",
+          "inline": []
+        },
+        {
+          "text": "Set $y=0$ for the $x$-intercept and $x=0$ for the $y$-intercept; $x=a$ is vertical and $y=b$ is horizontal.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-5-01",
+        "ex-sec-5-02",
+        "ex-sec-5-03",
+        "ex-sec-5-04",
+        "ex-sec-5-05",
+        "ex-sec-5-06",
+        "ex-sec-5-07"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "coordinate-geometry",
+          "subtopic_slug": "equations-of-straight-lines",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-graphs-of-linear-and-values-drawing-quadratic",
+          "subtopic_slug": "waec-interpretation-of-graphs-coordinate-of-points-table-of-graph",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51270, sections 'Writing and Interpreting an Equation for a Linear Function', 'Find an Equation of the Line Given Two Points', 'Writing the Equation for a Function from the Graph of a Line', 'Finding the' and 'Describing Horizontal and Vertical Lines'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sec-6",
+      "order": 6,
+      "slug": "parallel-and-perpendicular-lines",
+      "title": "Parallel and perpendicular lines",
+      "est_minutes": 16,
+      "facts_inherited": false,
+      "learning_objectives": [
+        {
+          "id": "lo-1",
+          "statement": "Decide whether two lines are parallel, perpendicular or neither from their gradients.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-2",
+          "statement": "Write the equation of a line parallel to a given line through a given point.",
+          "bloom_level": "understand"
+        },
+        {
+          "id": "lo-3",
+          "statement": "Write the equation of a line perpendicular to a given line through a given point.",
+          "bloom_level": "understand"
+        }
+      ],
+      "teaching_text": {
+        "blocks": [
+          {
+            "id": "b-1",
+            "type": "heading",
+            "text": {
+              "text": "Determining Whether Lines are Parallel or Perpendicular",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-2",
+            "type": "paragraph",
+            "content": {
+              "text": "The two lines in the figure below are parallel lines: they will never intersect. They have exactly the same steepness, which means their slopes are identical. The only difference between the two lines is the *y* -intercept. If we shifted one line vertically toward the other, they would become coincident.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-3",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/35e25f3b580b61826e81fa474e0916d67b1f4f8a5d456583e8a6e1627f9c3aff.jpg",
+            "caption": {
+              "text": "Parallel lines",
+              "inline": []
+            },
+            "alt": "This graph shows two lines on an x, y coordinate plane. The x-axis runs from negative 4 to 6. The y-axis runs from negative 3 to 8.  The first line has the equation y = -3 times x divided by 2 plus 1.  The second line has the equation y = -3 times x divided by 2 plus 7.  The lines do not cross.",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-4",
+            "type": "paragraph",
+            "content": {
+              "text": "We can determine from their equations whether two lines are parallel by comparing their slopes. If the slopes are the same and the *y* -intercepts are different, the lines are parallel. If the slopes are different, the lines are not parallel.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-5",
+            "type": "paragraph",
+            "content": {
+              "text": "Unlike parallel lines, perpendicular lines do intersect. Their intersection forms a right, or 90-degree, angle. The two lines in the figure below are perpendicular.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-6",
+            "type": "figure",
+            "asset_url": "books/secondary_mathematics/fa72a175cffc4dba59eca896e00610c82415ecf437729c327d48b5a2bea78fe8.jpg",
+            "caption": {
+              "text": "Perpendicular lines",
+              "inline": []
+            },
+            "alt": "This graph shows two functions perpendicular to each other on an x, y coordinate plane. The first function increases and passes through the points (1, 0) and (0, -5).  The second function decreases and passes through the points (1, 0) and (-4, 1).  The lines intersect to form a 90-degree right angle at the point (1, 0).",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          },
+          {
+            "id": "b-7",
+            "type": "paragraph",
+            "content": {
+              "text": "Perpendicular lines do not have the same slope. The slopes of perpendicular lines are different from one another in a specific way. The slope of one line is the negative reciprocal of the slope of the other line. The product of a number and its reciprocal is $1.$ So, if ${m}_{1}$ and ${m}_{2}$ are negative reciprocals of one another, they can be multiplied together to yield $-1.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-8",
+            "type": "paragraph",
+            "content": {
+              "text": "To find the reciprocal of a number, divide 1 by the number. So the reciprocal of 8 is $\\frac{1}{8},$ and the reciprocal of $\\frac{1}{8}$ is 8. To find the negative reciprocal, first find the reciprocal and then change the sign.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-9",
+            "type": "paragraph",
+            "content": {
+              "text": "As with parallel lines, we can determine whether two lines are perpendicular by comparing their slopes, assuming that the lines are neither horizontal nor vertical. The slope of each line is the negative reciprocal of the other so the lines are perpendicular.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-10",
+            "type": "paragraph",
+            "content": {
+              "text": "The product of the slopes is $-1$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-11",
+            "type": "paragraph",
+            "content": {
+              "text": "Two lines are parallel lines if they do not intersect. The slopes of the lines are the same.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-12",
+            "type": "paragraph",
+            "content": {
+              "text": "If and only if ${b}_{1}={b}_{2}$ and ${m}_{1}={m}_{2},$ we say the lines coincide. Coincident lines are the same line.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-13",
+            "type": "paragraph",
+            "content": {
+              "text": "Two lines are perpendicular lines if they intersect to form a right angle.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-14",
+            "type": "heading",
+            "text": {
+              "text": "Writing the Equation of a Line Parallel or Perpendicular to a Given Line",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-15",
+            "type": "paragraph",
+            "content": {
+              "text": "If we know the equation of a line, we can use what we know about slope to write the equation of a line that is either parallel or perpendicular to the given line.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-16",
+            "type": "heading",
+            "text": {
+              "text": "Writing Equations of Perpendicular Lines",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-17",
+            "type": "paragraph",
+            "content": {
+              "text": "We can use a very similar process to write the equation for a line perpendicular to a given line. Instead of using the same slope, however, we use the negative reciprocal of the given slope. Suppose we are given the function $f(x)=2x+4$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-18",
+            "type": "paragraph",
+            "content": {
+              "text": "The slope of the line is 2, and its negative reciprocal is $-\\frac{1}{2}.$ Any function with a slope of $-\\frac{1}{2}$ will be perpendicular to $f(x).$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-19",
+            "type": "paragraph",
+            "content": {
+              "text": "As before, we can narrow down our choices for a particular perpendicular line if we know that it passes through a given point. Suppose then we want to write the equation of a line that is perpendicular to $f(x)$ and passes through the point $(4,0).$ We already know that the slope is $-\\frac{1}{2}.$ Now we can use the point to find the *y* -intercept by substituting the given values into the slope-intercept form of a line and solving for $b.$",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-20",
+            "type": "paragraph",
+            "content": {
+              "text": "The equation for the function with a slope of $-\\frac{1}{2}$ and a $y$-intercept of 2 is $g(x)=-\\frac{1}{2}x+2$.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-21",
+            "type": "paragraph",
+            "content": {
+              "text": "$g(x)=-\\frac{1}{2}x+2$ is perpendicular to $f(x)=2x+4$ and passes through the point $(4,0).$ Be aware that perpendicular lines may not look obviously perpendicular on a graphing calculator unless we use the square zoom feature.",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-22",
+            "type": "paragraph",
+            "content": {
+              "text": "*A horizontal line has a slope of zero and a vertical line has an undefined slope. These two lines are perpendicular, but the product of their slopes is not $-1$. Doesn’t this fact contradict the definition of perpendicular lines?*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-23",
+            "type": "paragraph",
+            "content": {
+              "text": "*No. For two perpendicular linear functions, the product of their slopes is $-1$. However, a vertical line is not a function so the definition is not contradicted.*",
+              "inline": []
+            }
+          },
+          {
+            "id": "b-24",
+            "type": "paragraph",
+            "content": {
+              "text": "*Given the equation of a function and a point through which its graph passes, write the equation of a line perpendicular to the given line.*",
+              "inline": []
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Parallel and perpendicular are statements about gradients, not about where the lines sit. Equal gradients give parallel lines, provided the intercepts differ; gradients that multiply to $-1$ give perpendicular lines. To build such a line through a given point, take the required gradient and then find the intercept that makes the line pass through the point.",
+              "inline": []
+            },
+            "id": "b-25"
+          }
+        ]
+      },
+      "worked_examples": [
+        {
+          "id": "we-exr-332",
+          "statement": {
+            "text": "Find the equation of the line perpendicular to $f(x)=3x+3$ that passes through the point $(3,0)$.",
+            "inline": []
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "expression": "The original line has gradient $m=3$, so the gradient of the perpendicular line is its negative reciprocal, $-\\frac{1}{3}$."
+            },
+            {
+              "step_number": 2,
+              "expression": "Substitute the gradient and the point into $y=mx+b$ and solve for $b$."
+            },
+            {
+              "step_number": 3,
+              "expression": "$0=-\\frac{1}{3}(3)+b$"
+            },
+            {
+              "step_number": 4,
+              "expression": "$0=-1+b$"
+            },
+            {
+              "step_number": 5,
+              "expression": "$b=1$"
+            }
+          ],
+          "answer": {
+            "text": "$g(x)=-\\frac{1}{3}x+1$",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+            "locator": "CNXML module m51270, exercise block exr-332",
+            "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "mis-1",
+          "claim": {
+            "text": "Perpendicular gradients are reciprocals of each other.",
+            "inline": []
+          },
+          "correction": {
+            "text": "They are negative reciprocals: their product must be $-1$, so a gradient of $\\frac{3}{4}$ pairs with $-\\frac{4}{3}$.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        },
+        {
+          "id": "mis-2",
+          "claim": {
+            "text": "Two lines with the same gradient are the same line.",
+            "inline": []
+          },
+          "correction": {
+            "text": "They are parallel. They coincide only when the $y$-intercepts are also equal.",
+            "inline": []
+          },
+          "provenance": {
+            "publisher": "OpenStax",
+            "title": "College Algebra 2e",
+            "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+            "locator": "CNXML module m51270, section 'Determining Whether Lines are Parallel or Perpendicular'",
+            "licence": "CC BY-NC-SA 4.0"
+          }
+        }
+      ],
+      "summary_points": [
+        {
+          "text": "Lines are parallel when their gradients are equal, and coincident when their intercepts are also equal.",
+          "inline": []
+        },
+        {
+          "text": "Lines are perpendicular when their gradients multiply to $-1$.",
+          "inline": []
+        },
+        {
+          "text": "For a parallel or perpendicular line through a point, take the required gradient and solve for the intercept.",
+          "inline": []
+        }
+      ],
+      "exercise_ids": [
+        "ex-sec-6-01",
+        "ex-sec-6-02",
+        "ex-sec-6-03",
+        "ex-sec-6-04",
+        "ex-sec-6-05",
+        "ex-sec-6-06",
+        "ex-sec-6-07",
+        "ex-sec-6-08"
+      ],
+      "exam_links": [
+        {
+          "exam": "JAMB",
+          "subject": "mathematics",
+          "topic_slug": "coordinate-geometry",
+          "subtopic_slug": "parallel-and-perpendicular-lines",
+          "status": "covered",
+          "papers": []
+        },
+        {
+          "exam": "WAEC",
+          "subject": "mathematics",
+          "topic_slug": "waec-circles",
+          "subtopic_slug": "waec-line-parallel-or-perpendicular-to-a-given-line",
+          "status": "covered",
+          "papers": []
+        }
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51270, sections 'Determining Whether Lines are Parallel or Perpendicular' and 'Writing the Equation of a Line Parallel or Perpendicular to a Given Line'",
+        "licence": "CC BY-NC-SA 4.0"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-sec-1-01",
+      "section_id": "sec-1",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Is it possible for a point plotted in the Cartesian coordinate system to not lie in one of the four quadrants? Explain.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Yes. A point on the $x$-axis or on the $y$-axis lies in no quadrant.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The quadrants are the four regions between the axes."
+        },
+        {
+          "step_number": 2,
+          "expression": "A point with a zero coordinate lies on an axis, and is therefore not inside any of those regions."
+        }
+      ],
+      "tags": [
+        "cartesian-plane",
+        "ordered-pairs",
+        "quadrants"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-149",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element, restated for the axis case",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Think about the points where an axis meets the other axis.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-1-02",
+      "section_id": "sec-1",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Describe in your own words what the $y$-intercept of a graph is.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "The $y$-intercept is the point where the graph crosses the $y$-axis.",
+        "inline": []
+      },
+      "answer_kind": "explanation",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The *y* -intercept is the point where the graph crosses the *y* -axis."
+        }
+      ],
+      "tags": [
+        "cartesian-plane",
+        "ordered-pairs",
+        "quadrants"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-154",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Which coordinate is zero everywhere on the $y$-axis?",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-1-03",
+      "section_id": "sec-1",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "What are the coordinates of the origin?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$(0,0)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$(0,0)$"
+        }
+      ],
+      "tags": [
+        "cartesian-plane",
+        "ordered-pairs",
+        "quadrants"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-202",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Both axes meet there.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-1-04",
+      "section_id": "sec-1",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "If a point is located on the $x$-axis, what is the $y$-coordinate?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$0$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=0$"
+        }
+      ],
+      "tags": [
+        "cartesian-plane",
+        "ordered-pairs",
+        "quadrants"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-206",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "A point on the $x$-axis has not moved up or down.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-1-05",
+      "section_id": "sec-1",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Plot $A(-3,2)$, $B(4,-1)$ and $C(0,-5)$, then name the quadrant or the axis on which each point lies.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$A$: Quadrant II; $B$: Quadrant IV; $C$: on the $y$-axis",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$A(-3,2)$: move 3 units left and 2 units up, so $A$ lies in Quadrant II."
+        },
+        {
+          "step_number": 2,
+          "expression": "$B(4,-1)$: move 4 units right and 1 unit down, so $B$ lies in Quadrant IV."
+        },
+        {
+          "step_number": 3,
+          "expression": "$C(0,-5)$: move 5 units down and not at all horizontally, so $C$ lies on the $y$-axis."
+        }
+      ],
+      "tags": [
+        "cartesian-plane",
+        "ordered-pairs",
+        "quadrants"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Mathematics",
+        "url": "https://api.utmelab.com/api/v1/chapters/math_coordinate_geometry/sections/sec-1",
+        "locator": "authored exercise for sec-1",
+        "licence": "CC BY-NC-SA 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The sign of the first coordinate decides left or right; the sign of the second decides up or down.",
+            "inline": []
+          }
+        },
+        {
+          "hint_number": 2,
+          "text": {
+            "text": "A zero coordinate puts the point on an axis.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-01",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the distance between two points: $(1,4)$ and $(11,9).$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$5\\sqrt{5}$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$\\sqrt{125}=5\\sqrt{5}$"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-117",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Subtract the coordinates, square, add, then take the square root.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-02",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the distance between $(-4,1)$ and $(3,-4)$, giving the exact answer in simplest radical form.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$\\sqrt{74}$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$d=\\sqrt{74}$"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-179",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "$(-4,1)$ and $(3,-4)$ differ by 7 horizontally and 5 vertically.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-03",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the distance between $(5,0)$ and $(5,6)$, giving the exact answer in simplest radical form.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$6$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$d=\\sqrt{36}=6$"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-183",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The $x$-coordinate does not change, so the points lie on a vertical line.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-04",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the distance between the two points given using your calculator, and round your answer to the nearest hundredth. $(19,12)$ and $(41,71)$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$62.97$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$d≈62.97$"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-186",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Round the square root to two decimal places at the end.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-05",
+      "section_id": "sec-2",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the distance that $(−3,4)$ is from the origin.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$5$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$d=5$"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-237",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The origin is $(0,0)$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-06",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "If San Jose's coordinates are $(76,-12)$, where the coordinates represent miles, find the distance between San Jose and San Francisco to the nearest mile.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$37$ miles",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "37mi"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-276",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "San Francisco is at $(53,17)$.",
+            "inline": []
+          }
+        },
+        {
+          "hint_number": 2,
+          "text": {
+            "text": "Round to the nearest whole mile.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-2-07",
+      "section_id": "sec-2",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A person on the top of a building wants to have a guy wire extend to a point on the ground 20 ft from the building. To the nearest foot, how long will the wire have to be if the building is 50 ft tall?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$54$ ft",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "54 ft"
+        }
+      ],
+      "tags": [
+        "distance",
+        "distance-formula",
+        "pythagoras"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-280",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The height of the building and the ground distance are the legs.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-3-01",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the midpoint of the line segment with endpoints $(−2,−1)$ and $(−8,6).$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$\\left(-5,\\frac{5}{2}\\right)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$(-5,\\frac{5}{2})$"
+        }
+      ],
+      "tags": [
+        "midpoint",
+        "line-segment",
+        "circle-centre"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-139",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Average each pair of coordinates separately.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-3-02",
+      "section_id": "sec-3",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the coordinates of the midpoint of the line segment that joins $(-1,1)$ and $(7,-4)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$\\left(3,-\\frac{3}{2}\\right)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$(3,\\frac{-3}{2})$"
+        }
+      ],
+      "tags": [
+        "midpoint",
+        "line-segment",
+        "circle-centre"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-192",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The $y$-coordinate of the midpoint may be a fraction.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-3-03",
+      "section_id": "sec-3",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the coordinates of the midpoint of the line segment that joins $(0,7)$ and $(4,-9)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$(2,-1)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$(2,−1)$"
+        }
+      ],
+      "tags": [
+        "midpoint",
+        "line-segment",
+        "circle-centre"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+        "locator": "CNXML module m51252, exercise block exr-196",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Include the zeros when averaging.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-3-04",
+      "section_id": "sec-3",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the midpoint of the line segment joining $(2,-3)$ and $(6,5)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$(4,1)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$"
+        },
+        {
+          "step_number": 2,
+          "expression": "$M=\\left(\\frac{2+6}{2},\\frac{-3+5}{2}\\right)=(4,1)$"
+        }
+      ],
+      "tags": [
+        "midpoint",
+        "line-segment",
+        "circle-centre"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Mathematics",
+        "url": "https://api.utmelab.com/api/v1/chapters/math_coordinate_geometry/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "CC BY-NC-SA 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Average the $x$-coordinates, then the $y$-coordinates.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-3-05",
+      "section_id": "sec-3",
+      "tier": "stretch",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "The midpoint of $AB$ is $(3,-1)$ and $A$ is $(-1,4)$. Find the coordinates of $B$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$B(7,-6)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Write the midpoint as an average and solve for the unknown coordinates."
+        },
+        {
+          "step_number": 2,
+          "expression": "$\\frac{-1+x}{2}=3$ gives $x=7$."
+        },
+        {
+          "step_number": 3,
+          "expression": "$\\frac{4+y}{2}=-1$ gives $y=-6$."
+        }
+      ],
+      "tags": [
+        "midpoint",
+        "line-segment",
+        "circle-centre"
+      ],
+      "provenance": {
+        "publisher": "UTME-Lab",
+        "title": "Secondary Mathematics",
+        "url": "https://api.utmelab.com/api/v1/chapters/math_coordinate_geometry/sections/sec-3",
+        "locator": "authored exercise for sec-3",
+        "licence": "CC BY-NC-SA 4.0"
+      },
+      "solution_provenance": "authored by UTME-Lab and checked against the section's teaching text",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Double the midpoint, then subtract $A$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-01",
+      "section_id": "sec-4",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "If $f(x)$ is a linear function, and $(2,3)$ and $(0,4)$ are points on the line, find the slope. Is this function increasing or decreasing?",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$m=-\\frac{1}{2}$; the function is decreasing",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$m=\\frac{4-3}{0-2}=\\frac{1}{-2}=-\\frac{1}{2};$ decreasing because $m<0.$"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-102",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Divide the change in output by the change in input.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-02",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "The population of a city increased from 23,400 to 27,800 between 2008 and 2012. Find the change of population per year if we assume the change was constant from 2008 to 2012.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$1{,}100$ people per year",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "The rate of change relates the change in population to the change in time. The population increased by $27,800-23,400=4400$ people over the four-year time interval. To find the rate of change, divide the change in the number of people by the number of years."
+        },
+        {
+          "step_number": 2,
+          "expression": "$\\frac{4,400 people}{4 years}=1,100\\frac{people}{year}$"
+        },
+        {
+          "step_number": 3,
+          "expression": "So the population increased by 1,100 people per year."
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-106",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The time interval is four years.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-03",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "application",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "The population of a small town increased from 1,442 to 1,868 between 2009 and 2012. Find the change of population per year if we assume the change was constant from 2009 to 2012.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$142$ people per year",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$m=\\frac{1,868-1,442}{2,012-2,009}=\\frac{426}{3}=142 people per year$"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-111",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The interval is from 2009 to 2012.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-04",
+      "section_id": "sec-4",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Determine whether $p(x)=\\frac{1}{4}x-5$ is increasing or decreasing.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Increasing",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Increasing"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-387",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Look at the sign of the coefficient of $x$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-05",
+      "section_id": "sec-4",
+      "tier": "warm_up",
+      "kind": "verbal",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Determine whether $m(x)=-\\frac{3}{8}x+3$ is increasing or decreasing.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Decreasing",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Decreasing"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-391",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The coefficient of $x$ is negative.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-06",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the gradient of the line that passes through $(1,5)$ and $(4,11)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$2$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "2"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-396",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Subtract the $y$-values and divide by the difference in $x$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-4-07",
+      "section_id": "sec-4",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the gradient of the line that passes through $(8,-2)$ and $(4,6)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$-2$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$m=\\frac{6-(-2)}{4-8}=\\frac{8}{-4}=-2$"
+        }
+      ],
+      "tags": [
+        "gradient",
+        "slope",
+        "rate-of-change"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-400",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Keep the order of the points the same in the numerator and the denominator.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-01",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "If $f(x)$ is a linear function, with $f(2)=-11$, and $f(4)=-25$, write an equation for the function in slope-intercept form.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=-7x+3$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=-7x+3$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-144",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Two input-output pairs give two points on the line.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-02",
+      "section_id": "sec-5",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the $x$-intercept of $f(x)=\\frac{1}{4}x-4$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$(16,0)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$(16,0)$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-265",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Set the output equal to zero.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-03",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find a linear equation satisfying the condition: passes through $(2,4)$ and $(4,10)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=3x-2$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=3x-2$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-409",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Find the gradient first.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-04",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find a linear equation with $x$-intercept at $(-2,0)$ and $y$-intercept at $(0,-3)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=-1.5x-3$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=-1.5x-3$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-418",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The intercepts are two points on the line.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-05",
+      "section_id": "sec-5",
+      "tier": "warm_up",
+      "kind": "numeric",
+      "difficulty": 1,
+      "marks": 1,
+      "stem": {
+        "text": "Find the $x$- and $y$-intercepts of $f(x)=-x+2$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y$-intercept $(0,2)$; $x$-intercept $(2,0)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$f(0)=-(0)+2f(0)=2y-int:(0,2)0=-x+2x-int:(2,0)$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-428",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Substitute $x=0$, then $f(x)=0$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-06",
+      "section_id": "sec-5",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Find the $x$- and $y$-intercepts of $-2x+5y=20$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y$-intercept $(0,4)$; $x$-intercept $(-10,0)$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$-2x+5y=20-2(0)+5y=205y=20y=4y-int:(0,4)-2x+5(0)=20x=-10x-int:(-10,0)$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-434",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Substitute each variable with zero in turn.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-5-07",
+      "section_id": "sec-5",
+      "tier": "stretch",
+      "kind": "application",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "A linear function $f$ has $f(2)=-4$, $f(4)=16$, $f(6)=36$ and $f(8)=56$. Find an equation that models the data.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$f(x)=10x-24$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Linear, $f(x)=10x-24$"
+        }
+      ],
+      "tags": [
+        "straight-line",
+        "slope-intercept",
+        "intercepts"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-519",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Check that the output rises by the same amount for each equal step in the input.",
+            "inline": []
+          }
+        },
+        {
+          "hint_number": 2,
+          "text": {
+            "text": "Use two rows of the table to find the gradient.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-01",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Given the function $h(x)=2x-4$, write an equation for the line passing through $(0,0)$ that is ⓐ parallel to $h(x)$ ⓑ perpendicular to $h(x)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "ⓐ $f(x)=2x$ ⓑ $g(x)=-\\frac{1}{2}x$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$ⓐf(x)=2x;ⓑg(x)=-\\frac{1}{2}x$"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-339",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Parallel means the same gradient.",
+            "inline": []
+          }
+        },
+        {
+          "hint_number": 2,
+          "text": {
+            "text": "Perpendicular means the negative reciprocal of the gradient.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-02",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Determine whether the lines $4x-7y=10$ and $7x+4y=1$ are parallel, perpendicular, or neither.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "perpendicular",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "perpendicular"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-423",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Write both equations in the form $y=mx+b$ and compare the gradients.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-03",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Determine whether the lines $3y+4x=12$ and $-6y=8x+1$ are parallel, perpendicular, or neither.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "parallel",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "parallel"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-425",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Divide each term by the coefficient of $y$ first.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-04",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Find the gradients of Line 1 and Line 2, then state whether the pair is parallel, perpendicular, or neither. Line 1 passes through $(0,6)$ and $(3,-24)$; Line 2 passes through $(-1,19)$ and $(8,-71)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Line 1: $m=-10$; Line 2: $m=-10$; parallel",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Line 1: *m* = –10 Line 2: *m* = –10 Parallel"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-438",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Use the gradient formula on each pair of points before comparing.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-05",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "numeric",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Find the gradients of Line 1 and Line 2, then state whether the pair is parallel, perpendicular, or neither. Line 1 passes through $(2,3)$ and $(4,-1)$; Line 2 passes through $(6,3)$ and $(8,5)$.",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "Line 1: $m=-2$; Line 2: $m=1$; neither",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "Line 1: *m* = –2 Line 2: *m* = 1 Neither"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-445",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Neither condition may hold; say so plainly.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-06",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Write an equation for a line parallel to $g(x)=3x-1$ and passing through the point $(4,9).$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=3x-3$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=3x-3$"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-459",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "Substitute the point into $y=3x+b$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-07",
+      "section_id": "sec-6",
+      "tier": "core",
+      "kind": "algebraic",
+      "difficulty": 2,
+      "marks": 2,
+      "stem": {
+        "text": "Write an equation for a line perpendicular to $p(t)=3t+4$ and passing through the point $(3,1).$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=-\\frac{1}{3}t+2$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=-\\frac{1}{3}t+2$"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-463",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The perpendicular gradient is $-\\frac{1}{3}$.",
+            "inline": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ex-sec-6-08",
+      "section_id": "sec-6",
+      "tier": "stretch",
+      "kind": "algebraic",
+      "difficulty": 3,
+      "marks": 3,
+      "stem": {
+        "text": "Find the equation of the line perpendicular to the line $g(x)=−0.01x+2.01$ through the point $(1,2).$",
+        "inline": []
+      },
+      "options": [],
+      "answer": {
+        "text": "$y=100x-98$",
+        "inline": []
+      },
+      "answer_kind": "expression",
+      "solution": [
+        {
+          "step_number": 1,
+          "expression": "$y=100x-98$"
+        }
+      ],
+      "tags": [
+        "parallel-lines",
+        "perpendicular-lines",
+        "gradients"
+      ],
+      "provenance": {
+        "publisher": "OpenStax",
+        "title": "College Algebra 2e",
+        "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+        "locator": "CNXML module m51270, exercise block exr-561",
+        "licence": "CC BY-NC-SA 4.0 (non-commercial staging; attribution required)"
+      },
+      "solution_provenance": "OpenStax CNXML solution element (in file)",
+      "hints": [
+        {
+          "hint_number": 1,
+          "text": {
+            "text": "The negative reciprocal of $-0.01$ is $100$.",
+            "inline": []
+          }
+        }
+      ]
+    }
+  ],
+  "exam_links": [
+    {
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "topic_slug": "coordinate-geometry",
+      "subtopic_slug": "distance-between-two-points",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "topic_slug": "coordinate-geometry",
+      "subtopic_slug": "equations-of-straight-lines",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "topic_slug": "coordinate-geometry",
+      "subtopic_slug": "midpoint-and-gradient-of-a-line-segment",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "topic_slug": "coordinate-geometry",
+      "subtopic_slug": "parallel-and-perpendicular-lines",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "topic_slug": "waec-circles",
+      "subtopic_slug": "waec-coordinates-of-points-on-the-x-y-plane",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "topic_slug": "waec-circles",
+      "subtopic_slug": "waec-line-parallel-or-perpendicular-to-a-given-line",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "topic_slug": "waec-graphs-of-linear-and-values-drawing-quadratic",
+      "subtopic_slug": "waec-interpretation-of-graphs-coordinate-of-points-table-of-graph",
+      "status": "covered",
+      "papers": []
+    },
+    {
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "topic_slug": "waec-lengths-and-perimeters",
+      "subtopic_slug": "waec-use-of-pythagoras-theorem-distances",
+      "status": "covered",
+      "papers": []
+    }
+  ],
+  "exam_traps": [],
+  "exam_recall_checks": [
+    {
+      "id": "rc-1",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": {
+        "text": "The point $(0,-3)$ lies on",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "the $x$-axis"
+        },
+        {
+          "id": "b",
+          "text": "the $y$-axis"
+        },
+        {
+          "id": "c",
+          "text": "the line $y=x$"
+        },
+        {
+          "id": "d",
+          "text": "the origin"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "The $x$-coordinate is $0$, so the point is on the $y$-axis, three units below the origin.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-2",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": {
+        "text": "In which quadrant does the point $(-4,2)$ lie?",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Quadrant I"
+        },
+        {
+          "id": "b",
+          "text": "Quadrant II"
+        },
+        {
+          "id": "c",
+          "text": "Quadrant III"
+        },
+        {
+          "id": "d",
+          "text": "Quadrant IV"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "A negative $x$ and a positive $y$ place the point in the upper left region, which is Quadrant II.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-3",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": {
+        "text": "A point has $x$-coordinate $0$ and $y$-coordinate $5$. The point lies on",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "the $x$-axis"
+        },
+        {
+          "id": "b",
+          "text": "the $y$-axis"
+        },
+        {
+          "id": "c",
+          "text": "Quadrant I"
+        },
+        {
+          "id": "d",
+          "text": "the line $y=x$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Every point with $x=0$ lies on the $y$-axis, whatever its $y$-coordinate.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-4",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-1",
+      "stem": {
+        "text": "The coordinates of the origin are",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$(0,1)$"
+        },
+        {
+          "id": "b",
+          "text": "$(1,0)$"
+        },
+        {
+          "id": "c",
+          "text": "$(0,0)$"
+        },
+        {
+          "id": "d",
+          "text": "$(1,1)$"
+        }
+      ],
+      "answer": "c",
+      "explanation": {
+        "text": "The origin is the point where both axes cross, so both coordinates are zero.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-5",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "The distance between the points $(2,3)$ and $(5,7)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$3$"
+        },
+        {
+          "id": "b",
+          "text": "$4$"
+        },
+        {
+          "id": "c",
+          "text": "$5$"
+        },
+        {
+          "id": "d",
+          "text": "$7$"
+        }
+      ],
+      "answer": "c",
+      "explanation": {
+        "text": "The differences are $5-2=3$ and $7-3=4$, so $d=\\sqrt{9+16}=5$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-6",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "The distance of the point $(6,8)$ from the origin is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$10$"
+        },
+        {
+          "id": "b",
+          "text": "$14$"
+        },
+        {
+          "id": "c",
+          "text": "$28$"
+        },
+        {
+          "id": "d",
+          "text": "$48$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "From $(0,0)$ to $(6,8)$ the differences are $6$ and $8$, so $d=\\sqrt{36+64}=10$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-7",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "The distance between the points $(0,0)$ and $(5,12)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$7$"
+        },
+        {
+          "id": "b",
+          "text": "$13$"
+        },
+        {
+          "id": "c",
+          "text": "$17$"
+        },
+        {
+          "id": "d",
+          "text": "$60$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "$d=\\sqrt{5^2+12^2}=\\sqrt{169}=13$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-8",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-2",
+      "stem": {
+        "text": "The distance between $(1,2)$ and $(4,k)$ is $5$, where $k>0$. The value of $k$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$2$"
+        },
+        {
+          "id": "b",
+          "text": "$4$"
+        },
+        {
+          "id": "c",
+          "text": "$6$"
+        },
+        {
+          "id": "d",
+          "text": "$8$"
+        }
+      ],
+      "answer": "c",
+      "explanation": {
+        "text": "The horizontal difference is $3$, so the vertical difference must be $4$. Then $k-2=4$, giving $k=6$.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-9",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "The midpoint of the line segment joining $(2,3)$ and $(6,7)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$(4,5)$"
+        },
+        {
+          "id": "b",
+          "text": "$(8,10)$"
+        },
+        {
+          "id": "c",
+          "text": "$(2,2)$"
+        },
+        {
+          "id": "d",
+          "text": "$(3,4)$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "Average the coordinates: $\\left(\\frac{2+6}{2},\\frac{3+7}{2}\\right)=(4,5)$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-10",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "The midpoint of the line segment joining $(-3,5)$ and $(7,-1)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$(2,2)$"
+        },
+        {
+          "id": "b",
+          "text": "$(5,3)$"
+        },
+        {
+          "id": "c",
+          "text": "$(4,6)$"
+        },
+        {
+          "id": "d",
+          "text": "$(2,3)$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "$\\left(\\frac{-3+7}{2},\\frac{5-1}{2}\\right)=(2,2)$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-11",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "The midpoint of $AB$ is $(3,-1)$ and $A$ is $(1,4)$. The coordinates of $B$ are",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$(5,-6)$"
+        },
+        {
+          "id": "b",
+          "text": "$(2,-5)$"
+        },
+        {
+          "id": "c",
+          "text": "$(4,3)$"
+        },
+        {
+          "id": "d",
+          "text": "$(5,3)$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "The midpoint is the average, so $B=2M-A=(6,-2)-(1,4)=(5,-6)$.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-12",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-3",
+      "stem": {
+        "text": "The endpoints of a diameter of a circle are $(2,3)$ and $(8,11)$. The centre of the circle is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$(5,7)$"
+        },
+        {
+          "id": "b",
+          "text": "$(10,14)$"
+        },
+        {
+          "id": "c",
+          "text": "$(3,4)$"
+        },
+        {
+          "id": "d",
+          "text": "$(6,8)$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "The centre is the midpoint of the diameter: $\\left(\\frac{2+8}{2},\\frac{3+11}{2}\\right)=(5,7)$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-13",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": {
+        "text": "The gradient of the line through the points $(1,2)$ and $(4,11)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$3$"
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "id": "c",
+          "text": "$-3$"
+        },
+        {
+          "id": "d",
+          "text": "$9$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "$m=\\frac{11-2}{4-1}=\\frac{9}{3}=3$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-14",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": {
+        "text": "The gradient of the line $2x+3y=6$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "b",
+          "text": "$-\\frac{2}{3}$"
+        },
+        {
+          "id": "c",
+          "text": "$2$"
+        },
+        {
+          "id": "d",
+          "text": "$-2$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Rewrite as $y=-\\frac{2}{3}x+2$, so the gradient is $-\\frac{2}{3}$.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-15",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": {
+        "text": "A line has gradient $-2$. When $x$ increases by $1$, the value of $y$",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "increases by $2$"
+        },
+        {
+          "id": "b",
+          "text": "decreases by $2$"
+        },
+        {
+          "id": "c",
+          "text": "stays the same"
+        },
+        {
+          "id": "d",
+          "text": "is halved"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "A negative gradient means the output falls as the input rises; a gradient of $-2$ means a drop of $2$ per unit.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-16",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-4",
+      "stem": {
+        "text": "The gradient of the line through $(5,-2)$ and $(1,6)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$-2$"
+        },
+        {
+          "id": "b",
+          "text": "$2$"
+        },
+        {
+          "id": "c",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "$m=\\frac{6-(-2)}{1-5}=\\frac{8}{-4}=-2$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-17",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "The equation of the line with gradient $2$ and $y$-intercept $3$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$y=3x+2$"
+        },
+        {
+          "id": "b",
+          "text": "$y=2x+3$"
+        },
+        {
+          "id": "c",
+          "text": "$y=2x-3$"
+        },
+        {
+          "id": "d",
+          "text": "$y=-2x+3$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "In $y=mx+b$ the gradient is $m=2$ and the intercept is $b=3$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-18",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "The $y$-intercept of the line $3x+2y=12$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$4$"
+        },
+        {
+          "id": "b",
+          "text": "$6$"
+        },
+        {
+          "id": "c",
+          "text": "$12$"
+        },
+        {
+          "id": "d",
+          "text": "$3$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Set $x=0$: $2y=12$, so $y=6$ and the intercept is $(0,6)$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-19",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "The equation of the line through $(2,5)$ and $(4,9)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$y=2x+1$"
+        },
+        {
+          "id": "b",
+          "text": "$y=2x+5$"
+        },
+        {
+          "id": "c",
+          "text": "$y=\\frac{1}{2}x+4$"
+        },
+        {
+          "id": "d",
+          "text": "$y=4x-3$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "The gradient is $\\frac{9-5}{4-2}=2$. Then $5=2(2)+b$, so $b=1$.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-20",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-5",
+      "stem": {
+        "text": "The line $x=4$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "horizontal"
+        },
+        {
+          "id": "b",
+          "text": "vertical"
+        },
+        {
+          "id": "c",
+          "text": "neither horizontal nor vertical"
+        },
+        {
+          "id": "d",
+          "text": "the $x$-axis"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Every point on the line has $x=4$ and $y$ may take any value, so the line is vertical.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-21",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": {
+        "text": "Two lines are perpendicular. One has gradient $\\frac{3}{4}$. The gradient of the other is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "id": "b",
+          "text": "$-\\frac{4}{3}$"
+        },
+        {
+          "id": "c",
+          "text": "$-\\frac{3}{4}$"
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "Perpendicular gradients are negative reciprocals, so the answer is $-\\frac{4}{3}$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-22",
+      "exam": "JAMB",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": {
+        "text": "The lines $y=2x+1$ and $y=2x-5$ are",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "parallel"
+        },
+        {
+          "id": "b",
+          "text": "perpendicular"
+        },
+        {
+          "id": "c",
+          "text": "the same line"
+        },
+        {
+          "id": "d",
+          "text": "neither parallel nor perpendicular"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "Both lines have gradient $2$ and different intercepts, so they are parallel.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the JAMB mathematics syllabus"
+    },
+    {
+      "id": "rc-23",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": {
+        "text": "The line parallel to $y=-3x+1$ that passes through $(0,4)$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$y=-3x+4$"
+        },
+        {
+          "id": "b",
+          "text": "$y=3x+4$"
+        },
+        {
+          "id": "c",
+          "text": "$y=-3x-4$"
+        },
+        {
+          "id": "d",
+          "text": "$y=\\frac{1}{3}x+4$"
+        }
+      ],
+      "answer": "a",
+      "explanation": {
+        "text": "Parallel lines share the gradient $-3$, and the given point makes the $y$-intercept $4$.",
+        "inline": []
+      },
+      "difficulty": 1,
+      "source": "authored against the WAEC general mathematics syllabus"
+    },
+    {
+      "id": "rc-24",
+      "exam": "WAEC",
+      "subject": "mathematics",
+      "section_id": "sec-6",
+      "stem": {
+        "text": "The gradient of a line perpendicular to $2x-5y=10$ is",
+        "inline": []
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "id": "b",
+          "text": "$-\\frac{5}{2}$"
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{5}{2}$"
+        },
+        {
+          "id": "d",
+          "text": "$-\\frac{2}{5}$"
+        }
+      ],
+      "answer": "b",
+      "explanation": {
+        "text": "The given line has gradient $\\frac{2}{5}$, so the perpendicular gradient is $-\\frac{5}{2}$.",
+        "inline": []
+      },
+      "difficulty": 2,
+      "source": "authored against the WAEC general mathematics syllabus"
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "OpenStax",
+      "title": "College Algebra 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51252/index.cnxml",
+      "locator": "CNXML module m51252",
+      "licence": "CC BY-NC-SA 4.0"
+    },
+    {
+      "publisher": "OpenStax",
+      "title": "College Algebra 2e",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51270/index.cnxml",
+      "locator": "CNXML module m51270",
+      "licence": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "no_trap_reason": "The past-paper bank is unavailable this month, so no proven trap can be attached without evidence."
+}
