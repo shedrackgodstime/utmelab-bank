@@ -45,11 +45,6 @@ on:
         type: string
         required: true
         default: "10000"
-      max_failures:
-        description: "Stop a year after this many consecutive failures (0 = no cap)"
-        type: string
-        required: true
-        default: "0"
 
 concurrency:
   group: english-full-scrape
@@ -91,7 +86,6 @@ jobs:
           START_YEAR: ${{ inputs.jamb_start_year }}
           END_YEAR: ${{ inputs.jamb_end_year }}
           LIMIT: ${{ inputs.limit }}
-          MAX_FAILURES: ${{ inputs.max_failures }}
         run: |
           set -euo pipefail
           failures=0
@@ -102,8 +96,7 @@ jobs:
               --exam JAMB \
               --subject use-of-english \
               --year "$year" \
-              --limit "$LIMIT" \
-              --max-failures "$MAX_FAILURES"; then
+              --limit "$LIMIT"; then
               echo "JAMB use-of-english $year: ok"
             else
               rc=$?
@@ -151,7 +144,6 @@ jobs:
           END_YEAR: ${{ inputs.waec_end_year }}
           COUNTRY: ${{ inputs.country }}
           LIMIT: ${{ inputs.limit }}
-          MAX_FAILURES: ${{ inputs.max_failures }}
         run: |
           set -euo pipefail
           failures=0
@@ -163,8 +155,7 @@ jobs:
               --subject english-language \
               --year "$year" \
               --country "$COUNTRY" \
-              --limit "$LIMIT" \
-              --max-failures "$MAX_FAILURES"; then
+              --limit "$LIMIT"; then
               echo "WAEC english-language $COUNTRY $year: ok"
             else
               rc=$?
