@@ -81,6 +81,9 @@ PROD_WRITE_TOKEN = "TURSO_PROD_AUTH_TOKEN"
 BANK_DATABASE_URL = "TURSO_BANK_DATABASE_URL"
 BANK_AUTH_TOKEN = "TURSO_BANK_AUTH_TOKEN"
 BANK_WRITE_TOKEN = "TURSO_BANK_AUTH_TOKEN_WRITE"
+# Fallback/override bank database used when the primary bank database is unavailable.
+BANK_DATABASE_SECOND_URL = "TURSO_BANK_DATABASE_SECOND_URL"
+BANK_AUTH_SECOND_TOKEN = "TURSO_BANK_AUTH_SECOND_TOKEN"
 GITLAB_TOKEN = "GITLAB_TOKEN"
 OCR_API_KEY = "OCR_API_KEY"
 NVIDIA_API_KEY = "NVIDIA_API_KEY"
@@ -206,8 +209,9 @@ def load_settings(*, require: bool = True) -> Settings:
     prod_url = values.get(PROD_DATABASE_URL, "")
     # Read only, and only read only. A write capable token is not a fallback.
     prod_token = values.get(PROD_READONLY_TOKEN, "")
-    bank_url = values.get(BANK_DATABASE_URL, "")
-    bank_token = values.get(BANK_AUTH_TOKEN, "")
+    # Prefer the secondary bank database when configured (e.g. primary is down).
+    bank_url = values.get(BANK_DATABASE_SECOND_URL, "") or values.get(BANK_DATABASE_URL, "")
+    bank_token = values.get(BANK_AUTH_SECOND_TOKEN, "") or values.get(BANK_AUTH_TOKEN, "")
 
     if prod_url and not prod_token:
         raise ConfigError(
@@ -271,13 +275,18 @@ def bank_write_credentials() -> tuple[str, str]:
     by default. Only explicit migration/cleanup commands use this.
     """
     values = _read_env()
-    url = values.get(BANK_DATABASE_URL, "")
-    # Prefer explicit write token, fall back to regular auth token (which has write perms)
-    token = values.get(BANK_WRITE_TOKEN, "") or values.get(BANK_AUTH_TOKEN, "")
+    url = values.get(BANK_DATABASE_SECOND_URL, "") or values.get(BANK_DATABASE_URL, "")
+    # Prefer explicit write token, fall back to secondary/primary auth token.
+    token = (
+        values.get(BANK_WRITE_TOKEN, "")
+        or values.get(BANK_AUTH_SECOND_TOKEN, "")
+        or values.get(BANK_AUTH_TOKEN, "")
+    )
     if not url or not token:
         raise ConfigError(
             "bank writes need the bank URL and a write-capable token: set "
-            f"{BANK_DATABASE_URL} and {BANK_WRITE_TOKEN} (or {BANK_AUTH_TOKEN}) in {ENV_FILE}"
+            f"{BANK_DATABASE_SECOND_URL} (or {BANK_DATABASE_URL}) and "
+            f"{BANK_WRITE_TOKEN} (or {BANK_AUTH_SECOND_TOKEN}/{BANK_AUTH_TOKEN}) in {ENV_FILE}"
         )
     return url, token
 
@@ -303,6 +312,8 @@ __all__ = [
     "PROD_READONLY_TOKEN",
     "BANK_AUTH_TOKEN",
     "BANK_DATABASE_URL",
+    "BANK_AUTH_SECOND_TOKEN",
+    "BANK_DATABASE_SECOND_URL",
     "PROD_DATABASE_URL",
     "GITLAB_TOKEN",
     "OCR_API_KEY",
