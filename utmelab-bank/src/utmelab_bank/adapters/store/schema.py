@@ -65,6 +65,39 @@ SCHEMA: tuple[str, ...] = (
         media_blobs     TEXT NOT NULL DEFAULT '{}'
     )
     """,
+    """
+    CREATE TABLE IF NOT EXISTS passages (
+        id              TEXT PRIMARY KEY,
+        exam            TEXT NOT NULL,
+        subject         TEXT NOT NULL,
+        year            INTEGER NOT NULL,
+        kind            TEXT NOT NULL,
+        title           TEXT,
+        author          TEXT,
+        text            TEXT NOT NULL,
+        inline          TEXT NOT NULL DEFAULT '[]',
+        source_item_id  TEXT
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS content_index (
+        content_hash    TEXT NOT NULL,
+        near_duplicate  TEXT NOT NULL,
+        origin          TEXT NOT NULL,
+        question_id     TEXT NOT NULL,
+        PRIMARY KEY (origin, question_id)
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS report_log (
+        report_id       TEXT PRIMARY KEY,
+        target_type     TEXT NOT NULL,
+        target_id       TEXT NOT NULL,
+        reason          TEXT NOT NULL,
+        item_id         TEXT,
+        acted_at        TEXT NOT NULL
+    )
+    """,
 )
 
 MIGRATIONS: tuple[tuple[str, str], ...] = (
