@@ -1,0 +1,89 @@
+# Exhaustive MySchool scrape for one WAEC subject across all requested years.
+# Scrapes years sequentially within this subject. Re-runs are idempotent.
+# Fails at end if any year run failed.
+
+name: Scrape WAEC chemistry
+
+run-name: >-
+  Scrape WAEC chemistry ${{ inputs.start_year }}-${{ inputs.end_year }} ${{ inputs.country }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: "First year to scrape"
+        type: string
+        required: true
+        default: "1980"
+      end_year:
+        description: "Last year to scrape"
+        type: string
+        required: true
+        default: "2026"
+      country:
+        description: "Country code"
+        type: string
+        required: true
+        default: NG
+      limit:
+        description: "Maximum valid source rows per year scrape"
+        type: string
+        required: true
+        default: "10000"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scrape-waec-chemistry-${{ inputs.country }}
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: WAEC chemistry
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      TURSO_PROD_DATABASE_URL: ${{ secrets.TURSO_DB_URL }}
+      TURSO_PROD_AUTH_TOKEN_READONLY: ${{ secrets.TURSO_DB_TOKEN_READONLY }}
+      TURSO_BANK_DATABASE_SECOND_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_SECOND_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      TURSO_BANK_DATABASE_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      START_YEAR: ${{ inputs.start_year }}
+      END_YEAR: ${{ inputs.end_year }}
+      COUNTRY: ${{ inputs.country }}
+      LIMIT: ${{ inputs.limit }}
+      SUBJECT: chemistry
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install the bank
+        working-directory: utmelab-bank
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Scrape WAEC chemistry across years
+        working-directory: utmelab-bank
+        shell: bash
+        run: |
+          set -euo pipefail
+          failed=0
+          for year in $(seq "$START_YEAR" "$END_YEAR"); do
+            echo "::group::WAEC $SUBJECT $year"
+            echo "WAEC $SUBJECT $year ($COUNTRY)"
+            if ! utmelab-bank scrape --source myschool --exam WAEC --subject "$SUBJECT" --year "$year" --country "$COUNTRY" --limit "$LIMIT"; then
+              echo "WAEC $SUBJECT $year: failed (exit $?)"
+              failed=$((failed + 1))
+            fi
+            echo "::endgroup::"
+          done
+          if [ "$failed" -ne 0 ]; then
+            echo "$failed WAEC $SUBJECT year run(s) failed" >&2
+            exit 1
+          fi
