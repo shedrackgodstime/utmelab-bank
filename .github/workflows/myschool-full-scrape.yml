@@ -1,0 +1,174 @@
+# Exhaustive MySchool scrape for all JAMB and WAEC subjects, one subject at a time.
+#
+# Each subject is scraped across its full year range sequentially before moving
+# to the next subject. WAEC runs after JAMB completes. Re-runs are safe because
+# fetch/scrape is idempotent. The job fails at the end if any subject/year run
+# failed, so partial progress still leaves a clear failure signal.
+
+name: myschool-full-scrape
+
+run-name: >-
+  MySchool full scrape JAMB ${{ inputs.jamb_start_year }}-${{ inputs.jamb_end_year }}, WAEC ${{ inputs.waec_start_year }}-${{ inputs.waec_end_year }} ${{ inputs.country }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      jamb_start_year:
+        description: "First JAMB year to scrape"
+        type: string
+        required: true
+        default: "1970"
+      jamb_end_year:
+        description: "Last JAMB year to scrape"
+        type: string
+        required: true
+        default: "2026"
+      waec_start_year:
+        description: "First WAEC year to scrape"
+        type: string
+        required: true
+        default: "1980"
+      waec_end_year:
+        description: "Last WAEC year to scrape"
+        type: string
+        required: true
+        default: "2026"
+      country:
+        description: "Country code for WAEC and JAMB requests"
+        type: string
+        required: true
+        default: NG
+      limit:
+        description: "Maximum valid source rows per subject/year scrape"
+        type: string
+        required: true
+        default: "10000"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: myschool-full-scrape-${{ inputs.country }}
+  cancel-in-progress: false
+
+jobs:
+  jamb-all-subjects:
+    name: JAMB all subjects
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      TURSO_PROD_DATABASE_URL: ${{ secrets.TURSO_DB_URL }}
+      TURSO_PROD_AUTH_TOKEN_READONLY: ${{ secrets.TURSO_DB_TOKEN_READONLY }}
+      TURSO_BANK_DATABASE_SECOND_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_SECOND_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      TURSO_BANK_DATABASE_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      START_YEAR: ${{ inputs.jamb_start_year }}
+      END_YEAR: ${{ inputs.jamb_end_year }}
+      COUNTRY: ${{ inputs.country }}
+      LIMIT: ${{ inputs.limit }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install the bank
+        working-directory: utmelab-bank
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Scrape all JAMB subjects sequentially
+        working-directory: utmelab-bank
+        shell: bash
+        run: |
+          set -euo pipefail
+          subjects='["agricultural-science","arabic","principles-of-accounts","biology","chemistry","christian-religious-studies","commerce","computer-studies","economics","use-of-english","art","french","geography","government","hausa","history","home-economics","igbo","islamic-religious-studies","literature-in-english","mathematics","music","physical-education","physics","yoruba"]'
+          failed=0
+          total=0
+          while IFS= read -r subject; do
+            [ -n "$subject" ] || continue
+            echo "::group::JAMB subject ${subject}"
+            year_failures=0
+            for year in $(seq "$START_YEAR" "$END_YEAR"); do
+              total=$((total + 1))
+              echo "JAMB ${subject} ${year}"
+              if ! utmelab-bank scrape --source myschool --exam JAMB --subject "$subject" --year "$year" --country "$COUNTRY" --limit "$LIMIT"; then
+                echo "JAMB ${subject} ${year}: failed (exit $?)"
+                year_failures=$((year_failures + 1))
+                failed=$((failed + 1))
+              fi
+            done
+            if [ "$year_failures" -ne 0 ]; then
+              echo "JAMB ${subject}: ${year_failures} year run(s) failed"
+            fi
+            echo "::endgroup::"
+          done < <(python3 -c 'import json,sys; [print(s) for s in json.loads(sys.argv[1])]' "$subjects")
+          echo "JAMB sequential scrape finished: ${failed}/${total} subject-year run(s) failed"
+          if [ "$failed" -ne 0 ]; then
+            echo "${failed} JAMB subject-year run(s) failed" >&2
+            exit 1
+          fi
+
+  waec-all-subjects:
+    name: WAEC all subjects
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    needs: jamb-all-subjects
+    env:
+      TURSO_PROD_DATABASE_URL: ${{ secrets.TURSO_DB_URL }}
+      TURSO_PROD_AUTH_TOKEN_READONLY: ${{ secrets.TURSO_DB_TOKEN_READONLY }}
+      TURSO_BANK_DATABASE_SECOND_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_SECOND_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      TURSO_BANK_DATABASE_URL: ${{ secrets.TURSO_BANK_DATABASE_SECOND_URL }}
+      TURSO_BANK_AUTH_TOKEN: ${{ secrets.TURSO_BANK_AUTH_SECOND_TOKEN }}
+      START_YEAR: ${{ inputs.waec_start_year }}
+      END_YEAR: ${{ inputs.waec_end_year }}
+      COUNTRY: ${{ inputs.country }}
+      LIMIT: ${{ inputs.limit }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install the bank
+        working-directory: utmelab-bank
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Scrape all WAEC subjects sequentially
+        working-directory: utmelab-bank
+        shell: bash
+        run: |
+          set -euo pipefail
+          subjects='["agriculture","biology","book-keeping","catering-craft","chemistry","civic-education","commerce","computer-studies","data-processing","economics","financial-accounting","accounting","further-mathematics","foods-and-nutrition","physics","english-language","french","literature-in-english","general-mathematics","marketing","office-practice","visual-art","visual-arts","livestock-farming","geography","government","health-education","nigerian-history","technical-drawing","christian-religious-studies","islamic-studies","insurance","home-management","physical-education","music","yoruba","arabic","igbo","hausa","beauty-and-cosmetology","computer-hardware-and-gsm-repairs","fashion-design-and-garment-making","solar-photovoltaic-installation-and-maintenance","citizenship-and-heritage-studies","digital-technologies","horticulture-and-crop-production"]'
+          failed=0
+          total=0
+          while IFS= read -r subject; do
+            [ -n "$subject" ] || continue
+            echo "::group::WAEC subject ${subject}"
+            year_failures=0
+            for year in $(seq "$START_YEAR" "$END_YEAR"); do
+              total=$((total + 1))
+              echo "WAEC ${subject} ${year} (${COUNTRY})"
+              if ! utmelab-bank scrape --source myschool --exam WAEC --subject "$subject" --year "$year" --country "$COUNTRY" --limit "$LIMIT"; then
+                echo "WAEC ${subject} ${year}: failed (exit $?)"
+                year_failures=$((year_failures + 1))
+                failed=$((failed + 1))
+              fi
+            done
+            if [ "$year_failures" -ne 0 ]; then
+              echo "WAEC ${subject}: ${year_failures} year run(s) failed"
+            fi
+            echo "::endgroup::"
+          done < <(python3 -c 'import json,sys; [print(s) for s in json.loads(sys.argv[1])]' "$subjects")
+          echo "WAEC sequential scrape finished: ${failed}/${total} subject-year run(s) failed"
+          if [ "$failed" -ne 0 ]; then
+            echo "${failed} WAEC subject-year run(s) failed" >&2
+            exit 1
+          fi
